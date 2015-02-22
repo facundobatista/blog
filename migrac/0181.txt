@@ -1,0 +1,13 @@
+2006-05-16 15:30:32
+De mal en peor
+<tags>
+
+Acabo de repostear el artículo "Fiestas y demasiada comida".
+
+Ya lo había posteado la semana pasada, y hasta me habían hecho un comentario, pero resulta que me avisaron de que no estaba. Y es verdad, no estaba.
+
+Ni el post ni el comentario en sí (que se guardan en una base de datos), ni las imágenes (que subo aparte como archivos normales a un directorio del server).
+
+La conclusión que saco es que a los hijos de puta de Dattatec se le complicó con el server, y subieron un backup de días atrás. Y ni se dignaron en avisar.
+
+Por suerte, todavía tenía en mi disco local tanto el texto como las imágenes. Pero no veo la hora de cambiar de hosting.[@more@]                                                                                                                                                                                                                                                                                                                         |

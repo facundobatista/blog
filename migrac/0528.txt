@@ -1,0 +1,89 @@
+2011-09-05 20:17:50
+Empaquetando un programa hecho en Python
+<tags>
+
+Estos son los pasos genéricos para, desde un proyecto que tiene el setup.py funcionando (ver <a href="http://www.taniquetil.com.ar/plog/post/1/518">este post</a> para ayuda con eso), armar un paquete <span style="font-family: courier new,courier;">.deb</span> y publicarlo en un <span style="font-family: courier new,courier;">PPA</span>. El <span style="font-family: courier new,courier;">.deb</span> es un archivo <em>instalable</em> en Debian o Ubuntu, y el <span style="font-family: courier new,courier;">PPA</span> es una forma de registrarse para que el programa se actualice automáticamente cuando hay nuevas versiones (obvio, preguntándole al usuario, como el resto del sistema).
+
+Traté de ser conciso para que no se pierdan los pasos en un mar de palabras, pero explicar alguito de cada punto, y dar alguna referencia para seguir investigando. Esta guía está casi copiada de una menos genérica y en inglés que había preparado Naty Bidart en el laburo... la idea es que quede aquí en castellano y más explicada...
+
+Quizás necesiten instalar algunas dependencias (por ejemplo: <span style="font-family: courier new,courier;">bzr</span>, <span style="font-family: courier new,courier;">bzrtools</span>, <span style="font-family: courier new,courier;">bzr-builddeb</span>, <span style="font-family: courier new,courier;">ubuntu-dev-tools</span>, <span style="font-family: courier new,courier;">libcrypt-ssleay-perl</span>), y configurar algunas cosas:
+
+- En el archivo .bashrc configurar nombre y mail para lo que son los .deb:
+
+<span style="font-family: courier new,courier;">&nbsp;&nbsp;&nbsp; export DEBFULLNAME="Nombre Completo"</span>
+<span style="font-family: courier new,courier;">&nbsp;&nbsp;&nbsp; export DEBEMAIL="mail@algun.lado"</span>
+
+- Crear en el home un archivo .devscripts con este contenido:
+
+<span style="font-family: courier new,courier;">&nbsp;&nbsp;&nbsp; DEBUILD_DPKG_BUILDPACKAGE_OPTS='-i -I'</span>
+
+- Tener un entorno pbuilder configurado /para cada distro/ a la que quieran apuntar (en este ejemplo, usé 'maverick', reemplacen apropiadamente):
+&nbsp;&nbsp;&nbsp;&nbsp; - crear un symlink en alg&uacute;n lado de vuestro PATH llamado <span style="font-family: courier new,courier;">pbuilder-maverick</span>, apuntando a <span style="font-family: courier new,courier;">/usr/bin/pbuilder-dist</span>
+&nbsp;&nbsp;&nbsp;&nbsp; - en alg&uacute;n lado dentro del home (por ejemplo, en un directorio &ldquo;~/pbuilder&rdquo;), ejecuten: <span style="font-family: courier new,courier;">pbuilder-maverick create</span>
+&nbsp;&nbsp;&nbsp;&nbsp; - regularmente (o antes de armar un paquete), actualicen el entorno de pbuilder con: <span style="font-family: courier new,courier;">pbuilder-maverick update</span>
+
+Por &uacute;ltimo: sí, estos pasos están fuertemente orientados a usar <a href="http://bazaar.canonical.com/en/">bazaar</a> en todo el proceso. Es lo que hay :)
+
+Presten atención a los comandos que ejecutan, especialmente a los cambios de "." y "-" por "_", y a todo lo que use 'tuproyecto'. Cualquier duda, pregunten.
+
+- Arrancamos trabajando con <em>trunk</em>.
+
+- Revisar que el <em>setup.py</em> funcione correctamente (que arme, instalarlo, y generar un tarball). Luego de instalarlo en <span style="font-family: courier new,courier;">/tmp/test</span> ir allí y ver que funcione correctamente. Luego de generar el <em>tarball</em>, ir a otro directorio que no tenga nada que ver, desarmarlo y ver qué esté todo bien.
+
+<span style="font-family: courier new,courier;">&nbsp;&nbsp;&nbsp; ./setup.py clean build</span>
+<span style="font-family: courier new,courier;">&nbsp;&nbsp;&nbsp; ./setup.py clean install --prefix=/tmp/test</span>
+<span style="font-family: courier new,courier;">&nbsp;&nbsp;&nbsp; ./setup.py clean sdist</span>
+
+- Cambiar la versión en setup.py a la nueva (en este ejemplo, sería <span style="font-family: courier new,courier;">X.Y.Z</span>). Marcar a nivel <em>bazaar</em> un nuevo release:
+
+<span style="font-family: courier new,courier;">&nbsp;&nbsp;&nbsp; bzr commit -m "[release] vX.Y.Z"</span>
+<span style="font-family: courier new,courier;">&nbsp;&nbsp;&nbsp; bzr tag release_X_Y_Z</span>
+<span style="font-family: courier new,courier;">&nbsp;&nbsp;&nbsp; bzr push</span>
+
+- Hacer un "bzr log" y preparar el <em>changelog</em> y las <em>release notes</em>. El changelog es una lista exhaustiva de todos los cambios, y las release notes es un subconjunto de eso, normalmente lo que es más relevante, interesante, o &uacute;til a la persona que quiere saber qué tenemos de nuevo en esta versión de nuestro programa.
+
+- Generar y subir el tarball a Launchpad. El &uacute;ltimo paso setea EDITOR porque lp-project-upload va a abrir dos archivos para que escribamos el changelog y las release notes que preparamos antes (pueden usar el editor que más les guste).
+
+<span style="font-family: courier new,courier;">&nbsp;&nbsp;&nbsp; ./setup.py clean sdist</span>
+<span style="font-family: courier new,courier;">&nbsp;&nbsp;&nbsp; cd dist</span>
+<span style="font-family: courier new,courier;">&nbsp;&nbsp;&nbsp; EDITOR=vim lp-project-upload tuproyecto X.Y.Z tuproyecto-X.Y.Z.tar.gz</span>
+
+- Copiar el tarball (con un nuevo nombre) y preparar un nuevo branch para empezar a empaquetar:
+
+<span style="font-family: courier new,courier;">&nbsp;&nbsp;&nbsp; cp dist/tuproyecto-X.Y.Z.tar.gz ../tuproyecto_X.Y.Z.orig.tar.gz</span>
+<span style="font-family: courier new,courier;">&nbsp;&nbsp;&nbsp; cd ..</span>
+<span style="font-family: courier new,courier;">&nbsp;&nbsp;&nbsp; bzr branch trunk/ tuproyecto-X.Y.Z</span>
+<span style="font-family: courier new,courier;">&nbsp;&nbsp;&nbsp; cd tuproyecto-X.Y.Z/</span>
+<span style="font-family: courier new,courier;">&nbsp;&nbsp;&nbsp; bzr dh-make --bzr-only tuproyecto X.Y.Z ../tuproyecto_X.Y.Z.orig.tar.gz</span>
+<span style="font-family: courier new,courier;">&nbsp;&nbsp;&nbsp; python-mkdebian</span>
+
+- Editar el changelog con: <span style="font-family: courier new,courier;">EDITOR=vim dch</span> (yo tiendo a poner las release notes aquí)
+&nbsp;&nbsp;&nbsp; - Agregar lineas de changelog
+&nbsp;&nbsp;&nbsp; - Agregar un <span style="font-family: courier new,courier;">-0ubuntu1</span> al nro de versión entre paréntesis
+
+- Archivos necesarios para Debian (tocar como dice acá o traer intactos de otro packaging que se haya hecho antes):
+&nbsp;&nbsp;&nbsp; - agregar un directorio <span style="font-family: courier new,courier;">source</span> adentro del dir <span style="font-family: courier new,courier;">debian</span>, y poner en ese nuevo directorio un archivo <span style="font-family: courier new,courier;">format</span> con el siguiente contenido:
+<span style="font-family: courier new,courier;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3.0 (quilt)\n</span>
+&nbsp;&nbsp;&nbsp; - confirmar que las dependencias sean las correctas en el archivo <span style="font-family: courier new,courier;">debian/control</span>
+&nbsp;&nbsp;&nbsp; - modificar <span style="font-family: courier new,courier;">debian/copyright</span> como corresponda
+&nbsp;&nbsp;&nbsp; - crear un archivo <span style="font-family: courier new,courier;">debian/watch</span> con el siguiente contenido:
+<span style="font-family: courier new,courier;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; version=3</span>
+<span style="font-family: courier new,courier;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; http://launchpad.net/tuproyecto/+download .*/tuproyecto-([\d.]+)\.tar\.gz</span>
+
+- Armar el paquete en si, y luego del tercer paso probar el <span style="font-family: courier new,courier;">.deb</span> que quedó en <span style="font-family: courier new,courier;">~/pbuilder/maverick_result</span> (o en el directorio donde hayan puesto pbuilder ustedes):
+
+<span style="font-family: courier new,courier;">&nbsp;&nbsp;&nbsp; debuild -S -sa</span>
+<span style="font-family: courier new,courier;">&nbsp;&nbsp;&nbsp; bzr add debian</span>
+<span style="font-family: courier new,courier;">&nbsp;&nbsp;&nbsp; pbuilder-maverick build ../tuproyecto_X.Y.Z-0ubuntu1.dsc</span>
+
+- Actualizar el <span style="font-family: courier new,courier;">PPA</span> (se puede crear el <span style="font-family: courier new,courier;">PPA</span> desde tu página personal de Launchpad):
+
+<span style="font-family: courier new,courier;">&nbsp;&nbsp;&nbsp; dput ppa:&lt;nombre_de_ppa_que_corresponda&gt; tuproyecto_X.Y.Z-0ubuntu1_source.changes</span>
+
+- Luego de unos minutos, debería aparecer acá:
+
+<span style="font-family: courier new,courier;">&nbsp;&nbsp;&nbsp; https://launchpad.net/~tunombre/+archive/tuproyecto/</span>
+
+- Esperar que se buildee la versión que subieron (puede tardar algunas horas, un par de días, normalmente no más), y luego si quieren publicar lo mismo para otras versiones de Ubuntu sólo alcanza con copiar los fuentes a la versión que corresponda, desde la siguiente página:
+
+<span style="font-family: courier new,courier;">&nbsp;&nbsp;&nbsp; https://launchpad.net/~tunombre/+archive/tuproyecto/+copy-packages</span></p> |

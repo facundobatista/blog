@@ -1,0 +1,13 @@
+00435665
+
+<tags>
+
++----------------------+----------+--------+------------+
+2 rows in set (0.01 sec)
+</pre>
+
+Acá se me rompieron un poquito las estructuras, pero lo logré resolver.
+
+
+En unos días posteo la solución (o mejor dicho, el desenlace). Pero a aquel/lla que lo explique primero, lo/a invito una cerveza.
+[@more@] |

@@ -1,0 +1,53 @@
+2007-12-24 15:47:32
+Tipográfica y ffmpeg
+<tags>
+
+El otro día, por una remera en la que mi hermana imprimió un grabado de su autoría, fuimos con ella, Moni y Gus a la imprenta de este &uacute;ltimo.
+
+Curioseamos bastante, y entre todo lo que Gustavo mostró, estaba su impresora tipográfica automática. Ya no la usa mucho, pero la prendió y la hizo funcionar para mostrarnos cómo trabajaba. Aproveché y la filmé con el teléfono:
+
+
+<embed style="width:400px; height:326px;" id="VideoPlayback" type="application/x-shockwave-flash" src="http://video.google.com/googleplayer.swf?docId=2533530000671891829&amp;hl=es" flashvars=""> </embed>
+
+
+
+Pero no fue todo tan fácil. El video que generé con el fono, en la computadora no lo podía ver bien. Bah, se <em>veía</em> bien, pero salía sin sonido. Yo lo quería pasar a un formato más estándar, justamente para subirlo a Google Videos.
+
+En todos los lugares que busqué, siempre recomendaban utilizar el <a href="http://ffmpeg.mplayerhq.hu/">ffmpeg</a>, así que lo instalé de la forma normal (con el Synaptic, haciendo cuatro clicks), pero tampoco entendía el audio.
+
+Seguí buscando, hasta que encontré que, para que reprodujera bien el formato 3gp, debía compilar el ffmpeg con las bibliotecas de AMR. No fue demasiado complicado, pero tampoco fue recontra sencillo, así que reproduzco los pasos acá, que fueron más que nada el producto de seguir tres o cuatro guias sueltas por ahí.
+
+Si arrancamos con un Ubuntu crudo, les va a faltar lo necesario para compilar (creo que con instalar el paquete <em>build-essential</em> deberían tener todo lo necesario).
+
+Creamos y nos metemos en un directorio para todo este experimento:
+<blockquote><font face="courier new,courier">mkdir locoffmpeg
+cd locoffmpeg</font>
+</blockquote>El proyecto ffmpeg no tiene liberaciones estables, sino que normalmente se utilizan directamente los archivos de desarrollo. Para que no tengan que hacer un checkout del repositorio, pueden utilizar el snapshot que se genera todas las noches; lo bajamos y descomprimimos:
+<blockquote><font face="courier new,courier">wget http://ffmpeg.mplayerhq.hu/ffmpeg-export-snapshot.tar.bz2
+tar -jxf ffmpeg-export-snapshot.tar.bz2 </font>
+</blockquote>Traemos las fuentes de la biblioteca para AMR Narrow Band, la descomprimimos, vamos a ese directorio, la configuramos, compilamos e instalamos:
+<blockquote><font face="courier new,courier">wget http://downloads.sherin.in/sources/amrnb-7.0.0.0.tar.bz2
+tar -jxf amrnb-7.0.0.0.tar.bz2
+cd amrnb-7.0.0.0/
+./configure --prefix=/usr
+make
+sudo make install
+cd ..
+</font></blockquote>Exactamente lo mismo, pero para la AMR Wide Band:
+<blockquote><font face="courier new,courier">wget http://downloads.sherin.in/sources/amrwb-7.0.0.2.tar.bz2
+tar -jxf amrwb-7.0.0.2.tar.bz2
+cd amrwb-7.0.0.2
+./configure --prefix=/usr
+make
+sudo make install
+cd ..
+</font></blockquote>Dos detalles.
+<ul><li>En ambos /make/s, el tipo baja un pequeño archivo de alg&uacute;n lado, así que tienen que estar conectados a internet.</li><li>Fíjense que el make install tiene un "sudo" adelante; esto es porque necesitan permisos de root para instalar la biblioteca.</li></ul>Luego entramos al directorio donde tenemos el ffmpeg descomprimido (el * en la primer órden aquí es porque el nombre del directorio depende del día, hagan un <em>ls -l</em> y lo van a ver).
+<blockquote><font face="courier new,courier">cd ffmpeg-export-*</font>
+</blockquote>Una vez adentro, configuramos el ffmpeg para que se instale en <em>/usr/local</em> (con lo que si tienen otra versión de ffmpeg instalado no lo van a pisar), y le habilitamos threading y las dos bibliotecas que nos interesan:
+<blockquote><font face="courier new,courier">./configure --prefix=/usr/local --enable-pthreads --enable-libamr-nb --enable-libamr-wb
+make
+sudo make install
+</font></blockquote>Ya tenemos el ffmpeg <em>alternativo</em> que compilamos, entonces transformamos el video del fono a algo estándar (en este caso, el video del fono se llama MOV00001.3gp, y dejamos el video nuevo en video.avi).
+<blockquote><font face="courier new,courier">/usr/local/bin/ffmpeg -i MOV00001.3gp -acodec mp2 -ar 44100 -vcodec mpeg4 video.avi</font>
+</blockquote>&iexcl;Ya está! El paso final fue subirlo a <a href="http://video.google.es/">Google Video</a>, pero eso se lo dejo a ustedes.[@more@] |

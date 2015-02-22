@@ -1,0 +1,28 @@
+2010-01-19 16:47:28
+Nueva versión disponible de la CDPedia
+<tags>
+
+
+<a href="http://python.org.ar/pyar/Inicio">Python Argentina (PyAr)</a> se enorgullece de anunciar la versión 0.6 de la CDPedia.&nbsp; Esta versión fue entregada a Educ.ar con vistas a la distribución en escuelas del todo el país, y ya está disponible para ladescarga p&uacute;blica.
+
+
+
+&iexcl;Pasen la noticia!
+
+
+
+<strong>&iquest;Qué es la CDPedia?</strong>
+
+
+
+La CDPedia es un proyecto del grupo de usuarios de Python Argentina para poder acceder a la información de la Wikipedia en castellano aunque no se posea una conexión a Internet.&nbsp; Se puede descargar libremente de la red y grabar a CDs o DVDs para repartirlos sin restricciones.&nbsp; La CDPedia funciona en cualquier computadora, ya sea que tenga Linux, MacOS o Windows como sistema operativo.
+
+
+
+La versión 0.6 de CDPedia en DVD fue recientemente entregada para su evaluación a Educ.ar, que por medio de un acuerdo con Wikimedia Argentina y PyAr está planeando distribuir esta enciclopedia libre en todas las escuelas de Argentina.
+
+
+
+Esta misma versión ya está disponible para la descarga p&uacute;blica tanto para el formato de CD y DVD.&nbsp; Para mayor información e instrucciones para la
+
+descarga, visitar la <a href="http://python.org.ar/pyar/Proyectos/CDPedia">página del proyecto</a>. |

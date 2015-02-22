@@ -1,0 +1,104 @@
+2011-06-22 20:56:32
+Distribuyendo un programa hecho en Python
+<tags>
+
+Más que un análisis completo de las tecnologías para permitir la distribución de programas hechos en Python, este post es casi una receta o colección de anotaciones para seguir un camino. Y es que es un camino que no me fué fácil recorrer, porque la mayoría de los mecanismos para distribuir código Python están pensadas para distribuir <em>bibliotecas</em> hechas en este lenguaje, y no <em>programas</em>.
+
+&iquest;Dónde está la diferencia? En dónde van las cosas.
+
+Antes de seguir: para todo el armado usé <a href="http://docs.python.org/library/distutils.html">distutils</a>, que es lo que está en la biblioteca estándar. Le pegué una mirada a otras cosas como setuptools, distribute, etc, pero todas (aunque son más aptas para cosas más complejas) no me solucionaban el problema básico y me complicaban un poco la vida en otros aspectos.
+
+
+<strong>&iquest;Dónde van las cosas?</strong>
+
+Volviendo a el lugar en dónde se instala el código Python... si uno quiere distribuir una biblioteca, la respuesta es sencilla: en el directorio de bibliotecas de Python de tu sistema. &iquest;En dónde particularmente? Bueno, depende de tu sistema; incluso en Linux esto fue cambiando y no es el mismo lugar siempre. En mi máquina tengo <span style="font-family: courier new,courier;">/usr/lib/python2.6/dist-packages/</span>, que en parte apunta a <span style="font-family: courier new,courier;">/usr/share/pyshared/</span>.
+
+Igual, no importa la ubicación exacta: usando distutils (u otras alternativas) las bibliotecas van a parar al lugar correcto sin mayor esfuerzo.
+
+&iquest;Pero qué pasa si no es una biblioteca sino un programa? El primer detalle es que necesitamos un <em>ejecutable</em> que arranque nuestro programa. Distutils y amigos tienen esto bastante bien manejado, se les puede especificar un <em>script</em>, y terminan instalando todo de la siguiente manera:
+
+<span style="font-family: courier new,courier;">&nbsp; script -&gt; /usr/bin/</span>
+<span style="font-family: courier new,courier;">&nbsp; todo el resto /usr/lib/python2.6/dist-packages/ (o similar)</span>
+
+Hasta acá todo bien, &iquest;no? No. Resulta que nuestro programa tiene imágenes, archivos de audio, etc, y está "mal visto" meter esos archivos "de datos" dentro del directorio de bibliotecas de Python. Entonces, lo que recomiendan por ahí es:
+
+<span style="font-family: courier new,courier;">&nbsp; script -&gt; /usr/bin/</span>
+<span style="font-family: courier new,courier;">&nbsp; archivos de datos -&gt; /usr/share/</span>
+<span style="font-family: courier new,courier;">&nbsp; código python -&gt; /usr/lib/python2.6/dist-packages/ (o similar)</span>
+
+Esto ya no es tan fácil de lograr, porque la distribución de archivos de datos es como un parche en los sistemas de distribución de bibliotecas.
+
+Además, si nos vamos a poner quisquillosos de no meter archivos de datos en el directorio de bibliotecas, yo pregunto: &iquest;por qué meter código de nuestro programa, que no es una biblioteca, en el directorio de bibliotecas?
+
+Entonces me embarqué en el siguiente capricho: quería que la distribución de mi programa vaya a parar a:
+
+<span style="font-family: courier new,courier;">&nbsp; script -&gt; /usr/bin/</span>
+<span style="font-family: courier new,courier;">&nbsp; todo el resto -&gt; /usr/share/</span>
+
+Los archivos de datos, por supuesto, mezclados con "todo el resto".
+
+
+<strong>Estructura de nuestro programa</strong>
+
+Primero lo primero, &iquest;cómo organizamos nuestro proyecto? Yo tengo lo siguiente (simplificado, pueden ver toda la estructura en <a href="http://bazaar.launchpad.net/%7Efacundo/encuentro/trunk/files">los archivos del proyecto Encuentro</a>):
+
+- un directorio 'bin' donde tengo el script que arranca todo
+
+<span style="font-family: courier new,courier;">&nbsp; bin/encuentro</span>
+
+esto es un archivo ejecutable que no hace mucho más que jugar un poco con los directorios y el sys.path para que se encuentre al resto del código Python de nuestro programa (en dos situaciones: cuando ejecutamos bin/encuentro desde el repositorio mientras estamos desarrollando, y cuando está instalado finalmente en el sistema), e inicializar alguna estructura básica y arrancarla, para que comience nuestro programa.
+
+- un directorio con el nombre de nuestro proyecto, con el resto del programa:
+
+<span style="font-family: courier new,courier;">&nbsp; encuentro/__init__.py</span>
+<span style="font-family: courier new,courier;">&nbsp; encuentro/main.py</span>
+<span style="font-family: courier new,courier;">&nbsp; encuentro/network.py</span>
+
+- directorios con los archivos de datos, adentro de nuestro proyecto (no por separado), en este caso:
+
+<span style="font-family: courier new,courier;">&nbsp; encuentro/ui/main.glade</span>
+<span style="font-family: courier new,courier;">&nbsp; encuentro/ui/preferences.glade</span>
+<span style="font-family: courier new,courier;">&nbsp; encuentro/ui/update.glade</span>
+
+Una vez aclarado eso, quedan dos preguntas sencillas y una complicada por contestar: las sencillas son &iquest;cómo el script encuentra al resto del programa instalado? y &iquest;cómo accedemos a los archivos de datos desde nuestro código?.
+
+La primera es usando una variable que se inyecta en el script en el momento de instalar el programa (ver más abajo el cuándo hacemos eso en <span style="font-family: courier new,courier;">setup.py</span>).
+
+La segunda es accediendo a los archivos de forma relativa al código. Yo tengo esto al principio del programa:
+
+<span style="font-family: courier new,courier;">&nbsp; BASEDIR = os.path.dirname(__file__)</span>
+
+y luego hago cosas como:
+
+<span style="font-family: courier new,courier;">&nbsp; data_file = os.path.join(BASEDIR, 'ui', 'preferences.glade')</span>
+
+Finalmente, la pregunta complicada: &iquest;cómo hacemos para que todo esto funcione?
+
+
+<strong>Distribuyendo programas</strong>
+
+En realidad, la respuesta no es tan complicada una vez que está resuelto (como tantas cosas en la vida).
+
+Para incluir todos los archivos, en el <span style="font-family: courier new,courier;">setup.py</span>, en la llamada a <span style="font-family: courier new,courier;">setup()</span> hay que poner:
+
+<span style="font-family: courier new,courier;">&nbsp; packages = ["encuentro"],</span>
+<span style="font-family: courier new,courier;">&nbsp; package_data = {"encuentro": ["ui/*.glade"]},</span>
+<span style="font-family: courier new,courier;">&nbsp; scripts = ["bin/encuentro"],</span>
+
+Fíjense como ahí declaro el paquete donde está mi programa, el script, y los archivos de datos. Pero hay un bug, hasta en Python 2.6 inclusive, que hace que para meter los archivos de datos con eso sólo no alcanza, y hay que declararlos también en el <span style="font-family: courier new,courier;">MANIFEST.in</span>:
+
+&nbsp; <span style="font-family: courier new,courier;">include encuentro/ui/*.glade</span>
+
+Para que todos estos archivos vayan a parar al lugar correcto, hay que hacer algo específico: una clase que acomoda cosas en el proceso de instalación. Pueden ver el detalle de esa clase en <a href="http://bazaar.launchpad.net/%7Efacundo/encuentro/trunk/view/head:/setup.py">el setup.py de Encuentro</a>, pero basicamente hace dos cosas:
+
+- Construye un directorio donde va a quedar todo con el prefijo indicado, "share" y el nombre del proyecto, y autocorrije el directorio de instalación con eso.
+
+- Guarda ese directorio de instalación nuevo en los scripts declarados, usando una cadena especial como bandera, de manera que al quedar el script instalado sabe dónde buscar el programa entero.
+
+(importante: no olvidar declarar en la llamada a setup() a esta nueva clase como la clase que será usada para instalar!)
+
+Finalmente, está bueno probar que todo funca bien. Las pruebas que yo hice fue crear el .tar.gz con <span style="font-family: courier new,courier;">python setup.py sdist</span>, descomprimirlo en otro lado que nada que ver y hacer <span style="font-family: courier new,courier;">python setup.py install --prefix=/tmp</span> (para que se instale en <span style="font-family: courier new,courier;">/tmp</span> y probarlo ahí adentro) y también <span style="font-family: courier new,courier;">sudo python setup.py install</span> (para que se instale en el sistema y probarlo así).
+
+También, luego de hacer todo el proceso de packaging, cuando <em>pbuilder</em> me dejó el <span style="font-family: courier new,courier;">.deb</span>, lo descomprimo y veo que la estructura está correcta y que la variable reemplazada en el script tiene el valor que debería; igual, la prueba de fuego con el <span style="font-family: courier new,courier;">.deb</span> es instalarlo con <span style="font-family: courier new,courier;">dpkg -i</span> y probar el programa.
+
+Nota final: ahora me falta armar un <span style="font-family: courier new,courier;">.exe</span> para que se pueda ejecutar en Windows, pero eso será otro post.</p> |

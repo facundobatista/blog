@@ -1,0 +1,22 @@
+2009-07-18 13:30:43
+Cuarta etapa
+<tags>
+
+
+Este blog nació como unos textos puestos a mano en páginas .html armadas por mí, allá hace siete años, como excusa para no tener que mandar mails a todos contando mis experiencias en Italia.&nbsp; Las páginas y algunas imágenes estaban hosteadas de forma gratuita por Geocities, creo que metían alguna propaganda y todo. Los textos de esa época están rejuntados <a href="http://www.taniquetil.com.ar/facundo/bdvfiles/bdv-anterior.html">acá</a>, pero pueden tener una idea de cómo era el sitio viejo <a href="http://web.archive.org/web/20040611054053re_/www.geocities.com/facundobatista/">aquí</a>.
+
+
+
+En el 2004 retomé la idea del blog, ya utilizando un <a href="http://es.wikipedia.org/wiki/Sistema_de_gesti%C3%B3n_de_contenido">CMS</a> (&iexcl;<a href="http://lifetype.net/">este mismo</a> que estoy usando ahora!), y ya lo había instalado en un hosting pago, en Datattec. La <a href="http://web.archive.org/web/20050214194223/www.taniquetil.com.ar/plog/">estética en ese momento</a> ya era bastante parecida a la actual...
+
+
+
+Luego de inumerables problemas con Datattec, decidí migrar a otro hosting, a Hoztear. El sitio en sí no sufrió mayores cambios, pero andaba todo mejor, en general, y como en el nuevo hosting tenía acceso ssh, podía meterme a mano a hacer cambios más fáciles, jugar mejor... más piola. Pero en los &uacute;ltimos meses esto dejó de funcionar bien... siempre que quería entrar por shh notaba que no tenía el acceso, me quejaba en soporte, me lo habilitaban nuevamente, lo usaba... y cuando quería entrar nuevamente, quizás un par de semanas después, veía que no tenía acceso y vuelta a empezar...
+
+
+
+Así que decidí finalmente pegar el salto no a un <a href="http://es.wikipedia.org/wiki/Alojamiento_compartido">hosting</a>, sino directamente a un <a href="http://es.wikipedia.org/wiki/Servidor_virtual">VPS</a>. La diferencia en plata no es importante, sino que el detalle es que ahí tengo un servidor pelado, y tengo que hacer todo yo... Apache para servir estas páginas, Courier y Postfix para tener mail (&iexcl;me falta instalar SpamAssassin!), etc, etc, etc. Por otro lado, puedo hacer lo que se me de la gana allí, y eso quizás me permita explorar otras cosas a futuro.
+
+
+
+A estas páginas les debo meterle algo de laburo encima... no en lo que es estética (con la que estoy satisfecho, y cualquier cambio me cuesta mucho), sino agregarle unos enlaces, ponerle más info... ya lo verán (o no, porque muchos cambios son "en bambalinas"). |

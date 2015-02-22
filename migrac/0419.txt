@@ -1,0 +1,46 @@
+2009-07-05 08:13:35
+Bastante ocupado
+<tags>
+
+
+Las &uacute;ltimas semanas fueron de hacer demasiadas cosas en un día, todos los días. No es que me dediqué varios días a algo en particular, sino que fuí haciendo muchas cosas pequeñas, o todos los días un poquito de varias cosas grandes.
+
+
+
+Como estuve tres semanas afuera, luego de las vacaciones nos enfocamos en hacer visitas varias, yendo y viniendo.&nbsp; Otras tareas también se derivaron de la ausencia prolongada, como hacer algunos pagos, compras varias para la casa, etc.
+
+
+
+Tuvimos elecciones el domingo pasado, y más allá de la ingrata sorpresa (o no tanto sorpresa) de que gane la derecha tanto en Capital como Provincia de Buenos Aires (que sociedad que tenemos, <em>pordió</em>), me encontré un día antes de votar con que no estaba en el padrón de Provincia ni en el de Capital. Con Moni hicimos el cambio de domicilio hace tres años, pero veníamos votando todavía en Capital, pero para estas elecciones a ella la pasaron a Provincia, y a mi me perdieron por ahí. Bueno, no, porque hice un reclamo vía web, y al toque me contestaron que sí estaba en el padrón de Provincia, pero tenía mal el n&uacute;mero de documento. Así que finalmente pude votar, pero luego perdí una mañana haciendo trámites para ver si en el futuro aparezco correctamente.
+
+
+
+Otro trámite en el que tuve que perder bastante tiempo fue lograr que OSDE finalmente acepte los aportes que hago como Monotributista.
+
+
+
+Nos quedan dos meses solamente para la <a href="http://ar.pycon.org/2009/about/">Conferencia de Python en Argentina</a>, y esto viene con bastante trabajo. Luego de mis semanas en Barcelona empezamos a acelerar las cosas, tuvimos una reunión presencial con varias definiciones, cerramos los invitados internacionales que vamos a tener (<a href="http://www.djangoproject.com/">Jacob Kaplan-Moss</a> y <a href="http://code.google.com/p/unladen-swallow/">Collin Winter</a>), y bastante ajetro consiguiendo, cerrando y teniendo incluso alguna reunión con los sponsors de la conferencia (por suerte, estamos bien al respecto).
+
+
+
+Vengo laburando también en dos proyectos que quiero ver de cerrar antes de la conferencia: tener una tirada del Tutorial de Python, en castellano, en papel, y terminar con la CDPedia (el contenido más relevante de la wikipedia en un CD!).&nbsp; Ambos son proyectos que vienen desde hace rato, pero en los &uacute;ltimos meses me los cargué al hombro con la firme idea de terminarlos (y por suerte hay gente que me está ayudando en ambos).
+
+
+
+Relacionado también con Python, tuve una reunión en <a href="http://www.fmlatribu.com/">La Tribu</a>. Más allá del apoyo como Media Sponsor de la conferencia, estamos viendo de hacer algo de Python con ellos, que no quiero adelantar porque no depende de mí que salga o no.
+
+
+
+Otro proyecto más social que venimos empujando con otra gente, es lograr acercar a la gente a los pequeños productores (principalmente, pero no solamente, de alimentos).&nbsp; La idea es lograr un tipo de comercio más justo, eliminando intermediarios innecesarios, donde ganen no sólo los consumidores, sino también los pequeños productores (a detrimento de las grandes cadenas de comercialización dónde lo más importante es ganar dinero). Esto lo estamos laburando a través de <a href="http://www.mercadojusto.com.ar/">Mercado Justo</a>, que cómo dice el sitio, se propone como una herramienta para facilitar a las redes y organizaciones de comercio justo una comunicación más efectiva con sus actuales y potenciales consumidores. Este sitio todavía lo tenemos en desarrollo, y estamos por comenzar alguna prueba de distribución... ojalá podamos lanzarlo al p&uacute;blico en los próximos meses.
+
+
+
+A nivel de familia tenemos a <a href="http://www.taniquetil.com.ar/plog/post/1/408">Felipe</a> que sigue creciendo muy bien, en estas semanas tuvimos dos ecografías y una visita a la obstetra y está todo perfecto. Moni y a yo estamos disfrutando mucho la panza, y estamos muy felices al respecto.
+
+
+
+Y para cerrar, estamos recién terminando de procesar las fotos del <a href="http://www.taniquetil.com.ar/plog/post/1/388">casamiento</a>. Ya sé que pasó mucho tiempo, pero por un lado las fotos no las tuvimos al toque, y por otro me tiré a no sólo quedarme con las fotos del fotógrafo, sino que le pedí a algunos invitados las fotos que habían sacado, y mezclé todo, con lo cual la elección fue mucho más difícil (y hubo que ponerlas en órden correcto, etc.).
+
+
+
+Bueno, luego de haber escrito todo esto me resulta más claro por qué estuve tan sin tiempo libre en las &uacute;ltimas semanas... |

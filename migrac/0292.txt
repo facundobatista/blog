@@ -1,0 +1,47 @@
+2007-09-21 13:48:57
+Decimal, binario y el asado
+<tags>
+
+<em>Resulta que era sábado a la noche, no tenía mucho que hacer porque Moni estaba en Bariloche, y hubo una pregunta interesante en la lista de PyAr. Y la respuesta me salió bastante bizarra, en general fue bastante comentada. Motivado por un comentario en la reunión del otro día, la busqué y la releí (por primera vez). Y como me causó gracia, la rescato acá. La pregunta era por qué al redondear 39.285714285714285, el usuario no veía un 39.29, sino algo raro:</em>
+
+&gt; Sin redondear:
+&gt;
+&gt; <font face="courier new,courier">&gt;&gt;&gt; chargeandprop("EEARGPLRGKGDQKSAVSQKPRSRGILH")[1]</font>
+&gt; <font face="courier new,courier">39.285714285714285</font>
+&gt;
+&gt; Con round a 2 decimales:
+&gt;
+&gt; <font face="courier new,courier">&gt;&gt;&gt; round(chargeandprop("EEARGPLRGKGDQKSAVSQKPRSRGILH")[1],2)</font>
+&gt; <font face="courier new,courier">39.289999999999999</font>
+
+El detalle acá es que te están mostrando un n&uacute;mero binario en su forma decimal. &iquest;Por qué en forma decimal? Porque hace rato que tenemos 10 dedos en las manos, y contar en esa base nos es natural. &iquest;Por qué el n&uacute;mero es binario? Parecerá arcaico a esta altura, pero seguimos teniendo procesadores que trabajan en forma binaria: a nivel de silicio la FPU (floating point unit) de tu micro guarda el nro en binario.
+
+Hagamos una analogía, para que resulte más fácil de entender. Viene tu sobrinito de 12 años, y te dice "tío, tío, enseñame algo que no entiendo de matemática". Vos, envalentonado por demostrar tus conocimientos, y viendo que es la &uacute;nica manera de salvar el fin de semana luego de que Argentina haya perdido 3 a 0 en la Copa América, le contestás "Obvio, lo que quieras". Entonces tu sobrino te da un lapiz y un papel y te dice... "escribí &#39;un tercio&#39;".
+
+Vos sonreís, aunque una gota resbala sobre tu frente, temiendo lo peor, y le escribís, con suspenso, un "1/3". El nene, casi como un enviado del diablo (no reconocés tanta maldad en sus ojos), sonrie levemente, sabiendo que caiste en su trampa, y que a partír de ahí él seguira subiendo y vos en decadencia, y te dice "no, pero con coma".
+
+Entonces, vos, con una cintura hábil, luego de tantos años de enfrentarte con la AFIP, le escribís un "0,3...". Y cuando casi empezás a explicarle el significado de los tres puntos, el te sacude un lapidario "no, pero hasta el final". Ahí vos sabés que perdiste, de que no hay una maldita manera de escribir infinitos 3, y menos en una sola hoja, y le contestás "no, nene, las gallinitas no hablan", y te vas a revisar como anda el asado.
+
+Ok, el procesador hace algo parecido, pero en binario. Cuando vos en decimal le decís redondeame un "39.285" a dos decimales, el tipo intenta anotar un "39.29" en su lápiz y papel binario, pero no puede.&nbsp; Aunque a nosotros, *ese* nro nos resulta fácil, a él no, porque a nivel binario no tiene suficientes dígitos para escribirlo.
+
+Quizás porque esté programado así, o quizás porque no tiene un asado que atender, la FPU hace su mejor esfuerzo y guarda internamente el n&uacute;mero más cercano al "39.29". Y eso es:
+<font face="courier new,courier">
+&gt;&gt;&gt; 39.29
+39.289999999999999</font>
+
+Acá entra Python, quien en el intérprete interactivo, te muestra "la realidad posta posta, patente patente" (en inglés esta frase es distinta). Escribir directamente el nro, es como llamar a la función repr(), quien es lo más fiel posible con el ordenamiento de los átomos en el Universo:
+
+<font face="courier new,courier">&gt;&gt;&gt; repr(39.29)
+&#39;39.289999999999999&#39;</font>
+
+Ahora, si vos querés ser engañado, podés decirle a Python que te muestre algo más humano. &iquest;Cómo le decís que te convierta un objeto a su representación en cadena de texto de una forma más "humana"? Con str():
+
+<font face="courier new,courier">&gt;&gt;&gt; str(39.29)
+&#39;39.29&#39;</font>
+
+Ahí, lo que hace Python, sabiendo en parte cómo funcionan las FPU de nuestra época, y en parte porque aunque vayas ahora a revisar el asado los chorizos están quemados y los chinchulines te apagaron el fuego, es "redondear" ese nro a los quinces dígitos decimales.
+
+Notar que el statement "print" llama automáticamente a str() para convertir los objetos a mostrar:
+
+<font face="courier new,courier">&gt;&gt;&gt; print 39.29
+39.29</font>[@more@] |

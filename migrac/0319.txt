@@ -1,0 +1,15 @@
+2008-01-08 12:48:31
+Python bug day
+<tags>
+
+El próximo 19 de Enero, sábado, se realizará un Python Bug Day.
+
+&iquest;Qué es esto? Basicamente un ataque de lleno y frontal para cerrar bugs y patches de Python, todos de forma más o menos coordinada.
+
+Dura todo el día, aunque es normal que la gente labure más o menos de 9 a 15 (hora local de cada uno).
+
+Los participantes se encuentran en el canal #python-dev, en irc.freenode.net, y por allí se coordina quién agarra un bug, los cambios que se van haciendo, se piden opiniones, etc.&nbsp; Normalmente se arranca de una lista de sugerencias, pero se puede trabajar sobre el bug o patch que deseen.
+
+Más info, procedimientos, enlaces, <a href="http://wiki.python.org/moin/PythonBugDay">aquí</a>.
+
+Va a estar divertido.[@more@]                                                                                                                                                                  |

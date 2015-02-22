@@ -1,0 +1,17 @@
+2008-03-03 07:35:10
+Python releases
+<tags>
+
+En los &uacute;ltimos días se han realizado varias liberaciones de Python.
+
+De las ramas viejas se sacaron versiones con correcciones de seguridad: 2.3.7c1 y 2.4.5c1 (ambas <em>release candidate</em> (&uacute;ltima versión antes de la liberación final)).
+
+De la rama actual, salió <em>final</em> la 2.5.2, esta es la versión de producción (o sea, la recomendada para trabajar en el día a día).
+
+Con respecto al futuro, salieron 2.6a1 y 3.0a3 (ambas <em>alpha</em>), para que se vaya experimentando.
+
+Todas las versiones las pueden obtener de las páginas de <a href="http://www.python.org/download/">descargas de Python</a> (excepto las liberaciones de seguridad, sobre las cuales ya no se producen precompilados).
+
+Todo este laburo salió en fecha, ya que estaba planeado para antes de PyCon 2008, en Chicago, en diez días.
+
+<a href="http://us.pycon.org"><img src="http://us.pycon.org/common/2008/website/img/PyConChi.png" border="0" alt="PyCon 2008: Chicago" /></a>[@more@] |

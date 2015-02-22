@@ -1,0 +1,16 @@
+2006-07-17 15:29:13
+Poniendo orden
+<tags>
+
+Lo siguiente es mi respuesta a un mail de Manuel Kaufmann en la lista de PyAr, en la que consultaba sobre orden en los widgets que muestran listas de cosas (por ejemplo, los archivos que hay en un directorio) en los distintos toolkits de interfaces gráficas), y se quejaba de que no es estándar cómo administran ese ordenamiento.</i>
+
+Es que incluso no hay un comportamiento típico entre las distintas aplicaciones de los distintos sistemas operativos.
+
+Fijate. Lo "ideal" sería que toooooooodas las veces que te muestran una lista, se pueda hacer lo siguiente (tomando el "clickear sobre el título" como una posible manera de indicar orden):
+<ul><li>Si clickeas en el título una vez, ordena para un lado.</li><li>Si clickeas en el título nuevamente, ordena para el otro lado.</li><li>Si clickeas en el título una tercera vez, no aplica órden (o sea, deja en el "orden" original, según sea el caso (cronológico, orden en el disco, etc.)).</li></ul>Pero esto se puede complicar cuando hacés orden multicolumna. Porque si yo hago click en el título de la columna A, y luego en la de B, quiero que ese sea el orden en que ordena (y se vuelve a aplicar los tres puntos anteriores en cualquier combinación de columnas).
+
+Yo no creo que sea un  problema de complejidad de GUI. Fijate que con una flechita para arriba y para abajo en el header, al lado del título ya tenés el indicador de orden. Y para indicar orden multicolumna, la flechita con un número chiquito al costado, y estás. Pero no se usa, no sé.
+
+Y después tenés interfaces como la del Thunderbird, en la parte de buscar mails, que le indicás que ordene por fecha, por ejemplo, y no sólo no te lo indica en el título, sino que hasta lo hace mal porque a veces no ordena y deja ordenada por otra columna....
+
+No hay mucho estándar por acá, lamentablemente, pero ni siquiera hay un estándar a nivel de comportamiento de los usuarios...[@more@] |

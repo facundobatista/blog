@@ -1,0 +1,23 @@
+2005-10-20 11:45:45
+Cine y citas
+<tags>
+
+
+<span style="font-weight: bold;">Cine</span>
+
+El martes fuimos con Laura a ver <a href="http://www.imdb.com/title/tt0121164/">Corpse bride</a>: +0. Salí con la certeza de saber quién quiero que dirija la espero-que-alguna-vez-se-haga película sobre <a href="http://es.wikipedia.org/wiki/Monkey_Island">Monkey Island</a>.
+
+Y entre trailer y trailer pasaron una de las mejores propagandas que ví en los últimos tiempos (especialmente en el cine). Es la de Compumundo, no les doy más datos. Cuando la vean, acuérdense, :D.
+
+
+<span style="font-weight: bold;">Citas</span>
+
+<div style="margin-left: 40px;">In truth, we use 'j' to represent sqrt(-1) for exactly the same reason we use a convention for the direction of current which is exactly the opposite of the direction the electrons actually travel: because it drives physicists crazy. (And if we pick up a few mathematicians or whatever along the way, well, that's just gravy. ;-)
+<span style="font-style: italic;">Grant R. Griffin, 14 May 2000 </span>
+
+The comp.lang.python newsgroup erupted last week with a flurry of posts that accused the Python development team of creeping featurism, selling out the language to corporate interests, moving too fast, and turning a deaf ear to the Python community. What triggered this lava flow of accusations? The development team accepted a proposal to change the syntax of the print statement.
+<span style="font-style: italic;">Stephen Figgins, 30 Aug 2000</span>
+
+</div>[@more@]
+
+ |

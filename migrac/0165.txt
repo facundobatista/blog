@@ -1,0 +1,74 @@
+2006-02-26 18:39:29
+SiGeFi v0.3.5
+<tags>
+
+
+Dos semanas antes de lo previsto, sale a la calle la versión 0.3.5 de SiGeFi, con muchos, muchos cambios y agregados!
+
+
+
+Nos estamos acercando bastante a terminar la interfaz gráfica y que todos lo puedan probar libremente en toda su funcionalidad, :D.
+
+
+
+
+
+<i>¿Qué hay de nuevo en esta release?</i>
+
+
+
+- Cuando se abre un projecto se guarda un backup.
+
+- Mantiene la posición y tamaño de la ventana principal.
+
+- Se terminó de pulir la estructura de configuración
+
+- Se agregó un dirty flag a los Controladores
+
+- Se agregaron atajos de teclado en los menúes.
+
+- La interfaz ahora pide confirmación si se perderían cambios al salir.
+
+- Los datos persistidos ahora están comprimidos (compatible con gzip).
+
+- Se implemento el CoreWrapper, para logueo de las llamadas al core e  intercepción de las excepciones generadas por el mismo.
+
+- Se corrigió parte de la documentación.
+
+- Los Controladores tienen nuevos métodos que eran necesarios por la GUI.
+
+- Hay un projecto demo más complejo que antes.
+
+- Se creó la ventana vVerPrestamos.
+
+- Ahora gettext() está integrado en la interfaz gráfica.
+
+- Las cuentas padres muestran el total de los saldos de sus hijos.
+
+- Se puede cambiar el nombre de la cuenta directamente del árbol de cuentas.
+
+
+
+Mirá el archivo roadmap.txt para conocer cuales son nuestros objetivos para cada versión, y el TODO.txt para un detalle más fino.
+
+
+
+
+
+<i>¿Qué es SiGeFi?</i>
+
+
+
+SiGeFi es un Sistema de Gestión Financiera pensado principalmente para el hogar y las finanzas personales.
+
+
+
+Siempre manteniendo la simpleza de uso y de conceptos, SiGeFi posee características de un Sistema de Gestión complejo:
+
+
+
+- Cumple con los conceptos de Contabilidad por Partida Doble.
+
+- Posee un esquema de Distribución en base a Presupuestos.
+
+- Permite realizar Préstamos entre cuentas (con costos financieros asociados).[@more@] |

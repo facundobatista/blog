@@ -1,0 +1,33 @@
+2010-02-28 02:45:23
+Lalita liberada por primera vez
+<tags>
+
+
+Python Argentina se deleita en anunciar la <a href="https://edge.launchpad.net/lalita/trunk/pre-alpha-1">versión 0.1.1 de Lalita</a>.
+
+
+
+Lalita es otro bot IRC más, uno donde es simple crear nueva funcionalidad agregando plugins fáciles de escribir.
+
+
+
+Esta es una liberación pre-alfa, nuestra primera liberación, pero el producto entregado es bastante robusto: lo estamos usando desde hace casi un año.
+
+
+
+Lalita está escrita con algunos objetivos en mente:
+
+<ul>
+	<li>Twisted! (no nos gustan los hilos)</li>
+	<li>Enchufable: es fácil escribir nuevas funcionalidades</li>
+	<li>Divertirse: sí, es Python</li>
+</ul>
+Como se indica arriba, es realmente fácil agregar nueva funcionalidad (sólo hace falta copiar el plugin ejemplo y tocar un par de lineas), pero Lalita misma trae muchos plugins ya incluidos, entre los que se destacan:
+
+<ul>
+	<li>freenode: Ejecuta todo el diálogo de autenticación contra los servidores de Freenode (este plugin no ofrece funcionalidad al usuario final, pero permite que Lalita se conecte a Freenode usando un usuario registrado).</li>
+	<li>misc: Implementa una funcionalidad muy simple: contesta "pong" al usuario cuando recibe un "ping".</li>
+	<li>url: Colecciona todas las URLs que se dicen en los diferentes canales, permitiendo luego buscar entre las mismas.</li>
+	<li>seen: Implementa dos comandos: "last" y "seen". El primero indica que es lo &uacute;ltimo que dijo un usuario, y el segundo muestra cuando un usuario fue visto por &uacute;ltima vez (a veces ambos coinciden, a veces no).</li>
+</ul>
+Para más información, esta es <a href="https://edge.launchpad.net/lalita">la página del proyecto</a>. |

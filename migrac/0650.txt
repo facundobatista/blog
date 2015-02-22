@@ -1,0 +1,28 @@
+2014-06-26 02:57:54
+Satélites argentinos
+<tags>
+
+Estos días fue lanzado exitosamente el tercer nanosatélite argentino, "Tita" (llamado así en honor a Tita Merello).
+
+Se llaman "nanosatélites" porque, justamente, son mucho más chicos (y baratos) que los satélites "tradicionales". En particular, Tita pesa unos 25 kilos, está equipado con tres antenas y lleva una cámara para tomar fotos y videos en alta definición.
+
+<img src="http://www.taniquetil.com.ar/facundo/imgs/sat%C3%A9lite-tita.jpeg" alt="El satélite Tita, siendo instalado en el lanzador" height="583" width="600" />
+
+Lo desarrolló la empresa argentina Satellogic, pero no lo lanzamos nosotros al espacio (todavía no tenemos esa capacidad), sino que fue lanzado desde la ciudad rusa de Yasny. Su objetivo es tomar imágenes durante tres años, en colaboración con otros nanosatélites, los ya lanzados <a href="http://es.wikipedia.org/wiki/Capit%C3%A1n_Beto_%28nanosat%C3%A9lite%29">Capitán Beto</a> (llamado así obviamente en referencia a la canción de Spinetta) y <a href="http://2.cubebug.org/">Manolito</a> (por el personaje de Mafalda), y a otros 15 satélites que Satellogic planea lanzar durante el próximo año.
+
+Pero Tita es diferente a los dos anteriores, que pesaban alrededor de dos kilos. También es un prototipo, y usa las mismas estrategias de diseño y fabricación con componentes de uso comercial (resortes de ferretería, electrónica de teléfonos celulares y computadoras personales), pero este permite tomar imágenes y videos de dos metros de resolución. Esencialmente, la gente de Satellogic está haciendo lo mismo que hace un satélite convencional, pero a un precio entre cien y mil veces menor.
+
+En este video bastante interesante podemos ver a Lino Barañao (Ministro de Ciencia y Tecnología) y Emiliano Kargieman (CEO de Satellogic), contándonos un poco todo esto (y de paso se ven pasos de la construcción, y las oficinas, &iexcl;donde se ve bastante gente de PyAr trabajando!).
+
+
+<object type="application/x-shockwave-flash" data="http://www.youtube.com/v/1bF_U5Ep8-U" class="ltVideoYouTube" height="355" width="425">
+<param name="movie" value="http://www.youtube.com/v/1bF_U5Ep8-U" />
+<param name="wmode" value="transparent" />
+<param name="allowScriptAccess" value="sameDomain" />
+<param name="quality" value="best" />
+<param name="bgcolor" value="#ffffff" />
+<param name="FlashVars" value="playerMode=embedded" />
+</object>
+
+
+Como detalle final, les dejo <a href="http://radiocut.fm/audiocut/que-sabes-de-los-satelites/">este audio de Adrián Paenza hablando sobre los satélites</a> (en general) en el programa La Mañana de Victor Hugo Morales.</p> |

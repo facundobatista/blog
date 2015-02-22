@@ -1,0 +1,9 @@
+2012-04-16 16:42:09
+Bares, bares, bares
+<tags>
+
+Como comentaba en <a href="http://www.taniquetil.com.ar/plog/post/1/551">este post</a> empecé a hacer sprints pequeñitos en distintos bares, con el objetivo principal de darle continuidad a algunos proyectos (arranqué con CDPedia, y estamos haciendo lindos progresos!).
+
+Un objetivo secundario de esa iniciativa era evaluar los bares, y este post es para mostrarles los primeros resultados de dicha evaluación. Bah, los resultados no los muestro acá, sino en <a href="http://www.taniquetil.com.ar/bares/">esta nueva página</a>.
+
+Gracias a <a href="http://marianoguerra.com.ar/">Mariano Guerra</a> por estilo y javascript para esa página!</p>                                                                                                                                                                                                                                                                                                                  |

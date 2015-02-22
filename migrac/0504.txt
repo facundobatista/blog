@@ -1,0 +1,51 @@
+2011-03-20 21:31:42
+PyCon Atlanta 2011,  los Sprints
+<tags>
+
+Cuando me puse a pensar qué podía hacer durante los cuatro días de sprints, al principio no me llamó nada la atención. Pero luego se me ocurrió que podía (empezar a) portar Twisted a Python 3, que era algo que tenía una mezcla de dos cosas en la que me quería meter: más adentro de Twisted que lo que te da el uso diario, y en Python 3 usándolo en casos no triviales.
+
+Más puntualmente, mis objetivos para los sprints eran:
+
+- Meterme adentro del código de twisted: Conocer la estructura del proyecto, detalles del código, etc.
+
+- Conocer más sobre el projecto de Twisted en sí: conocer más y charlar con los desarrolladores, meterme en el proceso de desarrollo que ellos tienen montado alrededor del proyecto, etc.
+
+- Tener problemas reales (más allá de la teoría) al portar a Python 3, enfrentándome a casos complicados que no aparecen cuando uno estudia la documentación.
+
+- Lograr que al menos un test corra OK en Python 3 (lo que implica que toda la infraestructura de pruebas funcione en la nueva versión, lo cual está lejos de ser sencillo porque esa infraestructura misma es provista por twisted).
+
+En los días anteriores había bajado el trunk del proyecto, para irme familiarizando, y al correr los tests encontré que me fallaban algunos; luego de analizar y ver qué pasaba terminé descubriendo que era por un problema del código que dependía del locale de la máquina (y como yo la tengo en castellano, explotaba ahí). Decidí que esa iba a ser mi primer contribución al proyecto, y armé un parche y lo propuse.
+
+No fue tan directo, ya que realmente los tests no fallaban a menos que la máquina estuviese no en inglés, así que luego de charlarlo un rato decidimos que tenía que ponerle unos casos de prueba condicionales, y eso hice. Tampoco entró tan fácil esto, porque faltaban un par de cosas de estética en las que yo no estaba de acuerdo con los desarrolladores de Twisted.
+
+Y es que Twisted es un proyecto muy viejo, y estandarizó algunas cosas que son contradictorias con lo que <em>después</em> se definió como mejores prácticas dentro del mundo Python. Entonces ahí tuvimos algunas idas y vueltas, y al final yo mandé un mail a la lista de Twisted para empezar un cambio, y metieron mi parche en trunk, corrigiendo el problema.
+
+Aunque todo esto llevó bastante tiempo, me sirvió mucho para irme familiarizando con el proceso, cómo manejan los tickets, qué significa cada cosa, etc.; en definitiva, cual es el workflow de los bugs y parches.
+
+<img src="http://www.taniquetil.com.ar/facundo/imgs/pycon2011-sprints.jpeg" alt="Sprinting" height="327" width="600" />
+
+Volviendo a los casos de prueba, luego de ejecutar algunos tests en Python 2.6 con el flag <span style="font-family: courier new,courier;">-3</span> detecté algunas cosas que podía empezar a cambiar masivamente, y al mismo tiempo&nbsp; meterlo en el código actual. En otras palabras, cambios que pegaban en todo el proyecto, y que hacía que esas partes estuviesen mejor preparadas para la migración a Python 3. Uno de estos cambios fue dejar de usar el módulo <span style="font-family: courier new,courier;">new</span> y comenzar a usar <span style="font-family: courier new,courier;">types</span>, el otro fue dejar de usar <span style="font-family: courier new,courier;">cmp</span> (tanto <span style="font-family: courier new,courier;">__cmp__</span>, como el builtin, como el parámetro de sort/sorted) y empezar a usar lo que se llama <em>rich comparisons</em>. El primer cambio era bastante directo (propuse un branch, aunque me dijeron que había tocado un par de cosas que no tiene pruebas y tenía que hacer los test), pero el segundo cambio es un quilombo (no llegué a terminar el branch) porque la funcionalidad no es directamente equivalente, sino que depende de qué tipo de comparaciones se quieren realizar.
+
+El tercer día decidí cambiar el enfoque. Lo que estaba haciendo no estaba equivocado, pero daba para mucho más que los dos días que quedaban, y la idea era probar distintas cosas ahí, antes que termine el sprint, aprovechando que estaban los <em>viejos</em> del proyecto cerca.
+
+Así que decidí arrancar con la migración propiamente dicha, postergando las correcciones a lo que ya había hecho. Le corrí <span style="font-family: courier new,courier;">2to3</span> a todo el proyecto, lo cual me corrigió una gran cantidad de cosas triviales en muchos archivos, dejó intacto muy pocos, y me avisó de cosas que no pudo cambiar que debería tocar a mano (esto quizás se pueda meter en otro branch que funcione también en Python 2).
+
+Finalmente, traté de correr <em>un</em> test con Python 3. Acá empezaron a saltar muchos, muchos detalles. Algunos triviales, y otros bastante espesos.
+
+El primero complicado fue que Twisted depende de <span style="font-family: courier new,courier;">zope.interface</span>. Por suerte este ya estaba migrado a Python 3, el tema era hacerlo andar con el Python 3.2 que tenía instalado (Ubuntu Maverick trae 3.1). Al principio quise usar <span style="font-family: courier new,courier;">virtualenv</span> pero no había una versión empaquetada para Python 3, así que traté de compilarlo, lo que me llevó a darme cuenta que necesitaba tener <span style="font-family: courier new,courier;">setuptools3</span>... en fin, terminé teniendo lo que necesitaba en 3.1, pero no en 3.2. Acá cambié el approach... bajé las fuentes de un <span style="font-family: courier new,courier;">virtualenv</span> para Python 3, lo compilé e instalé usando Python 3.2, y ya adentro del <span style="font-family: courier new,courier;">virtualenv</span> instalé con <span style="font-family: courier new,courier;">easy_install</span> a <span style="font-family: courier new,courier;">setuptools3</span> y <span style="font-family: courier new,courier;">zope.interface</span>... y acá quedó andando lindo: Python 3.2, con todo lo necesario. (muchas gracias a Nati y Darni por la ayuda en toda esta gran configuración).
+
+Igual, no terminaba ahí, porque tuve que tocar bastante código ya que cambió la forma de usar <span style="font-family: courier new,courier;">zope.interface</span>: antes se hacía <span style="font-family: courier new,courier;">implements(IAlgo)</span> en el scope de la clase, y ahora hay que decorar la clase con <span style="font-family: courier new,courier;">@implementor(IAlgo)</span>.
+
+Otra cosa que me mordió feo es que el método de una clase no es más un <span style="font-family: courier new,courier;">unbound method</span>, sino una función pelada que no sabe en qué clase está (obviamente en ambos casos al instanciar la clase, la función se convierte en un <span style="font-family: courier new,courier;">bound method</span>). Esto rompe el cómo <span style="font-family: courier new,courier;">trial</span> busca los test cases que uno indicó por linea de comandos.
+
+Cuando les comenté este problema a los desarrolladores, empezó toda una discusión de qué podíamos hacer porque corregir esto no es trivial, y va a pegar bastante en todo el código. Finalmente decidí arreglarlo de forma medio sucia... no es la forma final, pero me permitió seguir con lo que yo estaba haciendo. Otro chico se quedó con la tarea de ver de normalizar eso.
+
+Igual, más allá de esos dos problemas grandes, tuve que ir corrigiendo muchos pequeños detalles (hay que tener en cuenta que Twisted es uno de los pocos proyectos que sigue hoy en día habiendo arrancado en Python 1).
+
+Pero finalmente, varias horas después, terminé de corregir todo lo necesario, y pude ver mi primer test que corría OK con Python 3, :D
+
+La verdad es que estaba muy contento, y no sólo yo: los otros desarrolladores también, porque yo no era el primero que decía que se tenía que migrar el proyecto a Python 3, pero sí el primero que se arremangaba y obtenía resultados.
+
+Y hasta acá llegó el sprint... realmente no hice mucho más, excepto ver todos los cambios que había metido y hacer una especie de listita con todo lo que hay que ir sacando de ahí e ir pasando en limpio para mandar al proyecto.&nbsp; Encima a las tres de la tarde del &uacute;ltimo día nos cortaban internet, así que básicamente después de almorzar ya estaba con la persiana baja.
+
+Así que me quedé un rato, saludé, me fui para el lobby a usar la internet del hotel para terminar algunas otras cosas, y un par de horas después emprendí el camino de regreso a casa.</p> |

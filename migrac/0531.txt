@@ -1,0 +1,64 @@
+2011-09-24 20:00:25
+Encapsulando Python en un binario
+<tags>
+
+Este es un lindo truquito que no es de mi autoría, sino que es de John Lenton (él lo mostró en una reunión del laburo), pero como yo ya lo mostré en PyCon Brasil el año pasado, y en PyCon Argentina ayer, lo pongo acá para el que lo quiera mirar...
+
+Arrancamos con nuestro programa o proyecto Python que queremos meter adentro del binario... para nuestro ejemplo acá, crearemos un directorio, lo hacemos paquete de Python, y adentro creamos lo que sería el programa principal de nuestro sistema, con una función adentro que es la que arrancaría todo...
+
+<span style="font-family: courier new,courier;">facundo@exopus:~/prueba$ mkdir proyecto</span>
+<span style="font-family: courier new,courier;">facundo@exopus:~/prueba$ cd proyecto/</span>
+<span style="font-family: courier new,courier;">facundo@exopus:~/prueba/proyecto$ touch __init__.py</span>
+<span style="font-family: courier new,courier;">facundo@exopus:~/prueba/proyecto$ cat principal.py</span>
+<span style="font-family: courier new,courier;">def run():</span>
+<span style="font-family: courier new,courier;">&nbsp;&nbsp;&nbsp; print "Arrancamos!"</span>
+<span style="font-family: courier new,courier;">facundo@exopus:~/prueba/proyecto$ cd ..</span>
+<span style="font-family: courier new,courier;">facundo@exopus:~/prueba$</span>
+
+Tenemos que probar que podamos arrancar nuestro sistema desde el directorio padre... a veces no es tan fácil, hay que jugar un poquito con los paths de dónde importamos cosas, pero en este ejemplo es sencillo. Pero podemos probarlo facilmente:
+
+<span style="font-family: courier new,courier;">facundo@exopus:~/prueba$ python</span>
+<span style="font-family: courier new,courier;">Python 2.7.1+ (r271:86832, Apr 11 2011, 18:05:24)</span>
+<span style="font-family: courier new,courier;">...</span>
+<span style="font-family: courier new,courier;">&gt;&gt;&gt; import proyecto.principal</span>
+<span style="font-family: courier new,courier;">&gt;&gt;&gt; proyecto.principal.run()</span>
+<span style="font-family: courier new,courier;">Arrancamos!</span>
+<span style="font-family: courier new,courier;">&gt;&gt;&gt;</span>
+
+Una vez que lo logremos ejecutar así, tenemos que&nbsp; poner ese mismo código en un archivo con nombre <span style="font-family: courier new,courier;">__main__.py</span> en el directorio padre de nuestro proyecto:
+
+<span style="font-family: courier new,courier;">facundo@exopus:~/prueba$ cat __main__.py</span>
+<span style="font-family: courier new,courier;">import proyecto.principal</span>
+<span style="font-family: courier new,courier;">proyecto.principal.run()</span>
+
+Volvemos a probar que nuestro sistema funciona correctamente:
+
+<span style="font-family: courier new,courier;">facundo@exopus:~/prueba$ python __main__.py</span>
+<span style="font-family: courier new,courier;">Arrancamos!</span>
+
+El próximo paso es meter todo adentro de un archivo ZIP, aprovechando que Python es capaz de interpretar directamente este tipo de archivos comprimidos (por eso el nombre especial de antes, para que Python lo reconozca):
+
+<span style="font-family: courier new,courier;">facundo@exopus:~/prueba$ zip -r proyecto.zip __main__.py proyecto/</span>
+<span style="font-family: courier new,courier;">&nbsp; adding: __main__.py (deflated 27%)</span>
+<span style="font-family: courier new,courier;">&nbsp; adding: proyecto/ (stored 0%)</span>
+<span style="font-family: courier new,courier;">&nbsp; adding: proyecto/__init__.py (stored 0%)</span>
+<span style="font-family: courier new,courier;">&nbsp; adding: proyecto/principal.pyc (deflated 45%)</span>
+<span style="font-family: courier new,courier;">&nbsp; adding: proyecto/__init__.pyc (deflated 30%)</span>
+<span style="font-family: courier new,courier;">&nbsp; adding: proyecto/principal.py (stored 0%)</span>
+
+Probamos nuevamente que, hasta acá, funcione todo correctamente:
+
+<span style="font-family: courier new,courier;">facundo@exopus:~/prueba$ python proyecto.zip</span>
+<span style="font-family: courier new,courier;">Arrancamos!</span>
+
+Finalmente, metemos todo eso adentro de un binario, indicando que se va a interpretar con Python, y haciéndolo ejecutable:
+
+<span style="font-family: courier new,courier;">facundo@exopus:~/prueba$ ( echo '#!/usr/bin/env python'; cat proyecto.zip ) &gt; miproyecto</span>
+<span style="font-family: courier new,courier;">facundo@exopus:~/prueba$ chmod +x miproyecto</span>
+
+&iexcl;Ya está! Ahora podemos ejecutar ese binario, como cualquier otro binario, y realmente estaremos ejecutando nuestro proyecto Python:
+
+<span style="font-family: courier new,courier;">facundo@exopus:~/prueba$ ./miproyecto</span>
+<span style="font-family: courier new,courier;">Arrancamos!</span>
+
+Genial, :)</p> |

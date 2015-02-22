@@ -1,0 +1,24 @@
+2013-10-30 20:13:03
+Lanzamiento de la búsqueda de lugar para PyCamp 2014
+<tags>
+
+Porque PyAr no descansa, acabamos de tener la PyCon y ya salimos con el armado del PyCamp del año que viene. Este es un llamado a co-organizadores, locales (o cercanos) a sitios posibles de hacerse el evento.
+
+La idea es hacer el PyCamp del 1 al 4 de Marzo, del 21 al 24 de Marzo, o del 22 al 25 de Marzo.
+
+Yo lo voy a estar coordinando en general, pero la idea es que encontremos el mejor <em>venue</em> posible, buscando de a varios. Es lo mismo que <a href="http://python.org.ar/PyCamp/2013/PosiblesSedes">hicimos el año pasado</a>.
+
+&iquest;Cómo es la dinámica? si alguien sabe de un lugar en el que se podría hacer el PyCamp, que vaya o llame y averig&uuml;e. Hay que recabar varios datos:</p>
+<ul>
+<li>Formas de llegar</li>
+<li>Qué onda el lugar</li>
+<li>Qué onda las habitaciones</li>
+<li>Qué onda la comida</li>
+<li>Tres puntos a favor</li>
+<li>Tres puntos en contra</li>
+<li>Disponibilidad</li>
+<li>Precio</li>
+</ul>
+<p>Algo piola para revisar es la página que les acabo de pasar sobre posibles sedes, para tener una idea del tipo de data que hay que juntar. Luego me contactan (por privado) y vamos definiendo todo para dejar el lugar listo para la votación.
+
+&iexcl;Gracias! :)</p> |

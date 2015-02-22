@@ -1,0 +1,43 @@
+2012-05-04 18:24:51
+Cacheando DNS
+<tags>
+
+<em>(para los que no están al tanto qué es el DNS, una explicación rápida es que es un servicio que transforma los nombres que usamos los humanos para direcciones de servers (www.google.com, taringa.net, etc), a direcciones IP que la computadora necesita para acceder a dichos servers (173.194.42.17, 108.59.9.83, etc))</em>
+
+Dependiendo de los servidores DNS que utilicen, un query a los mismos puede tardar entre algunos milisegundos, hasta decenas o centenares de milisegundos.
+
+Como un query DNS se ejecuta cada vez que alg&uacute;n programa tiene que convertir un nombre a una IP, esto puede hacer bastante lenta la navegación u otros programas que accedan a la red. Acelerar esto al máximo es siempre una buena idea. Y una forma fácil de acelerarlo es instalar localmente un "caché de DNS"... entonces si hay que resolver una dirección por primera vez, se tardará lo que se tarde en traer la IP desde el mundo exterior, pero las sucesivas veces el tiempo será virtualmente cero).
+
+Lástima que en Ubuntu Precise, NetworkManager levanta el dnsmasq (que cachea DNS y hace otras cosas copadas) con la opción <span style="font-family: courier new,courier;">--cache-size=0</span>, que efctivamente le dice que no cachee nada. Un est&uacute;pido. Encima, tiene esa opción hardcodeada en código (una mierda, ver <a href="https://bugs.launchpad.net/ubuntu/+source/network-manager/+bug/903854">bug #903854</a>).
+
+Los siguientes son los pasos para solucionar esto....
+
+Editen el archivo de config de NetworkManager y borren la linea que dice <span style="font-family: courier new,courier;">dnsmasq</span>.
+
+<span style="font-family: courier new,courier;">&nbsp;&nbsp;&nbsp; sudo gedit /etc/NetworkManager/NetworkManager.conf</span>
+
+Instalen dnsmasq (les va a dar error al tratar de arrancar porque hay otro proceso tomando el puerto, no se preocupen):
+
+<span style="font-family: courier new,courier;">&nbsp;&nbsp;&nbsp; sudo apt-get install dnsmasq</span>
+
+Maten todas las instancias de dnsmasq que encuentren
+
+<span style="font-family: courier new,courier;">&nbsp;&nbsp;&nbsp; ps -eaf | grep dnsmasq</span>
+<span style="font-family: courier new,courier;">&nbsp; &nbsp; sudo kill ...</span>
+
+Editen el archivo de configuración:
+
+<span style="font-family: courier new,courier;">&nbsp;&nbsp;&nbsp; sudo gedit /etc/dnsmasq.conf</span>
+
+Descomenten las lineas de no-resolv y no-poll, y agreguen servers externos a mano, esas lineas quedarían...
+
+<span style="font-family: courier new,courier;">&nbsp;&nbsp;&nbsp; no-resolv</span>
+<span style="font-family: courier new,courier;">&nbsp;&nbsp;&nbsp; no-poll</span>
+<span style="font-family: courier new,courier;">&nbsp;&nbsp;&nbsp; server=8.8.8.8</span>
+<span style="font-family: courier new,courier;">&nbsp;&nbsp;&nbsp; server=8.8.4.4</span>
+
+No las pongan en cualquier lado, funciona, pero les queda desordenado. Fíjense que el archivo de config las tiene por ahí. Finalmente, reinicien dnsmasq:
+
+<span style="font-family: courier new,courier;">&nbsp;&nbsp;&nbsp; sudo service dnsmasq restart</span>
+
+Para verificar que funciona lindo, pueden usar el comando <span style="font-family: courier new,courier;">dig</span>, que resuelve nombres, y les dice cuanto tardó. Entonces hagan <span style="font-family: courier new,courier;">dig unadireccionquenohayanusado.com</span> dos veces, y vean la diferencia entre ambos tiempos (pista: el segundo tiempo debería ser cero o casi cero).</p> |

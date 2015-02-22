@@ -1,0 +1,26 @@
+2009-12-05 21:22:02
+Un bug! Un bug!
+<tags>
+
+
+Varias veces hablé acá de los <em>bugs</em>, pequeños errores en los programas que hacen que no funcionen como originalmente estaban planeado. Una definición más formal sería algo como <em>Un defecto de software (computer bug en inglés), es el resultado de un fallo o deficiencia durante el proceso de creación de programas de ordenador o computadora (software)</em> <a href="http://es.wikipedia.org/wiki/Error_de_software">[-]</a>.
+
+
+
+El término <em>bug</em> o <em>bicho</em> viene de cuando se encontró una falla en la ejecución de un programa en una computadora debido a que una polilla se había metido en el medio de un relé de la computadora (estamos hablando del Mark II, construido en 1944... estas máquinas eran bien distintas de lo que son ahora).
+
+
+
+El motivo de este post es que hoy me encontré con esta imagen:
+
+
+
+<img src="http://www.taniquetil.com.ar/facundo/imgs/bugreal.jpg" alt="El bicho original" width="444" height="309" />
+
+
+
+Es un recorte de <a href="http://upload.wikimedia.org/wikipedia/commons/8/8a/H96566k.jpg">la imagen original</a>, que como dice <a href="http://es.wikipedia.org/wiki/Archivo:H96566k.jpg">acá</a> es el primer /bug/ de una computadora, que se encontró atrapada en el relé #70 del panel F de la Mark II mientras se estaba probando en la Universidad de Harvard en Septiembre de 1945.
+
+
+
+&iexcl;No sabía que se tenía un registro del bicho este! |

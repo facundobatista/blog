@@ -1,0 +1,13 @@
+2013-06-14 02:42:18
+CDPedia al cubo
+<tags>
+
+Tres cositas tres, sobre CDPedia, en orden cronológico.
+
+El once de Mayo pasado salió al aire por CN23 la emisión de <a href="http://geekye.infonews.com/">Geekye</a> en la que Irina Sternik me entrevista, justamente, sobre la CDPedia. El programa entero <a href="http://www.youtube.com/watch?feature=player_detailpage&amp;v=a7M4QG7Kvq0#t=165">está subido acá en iut&uacute;b</a> (arranca desde la parte que nos compete).
+
+<a href="http://www.youtube.com/watch?feature=player_detailpage&amp;v=a7M4QG7Kvq0#t=165"><img src="http://www.taniquetil.com.ar/facundo/imgs/geekye-cdpedia.png" alt="CDPedia en Geekye" height="320" width="472" /></a>
+
+Además, el martes que viene, a la mañana, es la presentación de Huayra Linux, el sistema operativo libre del Programa Conectar Igualdad (el logo y el motto es genial, "el día en el que las vacas vuelan ha llegado", :p). Esto es relevante acá porque Huayra sale de entrada con CDPedia instalada... o sea que todos los chicos que reciban una compu de Conectar Igualdad van a usar y disfrutar CDPedia! Están todos invitados al acto, es en Tecnópolis, 10:30hs.
+
+Finalmente, les cuento que la semana que viene tenemos <a href="http://python.org.ar/PyCamp/2013/">PyCamp 2013</a>. Entre los proyectos que voy a empujar está obviamente CDPedia (<a href="http://python.org.ar/PyCamp/2013/TemasPropuestos">acá</a> están todos los proyectos, un lujo!), y en particular quiero ver si logramos dos cosas: por un lado un sistema de generación continua (algo que esté armando todo el tiempo CDPedias en distintos idiomas) y por otro lado que esta aplicación funcione en Android (con lo que se tendría todo el contenido de Wikipedia, offline, en los teléfonos y tablets).</p> |

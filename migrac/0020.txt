@@ -1,0 +1,29 @@
+2005-01-05 12:52:34
+El poder de las herramientas correctas
+<tags>
+
+Esto lo escribo solamente como un ejemplo redondito del porqué una plataforma Unix o Linux es mucho más poderosa que una plataforma Windows. Ejemplos como este se suceden varias veces al día; el tiempo ganado ampliamente supera el invertido para aprender estas herramientas.
+
+El trabajo que tenía que realizar era, de un archivo de log, saber cuales <span style="font-style: italic;">LAs</span> se estaban supervisando. No entraré en detalle acá de qué significa una <span style="font-style: italic;">LA</span>, pero consideren que se representa como un número. En otras palabras, tenía que extraer de un log cuales de esos "números" existían.
+
+El log en cuestión estaba en un archivo que pesaba 333MB. Sí, un archivo de texto de 333 <span style="font-weight: bold;">Megas</span>. ¿Cantidad de lineas del archivo? Más de cinco millones.
+
+Por supuesto, no me acordaba del formato interno del archivo, entonces debía ver algunas lineas del mismo para recordármelo. Piensen un segundo cómo editarían un archivo de esta magnitud en Windows. ¿Ya lo pensaron? Vuélvanlo a considerar, y sigan leyendo luego de que se den cuenta de cuantas veces van a tener que reiniciar la PC hasta poder terminar de trabajarlo.
+
+Bueno, en Pytonisa (que es el Linux que tengo instalado en la oficina) hice un "<span style="font-family: courier new,courier,monospace;">head statlogs_20050102.txt</span>", y me mostró instantáneamente las primeras diez lineas del archivo. Allí pude ver cual era el formato:
+
+<div style="margin-left: 40px;"><span style="font-family: courier new,courier,monospace;">15842;S;01158353525;15842;Message delivered;00:00</span><br style="font-family: courier new,courier,monospace;" /><span style="font-family: courier new,courier,monospace;">15842;S;02616502229;15842;Message delivered;00:00</span><br style="font-family: courier new,courier,monospace;" /><span style="font-family: courier new,courier,monospace;">15005;S;02362535926;15005;Message delivered;00:00</span><br style="font-family: courier new,courier,monospace;" /><span style="font-family: courier new,courier,monospace;">15842;S;02616592586;15842;Message delivered;00:00</span><br style="font-family: courier new,courier,monospace;" /><span style="font-family: courier new,courier,monospace;">15842;S;03814423758;15842;Message delivered;00:00</span><br style="font-family: courier new,courier,monospace;" /><span style="font-family: courier new,courier,monospace;">15004;S;01154975858;15004;Message delivered;00:00</span><br style="font-family: courier new,courier,monospace;" /><span style="font-family: courier new,courier,monospace;">15004;S;02652483462;15004;Message delivered;00:00</span><br style="font-family: courier new,courier,monospace;" /><span style="font-family: courier new,courier,monospace;">15005;S;01158335496;15005;Message delivered;00:00</span><br style="font-family: courier new,courier,monospace;" /><span style="font-family: courier new,courier,monospace;">15005;S;01158268262;15005;Message delivered;00:00</span><br style="font-family: courier new,courier,monospace;" /><span style="font-family: courier new,courier,monospace;">15004;S;02914189236;15004;Message delivered;00:00</span>
+</div>
+Yo tenía que ver cuales eran todos los numeros que estaban en la primer columna. ¿Complicado? ¡Para nada! Usé la órden...
+
+<div style="margin-left: 40px;"><span style="font-family: courier new,courier,monospace;">awk -F';' '{print $1}' statlogs_20050102.txt | sort -u</span><br style="font-family: courier new,courier,monospace;" /></div>
+...que me dió el resultado deseado:
+
+<div style="margin-left: 40px;"><span style="font-family: courier new,courier,monospace;">111</span><br style="font-family: courier new,courier,monospace;" /><span style="font-family: courier new,courier,monospace;">15000</span><br style="font-family: courier new,courier,monospace;" /><span style="font-family: courier new,courier,monospace;">15002</span><br style="font-family: courier new,courier,monospace;" /><span style="font-family: courier new,courier,monospace;">15003</span><br style="font-family: courier new,courier,monospace;" /><span style="font-family: courier new,courier,monospace;">15004</span><br style="font-family: courier new,courier,monospace;" /><span style="font-family: courier new,courier,monospace;">(etc)</span>
+</div>
+¡¡en 78 segundos!! ¡¡más de cinco millones de registros!! (consideren que es una PC de escritorio que está siendo compartida por varios usuarios; ya que estamos, les comento que hace 207 días que está prendida, trabajando sin chistar, sin tener que reiniciarla).
+
+Y aún más importante, en este minuto y monedas, yo no tuve que hacer nada: así hubiese tardado diez minutos, trabajó la máquina sola, yo perdí veinte segundos en armar la órden y luego estuve leyendo mails, etc...
+
+¿Cómo habrían hecho esto en Windows?[@more@]
+ |

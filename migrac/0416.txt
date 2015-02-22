@@ -1,0 +1,14 @@
+2009-06-08 13:36:21
+Frase
+<tags>
+
+
+En los canales de IRC hay algo que se llama <em>topic</em>, que es una especie de título, o tópico del canal, y se usa mucho para contar de que va el mismo, hacer anuncios, etc.
+
+
+
+En el canal de Python Argentina (#pyar, Freenode) lo usamos bastante libremente. Hoy fui a poner el anuncio de que necesitamos que <a href="http://ar.pycon.org/2009/conference/proposals/">propongan charlas para PyConAr09</a>, y tuve que sacar la siguiente frase de Naty Bidart, pero como está <em>tan buenísima</em>, la copio acá para la posteridad:
+
+
+
+<em>Python es de las mejores cosas que te van a pasar en la vida ñoña</em>                                                                                                                                                                                                                                                                                                                                                |

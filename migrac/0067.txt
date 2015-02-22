@@ -1,0 +1,47 @@
+2005-08-10 08:09:41
+Nuevo planeta, Discovery y varios
+<tags>
+
+<span style="font-weight: bold">Nuevo planeta</span>
+
+Parece que encontraron un nuevo planeta en el sistema solar, <a href="http://es.wikipedia.org/wiki/Sedna">Sedna</a>. Digo parece porque encontraron un cuerpo celeste, pero no están seguros por su tamaño si Sedna debería recibir la catalogación de planeta (aunque quizás <a href="http://es.wikipedia.org/wiki/Plut%C3%B3n_%28planeta%29">Plutón</a> tampoco debería ser considerado como tal).
+
+Plutón, el planeta más alejado del Sistema Solar, tiene 2.275 kilómetros de diámetro, y Sedna podría tener entre 1.290 y 1.770 kilómetros. Hay un detalle también con que Sedna es más rojo que cualquier otro cuerpo del Sistema Solar, con la excepción de Marte, y además es muy brillante. Los astrónomos no esperaban encontrar nada tan rojo y tan brillante tan lejos.
+
+Bienvenido.
+
+
+<span style="font-weight: bold">Discovery en problemas</span>
+
+El Discovery al final aterrizó bien, sano y salvo, así como todos sus pasajeros. Se le complicó porque se dañaron los recubrimientos térmicos al despegar, pero lo pudieron arreglar en el espacio y reentrar en la atmósfera terrestre sin problema (con el <a href="http://es.wikipedia.org/wiki/Transbordador_espacial_Columbia">Columbia</a> pasó lo mismo, pero no se dieron cuenta y se destruyó al volver).
+
+&iquest;Y por qué tiene la <a href="http://es.wikipedia.org/wiki/NASA">NASA</a> esta serie de problemas? Dinero. Es fácil. Dinero. Comprenderán que las actividades aerospaciales no son baratas. Y desde que a EEUU dejó de interesarle competir con URSS por la supremacía aeroespacial, la NASA comenzó a recibir recortes de presupuesto. Por ejemplo, el presupuesto total de la NASA fue reducido un 40% en los &uacute;ltimos diez años <a href="http://news.bbc.co.uk/hi/spanish/news/newsid_2730000/2730391.stm">[-]</a>.
+
+La NASA cuenta con el mayor presupuesto del mundo para la exploración espacial, con más de 16.000 millones de dólares por año <a href="http://espectador.com/nota.php?idNota=46596">[-]</a>. Ahora comparemos esto con el dinero que está gastando Estados Unidos para matar gente en Irak y alrededores: 314 mil millones de dólares. Y encima calculan (conservadoramente) que van a necesitar otros 450 durante los próximos 10 años. <a href="http://www.jornada.unam.mx/2005/jul05/050720/022a1eco.php">[-]</a>
+
+Considerando que Estados Unidos es una de las principales potencias del mundo (después si quieren discutimos como entra en el ranking con Europa y China), es interesante analizar como una cultura extraterrestre percibiría qué nos interesa como humanos, qué objetivos seguimos en este planeta...
+
+<br style="font-weight: bold" /><span style="font-weight: bold">Varios</span>
+
+Una foto de Guillermo:
+
+<img src="http://farm2.static.flickr.com/1183/530138768_9311d63eef_o.jpg" border="0" />
+
+
+Agregué mi CV, accesible a través de la barra de la derecha  (en versiones <a href="http://www.taniquetil.com.ar/facundo/bdvfiles/CV_Facundo_Batista_en.pdf">inglés</a> y <a href="http://www.taniquetil.com.ar/facundo/bdvfiles/CV_Facundo_Batista_es.pdf">castellano</a>), por si alguien tiene alg&uacute;n laburo piola para ofrecerme, :p
+
+
+Vi <span style="font-style: italic">The butterfly effect</span>: +1
+
+
+Citas:
+<div style="margin-left: 40px">
+Indeed, when I design my killer language, the identifiers "foo" and "bar" will be reserved words, never used, and not even mentioned in the reference manual. Any program using one will simply dump core without comment. Multitudes will rejoice.
+<span style="font-style: italic">Tim Peters, 29 Apr 1998</span>
+
+Two things I learned for sure during a particularly intense acid trip in my own lost youth: (1) everything is a trivial special case of something else; and, (2) death is a bunch of blue spheres.
+<span style="font-style: italic">Tim Peters, 1 May 1998</span>
+
+OO styles help in part because they make it easier to redo large parts over, or, when the moon is shining just right, to steal large parts from someone else. Python helps in many additional ways regardless of style, not least of which in that it hurts less to throw away 50 lines of code than 5,000 &lt;0.5 wink&gt;. The pains, and joys, of programming are qualitatively the same under Python. There&#39;s less pain less often, and joy comes quicker. And that&#39;s worth a whole lot.
+<span style="font-style: italic">Tim Peters, 5 Jun 1998</span>
+</div>[@more@] |

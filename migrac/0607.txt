@@ -1,0 +1,42 @@
+2013-05-02 01:09:03
+Estructura de costos de tener un auto
+<tags>
+
+El siguiente es el análisis de todos los gastos durante el primer año al auto que compramos con Moni el año pasado, un <a href="http://www.renault.com.ar/automoviles/nuevostepway">Sandero Stepway 1.6</a>.
+
+La idea es poder ver cuanto cuesta tener y mantener un auto mediano, y cuales son los rubros que más impactan en ese valor.
+
+Los gastos están separados en distintos rubros, algunos fijos y otros variables (en función del kilometraje). Estos rubros son los que yo uso para llevar mi contabilidad casera, por eso los tengo separado así.
+
+Los rubros son:</p>
+<ul>
+<li>Estacionamiento: no pago cochera fija por mes (ni en casa (y yo laburo en casa), ni cuando Moni va a trabajar), así que este gasto es el estacionamiento cada vez que voy a Capital o parecido, más alguna que otra fichita de parquímetro.</li>
+<li>Seguro: el auto tiene seguro contra terceros completo en La Caja a través del Automóvil Club Argentino (ACA), pero aparte de ese costo, acá incluyo el mismo valor que yo guardo como "autoaseguro" (que es un yeite que me rinde más que pagar directamente un seguro más caro). En otras palabras, el valor este es mitad para "el seguro", mitad para un "sobre" en el que guardo plata para gastos que el seguro cubriría si fuese más alto.</li>
+<li>Patente: eso, la patente, tener en cuenta que el auto está anotado en Provincia de Bs As.</li>
+<li>Mantenimiento: principalmente el ACA por mes y alg&uacute;n que otro lavado del auto, ya que como el auto es nuevo y está en garantía no tengo gastos de mecánico (pero justamente por esto, acá están incluidos los gastos de los dos servicios, de 10 y 20 mil kilómetros); un detalle es que los primeros tres meses del auto no pagué el servicio ACA porque me los bonificaron al tomar el seguro.</li>
+<li>Nafta: más claro echale nafta: los gastos de ídem; ojo con sacar alg&uacute;n rendimiento a partir de este valor, ya que el gasto de nafta está afectado muchas veces por el descuento del ACA o de pagar con la tarjeta el domingo.</li>
+<li>Peajes: los gastos de peajes automáticos en Capital y Gran Buenos Aires, pero no los correspondientes a los peajes en ruta (porque esos los pago en efectivo y los considero como gastos de los viajes mismos, casi siempre vacaciones).</li>
+</ul>
+<p><img src="http://www.taniquetil.com.ar/facundo/imgs/sanderostepway.jpeg" alt="Autito" height="300" width="400" />
+
+A esos rubros, le agrego lo que es la amortización de la compra del auto en sí, considerando el valor que pagué en su momento, y que el auto se amortizaría en cinco años (teniendo en cuenta un valor residual chico).
+
+En este año, que al auto le hicimos 23742 km, los gastos fueron:
+
+<span style="font-family: courier new,courier;">&nbsp; Estacionamiento: $ 3761.25</span>
+<span style="font-family: courier new,courier;">&nbsp; Seguro:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $ 4457.00</span>
+<span style="font-family: courier new,courier;">&nbsp; Patente:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $ 2545.20</span>
+<span style="font-family: courier new,courier;">&nbsp; Mantenimiento:&nbsp;&nbsp; $ 3539.00</span>
+<span style="font-family: courier new,courier;">&nbsp; Nafta:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $11641.92</span>
+<span style="font-family: courier new,courier;">&nbsp; Peajes:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $ 1281.69</span>
+<span style="font-family: courier new,courier;">&nbsp; Amortización:&nbsp;&nbsp;&nbsp; $14300.00</span>
+
+El gasto total en este año (considerando gastos fijos y variables) es de $41526, lo cual da $3461 por mes: $2070 de gastos fijos ($878 sin contar la amortización), y $1390 de gastos variables.
+
+El costo total por kilómetro es de $1.76. Este valor es interesante porque toma en cuenta todos los gastos fijos, más variables, más el costo de comprar el auto (teniéndolo cinco años y luego vendiéndolo), y me da la pauta que (en mi caso!) conviene tener auto que moverme en remis.
+
+Otra conclusión interesante es que la nafta representa el 28% del costo total total del auto, &iexcl;nada despreciable!
+
+Pueden ver los cálculos en <a href="http://www.taniquetil.com.ar/facundo/costoauto1.pdf">este PDF</a>, pero si quieren les dejo el <a href="http://www.taniquetil.com.ar/facundo/costoauto1.ipynb">notebook ipython que armé</a>, para que jueguen con él (lo bajan y hacen <span style="font-family: courier new,courier;">ipython notebook costoauto1.ipynb</span>).
+
+Es interesante por si quieren ver por ejemplo el costo total por kilómetro si le hacen mucho menos recorrido (por ejemplo, porque viven en Capital y se moverían en subte), y de ahí comparar si les conviene tener el auto o usar remises; o agarrar las cuentas y sumarle un valor de estacionamiento fijo, etc. Y obvio, para actualizar el precio de compra que hoy es más que el año pasado...</p> |

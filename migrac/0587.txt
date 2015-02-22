@@ -1,0 +1,17 @@
+2012-12-04 21:51:25
+Charlas repetidas
+<tags>
+
+Les comentaba en un post anterior que había vuelto a dar "Entendiendo Unicode" en las PyCones de Argentina y Venezuela. Charlando con alguien más de este tema, le decía que seguramente era la charla que más veces dí.
+
+Bueno, no, este es el top 5 de <a href="http://www.taniquetil.com.ar/facundo/charlas.html">todas las charlas que dí</a>:
+
+<span style="font-family: courier new,courier;">&nbsp;&nbsp; 13&nbsp; Introducción a Python</span>
+<span style="font-family: courier new,courier;">&nbsp;&nbsp; 10&nbsp; Entendiendo Unicode</span>
+<span style="font-family: courier new,courier;">&nbsp;&nbsp;&nbsp; 8&nbsp; Python más rápido que C</span>
+<span style="font-family: courier new,courier;">&nbsp;&nbsp;&nbsp; 4&nbsp; Python 3000</span>
+<span style="font-family: courier new,courier;">&nbsp;&nbsp;&nbsp; 3&nbsp; Comunidad, anarquía y subversión</span>
+
+Se acumulan las repeticiones.
+
+Y es algo natural, teniendo en cuenta que por año preparo casi siempre una charla nueva pero presento entre media docena y una docena de veces...</p> |

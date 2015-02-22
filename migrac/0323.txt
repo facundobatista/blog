@@ -1,0 +1,102 @@
+2008-02-04 20:07:12
+Wikipedia para todos
+<tags>
+
+<strong>&iquest;Cuál es la idea?</strong>
+
+Wikipedia Offline, o CDPedia, es un <a href="http://www.python.com.ar/moin/Proyectos">proyecto de PyAr</a> que arrancó hace un par de años.
+
+El proyecto basicamente es armar un CD (originalmente, al menos, hoy en día podríamos armar también un DVD, por la cantidad actual de información) que contenga toda o gran parte de la wikipedia en español.
+
+Al tener toda la info en el disco, no es necesario estar conectado a internet para hacer uso de la Wikipedia, lo que permitiría la utilización de este conocimiento en lugares donde la conexión es complicada, cara, o directamente inexistente. Apuntamos también a minimizar los recursos necesarios para hacer uso de esta herramienta, de manera que se pueda utilizar en computadoras más o menos básicas. En resumen, nuestro objetivo es que se pueda utilizar la wikipedia en las escuelas de todo el pais, aunque tengan computadoras viejas y no estén conectadas a internet.
+
+Al CD se lo puede utilizar de dos maneras. Una es sin instalación alguna: con sólo tener un navegador web instalado en la máquina, uno pone el CD y comienza a usarlo directamente. La otra manera es realizando la instalación.
+
+Este &uacute;ltimo método tiene el &uacute;nico costo de tener que tener espacio libre en el disco rígido, pero también algunas ventajas importantes:
+
+- Velocidad: Todas las consultas se harán sobre el disco rígido y no sobre el CD, lo cual es más rápido. También es probable que al instalar expandamos algunas estructuras de datos, que en la consulta directa al CD tenga que hacerse en el momento.
+
+- Accesibilidad: En el momento de la instalación (o más adelante, existe la opción), se puede crear un índice completo de la wikipedia. Esto permitiría realizar b&uacute;squedas en el cuerpo de los artículos y no sólo en los títulos.
+
+- Reutilización: Una vez instalado el producto, se puede prestar o regalar el CD a otra persona, y que lo utilice como quiera.
+
+Es importante recalcar que alentamos y recomendamos la distribución de los CDs armados, de manera que la información sea accesible por más gente. Otro detalle es que el producto debe correr en los tres principales entornos de usuario final: Linux, Windows y Mac.
+
+
+<strong>Laburando</strong>
+
+Mi idea es aprovechar el Campamento Python a realizarse en Córdoba del 15 al 18 de Febrero para trabajar en este proyecto. Recuerden traer el <a href="http://www.7-zip.org/es/">7z</a> instalado, para poder comprimir y descomprimir archivos en este formato, y&nbsp; (que deberían encontrar <a href="http://static.wikipedia.org/">acá</a>, pero no sé por qué en este momento no están todos).
+
+El mismo estuvo bastante tiempo abandonado, luego de unos esfuerzos iniciales, y apenas lo retomamos Alecu y el que suscribe el día del <a href="http://www.taniquetil.com.ar/plog/post/1/311">Taller de Software Libre</a>, dónde retomamos un poco el hilo del desarrollo. El repositorio está <a href="https://opensvn.csie.org/PyAr/wikipediaOffline/">acá</a> y tienen más info del proyecto <a href="https://opensvn.csie.org/traccgi/PyAr/wiki/WikipediaOffline">acá</a> (aunque hay que revisarla y retrabajarla).
+
+Cabe acotar que los esfuerzos iniciales se vieron truncados ante la imposibilidad de lograr un objetivo que era demasiado ambicioso, que versaba sobre los requerimientos mínimos de la máquina donde este producto debía correr. Es por eso que ahora no tenemos estos requerimientos, sino que la idea es hacerlo, y luego ver qué máquina se necesita (y optimizar lo que corresponda si no estamos satisfechos en ese aspecto).
+
+El principal inconveniente que encontramos al retomar el proyecto es que cuando arrancamos con el mismo, el dump estático de la wikipedia (que es con lo que trabajamos como fuente de datos, un archivo que libera la Wikipedia y que para español se llama <em><font face="courier new,courier">wikipedia-es-html.7z</font></em>) pesaba 1559 MB y tenía adentro 171 mil archivos, y cuando lo revisamos con Alecu el otro día pesaba 8757 MB y tenía adentro 759 mil archivos. Por esto tuvimos que modificar algunas herramientas que trabajaban con ese archivo expandido, para que trabajen directamente con el comprimido.
+
+El otro problema con el que nos enfrentamos es que ahora es imposible meter toda la info en un CD, y que o tenemos que usar un DVD, o tenemos que recortar la info de alguna manera. Tengan en cuenta que todo esos archivos son solamente los htmls, y no las imágenes...
+
+
+<strong>Partes del proyecto</strong>
+
+Para que varias personas puedan trabajar en el proyecto como equipos separados, rearmé la estructura del mismo en función de tareas separadas que no interac&uacute;an demasiado entre sí, sino que bastaría con definir con qué termina una etapa y qué tomaría la siguiente para trabajar.
+
+La primera etapa toma el archivo crudo obtenido de la wikipedia, y deja la info resultante para trabajar. La segunda etapa toma esta información, genera los datos complementarios necesarios (cómo estructuras de índices, por ejemplo), y arma la info final consultable. La tercera etapa es la que permite consultar esta info, instalar el producto, etc, y deja como resultado final el .iso listo para quemar en los discos.
+
+Paso a detallar, entonces, qué tenemos en cada etapa del proyecto, y qué faltaría, de manera de que todos podamos ir pensando con anterioridad al campamento qué hacer en cada etapa, y luego allí podamos discutirlo.
+
+
+<strong>Primera etapa, o Preproceso</strong>
+
+La fuente de info aquí es el archivo que ya deberíamos tener bajado en el disco, más las imágenes que bajaríamos luego, y un dato importante que viene de la segunda etapa del proyecto, y es el tamaño máximo que deberíamos ocupar en el disco.
+
+Los pasos en esta etapa, a groso modo, son:
+
+- Agarrar los htmls del archivo: deberíamos tener el archivo ya bajado de antes!
+- Descartar aquellas páginas que no queremos: algunas páginas se descartan siempre (discusiones de usuarios, etc.), otras en función de un análisis más elaborado que está recortando nuestra información.
+- Limpiar las páginas que sí queremos: cuando decidimos quedarnos con ese html, no queremos <em>todo</em> ese html.
+- Bajar las imágenes en los tamaños deseados: al final, luego de ver el tamaño que ocupa el texto que decidimos guardar, bajamos las imágenes que correspondan.
+
+Con respecto a descartar las páginas, cómo dije recién tenemos dos grupos:
+
+- Descartar seg&uacute;n tipo: En función del tipo de página y de cuanto ocupan todas aquellas de ese tipo, debemos decidir si guardarlas o no. Para esto, primero hay que realizar un análisis previo, decidir qué grupos conservar, y filtrar. En <em><font face="courier new,courier">config.py</font></em> tenemos el archivo de configuración de qué quedarnos y qué no. La estadística que figura en ese archivo sale de correr <em><font face="courier new,courier">makeLista.py</font></em>. Tenemos también el programa <font face="courier new,courier"><em>SearchAndDestroy.py</em></font> que utiliza la info de config antedicha y limpia el archivo comprimido (tener en cuenta que este programa no fue actualizado, por lo que intenta descomprimir el archivo, lo que seguramente nos traerá problemas a nivel de espacio de disco; tenemos que adaptarlo para que vaya retirando del .7z sólo lo que corresponde).
+
+- Descartar información: Como todo no entra en un CD (y posiblemente, dentro de un tiempo, tampoco en un DVD), tenemos que prever alguna forma de descartar información válida (o sea, páginas reales, que de alguna manera determinamos que son menos importantes que las que queremos guardar). El punto álgido aquí, obviamente, es cómo saber qué páginas son más importantes que otras. Hemos discutido varias alternativas, como sacar estadísticas sobre tráfico real (con el problema de que esta info es muy dificil de conseguir), o utilizar las votaciones de calidad de las páginas (con el problema de que hay muy pocas evaluadas de esta manera). La mejor solución encontrada hasta ahora es ponerle puntos a cada página en función de cuantas otras páginas apuntan a esta (algoritmo que hemos dado en llamar Peishranc, ver el programa <font face="courier new,courier"><em>peishranc.py</em></font>); esto tiene la ventaja de que seguramente estamos evaluando popularidad (cuanta más puntas para llegar a una página, es más probable qué lleguemos a ella), de alguna manera calidad (es más probable que una página <em>buena</em> esté muy referenciada), y encima es el método que mejor asegura una buena navegación en la wikipedia offline (si eliminamos las páginas menos referenciadas, minimizamos la posibilidad de que alguien haga click a una página que no incluimos).
+
+Luego de hacer toooodos estos análisis, hay que evaluar cual es el peso de las páginas que decidimos conservar, y evaluar qué imágenemos ponemos para terminar de llenar la capacidad que nos indicaron al principio. Podemos poner imágenes para todas las páginas, o sólo para aquellas con peishranc más alto, pero en cualquier caso las tenemos que bajar en el momento (el archivo completo pesa como 100 GB), y achicarlas en tamaño ya que es mejor poner muchas imágenes más chicas que pocas en tamaño original (atención: ver si no es posible bajarlas directamente del tamaño deseado). Ver el programa <font face="courier new,courier"><em>convertidor.py</em></font>, que va jugando con un conjunto de imágenes hasta que todas ocupan un tamaño determinado.
+
+
+<strong>Segunda etapa, o Armado</strong>
+
+En esta segunda etapa debemos armar las estructuras complementarias de la información que nos dejaron. El índice de los títulos es la estructura más obvia a armar. Pero también debemos proveer un programa que genere un índice completo de la info de la wikipedia para el momento de la instalación.
+
+Es responsabilidad de esta etapa generar también los programas o interfaces que permitan la utilización de estas estructuras adicionales, especificando de forma clara (bah, la API) para que la interfaz de usuario final permita acceder a la información necesaria.
+
+Con respecto al <em>full text index</em>, hay un programa <font face="courier new,courier"><em>cdpindex.py</em></font> que ya exploró algo de esto, pero no sé en qué estado está (preguntarle a Lucio).
+
+Un n&uacute;mero interesante que sacamos de esta segunda etapa es el overhead que le ponemos a la info cruda, a nivel estadístico. Por ejemplo, podríamos ocupar un 20% más.
+
+
+<strong>Tercer etapa, o Aplicación</strong>
+
+Esta es la etapa que tiene que manejar distintos sistemas por separado:
+
+- Server web para servir las páginas, modificándolas para que apunten a el mismo servidor y no a la web (ver si esto es mejor hacerlo antes). Ver el <em><font face="courier new,courier">server.py</font></em>.
+
+- Página principal: Es la primera que ve el usuario final al arrancar el sistema, y permitiría buscar en la wikipedia, ver alg&uacute;n artículo al azar, posiblemente ver algunos recomendados (en función del peishranc) o el historial del usuario, etc. También permitiría instalar el producto, si lo estamos usando desde CD o DVD.
+
+- Instalador: Permite copiar toda la info al disco duro, armar los accesos directos correspondientes, generar estructuras de datos adicionales si el usuario decide hacerlo en ese momento, etc.
+
+Tanto el servidor web como el instalador (&iexcl;especialmente el instalador!), tienen que ser multiplataforma.
+
+El espacio que ocuparían estos sistemas debería ser bastante estático. Con este dato, y en función del overhead de la etapa 2, podríamos indicar un n&uacute;mero bastante acertado para que la primera etapa se acote a si misma.
+
+
+<strong>Conclusiones</strong>
+
+Hay mucho laburo para hacer. Pero antes que nada, debemos decidir bastantes detalles.
+
+El sistema no es sencillo. Implica procesar una alta cantidad de datos, bajar muchas imágenes de la red, armar estructuras de datos complejas, servir páginas web, e instaladores multiplataforma.
+
+Pero es un desafío super interesante, y sé que Python Argentina está a la altura del mismo (aunque nos lleve tiempo, je).
+
+&iexcl;Ahí vamos![@more@] |

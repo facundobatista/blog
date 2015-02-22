@@ -1,0 +1,22 @@
+2014-05-04 00:30:30
+Encuentro 2.0
+<tags>
+
+Como varias veces ya les conté, Encuentro es un simple programa que permite buscar, descargar y ver contenido del Canal Encuentro, Paka Paka, BACUA, Educ.ar y otros.
+
+Hoy estoy liberando la versión 2.0, una versión importante ya que hace que todo vuelva a funcionar correctamente, luego que Encuentro y Conectate reconfiguraran sus portales. En otras palabras... actualizá, sí o sí.
+
+<a href="http://encuentro.taniquetil.com.ar/"><img src="http://encuentro.taniquetil.com.ar/imgs/title.png" alt="Encuentro" height="175" width="688" /></a>
+
+La versión 2.0 trae los siguientes cambios con respecto a la versión anterior:</p>
+<ul>
+<li><strong>Vuelve a funcionar</strong> luego de los cambios de backend de Encuentro y Conectate</li>
+<li><strong>Maneja las temporadas de los programas</strong>; no se repiten nombres y graba agrupado a disco</li>
+<li>Sólo anota (y <strong>no requiere aprobación del usuario</strong>) al tener errores en la descarga</li>
+<li><strong>Mejor manejo de las imágenes</strong> de los episodios, con lo cual ahora se ven las de Bacua</li>
+<li>Actualiza <strong>automáticamente</strong> la metadata si se la encuentra demasiado desactualizada</li>
+<li>El proyecto tiene <strong>menos dependencias</strong>, es más simple hacerlo funcionar en más sistemas</li>
+<li>Soporta ser ejecutado en un <strong>virtualenv</strong></li>
+<li>Varias correcciones y detalles para hacerlo <strong>más usable y robusto</strong></li>
+</ul>
+<p>Hay muchas formas de instalarlo, todo bien explicadito en la <a href="http://encuentro.taniquetil.com.ar/">página oficial</a>. &iexcl;Que lo disfruten!</p> |

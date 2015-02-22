@@ -1,0 +1,18 @@
+2005-03-31 11:22:33
+Reclamos, novedades, y artículos
+<tags>
+
+
+Esta semana viene de reclamos. No sólo con Speedy que me tiene sin servicio desde Enero (aunque me siguen cobrando mes a mes), sino que me estoy cruzando varios mails con Subtecard porque, cito, "<span style="font-style: italic;">la pagina de subtecard solo es compatible con Internet Explorer, preferentemente en la versión 6.0....</span>". Imbéciles. Ojalá que cuando tengan que migrar incurran en costos altísimos por haberlo hecho mal de entrada.
+
+Jonathan Gennick <a href="http://www.oreillynet.com/pub/wlg/6767">puso en su blog</a> de O'Reilly que sus charlas preferidas de PyCon 2005 fueron las que dimos Michael y yo, :D
+
+Textos:
+<ul><li><a href="http://www.cs.bgu.ac.il/%7Esipper/papabs/epcm.pdf">Evolution of Parallel Cellular Machines</a>
+(Moshe Sipper): Completísimo (213 páginas) documento sobre máquinas
+celulares y el acercamiento a la programación mediante varias en
+paralelo.</li><li><a href="http://www.joelonsoftware.com/articles/CollegeAdvice.html">Advice for Computer Science College Students</a> (Joel Spolsky): Muy bueno para todos los estudiantes que están relacionados con la ínformática.</li><li><a href="http://www.joelonsoftware.com/articles/fog0000000319.html">Back to Basics</a> (Joel Spolsky): Espectacular artículo mostrando que en computación, siempre hay que saber lo subyacente.</li><li><a href="http://users.rcn.com/python/download/Descriptor.htm">How-To Guide for Descriptors</a> (Raymond Hettinger): Muy buen tutorial de cómo usar descriptores en Python.</li></ul>Ayer fui a ver Constantine: +0 (y si querés saber por qué soy tan locuaz con la calificación, consultá <a href="http://www.taniquetil.com.ar/plog/post/1/34">este post previo</a>).
+
+[@more@]
+
+ |

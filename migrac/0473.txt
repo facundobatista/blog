@@ -1,0 +1,82 @@
+2010-07-22 14:00:54
+Metiendo la uña del pulgar
+<tags>
+
+
+<em>"Uña del pulgar", o </em>thumbnail<em> es una versión reducida de una imagen, usada para ayudar a su organización y reconocimiento. En la era de las imágenes digitales, los motores de b&uacute;squeda visuales y los programas para organizar imágenes normalmente hacen uso de los thumbnails, así como los sistemas operativos y entornos de escritorio recientes <a href="http://es.wikipedia.org/wiki/Thumbnail">[-]</a></em>
+
+
+
+Hace unos meses mandé a digitalizar unas diapositivas que tenía mi familia. Un par de días atrás empecé a procesarlas, usando el <a href="http://jbrout.python-hosting.com/">JBrout</a> para agregarle los tags indicando metadata de la imagen (lugar, año, gente que aparece, etc.).
+
+
+
+El problema que tuve es que cuando abría con el JBrout fotos que había sacado yo, las veía perfectamente, pero cuando abría las diapositivas, veía una "X" fea que no me decía nada. No tardé demasiado en darme cuenta que el problema era que el JPEG no tenía adentro el correspondiente thumbnail.
+
+
+
+Entonces, &iquest;cómo les metí el thumbnail a cada una?
+
+
+
+Luego de buscar un rato por la web (pensé que tenía que haber alg&uacute;n programa que lo hiciera solo y masivo), encontré esta forma (lo más probable es que hayan mil más...).
+
+
+
+<span style="font-family: courier new,courier">&nbsp;&nbsp;&nbsp; convert foto_original.jpg -thumbnail '200x200&gt;' -unsharp 0x.5 thumbnail.jpg</span>
+
+
+
+<em>convert</em> es uno de los utilitarios de la fantástica <a href="http://www.imagemagick.org/script/index.php">ImageMagick</a>, toma mi <span style="font-family: courier new,courier">foto_original.jpg</span> y me deja <span style="font-family: courier new,courier">thumbnail.jpg</span>. El <span style="font-family: courier new,courier">-thumbnail</span> le dice que voy a generar justamente un thumbnail, lo cual aparte de cambiar el tamaño hace otras cosas (por ejemplo, le saca toda la metadata interna, para que ocupe menos). El <span style="font-family: courier new,courier">'200x200&gt;'</span> es una notación de ImageMagick que indica que la imagen resultante tiene que caber en una zona de 200 por 200 (o sea, me la reduce manteniendo el factor de forma hasta que el alto o el ancho ocupen como mucho 200 pixeles). El <span style="font-family: courier new,courier">-unsharp 0x.5</span> lo recomiendan para mejorar la visualización de la imagen pequeñita. En <a href="http://www.imagemagick.org/Usage/thumbnails/">esta página</a> tienen otros detalles y temas a considerar al generar thumbnails (que no se aplican en mi caso).
+
+
+
+Luego, para poner esa nueva y pequeña imagen dentro de la original, utilicé otro utilitario:
+
+
+
+<span style="font-family: courier new,courier">&nbsp;&nbsp;&nbsp; exiftool '-ThumbnailImage&lt;=thumbnail.jpg' foto_original.jpg</span>
+
+
+
+No hay demasiado que explicar en este caso.
+
+
+
+Luego de verificar que todo funcionó correctamente, pasé a trabajar todas las diapositivas en masa. Los archivos tenían esta estructura: tres directorios <span style="font-family: courier new,courier">CajaA</span>, <span style="font-family: courier new,courier">CajaB</span> y <span style="font-family: courier new,courier">CajaC</span> (correspondientes a las tres cajas de diapositivas que mandé a digitalizar), con archivos adentro tipo <span style="font-family: courier new,courier">a001.jpg</span>, <span style="font-family: courier new,courier">b033.jpg</span>, etc.
+
+
+
+Obviamente no iba a ejecutar esos dos comandos uno por uno para cada imagen, así que pasé a hacer uso del poder de bash, y escribí en la terminal:
+
+
+
+<span style="font-family: courier new,courier">&nbsp;&nbsp;&nbsp; for foto in `find -name "????.jpg"`; do
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; echo $foto;
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; convert $foto -thumbnail '200x200&gt;' -unsharp 0x.5 $foto.thumb;
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; exiftool '-ThumbnailImage&lt;='$foto.thumb $foto;
+
+&nbsp;&nbsp;&nbsp; done;</span>
+
+
+
+Basicamente, un loop sobre todas los archivos, haciendo un <span style="font-family: courier new,courier">echo</span> para ver qué procesaba, más los dos comandos anteriores.
+
+
+
+Esto me dejó todo procesado, pero medio sucio, ya que por cada imagen tenía un <span style="font-family: courier new,courier">.thumb</span>, y además un <span style="font-family: courier new,courier">_original</span> que deja el <span style="font-family: courier new,courier">exiftool</span>. Así que procedí a borrar todo eso:
+
+
+
+<span style="font-family: courier new,courier">&nbsp;&nbsp;&nbsp; find -name '*.thumb' -or -name '*_original' | xargs rm</span>
+
+
+
+O sea, le dije a <span style="font-family: courier new,courier">find</span> que encuentre todos los archivos que quería borrar, pero en lugar de mostrarlos por pantalla, se los pasé a xargs que los fue tomando y aplicando el <span style="font-family: courier new,courier">rm</span> para borrarlos.
+
+
+
+Resultado final: tengo todas mis diapositivas con un thumbnail adentro. Y de paso aprendí un par de utilitarios nuevos, y algunas otras cositas. |

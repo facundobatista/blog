@@ -1,0 +1,43 @@
+2012-07-13 01:26:13
+PyCamp 2012
+<tags>
+
+A esta altura ya no voy a andar explicando qué es un PyCamp, ni todo lo copado que está. Fue repetido hasta el cansancio por mí en este blog y por otros en otros lados. Busquen.
+
+Este año no fue la excepción, estuvo muy bueno, aunque distinto. Principalmente porque fue en Julio, e hizo mucho frío. Igual, eso no evitó que disfrutemos actividades al aire libre, pero creo que tendimos a salir un poco menos de la comodidad de la zona de trabajo.
+
+<img src="http://www.taniquetil.com.ar/facundo/imgs/pycamp12-interior.jpg" alt="Trabajando cerca del fuego" height="450" width="600" />
+
+El viernes arrancó demasiado lento... la gente fue llegando tarde, y no tuvimos la reunión de selección de proyectos hasta justo antes del almuerzo, y luego de comer hicimos la votación y asignación de slots. Inmediatamente luego de eso me puse a jugar un poquitito con <a href="https://github.com/luciotorre/spacecraft">Spacecraft</a>, un sistema donde se programan navecitas para que luego combatan entre ellas, tratando de darles la mayor "inteligencia" posible.
+
+Estuve con eso hasta que arrancó otro tema que me interesaba mucho: Python en Android.&nbsp; Arrancamos la sesión charlando sobre qué frameworks había, y ventajas y desventaja de cada uno. Finalmente, decidimos probar <a href="http://kivy.org">Kivy</a>, un framewook crossplatform que compila Python para android y escritorio.
+
+Instalarlo y hacerlo andar no fue trivial, pero tuvimos éxito con ejemplos que trae el framework y hacerlos andar en nuestros teléfonos, y la verdad es que quedamos maravillados con los resultados.&nbsp; Lipe siguió luego trabajando con esto e hizo una "botonera de efectos" bastante piola.
+
+A la noche nos hicimos un partidazo de <a href="http://www.enanoverde.com/2010/02/resena-battlestar-galactica-el-juego-de-mesa/">Battlestar Galáctica</a>, pero el sueño me venció y me fui a dormir antes de terminarlo :(
+
+<img src="http://www.taniquetil.com.ar/facundo/imgs/pycamp12-jugando.jpg" alt="Jugando BSG" height="439" width="600" />
+
+El sábado estuve con distintos temas chiquitos, lo más que hice fue trabajar en CDPedia, ultimando detalles que nos permitan hacer un dump actualizado. Charlamos y trabajamos bastante con Diego Mascialino, y creemos que en las próximas semanas ya podríamos estar liberando una nueva versión actualizada, :)
+
+También estuvimos de compras, y hasta hubo un partidito de f&uacute;tbol a la tarde. Después del asado de la cena volvimos a jugar a algo: esta vez, un "Settlers of Catan" pero holandés, que permite jugar hasta seis personas. Buenísimo!
+
+El domingo arranqué duro y parejo con mi programa Encuentro. Yo lo había actualizado para que funcione con el nuevo portal Conectate, pero necesitaba pulir varios detalles tanto en el lado cliente como el servidor. Me ayudaron Diego, Humitos y Martín, y lo dejamos en mucho mejor estado que al principio del PyCamp.
+
+A la tarde hubo un taller de malabares, dictado por Humitos, que estuvo genial. Yo me enganché un ratito, nada más (seguía a full con Encuentro), pero nos tiramos unas clavas entre tres, que nunca había hecho, e hice <a href="http://ubuntuone.com/7dnnMXgArtesuiOCpBDNUM">este videito</a> para compartirles.
+
+Para cerrar el día, luego de cenar, tuvimos reunión de PyAr. Esta vez fue alrededor de una gran fogata que armamos (en un lugar preparado para ello), y la verdad es que estuvo buenísima. Se hablaron de un montón de temas, principalmente de PyCamp, PyCon, y del lugar de PyAr en la sociedad. Pero no hay nada que discutirle: la fogata y estar todos reunidos alrededor de ella le dió un saborcito especial :)
+
+<img src="http://www.taniquetil.com.ar/facundo/imgs/pycamp12-fogata.jpg" alt="Reunión de PyAr" height="450" width="600" />
+
+El lunes, como todo &uacute;ltimo día, estuvo más relajado, y marcado por la despedidas de la gente que se iba a distintas horas. También se cerró el campeonato de ping pong, el cual <a href="http://www.flickr.com/photos/54757453@N00/7557211876/in/photostream">fue facilmente ganado</a> por David que es un profesional en el tema.
+
+Yo le seguí metiendo laburo a Encuentro (ya está casi listo para el release tan esperado que lo vuelve a la vida), pero también me hice un ratito para charlar con Roberto sobre qué posibilidades hay de migrar mi blog a <a href="http://nikola.ralsina.com.ar/">Nikola</a>, y de ir a comprar honguitos a <a href="http://cultivosdelsur.com.ar/cultivos-del-sur.php">la champignonería</a> que está a dos cuadras de donde estábamos nosotros.
+
+Y luego, sí, la etapa de cierre. Ya quedando pocos, terminar de desarmar todo, limpiar, dejar ordenado, saludar a la gente que cuida el lugar, y partir en un viaje que pensamos que iba a ser más complicado (la "vuelta" de un fin de semana largo) pero que no estuvo tan mal.
+
+<img src="http://www.taniquetil.com.ar/facundo/imgs/pycamp12-grupal.jpg" alt="Foto grupal" height="363" width="600" />
+
+En fin. PyCamp. El evento que más me gusta del año.
+
+<em>(algunas fotos: <a href="http://www.flickr.com/photos/70871182@N04/sets/72157630520932678/">acá</a>, <a href="http://www.flickr.com/photos/perrito667/sets/72157630537668742/">acá</a> y <a href="http://www.flickr.com/photos/54757453@N00/sets/72157630546100884/">acá</a>)</em></p> |

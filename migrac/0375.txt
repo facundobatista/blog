@@ -1,0 +1,85 @@
+2008-08-24 21:34:36
+8vas. Jornadas Regionales de Software Libre
+<tags>
+
+<strong>Miércoles</strong>
+
+Llegué a las 9, media hora más tarde de lo que quería, y elegí el lugar para poner el stand de PyAr en el &uacute;nico lugar que quedaba libre, :p.
+
+Me puse a preparar un poco el stand, y a darle una mano a Gacq con las remeras de Organización. Estuvimos laburando bastante con Alecu, quien llegó tempranito, para armar todo el stand: poner la bandera, armar la cartelera de trabajos, desparramar los folletos, poner los avisos del sorteo de libros, etc...
+
+No llegué casi a terminar de sentarme en el stand, que tuve que salir corriendo al aula 3.5, porque daba mi primer charla ("Entendiendo Unicode"), y porque estaba a cargo del aula para mi charla y la próxima. El aula era chica, y el proyector apareció enseguida, pero el cable de energía era corto y no llegaba al tomacorriente de la pared. Esperé un rato, pero como no me conseguían un alargue, bajé corriendo y saqué mi zapatilla (que la tenía en el stand), y usé eso.
+
+Mi charla estuvo buena. Era la segunda vez que la daba, pero había incorporado un montón de mejoras que me había pasado Achuni, así que fue más coherente internamente, expliqué de entrada dudas que podían surgir, y llené bien la hora de charla, con preguntas y todo. No se cuanta gente vino, pero el aulita estaba llena, :)
+
+Al terminar, me quedé ahí esperando que venga el próximo disertante, pero enseguida vino José (que era el coordinador del piso), a avisarme que el disertante se había equivocado de sede de la Universidad, e iba a llegar al rato. Así que nos quedamos charlando con la gente, pero a los cinco minutos el proyector, sin avisar ni nada, dejó de emitir luz, y no logramos que volviera a funcionar correctamente. Supusimos que se había quemado, o algo, especialmente porque escuchamos un ruido feo y uno de los chicos dice haber visto un fogonazo en el interior del aparato...
+
+Lo llamé a José, los chicos se movieron con la eficiencia acostumbrada, y a los pocos minutos ya teniamos un reemplazo del proyector, incluso antes que llegara el disertante, el cual finalmente llegó unos 25 minutos tarde. Conectó su laptop, y luego de 10 minutos decidió que su máquina no iba a funcionar correctamente con ese proyector, y yo decidí prestarle la mía... para lo cual me tenía que pasar su charla, tarea en la que se demoró 5 minutos, también. Terminó arrancando menos veinte, pero un organizador nos avisó que podíamos extendernos hasta y cuarto, así que finalmente pudo dar algo de contenido.
+
+Yo bajé luego al stand, y estuve ahí charlando con gente, entregando folletos, haciendo preguntitas Python para entregar los n&uacute;meros del sorteo de los libros... bah, todas esas tareas que uno hace cuando está en un stand. La cuestión es que antes de que me diera cuenta era la hora para mi próxima charla, y me había perdido el almuerzo.
+
+Subí al piso diez, donde tuve la buena sorpresa de que el aula era bastante grande (menos mal, porque metí 80 personas, :D ). El problema, en este caso, fue que no apareció un proyector hasta luego de media hora, así que estuve charlando generalidades primero, y dando la charla rápido después, pero estuvo todo bien, y la gente se fue contenta. Incluso me quedé como media hora de más charlando y contestando preguntas en el pasillo.
+
+<img src="http://www.taniquetil.com.ar/facundo/imgs/8jrsl-intropython.jpeg" border="0" alt="El p&uacute;blico de mi charla, antes de que sigan llegando..." title="El p&uacute;blico de mi charla, antes de que sigan llegando..." width="500" height="229" />
+
+Más allá de que estuvo Raymond Hettinger en mi charla, :), tuve una experiencia loca: en la charla genérica que tuve en la primera hora, me preguntaron cómo había conocido Python. Estaba contestando la pregunta, y justo en el momento en que digo "...y entonces, luego de mi mala experiencia con Perl, viene un compañero de trabajo y me pasa el Tutorial de Python...". En ese *exacto* momento, entra por la puerta Ramón Franco, *ese* compañero de trabajo. Fue tanta la casualidad, que juro que busqué la cámara oculta...
+
+Luego bajé al stand, me relajé, hice un mate como para almorzar algo (sí, a eso de las cuatro), y me quedé ahí charlando y leyendo algunos mails hasta que se hizo la hora de irnos, y tuvimos que despejar todo.
+
+Me comentaron que se juntaban en una pizzería cercana, así que luego de una pequeña reunión entre los organizadores, arranqué para allá. La idea era quedarme diez minutos, porque estaba filtrado, pero me senté, trajeron cerveza y comida enseguida (después me enteré que era un men&uacute; fijo), se armó la charla y me terminé quedando como dos horas. Igual llegué a casa apenas pasadas las diez, lo cual estuvo muy bien porque estaba bastante agotado.
+
+
+<strong>Jueves</strong>
+
+Arrancamos temprano, pero más tranquilos. Fuí el primero del stand en llegar, así que luego de acomodar un poco las mesas me puse a ayudar a los chicos de Organización, llevando algunas cajas, preparando la mesa de registración, etc.
+
+Como a las nueve y media ya me senté en el stand, porque empezó a entrar el p&uacute;blico, y ya al toque comenzaron a caer todos los del grupete de Python. Tomamos unos mates, charlamos mucho entre nosotros y con los que se acercaban, y la pasamos bien un rato.
+
+A las 11 nos metimos en la primer charla de Raymond: "Python 3000", la cual estuvo muy buena. Lástima que tuvo que arrancar 15 minutos tardes por problemas con el equipo de audio de las traductoras, y no le alcanzó el tiempo para los &uacute;ltimos tres slides.
+
+Luego salimos corriendo a la charla de Naty Bidart, sobre PyGTK y Glade. A PyGTK lo tengo, pero ultimamente estaba dudando si me convenía aprender Glade o no, así que fui a verla. La charla estuvo interesante, y bien dada, pero era bastante básica, así que aproveché mis privilegios de "comunidad", y nos fuimos a comer todos juntos (fuimos Naty, Mariano y yo a un lugar donde estaban otros "compañeritos", y justo se sumó Javi (sí, El Principito) que había llegado a la zona por la conferencia), me senté al lado de ella, y me saqué todas las dudas "más avanzadas"...
+
+<img src="http://www.taniquetil.com.ar/facundo/imgs/8jrsl-almuerzo.jpeg" border="0" alt="Almorzando en un lugar donde tardan bastante en traerte una tarta..." title="Almorzando en un lugar donde tardan bastante en traerte una tarta..." width="450" height="216" />
+
+Comimos rápido porque tuvimos que esperar bastante la comida (yo una simple tarta, aunque estaba muy rica), y volvimos rápido a la segunda charla de Raymond, "Descriptor Tutorial", la cual estuvo muy, muy buena, no sólo porque los conceptos eran super interesantes (aprendimos como manejar una maquinaria de muy bajo nivel de Python), sino tambien porque Raymond es muy pedagógico.
+
+Ya terminada esta charla, volví al stand donde nos quedamos haciendo sociales hasta que se hicieron las seis y cuarto, hora a la que partimos un grupito para el bar donde se hacía la reunión de Python Argentina. Caminamos una doce cuadras, charlando animadamente, y al llegar, subimos al primer piso y nos empezamos a acomodar, y a rediseñar la disposición de las mesas, porque no entrábamos los que ya habíamos llegado.
+
+Encima luego siguió llegando gente, y ya tuvimos que distribuir las mesas como pudimos, porque directamente no entrábamos en el lugar mismo. Pero el corazón es grande, y se resolvió todo bien.
+
+<img src="http://www.taniquetil.com.ar/facundo/imgs/8jrsl-reunionpyar.jpeg" border="0" alt="Apenas entramos, cuando nos servían las mesas como estaban" title="Apenas entramos, cuando nos servían las mesas como estaban" />
+
+Fuimos 41, lo cual es un record absoluto, y ya al ver la cantidad que éramos, y lo complicado que íbamos a estar, se adivinaba que mucho no íbamos a poder charlar. Pero hablamos un poquitito de PyCon 2009, PyCamp 2009, el próximo PyWeek, y sobre las remeras 2.0. Más info, en el log de la reunión.
+
+Después me puse a vender las remeras que había llevado y se armaron distintas charlas. Estuve un buen rato con esto, porque no sólo es venderlas, sino también controlar lo que son los preanotados, analizar si hay excedentes, cobrar, marcar la venta, y todo complicado porque hay 14 tipos de remeras distintas (entre los distintos tamaños y colores). Pero estuvo todo bien.
+
+Luego Marcelo Fernandez sacó el tema de las Certificaciones de Python, sobre lo cual hubo un thread hace poco en la lista de PyAr, y pegué un par de gritos para que los que se interesaban en el tema nos juntaramos a un costadito para poder hablar. Igual la gente estaba en otra, y no se cuanto me escucharon, pero se armó una charla piola en un grupito de unas diez o doce personas. En general, no nos terminamos decidiendo si las certificaciones eran algo bueno o malo, pero sí entendimos que es un tema muy complejo.
+
+Luego vendí un par de remeras más, charlé con algunos, y luego me fui a casita a desmayarme, :p
+
+
+<strong>Viernes</strong>
+
+Llegué tempranito, como siempre, armé el stand y un buen mate, dí una mano en la Organización y me puse a escribir el blog hasta que se hicieron las diez menos cinco, cuando me fuí a ver la charla de Humitos, Alecu y Karucha.
+
+La charla era sobre OLPC y haciendo juegos con PyGame para esa plataforma. Estuvo buena, porque revisaron muchos conceptos... pero lástima que estaba originalmente planeada como taller, pero luego se cancelaron los talleres porque la Universidad de Belgrano no proveyó laboratorios, sólo aulas, así que no se lució tanto...
+
+Esta vez, en lugar de salir, comimos en el stand, ya que no había suficiente tiempo entre charlas como para salir a almorzar por ahí. Luego vino la charla de Humitos, sobre "Colaborando en Python". Estuvo bien, pero la tiene que rellenar con más info, y estar menos nervioso, :).
+
+<img src="http://www.taniquetil.com.ar/facundo/imgs/8jrsl-charlahumitos.jpeg  " border="0" alt="Humitos dando la charla" title="Humitos dando la charla" width="400" height="207" />
+
+Como se quedó un poco corto, tuve unos minutos para bajar, y llegué bien a la charla de Raymond sobre los tipos de datos core de Python. Esta charla ya la había visto en Chicago, pero saqué más cosas nuevas, ya que es muy interesante.
+
+Salí tarde, y me hicieron un tackle para comprar remeras, así que no llegué a ir a la charla de Achuni sobre cómo integrar información de localización con los mapas de Google, la cual me interesaba bastante. Supongo que tendré que buscar los slides por ahí, y preguntarle directamente, :)
+
+A las cinco de la tarde estaba la plenaria de Rik van Riel (desarrollador del kernel de Linux, trabajando en RedHat), sobre por qué las computadoras se están volviendo cada vez más lentas y qué podemos hacer con eso, la cual estuvo sólo medio interesante: el tema estaba muy bien, pero el muchacho este lo hizo bastante aburrido.
+
+Luego, la ceremonia de cierre. Habló Dax, le pasó los elementos ceremoniales a la gente de Chile para que haga la conferencia el año que viene (se hace en dicho vecino pais), y PyAr regaló los libros de O&#39;Reilly que habíamos llevado. Luego, la foto grupal de todos los organizadores:
+
+<img src="http://www.taniquetil.com.ar/facundo/imgs/8jrsl-grupalfinal.jpeg " border="0" alt="Los Organizadores" title="Los Organizadores" width="500" height="300" />
+
+Y ahí terminó, sólo quedaba la joda nocturna. Esta misma recién arrancaba a las 11 de la noche, por lo que algunos nos fuimos a comer algo a la misma pizzería a dónde habíamos ido el miércoles. Cenamos, hicimos algo de tiempo, y recién luego fuimos al bar El Clásico, mismo lugar de la reunión de PyAr del jueves.
+
+Cerveza, algo de comida, bastante joda, mucha mucha charla, y la una de la mañana que arrancó el partido de Argentina por la medalla de oro de Beijing. Yo vi un rato, pero luego levanté a Moni, que estaba durmiendo una siestita, y partimos para casa.
+
+Otro año, otra conferencia. Otro éxito.[@more@] |

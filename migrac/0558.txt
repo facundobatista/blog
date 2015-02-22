@@ -1,0 +1,29 @@
+2012-04-28 00:20:33
+Hola, hola?
+<tags>
+
+Ufff, que flojos que venimos con los posts.
+
+Y no es que no haga nada... es que no estoy tomando ritmo de comentar lo que hago... a ver si puedo hacer alg&uacute;n brain dump rápido y efectivo. Vayamos sin orden aparente, y saltando de tema en tema...
+
+Ya tenemos confirmadas las fechas del PyCamp 2012... va a ser del 6 al 9 de Julio, en Verónica (como hace dos años). Sale edición invernal porque se nos complicó en otros lugares y cuando decidimos acá, ya no teníamos una fecha más cercana. Pero bueno, es lo que hay. La ventaja es que no va a haber mosquitos ;). Y que vamos a hacer buzos de PyAr! Ya hay quince personas que confirmaron y pagaron por venir.... &iquest;vos te lo vas a perder?
+
+El sábado que viene también hay evento Python, en Luján, &iexcl;un PyDay! Va a estar buenísimo, me encantan los PyDay en Universidades, y siempre me gustó la UNLu. Miren <a href="http://www.pyday.com.ar/lujan2012/conference/schedule">que buen cronograma</a>, va a estar genial! El &uacute;nico problema de esa fecha es que es justo cuando <a href="http://erucasativa.com.ar/">Eruca Sativa</a> toca en El Teatro de Colegiales, :(. Y bueno, no se puede todo en la vida. O sí, pero no al mismo tiempo ;)
+
+El otro finde nos fuimos con la familia a Colonia, Uruguay. Pegué descuento para un hotel de esos finoli, así que fuimos a la pile, y después nos hicieron masajitos, re cheto el asunto. Y obvio, paseamos, paseamos y paseamos. Felipe disfrutó de cabo a rabo, hasta el viaje en el ferry! Nosotros también disfrutamos mucho, excepto cuando Felu se ponía denso de que no quería caminar... encima estuvo con algunas lineas de fiebre, pobre, esos días. El domingo lo solucionamos alquilando un "autito para turistas", así que estuvo todo más relajado. &iquest;Fotos? <a href="http://www.flickr.com/photos/54757453@N00/sets/72157629901954927/">Acá</a>.
+
+También fuimos a pasear por San Telmo. Hace rato que lo quería llevar a Felu a sacarse unas fotos con la estatua de Mafalda...
+
+<img src="http://www.taniquetil.com.ar/facundo/imgs/felumafalda.jpg" alt="Felu con Mafalda" width="600" height="497" />
+
+Luego seguimos paseando, obvio. En un estacionamiento reciclado encontramos un muchacho que cantaba "tango flamenco"... o sea, tangos, con estilo flamenco. Era él, con una voz muy cascadota y su guitarra. Y Felu se re copó con el flaco, bailaba, aplaudía... costó arrancarlo de ahí. Pero le compré dos discos, así que a veces se lo paso (la verdad, $25 c/u, no podía ser tan barato).
+
+En otro orden de cosas, y sin comentar cosas demasiado personales antes de tiempo (?), estuve armando unas bibliotequitas para mi oficina, a ver si puedo empezar a traer los libros de la casa de mi viejo de una puta vez. En "la casa" estuve trabajando variado... pero hace rato que tengo atrasado el podar el jardín. Anyway, cuando termine de pintar las bibliotequitas saco foto y muestro.
+
+Con Felu arrancamos "Natación", hacemos 40 piletas cada uno en media hora. No, mentira. Es para niños pequeños, y la idea es que se vaya acostumbrando al agua, que aprenda a sentirla, a disfrutarla. Yo me meto con él, y hacemos juegos con los otros niños y padres/madres, para que vayan aprendiendo a moverse en <em>el líquido elemento</em>.
+
+También fuí al dentista... o a <em>la</em> dentista... nunca sé qué es lo correcto. Me tomé la sana costumbre de ir al menos una vez por año. La buena noticia es que estaba todo bien. Ahora tengo que entrar en ritmo para ir a un médico clínico y hacerme un análisis general también una vez por año. Que los años no vienen solos, joder.
+
+Para cerrar, que sino ya nos vamos al corno y no termino publicando esto nunca, estuve pegándole duro y derecho a <a href="http://python.org.ar/pyar/Proyectos/CDPedia">CDPedia</a>. Empecé a hacer unos "sprints efímeros" con una frecuencia más o menos regular, y contagié con el entusiasmo a otros participantes del proyecto, y le estamos poniendo mucha pila. Estoy contento.
+
+En fin, que lindo popurrí que salió. Chau!</p> |

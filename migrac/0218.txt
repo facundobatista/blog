@@ -1,0 +1,13 @@
+2006-11-09 04:19:11
+Se viene, se viene...
+<tags>
+
+...<a href="http://www.cafeconf.org">CaFeConf 2006</a>, las quintas conferencias abiertas de GNU/Linux y Software Libre.
+
+Este año, como el pasado, doy una charla: <a href="http://www.taniquetil.com.ar/homedevel/presents/intropython.odp">Introducción a Python</a>. Pero este año tiene un gustito particular.
+
+No sólo estoy más comprometido con la conference personalmente (me tomo el viernes en el laburo y voy a ir ambos días de la conferencia todo el día), sino que también tenemos más presencia, como grupo, con <a href="http://www.python.com.ar/moin">Python Argentina</a> (vamos a tener una mesa, finalmente tenemos <a href="http://www.python.com.ar/moin/Bandera/fotos">bandera</a> para mostrar, etc.).
+
+Además, es un fin de semana especial por otro motivo. Traemos para la conferencia, como invitados, a <a href="http://www.aleax.it/">Alex Martelli</a> y Anna Martelli Ravenscroft (los tengo que ir a buscar en un par de horas al aeropuerto). Obvio, aprovecharemos que los tenemos acá, y haremos una reunión de PyAr, la decimonovena, en la Casa del Queso.
+
+Les dejo dos enlaces a notas del diario <a href="http://www.lanacion.com.ar/informaciongeneral/nota.asp?nota_id=855438">La Nación</a> y de <a href="http://infobae.com/notas/nota.php?Idx=284984&amp;IdxSeccion=100918">InfoBAE</a>. Ojo que en el diario La Nación está mal el nombre de Alex (es una verg&uuml;enza, nadie chequea nada, <em>nunca</em> crean lo que leen en un diario), ya que la primer gacetilla de <a href="http://www.cafelug.org.ar/">CaFeLUG</a> salió incorrecta (pero luego la rectificaron).[@more@] |

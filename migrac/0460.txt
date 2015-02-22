@@ -1,0 +1,34 @@
+2010-05-09 22:24:45
+UDS Maverick, uno
+<tags>
+
+
+En la semana del 10 al 15 de Mayo se realiza el <a href="https://wiki.ubuntu.com/UDS-M">Ubuntu Developers Summit para Maverick Meerka</a>, en <a href="http://es.wikipedia.org/wiki/Bruselas">Bruselas, Bélgica</a>.
+
+
+
+Salí de Argentina el Sábado a la una de la tarde, en un vuelo a Madrid sin mayor novedad, excepto que estaba el la <em>troupe</em> de Charly García (reconocí al <a href="http://es.wikipedia.org/wiki/Fabi%C3%A1n_Quintiero">Zorrito V&ouml;n Quintiero</a>), y que el avión era una mierda: un vuelo de 11 horas sin pantallita individual y sin enchufe para la laptop; juro que trataré de evitar Iberia de ahora en más.
+
+
+
+La escala fue en Madrid a la madrugada, y al mediodía ya estaba en Bélgica. Del aeropuerto me tomé un tren por una estación, y de allí otro por un buen rato hasta la ciudad donde estaba el hotel (de la estación al hotel mismo había un micro que iba y venía).
+
+
+
+<img src="http://www.taniquetil.com.ar/facundo/imgs/udsm-estactren.jpg" alt="Estación de tren en Bélgica" width="500" height="375" />
+
+
+
+Llegué a la habitación (que comparto con <a href="http://pyvore.com/">John</a>, pero él ya estaba desde la semana pasada), desensillé, nos comimos una ensalada, y descansé un rato hasta la reunión al atardecer.
+
+
+
+Allí nos contaron algunas cosas en las que Canonical se enfocará para el próximo ciclo, cosas que todavía no se conocen pero van a hacerse p&uacute;blicas durante la semana.
+
+
+
+Luego, una cena con mucha charla, ya que fui encontrando gente que no veía hace rato, nos tomamos una cerveza con John, más charla, y al sobre!
+
+
+
+<img src="http://www.taniquetil.com.ar/facundo/imgs/udsm-cerveza.jpg" alt="Cerveza!" width="500" height="369" /> |

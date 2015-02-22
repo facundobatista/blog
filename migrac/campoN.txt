@@ -1,0 +1,23 @@
+varchar(20)
+
+<tags>
+
++-----------+-------------+------+-----+--------+-------+
+4 rows in set (0.00 sec)
+</pre>
+
+Todo bien hasta ahora.
+
+
+Tengo un sistema, que maneja transacciones, y en un determinado momento escribe un nuevo registro en esa tabla. Luego, segundos o minutos después, el sistema va a la tabla y levanta los datos grabados, ya que recibe el mismo código de transacción que antes.
+
+
+Considerando que la transacción es clave primaria en la tabla, yo sabía que podía encontrar un registro, o ninguno en el caso de que la segunda vez me hayan pasado un registro incorrecto. Grande fue mi sorpresa al ver que mi sistema fallaba de forma inesperada. Luego de tracear al bug hasta su origen, terminé viendo que la consulta me generaba no cero, ni un registro, ¡sino dos!
+
+
+Sin poder creerlo, fui a la base de datos, a mano, y tiré la siguiente consulta...
+
+<pre>
+
+mysql&gt; SELECT * FROM prueba where tra_id=20060905093655001974;
++----------------------+----------+--------+------------+

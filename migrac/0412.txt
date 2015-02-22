@@ -1,0 +1,50 @@
+2009-05-25 03:22:21
+AllHands 2009
+<tags>
+
+
+AllHands, en castellano <em>Todas las manos</em>, es la reunión anual de <a href="http://www.canonical.com/">Canonical</a> donde participa <strong>toda</strong> la empresa.
+
+
+
+Basicamente nos juntamos todos (en este momento alrededor de 280 empleados) en alg&uacute;n punto del planeta (en esta ocasión, Barcelona), y estamos juntos en un montón de actividades durante tres días y medio.
+
+
+
+Estas actividades son de distintos tipos: durante el día lo principal son las conferencias de diversos temas (más sobre esto abajo), pero también hay mucha parte social, especialmente a la noche.
+
+
+
+Como ejemplo de esto, el martes a la tarde hubo una cena que daba comienzo al evento, al aire libre, con muchos tipos de comida que uno iba sirviéndose y comiendo parado (habían algunas mesas, también, desparramadas por ahí). También había todo tipo de bebidas, obviamente todo invitación de la empresa. A este evento cada uno tenía que llevar algo del país origen (no se pierdan las <a href="http://www.flickr.com/photos/54757453@N00/sets/72157618677314830/">fotos</a>), y luego se elegían dos ganadores a la mejor producción.
+
+
+
+Quiero aprovechar la ocación para mostrarles la siguiente foto, ya que el otro día me preguntaban cómo era trabajar con un jefe que vive en Holanda cuando uno trabaja en Buenos Aires, y sí todos somos medio raros o hay gente más normal...
+
+
+
+<img src="http://www.taniquetil.com.ar/facundo/imgs/buffetapertura.jpeg" alt="Mi jefe y la jefa de mi jefe" width="500" height="493" />
+
+
+
+El <a href="http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=es&amp;geocode=&amp;q=hotel+la+mola+barcelona&amp;ie=UTF8&amp;ll=41.575268,2.060966&amp;spn=0.001553,0.004828&amp;t=h&amp;z=18">hotel La Mola</a>, en el que estuvimos, estuvo muy bueno en muchos sentidos, pero todavía no puedo creer lo mal que estaba diseñado el baño: había un inodoro en un cuartito totalmente cerrado, con el ancho del inodoro mismo, que no recomendaría a un claustrofóbico, una ducha en una caja de vidrios verdes casi opacos, y una pileta en el medio. Las dos "cajas" tenían su correspondiente puerta, pero no el baño en general. Encima, la puerta de la ducha estaba en linea con la puerta de la habitación... o sea que si vos te estás bañando, te das cuenta que te dejaste el shampoo afuera, abris la puerta de la ducha y justo tu compañero entra a la habitación, te puede suceder que la gente que pasa por el pasillo te salude alegremente, :p
+
+
+
+Las charlas estuvieron muy bien, algunas muy interesantes, otras no tanto, pero en general fue como una conferencia con buen nivel. Hubieron varias cosas interesantes, como <a href="http://planningpoker.com/">Planning Poker</a>, una forma muy piola de estimar tiempos de proyectos, o una discusión de qué íbamos a hacer con Python 2 y 3 en las próximas versiones de Ubuntu. Yo presenté <em>Understanding Unicode</em>, y con John, Lucio y Guillo, mostramos <em>Chicharra</em> (el cliente del servicio Ubuntu One, que salió beta hace poquito.... pero más sobre esto en otro post).
+
+
+
+También, al ser una reunión de toda la empresa, los directores de las distintas áreas nos fueron contando en qué estaba la empresa, qué se hizo en el &uacute;ltimo año, etc. Esta info uno la va recibiendo durante el resto del año, pero cuando sucede, por partes, entonces está muy bueno ver un resumen de todo.
+
+
+
+Luego, la cena, y el Canonical Jam, donde mis compañeritos de empresa hacen m&uacute;sica entre todos, alternando los intérpretes de los instrumentos, tocando clásicos para que la gente cante, todo muy groso (&iexcl;vean las <a href="http://www.flickr.com/photos/54757453@N00/sets/72157618677314830/">fotos</a>!).
+
+
+
+<img src="http://www.taniquetil.com.ar/facundo/imgs/allhandsrocanrol.jpeg" alt="Rocanrol" width="400" height="500" />
+
+
+
+Ahora, el fin de semana, a pasear y descansar un poco, antes de otra semana de duro trabajo! |

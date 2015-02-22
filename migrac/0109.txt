@@ -1,0 +1,23 @@
+2005-11-09 19:58:16
+Tecnología y charla
+<tags>
+
+<span style="font-weight: bold">Hidroinyección</span>
+
+Ayer volviendo a casa, una camioneta me llamó mucho la atención:
+
+<img src="http://farm2.static.flickr.com/1386/530238063_623768d299_o.jpg" border="0" />
+
+El sistema fue ideado por un el <a href="http://www.hffioramonti.com.ar/">electrotécnico Jorge Fioramonti</a>, y es un equipo que dosifica la cantidad de agua que debe entrar a la cámara de combustión del motor. La inyección de agua regulada automáticamente, ingresa una pequeña cantidad de agua destilada a la cámara de combustión junto con el aire, para llegar a los cilindros y mejorar la combustión.
+
+Con este sistema se logra:
+<ul><li>Un aumento de potencia por la disociación molecular del agua</li><li>Una disminución de consumo de combustible (entre 10 y 25 % seg&uacute;n tipo de motor)</li><li>Eliminación de residuos carbonosos y por lo tanto mayor vida &uacute;til del motor.</li><li>Transforma el monóxido de carbono del escape en bióxido reduciendo la contaminación entre un 70 y 90%.</li></ul>Este equipo fue desarrollado por Fioramonti en Roque Perez, provincia de Buenos Aires. Ya le vendió los derechos a una empresa birtánica y está en tratativas con Nueva Zelanda.
+
+
+<span style="font-weight: bold">Charla sobre telefonía celular</span>
+
+Hoy di <a href="http://www.taniquetil.com.ar/plog/post/1/108">la charla</a> con Adrián en la UADE. Salió muy bien, no sólo por la presentación en si misma, sino que los chicos se enganchaban y charlábamos de temas puntuales sobre lo que veíamos, muy piola.
+
+<img src="http://farm2.static.flickr.com/1427/530141984_35c06732c1_o.jpg" border="0" />
+
+Y como siempre, me reí mucho con Adrián. Es un maestro contando cosas, :D[@more@] |

@@ -1,0 +1,11 @@
+2007-11-26 09:58:48
+Software Libre para Organizaciones Sociales
+<tags>
+
+&iquest;Querés saber qué es esto del software libre y el copyleft? &iquest;Sabés qué es pero nunca te animaste a instalarlo? &iquest;Te interesa conocer la cocina de Wikipedia? &iquest;O aprender a usar blogs y listas de correo? Entonces el 1ro. de diciembre tenés la oportunidad de asistir al <a href="http://www.vialibre.org.ar/2007/11/21/taller-software-libre-para-organizaciones-sociales/">Taller de Software Libre para Organizaciones Sociales</a>.
+
+La <a href="http://www.vialibre.org.ar">Fundación Vía Libre</a>, el <a href="http://www.pas.org.ar">Proyecto Argentina Sustentable</a> y la <a href="http://www.conaduargentina.org.ar/">CONADU </a>(Confederación de docentes Universitarios de la Rep&uacute;blica Argentina) te invitan a este taller, desde las 10 y hasta las 19hs. en la sede de CONADU, en Pasco 255, Ciudad de Buenos Aires. Además, y todo por el mismo precio (&iexcl;gratis!), se armó ese día allí un Festival de Instalación, con el apoyo de <a href="http://www.cafelug.org.ar">CaFeLUG</a>.
+
+Durante la jornada se realizarán charlas sobre Copyright, Copyleft, publicaciones y Software Libre, primeros pasos en un escritorio GNU/Linux, herramientas de comunicación como listas de correos y blogs, y una sesión especialmente dedicada a edición Wiki y Wikipedia a cargo de un equipo de Wikipedistas de <a href="http://www.wikimedia.org.ar">Wikimedia Argentina</a>.
+
+La participación en las charlas es de acceso libre y gratuito, pero para las instalaciones deberían realizar una inscripción previa a fin de facilitar la coordinación de las mismas.[@more@] |

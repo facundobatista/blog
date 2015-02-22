@@ -1,0 +1,16 @@
+2013-11-11 19:22:38
+Armando certificados con Inkscape y Python
+<tags>
+
+Aparecieron muy cerca en el tiempo dos necesidades muy parecidas: hacer certificados de asistencia para PyCon Argentina 2013, y hacer los certificados para <a href="http://www.taniquetil.com.ar/facundo/cursosAbiertos.html">mi curso de Python</a>.
+
+Así nació <strong><em>certg</em></strong>, un generador de certificados, que a la vez es simple, versátil, y &uacute;til. El proceso para usarlo es simple:</p>
+<ol>
+<li>Armás un .SVG (con Inkscape, por ejemplo), poniendole todo el arte que quieras para que el certificado quede lindo. Pero no lo hacés específico a nadie, sino que dejás escrito variables que se van a reemplazar, como <span style="font-family: courier new,courier;">{{nombre}}</span> o <span style="font-family: courier new,courier;">{{direccion}}</span> o lo que te guste</li>
+<li>Armás un archivo de configuración, donde ponés el nombre del .SVG que creaste, qué variable de las que elegiste es &uacute;nica (se usa luego), y luego una lista de grupos de variables, donde a partir de cada grupo se va a generar un certificado.</li>
+<li>Ejecutás el programita en Python, pasándole la configuración que armaste. El programita va a leer el .SVG, y por cada grupo en la config, reemplazar esos valores, y generar un certificado (en PDF) usando el nombre unívoco que indicaste.</li>
+</ol>
+<p>La verdad, quedó piola: no es dificil de usar, y es lo suficientemente flexible para las distintas necesidades que tuve. Este es como quedó mi certificado de la PyCon:
+
+<img src="http://www.taniquetil.com.ar/facundo/imgs/certif-pycon.png" alt="Fuí a la PyCon!" height="397" width="561" />
+El proyecto, con ejemplos y todo, <a href="https://github.com/facundobatista/certg">acá</a>.</p> |

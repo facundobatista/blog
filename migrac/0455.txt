@@ -1,0 +1,90 @@
+2010-03-26 21:22:51
+Localizate, chabón
+<tags>
+
+
+Uno de los bugs críticos que tenía en <a href="https://edge.launchpad.net/enjuewemela">Enjuéwemela</a> era el de internacionalizarlo/localizarlo.
+
+
+
+Este proceso (que tiene en inglés nombres tan complicados que se los refiere normalmente como i18n y l10n, deduzcan ustedes por qué) basicamente permite al programa mostrar todos los textos en el lenguaje del usuario.
+
+
+
+Obviamente, para que todos los textos de un programa estén en varios idiomas, la gente tiene que traducirlos, y aparte el programa tiene que mostrar los textos correspondientes en el lugar adecuado, en función del idioma del usuario. La forma de hacer esto está establecida desde hace varios años, y está armada especialmente para facilitar que colaboradores creen nuevas traducciones y se agreguen al sistema.
+
+
+
+Esta tecnología se conoce como <a href="http://es.wikipedia.org/wiki/Gettext">Gettext</a>, y se puede utilizar desde todos (o casi todos) los lenguajes existentes. Pero una cosa es utilizarlo, y otra es armar el programa para que pueda utilizarlo, y que se puedan agregar nuevas traducciones, etc.
+
+
+
+Recuerdo que cuando lo hice para <a href="https://launchpad.net/typuspocus">Typus Pocus</a> no salió fácil, y tuve que leer bastante. Casi me pongo a pensar nuevamente como era, pero se me prendió la lamparita y me acordé que en su momento había escrito en ese proyecto un <em>procedimiento_locale.txt</em>, así que lo tomé y usé.
+
+
+
+Para que estos pasos los puedan usar todos, los dejo acá. Pero ojo, no muestran como usar gettext desde tal o cual lenguaje (eso lo verán ustedes), sino cómo preparar los archivos y directorios para que luego puedan usar gettext desde sus programas. Por otro lado, los ejemplos son las lineas que tiré para Enjuéwemela, así que están orientados a Python, sepan adaptar.
+
+
+
+Entonces...
+
+
+
+Creamos el directorio para guardar nuestra estructura de traducciones:
+
+<blockquote>
+	<span style="font-family: courier new,courier">mkdir locale</span>
+
+</blockquote>
+Editamos todos nuestros archivos y metemos todos los textos que queramos internacionalizar en la llamada a función <em>_()</em>.&nbsp; O sea, que si teníamos el texto <em>"click here"</em> y queremos que ese texto se internacionalice, tenemos que dejar <em>_("click here")</em>. Esto es vital para el próximo paso, y para el funcionamiento luego, ya que <em>_()</em> será la función de gettext que reemplazará lo que está escrito en el código con lo que se mostrará al usuario en función de su lenguaje.
+
+
+
+Generamos el archivo <em>.pot</em> con todos los textos que utilizamos en nuestro programa. Para ello utilizamos xgettext y le pasamos todos los <em>.py</em> que usamos (esta utilidad revisará las fuentes y tomará los textos que tienen el <em>_()</em> que agregamos antes):
+
+<blockquote>
+	<span style="font-family: courier new,courier">xgettext *.py --output=locale/core.pot</span>
+
+</blockquote>
+Este <em>.pot</em> es el archivo <em>template</em> que distribuiremos a todos aquellos que deseen traducir nuestro programa. Antes de distribuirlo, deberíamos abrirlo con un editor y completar ciertos campos que están listos para ser rellenados (título, autor, etc.).
+
+
+
+La preparación propiamente dicha del sistema ya está completa, los pasos a continuación muestran qué hacer con el <em>.pot</em> si queremos generar la traducción para un nuevo lenguaje.
+
+
+
+Generamos el <em>.po</em>, renombrando la base del archivo para incorporarle las dos letras del idioma que estamos utilizando. Si es la primera vez, sólo copiamos el <em>.pot</em> al mismo...
+
+<blockquote>
+	<span style="font-family: courier new,courier">cd locale</span>
+
+	<span style="font-family: courier new,courier">cp core.pot core_es.po</span>
+
+</blockquote>
+..., pero si ya teníamos el <em>.po</em> de antes y ahora tenemos un nuevo <em>.pot</em> (porque aparecieron nuevos textos en el programa, o cambiaron los que estaban de antes), tenemos que mergear los archivos de la siguiente manera:
+
+<blockquote>
+	<span style="font-family: courier new,courier">cd locale</span>
+
+	<span style="font-family: courier new,courier">msgmerge core_es.po core.pot &gt; /tmp/po_temporal</span>
+
+	<span style="font-family: courier new,courier">mv /tmp/po_temporal core_es.po</span>
+
+</blockquote>
+El próximo paso es abrir el <em>core_es.po</em> con un editor de texto y traducir todas las cadenas. Luego, tenemos que compilar el <em>.po</em> al <em>.mo</em>, que es el archivo que levantará realmente el sistema <em>gettext</em>:
+
+<blockquote>
+	<span style="font-family: courier new,courier">msgfmt core_es.po</span>
+
+</blockquote>
+Y finalmente, movemos el archivo compilado a un directorio que tiene que seguir la estructura preestablecida aquí mostrada (prestar atención al renombre del archivo en sí, y a que en el directorio está el idioma utilizado en la traducción):
+
+<blockquote>
+	<span style="font-family: courier new,courier">mkdir -p es/LC_MESSAGES</span>
+
+	<span style="font-family: courier new,courier">mv messages.mo es/LC_MESSAGES/core.mo</span>
+
+</blockquote>
+Como &uacute;ltimo detalle, quiero aclarar que hay muchos editores especializados que muestran los <em>.po</em> y <em>.pot</em> uno al lado del otro, especialmente &uacute;tiles cuando los programas a traducir son muy grandes o contienen muchos textos, pero que realmente uno se puede arreglar con un editor de textos com&uacute;n y corriente. |

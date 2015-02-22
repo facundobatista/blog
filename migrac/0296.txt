@@ -1,0 +1,11 @@
+2007-10-02 09:27:18
+Dos conferencias
+<tags>
+
+Ya tenemos con nosotros a <a href="http://www.cafeconf.org/2007/modules/edito/content.php?id=4">CaFeConf 2007</a>, 6tas. Conferencias Abiertas de Software Libre y GNU/Linux, este viernes y sábado.
+
+El viernes yo doy la ya clásica "Introducción a Python", y el sábado una charla con Lucio, "Python más rápido que C". Pero van a haber <a href="http://www.cafeconf.org/2007/modules/myconference/program.php?cid=1&amp;programord=1">muchísimas otras charlas</a> interesantes, y siempre es bueno estar en estos eventos del ambiente. &iexcl;No se lo tienen que perder! Vamos, &iexcl;es gratis! Sólo tienen que registrarse previamente en la página.
+
+El 3 de Noviembre, por otro lado, tenemos el <a href="http://www.unlux.com.ar/">Ciclo de Charlas UNLUX 2007</a>: "Conectando Puntos", evento de difusión y capacitación sobre Software Libre, en el cual expertos en diferentes áreas disertaran sobre temáticas diversas del Software Libre, existiendo charlas de todos los niveles y abarcando la mayor cantidad de temas posible. Aquí también doy "Introducción a Python", y esperemos también tener un stand de Python Argentina, :)
+
+Esto sería en la sede central de la Universidad Nacional de Luján. Es un evento libre, gratuito y abierto a la comunidad.[@more@] |

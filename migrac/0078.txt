@@ -1,0 +1,86 @@
+2005-08-30 09:36:44
+Fin de semana
+<tags>
+
+
+<span style="font-weight: bold;">Película</span>
+
+
+
+El sábado (luego de arreglar dos computadoras y comer la siempre destacable pizza de mi vieja) vi <a href="http://www.imdb.com/title/tt0362270/">The life aquatic with Steve Zissou</a>. Si les gustan las películas bizarras, +0, sino, -1.
+
+
+
+
+
+<span style="font-weight: bold;">Salida de domingo</span>
+
+
+
+Para disfrutar un domingo pleno de sol, no sabíamos si ir a la playa o
+a pescar, y terminamos yendo a Plaza Francia. Repleto de gente y
+puestos de "artesanías", pero según me dijeron después, no había nadie
+con respecto a otros días, ya que justo el sábado a la noche
+desalojaron como a 500 puesteros truchos. No me quiero imaginar lo que
+hubiese sido. Pensar en tanta gente junta me da alergia.
+
+
+
+Fuimos Rodrigo, Pollo, Nati, Laura y yo. Nos tiramos en el pasto,
+mantita por medio, a tomar unos mates y jugar un truco, mientras
+escuchábamos una bandita de rock cercana. Horas después, cuando la
+música de la plaza había transmutado la banda de rock en unos pibes que
+hacían una percusión rara, y el frío arreciaba desde las nubes grises,
+decidimos partir en busca de lugares mejores.
+
+
+
+Lo pasamos a buscar a Chena por cerca de su casa, y enrutamos al mismo
+pool al que habíamos ido una semana antes. Cervecita, pool, rocanrol,
+¿qué podría ir mal? Nada. Estuvo todo perfecto. Incluso dio para ver
+como arreglábamos el pais con Chena...
+
+
+
+<img src="http://farm2.static.flickr.com/1244/530235381_da13c26312_o.jpg" />
+
+
+
+Bueno, perfecto perfecto no. Perdí algunos partidos de pool, es que estaba distraído, no sé porque no me podía concentrar...
+
+
+
+<img src="http://farm2.static.flickr.com/1103/530235485_7467f1dfc4_o.jpg" />
+
+
+
+Nada, después fui dejando a la gente en puntos cercanos al recorrido
+del auto, a Pollo para que se tome un bondi, a Rodrigo cerca de la
+casa, a Chena en lo de la madre, a Nati en la casa, y a Laura en lo del
+novio (aunque tengo que revisar el log del auto, ya que este último
+viaje tardó como una hora y media de más, para mí que fuimos
+abducidos...).
+
+
+
+
+<span style="font-weight: bold;">
+Citas Python</span>
+
+
+<div style="margin-left: 40px;">
+We did requirements and task analysis, iterative design, and user
+testing. You'd almost think programming languages were an interface
+between people and computers.
+<span style="font-style: italic;">
+Steven Pemberton, one of the designers of Python's direct ancestor ABC </span>
+
+
+Y2K problem? The Mayans didn't have a millennium-2K problem!
+<span style="font-style: italic;">
+Eric S. Raymond at IPC7, on learning that the Mayan calendar takes 28 octillion years to wrap around </span>
+</div>
+
+
+[@more@]
+ |

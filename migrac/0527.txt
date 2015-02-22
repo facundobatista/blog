@@ -1,0 +1,11 @@
+2011-08-31 22:29:24
+Facundario, reloaded
+<tags>
+
+Ya les había comentado de lo que Perrito666 en su momento armó y dió en llamar Facundario.
+
+Bueno, tuvo su evolución. Antes, el sistema juntaba mi primer frase al entrar en el IRC de PyAr, pero luego pasé a dejar siempre el IRC conectado, así que eso no tuvo mucho sentido (además el parser y servicio estaban en una máquina de Perrito que ya no está más).
+
+Pasó el tiempo, y me di cuenta que a veces se me ocurrían frases y las tiraba por tuiter. Bueno, entonces hice un programita que vaya escuchando lo que digo ahí y cuando lo tageo como #facundario lo junta en mi lista y ya.
+
+Así que lo traje a mi server (gracias Perrito por la ayuda), y quedó andando acá, con nueva versión y todo: <a href="http://www.taniquetil.com.ar/facundario/">Facundario Enterprise Edition 2.71 (versión extra apulentada)</a>. Enjoy.</p>                                          |

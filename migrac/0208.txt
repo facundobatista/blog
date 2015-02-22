@@ -1,0 +1,12 @@
+2006-09-18 20:14:38
+Disolviendo los finos hilos de la realidad
+<tags>
+
+
+Resulta que tengo en MySQL una tabla con varios datos, de distintos tipos, y una clave primaria. Si quiero ver cómo está armada, le echo un describe:
+
+
+
+<pre>
+mysql&gt; describe prueba;
++-----------+-------------+------+-----+--------+-------+

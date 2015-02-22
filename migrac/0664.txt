@@ -1,0 +1,51 @@
+2014-12-10 02:15:20
+Logging levels
+<tags>
+
+Cuando empecé con el concepto de loguear, me parecía demasiado tener <em>niveles</em>. Con el tiempo y la experiencia me di cuenta que son imprescindibles, :)
+
+En la biblioteca estándar de Python hay un módulo <a href="https://docs.python.org/3/library/logging.html">logging</a> que trae varios niveles prefijados. Son estos, con una pequeña anotación de cómo los uso, más un ejemplo de la vida real (tomados de mi programa de <a href="https://launchpad.net/encuentro">Encuentro</a> o de <a href="https://github.com/PyAr/fades">fades</a>).
+
+- <span style="font-family: courier new,courier;">CRITICAL</span>: creo que nunca lo usé :)
+
+- <span style="font-family: courier new,courier;">ERROR</span>: problemas de todo tipo; cosas que no deberían pasar, y si pasan son un inconveniente; muchas veces el programa no contin&uacute;a, o continua de forma parcial o limitada, luego de este tipo de linea logueada. En este ejemplo logueo que no se pudo bajar la lista de los backends durante una actualización (también en este caso se le avisa al usuario mediante una ventanita, y el programa sigue, aunque la actualización no se concretó):
+
+<span style="font-family: courier new,courier;">&nbsp;&nbsp;&nbsp; try:</span>
+<span style="font-family: courier new,courier;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; _, backends_file = yield utils.download(BACKENDS_URL)</span>
+<span style="font-family: courier new,courier;">&nbsp;&nbsp;&nbsp; except Exception, e:</span>
+<span style="font-family: courier new,courier;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; logger.error("Problem when downloading backends: %s", e)</span>
+<span style="font-family: courier new,courier;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; tell_user("Hubo un PROBLEMA al bajar la lista de backends:", e)</span>
+<span style="font-family: courier new,courier;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return</span>
+
+- <span style="font-family: courier new,courier;">WARNING</span>: para indicar que sucedió algo que en general no debería pasar; en general no son cosas malas, sino más bien anómalas, y no presentan una situación problemática. En el siguiente ejemplo estoy dejando registro que ignoro la opción 'quiet' que pasó el usuario (porque también pasó la opción 'verbose', que es más importante):
+
+<span style="font-family: courier new,courier;">&nbsp;&nbsp;&nbsp; if verbose and quiet:</span>
+<span style="font-family: courier new,courier;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; l.warning("Overriding 'quiet' option ('verbose' also requested)")</span>
+
+- <span style="font-family: courier new,courier;">INFO</span>: información general del funcionamiento del programa, cosas que son imprescindibles saber y que siempre queremos que sean registradas; en general no involucran gran cantidad de lineas, pero permite seguir el flujo de ejecución del programa desde un nivel alto. Normalmente los programas que se entregan a los usuarios o corren en los servidores están configurados para realmente mandar a disco desde este nivel. En las siguientes dos lineas muestro lo primero que loguea Encuentro al arrancar: con qué versión de Python está siendo ejecutado y qué versión de sí mismo es:
+
+<span style="font-family: courier new,courier;">&nbsp;&nbsp;&nbsp; log.info("Running Python %s on %r", sys.version_info, sys.platform)</span>
+<span style="font-family: courier new,courier;">&nbsp;&nbsp;&nbsp; log.info("Encuentro version: %r", version)</span>
+
+- <span style="font-family: courier new,courier;">DEBUG</span>: toda la información necesaria para analizar en detalle la ejecución del programa. Puede involucrar grandes cantidades de información, y hasta ser un problema con respecto al uso de disco o afectar la performance, pero en general no se corren los programas en este nivel, sólo durante el desarrollo o en casos de tratar de analizar un problema específico. No es raro, por ejemplo, pedirle al usuario que ejecute el programa con un parámetro especial que configura los logs en este nivel y que trate de reproducir el problema que tuvo, para luego hacer un análisis forense de la situación. En el siguiente ejemplo estoy dejando constancia que <em>fades</em> tuvo que instalar <em>pip</em> a mano en el <em>virtualenv</em>:
+
+<span style="font-family: courier new,courier;">&nbsp;&nbsp;&nbsp; logger.debug("Installing PIP manually in the virtualenv")</span>
+
+Me ha pasado en sistemas muy complejos de necesitar un nivel más abajo que <span style="font-family: courier new,courier;">DEBUG</span> para loguear toda aquella información que podría llegar a ser &uacute;til para un análisis del comportamiento del programa, pero que normalmente sería un exceso de datos (lo cual complica desde la lectura de los registros hasta el mismo manejo de los archivos). Entonces, usábamos un nivel <span style="font-family: courier new,courier;">TRACE</span>, que casi nunca se prendía, para este propósito.
+
+La macana es que el módulo de logging no tiene un nivel <span style="font-family: courier new,courier;">TRACE</span>, pero lo creábamos a mano:
+
+<span style="font-family: courier new,courier;">&nbsp;&nbsp;&nbsp; TRACE = 5</span>
+<span style="font-family: courier new,courier;">&nbsp;&nbsp;&nbsp; logging.addLevelName('TRACE', TRACE)</span>
+
+Fíjense el 5 ese: es que <span style="font-family: courier new,courier;">DEBUG</span> es 10, entonces queda "más abajo". Claro, para que funcione todo, teníamos que usar un <span style="font-family: courier new,courier;">Logger</span> custom:
+
+<span style="font-family: courier new,courier;">&nbsp;&nbsp;&nbsp; class Logger(logging.Logger):</span>
+<span style="font-family: courier new,courier;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; """Logger that support our custom levels."""</span>
+
+<span style="font-family: courier new,courier;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; def trace(self, msg, *args, **kwargs):</span>
+<span style="font-family: courier new,courier;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; """log at TRACE level"""</span>
+<span style="font-family: courier new,courier;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; if self.isEnabledFor(TRACE):</span>
+<span style="font-family: courier new,courier;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; self._log(TRACE, msg, args, **kwargs)</span>
+
+Para más información sobre la infrastructura de logging de Python y consejos generales sobre qué, cómo, o cuándo dejar registro de lo que sucede, pueden ver mi charla sobre el tema (estos sons los <a href="http://www.taniquetil.com.ar/homedevel/presents/logs.odp">slides</a>, y en alg&uacute;n momento se publicará <a href="https://www.youtube.com/channel/UCa8tmvBoe5L6BGmRcQHF8qw/videos">acá</a> el video de esta misma charla que dí en la PyCon de Rafaela).</p> |

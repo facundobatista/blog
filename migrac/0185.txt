@@ -1,0 +1,38 @@
+2006-06-08 06:55:31
+Python en Santa Fe
+<tags>
+
+ Este fin de semana se realizó la Primer Jornada Python Santa Fe, en la Universidad Tecnológica Nacional, ciudad y provincia de, justamente, Santa Fe.
+
+ El fin de semana arrancó a las seis de la tarde del viernes, cuando tomamos ruta Alecu, Nubis, Pablo Z, Leito, Lucio y yo. Fuimos en dos autos, el de Lucio y el mío.
+
+ Llegamos tarde a Santa Fe, luego de una sola parada para cargar nafta. La idea era llegar y buscar un lugar para comer. Pero terminamos cayendo en la casa de amigos de Leito, Nicolás y Lucas. La verdad es que se super portaron, ya que nos dieron de comer ellos. Nosotros llegábamos con hambre, y ellos sacaron carne al horno con papas (ya cortada, como para picar), palitos, maníes, etc...
+
+ Prácticamente les comimos todo, y para no hacer diferencias, también les tomamos toda la cerveza, las que tenían y las que fueron a comprar. Mientras tanto, charlábamos y charlábamos de Python, Linux, y demás temas raros que nos apasionan a nosotros y a Luca, otro amigo que llegó después.
+
+ Ya que nos habían agasajado, decidimos devolverles el favor yendo a un boliche y pagando nosotros: arrancamos para El Potrero, el cual está muy bien: pool, m&uacute;sica, cerveza, etc...
+
+ <img src="http://farm2.static.flickr.com/1346/533411521_e45b40677b_o.jpg" border="0" />
+
+ A eso de las dos de la mañana partimos para el hotel. Nos registramos con Lucio, y nos fuimos a dormir hasta las seis y media. Nos levantamos, bañamos, y bajamos a desayunar justo cuando nos pasaba a buscar Juanjo. Desayunamos y partimos hacia la facultad, en una mañana de sábado gris y con una llovizna muy molesta.
+
+ El día de charlas estuvo muy bien. Yo arranqué con <a href="http://www.taniquetil.com.ar/homedevel/presents/intropython.odp"><em>Introducción a Python</em></a>, y siguió Lucio con <em>Python en el mundo real</em>. Después comimos en la cantina de la Facultad, unas milanesas con ensalada que estaban muy bien.
+
+ <img src="http://farm2.static.flickr.com/1121/533411715_bc8ea118c5_o.jpg" border="0" />
+
+ A la tarde seguí yo con <a href="http://www.taniquetil.com.ar/homedevel/presents/demos_tecnicas.odp"><em>Demostraciones técnicas</em></a>  (<a href="http://www.taniquetil.com.ar/facundo/bdvfiles/code/distrib.zip">Procesamiento distribuido</a>, <a href="http://www.taniquetil.com.ar/facundo/bdvfiles/code/sacd.zip">Sistema de Administración de CDs</a>, <a href="http://www.taniquetil.com.ar/facundo/bdvfiles/code/ws.zip">Web services</a>, y <a href="http://www.taniquetil.com.ar/facundo/bdvfiles/code/booscador-v2.zip">Booscadoor</a>) y cerró Lucio con <em>Magia negra en Python</em>.
+
+ La Jornada fue un éxito: &iexcl;&iexcl;280 asistentes!! El p&uacute;blico no era gente de Python, sino estudiantes de las carreras de Ingeniería en Sistemas e Ingeniería en Informática, lo cual estuvo perfecto, ya que evangelizamos a full!! Creo que la gente se enganchó, le interesó, y se fue con una buena impresión de lo que es el lenguaje.
+
+ <img src="http://farm2.static.flickr.com/1184/533411741_aa9a07c91e_o.jpg" border="0" />
+
+
+ Después de allí nos fuimos unas diez o quince personas a un bar que tenía WiFi a realizar un sprint: trabajamos en un proyecto que tiene PyAr de armar una Wikipedia offline en un CD para distribuir a escuelitas.
+
+ <img src="http://farm2.static.flickr.com/1204/533411773_11a947a25a_o.jpg" border="0" />
+
+ Después nos separamos y se fue cada uno para su lado a refrescarse/cambiarse, y nos terminamos encontrando más tarde en el bar del día anterior, donde cerramos la noche con pool.
+
+ El domingo no volvimos en un sólo grupo, sino que arrancamos temprano Leito, Alecu y yo, y el resto volvió más tarde.
+
+ Resumiendo, fue una experiencia fantástica que creo que tenemos que repetir lo más posible. Salieron muchas cosas bien, y aprendimos un montón de esta experiencia. &iquest;Quién sigue? &iquest;Tucumán? Vamosssssssssss...[@more@] |

@@ -1,0 +1,11 @@
+2006-07-20 11:52:11
+¿Querés venir a trabajar conmigo?
+<tags>
+
+Estoy necesitando un analista programador con experiencia en diversas arquitecturas y lenguajes, graduado universitario o estudiante avanzado de la carrera Ingeniería/Licenciatura en Sistemas o carrera afín.
+
+Se desenvolverá en una empresa de Tecnología, en el área de las Telecomunicaciones, horario full-time. Es importante la capacidad de análisis, diseño y programación y la inclinación al trabajo en equipo, así como un buen nivel de lectura del inglés.
+
+El postulante deberá tener conocimiento y experiencia en
+<ul><li>Programación: .NET, ASP, PHP, Python</li><li>Sistemas operativos: Windows, Linux</li><li>Bases de datos: MSSQL, MySQL</li><li>Web Servers: IIS, Apache</li><li>WebServices, HTTP requests por GET y POST, SOAP, XML</li><li>Trabajo compartido: SVN, Wiki</li><li>Conocimiento genérico de TCP/IP y conectividad</li></ul>      Se ofrecen entre otros beneficios:
+<ul><li>Remuneración bruta: 2000 a 2500 pesos, según skills</li><li>Tickets</li><li>Medicina Prepaga</li><li>Bonus anual de hasta un 20 % del salario anual</li><li>Horario de trabajo: 9 a 18hs, de Lunes a Viernes</li><li>Fecha de incorporación: ASAP</li></ul>Enviar CV sin omitir remuneración pretendida.[@more@] |

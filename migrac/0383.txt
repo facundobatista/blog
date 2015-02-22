@@ -1,0 +1,30 @@
+2008-10-03 11:55:09
+Python 2.6 y Santa Fe
+<tags>
+
+
+En nombre del equipo de desarrollo de Python, estoy feliz en anunciarles la liberación final de Python 2.6. Esta es una versión lista para producción de lo &uacute;ltimo en la serie Python 2.
+
+
+
+Hay nuevos módulos, muchas características nuevas, mejoras, correcciones de bugs, y otros cambios en Python 2.6.&nbsp; Pueden mirar la <a href="http://docs.python.org/dev/whatsnew/2.6.html">página de "What's new"</a> para detalles, así como también la <a href="http://www.python.org/dev/peps/pep-0361/">PEP 361</a>.
+
+
+
+Python 2.6 es compatible para atrás con versiones previas de Python, pero tiene varias herramientas y características que los ayudarán a migrar a Python 3. Cuando fue posible, se agregaron características de Python 3 sin afectar el código existente. En otros casos, las nuevas características pueden activarse usando los imports de <span style="font-family: courier new,courier">__future__</span> y parámetros al ejecutar Python.
+
+
+
+Python 3.0 está actualmente en estado de Candidato de Liberación, y estará disponible en unas semanas. Tanto Python 2 como Python 3 serán soportados en el futuro previsible.
+
+
+
+Pueden descargarse de la página de <a href="http://www.python.org/download/releases/2.6/">Python 2.6</a> las fuentes, instaladores para Windows, e imágenes de disco para Mac. Si encuentran bugs, pueden reportarlos <a href="http://bugs.python.org">aquí</a>.
+
+
+
+Por otro lado, les cuento que hoy mismo a la tarde partimos para Santa Fé, en cuantiosa caravana (bueno, dos autos, pero bien llenitos, más gente en micro), a las <a href="http://www.pythonsantafe.com.ar/">3ras Jornadas Python en Santa Fe</a> a sucederse en el Auditorio de la Universidad Tecnológica Nacional de dicha ciudad.
+
+
+
+La jornada en sí es mañana, sábado. Hoy viajamos, mañana está la jornada durante todo el día, habrá alg&uacute;n evento social a la noche (&iquest;sprint? &iquest;reunión de PyAr?), y el domingo almorzaremos en lo de Chiquito (un clásico), y ya nos volvemos, :) |
