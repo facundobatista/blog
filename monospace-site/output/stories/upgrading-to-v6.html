@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article# " lang="en">
+    <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Upgrading to v6 | My Nikola Site</title>
+
+    
+            <link href="../assets/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+        <link href="../assets/css/rst.css" rel="stylesheet" type="text/css">
+        <link href="../assets/css/code.css" rel="stylesheet" type="text/css">
+        <link href="../assets/css/colorbox.css" rel="stylesheet" type="text/css">
+        <link href="../assets/css/theme.css" rel="stylesheet" type="text/css">
+
+    
+            <link rel="alternate" type="application/rss+xml" title="RSS" href="../rss.xml">
+
+      <link rel="canonical" href="http://getnikola.com/stories/upgrading-to-v6.html">
+
+
+
+
+    
+        <!--[if lt IE 9]><script src="../assets/js/html5.js"></script><![endif]-->
+
+    
+
+
+    
+
+    <meta name="author" content="Nikola Tesla">
+    
+    <meta property="og:site_name" content="My Nikola Site">
+    <meta property="og:title" content="Upgrading to v6">
+    <meta property="og:url" content="http://getnikola.com/stories/upgrading-to-v6.html">
+    <meta property="og:description" content="Version:
+7.3.0
+
+
+Nikola tries fairly hard to be compatible between versions. However, there were
+a few areas which were getting clunky, and needed fxing. So, here's what you may
+need to change in your">
+    <meta property="og:type" content="article">
+    <meta property="article:published_time" content="2013-08-23T23:00:00-03:00">
+
+    
+
+    
+
+
+
+</head>
+<body>
+<a href="#content" class="sr-only sr-only-focusable">Skip to main content</a>
+
+<!-- Menubar -->
+
+<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="container">
+<!-- This keeps the margins nice -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="http://getnikola.com/">
+
+                <span id="blog-title">My Nikola Site</span>
+            </a>
+        </div>
+<!-- /.navbar-header -->
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+            <ul class="nav navbar-nav">
+                
+                <li>
+<a href="../archive.html">Archive</a>
+                </li>
+<li>
+<a href="../categories/index.html">Tags</a>
+                </li>
+<li>
+<a href="../rss.xml">RSS feed</a>
+
+                
+            </li>
+</ul>
+
+            <ul class="nav navbar-nav navbar-right">
+                
+                
+                    
+    <li>
+    <a href="upgrading-to-v6.txt" id="sourcelink">Source</a>
+    </li>
+
+                
+            </ul>
+        </div>
+<!-- /.navbar-collapse -->
+    </div>
+<!-- /.container -->
+</nav>
+
+<!-- End of Menubar -->
+
+<div class="container" id="content" role="main">
+    <div class="body-content">
+        <!--Body content-->
+        <div class="row">
+            
+            
+<article class="storypage" itemscope="itemscope" itemtype="http://schema.org/Article">
+    <header>
+        
+    <h1 class="p-name entry-title" itemprop="headline name"><a href="#" class="u-url">Upgrading to v6</a></h1>
+
+        
+
+    </header>
+    <div class="e-content entry-content" itemprop="articleBody text">
+    <div>
+<table class="docinfo" frame="void" rules="none">
+<col class="docinfo-name">
+<col class="docinfo-content">
+<tbody valign="top">
+<tr>
+<th class="docinfo-name">Version:</th>
+<td>7.3.0</td>
+</tr>
+</tbody>
+</table>
+<p class="lead">Nikola tries fairly hard to be compatible between versions. However, there were
+a few areas which were getting clunky, and needed fxing. So, here's what you may
+need to change in your site.</p>
+<p>If you need to change anything else, or something breaks, please write at nikola-discuss
+and I'll add further tweaks here.</p>
+<div class="section" id="themes">
+<h2>Themes</h2>
+<dl class="docutils">
+<dt><strong>NOTE</strong></dt>
+<dd>There is no equivalent for the jinja-default theme yet. If you have a custom,
+jinja-based theme, upgrading is probably a bad idea right now.</dd>
+</dl>
+<p>Themes have been renamed:</p>
+<ul class="simple">
+<li>site =&gt; bootstrap</li>
+<li>orphan =&gt; base</li>
+</ul>
+<p>Theme added:</p>
+<ul class="simple">
+<li>base-jinja</li>
+</ul>
+<p>Themes have been moved out of nikola and into nikola-themes:</p>
+<ul class="simple">
+<li>default =&gt; oldfashioned at nikola-themes</li>
+<li>jinja-default =&gt; not there yet, coming soon</li>
+<li>monospace =&gt; monospace at nikola-themes</li>
+<li>site-reveal =&gt; reveal at nikola-themes</li>
+</ul>
+<p>You may have to change your <tt class="docutils literal">THEME</tt> setting, or change the <tt class="docutils literal">parent</tt> if you are
+using a custom theme. Also, some templates have been tweaked, but nothing should
+break for you.</p>
+<p>Facebook comments support changed the HTML tag to:</p>
+<pre class="code mako"><a name="rest_code_269989943988425887982cf8c97a96e7-1"></a><span class="x">&lt;html</span>
+<a name="rest_code_269989943988425887982cf8c97a96e7-2"></a><span class="cp">%</span><span class="k">if</span> <span class="n">comment_system</span> <span class="o">==</span> <span class="s">'facebook'</span><span class="p">:</span><span class="x"></span>
+<a name="rest_code_269989943988425887982cf8c97a96e7-3"></a><span class="x">xmlns:fb="http://ogp.me/ns/fb#"</span>
+<a name="rest_code_269989943988425887982cf8c97a96e7-4"></a><span class="cp">%</span><span class="k">endif</span><span class="x"></span>
+<a name="rest_code_269989943988425887982cf8c97a96e7-5"></a><span class="x">lang="</span><span class="cp">${</span><span class="n">lang</span><span class="cp">}</span><span class="x">"&gt;</span>
+</pre>
+<p>If you do not want to use Facebook comments, you can leave the old <tt class="docutils literal">&lt;html
+<span class="pre">lang="${lang}"&gt;</span></tt> tag in and it will work just fine.</p>
+<div class="section" id="comments">
+<h3>Comments</h3>
+<p>If you want a custom theme to support comment systems other than disqus, you will need to:</p>
+<ol class="arabic simple">
+<li>Replace mentions of disqus_helper.tmpl with comments_helper.tmpl</li>
+<li>Replace mentions of html_disqus with comment_form</li>
+<li>Replace mentions of html_disqus_link with comment_link</li>
+<li>Replace mentions of html_disqus_script with comment_link_script</li>
+</ol>
+<p>If you don't, your theme should work just fine, but support only disqus comments.</p>
+</div>
+</div>
+<div class="section" id="configuration">
+<h2>Configuration</h2>
+<p>A number of options have been renamed. In most cases, the behaviour
+should be <strong>exactly</strong> as before.</p>
+<p>However, <tt class="docutils literal">post_pages</tt> was split into <tt class="docutils literal">POSTS</tt> and <tt class="docutils literal">PAGES</tt>.  Long
+story short, anything that had a <tt class="docutils literal">True</tt> as the <tt class="docutils literal">use_in_feeds</tt>
+(last) value goes to <tt class="docutils literal">POSTS</tt> and anything with <tt class="docutils literal">False</tt> goes to
+<tt class="docutils literal">PAGES</tt>.  For example:</p>
+<pre class="code python"><a name="rest_code_6bac679ca9ba4232a14640a9f2d6a63e-1"></a><span class="n">post_pages</span> <span class="o">=</span> <span class="p">(</span>
+<a name="rest_code_6bac679ca9ba4232a14640a9f2d6a63e-2"></a>    <span class="p">(</span><span class="s">"posts/*.txt"</span><span class="p">,</span> <span class="s">""</span><span class="p">,</span> <span class="s">"post.tmpl"</span><span class="p">,</span> <span class="bp">True</span><span class="p">),</span>
+<a name="rest_code_6bac679ca9ba4232a14640a9f2d6a63e-3"></a>    <span class="p">(</span><span class="s">"stories/*.txt"</span><span class="p">,</span> <span class="s">"p"</span><span class="p">,</span> <span class="s">"story.tmpl"</span><span class="p">,</span> <span class="bp">False</span><span class="p">),</span>
+<a name="rest_code_6bac679ca9ba4232a14640a9f2d6a63e-4"></a>    <span class="p">(</span><span class="s">"stories/*.html"</span><span class="p">,</span> <span class="s">"s"</span><span class="p">,</span> <span class="s">"story.tmpl"</span><span class="p">,</span> <span class="bp">False</span><span class="p">),</span>
+<a name="rest_code_6bac679ca9ba4232a14640a9f2d6a63e-5"></a><span class="p">)</span>
+<a name="rest_code_6bac679ca9ba4232a14640a9f2d6a63e-6"></a>
+<a name="rest_code_6bac679ca9ba4232a14640a9f2d6a63e-7"></a><span class="c">### becomes ###</span>
+<a name="rest_code_6bac679ca9ba4232a14640a9f2d6a63e-8"></a>
+<a name="rest_code_6bac679ca9ba4232a14640a9f2d6a63e-9"></a><span class="n">POSTS</span> <span class="o">=</span> <span class="p">(</span>
+<a name="rest_code_6bac679ca9ba4232a14640a9f2d6a63e-10"></a>    <span class="p">(</span><span class="s">"posts/*.txt"</span><span class="p">,</span> <span class="s">""</span><span class="p">,</span> <span class="s">"post.tmpl"</span><span class="p">),</span>
+<a name="rest_code_6bac679ca9ba4232a14640a9f2d6a63e-11"></a><span class="p">)</span>
+<a name="rest_code_6bac679ca9ba4232a14640a9f2d6a63e-12"></a>
+<a name="rest_code_6bac679ca9ba4232a14640a9f2d6a63e-13"></a><span class="n">PAGES</span> <span class="o">=</span> <span class="p">(</span>
+<a name="rest_code_6bac679ca9ba4232a14640a9f2d6a63e-14"></a>    <span class="p">(</span><span class="s">"stories/*.txt"</span><span class="p">,</span> <span class="s">"p"</span><span class="p">,</span> <span class="s">"story.tmpl"</span><span class="p">),</span>
+<a name="rest_code_6bac679ca9ba4232a14640a9f2d6a63e-15"></a>    <span class="p">(</span><span class="s">"stories/*.html"</span><span class="p">,</span> <span class="s">"s"</span><span class="p">,</span> <span class="s">"story.tmpl"</span><span class="p">),</span>
+<a name="rest_code_6bac679ca9ba4232a14640a9f2d6a63e-16"></a><span class="p">)</span>
+</pre>
+<p>Also, you will get warnings. That doesn't mean things broke. They are
+there to inform you of what's happening, and that you need to tweak your
+config.</p>
+<p>All the deprecated options will work during the v6 cycle, and only be
+removed in v7, when those warnings will become errors.</p>
+</div>
+</div>
+    </div>
+    
+
+</article>
+
+        </div>
+        <!--End of body content-->
+
+        <footer>
+            Contents © 2015         <a href="mailto:n.tesla@example.com">Nikola Tesla</a> - Powered by         <a href="http://getnikola.com" rel="nofollow">Nikola</a>         
+            
+        </footer>
+    </div>
+</div>
+
+
+            <script src="../assets/js/jquery.min.js"></script>
+            <script src="../assets/js/bootstrap.min.js"></script>
+            <script src="../assets/js/moment-with-locales.min.js"></script>
+            <script src="../assets/js/fancydates.js"></script>
+        <script src="../assets/js/jquery.colorbox-min.js"></script>
+    
+<!-- Social buttons -->
+<div id="addthisbox" class="addthis_toolbox addthis_peekaboo_style addthis_default_style addthis_label_style addthis_32x32_style">
+<a class="addthis_button_more">Share</a>
+<ul>
+<li>
+<a class="addthis_button_facebook"></a>
+</li>
+<li>
+<a class="addthis_button_google_plusone_share"></a>
+</li>
+<li>
+<a class="addthis_button_linkedin"></a>
+</li>
+<li>
+<a class="addthis_button_twitter"></a>
+</li>
+</ul>
+</div>
+<script src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-4f7088a56bb93798"></script>
+<!-- End of social buttons -->
+
+
+    <script>jQuery("a.image-reference,!.islink").colorbox({rel:"gal",maxWidth:"100%",maxHeight:"100%",scalePhotos:true});</script>
+    <!-- fancy dates -->
+    <script>
+    moment.locale("");
+    fancydates(0, "YYYY-MM-DD HH:mm");
+    </script>
+    <!-- end fancy dates -->
+    
+
+
+</body>
+</html>

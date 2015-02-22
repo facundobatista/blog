@@ -1,0 +1,25 @@
+<p>If you are using reStructuredText and install pygal, Nikola has support for rather nice charts
+with little effort, and i's even semi-interactive (hover your pointer over the legend!):</p>
+<pre class="code rest"><a name="rest_code_b26137e5ae084bc09a5488cdceee8014-1"></a><span class="p">..</span> <span class="ow">chart</span><span class="p">::</span> StackedLine
+<a name="rest_code_b26137e5ae084bc09a5488cdceee8014-2"></a>   <span class="nc">:title:</span> <span class="nf">&#39;Browser usage evolution (in %)&#39;</span>
+<a name="rest_code_b26137e5ae084bc09a5488cdceee8014-3"></a>   <span class="nc">:fill:</span> <span class="nf">True</span>
+<a name="rest_code_b26137e5ae084bc09a5488cdceee8014-4"></a>   <span class="nc">:x_labels:</span> <span class="nf">[&#39;2002&#39;,&#39;2003&#39;,&#39;2004&#39;,&#39;2005&#39;,&#39;2006&#39;,&#39;2007&#39;,&#39;2008&#39;,&#39;2009&#39;,&#39;2010&#39;,&#39;2011&#39;,&#39;2012&#39;]</span>
+<a name="rest_code_b26137e5ae084bc09a5488cdceee8014-5"></a>   <span class="nc">:width:</span> <span class="nf">600</span>
+<a name="rest_code_b26137e5ae084bc09a5488cdceee8014-6"></a>   <span class="nc">:height:</span> <span class="nf">400</span>
+<a name="rest_code_b26137e5ae084bc09a5488cdceee8014-7"></a>   <span class="nc">:explicit_size:</span> <span class="nf">True</span>
+<a name="rest_code_b26137e5ae084bc09a5488cdceee8014-8"></a>   <span class="nc">:style:</span> <span class="nf">BlueStyle</span>
+<a name="rest_code_b26137e5ae084bc09a5488cdceee8014-9"></a>
+<a name="rest_code_b26137e5ae084bc09a5488cdceee8014-10"></a>   (&#39;Others&#39;,  [14.2, 15.4, 15.3,  8.9,    9, 10.4,  8.9,  5.8,  6.7,  6.8,  7.5])
+<a name="rest_code_b26137e5ae084bc09a5488cdceee8014-11"></a>   (&#39;IE&#39;,      [85.8, 84.6, 84.7, 74.5,   66, 58.6, 54.7, 44.8, 36.2, 26.6, 20.1])
+<a name="rest_code_b26137e5ae084bc09a5488cdceee8014-12"></a>   (&#39;Firefox&#39;, [None, None, None, 16.6,   25,   31, 36.4, 45.5, 46.3, 42.8, 37.1])
+<a name="rest_code_b26137e5ae084bc09a5488cdceee8014-13"></a>   (&#39;Chrome&#39;,  [None, None, None, None, None, None,    0,  3.9, 10.8, 23.8, 35.3])
+</pre><div style="text-align: center;"><div class="text-error">In order to use the Chart directive, you must install the "pygal" Python package.</div></div><p>Here's how it works:</p>
+<ul class="simple">
+<li>Next to the directive, use the <a class="reference external" href="http://pygal.org/chart_types/">chart type you want</a></li>
+<li>Any option you can set in a chart? Use it like <tt class="docutils literal">:title:</tt> in this example. Syntax on
+the value is just like in the pygal examples.</li>
+<li>For each data series do it like the line that says <tt class="docutils literal">Firefox</tt> in this example. The first element
+is the label, then comes the data.</li>
+</ul>
+<p>Easy, right? Please explore <a class="reference external" href="http://pygal.org">the pygal site</a> for more information, and just
+take this example and tweak stuff.</p>
