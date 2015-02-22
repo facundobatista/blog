@@ -1,0 +1,87 @@
+ <div style="padding-left:10px;" id="templates">
+   <!-- template_folder -->
+   <div class="field">
+    <label for="config[template_folder]">template_folder</label>
+	<div class="formHelp">{$locale->tr("help_template_folder")}</div>  
+    <input style="width:100%" type="text" name="config[template_folder]" value="{$template_folder}"/>
+   </div>
+   <!-- default_template -->
+   <div class="field">
+    <label for="config[default_template]">default_template</label>
+    <div class="formHelp">{$locale->tr("help_default_template")}</div>
+     <select name="config[default_template]">
+      {foreach from=$templates item=template}
+       <option value="{$template}" {if $template == $default_template} selected="selected" {/if} />{$template}</option>
+      {/foreach}
+     </select>
+   </div>   
+   <!-- users_can_add_templates -->
+   <div class="field">
+    <label for="config[users_can_add_templates]">users_can_add_templates</label>
+    <div class="formHelp">{$locale->tr("help_users_can_add_templates")}</div>
+    <input class="radio" type="radio" id="config[users_can_add_templates]" name="config[users_can_add_templates]" value="1" {if $users_can_add_templates == 1 } checked="checked" {/if} />{$locale->tr("yes")}
+    <input class="radio" type="radio" id="config[users_can_add_templates]" name="config[users_can_add_templates]" value="0" {if $users_can_add_templates == 0 } checked="checked" {/if} />{$locale->tr("no")}
+   </div>
+   <!-- allow_php_code_in_templates -->
+   <div class="field">
+    <label for="config[allow_php_code_in_templates]">allow_php_code_in_templates</label>
+    <div class="formHelp">{$locale->tr("help_allow_php_code_in_templates")}</div>
+    <input class="radio" type="radio" id="config[allow_php_code_in_templates]" name="config[allow_php_code_in_templates]" value="1" {if $allow_php_code_in_templates == 1 } checked="checked" {/if} />{$locale->tr("yes")}
+    <input class="radio" type="radio" id="config[allow_php_code_in_templates]" name="config[allow_php_code_in_templates]" value="0" {if $allow_php_code_in_templates == 0 } checked="checked" {/if} />{$locale->tr("no")}
+   </div>   
+   <!-- template_compile_check -->
+   <div class="field">
+    <label for="config[template_compile_check]">template_compile_check</label>
+    <div class="formHelp">{$locale->tr("help_template_compile_check")}</div>
+    <input class="radio" type="radio" id="config[template_compile_check]" name="config[template_compile_check]" value="1" {if $template_compile_check == 1 } checked="checked" {/if} />{$locale->tr("yes")}
+    <input class="radio" type="radio" id="config[template_compile_check]" name="config[template_compile_check]" value="0" {if $template_compile_check == 0 } checked="checked" {/if} />{$locale->tr("no")}        
+   </div>   
+   <!-- template_cache_enabled -->
+   <div class="field">
+    <label for="config[template_cache_enabled]">template_cache_enabled</label>
+	<div class="formHelp">{$locale->tr("help_template_cache_enabled")}</div>
+    <input class="radio" type="radio" id="config[template_cache_enabled]" name="config[template_cache_enabled]" value="1" {if $template_cache_enabled == 1 } checked="checked" {/if} />{$locale->tr("yes")}
+    <input class="radio" type="radio" id="config[template_cache_enabled]" name="config[template_cache_enabled]" value="0" {if $template_cache_enabled == 0 } checked="checked" {/if} />{$locale->tr("no")}
+   </div>
+   <!-- template_cache_lifetime -->
+   <div class="field">
+    <label for="config[template_cache_lifetime]">template_cache_lifetime</label>
+    <div class="formHelp">{$locale->tr("help_template_cache_lifetime")}</div>
+    <input style="width:100%" type="text" id="config[template_cache_lifetime]" name="config[template_cache_lifetime]" value="{$template_cache_lifetime}"/>
+   </div>
+   <!-- summary_template_cache_lifetime -->
+   <div class="field">
+    <label for="config[summary_template_cache_lifetime]">summary_template_cache_lifetime</label>
+    <div class="formHelp">{$locale->tr("help_summary_template_cache_lifetime")}</div>
+    <input style="width:100%" type="text" id="config[summary_template_cache_lifetime]" name="config[summary_template_cache_lifetime]" value="{$summary_template_cache_lifetime}"/>
+   </div>   
+   <!-- template_http_cache_enabled -->
+   <div class="field">
+    <label for="config[template_http_cache_enabled]">template_http_cache_enabled</label>
+	<div class="formHelp">{$locale->tr("help_template_http_cache_enabled")}</div>
+    <input class="radio" type="radio" id="config[template_http_cache_enabled]" name="config[template_http_cache_enabled]" value="1" {if $template_http_cache_enabled == 1 } checked="checked" {/if} />{$locale->tr("yes")}
+    <input class="radio" type="radio" id="config[template_http_cache_enabled]" name="config[template_http_cache_enabled]" value="0" {if $template_http_cache_enabled == 0 } checked="checked" {/if} />{$locale->tr("no")}
+   </div>
+   <!-- http_cache_lifetime -->
+   <div class="field">
+    <label for="config[http_cache_lifetime]">http_cache_lifetime</label>
+    <div class="formHelp">{$locale->tr("help_http_cache_lifetime")}</div>
+    <input style="width:100%" type="text" id="config[http_cache_lifetime]" name="config[http_cache_lifetime]" value="{$http_cache_lifetime}"/>
+   </div>
+   <!-- template_load_order -->
+   <div class="field">
+    <label for="config[template_load_order]">template_load_order</label>
+    <div class="formHelp">{$locale->tr("help_template_load_order")}</div>
+     <select name="config[template_load_order]">
+       <option value="1" {if $template_load_order == 1} selected="selected" {/if} />{$locale->tr("template_load_order_user_first")}</option>
+       <option value="2" {if $template_load_order == 2} selected="selected" {/if} />{$locale->tr("template_load_order_default_first")}</option>
+     </select>
+   </div>
+   <!-- trim_whitespace_output -->
+   <div class="field">
+    <label for="config[trim_whitespace_output]">trim_whitespace_output</label>
+	<div class="formHelp">{$locale->tr("help_trim_whitespace_output")}</div>
+    <input class="radio" type="radio" id="config[trim_whitespace_output]" name="config[trim_whitespace_output]" value="1" {if $trim_whitespace_output == 1 } checked="checked" {/if} />{$locale->tr("yes")}
+    <input class="radio" type="radio" id="config[trim_whitespace_output]" name="config[trim_whitespace_output]" value="0" {if $trim_whitespace_output == 0 } checked="checked" {/if} />{$locale->tr("no")}
+   </div>
+ </div>

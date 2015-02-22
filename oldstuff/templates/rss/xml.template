@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="{$locale->getCharset()}"?>
+<xmlsrc>
+ <blog>
+  <title>{$blog->getBlog()|escape}</title>
+  <link>{$url->blogLink()}</link>
+  <description>{$blog->getAbout()|escape}</description>
+ </blog>
+  {foreach from=$posts item=post}
+  <article>
+   <topic>{$post->getTopic()|escape}</topic>
+   <text>{$post->getText()|escape}</text>
+   <url>{$url->postPermalink($post)}</url>
+  </article>
+  {/foreach}
+</xmlsrc>

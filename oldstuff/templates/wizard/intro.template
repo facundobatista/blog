@@ -1,0 +1,70 @@
+{include file="wizard/header.template" title="Welcome!" step=2 mode=install}
+ <form name="databaseInfo" action="wizard.php" method="post">
+  <fieldset class="inputField">
+   <legend>Database settings</legend>  
+   {if $viewIsError}
+    <div class="wizardError">
+     <img src="imgs/admin/icon_error-16.png" alt="Error" class="wizardInfoIcon" />
+     <p style="color:red;margin-left:20px;">{$viewErrorMessage}</p>
+    </div> 
+   {else}
+     <div class="wizardInfo">
+      <img src="imgs/admin/icon_info-16.png" alt="Info" class="wizardInfoIcon" />
+      <p class="wizardInfoText">Welcome to the configuration wizard of LifeType. This wizard will guide you through the process of installing LifeType {$version}
+      <br/><br/>
+      The first thing that it is needed to know
+      is the information regarding your database configuration. The user that will be used
+      to connect to the database must have enough permissions to run queries, add, remove
+      and update records. If you also wish to let this wizard create the database and the tables,
+      it should also have enough permissions to create databases and tables.
+      <br/><br/>
+      This information will be saved to the configuration file used by LifeType so you will not need
+      to make any other changes.</p>
+     </div>
+   {/if}
+   <div class="field">
+    <label for="dbServer">Database server</label>
+    <span class="required">*</span>
+    <div class="formHelp">This is the host where your database server is running. It normally is 'localhost', please check with your hosting provider if unsure.</div>
+    <input style="width:100%" type="text" id="dbServer" name="dbServer" value="{$dbServer}"/>
+    {include file="wizard/validate.template" field=dbServer message="Database server is missing or incorrect"}
+   </div>
+   
+   <div class="field">
+    <label for="dbUser">Database user</label>
+    <span class="required">*</span>
+    <div class="formHelp">User that will be used to access the database.</div>
+    <input style="width:100%" type="text" id="dbUser" name="dbUser" value="{$dbUser}"/>
+    {include file="wizard/validate.template" field=dbUser message="Database user is missing or incorrect"}    
+   </div>
+   
+   <div class="field">
+    <label for="dbPassword">Database password</label>
+    <span class="required">*</span>
+    <div class="formHelp">Password for the user given above.</div>
+    <input style="width:100%" type="password" id="dbPassword" name="dbPassword" value="{$dbPassword}"/>
+   </div>
+   
+   <div class="field">
+    <label for="dbName">Database name</label>
+    <span class="required">*</span> 
+    <div class="formHelp">Name of the database where tables will be created</div>
+    <input style="width:100%" type="text" id="dbName" name="dbName" value="{$dbName}"/>
+    {include file="wizard/validate.template" field=dbName message="Database name is missing or incorrect"}    
+   </div> 
+   
+   <div class="field">
+    <label for="dbPrefix">Database prefix</label>
+    <span class="required">*</span>
+    <div class="formHelp">If needed, multiple instances of LifeType can run in the same database with different passwords, but the default is usually fine.</div>
+    <input style="width:100%" type="text" id="dbPrefix" name="dbPrefix" value="{if $dbPrefix==""}lt_{else}{$dbPrefix}{/if}"/>
+   </div>
+   
+   </fieldset>
+   <div class="buttons">
+    <input type="hidden" name="nextStep" value="Step1"/>
+    <input type="reset" name="reset" value="Reset" />
+    <input type="submit" name="Next" value="Next &raquo;"/>
+   </div> 
+ </form>
+{include file="wizard/footer.template"}

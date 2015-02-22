@@ -1,0 +1,27 @@
+{include file="$blogtemplate/header.template"} 
+
+<h2>{$locale->tr("albums")}</h2>
+
+ <!-- album contents go here -->
+ 
+<div id="album">
+	
+	<div class="clearer">&nbsp;</div>
+
+		{assign var="counter" value=0}
+  		{foreach from=$albums item=album}
+	<div class="album">
+	<a href="{$url->albumLink($album)}"><img src="{$url->getTemplateFile("imgs/folder.gif")}" alt="{$album->getName()}" /></a>
+  	<p>{$album->getName()} ({$album->getNumResources()})</p>
+  		{assign var="counter" value="`$counter+1`"}
+		{if $counter%3 == 0}
+		{/if}
+	</div>
+		{/foreach}
+
+	<div class="clearer">&nbsp;</div>
+
+</div>
+
+<!-- end of the albums -->
+{include file="$blogtemplate/footer.template"} 

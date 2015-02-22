@@ -1,0 +1,72 @@
+{include file="$admintemplatepath/header.template"}
+{include file="$admintemplatepath/navigation.template" showOpt=blogCustomFields title=$locale->tr("editCustomField")}
+
+ <form name="editCustomField" method="post" action="admin.php" onSubmit="listSelectAll('fieldValues');return true">
+  <fieldset class="inputField">
+   <legend>{$locale->tr("editCustomField")}</legend>
+   {include file="$admintemplatepath/formvalidate.template"} 
+   
+   <div class="field">
+    <label for="fieldName">{$locale->tr("name")}</label>
+    <span class="required">*</span>
+    <div class="formHelp">{$locale->tr("field_name_help")}</div>
+    <input type="text" name="fieldName" value="{$fieldName}" id="fieldName" />
+    {include file="$admintemplatepath/validate.template" field=fieldName message=$locale->tr("error_empty_name")}
+   </div>
+
+   <div class="field">
+    <label for="fieldDescription">{$locale->tr("description")}</label>
+    <span class="required">*</span>
+    <div class="formHelp">{$locale->tr("field_description_help")}</div>
+    <input type="text" name="fieldDescription" value="{$fieldDescription}" id="fieldDescription" />
+    {include file="$admintemplatepath/validate.template" field=fieldDescription message=$locale->tr("error_empty_description")}
+   </div>
+  
+   <div class="field">
+    <label for="fieldType">{$locale->tr("type")}</label>
+    <span class="required">*</span>
+    <div class="formHelp">{$locale->tr("field_type_help")}</div>
+    <select name="fieldType" id="fieldType" {literal}onChange="elem=document.getElementById('fieldValuesBlock');if(this.selectedIndex==4){elem.style.display='block';}else{elem.style.display='none';}"{/literal}>
+     <option value="1" {if $fieldType == 1}selected="selected"{/if}>{$locale->tr("text_field")}</option>
+     <option value="2" {if $fieldType == 2}selected="selected"{/if}>{$locale->tr("text_area")}</option>
+     <option value="3" {if $fieldType == 3}selected="selected"{/if}>{$locale->tr("checkbox")}</option>
+     <option value="4" {if $fieldType == 4}selected="selected"{/if}>{$locale->tr("date_field")}</option>    
+     <option value="5" {if $fieldType == 5}selected="selected"{/if}>{$locale->tr("dropdown_list_field")}</option>
+    </select>   
+   </div>
+
+   <div class="field" id="fieldValuesBlock" {if $fieldType != 5}style="display:none"{/if}>
+	<label for="fieldValues">{$locale->tr("values")}</label>
+	<span class="required">*</span>
+	<div class="formHelp">{$locale->tr("field_values")}</div>
+		<select name="fieldValues[]" id="fieldValues" multiple="multiple" style="width:40%" size="5">
+		{foreach from=$fieldValues item=value}
+		  <option value="{$value}">{$value}</option>
+		{/foreach}
+		</select>
+		<br />
+		<input type="button" class="button" {literal}onClick="newValue=window.prompt('Enter new value for the custom field');if(newValue!=''){appendDocumentList(document,'fieldValues',newValue,newValue);}"{/literal} value="{$locale->tr("add")}" />
+		<input type="button" class="button" onClick="Lifetype.Forms.List.removeSelected('fieldValues')" value="{$locale->tr("remove_selected")}" />
+   </div>
+     
+   <div class="field">
+    <label for="fieldHidden">{$locale->tr("hidden")}</label>
+    <span class="required">*</span>
+    <div class="formHelp">
+	  <input class="checkbox" type="checkbox" name="fieldHidden" id="fieldHidden" value="1" {if $fieldHidden}checked="checked"{/if} />
+	  {$locale->tr("field_hidden_help")}
+	</div>
+   </div>
+  </fieldset>  
+  
+  <div class="buttons">
+    <input type="hidden" name="fieldSearchable" value="1" />
+    <input type="hidden" name="op" value="updateCustomField" />
+    <input type="hidden" name="fieldId" value="{$fieldId}" />
+    <input type="reset" name="Rest" value="{$locale->tr("reset")}" />	
+    <input type="submit" name="{$locale->tr("update")}" value="{$locale->tr("update")}" />
+  </div> 	
+ </form>
+
+{include file="$admintemplatepath/footernavigation.template"}
+{include file="$admintemplatepath/footer.template"}

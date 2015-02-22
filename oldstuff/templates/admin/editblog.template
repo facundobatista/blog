@@ -1,0 +1,172 @@
+{include file="$admintemplatepath/header.template"}
+{include file="$admintemplatepath/navigation.template" showOpt=editSiteBlogs title=$locale->tr("editBlog")}
+
+ <form name="blogSettings" action="admin.php" method="post" onsubmit="listSelectAll('userList');">
+   <fieldset class="inputField">
+    <legend>{$locale->tr("editBlog")}</legend>
+	{include file="$admintemplatepath/formvalidate.template"}
+    <div class="field">
+      <label for="ro_blogLink">{$locale->tr("blog_link")}</label>
+      <span class="required"></span>
+      <div class="formHelp">{$locale->tr("blog_link_help")}</div>
+      {assign var=editBlogUrlGenerator value=$editblog->getBlogRequestGenerator()} 
+      <input style="width:100%" type="text" readonly="readonly" id="ro_blogLink" name="ro_blogLink" class="readOnly" value="{$editBlogUrlGenerator->blogLink()}" />
+    </div>
+
+    {if $blogDomainsEnabled}
+    <div class="field">
+      <label for="blogSubDomain">{$locale->tr("domain")}</label>
+      <div class="formHelp">{$locale->tr("register_blog_domain_help")}</div>
+      <input type="text" name="blogSubDomain" id="blogSubDomain" style="width:150px" value="{$blogSubDomain}" />
+      <select name="blogMainDomain" id="blogMainDomain">
+       {foreach from=$blogAvailableDomains item=domain}
+        <option value="{$domain}"
+             {if $domain == $blogMainDomain}selected{/if}>
+             {if $domain == "?"}
+               {$locale->tr("subdomains_any_domain")}
+             {else}
+               .{$domain}
+             {/if}
+        </option>
+       {/foreach}
+      </select>
+      {include file="$admintemplatepath/validate.template" field=blogSubDomain message=$locale->tr("error_invalid_subdomain")}
+      {include file="$admintemplatepath/validate.template" field=blogMainDomain message=$locale->tr("error_invalid_domain")}
+    </div>
+    {/if}
+
+
+    <div class="field">
+      <label for="blogName">{$locale->tr("name")}</label>
+      <span class="required">*</span>
+      <div class="formHelp">{$locale->tr("blog_name_help")}</div>
+      <input type="text" name="blogName" style="width:100%" id="blogName" value="{$blogName|escape:"html"}" />
+      {include file="$admintemplatepath/validate.template" field=blogName message=$locale->tr("error_invalid_blog_name")}
+    </div>
+
+    <div class="field">
+      <label for="blogStatus">{$locale->tr("status")}</label>
+      <span class="required">*</span>
+      <div class="formHelp">{$locale->tr("blog_status_help")}</div>
+      <select name="blogStatus" id="blogStatus">
+	{foreach from=$blogStatusList key=statusName item=blogStatusValue}
+	 <option value="{$blogStatusValue}" {if $blogStatus==$blogStatusValue}selected="selected"{/if}>{$locale->tr($statusName)}</option>
+	{/foreach}
+       </select>
+    </div>
+
+    <div class="field">
+      <label for="blogOwner">{$locale->tr("owner")}</label>
+      <span class="required">*</span>
+      <div class="formHelp">{$locale->tr("blog_owner_help")}</div>
+	  <input type="hidden" id="userId" name="userId" value="{if $userId==""}{$blogOwnerInfo->getId()}{else}{$userId}{/if}" />
+	  <input type="text" id="userName" name="userName" value="{if $userName==""}{$blogOwnerInfo->getUsername()}{else}{$userName}{/if}" style="width:50%"/>
+	  <a href="#" onclick="window.open('?op=siteUsersChooser','UserChooser','scrollbars=yes,resizable=yes,toolbar=no,height=450,width=600');">
+	   {$locale->tr("select")}
+	  </a> 
+    </div>
+
+    <div class="field">
+     <label for="blogLocale">{$locale->tr("language")}</label>
+     <span class="required">*</span>
+     <div class="formHelp">{$locale->tr("blog_language_help")}</div>
+     <select name="blogLocale" id="blogLocale">
+      {foreach from=$locales item=localeobject}
+       <option value="{$localeobject->getLocaleCode()}" {if $localeobject->getLocaleCode()==$blogLocale} selected="selected" {/if}>
+	     {$localeobject->getDescription()} ({$localeobject->getLocaleCode()} {$localeobject->getCharset()})
+	   </option>
+      {/foreach}
+      </select>
+    </div>
+
+    <div class="field">
+     <label for="blogTemplate">{$locale->tr("template")}</label>
+     <span class="required">*</span>
+     <div class="formHelp">{$locale->tr("blog_template_help")}</div>
+     {assign var=blogTemplateSet value=$editblog->getTemplateSet()}
+     <select name="blogTemplate" id="blogTemplate">
+       {foreach from=$templates item=template}
+        <option value="{$template->getName()}"{if $template->getName() == $blogTemplateSet->getName()} selected="selected" {/if}>{$template->getName()}</option>
+       {/foreach}
+      </select>
+      <a href="javascript:openTemplateChooserWindow();">{$locale->tr("select")}</a>
+     </div>
+
+    <div class="field">
+     <label for="blogTimeOffset">{$locale->tr("time_offset")}</label>
+     <div class="formHelp">{$locale->tr("time_offset_help")}</div>
+      <select name="blogTimeOffset" id="blogTimeOffset">
+       <option {if $blogTimeOffset == -20} selected="selected"{/if} value="-20">-20 {$locale->tr("hours")}</option>
+       <option {if $blogTimeOffset == -19} selected="selected"{/if} value="-19">-19 {$locale->tr("hours")}</option>
+       <option {if $blogTimeOffset == -18} selected="selected"{/if} value="-18">-18 {$locale->tr("hours")}</option>
+       <option {if $blogTimeOffset == -17} selected="selected"{/if} value="-17">-17 {$locale->tr("hours")}</option>
+       <option {if $blogTimeOffset == -16} selected="selected"{/if} value="-16">-16 {$locale->tr("hours")}</option>
+       <option {if $blogTimeOffset == -15} selected="selected"{/if} value="-15">-15 {$locale->tr("hours")}</option>
+       <option {if $blogTimeOffset == -14} selected="selected"{/if} value="-14">-14 {$locale->tr("hours")}</option>	   	   	   	   
+       <option {if $blogTimeOffset == -13} selected="selected"{/if} value="-13">-13 {$locale->tr("hours")}</option>	  
+       <option {if $blogTimeOffset == -12} selected="selected"{/if} value="-12">-12 {$locale->tr("hours")}</option>
+       <option {if $blogTimeOffset == -11} selected="selected"{/if}value="-11">-11 {$locale->tr("hours")}</option>
+       <option {if $blogTimeOffset == -10} selected="selected"{/if}value="-10">-10 {$locale->tr("hours")}</option>
+       <option {if $blogTimeOffset == -9} selected="selected"{/if}value="-9">-9 {$locale->tr("hours")}</option>
+       <option {if $blogTimeOffset == -8} selected="selected"{/if}value="-8">-8 {$locale->tr("hours")}</option>
+       <option {if $blogTimeOffset == -7} selected="selected"{/if}value="-7">-7 {$locale->tr("hours")}</option>
+       <option {if $blogTimeOffset == -6} selected="selected"{/if}value="-6">-6 {$locale->tr("hours")}</option>
+       <option {if $blogTimeOffset == -5} selected="selected"{/if}value="-5">-5 {$locale->tr("hours")}</option>
+       <option {if $blogTimeOffset == -4} selected="selected"{/if}value="-4">-4 {$locale->tr("hours")}</option>
+       <option {if $blogTimeOffset == -3} selected="selected"{/if}value="-3">-3 {$locale->tr("hours")}</option>
+       <option {if $blogTimeOffset == -2} selected="selected"{/if}value="-2">-2 {$locale->tr("hours")}</option>
+       <option {if $blogTimeOffset == -1} selected="selected"{/if}value="-1">-1 {$locale->tr("hours")}</option>
+       <option {if $blogTimeOffset == 0} selected="selected"{/if}value="0">0 {$locale->tr("hours")}</option>
+       <option {if $blogTimeOffset == 1} selected="selected"{/if}value="1">+1 {$locale->tr("hours")}</option>
+       <option {if $blogTimeOffset == 2} selected="selected"{/if}value="2">+2 {$locale->tr("hours")}</option>
+       <option {if $blogTimeOffset == 3} selected="selected"{/if}value="3">+3 {$locale->tr("hours")}</option>
+       <option {if $blogTimeOffset == 4} selected="selected"{/if}value="4">+4 {$locale->tr("hours")}</option>
+       <option {if $blogTimeOffset == 5} selected="selected"{/if}value="5">+5 {$locale->tr("hours")}</option>
+       <option {if $blogTimeOffset == 6} selected="selected"{/if}value="6">+6 {$locale->tr("hours")}</option>
+       <option {if $blogTimeOffset == 7} selected="selected"{/if}value="7">+7 {$locale->tr("hours")}</option>
+       <option {if $blogTimeOffset == 8} selected="selected"{/if}value="8">+8 {$locale->tr("hours")}</option>
+       <option {if $blogTimeOffset == 9} selected="selected"{/if}value="9">+9 {$locale->tr("hours")}</option>
+       <option {if $blogTimeOffset == 10} selected="selected"{/if}value="10">+10 {$locale->tr("hours")}</option>
+       <option {if $blogTimeOffset == 11} selected="selected"{/if}value="11">+11 {$locale->tr("hours")}</option>
+       <option {if $blogTimeOffset == 12} selected="selected"{/if}value="12">+12 {$locale->tr("hours")}</option>
+       <option {if $blogTimeOffset == 13} selected="selected"{/if} value="13">+13 {$locale->tr("hours")}</option>	  
+       <option {if $blogTimeOffset == 14} selected="selected"{/if} value="14">+14 {$locale->tr("hours")}</option>
+       <option {if $blogTimeOffset == 15} selected="selected"{/if} value="15">+15 {$locale->tr("hours")}</option>
+       <option {if $blogTimeOffset == 16} selected="selected"{/if} value="16">+16 {$locale->tr("hours")}</option>
+       <option {if $blogTimeOffset == 17} selected="selected"{/if} value="17">+17 {$locale->tr("hours")}</option>
+       <option {if $blogTimeOffset == 18} selected="selected"{/if} value="18">+18 {$locale->tr("hours")}</option>
+       <option {if $blogTimeOffset == 19} selected="selected"{/if} value="19">+19 {$locale->tr("hours")}</option>
+       <option {if $blogTimeOffset == 20} selected="selected"{/if} value="20">+20 {$locale->tr("hours")}</option>	   
+      </select>
+      {include file="$admintemplatepath/validate.template" field=blogTimeOffset message=$locale->tr("error_incorrect_time_offset")}
+	 </div>  
+
+    <div class="field">
+     <label for="blogResourcesQuota">{$locale->tr("quota")}</label>
+     <div class="formHelp">{$locale->tr("blog_quota_help")}</div>
+     <input type="text" id="blogResourcesQuota" name="blogResourcesQuota" value="{$blogResourcesQuota}" />
+     {include file="$admintemplatepath/validate.template" field=blogResourcesQuota message=$locale->tr("error_invalid_number")}
+    </div>
+
+    <div class="field">
+	<label for="blog_users">{$locale->tr("users")}</label>
+        <div class="formHelp">{$locale->tr("blog_users_help")}</div>
+	   {assign var=owner value=$editblog->getOwnerInfo()}
+	   {foreach from=$blogusers item=bloguser}
+	    {if $owner->getUsername() != $bloguser->getUsername()}
+  	      {check_perms adminperm=edit_blog_admin_mode}<a href="?op=adminBlogSelect&amp;blogId={$editblog->getId()}&amp;action=editBlogUser&amp;userId={$bloguser->getId()}">{/check_perms}{$bloguser->getUsername()}{check_perms adminperm=edit_blog_admin_mode}</a>{/check_perms}<br/>
+        {/if} 
+	   {/foreach}
+	   {check_perms adminperm=edit_blog_admin_mode}<a href="?op=adminBlogSelect&amp;blogId={$editblog->getId()}&amp;action=newBlogUser">{$locale->tr("add")}</a>{/check_perms}
+       </div>
+    </fieldset>
+    <div class="buttons">
+      <input type="reset" name="reset" value="{$locale->tr("reset")}" />
+      <input type="submit" name="{$locale->tr("update")}" value="{$locale->tr("update")}" />
+      <input type="hidden" name="op" value="updateEditBlog" />
+      <input type="hidden" name="blogId" value="{$editblog->getId()}"/>
+    </div>
+ </form>
+
+{include file="$admintemplatepath/footernavigation.template"}
+{include file="$admintemplatepath/footer.template"}

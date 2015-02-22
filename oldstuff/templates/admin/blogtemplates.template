@@ -1,0 +1,71 @@
+{include file="$admintemplatepath/header.template"}
+{include file="$admintemplatepath/navigation.template" showOpt=blogTemplates title=$locale->tr("blogTemplates")}
+<script type="text/javascript">
+{literal}
+YAHOO.util.Event.addListener( window, "load", function() {
+		var t = new Lifetype.UI.TableEffects( "list" );
+		t.stripe();
+		t.highlightRows();
+	});
+{/literal}
+</script>
+ <form id="editTemplates" method="post" action="admin.php">
+ <div id="list">
+  {include file="$admintemplatepath/successmessage.template"}
+  {include file="$admintemplatepath/errormessage.template"}
+  <table id="list" class="info" summary="{$locale->tr("blogTemplates")}" id="list">
+   <thead>
+    <tr>
+      <th><input class="checkbox" type="checkbox" name="all" id="all" value="1" onclick="toggleAllChecks('editTemplates');" /></th>
+      <th style="width:90%;">{$locale->tr("template")}</th>
+      <th style="width:10%;">{$locale->tr("actions")}</th>
+    </tr>
+  </thead>
+  {if $templates}
+  <tbody>
+  {assign var=blogTemplate value=$blog->getTemplateSet()}
+  {foreach from=$templates item=sitetemplate}
+   <tr>
+    <td>
+	 {if $blogTemplate->getName() != $sitetemplate->getName()}
+       <input class="checkbox" type="checkbox" name="templateIds[{counter}]" value="{$sitetemplate->getName()}" />       
+	 {/if}  
+    </td>
+    <td  class="col_highlighted">
+	 {if $sitetemplate->hasScreenshot()}
+	  <a href="javascript:openScreenshotWindow('{$sitetemplate->getScreenshotUrl()}');">{$sitetemplate->getName()}</a>
+	 {else}
+      {$sitetemplate->getName()}
+	 {/if} 
+    </td>
+    <td>
+     <div class="list_action_button">
+      {check_perms perm=update_blog_template}
+      <a href="?op=deleteBlogTemplate&amp;templateId={$sitetemplate->getName()}" title="{$locale->tr("delete")}">
+       {if $blogTemplate->getName() != $sitetemplate->getName()}
+	     <img src="imgs/admin/icon_delete-16.png" alt="{$locale->tr("delete")}" />
+	   {/if}
+      </a>
+      {/check_perms}
+	  {if $sitetemplate->hasScreenshot()}
+	    <a href="javascript:openScreenshotWindow('{$sitetemplate->getScreenshotUrl()}');" title="{$locale->tr("preview")}">
+		  <img src="imgs/admin/icon_image-16.png" title="{$locale->tr("preview")}" />
+		</a>
+	  {/if}		  
+     </div>
+    </td>
+   </tr>
+  {/foreach}
+  </tbody>
+  {/if}
+ </table>
+ </div>
+ <div id="list_action_bar">
+   {check_perms perm=update_blog_template}
+   <input type="hidden" name="op" value="deleteBlogTemplates" class="submit" />
+   <input type="submit" name="{$locale->tr("delete")}" value="{$locale->tr("delete")}"/>
+   {/check_perms}
+ </div>
+ </form>
+{include file="$admintemplatepath/footernavigation.template"}
+{include file="$admintemplatepath/footer.template"}

@@ -1,0 +1,13 @@
+{include file="summary/header.template" selected="register" columns=1 section=$locale->tr("error")}
+<div id="onecolumn">
+ <p>
+  {$locale->tr("register_error")}
+ </p>
+ <p>
+  <span style="color: red">{$viewErrorMessage}</span>
+ </p>
+ <p>
+<a href="#" onclick="javascript:history.go(-1)">&laquo; {$locale->tr("back")}</a>
+ </p>
+</div>
+{include file="summary/footer.template"}

@@ -1,0 +1,28 @@
+<div style="padding-left:10px;" id="interfaces">
+   <!-- xmlrpc_ping_enabled -->
+   <div class="field">
+    <label for="config[xmlrpc_api_enabled]">xmlrpc_api_enabled</label>
+    <div class="formHelp">{$locale->tr("help_xmlrpc_api_enabled")}</div>
+    <input class="radio" type="radio" name="config[xmlrpc_api_enabled]" value="1" {if $xmlrpc_api_enabled == 1 } checked="checked" {/if} />{$locale->tr("yes")}
+    <input class="radio" type="radio" name="config[xmlrpc_api_enabled]" value="0" {if $xmlrpc_api_enabled == 0 } checked="checked" {/if} />{$locale->tr("no")}
+   </div>
+   <!-- enable or disable the rdf feed -->
+   <div class="field">
+    <label for="config[rdf_enabled]">rdf_enabled</label>
+    <div class="formHelp">{$locale->tr("help_rdf_enabled")}</div>
+    <input class="radio" type="radio" name="config[rdf_enabled]" value="1" {if $rdf_enabled == 1 } checked="checked" {/if} />{$locale->tr("yes")}
+    <input class="radio" type="radio" name="config[rdf_enabled]" value="0" {if $rdf_enabled == 0 } checked="checked" {/if} />{$locale->tr("no")}
+   </div>
+   <!-- default_rss_profile -->
+   <div class="field">
+    <label for="config[default_rss_profile]">default_rss_profile</label>
+    <div class="formHelp">{$locale->tr("help_default_rss_profile")}</div>
+    <select name="config[default_rss_profile]">
+      <option value="rss090" {if $default_rss_profile == "rss090"} selected="selected" {/if} />RSS 0.90</option>
+      <option value="rss10" {if $default_rss_profile == "rss10"} selected="selected" {/if} />RSS 1.0</option>
+      <option value="rss20" {if $default_rss_profile == "rss20"} selected="selected" {/if} />RSS 2.0</option>
+	  <option value="atom" {if $default_rss_profile == "atom"} selected="selected" {/if} />Atom 0.3</option>
+      <option value="xml" {if $default_rss_profile == "xml"} selected="selected" {/if} />XML</option>
+    </select>
+   </div>
+</div>

@@ -1,0 +1,5 @@
+{include file="$admintemplatepath/header.template"}
+{include file="$admintemplatepath/navigation.template" showOpt=controlCenter title=$locale->tr("controlCenter")}
+{$menu->generateAt("controlCenter",2)}
+</div>
+{include file="$admintemplatepath/footer.template"}

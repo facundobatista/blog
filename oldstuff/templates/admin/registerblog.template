@@ -1,0 +1,103 @@
+{include file="$admintemplatepath/simpleheader.template"}
+
+    <div id="nav_bar">
+        <div id="section_title">
+            <h2>{$locale->tr("createBlog")}</h2>
+        </div>
+        <br style="clear:both;" />
+    </div>
+    </div>
+
+    <div id="dashboard">
+ <form name="createBlog" action="admin.php" method="post">
+  <fieldset class="inputField">
+   <legend>{$locale->tr("step2")}</legend>
+   {include file="$admintemplatepath/errormessage.template" message=$locale->tr("error_adding_blog")}
+   <div class="field">
+     <label for="blogName">{$locale->tr("name")}</label>
+     <span class="required">*</span>
+     <div class="formHelp">{$locale->tr("register_blog_name_help")}</div>
+     <input type="text" name="blogName" value="{$blogName}" id="blogName" />
+     {include file="$admintemplatepath/validate.template" field=blogName message=$locale->tr("error_invalid_blog_name")}
+   </div>  
+   
+    {if $blogDomainsEnabled}
+    <div class="field">
+      <label for="blogSubDomain">{$locale->tr("domain")}</label>
+      <div class="formHelp">{$locale->tr("register_blog_domain_help")}</div>
+      <input type="text" name="blogSubDomain" id="blogSubDomain" 
+             style="width:150px" value="{$blogSubDomain}" />
+      <select name="blogMainDomain" id="blogMainDomain">
+       {foreach from=$blogAvailableDomains item=domain}
+        <option value="{$domain}"
+             {if $domain == $blogMainDomain}selected{/if}>
+             {if $domain == "?"}
+               {$locale->tr("subdomains_any_domain")}
+             {else}
+               .{$domain}
+             {/if}
+        </option>
+       {/foreach}
+      </select>
+      {include file="$admintemplatepath/validate.template"
+          field=blogSubDomain 
+          message=$locale->tr("error_invalid_subdomain")}
+      {include file="$admintemplatepath/validate.template"
+          field=blogMainDomain 
+          message=$locale->tr("error_invalid_domain")}
+    </div>
+    {/if}
+
+  <div class="field">
+     <label for="blogLocale">{$locale->tr("language")}</label>
+     <span class="required">*</span>
+     <div class="formHelp">{$locale->tr("blog_language_help")}</div>
+     <select name="blogLocale" id="blogLocale">
+      {foreach from=$locales item=localeObject}
+        <option value="{$localeObject->getLocaleCode()}" {if $defaultLocale == $localeObject->getLocaleCode()}selected="selected"{/if}>{$localeObject->getDescription()}</option>
+      {/foreach}
+     </select>
+     {include file="$admintemplatepath/validate.template" field=blogLocale message=$locale->tr("error_empty_locale")}
+   </div>
+   
+  <div class="field">
+     <label for="blogCategory">{$locale->tr("blog_category")}</label>
+     <span class="required">*</span>
+     <div class="formHelp">{$locale->tr("blog_category_help")}</div>
+     <select name="blogCategory" id="blogCategory">
+      {foreach from=$blogcategories item=blogcategory}
+        <option value="{$blogcategory->getId()}">{$blogcategory->getName()}</option>
+      {/foreach}
+     </select>
+     {include file="$admintemplatepath/validate.template" field=blogCategory message=$locale->tr("error_incorrect_blog_category")}
+   </div>   
+   
+
+   <div class="field">
+	<label for="">{$locale->tr("select_template")}</label>
+	<div class="formHelp">{$locale->tr("register_step3_help")}</div>
+    {include file="$admintemplatepath/validate.template" field=templateId message=$locale->tr("error_must_choose_template")}	
+   {foreach from=$templates item=template}
+    {assign var=templateName value=$template->getName()}
+    <div class="templateScreen">
+    <a href="javascript:openWindow('{$template->getScreenshotUrl()}','Screenshot','scrollbars=yes,resizable=yes,width=400,height=300');"><img src="{$template->getScreenshotUrl()}" alt="{$templateName}" height="150" width="200" /></a><br/>
+    <input type="radio" class="checkbox" value="{$template->getName()}" name="templateId" id="templateId" />
+    <label for="templateId"><strong>{$templateName}</strong></label>
+    <br/><br/>
+    </div>
+   {/foreach}
+   </div>   
+
+  </fieldset>
+  <div class="buttons">
+    <input type="button" onClick="javascript:window.location='admin.php?op=Dashboard'" value="&laquo; {$locale->tr("back")}" />
+    <input type="submit" name="{$locale->tr("register")}" value="{$locale->tr("register")} &raquo;"/>
+    <input type="hidden" name="op" value="finishRegisterBlog" />
+    <input type="hidden" name="userName" value="{$userName}" />
+    <input type="hidden" name="userFullName" value="{$userFullName}" />
+    <input type="hidden" name="userPassword" value="{$userPassword}" />
+    <input type="hidden" name="userEmail" value="{$userEmail}" />
+  </div>  
+ </form>
+    </div>
+{include file="$admintemplatepath/simplefooter.template"}

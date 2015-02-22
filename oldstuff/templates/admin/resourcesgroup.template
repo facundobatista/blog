@@ -1,0 +1,5 @@
+{include file="$admintemplatepath/header.template"}
+{include file="$admintemplatepath/navigation.template" showOpt=ResourcesGroup title=$locale->tr("resourceCenter")}
+{$menu->generateAt("ResourcesGroup",2)}
+</div>
+{include file="$admintemplatepath/footer.template"}

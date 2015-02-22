@@ -1,0 +1,72 @@
+{include file="$admintemplatepath/header.template"}
+{include file="$admintemplatepath/navigation.template" showOpt=pluginCenter title=$locale->tr("pluginCenter")}
+<script type="text/javascript">
+{literal}
+YAHOO.util.Event.addListener( window, "load", function() {
+		var t = new Lifetype.UI.TableEffects( "list" );
+		t.stripe();
+		t.highlightRows();
+	});
+{/literal}
+</script>
+ <form id="pluginCenter" action="admin.php" method="post">
+        <div id="list">
+            <table id="list" class="info" summary="{$locale->tr("pluginCenter")}">
+                <thead>
+                    <tr>
+                        <th style="width:15%;"><a href="#">{$locale->tr("identifier")}</a></th>
+                        <th style="width:10%;"><a href="#">{$locale->tr("version")}</a></th>
+                        <th style="width:20%;"><a href="#">{$locale->tr("author")}</a></th>
+                        <th style="width:60%;"><a href="#">{$locale->tr("description")}</a></th>
+						<th style="width:10%;"><a href="#">{$locale->tr("actions")}</a></th>
+                    </tr>
+                </thead>
+                <tbody> 
+				  {foreach from=$plugins item=plugin}
+				  {assign var=pluginName value=$plugin->getId()}				
+                    <tr>
+                        <td class="col_highlighted">	
+							{$plugin->getId()}
+							 {if $versionCheck && $plugin->getVersion() < $pluginData.$pluginName.version}							
+								 <img src="imgs/admin/icon_warning-16.png" alt="{$locale->tr("error")}" />
+							{/if}							
+                        </td>
+                        <td class="col_highlighted">
+                            {$plugin->getVersion()}
+                        </td>
+                        <td class="col_highlighted">
+                            {$plugin->getAuthor()}
+                        </td>
+                        <td>
+							{if $versionCheck && $plugin->getVersion() < $pluginData.$pluginName.version}
+							  <span style="color:red">{$locale->tr("plugin_latest_version")} {$pluginData.$pluginName.version}</span>
+							  (<a href="{$pluginData.$pluginName.downloadLink}">{$locale->tr("download")}</a>)
+							  <br/>
+							{/if}
+                            {$plugin->getDescription()}
+                        </td>
+						<td>
+                            <a href="http://wiki.lifetype.net/index.php/Plugin_{$plugin->getId()}">
+							  <img src="imgs/admin/icon_info-16.png" alt="Info" />
+							</a>
+							 {if $versionCheck && $plugin->getVersion() < $pluginData.$pluginName.version}
+							     <a href="{$pluginData.$pluginName.downloadLink}">
+								   <img src="imgs/admin/icon_goto-16.png" alt="{$locale->tr("download")}" />
+								 </a>
+							{/if}														
+						</td>
+                    </tr>
+                    {/foreach}
+                </tbody>
+            </table>
+        </div>
+	 <div id="list_action_bar">
+	  {check_perms adminperm=view_plugins}
+	  <input type="hidden" name="op" value="pluginCenter"/>
+	  <input type="hidden" name="doVersionCheck" value="1"/>	
+	  <input type="submit" name="check" value="{$locale->tr("check_versions")}"/>
+	  {/check_perms}
+	 </div>
+	 </form>
+{include file="$admintemplatepath/footernavigation.template"}
+{include file="$admintemplatepath/footer.template"}

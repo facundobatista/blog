@@ -1,0 +1,87 @@
+ <div style="padding-left:10px;" id="summary">
+   <!-- summary_service_name -->	
+   <div class="field">
+    <label for="config[summary_service_name]">summary_service_name</label>
+    <div class="formHelp">{$locale->tr("help_summary_service_name")}</div>
+    <input style="width:100%" type="text" name="config[summary_service_name]" id="config[summary_service_name]" value="{$summary_service_name}"/>
+   </div>
+   <!-- summary_page_show_max -->
+   <div class="field">
+    <label for="config[summary_page_show_max]">summary_page_show_max</label>
+    <div class="formHelp">{$locale->tr("help_summary_page_show_max")}</div>
+    <input style="width:100%" type="text" name="config[summary_page_show_max]" id="config[summary_page_show_max]" value="{$summary_page_show_max}"/>
+   </div>   
+   <!-- summary_items_per_page -->
+   <div class="field">
+    <label for="config[summary_items_per_page]">summary_items_per_page</label>
+    <div class="formHelp">{$locale->tr("help_summary_items_per_page")}</div>
+    <input style="width:100%" type="text" id="config[summary_items_per_page]" name="config[summary_items_per_page]" value="{$summary_items_per_page}"/>
+   </div>
+   <!-- summary_disable_registration -->
+   <div class="field">
+    <label for="config[summary_disable_registration]">summary_disable_registration</label>
+	<div class="formHelp">{$locale->tr("help_summary_disable_registration")}</div>
+    <input class="radio" type="radio" id="config[summary_disable_registration]" name="config[summary_disable_registration]" value="1" {if $summary_disable_registration == 1 } checked="checked" {/if} />{$locale->tr("yes")}
+    <input class="radio" type="radio" id="config[summary_disable_registration]" name="config[summary_disable_registration]" value="0" {if $summary_disable_registration == 0 } checked="checked" {/if} />{$locale->tr("no")}
+   </div>
+   <!-- forbidden_usernames -->
+   <div class="field">
+    <label for="config[forbidden_usernames]">forbidden_usernames</label>
+    <div class="formHelp">{$locale->tr("help_forbidden_usernames")}</div>
+    <input style="width:100%" type="text" id="config[forbidden_usernames]" name="config[forbidden_usernames]" value="{$forbidden_usernames}"/>
+   </div>
+   <!-- forbidden_blognames -->
+   <div class="field">
+    <label for="config[forbidden_blognames]">forbidden_blognames</label>
+    <div class="formHelp">{$locale->tr("help_forbidden_blognames")}</div>
+    <input style="width:100%" type="text" id="config[forbidden_blognames]" name="config[forbidden_blognames]" value="{$forbidden_blognames}"/>
+   </div>
+   <!-- force_one_blog_per_email_account -->
+   <div class="field">
+    <label for="config[force_one_blog_per_email_account]">force_one_blog_per_email_account</label>
+    <div class="formHelp">{$locale->tr("help_force_one_blog_per_email_account")}</div>
+    <input class="radio" type="radio" id="config[forbidden_usernames]" name="config[force_one_blog_per_email_account]" value="1" {if $force_one_blog_per_email_account == 1 } checked="checked" {/if} />{$locale->tr("yes")}
+    <input class="radio" type="radio" id="config[forbidden_usernames]" name="config[force_one_blog_per_email_account]" value="0" {if $force_one_blog_per_email_account == 0 } checked="checked" {/if} />{$locale->tr("no")}
+   </div>	 
+   <!-- summary_show_agreement -->
+   <div class="field">
+    <label for="config[summary_show_agreement]">summary_show_agreement</label>
+    <div class="formHelp">{$locale->tr("help_summary_show_agreement")}</div>
+    <input class="radio" type="radio" id="config[summary_show_agreement]" name="config[summary_show_agreement]" value="1" {if $summary_show_agreement == 1 } checked="checked" {/if} />{$locale->tr("yes")}
+    <input class="radio" type="radio" id="config[summary_show_agreement]" name="config[summary_show_agreement]" value="0" {if $summary_show_agreement == 0 } checked="checked" {/if} />{$locale->tr("no")}
+   </div>	
+   <!-- need_email_confirm_registration -->
+   <div class="field">
+    <label for="config[need_email_confirm_registration]">need_email_confirm_registration</label>
+	<div class="formHelp">{$locale->tr("help_need_email_confirm_registration")}</div> 
+    <input class="radio" type="radio" id="config[need_email_confirm_registration]" name="config[need_email_confirm_registration]" value="1" {if $need_email_confirm_registration == 1 } checked="checked" {/if} />{$locale->tr("yes")}
+    <input class="radio" type="radio" id="config[need_email_confirm_registration]" name="config[need_email_confirm_registration]" value="0" {if $need_email_confirm_registration == 0 } checked="checked" {/if} />{$locale->tr("no")}
+  </div>
+   <!-- num_blogs_per_user -->
+   <div class="field">
+    <label for="config[num_blogs_per_user]">num_blogs_per_user</label>
+	<div class="formHelp">{$locale->tr("help_num_blogs_per_user")}</div> 
+    <input style="width:100%" type="text" id="config[num_blogs_per_user]" name="config[num_blogs_per_user]" value="{$num_blogs_per_user}"/>	
+  </div>  
+  <!-- use_captcha_auth -->
+  <div class="field">
+    <label for="config[use_captcha_auth]">use_captcha_auth</label>  
+    <div class="formHelp">{$locale->tr("help_use_captcha_auth")}</div>
+    <input class="radio" type="radio" id="config[use_captcha_auth]" name="config[use_captcha_auth]" value="1" {if $use_captcha_auth == 1 } checked="checked" {/if} />{$locale->tr("yes")}
+    <input class="radio" type="radio" id="config[use_captcha_auth]" name="config[use_captcha_auth]" value="0" {if $use_captcha_auth == 0 } checked="checked" {/if} />{$locale->tr("no")}  
+  </div>
+  <!-- use_http_accept_language_detection -->
+  <div class="field">
+    <label for="config[use_http_accept_language_detection]">use_http_accept_language_detection</label>  
+    <div class="formHelp">{$locale->tr("help_use_http_accept_language_detection")}</div>
+    <input class="radio" type="radio" id="config[use_http_accept_language_detection]" name="config[use_http_accept_language_detection]" value="1" {if $use_http_accept_language_detection == 1 } checked="checked" {/if} />{$locale->tr("yes")}
+    <input class="radio" type="radio" id="config[use_http_accept_language_detection]" name="config[use_http_accept_language_detection]" value="0" {if $use_http_accept_language_detection == 0 } checked="checked" {/if} />{$locale->tr("no")}  
+  </div>
+   <!-- notify_new_blogs -->
+   <div class="field">
+    <label for="config[notify_new_blogs]">notify_new_blogs</label>
+	<div class="formHelp">{$locale->tr("help_notify_new_blogs")}</div> 
+    <input class="radio" type="radio" id="config[notify_new_blogs]" name="config[notify_new_blogs]" value="1" {if $notify_new_blogs == 1 } checked="checked" {/if} />{$locale->tr("yes")}
+    <input class="radio" type="radio" id="config[notify_new_blogs]" name="config[notify_new_blogs]" value="0" {if $notify_new_blogs == 0 } checked="checked" {/if} />{$locale->tr("no")}
+  </div>
+ </div> 

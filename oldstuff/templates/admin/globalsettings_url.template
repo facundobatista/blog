@@ -1,0 +1,118 @@
+ <div style="padding-left:10px;" id="urls">
+   <!-- request_format_mode -->
+   <div class="field">
+    <label for="config[request_format_mode]">request_format_mode</label>
+    <div class="formHelp">{$locale->tr("help_request_format_mode")}</div>       
+     <select id="config[request_format_mode]" name="config[request_format_mode]">
+      <option value="1" {if $request_format_mode == 1 } selected="selected" {/if} />{$locale->tr("plain")}</option>
+      <option value="2" {if $request_format_mode == 2 } selected="selected" {/if} />{$locale->tr("search_engine_friendly")}</option>
+      <option value="3" {if $request_format_mode == 3 } selected="selected" {/if} />Apache ModRewrite</option>            
+      <option value="4" {if $request_format_mode == 4 } selected="selected" {/if} />{$locale->tr("custom_url_format")}</option>                  
+     </select>
+   </div>
+   <!-- urlize_word_separator -->
+   <div class="field">
+    <label for="config[urlize_word_separator]">urlize_word_separator</label>
+    <div class="formHelp">{$locale->tr("help_urlize_word_separator")}</div>    
+    <input style="width:100%" type="text" id="config[urlize_word_separator]" name="config[urlize_word_separator]" value="{$urlize_word_separator}"/>
+   </div>   
+   <!-- force posturl unique -->
+   <div class="field">
+    <label for="config[force_posturl_unique]">force_posturl_unique</label>
+    <div class="formHelp">{$locale->tr("help_force_posturl_unique")}</div>    
+    <input class="radio" type="radio" id="config[force_posturl_unique]" name="config[force_posturl_unique]" value="1" {if $force_posturl_unique == 1 } checked="checked" {/if} />{$locale->tr("yes")}
+    <input class="radio" type="radio" id="config[force_posturl_unique]" name="config[force_posturl_unique]" value="0" {if $force_posturl_unique == 0 } checked="checked" {/if} />{$locale->tr("no")}
+   </div>   
+   <!-- permalink_format -->
+   <div class="field">
+    <label for="config[permalink_format]">permalink_format</label>
+    <div class="formHelp">{$locale->tr("help_permalink_format")}</div>    
+    <input style="width:100%" type="text" id="config[permalink_format]" name="config[permalink_format]" value="{$permalink_format}"/>
+    {include file="$admintemplatepath/validate.template" field="config[permalink_format]" message=$locale->tr("error_empty_text")}
+   </div>
+   <!-- category_link_format -->
+   <div class="field">
+    <label for="config[category_link_format]">category_link_format</label>
+    <div class="formHelp">{$locale->tr("help_category_link_format")}</div>    
+    <input style="width:100%" type="text" id="config[category_link_format]" name="config[category_link_format]" value="{$category_link_format}" />
+    {include file="$admintemplatepath/validate.template" field="config[category_link_format]" message=$locale->tr("error_empty_text")}
+   </div>
+   <!-- blog_link_format -->
+   <div class="field">
+    <label for="config[blog_link_format]">blog_link_format</label>
+    <div class="formHelp">{$locale->tr("help_blog_link_format")}</div>    
+    <input style="width:100%" type="text" id="config[blog_link_format]" name="config[blog_link_format]" value="{$blog_link_format}"/>
+    {include file="$admintemplatepath/validate.template" field=config[blog_link_format] message=$locale->tr("error_empty_text")}
+   </div>   
+   <!-- archive_link_format -->
+   <div class="field">
+    <label for="config[archive_link_format]">archive_link_format</label> 
+    <div class="formHelp">{$locale->tr("help_archive_link_format")}</div>	
+    <input style="width:100%" type="text" id="config[archive_link_format]" name="config[archive_link_format]" value="{$archive_link_format}"/>
+    {include file="$admintemplatepath/validate.template" field=config[archive_link_format] message=$locale->tr("error_empty_text")}
+   </div>
+   <!-- user_posts_link_format -->
+   <div class="field">
+    <label for="config[user_posts_link_format]">user_posts_link_format</label>
+    <div class="formHelp">{$locale->tr("help_user_posts_link_format")}</div>	
+    <input style="width:100%" type="text" id="config[user_posts_link_format]" name="config[user_posts_link_format]" value="{$user_posts_link_format}"/>    
+    {include file="$admintemplatepath/validate.template" field=config[user_posts_link_format] message=$locale->tr("error_empty_text")}
+   </div>       
+   <!-- post_trackbacks_link_format -->
+   <div class="field">
+    <label for="config[post_trackbacks_link_format]">post_trackbacks_link_format</label>
+    <div class="formHelp">{$locale->tr("help_post_trackbacks_link_format")}</div>	
+    <input style="width:100%" type="text" id="config[post_trackbacks_link_format]" name="config[post_trackbacks_link_format]" value="{$post_trackbacks_link_format}"/>    
+    {include file="$admintemplatepath/validate.template" field=config[post_trackbacks_link_format] message=$locale->tr("error_empty_text")}
+   </div>
+   <!-- template_link_format -->
+   <div class="field">
+    <label for="config[template_link_format]">template_link_format</label>
+    <div class="formHelp">{$locale->tr("help_template_link_format")}</div>	
+    <input style="width:100%" type="text" id="config[template_link_format]" name="config[template_link_format]" value="{$template_link_format}"/>
+    {include file="$admintemplatepath/validate.template" field=config[template_link_format] message=$locale->tr("error_empty_text")}
+   </div>   
+   <!-- album_link_format -->
+   <div class="field">
+    <label for="config[album_link_format]">album_link_format</label>
+    <div class="formHelp">{$locale->tr("help_album_link_format")}</div>	
+    <input style="width:100%" type="text" id="config[album_link_format]" name="config[album_link_format]" value="{$album_link_format}"/>
+    {include file="$admintemplatepath/validate.template" field=config[album_link_format] message=$locale->tr("error_empty_text")}
+   </div>
+   <!-- resource_link_format -->
+   <div class="field">
+    <label for="config[resource_link_format]">resource_link_format</label>
+    <div class="formHelp">{$locale->tr("help_resource_link_format")}</div>	
+    <input style="width:100%" type="text" id="config[resource_link_format]" name="config[resource_link_format]" value="{$resource_link_format}"/>
+    {include file="$admintemplatepath/validate.template" field=config[resource_link_format] message=$locale->tr("error_empty_text")}
+   </div>
+<!--   
+   <div class="field">
+    <label for="config[resource_preview_link_format]">resource_preview_link_format</label>
+    <div class="formHelp">{$locale->tr("help_resource_preview_link_format")}</div>	
+    <input disabled="disabled" style="width:100%" type="text" id="config[resource_preview_link_format]" name="config[resource_preview_link_format]" value="{$resource_preview_link_format}"/>
+    {include file="$admintemplatepath/validate.template" field=config[resource_preview_link_format] message=$locale->tr("error_empty_text")}
+   </div>
+
+   <div class="field">
+    <label for="config[resource_medium_size_preview_link_format]">resource_medium_size_preview_link_format</label>
+    <div class="formHelp">{$locale->tr("help_resource_medium_size_preview_link_format")}</div>	
+    <input disabled="disabled" style="width:100%" type="text" id="config[resource_medium_size_preview_link_format]" name="config[resource_medium_size_preview_link_format]" value="{$resource_medium_size_preview_link_format}"/>    
+    {include file="$admintemplatepath/validate.template" field=config[resource_medium_size_preview_link_format] message=$locale->tr("error_empty_text")}
+   </div>   
+
+   <div class="field">
+    <label for="config[resource_download_link_format]">resource_download_link_format</label>
+    <div class="formHelp">{$locale->tr("help_resource_download_link_format")}</div>	
+    <input disabled="disabled" style="width:100%" type="text" id="config[resource_download_link_format]" name="config[resource_download_link_format]" value="{$resource_download_link_format}"/>
+    {include file="$admintemplatepath/validate.template" field=config[resource_download_link_format] message=$locale->tr("error_empty_text")}
+   </div>
+-->
+   <!-- page_suffix_format -->
+   <div class="field">
+    <label for="config[page_suffix_format]">page_suffix_format</label>
+    <div class="formHelp">{$locale->tr("help_page_suffix_format")}</div>	
+    <input style="width:100%" type="text" id="config[page_suffix_format]" name="config[page_suffix_format]" value="{$page_suffix_format}"/>
+    {include file="$admintemplatepath/validate.template" field=config[page_suffix_format] message=$locale->tr("error_empty_text")}
+   </div>   
+</div>

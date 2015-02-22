@@ -1,0 +1,11 @@
+{include file="summary/header.template" selected="register" columns=1}
+  <div id="onecolumn">  
+ <h2>{$locale->tr("message")}</h2> 
+{if $viewIsSuccess}
+  <div class="InfoText">{if $message==""}{$viewSuccessMessage}{else}{$message}{/if}</div>
+{/if}
+{if $viewIsError}
+  <div class="ErrorText">{if $message==""}{$viewErrorMessage}{else}{$message}{/if}</div>
+{/if}
+</div>
+{include file="summary/footer.template"}

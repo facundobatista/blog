@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="{$locale->getCharset()}"?>
+<xmlsrc>
+  <title>{$serviceName}</title>
+  <link>http://link.to.your.site</link>
+  <description>Put here your own description</description>
+  {foreach from=$posts item=post}
+  {assign var=blog value=$post->getBlogInfo()}
+  {assign var=url value=$blog->getBlogRequestGenerator()}  
+  <article>
+   <blog>
+    <title>{$blog->getBlog()|escape}</title>
+    <link>{$url->blogLink()}</link>
+    <description>Put here your own description</description>
+   </blog>
+   <topic>{$post->getTopic()|escape}</topic>
+   <text>{$post->getText()|escape}</text>
+   <url>{$url->postPermalink($post)}</url>
+  </article>
+  {/foreach}
+</xmlsrc>

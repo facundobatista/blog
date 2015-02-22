@@ -1,0 +1,48 @@
+{include file="$admintemplatepath/header.template"}
+{include file="$admintemplatepath/navigation.template" showOpt=resources title=$locale->tr("editResourceAlbum")}
+<form name="updateResourceAlbum" method="post" action="admin.php">
+ <fieldset class="inputField">
+   <legend>{$locale->tr("editResourceAlbum")}</legend>
+   {include file="$admintemplatepath/formvalidate.template"}
+   <div class="field">
+    <label for="albumName">{$locale->tr("name")}</label>
+	<span class="required">*</span>	
+	<div class="formHelp">{$locale->tr("album_name_help")}</div>
+	<input type="text" id="albumName" name="albumName" value="{$albumName}" />
+    {include file="$admintemplatepath/validate.template" field=albumName message=$locale->tr("error_empty_name")}
+   </div>
+   <div class="field">
+    <label for="parentId">{$locale->tr("parent")}</label>
+	<div class="formHelp">{$locale->tr("parent_album_help")}</div>
+    <select name="parentId" id="parentId">
+     <option value="0">({$locale->tr("no_parent")})</option>
+     {foreach from=$albums item=albumItem}
+      <option value="{$albumItem->getId()}" {if $albumItem->getId()==$parentId}selected="selected"{/if}>
+	  {assign var=indentLevel value=$albumItem->getValue("level")}
+	  {textformat indent=$indentLevel indent_char="&nbsp;&nbsp;&nbsp;"}{$albumItem->getName()}{/textformat}
+	  </option>
+     {/foreach}
+     </select>
+	</div>   
+   <div class="field">
+    <label for="albumDescription">{$locale->tr("description")}</label>
+	<div class="formHelp">{$locale->tr("album_description_help")}</div>
+    <textarea name="albumDescription" id="albumDescription" rows="10" cols="60">{$albumDescription}</textarea>
+   </div>
+   <div class="field">
+    <label for="showAlbum">{$locale->tr("show")}</label>
+	<div class="formHelp">
+	  <input class="checkbox" type="checkbox" id="showAlbum" name="showAlbum" value="1" {if $showAlbum == 1} checked="checked"{/if} />
+      {$locale->tr("show_album_help")}
+	</div>  
+   </div>	
+ </fieldset>
+ <div class="buttons">  
+   <input type="hidden" name="op" value="updateResourceAlbum" />
+   <input type="hidden" name="albumId" value="{$albumId}" />
+   <input type="reset" name="reset" value="{$locale->tr("reset")}" />
+   <input type="submit" name="Update" value="{$locale->tr("update")}" />
+ </div>  
+</form>
+{include file="$admintemplatepath/footernavigation.template"}
+{include file="$admintemplatepath/footer.template"}

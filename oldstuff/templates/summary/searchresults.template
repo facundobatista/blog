@@ -1,0 +1,25 @@
+{include file="summary/header.template" section=$locale->tr("search_results")}
+<div id="onecolumn">
+    <h2>{$locale->tr("search_results")}</h2>
+    {if $searchtype == 1}
+	    {foreach from=$searchresults item=result}
+		    {assign var="post" value=$result->getArticle()}
+			{assign var="blog" value=$post->getBlogInfo()}
+			{assign var="request" value=$blog->getBlogRequestGenerator()}
+		    {include file="summary/post.template"}
+	    {/foreach}
+		{** bloglistpager links=$linkslist current=$currentPage **}
+	{elseif $searchtype == 2}
+	    {foreach from=$searchresults item=result}
+		    {assign var="blog" value=$result->getResult()}
+		    {include file="summary/blog.template"}
+	    {/foreach}
+	{else}
+	    {foreach from=$searchresults item=result}
+		    {assign var="resource" value=$result->getResult()}
+		    {include file="summary/resource.template"}
+	    {/foreach}	
+	{/if}
+  {pager style=links}
+</div>
+{include file="summary/footer.template"}

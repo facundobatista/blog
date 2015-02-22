@@ -1,0 +1,797 @@
+html, body {
+    font-family: Tahoma;
+    font-size        : 0.90em;
+    margin           : 0px;
+    padding          : 0px;
+    text-align       : center;
+    font             : 12px verdana, tahoma, arial, sans-serif;
+    background       : #EEEEEE url("../imgs/bg_main.jpg") repeat-y center;
+}
+
+/* -------------------------------------------------------------- */
+/* Common stuff and basic page layout                             */
+/* -------------------------------------------------------------- */
+
+
+#container
+{
+    width            : 786px;
+    margin-left      : auto;
+    margin-right     : auto;
+}
+
+h3
+{
+	font-size:12px;
+	margin-bottom:5px;
+}
+
+.subtitle
+{
+	margin-bottom:0px;
+}
+
+#header
+{
+    height           : 80px;
+    width            : 100%;
+    background       : #FFFFFF url("../imgs/top_admin.jpg") no-repeat right;
+    padding          : 0px;
+    margin           : 0px;
+}
+
+#header span
+{
+    display          : none;
+}
+
+#header h1
+{
+    margin           : 0;
+}
+
+#content
+{
+    position         : relative;
+    width            : 100%;
+    display          : block;
+    margin           : 0;
+    padding          : 0;
+	direction:rtl;
+	text-align:right;
+}
+
+#dashboard
+{
+    padding-left     : 1em;
+    padding-right    : 1em;
+
+}
+
+.peu
+{
+	font-size: 7pt;
+	color:gray;
+	padding-bottom: 5px;
+    border-bottom    : 1px solid #DEDEDE;
+}
+
+.clr
+{
+    clear            : both;
+}
+
+/*-- Accessibility Tweaks --*/
+#skipNav
+{
+    position         : absolute;
+    left             : -9999px;
+    font-size        : small;
+}
+
+#skipNav a:focus
+{
+    display          : block;
+    position         : absolute;
+    top              : 20px;
+    left             : 10020px;
+    font-size        : large;
+    background       : #fff;
+    border           : solid 2px #1B6BD8;
+    padding          : 10px;
+    width            : 15em;
+    z-index          : 1;
+}
+
+#skipNav a:hover
+{
+    color            : #029EDE;
+}
+
+#skipNav a:active
+{
+    display          : block;
+    position         : absolute;
+    top              : 20px;
+    left             : 10020px;
+    font-size        : large;
+    background       : #fff;
+    border           : solid 2px #1B6BD8;
+    padding          : 10px;
+    width            : 15em;
+    z-index          : 1;
+}
+
+.hide
+{
+    display          : none;
+}
+
+/* -------------------------------------------------------------- */
+/* Navigation/menu bar                                            */
+/* -------------------------------------------------------------- */
+
+#menubar
+{
+    margin-bottom    : 10px;
+    background       : #FFFFFF url("../imgs/bg_menu.jpg") repeat-x;
+    height           : 20px;
+    /*border-bottom    : 1px solid #B4B4B4;*/
+}
+
+#menu
+{
+    padding-top      : 1px;
+    padding-bottom   : 1px;
+}
+
+#menu ul
+{
+    padding         : .2em 0;
+    margin          : 0;
+    list-style-type : none;
+    color           : #FFF;
+    width           : 100%;
+    text-align      : center;
+}
+
+#menu li
+{
+
+    position         : relative;
+    padding          : 0;
+    border-left      : 0px solid #B4B4B4;
+    display          : inline;
+    font-family      : Tahoma;
+    font-size        : 12px;
+}
+
+#menu a, #menu a:link, #menu a:visited
+{
+    padding          : .2em 2em;
+    color            : #0E3862;
+    text-decoration  : none;
+}
+
+#menu a:hover
+{
+	font-weight:bold;
+	
+}
+
+#menu li.selected
+{
+    display          : block;
+    width            : auto;
+    padding          : 2px 7px;
+    background       : #FFFFFF;
+    color            : #000000;
+    border-bottom    : 1px solid #FFFFFF;
+}
+
+#menu br
+{
+    clear: both;
+}
+
+/* -------------------------------------------------------------- */
+/* Section title and navigation history bar                       */
+/* -------------------------------------------------------------- */
+
+#nav_bar
+{
+    margin-left      : auto;
+    margin-right     : auto;
+    width            : 100%;
+    margin-bottom    : 15px;
+    border-bottom    : 1px dotted #DEDEDE;
+}
+
+#section_title
+{
+    float            : rigth;
+    width            : 39%;
+}
+
+#section_title h2
+{
+    color            : #588BCA;
+    font-family      : Tahoma;
+    font-size        : 1.5em;
+    margin           : 0;
+    padding-right     : 4px;
+}
+
+#navigation
+{
+    float            : right;
+    width            : 60%;
+    text-align       : right;
+    padding-top      : 7px;
+    font-family      : Tahoma;
+    font-size        : 0.85em;
+    padding-right    : 2px;
+}
+
+#navigation a
+{
+    color            : #000000;
+    text-decoration  : none;
+}
+
+#navigation a:hover
+{
+    color            : #5583BE;
+    text-decoration  : none;
+}
+
+/* -------------------------------------------------------------- */
+/* Admin Tabbed Ul's                                              */
+/* -------------------------------------------------------------- */
+
+#tablist
+{
+    padding          : 3px 0;
+    margin-right      : 0;
+    font             : 11px Tahoma;
+    border-bottom    : 1px solid #DEDEDE;
+}
+
+#tablist li
+{
+    list-style       : none;
+    margin           : 0;
+    display          : inline;
+}
+
+#tablist li a
+{
+    padding          : 3px 0.5em;
+    margin-right      : 3px;
+    border           : 1px solid #DEDEDE;
+    background       : #F4F4FF;
+    text-decoration  : none;
+}
+
+#tablist li a:link
+{
+    color            : #448;
+}
+
+#tablist li a:visited
+{
+    color            : #667;
+}
+
+#tablist li a:hover
+{
+    color            : #000;
+    background       : #F2F0FE;
+    border-color     : #DEDEDE;
+}
+
+#tablist li a#tab_current
+{
+    background       : white;
+    border-bottom    : 1px solid white;
+}
+
+.menuTop_level1 ul, li
+{
+    list-style-type: none;
+}
+
+.menuTop_level1 ul
+{
+  list-style-type: disc;
+  list-style-image: url(../imgs/bullet.gif);
+}
+
+
+/* -------------------------------------------------------------- */
+/* Form controls (input, ...)                                     */
+/* -------------------------------------------------------------- */
+
+form
+{
+    margin           : 0px;
+}
+
+fieldset
+{
+    border           : 1px solid #DEDEDE;
+    color            : #000000;
+    font-family      : Tahoma;
+    font-size        : 0.90em;
+    padding-bottom   : 0px;
+    margin           : 0px;
+}
+
+textarea, input, select
+{
+    background       : #FFFFFF;
+    border           : 1px solid #b2b2b2;
+    color            : #000000;
+    font-family      : Tahoma;
+    font-size        : 0.95em;
+}
+
+input:focus, textarea:focus, label:focus
+{
+    border           : 1px solid #5583BE;
+}
+
+.checkbox, .radio
+{
+    border           : 0px;
+}
+
+.submit
+{
+    /*margin-left      : 4px;*/
+}
+
+.list_action_button a img
+{
+    border           : 0px;
+    padding          : 0px;
+}
+
+.list_action_button a:hover img
+{
+    filter            : alpha(opacity=60);
+    -moz-opacity      : 0.6;
+}
+
+.field
+{
+    top              : 0;
+    left             : 0;
+	margin-bottom:10px;
+}
+
+.field .field
+{
+    margin           : 1em 0 0 0;
+}
+
+.field label
+{
+    font-size        : 100%;
+}
+
+.field_checkbox
+{
+    top              : 0;
+    left             : 0;
+}
+
+.field_checkbox label
+{
+    font-size        : 100%;
+}
+
+.formHelp
+{
+    font-size        : 90%;
+    color            : #76797c;
+    margin           : 0 0 0.2em 0;
+}
+
+.formHelp a
+{
+    text-decoration  : underline;
+}
+
+.formHelp:hover
+{
+    color            : Black;
+    cursor           : default;
+}
+
+fieldset
+{
+    border           : 1px solid #8cacbb;
+    margin           : 1em 0em 1em 0em;
+    padding          : 0em 1em 1em 1em;
+    line-height      : 1.5em;
+    width            : auto;
+}
+
+.inputField
+{
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #FCFCFF;
+    border: 1px solid #DEDEDE;
+    background       : url("../imgs/patYellowB.gif") repeat-x;
+}
+
+.buttons
+{
+    width: 88%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: right;
+}
+
+.inputField input
+{
+    width:100%;
+}
+
+.inputField legend
+{
+}
+
+.inputField .dateTime
+{
+   width: 80%;
+}
+
+.inputField .checkbox, .inputField .button, .inputField .radio
+{
+   width: auto;
+}
+
+.inputField .file
+{
+   width: auto;
+}
+
+.pager
+{
+    float:right;
+}
+
+/* -------------------------------------------------------------- */
+/* Data lists parameters & search bar                             */
+/* -------------------------------------------------------------- */
+
+#list_nav_bar
+{
+    margin-left      : auto;
+    margin-right     : auto;
+    width            : 98%;
+    background-color : #F3F1FF;
+    padding-bottom   : 4px;
+    padding-left     : 4px;
+    padding-right    : 4px;
+    margin-bottom    : 10px;
+    border           : 0px solid #DEDEDE;
+}
+
+#list_nav_bar fieldset
+{
+    border           : 1px solid #DEDEDE;
+    color            : #000000;
+    font-family      : Tahoma;
+    font-size        : 0.90em;
+    padding          : 0px;
+    margin           : 0px;
+    height           : 60px;
+}
+
+#list_nav_select
+{
+    float            : right;
+    width            : 100%;
+    text-align       : center;
+}
+
+#list_nav_search
+{
+    float            : right;
+    width            : 30%;
+    text-align       : center;
+}
+
+.list_nav_option
+{
+    float            : right;
+    text-align       : right;
+    padding          : 0px 4px 4px 4px;
+    margin-right      : 5px;
+}
+
+#list_nav_bar legend
+{
+    font-family      : Tahoma;
+    font-size        : 1.1em;
+}
+
+#list_nav_select label
+{
+}
+
+/* -------------------------------------------------------------- */
+/* Data lists table format                                        */
+/* -------------------------------------------------------------- */
+
+.info
+{
+    margin-left      : auto;
+    margin-right     : auto;
+    margin-bottom    : 10px;
+    width            : 775px;
+    border-collapse  : collapse;
+    border-bottom    : 4px solid #DEDEDE;
+    border-spacing   : 0px;
+}
+
+.info th
+{
+    font-family      : Tahoma;
+    font-size        : 1.1em;
+    vertical-align   : bottom;
+    border-bottom    : 1px solid #DEDEDE;
+    padding          : 4px;
+    text-align       : right;
+}
+
+.info th a
+{
+    color           : #000000;
+    text-decoration : none;
+}
+
+.info th a:hover
+{
+    color           : #5583BE;
+    text-decoration : none;
+}
+
+.even
+{
+    background       : #F7F7F7;
+}
+
+.tableHover
+{
+   background: #EFEFEF;
+}
+
+.info td
+{
+    color            : #888888;
+    border-bottom    : 1px solid #DEDEDE;
+    vertical-align   : middle;
+    padding          : 4px;
+    /*border:1px solid black;*/
+}
+
+.info td a
+{
+    color           : #888888;
+    text-decoration : none;
+}
+
+.info td a:hover
+{
+    color           : #5583BE;
+    text-decoration : none;
+}
+
+/* -------------------------------------------------------------- */
+/* Specific column format                                         */
+/* -------------------------------------------------------------- */
+
+.col_highlighted
+{
+}
+
+/* -------------------------------------------------------------- */
+/* Data lists bottom actions bar                                  */
+/* -------------------------------------------------------------- */
+
+#list_action_bar
+{
+    margin-left      : auto;
+    margin-right     : auto;
+    width            : 768px;
+    padding          : 4px;
+    text-align       : right;
+    /*background-color : #F3F1FF;*/
+    margin-bottom    : 10px;
+    /*border           : 1px dashed #DEDEDE;*/
+}
+
+
+/* -------------------------------------------------------------- */
+/* Positive or negative feedback messages                         */
+/* -------------------------------------------------------------- */
+
+#list #FormError
+{
+    padding-right: 10px;
+}
+
+#FormError
+{
+    align: left;
+    padding-top: 0px;
+}
+
+#list #FormInfo
+{
+    padding-righ: 10px;
+}
+
+#FormInfo
+{
+    align: left;
+    padding-top: 0px;
+}
+
+.InfoIcon
+{
+    float:riht;
+    clear:right;
+    margin-top:3px;
+}
+
+.InfoText
+{
+    color:green;
+    padding-right:20px;
+    padding-top:3px;
+}
+
+.ErrorText
+{
+    color:red;
+    padding-right:20px;
+    padding-top:3px;
+}
+
+/**
+ * login screen
+ */
+.loginBox
+{
+  width: 300px;
+  margin-top: 25px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h4, fieldset h4
+{
+    font-family      : Tahoma;
+    font-size        : 12px;
+    vertical-align   : bottom;
+    border-bottom    : 1px solid #DEDEDE;
+    text-align       : right;
+	margin-bottom : 10px;
+}
+
+.sectionTitle
+{
+    font-size: 1.3em;
+}
+
+.welcomeMessage {
+  margin-bottom: 10px;
+}
+
+/**--------
+ * custom stuff for the summary.php script
+ */
+#column-left {
+  width: 153px;
+  float:right;
+  padding-right: 5px;
+  margin-top: -10px;
+  font-family:Tahoma;
+}
+
+#maincolumn {
+  float:right;
+  width: 436px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-family:Tahoma;
+} 
+
+#column-right {
+  width: 160px;
+  float:right;
+  padding-right: 5px;
+  margin-top: -10px;
+  font-family:Tahoma;
+}
+
+#onecolumn {
+  float:right;
+  width: 636px;
+  padding-left: 80px;
+  padding-right: 80px;
+  font-family:Tahoma;
+}
+
+
+.pager {
+  width: 456px;
+  margin-left: 40px;
+  margin-right: 40px;   
+  border-top: 1px solid #DEDEDE;
+  padding-top: 6px;
+  margin-top: 6px;
+}
+
+.pagerLink {
+
+}
+
+.pagerCurrent {
+  background-color: #FFAABB;
+}
+
+a img {
+  border: 0px;	
+}
+
+#intro
+{
+	padding: 0px 15px 5px 15px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #FCFCFF; 
+	border: 1px solid #DEDEDE;
+    background       : url("../imgs/bigblue.gif") repeat-x;
+	
+}
+
+.itemList {
+   list-style: none;
+   margin-right: 1em;
+   padding: 0;
+   color: black;
+}
+
+.item, item a {
+   color: black;
+   text-decoration: underline;
+}
+
+.item a:hover {
+    background       : #818181;
+    color            : #FFFFFF;
+}
+
+h5
+{
+    font-family      : Tahoma;
+    font-size        : 1.1em;
+    vertical-align   : bottom;
+    padding          : 0px;
+    text-align       : right;
+	margin-bottom: 5px;
+	margin-top: 5px;
+}
+
+#FormError
+{
+ padding-bottom: 11px;
+} 

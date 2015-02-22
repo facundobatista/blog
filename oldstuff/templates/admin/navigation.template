@@ -1,0 +1,18 @@
+        <div id="nav_bar">
+            <div id="navigation">
+             {$menu->breadCrumbs($showOpt)}
+            </div>
+			{if $user->isSiteAdmin() && ($blog->getOwnerId() != $user->getId())}
+            <div id="section_title_admin_mode">
+                <h2>{$title} [{$locale->tr("admin_mode")}]</h2>
+            </div>						
+			{else}
+            <div id="section_title">
+                <h2>{$title}</h2>
+            </div>						
+			{/if}
+            <br style="clear:both;" />
+        </div>
+        {if $templatename != "main" && $templatename != "controlcenter" && $templatename != "adminsettings" && $templatename != "resourcesgroup" && $templatename != "error" && $templatename != "message" }
+          {include file="$admintemplatepath/menutabs.template"}
+        {/if}

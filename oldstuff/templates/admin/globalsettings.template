@@ -1,0 +1,76 @@
+{if $show == "general"}
+{assign var=file value="$admintemplatepath/globalsettings_general.template"}
+{assign var=show value="general"}
+{assign var=optName value="editSiteSettings"}
+{elseif $show == "summary"}
+{assign var=file value="$admintemplatepath/globalsettings_summary.template"}
+{assign var=show value="summary"}
+{assign var=optName value="summarySettings"}
+{elseif $show == "templates"}
+{assign var=file value="$admintemplatepath/globalsettings_templates.template"}
+{assign var=show value="templates"}
+{assign var=optName value="templateSettings"}
+{elseif $show == "urls"}
+{assign var=file value="$admintemplatepath/globalsettings_url.template"}
+{assign var=show value="urls"}
+{assign var=optName value="urlSettings"}
+{elseif $show == "email"}
+{assign var=file value="$admintemplatepath/globalsettings_email.template"}
+{assign var=show value="email"}
+{assign var=optName value="emailSettings"}
+{elseif $show == "helpers"}
+{assign var=file value="$admintemplatepath/globalsettings_helpers.template"}
+{assign var=show value="helpers"}
+{assign var=optName value="helpersSettings"}
+{elseif $show == "upload"}
+{assign var=file value="$admintemplatepath/globalsettings_uploads.template"}
+{assign var=show value="upload"}
+{assign var=optName value="uploadSettings"}
+{elseif $show == "interfaces"}
+{assign var=file value="$admintemplatepath/globalsettings_interfaces.template"}
+{assign var=show value="interfaces"}
+{assign var=optName value="interfacesSettings"}
+{elseif $show == "security"}
+{assign var=file value="$admintemplatepath/globalsettings_security.template"}
+{assign var=show value="security"}
+{assign var=optName value="securitySettings"}
+{elseif $show == "bayesian"}
+{assign var=file value="$admintemplatepath/globalsettings_bayesian.template"}
+{assign var=show value="bayesian"}
+{assign var=optName value="bayesianSettings"}
+{elseif $show == "resources"}
+{assign var=file value="$admintemplatepath/globalsettings_resources.template"}
+{assign var=show value="resources"}
+{assign var=optName value="resourcesSettings"}
+{elseif $show == "search"}
+{assign var=file value="$admintemplatepath/globalsettings_search.template"}
+{assign var=show value="search"}
+{assign var=optName value="searchSettings"}
+{else}
+{assign var=file value="$admintemplatepath/globalsettings_general.template"}
+{assign var=show value="general"}
+{assign var=optName value="editSiteSettings"}
+{/if}
+
+{include file="$admintemplatepath/header.template"}
+{include file="$admintemplatepath/navigation.template" showOpt=$optName title=$locale->tr($optName)}
+  <form name="updateGlobalSettings" action="admin.php" method="post">
+   <fieldset class="inputField">
+	<legend>{$locale->tr($optName)}</legend>
+   {include file="$admintemplatepath/successmessage.template"}
+   {include file="$admintemplatepath/errormessage.template"} 
+
+{include file="$file"}
+
+  </fieldset>
+  <div class="buttons">
+    <input type="hidden" name="op" value="updateGlobalSettings"/>
+    <input type="hidden" name="show" value="{$show}" />
+    {check_perms adminperm=update_global_settings}
+      <input type="reset" name="reset" value="{$locale->tr("reset")}" />
+      <input type="submit" name="{$locale->tr("update")}" value="{$locale->tr("update")}"/>
+	{/check_perms}
+  </div>
+  </form>
+{include file="$admintemplatepath/footernavigation.template"}
+{include file="$admintemplatepath/footer.template"}

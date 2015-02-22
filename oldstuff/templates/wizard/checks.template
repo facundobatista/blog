@@ -1,0 +1,65 @@
+{include file="wizard/header.template" title="Preinstallation Checks" step=1 mode=$mode}
+ <form name="databaseInfo" action="wizard.php" method="post">
+  <fieldset class="inputField">
+   <legend>Requirements Checking</legend>  
+   {if $viewIsError || !$ok}
+    <div class="wizardError">
+     <img src="imgs/admin/icon_error-16.png" alt="Error" class="wizardInfoIcon" />
+     <p style="color:red;margin-left:20px;">Welcome to the configuration wizard of LifeType. These are some basic checks of your current
+      system in order to ensure that LifeType can run properly.<br/><br/>
+      Unfortunately, not all the checks were successful. Please have a look at the output below and correct these problems. The
+      installation process will not proceed until all the checks are successful.
+      </p>
+    </div> 
+   {else}
+     <div class="wizardInfo">
+      <img src="imgs/admin/icon_info-16.png" alt="Info" class="wizardInfoIcon" />
+      <p class="wizardInfoText">Welcome to the configuration wizard of LifeType. These are some basic checks of your current
+      system in order to ensure that LifeType can run properly.
+      <br/><br/>
+	  <b>IMPORTANT NOTE:</b>If you previously upgraded from LifeType 1.1.x to 1.2.0, there are some changes that need to be done to some of your resources. 
+	  This is a known issue in the upgrade process of LifeType 1.1.x to 1.2.0 that did not convert the name of some preview files correctly. 
+	   In order to have this issue fixed, click <a href="?nextStep=Fix120">here</a> and let the browser window reload.</p>
+     </div>
+   {/if}
+   
+   {foreach from=$checkGroups item=checks key=checkGroup}
+       <div class="checkCategory">{$checkGroup}</div>
+	   {foreach from=$checks item=check key=checkId}
+	    {** loop through the checks and show an error message if not passed, unless not critical **}
+	    {if $check->isValid()}
+	        <img src="imgs/summary/icon_accept-16.png" class="checkImage" alt="PASSED" />
+	    {else}
+	        {if $check->isCritical()}
+	            <img src="imgs/summary/icon_cancel-16.png" class="checkImage" alt="ERROR" />
+	        {else}
+	            <img src="imgs/summary/icon_warning-16.png" class="checkImage" alt="NOT CRITICAL" />
+	        {/if}
+	    {/if}
+	    <div class="checkItem">
+	    {$check->getDesc()} {if !$check->isCritical()}(optional){/if}
+	    {if !$check->isValid()}
+	    	<div class="checkError">
+	    	{if $check->isCritical()}
+	    		<span style="color: red;">{$check->getSolution()}</span>
+	    	{else}
+	    		<span style="color: green;">{$check->getSolution()}</span>
+	    	{/if}
+	    	</div>
+	    {/if}
+	    </div>
+	   {/foreach}
+   {/foreach}
+
+   </fieldset>
+   <div class="buttons">
+    {if $ok}
+      <input type="hidden" name="nextStep" value="Intro"/>
+      <input type="submit" name="Next" value="Next &raquo;"/>
+    {else}
+      <input type="hidden" name="nextStep" value="Checks"/>
+      <input type="submit" name="Next" value="Retry"/>    
+    {/if}
+   </div> 
+ </form>
+{include file="wizard/footer.template"}

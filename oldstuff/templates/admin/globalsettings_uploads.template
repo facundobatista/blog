@@ -1,0 +1,27 @@
+<div style="padding-left:10px;" id="uploads">
+   <!-- uploads enabled or disabled at all -->
+   <div class="field">
+    <label for="config[uploads_enabled]">uploads_enabled</label>
+    <div class="formHelp">{$locale->tr("help_uploads_enabled")}</div>
+     <input class="radio" type="radio" name="config[uploads_enabled]" value="1" {if $uploads_enabled == 1 } checked="checked" {/if} />{$locale->tr("yes")}
+     <input class="radio" type="radio" name="config[uploads_enabled]" value="0" {if $uploads_enabled == 0 } checked="checked" {/if} />{$locale->tr("no")}
+   </div>
+   <!-- maximum_file_upload_size -->
+   <div class="field">
+    <label for="config[maximum_file_upload_size]">maximum_file_upload_size</label>
+    <div class="formHelp">{$locale->tr("help_maximum_file_upload_size")}</div>
+     <input style="width:100%" type="text" name="config[maximum_file_upload_size]" value="{$maximum_file_upload_size}"/>
+   </div>
+   <!-- upload_forbidden_extensions -->
+   <div class="field">
+    <label for="config[upload_forbidden_files]">upload_forbidden_files</label>
+    <div class="formHelp">{$locale->tr("help_upload_forbidden_files")}</div>
+    <input style="width:100%" type="text" name="config[upload_forbidden_files]" value="{$upload_forbidden_files}"/>
+   </div>
+   <!-- upload_allowed_files -->
+   <div class="field">
+    <label for="config[upload_allowed_files]">upload_allowed_files</label>
+    <div class="formHelp">{$locale->tr("help_upload_allowed_files")}</div>
+    <input style="width:100%" type="text" name="config[upload_allowed_files]" value="{$upload_allowed_files}"/>
+   </div>
+</div>

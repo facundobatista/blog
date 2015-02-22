@@ -1,0 +1,11 @@
+<h2>{$locale->tr("summary_latest_posts")}
+{assign var=posts value=$summaryStats->getRecentArticles()}
+  {if $posts}
+          <a href="{$url->getRssUrl()}?summary=1">
+        <img src="{$url->getUrl("/imgs/rss_logo_mini.gif")}" alt="RSS" />
+      </a>
+  {/if}
+</h2>
+{foreach from=$posts item=post}
+ {include file="summary/post.template"}
+{/foreach}

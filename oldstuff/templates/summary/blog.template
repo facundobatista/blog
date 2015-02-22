@@ -1,0 +1,25 @@
+    {assign var="updateDate" value=$blog->getUpdateDateObject()}
+    {assign var="BlogCreateDate" value=$blog->getCreateDateObject()}
+    {assign var="owner" value=$blog->getOwnerInfo()}
+	{assign var="request" value=$blog->getBlogRequestGenerator()}
+	{assign var=category value=$blog->getBlogCategory()}
+   
+                      {if $owner->hasPicture()}
+	{assign var=picture value=$owner->getPicture()}
+	     <img src="{$picture->getPreviewLink()}"  width="60" height="60" class="postgrav" />
+    {else}
+        <img src="templates/summary/nouser.gif" class="postgrav" width="60" height="60" alt="{$owner->getUsername()|strip_tags}" />	
+    {/if} 
+    <h3>
+	 <a href="{$request->blogLink()}">{$blog->getBlog()|strip_tags}</a>
+	</h3>
+    <div class="subtitle">{$locale->tr("articles")}: {$blog->getTotalPosts()} | {$locale->tr("comments")}: {$blog->getTotalComments()} | {$locale->tr("trackbacks")}: {$blog->getTotalTrackbacks()}{if $category} | {$locale->tr("category")}: <a href="?op=BlogList&amp;blogCategoryId={$category->getId()}">{$category->getName()}</a>{/if}
+    </div>
+
+         <div class="footer">
+			{assign var=blogUsers value=$blog->getUsersInfo()}
+			{$locale->tr("create_date")}: {$locale->formatDate($BlogCreateDate,"%e %B %Y")} | {$locale->tr("users")}: 
+			<strong>{$owner->getUsername()|strip_tags}{foreach from=$blogUsers item=blogUser name=blogUsersLoop}{if $owner->getId() != $blogUser->getId()}, {$blogUser->getUsername()|strip_tags}{/if}{/foreach}</strong>
+        </div>
+
+        <div class="clearleft">&nbsp;</div>

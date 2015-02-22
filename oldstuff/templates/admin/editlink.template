@@ -1,0 +1,63 @@
+{include file="$admintemplatepath/header.template"}
+{include file="$admintemplatepath/navigation.template" showOpt=editLinks title=$locale->tr("editLink")}
+
+   <form name="newLink" action="admin.php" method="post"> 
+      
+        <fieldset class="inputField">
+        <legend>{$locale->tr("editLink")}</legend>
+		{include file="$admintemplatepath/formvalidate.template"}
+
+        <div class="field">
+            <label for="linkName">{$locale->tr("name")}</label>
+            <span class="required">*</span>
+            <div class="formHelp">{$locale->tr("link_name_help")}</div>
+            <input type="text" name="linkName" id="linkName" value="{$linkName|escape:"html"}" />
+			{include file="$admintemplatepath/validate.template" field=linkName message=$locale->tr("error_empty_name")}
+        </div>
+		
+        <div class="field">
+            <label for="linkUrl">{$locale->tr("url")}</label>
+            <span class="required">*</span>
+            <div class="formHelp">{$locale->tr("link_url_help")}</div>
+            <input type="text" name="linkUrl" id="linkUrl" value="{$linkUrl}" />
+			{include file="$admintemplatepath/validate.template" field=linkUrl message=$locale->tr("error_invalid_url")}
+        </div>		
+
+        <div class="field">
+            <label for="linkDescription">{$locale->tr("description")}</label>
+            <span class="required"></span>
+            <div class="formHelp">{$locale->tr("link_description_help")}</div>
+            <input type="text" name="linkDescription" id="linkDescription" value="{$linkDescription}" />
+        </div>
+		
+        <div class="field">
+            <label for="linkRssFeed">{$locale->tr("feed")}</label>
+            <span class="required"></span>
+            <div class="formHelp">{$locale->tr("link_feed_help")}</div>
+            <input type="text" name="linkRssFeed" id="linkRssFeed" value="{$linkRssFeed}" />
+			{include file="$admintemplatepath/validate.template" field=linkRssFeed message=$locale->tr("error_invalid_url")}			
+        </div>			
+
+        <div class="field">
+            <label for="linkCategory">{$locale->tr("category")}</label>
+            <span class="required">*</span>
+            <div class="formHelp">{$locale->tr("link_category_help")}</div>
+			<select name="linkCategoryId" id="linkCategoryId">
+			 {foreach from=$linkcategories item=linkcategory}
+			  <option value="{$linkcategory->getId()}" {if $linkCategoryId == $linkcategory->getId()}selected="selected"{/if}>
+			    {$linkcategory->getName()}
+			  </option>
+			 {/foreach}
+			</select>
+        </div>
+        </fieldset>
+		<div class="buttons">
+		   <input type="hidden" name="linkId" value="{$linkId}"/>
+		   <input type="hidden" value="updateLink" name="op"/>
+           <input type="reset" value="{$locale->tr("reset")}" name="reset"/>		    		   
+		   <input type="submit" value="{$locale->tr("update")}" name="Update"/>
+		</div>
+</form>
+
+{include file="$admintemplatepath/footernavigation.template"}
+{include file="$admintemplatepath/footer.template"}

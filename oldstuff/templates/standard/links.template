@@ -1,0 +1,17 @@
+{assign var=title value=$locale->tr("links")}
+{include file="$blogtemplate/header.template" pageTitle="$pageTitle | $title"} 
+<div id="Links">
+	<h2>{$locale->tr("my_links")}</h2>
+  		{foreach from=$mylinkscategories item=linkcategory}
+    	<h3>{$linkcategory->getName()}</h3>
+   	<ul>
+  		{foreach from=$linkcategory->getLinks() item=link}
+  	<li><a href="{$link->getUrl()}" title="{$link->getDescription()}">{$link->getName()}</a>: {$link->getDescription()} {if $link->getRssFeed() != ""}
+      <a href="{$link->getRssFeed()}"><img src="{$url->getUrl("/imgs/rss_logo_small.gif")}" alt="RSS" /></a>
+    {/if}</li>
+    		{/foreach}
+  	</ul>
+  		{/foreach}
+  	</div>
+  
+		{include file="$blogtemplate/footer.template"} 

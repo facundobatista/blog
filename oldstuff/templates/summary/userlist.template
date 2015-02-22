@@ -1,0 +1,9 @@
+{include file="summary/header.template" section=$locale->tr("users")}
+<div id="onecolumn">
+    {foreach from=$users item=user}
+	{include file="summary/user.template"}
+    {/foreach}
+
+  {pager style="links"}
+</div>
+{include file="summary/footer.template"}

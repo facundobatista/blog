@@ -1,0 +1,169 @@
+{include file="$admintemplatepath/header.template"}
+{include file="$admintemplatepath/navigation.template" showOpt=resources title=$locale->tr("resources")}
+  <script type="text/javascript" src="js/ui/plogui.js"></script>
+  <script type="text/javascript">
+    var showMassiveChangeOption = '{$locale->tr("show_massive_change_option")}';
+    var hideMassiveChangeOption = '{$locale->tr("hide_massive_change_option")}';
+  </script>
+<script type="text/javascript">
+{literal}
+YAHOO.util.Event.addListener( window, "load", function() {
+		var t = new Lifetype.UI.TableEffects( "list" );
+		t.stripe();
+		t.highlightRows();
+	});
+{/literal}
+</script>
+<div id="list_nav_bar">
+<div id="list_nav_select">
+<form id="viewResources" action="admin.php" method="post">
+ <fieldset>
+  <legend>{$locale->tr("show_by")}</legend>
+   <div class="list_nav_option">
+    <label for="showCategory">{$locale->tr("album")}</label>
+	<br />
+    <select name="albumId" id="albumId">
+      <option value="0">{$locale->tr("root_album")}</option>
+   {foreach from=$albumsList item=albumItem}
+     {assign var=indentLevel value=$albumItem->getValue("level")}
+	 <option value="{$albumItem->getId()}" {if $album}{if $album->getName()==$albumItem->getName()}selected="selected"{/if}{/if}>
+	   {textformat indent=$indentLevel indent_char="&nbsp;&nbsp;&nbsp;"}{$albumItem->getName()}{/textformat}   
+	 </option>
+   {/foreach}
+   </select>
+   </div>   
+   <div class="list_nav_option">
+   <label for="search">{$locale->tr("search_terms")}</label>
+   <br />
+   <input type="text" name="searchTerms" value="{$searchTerms|escape:"html"}" size="15" id="search" />
+   </div>      
+   <div class="list_nav_option">
+    <br />
+    <input type="hidden" name="op" value="resources" />
+    <input type="submit" name="Show" value="{$locale->tr("show")}" />
+   </div>
+
+	<div class="list_nav_option">
+		<br/>
+		<a href="{$pager->getCurrentPageLink()}" title="{$locale->tr("bookmark_this_filter")}">
+			<img style="border:0px" src="imgs/admin/icon_link-16.png" alt="{$locale->tr("bookmark_this_filter")}" />
+		</a>
+	</div>
+  </fieldset> 
+ </form> 
+ </div>
+ <br style="clear:both" />
+ </div>
+
+<form id="Resources" method="post" action="admin.php">
+<div class="optionIcon">
+  <a id="optionIconLink" href="#bulkEdit" title="{$locale->tr("show_massive_change_option")}" onclick="switchMassiveOption()">{$locale->tr("show_massive_change_option")}</a>
+</div>
+<div id="list">
+  {include file="$admintemplatepath/successmessage.template"}
+  {include file="$admintemplatepath/errormessage.template"}
+<table id="list" class="info" summary="{$locale->tr("resources")}">
+ <thead>
+  <tr>
+    <th><input class="checkbox" type="checkbox" name="all" id="all" value="1" onclick="toggleAllChecks('Resources');" /></th>
+    <th style="width:90%;">{$locale->tr("name")}</th>
+    <th style="width:10%;">{$locale->tr("actions")}</th>
+ </tr>
+</thead>
+<tbody> 
+{if $album && $pager->getCurrentPage() == 1}
+<tr>
+ <td>&nbsp;</td>
+ <td>
+  <a href="admin.php?op=resources&amp;albumId={$album->getParentId()}&amp;page=1"><img src="imgs/admin/icon_folder-72.png" border="0" alt="Parent" /></a><br/>
+  <a href="admin.php?op=resources&amp;albumId={$album->getParentId()}&amp;page=1">{$locale->tr("up")}</a>
+ </td>
+</tr>
+{/if}
+{foreach from=$albums item=resalbum}
+<tr>
+ <td>
+  <input type="checkbox" class="checkbox" value="{$resalbum->getId()}" name="albumIds[{$resalbum->getId()}]" />
+ </td>
+ <td>
+    <a href="admin.php?op=resources&amp;albumId={$resalbum->getId()}&amp;page=1"><img src="imgs/admin/icon_folder-72.png" border="0" alt="folder" /></a><br/>
+    <a href="admin.php?op=resources&amp;albumId={$resalbum->getId()}&amp;page=1">{$resalbum->getName()}</a>
+ </td>
+ <td>
+  <div class="list_action_button"> 
+    <a href="?op=editResourceAlbum&amp;albumId={$resalbum->getId()}" title="{$locale->tr("edit")}">
+     <img src="imgs/admin/icon_edit-16.png" alt="{$locale->tr("edit")}" />
+    </a>
+    <a href="?op=deleteResourceAlbum&amp;albumId={$resalbum->getId()}" title="{$locale->tr("delete")}">
+     <img src="imgs/admin/icon_delete-16.png" alt="{$locale->tr("delete")}" />
+    </a>    
+  </div>  
+ </td>
+</tr>
+{/foreach}
+{foreach from=$resources item=resource}
+<tr>
+ <td>
+   <input type="checkbox"  class="checkbox" value="{$resource->getId()}" name="resourceIds[{$resource->getId()}]" />
+ </td>
+ <td>
+  <a href="admin.php?op=resourceInfo&amp;resourceId={$resource->getId()}">
+  {if $resource->hasPreview()}
+     <img src="{$url->resourcePreviewLink($resource)}" alt="{$locale->tr("preview")}" />
+  {else}
+   {if $resource->isSound()}
+    <img alt="Sound" src="imgs/admin/icon_sound-48.png" style="border:0px;" />
+   {elseif $resource->isVideo()}
+    <img alt="Video" src="imgs/admin/icon_video-48.png" style="border:0px;" />
+   {elseif $resource->isZip()}
+    <img alt="Zip" src="imgs/admin/icon_compressed-48.png" style="border:0px;" />   
+   {else}
+    <img alt="File" src="imgs/admin/icon_file-48.png" style="border:0px;" />
+   {/if}
+  {/if}
+  </a><br/>
+  <a href="admin.php?op=resourceInfo&amp;resourceId={$resource->getId()}">{$resource->getFileName()}</a>
+ </td>
+ <td>
+  <div class="list_action_button"> 
+    <a href="?op=resourceInfo&amp;resourceId={$resource->getId()}" title="{$locale->tr("edit")}">
+     <img src="imgs/admin/icon_edit-16.png" alt="{$locale->tr("edit")}" />
+    </a>
+    <a href="?op=deleteResource&amp;resourceId={$resource->getId()}" title="{$locale->tr("delete")}">
+     <img src="imgs/admin/icon_delete-16.png" alt="{$locale->tr("delete")}" />
+    </a>    
+  </div>
+ </td>
+</tr>
+{/foreach}
+</tbody>
+</table>
+</div>
+<a name="bulkEdit"></a>
+<div id="list_action_bar">
+  {assign var=quota value=$blog->getResourcesQuota()}
+  {adminpager style=list}
+  {$locale->tr("num_resources")}: <strong>{$totalresources}</strong>, {$locale->tr("total_size")}: <strong>{$quotausage|round:$locale}</strong>
+  {if $quota > 0 }, {$locale->tr("quota")}: <strong>{$quota|round:$locale}</strong>{/if}
+  <input type="submit" name="delete" value="{$locale->tr("delete")}" class="submit" />
+  <input type="hidden" name="op" value="deleteResourceItems" />
+  <div id="massiveChangeOption" style="display: none;">
+    <fieldset>
+      <legend>{$locale->tr("massive_change_option")}</legend>            
+	  <label for="galleryAlbumId">{$locale->tr("album")}</label>
+	  <select name="galleryAlbumId" id="galleryAlbumId">
+	    <option value="0">{$locale->tr("root_album")}</option>
+        {foreach from=$albumsList item=albumItem}
+          {assign var=indentLevel value=$albumItem->getValue("level")}
+          <option value="{$albumItem->getId()}">
+            {textformat indent=$indentLevel indent_char="&nbsp;&nbsp;&nbsp;"}{$albumItem->getName()}{/textformat}   
+          </option>
+        {/foreach}
+      </select>
+	  <input type="button" name="changeGalleryItemsAlbum" value="{$locale->tr("change_album")}" class="submit" onClick="javascript:submitGalleryItemsList('changeGalleryItemsAlbum');" />
+    </fieldset>
+  </div> 
+</div>
+</form>
+{include file="$admintemplatepath/footernavigation.template"}
+{include file="$admintemplatepath/footer.template"}

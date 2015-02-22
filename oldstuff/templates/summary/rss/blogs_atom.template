@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="{$locale->getCharset()}"?>
+<feed xmlns="http://www.w3.org/2005/Atom"
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      xml:lang="{$locale->getLanguageId()|lower}">
+<title>{$serviceName}</title> 
+<updated>{$locale->formatDate($newestDate, "%Y-%m-%dT%H:%M:%S%G")}</updated> 
+<generator>{$version}</generator> 
+<rights>Copyright (c) Your copyright notice</rights> 
+<id>{$url->getBaseUrl(false)}/rss.php?summary=1&amp;type={$type}</id>
+ {foreach from=$blogs item=blog} 
+ {assign var=url value=$blog->getBlogRequestGenerator()}
+ <entry> 
+ <id>{$url->blogLink()}</id>
+ <title>{$blog->getBlog()|escape}</title> 
+ <link rel="alternate" type="text/html" href="{$url->blogLink()}" /> 
+ {assign var="modifiedDate" value=$blog->getUpdateDateObject()}
+ <updated>{$locale->formatDate($modifiedDate, "%Y-%m-%dT%H:%M:%S%G")}</updated> 
+ <summary type="text">{$blog->getAbout()|strip_tags|truncate:200:" ..."|escape:"html"}</summary> 
+ <author> 
+ {assign var="blogOwner" value=$blog->getOwnerInfo()} 
+ <name>{$blogOwner->getUsername()}</name> 
+</author> 
+ {assign var=blogLocale value=$blog->getLocale()}
+ <content type="text" xml:lang="{$blogLocale->getLanguageId()|lower}" xml:base="{$url->blogLink()}"> 
+ {$blog->getAbout()|strip_tags} 
+</content> 
+</entry> 
+{/foreach} 
+</feed>

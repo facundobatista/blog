@@ -1,0 +1,94 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" >
+<head>
+<meta http-equiv="content-type" content="text/html;charset={$locale->getCharset()}" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta name="generator" content="{$version}" />
+<title>LifeType Admin</title>
+{assign var=blogEnablePullDownMenu value=$blogsettings->getValue("pull_down_menu_enabled")}
+{if $locale->getDirection()=="rtl"}
+<link rel="stylesheet" href="styles/admin-rtl.css" type="text/css" media="screen" />
+{else}
+<link rel="stylesheet" href="styles/admin.css" type="text/css" media="screen" />
+{/if}
+<link rel="stylesheet" type="text/css" href="js/yui/container/assets/container.css" /> 
+<link rel="shortcut icon" type="image/x-icon" href="{$url->getUrl("/imgs/favicon.ico")}" />
+<!--[if IE ]>
+<link rel="stylesheet" href="styles/admin-ie.css" type="text/css" media="screen" />
+<![endif] -->
+<script type="text/javascript">
+    var blogLocale = '{$locale->getCharset()|upper}';
+  	// base url where we can find the admin.php script
+  	var plogBaseUrl = "{$url->getBaseUrl(false)}";
+	var plogAdminBaseUrl = "{$url->getBaseUrl(false)}/admin.php";
+	var plogBlogId = "{$blog->getId()}";
+</script>
+ {if $editor}
+   {if $htmlarea}
+     <script type="text/javascript" src="js/tinymce/tiny_mce_gzip.js"></script>
+     <script type="text/javascript" src="js/tinymce/tiny_mce-plog.js"></script>
+   {else}
+     <script type="text/javascript" src="js/editor/lifetypeeditor.js"></script>
+   {/if}
+ {/if}
+<script type="text/javascript" src="js/cookie/cookie.js"></script>
+<script type="text/javascript" src="js/prototype/prototype.js"></script>
+<!-- Yahoo UI Library -->
+<script type="text/javascript" src="js/yui/yahoo/yahoo-min.js"></script> 
+<script type="text/javascript" src="js/yui/dom/dom-min.js"></script> 
+<script type="text/javascript" src="js/yui/event/event-min.js"></script>
+<script type="text/javascript" src="js/yui/container/container-min.js"></script>
+<!-- LifeType UI Library -->
+<script type="text/javascript" src="js/ui/core.js"></script>
+<script type="text/javascript" src="js/ui/default.js"></script>
+<script type="text/javascript" src="js/ui/common.js"></script>
+<script type="text/javascript" src="js/ui/forms.js"></script>
+<script type="text/javascript" src="js/ui/tableeffects.js"></script>
+{if $blogEnablePullDownMenu}
+  <script type="text/javascript" src="js/JSCookMenu/JSCookMenu.js"></script>
+  <link rel="stylesheet" href="js/JSCookMenu/ThemeOffice/theme.css" type="text/css" />
+  <script type="text/javascript" src="js/JSCookMenu/ThemeOffice/theme.js"></script>
+{/if}
+</head>
+<body>
+
+<div id="container" >
+
+    <div id="header" >
+        <h1><span>LifeType Admin</span></h1>
+    </div>
+
+    <hr class="hide" />
+    <div id="skipNav">
+        <ul title="Accessibility options">
+        <li><a href="#menubar">Skip to Menu Bar</a></li>
+        <li><a href="#navigation">Skip to Navigation Bar</a></li>
+        <li><a href="#list_nav_bar">Search/List Options</a></li>
+        <li><a href="#list">Skip to Post Lists</a></li>
+        </ul>
+    </div>
+    <hr class="hide" />
+
+    <div id="menubar">
+        <div id="menu">
+        {if !$blogEnablePullDownMenu}
+          {$menu->generateAt("menu",1)}
+        {else}
+          {$menu->generateAt("menu","3","","JavaScript")}
+        {/if}
+        </div>
+    </div>
+
+   	<div style="text-align: right; padding-right: 5px;">
+		({$user->getUsername()})
+   		<select name="userBlog" id="userBlog" onchange="MM_jumpMenu('parent',this,0)">
+     	{foreach from=$userBlogs item=userBlog}
+     		<option value="admin.php?op=blogSelect&amp;blogId={$userBlog->getId()}" {if $userBlog->getId() == $blog->getId()}selected="selected"{/if}>{$userBlog->getBlog()}</option>
+       	{/foreach}
+       	</select>
+       	{assign var=blogname value=$blog->getBlog()}
+       	<a href="{$url->blogLink()}" id="blogLink" target="_blank" title="{$locale->pr("goto_blog_page",$blogname)}"><img style="vertical-align: top; border: 0px;" src="imgs/admin/icon_goto-16.png" alt="{$locale->pr("goto_blog_page",$blogname)}" /></a>
+    </div>
+
+    <div id="content" >

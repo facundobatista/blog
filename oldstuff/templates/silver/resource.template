@@ -1,0 +1,58 @@
+{include file="$blogtemplate/header.template"}
+{assign var=metadata value=$resource->getMetadataReader()}
+{assign var=updated value=$resource->getTimestamp()}
+<div id="content">
+  <h2>{$locale->tr("resources")}</h2>
+<div class="post">
+    <h3 class="storytitle"><a href="{$url->resourceLink($resource)}">{$resource->getFileName()}</a></h3>
+    <div class="meta">
+        {$locale->tr("created")} {$locale->formatDate($updated,"%d %b, %Y")}
+    </div>
+   <div class="storycontent"><p>{$resource->getDescription()}</p></div>
+  {if $resource->isImage()}
+   <img src="{$url->resourceMediumSizePreviewLink($resource)}" alt="{$resource->getFileName()}, {$metadata->getRoundedSize()}" />
+  {else}
+   <a href="{$url->resourceDownloadLink($resource)}">
+   {* show some information about the file *}
+   {if $resource->isSound()}
+     <img alt="Sound" src="{$url->getUrl("/imgs/sound.gif")}" height="64" width="64" style="border:0px;" /><br/>
+     {$resource->getFileName()}
+     </a><br/>     
+     {$locale->tr("format")}: {$metadata->getFormat()|upper}<br/>
+     {$locale->tr("length")}: {$metadata->getLengthString()}<br/>
+     {$locale->tr("sample_rate")}: {$metadata->getSampleRate()} Khz
+   {elseif $resource->isVideo()}
+     <img alt="Sound" src="{$url->getUrl("/imgs/video.gif")}" height="64" width="64" style="border:0px;" /><br/>
+     {$resource->getFileName()}
+    </a><br/>
+    {$locale->tr("format")}: {$metadata->getFormat()|upper}<br/>
+    {$locale->tr("size")}: {$metadata->getHeight()} x {$metadata->getWidth()}<br/>
+    {$locale->tr("length")}: {$metadata->getLengthString()}<br/>
+    {$locale->tr("video_codec")}: {$metadata->getVideoCodec()}<br/>
+    {$locale->tr("audio_codec")}: {$metadata->getAudioCodec()}
+   {elseif $resource->isZip()}
+     <img alt="Sound" src="{$url->getUrl("/imgs/compressed.gif")}" height="64" width="64" style="border:0px;" /><br/>
+     {$resource->getFileName()}
+    </a><br/>
+    {$metadata->getTotalFiles()} {$locale->tr("files")}<br/>
+    {$locale->tr("uncompressed_size")}: {$metadata->getRoundedUncompressedSize()}
+   {else}
+     <img alt="Sound" src="{$url->getUrl("/imgs/file.gif")}" height="64" width="64" style="border:0px;" /><br/>
+     {$resource->getFileName()}
+     </a>    
+   {/if}   
+  {/if}
+  <br/>
+    <div class="feedback">
+        <a href="{$url->resourceDownloadLink($resource)}">
+           <img src="{$url->getTemplateFile("download.gif")}" width="10" height="11" alt="Download" style="border:0px;" />
+           {$locale->tr("download")} ({$metadata->getRoundedSize()})
+        </a> 
+    </div>
+</div>
+  <p>
+   <a href="javascript:history.go(-1);">{$locale->tr("back")}</a>
+  </p>
+</div>
+{include file="$blogtemplate/panel.template"}
+{include file="$blogtemplate/footer.template"}

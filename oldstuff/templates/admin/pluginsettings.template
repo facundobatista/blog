@@ -1,0 +1,67 @@
+{include file="$admintemplatepath/header.template"}
+{include file="$admintemplatepath/navigation.template" showOpt=pluginSettings title=$locale->tr("pluginSettings")}
+
+<form id="pluginSettings" method="post" action="admin.php">
+<div id="list">    
+<fieldset class="inputField">
+  <legend>{$locale->tr("pluginSettings")}</legend>
+  {include file="$admintemplatepath/formvalidate.template"}
+
+  {foreach from=$plugins item=plugin} 
+	{if $plugin->hasPluginConfigurationKeys()}
+	     <h4>{$plugin->getId()}</h4>
+	  <table style="width:100%" summary="{$locale->tr("pluginSettings")}">
+		<thead>
+		 <tr>	 
+		  <th style="width:10%;align:left">{$locale->tr("parameter")}</th>
+		  <th style="width:80%:align:left">{$locale->tr("value")}</th>
+		  <th style="width:10%:align:center">{$locale->tr("override")}</th>	
+		 </tr>
+		</thead>	
+		{assign var=pluginsettings value=$plugin->getPluginConfigurationKeys()}
+		{foreach from=$pluginsettings item=setting}
+		 <tr>
+			{assignvar var=key value=$setting.name}
+			{assign var=name value=$setting.name}
+			{assign var=overrideValue value=$canOverride[$setting.name]}
+		
+			<td>{$setting.name}</td>
+			<td style="width:100%">
+				{if $setting.type=="boolean"}								 
+				 <input type="checkbox" name="{$setting.name}" value="1" class="checkbox" {if $key}checked="checked"{/if}/>
+				 {elseif $setting.type=="string"}		 
+				 <input type="text" name="{$setting.name}" value="{$key}" />
+				 {elseif $setting.type=="integer"}
+				 <input type="text" name="{$setting.name}" value="{$key}" />
+				 {elseif $setting.type=="list"}
+				  <select name="{$setting.name}">
+					{assign var=options value=$setting.options}
+					{foreach from=$options item=name key=value}
+						<option value="{$value}" {if $key==$value}selected="selected"{/if}>{$name}</option>
+					{/foreach}
+				  </select>
+				{elseif $setting.type=="text"}
+					<textarea name="{$setting.name}" rows="5" style="width:100%">{$key}</textarea>
+				{/if}			
+				{include file="$admintemplatepath/validate.template" field=$setting.name message=$locale->tr("error_incorrect_value")}			
+			</td>
+			<td>
+				<select name="canOverride[{$setting.name}]">		 
+					<option value="1" {if $overrideValue==1}selected="selected"{/if}>{$locale->tr("user_can_override")}</option>
+					<option value="2" {if $overrideValue==2}selected="selected"{/if}>{$locale->tr("user_cannot_override")}</option>
+				</select>			
+			</td>
+			</tr>
+		 {/foreach}
+		  </table>
+	  {/if}	
+   {/foreach}
+</fieldset>
+<div id="list_action_bar">
+<input type="hidden" name="op" value="updatePluginSettings" class="submit" />
+<input type="reset" name="{$locale->tr("reset")}" value="{$locale->tr("reset")}"/>
+<input type="submit" name="{$locale->tr("update")}" value="{$locale->tr("update")}"/>
+</div>
+</form>
+{include file="$admintemplatepath/footernavigation.template"}
+{include file="$admintemplatepath/footer.template"}

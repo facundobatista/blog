@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="{$locale->getCharset()}"?>
+<?xml-stylesheet href="{$url->getUrl("/styles/rss.css")}" type="text/css"?>
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns="http://purl.org/rss/1.0/"
+ xmlns:dc="http://purl.org/dc/elements/1.1/"
+>
+ <channel rdf:about="{$url->getRssUrl()}?summary=1&amp;profile=rss10&amp;type={$type}">
+  <title>{$serviceName}</title>
+  <description>Your service description</description>
+  <link>{$url->getBaseUrl(false)}/summary.php</link>
+  <items>
+   <rdf:Seq>
+   {foreach from=$blogs item=blog}
+    {assign var=url value=$blog->getBlogRequestGenerator()}    
+    <rdf:li rdf:resource="{$url->blogLink()}" />
+   {/foreach}
+   </rdf:Seq>
+  </items> 
+ </channel>
+
+  {foreach from=$blogs item=blog}
+   {assign var=url value=$blog->getBlogRequestGenerator()}    
+  <item rdf:about="{$url->blogLink()}">
+   <title>{$blog->getBlog()|escape}</title>
+   <dc:title>{$blog->getBlog()|escape}</dc:title>
+   <description>{$blog->getAbout()|escape}</description>
+   <link>{$url->blogLink()}</link>
+   {assign var="blogDate" value=$blog->getCreateDateObject()}
+   <dc:date>{$locale->formatDate($blogDate, "%Y-%m-%dT%H:%M:%S%G")}</dc:date>
+   {assign var="blogOwner" value=$blog->getOwnerInfo()}
+   <dc:creator>{$blogOwner->getUsername()}</dc:creator>
+  </item>
+  {/foreach}
+</rdf:RDF>

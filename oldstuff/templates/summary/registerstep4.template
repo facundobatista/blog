@@ -1,0 +1,61 @@
+{include file="summary/header.template" selected="register" columns=1}
+
+
+  <div id="onecolumn">
+ <h2>Creació de bloc</h2>
+ <div id="intro">
+        <p>
+          {$locale->tr("register_step3_help")}
+        </p>
+  </div>
+  
+<div id="registrationform">
+ <form name="createBlog" action="register.php" method="post">
+  <fieldset class="inputField">
+   <legend>{$locale->tr("step4")}</legend>
+
+   <div class="field">
+    <label for="username">{$locale->tr("username")}</label>
+    <div class="formHelp"></div>
+    <span id="username">{$userName}</span>
+   </div>
+   <div class="field">
+    <label for="userFullName">{$locale->tr("full_name")}</label>
+    <div class="formHelp"></div>
+    <span id="userFullName">{$userFullName}</span>
+   </div>
+   <div class="field">
+    <label for="password">{$locale->tr("password")}</label>
+    <div class="formHelp"></div>
+    <span id="password">{$userPassword}</id>
+   </div>
+   <div class="field">
+    <label for="userEmail">{$locale->tr("email")}</label>
+    <div class="formHelp"></div>
+    <span id="userEmail">{$userEmail}</span>
+   </div>
+   <div class="field">
+    <label for="blogName">{$locale->tr("blog_name")}</label>
+    <div class="formHelp"></div>
+    <span id="blogName">{$blogName}</span>
+   </div>
+   <div class="field">
+    <label for="locale">{$locale->tr("locale")}</label>
+    <div class="formHelp"></div>
+    <span id="locale">{$blogLocale}</span>
+   </div>
+   <div class="field">
+    <label for="templateId">{$locale->tr("templateId")}</label>
+    <div class="formHelp"></div>
+    <span id="templateId">{$templateId}</span>
+   </div> 
+  </fieldset>
+
+  <div class="buttons">
+   <input type="submit" name="done" value="{$locale->tr("create")}" />
+  </div>
+ </form> 
+
+</div>
+</div>
+{include file="summary/footer.template"}

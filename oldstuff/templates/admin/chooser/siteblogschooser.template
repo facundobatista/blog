@@ -1,0 +1,95 @@
+{include file="$admintemplatepath/chooser/header.template"}
+        <div id="list_nav_bar">
+            <div id="list_nav_select">
+            
+<form id="viewBlogs" action="admin.php" method="post">
+ <fieldset>
+  <legend>{$locale->tr("show_by")}</legend>
+   <div class="list_nav_option">
+    <label for="status">{$locale->tr("status")}</label>
+	<br />
+    <select name="status" id="status">
+    {foreach from=$blogstatus key=name item=status}
+      <option value="{$status}" {if $currentstatus == $status} selected="selected"{/if}>{$locale->tr($name)}</option>
+    {/foreach}
+    </select>
+   </div>
+   
+   <div class="list_nav_option">
+   <label for="search">{$locale->tr("search_terms")}</label>
+   <br />
+   <input type="text" name="searchTerms" value="{$searchTerms|escape:"html"}" size="15" id="search" />
+   </div>   
+   
+   <div class="list_nav_option">
+    <br />
+    <input type="hidden" name="op" value="siteBlogsChooser" />
+    <input type="submit" name="Show" value="{$locale->tr("show")}" />
+    <input type="hidden" name="mode" value="{$mode}" />
+   </div>
+  </fieldset> 
+ </form> 
+ </div>
+ <br style="clear:both" />
+ </div> 
+ 
+ <form id="editBlogs" method="post" action="admin.php">
+  <div id="list"> 
+  {include file="$admintemplatepath/successmessage.template"}
+  {include file="$admintemplatepath/errormessage.template"}
+   <table id="list" class="info" summary="{$locale->tr("blogs")}">
+    <thead>
+     <tr>
+      <th style="width:25px;">ID</th>
+      <th style="width:390px;">{$locale->tr("blog")}</th>
+      <th style="width:115px;">{$locale->tr("owner")}</th>
+      <th style="width:60px;">{$locale->tr("status")}</th>
+      <th style="width:95px;">{$locale->tr("actions")}</th>
+     </tr>
+    </thead>
+    <tbody>
+     {foreach from=$siteblogs item=siteblog}
+      <tr>
+       <td>{$siteblog->getId()}</td>
+       <td class="col_highlighted">
+	     {if $mode=="1"}
+          <a href="#" onclick="setDocumentField(parent.opener.document,'blogName','{$siteblog->getBlog()|escape:javascript}');setDocumentField(parent.opener.document,'blogId','{$siteblog->getId()}');window.close()">
+		 {else}
+		  <a href="#" onclick="appendDocumentList(parent.opener.document,'blogList','{$siteblog->getId()}','{$siteblog->getBlog()|escape:javascript}');window.close()">
+		 {/if}
+		 {$siteblog->getBlog()}
+		</a>
+       </td>
+       <td>
+	    {assign var=ownerInfo value=$siteblog->getOwnerInfo()}
+	    <a href="?op=editUser&amp;userId={$ownerInfo->getId()}">{$ownerInfo->getUsername()}</a>
+	   </td>
+       <td>
+        {foreach from=$blogstatus key=name item=status}
+          {if $siteblog->getStatus() == $status}
+          {if $status == 2}<span style="color:red">{$locale->tr($name)}</span>
+		  {else}{$locale->tr($name)}{/if}
+		  {/if}
+        {/foreach}        
+       </td>       
+       <td>
+        <div class="list_action_button">
+		  {if $mode=="1"}
+            <a href="#" onclick="setDocumentField(parent.opener.document,'blogName','{$siteblog->getBlog()|escape:javascript}');setDocumentField(parent.opener.document,'blogId','{$siteblog->getId()}');window.close()">
+		  {else}
+		    <a href="#" onclick="appendDocumentList(parent.opener.document,'blogList','{$siteblog->getId()}','{$siteblog->getBlog()|escape:javascript}');window.close()">		 
+		  {/if}
+		  <img src="imgs/admin/icon_arrow-16.png" alt="{$locale->tr("select_user")}" />
+		 </a>
+        </div>
+      </tr>
+     {/foreach}
+    </tbody> 
+   </table>
+  </div>
+  <div id="list_action_bar">
+	<a href="javascript:window.close()">{$locale->tr("close")}</a>  
+	{adminpager style="list"}
+  </div> 
+ </form>
+{include file="$admintemplatepath/chooser/footer.template"}

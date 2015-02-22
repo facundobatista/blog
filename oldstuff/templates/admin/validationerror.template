@@ -1,0 +1,2 @@
+<img src="imgs/admin/icon_warning-16.png" alt="Warning" />&nbsp;
+<span style="color:red">{$message}</span>

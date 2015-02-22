@@ -1,0 +1,22 @@
+<klip>
+ <owner>
+  <author>{$blog->getBlog()}</author>
+  <copyright>Copyright (c) {$blog->getBlog()}</copyright>
+  <web>{$url->blogLink()}</web>
+ </owner>
+ <identity>
+  <title>{$blog->getBlog()}</title>
+  <version>1.3</version>
+  <lastmodified><!-- in which format is this specified? --></lastmodified>
+  <description>{$blog->getAbout()}</description>
+  <keywords>blog</keywords>
+ </identity>
+ <locations>
+  <defaultlink>{$url->blogLink()}</defaultlink>
+  <contentsource>{$url->rssLink()}</contentsource>
+  <kliplocation>{$url->rssLink("klip")}</kliplocation>
+ </locations>
+ <setup>
+  <refresh>60</refresh>
+ </setup>
+</klip>

@@ -1,0 +1,81 @@
+{include file="summary/header.template" selected="postlist" columns=1}
+
+<div id="onecolumn">
+
+    {if empty($currentGlobalArticleCategory)}
+      <h2>{$locale->tr("all")}
+		{if $recentPosts}
+		  <a href="{$url->getRssUrl()}?summary=1&amp;type=postslist">
+			<img src="{$url->getUrl("/imgs/rss_logo_mini.gif")}" alt="RSS" />
+		  </a>
+		{/if}
+      </h2>
+    {else}
+      <h2>{$currentGlobalArticleCategory->getName()} ({$numRecentPosts})
+		{if $recentPosts}
+	      <a href="{$url->getRssUrl()}?summary=1&amp;type=postslist&amp;globalArticleCategoryId={$currentGlobalArticleCategory->getId()}">
+		    <img src="{$url->getUrl("/imgs/rss_logo_mini.gif")}" alt="RSS" />
+		  </a>
+		{/if}
+      </h2>
+    {/if}
+    
+    
+    <div id="boxes">
+    
+    <div id="searchbox">
+<form id="searchForm" method="post" action="{$smarty.server.PHP_SELF}">
+<div>
+            <label for="searchTerms"><input type="text" tabindex="1" name="searchTerms" id="searchTerms" value="" size="14" /></label>
+        <input type="hidden" name="searchType" id="searchType" value="1" />     
+        <input type="hidden" name="op" value="summarySearch" />            
+        <input type="submit" class="button" name="summarySearch" value="{$locale->tr("search")}" tabindex="21" />
+    </div>
+    </form>
+    
+</div>
+    
+    
+    <div id="categories"><h3>{$locale->tr("global_article_categories")}</h3>
+	<ul>
+	<li>
+	{if $globalArticleCategoryId != 0}
+	<a href="?op=PostList&amp;globalArticleCategoryId=0">{$locale->tr("all")}</a>
+	{else}
+	{$locale->tr("all")}	
+	{/if}
+	</li>
+	
+	{foreach from=$globalArticleCategories item=globalArticleCategory}
+	{if $globalArticleCategory->getNumActiveArticles() > 0}
+		{math assign=fontSize equation="(int)((x-y)/step)+12" x=$globalArticleCategory->getNumActiveArticles() y=$min step=$step}
+		<li>
+		{if $globalArticleCategoryId != $globalArticleCategory->getId()}
+		<a style="font-size: {$fontSize}px" href="?op=PostList&amp;globalArticleCategoryId={$globalArticleCategory->getId()}">{$globalArticleCategory->getName()}</a>
+		{else}
+		<span style="font-size: {$fontSize}px">{$globalArticleCategory->getName()}</span>
+		{/if}
+			
+	
+	</li>
+{/if}
+{/foreach}
+</ul> 
+</div>
+</div>
+
+    
+    
+    
+	{foreach from=$recentPosts item=post}
+	 {include file="summary/post.template"}
+	{/foreach}
+
+{pager style="links"}
+  
+</div>
+{include file="summary/footer.template"}
+    
+    
+    
+        

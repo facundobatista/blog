@@ -1,0 +1,26 @@
+{include file="$blogtemplate/header.template"}
+<div id="content">
+ <h2>{$locale->tr("albums")}</h2>
+{foreach from=$albums item=album}
+ {assign var="aDate" value=$album->getTimestamp()}
+ <div class="post">
+    <h3 class="storytitle"><a href="{$url->albumLink($album)}">{$album->getName()}</a></h3>
+    <div class="meta">
+        {$locale->tr("created")} {$locale->formatDate($aDate,"%d %b, %Y")}
+    </div>
+    <div class="storycontent">
+    <p>
+       {$album->getDescription()|strip_tags|truncate:255:"..."|escape}
+    </p>
+    </div>
+    <div class="feedback">
+      <a href="{$url->albumLink($album)}">  
+       <img src="{$url->getTemplateFile("folderblue.gif")}" width="10" height="11" style="border:0px;" />
+        {$locale->tr("view")} ({$album->getNumResources()})
+       </a>
+    </div>
+ </div>
+{/foreach}
+</div>
+{include file="$blogtemplate/panel.template"}
+{include file="$blogtemplate/footer.template"}

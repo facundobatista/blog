@@ -1,0 +1,56 @@
+{include file="$admintemplatepath/header.template"}
+{include file="$admintemplatepath/navigation.template" showOpt=newResource title=$locale->tr("newResource")}
+<script type="text/javascript" src="js/ui/forms.js"></script>
+<script type="text/javascript" src="js/ui/plogui.js"></script>
+ <form id="addResource" action="admin.php" method="post" enctype="multipart/form-data">
+  <fieldset class="inputField">
+   <legend>{$locale->tr("newResource")}</legend>
+   {include file="$admintemplatepath/formvalidate.template"}
+   <div class="field" id="fileFields">
+    <label for="resourceFile_1">{$locale->tr("file")}</label>
+	<span class="required">*</span>
+	<div class="formHelp">{$locale->tr("resource_file_help")}</div>
+	
+    <a href="javascript:addElementToForm('fileFields','file','resourceFile','')">{$locale->tr("add_field")}</a>
+	
+    <input type="file" id="resourceFile_1" name="resourceFile_1" />
+    <div id="marker" style="clear:none;"></div>
+    
+	<a href="javascript:addElementToForm('fileFields','file','resourceFile','')">{$locale->tr("add_field")}</a>
+    
+    {include file="$admintemplatepath/validate.template" field=albumName message=$locale->tr("error_no_resource_uploaded")}	
+  </div>
+  
+  <div class="field">  
+    <label for="resourceDescription">{$locale->tr("description")}</label>
+	<div class="formHelp">{$locale->tr("resource_description_help")}</div>
+    <textarea name="resourceDescription" cols="60" rows="5" id="resourceDescription">{$resourceDescription}</textarea>
+  </div>
+  
+  <div class="field">
+    <label for="albumId">{$locale->tr("album")}</label>
+	<span class="required">*</span>
+	<div class="formHelp">{$locale->tr("resource_album_help")}</div>
+	<select name="albumId" id="albumId">
+      {foreach from=$albums item=album}
+        {assign var=indentLevel value=$album->getValue("level")}
+	    <option value="{$album->getId()}">
+	     {textformat indent=$indentLevel indent_char="&nbsp;&nbsp;&nbsp;"}{$album->getName()}{/textformat}   
+	    </option>
+      {/foreach}
+    </select>
+   </div>	
+  </fieldset>
+  <div class="buttons" id="buttons">
+    <input type="reset" name="reset" value="{$locale->tr("reset")}" />
+    <input type="submit" name="AddResource" onclick="showProgressBar('buttons')" value="{$locale->tr("add")}" />
+    <input type="hidden" name="op" value="addResource" />
+  </div>
+  <div class="status_bar" id="status_bar" style="display:none">
+    {$locale->tr("upload_in_progress")}&nbsp;
+    <img src="imgs/admin/spinner_small.gif" alt="Spinner" />    
+  </div>
+ </form>
+
+{include file="$admintemplatepath/footernavigation.template"}
+{include file="$admintemplatepath/footer.template"}

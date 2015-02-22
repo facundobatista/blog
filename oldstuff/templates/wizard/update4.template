@@ -1,0 +1,34 @@
+{include file="wizard/header.template" step=5 mode=upgrade title="Done!"}
+<form method="post">
+<fieldset class="inputField">
+<legend>Upgrade Complete</legend>
+{if $viewIsError}
+    <div class="wizardError">
+     <img src="imgs/admin/icon_error-16.png" alt="Error" class="wizardInfoIcon" />
+     <p style="color:red;margin-left:20px;">{$viewErrorMessage}</p>
+    </div>
+{else}
+   <div class="wizardInfo">
+    <img src="imgs/admin/icon_info-16.png" alt="Info" class="wizardInfoIcon" />
+    <p class="wizardInfoText">
+  Installation is complete. Congratulations, Your 1.1 installation has been successfully upgraded to 
+  LifeType {$version}.
+    </p> 
+   </div>
+{/if}
+<p>
+  <p>
+   <span style="color:red">WARNING: </span>For security reasons, you must now remove this file, <b>wizard.php</b>. If you are
+   not planning to allow internet users to create new blogs in this server, then you should also
+   remove <b>summary.php</b>.<br/><br/>
+   Enjoy,<br/>
+  <a href="http://www.lifetype.net">The LifeType team</a>.
+  </p>
+ </fieldset> 
+ <div class="buttons">
+  <input value="Go to blog" type="button" onClick="javascript:window.location='index.php'" /> 
+  <input value="Go to Summary" type="button" onClick="javascript:window.location='summary.php'" /> 
+  <input value="Go to administration interface" type="button" onClick="javascript:window.location='admin.php'" />
+ </div> 
+</form> 
+{include file="wizard/footer.template"}

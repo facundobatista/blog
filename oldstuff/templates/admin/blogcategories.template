@@ -1,0 +1,86 @@
+{include file="$admintemplatepath/header.template"}
+{include file="$admintemplatepath/navigation.template" showOpt=editBlogCategories title=$locale->tr("editBlogCategories")}
+
+        <div id="list_nav_bar">
+            <div id="list_nav_select">
+			
+<form id="viewLinkCategories" action="admin.php" method="post">
+ <fieldset>
+  <legend>{$locale->tr("show_by")}</legend>
+
+   <div class="list_nav_option">
+   <label for="search">{$locale->tr("search_terms")}</label>
+   <br />
+   <input type="text" name="searchTerms" value="{$searchTerms|escape:"html"}" size="15" id="search" />
+   </div>   
+   
+   <div class="list_nav_option">
+    <br />
+    <input type="hidden" name="op" value="editBlogCategories" />
+    <input type="submit" name="Show" value="{$locale->tr("show")}" />
+   </div>
+
+	<div class="list_nav_option">
+		<br/>
+		<a href="{$pager->getCurrentPageLink()}" title="{$locale->tr("bookmark_this_filter")}">
+			<img style="border:0px" src="imgs/admin/icon_link-16.png" alt="{$locale->tr("bookmark_this_filter")}" />
+		</a>
+	</div>
+  </fieldset> 
+ </form> 
+ </div>
+ <br style="clear:both" />
+ </div> 			
+            
+ <form id="deleteBlogCategories" action="admin.php" method="post">
+ <div id="list">
+  {include file="$admintemplatepath/successmessage.template"}
+  {include file="$admintemplatepath/errormessage.template"}
+ <table id="list" class="info" summary="{$locale->tr("editBlogCategories")}">
+  <thead>
+   <tr>
+    <th style="width:10px;"><input class="checkbox" type="checkbox" name="all" id="all" value="1" onclick="toggleAllChecks('deleteCategories');" /></th>
+    <th style="width:75%;">{$locale->tr("category")}</th>
+    <th style="width:15%;">{$locale->tr("blogs")}</th>
+    <th style="width:10%;">{$locale->tr("actions")}</th>
+   </tr>
+  </thead>
+  <tbody> 
+  {foreach from=$blogcategories item=blogcategory}
+  <tr class="{cycle values="odd, even"}">
+   <td>
+      <input class="checkbox" type="checkbox" name="categoryIds[{counter}]" id="checks_{$blogcategory->getId()}" value="{$blogcategory->getId()}" />
+   </td>  
+   <td class="col_highlighted">
+    {check_perms adminperm=update_blog_category}<a href="admin.php?op=editBlogCategory&amp;categoryId={$blogcategory->getId()}">{/check_perms}{$blogcategory->getName()}{check_perms adminperm=update_blog_category}{/check_perms}</a>
+   </td>
+   <td>
+    {$blogcategory->getNumBlogs()}
+   </td>	
+   <td>
+     <div class="list_action_button">
+	  {check_perms adminperm=update_blog_category}	
+       <a href="?op=editBlogCategory&amp;categoryId={$blogcategory->getId()}" title="{$locale->tr("edit")}">
+	     <img src="imgs/admin/icon_edit-16.png" alt="{$locale->tr("edit")}" />
+	   </a>
+       <a href="?op=deleteBlogCategory&amp;categoryId={$blogcategory->getId()}" title="{$locale->tr("delete")}">
+	    <img src="imgs/admin/icon_delete-16.png" alt="{$locale->tr("delete")}" />
+	   </a>
+      {/check_perms}
+     </div>
+   </td>
+  </tr>
+  {/foreach}
+ </tbody> 
+ </table>
+ </div>
+ <div id="list_action_bar">
+  {adminpager style=list}
+  {check_perms adminperm=update_blog_category}
+  <input type="hidden" name="op" value="deleteBlogCategories"/>
+  <input type="submit" name="Delete selected" value="{$locale->tr("delete")}"/>
+  {/check_perms}
+ </div>
+ </form>
+{include file="$admintemplatepath/footernavigation.template"}
+{include file="$admintemplatepath/footer.template"}

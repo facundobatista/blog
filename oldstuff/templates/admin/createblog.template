@@ -1,0 +1,61 @@
+{include file="$admintemplatepath/header.template"}
+{include file="$admintemplatepath/navigation.template" showOpt=createBlog title=$locale->tr("createBlog")}
+ <form name="addBlog" action="admin.php" method="post">
+   <fieldset class="inputField">
+     <legend>{$locale->tr("createBlog")}</legend>
+     {include file="$admintemplatepath/formvalidate.template"}
+     <div class="field">
+       <label for="blogName">{$locale->tr("name")}</label>
+       <span class="required">*</span>
+       <div class="formHelp">{$locale->tr("blog_name_help")}</div>
+       <input type="text" style="width:95%" name="blogName" id="blogName" value="{$blogName}"/>
+       {include file="$admintemplatepath/validate.template" field=blogName message=$locale->tr("error_invalid_blog_name")}
+     </div>
+	
+    {if $blogDomainsEnabled}
+    <div class="field">
+      <label for="blogSubDomain">{$locale->tr("domain")}</label>
+      <div class="formHelp">{$locale->tr("register_blog_domain_help")}</div>
+      <input type="text" name="blogSubDomain" id="blogSubDomain" 
+             style="width:150px" value="{$blogSubDomain}" />
+      <select name="blogMainDomain" id="blogMainDomain">
+       {foreach from=$blogAvailableDomains item=domain}
+        <option value="{$domain}"
+             {if $domain == $blogMainDomain}selected{/if}>
+             {if $domain == "?"}
+               {$locale->tr("subdomains_any_domain")}
+             {else}
+               .{$domain}
+             {/if}
+        </option>
+       {/foreach}
+      </select>
+      {include file="$admintemplatepath/validate.template"
+          field=blogSubDomain 
+          message=$locale->tr("error_invalid_subdomain")}
+      {include file="$admintemplatepath/validate.template"
+          field=blogMainDomain 
+          message=$locale->tr("error_invalid_domain")}
+    </div>
+    {/if}
+
+     <div class="field">
+       <label for="blogOwner">{$locale->tr("owner")}</label>
+       <span class="required">*</span>
+       <div class="formHelp">{$locale->tr("blog_owner_help")}</div>
+       <input type="text" name="userName" id="userName" style="width:40%" value="{$userName}" readonly="readonly" />
+	   <input type="hidden" name="userId" id="userId" value="{$userId}" />
+	   <a href="#" onclick="window.open('?op=siteUsersChooser','UserChooser','scrollbars=yes,resizable=yes,toolbar=no,height=450,width=600');">
+	    {$locale->tr("select")}
+	   </a>	
+       {include file="$admintemplatepath/validate.template" field=userId message=$locale->tr("error_incorrect_user")}	   
+     </div>
+    </fieldset>
+    <div class="buttons">
+       <input type="reset" name="reset" value="{$locale->tr("reset")}" />
+       <input type="submit" name="Add Blog" value="{$locale->tr("add")}"/>
+       <input type="hidden" name="op" value="addBlog" />
+    </div>
+ </form>
+{include file="$admintemplatepath/footernavigation.template"}
+{include file="$admintemplatepath/footer.template"}

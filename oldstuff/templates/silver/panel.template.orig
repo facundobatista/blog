@@ -1,0 +1,77 @@
+
+<div id="menu">
+<ul>
+    <li id="search">{$locale->tr("search")}
+	   <form name="search_form" method="post"
+	   	      action="{$url->getIndexUrl()}">
+	      <input type="text" name="searchTerms" value="" size="14" /><br/>
+		  <input type="hidden" name="op" value="Search" />
+		  <input type="hidden" name="blogId" value="{$blog->getId()}"/>
+   </form>
+    </li>
+{assign var=blogOwner value=$blog->getOwnerInfo()}
+{assign var=AboutMyself value=$blogOwner->getAboutMyself()}
+{if $blogOwner->hasPicture() && $AboutMyself}  
+  	<li id="about_myself">{$locale->tr("about_myself")}
+  	<ul>
+  	{assign var=picture value=$blogOwner->getPicture()}
+  	<li><img id="UserPicture" src="{$picture->getPreviewLink()}" alt="{$blogOwner->getUsername()}" /></li>
+  	<p>{$AboutMyself}</p>
+  	</ul>
+  	</li>
+{/if}
+    <li id="wordpress">{$locale->tr("menu")}
+    <ul>
+     <li><a href="{$url->albumLink()}">{$locale->tr("albums")}</a></li>
+    </ul> 
+    </li>
+
+ <li id="categories">
+  {$locale->tr("categories")}
+  <ul>
+   {foreach from=$articlecategories item=articleCategory}
+    <li><a href="{$url->categoryLink($articleCategory)}">{$articleCategory->getName()} [{$articleCategory->getNumArticles()}]</a></li>
+   {/foreach}
+   </ul>
+ </li>
+  
+ <li id="archives">
+  {$locale->tr("archives")}
+  <ul>
+  {foreach from=$archives item=archivelink}
+   <li><a href="{$archivelink->getUrl()}">{$archivelink->getName()}</a></li>
+  {/foreach}
+  </ul>
+  </li>
+  <li id="calendar">
+	{$calendar}
+  </li>
+
+    <li id="meta">
+    Meta
+    <ul>
+     <li><a title="Link to the RSS 0.90 feed." href="{$url->rssLink("rss090")}">RSS 0.90</a></li>
+     <li><a title="Link to the RSS 1.0 feed." href="{$url->rssLink("rss10")}">RSS 1.0</a></li>
+     <li><a title="Link to the RSS 2.0 feed." href="{$url->rssLink("rss20")}">RSS 2.0</a></li>
+     <li><a title="Link to the Atom 0.3 feed." href="{$url->rssLink("atom")}">Atom 0.3</a></li>
+     <li><a href="http://validator.w3.org/check/referer" title="Valid XHTML 1.0 Transitional">Valid <abbr title="eXtensible HyperText Markup Language">XHTML</abbr></a></li>
+     
+    </ul> 
+    </li>
+
+  <li id="style"> 
+  {$locale->tr("links")}
+  <ul>
+   {foreach from=$mylinkscategories item=linkcategory}
+     <li><b>{$linkcategory->getName()}</b>
+     <ul>
+      {foreach from=$linkcategory->getLinks() item=link}
+       <li><a href="{$link->getUrl()}" title="{$link->getDescription()}">{$link->getName()}</a></li>
+      {/foreach}
+     </ul>
+    </li>
+   {/foreach}  
+   </ul>
+    </li>
+</ul> 
+</div>

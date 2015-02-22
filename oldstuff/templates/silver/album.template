@@ -1,0 +1,101 @@
+{include file="$blogtemplate/header.template"}
+
+<div id="content">
+{assign var="postDate" value=$album->getTimestamp()}
+  <h2>{$locale->tr("album")}</h2>
+
+  <div class="post">
+    <h3 class="storytitle"><a href="{$url->albumLink($album)}">{$album->getName()}</a></h3>
+    <div class="meta">
+        {$locale->tr("created")} {$locale->formatDate($postDate,"%d %b, %Y")}
+    </div>    
+    <div class="storycontent"><p>{$album->getDescription()}</p></div>
+ 
+{** 
+    smarty template gets a bit complicated here since we want to show the contents of the album in a nicely
+    arranged table, and that needs some very basic maths... we also need to check after every iteration
+    wether we have to close the current row or start a new one, and so on...
+ **}
+    
+ <!-- album contents go here -->
+<table style="border:0px;width:100%;" summary="{$locale->tr("album")}">
+ <tr>
+  <td style="width:25%;" align="center" >
+   <a href="{$url->parentAlbumLink($album)}">
+    <img style="border:0px;" src="{$url->getUrl("/imgs/folder.gif")}" alt="Folder" /><br/>
+    ..
+   </a>
+  </td>
+  {assign var="counter" value=1}
+  {assign var=children value=$album->getChildren()}
+  {foreach from=$children item=childalbum}
+  <td style="width:25%;" align="center" >
+   <a href="{$url->albumLink($childalbum)}">
+   <img style="border:0px;" src="{$url->getUrl("/imgs/folder.gif")}" alt="Folder" /><br/>
+   {$childalbum->getName()} ({$childalbum->getNumResources()})
+  </a>
+  <br/><br/>
+  {assign var="counter" value="`$counter+1`"}
+  </td>
+  {if $counter%4}
+   </tr>
+   <tr>
+  {/if}
+ {/foreach}
+
+ <!--- show the resources here -->
+
+ 
+ {foreach from=$resources item=resource}
+  <td style="width:25%;" align="center" >
+  {if $resource->hasPreview()}
+   {*<a target="_blank" href="resserver.php?blogId={$blog->getId()}&amp;resource={$resource->getFileName()}">*}
+   <a href="{$url->resourceLink($resource)}">
+    <img alt="{$resource->getDescription()}" style="border:0px;" src="{$url->resourcePreviewLink($resource)}" />
+    <br/>{$resource->getFileName()}
+   </a>
+  {else}
+   <a href="{$url->resourceLink($resource)}">
+   {if $resource->isSound()}
+    <img alt="Sound" src="{$url->getUrl("/imgs/sound.gif")}" height="64" width="64" style="border:0px;" />
+   {elseif $resource->isVideo()}
+    <img alt="Video" src="{$url->getUrl("/imgs/video.gif")}" height="64" width="64" style="border:0px;" />
+   {elseif $resource->isZip()}
+    <img alt="Zip" src="{$url->getUrl("/imgs/compressed.gif")}" height="64" width="64" style="border:0px;" />   
+   {else}
+    <img alt="File" src="{$url->getUrl("/imgs/file.gif")}" height="64" width="64" style="border:0px;" />    
+   {/if}
+   <br/>{$resource->getFileName()}
+   </a>
+  {/if}
+  <br/>
+  {assign var=metadata value=$resource->getMetadataReader()}
+  {$metadata->getRoundedSize()}<br/>
+  {if $resource->isImage()}
+   {$metadata->getWidth()} x {$metadata->getHeight()}<br/>
+  {elseif $resource->isSound()}
+   {$metadata->getFormat()|upper} {$metadata->getSampleRate()} bps<br/>
+  {elseif $resource->isVideo()}
+   {$metadata->getFormat()|upper}
+   {$metadata->getWidth()} x {$metadata->getHeight()}, 
+   {$metadata->getLengthString()}<br/>
+  {elseif $resource->isZip()}
+   {$metadata->getTotalFiles()} {$locale->tr("files")}<br/>
+  {/if}
+  {assign var="counter" value="`$counter+1`"}
+  </td>
+  {if $counter%4 == 0}
+   </tr>
+   <tr>
+  {/if}
+ {/foreach}
+ <td></td></tr>
+</table>
+ {pager style="links"}
+ <!-- end of album contents -->
+ 
+ </div>
+</div>
+
+{include file="$blogtemplate/panel.template"}
+{include file="$blogtemplate/footer.template"}

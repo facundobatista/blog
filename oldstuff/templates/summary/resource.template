@@ -1,0 +1,35 @@
+	{assign var="blog" value=$resource->getBlogInfo()}
+	{assign var="request" value=$blog->getBlogRequestGenerator()}
+   	{assign var=metadata value=$resource->getMetadataReader()}	
+	<div class="album">
+   		{if $resource->hasPreview()}
+   	<a href="{$request->resourceLink($resource)}">
+    	<img alt="{$resource->getDescription()}" src="{$request->resourcePreviewLink($resource)}" /></a>
+    	<p>{$resource->getFileName()}, {$metadata->getRoundedSize()}</p>
+   		{else}
+   	<a href="{$request->resourceLink($resource)}">
+   		{if $resource->isSound()}
+    	<img alt="Sound" src="{$request->getTemplateFile("imgs/sound.gif")}" /></a>
+   		{elseif $resource->isVideo()}
+    	<img alt="Video" src="{$request->getTemplateFile("imgs/video.gif")}" /></a>
+   		{elseif $resource->isZip()}
+    	<img alt="Zip" src="{$request->getTemplateFile("imgs/compressed.gif")}" /></a>
+   		{else}
+   	<img alt="File" src="{$request->getTemplateFile("imgs/file.gif")}" /></a>
+   		{/if}  
+   	<p>{$resource->getFileName()}, {$metadata->getRoundedSize()}</p>
+   		{/if}
+   		{if $resource->isImage()}
+  	<p>{$metadata->getWidth()} x {$metadata->getHeight()}</p>
+   		{elseif $resource->isSound()}
+  	<p>{$metadata->getFormat()|upper} {$metadata->getSampleRate()} bps</p>
+   		{elseif $resource->isVideo()}
+  	<p>{$metadata->getFormat()|upper} {$metadata->getWidth()} x {$metadata->getHeight()}, {$metadata->getLengthString()}</p>
+   		{elseif $resource->isZip()}
+   	<p>{$metadata->getTotalFiles()} {$locale->tr("files")}</p>
+   		{/if}
+   		{assign var="counter" value="`$counter+1`"}
+   		{if $counter%3 == 0}
+   		{/if}
+     <p><a href="{$request->blogLink()}">{$blog->getBlog()}</a></p>
+  	</div>

@@ -1,0 +1,50 @@
+{include file="$blogtemplate/header.template"}
+
+<div id="content">
+    {assign var="postDate" value=$post->getDateObject()}
+    {assign var="postOwner" value=$post->getUserInfo()}
+    <h2>{$locale->formatDate($postDate,"%d %b, %Y")}</h2>
+    
+    <div class="post">
+        {include file="$blogtemplate/post.template"}
+   		<!-- {$url->postTrackbackLink($post)} -->
+        {pager style="links"}    
+    
+        <h2 id="comments">{$locale->tr("comments")}</h2>
+        
+         <ol id="commentlist">
+        {foreach from=$comments item=comment}
+        {assign var=commentText value=$comment->getText()}
+		{if $comment->IsPosterAuthenticated()}
+			{assign var=poster value=$comment->getUser()}
+			{if $poster->hasPicture()}
+				{assign var=posterimg value=$poster->getPicture()}
+				<img src="{$posterimg->getPreviewLink()}" alt="{$poster->getUserName()}" align="right" class="poster_avatar"/>
+			{/if}
+		{/if}
+            <li id="comment-{$comment->getId()}">
+                <p>{$commentText}</p>
+               
+               	<p><cite>{$locale->tr("posted_by")}
+                   {if $comment->getUserUrl() != ""}
+                    <a href="{$comment->getUserUrl()}"}>{$comment->getUsername()}</a>
+                   {else}
+                    {$comment->getUsername()}
+                   {/if} &#8212;
+                   {assign var=commentDate value=$comment->getDateObject()}
+                   {$locale->formatDate($commentDate, "%d %b %Y, %H:%M")}
+                </cite></p>
+            </li>
+        {/foreach}    
+        </ol>
+            
+        {if $blogsettings->getValue("comments_enabled") && $post->getCommentsEnabled()==1}
+            <br style="clear: both;" />
+           <h2>{$locale->tr("add_comment")}</h2>
+          {include file="$blogtemplate/commentform.template"}
+        {/if}
+    </div>
+</div>
+
+{include file="$blogtemplate/panel.template"}
+{include file="$blogtemplate/footer.template"}

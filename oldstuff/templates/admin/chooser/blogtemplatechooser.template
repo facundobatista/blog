@@ -1,0 +1,28 @@
+{include file="$admintemplatepath/chooser/header.template"}
+<div id="container">
+<table id="list" class="info" summary="{$locale->tr("template")}">
+ <thead>
+  <th style="width:210px";>{$locale->tr("template")}</th>
+  <th style="width:210px";></th>
+ </thead>  
+ <tbody>
+  {foreach name=template from=$templates item=template}
+  {if ($smarty.foreach.template.iteration % 2) != 0} 
+   <tr>
+  {/if} 
+    <td>
+     {assign var=templateName value=$template->getName()}
+     <b>{$templateName}</b>&nbsp;(<a href="javascript:blogTemplateSelector('{$templateName}')">{$locale->tr("select")}</a>)<br/>
+     <a href="javascript:blogTemplateSelector('{$templateName}')"><img src="{$template->getScreenshotUrl()}" alt="{$templateName}" height="150" width="200" /></a>
+    </td>
+  {if ($smarty.foreach.template.iteration % 2) == 0}     
+   </tr> 
+  {/if}
+  {/foreach}
+</tbody>
+</table>
+<div id="list_action_bar">
+  <a href="javascript:window.close()">{$locale->tr("close")}</a>
+</div>
+</div>
+{include file="$admintemplatepath/chooser/footer.template"}

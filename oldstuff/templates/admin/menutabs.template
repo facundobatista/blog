@@ -1,0 +1,12 @@
+            <ul id="tablist">
+                {assign var=options value=$menu->getOpts($showOpt)}
+                {foreach from=$options item=option}
+                  {if $option->getAttribute("ignoreTab") != 1 && $menu->userCanSee( $option, $user )}
+                    {assign var=name value=$option->name}
+                    <li {if $name==$showOpt} id="tab_active" {/if}>
+                      <a {if $name==$showOpt} id="tab_current" {/if} href="{$option->getAttribute("url")}">{$locale->tr($name)}</a>
+                    </li>
+                      {/if}
+                {/foreach}
+            </ul>
+

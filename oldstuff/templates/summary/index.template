@@ -1,0 +1,124 @@
+{include file="summary/header.template" selected="index"}
+
+
+<div id="maincolumn">
+    <div id="intro">
+        <p>{$locale->tr("summary_welcome_paragraph")}</p>
+    </div>
+    {include file="summary/recent.template"}
+</div>
+
+<div id="column">
+<div id="columncontainer">
+    <h2>{$locale->tr("search_s")}</h2>
+    <form id="searchForm" method="post" action="{$smarty.server.PHP_SELF}">
+    <fieldset class="inputField">
+            <label for="searchTerms">{$locale->tr("search")}:
+            <input type="text" name="searchTerms" id="searchTerms" value="" size="14" /></label>
+            <label for="searchType">{$locale->tr("search_type")}:
+	   	    <select name="searchType" id="searchType">
+	    	   	<option value="1">{$locale->tr("posts")}</option>
+	    	   	<option value="2">{$locale->tr("blogs")}</option>
+	    	   	<option value="3">{$locale->tr("resources")}</option>
+    	    </select>
+   </label>        
+        <input type="hidden" name="op" value="summarySearch" />            
+        <input type="submit" class="button" name="summarySearch" value="{$locale->tr("search")}" />
+    </fieldset>
+    </form>
+
+    <h2>{$locale->tr("login")}</h2>
+    <form id="loginForm" method="post" action="admin.php">
+    <fieldset class="inputField">
+	    {dynamic}		
+	    {if $authuser}
+	      {assign var=userName value=$authuser->getUsername()}
+	      {$locale->pr("summary_welcome_msg", $userName)}<br/>
+	      <a href="admin.php?op=blogSelect">{$locale->tr("summary_go_to_admin")}</a>
+	    {else}	
+            <label for="userName">{$locale->tr("username")}:
+			<input type="text" tabindex="1" name="userName" id="userName" value="" size="8" maxlength="50" /></label>
+            <label for="userPassword">{$locale->tr("password")}: 
+			<input type="password" tabindex="2" name="userPassword" id="userPassword" size="8" maxlength="50" /></label>
+            <input type="submit" name="Login" tabindex="3" value="{$locale->tr("login")}" class="button" />
+            <input type="hidden" name="op" value="Login"  />
+        	<br/>
+	        <a href="?op=resetPasswordForm">{$locale->tr("password_forgotten")}</a>	
+		{/if}
+		{/dynamic}
+    </fieldset>
+    </form>
+    
+    <h2>{$locale->tr("summary_most_active_blogs")}
+    {assign var=activeBlogs value=$summaryStats->getMostActiveBlogs()}
+      <a href="{$url->getRssUrl()}?summary=1&amp;type=mostactiveblogs">
+        <img src="{$url->getUrl("/imgs/rss_logo_mini.gif")}" 
+         alt="RSS" /></a>    
+    </h2>
+    {if $activeBlogs}
+      <ul class="itemList">
+        {foreach from=$activeBlogs item=blog}
+	      {assign var="url" value=$blog->getBlogRequestGenerator()}
+          <li class="item"><a href="{$url->blogLink()}">{$blog->getBlog()|strip_tags|truncate:60}</a></li>
+        {/foreach}
+      </ul>
+    {/if}
+    
+    
+    
+        {assign var=recentBlogs value=$summaryStats->getRecentBlogs()}
+    <h2>{$locale->tr("summary_newest_blogs")}
+      <a href="{$url->getRssUrl()}?summary=1&amp;type=newestblogs">
+        <img src="{$url->getUrl("/imgs/rss_logo_mini.gif")}" 
+           alt="RSS" /></a>    
+    </h2>
+     {if $recentBlogs}
+      <ul class="itemList">
+        {foreach from=$recentBlogs item=blog}
+          {assign var="url" value=$blog->getBlogRequestGenerator()}
+		  {** remove this if you're having problems with blogs in encondings other than iso-8859-1 **}
+          <li class="item"><a href="{$url->blogLink()}">{$blog->getBlog()|strip_tags|truncate:60}</a></li>
+        {/foreach}
+      </ul>
+    {/if}
+
+    <h2>{$locale->tr("summary_most_read_articles")}
+      {assign var=readestBlogs value=$summaryStats->getMostReadArticles()}
+        <a href="{$url->getRssUrl()}?summary=1&amp;type=mostread">
+          <img src="{$url->getUrl("/imgs/rss_logo_mini.gif")}" 
+          alt="RSS" /></a>		
+     </h2>
+      {if $readestBlogs}
+        <ul class="itemList">
+          {foreach name=readest from=$readestBlogs item=post}
+            {assign var="blog" value=$post->getBlogInfo()}
+	        {assign var="url" value=$blog->getBlogRequestGenerator()}		
+            <li class="item">
+              <a href="{$url->postPermalink($post)}">{$post->getTopic()|strip_tags|truncate:60}</a> ({$post->getNumReads()})<br />
+           </li>
+          {/foreach}
+        </ul>
+      {/if}
+
+    <h2>{$locale->tr("summary_most_commented_articles")}
+    {assign var=commentedPosts value=$summaryStats->getMostCommentedArticles()}
+      <a href="{$url->getRssUrl()}?summary=1&amp;type=mostcommented">
+        <img src="{$url->getUrl("/imgs/rss_logo_mini.gif")}" 
+         alt="RSS" /></a>
+	</h2>
+    {if $commentedPosts} 
+      <ul class="itemList">
+        {foreach name=commented from=$commentedPosts item=post}
+	      {assign var="blog" value=$post->getBlogInfo()}
+	      {assign var="url" value=$blog->getBlogRequestGenerator()}	
+          <li class="item">		
+            <a href="{$url->postPermalink($post)}">{$post->getTopic()|strip_tags|truncate:60}</a> ({$post->getTotalComments()})<br />
+          </li>
+        {/foreach}
+      </ul>
+    {/if}    
+
+</div>
+</div>
+
+{include file="summary/footer.template"}

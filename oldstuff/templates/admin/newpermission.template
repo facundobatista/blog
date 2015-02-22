@@ -1,0 +1,49 @@
+{include file="$admintemplatepath/header.template"}
+{include file="$admintemplatepath/navigation.template" showOpt=newPermission title=$locale->tr("newPermission")}
+
+ <form name="addBlogCategory" method="post" action="admin.php">
+  <fieldset class="inputField">
+   <legend>{$locale->tr("newPermission")}</legend>
+   {include file="$admintemplatepath/formvalidate.template"}   
+   
+   <div class="field">
+    <label for="permissionName">{$locale->tr("name")}</label>
+    <span class="required">*</span>
+    <div class="formHelp">{$locale->tr("permission_name_help")}</div>
+    <input type="text" value="{$permissionName}" id="permissionName" name="permissionName" />
+    {include file="$admintemplatepath/validate.template" field=permissionName message=$locale->tr("error_empty_name")}
+   </div>
+   
+   <div class="field">
+    <label for="permissionDescription">{$locale->tr("description")}</label>
+    <span class="required">*</span>
+    <div class="formHelp">{$locale->tr("permission_description_help")}</div>	
+    <textarea name="permissionDescription" cols="60" id="permissionDescription" rows="5">{$permissionDescription}</textarea>
+    {include file="$admintemplatepath/validate.template" field=permissionDescription message=$locale->tr("error_empty_description")}  
+   </div>
+
+   <div class="field">
+    <label for="corePermission">{$locale->tr("core_perm")}</label>
+    <div class="formHelp">
+     <input class="checkbox" type="checkbox" id="corePermission" name="corePermission" value="1" {if $corePermission}checked="checked"{/if}/>
+     {$locale->tr("core_perm_help")}
+   </div>
+  </div> 
+   
+   <div class="field">
+    <label for="adminOnlyPermission">{$locale->tr("admin_only")}</label>
+    <div class="formHelp">
+     <input class="checkbox" type="checkbox" id="adminOnlyPermission" name="adminOnlyPermission" value="1" {if $adminOnlyPermission}checked="checked"{/if} />
+     {$locale->tr("admin_only_help")}
+   </div>
+  </div>
+
+  </fieldset>
+  <div class="buttons">
+   <input type="hidden" name="op" value="addPermission" />
+   <input type="reset" name="Reset" value="{$locale->tr("reset")}" />
+   <input type="submit" name="Add" value="{$locale->tr("add")}" />
+  </div> 
+ </form>
+{include file="$admintemplatepath/footernavigation.template"}
+{include file="$admintemplatepath/footer.template"}

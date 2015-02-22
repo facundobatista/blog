@@ -1,0 +1,19 @@
+<?php
+    if (!defined( "PLOG_CLASS_PATH" )) {
+        define( "PLOG_CLASS_PATH", dirname(__FILE__)."/");
+    }
+
+    include_once( PLOG_CLASS_PATH."class/bootstrap.php" );
+    lt_include( PLOG_CLASS_PATH."class/net/http/httpvars.class.php" );
+    lt_include( PLOG_CLASS_PATH."class/net/prettyrequestparser.class.php" );
+
+    $server = HttpVars::getServer();
+
+    $path_info = $server["PATH_INFO"];
+
+    $parser = new PrettyRequestParser( "rss", $server["PATH_INFO"]);
+    $result = $parser->parse();
+    HttpVars::setRequest( $result );
+
+    lt_include( "rss.php" );
+?>

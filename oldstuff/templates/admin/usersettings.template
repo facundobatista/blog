@@ -1,0 +1,76 @@
+{include file="$admintemplatepath/header.template"}
+{include file="$admintemplatepath/navigation.template" showOpt=userSettings title=$locale->tr("userSettings")}
+
+  <form name="userSettings" action="admin.php" method="post">
+    <fieldset class="inputField">
+     <legend>{$locale->tr("userSettings")}</legend>
+        {include file="$admintemplatepath/successmessage.template"}
+        {include file="$admintemplatepath/errormessage.template"}
+     <div style="float:left;width:73%;border-right:1px solid #DEDEDE;">
+      <div class="field">
+        <label for="userName">{$locale->tr("username")}</label>
+        <div class="formHelp">{$locale->tr("username_help")}</div>
+        <input type="text" class="readOnly" readonly="readonly" id="userName" value="{$user->getUsername()}" />
+      </div>
+
+      <div class="field">
+        <label for="userFullName">{$locale->tr("full_name")}</label>
+        <div class="formHelp">{$locale->tr("full_name_help")}</div>		
+        <input type="text" name="userFullName" value="{$userFullName}" id="userFullName" />
+      </div>
+
+     <div class="field">
+       <label for="userSettingsPassword">{$locale->tr("password")}</label>
+       <div class="formHelp">{$locale->tr("password_help")}</div>
+       <input type="password" name="userSettingsPassword" value="{$userSettingsPassword}" id="userSettingsPassword" />
+       {include file="$admintemplatepath/validate.template" field=userSettingsPassword message=$locale->tr("error_invalid_password")}
+       <br/>
+       <label for="confirmPassword">{$locale->tr("confirm_password")}</label><br/>
+       <input type="password" name="confirmPassword" value="" id="confirmPassword" />
+       {include file="$admintemplatepath/validate.template" field=confirmPassword message=$locale->tr("error_passwords_dont_match")}       
+     </div>
+ 
+     <div class="field">
+       <label for="userEmail">{$locale->tr("email")}</label>
+       <span class="required">*</span>
+       <div class="formHelp">{$locale->tr("email_help")}</div>
+       <input type="text" name="userEmail" value="{$userEmail}" id="userEmail" />
+       {include file="$admintemplatepath/validate.template" field=userEmail message=$locale->tr("error_incorrect_email_address")}		 
+     </div>
+
+     <div class="field">
+       <label for="userAbout">{$locale->tr("bio")}</label>
+       <div class="formHelp">{$locale->tr("bio_help")}</div>
+       <textarea cols="60" rows="10" name="userAbout" id="userAbout">{$userAbout}</textarea>
+     </div>
+    </div>
+
+    <div style="width:20%;float:left;margin-left:18px;">
+     <div class="field">
+       <label for="userPictureId">{$locale->tr("picture")}</label>
+       <br/>
+       {if $user->hasPicture()} 
+	     {assign var=userPicture value=$user->getPicture()}
+	     {assign var=imgInfo value=$userPicture->getMetadataReader()}
+	     <img alt="Picture" src="{$userPicture->getPreviewLink()}" id="userPicture"  style="display:block;margin-left:auto;margin-right:auto" />
+       {else}
+	     <img alt="Picture" src="imgs/no-user-picture.jpg" id="userPicture" style="display:block;margin-left:auto;margin-right:auto"/>	
+       {/if}
+	   <div class="formHelp">{$locale->tr("user_picture_help")}</div>
+       <a href="javascript:userPictureSelectWindow();">{$locale->tr("choose")}...</a>
+	   |
+	   <a href="javascript:resetUserPicture();">{$locale->tr("reset")}</a>
+       <input type="hidden" name="userPictureId" id="userPictureId" value="{$user->getPictureId()}" />
+     </div>
+    </div>
+    </fieldset>
+
+    <div class="buttons">
+     <input type="reset" name="reset" value="{$locale->tr("reset")}" />
+     <input type="submit" name="Update" value="{$locale->tr("update")}"/>
+     <input type="hidden" name="op" value="updateUserSettings" />
+   </div>
+
+ </form>
+{include file="$admintemplatepath/footernavigation.template"}
+{include file="$admintemplatepath/footer.template"}

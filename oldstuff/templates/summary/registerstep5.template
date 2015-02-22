@@ -1,0 +1,29 @@
+{include file="summary/header.template" selected="register" columns=1}
+  <div id="onecolumn">
+ <h2>{$locale->tr("register_step5_title")}</h2>
+<div id="registrationform">
+ <form name="formDone" action="summary.php" method="post"> 
+  <fieldset class="inputField">
+   <p>
+    <b>{$locale->tr("register_step5_help")}</b>
+   </p>
+   <p>	
+   {if $need_email_confirm == 1}
+       {$locale->tr("register_need_confirmation")}<br/>
+   {else}
+       {assign var=url value=$blog->getBlogRequestGenerator()}
+	   {assign var=blogName value=$blog->getBlog()}
+	   {assign var=blogUrl value=$url->blogLink()}
+       {$locale->pr("register_blog_link",$blogName,$blogUrl)}<br/>   
+       {$locale->tr("register_blog_admin_link")}<br/>
+   {/if}
+   </p>
+  </fieldset>
+  <div class="buttons">
+   <input type="hidden" name="op" value="Default" />
+   <input type="submit" name="finish" value="{$locale->tr("finish")}" />
+  </div>
+ </form> 
+</div>
+</div>
+{include file="summary/footer.template"}

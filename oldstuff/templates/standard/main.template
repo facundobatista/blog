@@ -1,0 +1,25 @@
+		{assign var="OnMainPage" value=1}
+		{include file="$blogtemplate/header.template"} 
+		
+{if $category}<h2>{$locale->tr("category")}: {$category->getName()}</h2>{/if} 
+  
+{foreach from=$posts item=post}
+{if $showAll | 1 && $category}
+  <!-- showing only the topic of the post, in case we have too many! -->
+<h3><a href="{$url->postPermalink($post)}">{$post->getTopic()}</a></h3>
+<div>
+{$post->getText()|strip_tags|truncate:300:"...":false}
+</div>
+
+<p class="footer">
+{foreach name=categories from=$post->getCategories() item=postCategory}
+  <a href="{$url->categoryLink($postCategory)}">{$postCategory->getName()}</a>{if !$smarty.foreach.categories.last}, {/if}
+{/foreach}
+</p>
+{else}
+  <!-- show the whole post, as we would normally do -->
+   {include file="$blogtemplate/post.template"}
+{/if}
+{/foreach}
+		
+		{include file="$blogtemplate/footer.template"} 

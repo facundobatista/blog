@@ -1,0 +1,23 @@
+<div style="padding-left:10px;" id="search">
+   <!-- search_engine_enabled -->
+   <div class="field">
+    <label for="config[search_engine_enabled]">search_engine_enabled</label>
+    <div class="formHelp">{$locale->tr("help_search_engine_enabled")}</div>	
+    <input class="radio" type="radio" id="config[search_engine_enabled]" name="config[search_engine_enabled]" value="1" {if $search_engine_enabled == 1 } checked="checked" {/if} />{$locale->tr("yes")}
+    <input class="radio" type="radio" name="config[search_engine_enabled]" name="config[search_engine_enabled]" value="0" {if $search_engine_enabled == 0 } checked="checked" {/if} />{$locale->tr("no")}
+   </div>
+   <!-- search_in_custom_fields -->
+   <div class="field">
+    <label for="config[search_in_custom_fields]">search_in_custom_fields</label>
+    <div class="formHelp">{$locale->tr("help_search_in_custom_fields")}</div>	
+    <input class="radio" type="radio" id="config[search_in_custom_fields]" name="config[search_in_custom_fields]" value="1" {if $search_in_custom_fields == 1 } checked="checked" {/if} />{$locale->tr("yes")}
+    <input class="radio" type="radio" id="config[search_in_custom_fields]" name="config[search_in_custom_fields]" value="0" {if $search_in_custom_fields == 0 } checked="checked" {/if} />{$locale->tr("no")}
+   </div>
+   <!-- search_in_comments -->
+   <div class="field">
+    <label for="config[search_in_comments]">search_in_comments</label>
+    <div class="formHelp">{$locale->tr("help_search_in_comments")}</div>	
+    <input class="radio" type="radio" id="config[search_in_comments]" name="config[search_in_comments]" value="1" {if $search_in_comments == 1 } checked="checked" {/if} />{$locale->tr("yes")}
+    <input class="radio" type="radio" id="config[search_in_comments]" name="config[search_in_comments]" value="0" {if $search_in_comments == 0 } checked="checked" {/if} />{$locale->tr("no")}
+  </div>	
+</div>

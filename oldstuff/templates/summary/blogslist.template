@@ -1,0 +1,78 @@
+{include file="summary/header.template" selected="blogslist" columns=1}
+
+<div id="onecolumn">
+
+    {if empty($currentBlogCategory)}
+      <h2>{$locale->tr("all")}
+		{if $blogs}
+		  <a href="{$url->getRssUrl()}?summary=1&amp;type=blogslist">
+			<img src="{$url->getUrl("/imgs/rss_logo_mini.gif")}" alt="RSS" />
+		  </a>
+		{/if}
+      </h2>
+    {else}
+      <h2>{$currentBlogCategory->getName()} ({$currentBlogCategory->getNumBlogs()})
+		{if $blogs}
+	      <a href="{$url->getRssUrl()}?summary=1&amp;type=blogslist&amp;blogCategoryId={$currentBlogCategory->getId()}">
+		    <img src="{$url->getUrl("/imgs/rss_logo_mini.gif")}" alt="RSS" />
+		  </a>
+		{/if}
+      </h2>
+    {/if}
+    
+
+           
+<div id="boxes">
+<div id="searchbox">
+<form id="searchForm" method="post" action="{$smarty.server.PHP_SELF}">
+<div>
+            <label for="searchTerms"><input type="text" tabindex="1" name="searchTerms" id="searchTerms" value="" size="14" /></label>
+        <input type="hidden" name="searchType" id="searchType" value="2" />     
+        <input type="hidden" name="op" value="summarySearch" />            
+        <input type="submit" class="button" name="summarySearch" value="{$locale->tr("search")}" tabindex="21" />
+    </div>
+    </form>
+    
+</div>
+<div id="categories">
+    
+<h3>{$locale->tr("blog_categories")}</h3>
+	<ul>
+	<li>
+	{if $blogCategoryId != 0}
+	<a href="?op=BlogList&amp;globalArticleCategoryId=0">{$locale->tr("all")}</a>
+	{else}
+	{$locale->tr("all")}	
+	{/if}
+	</li>	
+	
+	{foreach from=$blogCategories item=blogCategory}
+  {if $blogCategory->getNumBlogs() > 0}
+		{math assign=fontSize equation="(int)((x-y)/step)+12" x=$blogCategory->getNumActiveBlogs() y=$min step=$step}
+		<li>
+		{if $blogCategory->getId() != $blogCategoryId}
+		<a style="font-size: {$fontSize}px" href="?op=BlogList&amp;blogCategoryId={$blogCategory->getId()}">{$blogCategory->getName()}</a>
+		{else}
+		<span style="font-size: {$fontSize}px">{$blogCategory->getName()}</span>
+		{/if}		
+		</li>
+	
+  {/if}
+{/foreach}
+</ul> 
+
+   
+</div>   
+</div> 
+    
+    
+    
+    {foreach from=$blogs item=blog}
+        {include file="summary/blog.template"}
+        
+    {/foreach}
+
+{pager style="links"}
+
+</div>
+{include file="summary/footer.template"}

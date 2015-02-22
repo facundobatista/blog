@@ -1,0 +1,63 @@
+  <div style="padding-left:10px;" id="email">
+   <div class="field">
+    <label for="config[check_email_address_validity]">check_email_address_validity</label>
+	<div class="formHelp">{$locale->tr("help_check_email_address_validity")}</div>
+    <input class="radio" type="radio" id="config[check_email_address_validity]" name="config[check_email_address_validity]" value="1" {if $check_email_address_validity == 1 } checked="checked" {/if} />{$locale->tr("yes")}
+    <input class="radio" type="radio" id="config[check_email_address_validity]" name="config[check_email_address_validity]" value="0" {if $check_email_address_validity == 0 } checked="checked" {/if} />{$locale->tr("no")}
+   </div>
+   <!-- email_service_enabled -->
+   <div class="field">
+    <label for="config[email_service_enabled]">email_service_enabled</label>
+	<div class="formHelp">{$locale->tr("help_email_service_enabled")}</div>
+    <input class="radio" type="radio" id="config[email_service_enabled]" name="config[email_service_enabled]" value="1" {if $email_service_enabled == 1 } checked="checked" {/if} />{$locale->tr("yes")}
+    <input class="radio" type="radio" id="config[email_service_enabled]" name="config[email_service_enabled]" value="0" {if $email_service_enabled == 0 } checked="checked" {/if} />{$locale->tr("no")}
+   </div>
+   <!-- post_notification_source_address -->
+   <div class="field">
+    <label for="config[post_notification_source_address]">post_notification_source_address</label>
+    <div class="formHelp">{$locale->tr("help_post_notification_source_address")}</div>
+    <input style="width:100%" type="text" name="config[post_notification_source_address]" value="{$post_notification_source_address}"/>
+   </div>
+   <!-- email_service_type -->
+   <div class="field">
+    <label for="config[email_service_type]">email_service_type</label>
+    <div class="formHelp">{$locale->tr("help_email_service_type")}</div>
+	<select name="config[email_service_type]" id="config[email_service_type]">
+      <option value="php" {if $email_service_type == "php"} selected="selected" {/if} />PHP mail()</option>
+      <option value="smtp" {if $email_service_type == "smtp"} selected="selected" {/if} />SMTP</option>
+      <option value="qmail" {if $email_service_type == "qmail"} selected="selected" {/if} />Qmail</option>
+      <option value="sendmail" {if $email_service_type == "sendmail"} selected="selected" {/if} />Sendmail</option>
+     </select>
+   </div>	 
+   <!-- smtp_host -->
+   <div class="field">
+    <label for="config[smtp_host]">smtp_host</label>
+    <div class="formHelp">{$locale->tr("help_smtp_host")}</div>
+    <input style="width:100%" type="text" name="config[smtp_host]" id="config[smtp_host]" value="{$smtp_host}"/>
+   </div>
+   <!-- smtp_port -->
+   <div class="field">
+    <label for="config[smtp_post]">smtp_port</label>
+    <div class="formHelp">{$locale->tr("help_smtp_port")}</div>
+    <input style="width:100%" type="text" name="config[smtp_port]" id="config[smtp_port]" value="{$smtp_port}"/>
+   </div>	
+   <!-- smtp_use_authentication -->
+   <div class="field">
+    <label for="config[smtp_use_authentication]">smtp_use_authentication</label>
+	<div class="formHelp">{$locale->tr("help_smtp_use_authentication")}</div>
+    <input class="radio" type="radio" id="config[smtp_use_authentication]" name="config[smtp_use_authentication]" value="1" {if $smtp_use_authentication == 1 } checked="checked" {/if} />{$locale->tr("yes")}
+    <input class="radio" type="radio" id="config[smtp_use_authentication]" name="config[smtp_use_authentication]" value="0" {if $smtp_use_authentication == 0 } checked="checked" {/if} />{$locale->tr("no")}
+   </div>
+   <!-- smtp_username -->
+   <div class="field">
+    <label for="config[smtp_username]">smtp_username</label>
+    <div class="formHelp">{$locale->tr("help_smtp_username")}</div>
+    <input style="width:100%" type="text" id="config[smtp_username]" name="config[smtp_username]" value="{$smtp_username}"/>
+   </div>	
+   <!-- smtp_password -->
+   <div class="field">
+    <label for="config[smtp_password]">smtp_password</label>
+    <div class="formHelp">{$locale->tr("help_smtp_password")}</div>
+    <input style="width:100%" type="text" id="config[smtp_password]" name="config[smtp_password]" value="{$smtp_password}"/>
+   </div>	
+ </div>

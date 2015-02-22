@@ -1,0 +1,82 @@
+   		{include file="$blogtemplate/header.template"} 
+
+<h2>{$locale->tr("albums")}</h2>
+
+<h3>{$album->getName()}</h3>
+<p>{$album->getDescription()}</p>
+
+<!-- album contents go here -->
+ 
+<div id="album">
+
+	<div class="clearer">&nbsp;</div>
+ 
+	<div class="album">
+	<a href="{$url->parentAlbumLink($album)}">
+    	<img src="{$url->getTemplateFile("imgs/parentfolder.gif")}" alt="{$locale->tr("parent")}" /></a>
+    	<p>{$locale->tr("parent")}</p>
+	</div>
+
+  {if $pager->getCurrentPage() == 1}
+	{assign var="counter" value=1}
+   	{assign var=children value=$album->getChildren()}
+   	{foreach from=$children item=childalbum}
+	<div class="album">
+   	<a href="{$url->albumLink($childalbum)}">
+   	<img src="{$url->getTemplateFile("imgs/folder.gif")}" alt="{$childalbum->getName()}" /></a>
+   	<p>{$childalbum->getName()} ({$childalbum->getNumResources()})</p>
+   		{assign var="counter" value="`$counter+1`"}
+   		{if $counter%3 == 0}
+   		{/if}
+	</div>
+   	{/foreach}
+  {/if}
+ 
+<!-- show the resources here -->
+
+ {** assign var=resources value=$album->getResources() **}
+ {** use the code above if you want to display all the resources at once, or leave it commented **}
+ {** if you would like to use the new paged display that was introduced in lifetype 1.1 **} 
+ {foreach from=$resources item=resource}
+	<div class="album">
+   		{if $resource->hasPreview()}
+   		{*<a target="_blank" href="resserver.php?blogId={$blog->getId()}&amp;resource={$resource->getFileName()}">*}
+   	<a href="{$url->resourceLink($resource)}">
+    	<img alt="{$resource->getDescription()}" src="{$url->resourcePreviewLink($resource)}" /></a>
+    	<p>{$resource->getFileName()}</p>
+   		{else}
+   	<a href="{$url->resourceLink($resource)}">
+   		{if $resource->isSound()}
+    	<img alt="Sound" src="{$url->getTemplateFile("imgs/sound.gif")}" /></a>
+   		{elseif $resource->isVideo()}
+    	<img alt="Video" src="{$url->getTemplateFile("imgs/video.gif")}" /></a>
+   		{elseif $resource->isZip()}
+    	<img alt="Zip" src="{$url->getTemplateFile("imgs/compressed.gif")}" /></a>
+   		{else}
+   	<img alt="File" src="{$url->getTemplateFile("imgs/file.gif")}" /></a>
+   		{/if}  
+   	<p>{$resource->getFileName()}</p>
+   		{/if}
+   		{assign var=metadata value=$resource->getMetadataReader()}
+  	<p>{$metadata->getRoundedSize()}</p>
+   		{if $resource->isImage()}
+  	<p>{$metadata->getWidth()} x {$metadata->getHeight()}</p>
+   		{elseif $resource->isSound()}
+  	<p>{$metadata->getFormat()|upper} {$metadata->getSampleRate()} bps</p>
+   		{elseif $resource->isVideo()}
+  	<p>{$metadata->getFormat()|upper} {$metadata->getWidth()} x {$metadata->getHeight()}, {$metadata->getLengthString()}</p>
+   		{elseif $resource->isZip()}
+   	<p>{$metadata->getTotalFiles()} {$locale->tr("files")}</p>
+   		{/if}
+   		{assign var="counter" value="`$counter+1`"}
+   		{if $counter%3 == 0}
+   		{/if}
+  	</div>
+  		{/foreach}
+
+	<div class="clearer">&nbsp;</div>
+
+</div>
+
+<!-- end of album contents --> 
+		{include file="$blogtemplate/footer.template"} 

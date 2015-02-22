@@ -1,0 +1,47 @@
+{include file="$admintemplatepath/header.template"}
+{include file="$admintemplatepath/navigation.template" showOpt=resourceAlbums title=$locale->tr("resourceAlbums")}
+
+<p>
+ <form name="deleteResourceAlbum" action="admin.php" method="post">
+  <table width="100%" border="1" summary="{$locale->tr("resourceAlbums")}">
+   <tr>
+    <th>{$locale->tr("name")}</th>
+    <th>{$locale->tr("children")}</th>
+    <th>{$locale->tr("resources")}</th>
+    <th>{$locale->tr("show")}</th>
+    <th>{$locale->tr("delete")}</th>
+   </tr>
+   {if $albumid > 0 }
+    <tr>
+     <td colspan="5">
+      <a href="admin.php?op=resourceAlbums&amp;albumId={$album->getParentId()}"><img alt="{$locale->tr("parent")}" src="imgs/up.gif" border="0" /> <b>{$album->getName()}</b></a>
+     </td>
+    </tr>
+   {/if}
+   {foreach from=$albums item=resalbum}
+   <tr>
+    <td><a href="admin.php?op=editResourceAlbum&amp;albumId={$resalbum->getId()}">{$resalbum->getName()}</a></td>
+    <td align="center" valign="top">{if $resalbum->getNumChildren() > 0 }
+     <a href="admin.php?op=resourceAlbums&amp;albumId={$resalbum->getId()}">({$resalbum->getNumChildren()}) / {$locale->tr("see")}</a>
+    {else}
+    (0)
+    {/if}</td>
+    <td align="center" valign="top">
+     {if $resalbum->getNumResources() > 0}
+       <a href="admin.php?op=resources&amp;albumId={$resalbum->getId()}">({$resalbum->getNumResources()})</a>
+     {else}
+       (0)
+     {/if}
+    </td>
+    <td valign="top" align="center">{if $resalbum->getShowAlbum()}{$locale->tr("yes")}{else}{$locale->tr("no")}{/if}</td>
+    <td align="center" valign="top"><input class="checkbox" type="checkbox" name="deleteAlbum[{$resalbum->getId()}]" value="1" /></td>
+   </tr>
+   {/foreach}
+  </table>
+  <input type="submit" name="deleteAlbums" value="{$locale->tr("delete")}" />
+  <input type="hidden" name="op" value="deleteResourceAlbum" />
+ </form>
+</p>
+
+{include file="$admintemplatepath/footernavigation.template"}
+{include file="$admintemplatepath/footer.template"}

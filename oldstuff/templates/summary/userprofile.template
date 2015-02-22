@@ -1,0 +1,38 @@
+{assign var=userName value=$user->getUsername()}
+{assign var=title value=$locale->tr("user")}
+{assign var=sectionTitle value="$title $userName"}
+{include file="summary/header.template" selected="userslist" section="$title $userName"}
+<div id="onecolumn">
+
+	{include file="summary/user.template"}
+
+	{foreach from=$recentArticles item=post}
+    <h3>
+	{assign var=blog value=$post->getBlogInfo()}
+	{assign var=request value=$blog->getBlogRequestGenerator()}
+	{assign var=postDate value=$post->getDateObject()}
+    	<a href="{$request->postPermalink($post)}">{$post->getTopic()|strip_tags|truncate:60}</a>
+    </h3>
+    	
+    <div class="subtitle">
+    	{$locale->tr("posted_in")} <a href="{$request->postPermalink($post)}">{$blog->getBlog()}</a>{if $artGlobalCategory} | {$locale->tr("category")}: <a href="?op=PostList&amp;globalArticleCategoryId={$artGlobalCategory->getId()}">{$artGlobalCategory->getName()}</a>{/if}
+    </div>
+    
+    <p>
+        {$post->getText()|strip_tags|truncate:140:"..."}
+    </p>
+    
+    <div class="postinfo">
+        <img src="imgs/post.png" width="10" height="11" alt="Author" />
+         <strong>{$user->getUsername()}</strong>, {$locale->formatDate($postDate,"%e %B %Y")} |
+        <img src="imgs/comment.png" width="11" height="10" alt="{$locale->tr("comments")}" />
+        <a href="{$request->postPermalink($post)}#comments">{if $post->getTotalComments() eq 0}{$locale->tr("comment on this")}{else}{$post->getTotalComments()} {$locale->tr("comments")|capitalize}{/if}</a>
+    </div>
+	{/foreach}
+
+	<p>
+	 <a href="javascript:history.go(-1);">{$locale->tr("back")}</a>
+	</p>
+
+</div>
+{include file="summary/footer.template"}

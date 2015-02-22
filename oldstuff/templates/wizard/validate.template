@@ -1,0 +1,9 @@
+{** use this file to automatically handle validation errors in form fields **}
+{if $form->formHasRun()}
+	{if !$form->isFieldValid($field)}
+		<div class="fieldValidationError">
+		  <span style="background:red;color:white;font-weight:bold">&nbsp;!&nbsp;</span>&nbsp;
+		  {$message}
+		</div>  
+	{/if}
+{/if}

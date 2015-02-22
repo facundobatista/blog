@@ -1,0 +1,18 @@
+       {if $user->hasPicture()}
+	{assign var=picture value=$user->getPicture()}
+	     <img src="{$picture->getPreviewLink()}"  width="60" height="60" class="postgrav" />
+    {else}
+        <img src="templates/summary/nouser.gif" class="postgrav" width="60" height="60" alt="{$user->getUsername()|strip_tags}" />	
+    {/if} 
+
+        <h3><a href="?op=UserProfile&amp;userId={$user->getId()}">{$user->getUsername()}</a></h3>
+		<div class="subtitle">
+		 <b>{$locale->tr("blogs")}:</b>
+		 {assign var=userBlogs value=$user->getBlogs($blogActive)}
+		 {foreach from=$userBlogs item=userBlog name=userBlogsLoop}
+		  {assign var=urlGen value=$userBlog->getBlogRequestGenerator()}
+		  <a href="{$urlGen->blogLink()}">{$userBlog->getBlog()}</a>{if !$smarty.foreach.userBlogsLoop.last}, {/if}
+		 {/foreach}
+		</div>
+		<div class="footer">{$user->getAboutMyself()|strip_tags}</div>
+		<div class="clearleft">&nbsp;</div>

@@ -1,0 +1,26 @@
+<html>
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset={$locale->getCharset()}"/>
+  <title>{$locale->tr("plog_help")}</title>
+  <style <style type="text/css" media="all">
+   {literal}
+   body {
+    background-color: #f4f694;
+   }
+   h2 {
+    background-color: #c9cb7a;
+    padding: 3px;
+    font-size: 14pt;
+    font-decoration: bold;
+   }
+   {/literal}
+  </style>
+ </head>
+ <body>
+  <h2>{$locale->tr("help")}</h2>
+  <p>
+   {$help}
+  </p>
+  <a href="#" onclick="javascript:window.close();">Close</a>
+ </body>
+</html>

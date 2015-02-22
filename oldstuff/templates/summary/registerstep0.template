@@ -1,0 +1,28 @@
+{include file="summary/header.template" selected="register" columns=1}
+<div id="onecolumn">
+ <h2>{$locale->tr("register_step0_title")}</h2>
+ <div id="intro">
+<p>
+  {$locale->tr("read_service_agreement")}
+</p>
+</div>  
+<div id="registrationform">
+<form action="register.php" method="post">
+  <fieldset>
+   <legend>{$locale->tr("agreement")}</legend>
+   <div class="field">
+    <!--user aggreement-->
+    <textarea name="contract" id="contract" readonly="readonly" style="width:100%" rows="14">
+{include file="summary/agreement.template"}
+    </textarea>
+    <!--end user agreement-->
+   </div>
+  </fieldset>
+  <div class="buttons">
+   <input type="button" value="{$locale->tr("decline")}" name="decline"  onclick="window.location.href='summary.php'" />
+   <input type="submit" value="{$locale->tr("accept")}" name="accept"/>
+  </div>
+ </form>
+ </div>
+ </div>
+{include file="summary/footer.template"}

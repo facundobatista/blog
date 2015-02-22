@@ -1,0 +1,16 @@
+{assign var=title value=$locale->tr("archives")}
+{include file="$blogtemplate/header.template" pageTitle="$pageTitle | $title"} 
+<h2>{$locale->tr("archives")}</h2>
+
+<div id="Archives">
+	
+	<ul>
+		{foreach from=$archives item=month}
+    	<li><a href="{$month->getUrl()}">{$month->getName()}</a> [{$month->getNumArticles()}]</li>
+    		{/foreach}
+    		
+    		
+    	</ul>
+</div>
+   	
+   		{include file="$blogtemplate/footer.template"} 

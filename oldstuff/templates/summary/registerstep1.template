@@ -1,0 +1,74 @@
+{include file="summary/header.template" selected="register" columns=1}
+  <script type="text/javascript" src="js/prototype/prototype.js"></script>
+  <script type="text/javascript" src="js/ui/summary.js"></script>
+  <script type="text/javascript">
+  	var successCheckUserNameMessage = "{$locale->tr("check_username_ok")}";
+  	var errorCheckUserNameMessage = "{$locale->tr("error_username_exist")}";
+  	var emptyUserNameMessage = "{$locale->tr("error_empty_name")}";
+  </script>
+  <div id="onecolumn">
+ <h2>{$locale->tr("register_step1_title")}</h2>
+ <div id="intro">
+        <p>
+          {$locale->tr("register_step1_help")}
+        </p>
+  </div>  
+<div id="registrationform">
+  <form name="newUser" id="newUser" action="register.php" method="post">
+    <fieldset>
+        <legend>{$locale->tr("step1")}</legend>
+
+        {include file="summary/formvalidate.template" message=$locale->tr("error_adding_user")}
+        
+        <div class="field">
+            <label for="userName">{$locale->tr("username")}</label>
+			<div class="formHelp">{$locale->tr("username_help")}</div>
+            <input type="text" name="userName" value="{$userName}" id="userName" size="12" />
+            <input type="button" id="checkUserName" name="checkUserName" value="{$locale->tr("check_username")}" onclick="javascript:checkUserNameAjax();">
+            <div id="checkResult" style="display: none"></div>
+            {include file="summary/validate.template" field=userName message=$locale->tr("error_incorrect_username")}
+        </div>
+        
+        <div class="field">
+            <label for="userFullName">{$locale->tr("full_name")}</label>
+            <div class="formHelp">{$locale->tr("full_name_help")}</div>
+            <input type="text" name="userFullName" value="{$userFullName}" id="userFullName" size="40" />
+        </div>
+        
+        <div class="field">
+            <label for="userPassword">{$locale->tr("password")}</label>
+            <input type="password" name="userPassword" id="userPassword" value="{$userPassword}" size="12" />
+            {include file="summary/validate.template" field=userPassword message=$locale->tr("error_invalid_password")}
+            <label for="userPasswordCheck">
+                 {$locale->tr("confirm_password")}</label>
+            <input type="password" name="userPasswordCheck" id="userPasswordCheck" value="{$userPasswordCheck}" size="12" />
+            {include file="summary/validate.template" field=userPasswordCheck message=$locale->tr("error_passwords_dont_match")}
+        </div>
+        
+        <div class="field">
+            <label for="userPasswordCheck">{$locale->tr("email")}</label>
+			<div class="formHelp">{$locale->tr("email_help")}</div>
+            <input type="text" name="userEmail" id="userEmail" value="{$userEmail}" size="40" />
+            {include file="summary/validate.template" field=userEmail message=$locale->tr("error_incorrect_email_address")}
+        </div>
+        
+        {if $useCaptchaAuth}
+        <div class="field">
+            <label for="userAuth">{$locale->tr("auth_img")}</label>
+            <div class="formHelp">{$locale->tr("auth_img_help")}</div>
+            <img src="{$userAuthImgPath}" alt="CAPTCHA" />
+            <input type="text" name="userAuth" id="userAuth" value="" size="12" />
+            {include file="summary/validate.template" field=userAuth message=$locale->tr("error_incorrect_auth_img")}
+        </div>
+        {/if}
+        
+    </fieldset>
+    
+    
+    <div class="buttons">
+      <input type="submit"  value="{$locale->tr("register_next")} &raquo;" name="Register"/>
+    </div>
+  </form>
+ </div>
+ </div>
+{include file="summary/footer.template"}

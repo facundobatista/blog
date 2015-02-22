@@ -1,0 +1,252 @@
+{include file="$admintemplatepath/simpleheader.template"}
+    <div id="nav_bar">
+        <div id="section_title">
+            <h2>{$locale->tr("dashboard")}</h2>
+        </div>
+        <div class="dashboard_logout_link">
+          {if $userCanCreateBlog}<a href="?op=registerBlog">{$locale->tr("createBlog")}</a>{/if}
+          <a href="?op=blogSelect&amp;blogId={$userblogs[0]->getId()}&amp;action=Logout">{$locale->tr("Logout")}</a>
+        </div>
+        <br style="clear:both;" />
+    </div>
+    <div id="dashboard">
+    {foreach from=$userblogs item=blog}
+	<script type="text/javascript">
+	tables_{$blog->getId()} = [ "dashboard_data_table_{$blog->getId()}", "dashboard_recent_comments_{$blog->getId()}", "dashboard_recent_trackbacks_{$blog->getId()}" ];
+	YAHOO.util.Event.addListener( window, "load", function() {literal}{{/literal}
+			for( i = 0; i < tables_{$blog->getId()}.length; i++ ) {literal}{{/literal}
+				var t = new Lifetype.UI.TableEffects( tables_{$blog->getId()}[i] );
+				t.stripe();
+				t.highlightRows();
+			{literal}	
+			}
+		}		
+		{/literal});
+	</script> 
+        <div class="dashboard_blog">
+        <h2>{$locale->tr("login")}&raquo; <a href="?op=blogSelect&amp;blogId={$blog->getId()}">{$blog->getBlog()}</a></h2>
+        <div class="dashboardHelp">{$locale->tr("help_login_admin_panel")}</div>
+        <table class="dashboard_blog_layout" summary="">
+            <tr>
+                <td style="width: 70%; border: 0px solid black;">
+                    <h3>{$locale->tr("recent_articles")}</h3>
+                    <table class="dashboard_data_table" id="dashboard_data_table_{$blog->getId()}" summary="{$locale->tr("recent_articles")}">
+                        <thead>
+                         <tr>
+                            <th>{$locale->tr("topic")}</th>
+                            <th style="width:60px;">{$locale->tr("actions")}</th>
+                         </tr>
+                        </thead>
+                        {assign var=blogId value=$blog->getId()}
+                        {assign var=url value=$blog->getBlogRequestGenerator()}
+                        {** loop to print out the list of recent posts **}
+						{if !empty($recentposts[$blogId])}
+						<tbody>
+                        {foreach from=$recentposts[$blogId] item=post}
+                        <tr>
+                            <td>
+                                <a target="_blank" href="{$url->postPermalink($post)}">{$post->getTopic()|strip_tags}</a><br/>
+                            </td>
+                            <td>
+                                <div class="list_action_button">
+                                <a href="?op=blogSelect&amp;blogId={$blog->getId()}&amp;action=editPost&amp;postId={$post->getId()}"><img src="imgs/admin/icon_edit-16.png" alt="{$locale->tr("edit")}" /></a>
+                                <a href="?op=blogSelect&amp;blogId={$blog->getId()}&amp;action=deletePost&amp;postId={$post->getId()}"><img src="imgs/admin/icon_delete-16.png" alt="{$locale->tr("delete")}" /></a>
+                                </div>
+                            </td>
+                        </tr>
+                        {/foreach}
+						</tbody>
+						{/if}
+                    </table>
+
+                    <h3>{$locale->tr("recent_comments")}</h3>
+                    <table class="dashboard_data_table" id="dashboard_recent_comments_{$blog->getId()}" summary="{$locale->tr("recent_comments")}">
+                        <thead>
+                        <tr>
+                            <th>{$locale->tr("topic")}</th>
+                            <th>{$locale->tr("posted_by")}</th>
+                            <th>{$locale->tr("in")}</th>
+                            <th>{$locale->tr("date")}</th>
+                            <th style="width:60px;">{$locale->tr("actions")}</th>
+                         </tr>
+                        </thead>
+                        {** loop to print out the list of recent comments **}
+						{if !empty($recentcomments[$blogId])}
+						<tbody>
+                        {foreach from=$recentcomments[$blogId] item=comment}
+                        {assign var=article value=$comment->getArticle()}
+                        <tr>
+                            <td>
+                                <a target="_blank" href="{$url->postPermalink($article)}#{$comment->getId()}">
+                                {if $comment->getTopic() == ""}
+                                <i>{$locale->tr("no_subject")}</i>
+                                {else}
+                                {$comment->getTopic()|strip_tags|utf8_truncate:60:"...":true}
+                                {/if}
+                                </a>
+                            </td>
+                            <td>
+                                {if $comment->getUsername() != ""}
+                                {$comment->getUsername()}
+                                {/if}
+                            </td>
+                            <td>
+                                <a href="{$url->postPermalink($article)}">{$article->getTopic()|strip_tags}</a>
+                            </td>
+                            <td>
+                                {assign var=commentDate value=$comment->getDateObject()}
+                                {$locale->formatDate($commentDate)}<br/>
+                            </td>
+                            <td>
+                                <div class="list_action_button">
+                                <a href="?op=blogSelect&amp;blogId={$blog->getId()}&amp;action=deleteComment&amp;commentId={$comment->getId()}&amp;articleId={$article->getId()}"><img src="imgs/admin/icon_delete-16.png" alt="{$locale->tr("delete")}" /></a>
+								{if $bayesian_filter_enabled}
+                                {if $comment->getStatus() != 1}
+                                    <a href="?op=blogSelect&amp;blogId={$blog->getId()}&amp;action=markComment&amp;mode=1&amp;articleId={$comment->getArticleId()}&amp;commentId={$comment->getId()}">
+                                     <img src="imgs/admin/icon_spam-16.png" alt="{$locale->tr("mark_as_spam")}" />
+                                    </a>
+                                {/if}
+                                {if $comment->getStatus() != 0}
+                                    <a href="?op=blogSelect&amp;blogId={$blog->getId()}&amp;action=markComment&amp;mode=0&amp;articleId={$comment->getArticleId()}&amp;commentId={$comment->getId()}">
+                                     <img src="imgs/admin/icon_nospam-16.png" alt="{$locale->tr("mark_as_no_spam")}" />
+                                    </a>
+                                {/if}
+								{/if}
+                                {if $comment->getUserUrl()}
+                                  <a href="{$comment->getUserUrl()}">
+                                   <img src="imgs/admin/icon_url-16.png" alt="{$locale->tr("url")}" />
+                                  </a>
+                                {/if}
+                                </div>
+                            </td>
+                        </tr>
+                        {/foreach}
+						</tbody>
+						{/if}
+                    </table>
+
+                    <h3>{$locale->tr("recent_trackbacks")}</h3>
+                    <table class="dashboard_data_table" id="dashboard_recent_trackbacks_{$blog->getId()}" summary="{$locale->tr("recent_trackbacks")}">
+                        <thead>
+                        <tr>
+                            <th>{$locale->tr("topic")}</th>
+                            <th>{$locale->tr("in")}</th>
+                            <th>{$locale->tr("date")}</th>
+                            <th style="width:60px;">{$locale->tr("actions")}</th>
+                        </tr>
+                        </thead>
+                        {** loop to print out the list of recent trackbacks **}
+						{if !empty($recenttrackbacks[$blogId])}
+						<tbody>
+                        {foreach from=$recenttrackbacks[$blogId] item=trackback}
+                        <tr>
+                            <td>
+                                {assign var=article value=$trackback->getArticle()}
+                                <a target="_blank" href="{$url->postTrackbackStatsLink($article)}#{$trackback->getId()}">
+                                {if $trackback->getTitle() == ""}
+                                <i>{$locale->tr("no_subject")}</i>
+                                {else}
+                                {$trackback->getExcerpt()}
+                                {/if}
+                                </a>
+                            </td>
+                            <td>
+                                <a href="{$url->postPermalink($article)}">{$article->getTopic()|strip_tags}</a>
+                            </td>
+                            <td>
+                                {assign var=trackbackDate value=$trackback->getDateObject()}
+                                {$locale->formatDate($trackbackDate)}<br/>
+                            </td>
+                            <td>
+                                <div class="list_action_button">
+                                 <a href="?op=blogSelect&amp;blogId={$blog->getId()}&amp;action=deleteTrackback&amp;articleId={$article->getId()}&amp;trackbackId={$trackback->getId()}"><img src="imgs/admin/icon_delete-16.png" alt="{$locale->tr("delete")}" /></a>
+								{if $bayesian_filter_enabled}
+                                  {if $trackback->getStatus() == 0}
+                                    <a href="?op=blogSelect&amp;blogId={$blog->getId()}&amp;action=markTrackback&amp;mode=1&amp;articleId={$trackback->getArticleId()}&amp;trackbackId={$trackback->getId()}">
+                                     <img src="imgs/admin/icon_spam-16.png" alt="{$locale->tr("mark_as_spam")}" />
+                                    </a>
+                                  {elseif $trackback->getStatus() == 1}
+                                    <a href="?op=blogSelect&amp;blogId={$blog->getId()}&amp;action=markTrackback&amp;mode=0&amp;articleId={$trackback->getArticleId()}&amp;trackbackId={$trackback->getId()}">
+                                     <img src="imgs/admin/icon_nospam-16.png" alt="{$locale->tr("mark_as_no_spam")}" />
+                                    </a>
+                                  {/if}
+								{/if}
+                                  {if $trackback->getUserUrl()}
+                                    <a href="{$trackback->getUserUrl()}">
+                                     <img src="imgs/admin/icon_url-16.png" alt="{$locale->tr("url")}" />
+                                    </a>
+                                  {/if}
+                                </div>                                
+                            </td>
+                        </tr>
+                    {/foreach}
+					</tbody>
+					{/if}
+                    </table>
+                </td>
+                <td style="width: 30%; vertical-align: top; border-left: 1px solid #DEDEDE; border-bottom: 0px; padding-left: 4px;">
+                    
+                    <h3>{$locale->tr("quick_launches")}</h3>
+                    <table class="dashboard_data_quick_launches" id="dashboard_quick_launches_{$blog->getId()}" summary="{$locale->tr("quick_launches")}">
+                        <tr>
+                            <th>
+                                {$locale->tr("managePosts")}:
+                            </th>
+                            <td>
+                                <a href="?op=blogSelect&amp;blogId={$blog->getId()}&amp;action=newPost">{$locale->tr("newPost")}</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>
+                                {$locale->tr("manageLinks")}:
+                            </th>
+                            <td>
+                                <a href="?op=blogSelect&amp;blogId={$blog->getId()}&amp;action=newLink">{$locale->tr("newLink")}</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>
+                                {$locale->tr("resourceCenter")}:
+                            </th>
+                            <td>
+                                <a href="?op=blogSelect&amp;blogId={$blog->getId()}&amp;action=newResource">{$locale->tr("newResource")}</a>
+                            </td>
+                        </tr>
+                    </table>
+                    
+                    <h3>{$locale->tr("blog_statistics")}</h3>
+                    <table class="dashboard_data_table_statistics" id="dashboard_statistics_{$blog->getId()}" summary="{$locale->tr("blog_statistics")}">
+	 	 			  <tbody>
+                        <tr>
+                            <th>
+                                {$locale->tr("total_posts")}:
+                            </th>
+                            <td>
+                                {$blog->getTotalPosts()}
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>
+                                {$locale->tr("total_comments")}:
+                            </th>
+                            <td>
+                                {$blog->getTotalComments()}
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>
+                                {$locale->tr("total_trackbacks")}:
+                            </th>
+                            <td>
+                                {$blog->getTotalTrackbacks()}
+                            </td>
+                        </tr>
+						</tbody>
+                    </table>
+                </td>
+            </tr>
+        </table>
+        </div>
+    {/foreach}
+    </div>
+{include file="$admintemplatepath/simplefooter.template"}

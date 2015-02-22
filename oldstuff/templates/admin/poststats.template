@@ -1,0 +1,59 @@
+{include file="$admintemplatepath/header.template"}
+{include file="$admintemplatepath/navigation.template" showOpt=editPosts title=$locale->tr("editPosts")}
+<script type="text/javascript">
+{literal}
+YAHOO.util.Event.addListener( window, "load", function() {
+		var t = new Lifetype.UI.TableEffects( "list" );
+		t.stripe();
+		t.highlightRows();
+	});
+{/literal}
+</script>
+        <form id="postStats" action="admin.php" method="post">
+        <div id="list">
+  {include file="$admintemplatepath/successmessage.template"}
+  {include file="$admintemplatepath/errormessage.template"}
+            <table id="list" class="info" summary="{$locale->tr("editPosts")}">
+                <thead>
+                    <tr>
+                        <th style="width:10px;"><input class="checkbox" type="checkbox" class="check" name="all" id="all" value="1" onclick="toggleAllChecks('postStats');" /></th>
+                        <th style="width:500px;">{$locale->tr("referrer")}</th>
+						<th style="width:70px;">{$locale->tr("hits")}</th>						
+                        <th style="width:100px;">{$locale->tr("date")}</th>
+                        <th style="width:95px;">{$locale->tr("actions")}</th>
+                    </tr>
+                </thead>
+                <tbody>
+                   {foreach from=$referrers item=referrer}
+                    <tr>
+                        <td>
+                            <input class="checkbox" type="checkbox" name="referrerIds[{$referrer->getId()}]" id="checks_1" value="{$referrer->getId()}" />
+                        </td>
+                        <td class="col_highlighted">
+                            <a href="{$referrer->getUrl()}">{$referrer->getUrl()|utf8_wordwrap:55:"<br/>",true}</a>
+                        </td>
+						<td>
+						   {$referrer->getHits()}
+						</td>						
+						<td>
+                            {assign var=date value=$referrer->getDateObject()}
+                            {$locale->formatDate($date)}
+                        </td>                        
+                        <td>
+                            <div class="list_action_button">
+                             <a href="?op=deleteReferrer&amp;referrerId={$referrer->getId()}"><img src="imgs/admin/icon_delete-16.png" alt="{$locale->tr("delete")}" /></a>
+                            </div>
+                        </td>
+                    </tr>
+                    {/foreach}
+                </tbody>
+            </table>
+        </div>
+        <div id="list_action_bar">
+			{adminpager style="list"}
+            <input type="submit" name="delete" value="{$locale->tr("delete")}" class="submit" />
+            <input type="hidden" name="op" value="deleteReferrers" />
+        </div>		
+	</form>
+{include file="$admintemplatepath/footernavigation.template"}
+{include file="$admintemplatepath/footer.template"}

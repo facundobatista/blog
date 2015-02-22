@@ -1,0 +1,8 @@
+{include file="summary/header.template" selected="register" columns=1}
+<div id="onecolumn">
+ <h1>{$locale->tr("register_finished")}</h1>
+ <p>
+  {$locale->tr("register_finish_message")}
+ </p>
+</div>
+{include file="summary/footer.template"}

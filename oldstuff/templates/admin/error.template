@@ -1,0 +1,9 @@
+{include file="$blogtemplate/header.template"}
+{include file="$blogtemplate/navigation.template" title=$locale->tr("error")}
+  <p>
+   <img src="imgs/admin/icon_warning-16.png" alt="Error" />  
+   {$message}
+  </p>
+  <a href="javascript:history.back();">{$locale->tr("back")}</a>
+{include file="$blogtemplate/footernavigation.template"}
+{include file="$blogtemplate/footer.template"}

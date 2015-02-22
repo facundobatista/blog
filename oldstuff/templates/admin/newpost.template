@@ -1,0 +1,232 @@
+{assign var=editor value=1}
+{assign var=htmlarea value=$blogsettings->getValue("htmlarea_enabled")}
+{include file="$admintemplatepath/header.template"}
+{include file="$admintemplatepath/navigation.template" showOpt=newPost title=$locale->tr("newPost")}
+ <script type="text/javascript" src="js/ui/plogui.js"></script>
+ <link rel="stylesheet" type="text/css" media="all" href="js/jscalendar/calendar-win2k-cold-1.css" title="win2k-cold-1" />
+ <script type="text/javascript" src="js/jscalendar/calendar_stripped.js"></script>
+ <script type="text/javascript" src="js/jscalendar/lang/calendar-en.js"></script>
+ <script type="text/javascript" src="js/jscalendar/calendar-setup_stripped.js"></script>
+ <script type="text/javascript" src="js/ui/autosave.js"></script>
+ <script type="text/javascript">
+  
+  // some messages that we are going to need in the functions above
+  var msgErrorMakingRequest = "{$locale->tr("error_sending_request")}";
+  var msgErrorNoCategorySelected = "{$locale->tr("error_no_category_selected")}";
+  var xmlHttpRequestSupportEnabled = '{$xmlHttpRequestSupportEnabled}';
+  var htmlAreaEnabled = {if $htmlarea==0 || !$htmlarea}false{else}true{/if};
+  var msgErrorPostTopic = "{$locale->tr("error_missing_post_topic")}";
+  var msgErrorPostText = "{$locale->tr("error_missing_post_text")}";
+  var msgSaving = "{$locale->tr("saving_message")}";
+  var msgAutoSaveMessage = '{$locale->tr("warning_autosave_message")|escape:javascript}';
+  
+  var todayDay = '{$today->getDay()}';
+  var todayMonth = '{$today->getMonth()}';
+  var todayYear = '{$today->getYear()}'; 
+  
+  // this needs to be pre-initialized
+  var preview = false; 
+
+{literal} 
+function selectOperation( t )
+{
+	if( preview ) {	
+		document.newPost.op.value="previewPost";
+		window.open("", t, "scrollbars=yes,resizable=yes,toolbar=no" );
+		return true;
+	}
+	else {
+		document.newPost.op.value="addPost";
+		document.newPost.target="";
+		document.newPost.action="admin.php";
+		return true;
+	}
+}
+{/literal}
+</script>
+ 
+  <form name="newPost" id="newPost" action="admin.php" method="post" onSubmit="return selectOperation(this.target);" target="admin">   
+   <fieldset class="inputField">
+   <legend>{$locale->tr("newPost")}</legend>
+   <div id="mainPanel" style="float:left; width: 73%; border-right: 1px solid #DEDEDE;">
+	   <div id="autoSaveMessage" style="display: none;"></div>
+	   {include file="$admintemplatepath/formvalidate.template"}  
+	   <div class="field">
+	     <label for="postTopic">{$locale->tr("topic")}</label>
+		 <span class="required">*</span>
+		 <div class="formHelp">{$locale->tr("topic_help")}</div>
+	     <input type="text" name="postTopic" style="width:100%" id="postTopic" value="{$postTopic|escape:"html"}" />
+	     {include file="$admintemplatepath/validate.template" field=postTopic message=$locale->tr("error_missing_post_topic")}
+	   </div>
+	   
+	   <!-- text field custom fields -->
+	   {include file="$admintemplatepath/newpost_customfields.template" type=1 fields=$customfields}	   
+	   	 
+	   <div class="field">
+	     <label for="postText">{$locale->tr("text")}</label>
+		 <span class="required">*</span>
+		 <div class="formHelp">{$locale->tr("text_help")}</div>
+	     {if !$htmlarea}<script type="text/javascript">var ed1 = new Lifetype.UI.Editor('postText','ed1');</script>{/if}
+	     <textarea {if $htmlarea==1}rows="20"{else}rows="15"{/if} id="postText" name="postText" style="width:100%">{$postText}</textarea>
+	     <a href="{if $htmlarea}javascript:tinyMCE.execInstanceCommand('mce_editor_0','mceinsertresource',true);{else}javascript:ed1.execute('postText','7_but_res',''){/if}">{$locale->tr("insert_media")}</a> |
+             <a href="{if $htmlarea}javascript:tinyMCE.execInstanceCommand('mce_editor_0','mcemoremore');{else}javascript:ed1.execute('postText','8_but_more',''){/if}">{$locale->tr("insert_more")}</a>
+	     {include file="$admintemplatepath/validate.template" field=postText message=$locale->tr("error_missing_post_text")}   
+	   </div>
+
+          <div class="field">
+            <label for="trackbackUrls">{$locale->tr("trackback_urls")}</label>
+                <div class="formHelp">{$locale->tr("trackback_urls_help")}</div>
+            <textarea rows="5" id="trackbackUrls" name="trackbackUrls" style="width:100%">{$trackbackUrls}</textarea>
+          </div>
+	   
+	   <!-- text area custom fields -->
+      {include file="$admintemplatepath/newpost_customfields.template" type=2 fields=$customfields}
+   </div>
+
+   <div id="optionPanel" style="float:left; width: 23%; margin-left: 8px;">
+	   <div class="field">
+	     <label for="postSlug">{$locale->tr("post_slug")}</label>
+		 <div class="formHelp">{$locale->tr("post_slug_help")}</div>
+	     <input type="text" name="postSlug" id="postSlug" style="width:100%" value="{$postSlug|escape:"html"}" />
+	   </div>
+
+       <div class="field">
+   	     <label for="postDateTime">{$locale->tr("date")}</label>
+		 <span class="required">*</span>
+		 <div class="formHelp">{$locale->tr("post_date_help")}</div>
+	     <input name="postDateTime" id="postDateTime" class="dateTime" readonly="true" type="text" size="16" value="{$postDateTime}" style="margin-bottom: 4px;" />
+	     <img src="imgs/admin/cal.jpg" id="postDateTimeSelector" alt="{$locale->tr("date")}" style="cursor: pointer; border: 0px; width: 16px; height: 14px; padding: 0;" />
+	   </div>
+
+	   <script type="text/javascript">
+	   var MondayFirstDay = ( {$locale->firstDayOfWeek()} == 1);
+       {literal}
+	       Calendar.setup({
+	           inputField  : "postDateTime",
+	           ifFormat    : "%d/%m/%Y %H:%M",
+	           button      : "postDateTimeSelector",
+	           showsTime   : true,
+	           timeFormat  : "24",
+	           electric    : false,
+	           align       : "Bl",
+	           firstDay    : MondayFirstDay,
+	           singleClick : true
+	       });
+	   {/literal}
+	   </script>
+	   
+	   <!-- date custom fields -->
+	   {include file="$admintemplatepath/newpost_customfields.template" type=4 fields=$customfields}
+	   
+	   <div class="field">
+         <label for="postStatus">{$locale->tr("status")}</label>
+		 <span class="required">*</span>		 
+		 <div class="formHelp">{$locale->tr("post_status_help")}</div>
+		 <select name="postStatus" id="postStatus">
+		   {foreach from=$poststatus key=name item=status}
+             {if $name != "post_status_deleted"}
+               <option value="{$status}" {if $postStatus == $status}
+                  selected="selected"{/if}>{$locale->tr($name)}</option>
+             {/if}
+		   {/foreach}
+         </select>	   
+	   </div>
+	
+	  <!-- user field -->
+	  {check_perms perm=update_all_user_articles}
+	   <div class="field">
+		{if empty($postUser)}{assign var=postUser value=$user->getId()}{/if}
+        <label for="postUser">{$locale->tr("posted_by")}</label>
+		 <span class="required">*</span>		 
+		 <div class="formHelp">{$locale->tr("posted_by_help")}</div>
+		 <select name="postUser" id="postUser">
+		   {foreach from=$blog->getUsersInfo() item=bloguser}
+			<option value="{$bloguser->getId()}" {if $postUser==$bloguser->getId()}selected="selected"{/if}>{$bloguser->getUserName()}</option>
+		   {/foreach}
+        </select>	   
+	   </div>
+	   {/check_perms}
+	   
+	   <div class="field">
+         <label for="postCategories[]">{$locale->tr("categories")}</label>
+		 <span class="required">*</span>
+		 <div class="formHelp">{$locale->tr("post_categories_help")}</div>
+         <select name="postCategories[]" id="postCategories" size="5" multiple="multiple" style="width:100%">
+           {foreach name=categories from=$categories item=category}
+           <option value="{$category->getId()}" {if $smarty.foreach.categories.first} selected="selected" {/if}>{$category->getName()}</option>
+           {/foreach}
+         </select>
+         <input type="text" name="newArticleCategory" id="newArticleCategory" style="width:100px; margin-top:3px;" size="16" value="" />
+         <input type="button" name="addArticleCategory" id="addArticleCategory" style="width:auto;margin-top:3px;" value="{$locale->tr("add")}" onclick="javascript:addArticleCategoryAjax()" />
+        {include file="$admintemplatepath/validate.template" field=postCategories message=$locale->tr("error_no_category_selected")}	   
+	   </div>
+	   
+      <div class="field">
+         <label for="globalArticleCategoryId">{$locale->tr("global_category")}</label>
+		 <span class="required">*</span>
+		 <div class="formHelp">{$locale->tr("global_article_category_help")}</div>
+	    <select name="globalArticleCategoryId" id="globalArticleCategoryId" size="1" style="width:100%">
+	       <option value="0">{$locale->tr("none")}</option>
+           {if $globalArticleCategoryId}
+	           {foreach from=$globalcategories item=globalcategory}
+	           <option value="{$globalcategory->getId()}" {if $globalcategory->getId() == $globalArticleCategoryId} selected="selected" {/if}>{$globalcategory->getName()}</option>
+	           {/foreach}
+           {else}
+	           {foreach name=globalcategories from=$globalcategories item=globalcategory}
+	           <option value="{$globalcategory->getId()}">{$globalcategory->getName()}</option>
+	           {/foreach}
+	       {/if}
+         </select>
+        {include file="$admintemplatepath/validate.template" field=globalArticleCategoryId message=$locale->tr("error_no_global_article_category_selected")}	   
+       </div>	  
+
+	   <!-- list custom fields -->
+	   {include file="$admintemplatepath/newpost_customfields.template" type=5 fields=$customfields}
+   
+       <div class="field_checkbox">
+         <input class="checkbox" type="checkbox" id="commentsEnabled" name="commentsEnabled" value="1" {if $commentsEnabled} checked="checked" {/if}/>
+		 <label for="commentsEnabled">{$locale->tr("post_comments_enabled_help")}</label>
+	   </div>
+   
+       <div class="field_checkbox">
+	     <input class="checkbox" type="checkbox" name="sendNotification" id="sendNotification" value="1" {if $sendNotification} checked="checked" {/if}/>
+		 <label for="sendNotification">{$locale->tr("send_notification_help")}</label>
+	   </div>
+
+       <div class="field_checkbox">
+	     <input class="checkbox" type="checkbox" name="sendTrackbacks" id="sendTrackbacks" value="1" {if $sendTrackbacks} checked="checked" {/if}/>  
+		 <label for="sendTrackbacks">{$locale->tr("send_trackback_pings_help")}</label>
+	   </div>
+        
+	   <div class="field_checkbox">	
+         {if $xmlRpcPingEnabled}
+		 <input class="checkbox" type="checkbox" name="sendPings" id="sendPings" value="1" {if $sendPings} checked="checked" {/if}/>
+		 <label for="sendPings">{$locale->tr("send_xmlrpc_pings_help")}</label>
+		 {/if}
+      </div>
+
+	  <!-- checkbox custom fields -->
+	   {include file="$admintemplatepath/newpost_customfields.template" type=3 fields=$customfields}
+
+      <div class="field">
+       	<br /><label for="bookmarklet">{$locale->tr("bookmarklet")}</label>
+       	<div class="formHelp">{$locale->tr("bookmarklet_help")}</div>
+		<a href="javascript:bm=document.selection?document.selection.createRange().text:window.getSelection();void(ltbm=window.open('{$url->getAdminUrl()}?op=newPost&amp;sendTrackbacks=1&amp;postText='+encodeURIComponent('&lt;p&gt;'+bm+' ... '+'&lt;a href=&quot;'+window.location.href+'&quot;&gt;'+'{$locale->tr("original_post")}'+'&lt;/a&gt;&lt;/p&gt;'),'ltbm','toolbar=1,status=1,location=1,scrollbars=1,menubar=1,resizable=1'))" onclick="window.alert('{$locale->tr("bookmarklet_help")}');">{$locale->tr("blogit_to_lifetype")}</a> 
+      </div>
+	  
+	</div>
+	</fieldset>
+    <div class="buttons">
+		<input type="button" name="saveDraftAndContinue" value="{$locale->tr("save_draft_and_continue")}" onclick="javascript:saveDraftArticleAjax()" />
+		<input type="submit" name="previewPost" value="{$locale->tr("preview")}" onClick="preview=true"/>
+		<input type="submit" name="addPost" value="{$locale->tr("add_post")}" onClick="preview=false" />
+		<input type="hidden" name="op" value="addPost" />
+		<input type="hidden" name="postId" id="postId" value="{$postId}" />
+    </div>
+  </form>
+  <script type="text/javascript">
+    initialAutoSave();
+    startAutoSave();
+  </script>
+{include file="$admintemplatepath/footernavigation.template"}
+{include file="$admintemplatepath/footer.template"}

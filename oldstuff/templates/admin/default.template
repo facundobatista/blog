@@ -1,0 +1,30 @@
+{include file="$blogtemplate/simpleheader.template"}
+	<div class="loginBox" style="padding-top: 180px;">
+	   <form name="loginForm" method="post" action="admin.php">
+		  <fieldset class="inputField">
+		   <h4>{$locale->tr("login")}</h4> 
+            {include file="$blogtemplate/errormessage.template" message=$viewErrorMessage}
+            {include file="$blogtemplate/successmessage.template" message=$viewSuccessMessage}
+		   {if $viewIsError=="" && $viewIsSuccess==""}
+		     <div class="welcomeMessage">
+		   	   {$locale->tr("welcome_message")}
+			 </div>
+			{/if}	
+		 <div class="field">
+	       <label for="userName">{$locale->tr("username")}</label>
+		   <input type="text" tabindex="1" id="userName" name="userName" value="" />
+		 </div>
+		 <div class="field">  
+		   <label for="userPassword">{$locale->tr("password")}</label>
+		   <input type="password" tabindex="2" name="userPassword" />
+		 </div>
+         <a href="summary.php?op=resetPasswordForm">{$locale->tr("password_forgotten")}</a>
+		</fieldset>
+		<div class="buttons">
+         <input type="submit" class="button" name="Login" value="{$locale->tr("login")}" tabindex="3" />
+         <input type="hidden" name="op" value="Login"/>		 
+		</div> 
+       </form>		
+	</div>
+
+{include file="$blogtemplate/simplefooter.template"}

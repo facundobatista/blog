@@ -1,0 +1,33 @@
+{assign var="blog" value=$post->getBlogInfo()}
+{assign var="request" value=$blog->getBlogRequestGenerator()}
+{assign var="postDate" value=$post->getDateObject()}
+{assign var="postOwner" value=$post->getUserInfo()}	
+{assign var="postCategories" value=$post->getCategories()}
+{assign var="artGlobalCategory" value=$post->getGlobalCategory()} 
+	
+    {if $postOwner->hasPicture()}
+	{assign var=picture value=$postOwner->getPicture()}
+	<img src="{$picture->getPreviewLink()}"  width="60" height="60" class="postgrav" />
+    {else}
+    <img src="templates/summary/nouser.gif" class="postgrav" width="60" height="60" alt="{$postOwner->getUsername()|strip_tags}" />	
+    {/if}    
+    <h3>
+    	<a href="{$request->postPermalink($post)}">{$post->getTopic()|strip_tags|truncate:60}</a>
+    </h3>
+    	
+    <div class="subtitle">
+    	{$locale->tr("posted_in")} <a href="{$request->blogLink()}">{$blog->getBlog()}</a>{if $artGlobalCategory} | {$locale->tr("category")}: <a href="?op=PostList&amp;globalArticleCategoryId={$artGlobalCategory->getId()}">{$artGlobalCategory->getName()}</a>{/if}
+    </div>
+    
+    <p>
+        {$post->getText()|strip_tags|truncate:140:"..."}
+    </p>
+    
+    <div class="postinfo">
+        <img src="imgs/post.png" width="10" height="11" alt="Author" />
+         <strong>{$postOwner->getUsername()}</strong>, {$locale->formatDate($postDate,"%e %B %Y")} |
+        <img src="imgs/comment.png" width="11" height="10" alt="{$locale->tr("comments")}" />
+        <a href="{$request->postPermalink($post)}#comments">{if $post->getTotalComments() eq 0}{$locale->tr("comment on this")}{else}{$post->getTotalComments()} {$locale->tr("comments")|capitalize}{/if}</a>
+    </div>
+    
+    <div class="clearleft">&nbsp;</div>

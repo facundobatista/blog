@@ -1,0 +1,74 @@
+		{include file="$blogtemplate/header.template"} 
+
+<h2>{$locale->tr("albums")}</h2>
+
+		{assign var=metadata value=$resource->getMetadataReader()}
+		{assign var=updated value=$resource->getTimestamp()}
+<div id="album">
+	<h3>{$resource->getFileName()}</h3>
+
+	<div id="Resource-Desc">
+    	<a href="{$url->resourceDownloadLink($resource)}">{$locale->tr("download")}</a> 
+    	({$metadata->getRoundedSize()}) | {$locale->tr("created")} {$locale->formatDate($updated,"%d %b, %Y")}</div>
+ 
+ 	<div id="Resource">    
+  	<p>{$resource->getDescription()}</p>
+  		{if $resource->isImage()}
+   	<img src="{$url->resourceMediumSizePreviewLink($resource)}" alt="{$resource->getFileName()}, {$metadata->getRoundedSize()}" />
+  
+  		{else}
+     	<a href="{$url->resourceDownloadLink($resource)}">
+   		{* show some information about the file *}
+   
+   		{if $resource->isSound()}
+     	<img alt="Sound" src="{$url->getTemplateFile("imgs/sound.gif")}" /></a>
+     	<p>{$resource->getFileName()}</p>
+     	<p>{$locale->tr("format")}: {$metadata->getFormat()|upper}</p>
+     	<p>{$locale->tr("length")}: {$metadata->getLengthString()}</p>
+     	<p>{$locale->tr("sample_rate")}: {$metadata->getSampleRate()} Khz</p>
+   
+   		{elseif $resource->isVideo()}
+     	<img alt="Sound" src="{$url->getTemplateFile("imgs/video.gif")}" /></a>
+     	<p>{$resource->getFileName()}</p>
+     	<p>{$locale->tr("format")}: {$metadata->getFormat()|upper}</p>
+    	<p>{$locale->tr("size")}: {$metadata->getHeight()} x {$metadata->getWidth()}</p>
+    	<p>{$locale->tr("length")}: {$metadata->getLengthString()}</p>
+    	<p>{$locale->tr("video_codec")}: {$metadata->getVideoCodec()}</p>
+    	<p>{$locale->tr("audio_codec")}: {$metadata->getAudioCodec()}</p>
+   
+   		{elseif $resource->isZip()}
+     	<img alt="Zip" src="{$url->getTemplateFile("imgs/compressed.gif")}" /></a>
+     	<p>{$resource->getFileName()}</p> 
+    	<p>{$metadata->getTotalFiles()} {$locale->tr("files")}</p>
+    	<p>{$locale->tr("uncompressed_size")}: {$metadata->getRoundedUncompressedSize()}</p>
+   
+   		{else}
+     	<img alt="File" src="{$url->getTemplateFile("imgs/file.gif")}" /></a>
+     	<p>{$resource->getFileName()}</p>
+         
+   		{/if}   
+  		{/if}
+ 	</div>
+ 
+ 
+		{assign var=album value=$resource->getAlbum()} 
+	<p><a href="{$url->albumLink($album)}">{$locale->tr("parent")}</a></p>
+
+</div>
+
+</div>
+
+
+<div class="clearer">&nbsp;</div> 
+
+</div>
+
+<div id="Bottommenu"><a href="http://www.w3.org/WAI/">Accessible</a> and Valid <a href="http://validator.w3.org/check/referer">XHTML 1.0 Strict</a> and <a href="http://jigsaw.w3.org/css-validator/check/referer">CSS</a></div>
+
+
+<!-- Please leave the credit intact. Thank you. -->
+<div id="Bottom">Powered by <a href="http://www.lifetype.net">LifeType</a> - Design by <a href="http://www.balearweb.com/">BalearWeb</a></div>
+
+</div>
+</body>
+</html>

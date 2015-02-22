@@ -1,0 +1,4 @@
+This code is copyrighted by Oscar Renalias and the LifeType project,
+and licensed for use under the GNU General Public License. 
+
+Please see the file LICENSE.txt for the legal terms of the license.

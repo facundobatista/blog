@@ -1,0 +1,36 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="{$locale->getLanguageId()}" lang="{$locale->getLanguageId()}">
+<head>
+    <title>{$serviceName}</title>
+    <meta http-equiv="content-type" content="text/html; charset={$locale->getCharset()}" />
+    <style type="text/css" media="screen">@import "styles/summary.css";</style>
+    <meta name="description" content="{$serviceName}" />
+ 	<link rel="shortcut icon" type="image/x-icon" href="{$url->getUrl("/imgs/favicon.ico")}" />
+    <script type="text/javascript">
+    var blogLocale = '{$locale->getCharset()|upper}';
+  	// base url where we can find the admin.php script
+  	var plogBaseUrl = "{$baseurl}";
+	var plogSummaryBaseUrl = plogBaseUrl + "/summary.php";
+	var plogBlogId = "0";
+</script>
+<script type="text/javascript" src="js/ui/default.js"></script>
+<script type="text/javascript" src="js/ui/common.js"></script>
+</head>
+<body {if $columns eq 1}class="column1"{else}class="column3"{/if}>
+<div id="wrapper">
+<div id="header">
+</div>
+<map name="linksmenu" id="linksmenu" title="Navigation">
+    <div id="menubar">
+        <div id="menu">
+          <ul class="menuTop">
+             <li class="menuOption"><a href="summary.php?op=Summary">{$locale->tr("summary")}</a></li>
+             <li class="menuOption"><a href="summary.php?op=Register&amp;start=1">{$locale->tr("register")}</a></li>
+             <li class="menuOption"><a href="summary.php?op=PostList">{$locale->tr("posts")}</a></li>
+             <li class="menuOption"><a href="summary.php?op=BlogList">{$locale->tr("blogs")}</a></li>
+             <li class="menuOption"><a href="summary.php?op=UserList">{$locale->tr("users")}</a></li>
+          </ul>
+        </div>
+    </div>
+</map>
+

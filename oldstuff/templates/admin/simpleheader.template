@@ -1,0 +1,69 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd" >
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" >
+<head>
+<meta http-equiv="content-type" content="text/html;charset={$locale->getCharset()}" />
+<title>LifeType Admin</title>
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta name="generator" content="{$version}" />
+{if $locale->getDirection()=="rtl"}
+<link rel="stylesheet" href="styles/admin-rtl.css" type="text/css" media="screen" />
+{else}
+<link rel="stylesheet" href="styles/admin.css" type="text/css" media="screen" />
+{/if}
+<link rel="shortcut icon" type="image/x-icon" href="imgs/favicon.ico" />
+<!--[if IE ]>
+<link rel="stylesheet" href="styles/admin-ie.css" type="text/css" media="screen" />
+<![endif] -->
+<script type="text/javascript" src="js/ui/default.js"></script>
+<script type="text/javascript" src="js/ui/core.js"></script>
+<script type="text/javascript" src="js/ui/tableeffects.js"></script>
+<script type="text/javascript" src="js/yui/yahoo/yahoo-min.js"></script> 
+<script type="text/javascript" src="js/yui/dom/dom-min.js"></script> 
+<script type="text/javascript" src="js/yui/event/event-min.js"></script>
+{if $templatename=="default"}{** only to be used in the login page! **}
+<style type="text/css">{literal}
+html,body
+{
+    margin		     : 0px;
+    padding     	 : 0px;
+    text-align       : center;
+    font             : 12px verdana, tahoma, arial, sans-serif;
+    background       : none;
+}
+
+#header
+{
+    height           : 10px;
+    width            : 100%;
+    background       : none;
+    padding          : 0px;
+    margin           : 0px;
+}
+
+#content
+{
+    position         : relative;
+    width            : 100%;
+    display          : block;
+    margin           : 0;
+    padding          : 0;
+    background       : #FFFFFF url("./imgs/lt_logo_plant.jpg") no-repeat top left; 
+}
+{/literal}
+</style>
+{/if}
+</head>
+{if $templatename=="default"}
+	<body onload="document.loginForm.userName.focus();">
+{else}
+	<body>
+{/if}
+
+<div id="container" >
+
+    <div id="header" >
+        <h1><span>LifeType Admin</span></h1>
+    </div>
+
+
+    <div id="content" >

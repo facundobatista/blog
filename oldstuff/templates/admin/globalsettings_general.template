@@ -1,0 +1,314 @@
+<div style="padding-left:10px;" id="general">
+   <!-- enable or disable comments globally -->
+   <div class="field">
+    <label for="config[comments_enabled]">comments_enabled</label>
+    <div class="formHelp">{$locale->tr("help_comments_enabled")}</div>	
+    <input class="radio" type="radio" name="config[comments_enabled]" value="1" {if $comments_enabled == 1 } checked="checked" {/if} />{$locale->tr("yes")}
+    <input class="radio" type="radio" name="config[comments_enabled]" value="0" {if $comments_enabled == 0 } checked="checked" {/if} />{$locale->tr("no")}
+   </div>
+   <!-- make comments look nicer by adding some paragraphs tags -->
+   <div class="field">
+    <label for="config[comments_enabled"]>beautify_comments_text</label>
+    <div class="formHelp">{$locale->tr("help_beautify_comments_text")}</div>	
+    <input class="radio" type="radio" name="config[beautify_comments_text]" value="1" {if $beautify_comments_text == 1 } checked="checked" {/if} />{$locale->tr("yes")}
+    <input class="radio" type="radio" name="config[beautify_comments_text]" value="0" {if $beautify_comments_text == 0 } checked="checked" {/if} />{$locale->tr("no")}
+   </div>
+   <!-- temp_folder -->
+   <div class="field">
+    <label for="config[temp_folder]">temp_folder</label>
+    <div class="formHelp">{$locale->tr("help_temp_folder")}</div>	 
+    <input style="width:100%" type="text" name="config[temp_folder]" value="{$temp_folder}"/>
+   </div>
+   <!-- base_url -->
+   <div class="field">
+    <label for="config[base_url"]>base_url</label>
+     <div class="formHelp">{$locale->tr("help_base_url")}</div>	
+     <input style="width:100%" type="text" name="config[base_url]" value="{$base_url}"/>
+   </div>
+   <!-- subdomains_enabled -->
+   <div class="field">
+    <label for="config[subdomains_enabled"]>subdomains_enabled</label>
+     <div class="formHelp">{$locale->tr("help_subdomains_enabled")}</div>	
+     <input class="radio" type="radio" name="config[subdomains_enabled]" value="1" {if $subdomains_enabled == 1 } checked="checked" {/if} />{$locale->tr("yes")}
+     <input class="radio" type="radio" name="config[subdomains_enabled]" value="0" {if $subdomains_enabled == 0 } checked="checked" {/if} />{$locale->tr("no")}
+   </div>
+   <!-- subdomains_base_url -->
+   <div class="field">
+    <label for="config[subdomains_base_url]">subdomains_base_url</label>
+    <div class="formHelp">{$locale->tr("help_subdomains_base_url")}</div>
+    <input style="width:100%" type="text" name="config[subdomains_base_url]" value="{$subdomains_base_url}"/>
+   </div>
+   <!-- subdomains_available_domains -->
+   <div class="field">
+    <label for="config[subdomains_available_domains]">subdomains_available_domains</label>
+    <div class="formHelp">{$locale->tr("help_subdomains_available_domains")}</div>
+    <input style="width:100%" type="text" name="config[subdomains_available_domains]" value="{$subdomains_available_domains}"/>
+   </div>
+   <!-- include_blog_id_in_url -->
+   <div class="field">
+    <label for="config[include_blog_id_in_url]">include_blog_id_in_url</label>
+    <div class="formHelp">{$locale->tr("help_include_blog_id_in_url")}</div>	
+    <input class="radio" type="radio" name="config[include_blog_id_in_url]" value="1" {if $include_blog_id_in_url == 1 } checked="checked" {/if} />{$locale->tr("yes")}
+    <input class="radio" type="radio" name="config[include_blog_id_in_url]" value="0" {if $include_blog_id_in_url == 0 } checked="checked" {/if} />{$locale->tr("no")}
+   </div>   
+   <!-- script_name -->
+   <div class="field">
+    <label for="config[script_name]">script_name</label>
+    <div class="formHelp">{$locale->tr("help_script_name")}</div>
+    <input style="width:100%" type="text" name="config[script_name]" value="{$script_name}"/>
+   </div>   
+   <!-- show_posts_max -->
+   <div class="field">
+    <label for="config[show_posts_max]">show_posts_max</label>
+    <div class="formHelp">{$locale->tr("help_show_posts_max")}</div>
+    <input style="width:100%" type="text" name="config[show_posts_max]" value="{$show_posts_max}"/>
+   </div>
+   <!-- hard_show_posts_max -->
+   <div class="field">
+    <label for="config[hard_show_posts_max]">hard_show_posts_max</label>
+    <div class="formHelp">{$locale->tr("help_hard_show_posts_max")}</div>
+    <input style="width:100%" type="text" name="config[hard_show_posts_max]" value="{$hard_show_posts_max}"/>
+   </div>
+   <!-- recent_posts_max -->
+   <div class="field">
+    <label for="config[recent_posts_max]">recent_posts_max</label>
+    <div class="formHelp">{$locale->tr("help_recent_posts_max")}</div>
+    <input style="width:100%" type="text" name="config[recent_posts_max]" value="{$recent_posts_max}"/>
+   </div>
+   <!-- hard_recent_posts_max -->
+   <div class="field">
+    <label for="config[hard_recent_posts_max]">hard_recent_posts_max</label>
+    <div class="formHelp">{$locale->tr("help_hard_recent_posts_max")}</div>
+    <input style="width:100%" type="text" name="config[hard_recent_posts_max]" value="{$hard_recent_posts_max}"/>
+   </div>
+   <!-- show_comments_max -->
+   <div class="field">
+    <label for="config[show_comments_max]">show_comments_max</label>
+    <div class="formHelp">{$locale->tr("show_comments_max_help")}</div>
+    <input style="width:100%" type="text" name="config[show_comments_max]" value="{$show_comments_max}"/>
+   </div>
+   <!-- hard_show_comments_max -->
+   <div class="field">
+    <label for="config[hard_show_comments_max]">hard_show_comments_max</label>
+    <div class="formHelp">{$locale->tr("hard_show_comments_max_help")}</div>
+    <input style="width:100%" type="text" name="config[hard_show_comments_max]" value="{$hard_show_comments_max}"/>
+   </div>
+   <!-- save_drafts_via_xmlhttprequest_enabled -->
+   <div class="field">
+    <label for="config[save_drafts_via_xmlhttprequest_enabled]">save_drafts_via_xmlhttprequest_enabled</label>
+    <div class="formHelp">{$locale->tr("help_save_drafts_via_xmlhttprequest_enabled")}</div>
+    <input class="radio" type="radio" name="config[save_drafts_via_xmlhttprequest_enabled]" value="1" {if $save_drafts_via_xmlhttprequest_enabled == 1 } checked="checked" {/if} />{$locale->tr("yes")}
+    <input class="radio" type="radio" name="config[save_drafts_via_xmlhttprequest_enabled]" value="0" {if $save_drafts_via_xmlhttprequest_enabled == 0 } checked="checked" {/if} />{$locale->tr("no")}
+   </div>      
+   <!-- locale_folder -->
+   <div class="field">
+    <label for="config[locale_folder]">locale_folder</label>
+    <div class="formHelp">{$locale->tr("help_locale_folder")}</div>
+    <input style="width:100%" type="text" name="config[locale_folder]" value="{$locale_folder}"/>
+   </div>
+   <!-- defaut locale -->
+   <div class="field">
+    <label for="config[default_locale]">default_locale</label>
+    <div class="formHelp">{$locale->tr("help_default_locale")}</div>	
+    <select name="config[default_locale]">
+     {foreach from=$locales item=locale_item}
+      <option value="{$locale_item}" {if $locale_item == $default_locale} selected="selected" {/if} />{$locale_item}</option>
+     {/foreach}
+    </select>
+   </div>
+   <!-- default_blog_id -->
+   <div class="field">
+    <label for="config[default_blog_id]">default_blog_id</label>
+    <div class="formHelp">{$locale->tr("help_default_blog_id")}</div>
+	<input type="hidden" class="text" id="blogName" />
+	<input type="text" name="config[default_blog_id]" id="blogId" value="{$default_blog_id}" readonly="readonly" />
+	<a href="#" onclick="window.open('?op=siteBlogsChooser','BlogChooser','scrollbars=yes,resizable=yes,toolbar=no,height=450,width=600');">
+	 {$locale->tr("select")}
+	</a>
+	&nbsp;<a href="javascript:resetBlogId();">{$locale->tr("reset")}</a>
+   </div>
+   <!-- default_global_article_category_id -->
+   <div class="field">
+    <label for="config[default_global_article_category_id]">default_global_article_category_id</label>
+    <div class="formHelp">{$locale->tr("help_default_global_article_category_id")}</div>	
+    <input style="width:100%" type="text" name="config[default_global_article_category_id]" value="{$default_global_article_category_id}"/>
+   </div>   
+   <!-- blog_does_not_exist_url -->
+   <div class="field">
+    <label for="config[blog_does_not_exist_url]">blog_does_not_exist_url</label>
+    <div class="formHelp">{$locale->tr("help_blog_does_not_exist_url")}</div>	
+    <input style="width:100%" type="text" name="config[blog_does_not_exist_url]" value="{$blog_does_not_exist_url}"/>
+   </div>   
+   <!-- default_time_offset -->
+   <div class="field">
+    <label for="config[default_time_offset]">default_time_offset</label>
+	<div class="formHelp">{$locale->tr("help_default_time_offset")}</div>
+    <select name="config[default_time_offset]" id="config[default_time_offset]">
+       <option {if $default_time_offset == -20} selected="selected"{/if} value="-20">-20 {$locale->tr("hours")}</option>
+       <option {if $default_time_offset == -19} selected="selected"{/if} value="-19">-19 {$locale->tr("hours")}</option>
+       <option {if $default_time_offset == -18} selected="selected"{/if} value="-18">-18 {$locale->tr("hours")}</option>
+       <option {if $default_time_offset == -17} selected="selected"{/if} value="-17">-17 {$locale->tr("hours")}</option>
+       <option {if $default_time_offset == -16} selected="selected"{/if} value="-16">-16 {$locale->tr("hours")}</option>
+       <option {if $default_time_offset == -15} selected="selected"{/if} value="-15">-15 {$locale->tr("hours")}</option>
+       <option {if $default_time_offset == -14} selected="selected"{/if} value="-14">-14 {$locale->tr("hours")}</option>	   	   	   	   
+       <option {if $default_time_offset == -13} selected="selected"{/if} value="-13">-13 {$locale->tr("hours")}</option>	  
+       <option {if $default_time_offset == -12} selected="selected"{/if} value="-12">-12 {$locale->tr("hours")}</option>
+       <option {if $default_time_offset == -11} selected="selected"{/if}value="-11">-11 {$locale->tr("hours")}</option>
+       <option {if $default_time_offset == -10} selected="selected"{/if}value="-10">-10 {$locale->tr("hours")}</option>
+       <option {if $default_time_offset == -9} selected="selected"{/if}value="-9">-9 {$locale->tr("hours")}</option>
+       <option {if $default_time_offset == -8} selected="selected"{/if}value="-8">-8 {$locale->tr("hours")}</option>
+       <option {if $default_time_offset == -7} selected="selected"{/if}value="-7">-7 {$locale->tr("hours")}</option>
+       <option {if $default_time_offset == -6} selected="selected"{/if}value="-6">-6 {$locale->tr("hours")}</option>
+       <option {if $default_time_offset == -5} selected="selected"{/if}value="-5">-5 {$locale->tr("hours")}</option>
+       <option {if $default_time_offset == -4} selected="selected"{/if}value="-4">-4 {$locale->tr("hours")}</option>
+       <option {if $default_time_offset == -3} selected="selected"{/if}value="-3">-3 {$locale->tr("hours")}</option>
+       <option {if $default_time_offset == -2} selected="selected"{/if}value="-2">-2 {$locale->tr("hours")}</option>
+       <option {if $default_time_offset == -1} selected="selected"{/if}value="-1">-1 {$locale->tr("hours")}</option>
+       <option {if $default_time_offset == 0} selected="selected"{/if}value="0">0 {$locale->tr("hours")}</option>
+       <option {if $default_time_offset == 1} selected="selected"{/if}value="1">+1 {$locale->tr("hours")}</option>
+       <option {if $default_time_offset == 2} selected="selected"{/if}value="2">+2 {$locale->tr("hours")}</option>
+       <option {if $default_time_offset == 3} selected="selected"{/if}value="3">+3 {$locale->tr("hours")}</option>
+       <option {if $default_time_offset == 4} selected="selected"{/if}value="4">+4 {$locale->tr("hours")}</option>
+       <option {if $default_time_offset == 5} selected="selected"{/if}value="5">+5 {$locale->tr("hours")}</option>
+       <option {if $default_time_offset == 6} selected="selected"{/if}value="6">+6 {$locale->tr("hours")}</option>
+       <option {if $default_time_offset == 7} selected="selected"{/if}value="7">+7 {$locale->tr("hours")}</option>
+       <option {if $default_time_offset == 8} selected="selected"{/if}value="8">+8 {$locale->tr("hours")}</option>
+       <option {if $default_time_offset == 9} selected="selected"{/if}value="9">+9 {$locale->tr("hours")}</option>
+       <option {if $default_time_offset == 10} selected="selected"{/if}value="10">+10 {$locale->tr("hours")}</option>
+       <option {if $default_time_offset == 11} selected="selected"{/if}value="11">+11 {$locale->tr("hours")}</option>
+       <option {if $default_time_offset == 12} selected="selected"{/if}value="12">+12 {$locale->tr("hours")}</option>
+       <option {if $default_time_offset == 13} selected="selected"{/if} value="13">+13 {$locale->tr("hours")}</option>	  
+       <option {if $default_time_offset == 14} selected="selected"{/if} value="14">+14 {$locale->tr("hours")}</option>
+       <option {if $default_time_offset == 15} selected="selected"{/if} value="15">+15 {$locale->tr("hours")}</option>
+       <option {if $default_time_offset == 16} selected="selected"{/if} value="16">+16 {$locale->tr("hours")}</option>
+       <option {if $default_time_offset == 17} selected="selected"{/if} value="17">+17 {$locale->tr("hours")}</option>
+       <option {if $default_time_offset == 18} selected="selected"{/if} value="18">+18 {$locale->tr("hours")}</option>
+       <option {if $default_time_offset == 19} selected="selected"{/if} value="19">+19 {$locale->tr("hours")}</option>
+       <option {if $default_time_offset == 20} selected="selected"{/if} value="20">+20 {$locale->tr("hours")}</option>	   
+      </select>	
+   </div>
+   <!-- html_allowed_tags_in_comments -->
+   <div class="field">
+    <label for="config[html_allowed_tags_in_comments]">html_allowed_tags_in_comments</label>
+    <div class="formHelp">{$locale->tr("help_html_allowed_tags_in_comments")}</div>	
+    <input style="width:100%" type="text" name="config[html_allowed_tags_in_comments]" value="{$html_allowed_tags_in_comments}"/>
+   </div>
+   <!-- referer_tracker_enabled -->
+   <div class="field">
+    <label for="config[referer_tracker_enabled]">referer_tracker_enabled</label>
+    <div class="formHelp">{$locale->tr("help_referer_tracker_enabled")}</div>	
+    <input class="radio" type="radio" name="config[referer_tracker_enabled]" value="1" {if $referer_tracker_enabled == 1 } checked="checked" {/if} />{$locale->tr("yes")}
+    <input class="radio" type="radio" name="config[referer_tracker_enabled]" value="0" {if $referer_tracker_enabled == 0 } checked="checked" {/if} />{$locale->tr("no")}
+   </div>
+   <!-- show_more_enabled -->
+   <div class="field">
+    <label for="config[show_more_enabled]">show_more_enabled</label>
+    <div class="formHelp">{$locale->tr("help_show_more_enabled")}</div>	
+    <input class="radio" type="radio" name="config[show_more_enabled]" value="1" {if $show_more_enabled == 1 } checked="checked" {/if} />{$locale->tr("yes")}
+    <input class="radio" type="radio" name="config[show_more_enabled]" value="0" {if $show_more_enabled == 0 } checked="checked" {/if} />{$locale->tr("no")}
+   </div>
+   <!-- update_article_reads -->
+   <div class="field">
+    <label for="config[update_article_reads]">update_article_reads</label>
+    <div class="formHelp">{$locale->tr("help_update_article_reads")}</div>
+    <input class="radio" type="radio" name="config[update_article_reads]" value="1" {if $update_article_reads == 1 } checked="checked" {/if} />{$locale->tr("yes")}
+    <input class="radio" type="radio" name="config[update_article_reads]" value="0" {if $update_article_reads == 0 } checked="checked" {/if} />{$locale->tr("no")}
+   </div>
+   <!-- update_cached_article_reads -->
+   <div class="field">
+    <label for="config[update_cached_article_reads]">update_cached_article_reads</label>
+    <div class="formHelp">{$locale->tr("help_update_cached_article_reads")}</div>
+    <input class="radio" type="radio" name="config[update_cached_article_reads]" value="1" {if $update_cached_article_reads == 1 } checked="checked" {/if} />{$locale->tr("yes")}
+    <input class="radio" type="radio" name="config[update_cached_article_reads]" value="0" {if $update_cached_article_reads == 0 } checked="checked" {/if} />{$locale->tr("no")}
+   </div>
+   <!-- xmlrpc_ping_enabled -->
+   <div class="field">
+    <label for="config[xmlrpc_ping_enabled]">xmlrpc_ping_enabled</label>
+    <div class="formHelp">{$locale->tr("help_xmlrpc_ping_enabled")}</div>	
+    <input class="radio" type="radio" name="config[xmlrpc_ping_enabled]" value="1" {if $xmlrpc_ping_enabled == 1 } checked="checked" {/if} />{$locale->tr("yes")}
+    <input class="radio" type="radio" name="config[xmlrpc_ping_enabled]" value="0" {if $xmlrpc_ping_enabled == 0 } checked="checked" {/if} />{$locale->tr("no")}
+   </div>
+   <!-- send_xmlrpc_pings_enabled_by_default -->
+   <div class="field">
+    <label for="config[send_xmlrpc_pings_enabled_by_default]">send_xmlrpc_pings_enabled_by_default</label>
+    <div class="formHelp">{$locale->tr("help_send_xmlrpc_pings_enabled_by_default")}</div>
+    <input class="radio" type="radio" name="config[send_xmlrpc_pings_enabled_by_default]" value="1" {if $send_xmlrpc_pings_enabled_by_default == 1 } checked="checked" {/if} />{$locale->tr("yes")}
+    <input class="radio" type="radio" name="config[send_xmlrpc_pings_enabled_by_default]" value="0" {if $send_xmlrpc_pings_enabled_by_default == 0 } checked="checked" {/if} />{$locale->tr("no")}
+   </div>
+   <!-- xmlrpc_ping_hosts -->
+   <div class="field">
+    <label for="config[xmlrpc_ping_hosts]">xmlrpc_ping_hosts</label>
+    <div class="formHelp">{$locale->tr("help_xmlrpc_ping_hosts")}</div>
+     {* we have to do it like this... otherwise it doesn't look nice on the browser textbox *}
+     <textarea name="config[xmlrpc_ping_hosts]" cols="50" rows="5">{foreach from=$xmlrpc_ping_hosts item=xmlrpc_host}
+{$xmlrpc_host}
+{/foreach}</textarea>
+   </div>
+   <!-- trackback_server_enabled -->
+   <div class="field">
+    <label for="config[trackback_server_enabled]">trackback_server_enabled</label>
+    <div class="formHelp">{$locale->tr("help_trackback_server_enabled")}</div>	
+    <input class="radio" type="radio" name="config[trackback_server_enabled]" value="1" {if $trackback_server_enabled == 1 } checked="checked" {/if} />{$locale->tr("yes")}
+    <input class="radio" type="radio" name="config[trackback_server_enabled]" value="0" {if $trackback_server_enabled == 0 } checked="checked" {/if} />{$locale->tr("no")}
+   </div>
+   <!-- htmlarea_enabled -->
+   <div class="field">
+    <label for="config[htmlarea_enabled]">htmlarea_enabled</label>
+    <div class="formHelp">{$locale->tr("help_htmlarea_enabled")}</div>
+    <input class="radio" type="radio" name="config[htmlarea_enabled]" value="1" {if $htmlarea_enabled == 1 } checked="checked" {/if} />{$locale->tr("yes")}
+    <input class="radio" type="radio" name="config[htmlarea_enabled]" value="0" {if $htmlarea_enabled == 0 } checked="checked" {/if} />{$locale->tr("no")}
+   </div>
+   <!-- pull_down_menu_enabled -->
+   <div class="field">
+    <label for="config[pull_down_menu_enabled]">pull_down_menu_enabled</label>
+    <div class="formHelp">{$locale->tr("enable_pull_down_menu_help")}</div>
+    <input class="radio" type="radio" name="config[pull_down_menu_enabled]" value="1" {if $pull_down_menu_enabled == 1 } checked="checked" {/if} />{$locale->tr("yes")}
+    <input class="radio" type="radio" name="config[pull_down_menu_enabled]" value="0" {if $pull_down_menu_enabled == 0 } checked="checked" {/if} />{$locale->tr("no")}
+   </div>
+   <!-- plugin_manager_enabled -->
+   <div class="field">
+    <label for="config[plugin_manager_enabled]">plugin_manager_enabled</label>
+    <div class="formHelp">{$locale->tr("help_plugin_manager_enabled")}</div>	
+    <input class="radio" type="radio" name="config[plugin_manager_enabled]" value="1" {if $plugin_manager_enabled == 1 } checked="checked" {/if} />{$locale->tr("yes")}
+    <input class="radio" type="radio" name="config[plugin_manager_enabled]" value="0" {if $plugin_manager_enabled == 0 } checked="checked" {/if} />{$locale->tr("no")}
+   </div>
+   <!-- minimum_password_length -->
+   <div class="field">
+    <label for="config[minimum_password_length]">minimum_password_length</label>
+    <div class="formHelp">{$locale->tr("help_minimum_password_length")}</div>	
+    <input style="width:100%" type="text" name="config[minimum_password_length]" value="{$minimum_password_length}"/>
+   </div>   
+   <!-- xhtml_converter_enabled -->
+   <div class="field">
+    <label for="config[xhtml_converter_enabled]">xhtml_converter_enabled</label>
+	<div class="formHelp">{$locale->tr("help_xhtml_converter_enabled")}</div>
+    <input class="radio" type="radio" name="config[xhtml_converter_enabled]" value="1" {if $xhtml_converter_enabled == 1 } checked="checked" {/if} />{$locale->tr("yes")}
+    <input class="radio" type="radio" name="config[xhtml_converter_enabled]" value="0" {if $xhtml_converter_enabled == 0 } checked="checked" {/if} />{$locale->tr("no")}
+   </div>
+   <!-- xhtml_converter_aggresive_mode_enabled -->
+   <div class="field">
+    <label for="config[xhtml_converter_aggresive_mode_enabled]">xhtml_converter_aggresive_mode_enabled</label>
+    <div class="formHelp">{$locale->tr("help_xhtml_converter_aggressive_mode_enabled")}</div>
+    <input class="radio" type="radio" name="config[xhtml_converter_aggresive_mode_enabled]" value="1" {if $xhtml_converter_aggresive_mode_enabled == 1 } checked="checked" {/if} />{$locale->tr("yes")}
+    <input class="radio" type="radio" name="config[xhtml_converter_aggresive_mode_enabled]" value="0" {if $xhtml_converter_aggresive_mode_enabled == 0 } checked="checked" {/if} />{$locale->tr("no")}
+   </div>
+   <!-- session_save_path -->
+   <div class="field">
+    <label for="config[session_save_path]">session_save_path</label>
+    <div class="formHelp">{$locale->tr("help_session_save_path")}</div>	
+    <input style="width:100%" type="text" name="config[session_save_path]" value="{$session_save_path}"/>
+   </div>   
+   <!-- skip_dashboard -->
+   <div class="field">
+    <label for="config[skip_dashboard]">skip_dashboard</label>
+    <div class="formHelp">{$locale->tr("help_skip_dashboard")}</div>
+    <input class="radio" type="radio" name="config[skip_dashboard]" value="1" {if $skip_dashboard == 1 } checked="checked" {/if} />{$locale->tr("yes")}
+    <input class="radio" type="radio" name="config[skip_dashboard]" value="0" {if $skip_dashboard == 0 } checked="checked" {/if} />{$locale->tr("no")}
+   </div>
+   <!-- logout_destination_url -->
+   <div class="field">
+    <label for="config[logout_destination_url]">logout_destination_url</label>
+    <div class="formHelp">{$locale->tr("help_logout_destination_url")}</div>	
+    <input style="width:100%" type="text" name="config[logout_destination_url]" value="{$logout_destination_url}"/>
+   </div>       
+</div>   

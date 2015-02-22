@@ -1,0 +1,156 @@
+rss, channel, item, date, guid{
+	display:block;
+}
+
+date{
+	border-bottom: 1px dashed #000000;
+}
+
+date:before{
+	content: "Last Update: "
+}
+
+creator{
+	display: block;
+	color: #990033;
+	background-color: #FFFFFF;
+	border-bottom: 1px dashed #000000;
+}
+
+creator:before{
+	color: #000000;
+	background-color: #FFFFFF;
+	content: "Contact: "
+}
+channel{
+	margin-top: 5px;
+	margin-left:90px;
+	margin-right: 120px;
+	padding-bottom: 30px;
+}
+rss{
+	margin: 0px;
+	padding: 0px;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	color: #000000;
+	background: #FFFFFF;
+}
+link, language, rights, description{
+	display: none;
+}
+title{
+	font-family: ariel, sans-serif;
+	background: #990033;
+	color: #FFFFFF;
+	text-decoration: none;
+	display: block;
+    font-weight: bold;
+}
+
+item *{
+	display:block;
+}
+li{
+	display: list-item;
+	list-style: circle;
+	color: #000000;
+	background-color: #FFFFFF;
+}
+item date {
+	display: none;
+}
+item description{
+	display: block;
+}
+
+item font{
+	display: inline;
+}
+item body, item body p {
+	color: #000000;
+	background: #FFFFFF;
+}
+item{
+	margin-left:90px;
+	margin-right: 120px;
+	border: 1px solid #000000;
+}
+item link, item guid{
+	margin-top: 10px;
+	border-top: 1px dashed #000000;
+	text-align: right;
+	padding-right: 5px;
+}
+item title{
+	font-weight: bold;
+}
+ins{
+	text-decoration: none;
+}
+p {
+	padding-bottom: 5px;
+	line-height: 140%;
+	margin-top: 1em;
+	margin-left: 10px;
+	margin-right: 10px;
+	background: #FFFFFF;
+	color: #000000;
+}
+ul, ol, dl{
+	padding-bottom: 10px;
+	margin-left: 5%;
+	margin-right: 10px;
+}
+code{
+	font-weight: bold;
+}
+var {
+	font-weight: bold;
+	font-size:12px;
+}
+a{
+	background: #FFFFFF;
+	color: #990033;
+	text-decoration: underline;
+}
+a:visited{
+	background:  #FFFFFF;
+	color: #990066;
+}
+a:hover{
+	text-decoration: none;
+}
+acronym{
+	border-bottom: 1px dotted #990033;
+	font-weight: bold;
+}
+blockquote {
+	font-weight: bold;
+	background: #eee;
+	color: #333;
+	border: 1px dashed #000000;
+	margin: 40px;
+}
+
+blockquote p {
+	font-weight: bold;
+	background: #eee;
+	color: #333;
+}
+
+blockquote acronym, blockquote p acronym{
+	border-bottom: 1px dotted #000000;
+	font-weight: bold;
+}
+dt{
+	font-weight: bold;
+}
+dd{
+	text-indent: 5%;
+}
+span.caps, acronym, cite, a, ins, del, strong, em {
+	display: inline;
+}
+del{
+	text-decoration: line-through;
+}

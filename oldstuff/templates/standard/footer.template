@@ -1,0 +1,93 @@
+ {pager style="links"}
+
+</div>
+
+<div id="Menu">
+{assign var=blogOwner value=$blog->getOwnerInfo()}
+{assign var=AboutMyself value=$blogOwner->getAboutMyself()}
+{if $blogOwner->hasPicture() && $AboutMyself}
+
+  	<h2>{$locale->tr("about_myself")}</h2>
+  	<div id="AboutMyself">
+  	{assign var=picture value=$blogOwner->getPicture()}
+  	<img id="UserPicture" src="{$picture->getPreviewLink()}" alt="{$blogOwner->getUsername()}" />
+  	<p>{$AboutMyself}</p>
+  	<div class="clearer">&nbsp;</div>
+  	</div>
+{/if}
+
+
+
+  	<h2>{$locale->tr("menu")}</h2>
+    	<div id="Sections">
+    	<ul>
+    	<li><a title="{$locale->tr("main")}" href="{$url->blogLink()}">{$locale->tr("main")}</a></li>
+    	<li><a title="{$locale->tr("archives")}" href="{$url->templatePage("archives")}">{$locale->tr("archives")}</a></li>
+    	<li><a title="{$locale->tr("albums")}" href="{$url->albumLink()}">{$locale->tr("albums")}</a></li>
+        <li><a title="{$locale->tr("links")}" href="{$url->templatePage("links")}">{$locale->tr("links")}</a></li>
+    	<li><a title="{$locale->tr("admin")}" href="{$url->getAdminUrl()}">{$locale->tr("admin")}</a></li>
+    	</ul>
+    	</div>
+
+    	<h2>{$locale->tr("search")}</h2>
+	<div id="Search">
+	<form id="search_form" method="post" action="{$url->getIndexUrl()}">
+	<fieldset>
+	<label for="searchTerms"><input type="text" id="searchTerms" name="searchTerms" value="" /></label>
+	<input type="submit" name="Search" value="{$locale->tr("search_s")}" class="button" />
+	<input type="hidden" name="op" value="Search" />
+	<input type="hidden" name="blogId" value="{$blog->getId()}" />
+	</fieldset>
+	</form>
+	</div>
+
+	<h2>{$locale->tr("calendar")}</h2>
+    	<div id="Calendar">
+    		{$calendar}
+    	</div>
+
+  	<h2>{$locale->tr("recently")}</h2>
+    	<div id="Recently">
+    	<ul>
+    		{foreach from=$recentposts item=post}
+        <li><a title="{$post->getTopic()}" href="{$url->postLink($post)}">{$post->getTopic()}</a></li>
+    		{/foreach}
+    	</ul>
+   	</div>
+
+ 	<h2>{$locale->tr("categories")}</h2>
+    	<div id="Categories">
+    	<ul>
+    		{foreach from=$articlecategories item=articleCategory}
+    	<li><a title="{$articleCategory->getName()}" href="{$url->categoryLink($articleCategory)}">{$articleCategory->getName()} <abbr title="{$articleCategory->getNumPublishedArticles()} {$locale->tr("posts")}">[{$articleCategory->getNumArticles()}]</abbr></a></li>
+   		{/foreach}
+  	</ul>
+  	</div>
+
+  	<h2>{$locale->tr("syndicate")}</h2>
+    	<div id="Syndicate">
+    	<ul>
+    	<li><a title="RSS 0.90" href="{$url->rssLink("rss090")}">RSS 0.90</a></li>
+    	<li><a title="RSS 1.0" href="{$url->rssLink("rss10")}">RSS 1.0</a></li>
+    	<li><a title="RSS 2.0" href="{$url->rssLink("rss20")}">RSS 2.0</a></li>
+    	<li><a title="Atom" href="{$url->rssLink("atom")}">Atom</a></li>
+    	</ul>
+    	</div>
+</div>
+
+<div class="clearer">&nbsp;</div>
+
+
+
+</div>
+
+<div id="Bottommenu"><a href="http://www.w3.org/WAI/">Accessible</a> and Valid <a href="http://validator.w3.org/check/referer">XHTML 1.0 Strict</a> and <a href="http://jigsaw.w3.org/css-validator/check/referer">CSS</a></div>
+
+
+<!-- Please leave the credit intact. Thank you. -->
+<div id="Bottom">Powered by <a href="http://www.lifetype.net">LifeType</a> - Design by <a href="http://www.balearweb.com/">BalearWeb</a></div>
+
+</div>
+
+</body>
+</html>

@@ -1,0 +1,18 @@
+<!DOCTYPE xbel PUBLIC "+//IDN python.org///DTD XML Bookmark Exchange Language 1.0//EN//XML"
+ "http://www.python.org/topics/xml/dtds/xbel-1.0.dtd">
+<xbel>
+  <title>{$blog->getBlog()}</title>
+  <desc>{$blog->getAbout()}</desc>
+  {foreach from=$mylinkscategories item=linkcategory}
+  <folder id="{$linkcategory->getId()}">
+    <title>{$linkcategory->getName()}</title>
+    {foreach from=$linkcategory->getLinks() item=link}
+    {assign var="postDate" value=$link->getDateObject()}
+    <bookmark href="{$link->getUrl()}" added="{$locale->formatDate($postDate, "%Y-%m-%d %H:%M:%S")}">
+      <title>{$link->getName()}</title>
+      <desc>{$link->getDescription()}</desc>
+    </bookmark>
+    {/foreach}
+  </folder>
+  {/foreach}
+</xbel>

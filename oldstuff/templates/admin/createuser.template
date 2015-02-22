@@ -1,0 +1,74 @@
+{include file="$blogtemplate/header.template"}
+{include file="$blogtemplate/navigation.template" showOpt=createUser title=$locale->tr("createUser")}
+
+ <form name="addUser" action="admin.php" method="post">
+  <fieldset class="inputField">
+    <legend>{$locale->tr("createUser")}</legend>
+    {include file="$admintemplatepath/formvalidate.template"}
+    <div class="field">
+      <label for="userName">{$locale->tr("username")}</label>
+      <span class="required">*</span>
+      <div class="formHelp">{$locale->tr("username_help")}</div>
+      <input type="text" name="userName" value="{$userName}" id="userName" />
+      {include file="$admintemplatepath/validate.template" field=userName message=$locale->tr("error_incorrect_username")}      
+    </div>
+    <div class="field">
+      <label for="userFullName">{$locale->tr("full_name")}</label>
+      <div class="formHelp">{$locale->tr("full_name_help")}</div>
+      <input type="text" name="userFullName" value="{$userFullName}" id="userFullName" />
+    </div>
+    <div class="field">
+      <label for="newUserPassword">{$locale->tr("password")}</label>
+      <span class="required">*</span>
+      <div class="formHelp">{$locale->tr("password_help")}</div>
+      <input type="password" name="newUserPassword" value="{$newUserPassword}" id="newUserPassword" />
+      {include file="$admintemplatepath/validate.template" field=newUserPassword message=$locale->tr("error_invalid_password")}
+    </div>
+    <div class="field">
+      <label for="userEmail">{$locale->tr("email")}</label>
+      <span class="required">*</span>
+      <div class="formHelp">{$locale->tr("email_help")}</div>
+      <input type="text" name="userEmail" value="{$userEmail}" id="userEmail" />
+      {include file="$admintemplatepath/validate.template" field=userEmail message=$locale->tr("error_incorrect_email_address")}
+    </div>
+	<div class="field">
+	  <label for="userStatus">{$locale->tr("status")}</label>
+	  <span class="required">*</span>
+	  <div class="formHelp">{$locale->tr("user_status_help")}</div>
+	  <select name="userStatus" id="userStatus">
+	   {foreach from=$userStatusList item=status key=statusKey}
+	     <option value="{$status}" {if $userStatus==$status}selected="selected"{/if}>{$locale->tr($statusKey)}</option>
+	   {/foreach}
+	  </select>
+	</div>
+    <div class="field">
+      <label for="userBlog">{$locale->tr("blog")}</label>
+      <div class="formHelp">{$locale->tr("user_blog_help")}</div>
+	  <input type="hidden" name="blogId" id="blogId" value="{$blogId}" />
+	  <input type="text" name="blogName" id="blogName" style="width:50%" readonly="readonly" value="{$blogName}" />
+	  <a href="#" onclick="window.open('?op=siteBlogsChooser','BlogChooser','scrollbars=yes,resizable=yes,toolbar=no,height=450,width=600');">
+	   {$locale->tr("select")}
+	  </a> 
+      {include file="$admintemplatepath/validate.template" field=blogId message=$locale->tr("error_incorrect_blog_id")}
+    </div>
+	<div class="field">
+		<label for="userPermissions">{$locale->tr("permissions")}</label>
+		<div class="formHelp">{$locale->tr("admin_user_permissions_help")}</div>
+		{foreach from=$permissions item=perm}
+			{if $perm->isAdminOnlyPermission()}
+			  {assign var=permId value=$perm->getId()}
+			  <input type="checkbox" class="checkbox" name="userPermissions[{$perm->getId()}]" value="{$perm->getId()}" {if $userPermissions[$permId]}checked="checked"{/if} />
+			  {assign var=permDesc value=$perm->getDescription()}
+			  {$locale->tr($permDesc)}<br/>
+			{/if}
+		{/foreach}
+    </div>
+  </fieldset>
+  <div class="buttons">
+    <input type="reset" name="reset" value="{$locale->tr("reset")}"/>
+    <input type="submit" name="Add User" value="{$locale->tr("add")}"/>
+    <input type="hidden" name="op" value="addUser" />
+  </div>
+ </form>
+{include file="$blogtemplate/footernavigation.template"}
+{include file="$blogtemplate/footer.template"}

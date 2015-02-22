@@ -1,0 +1,25 @@
+{include file="wizard/header.template" title="Database Initialized" step=4 mode="install"}
+<form name="formStep2" action="wizard.php" method="post">
+ <fieldset class="inputField">
+  <legend>Database Initialization</legend>
+  <br/>   
+   {if $viewIsError}
+    <div class="wizardError">
+     <img src="imgs/admin/icon_error-16.png" alt="Error" class="wizardInfoIcon" />
+     <p style="color:red;margin-left:20px;">{$viewErrorMessage}</p>
+    </div> 
+   {else}
+   <div class="wizardInfo">
+    <img src="imgs/admin/icon_info-16.png" alt="Info" class="wizardInfoIcon" />   
+    <p class="wizardInfoText">The database and the tables needed have been successfuly created. We can now
+    proceed to the next step where we will create a user and a blog.</p>
+  </div>
+  {/if}
+  </fieldset>
+  <div class="buttons">
+   <input type="button" name="back" value=" &laquo; Previous" onClick="javascript:history.go(-1);" />
+   <input type="hidden" name="nextStep" value="Step3"/>
+   <input type="submit" name="Next &raquo;" value="Next &raquo;"/>
+  </div> 
+ </form>
+{include file="wizard/footer.template"}

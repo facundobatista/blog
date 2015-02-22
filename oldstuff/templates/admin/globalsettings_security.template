@@ -1,0 +1,22 @@
+<div style="padding-left:10px;" id="security">
+   <!-- security_pipeline_enabled -->
+   <div class="field">
+    <label for="config[security_pipeline_enabled]">security_pipeline_enabled</label>
+    <div class="formHelp">{$locale->tr("help_security_pipeline_enabled")}</div>	
+    <input class="radio" type="radio" id="config[security_pipeline_enabled]" name="config[security_pipeline_enabled]" value="1" {if $security_pipeline_enabled == 1 } checked="checked" {/if} />{$locale->tr("yes")}
+    <input class="radio" type="radio" id="config[security_pipeline_enabled]" name="config[security_pipeline_enabled]" value="0" {if $security_pipeline_enabled == 0 } checked="checked" {/if} />{$locale->tr("no")}
+   </div>
+   <!-- maximum size of a comment -->
+   <div class="field">
+    <label for="config[maximum_comment_size]">maximum_comment_size</label>
+    <div class="formHelp">{$locale->tr("help_maximum_comment_size")}</div>	
+    <input style="width:100%" type="text" id="config[maximum_comment_size]" name="config[maximum_comment_size]" value="{$maximum_comment_size}"/>
+   </div>
+   <!-- allow javascript blocks in posts -->
+   <div class="field">
+    <label for="config[allow_javascript_blocks_in_posts]">allow_javascript_blocks_in_posts</label>
+    <div class="formHelp">{$locale->tr("help_allow_javascript_blocks_in_posts")}</div>	
+    <input class="radio" type="radio" id="config[allow_javascript_blocks_in_posts]" name="config[allow_javascript_blocks_in_posts]" value="1" {if $allow_javascript_blocks_in_posts == 1 } checked="checked" {/if} />{$locale->tr("yes")}
+    <input class="radio" type="radio" id="config[allow_javascript_blocks_in_posts]" name="config[allow_javascript_blocks_in_posts]" value="0" {if $allow_javascript_blocks_in_posts == 0 } checked="checked" {/if} />{$locale->tr("no")}
+   </div>
+</div>

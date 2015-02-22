@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="{$locale->getCharset()}"?>
+<?xml-stylesheet href="{$url->getUrl("/styles/rss.css")}" type="text/css"?>
+<rss version="0.91">
+{$locale->setLocale("en_UK")}
+ <channel>
+  <title>{$blog->getBlog()|escape}</title>
+  <link>{$url->blogLink()}</link>
+  <description>{$blog->getAbout()|strip_tags}</description>
+  {foreach from=$posts item=post}
+  <item>
+   <title>{$post->getTopic()|escape}</title>
+   <description>{$post->getText()|strip_tags}</description>
+   <link>{$url->postPermalink($post)}</link>
+   {assign var="postDate" value=$post->getDateObject()}
+   <pubDate>{$locale->formatDate($postDate, "%a, %d %b %Y %H:%M:%S %O", $blog)}</pubDate>   
+  </item>
+  {/foreach}
+ </channel>
+</rss>
+
+

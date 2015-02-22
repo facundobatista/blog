@@ -1,0 +1,17 @@
+{include file="$blogtemplate/simpleheader.template"}
+        <div id="nav_bar">
+            <div id="section_title">
+                <h2>{$locale->tr("error")}</h2>
+            </div>
+            <br style="clear:both;" />
+        </div>
+   <div id="FormError">
+   <img src="imgs/admin/icon_warning-16.png" alt="Error" class="InfoIcon" />  
+   <p class="ErrorText">
+   {$message}
+   <br/><br/>
+   <a href="javascript:history.back();">{$locale->tr("back")}</a>
+   </p>
+   </div>
+{include file="$blogtemplate/footernavigation.template"}
+{include file="$blogtemplate/simplefooter.template"}

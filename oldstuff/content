@@ -1,0 +1,13 @@
+<?php
+    if (!defined( "PLOG_CLASS_PATH" )) {
+        define( "PLOG_CLASS_PATH", dirname(__FILE__)."/");
+    }
+
+	include_once( PLOG_CLASS_PATH."class/bootstrap.php" );
+	lt_include( PLOG_CLASS_PATH."class/config/config.class.php" );
+
+    $config =& Config::getConfig();
+    
+    lt_include( PLOG_CLASS_PATH."blog.php" );
+
+?>

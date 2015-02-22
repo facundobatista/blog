@@ -1,0 +1,54 @@
+{include file="wizard/header.template" title="Blog Configuration" step=6 mode=install}
+<form name="newBlog" action="wizard.php" method="post">
+<fieldset class="inputField">
+<legend>Blog Creation</legend>
+{if $viewIsError}
+    <div class="wizardError">
+     <img src="imgs/admin/icon_error-16.png" alt="Error" class="wizardInfoIcon" />
+     <p style="color:red;margin-left:20px;">{$viewErrorMessage}</p>
+    </div> 
+{else}
+ <div class="wizardInfo">
+  <img src="imgs/admin/icon_info-16.png" alt="Info" class="wizardInfoIcon" /> 
+  <p class="wizardInfoText"> 
+   Your user has been successfully registered! Now a blog should be created.
+  </p>
+ </div>
+{/if}   
+  <div class="field">
+   <label for="blogName">Blog name</label>
+   <span class="required">*</span>
+   <div class="fieldHelp">Short but descriptive name for the new blog</div>
+   <input type="text" style="width:100%" name="blogName" id="blogName" value="{$blogName}"/>
+   {include file="wizard/validate.template" field=blogName message="Blog name is missing or incorrect"}
+  </div>
+  <div class="field">
+   <label for="blogLocale">Language</label>
+   <span class="required">*</span>
+   <div class="fieldHelp">Select the default language that will be used throughout your site</div>
+   <select name="blogLocale" id="blogLocale">
+    {foreach from=$siteLocales item=locale}
+      <option value="{$locale->getLocaleCode()}" {if $defaultLocale==$locale->getLocaleCode()}selected="selected"{/if}>{$locale->getDescription()}</option>
+    {/foreach}
+   </select>
+  </div>
+  <div class="field">
+   <label for="blogTemplate">Template</label>
+   <span class="required">*</span>
+   <div class="fieldHelp">Default template that will be used throughout your site</div>
+    {foreach from=$siteTemplates item=template}
+     <img height="210" width="280" src="{$template->getScreenshotUrl()}" alt="{$template->getName()}" /><br/>
+     <input type="radio" class="radio" id="blogTemplate" name="blogTemplate" value="{$template->getName()}" {if $blogTemplate==$template->getName()}checked="checked"{/if} /> {$template->getName()}<br/>
+    {/foreach}
+    {include file="wizard/validate.template" field=blogTemplate message="Please select a template for the blog"}
+  </div>
+ </fieldset>
+ <div class="buttons">  
+   <input type="button" value="&laquo; Previous" name="back" onClick="javascript:history.go(-1);" />
+   <input type="reset" value="Reset" name="Reset" /> 
+   <input type="submit" value="Next &raquo;" name="Next &raquo;"/>
+   <input type="hidden" name="nextStep" value="Step5"/>
+   <input type="hidden" name="ownerid" value="{$ownerid}"/>
+  </div>
+</form>
+{include file="wizard/footer.template"}

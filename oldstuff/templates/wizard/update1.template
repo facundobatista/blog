@@ -1,0 +1,52 @@
+{include file="wizard/header.template" title="Configuration" step=2 mode=update}
+<form name="databaseInfo" method="post">
+<fieldset class="inputField">
+<legend>Database Info</legend>
+{if $viewIsError}
+     <div class="wizardError">
+     <img src="imgs/admin/icon_error-16.png" alt="Error" class="wizardInfoIcon" />
+     <p style="color:red;margin-left:20px;">{$viewErrorMessage}</p>
+    </div> 
+{else}
+ <div class="wizardInfo">
+  <img src="imgs/admin/icon_info-16.png" alt="Info" class="wizardInfoIcon" />
+   <p class="wizardInfoText">
+  The following database settings have been detected in the configuration file. Please make sure
+  that they are correct and press "Next" to move to the next step. If they are not correct,
+  please make the necessary changes in your configuration file before continuing.<br/><br/>
+  The following step will consist of making the changes to the database structure, required by
+  some of the new features in LifeType 1.2.</p>
+  </div>
+{/if}
+    <div class="field">
+     <label for="dbServer">Database server</label>
+     <div class="fieldHelp"></div>
+     <span id="dbServer">{$dbServer}</span><br/>
+    </div>
+    <div class="field">
+     <label for="dbUser">Database User</label>
+     <div class="fieldHelp"></div>     
+     <span id="dbServer">{$dbUser}</span><br/>
+    </div>
+    <div class="field"> 
+     <label for="dbPassword">Database password</label>
+     <div class="fieldHelp"></div>     
+     <span id="dbPassword">{$dbPassword|stars}</span><br/>
+    </div>
+    <div class="field"> 
+     <label for="dbName">Database table</label>
+     <div class="fieldHelp"></div>     
+     <span idb="dbName">{$dbName}</span><br/>
+    </div>
+    <div class="field">
+     <label for="dbPrefix">Database prefix</label>
+     <div class="fieldHelp"></div>     
+     <span id="dbPrefix">{$dbPrefix}</span><br/>
+    </div>
+   </fieldset>
+   <div class="buttons"> 
+    <input type="hidden" name="nextStep" value="Update2"/>
+    <input type="submit" name="Next" value="Next &raquo;"/>
+   </div>
+ </form>
+{include file="wizard/footer.template"}

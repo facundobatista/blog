@@ -1,0 +1,8 @@
+{include file="$blogtemplate/header.template"}
+{include file="$blogtemplate/navigation.template" title=$locale->tr("message")}
+  <p>
+   <img src="imgs/admin/icon_info-16.png" alt="Error" />
+   {$message}
+  </p>
+{include file="$blogtemplate/footernavigation.template"}
+{include file="$blogtemplate/footer.template"}

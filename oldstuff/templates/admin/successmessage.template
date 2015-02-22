@@ -1,0 +1,6 @@
+{if $viewIsSuccess}
+<div id="FormInfo">
+  <img src="imgs/admin/icon_info-16.png" alt="Info" class="InfoIcon" />
+  <p class="InfoText">{if $message==""}{$viewSuccessMessage}{else}{$message}{/if}</p>
+</div>
+{/if}

@@ -1,0 +1,6 @@
+{include file="$blogtemplate/header.template"}
+ {if $blogsettings->getValue("comments_enabled")}
+    <h2>{$locale->tr("add_comment")}</h2>
+    {include file="$blogtemplate/commentform.template"}
+ {/if}
+{include file="$blogtemplate/footer.template"}

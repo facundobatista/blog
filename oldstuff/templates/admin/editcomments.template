@@ -1,0 +1,180 @@
+{include file="$admintemplatepath/header.template"}
+{include file="$admintemplatepath/navigation.template" showOpt=editComments title=$locale->tr("editComments")}
+	<script type="text/javascript" src="js/ui/plogui.js"></script>
+	<script type="text/javascript">
+		var errorCommentStatusMsg = '{$locale->tr("error_comment_status")}';
+		var showMassiveChangeOption = '{$locale->tr("show_massive_change_option")}';
+		var hideMassiveChangeOption = '{$locale->tr("hide_massive_change_option")}';
+	</script>
+	<script type="text/javascript">
+	{literal}
+	YAHOO.util.Event.addListener( window, "load", function() {
+			var t = new Lifetype.UI.TableEffects( "list" );
+			t.stripe();
+			t.highlightRows();
+		});
+	{/literal}
+	</script>	
+        <div id="list_nav_bar">
+            <div id="list_nav_select">		
+
+                <form id="showBy" action="admin.php" method="post">
+                <fieldset>
+                <legend>{$locale->tr("show_by")} {if $post}({$post->getTopic()}){/if}</legend>
+
+                    <div class="list_nav_option">
+                    <label for="showStatus">{$locale->tr("status")}</label>
+                    <br />
+                    <select name="showStatus" id="showStatus">
+                     {foreach from=$commentstatus key=name item=status}
+                     <option value="{$status}" {if $currentstatus == $status} selected="selected"{/if}>{$locale->tr($name)}</option>
+                     {/foreach}
+                    </select>
+                    </div>
+					
+                    <div class="list_nav_option">
+                    <label for="search">{$locale->tr("search_terms")}</label>
+                    <br />
+                    <input type="text" name="searchTerms" value="{$searchTerms|escape:"html"}" size="15" id="search" />
+                    </div>					
+					
+                    <div class="list_nav_option">
+                    <br />
+                    <input type="hidden" name="op" value="editComments" />
+					<input type="hidden" name="articleId" value="{if $post}{$post->getId()}{else}0{/if}" />
+                    <input type="submit" name="show" value="{$locale->tr("show")}" class="submit" />
+                    </div>
+
+					<div class="list_nav_option">
+						<br/>
+						<a href="{$pager->getCurrentPageLink()}" title="{$locale->tr("bookmark_this_filter")}">
+							<img style="border:0px" src="imgs/admin/icon_link-16.png" alt="{$locale->tr("bookmark_this_filter")}" />
+						</a>
+					</div>
+                </fieldset>
+                </form>
+            </div>
+            <br style="clear:both;" />
+        </div>
+		
+        <form id="postCommentsList" action="admin.php" method="post">
+		{check_perms perm=update_comment}	
+        <div class="optionIcon">
+			<a id="optionIconLink" href="#bulkEdit" title="{$locale->tr("show_massive_change_option")}" onclick="switchMassiveOption()">{$locale->tr("show_massive_change_option")}</a>
+		</div>
+		{/check_perms}
+        <div id="list">
+  {include file="$admintemplatepath/successmessage.template"}
+  {include file="$admintemplatepath/errormessage.template"}
+            <table id="list" class="info" summary="{$locale->tr("editComments")}">
+                <thead>
+                    <tr>					
+                        <th><input class="checkbox" type="checkbox" name="all" id="all" value="1" onclick="toggleAllChecks('postCommentsList');" /></th>
+                        <th style="width:25%;">{$locale->tr("topic")}</th>						
+                        <th style="width:45%;">{$locale->tr("text")}</th>
+                        <th style="width:5%;">{$locale->tr("author")}</th>
+						<th style="width:5%">{$locale->tr("date")}</th>
+                        <th style="width:5%">{$locale->tr("status")}</th>
+						<th style="width:5%">{$locale->tr("auth")}</th>
+                        <th style="width:10%">IP</th>
+                        <th style="width:10%">{$locale->tr("actions")}</th>
+                    </tr>
+                </thead>
+                <tbody>
+                 {foreach from=$comments item=comment}
+                    <tr>
+                        <td>
+                            <input class="checkbox" type="checkbox" name="commentIds[{$comment->getId()}]" id="checks_{$comment->getId()}" value="{$comment->getId()}" />
+                        </td>
+                        <td class="col_highlighted">
+                            {$comment->getTopic()|strip_tags}<br/>
+                            <span style="font-weight:normal">
+                            &nbsp;&raquo;
+                            {assign var=commentPost	value=$comment->getArticle()}
+                            <a href="{$url->postPermalink($commentPost)}">{$commentPost->getTopic()}</a>
+                            </span>
+                        </td>
+						<td>
+						    {$comment->getText()|strip_tags}
+						</td>
+                        <td>
+						  <a href="mailto:{$comment->getUserEmail()}">
+						    {$comment->getUsername()}
+						  </a>
+                        </td>						
+                        <td>
+                            {assign var=date value=$comment->getDateObject()}
+                            {$locale->formatDate($date)}
+                        </td>
+                        <td>
+                          {foreach from=$commentstatus key=name item=status}
+                           {if $comment->getStatus() == $status}{$locale->tr($name)}{/if}
+                          {/foreach}
+                        </td>
+						<td style="text-align: center;">
+							{if $comment->isPosterAuthenticated()}{$locale->tr("yes")}{else}{$locale->tr("no")}{/if}
+						</td>
+                        <td style="text-align: center;">
+						  {$comment->getClientIp()}
+                        </td>						
+                        <td>
+                            <div class="list_action_button">
+							{check_perms perm=update_comment}	
+                            <a href="?op=deleteComment&amp;commentId={$comment->getId()}&amp;articleId={if $post}{$post->getId()}{else}0{/if}" title="{$locale->tr("delete")}">
+                            	<img src="imgs/admin/icon_delete-16.png" alt="{$locale->tr("delete")}" />
+                            </a>
+							{if $bayesian_filter_enabled}
+								{if $comment->getStatus() != 1}
+								    <a href="?op=markComment&amp;mode=1&amp;articleId={if $post}{$comment->getArticleId()}{else}0{/if}&amp;commentId={$comment->getId()}" title="{$locale->tr("mark_as_spam")}">
+									 <img src="imgs/admin/icon_spam-16.png" alt="{$locale->tr("mark_as_spam")}" />
+									</a>
+								{/if}
+								{if $comment->getStatus() != 0}
+									<a href="?op=markComment&amp;mode=0&amp;articleId={if $post}{$comment->getArticleId()}{else}0{/if}&amp;commentId={$comment->getId()}" title="{$locale->tr("mark_as_no_spam")}">
+									 <img src="imgs/admin/icon_nospam-16.png" alt="{$locale->tr("mark_as_no_spam")}" />
+									</a>
+                                {/if}
+							{/if}
+							{/check_perms}
+							{if $comment->getUserUrl()}
+							  <a href="{$comment->getUserUrl()}" title="{$locale->tr("url")}">
+							   <img src="imgs/admin/icon_url-16.png" alt="{$locale->tr("url")}" />
+							  </a>
+							{/if}
+                            </div>
+                        </td>
+                    </tr>
+                    {/foreach}
+                </tbody>
+            </table>
+        </div>
+		<a name="bulkEdit"></a>
+        <div id="list_action_bar">
+	    {adminpager style=list}
+			{check_perms adminperm=purge_data}
+			<input type="submit" name="purgeSpam" class="submit" value="{$locale->tr("cleanup_spam")}" onClick="javascript:submitCommentsList('doCleanUp');" />
+			{/check_perms}
+			{check_perms perm=update_comment}	
+			<input type="hidden" name="articleId" value="{if $post}{$post->getId()}{else}0{/if}" />
+            <input type="button" name="delete" value="{$locale->tr("delete")}" class="submit" onClick="javascript:submitCommentsList('deleteComments');" />
+            <input type="hidden" name="op" value="" />
+			{/check_perms}
+			{check_perms perm=update_comment}
+            <div id="massiveChangeOption" style="display: none">
+                <fieldset>
+                <legend>{$locale->tr("massive_change_option")}</legend>            
+		            <label for="commentStatus">{$locale->tr("status")}</label>
+		            <select name="commentStatus" id="commentStatus">
+		              <option value="-1">-{$locale->tr("select")}-</option>
+		              {foreach from=$commentstatusWithoutAll key=name item=status}
+						{if ($status != 0 && $status != 1) || $bayesian_filter_enabled}<option value="{$status}">{$locale->tr($name)}</option>{/if}
+		              {/foreach}
+		            </select>
+		            <input type="button" name="changeCommentsStatus" value="{$locale->tr("change_status")}" class="submit" onClick="javascript:submitCommentsList('changeCommentsStatus');" /> 
+		        </fieldset>
+			</div>
+			{/check_perms} 
+        </div>
+        </form>
+{include file="$admintemplatepath/footernavigation.template"}
+{include file="$admintemplatepath/footer.template"}

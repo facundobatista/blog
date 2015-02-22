@@ -1,0 +1,35 @@
+{include file="wizard/header.template" title="Options" step=3 mode=update}
+<form name="options" method="post">
+<fieldset class="inputField">
+<legend>Options</legend>
+{if $viewIsError}
+     <div class="wizardError">
+     <img src="imgs/admin/icon_error-16.png" alt="Error" class="wizardInfoIcon" />
+     <p style="color:red;margin-left:20px;">{$viewErrorMessage}</p>
+    </div> 
+{else}
+ <div class="wizardInfo">
+  <img src="imgs/admin/icon_info-16.png" alt="Info" class="wizardInfoIcon" />
+   <p class="wizardInfoText">
+  The following options will control the behaviour of the database changing process. Please make sure
+  the options are correct and press "Next" to move to the next step. The database changing process
+  is irreversible, please backup your database and files if you have any concerns about this process.</p>
+  </div>
+{/if}
+   <div class="field">
+    <label for="resourcesNamingRule">Resource Naming Rules</label>
+    <div class="formHelp">
+	<p>Due to performance reasons, LifeType 1.2 uses the web server to serve resources (images, videos, etc) rather than using resserver.php. Because of this new implementation, all resource files need to be renamed to their original name but this will cause some problems when using Windows and multi-byte encodings.</p>
+	<p>Please select one of these two options: <i>'Original File Name'</i> will rename files to their original name, <strong>please use this option if your server is not running Windows or if you are not using a double-byte character encoding</strong>. <i>'Encoded File Name'</i> will use the encoded file name for uploaded resources, the naming rule is [BlogId]-[ResourceId].[Ext] as implemented in LifeType 1.1. <strong>Please use 'Encoded File Name' if you are installing LifeType under a Multi-Byte Microsoft Windows environment.</strong></p></div>
+     <select name="resourcesNamingRule">
+      <option value="original_file_name" {if $resourcesNamingRule == "original_file_name"} selected="selected" {/if} />Original File Name</option>
+      <option value="encoded_file_name" {if $resourcesNamingRule == "encoded_file_name"} selected="selected" {/if} />Encoded File Name</option>
+     </select>
+   </div>
+   </fieldset>
+   <div class="buttons"> 
+    <input type="hidden" name="nextStep" value="Update3"/>
+    <input type="submit" name="Next" value="Next &raquo;"/>
+   </div>
+ </form>
+{include file="wizard/footer.template"}

@@ -1,0 +1,32 @@
+{assign var="postDate" value=$post->getDateObject()}
+{assign var="postOwner" value=$post->getUserInfo()}
+
+<h3 class="storytitle"><a href="{$url->postPermalink($post)}">{$post->getTopic()}</a></h3>
+
+{assign var=postCategory value=$post->getCategory()}
+{assign var=postText value=$post->getText()}
+<div class="meta">
+
+  {foreach name=categories from=$post->getCategories() item=postCategory} 
+    <a href="{$url->categoryLink($postCategory)}"
+		   title="{$postCategory->getName()}">
+		   {$postCategory->getName()}</a>{if !$smarty.foreach.categories.last}, {/if}
+  {/foreach}
+
+ &#8212; {$locale->tr("posted_by")} {$postOwner->getUsername()} @ {$locale->formatDate($postDate,"%H:%M")}
+</div>
+<div class="storycontent">
+    {$postText} 
+    <br style="clear: both;" />
+ </div>
+<div class="feedback">
+    <a href="{$url->postPermalink($post)}#comments" title="{$locale->tr("comment on this")}">
+        {if $post->getNumComments() eq 0}{$locale->tr("comment on this")}{else}{$post->getNumComments()} {$locale->tr("comments")}{/if}
+    </a> |
+	{if $post->getNumTrackbacks() > 0}
+	  <a href="{$url->postTrackbackStatsLink($post)}" title="{$locale->tr("trackbacks")}">{$post->getNumTrackbacks()} {$locale->tr("trackbacks")}</a>
+	{else}
+	  {$post->getNumTrackbacks()} {$locale->tr("trackbacks")}
+	{/if}
+</div>    
+

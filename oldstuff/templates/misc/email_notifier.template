@@ -1,0 +1,8 @@
+This is LifeType's automatic notification system.
+
+There is a new comment/trackback for post "{$post->getTopic()}". You can see
+the new comment/trackback by following this url:
+
+{$url->postPermalink($post)}
+
+Have a nice day.

@@ -1,0 +1,22 @@
+{include file="$admintemplatepath/header.template"}
+{include file="$admintemplatepath/navigation.template" showOpt=newLinkCategory title=$locale->tr("newLinkCategory")}
+ <form name="newLinkCategory" action="admin.php" method="post">
+   <fieldset class="inputField">
+   <legend>{$locale->tr("newLinkCategory")}</legend>   
+   {include file="$admintemplatepath/formvalidate.template"}   
+   <div class="field">
+     <label for="linkCategoryName">{$locale->tr("name")}</label>
+     <span class="required">*</span>
+     <div class="formHelp">{$locale->tr("link_category_name_help")}</div>
+     <input type="text" id="linkCategoryName" name="linkCategoryName" value="{$linkCategoryName}"/>
+     {include file="$admintemplatepath/validate.template" field=linkUrl message=$locale->tr("error_empty_name")}     
+   </div>
+  </fieldset> 
+  <div class="buttons">
+    <input type="reset" value="{$locale->tr("reset")}" name="reset"/>  
+    <input type="hidden" name="op" value="addLinkCategory"/>
+    <input type="submit" name="Add" value="{$locale->tr("add")}"/>
+  </div>  
+ </form>
+{include file="$admintemplatepath/footernavigation.template"}
+{include file="$admintemplatepath/footer.template"}

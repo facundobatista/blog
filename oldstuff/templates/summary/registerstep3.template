@@ -1,0 +1,38 @@
+{include file="summary/header.template" selected="register" columns=1}
+
+
+  <div id="onecolumn">
+ <h2>{$locale->tr("register_step3_title")}</h2>
+ <div id="intro">
+        <p>
+          {$locale->tr("register_step3_help")}
+        </p>
+  </div>
+  
+<div id="registrationform">
+
+ <form name="templateChooser" method="post">
+  <fieldset class="inputField">
+   <legend>{$locale->tr("step3")}</legend>
+   <div class="field">
+	<label for="">{$locale->tr("select_template")}</label>
+
+    {include file="summary/validate.template" field=templateId message=$locale->tr("error_must_choose_template")}	
+    {foreach from=$templates item=template}
+     {assign var=templateName value=$template->getName()}
+     <div class="templateScreen">
+     <div><img src="{$template->getScreenshotUrl()}" alt="{$templateName}" height="200" width="280" /></div>
+     <input type="radio" class="checkbox" value="{$template->getName()}" name="templateId" id="templateId" />
+     <label for="templateId"><strong>{$templateName}</strong></label>
+      </div>
+    {/foreach}
+   </div>
+  </fieldset>  
+  <div class="buttons">
+    <input type="submit" name="{$locale->tr("register_next")}" value="{$locale->tr("register_next")} &raquo;"/>
+  </div>  
+ </form>
+</div>
+</div>
+{include file="summary/footer.template"}
+

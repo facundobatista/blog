@@ -1,0 +1,56 @@
+{include file="wizard/header.template" title="User Creation" step=5 mode=install}
+<form name="newUser" action="wizard.php" method="post">
+ <fieldset class="inputField">
+  <legend>User Creation</legend>
+{if $viewIsError}
+    <div class="wizardError">
+     <img src="imgs/admin/icon_error-16.png" alt="Error" class="wizardInfoIcon" />
+     <p style="color:red;margin-left:20px;">{$viewErrorMessage}</p>
+    </div> 
+{else}
+ <div class="wizardInfo">
+  <img src="imgs/admin/icon_info-16.png" alt="Info" class="wizardInfoIcon" /> 
+  <p class="wizardInfoText">At least one user is needed to run LifeType and this user will be given administrator privileges. The administrator
+  user is allowed to configure LifeType from within the administration interface, as well as
+  adding and removing users and blogs, etc.</p>
+ </div>
+{/if} 
+   <div class="field">
+    <label for="userName">User name</label>
+    <span class="required">*</span>
+    <div class="fieldHelp">Name of the first default user that will be created. This user will be given administrator privileges</div>
+    <input type="text" id="userName" name="userName" value="{$userName}"/>
+    {include file="wizard/validate.template" field=userName message="User name is missing or incorrect"}
+   </div>
+   <div class="field"> 
+    <label for="userFullName">Full name</label>
+    <div class="fieldHelp">Full name of the user</div>
+    <input type="text" name="userFullName" id="userFullName" value="{$userFullName}"/>
+   </div>
+   <div class="field">
+    <label for="userPassword">Password</label>
+    <span class="required">*</span>
+    <div class="fieldHelp">Password assigned to this user</div>
+    <input type="password" name="userPassword" id="userPassword" value=""/>
+    {include file="wizard/validate.template" field=userPassword message="Password is missing or too short"}    
+    <br/>
+    <div class="fieldHelp">Please confirm the password</div>
+    <input type="password" name="userPasswordCheck" id="userPasswordCheck" value=""/>
+    {include file="wizard/validate.template" field=userPasswordCheck message="Passwords do not match"}
+   </div>
+   <div class="field">
+    <label for="userEmail">Email address</label>
+    <span class="required">*</span>
+    <div class="fieldHelp">Email address where notifications will be sent</div>
+    <input type="text" name="userEmail" id="userEmail" value="{$userEmail}" />
+    {include file="wizard/validate.template" field=userEmail message="The email address is missing or incorrect"}    
+   </div>
+  </fieldset>
+  <div class="buttons">
+   <input type="button" value="&laquo; Previous" name="back" onClick="javascript:history.go(-1);" />
+   <input type="reset" value="Reset" name="Reset" />
+   <input type="submit" value="Next &raquo;" name="Next &raquo;"/>
+   <input type="hidden" name="nextStep" value="Step4"/>
+  </div>
+</form>
+{include file="wizard/footer.template"}

@@ -1,0 +1,39 @@
+{include file="$admintemplatepath/header.template"}
+{include file="$admintemplatepath/navigation.template" showOpt=newPost title=$locale->tr("send_trackbacks")}
+<form name="pingThese" method="post" action="admin.php">
+ <fieldset class="inputField">
+  <legend>{$locale->tr("send_trackbacks")}</legend>
+  {include file="$admintemplatepath/successmessage.template"}
+  {include file="$admintemplatepath/errormessage.template"} 
+  
+  <label for="postLink">{$locale->tr("send_trackbacks")}</label>
+  <div class="formHelp">{$locale->tr("send_trackbacks_help")}</div>
+  {assign var="trackbackCounter" value="0"}
+  {if count($postLinks) != 0}
+   {foreach from=$postLinks item=postLink}
+    <input class="checkbox" type="checkbox"
+           id="postLink[{$trackbackCounter}]"
+           name="postLink[{$trackbackCounter}]" value="{$postLink}" />
+    <a href="{$postLink}">{$postLink}</a><br/>
+    {assign var="trackbackCounter" value=$trackbackCounter+1}
+   {/foreach}
+  {/if}
+  {if count($trackbackLinks) != 0}  
+   {foreach from=$trackbackLinks item=trackbackLink}
+    <input class="checkbox" type="checkbox"
+           id="trackbackLink[{$trackbackCounter}]" 
+           name="trackbackLink[{$trackbackCounter}]" value="{$trackbackLink}" checked />
+    <a href="{$trackbackLink}">{$trackbackLink}</a><br/>
+    {assign var="trackbackCounter" value=$trackbackCounter+1}
+   {/foreach}
+  {/if}
+  
+ </fieldset>
+ <div class="buttons">
+  <input type="submit" value="{$locale->tr("ping_selected")}" name="PingSelected"/>
+  <input type="hidden" name="op" value="sendTrackbacks"/>
+  <input type="hidden" name="postId" value="{$post->getId()}"/>
+ </div>
+</form>
+{include file="$admintemplatepath/footernavigation.template"}
+{include file="$admintemplatepath/footer.template"}

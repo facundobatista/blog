@@ -1,0 +1,176 @@
+{include file="$admintemplatepath/header.template"}
+{include file="$admintemplatepath/navigation.template" showOpt=editTrackbacks title=$locale->tr("editTrackbacks")}
+	<script type="text/javascript" src="js/ui/plogui.js"></script>
+	<script type="text/javascript">
+		var errorTrackbackStatusMsg = '{$locale->tr("error_trackback_status")}';
+		var showMassiveChangeOption = '{$locale->tr("show_massive_change_option")}';
+		var hideMassiveChangeOption = '{$locale->tr("hide_massive_change_option")}';
+	</script>
+	<script type="text/javascript">
+	{literal}
+	YAHOO.util.Event.addListener( window, "load", function() {
+			var t = new Lifetype.UI.TableEffects( "list" );
+			t.stripe();
+			t.highlightRows();
+		});
+	{/literal}
+	</script>	
+        <div id="list_nav_bar">
+            <div id="list_nav_select">		
+
+                <form id="showBy" action="admin.php" method="post">
+                <fieldset>
+                <legend>{$locale->tr("show_by")} {if $post}( {$post->getTopic()} ){/if}</legend>
+
+                    <div class="list_nav_option">
+                    <label for="showStatus">{$locale->tr("status")}</label>
+                    <br />
+                    <select name="showStatus" id="showStatus">
+                     {foreach from=$commentstatus key=name item=status}
+                     <option value="{$status}" {if $currentstatus == $status} selected="selected"{/if}>{$locale->tr($name)}</option>
+                     {/foreach}
+                    </select>
+                    </div>
+
+                    <div class="list_nav_option">
+                    <label for="search">{$locale->tr("search_terms")}</label>
+                    <br />
+                    <input type="text" name="searchTerms" value="{$searchTerms|escape:"html"}" size="15" id="search" />
+                    </div>										
+					
+                    <div class="list_nav_option">
+                    <br />
+                    <input type="hidden" name="op" value="editTrackbacks" />
+					{if $post}<input type="hidden" name="articleId" value="{$post->getId()}" />{/if}
+                    <input type="submit" name="show" value="{$locale->tr("show")}" class="submit" />
+                    </div>
+
+					<div class="list_nav_option">
+						<br/>
+						<a href="{$pager->getCurrentPageLink()}" title="{$locale->tr("bookmark_this_filter")}">
+							<img style="border:0px" src="imgs/admin/icon_link-16.png" alt="{$locale->tr("bookmark_this_filter")}" />
+						</a>
+					</div>
+
+                </fieldset>
+                </form>
+            </div>
+            <br style="clear:both;" />
+        </div>
+
+        <form id="postTrackbacksList" action="admin.php" method="post">
+		{check_perms perm=update_trackback}
+        <div class="optionIcon">
+			<a id="optionIconLink" href="#bulkEdit" title="{$locale->tr("show_massive_change_option")}" onclick="switchMassiveOption()">{$locale->tr("show_massive_change_option")}</a>
+		</div>
+		{/check_perms}
+        <div id="list">
+		  {include file="$admintemplatepath/successmessage.template"}
+		  {include file="$admintemplatepath/errormessage.template"}
+            <table id="list" class="info" summary="{$locale->tr("editTrackbacks")}">
+                <thead>
+                    <tr>
+                        <th><input class="checkbox" type="checkbox" name="all" id="all" value="1" onclick="toggleAllChecks('postTrackbacksList');" /></th>
+                        <th style="width:25%;">{$locale->tr("topic")}</th>						
+                        <th style="width:45%;">{$locale->tr("text")}</th>
+                        <th style="width:5%;">{$locale->tr("author")}</th>
+						<th style="width:5%">{$locale->tr("date")}</th>
+                        <th style="width:5%">{$locale->tr("status")}</th>
+                        <th style="width:10%">IP</th>
+                        <th style="width:10%">{$locale->tr("actions")}</th>
+                    </tr>
+                </thead>
+                <tbody>
+                   {foreach from=$comments item=trackback}
+                    <tr>
+                        <td>
+                            <input class="checkbox" type="checkbox" name="trackbackIds[{$trackback->getId()}]" id="trackbackIds[{$trackback->getId()}]" value="{$trackback->getId()}" />
+                        </td>
+                        <td class="col_highlighted">
+                            {$trackback->getTopic()|strip_tags|utf8_wordwrap:12:"<br/>":true}
+                            <span style="font-weight:normal">
+							<br/>
+                            &nbsp;&raquo;
+                            {assign var=trackbackPost value=$trackback->getArticle()}
+                            <a href="{$url->postPermalink($trackbackPost)}">{$trackbackPost->getTopic()}</a>
+                            </span>
+                        </td>
+                        <td>
+                            {$trackback->getText()|strip_tags|utf8_wordwrap:35:"<br/>":true}
+                        </td>
+                        <td>
+                            <a href="{$trackback->getUserUrl()}">{$trackback->getUserName()}</a>
+                        </td>
+                        <td>
+                            {assign var=date value=$trackback->getDateObject()}
+                            {$locale->formatDate($date)}
+                        </td>
+                        <td>
+                          {foreach from=$commentstatus key=name item=status}
+                           {if $trackback->getStatus() == $status}{$locale->tr($name)}{/if}
+                          {/foreach}
+                        </td>
+                        <td style="text-align: center;">
+						  {$trackback->getClientIp()}
+                        </td>														                
+                        <td>
+							{check_perms perm=update_trackback}	
+                            <div class="list_action_button">
+                             <a href="?op=deleteTrackback&amp;articleId={if $post}{$post->getId()}{else}0{/if}&amp;trackbackId={$trackback->getId()}" title="{$locale->tr("delete")}">
+                             	<img src="imgs/admin/icon_delete-16.png" alt="{$locale->tr("delete")}" />
+                             </a>
+							{if $bayesian_filter_enabled}
+								{if $trackback->getStatus() == 0}
+								    <a href="?op=markTrackback&amp;mode=1&amp;articleId={if $post}{$post->getId()}{else}0{/if}&amp;trackbackId={$trackback->getId()}" title="{$locale->tr("mark_as_spam")}">
+									 <img src="imgs/admin/icon_spam-16.png" alt="{$locale->tr("mark_as_spam")}" />
+									</a>
+								{elseif $trackback->getStatus() == 1}
+									<a href="?op=markTrackback&amp;mode=0&amp;articleId={if $post}{$post->getId()}{else}0{/if}&amp;trackbackId={$trackback->getId()}" title="{$locale->tr("mark_as_no_spam")}">
+									 <img src="imgs/admin/icon_nospam-16.png" alt="{$locale->tr("mark_as_no_spam")}" />
+									</a>
+								{/if}
+							{/if}
+							{/check_perms}
+                            {if $trackback->getUserUrl()}
+                                <a href="{$trackback->getUserUrl()}" title="{$locale->tr("url")}">
+                                 <img src="imgs/admin/icon_url-16.png" alt="{$locale->tr("url")}" />
+                                </a>
+                            {/if}
+                            </div>
+                        </td>
+                    </tr>
+                    {/foreach}
+                </tbody>
+            </table>
+        </div>
+        <a name="bulkEdit"></a>
+        <div id="list_action_bar">
+            {adminpager style=list}
+			{check_perms adminperm=purge_data}
+			<input type="submit" name="purgeSpam" class="submit" value="{$locale->tr("cleanup_spam")}" onClick="javascript:submitTrackbacksList('doCleanUp');" />
+			{/check_perms}
+			{check_perms perm=update_trackback}
+			<input type="hidden" name="articleId" value="{if $post}{$post->getId()}{else}0{/if}" />
+            <input type="button" name="delete" value="{$locale->tr("delete")}" class="submit" onClick="javascript:submitTrackbacksList('deleteTrackbacks');" />
+            <input type="hidden" name="op" value="" />
+			{/check_perms}
+			{check_perms perm=update_trackback}
+            <div id="massiveChangeOption" style="display: none;">
+                <fieldset>
+                <legend>{$locale->tr("massive_change_option")}</legend>            
+		            <label for="trackbackStatus">{$locale->tr("status")}</label>
+		            <select name="trackbackStatus" id="trackbackStatus">
+		              <option value="-1">-{$locale->tr("select")}-</option>
+		              {foreach from=$commentstatusWithoutAll key=name item=status}
+		                {if ($status != 0 && $status != 1) || $bayesian_filter_enabled}<option value="{$status}">{$locale->tr($name)}</option>{/if}
+		              {/foreach}
+		            </select>
+		            <input type="button" name="changeTrackbacksStatus" value="{$locale->tr("change_status")}" class="submit" onClick="javascript:submitTrackbacksList('changeTrackbacksStatus');" /> 
+		        </fieldset>
+			</div>
+			{/check_perms}
+        </div>            
+
+	</form>
+{include file="$admintemplatepath/footernavigation.template"}
+{include file="$admintemplatepath/footer.template"}

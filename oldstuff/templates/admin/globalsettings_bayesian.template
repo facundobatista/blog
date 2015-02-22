@@ -1,0 +1,49 @@
+<div style="padding-left:10px;" id="bayesian">
+   <!-- bayesian filter options -->
+   <!-- bayesian_filter_enabled -->
+   <div class="field">
+    <label for="config[bayesian_filter_enabled]">bayesian_filter_enabled</label>
+	<div class="formHelp">{$locale->tr("help_bayesian_filter_enabled")}</div>
+    <input class="radio" type="radio" name="config[bayesian_filter_enabled]" id="config[bayesian_filter_enabled]" value="1" {if $bayesian_filter_enabled == 1 } checked="checked" {/if} />{$locale->tr("yes")}
+    <input class="radio" type="radio" name="config[bayesian_filter_enabled]" id="config[bayesian_filter_enabled]" value="0" {if $bayesian_filter_enabled == 0 } checked="checked" {/if} />{$locale->tr("no")}
+   </div>
+   <!-- bayesian_filter_spam_probability_treshold -->
+   <div class="field">
+    <label for="config[bayesian_filter_spam_probability_treshold]">bayesian_filter_spam_probability_treshold</label>
+	<div class="formHelp">{$locale->tr("help_bayesian_filter_spam_probability_treshold")}</div>
+    <input style="width:100%" type="text" name="config[bayesian_filter_spam_probability_treshold]" id="config[bayesian_filter_spam_probability_treshold]" value="{$bayesian_filter_spam_probability_treshold}"/>
+   </div>
+   <!-- bayesian_filter_nonspam_probability_treshold -->
+   <div class="field">
+    <label for="config[bayesian_filter_nonspam_probability_treshold]">bayesian_filter_nonspam_probability_treshold</label>
+	<div class="formHelp">{$locale->tr("help_bayesian_filter_nonspam_probability_treshold")}</div>
+    <input style="width:100%" type="text" name="config[bayesian_filter_nonspam_probability_treshold]" id="config[bayesian_filter_nonspam_probability_treshold]" value="{$bayesian_filter_nonspam_probability_treshold}"/>
+   </div>
+   <!-- bayesian_filter_min_length_token -->
+   <div class="field">
+    <label for="config[bayesian_filter_min_length_token]">bayesian_filter_min_length_token</label>
+    <div class="formHelp">{$locale->tr("help_bayesian_filter_min_length_token")}</div>
+    <input style="width:100%" type="text" name="config[bayesian_filter_min_length_token]" id="config[bayesian_filter_nonspam_probability_treshold]" value="{$bayesian_filter_min_length_token}"/>
+   </div>
+   <!-- bayesian_filter_max_length_token -->
+   <div class="field">
+    <label for="config[bayesian_filter_max_length_token]">bayesian_filter_max_length_token</label>
+	<div class="formHelp">{$locale->tr("help_bayesian_filter_max_length_token")}</div>
+    <input style="width:100%" type="text" name="config[bayesian_filter_max_length_token]" id="config[bayesian_filter_nonspam_probability_treshold]" value="{$bayesian_filter_max_length_token}"/>
+   </div>
+   <!-- bayesian_filter_number_significant_tokens -->
+   <div class="field">
+    <label for="config[bayesian_filter_number_significant_tokens]">bayesian_filter_number_significant_tokens</label>
+	<div class="formHelp">{$locale->tr("help_bayesian_filter_number_significant_tokens")}</div>
+	<input style="width:100%" type="text" name="config[bayesian_filter_number_significant_tokens]" id="config[bayesian_filter_nonspam_probability_treshold]" value="{$bayesian_filter_number_significant_tokens}"/>
+   </div>
+   <!-- bayesian_filter_spam_comments_action -->
+   <div class="field">
+    <label for="config[bayesian_filter_spam_comments_action]">bayesian_filter_spam_comments_action</label>
+	<div class="formHelp">{$locale->tr("help_bayesian_filter_spam_comments_action")}</div>
+    <select name="config[bayesian_filter_spam_comments_action]" id="config[bayesian_filter_nonspam_probability_treshold]">
+      <option value="0" {if $bayesian_filter_spam_comments_action == 0} selected="selected" {/if} />{$locale->tr("keep_spam_comments")}</option>
+      <option value="1" {if $bayesian_filter_spam_comments_action == 1} selected="selected" {/if} />{$locale->tr("throw_away_spam_comments")}</option>
+    </select>
+   </div>
+</div>

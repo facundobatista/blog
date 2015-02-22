@@ -1,0 +1,70 @@
+{include file="wizard/header.template" title="Confirm Information" mode=install step=3}
+ <form name="formStep1" action="wizard.php" method="post">
+  <fieldset class="inputField">
+  <legend>Database Initialization</legend>   
+  {if $viewIsError}
+    <div class="wizardError">
+     <img src="imgs/admin/icon_error-16.png" alt="Error" class="wizardInfoIcon" />
+     <p style="color:red;margin-left:20px;">{$viewErrorMessage}</p>
+    </div>
+  {else}
+   <div class="wizardInfo">
+     <img src="imgs/admin/icon_info-16.png" alt="Info" class="wizardInfoIcon" />   
+     <p class="wizardInfoText">The following information has been saved to the configuration file. Now the tables
+     are going to be created in the database.</p>
+   </div>  
+  {/if} 
+    <div class="field">
+     <label for="dbServer">Database server</label>
+     <div class="formHelp"></div>
+     <span id="dbServer">{$dbServer}</span><br/>
+    </div>
+    <div class="field">
+     <label for="dbUser">Database user</label>
+     <div class="formHelp"></div>     
+     <span id="dbServer">{$dbUser}</span><br/>
+    </div>
+    <div class="field"> 
+     <label for="dbPassword">Database password</label>
+     <div class="formHelp"></div>     
+     <span id="dbPassword">{$dbPassword|stars}</span><br/>
+    </div>
+    <div class="field"> 
+     <label for="dbName">Database table</label>
+     <div class="formHelp"></div>     
+     <span id="dbName">{$dbName}</span><br/>
+    </div>
+    <div class="field">
+     <label for="dbPrefix">Database prefix</label>
+     <div class="formHelp"></div>     
+     <span id="dbPrefix">{$dbPrefix}</span><br/>
+    </div>
+
+    {if !empty($availableCharacterSets)}
+	    <div class="field">
+	     	<label for="dbCharacterSet">Database default character set</label>
+	     	<div class="formHelp">If you plan to use UTF-8 as your default web encoding, please select <strong>utf8</strong> as your database default character set.</div>     
+	    	<select name="dbCharacterSet" id="dbCharacterSet" size="1" style="width:20%">
+	        <option value="default">default</option>
+            {foreach from=$availableCharacterSets item=availableCharacterSet}
+	        	<option value="{$availableCharacterSet}" {if $availableCharacterSet == $defaultCharacterSet} selected="selected" {/if}>{$availableCharacterSet}</option>
+	        {/foreach}
+         </select> 
+        </div> 
+    {/if}
+    
+    <div class="field">
+     <label for="createDatabase">Create database</label>
+     <div class="formHelp"></div>
+     <div class="field"><input type="checkbox" name="createDatabase" id="createDatabase" class="checkbox" value="1" {if $createDatabase} checked="checked"  {/if}/>Please check this if you want the installer to create the database.</div>
+    </div>
+    
+ </fieldset>
+ <div class="buttons"> 
+  <input type="button" name="Back" value="&laquo; Back" onclick="javascript:history.go(-1);" /> 
+  <input type="hidden" name="nextStep" value="Step2"/>
+  <input type="reset"  name="reset" />
+  <input type="submit" name="Next &raquo;" value="Next &raquo;"/>
+ </div>
+ </form>
+{include file="wizard/footer.template"}

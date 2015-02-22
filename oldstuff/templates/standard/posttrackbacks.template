@@ -1,0 +1,21 @@
+		{include file="$blogtemplate/header.template"} 
+		
+<h2>{$locale->tr("trackbacks")}</h2>
+		
+<h3>{$locale->tr("trackbacks_for_article")} "<a href="{$url->postLink($post)}">{$post->getTopic()}</a>":</h3>
+
+		{foreach from=$trackbacks item=trackback}
+<h4><a href="{$trackback->getUrl()}">{$trackback->getTitle()}</a></h4>
+
+<dl>
+<dt>{$locale->tr("trackback_excerpt")}:</dt>
+<dd>{$trackback->getExcerpt()}</dd>
+<dt>{$locale->tr("trackback_weblog")}:</dt>
+<dd>{$trackback->getBlogName()}</dd>
+   		{assign var="trackbackDate" value=$trackback->getDateObject()}
+<dt>{$locale->tr("date")}:</dt>
+<dd>{$locale->formatDate($trackbackDate, "%d/%m/%Y %H:%M")}</dd>
+</dl>
+  		{/foreach}
+
+{include file="$blogtemplate/footer.template"} 

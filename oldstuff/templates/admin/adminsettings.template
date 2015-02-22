@@ -1,0 +1,5 @@
+{include file="$admintemplatepath/header.template"}
+{include file="$admintemplatepath/navigation.template" showOpt=adminSettings title=$locale->tr("adminSettings")}
+{$menu->generateAt("adminSettings",2)}
+{include file="$admintemplatepath/footernavigation.template"}
+{include file="$admintemplatepath/footer.template"}

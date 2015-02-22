@@ -1,0 +1,74 @@
+.wizardInfo
+{
+    padding: 5px;
+    border: 1px solid #9BCC96;
+    font-family: verdana, tahoma, sans-serif;
+    font-size: 0.90em;    
+}
+
+.wizardError
+{
+    padding: 5px;
+    border: 1px solid red;
+    font-family: verdana, tahoma, sans-serif;
+    font-size: 0.90em;    
+}
+
+.wizardInfoIcon
+{
+    float:left;
+    clear:left;
+    margin-top:10px;
+}
+
+.wizardInfoText
+{
+    margin-left: 20px;
+}
+
+.checkCategory
+{
+	font-size: 12px;
+	font-weight: bold;
+	margin:5px 0px;
+	text-decoration: underline;
+}
+
+.checkItem
+{
+	padding-bottom: 5px;
+	margin-top: 10px;
+	border: 0px;
+}
+
+.checkError
+{
+	margin-left: 20px;
+	margin-top: 5px;
+}
+
+.checkImage
+{
+	float:left; 
+	margin: 10px 5px 0px 0px;
+}
+
+#menu li
+{
+    position         : relative;
+    padding          : 0;
+    border-left      : 0px solid #B4B4B4;
+    display          : inline;
+    font-weight      : bold;
+    font-family      : verdana, tahoma, sans-serif;
+    font-size        : 0.83em;
+    letter-spacing   : 0.20em;
+	text-transform   : uppercase;
+    color            : #0E3862;
+}
+
+#menu .currentStep
+{
+    background       : #818181;
+    color            : #FFFFFF;
+}

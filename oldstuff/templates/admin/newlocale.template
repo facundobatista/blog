@@ -1,0 +1,23 @@
+{include file="$admintemplatepath/header.template"}
+{include file="$admintemplatepath/navigation.template" showOpt=newLocale title=$locale->tr("newLocale")}
+<form name="uploadLocaleFile" enctype="multipart/form-data" action="admin.php" method="post">
+ <fieldset class="inputField">
+  <legend>{$locale->tr("newLocale")}</legend>
+  {include file="$admintemplatepath/successmessage.template"}
+  {include file="$admintemplatepath/errormessage.template"}
+  <div class="field">
+   <label for="templateFile">{$locale->tr("locale")}</label> 
+   <span class="required">*</span>
+   <div class="formHelp">{$locale->pr("add_locale_help", $templateFolder)}</div>
+   <input type="file" name="localeFile" value="" />
+  </div>
+ </fieldset>
+ <div class="buttons">
+  <input type="reset" name="reset" value="{$locale->tr("reset")}" />
+  <input type="hidden" name="op" value="uploadLocale" />
+  <input type="submit" name="scanLocales" value="{$locale->tr("scan_locales")}" />  
+  <input type="submit" name="addLocale" value="{$locale->tr("add")}" />    
+ </div>
+</form> 
+{include file="$admintemplatepath/footernavigation.template"}
+{include file="$admintemplatepath/footer.template"}

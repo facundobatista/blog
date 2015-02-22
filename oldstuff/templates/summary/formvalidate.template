@@ -1,0 +1,9 @@
+{**
+  Please use this smarty code to carry our form validations
+**}
+  {if ($form->formHasRun() && !$form->formIsValid()) || $viewIsError}
+	  <div id="FormError">
+	   <img src="imgs/admin/icon_warning-16.png" alt="Info" class="InfoIcon" />
+	   <span style="color:red">{$message}</span>
+	  </div>
+  {/if}  

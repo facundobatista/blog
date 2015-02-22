@@ -1,0 +1,110 @@
+{include file="$admintemplatepath/chooser/header.template"}
+<script type="text/javascript">
+{literal}
+YAHOO.util.Event.addListener( window, "load", function() {
+		var t = new Lifetype.UI.TableEffects( "list" );
+		t.stripe();
+		t.highlightRows();
+	});
+{/literal}
+</script>
+        <div id="list_nav_bar">
+            <div id="list_nav_select">             
+<form id="viewUsers" action="admin.php" method="post">
+ <fieldset>
+  <legend>{$locale->tr("show_by")}</legend>
+   <div class="list_nav_option">
+    <label for="status">{$locale->tr("status")}</label>
+	<br />
+    <select name="status" id="status">
+    {foreach from=$userstatus key=name item=status}
+      <option value="{$status}" {if $currentstatus == $status} selected="selected"{/if}>{$locale->tr($name)}</option>
+    {/foreach}
+    </select>
+   </div>
+   
+   <div class="list_nav_option">
+   <label for="search">{$locale->tr("search_terms")}</label>
+   <br />
+   <input type="text" name="searchTerms" value="{$searchTerms|escape:"html"}" size="15" id="search" />
+   </div>   
+   
+   <div class="list_nav_option">
+    <br />
+    <input type="hidden" name="op" value="siteUsersChooser" />
+    <input type="submit" name="Show" value="{$locale->tr("show")}" />
+    <input type="hidden" name="mode" value="{$mode}" />
+   </div>
+  </fieldset> 
+ </form> 
+ </div>
+ <br style="clear:both" />
+ </div>             
+ 
+        <form id="siteUsers" action="admin.php" method="post">
+        <div id="list">
+  {include file="$admintemplatepath/successmessage.template"}
+  {include file="$admintemplatepath/errormessage.template"}
+            <table class="info" style="width:560px;" summary="{$locale->tr("editSiteUsers")}">
+                <thead>
+                    <tr>
+                        <th style="width:25px;">UID</th>
+                        <th style="width:135px;">{$locale->tr("username")}</th>
+                        <th style="width:305px;">{$locale->tr("full_name")}</th>                        
+                        <th style="width:175px;">{$locale->tr("email")}</th>
+                        <th style="width:50px;">{$locale->tr("status")}</th>
+                        <th style="width:90px;">{$locale->tr("actions")}</th>
+                    </tr>
+                </thead>
+                <tbody>
+                   {foreach from=$siteusers item=siteuser}
+                    <tr>
+                        <td class="col_highlighted">
+                            {$siteuser->getId()}
+                        </td>
+                        <td class="col_highlighted">
+						    {if $mode=="1"}
+                              <a href="javascript:setDocumentField(parent.opener.document, 'userName','{$siteuser->getUsername()}');setDocumentField(parent.opener.document,'userId','{$siteuser->getId()}');window.close()">
+							{else}
+							  <a href="javascript:appendDocumentList(parent.opener.document, 'userList','{$siteuser->getId()}','{$siteuser->getUsername()}');window.close()">
+							{/if}
+							  {$siteuser->getUsername()}
+							</a>
+                        </td>
+                        <td>
+                            {$siteuser->getFullName()|truncate:70:"..."}
+                        </td>                        
+                        <td>
+                            <a href="mailto:{$siteuser->getEmail()}">
+                            {$siteuser->getEmail()}
+                            </a>
+                        </td>
+                        <td>
+                          {foreach from=$userstatus key=name item=status}
+                           {if $siteuser->getStatus() == $status}
+                            {if $status == 2}<span style="color:red">{$locale->tr($name)}</span>
+							{else}{$locale->tr($name)}{/if}
+						   {/if}
+                          {/foreach}                           
+                        </td>
+						<td>
+                          <div class="list_action_button">
+						    {if $mode=="1"}
+                              <a href="javascript:setDocumentField(parent.opener.document, 'userName','{$siteuser->getUsername()}');setDocumentField(parent.opener.document,'userId','{$siteuser->getId()}');window.close()">
+							{else}
+							  <a href="javascript:appendDocumentList(parent.opener.document, 'userList','{$siteuser->getId()}','{$siteuser->getUsername()}');window.close()">
+							{/if}
+							  <img src="imgs/admin/icon_arrow-16.png" alt="{$locale->tr("select_user")}" />
+							</a>
+                          </div>						   
+						</td>
+                    </tr>
+                    {/foreach}
+                </tbody>
+            </table>
+        </div>        
+        <div id="list_action_bar">
+            {adminpager style=list}
+			<a href="javascript:window.close()">{$locale->tr("close")}</a>
+        </div>
+{include file="$admintemplatepath/chooser/footer.template"}

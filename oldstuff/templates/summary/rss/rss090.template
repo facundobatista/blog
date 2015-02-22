@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="{$locale->getCharset()}"?>
+<?xml-stylesheet href="{$url->getUrl("/styles/rss.css")}" type="text/css"?>
+ <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://my.netscape.com/rdf/simple/0.9/">
+ <channel>
+  <title>{$serviceName}</title>
+  <description>Your service description</description>
+  <link>{$url->getBaseUrl(false)}/summary.php</link>
+ </channel>
+  {foreach from=$posts item=post}
+  <item>
+   {assign var=blog value=$post->getBlogInfo()}
+   {assign var=url value=$blog->getBlogRequestGenerator()}  
+   <title>{$post->getTopic()|escape}</title>
+   <description>{$post->getText()|escape}</description>
+   <link>{$url->postPermalink($post)}</link>
+  </item>
+  {/foreach}
+</rdf:RDF>

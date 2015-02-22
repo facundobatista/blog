@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="{$locale->getCharset()}"?>
+<?xml-stylesheet href="{$url->getUrl("/styles/rss.css")}" type="text/css"?>
+<rss version="2.0" 
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:atom="http://www.w3.org/2005/Atom"
+>
+ <channel>
+  <atom:link href="{$url->rssLink("rss20")}" rel="self" type="application/rss+xml" />
+  <title>{$blog->getBlog()|escape:hexentity}</title>
+  <link>{$url->blogLink()}</link>
+  <description>{$blog->getAbout()|strip_tags}</description>
+  <pubDate>{$locale->formatDateAsRFC822($now)}</pubDate>
+  <generator>http://lifetype.net</generator>
+  {foreach from=$posts item=post}
+  <item>
+   <title>{$post->getTopic()|escape:hexentity}</title>
+   <description>
+    {$post->getText()|escape}
+   </description>
+   <link>{$url->postPermalink($post)}</link>
+   <comments>{$url->postPermalink($post)}</comments>
+   <guid>{$url->postPermalink($post)}</guid>
+   {assign var="postOwner" value=$post->getUserInfo()}
+   <dc:creator>{$postOwner->getUsername()|escape}</dc:creator>
+   {foreach from=$post->getCategories() item=category}   
+    <category>{$category->getName()|escape}</category>
+   {/foreach}
+   {assign var="postDate" value=$post->getDateObject()}
+   <pubDate>{$locale->formatDateAsRFC822($postDate, $blog)}</pubDate>
+   <source url="{$url->rssLink("rss20")}">{$blog->getBlog()|escape}</source>
+   {foreach from=$post->getArticleResources() item=resource}
+    {** please uncomment the line below if you'd like to server everything but images, instead of
+        only audio and video **}
+    {** if !$resource->isImage() **}
+    {if $resource->isSound() || $resource->isVideo()}
+     <enclosure type="{$resource->getMimeType()}" length="{$resource->getFileSize()}" url="{$url->resourceDownloadLink($resource)}" />
+    {/if}
+   {/foreach}
+  </item>
+  {/foreach}
+ </channel>
+</rss>

@@ -1,0 +1,227 @@
+{include file="$admintemplatepath/header.template"}
+{include file="$admintemplatepath/navigation.template" showOpt=editPosts title=$locale->tr("editPosts")}
+	<script type="text/javascript" src="js/ui/plogui.js"></script>
+	<script type="text/javascript">
+		var errorPostStatusMsg = '{$locale->tr("error_post_status")}';
+		var showMassiveChangeOption = '{$locale->tr("show_massive_change_option")}';
+		var hideMassiveChangeOption = '{$locale->tr("hide_massive_change_option")}';
+	</script>
+	<script type="text/javascript">
+	{literal}
+	YAHOO.util.Event.addListener( window, "load", function() {
+			var t = new Lifetype.UI.TableEffects( "list" );
+			t.stripe();
+			t.highlightRows();
+		});
+	{/literal}
+	</script>	
+		  <div id="list_nav_bar">
+            <div id="list_nav_select">
+                <form id="showBy" action="admin.php" method="post">
+                <fieldset>
+                <legend>{$locale->tr("show_by")}</legend>
+                    <div class="list_nav_option">
+                    <label for="showCategory">{$locale->tr("category")}</label>
+                    <br />
+                    <select name="showCategory" id="showCategory">
+                     <option value="-1">{$locale->tr("category_all")}</option>
+                     {foreach from=$categories item=category}
+                     <option value="{$category->getId()}" {if $currentcategory == $category->getId()} selected="selected"{/if}>{$category->getName()}</option>
+                     {/foreach}
+                    </select>
+                    </div>
+
+                    <div class="list_nav_option">
+                    <label for="showStatus">{$locale->tr("status")}</label>
+                    <br />
+                    <select name="showStatus" id="showStatus">
+                     {foreach from=$poststatus key=name item=status}
+                     <option value="{$status}" {if $currentstatus == $status} selected="selected"{/if}>{$locale->tr($name)}</option>
+                     {/foreach}
+                    </select>
+                    </div>
+
+                    <div class="list_nav_option">
+                    <label for="showUser">{$locale->tr("author")}</label>
+                    <br />
+                    <select name="showUser" id="showUser">
+                      <option value="0" {if $currentuser == 0} selected="selected" {/if}>{$locale->tr("author_all")}</option>
+                      {foreach from=$users item=bloguser}
+                       <option value="{$bloguser->getId()}" {if $currentuser == $bloguser->getId()} selected="selected" {/if}>{$bloguser->getUsername()}</option>
+                      {/foreach}
+                    </select>
+                    </div>
+
+                    <div class="list_nav_option">
+                    <label for="time">{$locale->tr("date")}</label>
+                    <br />
+                    <select name="showMonth" id="time">
+                     <option value="-1" {if $currentmonth == -1} selected="selected" {/if}>{$locale->tr("all")}</option>
+                     {foreach from=$months item=month}
+                     <option value="{$month.date}" {if $currentmonth == $month.date} selected="selected" {/if}>{$month.name}</option>
+                     {/foreach}
+                    </select>
+                    </div>
+
+                    <div class="list_nav_option">
+                    <label for="search">{$locale->tr("search_terms")}</label>
+                    <br />
+                    <input type="text" name="searchTerms" value="{$searchTerms|escape:"html"}" size="15" id="search" />
+                    </div>
+
+                    <div class="list_nav_option">
+                    <br />
+                    <input type="hidden" name="op" value="editPosts" />
+                    <input type="submit" name="Show" value="{$locale->tr("show")}" class="submit" />
+                    </div>
+
+					<div class="list_nav_option">
+						<br/>
+						<a href="{$pager->getCurrentPageLink()}" title="{$locale->tr("bookmark_this_filter")}">
+							<img style="border:0px" src="imgs/admin/icon_link-16.png" alt="{$locale->tr("bookmark_this_filter")}" />
+						</a>
+					</div>
+
+                </fieldset>
+                </form>
+            </div>
+            <br style="clear:both;" />
+        </div>
+
+        <form id="postsList" action="admin.php" method="post">
+	    {check_perms perm=update_post}
+        <div class="optionIcon">
+			<a id="optionIconLink" href="#bulkEdit" title="{$locale->tr("show_massive_change_option")}" onclick="switchMassiveOption()">{$locale->tr("show_massive_change_option")}</a>
+		</div>
+		{/check_perms}
+        <div id="list">
+  {include file="$admintemplatepath/successmessage.template"}
+  {include file="$admintemplatepath/errormessage.template"}
+            <table id="list" class="info" summary="{$locale->tr("editPosts")}">
+                <thead>
+                    <tr>
+                        <th><input class="checkbox" type="checkbox" name="all" id="all" value="1" onclick="toggleAllChecks('postsList');" /></th>
+                        <th style="width:40%;">{$locale->tr("topic")}</th>
+                        <th style="width:10%;">{$locale->tr("date")}</th>
+                        <th style="width:10%;">{$locale->tr("author")}</th>
+                        <th style="width:10%;">{$locale->tr("status")}</th>
+                        <th style="width:5%;text-align:center;">CM</th>
+                        <th style="width:5%;text-align:center;">TB</th>
+                        <th style="width:5%;text-align:center;">{$locale->tr("num_reads")}</th>
+                        <th style="width:10%;">{$locale->tr("actions")}</th>
+                    </tr>
+                </thead>
+                <tbody>
+                 {foreach from=$posts item=post}
+                    <tr>
+                        <td>
+                            <input class="checkbox" type="checkbox" name="postIds[{$post->getId()}]" id="checks_{$post->getId()}" value="{$post->getId()}" />
+                        </td>
+                        <td class="col_highlighted">
+                            {check_perms perm=update_post}<a href="?op=editPost&amp;postId={$post->getId()}">{/check_perms}
+                            {$post->getTopic()|strip_tags}
+                            {check_perms perm=update_post}</a>{/check_perms}<br />
+                            &nbsp;&raquo;
+                            <span style="font-weight: normal;">
+                            {foreach name=postCategories from=$post->getCategories() item=postCategory}
+                                <a href="?op=editPosts&amp;showCategory={$postCategory->getId()}&amp;showStatus=0">{$postCategory->getName()}</a>{if !$smarty.foreach.postCategories.last}, {/if}
+                            {/foreach}
+                            </span>
+                        </td>
+                        <td>
+                            {assign var=date value=$post->getDateObject()}
+                            {$locale->formatDate($date)}
+                        </td>
+                        <td>
+                            {assign var=owner value=$post->getUserInfo()}
+                            {$owner->getUsername()}
+                        </td>
+                        <td>
+                          {foreach from=$poststatus key=name item=status}
+                           {if $post->getStatus() == $status}
+						    {if $status == 1}<span style="color:green">{$locale->tr($name)}</span>
+							{elseif $status == 2}<span style="color:blue">{$locale->tr($name)}</span>
+							{elseif $status == 3}<span style="color:red">{$locale->tr($name)}</span>
+							{else}{$locale->tr("$name")}{/if}
+						   {/if}
+                          {/foreach}
+                        </td>
+                        <td style="text-align: center;">
+                            {if $post->getTotalComments(false) > 0}
+							 <a href="?op=editComments&amp;articleId={$post->getId()}">({$post->getTotalComments(false)})</a>
+							{else}
+							 0
+							{/if}
+                        </td>
+                        <td style="text-align: center;">
+                            {if $post->getTotalTrackbacks() > 0}
+							 <a href="?op=editTrackbacks&amp;articleId={$post->getId()}">({$post->getTotalTrackbacks(false)})</a>
+							{else}
+							 0
+							{/if}
+                        </td>
+                        <td style="text-align: center;">
+                            {$post->getNumReads()}
+                        </td>
+                        <td>
+							{check_perms perm=update_post}
+                            <div class="list_action_button">
+                            <a href="?op=editPost&amp;postId={$post->getId()}" title="{$locale->tr("edit")}">
+                            	<img src="imgs/admin/icon_edit-16.png" alt="{$locale->tr("edit")}" />
+                            </a>
+                            <a href="?op=deletePost&amp;postId={$post->getId()}" title="{$locale->tr("delete")}">
+                            	<img src="imgs/admin/icon_delete-16.png" alt="{$locale->tr("delete")}" />
+                            </a>
+							{/check_perms}
+                            <a href="{$url->postPermalink($post)}" title="{$locale->tr("permalink")}">
+                            	<img src="imgs/admin/icon_url-16.png" alt="{$locale->tr("permalink")}" />
+                            </a>
+							{check_perms perm=view_blog_stats}
+                            <a href="?op=postStats&amp;postId={$post->getId()}" title="{$locale->tr("Stats")}">
+                            	<img src="imgs/admin/icon_stats-16.png" alt="{$locale->tr("Stats")}" />
+                            </a>
+							{/check_perms}
+                            </div>
+                        </td>
+                    </tr>
+                    {/foreach}
+                </tbody>
+            </table>
+        </div>
+        <a name="bulkEdit"></a>
+        <div id="list_action_bar">
+			{adminpager style="list"}
+			{check_perms adminperm=purge_data}
+			<input type="submit" name="purgePosts" class="submit" value="{$locale->tr("cleanup_posts")}" onClick="javascript:submitPostsList('doCleanUp');" />
+			{/check_perms}
+			{check_perms perm=update_post}
+            <input type="button" name="delete" value="{$locale->tr("delete")}" class="submit" onClick="javascript:submitPostsList('deletePosts');" />
+            <input type="hidden" name="op" value="" />
+			{/check_perms}
+			{check_perms perm=update_post}
+            <div id="massiveChangeOption" style="display: none">
+                <fieldset>
+                <legend>{$locale->tr("massive_change_option")}</legend>            
+		            <label for="postStatus">{$locale->tr("status")}</label>
+		            <select name="postStatus" id="postStatus">
+		              <option value="-1">-{$locale->tr("select")}-</option>
+		              {foreach from=$poststatusWithoutAll key=name item=status}
+		                <option value="{$status}">{$locale->tr($name)}</option>
+		              {/foreach}
+		            </select>
+		            <input type="button" name="changePostsStatus" value="{$locale->tr("change_status")}" class="submit" onClick="javascript:submitPostsList('changePostsStatus');" />
+		            <label for="postCategories[]">{$locale->tr("categories")}</label>
+		            <select name="postCategories[]" id="postCategories" size="5" multiple="multiple">
+		              {foreach name=categories from=$categories item=category}
+		                <option value="{$category->getId()}" {if $smarty.foreach.categories.first} selected="selected" {/if}>{$category->getName()}</option>
+		              {/foreach}
+		            </select>
+		            <input type="button" name="changePostsCategory" value="{$locale->tr("change_category")}" class="submit" onClick="javascript:submitPostsList('changePostsCategory');" />
+		        </fieldset>
+			</div>
+			{/check_perms}
+        </div>
+
+        </form>
+{include file="$admintemplatepath/footernavigation.template"}
+{include file="$admintemplatepath/footer.template"}

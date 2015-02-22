@@ -1,0 +1,23 @@
+{include file="$admintemplatepath/header.template"}
+{include file="$admintemplatepath/navigation.template" showOpt=editLinkCategories title=$locale->tr("editLinkCategory")}
+<form name="editLinkCategory" method="post" action="admin.php">
+   <fieldset class="inputField">
+   {include file="$admintemplatepath/formvalidate.template"}   
+   <legend>{$locale->tr("editLinkCategory")}</legend>
+   <div class="field">
+     <label for="linkCategoryName">{$locale->tr("name")}</label>
+     <span class="required">*</span>
+     <div class="formHelp">{$locale->tr("link_category_name_help")}</div>
+     <input type="text" id="linkCategoryName" name="linkCategoryName" value="{$linkCategoryName|escape:"html"}"/>
+     {include file="$admintemplatepath/validate.template" field=linkUrl message=$locale->tr("error_empty_name")}     
+   </div>
+  </fieldset> 
+  <div class="buttons">
+    <input type="hidden" name="op" value="updateLinkCategory" />
+    <input type="reset" name="reset" value="{$locale->tr("reset")}" />
+    <input type="submit" name="subOp" value="{$locale->tr("update")}" />
+    <input type="hidden" name="linkCategoryId" value="{$linkCategoryId}" />
+  </div>
+</form>
+{include file="$admintemplatepath/footernavigation.template"}
+{include file="$admintemplatepath/footer.template"}

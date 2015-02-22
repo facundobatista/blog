@@ -1,0 +1,11 @@
+{include file="$admintemplatepath/header.template"}
+{include file="$admintemplatepath/navigation.template" showOpt=Manage title=$locale->tr("Manage")}
+
+<div id="list">
+{include file="$admintemplatepath/successmessage.template"}
+{include file="$admintemplatepath/errormessage.template"}
+</div>
+
+{$menu->generateAt("Manage",2)}
+{include file="$admintemplatepath/footernavigation.template"}
+{include file="$admintemplatepath/footer.template"}

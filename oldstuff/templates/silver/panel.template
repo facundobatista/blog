@@ -1,0 +1,142 @@
+<div id="menu">
+<ul>
+
+<li id="search"> Buscar<br/>
+<ul>
+  <form name="search_form" method="post" action="{$url->getIndexUrl()}">
+  <input type="text" name="searchTerms" value=""/><br/>
+  <input type="hidden" name="op" value="Search" />
+  <input type="hidden" name="blogId" value="{$blog->getId()}"/>
+</form>
+</ul>
+</li>
+
+<li id="recentcomments">Hace un a&Ntilde;o
+<ul>
+  <li>
+{*  Esto es para mostrar lo que devuelve la funcion
+    {assign var=yearAgoPost value=$ayearago->getRecentArticlesAYearAgo(1)}
+    {$yearAgoPost}
+*}
+    {assign var=yearAgoPost value=$ayearago->getRecentArticlesAYearAgo(1)}
+    {assign var=text        value=$yearAgoPost[0]->getText()}
+    {assign var=topic       value=$yearAgoPost[0]->getTopic()}
+    <a title="Ver este art&iacute;culo" href="{$url->postPermalink($yearAgoPost[0])}">
+      <b>{$topic}</b>
+      {$text|truncate:100:"..."|strip_tags}
+    </a>
+  </li>
+</ul>            
+</li>
+
+<li>PROPAGANDA
+<ul>
+<div style="text-align: center;">
+  {fetch file="http://www.taniquetil.com.ar/cgi-bin/propaganda.py?f=c"}
+</div>
+</ul>
+</li>
+
+<li id="recentcomments">Comentarios recientes
+{assign var=comments value=$recentcomments->getRecentComments()}
+<ul>
+{foreach from=$comments item=comment}
+  {assign var=commentpostid value=$comment->getArticleId()}
+  {assign var=commentpost value=$recentcomments->getArticle($commentpostid)}
+  <li>
+    <a title="Ver este art&iacute;culo" href="{$url->postPermalink($commentpost)}">
+      <b>{$comment->getUsername()}</b>
+      {$comment->getText()|truncate:100:"..."|strip_tags}
+    </a>
+  </li>
+{/foreach}
+</ul>            
+</li>
+
+<li>Twitter
+<ul>
+  {fetch file="http://www.taniquetil.com.ar/facundo/microposts.html"}
+</ul>
+</li>
+
+<li id="categories">{$locale->tr("categories")}
+<ul>
+{foreach from=$articlecategories item=articleCategory}
+  <li><a href="{$url->categoryLink($articleCategory)}">{$articleCategory->getName()} [{$articleCategory->getNumArticles()}]</a></li>
+{/foreach}
+</ul>
+</li>
+
+<script language="JavaScript">
+{literal}
+function elqueva() {
+  document.sideForm.submit();
+}
+{/literal}
+</script>
+
+<li id="archive">{$locale->tr("archives")}
+<ul>
+<form class="sideForm" name="sideForm" action="http://www.taniquetil.com.ar/plog/redir.php">
+<select onChange="javascript:elqueva();" name="location">
+  <option value="">Elija el mes</option>
+  {foreach from=$archives item=archive}
+    {assign var=nombre value=$archive->getName()} 
+    <option value="{$archive->getUrl()}">&nbsp;{$nombre|capitalize}&nbsp;</option>
+  {/foreach}
+</select>
+</form>
+
+</ul>
+</li>
+
+<li id="meta"> Meta
+<ul>
+  <li><a title="Link to the RSS 1.0 feed." href="{$url->rssLink("rss10")}">RSS 1.0</a></li>
+  <li><a title="Link to the RSS 2.0 feed." href="{$url->rssLink("rss20")}">RSS 2.0</a></li>
+  <li><a title="Link to the Atom 0.3 feed." href="{$url->rssLink("atom")}">Atom 0.3</a></li>
+</ul> 
+</li>
+
+<li id="style">{$locale->tr("links")}
+<ul>
+{foreach from=$mylinkscategories item=linkcategory}
+  <li><b>{$linkcategory->getName()}</b>
+  <ul>
+  {foreach from=$linkcategory->getLinks() item=link}
+    <li><a href="{$link->getUrl()}" title="{$link->getDescription()}">{$link->getName()}</a></li>
+  {/foreach}
+  </ul>
+  </li>
+{/foreach}  
+</ul>
+</li>
+
+<li>PROPAGANDA
+<ul>
+<div style="text-align: center;">
+  {fetch file="http://www.taniquetil.com.ar/cgi-bin/propaganda.py?f=c"}
+</div>
+</ul>
+</li>
+
+<li>LICENCIA
+<ul>
+<div style="text-align: center;">
+  <a href="http://creativecommons.org/licenses/by-nc-sa/2.5/deed.es_AR">
+    <img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-nc-sa/2.5/88x31.png" />
+  </a>
+</div>
+</ul>
+</li>
+<li>CONTACTO
+
+<ul>
+<div style="text-align: center;">
+  <img border="0" alt="Mi correo" title="Mi correo" src="http://www.taniquetil.com.ar/facundo/bdvfiles/facumail.png"/>
+</div>
+</ul>
+</li>
+
+</ul> 
+</div>

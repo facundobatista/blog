@@ -1,0 +1,45 @@
+{include file="$admintemplatepath/header.template"}
+{include file="$admintemplatepath/navigation.template" showOpt=showBlogUsers title=$locale->tr("editBlogUser")}
+
+ <form name="editBlogUser" id="editBlogUser" action="admin.php" method="post">
+   <fieldset class="inputField">
+  
+     <legend>{$locale->tr("newBlogUser")}</legend>
+     {include file="$admintemplatepath/formvalidate.template"}
+
+     <div class="field">
+      <label for="newBlogUserName">{$locale->tr("username")}</label>
+      <input type="text" disabled="disabled" id="newBlogUsername" name="newBlogUserName" value="{$edituser->getUsername()}" />
+      {include file="$admintemplatepath/validate.template" field=newBlogUserName message=$locale->tr("error_invalid_user")}
+     </div>
+
+     <div class="field">
+      <label for="perm">{$locale->tr("permissions")}</label>
+      <span class="required"></span>
+      <div class="formHelp">{$locale->tr("blog_user_permissions_help")}</div>
+        {$locale->tr("quick_permission_selection")}
+        </br>
+        <select name="preselection" onChange="togglePermissionSets('editBlogUser', this.value);">
+          <option value=""/>{$locale->tr("select")}</option>
+          <option value="basic_blog_permission"/>{$locale->tr("basic_blog_permission")}</option>
+          <option value="full_blog_permission"/>{$locale->tr("full_blog_permission")}</option>
+        </select><br/>     
+     	{foreach from=$perms item=perm}
+     	 {if !$perm->isAdminOnlyPermission()}
+     	 <input type="checkbox" class="checkbox" name="perm[]" value="{$perm->getId()}" {if $edituser->hasPermissionByName($perm->getName(),$blog->getId())}checked="checked"{/if}/>
+     	 {$locale->tr($perm->getDescription())}<br/>
+     	 {/if}
+     	{/foreach}
+     </div>
+
+  </fieldset>
+  <div class="buttons"> 
+	<input type="hidden" name="userId" value="{$edituser->getId()}" />
+    <input type="reset" value="{$locale->tr("reset")}" name="reset" />
+    <input type="submit" name="Add this user" value="{$locale->tr("update")}"/>
+    <input type="hidden" name="op" value="updateBlogUser"/>
+  </div> 
+ </form>
+
+{include file="$admintemplatepath/footernavigation.template"}
+{include file="$admintemplatepath/footer.template"}

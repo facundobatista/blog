@@ -1,0 +1,90 @@
+{include file="$admintemplatepath/header.template"}
+{include file="$admintemplatepath/navigation.template" showOpt=resources title=$locale->tr("editResource")}
+{include file="$admintemplatepath/successmessage.template"}
+{include file="$admintemplatepath/errormessage.template"}
+<form name="updateResourceInfo" method="post" action="admin.php">
+ <fieldset class="inputField">
+  <legend>{$locale->tr("editResource")}</legend>
+  <div style="float:left;width:70%;border-right:1px solid #BEBEBE;">
+   <div class="field">
+    <label for="resourceLink">{$locale->tr("file")}</label>
+	<div class="formHelp"></div>
+	<span id="resourceLink"><a target="_blank" href="{$url->resourceLink($resource)}">{$resource->getFileName()}</a></span>
+   </div>
+   <div class="field">
+    <label for="resourceInformation">{$locale->tr("information")}</label>
+	<div class="formHelp">{$locale->tr("resource_information_help")}</div>
+	{assign var=metadata value=$resource->getMetadataReader()}
+	<span id="resourceInformation">
+	{if $resource->isImage()}
+	 {assign var=imgPath value=$url->resourcePreviewLink($resource)}
+	 {$locale->tr("size")}: {$metadata->getFileSize()|round:$locale} ({$metadata->getFileSize()} {$locale->tr("bytes")})<br/>
+	 {$locale->tr("format")}: {$metadata->getFormat()|upper}<br/>
+	 {$locale->tr("dimensions")}: {$metadata->getWidth()} x {$metadata->getHeight()}<br/>
+	 {$locale->tr("bits_per_sample")}: {$metadata->getBitsPerSample()}<br/>
+	 {assign var=thumbnailformat value=$resource->getThumbnailFormat()}
+	 {$locale->tr("thumbnail_format")}: {$locale->tr($thumbnailformat)}<br/>
+	{elseif $resource->isSound()}
+	 {assign var=imgPath value="imgs/admin/icon_sound-48.png"}
+	 {$locale->tr("format")}: {$metadata->getFormat()|upper}<br/> 
+	 {$locale->tr("size")}: {$metadata->getFileSize()|round:$locale} ({$metadata->getFileSize()} {$locale->tr("bytes")})<br/>
+	 {$locale->tr("length")}: {$metadata->getLengthString()}<br/>
+	 {$locale->tr("sample_rate")}: {$metadata->getSampleRate()} Khz<br/> 
+	 {$locale->tr("number_of_channels")}: {$metadata->getChannels()|upper}<br/>
+	{elseif $resource->isVideo()}
+	 {assign var=imgPath value="imgs/admin/icon_video-48.png"}
+	 {$locale->tr("size")}: {$metadata->getFileSize()|round:$locale} ({$metadata->getFileSize()} {$locale->tr("bytes")})<br/>
+	 {$locale->tr("format")}: {$metadata->getFormat()|upper}<br/>
+	 {$locale->tr("length")}: {$metadata->getLengthString()}<br/>
+	 {$locale->tr("video_codec")}: {$metadata->getVideoCodec()}<br/>
+	 {$locale->tr("audio_codec")}: {$metadata->getAudioCodec()}<br/>
+	 {$locale->tr("dimensions")}: {$metadata->getWidth()} x {$metadata->getHeight()}<br/>
+	 {$locale->tr("bits_per_sample")}: {$metadata->getBitsPerSample()}<br/>
+	{elseif $resource->isZip()}
+	 {assign var=imgPath value="imgs/admin/icon_compressed-48.png"}
+	 {$locale->tr("size")}: {$metadata->getFileSize()|round:$locale} ({$metadata->getFileSize()} {$locale->tr("bytes")})<br/>
+	 {$locale->tr("number_of_files")}: {$metadata->getTotalFiles()}<br/>
+	 {$locale->tr("uncompressed_size")}: {$metadata->getUncompressedSize()} {$locale->tr("bytes")}<br/>
+	{else} 
+	 {assign var=imgPath value="imgs/admin/icon_file-48.png"}
+	 {$locale->tr("size")}: {$metadata->getFileSize()|round:$locale} ({$metadata->getFileSize()} {$locale->tr("bytes")})<br/>
+	{/if}
+	</span>   
+   </div>
+   <div class="field">
+    <label for="albumId">{$locale->tr("album")}</label>
+	<span class="required">*</span>	
+	<div class="formHelp">{$locale->tr("resource_album_help")}</div>
+	<select name="albumId" id="albumId">
+     {foreach from=$albums item=albumItem}
+      <option value="{$albumItem->getId()}" {if $albumItem->getId()==$albumId}selected="selected"{/if}>
+	  {assign var=indentLevel value=$albumItem->getValue("level")}
+	  {textformat indent=$indentLevel indent_char="&nbsp;&nbsp;&nbsp;"}{$albumItem->getName()}{/textformat}
+	  </option>
+     {/foreach}
+	</select> 
+   </div>
+   <div class="field">
+    <label for="resourceDescription">{$locale->tr("description")}</label>
+	<div class="formHelp">{$locale->tr("resource_description_help")}</div>
+	<span class="required"></span>
+    <textarea name="resourceDescription" id="resourceDescription" rows="7" cols="60">{$resourceDescription}</textarea>
+   </div>
+  </div>
+  <div style="float:center">
+   	<img src="{$imgPath}" alt="Preview" style="display:block;margin-left:auto;margin-right:auto" /><br/>
+  </div> 
+</fieldset> 
+<div class="buttons">
+ {if $resource->isImage()}
+  {** this should only appear for images... **}
+  <input type="submit" name="regenerate" value="{$locale->tr("regenerate_preview")}" />
+ {/if}
+ <input type="reset" name="reset" value="{$locale->tr("reset")}" />
+ <input type="hidden" name="op" value="updateResource" />
+ <input type="hidden" name="resourceId" value="{$resource->getId()}" />
+ <input type="submit" name="Update" value="{$locale->tr("update")}" />
+</div> 
+</form>
+{include file="$blogtemplate/footernavigation.template"}
+{include file="$blogtemplate/footer.template"}

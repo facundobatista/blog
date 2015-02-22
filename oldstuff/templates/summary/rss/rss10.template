@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="{$locale->getCharset()}"?>
+<?xml-stylesheet href="{$url->getUrl("/styles/rss.css")}" type="text/css"?>
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns="http://purl.org/rss/1.0/"
+ xmlns:dc="http://purl.org/dc/elements/1.1/"
+>
+ <channel rdf:about="{$url->getRssUrl()}?summary=1&amp;profile=rss10">
+  <title>{$serviceName}</title>
+  <description>Your service description</description>
+  <link>{$url->getBaseUrl(false)}/summary.php</link>
+  <items>
+   <rdf:Seq>
+   {foreach from=$posts item=post}
+    {assign var=blog value=$post->getBlogInfo()}
+    {assign var=url value=$blog->getBlogRequestGenerator()}    
+    <rdf:li rdf:resource="{$url->postPermalink($post)}" />
+   {/foreach}
+   </rdf:Seq>
+  </items> 
+ </channel>
+  {foreach from=$posts item=post}
+   {assign var=blog value=$post->getBlogInfo()}
+   {assign var=url value=$blog->getBlogRequestGenerator()}    
+  <item rdf:about="{$url->postPermalink($post)}">
+   <title>{$post->getTopic()|escape}</title>
+   <dc:title>{$post->getTopic()|escape}</dc:title>
+   <description>{$post->getText()|escape}</description>
+   <link>{$url->postPermalink($post)}</link>
+   {assign var="postDate" value=$post->getDateObject()}
+   <dc:date>{$locale->formatDate($postDate, "%Y-%m-%dT%H:%M:%S%G")}</dc:date>
+   {assign var="postOwner" value=$post->getUserInfo()}
+   <dc:creator>{$postOwner->getUsername()}</dc:creator>
+  </item>
+  {/foreach}
+</rdf:RDF>

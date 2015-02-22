@@ -1,0 +1,72 @@
+{include file="$admintemplatepath/header.template"}
+{include file="$admintemplatepath/navigation.template" showOpt=blogCustomFields title=$locale->tr("blogCustomFields")}
+<script type="text/javascript">
+{literal}
+YAHOO.util.Event.addListener( window, "load", function() {
+		var t = new Lifetype.UI.TableEffects( "list" );
+		t.stripe();
+		t.highlightRows();
+	});
+{/literal}
+</script>
+        <form id="customFields" action="admin.php" method="post">
+        <div id="list">
+  {include file="$admintemplatepath/successmessage.template"}
+  {include file="$admintemplatepath/errormessage.template"}
+		
+            <table id="list" class="info" summary="{$locale->tr("blogCustomFields")}">
+                <thead>
+                    <tr>
+                        <th><input class="checkbox" type="checkbox" name="all" id="all" value="1" onclick="toggleAllChecks('customFields');" /></th>
+                        <th style="width:25%;">{$locale->tr("name")}</th>
+                        <th style="width:40%">{$locale->tr("description")}</th>
+                        <th style="width:15%">{$locale->tr("type")}</th>                        
+                        <th style="width:10%">{$locale->tr("hidden")}</th>
+                        <th style="width:10%">{$locale->tr("actions")}</th>
+                    </tr>
+                </thead>
+				<tbody>
+				 {foreach from=$fields item=field}
+				 <tr>
+				   <td>
+				     <input class="checkbox" type="checkbox" name="fieldIds[{$field->getId()}]" id="checks_1" value="{$field->getId()}" />				   
+				   </td>
+				   <td class="col_highlighted">
+				     {check_perms perm=update_custom_field}<a href="admin.php?op=editCustomField&amp;fieldId={$field->getId()}">{/check_perms}{$field->getName()}{check_perms perm=update_custom_field}</a>{/check_perms}
+				   </td>
+				   <td>
+				     {$field->getDescription()}
+				  </td>
+				  <td>
+				    {if $field->getType() == 1}{$locale->tr("text_field")}{/if}
+					{if $field->getType() == 2}{$locale->tr("text_area")}{/if}
+					{if $field->getType() == 3}{$locale->tr("checkbox")}{/if}
+					{if $field->getType() == 4}{$locale->tr("date_field")}{/if}
+					{if $field->getType() == 5}{$locale->tr("dropdown_list_field")}{/if}					
+				 </td>	
+				 <td>
+				   {if $field->isHidden()}{$locale->tr("yes")}{else}{$locale->tr("No")}{/if}
+				 </td>
+                 <td>
+                    <div class="list_action_button">
+					   {check_perms perm=update_custom_field}
+                       <a href="?op=editCustomField&amp;fieldId={$field->getId()}"><img src="imgs/admin/icon_edit-16.png" alt="{$locale->tr("editCustomField")}" /></a>
+                       <a href="?op=deleteCustomField&amp;fieldId={$field->getId()}"><img src="imgs/admin/icon_delete-16.png" alt="{$locale->tr("delete")}" /></a>
+					   {/check_perms}
+                     </div>
+                  </td>				 
+			  </tr>
+			  {/foreach}
+			  </tbody>
+			</table>
+        </div>
+        <div id="list_action_bar">
+	    {adminpager style=list}
+		{check_perms perm=update_custom_field}
+            <input type="submit" name="delete" value="{$locale->tr("delete")}" class="submit" />
+            <input type="hidden" name="op" value="deleteCustomFields" />
+		{/check_perms}
+        </div>
+</form>
+{include file="$admintemplatepath/footernavigation.template"}
+{include file="$admintemplatepath/footer.template"}

@@ -1,0 +1,195 @@
+{include file="$admintemplatepath/chooser/header.template"}
+<script type="text/javascript" src="js/tinymce/tiny_mce-plog-resourcelist.js"></script>
+<script type="text/javascript" src="js/ui/plogui.js"></script>
+
+{if $htmlarea}
+  <script type="text/javascript" src="js/tinymce/tiny_mce_popup.js"></script>
+{/if}
+
+{literal}
+<style>
+#resource_list_upload
+{
+    border-bottom    : 4px solid #DEDEDE;
+	border-collapse: collapse;
+	text-align: left;
+}
+</style>
+
+<script type="text/javascript">
+YAHOO.util.Event.addListener( window, "load", function() {
+		var t = new Lifetype.UI.TableEffects( "list" );
+		t.stripe();
+		t.highlightRows();
+	});
+</script>
+{/literal}
+
+<div id="list_nav_bar">
+<div id="list_nav_select"> 
+<form id="resourceListAlbum" action="admin.php" method="post">
+ <fieldset>
+  <legend>{$locale->tr("show_by")}</legend>
+   <div class="list_nav_option">
+    <label for="albumId">{$locale->tr("album")}</label>
+	<br />
+    <select name="albumId" id="albumId">
+      <option value="0">{$locale->tr("root_album")}</option>
+	  {foreach from=$albumsList item=albumItem}
+	    {assign var=indentLevel value=$albumItem->getValue("level")}
+		<option value="{$albumItem->getId()}" {if $album}{if $album->getName()==$albumItem->getName()}selected="selected"{/if}{/if}>
+		  {textformat indent=$indentLevel indent_char="&nbsp;&nbsp;&nbsp;"}{$albumItem->getName()}{/textformat}   
+		</option>
+	  {/foreach}
+    </select>
+   </div>
+   <div class="list_nav_option">
+    <br />
+    <input type="hidden" name="op" value="resourceList" />
+    <input type="submit" name="Show" value="{$locale->tr("show")}" />
+   </div>
+  </fieldset> 
+ </form> 
+ </div>
+ <br style="clear:both" />
+ </div>
+
+ <div id="container">
+  {include file="$admintemplatepath/successmessage.template"}
+  {include file="$admintemplatepath/errormessage.template"} 
+<table id="list" class="info" summary="{$locale->tr("resources")}">
+ <thead>
+  <tr>
+    <th style="width:75%;">{$locale->tr("resource")}</th>
+    <th style="width:25%;">{$locale->tr("actions")}</th>
+  </tr>
+ </thead>
+ <tbody>
+  {if $album && $pager->getCurrentPage()==1}
+   <tr>
+    <td>
+     <a href="admin.php?op=resourceList&amp;albumId={$album->getParentId()}&amp;page=1">
+     <img src="imgs/admin/icon_folder-72.png" border="0" alt="Parent" />&nbsp;<br/>..</a>
+    </td>
+    <td>
+	{if $resources_enabled}
+	<a onclick="_toggle('resource_list_upload');" href="#upload">
+		<span style="font-size:13px;font-weight:bold">{$locale->tr("upload_here")}</span>
+	</a> </td>
+	{/if}
+   </tr>
+  {/if}
+  {foreach from=$albums item=resalbum}
+   <tr>
+    <td>
+     <a href="admin.php?op=resourceList&amp;albumId={$resalbum->getId()}&amp;page=1">
+     <img src="imgs/admin/icon_folder-72.png" border="0" alt="folder" /><br/>{$resalbum->getName()}</a><br/>
+    </td>
+    <td>
+    {assign var=albumLink value=$url->albumLink($resalbum)}
+    {assign var=albumName value=$resalbum->getName()}
+    {assign var=albumDesc value=$resalbum->getDescription()}
+    {if $htmlarea}
+      <a href="javascript:addHtmlareaAlbumLink('{$albumLink}','{$albumName|escape:"javascript"}','{$albumDesc|escape:"javascript"}');">{$locale->tr("add_album")}</a><br/>
+    {else}
+      <a href="javascript:addAlbumLink('{$albumLink}','{$albumName|escape:"javascript"}','{$albumDesc|escape:"javascript"}');">{$locale->tr("add_album")}</a><br/>
+    {/if}
+   </td>
+   </tr>
+{/foreach}
+{foreach from=$resources item=resource}
+<tr>
+ <td>
+  {if $resource->hasPreview()}
+   <img src="{$url->resourcePreviewLink($resource)}" alt="Preview" />
+  {else}
+   {if $resource->isSound()}
+    <img alt="Sound" src="imgs/admin/icon_sound-48.png" height="48" width="48" style="border:0px;" />
+   {elseif $resource->isVideo()}
+    <img alt="Video" src="imgs/admin/icon_video-48.png" height="48" width="48" style="border:0px;" />
+   {elseif $resource->isZip()}
+    <img alt="Zip" src="imgs/admin/icon_compressed-48.png" height="48" width="48" style="border:0px;" />   
+   {else}
+    <img alt="File" src="imgs/admin/icon_file-48.png" height="48" width="48" style="border:0px;" />
+   {/if}	
+  {/if}
+  <a target="_blank" href="{$url->resourceLink($resource)}"><br/>{$resource->getFileName()}</a>
+  </td>
+  <td>
+  {assign var=resourceId value=$resource->getId()}
+  {assign var=resourceLink value=$url->resourceLink($resource)}
+  {assign var=resourceDownloadLink value=$url->rawResourceDownloadLink($resource)}
+  {assign var=resourceMediumSizePreviewLink value=$url->rawResourceMediumSizePreviewLink($resource)}
+  {assign var=resourcePreviewLink value=$url->rawResourcePreviewLink($resource)}
+  {assign var=resourceName value=$resource->getFileName()}
+  {assign var=resourceDesc value=$resource->getDescription()}
+  {assign var=resourceType value=$resource->getResourceType()}
+  {assign var=resourceMimeType value=$resource->getMimeType()}
+  {if $htmlarea}
+    <a href="javascript:addHtmlareaLink('{$resourceId}','{$resourceDownloadLink|escape:"javascript"}','','{$resourceName|escape:"javascript"}','{$resourceDesc|escape:"javascript"}','{$resourceType}','{$resourceMimeType}');">{$locale->tr("add_resource")}</a><br/> 
+  {else}
+    <a href="javascript:addResourceLink('{$resourceId}','{$resourceDownloadLink|escape:"javascript"}','','{$resourceName|escape:"javascript"}','{$resourceDesc|escape:"javascript"}','{$resourceType}','{$resourceMimeType}');">{$locale->tr("add_resource")}</a><br/>
+  {/if}
+  {if $resource->hasPreview()}
+    {if $htmlarea}
+      <a href="javascript:addHtmlareaLink('{$resourceId}','{$resourcePreviewLink|escape:"javascript"}','{$resourceDownloadLink|escape:"javascript"}','{$resourceName|escape:"javascript"}','{$resourceDesc|escape:"javascript"}','{$resourceType}','{$resourceMimeType}');">{$locale->tr("add_resource_preview")}</a><br/>
+      <a href="javascript:addHtmlareaLink('{$resourceId}','{$resourceMediumSizePreviewLink|escape:"javascript"}','{$resourceDownloadLink|escape:"javascript"}','{$resourceName|escape:"javascript"}','{$resourceDesc|escape:"javascript"}','{$resourceType}','{$resourceMimeType}');">{$locale->tr("add_resource_medium")}</a><br/>
+    {else}
+      <a href="javascript:addResourceLink('{$resourceId}','{$resourcePreviewLink|escape:"javascript"}','{$resourceDownloadLink|escape:"javascript"}','{$resourceName|escape:"javascript"}','{$resourceDesc|escape:"javascript"}','{$resourceType}','{$resourceMimeType}');">{$locale->tr("add_resource_preview")}</a><br/>
+      <a href="javascript:addResourceLink('{$resourceId}','{$resourceMediumSizePreviewLink|escape:"javascript"}','{$resourceDownloadLink|escape:"javascript"}','{$resourceName|escape:"javascript"}','{$resourceDesc|escape:"javascript"}','{$resourceType}','{$resourceMimeType}');">{$locale->tr("add_resource_medium")}</a><br/>
+    {/if}
+  {/if}
+  {if $resource->isSound()}
+      <a href="javascript:insertMediaPlayer('{$resourceDownloadLink|escape:"javascript"}','{$htmlarea}','20','300')">{$locale->tr("insert_player")}</a>
+  {elseif $resource->isVideo() && $resource->getFileExtension(true) == "flv"}
+      {assign var=metadata value=$resource->getMetadataReader()}
+      {assign var=height value=$metadata->getHeight()}
+      {assign var=width value=$metadata->getWidth()}
+      <a href="javascript:insertMediaPlayer('{$resourceDownloadLink|escape:"javascript"}','{$htmlarea}','{$height}','{$width}')">{$locale->tr("insert_player")}</a>
+  {/if}
+ </td>
+{/foreach}
+</tbody>
+</table>
+{if $album && $resources_enabled}
+{** show this album only if we're not browsing the root album and resources are enabled **}
+<a name="upload"></a>
+<div id="resource_list_upload" style="display: none;">
+ <form name="uploadFile" method="post" action="admin.php" enctype="multipart/form-data">
+ <fieldset class="inputField">
+  <legend>{$locale->tr("upload_here")}</legend>
+  <div class="field">
+   <label for="resourceFile_1">{$locale->tr("file")}</label>
+   <span class="required">*</span>
+   <input type="file" name="resourceFile_1" value="" id="resourceFile_1" />
+  </div> 
+  <div class="field">
+   <label for="resourceDescription">{$locale->tr("description")}</label>
+   <span class="required">*</span>
+   <textarea name="resourceDescription" id="resourceDescription" rows="5" style="width:100%"></textarea>
+  </div> 
+  </fieldset>
+  <div class="buttons" id="buttons" style="padding-bottom:7px">
+  <input type="reset" name="reset" value="{$locale->tr("reset")}" />
+  <input type="submit" name="Upload" onclick="showProgressBar('buttons')" value="{$locale->tr("add")}" />
+  <input type="hidden" name="albumId" value="{$album->getId()}" />
+  <input type="hidden" name="op" value="addResource" /><br/>
+  <input type="hidden" name="destView" value="resourceList" />
+  </div>
+  <div class="status_bar" id="status_bar" style="display: none;">
+    {$locale->tr("upload_in_progress")}&nbsp;
+    <img src="imgs/admin/spinner_small.gif" alt="Spinner" />    
+  </div>
+ </form>
+</div>
+{/if}
+<div id="list_action_bar">
+  {adminpager style=list}   
+  {if $htmlarea}
+    <input id="close_button" type="button" onClick="javascript:onCancel()" value="{$locale->tr("close")}" />
+  {else}
+    <input id="close_button" type="button" onClick="window.close()" value="{$locale->tr("close")}" />
+  {/if}
+</div>
+</div>
+{include file="$admintemplatepath/chooser/footer.template"}

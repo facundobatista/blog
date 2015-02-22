@@ -1,0 +1,6 @@
+{if $viewIsError}
+<div id="FormError">
+  <img src="imgs/admin/icon_warning-16.png" alt="Info" class="InfoIcon" />
+  <p class="ErrorText">{if $message==""}{$viewErrorMessage}{else}{$message}{/if}</p>
+</div>
+{/if}

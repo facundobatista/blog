@@ -1,0 +1,147 @@
+{include file="$admintemplatepath/header.template"}
+{include file="$admintemplatepath/navigation.template" showOpt=editSiteBlogs title=$locale->tr("editSiteBlogs")}
+<script type="text/javascript" src="js/ui/plogui.js"></script>
+<script type="text/javascript">
+	var errorStatusMsg = '{$locale->tr("error_select_status")}';
+	var showMassiveChangeOption = '{$locale->tr("show_massive_change_option")}';
+	var hideMassiveChangeOption = '{$locale->tr("hide_massive_change_option")}';
+</script>
+        <div id="list_nav_bar">
+            <div id="list_nav_select">
+            
+<form id="viewBlogs" action="admin.php" method="post">
+ <fieldset>
+  <legend>{$locale->tr("show_by")}</legend>
+   <div class="list_nav_option">
+    <label for="status">{$locale->tr("status")}</label>
+	<br />
+    <select name="status" id="status">
+    {foreach from=$blogstatus key=name item=status}
+      <option value="{$status}" {if $currentstatus == $status} selected="selected"{/if}>{$locale->tr($name)}</option>
+    {/foreach}
+    </select>
+   </div>
+   
+   <div class="list_nav_option">
+   <label for="search">{$locale->tr("search_terms")}</label>
+   <br />
+   <input type="text" name="searchTerms" value="{$searchTerms|escape:"html"}" size="15" id="search" />
+   </div>   
+   
+   <div class="list_nav_option">
+    <br />
+    <input type="hidden" name="op" value="editSiteBlogs" />
+    <input type="submit" name="Show" value="{$locale->tr("show")}" />
+   </div>
+
+	<div class="list_nav_option">
+		<br/>
+		<a href="{$pager->getCurrentPageLink()}" title="{$locale->tr("bookmark_this_filter")}">
+			<img style="border:0px" src="imgs/admin/icon_link-16.png" alt="{$locale->tr("bookmark_this_filter")}" />
+		</a>
+	</div>
+  </fieldset> 
+ </form> 
+ </div>
+ <br style="clear:both" />
+ </div> 
+ 
+ <form id="editBlogs" method="post" action="admin.php">
+{check_perms adminperm=update_site_blog}	
+     <div class="optionIcon">
+		<a id="optionIconLink" href="#bulkEdit" title="{$locale->tr("show_massive_change_option")}" onclick="switchMassiveOption()">{$locale->tr("show_massive_change_option")}</a>
+	</div>
+{/check_perms}	
+  <div id="list"> 
+  {include file="$admintemplatepath/successmessage.template"}
+  {include file="$admintemplatepath/errormessage.template"}
+   <table id="list" class="info" summary="{$locale->tr("editSiteBlogs")}">
+    <thead>
+     <tr>
+      <th><input class="checkbox" type="checkbox" name="all" id="all" value="1" onclick="toggleAllChecks('editBlogs');" /></th>
+      <th style="width:35%;">{$locale->tr("blog")}</th>
+      <th style="width:25%">{$locale->tr("owner")}</th>
+      <th style="width:15%;">{$locale->tr("status")}</th>
+	  <th style="width:10%;">{$locale->tr("quota")}</th> 
+      <th style="width:25%;">{$locale->tr("actions")}</th>
+     </tr>
+    </thead>
+    <tbody>
+     {foreach from=$siteblogs item=siteblog}
+      <tr>
+       <td><input class="checkbox" type="checkbox" name="blogIds[{counter}]" value="{$siteblog->getId()}"/></td>
+       <td class="col_highlighted">
+        {check_perms adminperm=update_site_blog}<a href="?op=editBlog&amp;blogId={$siteblog->getId()}">{/check_perms}{$siteblog->getBlog()}{check_perms adminperm=update_site_blog}</a>{/check_perms}
+       </td>
+       <td>
+	    {assign var=ownerInfo value=$siteblog->getOwnerInfo()}
+	    <a href="?op=editSiteUser&amp;userId={$ownerInfo->getId()}">{$ownerInfo->getUsername()}</a>
+	   </td>
+       <td>
+        {foreach from=$blogstatus key=name item=status}
+          {if $siteblog->getStatus() == $status}
+          {if $status == 2}<span style="color:red">{$locale->tr($name)}</span>
+		  {else}{$locale->tr($name)}{/if}
+		  {/if}
+        {/foreach}        
+       </td>       
+	   <td>
+		{$siteblog->getResourcesQuota()|round:$locale}
+	   </td>
+       <td>
+        <div class="list_action_button">
+	     {check_perms adminperm=update_site_blog}
+         <a href="?op=deleteBlog&amp;blogId={$siteblog->getId()}" title="{$locale->tr("delete")}">
+	       <img src="imgs/admin/icon_delete-16.png" alt="{$locale->tr("delete")}" />
+	     </a>
+         <a href="?op=editBlog&amp;blogId={$siteblog->getId()}" title="{$locale->tr("edit")}">
+	       <img src="imgs/admin/icon_edit-16.png" alt="{$locale->tr("edit")}" />
+	     </a>
+		 {assign var=blogUrl value=$siteblog->getBlogRequestGenerator()}
+       	 {assign var=blogname value=$siteblog->getBlog()}
+		 <a href="{$blogUrl->blogLink()}" title="{$locale->pr("goto_blog_page",$blogname)}">
+		   <img src="imgs/admin/icon_goto-16.png" alt="{$locale->pr("goto_blog_page",$blogname)}" />
+		 </a>
+		 {if $siteblog->getStatus() == 3}
+         <a href="?op=resendConfirmation&amp;blogId={$siteblog->getId()}" title="{$locale->tr("resend_confirmation_blog")}">
+	       <img src="imgs/admin/icon_mail-16.png" alt="{$locale->tr("resend_confirmation_blog")}" />
+	     </a>
+		 {/if}
+		 {/check_perms}
+		 {check_perms adminperm=edit_blog_admin_mode}
+		 <a href="?op=adminBlogSelect&amp;blogId={$siteblog->getId()}&amp;action=controlCenter" title="{$locale->tr("administrate_user_blog")}">
+		   <img src="imgs/admin/icon_lock_open-16.png" alt="{$locale->tr("administrate_user_blog")}" />
+		 </a>
+		 {/check_perms}
+        </div>
+      </tr>
+     {/foreach}
+    </tbody> 
+   </table>
+  </div>
+ <a name="bulkEdit"></a>
+  <div id="list_action_bar">
+	{adminpager style="list"}
+	{check_perms adminperm=update_site_blog}
+    <input type="hidden" name="op" value="deleteBlogs"/>
+    <input type="submit" name="{$locale->tr("delete")}" value="{$locale->tr("delete")}"/>  
+    {/check_perms}
+	{check_perms adminperm=update_site_blog}
+    <div id="massiveChangeOption" style="display: none">
+        <fieldset>	
+        <legend>{$locale->tr("massive_change_option")}</legend>            
+            <label for="blogStatus">{$locale->tr("status")}</label>
+            <select name="blogStatus" id="blogStatus">
+              <option value="-1">-{$locale->tr("select")}-</option>
+		    	{foreach from=$blogstatus key=name item=status}
+		      		{if $status != -1}<option value="{$status}">{$locale->tr($name)}</option>{/if}
+		    	{/foreach}	
+            </select>
+            <input type="button" name="changeBlogStatus" value="{$locale->tr("change_status")}" class="submit" onClick="javascript:submitBlogsList('changeBlogStatus');" /> 
+        </fieldset>
+	</div>
+	{/check_perms}
+  </div> 
+ </form>
+{include file="$admintemplatepath/footernavigation.template"}
+{include file="$admintemplatepath/footer.template"}

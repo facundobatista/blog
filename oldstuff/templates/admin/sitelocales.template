@@ -1,0 +1,58 @@
+{include file="$admintemplatepath/header.template"}
+{include file="$admintemplatepath/navigation.template" showOpt=siteLocales title=$locale->tr("siteLocales")}
+<script type="text/javascript">
+{literal}
+YAHOO.util.Event.addListener( window, "load", function() {
+		var t = new Lifetype.UI.TableEffects( "list" );
+		t.stripe();
+		t.highlightRows();
+	});
+{/literal}
+</script>
+ <form id="editLocales" method="post" action="admin.php">
+  <div id="list">
+  {include file="$admintemplatepath/successmessage.template"}
+  {include file="$admintemplatepath/errormessage.template"}
+   <table id="list" class="info" summary="{$locale->tr("siteLocales")}">
+    <thead>
+     <tr>
+      <th><input class="checkbox" type="checkbox" name="all" id="all" value="1" onclick="toggleAllChecks('editLocales');" /></th>
+      <th style="width:10%;">{$locale->tr("locale")}</th>
+      <th style="width:15%;">{$locale->tr("locale_encoding")}</th>
+      <th style="width:60%;">{$locale->tr("description")}</th>
+      <th style="width:10%;">{$locale->tr("actions")}</th>
+     </tr>
+    </thead>
+    <tbody>
+    {foreach from=$locales item=sitelocale}
+     <tr>
+      <td>
+       <input class="checkbox" type="checkbox" name="localeIds[{counter}]" value="{$sitelocale->getLocaleCode()}"/>
+      </td>
+      <td>{$sitelocale->getLocaleCode()}</td>
+      <td>{$sitelocale->getCharset()}</td>
+      <td class="col_highlighted">{$sitelocale->getDescription()|truncate:80:"..."}</td>
+      <td>
+       <div class="list_action_button">
+	    {check_perms adminperm=update_locale}
+        <a href="?op=deleteLocale&amp;localeId={$sitelocale->getLocaleCode()}" title="{$locale->tr("delete")}">
+	      <img src="imgs/admin/icon_delete-16.png" alt="{$locale->tr("delete")}" />
+	    </a>
+       {/check_perms} 
+       </div>
+      </td>
+     </tr>
+     {/foreach}    
+    </tbody>  
+  </table>
+ </div>
+ <div id="list_action_bar">
+   {check_perms adminperm=update_locale}
+   <input type="submit" name="delete" value="{$locale->tr("delete")}" class="submit" />
+   <input type="hidden" name="op" value="deleteLocales" />
+   {/check_perms}
+ </div>
+</form>
+
+{include file="$admintemplatepath/footernavigation.template"}
+{include file="$admintemplatepath/footer.template"}

@@ -1,0 +1,862 @@
+/* -------------------------------------------------------------- */
+/* Common stuff and basic page layout                             */
+/* -------------------------------------------------------------- */
+html, body
+{
+    margin           : 0px;
+    padding          : 0px;
+    text-align       : center;
+    font             : 12px Tahoma;
+    background       : #EEEEEE url("../imgs/bg_main.jpg") repeat-y center;
+}
+
+#container
+{
+    width            : 786px;
+    text-align       : right;
+    margin-left      : auto;
+    margin-right     : auto;
+}
+
+#header
+{
+    height           : 80px;
+    width            : 100%;
+    background       : #FFFFFF url("../imgs/top_admin.jpg") no-repeat right;
+    padding          : 0px;
+    margin           : 0px;
+}
+
+#header #blogLink
+{
+    float: left;    width : 783px;    height: 52px;
+    margin-top: 5px;}
+
+#header span
+{
+    display          : none;
+}
+
+#header h1
+{
+    margin           : 0;
+}
+
+#content
+{
+    position         : relative;
+    width            : 100%;
+    display          : block;
+    margin           : 0;
+    padding          : 0;
+	direction:rtl;
+}
+
+#dashboard
+{
+    padding-left     : 1em;
+    padding-right    : 1em;
+}
+
+.clr
+{
+    clear            : both;
+}
+
+/*-- Accessibility Tweaks --*/
+#skipNav
+{
+    position         : absolute;
+    left             : -9999px;
+    font-size        : small;
+}
+
+#skipNav a:focus
+{
+    display          : block;
+    position         : absolute;
+    top              : 20px;
+    left             : 10020px;
+    font-size        : large;
+    background       : #fff;
+    border           : solid 2px #1B6BD8;
+    padding          : 10px;
+    width            : 15em;
+    z-index          : 1;
+}
+
+#skipNav a:hover
+{
+    color            : #029EDE;
+}
+
+#skipNav a:active
+{
+    display          : block;
+    position         : absolute;
+    top              : 20px;
+    left             : 10020px;
+    font-size        : large;
+    background       : #fff;
+    border           : solid 2px #1B6BD8;
+    padding          : 10px;
+    width            : 15em;
+    z-index          : 1;
+}
+
+.hide
+{
+    display          : none;
+}
+
+/* -------------------------------------------------------------- */
+/* Navigation/menu bar                                            */
+/* -------------------------------------------------------------- */
+
+#menubar
+{
+    background       : #FFFFFF url("../imgs/bg_menu.jpg") repeat-x;
+    height           : 20px;
+}
+
+#menu
+{
+    padding-top      : 1px;
+    padding-bottom   : 1px;	
+}
+
+#menu ul
+{
+    padding         : .2em 0;
+    margin          : 0px;
+    list-style-type : none;
+    color           : #FFF;
+    width           : 100%;
+    text-align      : center;
+}
+
+#menu li
+{
+
+    position         : relative;
+    padding          : 0px;
+    border-right      : 0px solid #B4B4B4;
+    display          : inline;
+    font-family      : Tahoma;
+    font-size        : 12px;
+	
+	
+}
+
+#menu a, #menu a:link, #menu a:visited
+{
+    padding          : .2em 1em 0 1em;
+    color            : #0E3862;
+    text-decoration  : none;	
+}
+
+#menu a:hover
+{
+	font-weight:bold;
+}
+
+#menu li.selected
+{
+    display          : block;
+    width            : auto;
+    padding          : 2px 7px;
+    background       : #FFFFFF;
+    color            : #000000;
+    border-bottom    : 1px solid #FFFFFF;
+}
+
+#menu br
+{
+    clear: both;	
+}
+
+/* -------------------------------------------------------------- */
+/* Section title and navigation history bar                       */
+/* -------------------------------------------------------------- */
+
+#nav_bar
+{
+    margin-left      : auto;
+    margin-right     : auto;
+    width            : 100%;
+    margin-bottom    : 15px;
+    border-bottom    : 1px dotted #DEDEDE;
+}
+
+#section_title
+{
+    float            : right;
+    width            : 39%;
+}
+
+#section_title h2
+{
+    color            : #588BCA;
+    font-family      : Tahoma;
+    font-size        : 1.5em;
+    margin           : 0;
+    padding-right     : 10px;
+}
+
+#navigation
+{
+    float            : left;
+    width            : 60%;
+    text-align       : left;
+    padding-top      : 7px;
+    font-family      : Tahoma;
+    font-size        : 10px;
+    padding-left    : 5px;
+}
+
+#navigation a
+{
+    color            : #000000;
+    text-decoration  : none;
+}
+
+#navigation a:hover
+{
+    color            : #5583BE;
+    text-decoration  : none;
+}
+
+/* -------------------------------------------------------------- */
+/* Admin Tabbed Ul's                                              */
+/* -------------------------------------------------------------- */
+
+#tablist
+{
+    padding          : 0 0 3px;
+    margin-right      : 0;
+    font             : 11px Tahoma;
+    border-bottom    : 1px solid #DEDEDE;
+}
+
+#tablist li
+{
+    list-style       : none;
+    margin           : 0;
+    display          : inline;
+}
+
+#tablist li a
+{
+    padding          : 3px 0.5em;
+    margin-right      : 3px;
+    border           : 1px solid #DEDEDE;
+    background       : #F4F4FF;
+    text-decoration  : none;
+}
+
+#tablist li a:link
+{
+    color            : #448;
+}
+
+#tablist li a:visited
+{
+    color            : #667;
+}
+
+#tablist li a:hover
+{
+    color            : #000;
+    background       : #F2F0FE;
+    border-color     : #DEDEDE;
+}
+
+#tablist li a#tab_current
+{
+    background       : white;
+    border-bottom    : 1px solid white;
+}
+
+.menuTop_level1 ul, li
+{
+    list-style-type: none;
+}
+
+.menuTop_level1 ul
+{
+  list-style-type: disc;
+  list-style-image: url(../imgs/bullet.gif);
+}
+
+
+/* -------------------------------------------------------------- */
+/* Form controls (input, ...)                                     */
+/* -------------------------------------------------------------- */
+
+form
+{
+    margin           : 0px;
+}
+
+fieldset
+{
+    border           : 1px solid #DEDEDE;
+    color            : #000000;
+    font-family      : Tahoma;
+    font-size        : 0.90em;
+    padding-bottom   : 0px;
+    margin           : 0px;
+}
+
+textarea, input, select
+{
+    background       : #FFFFFF;
+    border           : 1px solid #b2b2b2;
+    color            : #000000;
+    font-family      : Tahoma;
+    font-size        : 0.95em;
+}
+
+input:focus, textarea:focus, label:focus
+{
+    border           : 1px solid #5583BE;
+}
+
+.checkbox, .radio
+{
+    border           : 0px;
+}
+
+.submit
+{
+    /*margin-left      : 4px;*/
+}
+
+.list_action_button a img
+{
+    border           : 0px;
+    padding          : 0px;
+}
+
+.list_action_button a:hover img
+{
+/*    filter            : alpha(opacity=60);
+    -moz-opacity      : 0.6;*/
+}
+
+.field
+{
+    top              : 0;
+/*    left             : 0px; */
+    margin           : 1em 0 1em 0;
+    direction:rtl;
+}
+
+.field .field
+{
+    margin           : 1em 0 0 0;
+
+}
+
+.field label
+{
+    font-size        : 100%;
+    font-weight      : bold;
+
+}
+
+.field_checkbox
+{
+    top              : 0;
+    left             : 0;
+}
+
+.field_checkbox label
+{
+    font-size        : 100%;
+}
+
+.formHelp
+{
+    font-size        : 90%;
+    color            : #76797c;
+    margin           : 0 0 0.2em 0;
+}
+
+.formHelp a
+{
+    text-decoration  : underline;
+}
+
+.formHelp:hover
+{
+    color            : Black;
+    cursor           : default;
+}
+
+fieldset
+{
+    border           : 1px solid #8cacbb;
+    margin           : 1em 0em 1em 0em;
+    padding          : 0em 1em 1em 1em;
+    line-height      : 1.5em;
+    width            : auto;
+}
+
+.inputField
+{
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #FCFCFF;
+    border: 1px solid #DEDEDE;
+}
+
+.buttons
+{
+    width: 88%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+
+.inputField input
+{
+    width:100%;
+}
+
+.inputField legend
+{
+    font-weight: bold;
+}
+
+.inputField .dateTime
+{
+   width: 80%;
+}
+
+.inputField .checkbox, .inputField .button, .inputField .radio
+{
+   width: auto;
+}
+
+.inputField .file
+{
+   width: auto;
+}
+
+.pager
+{
+    float:left;
+}
+
+/* -------------------------------------------------------------- */
+/* Data lists parameters & search bar                             */
+/* -------------------------------------------------------------- */
+
+#list_nav_bar
+{
+    margin-left      : auto;
+    margin-right     : auto;
+    width            : 98%;
+    background-color : #F3F1FF;
+    padding-bottom   : 4px;
+    padding-left     : 4px;
+    padding-right    : 4px;
+    margin-bottom    : 10px;
+    border           : 0px solid #DEDEDE;
+}
+
+#list_nav_bar fieldset
+{
+    border           : 1px solid #DEDEDE;
+    color            : #000000;
+    font-family      : Tahoma;
+    font-size        : 0.90em;
+    padding          : 0px;
+    margin           : 0px;
+    height           : 60px;
+}
+
+#list_nav_select
+{
+    float            : left;
+    width            : 100%;
+    text-align       : center;
+}
+
+#list_nav_search
+{
+    float            : left;
+    width            : 30%;
+    text-align       : center;
+}
+
+.list_nav_option
+{
+    float            : right;
+    text-align       : right;
+    padding          : 0px 4px 4px 4px;
+    margin-left      : 5px;
+}
+
+#list_nav_bar legend
+{
+    font-family      : Tahoma;
+    font-size        : 1.1em;
+    font-weight      : bold;
+    letter-spacing   : 0.08em;
+}
+
+#list_nav_select label
+{
+}
+
+/* -------------------------------------------------------------- */
+/* Data lists table format                                        */
+/* -------------------------------------------------------------- */
+
+.info
+{
+    margin-left      : auto;
+    margin-right     : auto;
+    margin-bottom    : 10px;
+    width            : 775px;
+    border-collapse  : collapse;
+    border-bottom    : 4px solid #DEDEDE;
+    border-spacing   : 0px;
+}
+
+.info th
+{
+    font-family      : Tahoma;
+    font-size        : 1.1em;
+    font-weight      : bold;
+    letter-spacing   : 0.08em;
+    vertical-align   : bottom;
+    border-bottom    : 1px solid #DEDEDE;
+    padding          : 4px;
+    text-align       : right;
+}
+
+.info th a
+{
+    color           : #000000;
+    text-decoration : none;
+}
+
+.info th a:hover
+{
+    color           : #5583BE;
+    text-decoration : none;
+}
+
+.even
+{
+    background       : #F7F7F7;
+}
+
+.tableHover
+{
+   background: #EFEFEF;
+}
+
+.info td
+{
+    color            : #888888;
+    border-bottom    : 1px solid #DEDEDE;
+    vertical-align   : middle;
+    padding          : 4px;
+    /*border:1px solid black;*/
+}
+
+.info td a
+{
+    color           : #888888;
+    text-decoration : none;
+}
+
+.info td a img {
+    border: 0px;
+}
+
+.info td a:hover
+{
+    color           : #5583BE;
+    text-decoration : none;
+}
+
+/* -------------------------------------------------------------- */
+/* Specific column format                                         */
+/* -------------------------------------------------------------- */
+
+.col_highlighted
+{
+    font-weight      : bold;
+}
+
+/* -------------------------------------------------------------- */
+/* Data lists bottom actions bar                                  */
+/* -------------------------------------------------------------- */
+
+#list_action_bar
+{
+    margin-left      : auto;
+    margin-right     : auto;
+    width            : 768px;
+    padding          : 4px;
+    text-align       : left;
+    /*background-color : #F3F1FF;*/
+    margin-bottom    : 10px;
+    /*border           : 1px dashed #DEDEDE;*/
+}
+
+
+/* -------------------------------------------------------------- */
+/* Positive or negative feedback messages                         */
+/* -------------------------------------------------------------- */
+
+#list #FormError
+{
+    padding-left: 10px;
+}
+
+#FormError
+{
+    align: left;
+    padding-top: 0px;
+}
+
+#list #FormInfo
+{
+    padding-right: 10px;
+}
+
+#FormInfo
+{
+    padding-top: 0px;
+}
+
+.InfoIcon
+{
+    float:right;
+    clear:right;
+    margin-top:3px;
+}
+
+.InfoText
+{
+    color:green;
+    padding-left:20px;
+    padding-top:3px;
+}
+
+.ErrorText
+{
+    color:red;
+    padding-left:20px;
+    padding-top:3px;
+}
+
+/**
+ * login screen
+ */
+.loginBox
+{
+  width: 300px;
+  margin-top: 25px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h4, fieldset h4
+{
+    font-family      : Tahoma;
+    font-size        : 1.1em;
+    font-weight      : bold;
+    letter-spacing   : 0.08em;
+    vertical-align   : bottom;
+    border-bottom    : 1px solid #DEDEDE;
+    padding          : 0px;
+    text-align       : right;
+    text-transform   : capitalize;
+}
+
+.sectionTitle
+{
+    font-size: 1.3em;
+}
+
+.welcomeMessage {
+  margin-bottom: 10px;
+}
+
+.pager
+{
+float:left;
+}
+
+/**
+ * styles for the 'manage' page and similar.
+ */
+#content .menuTop
+{
+    list-style-type : none;
+    padding-left: 45px;
+    padding-right: 45px;
+    margin: 0px;
+}
+
+#content .menuTop ul
+{
+ padding: 0px;
+ margin: 0px;
+}
+
+#content .menuTop .Level_1
+{
+    font-family      : Tahoma;
+    font-size        : 1.0em;
+    font-weight      : bold;
+    border-bottom    : 1px solid #DEDEDE;
+    padding-top      : 10px;
+}
+
+#content .menuTop .Level_0
+{
+    padding-right: 10px;
+	padding-top:2px;
+    font-weight      : normal;
+}
+
+#content .menuTop .Level_0 a
+{
+    color           : #888888;
+    text-decoration : none;
+}
+
+#content .menuTop .Level_0 a:hover
+{
+    color           : #5583BE;
+    text-decoration : none;
+}
+
+/* -------------------------------------------------------------- */
+/* Dashboard                                                      */
+/* -------------------------------------------------------------- */
+
+#dashboard h2
+{
+    color            : #588BCA;
+    font-weight      : bold;
+    font-family      : Tahoma;
+    font-size        : 1.4em;
+    margin           : 0;
+    padding-left     : 4px;
+}
+
+#dashboard h2 a
+{
+    color            : #32609B;
+    font-weight      : bold;
+    font-family      : Tahoma;
+    margin           : 0;
+    padding-left     : 4px;
+    text-decoration  : none;
+}
+
+#dashboard h2 a:hover
+{
+    text-decoration  : underline;
+}
+
+#dashboard h3
+{
+    color            : #588BCA;
+    font-weight      : bold;
+    font-family      : Tahoma;
+    font-size        : 1.1em;
+    margin           : 0;
+    margin-top       : 12px;
+    margin-bottom    : 4px;
+    padding-left     : 12px;
+}
+
+#dashboard table
+{
+    margin-left     : 12px;
+    width           : 100%;
+}
+
+#dashboard th
+{
+}
+
+#dashboard td
+{
+}
+
+#dashboard a
+{
+    color            : #8A8A8A;
+    text-decoration  : none;
+}
+
+#dashboard
+{
+    color            : #8A8A8A;
+}
+
+#dashboard .dashboard_blog
+{
+    border           : 1px solid #DEDEDE;
+    padding          : 4px;
+    background-color : #FCFCFF;
+    margin-top       : 10px;
+}
+
+#dashboard .dashboard_blog_layout
+{
+    margin           : 0;
+    width            : 100%;
+    background-color : #FFFFFF;
+}
+
+#dashboard .dashboard_blog_layout tr
+{
+}
+
+#dashboard .dashboard_blog_layout td
+{
+}
+
+#dashboard .dashboard_data_table
+{
+    width           : 98%;
+}
+
+#dashboard .dashboard_data_table th
+{
+    border-bottom   : 2px solid #DEDEDE;
+    height          : 20px;
+    text-align      : right;
+	
+}
+
+#dashboard .dashboard_data_table td
+{
+    border-bottom    : 1px solid #DEDEDE;
+    height           : 20px;
+}
+
+#dashboard .dashboard_data_table_statistics
+{
+    width           : 98%;
+}
+
+#dashboard .dashboard_data_table_statistics th, td
+{
+    border-bottom    : 1px solid #DEDEDE;
+    height           : 20px;
+    text-align       : right;
+}

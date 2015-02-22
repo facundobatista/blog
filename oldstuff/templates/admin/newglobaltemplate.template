@@ -1,0 +1,23 @@
+{include file="$blogtemplate/header.template"}
+{include file="$blogtemplate/navigation.template" showOpt=newTemplate title=$locale->tr("newTemplate")}
+<form name="newTemplate" action="admin.php" method="post" enctype="multipart/form-data">
+ <fieldset class="inputField">
+  <legend>{$locale->tr("newTemplate")}</legend>
+  {include file="$admintemplatepath/successmessage.template"}
+  {include file="$admintemplatepath/errormessage.template"}
+  <div class="field">
+   <label for="templateFile">{$locale->tr("template_package")}</label> 
+   <span class="required">*</span>
+   <div class="formHelp">{$locale->pr("global_template_package_help", $templateFolder)}</div>
+   <input type="file" name="templateFile" value="" />
+  </div>
+ </fieldset>
+ <div class="buttons">
+  <input type="reset" name="reset" value="{$locale->tr("reset")}" />
+  <input type="hidden" name="op" value="addTemplateUpload" />
+  <input type="submit" name="scanTemplates" value="{$locale->tr("scan_templates")}" />  
+  <input type="submit" name="addTemplateUpload" value="{$locale->tr("add")}" />    
+ </div>
+</form>
+{include file="$blogtemplate/footernavigation.template"}
+{include file="$blogtemplate/footer.template"}

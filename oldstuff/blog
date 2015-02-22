@@ -1,0 +1,9 @@
+<?php
+
+    if (!defined( "PLOG_CLASS_PATH" )) {
+        define( "PLOG_CLASS_PATH", dirname(__FILE__)."/");
+    }
+	
+	// and transfer execution to the main script
+    include( PLOG_CLASS_PATH."blog.php" );
+?>

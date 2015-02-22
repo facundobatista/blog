@@ -1,0 +1,442 @@
+body {
+   margin             : 0px;
+   padding            : 0px;
+   font-family        : Arial, Verdana, Helvetica, sans-serif;
+   font-size          : small;
+   background         : #fff;
+   width              : 100%;
+   color              : #333333;
+}
+
+body.column3 {
+   background         : #fff;
+}
+
+body.column1 {
+   background         : #fff;
+}
+
+#maincolumn p, #onecolumn p {
+   margin             : 0px;
+   padding            : 0px;
+}
+
+#maincolumn h3, #onecolumn h3 {
+   margin             : 0px;
+   margin-top         : 0px;
+   padding            : 0px;
+}
+
+.code {
+   color              : #777;
+}
+
+.subtitle {
+   color              : #777;
+}
+    
+.postinfo {
+   color              : #777;
+   margin-bottom      : 12px;
+   padding-bottom     : 6px;
+}
+    
+    
+.footer {
+   margin-bottom      : 12px;
+   padding-bottom     : 12px;
+}
+    
+.postgrav {
+   float              : left;
+   margin-right       : 10px;
+   margin-bottom      : 3px;
+}
+
+#topmenu .invisible, a.invisible {
+    display           : none;
+    font-weight       : bold;
+}
+
+#wrapper {
+   margin-left        : auto;
+   margin-right       : auto;
+   padding-left       : 10px;
+   padding-right      : 10px;
+   margin-top         : 10px;
+    
+}
+
+#header {
+    background: #ce6202;
+    margin-bottom     : 6px;
+    color             : #fff;
+    width             : 98%;
+    height            : 60px;
+    margin-bottom     : 0px;
+    background        : #FFFFFF url("../imgs/admin_logo.png") no-repeat left;
+}
+
+#header h1 {
+   font-family        : Arial Narrow, Verdana, Helvetica, sans-serif;
+   font-size          : x-large;
+   margin             : 0px;
+   font-weight        : normal;
+   padding            : 0px 6px 0px 6px;
+}
+
+.typo {
+   font-family        : Arial black, Arial, Verdana, Helvetica, sans-serif;
+}
+
+#footer a:hover, a:active { 
+   text-decoration    : underline; 
+   color              : #fff;
+   background-color   : #006666; 
+}
+
+#onecolumn {
+    float             : left;
+    width             : 98%;
+    margin-bottom     : 12px;
+}
+
+#maincolumn {
+    float             : left;
+    width             : 49%;
+}
+
+#intro {
+   background-color   : #efefef;
+   margin             : 0px 0px 12px 0px;
+   padding            : 12px;
+   border             : 1px solid #cccccc;
+}
+
+#intro p {
+   margin            : 0px;
+}
+
+#intro h2 {
+   margin            : 12px 0px 0px 0px;
+   font-size         : medium;
+   border-bottom     : 0px;
+}
+
+#intro li {
+   font-weight       : bold;
+   margin-top        : 5px;
+}
+
+#intro ol {
+   margin-top        : 5px;
+   margin-bottom     : 5px;
+}
+
+#column {
+   float             : left;
+   width             : 49%;
+}
+
+h2 {
+   margin            : 12px 0px 12px 0px;
+   border-bottom     : 2px solid #cccccc;
+   font-size         : small;
+   clear             : both;
+}
+
+#boxes {
+   width             : 300px;
+   float             : right;
+   border-left       : solid #fff 20px;
+   background-color  : #fff;
+}
+
+#searchbox, #categories {
+   border            : solid #cccccc 1px; 
+   padding           : 20px;
+   margin-bottom     : 10px;
+}
+
+#categories p {
+   color             : #777;
+}
+
+#categories ul {
+   list-style        : none; 
+   margin            : 0px;
+   padding           : 0px;
+   line-height       : 25px;
+}
+
+#categories li {
+   display           : inline;
+   margin-right      : 0.5em;
+}
+
+#searchbox form {
+   padding           : 0px;
+   margin            : 0px;
+}
+
+#bloglist {
+   clear             : left;
+}
+
+.subtitle{
+   color             : #777;
+}
+
+.pager {
+   clear             : left;
+   margin-top        : 2em;
+}
+
+#columncontainer { 
+   margin-bottom     : 12px;
+   margin-left       : 12px;
+   padding           : 0px 12px 12px 12px; 
+   border            : 1px solid #cccccc;
+}
+
+#columncontainer ul {
+    margin-top       : 10px;
+    margin-bottom    : 30px;
+}
+
+#columncontainer li {
+   margin-bottom     : 8px;
+}
+
+
+#columncontainer fieldset {
+   border            : 1px solid #cccccc; 
+   padding-top       : 10px; 
+   margin-top        : 10px; 
+   padding-left      : 10px; 
+   padding-bottom    : 10px;
+   background-color  : #efefef;
+}
+
+h3 {
+   margin            : 0px;
+   padding           : 0px;
+   font-size         : small;
+}
+
+h3.faq {
+   border-top        : solid 1px #cccccc;
+   padding-top       : 10px !important;
+}
+
+h4 {
+   margin            : 0px;
+   padding           : 0px;
+   font-size         : small;
+   text-decoration   : underline;
+   font-weight       : normal;
+}
+
+#footer {
+    text-align:center;
+    width            : 98%;
+    border-top       : 2px solid #cccccc;
+    padding-top      : 6px;
+    padding-bottom   : 10px;
+}
+
+a:link { 
+   color             : #32609B; 
+}
+
+a:visited {
+   color             : #223344; 
+}
+
+a:hover { 
+   text-decoration   : none; 
+   background-color  : #818181; 
+   color             : #fff; 
+}
+
+a img {
+    border           : 0px;
+}
+
+div.spacer {
+   clear             : both;
+   height            : 2px;
+   font-size         : 2px;
+}
+
+
+
+textarea {
+    background       : #FFFFFF;
+    border           : 1px solid #cccccc;
+    color            : #000000;
+    font-family      : arial,verdana, tahoma, sans-serif;
+    font-size        : small;
+    line-height	     : 2em;
+    width	     : 50em;
+    height	     : 10em;
+    padding	     : 2px;
+}
+
+fieldset {
+   border             :1px solid #cccccc; 
+   padding-top        :10px; 
+   margin-top         :10px; 
+   padding-left       :10px; 
+   padding-bottom     :10px;
+}
+
+legend {
+   padding            :2px 4px 2px 4px;
+   background-color   : #ffffff;
+   font-weight        : bold;
+}
+
+#registrationform label {
+   display            :block;
+}
+
+#registrationform .formHelp {
+   color              :#777777;
+}
+
+#registrationform fieldset {
+   padding            :1em 2em 1em 2em;
+}
+
+#checkUserName{
+   width              :150px;
+}
+
+#FormError {
+   padding-bottom     : 1em;
+}
+
+.field {
+    top               : 0px;
+    left              : 0px;
+    margin            : 0px 1em 1em 0px;
+}
+
+.field .field {
+    margin            : 1em 0px 0px 0px;
+}
+
+.field label {
+    font-weight       : bold;
+}
+
+.field_checkbox {
+    top               : 0px;
+    left              : 0px;
+}
+
+.buttons {
+   padding-top        : 1em; 
+   float              : right;
+}
+	
+div.buttons input {
+   width              :150px;
+}
+
+.templateScreen {
+   float              : left; 
+   margin             : 1em 1em 1em 0px;
+}
+
+div.templateScreen label {
+   display            :inline!important;
+}
+
+div.InfoText p {
+   margin-bottom      : 1em !important;
+}
+
+input.input {
+   margin-top         : 8px;
+   margin-bottom      : 8px;
+   margin-left        : 10em;
+   width              : 6em;
+}
+
+div.clearleft {
+   clear              : left;
+   height             : 0px;
+   font-size          : 0px;
+   line-height        : 0px;
+}
+
+div.clear {
+   clear              : both;
+   height             : 0px;
+   font-size          : 0px;
+   line-height        : 0px;
+}
+
+/* -------------------------------------------------------------- */
+/* Navigation/menu bar                                            */
+/* -------------------------------------------------------------- */
+
+#menubar {
+    margin-bottom     : 10px;
+    background        : #FFFFFF url("../imgs/bg_menu.jpg") repeat-x;
+    height            : 24px;
+}
+
+#menu {
+    padding-top       : 1px;
+    padding-bottom    : 1px;
+/*  border-bottom     : 1px solid #DEDEDE; */
+}
+
+#menu ul {
+    padding           : .2em 0px;
+    margin            : 0px;
+    list-style-type   : none;
+    color             : #FFF;
+    width             : 100%;
+    text-align        : center;
+}
+
+#menu li {
+
+    position          : relative;
+    padding           : 0px;
+    border-left       : 0px solid #B4B4B4;
+    display           : inline;
+    font-weight       : bold;
+    font-family       : arial, verdana, tahoma, sans-serif;
+    font-size         : 1em;
+    letter-spacing    : 0.20em;
+    text-transform    : uppercase;
+}
+
+#menu a, #menu a:link, #menu a:visited {
+    padding           : .2em 1em;
+    color             : #0E3862;
+    text-decoration   : none;
+}
+
+#menu a:hover {
+    background        : #818181;
+    color             : #FFFFFF;
+}
+
+#menu li.selected {
+    display           : block;
+    width             : auto;
+    padding           : 2px 7px;
+    background        : #FFFFFF;
+    color             : #000000;
+    border-bottom     : 1px solid #FFFFFF;
+}
+
+#menu br {
+    clear             : both;
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd" >
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" >
+<head>
+<meta http-equiv="content-type" content="text/html;charset=iso-8859-1" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<title>LifeType Installation</title>
+<link rel="stylesheet" href="styles/admin.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="styles/wizard.css" type="text/css" media="screen" />
+</head>
+<body {if $multipleSteps}onload="document.update2.submit();"{/if}>
+
+<div id="container" >
+
+    <div id="header" >
+        <h1><span>Wizard</span></h1>
+    </div>
+
+    <hr class="hide" />
+    <div id="skipNav">
+    <ul title="Accessibility options">
+    <li><a href="#menubar">Skip to Menu Bar</a></li>
+    <li><a href="#navigation">Skip to Navigation Bar</a></li>
+    </ul>
+    </div>
+    <hr class="hide" />
+
+    <div id="menubar">
+        <div id="menu">
+         {if $mode=="install"}
+          <ul>
+		    <li {if $step==1}class="currentStep"{/if}>1 Checks</li>
+            <li {if $step==2}class="currentStep"{/if}>&raquo; 2 Welcome</li>
+            <li {if $step==3}class="currentStep"{/if}>&raquo; 3 Confirm</li>
+            <li {if $step==4}class="currentStep"{/if}>&raquo; 4 Database</li>
+            <li {if $step==5}class="currentStep"{/if}>&raquo; 5 First User</li>
+            <li {if $step==6}class="currentStep"{/if}>&raquo; 6 First Blog</li>
+            <li {if $step==7}class="currentStep"{/if}>&raquo; 7 Done!</li>
+          </ul>
+          {else}
+          <ul>
+	       <li {if $step==1}class="currentStep"{/if}>1 Checks</li>
+           <li {if $step==2}class="currentStep"{/if}>&raquo; 2 Configuration</li>
+           <li {if $step==3}class="currentStep"{/if}>&raquo; 3 Options</li>
+           <li {if $step==4}class="currentStep"{/if}>&raquo; 4 Database Changes</li>
+           <li {if $step==5}class="currentStep"{/if}>&raquo; 5 Done!</li>
+          </ul>
+          {/if}
+          <br style="clear:both;"/>
+        </div>
+
+    </div>
+    <div id="content" >
+        <div id="nav_bar">
+            <div id="section_title">
+                <h2>{$title}</h2>
+            </div>
+            <br style="clear:both;" />
+        </div>

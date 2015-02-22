@@ -1,0 +1,132 @@
+{include file="$admintemplatepath/chooser/header.template"}
+<script type="text/javascript" src="js/ui/plogui.js"></script>
+{literal}
+<style type="text/css">
+#resource_list_upload
+{
+    border-bottom    : 4px solid #DEDEDE;
+	border-collapse: collapse;
+	text-align: left;
+}
+</style>
+{/literal}
+<script type="text/javascript">
+{literal}
+YAHOO.util.Event.addListener( window, "load", function() {
+		var t = new Lifetype.UI.TableEffects( "list" );
+		t.stripe();
+		t.highlightRows();
+	});
+{/literal}
+</script>
+<div id="list_nav_bar">
+<div id="list_nav_select"> 
+<form id="resourceListAlbum" action="admin.php" method="post">
+ <fieldset>
+  <legend>{$locale->tr("show_by")}</legend>
+   <div class="list_nav_option">
+    <label for="albumId">{$locale->tr("album")}</label>
+	<br />
+    <select name="albumId" id="albumId">
+      <option value="0">{$locale->tr("root_album")}</option>
+   {foreach from=$albumsList item=albumItem}
+     {assign var=indentLevel value=$albumItem->getValue("level")}
+	 <option value="{$albumItem->getId()}" {if $album}{if $album->getName()==$albumItem->getName()}selected="selected"{/if}{/if}>
+	   {textformat indent=$indentLevel indent_char="&nbsp;&nbsp;&nbsp;"}{$albumItem->getName()}{/textformat}   
+	 </option>
+   {/foreach}
+   </select>
+   </div>
+   <div class="list_nav_option">
+    <br />
+    <input type="hidden" name="op" value="userPictureSelect" />
+    <input type="submit" name="Show" value="{$locale->tr("show")}" />
+   </div>
+  </fieldset> 
+ </form> 
+ </div>
+ <br style="clear:both" />
+ </div>
+ <div id="container">
+  {include file="$admintemplatepath/successmessage.template"}
+  {include file="$admintemplatepath/errormessage.template"}
+<table id="list" class="info" summary="{$locale->tr("picture")}">
+ <thead>
+  <tr>
+   <th style="width:270px;">{$locale->tr("resource")}</th>
+   <th style="width:150px;">{$locale->tr("actions")}</th>
+  </tr> 
+ </thead>  
+ <tbody>
+  {if $album && $pager->getCurrentPage()==1}
+   <tr>
+    <td>
+     <a href="admin.php?op=userPictureSelect&amp;albumId={$album->getParentId()}&amp;page=1">
+     <img src="imgs/admin/icon_folder-72.png" border="0" alt="Parent" />&nbsp;<br/>..</a>
+    </td>
+    <td><a onclick="_toggle('resource_list_upload');" href="#upload">{$locale->tr("upload_here")}</a></td>
+   </tr>
+  {/if}
+  {foreach from=$albums item=resalbum}
+   <tr>
+    <td>
+     <a href="admin.php?op=userPictureSelect&amp;albumId={$resalbum->getId()}&amp;page=1">
+     <img src="imgs/admin/icon_folder-72.png" border="0" alt="folder" /><br/>{$resalbum->getName()}</a><br/>
+    </td>
+    <td>
+    </td>
+   </tr>
+{/foreach}
+{foreach from=$resources item=resource}
+<tr>
+ <td>
+  {if $resource->hasPreview()}
+   <a href="javascript:returnResourceInformation('{$resource->getId()}','{$url->resourcePreviewLink($resource)}');window.close();"><img src="{$url->resourcePreviewLink($resource)}" alt="Preview" /></a>
+  {/if}
+ <a target="_blank" href="{$url->resourceLink($resource)}"><br/>{$resource->getFileName()}</a>
+ </td>
+ <td>
+ <a href="javascript:returnResourceInformation('{$resource->getId()}','{$url->rawResourcePreviewLink($resource)}');window.close();">{$locale->tr("select")}</a>
+ </td> 
+</tr>
+{/foreach}
+</tbody>
+</table>
+{if $album}
+{** show this album only if we're not browsing the root album **}
+<a name="upload"></a>
+<div id="resource_list_upload" style="display: none;">
+ <form name="uploadFile" method="post" action="admin.php" enctype="multipart/form-data">
+ <fieldset class="inputField">
+  <legend>{$locale->tr("upload_here")}</legend>
+  <div class="field">
+   <label for="resourceFile_1">{$locale->tr("file")}</label>
+   <span class="required">*</span>
+   <input type="file" name="resourceFile_1" value="" id="resourceFile_1" />
+  </div> 
+  <div class="field">
+   <label for="resourceDescription">{$locale->tr("description")}</label>
+   <span class="required">*</span>
+   <textarea name="resourceDescription" id="resourceDescription" rows="5" style="width:100%"></textarea>
+  </div> 
+  </fieldset>
+  <div class="buttons" id="buttons" style="padding-bottom:7px">
+  <input type="reset" name="reset" value="{$locale->tr("reset")}" />
+  <input type="submit" name="Upload" onclick="showProgressBar('buttons')" value="{$locale->tr("add")}" />
+  <input type="hidden" name="albumId" value="{$album->getId()}" />
+  <input type="hidden" name="op" value="addResource" /><br/>
+  <input type="hidden" name="destView" value="userPictureSelect" />
+  </div>
+  <div class="status_bar" id="status_bar" style="display: none;">
+    {$locale->tr("upload_in_progress")}&nbsp;
+    <img src="imgs/admin/spinner_small.gif" alt="Spinner" />    
+  </div>
+ </form>
+</div>
+{/if}
+<div id="list_action_bar">
+  {adminpager style=list}
+  <a id="close_button" href="javascript:window.close()">{$locale->tr("close")}</a>
+</div>
+</div>
+{include file="$admintemplatepath/chooser/footer.template"}

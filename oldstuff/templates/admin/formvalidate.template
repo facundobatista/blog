@@ -1,0 +1,9 @@
+{**
+  Please use this smarty code to carry our form validations
+**}
+  {if $form->formHasRun()}
+    {if !$form->formIsValid()}
+	  {include file="$admintemplatepath/errormessage.template" message=$message}
+    {/if}
+  {/if}  
+  {include file="$admintemplatepath/successmessage.template" message=$message}

@@ -1,0 +1,30 @@
+{assign value=$locale->tr("blog") var=title}
+{assign value=$blog->getBlog() var=blogName}
+{include file="summary/header.template" selected="blogslist" columns=1 section="$title $blogName"}
+<div id="onecolumn">
+	{assign var="url" value=$blog->getBlogRequestGenerator()}
+    <h4><a href="{$url->blogLink()}">&raquo; {$blog->getBlog()|strip_tags}</a></h4>
+        {assign var="owner" value=$blog->getOwnerInfo()}
+        <p>
+            {$blog->getAbout()|strip_tags}
+        </p>
+        <div class="footer">
+		 <p>
+            {$locale->tr("users")}
+			{assign var=blogUsers value=$blog->getUsersInfo()}
+			<a href="?op=UserProfile&amp;userId={$owner->getId()}">{$owner->getUsername()|strip_tags}</a>{foreach from=$blogUsers item=blogUser name=blogUsersLoop}{if $owner->getId() != $blogUser->getId()}, <a href="?op=UserProfile&amp;userId={$blogUser->getId()}">{$blogUser->getUsername()|strip_tags}</a>{/if}{/foreach}<br/>
+			{assign var=lastUpdate value=$blog->getUpdateDateObject()}
+			{$locale->tr("updated")}: {$locale->formatDate($lastUpdate)}
+		  </p>
+		  <h4>&raquo; {$locale->tr("latest_posts")}</h4>
+		  <p>
+		  {foreach from=$blogposts item=post}
+		   {include file="summary/post.template"}
+		  {/foreach}
+		  </p>
+		  <p>
+		   <a href="javascript:history.go(-1);">{$locale->tr("back")}</a>		  
+		  </p>
+        </div>
+</div>
+{include file="summary/footer.template"}

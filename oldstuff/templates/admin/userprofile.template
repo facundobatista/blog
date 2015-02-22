@@ -1,0 +1,82 @@
+{include file="$admintemplatepath/header.template"}
+{include file="$admintemplatepath/navigation.template" showOpt=editSiteUsers title=$locale->tr("editSiteUsers")}
+
+  <form name="editUserProfile" action="admin.php" method="post">
+   <fieldset class="inputField">
+    <legend>{$locale->tr("editUser")}</legend>
+    {include file="$admintemplatepath/formvalidate.template"}
+
+    <div class="field">
+      <label for="userName">{$locale->tr("username")}</label>
+      <div class="formHelp">{$locale->tr("username_help")}</div>
+      <input type="text" id="userName" name="userName" value="{$userName}" readonly="readonly" />
+    </div>
+    <div class="field">
+      <label for="userFullName">{$locale->tr("full_name")}</label>
+      <span class="required"></span>
+      <div class="formHelp">{$locale->tr("full_name_help")}</div>
+      <input type="text" id="userFullName" name="userFullName" value="{$userFullName}"/>
+    </div>
+    <div class="field">
+      <label for="userProfilePassword">{$locale->tr("password")}</label>
+      <div class="formHelp">{$locale->tr("password_help")}</div>
+      <input type="password" name="userProfilePassword" id="userProfilePassword" value="{$userProfilePassword}" />
+      {include file="$admintemplatepath/validate.template" field=userProfilePassword message=$locale->tr("error_invalid_password")}
+    </div>
+    <div class="field">
+      <label for="userEmail">{$locale->tr("email")}</label>
+      <span class="required">*</span>
+      <div class="formHelp">{$locale->tr("email_help")}</div>
+      <input type="text" name="userEmail" id="userEmail" value="{$userEmail}"/>
+      {include file="$admintemplatepath/validate.template" field=userEmail message=$locale->tr("error_incorrect_email_address")}
+    </div>
+    <div class="field">
+	  <label for="userStatus">{$locale->tr("status")}</label>
+	  <span class="required">*</span>
+	  <div class="formHelp">{$locale->tr("user_status_help")}</div>
+	  <select name="userStatus" id="userStatus">
+	   {foreach from=$userStatusList item=status key=statusKey}
+	     <option value="{$status}" {if $userStatus==$status}selected="selected"{/if}>{$locale->tr($statusKey)}</option>
+	   {/foreach}
+	  </select>
+    </div>
+    <div class="field">
+      <label for="userBlog">{$locale->tr("blogs")}</label>
+      <span class="required"></span>
+      <div class="formHelp">{$locale->tr("user_blogs_help")}</div>
+      {foreach from=$edituserblogs item=userblog}
+        <a id="userBlog" href="admin.php?op=editBlog&amp;blogId={$userblog->getId()}">{$userblog->getBlog()}</a><br/>
+      {/foreach}
+    </div>
+    <div class="field">
+      <label for="userIsSiteAdmin">{$locale->tr("site_admin")}</label>
+      <span class="required"></span>
+      <div class="formHelp">
+        <input class="checkbox" type="checkbox" value="1" id="userIsSiteAdmin" name="userIsSiteAdmin" {if $userIsSiteAdmin} checked="checked" {/if}/>
+		{$locale->tr("site_admin_help")}
+      </div>
+    </div>
+	<div class="field">
+		<label for="userPermissions">{$locale->tr("permissions")}</label>
+		<span class="required"></span>
+		<div class="formHelp">{$locale->tr("admin_user_permissions_help")}</div>
+		{foreach from=$permissions item=perm}
+			{if $perm->isAdminOnlyPermission()}
+			  {assign var=permId value=$perm->getId()}
+			  <input type="checkbox" class="checkbox" name="userPermissions[{$perm->getId()}]" value="{$perm->getId()}" {if $userPermissions[$permId]}checked="checked"{/if} />
+			  {assign var=permDesc value=$perm->getDescription()}
+			  {$locale->tr($permDesc)}<br/>
+			{/if}
+		{/foreach}
+    <input type="hidden" name="userPictureId" value="{$edituser->getPictureId()}" />
+   </div>
+  </fieldset>  
+  <div class="buttons">
+   <input type="reset" name="reset" value="{$locale->tr("reset")}" />
+   <input type="submit" name="Update" value="{$locale->tr("update")}"/>
+   <input type="hidden" name="userId" value="{$edituser->getId()}"/>
+   <input type="hidden" name="op" value="updateUserProfile" />
+  </div>
+ </form>
+{include file="$admintemplatepath/footernavigation.template"}
+{include file="$admintemplatepath/footer.template"}

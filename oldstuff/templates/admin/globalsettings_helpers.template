@@ -1,0 +1,33 @@
+ <div style="padding-left:10px;" id="helpers">
+   <!-- path_to_tar -->
+   <div class="field">
+    <label for="config[path_to_tar]">path_to_tar</label>
+    <div class="formHelp">{$locale->tr("help_path_to_tar")}</div>
+    <input style="wth:100%" type="text" name="config[path_to_tar]" name="config[path_to_tar]" value="{$path_to_tar}"/>
+   </div>
+   <!-- path_to_gzip -->
+   <div class="field">
+    <label for="config[path_to_gzip]">path_to_gzip<label>
+    <div class="formHelp">{$locale->tr("help_path_to_gzip")}</div>
+    <input style="wth:100%" type="text" name="config[path_to_gzip]" name="config[path_to_gzip]" value="{$path_to_gzip}"/>
+   </div>
+   <!-- path_to_bz2 -->
+   <div class="field">
+    <label for="config[path_to_bz2]">path_to_bz2</label>
+	<div class="formHelp">{$locale->tr("help_path_to_bz2")}</div>
+    <input style="wth:100%" type="text" name="config[path_to_bz2]" name="config[path_to_bz2]" value="{$path_to_bz2}"/>
+   </div>
+   <!-- pat_to_unzip -->
+   <div class="field">
+    <label for="config[path_to_unzip]">path_to_unzip</label>
+    <div class="formHelp">{$locale->tr("help_path_to_unzip")}</div>
+    <input style="wth:100%" type="text" name="config[path_to_unzip]" name="config[path_to_unzip]" value="{$path_to_unzip}"/>
+   </div>
+   <!-- unzip_use_native_version -->
+   <div class="field">
+    <label for="config[unzip_use_native_version]">unzip_use_native_version</label>
+    <div class="formHelp">{$locale->tr("help_unzip_use_native_version")}</div>
+    <input class="radio" type="radio" name="config[unzip_use_native_version]" name="config[unzip_use_native_version]" value="1" {if $unzip_use_native_version == 1 } checked="checked" {/if} />{$locale->tr("yes")}
+    <input class="radio" type="radio" name="config[unzip_use_native_version]" name="config[unzip_use_native_version]" value="0" {if $unzip_use_native_version == 0 } checked="checked" {/if} />{$locale->tr("no")}
+   </div>
+ </div>

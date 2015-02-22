@@ -1,0 +1,37 @@
+{include file="$admintemplatepath/header.template"}
+{include file="$admintemplatepath/navigation.template" showOpt=editGlobalArticleCategories title=$locale->tr("editGlobalArticleCategories")}
+
+ <form name="editGlobalArticleCategory" action="admin.php" method="post">
+
+  <fieldset class="inputField">
+   <legend>{$locale->tr("editGlobalArticleCategories")}</legend>
+   {include file="$admintemplatepath/formvalidate.template"}
+
+   <div class="field">
+    <label for="categoryName">{$locale->tr("name")}</label>
+    <span class="required">*</span>
+    <div class="formHelp">{$locale->tr("category_name_help")}</div>
+    <input type="text" id="categoryName" name="categoryName" value="{$categoryName|escape:"html"}"/>
+    {include file="$admintemplatepath/validate.template" field=categoryName message=$locale->tr("error_empty_name")}
+   </div>
+
+   <div class="field">
+    <label for="categoryDescription">{$locale->tr("description")}</label>
+    <span class="required">*</span>
+    <div class="formHelp">{$locale->tr("category_description_help")}</div>
+    <textarea name="categoryDescription" id="categoryDescription" cols="60" rows="5">{$categoryDescription}</textarea>
+    {include file="$admintemplatepath/validate.template" field=categoryDescription message=$locale->tr("error_empty_description")}
+  </div>
+   
+  </fieldset>
+  <div class="buttons">   
+    <input type="hidden" name="categoryUrl" value="" />
+    <input type="reset" name="reset" value="{$locale->tr("reset")}" />
+    <input type="submit" name="Update" value="{$locale->tr("update")}" />
+    <input type="hidden" name="op" value="updateGlobalArticleCategory" />
+    <input type="hidden" name="categoryId" value="{$categoryId}" />
+  </div>
+</form>
+
+{include file="$blogtemplate/footernavigation.template"}
+{include file="$admintemplatepath/footer.template"}

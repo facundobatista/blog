@@ -1,0 +1,32 @@
+{include file="$admintemplatepath/header.template"}
+{include file="$admintemplatepath/navigation.template" showOpt=newBlogCategory title=$locale->tr("newBlogCategory")}
+
+ <form name="addBlogCategory" method="post" action="admin.php">
+  <fieldset class="inputField">
+   <legend>{$locale->tr("newBlogCategory")}</legend>
+   {include file="$admintemplatepath/formvalidate.template"}   
+   
+   <div class="field">
+    <label for="categoryName">{$locale->tr("name")}</label>
+    <span class="required">*</span>
+    <div class="formHelp">{$locale->tr("category_name_help")}</div>
+    <input type="text" value="{$categoryName}" id="categoryName" name="categoryName" />
+    {include file="$admintemplatepath/validate.template" field=categoryName message=$locale->tr("error_empty_name")}
+   </div>
+   
+   <div class="field">
+    <label for="categoryDescription">{$locale->tr("description")}</label>
+    <div class="formHelp">{$locale->tr("category_description_help")}</div>	
+    <textarea name="categoryDescription" cols="60" id="categoryDescription" rows="5">{$categoryDescription}</textarea>
+    {include file="$admintemplatepath/validate.template" field=categoryDescription message=$locale->tr("error_empty_description")}  
+   </div>
+   
+  </fieldset>
+  <div class="buttons">
+   <input type="hidden" name="op" value="addBlogCategory" />
+   <input type="reset" name="Reset" value="{$locale->tr("reset")}" />
+   <input type="submit" name="Add" value="{$locale->tr("add")}" />
+  </div> 
+ </form>
+{include file="$admintemplatepath/footernavigation.template"}
+{include file="$admintemplatepath/footer.template"}

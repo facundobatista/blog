@@ -1,0 +1,28 @@
+{include file="$admintemplatepath/header.template"}
+{include file="$admintemplatepath/navigation.template" showOpt=Versions title=$locale->tr("Versions")}
+<form name="cleanUp" method="post" action="admin.php">
+ <fieldset class="inputField">
+  <legend>{$locale->tr("Versions")}</legend>
+  {include file="$admintemplatepath/successmessage.template" message=$viewSuccessMessage}
+  {include file="$admintemplatepath/errormessage.template" message=$viewErrorMessage}
+
+  <div class="field">
+   <label for="purgePosts">{$locale->tr("lifetype_version")}</label>
+   <span class="required"></span>
+   <div class="formHelp">{$locale->tr("lifetype_version_help")}</div>
+   <span style="font-weight:bold">{$version}</span>
+   <br/>	
+   <input type="submit" class="button" name="doLTVersionCheck" value="{$locale->tr("check")}" />
+  </div>
+
+  <div class="field">
+   <label for="purgePosts">{$locale->tr("file_version_check")}</label>
+   <span class="required"></span>
+   <div class="formHelp">{$locale->tr("file_version_check_help")}</div>
+   <input type="submit" class="button" name="doFileVersionCheck" value="{$locale->tr("check")}" />
+  </div>  
+  <input type="hidden" name="op" value="Versions" />
+ </fieldset>
+</form>
+{include file="$admintemplatepath/footernavigation.template"}
+{include file="$admintemplatepath/footer.template"}

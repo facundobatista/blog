@@ -1,0 +1,57 @@
+{include file="wizard/header.template" step=4 mode=update title="Database Changes"}
+<form name="update3" method="post" id="update3">
+<fieldset class="inputField">
+<legend>Data Changes</legend>
+{if $viewIsError}
+    <div class="wizardError">
+     <img src="imgs/admin/icon_error-16.png" alt="Error" class="wizardInfoIcon" />
+     <p style="color:red;margin-left:20px;">{$viewErrorMessage}</p>
+     <p>You may choose to ignore this error and continue with the data update process by
+     clicking the "Continue" button below.
+    </div>
+{else}
+   <div class="wizardInfo">
+    <img src="imgs/admin/icon_info-16.png" alt="Info" class="wizardInfoIcon" />
+    <p class="wizardInfoText">
+    {$message}
+    </p>
+   </div> 
+{/if}
+</fieldset>
+<div class="buttons">
+   {if !$complete}
+   <input type="hidden" name="nextStep" value="Update3"/>
+   {else}
+   {if !$viewIsError}
+   <input type="hidden" name="nextStep" value="Update4"/>   
+   <input type="submit" name="Prev" value="&laquo; Previous"/>   
+   <input type="submit" name="Next" value="Next &raquo;"/>   
+   {/if}
+   {/if}
+   {if $viewIsError}
+     <input type="hidden" name="nextStep" value="Update3"/>   
+     <input type="submit" name="continue" value="Continue" />
+   {/if}   
+   <input type="hidden" name="page" value="{$nextStep}" />
+   <input type="hidden" name="transformerId" value="{$transformerId}" />
+   <input type="hidden" name="resourcesNamingRule" value="{$resourcesNamingRule}" />
+</div>
+
+<!-- for debugging purposes only
+  <input type="hidden" name="nextStep" value="Update4"/>
+  <input type="submit" name="continue" value="Continue" />
+  <input type="hidden" name="page" value="{$nextStep}" />
+  <input type="hidden" name="transformerId" value="{$transformerId}" />
+-->
+
+
+</form>
+{if !$complete  && !$viewIsError}
+  <!-- let's make the document submit itself but we wait for a second so that we're nice with the server -->
+ <script type="text/javascript">
+  setTimeout( "document.update3.submit()",1000 ); 
+ </script>
+{/if}
+
+
+{include file="wizard/footer.template"}

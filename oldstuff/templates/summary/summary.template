@@ -1,0 +1,26 @@
+{include file="summary/header.template"}
+ {foreach from=$posts item=post}
+   <h3>{$post->getTopic()|strip_tags}</h3>
+{assign var="postDate" value=$post->getDateObject()}
+{assign var="postOwner" value=$post->getUserInfo()}
+<span class="date">{$postOwner->getUsername()} | {$locale->formatDate($postDate,"%d %B, %Y %H:%M")}</span>
+<p>
+ {$post->getText()}
+</p>
+<div class="footer">
+{assign var="postCategory" value=$post->getCategory()}
+{assign var="blogId" value=$post->getBlog()}
+<!--
+ I don't think we need so many links in the summary...
+ but please feel free to change things here :)
+-->
+
+<a href="{$url->blogLink($blogId)}">{$blogs[$blogId]->getBlog()}</a> ::
+<!--<a href="{$url->postPermalink($blogId, $post)}">{$postCategory->getName()}</a> ::-->
+<a href="{$url->postPermalink($blogId, $post)}">{$locale->tr("comment on this")} ({$post->getTotalComments()})</a> ::
+<a title="{$locale->tr("permalink_title")}" href="{$url->postPermalink($blogId, $post)}">{$locale->tr("permalink")}</a> <!--::
+<a href="{$url->postTrackbackStatsLink($blogId, $post)}">{$locale->tr("trackbacks")} ({$post->getNumTrackbacks()})</a>-->
+</div>
+
+  {/foreach}
+{include file="summary/footer.template"}

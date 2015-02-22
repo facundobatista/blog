@@ -1,0 +1,53 @@
+{foreach from=$fields item=field}
+  {assign var=fieldId value=$field->getId()}
+  {if $field->getType() == 1 && ($type == 1 || $type == "")}
+    <div class="field">
+	  <label for="customField[{$fieldId}]">{$field->getName()}</label>
+	  <div class="formHelp">{$field->getDescription()}</div>
+      <input type="text" name="customField[{$fieldId}]" id="customField[{$fieldId}]" value="{$customField[$fieldId]|escape:"html"}" />
+	</div>  
+  {elseif $field->getType() == 2 && ($type == 2 || $type == "")}
+    <div class="field">
+	  <label for="customField[{$fieldId}]">{$field->getName()}</label>
+	  <div class="formHelp">{$field->getDescription()}</div>
+      <textarea name="customField[{$fieldId}]" id="customField[{$fieldId}]" rows="10" style="width:100%">{$customField[$fieldId]}</textarea>
+	</div>  
+  {elseif $field->getType() == 3 && ($type == 3 || $type == "")}
+    <div class="field_checkbox">    
+	  <input class="checkbox" type="checkbox" id="customField[{$fieldId}]" name="customField[{$fieldId}]" value="1" {if $customField[$fieldId] == "1"}checked="checked"{/if} />
+	  <label for="customField[{$fieldId}]">{$field->getDescription()}</label>	  
+	</div>  
+  {elseif $field->getType() == 4 && ($type == 4 || $type == "")}
+    <div class="field">
+	  <label for="customField[{$fieldId}]">{$field->getName()}</label>
+	  <div class="formHelp">{$field->getDescription()}</div>
+      <input name="customField[{$fieldId}]" class="dateTime" id="customField_{$fieldId}" readonly="true" type="text" size="16" value="{$customField[$fieldId]}" />
+      <img src="imgs/admin/cal.jpg" id="customField_{$fieldId}_Selector" alt="{$locale->tr("pick_date")}" style="cursor: pointer; border: 0px; width: 16px; height: 14px; padding: 0;" />
+	</div>  
+    <script type="text/javascript">
+        var MondayFirstDay = ( 1 == 1);
+        Calendar.setup({ldelim}
+            inputField  : "customField_{$fieldId}",
+            ifFormat    : "%d/%m/%Y %H:%M",
+            button      : "customField_{$fieldId}_Selector",
+            showsTime   : true,
+            timeFormat  : "24",
+            electric    : false,
+            align       : "Bl",
+            firstDay    : MondayFirstDay,
+            singleClick : true
+        {rdelim});
+    </script>
+
+	{elseif $field->getType() == 5 && ($type == 5 || $type == "")}
+    <div class="field">
+	  <label for="customField[{$fieldId}]">{$field->getName()}</label>
+	  <div class="formHelp">{$field->getDescription()}</div>
+	  <select name="customField[{$fieldId}]" id="customField[{$fieldId}]">
+		{foreach from=$field->getFieldValues() item=value}
+		  <option value="{$value}" {if $customField[$fieldId]==$value}selected="selected"{/if}>{$value}</option>
+		{/foreach}
+	  </select>
+	</div> 	
+  {/if}
+{/foreach}

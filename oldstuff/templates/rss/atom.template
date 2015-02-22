@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="{$locale->getCharset()}"?>
+<feed xmlns="http://www.w3.org/2005/Atom"
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      xml:lang="{$locale->getLanguageId()|lower}">
+<title>{$blog->getBlog()|escape}</title> 
+<link rel="alternate" type="text/html" href="{$url->blogLink()}" /> 
+<link href="{$url->rssLink("atom")}" rel="self" type="application/rss+xml" />
+{if $posts}
+	{assign var="newestDate" value=$posts[0]->getDateObject()} 
+	<updated>{$locale->formatDate($newestDate, "%Y-%m-%dT%H:%M:%S%G", $blog)}</updated> 
+{/if}
+<generator>{$version}</generator> 
+<id>{$url->rssLink("atom")}</id>
+{assign var="blogOwner" value=$blog->getOwnerInfo()} 
+<rights>Copyright (c) {$blogOwner->getUsername()|escape}</rights> 
+ {foreach from=$posts item=post} 
+ <entry> 
+ <id>{$url->getAtomUniqueId($post)}</id>
+ <title>{$post->getTopic()|escape}</title> 
+ <link rel="alternate" type="text/html" href="{$url->postPermalink($post)}" /> 
+ {assign var="postDate" value=$post->getDateObject()} 
+ <updated>{$locale->formatDate($postDate, "%Y-%m-%dT%H:%M:%S%G", $blog)}</updated> 
+ <summary type="text">{$post->getText()|strip_tags|truncate:200:" ..."|escape:"html"}</summary> 
+ <author> 
+ {assign var="postOwner" value=$post->getUserInfo()} 
+ <name>{$postOwner->getUsername()|escape}</name> 
+</author> 
+<dc:subject>
+{foreach from=$post->getCategories() item=category}
+{$category->getName()|escape} 
+{/foreach}
+</dc:subject> 
+ <content type="text" xml:lang="{$locale->getLanguageId()|lower}" xml:base="{$url->blogLink()}"> 
+ {$post->getText()|strip_tags} 
+</content> 
+</entry> 
+{/foreach} 
+</feed>

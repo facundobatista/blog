@@ -1,0 +1,40 @@
+		{assign var="postPageTitle" value=$post->getTopic()}
+		{assign var="postPageTitle" value=" | $postPageTitle"}
+		{include file="$blogtemplate/header.template"} 
+  
+
+   
+   		{assign var="poster" value=$post->getUserInfo()}
+   		<!-- {$url->postTrackbackLink($post)} -->
+   		
+   		{include file="$blogtemplate/post.template"}
+{if $blogsettings->getValue("comments_enabled") && $post->getCommentsEnabled()==1 || $comments }<h2 id="comments">{$locale->tr("comments")|capitalize}</h2>
+{/if}
+ {pager style="links"}
+   		{foreach from=$comments item=comment}
+<div class="comment">
+<h3 class="commentheader">{if $comment->getTopic() != null} {$comment->getTopic()|strip_tags}{else}Re: <em>{$post->getTopic()|strip_tags}</em>{/if}</h3>
+
+<p class="commentposterinfo">
+		{assign var="postDate" value=$comment->getTimestamp()}
+		{if $comment->getUserUrl() != ""}<a href="{$comment->getUserUrl()}">{$comment->getUsername()}</a>
+		{else}
+			{$comment->getUsername()}
+		{/if} | {$locale->formatDate($postDate, "%d/%m/%Y, %H:%M")}
+</p>
+
+<div class="commenttext">
+{if $comment->IsPosterAuthenticated()}
+ {assign var=poster value=$comment->getUser()}
+ {if $poster->hasPicture()}
+   {assign var=posterimg value=$poster->getPicture()}
+   {assign var=commenter value=$comment->getUser()}
+   <img src="{$posterimg->getPreviewLink()}" alt="{$commenter->getUserName()}" />
+  {/if}
+{/if}
+{$comment->getText()}
+</div>
+</div>
+	{/foreach}			
+{include file="$misctemplatepath/commentform.template"}					
+{include file="$blogtemplate/footer.template"}

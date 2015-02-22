@@ -1,0 +1,421 @@
+/* ******************  general  *************** */
+
+abbr, acronym {
+  cursor: help;
+  border: none;
+}
+
+html, #Bottom, #Title h1 { background:#004ca1; } 
+
+body {
+	margin:0; 
+	padding:0;
+	font:small lucida sans unicode, arial, times new roman, sans-serif;
+	color:#525150;
+	background: #fff;
+	}
+	
+a:link {
+	color: #004ca1;
+	}
+	
+a:visited {
+	color: #b50394;
+	}
+	
+a:hover, a:active, a:focus {
+	color: #fff; text-decoration:none; background-color: #b50394;
+	}
+
+h2, h3 {
+	margin:0;
+	padding:0;
+	}
+	
+.Upgrade {
+	display: none;
+	font-weight: bold;
+	}
+	
+.clearer {
+	clear : both;
+	height : 1px;
+	font-size : 1px;
+	}
+      
+#Container {
+	width: 100%;
+	}
+
+#Title h1 {
+   color: #fff;
+   margin:0;
+   padding:25px 0 5px 10px;
+   font-size:320%;
+   font-weight: normal;
+   } 
+
+#Title a:active, h1 a:link, h1 a:hover, h1 a:focus, h1 a:visited {
+	text-decoration: none;
+	color: #fff;
+	background-color:transparent; 
+	}
+
+#Subtitle {
+	background-color:#002f64;
+	color:#fff;
+	padding:2px 14px 2px 14px;
+	font-size:medium;
+	}
+	
+	
+#Subtitle a:link, #Subtitle a:visited, #Subtitle a:hover {
+	text-decoration: underline;
+	color: #fff;
+	background-color:transparent;
+	}	
+	
+#Subtitle a:active, #Subtitle a:focus {
+	color: #002f64; text-decoration:none; background-color: #fff;
+	}
+
+#Subcontainer {
+	text-align:left;
+	background-color:#fff;
+	padding-bottom:10px;
+	padding-top:10px;
+	}
+	
+	
+/* ******************  column a  *************** */
+	
+#Content {
+	width: 58%;
+	float: left;
+	margin-right:3%;
+	margin-left:2%;
+	background-color:#fff;
+	overflow: hidden;
+	line-height:1.5em;
+	text-align:justify;
+	}
+	
+#Content h2 {
+	color:#b8b2ac;
+	margin:20px 0 10px 0;
+	}
+	
+.date {
+	font-weight: bold;
+	}
+
+.footer {
+	padding-bottom:1em;
+	border-bottom: 1px solid #d4d0cd;
+	text-align:left;
+	font-size:90%;
+	}
+	
+.footer img {
+	margin-right:3px;
+	vertical-align:middle;
+	}
+	
+#Nextpost {
+	text-align:center;
+	}	
+	
+div.comment {
+	border-top: 1px dotted #d4d0cd;
+	padding-top:0.5em;
+	background: url('./imgs/comments.gif') no-repeat;
+	background-position: top right;
+	margin-top:1.5em;
+	}
+	
+.commentposterinfo {
+	margin-bottom:1em;
+	font-weight: bold;
+	}
+	
+h3.commentheader {
+	font-size:medium;
+	color:#b8b2ac;
+	font-weight: normal;
+	}
+	
+.reply {font-weight: normal;font-size:small;}
+
+div.commenttext {;
+	margin-bottom:1em;
+	}
+
+
+#CommentForm fieldset {
+	border:2px solid #d4d0cd; 
+	padding-top:10px; 
+	margin-top:10px; 
+	padding-left:10px; 
+	padding-bottom:10px;
+	}
+
+#CommentForm legend {
+	color:#525150;
+	padding:2px 4px 2px 4px;
+	background-color: #ffffff;
+	font-weight : bold;
+	}
+
+#CommentForm label {
+	width:13em;
+	float:left;
+	display:block;
+	clear:both; 
+	float:left;
+	margin-top:8px;
+	margin-bottom:0px;
+	}
+	
+#CommentForm input {
+	margin-top:
+	8px;margin-bottom:8px;
+	}
+	
+#Submit {
+	margin-top:8px;
+	margin-bottom:8px;
+	margin-left:6em;
+	}
+	
+#CommentForm textarea {
+	margin-top:8px;
+	margin-bottom:0px;
+	}
+	
+/* ******************  columnb  *************** */
+	
+#Menu   {
+	width:34%;
+	float: left;
+	text-align:left;
+	background-color:#fff;
+	}
+	
+#Calendar, #Search, #AboutMyself {
+	border-left-color:#d4d0cd;
+	border-left-style:solid;
+	border-left-width:6px;
+	width:86%;
+	padding-top:1px;
+	padding-bottom:1px;
+	padding-right:14px;
+	padding-left:6px;
+	margin-bottom:10px;
+	background-color:#f0efee;
+	margin-top:1px;
+	}
+	
+#Search fieldset {border:0px solid; padding:2px; margin:2px;}
+#Search input {margin:0px;padding:2px;width:7em;}
+#Search input.button {margin:0px;padding:2px;width:5em;}
+#Search form {margin:0px;padding:2px;}
+#Search label {margin:0px;padding:2px;width:8em;}
+
+table.calMonth {
+	width:11em;
+	border-spacing:4px;
+	border:0px;
+	}
+
+th.calMonthCurrent {
+	font-weight:normal;
+	padding: 0px;
+	text-align: center;
+	}
+	
+th.calMonthBackward {
+	font-weight:normal;
+	padding: 0px;
+	text-align:center;
+	}
+	
+th.calMonthForward {
+	font-weight:normal;
+	padding: 0px;
+	text-align:center;
+	}
+	
+.calMonthHeader th {
+	text-align:center;
+	font-weight:normal;
+	padding: 0px;
+	}
+	
+#Calendar td {	
+	padding: 0px;
+	text-align:center
+	}
+
+.calMonthToday {
+ 	background-color: #d4d0cd;
+	}
+
+#Menu h2 {
+  	background-color: #004ca1;
+  	font-size:small;
+  	width:86%;
+  	display:block;
+        padding:1px 10px 1px 10px;
+  	border-left-style:solid;
+  	border-left-color:#002f64;
+  	color:#fff;
+  	margin-top:10px;
+  	border-left-width:6px;
+	text-transform: capitalize;
+	}
+
+#Categories ul, #Syndicate ul, #Recently ul, #Sections ul {
+	margin-left:0; 
+	margin-top:0; 
+	margin-bottom:0px; 
+	padding:0; 
+	list-style:none; 
+	font-size:small;
+	}
+	
+#Syndicate ul, #Sections ul {
+	text-transform: capitalize;
+	}
+
+#Categories a, #Syndicate a, #Recently a, #Sections a {
+	width:86%;
+	display:block;
+	padding-top:1px;
+	padding-bottom:1px;
+	border-left-style:solid;
+	border-left-color:#d4d0cd;
+	text-decoration:none;
+	padding-right:10px;
+	padding-left:10px;
+	background-color:#f0efee;
+	border-left-width:6px;
+	margin-top:1px
+	}
+
+#Categories a:hover, #Syndicate a:hover, #Recently a:hover, 
+#Sections a:hover, #Categories a:focus, #Syndicate a:focus, 
+#Recently a:focus, #Links a:focus, #Categories a:active,  
+#Syndicate a:active, #Recently a:active, #Sections a:active {
+	border-color:#71025C;
+	background-color:#b50394;
+	}
+
+#Links h2 {
+	text-transform: capitalize;
+	}
+
+/* ******************  footer  *************** */
+
+#Bottommenu {
+	clear:both;
+	background-color:#002f64;
+	color:#fff;
+	padding:3px 15px 3px 15px;
+	}
+
+
+#Bottom {
+   color:#fff;
+   padding:3px 3px 3px 15px;
+   } 
+	
+#Bottommenu a, #Bottommenu a:link, #Bottommenu a:visited, #Bottom a, 
+#Bottom a:link, #Bottom a:visited {
+	text-decoration: none;
+	color: #fff;
+	border: 0;
+	}
+
+#Bottommenu a:active, #Bottommenu a:focus, #Bottommenu a:hover, 
+#Bottom a:active, #Bottom a:focus, #Bottom a:hover { 
+	text-decoration : underline; 
+	color : #fff;background-color:transparent; 
+	}
+
+
+/* ******************  albums  *************** */
+
+div.album {
+	text-align: center;
+        float: left;
+        width:150px;
+        margin-bottom:20px;
+        margin-right:5px;
+  	}
+
+.album p {
+   	text-align: center;
+   	padding: 0;
+   	margin:0;
+   	width:150px;     
+	overflow: hidden;
+   	}
+   
+a img {border:none;}
+#album a:link {color: #004ca1;}
+#album a:visited {color: #b50394;}
+#album a:hover, #album a:active, #album a:focus {color: #004ca1;background:none;}
+
+
+/* ******************  trakbacks  *************** */
+
+h4 {
+	margin:1em 0 0 0;
+	padding:0;font-size:small;
+	}
+	
+dl {	
+	margin:0;
+	padding:0;
+	}
+	
+dt {
+	font-weight: bold;
+	float:left;
+	}
+	
+dd {
+	padding-left:4em;
+	}
+	
+	
+blockquote {background:url('imgs/blockquote.gif') no-repeat; padding:10px 10px 2px 41px;border: dotted #d4d0cd 1px; 
+}
+	
+/* ******************  to align elements  *************** */
+.left {text-align: left;display:block}
+.right {text-align: right;display:block}
+.center {text-align: center;display:block}
+
+/* ******************  to float elements  *************** */
+.floatleft {float: left;padding:2px 10px 10px 0px}
+.floatright {float: right;padding:2px 0px 10px 10px;}
+
+/* ******************  to highlight text  *************** */
+.bold {font-weight: bold;}
+.italic {font-style:italic;}
+.underline {text-decoration:underline}
+
+/* ****************** aboutmyself  *************** */
+#UserPicture {float:left;margin:10px 10px 10px 6px;border:solid #D4D0CD 1px;padding:3px;background-color:#fff}
+#AboutMyself p {padding:10px 0;margin:0}
+
+.comment_1 {
+  margin-left: 10px;
+ }
+ .comment_2 {
+  margin-left: 20px;
+ }
+ .comment_3 {
+  margin-left: 30px;
+ }

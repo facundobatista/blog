@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="{$locale->getCharset()}"?>
+<?xml-stylesheet href="{$url->getUrl("/styles/rss.css")}" type="text/css"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:atom="http://www.w3.org/2005/Atom"
+>
+ <channel>
+  <title>{$serviceName}</title>
+  <description>Your service description</description>
+  <link>{$url->getBaseUrl(false)}/summary.php</link>
+  <generator>{$version}</generator>
+  {foreach from=$blogs item=blog}
+   {assign var=url value=$blog->getBlogRequestGenerator()}  
+  <item>
+   <title>{$blog->getBlog()|escape}</title>
+   <description>{$blog->getAbout()|escape}</description>
+   <link>{$url->blogLink()}</link>
+   <guid>{$url->blogLink()}</guid>
+   {assign var="blogOwner" value=$blog->getOwnerInfo()}
+   <dc:creator>{$blogOwner->getUsername()}</dc:creator>
+   <source url="{$url->rssLink("rss20")}">{$blog->getBlog()|escape}</source>
+  </item>
+  {/foreach}
+ </channel>
+</rss>

@@ -1,0 +1,52 @@
+{include file="$admintemplatepath/header.template"}
+{include file="$admintemplatepath/navigation.template" showOpt=cleanUp title=$locale->tr("cleanUp")}
+<form name="cleanUp" method="post" action="admin.php">
+ <fieldset class="inputField">
+  <legend>{$locale->tr("cleanUp")}</legend>
+  {if $continue}
+	  {** do a reload as soon as the page has finished loading **}
+	  {include file="$admintemplatepath/successmessage.template" message=$viewSuccessMessage}
+  {else}
+	  {include file="$admintemplatepath/successmessage.template" message=$viewSuccessMessage}
+	  {include file="$admintemplatepath/errormessage.template" message=$viewErrorMessage}
+	  <div class="field">
+	   <label for="purgePosts">{$locale->tr("cleanup_posts")}</label>
+	   <span class="required"></span>
+	   <div class="formHelp">{$locale->tr("cleanup_posts_help")}</div>
+	   <input type="submit" class="button" name="purgePosts" value="{$locale->tr("purge")}" />
+	  </div>  
+	  <div class="field">
+	   <label for="purgeSpam">{$locale->tr("cleanup_spam")}</label>
+	   <span class="required"></span>
+	   <div class="formHelp">{$locale->tr("cleanup_spam_help")}</div>
+	   <input type="submit" class="button" name="purgeSpam" value="{$locale->tr("purge")}" />
+	  </div>
+	  <div class="field">
+	   <label for="purgePosts">{$locale->tr("cleanup_users")}</label>
+	   <span class="required"></span>
+	   <div class="formHelp">{$locale->tr("cleanup_users_help")}</div>
+	   <input type="submit" class="button" name="purgeUsers" value="{$locale->tr("purge")}" />
+	  </div>
+	  <div class="field">
+	   <label for="purgeBlogs">{$locale->tr("cleanup_blogs")}</label>
+	   <span class="required"></span>
+	   <div class="formHelp">{$locale->tr("cleanup_blogs_help")}</div>
+	   <input type="submit" class="button" name="purgeBlogs" value="{$locale->tr("purge")}" />
+	  </div>
+	  <div class="field">
+	   <label for="purgeTemp">{$locale->tr("cleanup_temp")}</label>
+	   <span class="required"></span>
+	   <div class="formHelp">{$locale->tr("cleanup_temp_help")}</div>
+	   <input type="submit" class="button" name="purgeTemp" value="{$locale->tr("purge")}" />
+	  </div>
+	  <input type="hidden" name="op" value="doCleanUp" />
+  {/if}
+ </fieldset>
+</form>
+{include file="$admintemplatepath/footernavigation.template"}
+{include file="$admintemplatepath/footer.template"}
+{if $continue}
+<script type="text/javascript">
+  setTimeout( function() {literal}{{/literal} window.location = "{$dest}".replace(/\&amp;/g,'&'); {literal}}{/literal}, 750 ); 
+</script>
+{/if}

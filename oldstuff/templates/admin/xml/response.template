@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<response>
+ <method>{$method}</method>
+ <success>{$success}</success>
+ <message><![CDATA[{$message}]]></message>
+ <result>{$result}</result>
+</response>

@@ -1,0 +1,133 @@
+{include file="$admintemplatepath/header.template"}
+{include file="$admintemplatepath/navigation.template" showOpt=editLinks title=$locale->tr("editLinks")}
+  <script type="text/javascript" src="js/ui/plogui.js"></script>
+  <script type="text/javascript">
+    var showMassiveChangeOption = '{$locale->tr("show_massive_change_option")}';
+    var hideMassiveChangeOption = '{$locale->tr("hide_massive_change_option")}';
+  </script>
+<script type="text/javascript">
+{literal}
+YAHOO.util.Event.addListener( window, "load", function() {
+		var t = new Lifetype.UI.TableEffects( "list" );
+		t.stripe();
+		t.highlightRows();
+	});
+{/literal}
+</script>
+<div id="list_nav_bar">
+<div id="list_nav_select">
+<form id="viewLinks" action="admin.php" method="post">
+ <fieldset>
+  <legend>{$locale->tr("show_by")}</legend>
+   <div class="list_nav_option">
+    <label for="showCategory">{$locale->tr("category")}</label>
+	<br />
+	 <select name="showCategory" id="showCategory">
+      <option value="0">{$locale->tr("category_all")}</option>
+      {foreach from=$linkscategories item=category}
+      <option value="{$category->getId()}" {if $currentcategory == $category->getId()} selected="selected" {/if}>{$category->getName()}</option>
+      {/foreach}
+    </select>
+   </div>
+   
+   <div class="list_nav_option">
+       <label for="search">{$locale->tr("search_terms")}</label>
+       <br />
+       <input type="text" name="searchTerms" value="{$searchTerms|escape:"html"}" size="15" id="search" />
+   </div>
+      
+   <div class="list_nav_option">
+    <br />
+    <input type="hidden" name="op" value="editLinks" />
+    <input type="submit" name="Show" value="{$locale->tr("show")}" />
+   </div>
+  </fieldset> 
+ </form> 
+ </div>
+ <br style="clear:both" />
+ </div>
+
+<form id="links" action="admin.php" method="post">
+{check_perms perm="update_link"}
+ <div class="optionIcon">
+   <a id="optionIconLink" href="#bulkEdit" title="{$locale->tr("show_massive_change_option")}"  onclick="switchMassiveOption()">{$locale->tr("show_massive_change_option")}</a>
+ </div>
+{/check_perms}
+<div id="list">
+  {include file="$admintemplatepath/successmessage.template"}
+  {include file="$admintemplatepath/errormessage.template"}
+<table id="list" class="info" summary="{$locale->tr("editLinks")}">
+ <thead>
+  <tr>
+   <th><input class="checkbox" type="checkbox" name="all" id="all" value="1" onclick="toggleAllChecks('links');" /></th>  
+   <th style="width:30%;">{$locale->tr("name")}</th>
+   <th style="width:40%;">{$locale->tr("url")}</th>
+   <th style="width:15%;">{$locale->tr("category")}</th>
+   <th style="width:5%;">{$locale->tr("feed")}</th>
+   <th style="width:10%;">{$locale->tr("actions")}</th>
+  </tr>
+ </thead>
+ <tbody>
+ {foreach from=$links item=link}
+  <tr>
+   <td><input class="checkbox" type="checkbox" name="linkIds[{counter}]" value="{$link->getId()}"/></td>  
+   <td class="col_highlighted">
+  	 {check_perms perm="update_link"}<a href="admin.php?op=editLink&amp;linkId={$link->getId()}">{/check_perms}{$link->getName()|utf8_wordwrap:20:"<br/>":false}{check_perms perm="update_link"}</a>{/check_perms}
+   </td>
+   <td><a href="{$link->getUrl()}">{$link->getUrl()|utf8_wordwrap:40:"<br/>":true}</a></td>
+   {assign var=linkcategory value=$link->getCategoryId()}
+   <td>
+    {assign var=linkcategory value=$link->getMyLinkCategory()}
+    <a href="admin.php?op=editLinks&amp;showCategory={$linkcategory->getId()}">
+      {$linkcategory->getName()}
+    </a>
+   </td>
+   <td>
+    {if $link->getRssFeed() != ""}
+      <a href="{$link->getRssFeed()}"><img src="imgs/rss_logo_small.gif" style="border:0px;" /></a>
+    {/if}
+   </td>
+   <td>
+     <div class="list_action_button">
+	  {check_perms perm="update_link"}
+       <a href="?op=editLink&amp;linkId={$link->getId()}" title="{$locale->tr("edit")}">
+        <img src="imgs/admin/icon_edit-16.png" alt="{$locale->tr("edit")}" />
+       </a>
+	  {/check_perms}
+	  {check_perms perm="update_link"}
+  	  {** if $user->hasPermissionByName("update_link",$blog->getId()) **}
+        <a href="?op=deleteLink&amp;linkId={$link->getId()}" title="{$locale->tr("delete")}">
+         <img src="imgs/admin/icon_delete-16.png" alt="{$locale->tr("delete")}" />
+        </a>
+	  {/check_perms}
+     </div>
+   </td>
+  </tr>
+ {/foreach}
+ </tbody>
+ </table>
+ </div>
+ <a name="bulkEdit"></a>
+ <div id="list_action_bar">
+  {adminpager style=list}
+  <input type="hidden" name="op" value="deleteLinks"/>
+  {check_perms perm="update_link"}
+   <input type="submit" name="Delete selected" value="{$locale->tr("delete")}"/>
+  {/check_perms}
+  <div id="massiveChangeOption" style="display: none;">
+    <fieldset>
+      <legend>{$locale->tr("massive_change_option")}</legend>
+	  <label for="linkCategoryId">{$locale->tr("category")}</label>
+	  <select name="linkCategoryId" id="linkCategoryId">
+        {foreach from=$linkscategories item=category}
+          <option value="{$category->getId()}">{$category->getName()}</option>
+        {/foreach}
+      </select>
+	  <input type="button" name="changeLinksCategory" value="{$locale->tr("change_category")}" class="submit" onClick="javascript:submitLinksList('changeLinksCategory');" />
+    </fieldset>
+  </div>  
+ </div>
+</form>
+
+{include file="$admintemplatepath/footernavigation.template"}
+{include file="$admintemplatepath/footer.template"}

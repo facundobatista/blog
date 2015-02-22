@@ -1,0 +1,27 @@
+<?php
+    if (!defined( "PLOG_CLASS_PATH" )) {
+        define( "PLOG_CLASS_PATH", dirname(__FILE__)."/");
+    }
+
+	include_once( PLOG_CLASS_PATH."class/bootstrap.php" );
+    lt_include( PLOG_CLASS_PATH."class/net/http/httpvars.class.php" );
+    lt_include( PLOG_CLASS_PATH."class/net/prettyrequestparser.class.php" );
+	lt_include( PLOG_CLASS_PATH."class/net/requestgenerator.class.php" );
+	lt_include( PLOG_CLASS_PATH."class/config/config.class.php" );
+
+    // get the configuration data
+    $config =& Config::getConfig();
+    
+    // in order to maintain compatilibity with previous version, and the alternative
+    // format of search-engine friendly urls
+    if( $config->getValue( "request_format_mode" ) == SEARCH_ENGINE_FRIENDLY_MODE ) {	
+		$server = HttpVars::getServer();
+		$parser = new PrettyRequestParser( "comment", $server["PATH_INFO"]);
+		$result = $parser->parse();
+		HttpVars::setRequest( $result );
+		lt_include( "index.php" );
+	}
+	else {
+		lt_include( PLOG_CLASS_PATH."blog.php" );
+	}
+?>

@@ -1,0 +1,131 @@
+<div style="padding-left:10px;" id="resources">
+   <!-- resources_enabled -->
+   <div class="field">
+    <label for="config[resources_enabled]">resources_enabled</label>
+    <div class="formHelp">{$locale->tr("help_resources_enabled")}</div>	
+    <input class="radio" type="radio" name="config[resources_enabled]" value="1" {if $resources_enabled == 1 } checked="checked" {/if} />{$locale->tr("yes")}
+    <input class="radio" type="radio" name="config[resources_enabled]" value="0" {if $resources_enabled == 0 } checked="checked" {/if} />{$locale->tr("no")}
+   </div>
+   <!-- where resources are going to be saved -->
+   <div class="field">
+    <label for="config[resources_folder]">resources_folder</label>
+    <div class="formHelp">{$locale->tr("help_resources_folder")}</div>	
+    <input style="width:100%" type="text" name="config[resources_folder]" value="{$resources_folder}"/>
+   </div>
+   <!-- resources naming rule -->
+   <div class="field">
+    <label for="config[resources_naming_rule]">resources_naming_rule</label>
+    <div class="formHelp">{$locale->tr("help_resources_naming_rule")}</div>	
+     <select name="config[resources_naming_rule]">
+      <option value="original_file_name" {if $resources_naming_rule == "original_file_name"} selected="selected" {/if} />{$locale->tr("original_file_name")}</option>
+      <option value="encoded_file_name" {if $resources_naming_rule == "encoded_file_name"} selected="selected" {/if} />{$locale->tr("encoded_file_name")}</option>
+     </select>
+   </div>
+   <!-- thumbnail_method -->
+   <div class="field">
+    <label for="config[thumbnail_method]">thumbnail_method</label>
+    <div class="formHelp">{$locale->tr("help_thumbnail_method")}</div>	
+     <select name="config[thumbnail_method]">
+      <option value="imagemagick" {if $thumbnail_method == "imagemagick"} selected="selected" {/if} />ImageMagick</option>
+      <option value="gd" {if $thumbnail_method == "gd"} selected="selected" {/if} />PHP's GD library</option>
+      <option value="null" {if $thumbnail_method == "null"} selected="selected" {/if} />None</option>
+     </select>
+   </div>
+   <!-- path_to_convert -->
+   <div class="field">
+    <label for="config[path_to_convert]">path_to_convert</label>
+    <div class="formHelp">{$locale->tr("help_path_to_convert")}</div>	
+    <input style="width:100%" type="text" name="config[path_to_convert]" value="{$path_to_convert}"/>
+   </div>
+   <!-- thumbnail_format -->
+   <div class="field">
+    <label for="config[thumbnail_format]">thumbnail_format</label>
+    <div class="formHelp">{$locale->tr("help_thumbnail_format")}</div>	
+    <select name="config[thumbnail_format]">
+      <option value="jpg" {if $thumbnail_format == "jpg"} selected="selected" {/if} />JPG</option>
+      <option value="png" {if $thumbnail_format == "png"} selected="selected" {/if} />PNG</option>
+      <option value="gif" {if $thumbnail_format == "gif"} selected="selected" {/if} />GIF</option>
+      <option value="same" {if $thumbnail_format == "same"} selected="selected" {/if} />{$locale->tr("same_as_image")}</option>	  	  
+     </select>
+   </div>
+   <!-- thumbnail_width -->
+   <div class="field">
+    <label for="config[thumbnail_width]">thumbnail_width</label>
+    <div class="formHelp">{$locale->tr("help_thumbnail_width")}</div>	
+    <input style="width:100%" type="text" name="config[thumbnail_width]" value="{$thumbnail_width}"/>
+   </div>
+   <!-- thumbnail_height -->
+   <div class="field">
+    <label for="config[thumbnail_height]">thumbnail_height</label>
+    <div class="formHelp">{$locale->tr("help_thumbnail_height")}</div>
+    <input style="width:100%" type="text" name="config[thumbnail_height]" value="{$thumbnail_height}"/>
+   </div>
+   <!-- medium_size_thumbnail_width -->
+   <div class="field">
+    <label for="config[medium_size_thumbnail_width]">medium_size_thumbnail_width</label>
+    <div class="formHelp">{$locale->tr("help_medium_size_thumbnail_width")}</div>	
+    <input style="width:100%" type="text" name="config[medium_size_thumbnail_width]" value="{$medium_size_thumbnail_width}"/>
+   </div>
+   <!-- medium_size_thumbnail_height -->
+   <div class="field">
+    <label for="config[medium_size_thumbnail_height]">medium_size_thumbnail_height</label>
+    <div class="formHelp">{$locale->tr("help_medium_size_thumbnail_height")}</div>	
+    <input style="width:100%" type="text" name="config[medium_size_thumbnail_height]" value="{$medium_size_thumbnail_height}"/>
+   </div>   
+   <!-- final_size_thumbnail_width -->
+   <div class="field">
+    <label for="config[final_size_thumbnail_width]">final_size_thumbnail_width</label>
+    <div class="formHelp">{$locale->tr("help_final_size_thumbnail_width")}</div>	
+    <input style="width:100%" type="text" name="config[final_size_thumbnail_width]" value="{$final_size_thumbnail_width}"/>
+   </div>   
+   <!-- final_size_thumbnail_height -->
+   <div class="field">
+    <label for="config[final_size_thumbnail_height]">final_size_thumbnail_height</label>
+    <div class="formHelp">{$locale->tr("help_final_size_thumbnail_height")}</div>	
+    <input style="width:100%" type="text" name="config[final_size_thumbnail_height]" value="{$final_size_thumbnail_height}"/>
+   </div>   
+   <!-- thumbnails_keep_aspect_ratio -->
+   <div class="field">
+    <label for="config[thumbnails_keep_aspect_ratio]">thumbnails_keep_aspect_ratio</label>
+    <div class="formHelp">{$locale->tr("help_thumbnails_keep_aspect_ratio")}</div>
+    <input class="radio" type="radio" name="config[thumbnails_keep_aspect_ratio]" value="1" {if $thumbnails_keep_aspect_ratio == 1 } checked="checked" {/if} />{$locale->tr("yes")}
+    <input class="radio" type="radio" name="config[thumbnails_keep_aspect_ratio]" value="0" {if $thumbnails_keep_aspect_ratio == 0 } checked="checked" {/if} />{$locale->tr("no")}
+   </div>
+   <!-- thumbnail_generator_force_use_gd1 -->
+   <div class="field">
+    <label for="config[thumbnail_generator_force_use_gd1]">thumbnail_generator_force_use_gd1</label>
+    <div class="formHelp">{$locale->tr("help_thumbnail_generator_force_use_gd1")}</div>
+    <input class="radio" type="radio" name="config[thumbnail_generator_force_use_gd1]" value="1" {if $thumbnail_generator_force_use_gd1 == 1 } checked="checked" {/if} />{$locale->tr("yes")}
+    <input class="radio" type="radio" name="config[thumbnail_generator_force_use_gd1]" value="0" {if $thumbnail_generator_force_use_gd1 == 0 } checked="checked" {/if} />{$locale->tr("no")}
+   </div>
+   <!-- thumbnail_generator_use_smoothing_algorithm -->
+   <div class="field">
+    <label for="config[thumbnail_generator_use_smoothing_algorithm]">thumbnail_generator_use_smoothing_algorithm</label>
+    <div class="formHelp">{$locale->tr("help_thumbnail_generator_user_smoothing_algorithm")}</div>
+    <select name="config[thumbnail_generator_use_smoothing_algorithm]">
+     <option value="0" {if $thumbnail_generator_use_smoothing_algorithm == 0 } selected="selected" {/if} />No filter</option>
+     <option value="1" {if $thumbnail_generator_use_smoothing_algorithm == 1 } selected="selected" {/if} />PHP ImageCopyResampled</option>
+     <option value="2" {if $thumbnail_generator_use_smoothing_algorithm == 2 } selected="selected" {/if} />Bi-linear</option>
+     <option value="3" {if $thumbnail_generator_use_smoothing_algorithm == 3 } selected="selected" {/if} />Bi-cubic</option>
+    </select>
+   </div>           
+   <!-- resources_quota -->
+   <div class="field">
+    <label for="config[resources_quota]">resources_quota</label>
+    <div class="formHelp">{$locale->tr("help_resources_quota")}</div>
+    <input style="width:100%" type="text" name="config[resources_quota]" value="{$resources_quota}"/>
+   </div>
+   <!-- resource_server_http_cache_enabled -->
+   <div class="field">
+    <label for="config[resource_server_http_cache_enabled]">resource_server_http_cache_enabled</label>
+    <div class="formHelp">{$locale->tr("help_resource_server_http_cache_enabled")}</div>
+    <input class="radio" type="radio" name="config[resource_server_http_cache_enabled]" value="1" {if $resource_server_http_cache_enabled == 1 } checked="checked" {/if} />{$locale->tr("yes")}
+    <input class="radio" type="radio" name="config[resource_server_http_cache_enabled]" value="0" {if $resource_server_http_cache_enabled == 0 } checked="checked" {/if} />{$locale->tr("no")}
+   </div>
+   <!-- resource_server_http_cache_lifetime -->
+   <div class="field">
+    <label for="config[resource_server_http_cache_lifetime]">resource_server_http_cache_lifetime</label>
+    <div class="formHelp">{$locale->tr("help_resource_server_http_cache_lifetime")}</div>	
+    <input style="width:100%" type="text" name="config[resource_server_http_cache_lifetime]" value="{$resource_server_http_cache_lifetime}"/>
+   </div>
+</div>  

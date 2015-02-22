@@ -1,0 +1,20 @@
+{include file="$blogtemplate/header.template"}
+
+<div id="content">
+
+    <div class="post">
+        <h3 class="storytitle">{$locale->tr("error")}</h3>
+        
+        <div class="meta">
+            {$locale->tr("generated")} {$locale->formatDate($now,"%d %b, %Y")}
+        </div>
+        
+        <div class="storycontent">
+            <img src="{$url->getTemplateFile("error.gif")}" height="32" width="32" alt="Error"/>
+            {$locale->tr($message)}
+        </div>    
+    </div>
+</div>
+
+{include file="$blogtemplate/panel.template"}
+{include file="$blogtemplate/footer.template"}

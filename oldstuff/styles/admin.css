@@ -1,0 +1,975 @@
+div#content li.Level_0 a {line-height:1.8em}
+
+
+/* -------------------------------------------------------------- */
+/* Common stuff and basic page layout                             */
+/* -------------------------------------------------------------- */
+html, body
+{
+    margin           : 0px;
+    padding          : 0px;
+    padding          : 0px;
+    margin-bottom    : 1em;
+    font             : small arial !important;
+}
+
+#container
+{
+    width            : 98%;
+    text-align       : left;
+    margin-left      : auto;
+    margin-right     : auto;
+}
+
+#header
+{
+    height           : 60px;
+    width            : 100%;
+    padding          : 0px;
+    margin           : 0px;
+	background       : #FFFFFF url("../imgs/admin_logo.png") no-repeat left;
+}
+
+#header #blogLink
+{
+    float: left;
+    width : 786px;
+    height: 58px;
+    margin-top: 2px;
+}
+
+#header span
+{
+	display: none;
+}
+
+#header h1
+{
+margin:0;
+padding:15px 0;
+}
+
+#content
+{
+    position         : relative;
+    width            : 100%;
+    display          : block;
+    margin           : 0;
+    padding          : 0;
+}
+
+/**
+ * for the login page, almost the same as the one above
+ */
+#loginPage
+{
+    position         : relative;
+    width            : 100%;
+    display          : block;
+    margin           : 0;
+    padding          : 0;
+    background       : #FFFFFF url("../imgs/lt_logo_plant.jpg") no-repeat left; 
+}
+
+#dashboard
+{
+    padding-left     : 1em;
+    padding-right    : 1em;
+}
+
+.clr
+{
+    clear            : both;
+}
+
+/*-- Accessibility Tweaks --*/
+#skipNav
+{
+    position         : absolute;
+    left             : -9999px;
+    font-size        : small;
+}
+
+#skipNav a:focus
+{
+    display          : block;
+    position         : absolute;
+    top              : 20px;
+    left             : 10020px;
+    font-size        : large;
+    background       : #fff;
+    border           : solid 2px #1B6BD8;
+    padding          : 10px;
+    width            : 15em;
+    z-index          : 1;
+}
+
+#skipNav a:hover
+{
+    color            : #029EDE;
+}
+
+#skipNav a:active
+{
+    display          : block;
+    position         : absolute;
+    top              : 20px;
+    left             : 10020px;
+    font-size        : large;
+    background       : #fff;
+    border           : solid 2px #1B6BD8;
+    padding          : 10px;
+    width            : 15em;
+    z-index          : 1;
+}
+
+.hide
+{
+    display          : none;
+}
+
+/* -------------------------------------------------------------- */
+/* Navigation/menu bar                                            */
+/* -------------------------------------------------------------- */
+
+#menubar
+{
+    margin-bottom    : 10px;
+    background       : #FFFFFF url("../imgs/bg_menu.jpg") repeat-x;
+    height           : 24px;
+}
+
+#menu
+{
+    padding-top      : 1px;
+    padding-bottom   : 1px;
+/* 	border-bottom    : 1px solid #DEDEDE; */
+}
+
+#menu ul
+{
+    padding         : .2em 0;
+    margin          : 0;
+    list-style-type : none;
+    color           : #FFF;
+    width           : 100%;
+    text-align      : center;
+}
+
+#menu li
+{
+
+    position         : relative;
+    padding          : 0;
+    border-left      : 0px solid #B4B4B4;
+    display          : inline;
+    font-weight      : bold;
+    font-family      : arial, verdana, tahoma, sans-serif;
+    font-size        : 1em;
+    letter-spacing   : 0.20em;
+    text-transform   : uppercase;
+}
+
+#menu a, #menu a:link, #menu a:visited
+{
+    padding          : .2em 1em;
+    color            : #0E3862;
+    text-decoration  : none;
+}
+
+#menu a:hover
+{
+    background       : #818181;
+    color            : #FFFFFF;
+}
+
+#menu li.selected
+{
+    display          : block;
+    width            : auto;
+    padding          : 2px 7px;
+    background       : #FFFFFF;
+    color            : #000000;
+    border-bottom    : 1px solid #FFFFFF;
+}
+
+#menu br
+{
+    clear: both;
+}
+
+/* -------------------------------------------------------------- */
+/* Section title and navigation history bar                       */
+/* -------------------------------------------------------------- */
+
+#nav_bar
+{
+    margin-left      : auto;
+    margin-right     : auto;
+    width            : 100%;
+    margin-bottom    : 15px;
+    border-bottom    : 1px dotted #DEDEDE;
+}
+
+#section_title
+{
+    float            : left;
+    width            : 39%;
+}
+
+#section_title h2
+{
+    color            : #588BCA;
+    font-weight      : bold;
+    font-family      : trebuchet ms, tahoma, sans-serif;
+    font-size        : 1.5em;
+    letter-spacing   : 0.08em;
+    margin           : 0;
+    padding-left     : 4px;
+}
+
+#section_title_admin_mode h2
+{
+    color            : red;
+    font-weight      : bold;
+    font-family      : trebuchet ms, tahoma, sans-serif;
+    font-size        : 1.5em;
+    letter-spacing   : 0.08em;
+    margin           : 0;
+    padding-left     : 4px;
+}
+
+#navigation
+{
+    float            : right;
+    width            : 60%;
+    text-align       : right;
+    padding-top      : 7px;
+    font-family      : arial, verdana, tahoma, sans-serif;
+    font-size        : 1em;
+    letter-spacing   : 0.09em;
+    padding-right    : 2px;
+}
+
+#navigation a
+{
+    color            : #000000;
+    text-decoration  : none;
+}
+
+#navigation a:hover
+{
+    color            : #5583BE;
+    text-decoration  : none;
+}
+
+/* -------------------------------------------------------------- */
+/* Admin Tabbed Ul's                                              */
+/* -------------------------------------------------------------- */
+
+#tablist
+{
+    padding          : 3px 5px;
+    margin-left      : 0;
+    font             : 11px trebuchet ms, verdana, tahoma, arial, sans-serif;
+    border-bottom    : 1px solid #DEDEDE;
+}
+
+#tablist li
+{
+    list-style       : none;
+    margin           : 0;
+    display          : inline;
+}
+
+#tablist li a
+{
+    padding          : 3px 0.5em;
+    margin-left      : 0px;
+    border           : 1px solid #DEDEDE;
+    background       : #F0F0F0;
+    text-decoration  : none;
+}
+
+#tablist li a:link
+{
+    color            : #448;
+}
+
+#tablist li a:visited
+{
+    color            : #667;
+}
+
+#tablist li a:hover
+{
+    color            : #000;
+    background       : #FFFFFF;
+    border-color     : #DEDEDE;
+}
+
+#tablist li a#tab_current
+{
+    background       : white;
+    border-bottom    : 1px solid white;
+    border-top       : 3px solid #FFCC33;    
+}
+
+.menuTop_level1 ul, li
+{
+/*    list-style-type: none;*/
+}
+
+.menuTop_level1 ul
+{
+  list-style-type: disc;
+  list-style-image: url(../imgs/bullet.gif);
+}
+
+
+/* -------------------------------------------------------------- */
+/* Form controls (input, ...)                                     */
+/* -------------------------------------------------------------- */
+
+form
+{
+    margin           : 0px;
+}
+
+fieldset
+{
+    border           : 1px solid #DEDEDE;
+    color            : #000000;
+    font-family      : arial, verdana, tahoma, sans-serif;
+    font-size        : 1em;
+    padding-bottom   : 0px;
+    margin           : 0px;
+}
+
+textarea, input, select
+{
+    background       : #FFFFFF;
+    border           : 1px solid #b2b2b2;
+    color            : #000000;
+    font-family      : arial, verdana, tahoma, sans-serif;
+    font-size        : 1em;
+}
+
+input:focus, textarea:focus, label:focus
+{
+    border           : 1px solid #5583BE;
+}
+
+.checkbox, .radio
+{
+    border           : 0px;
+}
+
+.submit
+{
+    /*margin-left      : 4px;*/
+}
+
+.list_action_button a img
+{
+    border           : 0px;
+    padding          : 0px;
+}
+
+.list_action_button a:hover img
+{
+/*    filter            : alpha(opacity=60);
+    -moz-opacity      : 0.6;*/
+}
+
+.field
+{
+    top              : 0;
+    left             : 0;
+    margin           : 0 1em 1em 0;
+}
+
+.field .field
+{
+    margin           : 1em 0 0 0;
+}
+
+.field label
+{
+    font-size        : 100%;
+    font-weight      : bold;
+}
+
+.field_checkbox
+{
+    top              : 0;
+    left             : 0;
+}
+
+.field_checkbox label
+{
+    font-size        : 100%;
+}
+
+.formHelp
+{
+    font-size        : 1em;
+    color            : #76797c;
+    margin           : 0 0 0.2em 0;
+}
+
+.formHelp a
+{
+    text-decoration  : underline;
+}
+
+.formHelp:hover
+{
+    color            : Black;
+    cursor           : default;
+}
+
+fieldset
+{
+    border           : 1px solid #8cacbb;
+    margin           : 1em 0em 1em 0em;
+    padding          : 0em 1em 1em 1em;
+    line-height      : 1.5em;
+    width            : auto;
+}
+
+.inputField
+{
+    width: 96%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #FCFCFF;
+    border: 1px solid #DEDEDE;
+}
+
+.buttons
+{
+    width: 99%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: right;
+	padding-top: 1em; 
+}
+
+.inputField input
+{
+    width:100%;
+}
+
+.inputField legend
+{
+    font-weight: bold;
+}
+
+.inputField .dateTime
+{
+   width: 80%;
+}
+
+.inputField .checkbox, .inputField .button, .inputField .radio
+{
+   width: auto;
+}
+
+.inputField .file
+{
+   width: auto;
+}
+
+.pager
+{
+    float:left;
+}
+
+.optionIcon
+{
+	text-align       : right;
+	font-size        : 12px;
+}
+
+.optionIcon a
+{
+	text-decoration  : none; 
+	color            : #888888;
+	padding          : 2px;
+}
+
+.optionIcon a:hover
+{
+	background-color : #888888;
+	color            : #FFFFFF;
+}
+
+/* -------------------------------------------------------------- */
+/* Data lists parameters & search bar                             */
+/* -------------------------------------------------------------- */
+
+#list_nav_bar
+{
+    margin-left      : auto;
+    margin-right     : auto;
+    width            : 98%;
+    background-color : #F3F1FF;
+    padding-bottom   : 4px;
+    padding-left     : 4px;
+    padding-right    : 4px;
+    margin-bottom    : 10px;
+    border           : 0px solid #DEDEDE;
+}
+
+#list_nav_bar fieldset
+{
+    border           : 1px solid #DEDEDE;
+    color            : #000000;
+    font-family      : arial, verdana, tahoma, sans-serif;
+    font-size        : 1em;
+    padding          : 0px;
+    margin           : 0px;
+    height           : 60px;
+}
+
+#list_nav_select
+{
+    float            : left;
+    width            : 100%;
+    text-align       : center;
+}
+
+#list_nav_search
+{
+    float            : left;
+    width            : 30%;
+    text-align       : center;
+}
+
+.list_nav_option
+{
+    float            : left;
+    text-align       : left;
+    padding          : 0px 4px 4px 4px;
+    margin-left      : 5px;
+}
+
+#list_nav_bar legend
+{
+    font-family      : trebuchet ms, tahoma, sans-serif;
+    font-size        : 1.1em;
+    font-weight      : bold;
+    letter-spacing   : 0.08em;
+}
+
+#list_nav_select label
+{
+}
+
+/* -------------------------------------------------------------- */
+/* Data lists table format                                        */
+/* -------------------------------------------------------------- */
+
+.info
+{
+    margin-left      : auto;
+    margin-right     : auto;
+    margin-bottom    : 10px;
+    width            : 96%;
+    border-collapse  : collapse;
+    border-bottom    : 4px solid #DEDEDE;
+    border-spacing   : 0px;
+}
+
+.info th
+{
+    font-family      : trebuchet ms, tahoma, sans-serif;
+    font-size        : 1.1em;
+    font-weight      : bold;
+    letter-spacing   : 0.08em;
+    vertical-align   : bottom;
+    border-bottom    : 1px solid #DEDEDE;
+    padding          : 4px;
+    text-align       : left;
+}
+
+.info th a
+{
+    color           : #000000;
+    text-decoration : none;
+}
+
+.info th a:hover
+{
+    color           : #5583BE;
+    text-decoration : none;
+}
+
+.odd
+{
+    background       : #F7F7F7;
+}
+
+.highlightClass
+{
+   background       : #E1E1E1;
+}
+
+.info td
+{
+    color            : #888888;
+    border-bottom    : 1px solid #DEDEDE;
+    vertical-align   : text-top;
+    padding          : 4px;
+    /*border:1px solid black;*/
+}
+
+.info td a
+{
+    color           : #888888;
+    text-decoration : none;
+}
+
+.info td a img {
+    border: 0px;
+}
+
+.info td a:hover
+{
+    color           : #5583BE;
+    text-decoration : none;
+}
+
+/* -------------------------------------------------------------- */
+/* Specific column format                                         */
+/* -------------------------------------------------------------- */
+
+.col_highlighted
+{
+    font-weight      : bold;
+}
+
+/* -------------------------------------------------------------- */
+/* Data lists bottom actions bar                                  */
+/* -------------------------------------------------------------- */
+
+#list_action_bar
+{
+    margin-left      : auto;
+    margin-right     : auto;
+    width            : 96%;
+    padding          : 4px;
+    text-align       : right;
+    /*background-color : #F3F1FF;*/
+    margin-bottom    : 10px;
+    /*border           : 1px dashed #DEDEDE;*/
+}
+
+
+/* -------------------------------------------------------------- */
+/* Positive or negative feedback messages                         */
+/* -------------------------------------------------------------- */
+
+#list #FormError
+{
+    padding-left: 10px;
+}
+
+#FormError
+{
+    text-align: left;
+    padding-top: 0px;
+}
+
+#list #FormInfo
+{
+    padding-left: 10px;
+}
+
+#FormInfo
+{
+    text-align: left;
+    padding-top: 0px;
+}
+
+.InfoIcon
+{
+    float:left;
+    clear:left;
+    margin-top:3px;
+}
+
+.InfoText
+{
+    color:green;
+    padding-left:20px;
+    padding-top:3px;
+}
+
+.ErrorText
+{
+    color:red;
+    padding-left:20px;
+    padding-top:3px;
+}
+
+/**
+ * login screen
+ */
+.loginBox
+{
+  width: 300px;
+  margin-top: 25px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h4, fieldset h4
+{
+    font-family      : trebuchet ms, tahoma, sans-serif;
+    font-size        : 1.1em;
+    font-weight      : bold;
+    letter-spacing   : 0.08em;
+    vertical-align   : bottom;
+    border-bottom    : 1px solid #DEDEDE;
+    padding          : 0px;
+    text-align       : left;
+    text-transform   : capitalize;
+}
+
+.sectionTitle
+{
+    font-size: 1.3em;
+}
+
+.welcomeMessage {
+  margin-bottom: 10px;
+}
+
+.pager
+{
+float:left;
+}
+
+/**
+ * styles for the 'manage' page and similar.
+ */
+#content .menuTop
+{
+    list-style-type : none;
+    padding-left: 45px;
+    padding-right: 45px;
+    margin: 0px;
+}
+
+#content .menuTop ul
+{
+ padding: 0px;
+ margin: 0px;
+}
+
+#content .menuTop .Level_1
+{
+    font-family      : trebuchet ms, tahoma, sans-serif;
+    font-size        : 1.0em;
+    font-weight      : bold;
+    letter-spacing   : 0.08em;
+    border-bottom    : 1px solid #DEDEDE;
+    padding-top      : 10px;
+    text-align       : left;
+}
+
+#content .menuTop .Level_0
+{
+    padding-left: 10px;
+    font-weight      : normal;
+}
+
+#content .menuTop .Level_0 a
+{
+    color           : #888888;
+    text-decoration : none;
+}
+
+#content .menuTop .Level_0 a:hover
+{
+    color           : #5583BE;
+    text-decoration : none;
+}
+
+/* -------------------------------------------------------------- */
+/* Dashboard                                                      */
+/* -------------------------------------------------------------- */
+
+#dashboard h2
+{
+    color            : #588BCA;
+    font-weight      : bold;
+    font-family      : arial, verdana, arial, tahoma, sans-serif;
+    font-size        : 1.4em;
+    letter-spacing   : 0.08em;
+    margin           : 0;
+    padding-left     : 4px;
+}
+
+#dashboard h2 a
+{
+    color            : #32609B;
+    font-weight      : bold;
+    font-family      : arial, verdana, arial, tahoma, sans-serif;
+    margin           : 0;
+    padding-left     : 4px;
+    text-decoration  : none;
+}
+
+#dashboard h2 a:hover
+{
+    text-decoration  : underline;
+}
+
+#dashboard h3
+{
+    color            : #588BCA;
+    font-weight      : bold;
+    font-family      : arial, verdana, arial, tahoma, sans-serif;
+    font-size        : 1.1em;
+    margin           : 0;
+    margin-top       : 12px;
+    margin-bottom    : 4px;
+    padding-left     : 12px;
+}
+
+#dashboard table
+{
+    margin-left     : 12px;
+    width           : 100%;
+}
+
+#dashboard th
+{
+}
+
+#dashboard td
+{
+}
+
+#dashboard a
+{
+    color            : #8A8A8A;
+    text-decoration  : none;
+}
+
+#dashboard
+{
+    color            : #8A8A8A;
+}
+
+#dashboard .dashboard_blog
+{
+    border           : 1px solid #DEDEDE;
+    padding          : 4px;
+    background-color : #FCFCFF;
+    margin-top       : 10px;
+}
+
+#dashboard .dashboard_blog_layout
+{
+    margin           : 0;
+    width            : 100%;
+    background-color : #FFFFFF;
+}
+
+#dashboard .dashboard_blog_layout tr
+{
+}
+
+#dashboard .dashboard_blog_layout td
+{
+}
+
+#dashboard .dashboard_data_table
+{
+    width           : 98%;
+}
+
+#dashboard .dashboard_data_table th
+{
+    border-bottom   : 2px solid #DEDEDE;
+    height          : 20px;
+    text-align      : left;
+}
+
+#dashboard .dashboard_data_table td
+{
+    border-bottom    : 1px solid #DEDEDE;
+    height           : 20px;
+}
+
+#dashboard .dashboard_data_table_statistics
+{
+    width           : 96%;
+}
+
+#dashboard .dashboard_data_table_statistics th, td
+{
+    border-bottom    : 1px solid #DEDEDE;
+    height           : 20px;
+    text-align       : left;
+}
+
+#dashboard .dashboard_data_quick_launches
+{
+    width           : 96%;
+}
+
+#dashboard .dashboard_data_quick_launches th, td
+{
+    border-bottom    : 1px solid #DEDEDE;
+    height           : 20px;
+    text-align       : left;
+}
+
+.dashboard_logout_link a
+{
+	float: right;	
+	padding-right: 5px;
+	padding-top: 3px;
+	text-transform: capitalize;
+    color            : #32609B;
+    font-weight      : bold;
+    font-family      : arial, verdana, arial, tahoma, sans-serif;
+    margin           : 0;
+    padding-left     : 4px;
+    text-decoration  : none;	
+}
+
+.dashboard_logout_link a:hover
+{
+	text-decoration: underline;	
+}
+
+div.templateScreen {
+  float: left;
+  margin: 5px 15px 15px 0px;
+}
+
+div.templateScreen img {
+border:0px;
+}
+
+#status_bar
+{
+    width: 99%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: right;
+    display:none;
+ }
+
+.dashboardHelp
+{
+    font-size        : 1em;
+    color            : #76797c;
+    margin           : 0 0 0.2em 0.4em;
+}

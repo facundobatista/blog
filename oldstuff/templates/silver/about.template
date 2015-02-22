@@ -1,0 +1,13 @@
+{include file="$blogtemplate/header.template"}
+<div id="content">
+ <div class="blog">
+  <div class="blogbody">
+  <h2 class="title">{$locale->tr("about")}</h2>
+  <div class="posted"><a href="{$url->templatePage("about")}">{$locale->tr("permalink")}</a></div>
+ You can change the contents of this page by editing the templates/about.template file.
+  </div>
+  <br />
+ </div>
+</div>
+{include file="$blogtemplate/panel.template"}
+{include file="$blogtemplate/footer.template"}

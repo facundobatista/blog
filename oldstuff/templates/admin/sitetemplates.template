@@ -1,0 +1,65 @@
+{include file="$blogtemplate/header.template"}
+{include file="$blogtemplate/navigation.template" showOpt=siteTemplates title=$locale->tr("siteTemplates")}
+<script type="text/javascript">
+{literal}
+YAHOO.util.Event.addListener( window, "load", function() {
+		var t = new Lifetype.UI.TableEffects( "list" );
+		t.stripe();
+		t.highlightRows();
+	});
+{/literal}
+</script>
+ <form id="siteTemplates" method="post" action="admin.php">
+ <div id="list">
+  {include file="$admintemplatepath/successmessage.template"}
+  {include file="$admintemplatepath/errormessage.template"}
+  <table id="list" class="info" summary="{$locale->tr("siteTemplates")}">
+   <thead>
+    <tr>
+      <th><input class="checkbox" type="checkbox" name="all" id="all" value="1" onclick="toggleAllChecks('siteTemplates');" /></th>
+      <th style="width:90%;">{$locale->tr("template")}</th>
+      <th style="width:10%;">{$locale->tr("actions")}</th>
+    </tr>
+  </thead>
+  <tbody>
+  {foreach from=$templates item=sitetemplate}
+   <tr>
+    <td>
+       <input class="checkbox" type="checkbox" name="templateIds[{counter}]" value="{$sitetemplate->getName()}" />
+    </td>
+    <td  class="col_highlighted">
+	 {if $sitetemplate->hasScreenshot()}
+	  <a href="javascript:openScreenshotWindow('{$sitetemplate->getScreenshotUrl()}');">{$sitetemplate->getName()}</a>
+	 {else}
+      {$sitetemplate->getName()}
+	 {/if} 
+    </td>
+    <td>
+     <div class="list_action_button">
+	  {check_perms adminperm=update_template}
+      <a href="?op=deleteTemplate&amp;templateId={$sitetemplate->getName()}" title="{$locale->tr("delete")}">
+        <img src="imgs/admin/icon_delete-16.png" alt="{$locale->tr("delete")}" />
+      </a>
+      {/check_perms}
+	  {if $sitetemplate->hasScreenshot()}
+	    <a href="javascript:openScreenshotWindow('{$sitetemplate->getScreenshotUrl()}');" title="{$locale->tr("preview")}">
+		  <img src="imgs/admin/icon_image-16.png" alt="{$locale->tr("preview")}" />
+		</a>
+	  {/if}	  
+     </div>
+    </td>
+   </tr>
+  {/foreach}
+  </tbody>
+ </table>
+ </div>
+ <div id="list_action_bar">
+   {check_perms adminperm=update_template}	
+   <input type="hidden" name="op" value="deleteTemplates" class="submit" />
+   <input type="submit" name="{$locale->tr("delete")}" value="{$locale->tr("delete")}"/>
+   {/check_perms}
+ </div>
+ </form>
+ 
+{include file="$blogtemplate/footernavigation.template"}
+{include file="$blogtemplate/footer.template"}

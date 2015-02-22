@@ -1,0 +1,93 @@
+<menu url="?op=Dashboard" localeId="dashboard"> 
+	<Manage url="?op=Manage">
+	    <managePosts ignoreBreadCrumbs="1" orPerms="add_post,view_posts,add_category,view_categories,view_comments,view_trackbacks">
+	       <newPost url="?op=newPost" andPerms="add_post" />	
+	       <editPosts url="?op=editPosts" andPerms="view_posts" />
+	       <newArticleCategory url="?op=newArticleCategory" andPerms="add_category" />	
+	       <editArticleCategories url="?op=editArticleCategories" andPerms="view_categories" />
+	       <editComments url="?op=editComments" andPerms="view_comments" />
+	       <editTrackbacks url="?op=editTrackbacks" andPerms="view_trackbacks" />
+ 		</managePosts>
+ 		<manageLinks ignoreBreadCrumbs="1" orPerms="add_link,view_links,add_link_category,view_link_categories">
+			 <newLink url="?op=newLink" andPerms="add_link" /> 		
+ 		     <editLinks url="?op=editLinks" andPerms="view_links" /> 
+			 <newLinkCategory url="?op=newLinkCategory" andPerms="add_link_category" /> 		     
+			 <editLinkCategories url="?op=editLinkCategories" andPerms="view_link_categories" />
+        </manageLinks>
+		<manageCustomFields ignoreBreadCrumbs="1" orPerms="add_custom_field,view_custom_fields">
+  		  <newCustomField url="?op=newCustomField" andPerms="add_custom_field" />
+		  <blogCustomFields url="?op=blogCustomFields" andPerms="view_custom_fields" />
+		</manageCustomFields>
+	</Manage>
+	<ResourcesGroup url="?op=resourcesGroup" localeId="resourceCenter">
+	  <resourceCenter ignoreBreadCrumbs="1" orPerms="add_resource,add_album,view_resources">
+	  	<newResource url="?op=newResource" andPerms="add_resource" />	
+	  	<newResourceAlbum url="?op=newResourceAlbum" andPerms="add_album" />
+	  	<resources url="?op=resources" andPerms="view_resources" />
+	  </resourceCenter> 
+	</ResourcesGroup>  
+	<controlCenter url="?op=controlCenter">
+	    <manageSettings ignoreBreadCrumbs="1"> 
+  		  <blogSettings url="?op=blogSettings" andPerms="update_blog" />	
+		  <userSettings url="?op=userSettings" />
+		  <Stats url="?op=Stats" andPerms="view_blog_stats" />
+		</manageSettings> 
+		<manageBlogUsers ignoreBreadCrumbs="1" orPerms="add_blog_user,view_blog_users"> 
+		  <newBlogUser url="?op=newBlogUser" andPerms="add_blog_user" />
+		  <showBlogUsers url="?op=showBlogUsers" andPerms="view_blog_users" />
+		 </manageBlogUsers>
+		 <manageBlogTemplates ignoreBreadCrumbs="1" orPerms="add_blog_template,view_blog_templates"> 
+		  <newBlogTemplate url="?op=newBlogTemplate" andPerms="add_blog_template" />
+		  <blogTemplates url="?op=blogTemplates" andPerms="view_blog_templates" />
+		 </manageBlogTemplates> 
+	</controlCenter>
+	<adminSettings url="?op=adminSettings" admin="1" orPerms="add_user,view_users,add_permission,view_permissions,add_site_blog,view_site_blogs,add_blog_category,view_blog_categories,add_locale,view_locales,add_template,view_templates,add_global_category,view_global_categories,view_global_settings,view_plugins,update_plugin_settings,purge_data">
+		<Users ignoreBreadCrumbs="1" orPerms="add_user,view_users,add_permission,view_permissions" admin="1">
+			<createUser url="?op=createUser" andPerms="add_user" admin="1"/>
+			<editSiteUsers url="?op=editSiteUsers" andPerms="view_users" admin="1"/>
+			<newPermission url="?op=newPermission" andPerms="add_permission" admin="1"/>			
+			<permissionsList url="?op=permissionsList" andPerms="view_permissions" admin="1" />
+		</Users>
+		<Blogs ignoreBreadCrumbs="1" admin="1" orPerms="add_site_blog,view_site_blogs,add_blog_category,view_blog_categories">
+			<createBlog url="?op=createBlog" admin="1" andPerms="add_site_blog" />
+			<editSiteBlogs url="?op=editSiteBlogs" admin="1" andPerms="view_site_blogs"/>
+			<newBlogCategory url="?op=newBlogCategory" admin="1" andPerms="add_blog_category"/>
+			<editBlogCategories url="?op=editBlogCategories"  admin="1" andPerms="view_blog_categories"/>
+		</Blogs>
+		<Locales ignoreBreadCrumbs="1" orPerms="add_locale,view_locales" admin="1">
+			<newLocale url="?op=newLocale" admin="1" andPerms="add_locale"/>
+			<siteLocales url="?op=siteLocales" admin="1" andPerms="view_locales"/>
+		</Locales>
+		<Templates ignoreBreadCrumbs="1" admin="1" orPerms="add_template,view_templates">
+			<newTemplate url="?op=newTemplate" andPerms="add_template"/>
+			<siteTemplates url="?op=siteTemplates" andPerms="view_templates"/>
+		</Templates>
+	    <manageGlobalArticleCategory ignoreBreadCrumbs="1" admin="1" orPerms="add_global_category,view_global_categories" >
+	    	<newGlobalArticleCategory url="?op=newGlobalArticleCategory" andPerms="add_global_category" />
+ 		    <editGlobalArticleCategories url="?op=editGlobalArticleCategories" andPerms="view_global_categories" />
+		</manageGlobalArticleCategory>		
+		<GlobalSettings ignoreBreadCrumbs="1" andPerms="view_global_settings"  admin="1">
+			<editSiteSettings url="?op=editSiteSettings&amp;show=general" andPerms="view_global_settings"  admin="1"/>
+			<summarySettings url="?op=editSiteSettings&amp;show=summary" andPerms="view_global_settings"  admin="1"/>
+			<templateSettings url="?op=editSiteSettings&amp;show=templates" andPerms="view_global_settings"  admin="1"/>
+			<urlSettings url="?op=editSiteSettings&amp;show=urls" andPerms="view_global_settings"  admin="1"/>
+			<emailSettings url="?op=editSiteSettings&amp;show=email" andPerms="view_global_settings"  admin="1"/>
+			<uploadSettings url="?op=editSiteSettings&amp;show=upload" andPerms="view_global_settings"  admin="1"/>
+			<helpersSettings url="?op=editSiteSettings&amp;show=helpers" andPerms="view_global_settings"  admin="1"/>
+			<interfacesSettings url="?op=editSiteSettings&amp;show=interfaces" andPerms="view_global_settings"  admin="1"/>
+			<securitySettings url="?op=editSiteSettings&amp;show=security" andPerms="view_global_settings"  admin="1"/>
+			<bayesianSettings url="?op=editSiteSettings&amp;show=bayesian" andPerms="view_global_settings"  admin="1"/>
+			<resourcesSettings url="?op=editSiteSettings&amp;show=resources" andPerms="view_global_settings"  admin="1"/>
+			<searchSettings url="?op=editSiteSettings&amp;show=search" andPerms="view_global_settings"  admin="1"/>
+		</GlobalSettings>
+		<Plugins ignoreBreadCrumbs="1" admin="1" orPerms="view_plugins,update_plugin_settings">
+		  <pluginCenter url="?op=pluginCenter" admin="1" andPerms="view_plugins"/>
+		  <pluginSettings url="?op=pluginSettings" admin="1" andPerms="update_plugin_settings"/>		
+		</Plugins>
+		<Miscellaneous ignoreBreadCrums="1" admin="1" orPerms="purge_data,view_global_settings">
+			<cleanUp url="?op=cleanUp" admin="1" andPerms="purge_data"/>
+			<Versions url="?op=Versions" admin="1" andPerms="view_global_settings" />
+		</Miscellaneous>
+	</adminSettings>
+	<Logout url="?op=Logout" /> 
+</menu>

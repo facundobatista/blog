@@ -1,0 +1,39 @@
+{include file="$blogtemplate/header.template"}
+
+ <h3>{$locale->tr("blog_users")}</h3>
+ <form name="editSiteBlogUsers" method="post" action="admin.php">
+  {$locale->tr("blog_owner")}:
+   {foreach from=$siteusers item=siteuser}
+    {if $editblog->getOwner() == $siteuser->getId()}<b>{$siteuser->getUsername()}</b>{/if}
+   {/foreach}<br/>
+ <br/>
+  <table with="100%" summary="{$locale->tr("blog_users")}">
+   <tr width="100%">
+    <td width="40%">
+     {$locale->tr("available_users")}: <br/>
+     <select name="siteUsers[]" multiple="multiple" size="7" style="width:100%">
+     {foreach from=$availableusers item=availableuser}
+      <option value="{$availableuser->getId()}">{$availableuser->getUsername()} {if $availableuser->getFullName() != ""}({$availableuser->getFullName()}){/if}</option>
+     {/foreach}
+     </select>
+    </td>
+    <td valign="center" width="20%">
+     <input type="submit" name="subOpAdd" value="{$locale->tr("add")} --&gt;"/><br/>
+     <input type="submit" name="subOpRemove" value="&lt;-- {$locale->tr("remove")}"/>
+    </td>
+    <td width="40%">
+     {$locale->tr("blog_users")}: <br/>
+      <select name="blogUsers[]" multiple="multiple" size="7" style="width:100%">
+       {foreach from=$blogusers item=bloguser}
+        <option value="{$bloguser->getId()}">{$bloguser->getUsername()} {if $bloguser->getFullName() != ""}({$bloguser->getFullName()}){/if}</option>
+       {/foreach}
+      </select>
+    </td>
+   </tr>
+  </table>
+ <input type="hidden" name="op" value="updateBlogUsers"/>
+ <input type="hidden" name="editBlogId" value="{$editblog->getId()}"/>
+ </form>
+
+{include file="$blogtemplate/footernavigation.template"}
+{include file="$blogtemplate/footer.template"}

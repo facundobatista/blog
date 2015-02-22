@@ -1,0 +1,74 @@
+{include file="summary/header.template" selected="register" columns=1}
+
+
+  <div id="onecolumn">
+ <h2>{$locale->tr("register_step2_title")}</h2>
+ <div id="intro">
+        <p>
+          {$locale->tr("register_step2_help")}
+        </p>
+  </div>
+  
+<div id="registrationform">
+
+
+ <form name="createBlog" action="register.php" method="post">
+  <fieldset class="inputField">
+   <legend>{$locale->tr("step2")}</legend>
+   {include file="summary/formvalidate.template" message=$locale->tr("error_adding_blog")}     
+   <div class="field">
+     <label for="blogName">{$locale->tr("name")}</label>
+     <div class="formHelp">{$locale->tr("register_blog_name_help")}</div>
+     <input type="text" name="blogName" value="{$blogName}" id="blogName" size="40" />
+     {include file="summary/validate.template" field=blogName message=$locale->tr("error_invalid_blog_name")}
+   </div>
+
+   {if $blogDomainsEnabled}
+   <div class="field">
+     <label for="blogSubDomain">{$locale->tr("domain")}</label>
+     <div class="formHelp">{$locale->tr("register_blog_domain_help")}.</div>
+     <input type="text" name="blogSubDomain" id="blogSubDomain" value="{$blogSubDomain}"  size="12" />
+     <select name="blogMainDomain" id="blogMainDomain">
+      {foreach from=$blogAvailableDomains item=domain}
+       <option value="{$domain}" {if $domain == $blogMainDomain}selected{/if}>
+            {if $domain == "?"}
+              {$locale->tr("subdomains_any_domain")}
+            {else}
+              .{$domain}
+            {/if}
+       </option>
+      {/foreach}
+     </select>
+     {include file="summary/validate.template" field=blogSubDomain message=$locale->tr("error_invalid_subdomain")}
+     {include file="summary/validate.template" field=blogMainDomain message=$locale->tr("error_invalid_domain")}
+   </div>
+   {/if}
+
+   <div class="field">
+     <label for="blogCategoryId">{$locale->tr("blog_category")}</label>
+     <div class="formHelp">{$locale->tr("blog_category_help")}</div>
+     <select name="blogCategoryId" id="blogCategoryId">
+      {foreach name=blogCategories from=$blogCategories item=blogCategory}
+        <option value="{$blogCategory->getId()}"{if $smarty.foreach.blogCategories.first} selected{/if}>{$blogCategory->getName()}</option>
+      {/foreach}
+     </select>
+   </div>   
+
+   <div class="field">
+     <label for="blogLocale">{$locale->tr("language")}</label>
+     <div class="formHelp">{$locale->tr("blog_language_help")}</div>
+     <select name="blogLocale" id="blogLocale">
+      {foreach from=$locales item=localeObject}
+        <option value="{$localeObject->getLocaleCode()}" {if $defaultLocale == $localeObject->getLocaleCode()}selected="selected"{/if}>{$localeObject->getDescription()}</option>
+      {/foreach}
+     </select>
+   </div>
+  </fieldset>
+  <div class="buttons">
+    <input type="submit" name="{$locale->tr("register_next")}" value="{$locale->tr("register_next")} &raquo;"/>
+  </div>  
+ </form>
+
+</div>
+</div>
+{include file="summary/footer.template"}
