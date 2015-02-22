@@ -1,0 +1,17 @@
+2004-08-20 15:50:42
+Open Office
+open office, windows, excel, word, office
+
+Lamentablemente tomé la decisión de dejar de usar Open Office en mi entorno Windows en la oficina. Las razones:
+
+- Realmente es pesado. Tengo una máquina rápida pero con solamente 256MB de RAM: los 50MB en memoria del "Arranque Rápido" me hacían caer en swap, lo que ralentizaba toda la máquina.
+
+- Es *muy* compatible, pero no 100%. Y encima el Word/Excel es infeccioso: cuando rompen algo en la planilla (típico comportamiento de que uno quiere hacer algo que sabe que se puede pero no funca), luego en OpenOffice se ve mal o sigue funcionando mal.
+
+- Me traia demasiado overhead andar preocupándome de los detalles de compatibilidad con todo el resto de Unifón (que usa MS), y en este momento de pico de trabajo es demasiado.
+
+Ejemplo de estos dos últimos puntos: yo tenía una planilla (en OO) donde llevaba una pequeña estadística. En un momento la quiso ver mi jefe, por lo que la grabé en formato MS. La abrí con el Excel, y no me mostraba el segundo eje Y. Jugué un rato, lo puse, lo saqué, y varias cosas más, pero nunca apareció en el gráfico. Grabé la planilla (había hecho algunos cambios que quería conservar) y cuando la abrí con OO había cambiado.
+
+Los valores eran los mismos, el gráfico era el mismo, pero tenía muchos detalles de estética. Léase: era perfectamente útil, pero no me servía como planilla que quiero pasarle a un jefe para que observe unos datos.
+
+En resumen, mi experiencia es que el OO está a un nivel absolutamente profesional. Y es compatible con MS. Pero se complica usarlo en un entorno 99.9% MS.

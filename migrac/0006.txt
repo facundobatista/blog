@@ -1,0 +1,13 @@
+2004-09-17 15:22:54
+Curva de bugs
+bugs, saclla, unifón, tickets
+
+La cantidad de bugs en un determinado sistema, proyecto o programa depende de *muchos* factores. Lo que sucede siempre es que, manteniendo el código estable (no agregándole nuevas características, no haciendo refactoring, etc.) la cantidad de bugs baja.
+
+¿Baja hasta cuanto? ¿Cero? Más de una vez escuché que la curva de cantidad de bugs con respecto al tiempo es asintótica a cero, sin llegar nunca a ese valor.
+
+Bueno, hoy lo comprobé. En Unifón tenemos (con Diego) un sistema que se llama SACLLA (Sistema de Armado y Clasificación de LLAmadas), que basicamente procesa *todos* los tickets que generan *todas* las centrales para *todas* las llamadas que hacen los usuarios. Tenemos uno para TDMA (tsaclla) y uno para GSM (gsaclla), ya que los tickets y la forma de enlazarlos para armar las llamadas es distinto.
+
+Desde que gsaclla está funcionando en producción, lleva procesado más de 500 millones de tickets. Y hoy detectamos un bug. Se daba para una condición de tráfico que practicamente no sucede nunca, y de ahí la dificultad de la detección. Pero lo traceamos, lo analizamos, le pegamos, lo pisoteamos y listo. Solucionado.
+
+Por eso, cuando piensen que un código no tienen errores, piensen nuevamente. Sí los tiene, ¡y todavía no los encontraron![
