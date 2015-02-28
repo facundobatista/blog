@@ -1,6 +1,6 @@
 2004-11-16 15:20:11
 Funcionalidad
-<tags>
+futuro, funcionalidad, ocr, móvil, números, teléfono
 
 Agarré el documento que había recibido por fax, lo leí y decidí llamar a uno de los técnicos que figuraba en el pequeño informe (solamente una página).
 
@@ -8,7 +8,4 @@ Tomé el celular y le saqué una foto al impreso. El teléfono hizo OCR (Optical
 
 Diez segundos después de decidir hacer la llamada, el teléfono ya me ofrecía los cuatros posibles números. Elegí uno y llamé. Contando el sacar la foto solamente fueron cuatro golpes de "botón" y nada más.
 
-<span style="font-style: italic;">(La historia anterior transcurre en un probable futuro.)</span>
-
-[@more@]
-                                           |
+*(La historia anterior transcurre en un probable futuro.)*

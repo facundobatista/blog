@@ -1,8 +1,0 @@
-2004-11-23 20:03:58
-Aritmética Decimal
-<tags>
-
-Puse disponible en la web, accesible facilmente las instrucciones de cómo bajar e instalar en Python 2.3 el módulo <span style="font-family: courier new,courier,monospace;">decimal.py</span> (en <a href="http://www.taniquetil.com.ar/facundo/bdvfiles/obtener_decimal.html">castellano</a> y en <a href="http://www.taniquetil.com.ar/facundo/bdvfiles/get_decimal.html">inglés</a>).
-
-[@more@]
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
