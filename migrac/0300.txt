@@ -6,7 +6,7 @@ Corría el año 2002, y yo tenía por delante un largo viaje a Italia, de unos t
 
 Se presentaba ante mí una dificultad operativa: no quería tener que estar pendiente de comunicar a familia, amigos y allegados, uno por uno, cómo iba el viaje, cómo estaba yo, el estudio, Italia, etc.
 
-Entonces decidí que la mejor solución era montar la información en alg&uacute;n lado, y dejar que todos aquellos que quisieran levanten la info de allí. <em>&iexcl;Un blog!</em>, pensarán ustedes, pero en esa época el concepto no era tan conocido y no habían herramientas tan populares como hoy en día.
+Entonces decidí que la mejor solución era montar la información en algún lado, y dejar que todos aquellos que quisieran levanten la info de allí. <em>&iexcl;Un blog!</em>, pensarán ustedes, pero en esa época el concepto no era tan conocido y no habían herramientas tan populares como hoy en día.
 
 Mi solución, precaria pero efectiva, fue de armar los HTMLs a mano. Sí, mis queridos y postmodernistas lectores: en una época nos ensuciábamos los dedos así, :p. Ok, usaba el Mozilla Composer, pero si alguna vez lo probaron, era casi como armar el HTML con el Vi. Mi <em>sitio</em> tenía entonces una página principal con las noticias más recientes, algunos links de interés, frase de la semana, etcétera.
 
@@ -14,7 +14,7 @@ Habían otras páginas secundarias, como una con un montón de enlaces que yo us
 
 Fue una excelente experiencia, pero el master terminó, y volví a la Argentina. Ese principio de blog, ya llamado Bitácora de Vuelo, no tuvo mucha más razón de ser, así que lo congelé.
 
-El tiempo pasó, y un día estaba en el Laboratorio de Electrónica de la facultad, en otra vida mía en la que era profesor de Hardware de PC, y necesitaba un dato que sabía que estaba en esa bitácora que había construido un par de años atrás. Busqué en internet, y la encontré, pero por alg&uacute;n motivo y percance del hosting gratis, ya no estaba disponible. Sin embargo, en el caché de Google había algo, y en la <a href="http://www.archive.org/web/web.php">máquina del tiempo de Internet</a> habían otras partes.
+El tiempo pasó, y un día estaba en el Laboratorio de Electrónica de la facultad, en otra vida mía en la que era profesor de Hardware de PC, y necesitaba un dato que sabía que estaba en esa bitácora que había construido un par de años atrás. Busqué en internet, y la encontré, pero por algún motivo y percance del hosting gratis, ya no estaba disponible. Sin embargo, en el caché de Google había algo, y en la <a href="http://www.archive.org/web/web.php">máquina del tiempo de Internet</a> habían otras partes.
 
 Más allá del dato que necesitaba, me colgué leyendo lo que había escrito en su momento, y lo disfruté de tal manera que pensé que estaría muy bueno, dentro de algunos años, poder leer lo que estaba haciendo en ese momento. Así que decidí que iba a tener un blog, hecho y derecho.
 
@@ -26,4 +26,4 @@ En este camino muchas cosas fueron cambiando de forma, detalles que le agregaba 
 
 Todavía faltan modificaciones que quiero hacerle. Las dos más importantes es que quiero revisar todos los archivos que tengo subidos al sitio y relinkearlos para que se puedan acceder desde un lugar centralizado, y que quiero recategorizar los posts (como ven acá a la derecha, hay un desbalance entre la categoría <em>General</em> y el resto, con lo cual vale la pena algun reórden para que tenga más sentido).
 
-El motivo de esta <em>revisión histórica</em> es que este post es el n&uacute;mero <strong>300</strong>, todo un n&uacute;mero. Mi querida Bitácora de Vuelo, <strong>&iexcl;feliz cumplecientos!</strong>[@more@] |
+El motivo de esta <em>revisión histórica</em> es que este post es el número <strong>300</strong>, todo un número. Mi querida Bitácora de Vuelo, <strong>&iexcl;feliz cumplecientos!</strong>[@more@] |

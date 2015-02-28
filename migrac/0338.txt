@@ -2,9 +2,9 @@
 PyCon 2008 - Los Sprints
 <tags>
 
-En el <a href="http://www.taniquetil.com.ar/plog/post/1/336">&uacute;ltimo post sobre PyCon 2008</a> contaba que había pasado hasta que comenzó la etapa de los Sprints... acá continuamos desde ese punto, el domingo a la tarde.
+En el <a href="http://www.taniquetil.com.ar/plog/post/1/336">último post sobre PyCon 2008</a> contaba que había pasado hasta que comenzó la etapa de los Sprints... acá continuamos desde ese punto, el domingo a la tarde.
 
-Hubieron tres actividades al respecto. La primera fue una pequeña presentación de Brett Canon sobre qué es un sprint (esta fue buenísima... tendría que agarrar ese video, subtitularlo, y distribuirlo...). Luego se armó un pequeño panel con algunos líderes de sprint, donde el p&uacute;blico hacía preguntas generales sobre los sprints y esta gente (entre la que estaba Lucio, ya que lideraba el sprint de PyPy-Flash) contestaba.
+Hubieron tres actividades al respecto. La primera fue una pequeña presentación de Brett Canon sobre qué es un sprint (esta fue buenísima... tendría que agarrar ese video, subtitularlo, y distribuirlo...). Luego se armó un pequeño panel con algunos líderes de sprint, donde el público hacía preguntas generales sobre los sprints y esta gente (entre la que estaba Lucio, ya que lideraba el sprint de PyPy-Flash) contestaba.
 
 Luego toda la gente se separó en un grupo por sprint y se fueron a distintas habitaciones donde estuvieron haciendo un pequeño tutorial de cada sprint, así el lunes se podía arrancar ya andando.
 
@@ -30,6 +30,6 @@ Para festejar (?) fuimos los que estábamos trabajando juntos más otros que se 
 
 La verdad es que se armó un grupo piola, todos de puntas distintas del planeta, pero gente divertida.
 
-El &uacute;ltimo día de los prints propiamente dicho arrancó más relajado, al punto que no hicimos nada del proyecto, :p. Estuvimos boludeando un rato hasta que Lucio y Riq dieron un tutorial de <a href="http://code.google.com/p/los-cocos/">Cocos</a>, el cual gustó muchísimo. La verdad es que ellos dos tuvieron más visibilidad por estar acá en PyCon, pero quiero felicitar también (aparte de ellos dos) a Ra y Darni que estuvieron trabajando en este proyecto.
+El último día de los prints propiamente dicho arrancó más relajado, al punto que no hicimos nada del proyecto, :p. Estuvimos boludeando un rato hasta que Lucio y Riq dieron un tutorial de <a href="http://code.google.com/p/los-cocos/">Cocos</a>, el cual gustó muchísimo. La verdad es que ellos dos tuvieron más visibilidad por estar acá en PyCon, pero quiero felicitar también (aparte de ellos dos) a Ra y Darni que estuvieron trabajando en este proyecto.
 
 Luego del tutorial almorzamos y nos fuimos a pasear Riq, Lucio, Evelyn, Guillermo, Richard y yo al centro de Chicago. El paseo estuvo muy bueno, sacamos unas fotos bárbaras, y hasta paramos en una gran librería a comprar libros. Obviamente, cuando volvimos, nos quedamos jugando un partidito de Settlers, y después nos quedamos trabajando hasta como las cuatro de la mañana...[@more@] |

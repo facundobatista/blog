@@ -8,10 +8,10 @@ El sábado, sin embargo, &iexcl;hay conferencia todo el día! Nos convoca el <a 
 
 <img src="http://farm4.static.flickr.com/3120/3257983146_2195f9c9f3_o.jpg" border="0" width="152" height="125" />
 
-Es un día completo de charlas de todo tipo, donde Python tiene varios espacios asignados (miren el <a href="http://unlux.com.ar/index.php?option=com_content&amp;task=view&amp;id=14&amp;Itemid=24">cronograma</a>), como nos tienen bien acostumbradas las &uacute;ltimas conferencias de Software Libre.
+Es un día completo de charlas de todo tipo, donde Python tiene varios espacios asignados (miren el <a href="http://unlux.com.ar/index.php?option=com_content&amp;task=view&amp;id=14&amp;Itemid=24">cronograma</a>), como nos tienen bien acostumbradas las últimas conferencias de Software Libre.
 
 Allí daremos nuevamente la charla antedicha. Pero también daré nuevamente mi "Introducción a Python", con algunas pequeñas modificaciones resultantes de comentarios luego de la presentación en CaFeConf 07.
 
-Pueden encontrar ambas charlas <a href="http://www.taniquetil.com.ar/homedevel/presents/">aquí</a>. Tengan en cuenta que pueden browsear esos directorios con el navegador, pero también pueden hacer un checkout anónimo con Subversion (si no entendieron nada después de la &uacute;ltima coma, descártenlo y usen el browser para entrar en esa dirección :) ).
+Pueden encontrar ambas charlas <a href="http://www.taniquetil.com.ar/homedevel/presents/">aquí</a>. Tengan en cuenta que pueden browsear esos directorios con el navegador, pero también pueden hacer un checkout anónimo con Subversion (si no entendieron nada después de la última coma, descártenlo y usen el browser para entrar en esa dirección :) ).
 
 Por otro lado, estoy preparando una sorpresita para Luján, veamos si puedo llegar :)[@more@] |

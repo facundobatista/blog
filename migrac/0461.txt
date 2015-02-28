@@ -31,7 +31,7 @@ El martes costó más levantarse, pero arranqué temprano igual. La mañana la p
 
 
 
-La tarde fue distinta: nos juntamos todos los de Ubuntu One en una habitación grande, y todos los que tenían alg&uacute;n problema venían y se lo solucionábamos. Yo manejé tres casos... el primero, tenía la metadata corrupta (el usuario mismo protestaba que esa computadorita que tenía se le colgaba siempre y se le jodían los archivos, más allá de los nuestros); el segundo, cuando me fue a mostrar el problema, funcionaba todo perfectamente, :); y el tercero, al que realmente no le funcionaba todo perfectamente, era porque el servicio todavía es lento en algunos casos (y él había tirado miles de archivos y nunca terminaba), así que tocamos algunas cosas para sacarlos, y dejarlo "sano", para que vaya agregando otra info que le interesaba más.
+La tarde fue distinta: nos juntamos todos los de Ubuntu One en una habitación grande, y todos los que tenían algún problema venían y se lo solucionábamos. Yo manejé tres casos... el primero, tenía la metadata corrupta (el usuario mismo protestaba que esa computadorita que tenía se le colgaba siempre y se le jodían los archivos, más allá de los nuestros); el segundo, cuando me fue a mostrar el problema, funcionaba todo perfectamente, :); y el tercero, al que realmente no le funcionaba todo perfectamente, era porque el servicio todavía es lento en algunos casos (y él había tirado miles de archivos y nunca terminaba), así que tocamos algunas cosas para sacarlos, y dejarlo "sano", para que vaya agregando otra info que le interesaba más.
 
 
 
@@ -43,7 +43,7 @@ Luego los chicos y un par más arrancaron un juego de <a href="http://www.sjgame
 
 
 
-El miércoles también fue un día de sesiones y sesiones, pero aproveché para salir a caminar. Como el &uacute;ltimo turno de la mañana terminó temprano, aproveché para comer rapidito y salí a recorrer un poco el bosque de alrededor del hotel.
+El miércoles también fue un día de sesiones y sesiones, pero aproveché para salir a caminar. Como el último turno de la mañana terminó temprano, aproveché para comer rapidito y salí a recorrer un poco el bosque de alrededor del hotel.
 
 
 

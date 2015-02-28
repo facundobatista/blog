@@ -7,11 +7,11 @@ Las dos primeras charlas ya fueron el mes pasado.
 
 
 
-La primera fue "Introducción a la Programación", charla que estrenaba completamente, y que implicaba la dificultad adicional del tema: no era Python, era "programar", un tema difícil de explicar, y más a&uacute;n de mostrar en slides para un p&uacute;blico masivo.
+La primera fue "Introducción a la Programación", charla que estrenaba completamente, y que implicaba la dificultad adicional del tema: no era Python, era "programar", un tema difícil de explicar, y más aún de mostrar en slides para un público masivo.
 
 
 
-La segunda fue "Introducción a Python". Aquí yo dí la misma charla de siempre, pero en muchísima más profundidad. Tomás Zulberti completó al final hablando sobre la Biblioteca Estándar, y Diego Mascialino cerró con un ejemplo de procesamiento de n&uacute;meros.
+La segunda fue "Introducción a Python". Aquí yo dí la misma charla de siempre, pero en muchísima más profundidad. Tomás Zulberti completó al final hablando sobre la Biblioteca Estándar, y Diego Mascialino cerró con un ejemplo de procesamiento de números.
 
 
 

@@ -18,7 +18,7 @@ Decidí mandar a cagar a Lenovo, y cualquier compra en USA. Me sugirieron Urugua
 
 Por otros temas, terminé yendo un par de veces a Garbarino y Frávega. Y estuve revisando las notebooks que tenían, y habían un par que no estaban nada mal, que me gustaba la pantalla, teclado, en general estaban bastante bien, sólo cortas de memoria. Y comentando esto a un amigo, me animó a ir a Galería Jardín para ver si se conseguían esas máquinas con más memoria.
 
-Hace una semana fui finalmente a Galería Jardín, y estuve paseando tipo hora y media. Entré a alrededor de unos quince locales a preguntar por la máquina que quería, y el punto en com&uacute;n que encontré fue lo gracioso de las caras de las personas que me atendían.
+Hace una semana fui finalmente a Galería Jardín, y estuve paseando tipo hora y media. Entré a alrededor de unos quince locales a preguntar por la máquina que quería, y el punto en común que encontré fue lo gracioso de las caras de las personas que me atendían.
 
 Es que ponían muy buena cara cuando entraba al negocio, yo les decía que estaba buscando una laptop, y sonreían muy amistosamente. Entonces les tiraba la primera: "Quiero 8 GB de RAM". En ese punto, se les notaba que revisaban mentalmente las máquinas disponibles, buscaban en su memoria, perdían un poco la sonrisa... en fin, descartaban gran parte de la oferta que tenían.
 
@@ -30,7 +30,7 @@ Pero a veces me ofrecían algo. Y ese algo fue en dos o tres ocasiones la Samsun
 
 La Sony no me gustaba estéticamente (y para sus características, un poco cara). La Dell era una Latitude muy ladrillo, pero buenas prestaciones (especialmente a nivel batería), pero salía $13500; descartada. Y la Asus también salía como 11 o 12 lucas, las razones del precio que me indicaban era porque tenía un disco SSD, mientras que (me decían) la Samsung Ultrabook no tiene un disco separado SSD, sino un "caché de 24GB".
 
-La &uacute;ltima escala del paseo la hice por un local de Samsung muy muy cheto, en el cual mostraban dos ultrabooks, una serie 5 y una serie 9. Ahí también me indicaron que la serie 5 "es más barata porque no tiene disco SSD sino un cache", y que la serie 9 también está 11 o 12 mil pesos porque tiene el disco SSD separado, además de otros detalles.
+La última escala del paseo la hice por un local de Samsung muy muy cheto, en el cual mostraban dos ultrabooks, una serie 5 y una serie 9. Ahí también me indicaron que la serie 5 "es más barata porque no tiene disco SSD sino un cache", y que la serie 9 también está 11 o 12 mil pesos porque tiene el disco SSD separado, además de otros detalles.
 
 En fin. No quería gastar tanta plata, así que me decidí por la Samsung Ultrabook NP530U3C-A01AR.
 
@@ -38,7 +38,7 @@ En fin. No quería gastar tanta plata, así que me decidí por la Samsung Ultrab
 
 Como la gran mayoría, viene con 4GB de RAM, pero en el local me la subían a 8GB. Precio final (IVA incluído): $7000 (en <a href="http://www.previus.com.ar/">Previus</a>).
 
-La compré este &uacute;ltimo viernes, pero como tenía otras cosas que hacer luego, recién la probé el sábado a la mañana. Ya había visto que para que el BIOS reconozca el pendrive con el instalador de Ubuntu había que toquetear algunas cosas. Yo lo primero que hice fue meterme en el BIOS, sí, pero para curiosear. Realmente no tuve que cambiar nada más que el orden de booteo (que tenía primero al rígido).
+La compré este último viernes, pero como tenía otras cosas que hacer luego, recién la probé el sábado a la mañana. Ya había visto que para que el BIOS reconozca el pendrive con el instalador de Ubuntu había que toquetear algunas cosas. Yo lo primero que hice fue meterme en el BIOS, sí, pero para curiosear. Realmente no tuve que cambiar nada más que el orden de booteo (que tenía primero al rígido).
 
 Así que sin haber booteado nunca en el windor (por cábala, viste) me puse a instalar el Ubuntu. Le dije al instalador que quería customizar las particiones, y ahí vi que realmente la máquina tiene DOS discos, uno "clásico" (de esos que tienen platitos magnéticos que giran, un HDD), y otro de silicio (o sea, los denominados SSD).
 
@@ -48,7 +48,7 @@ Dudé qué instalar dónde, busqué un poco y <a href="http://schoolsplay.wordpr
 
 Si miran con cuidado van a ver que le pifié a las cantidades: puse los valores en MB en lugar de GB... por suerte el particionador se avivó y me dijo que necesitaba más espacio en "/var" que lo que estaba poniendo, así que me di cuenta del error y lo corregí.
 
-El &uacute;nico detalle que hay que tener cuidado (que yo le pifié) es que el disco marcado como boot tiene que ser el HDD (aunque barra esté en el SSD), porque el BIOS sólo bootea del primero. Nada importante.
+El único detalle que hay que tener cuidado (que yo le pifié) es que el disco marcado como boot tiene que ser el HDD (aunque barra esté en el SSD), porque el BIOS sólo bootea del primero. Nada importante.
 
 En fin, luego de instalar un rato, y que baje las actualizaciones y eso, ya tenía mi notebook nueva con Ubuntu Quantal.
 

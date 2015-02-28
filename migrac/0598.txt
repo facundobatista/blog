@@ -2,7 +2,7 @@
 El árbol fluorescente
 <tags>
 
-En otra edición de "cosas que hice hace tiempo y me resultaron &uacute;tiles ahora", les presento un proyecto que nació hace cinco años y medio de una charla de PyAr.
+En otra edición de "cosas que hice hace tiempo y me resultaron útiles ahora", les presento un proyecto que nació hace cinco años y medio de una charla de PyAr.
 
 Como explico en <a href="http://www.taniquetil.com.ar/plog/post/1/310">este post</a>, para jugar un rato con un amigo hice un árbol Trie, que luego de algunas optimizaciones degeneró en algo que llamé "Fucked Trie".
 
@@ -16,9 +16,9 @@ Características de este árbol:
 
 - Está pensando para mantenerlo en memoria: ocupa poco, y carga rápido
 
-- Las b&uacute;squedas son por prefijo: O sea, entrando con "foo" encuentra "foo" y todo lo que empieza por "foo". No encuentra "grafoo".
+- Las búsquedas son por prefijo: O sea, entrando con "foo" encuentra "foo" y todo lo que empieza por "foo". No encuentra "grafoo".
 
-- Las b&uacute;squedas son extremadamente rápidas (en el orden de los 10<sup>-4</sup> segundos).
+- Las búsquedas son extremadamente rápidas (en el orden de los 10<sup>-4</sup> segundos).
 
 - Cada palabra tiene un payload que puede ser cualquier cosa.
 

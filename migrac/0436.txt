@@ -7,7 +7,7 @@ La <a href="http://code.google.com/p/cdpedia/">CDPedia</a> tiene mucha informaci
 
 
 
-El problema con tanta información es la b&uacute;squeda. Hoy por hoy solamente estamos buscando en los títulos de las páginas, y así y todo es un problema... porque la mayoría de los esquemas de b&uacute;squedas están armados por palabras completas (coincidencia exacta), o por parte de la palabra, pero siempre comenzando de esa manera (o sea, buscar por "cam", encuentra "camino", pero no "videocámara"). Creo firmemente en que la b&uacute;squeda debería permitir coincidencias parciales en cualquier parte de la palabra.
+El problema con tanta información es la búsqueda. Hoy por hoy solamente estamos buscando en los títulos de las páginas, y así y todo es un problema... porque la mayoría de los esquemas de búsquedas están armados por palabras completas (coincidencia exacta), o por parte de la palabra, pero siempre comenzando de esa manera (o sea, buscar por "cam", encuentra "camino", pero no "videocámara"). Creo firmemente en que la búsqueda debería permitir coincidencias parciales en cualquier parte de la palabra.
 
 
 
@@ -34,7 +34,7 @@ La API no es complicada, se considera que las palabras (cadenas de texto) son cl
 	<li>nos busca varias palabras, viendo que estén todas ellas, pero buscando *exactamente* cada palabra [search()]</li>
 	<li>nos busca varias palabras, también haciendo un AND, pero buscando parcialmente cada una [partial_search()]</li>
 </ul>
-(este &uacute;ltimo punto es en el que fallan la mayoría de los índices que andan dando vuelta por ahí)
+(este último punto es en el que fallan la mayoría de los índices que andan dando vuelta por ahí)
 
 
 

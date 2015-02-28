@@ -9,4 +9,4 @@ Logo y películas
  Dmytro me prestó varias películas para ver, pero vamos con calma. Por lo pronto, ví <a href="http://www.imdb.com/title/tt0387564/">Saw</a>: +0.
 
  Y agregué varias a la <a href="http://www.taniquetil.com.ar/facundo/bdvfiles/peliculas.html">lista</a>:
- <ul><li><a href="http://www.imdb.com/title/tt0450232/">16 blocks</a> </li><li><a href="http://www.imdb.com/title/tt0383574/">Pirates of the Caribbean 2: Dead man&#39;s chest</a> </li><li><a href="http://www.imdb.com/title/tt0449088/">Pirates of the Caribbean 3: At world&#39;s end</a> </li><li><a href="http://www.imdb.com/title/tt0375920/">The libertine</a> </li><li><a href="http://www.imdb.com/title/tt0434409/">V for vendetta</a></li></ul>[@more@] |
+ <ul><li><a href="http://www.imdb.com/title/tt0450232/">16 blocks</a> </li><li><a href="http://www.imdb.com/title/tt0383574/">Pirates of the Caribbean 2: Dead man's chest</a> </li><li><a href="http://www.imdb.com/title/tt0449088/">Pirates of the Caribbean 3: At world's end</a> </li><li><a href="http://www.imdb.com/title/tt0375920/">The libertine</a> </li><li><a href="http://www.imdb.com/title/tt0434409/">V for vendetta</a></li></ul>[@more@] |

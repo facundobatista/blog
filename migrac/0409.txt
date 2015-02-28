@@ -27,7 +27,7 @@ Estas son las que vi:
 	<li><a href="http://www.imdb.com/title/tt0454864/">The last winter</a>: -0. Pinta muy bien, parece tener toda una idea interesante, pero no la llega a desarrollar y se queda en nada.</li>
 	<li><a href="http://www.imdb.com/title/tt0444682/">The reaping</a>: +1. Todos saben que no me gustan las películas sobre religión... pero esta es distinta.</li>
 	<li><a href="http://www.imdb.com/title/tt0320691/">Underworld</a>, <a href="http://www.imdb.com/title/tt0401855/">Underworld: Evolution</a>, y <a href="http://www.imdb.com/title/tt0834001/">Underworld: Rise of the Lycans</a>: +0. Recomiendo la trilogía, pero sólo si te gusta la temática.</li>
-	<li><a href="http://www.imdb.com/title/tt0995829/">XXY</a>: +1. Un tema s&uacute;per controvertido, pero muy bien tratado.</li>
+	<li><a href="http://www.imdb.com/title/tt0995829/">XXY</a>: +1. Un tema súper controvertido, pero muy bien tratado.</li>
 </ul>
 
 
@@ -54,7 +54,7 @@ Y estas las anotadas nuevas:
 </ul>
 
 
-Finalmente, el resumen seg&uacute;n cuando las anoté, pero esta vez lo mostramos apenas distinto: el &uacute;ltimo conteo y el nuevo:
+Finalmente, el resumen según cuando las anoté, pero esta vez lo mostramos apenas distinto: el último conteo y el nuevo:
 
 
 

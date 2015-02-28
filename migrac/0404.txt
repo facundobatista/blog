@@ -25,7 +25,7 @@ A la tarde arrancamos con el proyecto que más me interesaba: la <a href="http:/
 
 
 
-Luego de cenar llegó la parte más l&uacute;dica del campamento: aquí la mayoría dejamos de programar y nos ponemos a jugar a cualquier cosa: juegos de cartas, de mesa, por computadora, etc. Yo tenía muchas ganas de jugar al Virtua Tennis, un muy buen juego de tenis, pero que sólo corre sobre Windows. Con Perrito lo intentamos correr en una máquina virtual, pero no tuvimos demasiado éxito. Luego lo instalamos en el Linux mismo, usando Wine, y aunque era jugable (tenía el problema que no le funcaba el sonido), no nos sirvió para nada porque explotaba cuando queríamos armar un partido entre dos computadoras a través de la red. Y, como la idea era jugar en grupo, decidimos buscar otra cosa.
+Luego de cenar llegó la parte más lúdica del campamento: aquí la mayoría dejamos de programar y nos ponemos a jugar a cualquier cosa: juegos de cartas, de mesa, por computadora, etc. Yo tenía muchas ganas de jugar al Virtua Tennis, un muy buen juego de tenis, pero que sólo corre sobre Windows. Con Perrito lo intentamos correr en una máquina virtual, pero no tuvimos demasiado éxito. Luego lo instalamos en el Linux mismo, usando Wine, y aunque era jugable (tenía el problema que no le funcaba el sonido), no nos sirvió para nada porque explotaba cuando queríamos armar un partido entre dos computadoras a través de la red. Y, como la idea era jugar en grupo, decidimos buscar otra cosa.
 
 
 
@@ -59,7 +59,7 @@ Bastantes estábamos interesados en este proyecto, así que usamos un pizarrón 
 
 
 
-En todo el diseño, perdimos una buena parte de tiempo eligiendo el nombre del nuevo bicho, ya que como iba a recibir una reescritura de cero no nos parecía que siga con el mismo nombre que antes. Queríamos que el nombre pareciera de mujer (porque es más simpático, porque tenemos pocas mujeres en el canal, y es muy divertido cuando la gente le quiere hablar sin saber que es un robot), pero también queríamos que tenga alg&uacute;n sentido geek. Luego de pasar por numerosas propuestas de nombres de víboras, terminamos yéndonos para el lado de una serie de televisión que nos gusta mucho: <a href="http://es.wikipedia.org/wiki/The_Big_Bang_Theory">The Big Bang Theory</a>. En esta serie, uno de los personajes presenta a la que es su predestinada futura esposa, que se llama <a href="http://www.imdb.com/character/ch0116779/">Lalita Gupta</a>. Así que le pusimos <em>lalita</em>.
+En todo el diseño, perdimos una buena parte de tiempo eligiendo el nombre del nuevo bicho, ya que como iba a recibir una reescritura de cero no nos parecía que siga con el mismo nombre que antes. Queríamos que el nombre pareciera de mujer (porque es más simpático, porque tenemos pocas mujeres en el canal, y es muy divertido cuando la gente le quiere hablar sin saber que es un robot), pero también queríamos que tenga algún sentido geek. Luego de pasar por numerosas propuestas de nombres de víboras, terminamos yéndonos para el lado de una serie de televisión que nos gusta mucho: <a href="http://es.wikipedia.org/wiki/The_Big_Bang_Theory">The Big Bang Theory</a>. En esta serie, uno de los personajes presenta a la que es su predestinada futura esposa, que se llama <a href="http://www.imdb.com/character/ch0116779/">Lalita Gupta</a>. Así que le pusimos <em>lalita</em>.
 
 
 
@@ -107,7 +107,7 @@ Volvimos justo para almorzar, y luego seguí trabajando con lalita hasta que nos
 
 
 
-<img src="http://www.taniquetil.com.ar/facundo/imgs/pycamp09-davinciserevuelcaenlatumba.png" alt="La &uacute;ltima cena... Da Vinci, dejá de copiarnos" width="500" height="362" />
+<img src="http://www.taniquetil.com.ar/facundo/imgs/pycamp09-davinciserevuelcaenlatumba.png" alt="La última cena... Da Vinci, dejá de copiarnos" width="500" height="362" />
 
 
 

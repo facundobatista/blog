@@ -2,7 +2,7 @@
 Agitado comienzo de fin de semana
 <tags>
 
-El viernes a la noche arrancamos el fin de semana dando una charla en el ITBA: "Python más rápido que C", invitado por Macarse. Teoricamente la iba a dar con Lucio, pero tuvo un problema con el auto y no pudo llegar, así que dí la charla solo... el p&uacute;blico algo frío, y yo dí la charla demasiado rápido (nunca la había "pensado" dar sólo), pero bien.
+El viernes a la noche arrancamos el fin de semana dando una charla en el ITBA: "Python más rápido que C", invitado por Macarse. Teoricamente la iba a dar con Lucio, pero tuvo un problema con el auto y no pudo llegar, así que dí la charla solo... el público algo frío, y yo dí la charla demasiado rápido (nunca la había "pensado" dar sólo), pero bien.
 
 Luego de la charla, con Moni fuimos a comer algo a la costanera, cerca de casa, y nos fuimos a dormir temprano, porque el sábado iba a ser un largo, largo día.
 
@@ -22,11 +22,11 @@ Luego comimos en una parrillita justo afuera de la Universidad, un poco a las ap
 
 <img src="http://farm4.static.flickr.com/3345/3257153925_20005a1e49_o.jpg" border="0" />
 
-A diferencia de la del día anterior, esta salió muy bien: habían como 25 asistentes (más de lo que esperaba), y se mostraron interesados. Por mi parte el tener la experiencia del día anterior ayudó muchísimo a la dinámica de la charla, y me salió muy bien. Los &uacute;ltimos cinco minutos estuvieron complicados, porque justo se cortó la luz. La laptop seguía con la batería, pero sin proyector, tuve que improvisar un poquito.
+A diferencia de la del día anterior, esta salió muy bien: habían como 25 asistentes (más de lo que esperaba), y se mostraron interesados. Por mi parte el tener la experiencia del día anterior ayudó muchísimo a la dinámica de la charla, y me salió muy bien. Los últimos cinco minutos estuvieron complicados, porque justo se cortó la luz. La laptop seguía con la batería, pero sin proyector, tuve que improvisar un poquito.
 
-Obviamente, yo no tuve ning&uacute;n problema, pero los que sufrieron son los organizadores, ya que la energía eléctrica se había cortado en toda la Universidad. Pero le pusieron muchísima onda, reorganizaron las charlas a aulas con más luz ambiental, y lo supieron llevar adelante.
+Obviamente, yo no tuve ningún problema, pero los que sufrieron son los organizadores, ya que la energía eléctrica se había cortado en toda la Universidad. Pero le pusieron muchísima onda, reorganizaron las charlas a aulas con más luz ambiental, y lo supieron llevar adelante.
 
-Mi &uacute;ltima charla del día fue justamente "a laptop sin proyector"; la daba Efraim, y se llamaba "Procesamiento de imágenes con software libre". Mucho de lo que mostró ya lo conocía, pero aprendí muchas cosas nuevas, estuvo bien.
+Mi última charla del día fue justamente "a laptop sin proyector"; la daba Efraim, y se llamaba "Procesamiento de imágenes con software libre". Mucho de lo que mostró ya lo conocía, pero aprendí muchas cosas nuevas, estuvo bien.
 
 Luego estuve un rato vagando por la zona de registración, charlando con gente, haciendo sociales, bah. Por suerte más tarde volvió la energía eléctrica, y se pudo planificar mejor el cierre de la jornada. En función de lo que había pasado, los chicos decidieron hacer el cierre del evento, y luego poner dos charlas más que habían quedado sueltas.
 

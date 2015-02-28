@@ -16,4 +16,4 @@ Para que se den una idea, esta es la terminal con la que mi viejo laburaba, mien
 
 <img src="http://www.taniquetil.com.ar/facundo/imgs/terminal8250.jpg" alt="Terminal" height="400" width="396" />
 
-Voy a ver si me bajo el juego para alg&uacute;n emulador que corra en Linux, y le dedico un rato :)</p> |
+Voy a ver si me bajo el juego para algún emulador que corra en Linux, y le dedico un rato :)</p> |

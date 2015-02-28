@@ -4,11 +4,11 @@ Wiki XML a HTML, no way
 
 El otro día comenté sobre la <a href="http://www.taniquetil.com.ar/plog/post/1/323">Wikipedia Offline</a>, y en el sexto comentario apuntaron a unos parsers de terceros para pasar de XML a HTML.
 
-Si uno pudiera tener un xml2html.py que armara el HTML a mostrar al usuario a partir del XML original, los vol&uacute;menes de datos a manejar en todas las etapas del proyecto serían bastante menores.
+Si uno pudiera tener un xml2html.py que armara el HTML a mostrar al usuario a partir del XML original, los volúmenes de datos a manejar en todas las etapas del proyecto serían bastante menores.
 
 Me alegré bastante cuando encontré <a href="http://code.pediapress.com/wiki/wiki/mwlib">mwlib</a>, una biblioteca hecha en Python para parsear los artículos XML y generar el HTML. El primer día de trabajo en PyCamp 2008 lo pasé tratando de usar esto.
 
-El XML que publica Wikimedia, con sólo los artículos, templates y etcéteras en la &uacute;ltima versión (y no todas las discusiones, ni todo el historial) pesa 1.7GB, con lo cual era imposible abrir el XML con herramientas de fácil uso como ElementTree. Pero Chipaca hizo un parseador en SAX (que va recorriendo el XML gradualmente, y no tiene que cargarlo entero en memoria), que yo luego modifiqué un poco y dejé en <font face="courier new,courier"><em>articleExtractor.py</em></font>.
+El XML que publica Wikimedia, con sólo los artículos, templates y etcéteras en la última versión (y no todas las discusiones, ni todo el historial) pesa 1.7GB, con lo cual era imposible abrir el XML con herramientas de fácil uso como ElementTree. Pero Chipaca hizo un parseador en SAX (que va recorriendo el XML gradualmente, y no tiene que cargarlo entero en memoria), que yo luego modifiqué un poco y dejé en <font face="courier new,courier"><em>articleExtractor.py</em></font>.
 
 Ya pudiendo separar el artículo, me puse a jugar con la biblioteca <em>mwlib</em> en si, para convertirlo a HTML. Acá me encontré con algunas sorpresas, pero luego de hacer algunos análisis durante un par de horas, las pudimos descartar.
 
@@ -22,14 +22,14 @@ Finalmente, entonces, éramos capaces de traducir el XML a HTML. El proceso es b
 
 Una de los primeros detalles es que no encontraba algunas categorías. Y esto era porque en el XML, al ser en español, están los tags como "categoría", y no como "category". Luego de revisar durante un buen rato como cambiarle el locale al parser antes de laburar, encontré que esto estaba bastante chancho: están hardcodeados en los programas estos tags para inglés y alemán, pero nada más. Feo, sucio. Pero agregué algunos en castellano y seguí experimentando. El HTML ahora se parecía más al original.
 
-Otro gran detalle es que no encontraba unos templates. Nuevamente con la ayuda de tuute, encontramos que los templates están en el .xml grandote que teníamos: el template otrosusos era un artículo allí llamado "Plantilla:Otrosusos" (nótese el cambio de min&uacute;scula a may&uacute;scula).
+Otro gran detalle es que no encontraba unos templates. Nuevamente con la ayuda de tuute, encontramos que los templates están en el .xml grandote que teníamos: el template otrosusos era un artículo allí llamado "Plantilla:Otrosusos" (nótese el cambio de minúscula a mayúscula).
 
 Acá me di cuenta que para más o menos poder seguir generando la info, tendríamos que extraer estas Plantillas de forma previa, para poder alimentársela al parser. Como el parser y el resto están preparados para conectarse a una base de datos como la de wikipedia, había que: o generar una base de datos similar, o seguir tocando la biblioteca para que acepte las cosas de otra forma.
 
-En el mismo proceso, actualicé el archivo xml, ya que antes de venir para acá había bajado la &uacute;ltima versión pero por error seguía usando la versión anterior. Y aparecieron nuevas categorías, lo que implicaría seguir modificando la <em>mwlib</em> a mano, no sólo ahora, sino en el futuro, :(.
+En el mismo proceso, actualicé el archivo xml, ya que antes de venir para acá había bajado la última versión pero por error seguía usando la versión anterior. Y aparecieron nuevas categorías, lo que implicaría seguir modificando la <em>mwlib</em> a mano, no sólo ahora, sino en el futuro, :(.
 
-En función de todos estos drawbacks y dependencias, entendimos que no podríamos pasar de XML a HTML en el momento de servirlos, en la máquina del usuario final, sino que debíamos generar una especie de htmls reducidos y más simples, de manera de procesar y guardar HTMLS de forma similar a la idea original del proyecto, pero con vol&uacute;menes más simples.
+En función de todos estos drawbacks y dependencias, entendimos que no podríamos pasar de XML a HTML en el momento de servirlos, en la máquina del usuario final, sino que debíamos generar una especie de htmls reducidos y más simples, de manera de procesar y guardar HTMLS de forma similar a la idea original del proyecto, pero con volúmenes más simples.
 
 Pero luego estuvimos viendo como iba creciendo el HTML que estábamos generando (todavía faltaba incorporarle los templates), y consideramos los tamaños relativos con respecto a los HTMLs estáticos que la misma Wikipedia genera (y que eran la fuente de datos originalmente).
 
-Entonces, luego de analizarlo, con Alecu y Tuute decidimos que este camino no nos llevaba a ning&uacute;n lado, y decidimos que no valía la pena seguir explorándolo.[@more@] |
+Entonces, luego de analizarlo, con Alecu y Tuute decidimos que este camino no nos llevaba a ningún lado, y decidimos que no valía la pena seguir explorándolo.[@more@] |

@@ -19,7 +19,7 @@ Otra pista: cuando el carbón se va calentando, &iquest;echa mucha chispa? Si s�
 
 Sí, es un poco más caro si consideramos la relación dinero/kg, pero el carbón berreta y el carbón bueno no tienen el mismo poder calorífico: el bueno rinde más. Creo que si tomamos esto en cuenta, casi no tenemos diferencia de costos en comprar mejor carbón (porque usamos menos).
 
-Por &uacute;ltimo, &iquest;por qué no leña? Porque siempre mi viejo hizo asado con carbón, así que esta técnica usa carbón, :)
+Por último, &iquest;por qué no leña? Porque siempre mi viejo hizo asado con carbón, así que esta técnica usa carbón, :)
 
 <img src="http://www.taniquetil.com.ar/facundo/imgs/pasosasado1.jpeg" alt="Carbón" height="418" width="500" />
 
@@ -28,9 +28,9 @@ Por &uacute;ltimo, &iquest;por qué no leña? Porque siempre mi viejo hizo asado
 
 Es la base del fuego; una construcción adecuada del cono de ignición te permite prender todo el fuego usando un sólo fósforo. Dos fósforos y un soplido, ponele. Pero si tenés que echarle nafta estás desaprobado, volvé en Marzo.
 
-Se va armando en capas, con un n&uacute;cleo altamente inflamable y todo rodeado de carbón al final. En el medio, distintos materiales de distintos grosores.
+Se va armando en capas, con un núcleo altamente inflamable y todo rodeado de carbón al final. En el medio, distintos materiales de distintos grosores.
 
-Yo uso como n&uacute;cleo un bollo de papel de diario, y a veces una cajita de huevos. El papel de diario sirve también para dejar una "colita mecha" que va a sobresalir del cono cuando ya esté listo. Ojo qué diario elegís para esto, algunos diarios de gran tirada están tan llenos de mierda que luego dan mal olor al quemarse ;)
+Yo uso como núcleo un bollo de papel de diario, y a veces una cajita de huevos. El papel de diario sirve también para dejar una "colita mecha" que va a sobresalir del cono cuando ya esté listo. Ojo qué diario elegís para esto, algunos diarios de gran tirada están tan llenos de mierda que luego dan mal olor al quemarse ;)
 
 Luego ponele unas maderitas finitas, y arriba unas maderitas gruesas, siempre tratando de dejar el cono armado... una estructura autoportante, como si estuvieras armando una "tienda india". Finalmente, el carbón, con los pedazos más grandes en la base, achicando el tamaño cuanto más arriba está en el cono, para que sea más fácil. Tené en cuenta que en esta etapa no se debe poner todo el carbón calculado, es sólo para recubrir el cono.
 
@@ -45,7 +45,7 @@ Cuando está todo listo, le acercás un fósforo prendido a la/s mecha/s que hay
 
 Una vez prendido el fuego, dejás que se vayan quemando las distintas capas (de adentro hacia afuera), y esperás a que el cono se desarme por si solo. En ese momento, toda la parte interior va a estar prendida y con buena temperatura.
 
-En el momento en que la estructura se desmorona, hay que reacomodarlo. Es sencillo, sólo hay que agarrar los carbones más grandes, los que habías dejado como &uacute;ltima capa, y ponerlos nuevamente en el medio del fuego, con lo apagado para adentro, de manera de prenderlos por ese lado.
+En el momento en que la estructura se desmorona, hay que reacomodarlo. Es sencillo, sólo hay que agarrar los carbones más grandes, los que habías dejado como última capa, y ponerlos nuevamente en el medio del fuego, con lo apagado para adentro, de manera de prenderlos por ese lado.
 
 <img src="http://www.taniquetil.com.ar/facundo/imgs/pasosasado3.jpeg" alt="Rearmando el fuego" height="375" width="500" />
 
@@ -62,7 +62,7 @@ Se puede acomodar toda la estructura un par de veces, hasta que todo esté bien 
 
 Cuando estamos satisfechos con en el estado de las brasas, hay que desparramarlas todas armando un colchón cuya superficie sea (aproximadamente, obvio) un poco mayor que la de la parrilla que quedará cubierta de elementos comestibles. En otras palabras, todo lo que pongamos en la parrilla tiene que tener brasas abajo, y un poquito más de borde incluso.
 
-Luego cubrís ese colchón de brasas con ceniza que nos quedaron de fuegos anteriores. &iquest;Cuanta ceniza hay que ponerle? Acá usá la regla 10/10: tenés que poder dejar la mano diez segundos a diez centímetros de las brasas. En la práctica verás que se aten&uacute;a muchísimo el calor que va a llegar a la comida; esa es exactamente la idea.
+Luego cubrís ese colchón de brasas con ceniza que nos quedaron de fuegos anteriores. &iquest;Cuanta ceniza hay que ponerle? Acá usá la regla 10/10: tenés que poder dejar la mano diez segundos a diez centímetros de las brasas. En la práctica verás que se atenúa muchísimo el calor que va a llegar a la comida; esa es exactamente la idea.
 
 Es que la ceniza tiene dos funciones principales. La primera es regular el calor, entonces no nos va a pasar que se nos queme por calor excesivo al principio, ni quedarnos sin calor al final, para los cortes gruesos (vacío, bondiola, etc.). La otra función es cortar la combustión de las brasas, porque llevamos a un mínimo la entrada de aire.
 
@@ -88,4 +88,4 @@ También, si hay mucho viento, es una buena idea ponerle una protección en los 
 
 <strong>Carne argenta</strong>
 
-Para terminar, y a modo de bonus track, les dejo para que disfruten el audio del &uacute;ltimo tema del segundo disco de <a href="http://www.demoliendotangos.com.ar/">Demoliendo Tangos</a>, que se llama, justamente, <a href="http://ubuntuone.com/7GVn6BvDcoBjOzXVt8oIMi">Carne Argenta</a>.</p> |
+Para terminar, y a modo de bonus track, les dejo para que disfruten el audio del último tema del segundo disco de <a href="http://www.demoliendotangos.com.ar/">Demoliendo Tangos</a>, que se llama, justamente, <a href="http://ubuntuone.com/7GVn6BvDcoBjOzXVt8oIMi">Carne Argenta</a>.</p> |

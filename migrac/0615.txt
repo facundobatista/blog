@@ -4,15 +4,15 @@ Vamos con las pelis
 
  Varias vistas, pero no tantas, :/. Vamos a ver si le podemos poner ritmo...</p>
 <ul>
-<li><a href="http://www.imdb.com/title/tt1217613/">Battle LA</a>: -0. Una peli de acción pasable, pero ya no me banco más al concepto de "hay que mantener militares yanquis porque van a salvar al mundo alg&uacute;n día".</li>
+<li><a href="http://www.imdb.com/title/tt1217613/">Battle LA</a>: -0. Una peli de acción pasable, pero ya no me banco más al concepto de "hay que mantener militares yanquis porque van a salvar al mundo algún día".</li>
 <li><a href="http://www.imdb.com/title/tt1194417/">Casino Jack</a>: -0. Aristas interesantes, muestra un poco lo que es el juego del "lobby" en EEUU, pero después no tiene mucho.</li>
 <li><a href="http://www.imdb.com/title/tt0977855/">Fair game</a>: +1. Muy buena película sobre construcción de la verdad desde el gobierno sobre la misma gente...</li>
 <li><a href="http://www.imdb.com/title/tt1152822/">Freakonomics</a>: -0. Conceptualmente interesante, pasa mucho tiempo con boludeces; no vale la pena.</li>
-<li><a href="http://www.imdb.com/title/tt1707386/">Les misérables</a>: +1. Nunca pensé que un musical me fuera a gustar tanto. Los actores están bárbaros, la m&uacute;sica perfecta... la historia es conocida, pero igual no le resta.</li>
+<li><a href="http://www.imdb.com/title/tt1707386/">Les misérables</a>: +1. Nunca pensé que un musical me fuera a gustar tanto. Los actores están bárbaros, la música perfecta... la historia es conocida, pero igual no le resta.</li>
 <li><a href="http://www.imdb.com/title/tt0374853/">Malice in Wonderland</a>: -1. Demasiado loca y volada, no me gustó.</li>
 <li><a href="http://www.imdb.com/title/tt1251757/">Middle men</a>: +0. Más allá del nudo de la historia, que es interesante, se mezcla todo y se desenlaza todo de una forma interesante. Las actuaciones podrían ser mejores, pero está bien (o quizás es que Luke Wilson no me gusta nada nada).</li>
-<li><a href="http://www.imdb.com/title/tt1220634/">Resident evil: After life</a>: -0. Est&uacute;pida y sensual Milla Jovovich. Pero ya está, no veo ni una más.</li>
-<li><a href="http://www.imdb.com/title/tt1114731/">Seres: genesis</a>: ??. No la pude ver... no la conseguí bajar por ning&uacute;n lado, :/</li>
+<li><a href="http://www.imdb.com/title/tt1220634/">Resident evil: After life</a>: -0. Estúpida y sensual Milla Jovovich. Pero ya está, no veo ni una más.</li>
+<li><a href="http://www.imdb.com/title/tt1114731/">Seres: genesis</a>: ??. No la pude ver... no la conseguí bajar por ningún lado, :/</li>
 <li><a href="http://www.imdb.com/title/tt1337137/">South of the border</a>: +1. Genial serie de entrevistas de Oliver Stone a presidentes latinoamericanos, dejándolos hablar pero también repreguntando, todo mezclado con el punto de vista de USA sobre estos mandatarios, con lo que se generan opiniones y puntos de vista que normalmente no se conocen.</li>
 <li><a href="http://www.imdb.com/title/tt1650062/">Super 8</a>: +0. Un tanto trillada y "peli de adolescentes", pero más allá de eso, muy buena peli.</li>
 <li><a href="http://www.imdb.com/title/tt1474889/">The freebie</a>: +0. Muy interesante como plantean el tema y cómo lo desarrollan, especialmente al momento de hilvanar la historia. Pero tampoco es nada del otro mundo. Y no conseguí subtítulos en castellano.</li>

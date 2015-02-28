@@ -2,7 +2,7 @@
 Los N bares porteños
 <tags>
 
-Mañana empiezo algo que ya tenía ganas de hacer desde el año pasado... una o dos veces por mes me voy a ir a laburar en alg&uacute;n proyecto open source a alg&uacute;n bar.
+Mañana empiezo algo que ya tenía ganas de hacer desde el año pasado... una o dos veces por mes me voy a ir a laburar en algún proyecto open source a algún bar.
 
 Es una especie de sprint solitario pero abierto. O sea, no voy a coordinar previamente con nadie, yo voy a ir y estar y trabajar. Pero también voy a avisar... el/la que quiere venir, que venga. Trabajaremos juntos en lo mismo, o no.
 

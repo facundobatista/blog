@@ -6,7 +6,7 @@ La frase "un millón de moscas no pueden equivocarse", más allá de las reminis
 
 En algunos casos es más dificil que otros; por ejemplo, si medio mundo dice que 2+2=3, yo igual desconfío (más allá del <a href="http://www.rock.com.ar/letras/2/2482.shtml">muy buen tema de La Renga</a>).
 
-Pero a nivel de lenguajes, donde justamente las "especificaciones formales" cambian con el tiempo en función de cómo la gente utiliza el lenguaje, las estadísticas son &uacute;tiles, especialmente cuando nos referimos a expresiones usadas en uno u otro lenguaje.
+Pero a nivel de lenguajes, donde justamente las "especificaciones formales" cambian con el tiempo en función de cómo la gente utiliza el lenguaje, las estadísticas son útiles, especialmente cuando nos referimos a expresiones usadas en uno u otro lenguaje.
 
 Y, justamente, las expresiones son lo más dificil de aprender de un idioma.
 

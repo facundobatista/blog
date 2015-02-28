@@ -7,7 +7,7 @@ Experimento Cirujano-Copiloto
 
 
 
-Los &uacute;ltimos meses en el equipo Ubuntu One Foundations, en Canonical, estuvimos experimentando con la metodología cirujano-copiloto.
+Los últimos meses en el equipo Ubuntu One Foundations, en Canonical, estuvimos experimentando con la metodología cirujano-copiloto.
 
 
 
@@ -46,11 +46,11 @@ Quiero dejar en claro que esto no implica que el copiloto dependa siempre del ci
 
 
 
-Esto está muy relacionado con otro beneficio interesante del d&uacute;o dinámico cirujano/copiloto: entrenamiento. Cuando el copiloto es nuevo al equipo y al sistema, tener a alguien que sabe exactamente los avances que está haciendo al ganar velocidad, revisando y guiando el trabajo, hace más fácil y disfrutable esta etapa inicial (lo que se traduce a una mayor eficiencia y mejores resultados).
+Esto está muy relacionado con otro beneficio interesante del dúo dinámico cirujano/copiloto: entrenamiento. Cuando el copiloto es nuevo al equipo y al sistema, tener a alguien que sabe exactamente los avances que está haciendo al ganar velocidad, revisando y guiando el trabajo, hace más fácil y disfrutable esta etapa inicial (lo que se traduce a una mayor eficiencia y mejores resultados).
 
 
 
-Más a&uacute;n, este equipo altamente acoplado es especialmente bueno para atacar problemas complejos. Esto se debe principalmente a tener cuatro ojos en lugar de dos, pero con la ventaja que ambas personas tienen baja impedancia entre ellas. Sin embargo, ser explícitos sobre quien es responsable de tomar las decisiones es algo muy bueno en la interacción entre el equipo y otros jugadores externos (jefes, líderes técnicos, usuarios): queda claro que el cirujano es responsable por las&nbsp; decisiones tomadas, de una manera u otra.
+Más aún, este equipo altamente acoplado es especialmente bueno para atacar problemas complejos. Esto se debe principalmente a tener cuatro ojos en lugar de dos, pero con la ventaja que ambas personas tienen baja impedancia entre ellas. Sin embargo, ser explícitos sobre quien es responsable de tomar las decisiones es algo muy bueno en la interacción entre el equipo y otros jugadores externos (jefes, líderes técnicos, usuarios): queda claro que el cirujano es responsable por las&nbsp; decisiones tomadas, de una manera u otra.
 
 
 
@@ -116,7 +116,7 @@ En esta etapa también notamos que el equipo tenía el tamaño ideal: un sólo p
 
 
 
-<em>Puesta en funcionamiento:</em> realmente no fue un paso, ya que no hubo ning&uacute;n problema... fue sólo un tema de hacer el commit a trunk, y hacer un seguimiento los próximos días.
+<em>Puesta en funcionamiento:</em> realmente no fue un paso, ya que no hubo ningún problema... fue sólo un tema de hacer el commit a trunk, y hacer un seguimiento los próximos días.
 
 
 

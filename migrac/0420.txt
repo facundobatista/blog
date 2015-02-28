@@ -11,7 +11,7 @@ En el 2004 retomé la idea del blog, ya utilizando un <a href="http://es.wikiped
 
 
 
-Luego de inumerables problemas con Datattec, decidí migrar a otro hosting, a Hoztear. El sitio en sí no sufrió mayores cambios, pero andaba todo mejor, en general, y como en el nuevo hosting tenía acceso ssh, podía meterme a mano a hacer cambios más fáciles, jugar mejor... más piola. Pero en los &uacute;ltimos meses esto dejó de funcionar bien... siempre que quería entrar por shh notaba que no tenía el acceso, me quejaba en soporte, me lo habilitaban nuevamente, lo usaba... y cuando quería entrar nuevamente, quizás un par de semanas después, veía que no tenía acceso y vuelta a empezar...
+Luego de inumerables problemas con Datattec, decidí migrar a otro hosting, a Hoztear. El sitio en sí no sufrió mayores cambios, pero andaba todo mejor, en general, y como en el nuevo hosting tenía acceso ssh, podía meterme a mano a hacer cambios más fáciles, jugar mejor... más piola. Pero en los últimos meses esto dejó de funcionar bien... siempre que quería entrar por shh notaba que no tenía el acceso, me quejaba en soporte, me lo habilitaban nuevamente, lo usaba... y cuando quería entrar nuevamente, quizás un par de semanas después, veía que no tenía acceso y vuelta a empezar...
 
 
 

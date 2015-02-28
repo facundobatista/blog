@@ -3,7 +3,7 @@ Python Argentina, la historia
 <tags>
 
 
-<em>El siguiente texto formó parte de la Primera Edición de <a href="http://revista.python.org.ar/">PET - Python Entre Todos</a>, la revista de PyAr. Tiene un montón de artículos copados, y la pueden ver online, o bajarla en PDF en distintos formatos. En la semana va a salir el mismo n&uacute;mero, pero en inglés, y esperamos una segunda edición prontito. &iexcl;Disfr&uacute;tenla!</em>
+<em>El siguiente texto formó parte de la Primera Edición de <a href="http://revista.python.org.ar/">PET - Python Entre Todos</a>, la revista de PyAr. Tiene un montón de artículos copados, y la pueden ver online, o bajarla en PDF en distintos formatos. En la semana va a salir el mismo número, pero en inglés, y esperamos una segunda edición prontito. &iexcl;Disfrútenla!</em>
 
 <em>
 
@@ -31,7 +31,7 @@ Aunque sólo charlamos de generalidades alrededor de Python, el ímpetu no qued�
 
 
 
-En esta segunda reunión, a fines de Octubre, se bautizó al grupo como &ldquo;PyAr - Python Argentina&rdquo;, y decidimos crear la lista de correo y establecer un portal web donde se den a conocer los objetivos y actividades del grupo, las instrucciones para participar, enlaces a información &uacute;til, y generar contenido propio (como por ejemplo experiencias locales en el uso de Python).
+En esta segunda reunión, a fines de Octubre, se bautizó al grupo como &ldquo;PyAr - Python Argentina&rdquo;, y decidimos crear la lista de correo y establecer un portal web donde se den a conocer los objetivos y actividades del grupo, las instrucciones para participar, enlaces a información útil, y generar contenido propio (como por ejemplo experiencias locales en el uso de Python).
 
 
 
@@ -43,7 +43,7 @@ Las primeras reuniones del 2006 nos encontraron ya con más gente (entre diez y 
 
 
 
-También con estructuras más afianzadas se empezaron a barajar otros desafíos, como reuniones en interior del país, traer alg&uacute;n invitado internacional a CaFeConf 2006, traducir documentación oficial de Python, y algo que en su momento se llamó NERDcamp...
+También con estructuras más afianzadas se empezaron a barajar otros desafíos, como reuniones en interior del país, traer algún invitado internacional a CaFeConf 2006, traducir documentación oficial de Python, y algo que en su momento se llamó NERDcamp...
 
 
 
@@ -55,7 +55,7 @@ En reuniones de esa primera parte del año también hablamos sobre el contenido 
 
 
 
-La organización del grupo merece un párrafo aparte. Desde el comienzo de Python Argentina hasta ahora no hubieron nunca personas con cargos específicos, sino que siempre mantuvimos una muy saludable anarquía, en donde había una asociación y un pacto voluntario entre las personas del grupo que quisieran llevar alg&uacute;n proyecto interno adelante, sin necesidad de "decisiones oficiales" que impongan recorridos al resto de las personas del grupo. En otras palabras, si alguien en PyAr desea empujar un proyecto, sólo tiene que hacerlo, y tendrá más o menos participantes y/o ayudantes en función de si el proyecto es interesante o no, pero no tiene que "oficializarlo", o pedir aprobación sobre el mismo.
+La organización del grupo merece un párrafo aparte. Desde el comienzo de Python Argentina hasta ahora no hubieron nunca personas con cargos específicos, sino que siempre mantuvimos una muy saludable anarquía, en donde había una asociación y un pacto voluntario entre las personas del grupo que quisieran llevar algún proyecto interno adelante, sin necesidad de "decisiones oficiales" que impongan recorridos al resto de las personas del grupo. En otras palabras, si alguien en PyAr desea empujar un proyecto, sólo tiene que hacerlo, y tendrá más o menos participantes y/o ayudantes en función de si el proyecto es interesante o no, pero no tiene que "oficializarlo", o pedir aprobación sobre el mismo.
 
 
 
@@ -81,7 +81,7 @@ Luego de este evento empezamos a reconocer lo importante que era para Python Arg
 
 
 
-El año 2007 fueron meses de consolidación. Se realizaron varias reuniones en Capital e interior, estuvo el segundo Día Python en Santa Fé (esta vez con dos tracks, de nuevo un éxito), y PyAr participó en CaFeConf, en Unlux y en las Jornadas Regionales de Software Libre, en Córdoba. Como se discutió en la reunión del grupo luego de esa conferencia, Python Argentina era un grupo nuevo que estaba naciendo y&nbsp; aprovechábamos la gentileza de los &ldquo;hermanos mayores&rdquo;: la capacidad organizativa y la gente involucrada en los LUGs. Un detalle importante a considerar es que Python era el &uacute;nico lenguaje de programación con stand propio, tanto en CaFeConf como en dichas Jornadas.
+El año 2007 fueron meses de consolidación. Se realizaron varias reuniones en Capital e interior, estuvo el segundo Día Python en Santa Fé (esta vez con dos tracks, de nuevo un éxito), y PyAr participó en CaFeConf, en Unlux y en las Jornadas Regionales de Software Libre, en Córdoba. Como se discutió en la reunión del grupo luego de esa conferencia, Python Argentina era un grupo nuevo que estaba naciendo y&nbsp; aprovechábamos la gentileza de los &ldquo;hermanos mayores&rdquo;: la capacidad organizativa y la gente involucrada en los LUGs. Un detalle importante a considerar es que Python era el único lenguaje de programación con stand propio, tanto en CaFeConf como en dichas Jornadas.
 
 
 
@@ -89,7 +89,7 @@ Durante este año también la lista de correo alcanzó una cantidad de participa
 
 
 
-2008 arrancó con una gran novedad: el primer PyCamp. Organizado por Except, una empresa de Córdoba, este evento se desarrolló durante cuatro días en los que fuimos a trabajar en distintos proyectos de Software libre relacionados con Python, a socializar, y a tener alg&uacute;n pequeño contacto con la naturaleza.
+2008 arrancó con una gran novedad: el primer PyCamp. Organizado por Except, una empresa de Córdoba, este evento se desarrolló durante cuatro días en los que fuimos a trabajar en distintos proyectos de Software libre relacionados con Python, a socializar, y a tener algún pequeño contacto con la naturaleza.
 
 
 
@@ -101,7 +101,7 @@ La segunda mitad del año estuvo bien movidita también. No sólo por reuniones 
 
 
 
-También se realizaron las 3ras Jornadas Python en Santa Fe, donde se anunció formalmente que al año siguiente se realizaría la primera conferencia nacional de Python en Argentina. En la &uacute;ltima reunión del año en Buenos Aires se terminó de discutir el arranque de la organización de esta importante conferencia, y terminamos el 2008 con muchas ganas de que arranque el próximo.
+También se realizaron las 3ras Jornadas Python en Santa Fe, donde se anunció formalmente que al año siguiente se realizaría la primera conferencia nacional de Python en Argentina. En la última reunión del año en Buenos Aires se terminó de discutir el arranque de la organización de esta importante conferencia, y terminamos el 2008 con muchas ganas de que arranque el próximo.
 
 
 
@@ -111,7 +111,7 @@ También se realizaron las 3ras Jornadas Python en Santa Fe, donde se anunció f
 
 
 
-Los &uacute;ltimos días de Marzo del 2009 nos trajo la segunda edición del PyCamp, nuevamente en Los Cocos (Córdoba). Fueron nuevamente cuatro días en los que se desarrollaron muchos proyectos, y se profundizaron muchos lazos dentro de la comunidad Python.
+Los últimos días de Marzo del 2009 nos trajo la segunda edición del PyCamp, nuevamente en Los Cocos (Córdoba). Fueron nuevamente cuatro días en los que se desarrollaron muchos proyectos, y se profundizaron muchos lazos dentro de la comunidad Python.
 
 
 
@@ -119,7 +119,7 @@ La segunda parte del año tuvo como plato fuerte a PyCon Argentina 2009, la prim
 
 
 
-PyCon fue todo un éxito (no esperábamos tanta gente, vinieron más de 400 personas, muchas de Buenos Aires, pero una buena parte de interior, y también gente de otros paises), y tuvo muy buena repercusión tanto en nuestro país como en medios internacionales. A esto &uacute;ltimo ayudó que tuvimos dos invitados de primera linea (Jacob Kaplan-Moss y Collin Winter) que se lucieron en sus respectivas charlas plenarias.
+PyCon fue todo un éxito (no esperábamos tanta gente, vinieron más de 400 personas, muchas de Buenos Aires, pero una buena parte de interior, y también gente de otros paises), y tuvo muy buena repercusión tanto en nuestro país como en medios internacionales. A esto último ayudó que tuvimos dos invitados de primera linea (Jacob Kaplan-Moss y Collin Winter) que se lucieron en sus respectivas charlas plenarias.
 
 
 

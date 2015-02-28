@@ -2,7 +2,7 @@
 Entramos en beta con Encuentro
 <tags>
 
-Ya lo dije varias veces, pero siempre hay alg&uacute;n despistado... Encuentro es un simple programa que permite buscar, descargar y ver contenido del Canal Encuentro.
+Ya lo dije varias veces, pero siempre hay algún despistado... Encuentro es un simple programa que permite buscar, descargar y ver contenido del Canal Encuentro.
 
 La versión 0.5 trae los siguientes cambios con respecto a la versión anterior:</p>
 <ul>

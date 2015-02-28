@@ -2,7 +2,7 @@
 Adopte un newbie
 <tags>
 
-En el &uacute;ltimo PyCamp Pablo Mouzo tiró la maravillosa idea de que aquellos con mucha experiencia dando charlas podíamos ser mentores de gente que se iniciaba por ese camino, para dar consejos, transmitir experiencia, etc. Yo me propuse como mentor para aquel que quisiera proponer una charla en cualquiera de los eventos de PyAr.
+En el último PyCamp Pablo Mouzo tiró la maravillosa idea de que aquellos con mucha experiencia dando charlas podíamos ser mentores de gente que se iniciaba por ese camino, para dar consejos, transmitir experiencia, etc. Yo me propuse como mentor para aquel que quisiera proponer una charla en cualquiera de los eventos de PyAr.
 
 Pero a ese concepto Mariano Guerra se le dió otra vuelta de rosca, y armó una <a href="http://python.org.ar/pyar/AdoptaUnNewbie">página</a> en la que personas con buena experiencia en PyAr o Python se proponen como mentores, los newbies se proponen como mentados, en función de los perfiles de los tutores, y luego los mentores aceptan dedicar una cantidad de tiempo semanal a las consultas del mentado (por mail, IM, en persona o lo que se decida), el mentado acepta documentar sus pasos de aprendizaje en un blog y a dar una charla en el evento en el que se considere que entraron en la "adultez pythonistica".</p>
 <p><img src="http://www.taniquetil.com.ar/facundo/imgs/mentor.png" alt="Mentor" height="200" width="146" /></p>

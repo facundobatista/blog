@@ -22,7 +22,7 @@ El proyecto mío en el que más trabajé fue <a href="http://encuentro.taniqueti
 
 También trabajé en un proyecto nuevo, que arrancó en este PyCamp. Es <a href="http://wefree.usla.org.ar/">WeFree</a>, un proyecto para almacenar colaborativamente claves de redes, de manera de hacer que tu computadora o teléfono se conecte automáticamente en todos los lados posibles. Participé todo el primer día, en el diseño general y luego armé la interfaz gráfica para la compu (no toda, pero sí la base, dejando algo usable).
 
-Algo en lo que también trabajé desde cero, pero que no sé si se puede calificar como proyecto, fue algo así como la "b&uacute;squeda del testrunner perfecto", que describí en <a href="http://www.taniquetil.com.ar/plog/post/1/642">este post</a>. Con la ayuda de Martín Gaitán atacamos como base a <a href="https://nose.readthedocs.org/en/latest/">nose</a>, y le fuimos agregando plugins y probándolos. El experimento fue un éxito, logramos todo lo que queríamos, ya voy a poner un post acá explicando bien el detalle.
+Algo en lo que también trabajé desde cero, pero que no sé si se puede calificar como proyecto, fue algo así como la "búsqueda del testrunner perfecto", que describí en <a href="http://www.taniquetil.com.ar/plog/post/1/642">este post</a>. Con la ayuda de Martín Gaitán atacamos como base a <a href="https://nose.readthedocs.org/en/latest/">nose</a>, y le fuimos agregando plugins y probándolos. El experimento fue un éxito, logramos todo lo que queríamos, ya voy a poner un post acá explicando bien el detalle.
 
 Hubo un proyecto que llevé pero en el que yo no trabajé, que fue <a href="http://linkode.org/">Linkode</a>, pero Seba Alvarez estuvo haciendo cosas copadas con la interfaz, me tiene que mandar el código.
 
@@ -33,7 +33,7 @@ Finalmente, arranqué ayudando a un par de chicos a migrar código a Python 3, p
 
 <strong>Las noches</strong>
 
-Sólo tres, porque el &uacute;ltimo día uno viaja, pero las aprovechamos a full :)... la gente se va a dormir sorprendentemente tarde luego de lo arduo que son los días. Bah, más sorprendente es que muchos al otro día nos levantamos temprano :p
+Sólo tres, porque el último día uno viaja, pero las aprovechamos a full :)... la gente se va a dormir sorprendentemente tarde luego de lo arduo que son los días. Bah, más sorprendente es que muchos al otro día nos levantamos temprano :p
 
 La primer noche jugué a un juego que no conocía, el <a href="http://en.wikipedia.org/wiki/Munchkin_%28card_game%29">Munchkin</a>, &iexcl;y gané!. Está bueno el juego, pero es uno de esos que tenés que leer mil cartitas, entonces las primeras diez veces que jugás se hace un poco lento.
 

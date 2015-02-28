@@ -25,8 +25,8 @@ El detalle es (para la versión que acabo de liberar, ya con la funcionalidad b�
 <li>Pone un ícono en el systray, para ser usado como interfaz principal</li>
 <li>Automáticamente corrige la configuración de unity para hacer que permita poner el ícono en el systray</li>
 <li>Haciendo click en el ícono te muestra Editar, Acerca de, y Salir</li>
-<li>"Editar" permite agregar, borrar, o cambiar las opciones del men&uacute;, e incluso reordenarlas</li>
+<li>"Editar" permite agregar, borrar, o cambiar las opciones del menú, e incluso reordenarlas</li>
 <li>Las opciones se componene por un ícono (opcional), una descripción, y el comando a ejecutarse</li>
-<li>Haciendo click en esas opciones del men&uacute; ejecutará el comando configurado</li>
+<li>Haciendo click en esas opciones del menú ejecutará el comando configurado</li>
 </ul>
 <p>En fin, más info y cómo instalarlo, en <a href="http://launcherposta.taniquetil.com.ar/">la página oficial</a>. &iexcl;Que lo disfruten!</p> |

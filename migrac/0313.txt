@@ -13,7 +13,7 @@ Ya que estamos, felicito a Roberto por <a href="http://robertoallende.com/tecnol
 
 <strong>Haciendo que los chicos programen abierto</strong>
 
-He hablado varias veces del Google Summer of Code (<a href="http://www.taniquetil.com.ar/plog/post/1/176">acá</a>, <a href="http://www.taniquetil.com.ar/plog/post/1/178">acá</a> y <a href="http://www.taniquetil.com.ar/plog/post/1/252">acá</a>); una de las limitantes de este proyecto es que está apuntado a estudiantes universitarios, para que en sus vacaciones de verano trabajen en alg&uacute;n proyecto en particular.
+He hablado varias veces del Google Summer of Code (<a href="http://www.taniquetil.com.ar/plog/post/1/176">acá</a>, <a href="http://www.taniquetil.com.ar/plog/post/1/178">acá</a> y <a href="http://www.taniquetil.com.ar/plog/post/1/252">acá</a>); una de las limitantes de este proyecto es que está apuntado a estudiantes universitarios, para que en sus vacaciones de verano trabajen en algún proyecto en particular.
 
 Ahora Google se despacha con un nuevo programa: el Concurso de Participación Altamente Abierta (Highly Open Participation Contest). El mismo es un esfuerzo para atraer estudiantes pre-universitarios al desarrollo open source. Como se trata de menores, no habrán pagos puntuales por proyectos grandes, sino que ahora hay una lista de tareas: si los chicos completan esas tareas participan por premios y recompensas de Google.
 

@@ -6,12 +6,12 @@ Los dos sitios:
 
 <div style="margin-left: 40px"><a href="http://tira.escomposlinux.org/">Bilo y Nano se lo montan</a>: Espectacular página donde todas las semanas sacan una historieta nueva: Las peripecias de tres amigos, uno fanático de Debian, otro de Mandrake y otro de Windows. Tiene más cosas, voy descubriéndolas de a poquito.
 </div>
-<div style="margin-left: 40px">BCP Development: Empresa dedicada al control de edificios inteligentes. He visto demostraciones del producto y la conclusión es sencilla: si pudiera tener una casa con las &uacute;ltimas tecnologías en Domótica, tengo muy claro que empresa contrataría para ello (<strong>actualización </strong>07-Nov-2007, este sitio parece no existir más...) </div>
+<div style="margin-left: 40px">BCP Development: Empresa dedicada al control de edificios inteligentes. He visto demostraciones del producto y la conclusión es sencilla: si pudiera tener una casa con las últimas tecnologías en Domótica, tengo muy claro que empresa contrataría para ello (<strong>actualización </strong>07-Nov-2007, este sitio parece no existir más...) </div>
 Bueno, algunas noticias. No se si 100% oficial, pero está bastante aceptado el logo que hice de <a href="http://pyar.decode.com.ar/">PyAr</a>:
 
 <img src="http://farm2.static.flickr.com/1188/527924135_3bd987055a_o.png" border="0" />
 
-El diseño original no es mío, sino de Pablo Ziliani que se mandó un espectacular .gif aplaudido y designado por unanimidad como logo oficial de la organización. Yo lo &uacute;nico que hice es rehacer el dibujo de Pablo pero en <a href="http://www.taniquetil.com.ar/homedevel/docs/logo-pyar.svg">vectorial</a>, para que se pueda redimensionar sin perder la calidad del mismo.
+El diseño original no es mío, sino de Pablo Ziliani que se mandó un espectacular .gif aplaudido y designado por unanimidad como logo oficial de la organización. Yo lo único que hice es rehacer el dibujo de Pablo pero en <a href="http://www.taniquetil.com.ar/homedevel/docs/logo-pyar.svg">vectorial</a>, para que se pueda redimensionar sin perder la calidad del mismo.
 
 Tengan en cuenta que la imagen que pegué acá es un PNG con transparencias. Si usan Internet Explorer, no lo van a poder ver bien: después de todo, &iexcl;el PNG es un formato re-nuevo! (Es de 1995, Microsoft no tiene tanta plata como para mantenerse al tanto de tooodas las nuevas tecnologías). Ahora, en serio, dejen de usar esa bosta e instalen <a href="http://www.spreadfirefox.com/?q=affiliates&amp;id=30445&amp;t=64">Firefox</a>.
 

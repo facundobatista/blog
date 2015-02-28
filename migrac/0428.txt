@@ -7,7 +7,7 @@ Como bien informa la <a href="http://es.wikipedia.org/wiki/Microblogging">págin
 
 
 
-Yo hace un par de meses que me enganché en esta, y estoy usando el servicio de <a href="http://twitter.com/">Twitter</a> e <a href="http://identi.ca">identi.ca</a>. Como cliente venía usando gwibber, pero se rompió tanto en las &uacute;ltimas versiones, creciendo desordenado con mil cosas que no me interesan y perdiendo aquellas que me eran &uacute;tiles, que quizás no lo use más (estoy accediendo a Twitter e identi.ca por la página web directamente, veremos en un par de semanas que pasa con gwibber... si sigue roto tendré que escribir mi propio cliente...).
+Yo hace un par de meses que me enganché en esta, y estoy usando el servicio de <a href="http://twitter.com/">Twitter</a> e <a href="http://identi.ca">identi.ca</a>. Como cliente venía usando gwibber, pero se rompió tanto en las últimas versiones, creciendo desordenado con mil cosas que no me interesan y perdiendo aquellas que me eran útiles, que quizás no lo use más (estoy accediendo a Twitter e identi.ca por la página web directamente, veremos en un par de semanas que pasa con gwibber... si sigue roto tendré que escribir mi propio cliente...).
 
 
 

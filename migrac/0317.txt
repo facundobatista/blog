@@ -2,7 +2,7 @@
 Tipográfica y ffmpeg
 <tags>
 
-El otro día, por una remera en la que mi hermana imprimió un grabado de su autoría, fuimos con ella, Moni y Gus a la imprenta de este &uacute;ltimo.
+El otro día, por una remera en la que mi hermana imprimió un grabado de su autoría, fuimos con ella, Moni y Gus a la imprenta de este último.
 
 Curioseamos bastante, y entre todo lo que Gustavo mostró, estaba su impresora tipográfica automática. Ya no la usa mucho, pero la prendió y la hizo funcionar para mostrarnos cómo trabajaba. Aproveché y la filmé con el teléfono:
 
@@ -42,7 +42,7 @@ make
 sudo make install
 cd ..
 </font></blockquote>Dos detalles.
-<ul><li>En ambos /make/s, el tipo baja un pequeño archivo de alg&uacute;n lado, así que tienen que estar conectados a internet.</li><li>Fíjense que el make install tiene un "sudo" adelante; esto es porque necesitan permisos de root para instalar la biblioteca.</li></ul>Luego entramos al directorio donde tenemos el ffmpeg descomprimido (el * en la primer órden aquí es porque el nombre del directorio depende del día, hagan un <em>ls -l</em> y lo van a ver).
+<ul><li>En ambos /make/s, el tipo baja un pequeño archivo de algún lado, así que tienen que estar conectados a internet.</li><li>Fíjense que el make install tiene un "sudo" adelante; esto es porque necesitan permisos de root para instalar la biblioteca.</li></ul>Luego entramos al directorio donde tenemos el ffmpeg descomprimido (el * en la primer órden aquí es porque el nombre del directorio depende del día, hagan un <em>ls -l</em> y lo van a ver).
 <blockquote><font face="courier new,courier">cd ffmpeg-export-*</font>
 </blockquote>Una vez adentro, configuramos el ffmpeg para que se instale en <em>/usr/local</em> (con lo que si tienen otra versión de ffmpeg instalado no lo van a pisar), y le habilitamos threading y las dos bibliotecas que nos interesan:
 <blockquote><font face="courier new,courier">./configure --prefix=/usr/local --enable-pthreads --enable-libamr-nb --enable-libamr-wb

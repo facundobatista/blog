@@ -7,15 +7,15 @@ Encontrar lo que el usuario necesita pero no sabe bien como expresarlo es un bar
 
 
 
-Por el otro lado, entregarte un montón de información pero no dejarte buscar en ese montón, es in&uacute;til. De ahí la famosa frase "darte la Wikipedia en un CD, pero sin buscador, es darte un CD cuya mayor utilidad es ponerlo atrás de la patente para evadir fotomultas".
+Por el otro lado, entregarte un montón de información pero no dejarte buscar en ese montón, es inútil. De ahí la famosa frase "darte la Wikipedia en un CD, pero sin buscador, es darte un CD cuya mayor utilidad es ponerlo atrás de la patente para evadir fotomultas".
 
 
 
-La solución es fácil: agregarle b&uacute;squedas a la <a href="http://code.google.com/p/cdpedia/">CDPedia</a>. Hoy por hoy ya la tienen, con un <a href="http://code.google.com/p/cdpedia/source/browse/trunk/src/armado/cdpindex.py">índice no demasiado elaborado</a> sobre los títulos, pero que nos permite buscar por palabras exactas con mucha rapidez (una b&uacute;squeda por <a href="http://docs.python.org/dev/library/stdtypes.html#dict">diccionario</a>), aunque también implementé una b&uacute;squeda por palabra incompleta (aunque esto, en el modelo simple actual, con todos los datos, creo que tardaría demasiado, aunque todavía no lo probamos).
+La solución es fácil: agregarle búsquedas a la <a href="http://code.google.com/p/cdpedia/">CDPedia</a>. Hoy por hoy ya la tienen, con un <a href="http://code.google.com/p/cdpedia/source/browse/trunk/src/armado/cdpindex.py">índice no demasiado elaborado</a> sobre los títulos, pero que nos permite buscar por palabras exactas con mucha rapidez (una búsqueda por <a href="http://docs.python.org/dev/library/stdtypes.html#dict">diccionario</a>), aunque también implementé una búsqueda por palabra incompleta (aunque esto, en el modelo simple actual, con todos los datos, creo que tardaría demasiado, aunque todavía no lo probamos).
 
 
 
-Hoy por hoy, también, la b&uacute;squeda es utilizando Unicode sin ning&uacute;n tratamiento. Y aunque esto tiene la ventaja de que soportamos eñes, tildes, y letras <em>raras</em> (o sea, letras a las que no estamos acostumbrados los hispanoparlantes), tiene la desventaja que tenés que poder escribir esas letras (o incluso recordarlas).
+Hoy por hoy, también, la búsqueda es utilizando Unicode sin ningún tratamiento. Y aunque esto tiene la ventaja de que soportamos eñes, tildes, y letras <em>raras</em> (o sea, letras a las que no estamos acostumbrados los hispanoparlantes), tiene la desventaja que tenés que poder escribir esas letras (o incluso recordarlas).
 
 
 
@@ -33,11 +33,11 @@ Por ejemplo, si quieren buscar ... no sirve que pongan ... :
 
 
 
-La pregunta es... &iquest;cómo podemos "normalizar" los términos con eñes, tildes, y letras raras, de manera que la b&uacute;squeda siga siendo por coincidencia del diccionario?
+La pregunta es... &iquest;cómo podemos "normalizar" los términos con eñes, tildes, y letras raras, de manera que la búsqueda siga siendo por coincidencia del diccionario?
 
 
 
-Estuve leyendo algo de Desnormalización de Unicode (<a href="http://unicode.org/reports/tr15/">acá</a> está todo, pero también ver <a href="http://www.mediawiki.org/wiki/Unicode_normalization_considerations">esto</a>), pero no me llegaba a convencer que lo que había que hacer era eso, porque las reglas de las distintas normalizaciones no me permitían inferir un &uacute;nico procedimiento para lograr lo que quería hacer.
+Estuve leyendo algo de Desnormalización de Unicode (<a href="http://unicode.org/reports/tr15/">acá</a> está todo, pero también ver <a href="http://www.mediawiki.org/wiki/Unicode_normalization_considerations">esto</a>), pero no me llegaba a convencer que lo que había que hacer era eso, porque las reglas de las distintas normalizaciones no me permitían inferir un único procedimiento para lograr lo que quería hacer.
 
 
 
@@ -121,7 +121,7 @@ Lo siguiente es el código, con las pruebas para los ejemplos anteriores:
 </span>
 
 
-El costo de usar esto en el índice, en la b&uacute;squeda real, es primero al construirlo, y luego en cada b&uacute;squeda. En ambos casos el extra de procesamiento es agarrar las palabras e ir reemplazando cada caracter por lo que devuelva la función anterior. Creo que al armar el índice esto va a tardar un poco (pero se hace una sola vez), y que en cada b&uacute;squeda ni se va a notar (que es lo importante de cara al usuario final).
+El costo de usar esto en el índice, en la búsqueda real, es primero al construirlo, y luego en cada búsqueda. En ambos casos el extra de procesamiento es agarrar las palabras e ir reemplazando cada caracter por lo que devuelva la función anterior. Creo que al armar el índice esto va a tardar un poco (pero se hace una sola vez), y que en cada búsqueda ni se va a notar (que es lo importante de cara al usuario final).
 
 
 
@@ -129,11 +129,11 @@ El resultado final sería que tenemos esta funcionalidad requerida, con un costo
 
 
 
-Por otro lado, hay otra funcionalidad que querría tener, pero no voy a atacar ahora (posiblemente nunca, pero se los dejo por si les interesa), que es la de b&uacute;squedas aproximadas. La idea es que (por ejemplo) si busco <em>almoada</em> o <em>cavra</em>, me encuentre <em>almohada</em> o <em>cabra</em>, respectivamente. Obviamente, en estos casos lo que se hace es listar las palabras que más se parecen, ordenadas de mayor a menor similitud.
+Por otro lado, hay otra funcionalidad que querría tener, pero no voy a atacar ahora (posiblemente nunca, pero se los dejo por si les interesa), que es la de búsquedas aproximadas. La idea es que (por ejemplo) si busco <em>almoada</em> o <em>cavra</em>, me encuentre <em>almohada</em> o <em>cabra</em>, respectivamente. Obviamente, en estos casos lo que se hace es listar las palabras que más se parecen, ordenadas de mayor a menor similitud.
 
 
 
-Hay formas piolas de lograr esto (creo que la mejor es usando la <a href="http://es.wikipedia.org/wiki/Distancia_de_Levenshtein">distancia de Levensthein</a>, que fue sugerida por gente que sabe en la <a href="http://www.python.com.ar/moin/ListaDeCorreo">lista de PyAr</a>). El problema que encuentro con este tipo de procesamiento, es que se pierde la coincidencia por diccionario, y hay que calcular esta distancia entre la palabra buscada y las guardadas en el momento de la b&uacute;squeda en sí.
+Hay formas piolas de lograr esto (creo que la mejor es usando la <a href="http://es.wikipedia.org/wiki/Distancia_de_Levenshtein">distancia de Levensthein</a>, que fue sugerida por gente que sabe en la <a href="http://www.python.com.ar/moin/ListaDeCorreo">lista de PyAr</a>). El problema que encuentro con este tipo de procesamiento, es que se pierde la coincidencia por diccionario, y hay que calcular esta distancia entre la palabra buscada y las guardadas en el momento de la búsqueda en sí.
 
 
 

@@ -46,6 +46,6 @@ Pero finalmente, varias horas después, terminé de corregir todo lo necesario, 
 
 La verdad es que estaba muy contento, y no sólo yo: los otros desarrolladores también, porque yo no era el primero que decía que se tenía que migrar el proyecto a Python 3, pero sí el primero que se arremangaba y obtenía resultados.
 
-Y hasta acá llegó el sprint... realmente no hice mucho más, excepto ver todos los cambios que había metido y hacer una especie de listita con todo lo que hay que ir sacando de ahí e ir pasando en limpio para mandar al proyecto.&nbsp; Encima a las tres de la tarde del &uacute;ltimo día nos cortaban internet, así que básicamente después de almorzar ya estaba con la persiana baja.
+Y hasta acá llegó el sprint... realmente no hice mucho más, excepto ver todos los cambios que había metido y hacer una especie de listita con todo lo que hay que ir sacando de ahí e ir pasando en limpio para mandar al proyecto.&nbsp; Encima a las tres de la tarde del último día nos cortaban internet, así que básicamente después de almorzar ya estaba con la persiana baja.
 
 Así que me quedé un rato, saludé, me fui para el lobby a usar la internet del hotel para terminar algunas otras cosas, y un par de horas después emprendí el camino de regreso a casa.</p> |

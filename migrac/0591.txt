@@ -6,7 +6,7 @@ Hace alguna semanas ví un tuit sobre la posibilidad de ayudar con la revista on
 
 La revista está interesante, y se nota que le ponen un montón de laburo atrás. Entonces, me pareció copado ayudar. Lamentablemente no tengo tiempo en ponerme a escribir artículos desde cero (habrán notado cuanto participé en otras iniciativas como <a href="http://revista.python.org.ar/">PET, la revista de Python Argentina.</a>.. más allá de algo puntual, no tuve tiempo tampoco de escribir nada nuevo).
 
-Pero, hay algo que sí me da el tiempo y es revisar alg&uacute;n que otro artículo. O sea, agarrar un artículo de Python y asegurarme que esté (a nivel de Python, no de castellano) correcto.
+Pero, hay algo que sí me da el tiempo y es revisar algún que otro artículo. O sea, agarrar un artículo de Python y asegurarme que esté (a nivel de Python, no de castellano) correcto.
 
 Entones mandé un mail a la cuenta a la que uno se podía postular: "(...) Me gustaría ser *revisor* de cualquier artículo que tenga que ver con Python.".
 

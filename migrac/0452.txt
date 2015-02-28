@@ -53,7 +53,7 @@ Durante la mañana no hice nada específico, más que nada charlas, cargué much
 
 
 
-A las 13 almorzamos, y luego jugamos a la pelota como media hora (sí, &iexcl;deporte!). Cortamos a las 14 porque arrancaba la sesión de <a href="https://edge.launchpad.net/lalita">Lalita</a>. Nos juntamos obviamente al aire libre (estabamos la mitad transpirados por el f&uacute;bol), y charlamos cosas para hacerle. Me anoté un bug doble (o dos bugs muy parecidos, como quieran), pero antes de empezar a hacer eso me fui a bañar.
+A las 13 almorzamos, y luego jugamos a la pelota como media hora (sí, &iexcl;deporte!). Cortamos a las 14 porque arrancaba la sesión de <a href="https://edge.launchpad.net/lalita">Lalita</a>. Nos juntamos obviamente al aire libre (estabamos la mitad transpirados por el fúbol), y charlamos cosas para hacerle. Me anoté un bug doble (o dos bugs muy parecidos, como quieran), pero antes de empezar a hacer eso me fui a bañar.
 
 
 
@@ -83,7 +83,7 @@ El domingo arranqué con un poco de resaca, pero llegué bien a desayunar.
 
 
 
-Durante la mañana estuve trabajando en Typus Pocus, para que esté listo para la clase de la tarde de Luciano Bello sobre empaquetar proyectos para Debian. Esa clase fue muy &uacute;til, y recorrimos casi todos los pasos para que se pueda meter el juego en esa distro de Linux (todavía faltan sacarle unos warnings de lintian, ya anunciaré aquí como evoluciona eso).
+Durante la mañana estuve trabajando en Typus Pocus, para que esté listo para la clase de la tarde de Luciano Bello sobre empaquetar proyectos para Debian. Esa clase fue muy útil, y recorrimos casi todos los pasos para que se pueda meter el juego en esa distro de Linux (todavía faltan sacarle unos warnings de lintian, ya anunciaré aquí como evoluciona eso).
 
 
 
@@ -113,7 +113,7 @@ Finalmente, volví a trabajar en la laptop, en el bug doble de Lalita que había
 
 
 
-Durante la mañana del &uacute;ltimo día logré corregir los bugs que venía trabajando de Lalita, antes de comer me puse a trabajar en un juego que estoy armando, <a href="https://edge.launchpad.net/enjuewemela">Enjuewemela</a>, un juego loco con un montón de gemas que tienden a desaparecer siguiendo extrañamente acciones del usuario.
+Durante la mañana del último día logré corregir los bugs que venía trabajando de Lalita, antes de comer me puse a trabajar en un juego que estoy armando, <a href="https://edge.launchpad.net/enjuewemela">Enjuewemela</a>, un juego loco con un montón de gemas que tienden a desaparecer siguiendo extrañamente acciones del usuario.
 
 
 

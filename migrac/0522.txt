@@ -8,7 +8,7 @@ En la semana de fines de Junio principios de Julio estuve por Colombia, más esp
 
 Campus Party es un evento como nunca había visto. Por lo pronto, no es sólo de software (que sí la tiene, con Software Libre, Seguridad y Redes, y Desarrollo de Software), sino que incluye temas tan dispares como Astronomía y Espacio, Hardware y Modding, Social Media, Juegos, etc...
 
-Pero lo más <em>distinto</em> del evento es la disposición física interna y su dinámica. En lugar de ser distintas habitaciones (de hotel, de universidad, etc) con charlas adentros y algunos espacios comunes, Campus Party es <em>un gran espacio com&uacute;n</em>.
+Pero lo más <em>distinto</em> del evento es la disposición física interna y su dinámica. En lugar de ser distintas habitaciones (de hotel, de universidad, etc) con charlas adentros y algunos espacios comunes, Campus Party es <em>un gran espacio común</em>.
 
 Armado adentro de un gran lugar sin separaciones (un pabellón entero de un centro de exposiciones, como acá puede ser el Centro Municipal de Exposicione, o Costa Salgureo), tiene la siguiente disposición: espacios de conferencia contra las paredes, y mesas, mesas y mesas en el centro.
 
@@ -22,7 +22,7 @@ En todo lo que no es contra la pared, y dejando pasillos pra pasar, hay un cente
 
 Se puede llevar cualquier cosa al evento, porque las actividades eran muy variadas, y en general se las podía dejar semiabandonadas, porque la seguridad para entrar y salir del pabellón eran muy estrictas. Hay que pensar que al evento asisten 4500 personas, y es algo que dura 7 días las 24 horas. Hay una zona de carpas y lockers ofrecidos por la organización, y hay centenares de personas que no abandonan el predio en toda la semana (obviamente, también hay servicios como duchas, lugares para comer, etc).
 
-A nivel de organización también es muy distinto. El evento es fuertemente patrocinado por empresas, y organizado por Futura Networks una empresa de Telefónica que lo &uacute;nico que hace son estos eventos (no sólo en Colombia, sino también en los otros países donde se hace: México, España y Brasil). Yo fuí invitado a dar dos charlas, <em>Python más rápido que C</em> y <em>Comunidad, Anarquía y Subversión</em>.
+A nivel de organización también es muy distinto. El evento es fuertemente patrocinado por empresas, y organizado por Futura Networks una empresa de Telefónica que lo único que hace son estos eventos (no sólo en Colombia, sino también en los otros países donde se hace: México, España y Brasil). Yo fuí invitado a dar dos charlas, <em>Python más rápido que C</em> y <em>Comunidad, Anarquía y Subversión</em>.
 
 <img src="http://www.taniquetil.com.ar/facundo/imgs/campusparty11c.jpeg" alt="alt" />
 

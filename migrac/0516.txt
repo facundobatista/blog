@@ -16,4 +16,4 @@ El resultado es el gráfico siguiente, donde se ve el aumento sufrido con respec
 
 <img src="http://www.taniquetil.com.ar/facundo/imgs/inflac1.png" alt="Aumento carne" height="335" width="640" />
 
-Todos los n&uacute;meros crudos en <a href="http://ubuntuone.com/p/xEy/">esta planilla de cálculos</a>.</p> |
+Todos los números crudos en <a href="http://ubuntuone.com/p/xEy/">esta planilla de cálculos</a>.</p> |

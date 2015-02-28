@@ -15,7 +15,7 @@ Vistas:
 	<li><a href="http://www.imdb.com/title/tt0770772/">I think love my wife</a>: -0. El tema podría ser interesante, pero no está bien tratado. Y como comedia falla.</li>
 	<li><a href="http://www.imdb.com/title/tt0368794/">I'm not there</a>: +0. Pero sólo si te gusta un poco Dylan; igual creo que la hubiese aprovechado más si hubiese conocido más de él o sus letras.</li>
 	<li><a href="http://www.imdb.com/title/tt0489099/">Jumper</a>: -0. Desde el principio se nota que es mala, y ni siquiera le dan un buen giro al "poder" del que habla la peli.</li>
-	<li><a href="http://www.imdb.com/title/tt0765120/">My blueberry nights</a>: +1. Maravillosa historia y actuaciones; imperdible m&uacute;sica.</li>
+	<li><a href="http://www.imdb.com/title/tt0765120/">My blueberry nights</a>: +1. Maravillosa historia y actuaciones; imperdible música.</li>
 	<li><a href="http://www.imdb.com/title/tt0465234/">National treasure: Book of secrets</a>: -0. Ni siquiera está a la altura de la primera...</li>
 	<li><a href="http://www.imdb.com/title/tt0465602/">Shoot'em up</a>: -1. Notablemente mala, al punto en que al principio parece que es una joda...</li>
 	<li><a href="http://www.imdb.com/title/tt0413267/">Shrek the third</a>: +0. Está bien, pero es sólo más de Shrek.</li>
@@ -61,7 +61,7 @@ Nuevas:
 </ul>
 
 
-Finalmente, el resumen seg&uacute;n cuando las anoté, ya con más historial:
+Finalmente, el resumen según cuando las anoté, ya con más historial:
 
 <blockquote>
 	<span style="font-family: courier new,courier">(anterior)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1

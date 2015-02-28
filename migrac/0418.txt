@@ -27,15 +27,15 @@ Hay una analogía, que aunque no exacta, puede ser ejemplificadora. Tomemos el c
 
 
 
-En la computadora la dinámica es distinta. A diferencia del motor, donde muchos lo usan, pocos lo saben arreglar, y menos a&uacute;n pueden crear sus propias herramientas para arreglarlo, tenemos que no hay una barrera física entre el usuario y el objeto. Sí, la computadora sale dinero, ponerla a funcionar sale dinero, y esto es una barrera entre la persona y su acceso a la computadora. Pero una vez que accedió a la misma, no hay mayor barrera&nbsp; entre usar herramientas para consumir contenido, usar herramientas para producir contenido, y construir otras nuevas herramientas.
+En la computadora la dinámica es distinta. A diferencia del motor, donde muchos lo usan, pocos lo saben arreglar, y menos aún pueden crear sus propias herramientas para arreglarlo, tenemos que no hay una barrera física entre el usuario y el objeto. Sí, la computadora sale dinero, ponerla a funcionar sale dinero, y esto es una barrera entre la persona y su acceso a la computadora. Pero una vez que accedió a la misma, no hay mayor barrera&nbsp; entre usar herramientas para consumir contenido, usar herramientas para producir contenido, y construir otras nuevas herramientas.
 
 
 
-La &uacute;nica barrera es el conocimiento.
+La única barrera es el conocimiento.
 
 
 
-&iquest;Pero por qué no se habla tanto de esta tercer fase? No lo sé... quizás sea que todavía es temprano en la adopción de la informática por parte de la gente (tenemos computadoras desde hace más de 60 años, sólo en los &uacute;ltimos 20 es algo masivo como tecnología, y todavía es un bien de consumo <strong>caro</strong>), o quizás es que a muchos no les conviene que la &uacute;nica barrera sea el conocimiento (por ejemplo, a menos que uses <em>software libre</em>, las herramientas de desarrollo son caras, más caras que la computadora misma).
+&iquest;Pero por qué no se habla tanto de esta tercer fase? No lo sé... quizás sea que todavía es temprano en la adopción de la informática por parte de la gente (tenemos computadoras desde hace más de 60 años, sólo en los últimos 20 es algo masivo como tecnología, y todavía es un bien de consumo <strong>caro</strong>), o quizás es que a muchos no les conviene que la única barrera sea el conocimiento (por ejemplo, a menos que uses <em>software libre</em>, las herramientas de desarrollo son caras, más caras que la computadora misma).
 
 
 
@@ -43,7 +43,7 @@ La OLPC (el proyecto que pretendía entregar una laptop a cada chico) revolucion
 
 
 
-Sin embargo, la OLPC era visionaria en otros aspectos, como en la de consumo/creación de contenidos: el set de herramientas básicas apuntaba a que los niños no sólo consuman contenido, sino que lo creen y que lo hagan de forma colaborativa con otros niños. Entonces, tenía herramientas para escribir, para dibujar, para hacer m&uacute;sica, fotos, videos, todo integrado en la máquina, y listo para que dos chicos en dos máquinas (o más), trabajen colaborando en el mismo texto, canción, etc.
+Sin embargo, la OLPC era visionaria en otros aspectos, como en la de consumo/creación de contenidos: el set de herramientas básicas apuntaba a que los niños no sólo consuman contenido, sino que lo creen y que lo hagan de forma colaborativa con otros niños. Entonces, tenía herramientas para escribir, para dibujar, para hacer música, fotos, videos, todo integrado en la máquina, y listo para que dos chicos en dos máquinas (o más), trabajen colaborando en el mismo texto, canción, etc.
 
 
 

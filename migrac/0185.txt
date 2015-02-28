@@ -10,7 +10,7 @@ Python en Santa Fe
 
  Prácticamente les comimos todo, y para no hacer diferencias, también les tomamos toda la cerveza, las que tenían y las que fueron a comprar. Mientras tanto, charlábamos y charlábamos de Python, Linux, y demás temas raros que nos apasionan a nosotros y a Luca, otro amigo que llegó después.
 
- Ya que nos habían agasajado, decidimos devolverles el favor yendo a un boliche y pagando nosotros: arrancamos para El Potrero, el cual está muy bien: pool, m&uacute;sica, cerveza, etc...
+ Ya que nos habían agasajado, decidimos devolverles el favor yendo a un boliche y pagando nosotros: arrancamos para El Potrero, el cual está muy bien: pool, música, cerveza, etc...
 
  <img src="http://farm2.static.flickr.com/1346/533411521_e45b40677b_o.jpg" border="0" />
 
@@ -22,7 +22,7 @@ Python en Santa Fe
 
  A la tarde seguí yo con <a href="http://www.taniquetil.com.ar/homedevel/presents/demos_tecnicas.odp"><em>Demostraciones técnicas</em></a>  (<a href="http://www.taniquetil.com.ar/facundo/bdvfiles/code/distrib.zip">Procesamiento distribuido</a>, <a href="http://www.taniquetil.com.ar/facundo/bdvfiles/code/sacd.zip">Sistema de Administración de CDs</a>, <a href="http://www.taniquetil.com.ar/facundo/bdvfiles/code/ws.zip">Web services</a>, y <a href="http://www.taniquetil.com.ar/facundo/bdvfiles/code/booscador-v2.zip">Booscadoor</a>) y cerró Lucio con <em>Magia negra en Python</em>.
 
- La Jornada fue un éxito: &iexcl;&iexcl;280 asistentes!! El p&uacute;blico no era gente de Python, sino estudiantes de las carreras de Ingeniería en Sistemas e Ingeniería en Informática, lo cual estuvo perfecto, ya que evangelizamos a full!! Creo que la gente se enganchó, le interesó, y se fue con una buena impresión de lo que es el lenguaje.
+ La Jornada fue un éxito: &iexcl;&iexcl;280 asistentes!! El público no era gente de Python, sino estudiantes de las carreras de Ingeniería en Sistemas e Ingeniería en Informática, lo cual estuvo perfecto, ya que evangelizamos a full!! Creo que la gente se enganchó, le interesó, y se fue con una buena impresión de lo que es el lenguaje.
 
  <img src="http://farm2.static.flickr.com/1184/533411741_aa9a07c91e_o.jpg" border="0" />
 

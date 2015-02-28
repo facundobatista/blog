@@ -4,7 +4,7 @@ Ordenando un poco
 
  Uno de los directorios que puse como "genérico" al arrancar el blog fue el <em>bdvfiles</em>, donde iba a ir poniendo archivos que iría enlazando desde aquí.
 
-Con el paso del tiempo, este directorio se fue llenando de cosas, y un laburo que tenía pendiente de hace rato es ver qué había quedado acá, si era &uacute;til, si estaba muy sucio, etc.
+Con el paso del tiempo, este directorio se fue llenando de cosas, y un laburo que tenía pendiente de hace rato es ver qué había quedado acá, si era útil, si estaba muy sucio, etc.
 
 Bueno, lo que hay es:</p>
 <ul>

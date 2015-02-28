@@ -15,7 +15,7 @@ Vistas:
 	<li><a href="http://www.imdb.com/title/tt0497323/">Anamorph</a>: +0. Interesante desde un par de puntos de vista, pero nada del otro mundo.</li>
 	<li><a href="http://www.imdb.com/title/tt0499549/">Avatar</a>: +1. Buenísima historia, fascinante la producción. Lo real de la "realidad inventada" asusta.</li>
 	<li><a href="http://www.imdb.com/title/tt0887883/">Burn after reading</a>: -0. Buenos actores, buenas actuaciones, y una historia mezclada e interesante, pero que no conduce a nada.</li>
-	<li><a href="http://www.imdb.com/title/tt1060277/">Cloverfield</a>: -0. Lo &uacute;nico que tiene piola es el manejo de la cámara...</li>
+	<li><a href="http://www.imdb.com/title/tt1060277/">Cloverfield</a>: -0. Lo único que tiene piola es el manejo de la cámara...</li>
 	<li><a href="http://www.imdb.com/title/tt0800240/">Deception</a>: +0. Buena trama, buenas actuaciones, podría tener más consistencia.</li>
 	<li><a href="http://www.imdb.com/title/tt0765443/">Eastern promises</a>: +0. Historia simple, pero bien armada, bien llevada.</li>
 	<li><a href="http://www.imdb.com/title/tt0484740/">El amor en los tiempos del cólera</a>: +1. Muy buenas actuaciones, y por supuesto la historia no tiene desperdicio.</li>
@@ -62,7 +62,7 @@ Nuevas:
 	<li><a href="http://www.imdb.com/title/tt1226273/">Edge of darkness</a></li>
 	<li><a href="http://www.imdb.com/title/tt1139328/">The ghost writer</a></li>
 </ul>
-Finalmente, el resumen seg&uacute;n cuando las anoté, ya con más historial:<span style="font-family: courier new,courier"></span>
+Finalmente, el resumen según cuando las anoté, ya con más historial:<span style="font-family: courier new,courier"></span>
 
 <blockquote>
 	<span style="font-family: courier new,courier">

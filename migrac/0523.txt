@@ -2,7 +2,7 @@
 Más pelis
 <tags>
 
-Buen ritmo de películas vistas en los &uacute;ltimos meses!</p>
+Buen ritmo de películas vistas en los últimos meses!</p>
 <ul>
 <li><a href="http://www.imdb.com/title/tt0472033/">9</a>: +0. Increíble el "escenario" donde se desarolla todo, muy bien armado el mundo mostrado, pero la historia... hasta ahí. La animación está muy buena, sí, pero a esta altura es lo que uno espera.</li>
 <li><a href="http://www.imdb.com/title/tt0918927/">Doubt</a>: +1. Muy buen tema, fantásticas actuaciones de Philip Seymour Hoffman y Meryl Streep; no es tan dramática como pensé que iba a ser, pero sí es intensa.</li>
@@ -36,7 +36,7 @@ Por otro lado, aparecieron casi la misma cantidad para ver...</p>
 <li><a href="http://www.imdb.com/title/tt0905372/">The thing</a></li>
 </ul>
 <p>
-Finalmente, el resumen seg&uacute;n cuando las anoté:
+Finalmente, el resumen según cuando las anoté:
 
 <span style="font-family: courier new,courier;">(23-May-2008)&nbsp;&nbsp;&nbsp; 4&nbsp;&nbsp; 4</span>
 <span style="font-family: courier new,courier;">(24-Sep-2008)&nbsp;&nbsp; 29&nbsp; 21&nbsp; 15&nbsp;&nbsp; 6</span>

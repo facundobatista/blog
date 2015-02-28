@@ -14,17 +14,17 @@ Me recomendó usar <a href="http://normalize.nongnu.org/">normalize</a>. En part
 Lo analicé un rato, y ví que tiene dos modos, mix y batch:
 
 <ul>
-	<li><strong>mix:</strong> calcula el promedio de vol&uacute;menes de todos los temas, y normaliza cada archivo por separado para alcanzar este volumen. Este modo es ideal para cuando armamos un "compilado" a partir de distintas fuentes que están a distintos vol&uacute;menes</li>
-	<li><strong>batch:</strong> calcula el promedio de vol&uacute;menes de todos los temas, computa un sólo ajuste para llevar este promedio a lo deseado, y le aplica este mismo ajuste a todos los temas. Este modo es ideal para usar en las canciones de un mismo álbum, ya que el artista decidió que quizás un tema suene más fuerte que otro, y mantendríamos eso.</li>
+	<li><strong>mix:</strong> calcula el promedio de volúmenes de todos los temas, y normaliza cada archivo por separado para alcanzar este volumen. Este modo es ideal para cuando armamos un "compilado" a partir de distintas fuentes que están a distintos volúmenes</li>
+	<li><strong>batch:</strong> calcula el promedio de volúmenes de todos los temas, computa un sólo ajuste para llevar este promedio a lo deseado, y le aplica este mismo ajuste a todos los temas. Este modo es ideal para usar en las canciones de un mismo álbum, ya que el artista decidió que quizás un tema suene más fuerte que otro, y mantendríamos eso.</li>
 </ul>
-Entonces, vamos a contar mejor qué es lo que quiero obtener, así se entiende cómo lo obtuve. Yo tengo, por ejemplo, toda mi colección de m&uacute;sica que son tres directorios:
+Entonces, vamos a contar mejor qué es lo que quiero obtener, así se entiende cómo lo obtuve. Yo tengo, por ejemplo, toda mi colección de música que son tres directorios:
 
 <ul>
 	<li>SuiGeneris</li>
 	<li>Kusturica</li>
 	<li>IronMaiden (compilado)</li>
 </ul>
-Los primeros dos directorios contienen los mp3 de dos CDs que compré y bajé a la compu, manteniendo los vol&uacute;menes originales. El tercero es un compilado que armé a partir de otros CDs. Estas canciones son (expresando el volumen en valor ficticio entre 0 y 100 para que sea más fácil hacer la cuenta):
+Los primeros dos directorios contienen los mp3 de dos CDs que compré y bajé a la compu, manteniendo los volúmenes originales. El tercero es un compilado que armé a partir de otros CDs. Estas canciones son (expresando el volumen en valor ficticio entre 0 y 100 para que sea más fácil hacer la cuenta):
 
 <ul>
 	<li>SuiGeneris/Tranquila.mp3&nbsp;&nbsp;&nbsp;&nbsp; 40</li>
@@ -78,7 +78,7 @@ Corriendo al normalize-mp3 en cada directorio, considerando para el ejemplo que 
 
 
 
-El caso de IronMaiden es más sencillo: como es un compilado y no es el caso de que el artista puso diferentes vol&uacute;menes para lograr efectos, se lleva todo al volumen indicado (fíjense que no tiene el <em>--batch</em> en el comando). &iquest;Por qué no uso <em>--mix</em> acá? Porque yo le estoy indicando qué volumen quiero, no que saque el promedio él.
+El caso de IronMaiden es más sencillo: como es un compilado y no es el caso de que el artista puso diferentes volúmenes para lograr efectos, se lleva todo al volumen indicado (fíjense que no tiene el <em>--batch</em> en el comando). &iquest;Por qué no uso <em>--mix</em> acá? Porque yo le estoy indicando qué volumen quiero, no que saque el promedio él.
 
 
 
@@ -120,7 +120,7 @@ mp3gain, a diferencia de normalize, no <em>rearma</em> el mp3 con el nuevo volum
 
 
 
-Por otro lado, mp3gain tiene una gran desventaja: no permite que uno le indique a qué volumen uno quiere llevar la m&uacute;sica: el programa analiza lo que tiene que analizar, y lo equilibra a todo lo mismo, pero a un valor que él determinó como óptimo. Por lo que probé, baja el volumen aunque no sea necesario (queda rango dinámico para explotar), así que decidí no correrlo sobre toda mi m&uacute;sica: solamente lo pasé en los compilados que había armado con canciones de distintas fuentes, para que me queden todos los temas de volumen parecido.
+Por otro lado, mp3gain tiene una gran desventaja: no permite que uno le indique a qué volumen uno quiere llevar la música: el programa analiza lo que tiene que analizar, y lo equilibra a todo lo mismo, pero a un valor que él determinó como óptimo. Por lo que probé, baja el volumen aunque no sea necesario (queda rango dinámico para explotar), así que decidí no correrlo sobre toda mi música: solamente lo pasé en los compilados que había armado con canciones de distintas fuentes, para que me queden todos los temas de volumen parecido.
 
 
 
@@ -140,4 +140,4 @@ Claramente, acá hay que experimentar con distintos valores, para ver cual nos c
 
 
 
-Entonces, al final, retoqué mis compilados con esto para emparejarlos en volumen, y no hice nada sobre los discos originales que tenía. No es la mejor solución, pero sí lo mejor que pude hacer seg&uacute;n el estado actual de los programas. |
+Entonces, al final, retoqué mis compilados con esto para emparejarlos en volumen, y no hice nada sobre los discos originales que tenía. No es la mejor solución, pero sí lo mejor que pude hacer según el estado actual de los programas. |

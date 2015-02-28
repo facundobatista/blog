@@ -20,9 +20,9 @@ Ya de día, y saliendo de Córdoba Capital, me parece que el micro va sospechosa
 
 La gente re molesta, se baja del micro, unas señoras llamaron a un remis para volver a Córdoba y ahí tomar otro micro de corta distancia, otros sólo protestaban, nadie sabía mucho qué hacer. Yo quería llegar pronto a Villa Giardino para no perderme mucho PyCamp, así que no quería esperar indefinidamente hasta que viniera otro micro.
 
-Charlando, me doy cuenta que una pareja de chicos iban hasta La Falda, que queda muy cerquita de Villa Giardino, y les digo: &iquest;por qué no nos tomamos los cuatro un remis? Yo tenía en los contactos el n&uacute;mero de un remis de córdoba, llamé, me dijeron que el viaje salía alrededor de $300, y le dije que se viniera.
+Charlando, me doy cuenta que una pareja de chicos iban hasta La Falda, que queda muy cerquita de Villa Giardino, y les digo: &iquest;por qué no nos tomamos los cuatro un remis? Yo tenía en los contactos el número de un remis de córdoba, llamé, me dijeron que el viaje salía alrededor de $300, y le dije que se viniera.
 
-Un rato después nos pasó a buscar el auto, nos subimos los cuatro, y ahí si ya pudimos hacer el &uacute;ltimo trecho que nos separaba de PyCamp. Llegamos quince minutos antes del almuerzo, con cinco horas de retraso del plan original. Pero llegamos.
+Un rato después nos pasó a buscar el auto, nos subimos los cuatro, y ahí si ya pudimos hacer el último trecho que nos separaba de PyCamp. Llegamos quince minutos antes del almuerzo, con cinco horas de retraso del plan original. Pero llegamos.
 
 Y en la vida me vuelvo a tomar un micro de Mercobus/PlusUltra.
 
@@ -33,7 +33,7 @@ Al llegar fueron todos saludos, presentaciones con varias personas a las que no 
 
 <img src="http://www.taniquetil.com.ar/facundo/imgs/pycamp2013-schedule.jpeg" alt="Schedule" height="393" width="600" />
 
-Esa tarde laburé con <a href="http://github.com/Abuelodelanada/TOMy/">TOMy</a>, un cliente lindo y &uacute;til de consola para conectarse a muchas bases de datos (MySQL, Postgresql, etc), mejorando por mucho los clientes que trae cada motor. Le refactoreé un par de cosas a la hora de importar unos plugins, aunque lo que quería realmente hacer era otra cosa (que finalmente pude hacer luego, ver abajo).
+Esa tarde laburé con <a href="http://github.com/Abuelodelanada/TOMy/">TOMy</a>, un cliente lindo y útil de consola para conectarse a muchas bases de datos (MySQL, Postgresql, etc), mejorando por mucho los clientes que trae cada motor. Le refactoreé un par de cosas a la hora de importar unos plugins, aunque lo que quería realmente hacer era otra cosa (que finalmente pude hacer luego, ver abajo).
 
 No pude seguir con TOMy porque llegó la hora asignada de empezar con LocoLander, <a href="http://www.taniquetil.com.ar/plog/post/1/606">un proyecto idea mía</a>. Se armó un grupito, pero la verdad los que siguieron prendidos al proyecto (durante una buena parte del resto del PyCamp, y que trabajaron mucho mucho) fueron Ricardo, Nati Bidart, y Matías Bordese. Yo hice un par de cosas, charlé mucho del diseño, pero no estuve echando tanto código con esto.
 
@@ -44,7 +44,7 @@ Luego de la cena, y para cerrar el día, jugamos una partida de <a href="http://
 
 <strong>Segundo día, el viernes</strong>
 
-Este fue el &uacute;ltimo día que me levanté temprano, con bastante frio porque el radiador de la pieza no andaba!. Desayuné y luego me puse cerca del gran Hugo Ruscitti que le contó a mucha gente sobre Pilas y su proyecto para que los chicos en las escuelas aprendan a programar usando <a href="http://pilas-editor.com.ar/">el editor web</a>. Yo ya había charlado mucho con Hugo sobre esto, así qu eno participé demasiado, pero estaba con la oreja parada mientras seguía laburando un poquito en LocoLander y TOMy.
+Este fue el último día que me levanté temprano, con bastante frio porque el radiador de la pieza no andaba!. Desayuné y luego me puse cerca del gran Hugo Ruscitti que le contó a mucha gente sobre Pilas y su proyecto para que los chicos en las escuelas aprendan a programar usando <a href="http://pilas-editor.com.ar/">el editor web</a>. Yo ya había charlado mucho con Hugo sobre esto, así qu eno participé demasiado, pero estaba con la oreja parada mientras seguía laburando un poquito en LocoLander y TOMy.
 
 Y seguí con eso incluso después del almuerzo, hasta que llegó <a href="http://www.taniquetil.com.ar/plog/post/1/608">la hora de Kilink</a>, el otro proyecto nuevo que llevaba al PyCamp. Se me juntaron varios chicos para arrancar... y cuando les quise mostrar como estaba lo que ya estaba, no andaba en mi máquina, :(.
 
@@ -69,9 +69,9 @@ Luego de un viajecito al pueblo a llevar al hospital a un chico que se sentía m
 
 Seguí con Kilink y Locolander, hasta que se hizo hora de arrancar con la CDPedia. Habían dos cosas que quería empujar con respecto a este proyecto. El primer punto era que CDPedia pudiera correr en Android (para tenerla en teléfonos y tablets); Diego Mascialino y Manu Quiñones se pusieron con esto, pero se les complicó bastante porque el Python que corre en Android se ve que está un poco recortado, y justo en donde lo necesitábamos, :(. Tenemos que seguir explorando a ver qué opciones hay para hacerla andar.
 
-El segundo punto era lograr un sistema de generación continua de CDPedias. O sea, un sistema que de forma autónoma vaya generando CDPedias en distintos lenguajes, uno atrás del otro, y que luego vuelva a arrancar con el primero, como para garantizar tener algo siempre más o menos actualizado. Con esto nos pusimos Emiliano, en la parte de montar un buildbot para que ejecute, supervise y muestre los resultados de la ejecución, y yo, para armar un &uacute;nico script que realice la cantidad de pasos manuales que se hacen hoy en día. &iexcl;Y casi casi lo tenemos listo!
+El segundo punto era lograr un sistema de generación continua de CDPedias. O sea, un sistema que de forma autónoma vaya generando CDPedias en distintos lenguajes, uno atrás del otro, y que luego vuelva a arrancar con el primero, como para garantizar tener algo siempre más o menos actualizado. Con esto nos pusimos Emiliano, en la parte de montar un buildbot para que ejecute, supervise y muestre los resultados de la ejecución, y yo, para armar un único script que realice la cantidad de pasos manuales que se hacen hoy en día. &iexcl;Y casi casi lo tenemos listo!
 
-El cierre del día lo dió la reunión n&uacute;mero 61 de PyAr, pegadita a la cena. Los dos temas principales de la reunión fueron las cosas buenas y malas del PyCamp actual, qué cosas deberíamos cambiar para la próxima, etc, y charlamos también sobre la próxima PyCon, qué hacía falta, etc. Claro, satélites a estos temas se tocaron muchos otros, por ejemplo la interacción entre los eventos y las empresas, o también una idea de Nico Echaniz de construir algo en Quintana para que pueda usarse por las distintas comunidades libres para ir a trabajar, hacer sprints, etc.
+El cierre del día lo dió la reunión número 61 de PyAr, pegadita a la cena. Los dos temas principales de la reunión fueron las cosas buenas y malas del PyCamp actual, qué cosas deberíamos cambiar para la próxima, etc, y charlamos también sobre la próxima PyCon, qué hacía falta, etc. Claro, satélites a estos temas se tocaron muchos otros, por ejemplo la interacción entre los eventos y las empresas, o también una idea de Nico Echaniz de construir algo en Quintana para que pueda usarse por las distintas comunidades libres para ir a trabajar, hacer sprints, etc.
 
 <img src="http://www.taniquetil.com.ar/facundo/imgs/pycamp2013-reunión.jpeg" alt="Reunión de PyAr" height="450" width="600" />
 

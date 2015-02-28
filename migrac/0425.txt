@@ -37,7 +37,7 @@ Lightning Talks: Son charlas de cinco minutos. Cualquiera puede dar una de estas
 
 
 
-Plenarias: Tuvimos dos charlas plenarias (charlas de 45 minutos en el auditorio principal, con todo el p&uacute;blico asistente), que fueron dadas por dos invitados internacionales: Jacob Kaplan-Moss (creador de <a href="http://www.djangoproject.com/">Django</a>, uno de los frameworks web más usados en el mundo), y Collin Winter (desarrollador de <a href="http://code.google.com/p/unladen-swallow/">Unladen Swallow</a>, un proyecto de Google que promete un Python 5 veces más rápido que el actual). Estas charlas fueron en inglés, pero en una de ellas se repartieron folletos en castellano, y en la otra se proyectó simultáneamente la misma presentación en castellano.
+Plenarias: Tuvimos dos charlas plenarias (charlas de 45 minutos en el auditorio principal, con todo el público asistente), que fueron dadas por dos invitados internacionales: Jacob Kaplan-Moss (creador de <a href="http://www.djangoproject.com/">Django</a>, uno de los frameworks web más usados en el mundo), y Collin Winter (desarrollador de <a href="http://code.google.com/p/unladen-swallow/">Unladen Swallow</a>, un proyecto de Google que promete un Python 5 veces más rápido que el actual). Estas charlas fueron en inglés, pero en una de ellas se repartieron folletos en castellano, y en la otra se proyectó simultáneamente la misma presentación en castellano.
 
 
 
@@ -55,7 +55,7 @@ Python Argentina no tiene una estructura formal ni informal, somos todos pares y
 
 
 
-En este proyecto en particular, yo estructuré el equipo de trabajo seg&uacute;n una organización jerárquica militar (qué es la misma que se usa en las empresas). Básicamente estaba yo como Coordinador General del evento, tenía una segunda persona de confianza (una persona en la que uno confía tanto a nivel del tipo de decisiones que toma como en la capacidad de ejecución, en este caso Alecu), un grupo de 6-8 personas cercanas con las cuales se organizaba todo, y luego muchos más colaboradores eventuales o con menor participación (ayudando el día de la conferencia, o en distintos comités, etc).
+En este proyecto en particular, yo estructuré el equipo de trabajo según una organización jerárquica militar (qué es la misma que se usa en las empresas). Básicamente estaba yo como Coordinador General del evento, tenía una segunda persona de confianza (una persona en la que uno confía tanto a nivel del tipo de decisiones que toma como en la capacidad de ejecución, en este caso Alecu), un grupo de 6-8 personas cercanas con las cuales se organizaba todo, y luego muchos más colaboradores eventuales o con menor participación (ayudando el día de la conferencia, o en distintos comités, etc).
 
 
 
@@ -93,11 +93,11 @@ Aspecto económico-financiero: Meses antes de la conferencia creamos tres presup
 
 
 
-Infraestructura técnica para la organización: Hay muchas herramientas que se usaron para que los organizadores trabajen juntos. Teníamos un wiki para llevar anotado todo, una lista de correo para el principal intercambio de información, e IRC para algunas reuniones no presenciales que armamos (especialmente para la selección de charlas, donde participó mucha gente que vive lejos). También usamos un repositorio SVN para todos los archivos que había que guardar, especialmente los del sitio del evento. Para este &uacute;ltimo usamos <a href="https://pycon.coderanger.net/">pycon-tech</a>, un proyecto orientado justamente a sitios de conferencias.
+Infraestructura técnica para la organización: Hay muchas herramientas que se usaron para que los organizadores trabajen juntos. Teníamos un wiki para llevar anotado todo, una lista de correo para el principal intercambio de información, e IRC para algunas reuniones no presenciales que armamos (especialmente para la selección de charlas, donde participó mucha gente que vive lejos). También usamos un repositorio SVN para todos los archivos que había que guardar, especialmente los del sitio del evento. Para este último usamos <a href="https://pycon.coderanger.net/">pycon-tech</a>, un proyecto orientado justamente a sitios de conferencias.
 
 
 
-El equipo: Este es uno de los principales riesgos, ya que si no se forma un grupo de gente con ganas de lograr el objetivo, con ganas de ponerse de acuerdo y trabajar con un destino com&uacute;n, puede llegar a suceder que no se logre armar un buen evento sólo por culpa de los organizadores mismos. Hay que tener en cuenta que en un evento organizado desde la participación voluntaria podemos tener gente que arranque y que luego no pueda terminar en el equipo, o que puede haber gente que se sume durante el camino. &iexcl;Y el equipo es una de las primeras cosas que hay que definir! Es por esto que es crítico que el Coordinador General del evento tenga el suficiente arrastre y empuje en la comunidad como para poder tener el equipo armado pronto y trabajando positivamente durante todos los meses del evento.
+El equipo: Este es uno de los principales riesgos, ya que si no se forma un grupo de gente con ganas de lograr el objetivo, con ganas de ponerse de acuerdo y trabajar con un destino común, puede llegar a suceder que no se logre armar un buen evento sólo por culpa de los organizadores mismos. Hay que tener en cuenta que en un evento organizado desde la participación voluntaria podemos tener gente que arranque y que luego no pueda terminar en el equipo, o que puede haber gente que se sume durante el camino. &iexcl;Y el equipo es una de las primeras cosas que hay que definir! Es por esto que es crítico que el Coordinador General del evento tenga el suficiente arrastre y empuje en la comunidad como para poder tener el equipo armado pronto y trabajando positivamente durante todos los meses del evento.
 
 
 
@@ -105,7 +105,7 @@ En general, se recomienda hacer lo que uno sabe hacer y pedir ayuda a especialis
 
 
 
-Por otro lado, hay imponderables: el primer día de la conferencia se cortó la luz en todo el barrio. Por suerte, fue en el &uacute;ltimo track antes del almuerzo, algunas charlas estuvieron un rato a oscuras, y luego la energía volvió dos minutos antes de que empiece la tarde. En este caso, no podíamos hacer nada para prever ni mitigar el problema.
+Por otro lado, hay imponderables: el primer día de la conferencia se cortó la luz en todo el barrio. Por suerte, fue en el último track antes del almuerzo, algunas charlas estuvieron un rato a oscuras, y luego la energía volvió dos minutos antes de que empiece la tarde. En este caso, no podíamos hacer nada para prever ni mitigar el problema.
 
 
 
@@ -127,7 +127,7 @@ En el caso de las plenarias de los invitados internacionales, normalmente se eli
 
 
 
-En cambio, para las charlas normales se hace un <em>call for charlas</em> unos meses antes, y luego de la fecha límite para presentar las propuestas, un comité se re&uacute;ne y determina qué charlas se van a elegir para el evento. Esta elección se basa en la calidad de las ponencias, y en los temas que se quieren representar durante la conferencia.
+En cambio, para las charlas normales se hace un <em>call for charlas</em> unos meses antes, y luego de la fecha límite para presentar las propuestas, un comité se reúne y determina qué charlas se van a elegir para el evento. Esta elección se basa en la calidad de las ponencias, y en los temas que se quieren representar durante la conferencia.
 
 
 
@@ -141,7 +141,7 @@ En cambio, para las charlas normales se hace un <em>call for charlas</em> unos m
 
 
 
-Un punto que no sólo no hay que descuidar sino en el que hay que hacer énfasis es el del aspecto social. Una conferencia nacional es una muy buena excusa para que la gente se re&uacute;na, se vuelva a ver luego de un tiempo, se conozca, intercambie ideas y conocimiento, etc.
+Un punto que no sólo no hay que descuidar sino en el que hay que hacer énfasis es el del aspecto social. Una conferencia nacional es una muy buena excusa para que la gente se reúna, se vuelva a ver luego de un tiempo, se conozca, intercambie ideas y conocimiento, etc.
 
 
 
@@ -163,7 +163,7 @@ En nuestro caso, quisimos profundizar esto realizando un asado el domingo, al qu
 
 
 
-Por &uacute;ltimo, quiero dejarles la otra cara de la moneda: muchos comentarios que fui levantando por ahí de <strong>asistentes</strong> a la conferencia:
+Por último, quiero dejarles la otra cara de la moneda: muchos comentarios que fui levantando por ahí de <strong>asistentes</strong> a la conferencia:
 
 
 

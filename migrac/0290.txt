@@ -2,7 +2,7 @@
 Recuperando ritmo
 <tags>
 
-Luego de tantos días afuera y/o en proyectos Python, la &uacute;ltima semana la dediqué a la pareja, con lo cual no hay mucho que contar aquí.
+Luego de tantos días afuera y/o en proyectos Python, la última semana la dediqué a la pareja, con lo cual no hay mucho que contar aquí.
 
 Así y todo, estuve redondeando algunas cosas, y ya tengo bastante definida cómo será la charla que vamos a dar con Lucio, "Python más rápido que C", en la próxima <a href="http://www.cafeconf.org/">CaFeConf</a>.
 

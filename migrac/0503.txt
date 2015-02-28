@@ -17,7 +17,7 @@ Tuvimos un pequeño break y arrancó la primer sesión de charlas propiamente di
 
 Para dejar clara mi posición al respecto, lo que a mi me interesa es derribar las barreras actuales que evitan que las mujeres tengan las mismas oportunidades que los hombres en todo lo relacionado con tecnología.
 
-La &uacute;ltima charla de la mañana estuvo relacionada con la anterior, "Diversity in Tech: Improving our Toolset", por Jennifer Leech. Interesante aspecto relacionado con las expectativas y como estas afectan los comportamientos: "Si vos le decís a una persona cómo esperás que cumpla con una tarea en particular <em>afecta profundamente</em> cómo esa persona cumplirá con la tarea".
+La última charla de la mañana estuvo relacionada con la anterior, "Diversity in Tech: Improving our Toolset", por Jennifer Leech. Interesante aspecto relacionado con las expectativas y como estas afectan los comportamientos: "Si vos le decís a una persona cómo esperás que cumpla con una tarea en particular <em>afecta profundamente</em> cómo esa persona cumplirá con la tarea".
 
 Luego el almuerzo, que fue durante la reunión de la Python Software Foundation, y las charlas de la tarde. Me quedé para dos relacionadas con Python 3: "Status of Unicode in Python 3" por Victor Stinner, y "Porting to Python 3", por Lennart Regebro.
 
@@ -46,11 +46,11 @@ Luego de un break, comenzó la primer sesión de charlas. Me enteré de detalles
 
 La sesión de la tarde, después del almuerzo,&nbsp; arrancó con una charla de programación genética usando <a href="http://pyevolve.sourceforge.net/">PyEvolve</a>, y luego una charla sobre memoria: interesante, pero me hubiese gustado algo más de detalle en los internals y menos en lo que hace la biblioteca de este muchacho, <a href="https://fedorahosted.org/gdb-heap/">gdb-heap</a>. Antes del break cerramos con una charla sobre <a href="http://www.zeromq.org/">ZeroMQ</a>... la biblioteca está interesante (una especie de socket mágico que puede ser 1:1 o 1:N, N:1, N:M, y con distintas semánticas con respecto a la respuesta), pero el flaco se la pasó cambiando ventanas, yendo para atrás y para adelante en la presentación a toda velocidad, y la verdad que se hubiese entendido más si hubiese mostrado todo mejor (no más, sólo mejor).
 
-En el &uacute;ltimo bloque sólo ví una charla sobre AST, que estuvo un poco densa pero me dió más info para algo que tenía en la cabeza... de esos proyectos que uno patea para adelante y realmente nunca empieza, je, maldito día de sólo veinticuatro horas.
+En el último bloque sólo ví una charla sobre AST, que estuvo un poco densa pero me dió más info para algo que tenía en la cabeza... de esos proyectos que uno patea para adelante y realmente nunca empieza, je, maldito día de sólo veinticuatro horas.
 
-Y para cerrar,&nbsp; lightning talks de nuevo! Se habló de <a href="http://readthedocs.org/">Read the docs</a>, un sitio web que re&uacute;ne documentación de forma muy piola: basicamente lo apuntás a tu proyecto, y te arma toda la documentación a partir de tus .rst, los sirve, b&uacute;squedas completas, descarga como PDF, etc; muy interesante. Barry Warsaw habló sobre <a href="http://pypi.python.org/pypi/flufl.i18n">flufl.i18n</a> una herramientra de internacionalización de más alto nivel que la clásica gettext.
+Y para cerrar,&nbsp; lightning talks de nuevo! Se habló de <a href="http://readthedocs.org/">Read the docs</a>, un sitio web que reúne documentación de forma muy piola: basicamente lo apuntás a tu proyecto, y te arma toda la documentación a partir de tus .rst, los sirve, búsquedas completas, descarga como PDF, etc; muy interesante. Barry Warsaw habló sobre <a href="http://pypi.python.org/pypi/flufl.i18n">flufl.i18n</a> una herramientra de internacionalización de más alto nivel que la clásica gettext.
 
-A la noche cena con Nati Bidart, Dani Moisset y Juan Pablo (un chico de Buenos Aires que no conocíamos... bah, nos vimos un par de veces en alg&uacute;n PyDay) a un mexicano cerca que no estuvo muy bueno.
+A la noche cena con Nati Bidart, Dani Moisset y Juan Pablo (un chico de Buenos Aires que no conocíamos... bah, nos vimos un par de veces en algún PyDay) a un mexicano cerca que no estuvo muy bueno.
 
 
 <strong>Tercer día</strong>

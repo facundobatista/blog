@@ -12,8 +12,8 @@ Lo segundo que se me pisa (y me complica la vida) es <a href="http://pyday.unlux
 
 Ya en Noviembre (con lo cual el curso no molesta) está la PyCon, en Rafaela, el viernes 14 y sábado 15, aunque lo más probable es que vaya el día anterior, para viajar tranquilo, ayudarlos a terminar todo, etc.
 
-El 26 de septiembre, viernes, a la noche, tengo un curso en La Plata, donde doy Introducción a Python en un Postgrado de Informática para Científicos, como en la mayoría de los &uacute;ltimos años.
+El 26 de septiembre, viernes, a la noche, tengo un curso en La Plata, donde doy Introducción a Python en un Postgrado de Informática para Científicos, como en la mayoría de los últimos años.
 
-Los &uacute;ltimos días de Septiembre y los primeros de Octubre, aunque no hay nada puntual, me los voy a tratar de dejar liberados, porque está el cumpleaños de Felu. Seguramente haremos algo menos para adultos, más para compañeros de jardín y eso, pero no sabemos todavía exactamente qué, y siempre es un montón de trabajo :p
+Los últimos días de Septiembre y los primeros de Octubre, aunque no hay nada puntual, me los voy a tratar de dejar liberados, porque está el cumpleaños de Felu. Seguramente haremos algo menos para adultos, más para compañeros de jardín y eso, pero no sabemos todavía exactamente qué, y siempre es un montón de trabajo :p
 
 En fin... un segundo semestre bailado. Encima estoy bastante ocupado en general, especialmente en el laburo porque en estos meses ya sale a la calle <a href="http://www.ubuntu.com/phone">el teléfono de Ubuntu</a>, y también porque finalmente estamos hablando seriamente de hacer la asociación civil de Python Argentina (tenemos una <a href="http://python.org.ar/mailman/listinfo/meta">lista separada para charlar de eso</a>) y aunque ahora los abogados están de feria, después seguro voy a tener algunas reuniones, trámites para hacer, etc.</p> |

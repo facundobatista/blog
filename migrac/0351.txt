@@ -6,8 +6,8 @@ Este sábado y domingo se hace un <a href="http://wiki.python.org/moin/PythonBug
 
 &iexcl;Felicitaciones (nuevamente) a los cerebros atrás de Cocos! No sólo se mandaron una <a href="http://cocos2d.org/">linda página</a>, sino que subieron dos videos a YouTube, uno mostrando <a href="http://www.youtube.com/watch?v=mrhfaoMvpps">los efectos</a> y el otro <a href="http://www.youtube.com/watch?v=MJsd0J4G4RU">usando Cocos de forma interactiva</a>. Les recomiendo efusivamente que vean esos dos videos, &iexcl;son buenísimos!
 
-En función del incremento de tráfico que tuvo la lista de Python Argentina en los &uacute;ltimos meses, y que tenemos lectores de muchas partes del mundo hispanoparlante, quise hacer una estadística comparativa con la otra gran lista en español del planeta. Para ello recurrí a <a href="http://gmane.org/">Gmane</a>, que es el puente usado por ambas listas para tener un espejo en forma de News. Luego de pelearme durante media hora con esos n&uacute;meros (que tienen agujeros, y están actualizados sólo hasta hace seis meses), saqué un grafiquito:
+En función del incremento de tráfico que tuvo la lista de Python Argentina en los últimos meses, y que tenemos lectores de muchas partes del mundo hispanoparlante, quise hacer una estadística comparativa con la otra gran lista en español del planeta. Para ello recurrí a <a href="http://gmane.org/">Gmane</a>, que es el puente usado por ambas listas para tener un espejo en forma de News. Luego de pelearme durante media hora con esos números (que tienen agujeros, y están actualizados sólo hasta hace seis meses), saqué un grafiquito:
 
 <a href="http://www.taniquetil.com.ar/facundo/imgs/gmane-ult200d.png"><img src="http://www.taniquetil.com.ar/facundo/imgs/gmane-ult200d.png" border="0" alt="Ambas listas comparadas" title="Ambas listas comparadas" width="400" height="158" /></a>
 
-Por &uacute;ltimo, &iexcl;hoy hay <a href="http://www.python.com.ar/moin/Eventos/Reuniones/ProximaReunion">reunión de PyAr</a>! &iexcl;Fiesta! :)[@more@] |
+Por último, &iexcl;hoy hay <a href="http://www.python.com.ar/moin/Eventos/Reuniones/ProximaReunion">reunión de PyAr</a>! &iexcl;Fiesta! :)[@more@] |

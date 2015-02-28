@@ -8,6 +8,6 @@ Entre los objetivos de este evento se destacan el difundir el Software Libre en 
 
 Pueden ver la <a href="http://www.epuel.org.ar/web/?page_id=18">oferta de charlas</a> para mañana. Hay <strong>muchas</strong> interesantes, lástima que no puedo ir, :(.
 
-La Escuela de Oficios San Cayetano, uno de los organizadores del evento, está actualmente dando cursos de Python como parte de su oferta educativa (Python es un lenguaje muy &uacute;til para enseñar programación debido a su clara y simple sintáxis, su curva de aprendizaje suave, y la calidad de su comunidad).
+La Escuela de Oficios San Cayetano, uno de los organizadores del evento, está actualmente dando cursos de Python como parte de su oferta educativa (Python es un lenguaje muy útil para enseñar programación debido a su clara y simple sintáxis, su curva de aprendizaje suave, y la calidad de su comunidad).
 
 En función de esto, y de tratar de devolver a la comunidad algo de lo que la comunidad nos da, PyAr se enorgullece de ser <a href="http://www.epuel.org.ar/web/?page_id=35">uno de los sponsors del evento</a>.[@more@] |

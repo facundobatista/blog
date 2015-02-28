@@ -14,7 +14,7 @@ Mis charlas salieron bien, aunque la de debugging no me gustó del todo como la 
 
 También fuí a muchas charlas, había muchas cosas copadas para ver, y creo que me salté uno o dos timeslots nada más en toda la conferencia. Las keynotes estuvieron bien, pero no me entusiasmaron particularmente. Y todo lo fue lugar y organización estuvo genial, la verdad que se pasaron. Lo mismo con la gente con la que me (re)encontré: es un placer ser parte de una comunidad así.
 
-Yo llevé la cámara... pero la verdad es que colgué sacando fotos. Pero la grosa de <a href="https://twitter.com/yamilacuestas">Yami</a> sacó un montón, <a href="https://www.flickr.com/photos/70871182@N04">están todas acá</a>. Y una de las &uacute;ltimas que sacó es justamente la grupal, esta que muestro acá:
+Yo llevé la cámara... pero la verdad es que colgué sacando fotos. Pero la grosa de <a href="https://twitter.com/yamilacuestas">Yami</a> sacó un montón, <a href="https://www.flickr.com/photos/70871182@N04">están todas acá</a>. Y una de las últimas que sacó es justamente la grupal, esta que muestro acá:
 
 <img src="http://www.taniquetil.com.ar/facundo/imgs/pycon14-grupal.jpeg" alt="Foto grupal" width="800" height="273" />
 

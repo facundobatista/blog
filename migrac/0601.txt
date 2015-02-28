@@ -30,7 +30,7 @@ Para arrancar el container podemos hacer
 
 Y esto nos va a dejar con el prompt listo para loguear, y acá alcanza con usar los propios usuario y password. Una vez adentro, usamos el container como si fuera una máquina nuevita.
 
-Todo muy lindo, pero igual me gustan hacerle algunas configuraciones que hacen el uso a&uacute;n más directo y sencillo. Y estas configuraciones, a nivel de sistema, son basicamente para que podamos entrar al container más fácil, y usar desde adentro aplicaciones gráficas.
+Todo muy lindo, pero igual me gustan hacerle algunas configuraciones que hacen el uso aún más directo y sencillo. Y estas configuraciones, a nivel de sistema, son basicamente para que podamos entrar al container más fácil, y usar desde adentro aplicaciones gráficas.
 
 Para entrar más fácil, tenemos que tener Avahi configurado. Más allá de instalarlo (<span style="font-family: courier new,courier;">sudo apt-get update; sudo apt-get install avahi-daemon</span>), hay un detalle a toquetear.&nbsp; Adentro del lxc, abrir el archivo <span style="font-family: courier new,courier;">/etc/avahi/avahi-daemon.conf</span> y aumentar bastante el <span style="font-family: courier new,courier;">rlimit-nproc</span> (por ejemplo, de 3 a 300).
 

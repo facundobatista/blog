@@ -87,4 +87,4 @@ Y finalmente, movemos el archivo compilado a un directorio que tiene que seguir 
 	<span style="font-family: courier new,courier">mv messages.mo es/LC_MESSAGES/core.mo</span>
 
 </blockquote>
-Como &uacute;ltimo detalle, quiero aclarar que hay muchos editores especializados que muestran los <em>.po</em> y <em>.pot</em> uno al lado del otro, especialmente &uacute;tiles cuando los programas a traducir son muy grandes o contienen muchos textos, pero que realmente uno se puede arreglar con un editor de textos com&uacute;n y corriente. |
+Como último detalle, quiero aclarar que hay muchos editores especializados que muestran los <em>.po</em> y <em>.pot</em> uno al lado del otro, especialmente útiles cuando los programas a traducir son muy grandes o contienen muchos textos, pero que realmente uno se puede arreglar con un editor de textos común y corriente. |

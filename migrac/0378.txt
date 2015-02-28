@@ -6,7 +6,7 @@ Este fin de semana terminó otra edición de la competencia mundial semestral de
 
 El objetivo de mi equipo fue, con la excusa de hacer el juego, explorar dos técnicas/conceptos. El primero era armar un diseñador de animaciones de esqueletos, y el segundo era construir un motor de inteligencia artificial para jugar contra la máquina.
 
-Con Lucio, la noche del sábado, madrugada y domingo, armamos una versión completa del animador de esqueletos. Luego él le agregó en la semana un editor para superponer <em>skins</em> a ese esqueleto, pudiendo armar animaciones completas de personajes, con sólo ponerlos en distintos tiempos, en distintas formas. La verdad, quedó buenísimo, espero que eso pase a formar parte de <a href="http://cocos2d.org/">Cocos</a> en alg&uacute;n momento...
+Con Lucio, la noche del sábado, madrugada y domingo, armamos una versión completa del animador de esqueletos. Luego él le agregó en la semana un editor para superponer <em>skins</em> a ese esqueleto, pudiendo armar animaciones completas de personajes, con sólo ponerlos en distintos tiempos, en distintas formas. La verdad, quedó buenísimo, espero que eso pase a formar parte de <a href="http://cocos2d.org/">Cocos</a> en algún momento...
 
 <img src="http://www.taniquetil.com.ar/facundo/imgs/ggilvsdevil-editor.png" border="0" alt="El editor en acción" title="El editor en acción" width="400" height="331" />
 
@@ -16,7 +16,7 @@ La temática del juego era gauchesca: el Maestro Titiritero es el Gauchito Gil, 
 
 <img src="http://www.taniquetil.com.ar/facundo/imgs/ggilvsdevil-peleando.png" border="0" alt="Nuestro aprendiz peleando contra el Diablo" title="Nuestro aprendiz peleando contra el Diablo" width="400" height="301" />
 
-Más allá de esos dos grandes features del juego, volvimos a tener gente importante laburando en arte, tanto gráfica como sonidos. Les dejo, como ejemplo, el fondo de pantalla del men&uacute; del juego, pero igual hay muchas otras perlas, como la secuencia semianimada inicial, el malambo vocalizado por Leíto, y cosas así...
+Más allá de esos dos grandes features del juego, volvimos a tener gente importante laburando en arte, tanto gráfica como sonidos. Les dejo, como ejemplo, el fondo de pantalla del menú del juego, pero igual hay muchas otras perlas, como la secuencia semianimada inicial, el malambo vocalizado por Leíto, y cosas así...
 
 <img src="http://www.taniquetil.com.ar/facundo/imgs/ggilvsdevil-background.jpeg" border="0" alt="Fondo del juego" title="Fondo del juego" width="350" height="410" />
 

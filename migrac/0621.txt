@@ -2,14 +2,14 @@
 Curso de Python abierto a la comunidad
 <tags>
 
-Finalmente me decidí, y armé un curso grupal para aquellos que quieren aprender Python, no como parte de un grupo cerrado para una empresa o institución, sino abierto al p&uacute;blico en general.
+Finalmente me decidí, y armé un curso grupal para aquellos que quieren aprender Python, no como parte de un grupo cerrado para una empresa o institución, sino abierto al público en general.
 
 Será un <strong>Curso Introductorio a Python</strong>, apuntado a aquellos que no saben nada de este lenguaje, o saben algo pero quieren profundizar o formalizar conocimientos.
 
 El nivel es introductorio, lo que significa que se van a ver muchos conceptos del lenguaje de manera profunda, pero no se tocarán temas avanzados ni satélites a lo que es Python en sí, con la intención que el asistente gane sólidos conocimientos que luego le permitan explorar el resto a su gusto.&nbsp; Se necesita tener conocimientos previos de programación (pero no hace falta ser un programador avanzado).&nbsp; En detalle, el contenido del curso versará sobre los siguientes ítems:</p>
 <ul>
 <li>Introducción: &iquest;Qué es Python?; Primeros pasos; Recursos</li>
-<li>Tipos de Datos: Haciendo n&uacute;meros, y más n&uacute;meros; Cadenas de texto; Tuplas y listas; Conjuntos; Diccionarios</li>
+<li>Tipos de Datos: Haciendo números, y más números; Cadenas de texto; Tuplas y listas; Conjuntos; Diccionarios</li>
 <li>Controles de flujo: if/elif/else; loops while y for; Excepciones</li>
 <li>Encapsulando código: Funciones; Clases; Módulos; Espacios de nombres</li>
 <li>Otros temas: Archivos; Trabajando en Red; Conexión con Bases de Datos</li>
@@ -24,4 +24,4 @@ El costo total del curso será de $920; es necesario abonar al menos el 50% para
 
 Para reservar, entonces, deberán depositar o transferir el dinero a mi cuenta del banco, para lo cual coordinamos <a href="mailto:facundo@taniquetil.com.ar">por mail</a>. Si se les complica esta manera de pago, lo charlamos.
 
-Bueno, creo que cubrí la mayoría de los puntos.&nbsp; Si tienen alguna duda, pueden preguntar por acá, o en privado al mail, sin ning&uacute;n problema.</p> |
+Bueno, creo que cubrí la mayoría de los puntos.&nbsp; Si tienen alguna duda, pueden preguntar por acá, o en privado al mail, sin ningún problema.</p> |

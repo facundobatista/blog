@@ -18,11 +18,11 @@ Quizás necesiten instalar algunas dependencias (por ejemplo: <span style="font-
 <span style="font-family: courier new,courier;">&nbsp;&nbsp;&nbsp; DEBUILD_DPKG_BUILDPACKAGE_OPTS='-i -I'</span>
 
 - Tener un entorno pbuilder configurado /para cada distro/ a la que quieran apuntar (en este ejemplo, usé 'maverick', reemplacen apropiadamente):
-&nbsp;&nbsp;&nbsp;&nbsp; - crear un symlink en alg&uacute;n lado de vuestro PATH llamado <span style="font-family: courier new,courier;">pbuilder-maverick</span>, apuntando a <span style="font-family: courier new,courier;">/usr/bin/pbuilder-dist</span>
-&nbsp;&nbsp;&nbsp;&nbsp; - en alg&uacute;n lado dentro del home (por ejemplo, en un directorio &ldquo;~/pbuilder&rdquo;), ejecuten: <span style="font-family: courier new,courier;">pbuilder-maverick create</span>
+&nbsp;&nbsp;&nbsp;&nbsp; - crear un symlink en algún lado de vuestro PATH llamado <span style="font-family: courier new,courier;">pbuilder-maverick</span>, apuntando a <span style="font-family: courier new,courier;">/usr/bin/pbuilder-dist</span>
+&nbsp;&nbsp;&nbsp;&nbsp; - en algún lado dentro del home (por ejemplo, en un directorio &ldquo;~/pbuilder&rdquo;), ejecuten: <span style="font-family: courier new,courier;">pbuilder-maverick create</span>
 &nbsp;&nbsp;&nbsp;&nbsp; - regularmente (o antes de armar un paquete), actualicen el entorno de pbuilder con: <span style="font-family: courier new,courier;">pbuilder-maverick update</span>
 
-Por &uacute;ltimo: sí, estos pasos están fuertemente orientados a usar <a href="http://bazaar.canonical.com/en/">bazaar</a> en todo el proceso. Es lo que hay :)
+Por último: sí, estos pasos están fuertemente orientados a usar <a href="http://bazaar.canonical.com/en/">bazaar</a> en todo el proceso. Es lo que hay :)
 
 Presten atención a los comandos que ejecutan, especialmente a los cambios de "." y "-" por "_", y a todo lo que use 'tuproyecto'. Cualquier duda, pregunten.
 
@@ -40,9 +40,9 @@ Presten atención a los comandos que ejecutan, especialmente a los cambios de ".
 <span style="font-family: courier new,courier;">&nbsp;&nbsp;&nbsp; bzr tag release_X_Y_Z</span>
 <span style="font-family: courier new,courier;">&nbsp;&nbsp;&nbsp; bzr push</span>
 
-- Hacer un "bzr log" y preparar el <em>changelog</em> y las <em>release notes</em>. El changelog es una lista exhaustiva de todos los cambios, y las release notes es un subconjunto de eso, normalmente lo que es más relevante, interesante, o &uacute;til a la persona que quiere saber qué tenemos de nuevo en esta versión de nuestro programa.
+- Hacer un "bzr log" y preparar el <em>changelog</em> y las <em>release notes</em>. El changelog es una lista exhaustiva de todos los cambios, y las release notes es un subconjunto de eso, normalmente lo que es más relevante, interesante, o útil a la persona que quiere saber qué tenemos de nuevo en esta versión de nuestro programa.
 
-- Generar y subir el tarball a Launchpad. El &uacute;ltimo paso setea EDITOR porque lp-project-upload va a abrir dos archivos para que escribamos el changelog y las release notes que preparamos antes (pueden usar el editor que más les guste).
+- Generar y subir el tarball a Launchpad. El último paso setea EDITOR porque lp-project-upload va a abrir dos archivos para que escribamos el changelog y las release notes que preparamos antes (pueden usar el editor que más les guste).
 
 <span style="font-family: courier new,courier;">&nbsp;&nbsp;&nbsp; ./setup.py clean sdist</span>
 <span style="font-family: courier new,courier;">&nbsp;&nbsp;&nbsp; cd dist</span>

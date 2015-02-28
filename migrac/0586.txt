@@ -15,11 +15,11 @@ Películas, catching up
 <li><a href="http://www.imdb.com/title/tt0944835/">Salt</a>: +0. Parecida a 'From Paris with love' en su concepto (espías, el bien y el mal, violencia), pero un escalón abajo.</li>
 <li><a href="http://www.imdb.com/title/tt1345836/">The Dark Knight rises</a>: +1. No es la mejor Batman, y tiene una de las peores actuaciones de "me estoy muriendo, me morí", pero la peli en general está buena.</li>
 <li><a href="http://www.imdb.com/title/tt1054606/">The imaginarium of Doctor Parnassus</a>: +1. Muy difícil de describir... es una peli muy loca, pero muy interesante.</li>
-<li><a href="http://www.imdb.com/title/tt1486192/">The raven</a>: +1. Una historia alternativa sobre los &uacute;ltimos días de Edgard Allan Poe, convertido en un thriller macabro de suspenso, bastante bien hecho.</li>
+<li><a href="http://www.imdb.com/title/tt1486192/">The raven</a>: +1. Una historia alternativa sobre los últimos días de Edgard Allan Poe, convertido en un thriller macabro de suspenso, bastante bien hecho.</li>
 <li><a href="http://www.imdb.com/title/tt1340800/">Tinker tailor soldier spy</a>: -0. Muy enroscado todo al principio para disolverse en un final que no me pareció demasiado interesante... pero si te gustan las películas de espías (a nivel de inteligencia y contrainteligencia), adelante.</li>
 <li><a href="http://www.imdb.com/title/tt0435761/">Toy story 3</a>: -0. Más de lo mismo.</li>
 <li><a href="http://www.imdb.com/title/tt1027718/">Wall Street: Money never sleeps</a>: +1. Recontra interesante cómo explican la timba financiera en USA, tomando como ejemplo (real) el debacle que sufrieron de las hipotecas. &iexcl;Para verla hasta entenderla! ;)</li>
-<li><a href="http://www.imdb.com/title/tt1333667/">When you're strange</a>: +1. Muy bien contada la historia de los Doors, muy bien mezclada con la m&uacute;sica. Imperdible si te gusta la banda.</li>
+<li><a href="http://www.imdb.com/title/tt1333667/">When you're strange</a>: +1. Muy bien contada la historia de los Doors, muy bien mezclada con la música. Imperdible si te gusta la banda.</li>
 </ul>
 <p>
  Obviamente, hay una buena tanda de nuevas anotadas:</p>

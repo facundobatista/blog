@@ -22,7 +22,7 @@ El sábado estuvo más movidito. Arranqué temprano con mi charla. Con Mariano, 
 
 <img src="http://farm2.static.flickr.com/1085/533413841_661b7aa2a4_o.jpg" border="0" alt="Facu introduciendo Python" title="Facu introduciendo Python" width="400" height="354" />
 
-El &uacute;nico punto complicado fue que me quedé sin tiempo para toda la presentación. Me apuré al final, pero no llegué a terminarla. No me quería ir, y el p&uacute;blico tampoco, pero finalmente tuve que cortar.
+El único punto complicado fue que me quedé sin tiempo para toda la presentación. Me apuré al final, pero no llegué a terminarla. No me quería ir, y el público tampoco, pero finalmente tuve que cortar.
 
 <img src="http://farm2.static.flickr.com/1313/533413899_3a8035d395_o.jpg" border="0" alt="Alex Martelli en CaFeConf" title="Alex Martelli en CaFeConf" width="250" height="249" />
 

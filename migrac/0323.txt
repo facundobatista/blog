@@ -12,11 +12,11 @@ Al tener toda la info en el disco, no es necesario estar conectado a internet pa
 
 Al CD se lo puede utilizar de dos maneras. Una es sin instalación alguna: con sólo tener un navegador web instalado en la máquina, uno pone el CD y comienza a usarlo directamente. La otra manera es realizando la instalación.
 
-Este &uacute;ltimo método tiene el &uacute;nico costo de tener que tener espacio libre en el disco rígido, pero también algunas ventajas importantes:
+Este último método tiene el único costo de tener que tener espacio libre en el disco rígido, pero también algunas ventajas importantes:
 
 - Velocidad: Todas las consultas se harán sobre el disco rígido y no sobre el CD, lo cual es más rápido. También es probable que al instalar expandamos algunas estructuras de datos, que en la consulta directa al CD tenga que hacerse en el momento.
 
-- Accesibilidad: En el momento de la instalación (o más adelante, existe la opción), se puede crear un índice completo de la wikipedia. Esto permitiría realizar b&uacute;squedas en el cuerpo de los artículos y no sólo en los títulos.
+- Accesibilidad: En el momento de la instalación (o más adelante, existe la opción), se puede crear un índice completo de la wikipedia. Esto permitiría realizar búsquedas en el cuerpo de los artículos y no sólo en los títulos.
 
 - Reutilización: Una vez instalado el producto, se puede prestar o regalar el CD a otra persona, y que lo utilice como quiera.
 
@@ -38,7 +38,7 @@ El otro problema con el que nos enfrentamos es que ahora es imposible meter toda
 
 <strong>Partes del proyecto</strong>
 
-Para que varias personas puedan trabajar en el proyecto como equipos separados, rearmé la estructura del mismo en función de tareas separadas que no interac&uacute;an demasiado entre sí, sino que bastaría con definir con qué termina una etapa y qué tomaría la siguiente para trabajar.
+Para que varias personas puedan trabajar en el proyecto como equipos separados, rearmé la estructura del mismo en función de tareas separadas que no interacúan demasiado entre sí, sino que bastaría con definir con qué termina una etapa y qué tomaría la siguiente para trabajar.
 
 La primera etapa toma el archivo crudo obtenido de la wikipedia, y deja la info resultante para trabajar. La segunda etapa toma esta información, genera los datos complementarios necesarios (cómo estructuras de índices, por ejemplo), y arma la info final consultable. La tercera etapa es la que permite consultar esta info, instalar el producto, etc, y deja como resultado final el .iso listo para quemar en los discos.
 
@@ -58,7 +58,7 @@ Los pasos en esta etapa, a groso modo, son:
 
 Con respecto a descartar las páginas, cómo dije recién tenemos dos grupos:
 
-- Descartar seg&uacute;n tipo: En función del tipo de página y de cuanto ocupan todas aquellas de ese tipo, debemos decidir si guardarlas o no. Para esto, primero hay que realizar un análisis previo, decidir qué grupos conservar, y filtrar. En <em><font face="courier new,courier">config.py</font></em> tenemos el archivo de configuración de qué quedarnos y qué no. La estadística que figura en ese archivo sale de correr <em><font face="courier new,courier">makeLista.py</font></em>. Tenemos también el programa <font face="courier new,courier"><em>SearchAndDestroy.py</em></font> que utiliza la info de config antedicha y limpia el archivo comprimido (tener en cuenta que este programa no fue actualizado, por lo que intenta descomprimir el archivo, lo que seguramente nos traerá problemas a nivel de espacio de disco; tenemos que adaptarlo para que vaya retirando del .7z sólo lo que corresponde).
+- Descartar según tipo: En función del tipo de página y de cuanto ocupan todas aquellas de ese tipo, debemos decidir si guardarlas o no. Para esto, primero hay que realizar un análisis previo, decidir qué grupos conservar, y filtrar. En <em><font face="courier new,courier">config.py</font></em> tenemos el archivo de configuración de qué quedarnos y qué no. La estadística que figura en ese archivo sale de correr <em><font face="courier new,courier">makeLista.py</font></em>. Tenemos también el programa <font face="courier new,courier"><em>SearchAndDestroy.py</em></font> que utiliza la info de config antedicha y limpia el archivo comprimido (tener en cuenta que este programa no fue actualizado, por lo que intenta descomprimir el archivo, lo que seguramente nos traerá problemas a nivel de espacio de disco; tenemos que adaptarlo para que vaya retirando del .7z sólo lo que corresponde).
 
 - Descartar información: Como todo no entra en un CD (y posiblemente, dentro de un tiempo, tampoco en un DVD), tenemos que prever alguna forma de descartar información válida (o sea, páginas reales, que de alguna manera determinamos que son menos importantes que las que queremos guardar). El punto álgido aquí, obviamente, es cómo saber qué páginas son más importantes que otras. Hemos discutido varias alternativas, como sacar estadísticas sobre tráfico real (con el problema de que esta info es muy dificil de conseguir), o utilizar las votaciones de calidad de las páginas (con el problema de que hay muy pocas evaluadas de esta manera). La mejor solución encontrada hasta ahora es ponerle puntos a cada página en función de cuantas otras páginas apuntan a esta (algoritmo que hemos dado en llamar Peishranc, ver el programa <font face="courier new,courier"><em>peishranc.py</em></font>); esto tiene la ventaja de que seguramente estamos evaluando popularidad (cuanta más puntas para llegar a una página, es más probable qué lleguemos a ella), de alguna manera calidad (es más probable que una página <em>buena</em> esté muy referenciada), y encima es el método que mejor asegura una buena navegación en la wikipedia offline (si eliminamos las páginas menos referenciadas, minimizamos la posibilidad de que alguien haga click a una página que no incluimos).
 
@@ -73,7 +73,7 @@ Es responsabilidad de esta etapa generar también los programas o interfaces que
 
 Con respecto al <em>full text index</em>, hay un programa <font face="courier new,courier"><em>cdpindex.py</em></font> que ya exploró algo de esto, pero no sé en qué estado está (preguntarle a Lucio).
 
-Un n&uacute;mero interesante que sacamos de esta segunda etapa es el overhead que le ponemos a la info cruda, a nivel estadístico. Por ejemplo, podríamos ocupar un 20% más.
+Un número interesante que sacamos de esta segunda etapa es el overhead que le ponemos a la info cruda, a nivel estadístico. Por ejemplo, podríamos ocupar un 20% más.
 
 
 <strong>Tercer etapa, o Aplicación</strong>
@@ -82,13 +82,13 @@ Esta es la etapa que tiene que manejar distintos sistemas por separado:
 
 - Server web para servir las páginas, modificándolas para que apunten a el mismo servidor y no a la web (ver si esto es mejor hacerlo antes). Ver el <em><font face="courier new,courier">server.py</font></em>.
 
-- Página principal: Es la primera que ve el usuario final al arrancar el sistema, y permitiría buscar en la wikipedia, ver alg&uacute;n artículo al azar, posiblemente ver algunos recomendados (en función del peishranc) o el historial del usuario, etc. También permitiría instalar el producto, si lo estamos usando desde CD o DVD.
+- Página principal: Es la primera que ve el usuario final al arrancar el sistema, y permitiría buscar en la wikipedia, ver algún artículo al azar, posiblemente ver algunos recomendados (en función del peishranc) o el historial del usuario, etc. También permitiría instalar el producto, si lo estamos usando desde CD o DVD.
 
 - Instalador: Permite copiar toda la info al disco duro, armar los accesos directos correspondientes, generar estructuras de datos adicionales si el usuario decide hacerlo en ese momento, etc.
 
 Tanto el servidor web como el instalador (&iexcl;especialmente el instalador!), tienen que ser multiplataforma.
 
-El espacio que ocuparían estos sistemas debería ser bastante estático. Con este dato, y en función del overhead de la etapa 2, podríamos indicar un n&uacute;mero bastante acertado para que la primera etapa se acote a si misma.
+El espacio que ocuparían estos sistemas debería ser bastante estático. Con este dato, y en función del overhead de la etapa 2, podríamos indicar un número bastante acertado para que la primera etapa se acote a si misma.
 
 
 <strong>Conclusiones</strong>

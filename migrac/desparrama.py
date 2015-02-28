@@ -3,7 +3,6 @@
 def process(bloque):
     header, *resto = bloque
     hparts = header.split("|")
-    print("====== P", hparts)
 
     postnum = hparts[1].strip()
     dt = hparts[2].strip()

@@ -2,9 +2,9 @@
 CDPedia 0.8
 <tags>
 
-Luego de bastante laburo las &uacute;ltimas semanas, estoy muy contento de anunciar (de mi parte y de Python Argentina) que está en la calle la versión 0.8 de CDPedia, un proyecto que permite acceder a la información de la Wikipedia en castellano sin necesidad de una conexión a Internet.&nbsp; Se puede descargar libremente de la red y grabar a CDs, DVDs o memorias USB para repartirla sin restricciones.
+Luego de bastante laburo las últimas semanas, estoy muy contento de anunciar (de mi parte y de Python Argentina) que está en la calle la versión 0.8 de CDPedia, un proyecto que permite acceder a la información de la Wikipedia en castellano sin necesidad de una conexión a Internet.&nbsp; Se puede descargar libremente de la red y grabar a CDs, DVDs o memorias USB para repartirla sin restricciones.
 
-La CDPedia funciona en cualquier computadora, ya sea que tenga Linux, MacOS o Windows como sistema operativo, y esta &uacute;ltima versión incluye contenido de Wikipedia a Diciembre de 2012.
+La CDPedia funciona en cualquier computadora, ya sea que tenga Linux, MacOS o Windows como sistema operativo, y esta última versión incluye contenido de Wikipedia a Diciembre de 2012.
 
 Para mayor información e instrucciones para la descarga, visitar <a href="http://cdpedia.python.org.ar/">la página del proyecto</a>.
 

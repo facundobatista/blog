@@ -15,7 +15,7 @@ El código en sí lo pueden ver <a href="http://bazaar.launchpad.net/~facundo/en
 Bueno, a los bifes.
 
 
-<strong>El código "&uacute;til" en sí</strong>
+<strong>El código "útil" en sí</strong>
 
 Tenemos dos archivos y varios directorios...
 
@@ -23,7 +23,7 @@ Tenemos dos archivos y varios directorios...
 
 <em>- </em><span style="font-family: courier new,courier;">version.txt</span>: La versión del programa. La tengo separada sólo por consistencia: me gusta que esté en un sólo lado así es la misma para todos los que la necesitan (<span style="font-family: courier new,courier;">setup.py</span>, para mostrarlo al arrancar, o cuando el usuario pide info del programa, etc).
 
-<em>- </em><span style="font-family: courier new,courier;">bin/</span>: Aquí (normalmente) hay un sólo archivo, con el nombre del proyecto: <span style="font-family: courier new,courier;">encuentro</span>. Este es el script de inicio, el que arranca todo el sistema ya sea cuando lo ejecutamos desde el proyecto mismo, desde un <em>tarball</em> descomprimido, e incluso es el que va a parar a <span style="font-family: courier new,courier;">/usr/bin</span> cuando se instala. Este es el &uacute;nico que es ejecutable, el resto del sistema son sólo módulos.
+<em>- </em><span style="font-family: courier new,courier;">bin/</span>: Aquí (normalmente) hay un sólo archivo, con el nombre del proyecto: <span style="font-family: courier new,courier;">encuentro</span>. Este es el script de inicio, el que arranca todo el sistema ya sea cuando lo ejecutamos desde el proyecto mismo, desde un <em>tarball</em> descomprimido, e incluso es el que va a parar a <span style="font-family: courier new,courier;">/usr/bin</span> cuando se instala. Este es el único que es ejecutable, el resto del sistema son sólo módulos.
 
 - <span style="font-family: courier new,courier;">encuentro/</span>: Es el directorio principal del proyecto (por eso el nombre). Acá tenemos todo el código "de producción" del proyecto, con su estructura interna. Por lo pronto, en este mismo directorio están todos los módulos que tienen que ver con el funcionamiento interno de Encuentro.
 
@@ -63,4 +63,4 @@ Estos son otros archivos que no tienen demasiada relación entre sí, pero que s
 
 - <span style="font-family: courier new,courier;">setup.py, MANIFEST.in</span>: Script principal de empaquetamiento e instalación, más un archivo que podríamos decir de configuración del mismo.
 
-- <span style="font-family: courier new,courier;">encuentro.desktop, source_encuentro.py</span>: Dos archivitos necesarios en sistemas Debian/Ubuntu (al menos). El primero le pasa al sistema info para poner el programa en el men&uacute; del usuario, y el otro es usado en caso de que el programa crashee, para informar automáticamente del problema.</p> |
+- <span style="font-family: courier new,courier;">encuentro.desktop, source_encuentro.py</span>: Dos archivitos necesarios en sistemas Debian/Ubuntu (al menos). El primero le pasa al sistema info para poner el programa en el menú del usuario, y el otro es usado en caso de que el programa crashee, para informar automáticamente del problema.</p> |

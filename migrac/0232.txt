@@ -2,7 +2,7 @@
 ¿Cuánto falta?
 <tags>
 
-Uno de los típicos problemas con los que uno se encuentra cuando hace alg&uacute;n programa es el de estimar cuanto falta para terminar una tarea (<a href="http://en.wikipedia.org/wiki/Estimated_time_of_arrival">E.T.A.</a> por sus siglas en inglés).
+Uno de los típicos problemas con los que uno se encuentra cuando hace algún programa es el de estimar cuanto falta para terminar una tarea (<a href="http://en.wikipedia.org/wiki/Estimated_time_of_arrival">E.T.A.</a> por sus siglas en inglés).
 
 Analicemos esa oración con detalle.
 
@@ -16,7 +16,7 @@ Entonces... &iquest;por qué no está resuelto todavía de forma genérica y sat
 
 La velocidad con la cual vamos completando la tarea es todo un tema, porque si estamos descargando un archivo, podemos tener el problema de que la conexión se corte, por ejemplo, o que pongamos a bajar algo y la velocidad caiga a la mitad. Venía pareja, de repente baja a la mitad, y luego queda en ese nivel por el resto de la descarga. Como un escalón. O podemos estar reordenando una estructura, y sabemos cuantas partes nos falta reordenar, pero no tenemos ni idea cuanto va a tardar reordenar cada una de esas partes.
 
-Y como decía antes, la indicación es para un humano. Si le muestro siempre el mismo n&uacute;mero, no le sirve. Si le cambio el valor de 1 a 34 y después a 2 y a 38, y a 0, y a 50, cambiando cinco veces por segundo, tampoco le sirve. Y agreguémosle componentes sicológicos, como no mostrarle que la velocidad cae si sólo cayó por un momento porque <em>es feo que vaya más lento</em> (aunque sea verdad).
+Y como decía antes, la indicación es para un humano. Si le muestro siempre el mismo número, no le sirve. Si le cambio el valor de 1 a 34 y después a 2 y a 38, y a 0, y a 50, cambiando cinco veces por segundo, tampoco le sirve. Y agreguémosle componentes sicológicos, como no mostrarle que la velocidad cae si sólo cayó por un momento porque <em>es feo que vaya más lento</em> (aunque sea verdad).
 
 De algunos de estos inconvenientes estuvimos hablando la vez pasada en una<a href="http://mx.grulic.org.ar/lurker/message/20061130.215040.98856dc3.es.html"> conversación de PyAr</a>. A mi me quedó colgado el tema en alguna esquinita del cerebro, y estoy finalmente escribiendo esto.
 
@@ -45,7 +45,7 @@ Comienza generando en cero, y permanece tres valores en cero, como si fuera tiem
 <ul><li>El 1% de las veces se desconecta, tira 10 valores en cero y luego trata de volver (lo logra el 10% de las veces, y vuelve al valor que tenía antes)</li><li>El 4% de las veces genera picos de 2 valores de ancho, de +/- 40 (luego de los dos vuelve al valor que tenía antes)</li><li>El 70% de las veces varía al azar sumando alguno de [-2,-1,0,1,2] (obvio, si suma -2, es que baja dos puntos)</li><li>El 15% de las veces varía al azar sumando alguno de [-5, -4, ..., 4, 5]</li><li>El 10% de las veces varía al azar sumando alguno de [-10, ..., 10]</li></ul>
 <strong>&iquest;Entonces? &iquest;Cuánto falta?</strong>
 
-Un concepto que usé desde entrada (concepto bastante básico) es el de tomar no todos los valores para calcular la Velocidad Promedio, sino sólo algunos &uacute;ltimos (analogía eléctrica: es como si estuviésemos pasando la señal por un filtro pasabajos). Esto tiene el efecto de <em>calmar</em> el indicador que mostramos, siendo no tan nervioso sino que variará más tranquilamente.
+Un concepto que usé desde entrada (concepto bastante básico) es el de tomar no todos los valores para calcular la Velocidad Promedio, sino sólo algunos últimos (analogía eléctrica: es como si estuviésemos pasando la señal por un filtro pasabajos). Esto tiene el efecto de <em>calmar</em> el indicador que mostramos, siendo no tan nervioso sino que variará más tranquilamente.
 
 El truco es cuantos valores tomar para este promedio. Y como no podemos ver el futuro y saber de entrada la mejor cantidad para este cálculo, la mejor manera que se me ocurrió es tratar de ir adaptándose.
 
@@ -53,7 +53,7 @@ El primer modelo que armé agranda o achica la cantidad de valores a tomar en fu
 
 El segundo modelo también agranda o achica la cantidad de valores. Pero ahora, cuando está nervioso, en lugar de incrementar en uno y seguir, vamos incrementando hasta que lo notamos lo suficientemente tranquilo. Y si luego se estabiliza, achicamos (como antes), la cantidad de puntos en uno.
 
-El tercer modelo trata de tranquilizar el indicador de otro modo. Tomamos siempre la misma cantidad de valores, pero nos fijamos en cual fué la variación mayor en ese grupo, y cual es la variación entre el &uacute;ltimo y el nuevo valor. Si esta &uacute;ltima variación es mayor a la que veníamos teniendo, tomamos eso como símbolo de nerviosismo y no usamos el &uacute;ltimo valor para el promedio, sino uno recortado.
+El tercer modelo trata de tranquilizar el indicador de otro modo. Tomamos siempre la misma cantidad de valores, pero nos fijamos en cual fué la variación mayor en ese grupo, y cual es la variación entre el último y el nuevo valor. Si esta última variación es mayor a la que veníamos teniendo, tomamos eso como símbolo de nerviosismo y no usamos el último valor para el promedio, sino uno recortado.
 
 El siguiente es un ejemplo de los tres modelos para el mismo conjunto de valores simulados (primero a tercer de arriba para abajo). Tienen más ejemplos <a href="http://www.taniquetil.com.ar/facundo/bdvfiles/code/eta/eta-ejA2.png">aquí</a> y <a href="http://www.taniquetil.com.ar/facundo/bdvfiles/code/eta/eta-ejA3.png">aquí</a>, y el código que genera todo <a href="http://www.taniquetil.com.ar/facundo/bdvfiles/code/eta/simuladorA.py">aquí</a>.
 
@@ -82,7 +82,7 @@ Tienen dos ejemplos más <a href="http://www.taniquetil.com.ar/facundo/bdvfiles/
 
 <strong>Conclusiones</strong>
 
-Luego de cotejar ideas, gráficos, probar mil y una veces, no llegué a encontrar el modelo que yo diga "&iexcl;Este!". Pero el que creo que más se acerca a como a mi me gustaría que se comporte, es este &uacute;ltimo (lo cual no es mucha casualidad, ya que es el &uacute;ltimo porque lo fui trabajando, esto fue una evolución).
+Luego de cotejar ideas, gráficos, probar mil y una veces, no llegué a encontrar el modelo que yo diga "&iexcl;Este!". Pero el que creo que más se acerca a como a mi me gustaría que se comporte, es este último (lo cual no es mucha casualidad, ya que es el último porque lo fui trabajando, esto fue una evolución).
 
 Así y todo, no tengo manera de <em>demostrar</em> que este es el mejor, y eso se debe en gran parte porque las pautas iniciales eran claras, pero vagas. Quizás si alguien apareciese con una mejor explicación de cómo se debería comportar el sistema, fuese más fácil lograrlo.
 

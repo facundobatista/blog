@@ -19,7 +19,7 @@ Las dos charlas plenarias, con invitados internacionales, son de <a href="http:/
 
 
 
-La semana que viene, es PyCon Brasil! Resulta que uno de los keynotes que iba a venir a PyCon Ar y Br (Ian Bicking) canceló a &uacute;ltimo momento porque falleció un familiar suyo. Entonces, en PyCon Ar lo reemplazamos con Christiano, y a PyCon Br a dar la keynote voy yo! :D
+La semana que viene, es PyCon Brasil! Resulta que uno de los keynotes que iba a venir a PyCon Ar y Br (Ian Bicking) canceló a último momento porque falleció un familiar suyo. Entonces, en PyCon Ar lo reemplazamos con Christiano, y a PyCon Br a dar la keynote voy yo! :D
 
 
 

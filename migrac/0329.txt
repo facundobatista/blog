@@ -37,7 +37,7 @@ Ya entrada la tarde, decidimos ir a comprar unas cervezas para hacer la reunión
 
 Luego, a comer (carne al horno con papas y cebollas), y para terminar el día, como corresponde... &iexcl;a jugar! Antes de que se larguen los juegos de mesa hicimos una actividad muy piola: un karaoke de charlas, donde por sorteo fuimos pasando todos y en cinco minutos teníamos que explicar la charla de otra persona... algunas charlas estuvieron más o menos, pero otras estuvieron <strong>muy</strong> divertidas, :)
 
-Jugué un rato a un juego de cartas que se llama FLuxx, en el que las reglas mismas del juego van cambiando seg&uacute;n uno tira las cartas, lo cual lo hace bastante atractivo (pero por esta misma razón a veces se gana de muy pura casualidad... y esto no está tan bueno). Después de dos partidos de esto ya estaba listo para irme a dormir, pero vi que unos chicos estaban jugando al tenis: era un dobles, cuatro jugadores, desde cuatro laptops separadas, por red. Estuve mirando un ratito y luego incluso jugué. Ya después de esto, me fui a dormir, apenas pasadas las cuatro de la mañana.
+Jugué un rato a un juego de cartas que se llama FLuxx, en el que las reglas mismas del juego van cambiando según uno tira las cartas, lo cual lo hace bastante atractivo (pero por esta misma razón a veces se gana de muy pura casualidad... y esto no está tan bueno). Después de dos partidos de esto ya estaba listo para irme a dormir, pero vi que unos chicos estaban jugando al tenis: era un dobles, cuatro jugadores, desde cuatro laptops separadas, por red. Estuve mirando un ratito y luego incluso jugué. Ya después de esto, me fui a dormir, apenas pasadas las cuatro de la mañana.
 
 
 <strong>Domingo</strong>
@@ -65,8 +65,8 @@ Durante la primera parte de la mañana terminé de trabajar con el bug que habí
 
 <img src="http://farm4.static.flickr.com/3485/3257176181_6448bd90be_o.jpg" border="0" alt="Ambiente de trabajo" title="Ambiente de trabajo" width="500" height="292" />
 
-En el medio comimos (un pollo al horno con ensalada rusa y tomate, más arroz con at&uacute;n, todo muy rico). Y luego ya me metí a codear la parte que había elegido: el índice para los títulos. Con esto estuve trabajando pila y pila hasta las siete de la tarde, donde ya habíendo logrado algo funcional (aunque todavía ineficiente), commiteé todo y me fuí a bañar y a preparar el bolso.
+En el medio comimos (un pollo al horno con ensalada rusa y tomate, más arroz con atún, todo muy rico). Y luego ya me metí a codear la parte que había elegido: el índice para los títulos. Con esto estuve trabajando pila y pila hasta las siete de la tarde, donde ya habíendo logrado algo funcional (aunque todavía ineficiente), commiteé todo y me fuí a bañar y a preparar el bolso.
 
 Luego saludamos a todos, caminamos hasta la parada, esperamos el micro, y ya comenzamos el viaje de vuelta. Todas las fotos, <a href="http://www.flickr.com/photos/54757453@N00/sets/72157603938876036/">acá</a>.
 
-Como conclusión de estos cuatro días, quiero destacar lo bueno que es juntarnos programadores de distintas provincias, para no sólo programar sino también jugar, comer juntos, charlar, etc. Trabajamos, nos divertimos muchísimo, y todo esto une más a&uacute;n a la comunidad, no sólo de Python o de Software Libre, sino de, aunque parezca redundante, personas.[@more@] |
+Como conclusión de estos cuatro días, quiero destacar lo bueno que es juntarnos programadores de distintas provincias, para no sólo programar sino también jugar, comer juntos, charlar, etc. Trabajamos, nos divertimos muchísimo, y todo esto une más aún a la comunidad, no sólo de Python o de Software Libre, sino de, aunque parezca redundante, personas.[@more@] |

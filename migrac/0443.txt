@@ -25,13 +25,13 @@ Hasta hace una semana atrás yo tenía backups de pocas cosas:
 	<li>Todas las fotos que fui sacando las tengo en el disco rígido y en DVD, pero también las subo a <a href="http://www.flickr.com/photos/54757453@N00/sets/">Flickr</a>, en tamaño original. Esto no es gratis, ya que el servicio de Flickr sin costo no permite tanto almacenamiento, pero creo que vale los 25 dólares que pago por año.</li>
 	<li>&nbsp;Este blog y los archivos aledaños se copian cada tres días al disco rígido de mi computadora. Entonces, si algo le pasa al server, sé que la info la tengo en otro lado.</li>
 	<li>
-	La m&uacute;sica que tengo en mp3 está en mi computadora de escritorio y en la laptop, más una copia de backup en DVD.</li>
+	La música que tengo en mp3 está en mi computadora de escritorio y en la laptop, más una copia de backup en DVD.</li>
 </ul>
 Ahora, finalmente, armé una solución para proteger de incidentes mis datos diarios, que son los más complicados de todos.
 
 
 
-&iquest;Por qué son complicados? Porque cambian todo el tiempo, y si uno pasa cinco meses sin hacer backup, los cambios son muchos y están todos desparramados... ver qué cambió y hacer un backup parcial es complicado, y hacer backup de todo de nuevo es una putada.&nbsp; Se podrían hacer backups parciales y diferenciales, pero la info no son dos gigas, y armar algo en m&uacute;ltiples DVDs es más complicado de lo que parece.
+&iquest;Por qué son complicados? Porque cambian todo el tiempo, y si uno pasa cinco meses sin hacer backup, los cambios son muchos y están todos desparramados... ver qué cambió y hacer un backup parcial es complicado, y hacer backup de todo de nuevo es una putada.&nbsp; Se podrían hacer backups parciales y diferenciales, pero la info no son dos gigas, y armar algo en múltiples DVDs es más complicado de lo que parece.
 
 
 
@@ -155,7 +155,7 @@ Tamaño del fragmento=4096 (bitácora=2)
 
 Primer bloque de datos=0
 
-N&uacute;mero máximo de bloques del sistema de ficheros=0
+Número máximo de bloques del sistema de ficheros=0
 
 746 bloque de grupos
 
@@ -225,7 +225,7 @@ Una vez hecho esto, reinicié y encontré todo fantásticamente bien.
 
 
 
-Ahora que tenemos una partición "a prueba de roturas de un disco", tenemos que hacer backup regularmente ahí. Lo mejor que encontré para esto es el programita <a href="http://rdiff-backup.nongnu.org/">rdiff-backup</a> (gracias Chaghi), que backupea un directorio en otro (el directorio destino termina con una copia del directorio fuente, pero se guardan diffs extras en un directorio especial de manera que se puede recuperar no sólo la &uacute;ltima versión sino también anteriores).
+Ahora que tenemos una partición "a prueba de roturas de un disco", tenemos que hacer backup regularmente ahí. Lo mejor que encontré para esto es el programita <a href="http://rdiff-backup.nongnu.org/">rdiff-backup</a> (gracias Chaghi), que backupea un directorio en otro (el directorio destino termina con una copia del directorio fuente, pero se guardan diffs extras en un directorio especial de manera que se puede recuperar no sólo la última versión sino también anteriores).
 
 
 
@@ -245,7 +245,7 @@ Entonces, todo lo que hice fue poner unas llamadas a este programita en mi cront
 
 
 
-<strong>Bonus track: </strong>rdiff-backup funciona también a través de la red, lo cual es &uacute;til para hacer backup desde o en otras máquinas a las que tengamos accesso SSH. Hay un sólo detalle, y es el tema de que nos pida clave para entrar en la máquina remota: el ssh-agent nos va esconder este paso cuando lo probamos a mano, pero va a fallar cuando lo pongamos en el crontab. Para solucionar esto, encontré que se puede hacer lo siguiente:
+<strong>Bonus track: </strong>rdiff-backup funciona también a través de la red, lo cual es útil para hacer backup desde o en otras máquinas a las que tengamos accesso SSH. Hay un sólo detalle, y es el tema de que nos pida clave para entrar en la máquina remota: el ssh-agent nos va esconder este paso cuando lo probamos a mano, pero va a fallar cuando lo pongamos en el crontab. Para solucionar esto, encontré que se puede hacer lo siguiente:
 
 
 

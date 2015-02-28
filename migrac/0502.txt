@@ -2,7 +2,7 @@
 Viajando distinto
 <tags>
 
-Una de las decisiones que tomé en el 2010 con respecto al 2011 fue la de ir sí o sí a PyCon USA este año. Luego me dieron el <a href="http://www.taniquetil.com.ar/plog/post/1/453">Python Community Award</a> y la decisión fué más firme a&uacute;n, ya que el premio incluye la entrada a la conferencia y 500 dólares que aunque no cubren todo el hotel, es una buena parte.
+Una de las decisiones que tomé en el 2010 con respecto al 2011 fue la de ir sí o sí a PyCon USA este año. Luego me dieron el <a href="http://www.taniquetil.com.ar/plog/post/1/453">Python Community Award</a> y la decisión fué más firme aún, ya que el premio incluye la entrada a la conferencia y 500 dólares que aunque no cubren todo el hotel, es una buena parte.
 
 Cuando empecé a buscar vuelos, hace tres o cuatro meses, encontré que tenía puntos en American Airlines, de otros vuelos que había hecho. Tenía como sesenta mil... lo cual no me decía nada, vieron como son los programas de puntos: "Tenés un millón setecientos treinta y dos mil cuatrocientos doce puntos, que apenas te alcanza para un tubo de pelotitas de tenis".
 
@@ -14,14 +14,14 @@ Y los compré, ya que estaba resolviendo el tema del avión por muy poca guita. 
 
 <img src="http://www.taniquetil.com.ar/facundo/imgs/viajandomejor.jpeg" alt="Business y Primera" height="315" width="500" />
 
-Nunca había viajado en business o primera... y la verdad es que hay mucha, mucha diferencia de confort. Sigo pensando que si lo tengo que pagar yo, no lo pago (hay mucha, mucha diferencia de guita contra el vuelo com&uacute;n), pero la verdad es que lo disfruté.
+Nunca había viajado en business o primera... y la verdad es que hay mucha, mucha diferencia de confort. Sigo pensando que si lo tengo que pagar yo, no lo pago (hay mucha, mucha diferencia de guita contra el vuelo común), pero la verdad es que lo disfruté.
 
-El vuelo largo, que es el más complicado por la cantidad de horas, se me pasó volando (cuac!). El asiento es s&uacute;per cómodo, y le podés regular todo con unos botoncitos. Tiene mucho espacio alrededor, podés ir super estirado, e incluso se pone 100% plano para dormir.
+El vuelo largo, que es el más complicado por la cantidad de horas, se me pasó volando (cuac!). El asiento es súper cómodo, y le podés regular todo con unos botoncitos. Tiene mucho espacio alrededor, podés ir super estirado, e incluso se pone 100% plano para dormir.
 
-La comida también es muy distinta: un champancito mientra esperás, una copita de vino y nueces calientes antes de la cena, elegir lo que querés de un men&uacute; con dos opciones de entrada, cuatro de plato principal y dos de postre, una copita de Baileys... muy distinto a lo otro, muy distinto.
+La comida también es muy distinta: un champancito mientra esperás, una copita de vino y nueces calientes antes de la cena, elegir lo que querés de un menú con dos opciones de entrada, cuatro de plato principal y dos de postre, una copita de Baileys... muy distinto a lo otro, muy distinto.
 
 Y la sorpresa final fue cuando repartieron los auriculares: unos <a href="http://noisecancelingheadphone.org/wp-content/uploads/bose_quietcomfort15_large.jpg">Bose con cancelación activa de ruido</a> que me permitieron ver una película sin subtítulos, ya que con los auriculares comunes y el ruido del avión es imposible. Obviamente no te los podés quedar, pero es un buen detalle para el vuelo.
 
-El &uacute;nico punto en contra del servicio fue que los asientos tienen enchufe... pero de continua, un enchufe especial como el del encendedor del auto. Y las azafatas no tenían un adaptador/conversor para 220v o 110v, y tampoco vendían uno, así que no lo pude usar.
+El único punto en contra del servicio fue que los asientos tienen enchufe... pero de continua, un enchufe especial como el del encendedor del auto. Y las azafatas no tenían un adaptador/conversor para 220v o 110v, y tampoco vendían uno, así que no lo pude usar.
 
 Por otro lado, entre que hice un sudoku en una revista, la película (con la cena durante la misma), y que dormí bastante cómodo, prendí la laptop tres horas antes de llegar, y la batería casi me alcanzó para todo lo que quería hacer. |

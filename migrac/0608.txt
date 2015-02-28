@@ -11,17 +11,17 @@ Este proyecto, entonces, lo declaro abierto a la comunidad, para el que quiera p
 
 <strong>Descripción general</strong>
 
-La idea es ofrecer un "espacio de colaboración de corta vida".&nbsp; Algo así como un pastebin dinámico, pero que al mismo tiempo sea fácil de usar. En definitiva, algo &uacute;til.
+La idea es ofrecer un "espacio de colaboración de corta vida".&nbsp; Algo así como un pastebin dinámico, pero que al mismo tiempo sea fácil de usar. En definitiva, algo útil.
 
-Los kilinks van a poder ser editables, y cada nueva edición será hija del kilink editado (cada "submit" es un commit en un virtual versionado de código). Aclaración importante de terminología: el kilink es *uno solo*, que tiene distintas versiones; este kilink &uacute;nico tiene siempre la misma URL, el mismo "kilink id".
+Los kilinks van a poder ser editables, y cada nueva edición será hija del kilink editado (cada "submit" es un commit en un virtual versionado de código). Aclaración importante de terminología: el kilink es *uno solo*, que tiene distintas versiones; este kilink único tiene siempre la misma URL, el mismo "kilink id".
 
 Habrá tener coloreado de código, como todos los pastebines, pero con dos grandes diferencias: detección y coloreado automático de tipo de texto, y edición coloreada.
 
-La autenticación será lo más sencilla posible para que un visitante pueda decir "soy Fulano" en la menor cantidad de clicks posibles. La idea es ofrecer de esas autenticaciones que son tan automágicas ahora: openid, via twitter, o facebook, etc, o de &uacute;ltima un "usuario/clave" por si la persona no tiene ninguno de los otros mecanismos fáciles.
+La autenticación será lo más sencilla posible para que un visitante pueda decir "soy Fulano" en la menor cantidad de clicks posibles. La idea es ofrecer de esas autenticaciones que son tan automágicas ahora: openid, via twitter, o facebook, etc, o de última un "usuario/clave" por si la persona no tiene ninguno de los otros mecanismos fáciles.
 
 No hay mecanismos de "compartición" de los kilinks: cualquiera puede acceder a cualquier kilink (en general por la URL que se comparte, pero también buscando, ver abajo).
 
-La autoría del kilink y la responsabilidad sobre ese texto es del usuario que lo pegó ahí. Hay que declinar explícitamente responsabilidad.&nbsp; El texto incluido en el mismo es de "dominio p&uacute;blico" y puede ser mostrado/usado indiscriminadamente.
+La autoría del kilink y la responsabilidad sobre ese texto es del usuario que lo pegó ahí. Hay que declinar explícitamente responsabilidad.&nbsp; El texto incluido en el mismo es de "dominio público" y puede ser mostrado/usado indiscriminadamente.
 
 &iquest;Por qué usar kilink?</p>
 <ul>
@@ -79,7 +79,7 @@ También, se podrá elegir dos versiones, y pedir un "diff" entre las mismas.
 
 <strong>Coloreado del texto y tipo del mismo</strong>
 
-&iquest;Qué es la autodetección? En lugar del funcionamiento "pastebin clásico" (de pegar un texto y elegir qué tipo de texto es), cuando el usuario pegue el texto se debe autodetectar qué tipo de texto y colorearlo en el momento seg&uacute;n el tipo detectado. Obviamente, va a haber un combobox con todos los tipos, que cambia automáticamente al tipo autodetectado, pero que el usuario puede modificar para rectificar una autodetección erronea (obviamente, si el usuario cambia a mano el tipo de texto, el coloreado cambiará correspondientemente).
+&iquest;Qué es la autodetección? En lugar del funcionamiento "pastebin clásico" (de pegar un texto y elegir qué tipo de texto es), cuando el usuario pegue el texto se debe autodetectar qué tipo de texto y colorearlo en el momento según el tipo detectado. Obviamente, va a haber un combobox con todos los tipos, que cambia automáticamente al tipo autodetectado, pero que el usuario puede modificar para rectificar una autodetección erronea (obviamente, si el usuario cambia a mano el tipo de texto, el coloreado cambiará correspondientemente).
 
 La "edición coloreada" es la habilidad de poder editar el kilink y que se vaya coloreando mientras se edita (recordemos que vamos a mostrar un sólo texto y el usuario podrá editar directamente allí).
 
@@ -104,7 +104,7 @@ Hay que tener una colección de herramientas, entre ellas:</p>
 <li>linea de comando ("grep ERROR *.log | kilink" y este escupe la url de un kilink nuevo)</li>
 <li>applet que permita meter una "ventanita para rápidamente crear kilinks" en cualquier lado</li>
 <li>applet que permita meter un "visualizador de un kilink particular" en cualquier lado</li>
-<li>applet que permita meter "mis &uacute;ltimos kilinks" en cualquier lado</li>
+<li>applet que permita meter "mis últimos kilinks" en cualquier lado</li>
 </ul>
 <p>
 <strong>Tags</strong>
@@ -123,7 +123,7 @@ Mecanismos para autosugerir tags:</p>
 
 Se debe implementar una API HTTP sobre la cual se podrá hacer todo lo que se pueda hacer, al punto que la interfaz web usará esa misma API para trabajar contra el backend.
 
-La API tendrá dos modos: autenticado y p&uacute;blico. Para el modo p&uacute;blico no se necesita nada en particular, pero no se puede hacer todo desde ahí (por ejemplo, borrar kilinks).
+La API tendrá dos modos: autenticado y público. Para el modo público no se necesita nada en particular, pero no se puede hacer todo desde ahí (por ejemplo, borrar kilinks).
 
 Idea: Debemos revisar las APIs de pastebin, snip y tinypaste, que son las más piolas que vimos, para diseñar de entrada algo que tenga sentido. También hay que ver cómo autenticar.
 

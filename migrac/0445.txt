@@ -3,7 +3,7 @@ Nueva versión disponible de la CDPedia
 <tags>
 
 
-<a href="http://python.org.ar/pyar/Inicio">Python Argentina (PyAr)</a> se enorgullece de anunciar la versión 0.6 de la CDPedia.&nbsp; Esta versión fue entregada a Educ.ar con vistas a la distribución en escuelas del todo el país, y ya está disponible para ladescarga p&uacute;blica.
+<a href="http://python.org.ar/pyar/Inicio">Python Argentina (PyAr)</a> se enorgullece de anunciar la versión 0.6 de la CDPedia.&nbsp; Esta versión fue entregada a Educ.ar con vistas a la distribución en escuelas del todo el país, y ya está disponible para ladescarga pública.
 
 
 
@@ -23,6 +23,6 @@ La versión 0.6 de CDPedia en DVD fue recientemente entregada para su evaluació
 
 
 
-Esta misma versión ya está disponible para la descarga p&uacute;blica tanto para el formato de CD y DVD.&nbsp; Para mayor información e instrucciones para la
+Esta misma versión ya está disponible para la descarga pública tanto para el formato de CD y DVD.&nbsp; Para mayor información e instrucciones para la
 
 descarga, visitar la <a href="http://python.org.ar/pyar/Proyectos/CDPedia">página del proyecto</a>. |

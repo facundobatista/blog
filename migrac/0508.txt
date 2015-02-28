@@ -13,7 +13,7 @@ Lento verano a nivel películas
 <li><a href="http://www.imdb.com/title/tt0901485/">La fille coupée en deux</a>: -0. Alguna que otra buena actuación, la historia casi bien, la dirección mala... no es que sea lenta (que lo es), sino que no tiene ritmo, no tiene contenido por partes... aburre.</li>
 <li><a href="http://www.imdb.com/title/tt1245526/">RED</a>: +1 Típica película de acción y humor. La ví en el avión cuando fui a Atlanta, y me debo verla en mayor resolución.</li>
 <li><a href="http://www.imdb.com/title/tt0461694/">Vier minuten</a>: +1. Fantástica historia entre una maestra de piano y su alumna, en un contexto atípico. No dejes de verla si te interesa un poquito el piano.</li>
-<li><a href="http://www.imdb.com/title/tt0409459/">Watchmen</a>: +1. Me gustó mucho esta película... violenta pero con estilo, bien dirigida, fantástica m&uacute;sica. Tengo planeada verla de nuevo...</li>
+<li><a href="http://www.imdb.com/title/tt0409459/">Watchmen</a>: +1. Me gustó mucho esta película... violenta pero con estilo, bien dirigida, fantástica música. Tengo planeada verla de nuevo...</li>
 <li><a href="http://www.imdb.com/title/tt0486674/">What just happened</a>: -0. Sin ritmo, la historia más o menos interesante pero nada realmente que valga la pena.</li>
 <li><a href="http://www.imdb.com/title/tt1068680/">Yes man</a>: +0. Es Jim Carrey, pero en un papel que le va bien. La historia de la película es filosóficamente muy interesante, más allá que esté tratado desde una comedia. Y trabaja Zooey Deschanel, ;)</li>
 </ul>
@@ -45,7 +45,7 @@ Eso sí, hay un montonazazo de nuevas planeadas para ver:</p>
 <li><a href="http://www.imdb.com/title/tt1240982/">Your highness</a></li>
 </ul>
 <p>
-Finalmente, el resumen seg&uacute;n cuando las anoté:
+Finalmente, el resumen según cuando las anoté:
 
 <span style="font-family: courier new,courier;">&nbsp;&nbsp;&nbsp; (19-Nov-2007)&nbsp;&nbsp;&nbsp; 3</span>
 <span style="font-family: courier new,courier;">&nbsp;&nbsp;&nbsp; (23-May-2008)&nbsp;&nbsp; 21&nbsp;&nbsp;&nbsp; 4&nbsp;&nbsp; 4</span>

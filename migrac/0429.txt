@@ -27,7 +27,7 @@ Entonces, armé mi propio mecanismo. Básicamente es un <em>gateway mail a micro
 
 
 
-Tienen que ejecutar mi programa con <em>--auth</em> una vez para que les pida los datos de autenticación que van a parar a un archivito (usando <a href="http://www.taniquetil.com.ar/homedevel/pymodules/infoauth.py">este módulo mío</a> que no esconde demasiado la info, pero el truco es guardar este archivo con permiso sólo para ustedes), y luego ejecuten el programita cada uno o dos minutos poniéndolo en un crontab en alg&uacute;n lado.
+Tienen que ejecutar mi programa con <em>--auth</em> una vez para que les pida los datos de autenticación que van a parar a un archivito (usando <a href="http://www.taniquetil.com.ar/homedevel/pymodules/infoauth.py">este módulo mío</a> que no esconde demasiado la info, pero el truco es guardar este archivo con permiso sólo para ustedes), y luego ejecuten el programita cada uno o dos minutos poniéndolo en un crontab en algún lado.
 
 
 

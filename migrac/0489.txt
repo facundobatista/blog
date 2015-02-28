@@ -11,7 +11,7 @@ Por suerte casi se terminó la "época de conferencias". Dos PyCon en Octubre y 
 
 
 
-Mañana está <a href="http://culturalibre.fmlatribu.com/?p=101">Fábrica de Fallas</a>, y el domingo viene gente a casa, hago asado para quince. Por suerte hoy puedo relajarme un poquito, &iquest;no? No, a las seis me rajo para La Plata al evento de cierre del <a href="http://www.taniquetil.com.ar/plog/post/1/426">postgrado de computación para científicos</a> en el que vengo mostrando Python los &uacute;ltimos dos años.
+Mañana está <a href="http://culturalibre.fmlatribu.com/?p=101">Fábrica de Fallas</a>, y el domingo viene gente a casa, hago asado para quince. Por suerte hoy puedo relajarme un poquito, &iquest;no? No, a las seis me rajo para La Plata al evento de cierre del <a href="http://www.taniquetil.com.ar/plog/post/1/426">postgrado de computación para científicos</a> en el que vengo mostrando Python los últimos dos años.
 
 
 

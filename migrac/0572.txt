@@ -50,7 +50,7 @@ Algunas nuevas anotaciones para el futuro:</p>
 <li><a href="http://www.imdb.com/title/tt1386703/">Total recall</a></li>
 </ul>
 <p>
-Finalmente, el resumen seg&uacute;n cuando las anoté:
+Finalmente, el resumen según cuando las anoté:
 
 <span style="font-family: courier new,courier;">(24-Sep-2008)&nbsp;&nbsp; 15&nbsp;&nbsp; 6</span>
 <span style="font-family: courier new,courier;">(21-Ene-2009)&nbsp;&nbsp; 18&nbsp; 18&nbsp; 12&nbsp;&nbsp; 1&nbsp;&nbsp; 1</span>

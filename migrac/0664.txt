@@ -8,7 +8,7 @@ En la biblioteca estándar de Python hay un módulo <a href="https://docs.python
 
 - <span style="font-family: courier new,courier;">CRITICAL</span>: creo que nunca lo usé :)
 
-- <span style="font-family: courier new,courier;">ERROR</span>: problemas de todo tipo; cosas que no deberían pasar, y si pasan son un inconveniente; muchas veces el programa no contin&uacute;a, o continua de forma parcial o limitada, luego de este tipo de linea logueada. En este ejemplo logueo que no se pudo bajar la lista de los backends durante una actualización (también en este caso se le avisa al usuario mediante una ventanita, y el programa sigue, aunque la actualización no se concretó):
+- <span style="font-family: courier new,courier;">ERROR</span>: problemas de todo tipo; cosas que no deberían pasar, y si pasan son un inconveniente; muchas veces el programa no continúa, o continua de forma parcial o limitada, luego de este tipo de linea logueada. En este ejemplo logueo que no se pudo bajar la lista de los backends durante una actualización (también en este caso se le avisa al usuario mediante una ventanita, y el programa sigue, aunque la actualización no se concretó):
 
 <span style="font-family: courier new,courier;">&nbsp;&nbsp;&nbsp; try:</span>
 <span style="font-family: courier new,courier;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; _, backends_file = yield utils.download(BACKENDS_URL)</span>
@@ -31,7 +31,7 @@ En la biblioteca estándar de Python hay un módulo <a href="https://docs.python
 
 <span style="font-family: courier new,courier;">&nbsp;&nbsp;&nbsp; logger.debug("Installing PIP manually in the virtualenv")</span>
 
-Me ha pasado en sistemas muy complejos de necesitar un nivel más abajo que <span style="font-family: courier new,courier;">DEBUG</span> para loguear toda aquella información que podría llegar a ser &uacute;til para un análisis del comportamiento del programa, pero que normalmente sería un exceso de datos (lo cual complica desde la lectura de los registros hasta el mismo manejo de los archivos). Entonces, usábamos un nivel <span style="font-family: courier new,courier;">TRACE</span>, que casi nunca se prendía, para este propósito.
+Me ha pasado en sistemas muy complejos de necesitar un nivel más abajo que <span style="font-family: courier new,courier;">DEBUG</span> para loguear toda aquella información que podría llegar a ser útil para un análisis del comportamiento del programa, pero que normalmente sería un exceso de datos (lo cual complica desde la lectura de los registros hasta el mismo manejo de los archivos). Entonces, usábamos un nivel <span style="font-family: courier new,courier;">TRACE</span>, que casi nunca se prendía, para este propósito.
 
 La macana es que el módulo de logging no tiene un nivel <span style="font-family: courier new,courier;">TRACE</span>, pero lo creábamos a mano:
 
@@ -48,4 +48,4 @@ Fíjense el 5 ese: es que <span style="font-family: courier new,courier;">DEBUG<
 <span style="font-family: courier new,courier;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; if self.isEnabledFor(TRACE):</span>
 <span style="font-family: courier new,courier;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; self._log(TRACE, msg, args, **kwargs)</span>
 
-Para más información sobre la infrastructura de logging de Python y consejos generales sobre qué, cómo, o cuándo dejar registro de lo que sucede, pueden ver mi charla sobre el tema (estos sons los <a href="http://www.taniquetil.com.ar/homedevel/presents/logs.odp">slides</a>, y en alg&uacute;n momento se publicará <a href="https://www.youtube.com/channel/UCa8tmvBoe5L6BGmRcQHF8qw/videos">acá</a> el video de esta misma charla que dí en la PyCon de Rafaela).</p> |
+Para más información sobre la infrastructura de logging de Python y consejos generales sobre qué, cómo, o cuándo dejar registro de lo que sucede, pueden ver mi charla sobre el tema (estos sons los <a href="http://www.taniquetil.com.ar/homedevel/presents/logs.odp">slides</a>, y en algún momento se publicará <a href="https://www.youtube.com/channel/UCa8tmvBoe5L6BGmRcQHF8qw/videos">acá</a> el video de esta misma charla que dí en la PyCon de Rafaela).</p> |

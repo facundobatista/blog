@@ -6,7 +6,7 @@ Hola!!
 
 Charlando en el viaje a/desde la PyCon de Rosario, surgió la idea de armar un Circo Errante (<em>flying circus</em>, la referencia es obvia) con el objetivo de acercar PyAr a las Universidades de una forma distinta a las actuales.
 
-Hoy por hoy, el principal contacto de PyAr con las Universidades es de gente que arma PyDays en ese ámbito. Esto, normalmente, sucede en las Universidades con carreras afines a la programación. Y el contenido y dinámica de estos PyDays están pensados en función de ese p&uacute;blico.
+Hoy por hoy, el principal contacto de PyAr con las Universidades es de gente que arma PyDays en ese ámbito. Esto, normalmente, sucede en las Universidades con carreras afines a la programación. Y el contenido y dinámica de estos PyDays están pensados en función de ese público.
 
 La idea es cambiar eso. Y llegar desde PyAr a Universidades con las cuales normalmente no tenemos mucho contacto. Ejemplo de esto son las carreras de derecho, sociología, matemática, psicología, astronomía, ingenierías no informáticas, etc. Estas son carreras en las que los profesionales podrían hacer un buen uso de Python como herramienta, donde no les interesa tanto&nbsp; el razonamiento "quiero hacer un programa que haga algo", sino más bien "necesito hacer algo y un programa podría ser una herramienta, aparte del excel y la calculadora que es lo que estoy usando ahora".
 

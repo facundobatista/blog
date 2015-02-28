@@ -10,7 +10,7 @@ El primero fue de <a href="http://launcherposta.taniquetil.com.ar/">LauncherPost
 
 En fin, esto refuerza <a href="http://www.taniquetil.com.ar/plog/post/1/603">lo que les decía</a> que Gtk3 me gustaba menos y menos y me estoy pasando a Qt.
 
-BTW, de LauncherPosta liberé la versión 1.0, con el casi &uacute;nico cambio de soportar mejor el toqueteo de la configuración del systray bajo Unity (un pedazo de código que luego les compartiré más separadamente).
+BTW, de LauncherPosta liberé la versión 1.0, con el casi único cambio de soportar mejor el toqueteo de la configuración del systray bajo Unity (un pedazo de código que luego les compartiré más separadamente).
 
 El segundo release fue de <a href="http://enjuewemela.taniquetil.com.ar/">Enjuewemela</a>.
 
@@ -20,14 +20,14 @@ Hace rato que no sacaba una versión del jueguito. Es que aunque le había hecho
 
 Los cambios más interesantes para esta versión 0.5, aparte de la habilidad de "re-jugar un log", son:
 
-- Alienta cuando hay m&uacute;ltiples coincidencias
+- Alienta cuando hay múltiples coincidencias
 - Cambia el tablero cuando cambia de nivel
-- M&uacute;ltiple fondos
+- Múltiple fondos
 - Correcto manejo de los highscores
 - Otras pequeñas mejoras y un montón de correcciones.
 
 La verdad es que estoy un poco harto de Enjuewemela. Hay que ponerle un montón de laburo para "hacerlo más lindo" al juego, y la verdad es que "hacerlo lindo" no es algo que me divierta.
 
-Así que creo que sacaré un gran &uacute;ltimo feature, y luego creo que lo paso a mantenimiento, porque tengo otros proyectos bastante más interesantes para empujar.
+Así que creo que sacaré un gran último feature, y luego creo que lo paso a mantenimiento, porque tengo otros proyectos bastante más interesantes para empujar.
 
 Ya los comentaré por este mismo canal. Stay tuned.</p> |

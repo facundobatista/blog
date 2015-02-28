@@ -3,7 +3,7 @@ Tutorial y CDPedia
 <tags>
 
 
-Dos cosas que terminamos en los &uacute;ltimos días antes de <a href="http://www.taniquetil.com.ar/plog/post/1/425">PyCon</a>, fueron el tutorial y la cdpedia.
+Dos cosas que terminamos en los últimos días antes de <a href="http://www.taniquetil.com.ar/plog/post/1/425">PyCon</a>, fueron el tutorial y la cdpedia.
 
 
 
@@ -19,7 +19,7 @@ La CDPedia es la Wikipedia en un CD. Bueno, la verdad es que también la generam
 
 
 
-&iquest;Qué se necesita? Una computadora no demasiado vieja, con lectora de CD o DVD seg&uacute;n corresponda, y tener instalado Python en la máquina. Si usás Linux o Mac ya lo tenés instalado... si usas Windows, deberías dejar de usarlo, :), pero también podés instalarle <a href="http://www.python.org/download/releases/2.6.2/">Python</a> (si es que no está ya instalado) y listo.
+&iquest;Qué se necesita? Una computadora no demasiado vieja, con lectora de CD o DVD según corresponda, y tener instalado Python en la máquina. Si usás Linux o Mac ya lo tenés instalado... si usas Windows, deberías dejar de usarlo, :), pero también podés instalarle <a href="http://www.python.org/download/releases/2.6.2/">Python</a> (si es que no está ya instalado) y listo.
 
 
 

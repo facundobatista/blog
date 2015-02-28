@@ -3,7 +3,7 @@ Semana de trabajo
 <tags>
 
 
-La &uacute;ltima semana la pasé en una gran reunión de trabajo en California.
+La última semana la pasé en una gran reunión de trabajo en California.
 
 
 
@@ -19,15 +19,15 @@ Esos dos primeros días de trabajo los pasamos reunidos en el hotel. Programamos
 
 
 
-Los &uacute;ltimos tres días, participamos del UDS de Jaunty https://wiki.ubuntu.com/UDSJaunty. El UDS es una reunión de cinco días que hace Canonical http://www.canonical.com/ dos veces por año, con gran parte de sus empleados, más algunos invitados (<a href="http://www.flickr.com/photos/54757453@N00/3111986896/sizes/o/in/set-72157611227892683/">&iexcl;foto!</a>). Es abierta, con lo cual el que quiera acercarse puede hacerlo sin problema (en esta oportunidad el evento fue en las oficinas de Google, en California). En esos días se discuten, en distintas reuniones y presentaciones, los próximos pasos de <a href="http://www.ubuntu.com/">Ubuntu</a>, a mediano y corto plazo.
+Los últimos tres días, participamos del UDS de Jaunty https://wiki.ubuntu.com/UDSJaunty. El UDS es una reunión de cinco días que hace Canonical http://www.canonical.com/ dos veces por año, con gran parte de sus empleados, más algunos invitados (<a href="http://www.flickr.com/photos/54757453@N00/3111986896/sizes/o/in/set-72157611227892683/">&iexcl;foto!</a>). Es abierta, con lo cual el que quiera acercarse puede hacerlo sin problema (en esta oportunidad el evento fue en las oficinas de Google, en California). En esos días se discuten, en distintas reuniones y presentaciones, los próximos pasos de <a href="http://www.ubuntu.com/">Ubuntu</a>, a mediano y corto plazo.
 
 
 
-Decía, entonces, que nuestros &uacute;ltimos tres días fueron parte de este evento, pero no lo utilizamos para ello en su totalidad. Fuimos a algunas charlas interesantes, pero también aprovechamos para programar juntos y hacer algunas tareas que se resolvían de mejor manera trabajando codo a codo. El horario era de 9 a 18, y comíamos en el comedor de Google (si me preguntan, "medio pelo").
+Decía, entonces, que nuestros últimos tres días fueron parte de este evento, pero no lo utilizamos para ello en su totalidad. Fuimos a algunas charlas interesantes, pero también aprovechamos para programar juntos y hacer algunas tareas que se resolvían de mejor manera trabajando codo a codo. El horario era de 9 a 18, y comíamos en el comedor de Google (si me preguntan, "medio pelo").
 
 
 
-El miércoles, luego de trabajar, nos fuimos a visitar el <a href="http://www.computerhistory.org/">Museo de la Computación</a>. Ahí vimos basicamente una colección de equipos viejos, lo cual era fascinante para el que le gusta, :). Lo más loco es que bastante de eso "viejo" fue vivido incluso por nosotros... Pero lo más impresionante de todo fue la <a href="http://es.wikipedia.org/wiki/M%C3%A1quina_diferencial">Máquina Diferencial</a> n&uacute;mero 2 de <a href="http://es.wikipedia.org/wiki/Charles_Babbage">Charles Babbage</a>.
+El miércoles, luego de trabajar, nos fuimos a visitar el <a href="http://www.computerhistory.org/">Museo de la Computación</a>. Ahí vimos basicamente una colección de equipos viejos, lo cual era fascinante para el que le gusta, :). Lo más loco es que bastante de eso "viejo" fue vivido incluso por nosotros... Pero lo más impresionante de todo fue la <a href="http://es.wikipedia.org/wiki/M%C3%A1quina_diferencial">Máquina Diferencial</a> número 2 de <a href="http://es.wikipedia.org/wiki/Charles_Babbage">Charles Babbage</a>.
 
 
 
@@ -39,7 +39,7 @@ Esa noche cenamos todos juntos en el mismo museo, en una especie de salón de fi
 
 
 
-El viernes era el &uacute;ltimo día de trabajo, y luego volvimos todos al hotel porque fue la fiesta de cierre. Cerveza, tragos, comida para picotear de parados, m&uacute;sica, charla charla charla. También hubo m&uacute;sica en vivo: aquellos empleados que también hacen m&uacute;sica se juntan en estos eventos y tocan todos juntos algunos clásicos de siempre, muy copado. Luego hubo un DJ, con baile, pero para esa altura yo ya me había ido a dormir.
+El viernes era el último día de trabajo, y luego volvimos todos al hotel porque fue la fiesta de cierre. Cerveza, tragos, comida para picotear de parados, música, charla charla charla. También hubo música en vivo: aquellos empleados que también hacen música se juntan en estos eventos y tocan todos juntos algunos clásicos de siempre, muy copado. Luego hubo un DJ, con baile, pero para esa altura yo ya me había ido a dormir.
 
 
 

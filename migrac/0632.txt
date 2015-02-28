@@ -12,13 +12,13 @@ Después salimos a almorzar, lo cual es siempre una aventura en este tipo de eve
 
 A la tarde ví una charla que no me gustó tanto, y luego dí <a href="http://www.taniquetil.com.ar/homedevel/presents/pydetalles.odp">Bindings, default mutable arguments, y otros qu... detalles</a>. Luego de eso, algo de pasillo, las lightning talks (bien en general), y luego la plenaria.
 
-La charla plenaria la dió Robert Lefkowitz, sobre "Literacy, Programming, and Open Source", una de las mejores plenarias que vi en la vida. Estuvo genial, sinceramente, tengo ganas de que suban el video a alg&uacute;n lado y agregarle subtítulos en castellano, para que la pueda disfrutar más gente.
+La charla plenaria la dió Robert Lefkowitz, sobre "Literacy, Programming, and Open Source", una de las mejores plenarias que vi en la vida. Estuvo genial, sinceramente, tengo ganas de que suban el video a algún lado y agregarle subtítulos en castellano, para que la pueda disfrutar más gente.
 
 Robert, al final de la charla, hizo una invitación general a ir a tomar algo. Pero Emiliano tenía pre-armado unos pescados a la parrilla, así que subimos la apuesta y armamos (previa recolección de dinero) un asado para treinta y pico en un club cercano. Fue una corrida ir a la carnicería, al supermercado por bebidas, pan y etcéteras, y por la casa de Emi para buscar algunos elementos generales, mientras Juan Pablo y Marcos arrancaban con el fuego en el club. Al final se asaron un dorado y un sábalo enormes ambos, más dos bondiolas de cerdo y un pedazote de bife de chorizo. Todo regado con fernet, cerveza, vino, y mucha, mucha charla copada.
 
 <a href="http://www.flickr.com/photos/70871182@N04/10516024666/in/set-72157637010046074"><img src="http://www.taniquetil.com.ar/facundo/imgs/pycon2013-grupal.jpg" alt="La foto grupal" height="213" width="800" /></a>
 
-El viernes nos levantamos tarde, tanto que desayunamos en el hostel, y llegamos a la conferencia un rato antes que diera mi segunda charla, <a href="http://www.taniquetil.com.ar/homedevel/presents/perlas-py3.odp">Las perlas de Python 3</a> (&iexcl;un estreno!). Luego estuve en un par de charlas, pero la que más me gustó fue la de Alecu, "Juegos electromecánicos con Arduino", tengo muchas ganas de arrancar con alg&uacute;n proyecto de electrónica o electromecánica!
+El viernes nos levantamos tarde, tanto que desayunamos en el hostel, y llegamos a la conferencia un rato antes que diera mi segunda charla, <a href="http://www.taniquetil.com.ar/homedevel/presents/perlas-py3.odp">Las perlas de Python 3</a> (&iexcl;un estreno!). Luego estuve en un par de charlas, pero la que más me gustó fue la de Alecu, "Juegos electromecánicos con Arduino", tengo muchas ganas de arrancar con algún proyecto de electrónica o electromecánica!
 
 Al final del día vinieron más lightning talks, y la plenaria de Claudo Freire sobre Paralelismo. Luego sorteos, palabras, saludos, y todos los etcéteras del cierre de la conferencia.
 

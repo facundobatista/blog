@@ -3,7 +3,7 @@ Bastante ocupado
 <tags>
 
 
-Las &uacute;ltimas semanas fueron de hacer demasiadas cosas en un día, todos los días. No es que me dediqué varios días a algo en particular, sino que fuí haciendo muchas cosas pequeñas, o todos los días un poquito de varias cosas grandes.
+Las últimas semanas fueron de hacer demasiadas cosas en un día, todos los días. No es que me dediqué varios días a algo en particular, sino que fuí haciendo muchas cosas pequeñas, o todos los días un poquito de varias cosas grandes.
 
 
 
@@ -11,7 +11,7 @@ Como estuve tres semanas afuera, luego de las vacaciones nos enfocamos en hacer 
 
 
 
-Tuvimos elecciones el domingo pasado, y más allá de la ingrata sorpresa (o no tanto sorpresa) de que gane la derecha tanto en Capital como Provincia de Buenos Aires (que sociedad que tenemos, <em>pordió</em>), me encontré un día antes de votar con que no estaba en el padrón de Provincia ni en el de Capital. Con Moni hicimos el cambio de domicilio hace tres años, pero veníamos votando todavía en Capital, pero para estas elecciones a ella la pasaron a Provincia, y a mi me perdieron por ahí. Bueno, no, porque hice un reclamo vía web, y al toque me contestaron que sí estaba en el padrón de Provincia, pero tenía mal el n&uacute;mero de documento. Así que finalmente pude votar, pero luego perdí una mañana haciendo trámites para ver si en el futuro aparezco correctamente.
+Tuvimos elecciones el domingo pasado, y más allá de la ingrata sorpresa (o no tanto sorpresa) de que gane la derecha tanto en Capital como Provincia de Buenos Aires (que sociedad que tenemos, <em>pordió</em>), me encontré un día antes de votar con que no estaba en el padrón de Provincia ni en el de Capital. Con Moni hicimos el cambio de domicilio hace tres años, pero veníamos votando todavía en Capital, pero para estas elecciones a ella la pasaron a Provincia, y a mi me perdieron por ahí. Bueno, no, porque hice un reclamo vía web, y al toque me contestaron que sí estaba en el padrón de Provincia, pero tenía mal el número de documento. Así que finalmente pude votar, pero luego perdí una mañana haciendo trámites para ver si en el futuro aparezco correctamente.
 
 
 
@@ -23,7 +23,7 @@ Nos quedan dos meses solamente para la <a href="http://ar.pycon.org/2009/about/"
 
 
 
-Vengo laburando también en dos proyectos que quiero ver de cerrar antes de la conferencia: tener una tirada del Tutorial de Python, en castellano, en papel, y terminar con la CDPedia (el contenido más relevante de la wikipedia en un CD!).&nbsp; Ambos son proyectos que vienen desde hace rato, pero en los &uacute;ltimos meses me los cargué al hombro con la firme idea de terminarlos (y por suerte hay gente que me está ayudando en ambos).
+Vengo laburando también en dos proyectos que quiero ver de cerrar antes de la conferencia: tener una tirada del Tutorial de Python, en castellano, en papel, y terminar con la CDPedia (el contenido más relevante de la wikipedia en un CD!).&nbsp; Ambos son proyectos que vienen desde hace rato, pero en los últimos meses me los cargué al hombro con la firme idea de terminarlos (y por suerte hay gente que me está ayudando en ambos).
 
 
 
@@ -31,7 +31,7 @@ Relacionado también con Python, tuve una reunión en <a href="http://www.fmlatr
 
 
 
-Otro proyecto más social que venimos empujando con otra gente, es lograr acercar a la gente a los pequeños productores (principalmente, pero no solamente, de alimentos).&nbsp; La idea es lograr un tipo de comercio más justo, eliminando intermediarios innecesarios, donde ganen no sólo los consumidores, sino también los pequeños productores (a detrimento de las grandes cadenas de comercialización dónde lo más importante es ganar dinero). Esto lo estamos laburando a través de <a href="http://www.mercadojusto.com.ar/">Mercado Justo</a>, que cómo dice el sitio, se propone como una herramienta para facilitar a las redes y organizaciones de comercio justo una comunicación más efectiva con sus actuales y potenciales consumidores. Este sitio todavía lo tenemos en desarrollo, y estamos por comenzar alguna prueba de distribución... ojalá podamos lanzarlo al p&uacute;blico en los próximos meses.
+Otro proyecto más social que venimos empujando con otra gente, es lograr acercar a la gente a los pequeños productores (principalmente, pero no solamente, de alimentos).&nbsp; La idea es lograr un tipo de comercio más justo, eliminando intermediarios innecesarios, donde ganen no sólo los consumidores, sino también los pequeños productores (a detrimento de las grandes cadenas de comercialización dónde lo más importante es ganar dinero). Esto lo estamos laburando a través de <a href="http://www.mercadojusto.com.ar/">Mercado Justo</a>, que cómo dice el sitio, se propone como una herramienta para facilitar a las redes y organizaciones de comercio justo una comunicación más efectiva con sus actuales y potenciales consumidores. Este sitio todavía lo tenemos en desarrollo, y estamos por comenzar alguna prueba de distribución... ojalá podamos lanzarlo al público en los próximos meses.
 
 
 
@@ -43,4 +43,4 @@ Y para cerrar, estamos recién terminando de procesar las fotos del <a href="htt
 
 
 
-Bueno, luego de haber escrito todo esto me resulta más claro por qué estuve tan sin tiempo libre en las &uacute;ltimas semanas... |
+Bueno, luego de haber escrito todo esto me resulta más claro por qué estuve tan sin tiempo libre en las últimas semanas... |

@@ -2,12 +2,12 @@
 Jugando con la red
 <tags>
 
-Hace rato que venía manejandome diariamente con t&uacute;neles SSH (o puentes, llamados por algunos). Pero esta semana aprendí un par de cosas más.
+Hace rato que venía manejandome diariamente con túneles SSH (o puentes, llamados por algunos). Pero esta semana aprendí un par de cosas más.
 
 
-<strong>T&uacute;nel local</strong>
+<strong>Túnel local</strong>
 
-Un t&uacute;nel SSH, de la manera que yo lo hacía, me permitía llegar a un destino específico a través de otra máquina. Esto lo hacía porque no podía llegar directamente a ese destino específico, pero sí a la máquina intermedia.
+Un túnel SSH, de la manera que yo lo hacía, me permitía llegar a un destino específico a través de otra máquina. Esto lo hacía porque no podía llegar directamente a ese destino específico, pero sí a la máquina intermedia.
 
 Por ejemplo, en el laburo, cuando no tengo trabajo, entro al canal de PyAr en IRC (#pyar en Freenode). Pero si yo quiero alcanzar el puerto 6667 del servidor irc.freenode.org desde el trabajo, no puedo. Pero sí puedo llegar a mi casa con SSH. Entonces hago un puente como el siguiente:
 <font face="courier new,courier">
@@ -16,16 +16,16 @@ Por ejemplo, en el laburo, cuando no tengo trabajo, entro al canal de PyAr en IR
 Entonces, el SSH desde la PC del laburo se conecta a la máquina de mi casa (previa autenticación mía). Luego apunto al programita de chat para que se comunique con la PC del laburo, al puerto 4567, y automágicamente termina llegando a irc.freenode.org al puerto indicado, y <em>voilá</em>.
 
 <strong>
-T&uacute;nel dinámico</strong>
+Túnel dinámico</strong>
 
-En la máquina del laburo tengo un VirtualBox con un Ubuntu instalado adentro. Si yo quiero navegar desde ahí, sin salir por el proxy del laburo, tenía que hacer también un puente SSH. Pero en el caso anterior el destino es fijo, y uno cuando navega en Internet quiere acceder a muchos destinos... &iquest;cómo se hace? Solución: un t&uacute;nel dinámico!
+En la máquina del laburo tengo un VirtualBox con un Ubuntu instalado adentro. Si yo quiero navegar desde ahí, sin salir por el proxy del laburo, tenía que hacer también un puente SSH. Pero en el caso anterior el destino es fijo, y uno cuando navega en Internet quiere acceder a muchos destinos... &iquest;cómo se hace? Solución: un túnel dinámico!
 <font face="courier new,courier">
 &nbsp; ssh -D 4567 lamaquinademicasa.net</font>
 &nbsp;
 Luego agarro el navegador, y lo configuro como que tengo instalado un proxy tipo SOCKS en la PC del laburo, en el puerto 4567. Y listo, funciona perfecto.
 
 
-<strong>It&#39;s the proxy, stupid!</strong>
+<strong>It's the proxy, stupid!</strong>
 
 Pero luego quise utilizar una herramienta a la que no se le puede configurar el proxy SOCKS (el Synaptic...), &iquest;cómo podía hacer?
 

@@ -4,7 +4,7 @@ Todo termina al fin
 
 <span style="font-style: italic">(Nótese que no hay comas en la frase, por lo que el "al fin" no implica deseo consumado, ni alivio, sino una redundancia contra la primer parte de la frase).</span>
 
-Hoy terminé una relación con una dama, relación que había entablado hace 11 años. Hoy fue mi &uacute;ltimo día en la <a href="http://www.unlam.edu.ar/">Universidad Nacional de La Matanza</a>.
+Hoy terminé una relación con una dama, relación que había entablado hace 11 años. Hoy fue mi último día en la <a href="http://www.unlam.edu.ar/">Universidad Nacional de La Matanza</a>.
 
 <img src="http://farm2.static.flickr.com/1002/530240481_382db17ffc_o.jpg" border="0" />
 
@@ -16,13 +16,13 @@ Primero y segundo los hice de mañana, lo cual era maravilloso. Tercero, que fue
 
 En 1998, mientras cursaba algunas materias de quinto y las que me habían quedado de cuarto, arranqué también trabajando en Soporte Técnico de la Universidad. Revolucionar todo como lo revolucionamos, con Javito y Hernán, fue una experiencia que nunca olvidaré. Por supuesto, siempre bajo la mirada atenta (y cómplice) de Rubén Rodriguez.
 
-El &#39;99 me encontró con las &uacute;ltimas materias de la carrera. Seguía trabajando en Soporte Técnico, y comencé a dar clases de Hardware de PC, con Javier. Ese mismo año, a mitad de Noviembre, cambios políticos en la Universidad determinaron que mi perfil no daba para Soporte y me rajaron. Aproveché para finiquitar las &uacute;ltimas materias, y con sólo tres finales pendientes arranqué el 2000. En Julio di el &uacute;ltimo final y me recibí de Ingeniero.
+El '99 me encontró con las últimas materias de la carrera. Seguía trabajando en Soporte Técnico, y comencé a dar clases de Hardware de PC, con Javier. Ese mismo año, a mitad de Noviembre, cambios políticos en la Universidad determinaron que mi perfil no daba para Soporte y me rajaron. Aproveché para finiquitar las últimas materias, y con sólo tres finales pendientes arranqué el 2000. En Julio di el último final y me recibí de Ingeniero.
 
 <img src="http://farm2.static.flickr.com/1390/530144222_74813ba19e_o.jpg" border="0" />
 
-A partir de ese momento seguí vinculado con la Universidad solamente como profesor. Dos años, aparte de Hardware de PC, dí el taller de Domótica. Y este &uacute;ltimo año, hice también el de Python. Compartí el cargo de profesor con muy buena gente: Javier, Hernán, Viviana, Jorge y Alfonso, gente que sigo y seguiré viendo. Incluso me llevo amigos que fueron ex alumnos, especialmente a Lucas y Facundo (aparte de Vivi, Jorge, y Alfonso, que ya nombré recién).
+A partir de ese momento seguí vinculado con la Universidad solamente como profesor. Dos años, aparte de Hardware de PC, dí el taller de Domótica. Y este último año, hice también el de Python. Compartí el cargo de profesor con muy buena gente: Javier, Hernán, Viviana, Jorge y Alfonso, gente que sigo y seguiré viendo. Incluso me llevo amigos que fueron ex alumnos, especialmente a Lucas y Facundo (aparte de Vivi, Jorge, y Alfonso, que ya nombré recién).
 
-Largo porque me cansé. Me cansé de Hardware de PC, no me interesa más al nivel de estar siempre actualizado para dar clases. Y me cansé de tener ocupados los sábados (desde el &#39;95 que los tengo ocupados, primero cursando, luego en Soporte, y luego dando clases). Creo que es un buen momento para cerrar una etapa.
+Largo porque me cansé. Me cansé de Hardware de PC, no me interesa más al nivel de estar siempre actualizado para dar clases. Y me cansé de tener ocupados los sábados (desde el '95 que los tengo ocupados, primero cursando, luego en Soporte, y luego dando clases). Creo que es un buen momento para cerrar una etapa.
 
 Lamento dejar de dar Python, es una materia que me encanta. Aunque este primer año tuvo mucha deserción (porque hubo problemas al anotarse y los metieron de prepo a la mayoría), los chicos se interesaron mucho. Terminaron sólo tres, pero muy bien.
 

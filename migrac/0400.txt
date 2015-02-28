@@ -3,7 +3,7 @@ Bugfixes y paquetes
 <tags>
 
 
-En el lugar en donde estoy actualmente trabajando (Senior Software Developer, en <a href="http://www.canonical.com/">Canonical</a>, programando Python), hacemos en general alg&uacute;n software que es propietario, y alg&uacute;n software que será liberado a la comunidad.
+En el lugar en donde estoy actualmente trabajando (Senior Software Developer, en <a href="http://www.canonical.com/">Canonical</a>, programando Python), hacemos en general algún software que es propietario, y algún software que será liberado a la comunidad.
 
 
 
@@ -27,7 +27,7 @@ Así que me traje el código, lo compilé y empecé a probar nuestro sistema con
 
 
 
-Por otro lado, en el laburo, para algunas cosas en desarrollo armamos Paquetes Privados de software, de manera que los desarrolladores nos suscribimos a ello y si hay actualizaciones estas son ofrecidas a nosotros a través del mismísimo Administrador de Actualizaciones del Ubuntu (este es una funcionalidad p&uacute;blica del Launchpad llamada <a href="https://help.launchpad.net/Packaging/PPA">Personal Package Archives (PPA)</a>).
+Por otro lado, en el laburo, para algunas cosas en desarrollo armamos Paquetes Privados de software, de manera que los desarrolladores nos suscribimos a ello y si hay actualizaciones estas son ofrecidas a nosotros a través del mismísimo Administrador de Actualizaciones del Ubuntu (este es una funcionalidad pública del Launchpad llamada <a href="https://help.launchpad.net/Packaging/PPA">Personal Package Archives (PPA)</a>).
 
 
 

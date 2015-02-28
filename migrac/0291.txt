@@ -6,7 +6,7 @@ La semana, finalmente, arrancó con todo, aunque el lunes no haya podido jugar a
 
 Antes de ayer me junté con Lucio, finalmente, por la charla para CaFeConf, <em>Python más rápido que C</em>. Los primeros resultados fueron sorprendentes (no voy a decir mucho más que esto antes de la charla misma). El laburo estuvo divertido, aunque se nos complicó bastante en el diseño de los ejercicios. Le pegamos hasta las dos de la mañana, y todavía nos falta reunir info...
 
-Ayer fue la reunión de <a href="http://www.python.com.ar/moin">PyAr</a> n&uacute;mero 24, en el bar de siempre (Hip Bar, esperemos que sea la &uacute;ltima vez que vamos allí: no nos dieron el lugar más cómodo que tienen, y se les acabó nuevamente la cerveza tirada!!). A ese respecto surgieron dos propuestas firmes, esperon que se desarrollen como corresponde a futuro.
+Ayer fue la reunión de <a href="http://www.python.com.ar/moin">PyAr</a> número 24, en el bar de siempre (Hip Bar, esperemos que sea la última vez que vamos allí: no nos dieron el lugar más cómodo que tienen, y se les acabó nuevamente la cerveza tirada!!). A ese respecto surgieron dos propuestas firmes, esperon que se desarrollen como corresponde a futuro.
 
 Más allá de eso la reunión estuvo interesante. Como siempre, se habla hasta de la muerte del cangrejo, pero fuimos más o menos tocando los temas que teníamos pensado tratar. Anyway, espero que el escriba de turno <a href="http://www.chaghi.com.ar/blog/index.php">(Chaghi)</a> nos deleite con la minuta del evento.
 

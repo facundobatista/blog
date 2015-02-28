@@ -26,7 +26,7 @@ A la tardecita hicimos un paseo entre todos: nos fuimos caminando hasta <em>el</
 
 <img src="http://www.taniquetil.com.ar/facundo/imgs/pycamp11-paseo.jpeg" alt="Hotel El Edén" width="500" height="295" />
 
-Durante la vuelta, picamos en punta con Perrito y Pablo Mouzo y pasamos por un supermercado para comprar unos vinos, porque esa noche cenábamos en el salón donde trabajábamos (nos traían las pizzas hasta ahí), ya que durante la cena tuvimos la <a href="http://python.org.ar/pyar/Eventos/Reuniones/2011/Reunion48">reunión de PyAr n&uacute;mero 48</a>. Tratamos varios temas, y la discusión estuvo muy buena, fue una fantástica reunión.
+Durante la vuelta, picamos en punta con Perrito y Pablo Mouzo y pasamos por un supermercado para comprar unos vinos, porque esa noche cenábamos en el salón donde trabajábamos (nos traían las pizzas hasta ahí), ya que durante la cena tuvimos la <a href="http://python.org.ar/pyar/Eventos/Reuniones/2011/Reunion48">reunión de PyAr número 48</a>. Tratamos varios temas, y la discusión estuvo muy buena, fue una fantástica reunión.
 
 El domingo fue un día mucho más tranquilo, se notaba que estábamos todos muy cansados. Laburé en CDPedia un rato, charlé de varias cosas con varios, pero nada muy intensivo. Durante la tarde hicimos una actividad grupal: fuimos recorriendo los proyectos en los que se había trabajado durante el PyCamp y en unos minutos se contó qué se hizo, qué se logró, etc.
 

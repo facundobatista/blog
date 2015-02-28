@@ -12,7 +12,7 @@ A lo largo de años he probado distintos, y debo decir que ninguno cumple 100% c
 
 Acá está la listita de las cosas que cumpliría mi <em>test runner</em> soñado. Propuse <a href="http://python.org.ar/PyCamp/2014/TemasPropuestos">un proyecto en el PyCamp de este mes</a> para laburar en esto (obviamente no escribir algo desde cero, sino lograr el objetivo con el menor esfuerzo posible).
 
-Le puse un n&uacute;mero a cada ítem para que sea más fácil referenciar en cualquier discusión:
+Le puse un número a cada ítem para que sea más fácil referenciar en cualquier discusión:
 
 01. Debería soportar que le pase un directorio (default a '.') y que descubra todo ahí y para abajo:
 
@@ -75,4 +75,4 @@ Le puse un n&uacute;mero a cada ítem para que sea más fácil referenciar en cu
 
 10. No debería capturar stdout/stderr.
 
-11. En el reporte final (luego del listado que va mostrando al ejecutar todo), debería mostrar el path completo del test que falla (o de los tests que fallan), junto con el (los) errores, de manera que si uno copia y pega ese path, sirva para correr ese &uacute;nico test.</p> |
+11. En el reporte final (luego del listado que va mostrando al ejecutar todo), debería mostrar el path completo del test que falla (o de los tests que fallan), junto con el (los) errores, de manera que si uno copia y pega ese path, sirva para correr ese único test.</p> |

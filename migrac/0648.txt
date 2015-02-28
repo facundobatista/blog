@@ -2,7 +2,7 @@
 Un testrunner a todo vapor
 <tags>
 
-En <a href="http://www.taniquetil.com.ar/plog/post/1/642">este post</a> detallé todo lo que querría tener en el testrunner ideal, con la idea de trabajar un poco sobre eso en <a href="http://www.taniquetil.com.ar/plog/post/1/644">el &uacute;ltimo PyCamp</a>.
+En <a href="http://www.taniquetil.com.ar/plog/post/1/642">este post</a> detallé todo lo que querría tener en el testrunner ideal, con la idea de trabajar un poco sobre eso en <a href="http://www.taniquetil.com.ar/plog/post/1/644">el último PyCamp</a>.
 
 Así fue. Nos sentamos un rato largo con Martín Gaitán y empezamos a ver si con <a href="https://nose.readthedocs.org/en/latest/">nosetest</a> podíamos lograr parte o todo de lo que queremos.
 
@@ -19,7 +19,7 @@ El primer paso, obvio, es instalar el <span style="font-family: courier new,cour
 
 El primer plugin que necesitamos para ir a donde queremos es "nose-progressive". Este es un plugin que nos cambia bastante la forma de ver los resultados de los tests. Por ejemplo, no hace falta que muestre cada linea de cada test ejecutado, en jerarquía, porque ante un error nos va a dar un pequeño resumen donde podemos ver la info del test que falló.
 
-También nos va a dar un lindo OK en verde si todo salió bien... y si hubieron problemas vamos a ver esos res&uacute;menes, coloridos, con un montón de info copada.
+También nos va a dar un lindo OK en verde si todo salió bien... y si hubieron problemas vamos a ver esos resúmenes, coloridos, con un montón de info copada.
 
 De la info que nos da en ese resumen también podemos extraer el path para correr el test sólo, o toda la clase, todo el archivo etc. Pero también tenemos otro plugin, el "nosecomplete" que hace que podamos ir escribiendo el path para un test, autocompletando de una forma muy piola, descubriendo lo que hay para correr.
 
@@ -47,7 +47,7 @@ Finalmente, hay que decirle a nose, cuando lo ejecutamos, que use tal o cual plu
 
 <span style="font-family: courier new,courier;">&nbsp;&nbsp;&nbsp; nosetests --progressive-bar-filled=2 --progressive-function-color=1 --progressive-dim-color=5</span>
 
-Esto &uacute;ltimo se podría meter como un <em>alias</em> del bash, o simplemente encapsularlo en un script 'test' en el proyecto (junto con alg&uacute;n pyflakes o pylint, etc).
+Esto último se podría meter como un <em>alias</em> del bash, o simplemente encapsularlo en un script 'test' en el proyecto (junto con algún pyflakes o pylint, etc).
 
 En fin. Lo importante es: Keep Testing :)
 <strong></strong></p> |

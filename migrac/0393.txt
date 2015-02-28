@@ -23,7 +23,7 @@ Y también trabajé en la <a href="http://code.google.com/p/cdpedia/">CD Pedia</
 
 
 
-A continuación les cuento una (más o menos detallada) descripción de los cambios que le hice al código, pero basicamente, lo que ahora tenemos es que luego de correr el "generar.py", se puede probar el sistema ejecutando "main.py", con página principal, b&uacute;squedas, etc. El mismo generador deja un .iso, con la misma funcionalidad que se prueba en vivo y directo.
+A continuación les cuento una (más o menos detallada) descripción de los cambios que le hice al código, pero basicamente, lo que ahora tenemos es que luego de correr el "generar.py", se puede probar el sistema ejecutando "main.py", con página principal, búsquedas, etc. El mismo generador deja un .iso, con la misma funcionalidad que se prueba en vivo y directo.
 
 
 
@@ -47,15 +47,15 @@ Cambié la interacción entre los procesadores y quien los llama: ahora los proc
 
 
 
-Corregí muchos acentos, y normalicé muchas cosas a UTF-8 (había todo un quilombo de encodings, y creo que no solucioné todo), y llevé alg&uacute;n archivo de DOS a UNIX a nivel de fin de línea.
+Corregí muchos acentos, y normalicé muchas cosas a UTF-8 (había todo un quilombo de encodings, y creo que no solucioné todo), y llevé algún archivo de DOS a UNIX a nivel de fin de línea.
 
 
 
-También corregí mucho sobre estilos, tratando de ir hacia la PEP 8 (muchas lineas se pasaban de las 80 columnas, espacios entre los '=', espacios entre el &uacute;ltimo caracter y el fin de linea, etc.).
+También corregí mucho sobre estilos, tratando de ir hacia la PEP 8 (muchas lineas se pasaban de las 80 columnas, espacios entre los '=', espacios entre el último caracter y el fin de linea, etc.).
 
 
 
-Limpieza de debugs: comenté algunos prints, aclaré otros (poniéndole alg&uacute;n título para reconocerlos), saqué algunos repr() (pasé a encodear la info), etc.&nbsp; Ahora es posible hacer un '&gt; out.tmp' para poder estudiar mejor la salida de todo si se dejan algunos prints que generan mucha info.
+Limpieza de debugs: comenté algunos prints, aclaré otros (poniéndole algún título para reconocerlos), saqué algunos repr() (pasé a encodear la info), etc.&nbsp; Ahora es posible hacer un '&gt; out.tmp' para poder estudiar mejor la salida de todo si se dejan algunos prints que generan mucha info.
 
 
 
@@ -75,16 +75,16 @@ Tenemos un directorio nuevo, 'utilities', con pequeñas aplicaciones.&nbsp; Por 
 
 
 
-A nivel del generador de índices, lo corregí en función de los &uacute;ltimos cambios en la etapa de procesamiento, y agregué alguna que otra función &uacute;til.
+A nivel del generador de índices, lo corregí en función de los últimos cambios en la etapa de procesamiento, y agregué alguna que otra función útil.
 
 
 
-Corregí y cambié algunas cosas en server.py en función de todos los otros cambios: estructura de directorios, índice, decompresor, etc.&nbsp; También limpié algunas cosas, pero en general no hice ning&uacute;n cambio importante de funcionalidad más que lo explicado en el siguiente párrafo.
+Corregí y cambié algunas cosas en server.py en función de todos los otros cambios: estructura de directorios, índice, decompresor, etc.&nbsp; También limpié algunas cosas, pero en general no hice ningún cambio importante de funcionalidad más que lo explicado en el siguiente párrafo.
 
 
 
-El server.py ahora tiene una página principal adentro, que es usada como punto de partida para ofrecer las distintas funcionalidades, y como punto de retorno si hay alg&uacute;n error.&nbsp; Esta página hay que hacerla linda en un futuro, ;)
+El server.py ahora tiene una página principal adentro, que es usada como punto de partida para ofrecer las distintas funcionalidades, y como punto de retorno si hay algún error.&nbsp; Esta página hay que hacerla linda en un futuro, ;)
 
 
 
-Le agregué al generar.py una opción '--no-iso', &uacute;til para generar sólo la info necesaria para probar todo, sin armar el ISO final. |
+Le agregué al generar.py una opción '--no-iso', útil para generar sólo la info necesaria para probar todo, sin armar el ISO final. |

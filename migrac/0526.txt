@@ -10,9 +10,9 @@ Cuenta la leyenda (?) que todo arrancó en el sprint posterior al <a href="http:
 
 <sup><em>(éramos tan jovenes...)</em></sup>
 
-La cuestión es que ahí se arrancó el proyecto. Creo que estuvo en un par de SVNs por ahí (o alg&uacute;n CVS?) hasta que terminó en donde está ahora <a href="http://code.google.com/p/cdpedia/">hosteado el proyecto</a>. Las mejoras en el proyecto fueron muy por ráfagas. Recuerdo que siempre se trabajó mucho en este proyecto durante los PyCamps (los dos en Los Cocos, el de Verónica, y el de La Falda), donde muchas personas le dedicaron un buen tiempo, pero también se realizó bastante durante otras reuniones.
+La cuestión es que ahí se arrancó el proyecto. Creo que estuvo en un par de SVNs por ahí (o algún CVS?) hasta que terminó en donde está ahora <a href="http://code.google.com/p/cdpedia/">hosteado el proyecto</a>. Las mejoras en el proyecto fueron muy por ráfagas. Recuerdo que siempre se trabajó mucho en este proyecto durante los PyCamps (los dos en Los Cocos, el de Verónica, y el de La Falda), donde muchas personas le dedicaron un buen tiempo, pero también se realizó bastante durante otras reuniones.
 
-Recuerdo, a modo de ejemplo, dos sprints: uno fue en un incipiente hacklab, donde (principalmente) Lucio y Nubis experimentaron sobre el índice para las b&uacute;squedas, y también durante la fundación de Wikimedia Argentina, donde presentamos por primera vez el proyecto y trabajamos en la primera parte del procesamiento de datos.
+Recuerdo, a modo de ejemplo, dos sprints: uno fue en un incipiente hacklab, donde (principalmente) Lucio y Nubis experimentaron sobre el índice para las búsquedas, y también durante la fundación de Wikimedia Argentina, donde presentamos por primera vez el proyecto y trabajamos en la primera parte del procesamiento de datos.
 
 Una gran característica de la CDPedia, indiscutiblemente el proyecto más grande y más largo de Python Argentina, es que siempre se mantuvo orientado al mismo objetivo: tener una wikipedia offline con fines sociales (distribuir en escuelas sin conexión a internet, que el conocimiento sea libre, etcétera), pero sin dejar de que sea divertido (es decir, hacerlo en Python), y manteniendo libre el proyecto (no sólo el producto final, que recomendamos copiarlo y repartirlo, sino el código en sí).
 

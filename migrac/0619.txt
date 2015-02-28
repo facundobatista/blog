@@ -2,7 +2,7 @@
 Sé lo que hiciste el PyCamp pasado
 <tags>
 
-Bueno, todos los saben, porque no sólo tenemos una página de los <a href="http://python.org.ar/PyCamp/2013/TemasPropuestos">proyectos que íbamos a encarar</a>, sino que también armamos un video el &uacute;ltimo día con todo lo que se hizo durante el PyCamp!
+Bueno, todos los saben, porque no sólo tenemos una página de los <a href="http://python.org.ar/PyCamp/2013/TemasPropuestos">proyectos que íbamos a encarar</a>, sino que también armamos un video el último día con todo lo que se hizo durante el PyCamp!
 
 
 <object type="application/x-shockwave-flash" data="http://www.youtube.com/v/8kadky7RaXc" class="ltVideoYouTube" height="355" width="425">

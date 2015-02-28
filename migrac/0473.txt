@@ -3,7 +3,7 @@ Metiendo la uña del pulgar
 <tags>
 
 
-<em>"Uña del pulgar", o </em>thumbnail<em> es una versión reducida de una imagen, usada para ayudar a su organización y reconocimiento. En la era de las imágenes digitales, los motores de b&uacute;squeda visuales y los programas para organizar imágenes normalmente hacen uso de los thumbnails, así como los sistemas operativos y entornos de escritorio recientes <a href="http://es.wikipedia.org/wiki/Thumbnail">[-]</a></em>
+<em>"Uña del pulgar", o </em>thumbnail<em> es una versión reducida de una imagen, usada para ayudar a su organización y reconocimiento. En la era de las imágenes digitales, los motores de búsqueda visuales y los programas para organizar imágenes normalmente hacen uso de los thumbnails, así como los sistemas operativos y entornos de escritorio recientes <a href="http://es.wikipedia.org/wiki/Thumbnail">[-]</a></em>
 
 
 
@@ -19,7 +19,7 @@ Entonces, &iquest;cómo les metí el thumbnail a cada una?
 
 
 
-Luego de buscar un rato por la web (pensé que tenía que haber alg&uacute;n programa que lo hiciera solo y masivo), encontré esta forma (lo más probable es que hayan mil más...).
+Luego de buscar un rato por la web (pensé que tenía que haber algún programa que lo hiciera solo y masivo), encontré esta forma (lo más probable es que hayan mil más...).
 
 
 

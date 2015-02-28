@@ -2,7 +2,7 @@
 Fueron los Sprint de PyCon 2005
 <tags>
 
-Hoy fue el &uacute;ltimo día de Sprint. Mañana ya empieza la Conferencia propiamente dicha.
+Hoy fue el último día de Sprint. Mañana ya empieza la Conferencia propiamente dicha.
 
 Sí me estaba olvidando de alguien a mencionar los más conocidos aquí: Martin von L&ouml;wis, Michael Chermside y Armin Rigo. Y ayer vino Steve Holden, que no es otro que el Chairman de la <a href="http://www.python.org/psf/">PSF</a> (Python Software Foundation).
 
@@ -15,4 +15,4 @@ Una noticia interesante: &iexcl;Me invitaron a EuroPython! (Suecia, fines de Jun
 Razonando mientras escribo, quizás sería interesante armar un Sprint sobre Money, en lugar de una charla, y que más o menos salga ese proyecto definido desde ahí. Podría ser.
 
 <span style="font-style: italic">Actualización: Estuve charlando con Alex Martelli, y llegamos a la conclusión que lo mejor es tener un Open Space (sería como una charla abierta sobre un tema; muy piola para discutir especificaciones) aquí mismo en PyCon, continuar el desarrollo de las especificaciones por la lista luego, y armar un Sprint para implementar Money en EuroPython.</span><br style="font-style: italic" />
-Mi &uacute;ltimo trabajo de los Sprints fue armar la <a href="http://www.taniquetil.com.ar/homedevel/presents/pyar.sxi">presentación de PyAr</a>. Estoy viendo lo de pedir una URL piola, &iexcl;quizás se nos de![@more@] |
+Mi último trabajo de los Sprints fue armar la <a href="http://www.taniquetil.com.ar/homedevel/presents/pyar.sxi">presentación de PyAr</a>. Estoy viendo lo de pedir una URL piola, &iexcl;quizás se nos de![@more@] |
