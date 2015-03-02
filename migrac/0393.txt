@@ -55,7 +55,7 @@ También corregí mucho sobre estilos, tratando de ir hacia la PEP 8 (muchas lin
 
 
 
-Limpieza de debugs: comenté algunos prints, aclaré otros (poniéndole algún título para reconocerlos), saqué algunos repr() (pasé a encodear la info), etc.&nbsp; Ahora es posible hacer un '&gt; out.tmp' para poder estudiar mejor la salida de todo si se dejan algunos prints que generan mucha info.
+Limpieza de debugs: comenté algunos prints, aclaré otros (poniéndole algún título para reconocerlos), saqué algunos repr() (pasé a encodear la info), etc.&nbsp; Ahora es posible hacer un '> out.tmp' para poder estudiar mejor la salida de todo si se dejan algunos prints que generan mucha info.
 
 
 

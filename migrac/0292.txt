@@ -4,15 +4,15 @@ Decimal, binario y el asado
 
 <em>Resulta que era sábado a la noche, no tenía mucho que hacer porque Moni estaba en Bariloche, y hubo una pregunta interesante en la lista de PyAr. Y la respuesta me salió bastante bizarra, en general fue bastante comentada. Motivado por un comentario en la reunión del otro día, la busqué y la releí (por primera vez). Y como me causó gracia, la rescato acá. La pregunta era por qué al redondear 39.285714285714285, el usuario no veía un 39.29, sino algo raro:</em>
 
-&gt; Sin redondear:
-&gt;
-&gt; <font face="courier new,courier">&gt;&gt;&gt; chargeandprop("EEARGPLRGKGDQKSAVSQKPRSRGILH")[1]</font>
-&gt; <font face="courier new,courier">39.285714285714285</font>
-&gt;
-&gt; Con round a 2 decimales:
-&gt;
-&gt; <font face="courier new,courier">&gt;&gt;&gt; round(chargeandprop("EEARGPLRGKGDQKSAVSQKPRSRGILH")[1],2)</font>
-&gt; <font face="courier new,courier">39.289999999999999</font>
+> Sin redondear:
+>
+> <font face="courier new,courier">>>> chargeandprop("EEARGPLRGKGDQKSAVSQKPRSRGILH")[1]</font>
+> <font face="courier new,courier">39.285714285714285</font>
+>
+> Con round a 2 decimales:
+>
+> <font face="courier new,courier">>>> round(chargeandprop("EEARGPLRGKGDQKSAVSQKPRSRGILH")[1],2)</font>
+> <font face="courier new,courier">39.289999999999999</font>
 
 El detalle acá es que te están mostrando un número binario en su forma decimal. &iquest;Por qué en forma decimal? Porque hace rato que tenemos 10 dedos en las manos, y contar en esa base nos es natural. &iquest;Por qué el número es binario? Parecerá arcaico a esta altura, pero seguimos teniendo procesadores que trabajan en forma binaria: a nivel de silicio la FPU (floating point unit) de tu micro guarda el nro en binario.
 
@@ -26,22 +26,22 @@ Ok, el procesador hace algo parecido, pero en binario. Cuando vos en decimal le 
 
 Quizás porque esté programado así, o quizás porque no tiene un asado que atender, la FPU hace su mejor esfuerzo y guarda internamente el número más cercano al "39.29". Y eso es:
 <font face="courier new,courier">
-&gt;&gt;&gt; 39.29
+>>> 39.29
 39.289999999999999</font>
 
 Acá entra Python, quien en el intérprete interactivo, te muestra "la realidad posta posta, patente patente" (en inglés esta frase es distinta). Escribir directamente el nro, es como llamar a la función repr(), quien es lo más fiel posible con el ordenamiento de los átomos en el Universo:
 
-<font face="courier new,courier">&gt;&gt;&gt; repr(39.29)
+<font face="courier new,courier">>>> repr(39.29)
 '39.289999999999999'</font>
 
 Ahora, si vos querés ser engañado, podés decirle a Python que te muestre algo más humano. &iquest;Cómo le decís que te convierta un objeto a su representación en cadena de texto de una forma más "humana"? Con str():
 
-<font face="courier new,courier">&gt;&gt;&gt; str(39.29)
+<font face="courier new,courier">>>> str(39.29)
 '39.29'</font>
 
 Ahí, lo que hace Python, sabiendo en parte cómo funcionan las FPU de nuestra época, y en parte porque aunque vayas ahora a revisar el asado los chorizos están quemados y los chinchulines te apagaron el fuego, es "redondear" ese nro a los quinces dígitos decimales.
 
 Notar que el statement "print" llama automáticamente a str() para convertir los objetos a mostrar:
 
-<font face="courier new,courier">&gt;&gt;&gt; print 39.29
+<font face="courier new,courier">>>> print 39.29
 39.29</font>[@more@] |

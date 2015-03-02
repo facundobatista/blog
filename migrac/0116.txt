@@ -11,7 +11,7 @@ Con los tags, por ejemplo para ordenar fotos, se puede lograr algo como lo sigui
 
 Luego, a las fotos no las <span style="font-style: italic;">ubicamos</span> en un lugar determinado, sino que las <span style="font-style: italic;">marcamos</span> con un tag o varios. Así, si tenemos las fotos del cumpleaños de un primo, podemos marcar esas fotos con los tags de "Cumpleaños" y "Primos".
 
-De esa manera, cuando se <span style="font-style: italic;">navegue</span> por la estructura de árbol, encontraremos dichas fotos tanto en Fotos-&gt;Familia-&gt;Primos como en Fotos-&gt;Fiestas-&gt;Cumpleaños.
+De esa manera, cuando se <span style="font-style: italic;">navegue</span> por la estructura de árbol, encontraremos dichas fotos tanto en Fotos->Familia->Primos como en Fotos->Fiestas->Cumpleaños.
 
 Esto es lo mismo que los enlaces simbólicos a los que estamos acostumbrados en cualquier sistema de archivos que se precie de tal. En dicho caso, el archivo está en un lugar determinado (por ejemplo en "Primos") y en la otra ubicación tenemos un enlace simbólico a ese archivo, por lo que si vamos "Cumpleaños", encontraremos el archivo, aunque realmente no esté ahí.
 

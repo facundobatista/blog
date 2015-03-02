@@ -24,7 +24,7 @@ Este finde vimos con Laura dos películas en video que estaban en la <a href="ht
 
 <span style="font-weight: bold">Citas</span>
 
-<div style="margin-left: 40px">If I engineer code that I expect to be in use for N years, I make damn sure that every internal limit is at least 10x larger than the largest I can conceive of a user making reasonable use of at the end of those N years. The invariable result is that the N years pass, and fewer than half of the users have bumped into the limit &lt;0.5 wink&gt;.
+<div style="margin-left: 40px">If I engineer code that I expect to be in use for N years, I make damn sure that every internal limit is at least 10x larger than the largest I can conceive of a user making reasonable use of at the end of those N years. The invariable result is that the N years pass, and fewer than half of the users have bumped into the limit &lt;0.5 wink>.
 <span style="font-style: italic">Tim Peters, 11 Nov 1999 </span>
 
 When Jim [Fulton] says "tricky" it means your brain could explode.

@@ -35,7 +35,7 @@ Entonces, como nosotros para desarrollo necesitamos esto corregido, me puse a ag
 
 
 
-Bajé las fuentes limpias del paquete (<span style="font-family: courier new,courier">apt-get source python-fuse</span>). Hice esto en un directorio vacío y ví que aparte del directorio con las fuentes, aparecieron unos archivos de control, los cuales borré prestamente porque no los iba a necesitar. Copié el parche que había creado al directorio correspondiente de las fuentes (<span style="font-family: courier new,courier">debian/patches</span>), agregando el nombre de ese parche en el archivo <span style="font-family: courier new,courier">debian/patches/00list</span>. Finalmente anoté una entrada en el changelog de las fuentes (esto se hace con un programita auxiliar, ya que deben tener un formato específico; en mi caso hice <span style="font-family: courier new,courier">dch -D &lt;distro&gt; -v &lt;version_del_paquete&gt; "mensaje para el changelog"</span>).
+Bajé las fuentes limpias del paquete (<span style="font-family: courier new,courier">apt-get source python-fuse</span>). Hice esto en un directorio vacío y ví que aparte del directorio con las fuentes, aparecieron unos archivos de control, los cuales borré prestamente porque no los iba a necesitar. Copié el parche que había creado al directorio correspondiente de las fuentes (<span style="font-family: courier new,courier">debian/patches</span>), agregando el nombre de ese parche en el archivo <span style="font-family: courier new,courier">debian/patches/00list</span>. Finalmente anoté una entrada en el changelog de las fuentes (esto se hace con un programita auxiliar, ya que deben tener un formato específico; en mi caso hice <span style="font-family: courier new,courier">dch -D &lt;distro> -v &lt;version_del_paquete> "mensaje para el changelog"</span>).
 
 
 
@@ -43,7 +43,7 @@ Ya con las fuentes modificadas, armé los archivos de control y paquete como par
 
 
 
-Finalmente, para subir el paquete al Launchpad: <span style="font-family: courier new,courier">dput -f &lt;host&gt; *.changes</span>
+Finalmente, para subir el paquete al Launchpad: <span style="font-family: courier new,courier">dput -f &lt;host> *.changes</span>
 
 
 

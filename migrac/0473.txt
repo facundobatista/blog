@@ -23,11 +23,11 @@ Luego de buscar un rato por la web (pensé que tenía que haber algún programa 
 
 
 
-<span style="font-family: courier new,courier">&nbsp;&nbsp;&nbsp; convert foto_original.jpg -thumbnail '200x200&gt;' -unsharp 0x.5 thumbnail.jpg</span>
+<span style="font-family: courier new,courier">&nbsp;&nbsp;&nbsp; convert foto_original.jpg -thumbnail '200x200>' -unsharp 0x.5 thumbnail.jpg</span>
 
 
 
-<em>convert</em> es uno de los utilitarios de la fantástica <a href="http://www.imagemagick.org/script/index.php">ImageMagick</a>, toma mi <span style="font-family: courier new,courier">foto_original.jpg</span> y me deja <span style="font-family: courier new,courier">thumbnail.jpg</span>. El <span style="font-family: courier new,courier">-thumbnail</span> le dice que voy a generar justamente un thumbnail, lo cual aparte de cambiar el tamaño hace otras cosas (por ejemplo, le saca toda la metadata interna, para que ocupe menos). El <span style="font-family: courier new,courier">'200x200&gt;'</span> es una notación de ImageMagick que indica que la imagen resultante tiene que caber en una zona de 200 por 200 (o sea, me la reduce manteniendo el factor de forma hasta que el alto o el ancho ocupen como mucho 200 pixeles). El <span style="font-family: courier new,courier">-unsharp 0x.5</span> lo recomiendan para mejorar la visualización de la imagen pequeñita. En <a href="http://www.imagemagick.org/Usage/thumbnails/">esta página</a> tienen otros detalles y temas a considerar al generar thumbnails (que no se aplican en mi caso).
+<em>convert</em> es uno de los utilitarios de la fantástica <a href="http://www.imagemagick.org/script/index.php">ImageMagick</a>, toma mi <span style="font-family: courier new,courier">foto_original.jpg</span> y me deja <span style="font-family: courier new,courier">thumbnail.jpg</span>. El <span style="font-family: courier new,courier">-thumbnail</span> le dice que voy a generar justamente un thumbnail, lo cual aparte de cambiar el tamaño hace otras cosas (por ejemplo, le saca toda la metadata interna, para que ocupe menos). El <span style="font-family: courier new,courier">'200x200>'</span> es una notación de ImageMagick que indica que la imagen resultante tiene que caber en una zona de 200 por 200 (o sea, me la reduce manteniendo el factor de forma hasta que el alto o el ancho ocupen como mucho 200 pixeles). El <span style="font-family: courier new,courier">-unsharp 0x.5</span> lo recomiendan para mejorar la visualización de la imagen pequeñita. En <a href="http://www.imagemagick.org/Usage/thumbnails/">esta página</a> tienen otros detalles y temas a considerar al generar thumbnails (que no se aplican en mi caso).
 
 
 
@@ -55,7 +55,7 @@ Obviamente no iba a ejecutar esos dos comandos uno por uno para cada imagen, as�
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; echo $foto;
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; convert $foto -thumbnail '200x200&gt;' -unsharp 0x.5 $foto.thumb;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; convert $foto -thumbnail '200x200>' -unsharp 0x.5 $foto.thumb;
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; exiftool '-ThumbnailImage&lt;='$foto.thumb $foto;
 

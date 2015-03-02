@@ -68,7 +68,7 @@ Generamos el <em>.po</em>, renombrando la base del archivo para incorporarle las
 <blockquote>
 	<span style="font-family: courier new,courier">cd locale</span>
 
-	<span style="font-family: courier new,courier">msgmerge core_es.po core.pot &gt; /tmp/po_temporal</span>
+	<span style="font-family: courier new,courier">msgmerge core_es.po core.pot > /tmp/po_temporal</span>
 
 	<span style="font-family: courier new,courier">mv /tmp/po_temporal core_es.po</span>
 

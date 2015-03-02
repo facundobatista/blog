@@ -78,7 +78,7 @@ Presten atención a los comandos que ejecutan, especialmente a los cambios de ".
 
 - Actualizar el <span style="font-family: courier new,courier;">PPA</span> (se puede crear el <span style="font-family: courier new,courier;">PPA</span> desde tu página personal de Launchpad):
 
-<span style="font-family: courier new,courier;">&nbsp;&nbsp;&nbsp; dput ppa:&lt;nombre_de_ppa_que_corresponda&gt; tuproyecto_X.Y.Z-0ubuntu1_source.changes</span>
+<span style="font-family: courier new,courier;">&nbsp;&nbsp;&nbsp; dput ppa:&lt;nombre_de_ppa_que_corresponda> tuproyecto_X.Y.Z-0ubuntu1_source.changes</span>
 
 - Luego de unos minutos, debería aparecer acá:
 

@@ -58,7 +58,7 @@ Corriendo al normalize-mp3 en cada directorio, considerando para el ejemplo que 
 
 
 
-<span style="font-family: courier new,courier">&nbsp;&gt;&gt;&gt; (40+60) / 2
+<span style="font-family: courier new,courier">&nbsp;>>> (40+60) / 2
 
 50</span>
 
@@ -68,7 +68,7 @@ Corriendo al normalize-mp3 en cada directorio, considerando para el ejemplo que 
 
 
 
-<span style="font-family: courier new,courier">&nbsp;&gt;&gt;&gt; (70+90)/2
+<span style="font-family: courier new,courier">&nbsp;>>> (70+90)/2
 
 75</span>
 

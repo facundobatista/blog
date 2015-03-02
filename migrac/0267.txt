@@ -12,23 +12,23 @@ Vistas:
 
 Se me ocurrió fijarme no sólo cuantas películas tenía pendientes, sino la distribución en función de <em>cuándo</em> las anoté para verlas. Me quedó un ejemplo tan útil de lo sencillo que es Python para tirar esas 10 lineas que le permiten a uno encontrar lo que está buscando sin tener que complicarse la vida. &iexcl;Ni siquiera tuve que hacer un programa! Directamente use el intérprete interactivo, abrí el archivo mío de películas, con una expresión regular saqué ese cuando de cada linea que correspondía, y los conté usando un diccionario:
 
-<blockquote><font face="andale mono,times"><font face="courier new,courier">&gt;&gt;&gt; import re
-&gt;&gt;&gt; coinc = re.compile(".*&lt;i&gt;((.*))&lt;/i&gt;.*")
-&gt;&gt;&gt; resum = {}
-&gt;&gt;&gt; for linea in open("peliculas.html"):
+<blockquote><font face="andale mono,times"><font face="courier new,courier">>>> import re
+>>> coinc = re.compile(".*&lt;i>((.*))&lt;/i>.*")
+>>> resum = {}
+>>> for linea in open("peliculas.html"):
 ...&nbsp;&nbsp;&nbsp;&nbsp; m = coinc.match(linea)
 ...&nbsp;&nbsp;&nbsp;&nbsp; if m:
 ...&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; cuando = m.groups()[0]
 ...&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; resum[cuando] = resum.get(cuando, 0) + 1
 ...
-&gt;&gt;&gt; sum(resum.values())
+>>> sum(resum.values())
 70
-&gt;&gt;&gt; print "n".join("%-13s %2d" % x for x in resum.items())
+>>> print "n".join("%-13s %2d" % x for x in resum.items())
 anterior&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 38
 15-Jun-2007&nbsp;&nbsp;&nbsp; 5
 26-Mar-2007&nbsp;&nbsp;&nbsp; 9
 02-Dic-2006&nbsp;&nbsp; 13
 26-Jan-2007&nbsp;&nbsp;&nbsp; 5
-&gt;&gt;&gt; </font>
+>>> </font>
 </font></blockquote>
 Al final sumé los valores del diccionario: me quedan 70 pelis pendientes, y luego mostré el contenido del diccionario: 38 son de "anterior" (antes de que empiece a ponerles justamente cuando, :p).[@more@] |

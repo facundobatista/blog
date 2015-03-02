@@ -16,23 +16,23 @@ Le puse un número a cada ítem para que sea más fácil referenciar en cualquie
 
 01. Debería soportar que le pase un directorio (default a '.') y que descubra todo ahí y para abajo:
 
-<span style="font-family: courier new,courier;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $ &lt;testrunner&gt; project/tests/</span>
-<span style="font-family: courier new,courier;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $ &lt;testrunner&gt;</span>
+<span style="font-family: courier new,courier;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $ &lt;testrunner> project/tests/</span>
+<span style="font-family: courier new,courier;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $ &lt;testrunner></span>
 
 02. Debería soportar que le pase un archivo, y que corra sólo los tests de ese archivo:
 
-<span style="font-family: courier new,courier;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $ &lt;testrunner&gt; project/tests/test_stuff.py</span>
+<span style="font-family: courier new,courier;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $ &lt;testrunner> project/tests/test_stuff.py</span>
 
 03. Debería soportar que le pase "paths de import de Python", y que corra sólo tests de ese paquete, módulo, clase, o lo que corresponda:
 
-<span style="font-family: courier new,courier;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $ &lt;testrunner&gt; project.tests</span>
-<span style="font-family: courier new,courier;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $ &lt;testrunner&gt; project.tests.test_stuff</span>
-<span style="font-family: courier new,courier;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $ &lt;testrunner&gt; project.tests.test_stuff.StuffTestCase</span>
-<span style="font-family: courier new,courier;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $ &lt;testrunner&gt; project.tests.test_stuff.StuffTestCase.test_feature</span>
+<span style="font-family: courier new,courier;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $ &lt;testrunner> project.tests</span>
+<span style="font-family: courier new,courier;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $ &lt;testrunner> project.tests.test_stuff</span>
+<span style="font-family: courier new,courier;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $ &lt;testrunner> project.tests.test_stuff.StuffTestCase</span>
+<span style="font-family: courier new,courier;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $ &lt;testrunner> project.tests.test_stuff.StuffTestCase.test_feature</span>
 
 04. Debería poder pasarle una regex para que corra sólo lo que re.search() encuentra en el path completo del método:
 
-<span style="font-family: courier new,courier;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $ &lt;testrunner&gt; project/tests/ --search feature</span>
+<span style="font-family: courier new,courier;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $ &lt;testrunner> project/tests/ --search feature</span>
 <span style="font-family: courier new,courier;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; correría:</span>
 <span style="font-family: courier new,courier;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; test_feature</span>
 <span style="font-family: courier new,courier;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; test_feature_1</span>
@@ -40,7 +40,7 @@ Le puse un número a cada ítem para que sea más fácil referenciar en cualquie
 <span style="font-family: courier new,courier;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; no correría:</span>
 <span style="font-family: courier new,courier;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; test_crash</span>
 
-<span style="font-family: courier new,courier;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $ &lt;testrunner&gt; project/tests/ --search feature$</span>
+<span style="font-family: courier new,courier;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $ &lt;testrunner> project/tests/ --search feature$</span>
 <span style="font-family: courier new,courier;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; correría:</span>
 <span style="font-family: courier new,courier;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; test_feature</span>
 <span style="font-family: courier new,courier;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; no correría:</span>
@@ -54,7 +54,7 @@ Le puse un número a cada ítem para que sea más fácil referenciar en cualquie
 
 07. Debería mostrar los resultados usando los nombres de paquete/módulo/clase/método, en una jerarquía de árbol o en la misma linea:
 
-<span style="font-family: courier new,courier;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $ &lt;testrunner&gt; project/tests/test_stuff.py</span>
+<span style="font-family: courier new,courier;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $ &lt;testrunner> project/tests/test_stuff.py</span>
 <span style="font-family: courier new,courier;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; project.tests.test_stuff</span>
 <span style="font-family: courier new,courier;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; StuffTestCase</span>
 <span style="font-family: courier new,courier;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; test_feature_1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; OK</span>
@@ -62,7 +62,7 @@ Le puse un número a cada ítem para que sea más fácil referenciar en cualquie
 <span style="font-family: courier new,courier;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; OtherStuffTestCase</span>
 <span style="font-family: courier new,courier;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; test_feature_A&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; OK</span>
 
-<span style="font-family: courier new,courier;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $ &lt;testrunner&gt; project/tests/test_stuff.py</span>
+<span style="font-family: courier new,courier;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $ &lt;testrunner> project/tests/test_stuff.py</span>
 <span style="font-family: courier new,courier;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; OK&nbsp;&nbsp;&nbsp; project.tests.test_stuff.StuffTestCase.test_feature_1</span>
 <span style="font-family: courier new,courier;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; FAIL&nbsp; project.tests.test_stuff.StuffTestCase.test_feature_2</span>
 <span style="font-family: courier new,courier;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; OK&nbsp;&nbsp;&nbsp; project.tests.test_stuff.OtherStuffTestCase.test_feature_A</span>

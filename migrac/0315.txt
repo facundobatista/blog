@@ -8,7 +8,7 @@ Si ejecutamos el siguiente script en PHP, intentando sumar 3 y 058...
 <blockquote><font face="courier new,courier">&lt;?
 $r = 3 + 058;
 echo $r."n";
-?&gt;
+?>
 </font></blockquote>..., el tipo muestra "8".
 
 La realidad es que estamos haciendo algo mal, pero PHP te oculta el error, sigue como si nada, y el programa sigue trabajando con fruta.

@@ -29,25 +29,25 @@ En otra terminal, ejecuté:
 Y eso me abrió una linea de comandos a través de la cual me conecté a mi programa Python que estaba ejecutando en la otra ventana (sí, a SyncDaemon):
 
 <blockquote>
-	<span style="font-family: courier new,courier">&lt;Monitor&gt; </span>
+	<span style="font-family: courier new,courier">&lt;Monitor> </span>
 
 	<span style="font-family: courier new,courier">*** Connection 1 opened ***</span>
 
-	<span style="font-family: courier new,courier">&lt;Monitor&gt; lc</span>
+	<span style="font-family: courier new,courier">&lt;Monitor> lc</span>
 
 	<span style="font-family: courier new,courier">CID PID&nbsp; ARGV</span>
 
 	<span style="font-family: courier new,courier">&nbsp; 1 4451 ['bin/ubuntuone-syncdaemon', '--debug-heapy_monitor']</span>
 
-	<span style="font-family: courier new,courier">&lt;Monitor&gt; sc 1</span>
+	<span style="font-family: courier new,courier">&lt;Monitor> sc 1</span>
 
-	<span style="font-family: courier new,courier">Remote connection 1. To return to Monitor, type &lt;Ctrl-C&gt; or .&lt;RETURN&gt;</span>
+	<span style="font-family: courier new,courier">Remote connection 1. To return to Monitor, type &lt;Ctrl-C> or .&lt;RETURN></span>
 
-	<span style="font-family: courier new,courier">&lt;Annex&gt; h</span>
+	<span style="font-family: courier new,courier">&lt;Annex> h</span>
 
 	
 
-	<span style="font-family: courier new,courier">Documented commands (type help &lt;topic&gt;):</span>
+	<span style="font-family: courier new,courier">Documented commands (type help &lt;topic>):</span>
 
 	<span style="font-family: courier new,courier">========================================</span>
 
@@ -55,7 +55,7 @@ Y eso me abrió una linea de comandos a través de la cual me conecté a mi prog
 
 	
 
-	<span style="font-family: courier new,courier">&lt;Annex&gt; stat</span>
+	<span style="font-family: courier new,courier">&lt;Annex> stat</span>
 
 	<span style="font-family: courier new,courier">Target overview</span>
 
@@ -75,19 +75,19 @@ Y eso me abrió una linea de comandos a través de la cual me conecté a mi prog
 Abrí una consola interactiva, y le dije que me tomara un snapshot del <span style="font-family: courier new,courier">heap</span>:
 
 <blockquote>
-	<span style="font-family: courier new,courier">&lt;Annex&gt; int</span>
+	<span style="font-family: courier new,courier">&lt;Annex> int</span>
 
 	<span style="font-family: courier new,courier">Remote interactive console. To return to Annex, type '-'.</span>
 
-	<span style="font-family: courier new,courier">&gt;&gt;&gt; h1 = hp.heap()</span>
+	<span style="font-family: courier new,courier">>>> h1 = hp.heap()</span>
 
 </blockquote>
 Luego hice tiré un archivo con contenido a Ubuntu One, volví a pedir el <span style="font-family: courier new,courier">heap</span>. Y miré las diferencias:
 
 <blockquote>
-	<span style="font-family: courier new,courier">&gt;&gt;&gt; h2 = hp.heap()</span>
+	<span style="font-family: courier new,courier">>>> h2 = hp.heap()</span>
 
-	<span style="font-family: courier new,courier">&gt;&gt;&gt; h2.diff(h1)</span>
+	<span style="font-family: courier new,courier">>>> h2.diff(h1)</span>
 
 	<span style="font-family: courier new,courier">Summary of difference operation (A-B).</span>
 
@@ -131,9 +131,9 @@ Luego hice tiré un archivo con contenido a Ubuntu One, volví a pedir el <span 
 Seguí haciendo unos experimentos, y llegó un punto en que ciertos elementos no deberían estar más en memoria, pero estaban. Lo más piola es que pude ver <em>dónde</em>:
 
 <blockquote>
-	<span style="font-family: courier new,courier">&gt;&gt;&gt; markers = h5[39]</span>
+	<span style="font-family: courier new,courier">>>> markers = h5[39]</span>
 
-	<span style="font-family: courier new,courier">&gt;&gt;&gt; markers</span>
+	<span style="font-family: courier new,courier">>>> markers</span>
 
 	<span style="font-family: courier new,courier">Partition of a set of 241 objects. Total size = 18316 bytes.</span>
 
@@ -141,7 +141,7 @@ Seguí haciendo unos experimentos, y llegó un punto en que ciertos elementos no
 
 	<span style="font-family: courier new,courier">&nbsp;&nbsp;&nbsp;&nbsp; 0&nbsp;&nbsp;&nbsp; 241 100&nbsp;&nbsp;&nbsp; 18316 100&nbsp;&nbsp;&nbsp;&nbsp; 18316 100 ubuntuone.syncdaemon.marker.MDMarker</span>
 
-	<span style="font-family: courier new,courier">&gt;&gt;&gt; markers.referrers</span>
+	<span style="font-family: courier new,courier">>>> markers.referrers</span>
 
 	<span style="font-family: courier new,courier">Partition of a set of 2 objects. Total size = 6332 bytes.</span>
 
@@ -151,7 +151,7 @@ Seguí haciendo unos experimentos, y llegó un punto en que ciertos elementos no
 
 	<span style="font-family: courier new,courier">&nbsp;&nbsp;&nbsp;&nbsp; 1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1&nbsp; 50&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 52&nbsp;&nbsp; 1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 6332 100 collections.deque</span>
 
-	<span style="font-family: courier new,courier">&gt;&gt;&gt; markers.referrers[0].referrers</span>
+	<span style="font-family: courier new,courier">>>> markers.referrers[0].referrers</span>
 
 	<span style="font-family: courier new,courier">Partition of a set of 1 object. Total size = 136 bytes.</span>
 
@@ -159,7 +159,7 @@ Seguí haciendo unos experimentos, y llegó un punto en que ciertos elementos no
 
 	<span style="font-family: courier new,courier">&nbsp;&nbsp;&nbsp;&nbsp; 0&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1 100&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 136 100&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 136 100 dict of ubuntuone.syncdaemon.action_queue.DeferredMap</span>
 
-	<span style="font-family: courier new,courier">&gt;&gt;&gt; markers.referrers[1].referrers</span>
+	<span style="font-family: courier new,courier">>>> markers.referrers[1].referrers</span>
 
 	<span style="font-family: courier new,courier">Partition of a set of 1 object. Total size = 520 bytes.</span>
 

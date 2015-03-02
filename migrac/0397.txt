@@ -80,7 +80,7 @@ Lo siguiente es el código, con las pruebas para los ejemplos anteriores:
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;res = car
 
-&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #a52a2a"><strong>elif</strong></span>&nbsp;decomp.startswith("<span style="color: #ff00ff">&lt;compat&gt;</span>"):
+&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #a52a2a"><strong>elif</strong></span>&nbsp;decomp.startswith("<span style="color: #ff00ff">&lt;compat></span>"):
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #0000ff"># compatibilidad</span>
 
@@ -137,4 +137,4 @@ Hay formas piolas de lograr esto (creo que la mejor es usando la <a href="http:/
 
 
 
-Lo bueno de este tipo de procesamiento, sin embargo, es que nos ahorra el anterior (ya que encontraría una palabra con '&Ccedil;' aunque escribamos 'C', sólo porque son parecidas). Anyway... se los dejo como tarea para el hogar (o para el <a href="http://www.python.com.ar/moin/PyCamp/2009">PyCamp</a> de este año &lt;guiño&gt;). |
+Lo bueno de este tipo de procesamiento, sin embargo, es que nos ahorra el anterior (ya que encontraría una palabra con '&Ccedil;' aunque escribamos 'C', sólo porque son parecidas). Anyway... se los dejo como tarea para el hogar (o para el <a href="http://www.python.com.ar/moin/PyCamp/2009">PyCamp</a> de este año &lt;guiño>). |

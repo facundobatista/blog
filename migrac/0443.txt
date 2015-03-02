@@ -125,11 +125,11 @@ md0 : active raid1 sdb5[1] sda1[0]
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 97659008 blocks [2/2] [UU]
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [&gt;....................]&nbsp; resync =&nbsp; 1.0% (1036096/97659008) finish=26.4min speed=60946K/sec
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [>....................]&nbsp; resync =&nbsp; 1.0% (1036096/97659008) finish=26.4min speed=60946K/sec
 
 
 
-unused devices: &lt;none&gt;</span>
+unused devices: &lt;none></span>
 
 
 
@@ -217,7 +217,7 @@ Así que le dije al programita que administra el RAID que busque en lo que tiene
 
 
 
-<span style="font-family: courier new,courier">sudo mdadm --examine --scan &gt;&gt; /etc/mdadm/mdadm.conf</span>
+<span style="font-family: courier new,courier">sudo mdadm --examine --scan >> /etc/mdadm/mdadm.conf</span>
 
 
 
@@ -249,4 +249,4 @@ Entonces, todo lo que hice fue poner unas llamadas a este programita en mi cront
 
 
 
-<span style="font-family: courier new,courier">0 3 * * * SSH_AUTH_SOCK=$(find /tmp -name 'socket.ssh' -user $USER 2&gt;/dev/null); export SSH_AUTH_SOCK; rdiff-backup ...</span> |
+<span style="font-family: courier new,courier">0 3 * * * SSH_AUTH_SOCK=$(find /tmp -name 'socket.ssh' -user $USER 2>/dev/null); export SSH_AUTH_SOCK; rdiff-backup ...</span> |

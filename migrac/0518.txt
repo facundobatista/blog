@@ -17,14 +17,14 @@ Igual, no importa la ubicación exacta: usando distutils (u otras alternativas) 
 
 &iquest;Pero qué pasa si no es una biblioteca sino un programa? El primer detalle es que necesitamos un <em>ejecutable</em> que arranque nuestro programa. Distutils y amigos tienen esto bastante bien manejado, se les puede especificar un <em>script</em>, y terminan instalando todo de la siguiente manera:
 
-<span style="font-family: courier new,courier;">&nbsp; script -&gt; /usr/bin/</span>
+<span style="font-family: courier new,courier;">&nbsp; script -> /usr/bin/</span>
 <span style="font-family: courier new,courier;">&nbsp; todo el resto /usr/lib/python2.6/dist-packages/ (o similar)</span>
 
 Hasta acá todo bien, &iquest;no? No. Resulta que nuestro programa tiene imágenes, archivos de audio, etc, y está "mal visto" meter esos archivos "de datos" dentro del directorio de bibliotecas de Python. Entonces, lo que recomiendan por ahí es:
 
-<span style="font-family: courier new,courier;">&nbsp; script -&gt; /usr/bin/</span>
-<span style="font-family: courier new,courier;">&nbsp; archivos de datos -&gt; /usr/share/</span>
-<span style="font-family: courier new,courier;">&nbsp; código python -&gt; /usr/lib/python2.6/dist-packages/ (o similar)</span>
+<span style="font-family: courier new,courier;">&nbsp; script -> /usr/bin/</span>
+<span style="font-family: courier new,courier;">&nbsp; archivos de datos -> /usr/share/</span>
+<span style="font-family: courier new,courier;">&nbsp; código python -> /usr/lib/python2.6/dist-packages/ (o similar)</span>
 
 Esto ya no es tan fácil de lograr, porque la distribución de archivos de datos es como un parche en los sistemas de distribución de bibliotecas.
 
@@ -32,8 +32,8 @@ Además, si nos vamos a poner quisquillosos de no meter archivos de datos en el 
 
 Entonces me embarqué en el siguiente capricho: quería que la distribución de mi programa vaya a parar a:
 
-<span style="font-family: courier new,courier;">&nbsp; script -&gt; /usr/bin/</span>
-<span style="font-family: courier new,courier;">&nbsp; todo el resto -&gt; /usr/share/</span>
+<span style="font-family: courier new,courier;">&nbsp; script -> /usr/bin/</span>
+<span style="font-family: courier new,courier;">&nbsp; todo el resto -> /usr/share/</span>
 
 Los archivos de datos, por supuesto, mezclados con "todo el resto".
 

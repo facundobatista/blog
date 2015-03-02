@@ -8,5 +8,5 @@ Resulta que tengo en MySQL una tabla con varios datos, de distintos tipos, y una
 
 
 <pre>
-mysql&gt; describe prueba;
+mysql> describe prueba;
 +-----------+-------------+------+-----+--------+-------+

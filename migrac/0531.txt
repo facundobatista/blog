@@ -20,10 +20,10 @@ Tenemos que probar que podamos arrancar nuestro sistema desde el directorio padr
 <span style="font-family: courier new,courier;">facundo@exopus:~/prueba$ python</span>
 <span style="font-family: courier new,courier;">Python 2.7.1+ (r271:86832, Apr 11 2011, 18:05:24)</span>
 <span style="font-family: courier new,courier;">...</span>
-<span style="font-family: courier new,courier;">&gt;&gt;&gt; import proyecto.principal</span>
-<span style="font-family: courier new,courier;">&gt;&gt;&gt; proyecto.principal.run()</span>
+<span style="font-family: courier new,courier;">>>> import proyecto.principal</span>
+<span style="font-family: courier new,courier;">>>> proyecto.principal.run()</span>
 <span style="font-family: courier new,courier;">Arrancamos!</span>
-<span style="font-family: courier new,courier;">&gt;&gt;&gt;</span>
+<span style="font-family: courier new,courier;">>>></span>
 
 Una vez que lo logremos ejecutar así, tenemos que&nbsp; poner ese mismo código en un archivo con nombre <span style="font-family: courier new,courier;">__main__.py</span> en el directorio padre de nuestro proyecto:
 
@@ -53,7 +53,7 @@ Probamos nuevamente que, hasta acá, funcione todo correctamente:
 
 Finalmente, metemos todo eso adentro de un binario, indicando que se va a interpretar con Python, y haciéndolo ejecutable:
 
-<span style="font-family: courier new,courier;">facundo@exopus:~/prueba$ ( echo '#!/usr/bin/env python'; cat proyecto.zip ) &gt; miproyecto</span>
+<span style="font-family: courier new,courier;">facundo@exopus:~/prueba$ ( echo '#!/usr/bin/env python'; cat proyecto.zip ) > miproyecto</span>
 <span style="font-family: courier new,courier;">facundo@exopus:~/prueba$ chmod +x miproyecto</span>
 
 &iexcl;Ya está! Ahora podemos ejecutar ese binario, como cualquier otro binario, y realmente estaremos ejecutando nuestro proyecto Python:

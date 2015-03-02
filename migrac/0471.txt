@@ -99,7 +99,7 @@ Veo tres alternativas:
 
 
 
-<span style="font-family: courier new,courier">&nbsp; vncrec -depth 16 &lt;maquinadisertante&gt; -record /dev/stdout | transcode -x vnc -i /dev/stdin -y xvid | ffmpeg -i - - target ntsc-dv salida.dv</span>
+<span style="font-family: courier new,courier">&nbsp; vncrec -depth 16 &lt;maquinadisertante> -record /dev/stdout | transcode -x vnc -i /dev/stdin -y xvid | ffmpeg -i - - target ntsc-dv salida.dv</span>
 
 
 

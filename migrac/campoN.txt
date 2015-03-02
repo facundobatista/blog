@@ -19,5 +19,5 @@ Sin poder creerlo, fui a la base de datos, a mano, y tiré la siguiente consulta
 
 <pre>
 
-mysql&gt; SELECT * FROM prueba where tra_id=20060905093655001974;
+mysql> SELECT * FROM prueba where tra_id=20060905093655001974;
 +----------------------+----------+--------+------------+

@@ -8,7 +8,7 @@ A partír de esa discusión, yo me pregunté "&iquest;Cómo puedo saber la ubica
 
 Para ayudarme con ese análisis, hice una herramienta que a partir de la info en SourceForge arma un cuadro resumen, tanto de los <a href="http://www.taniquetil.com.ar/facundo/py_patchs.html">patchs</a> como de los <a href="http://www.taniquetil.com.ar/facundo/py_bugs.html">bugs</a>.
 
-Agregué ambos enlaces en la barrita de la derecha ( ---&gt; ).
+Agregué ambos enlaces en la barrita de la derecha ( ---> ).
 
 Mi idea es actualizarlos periódicamente (algo así como una vez por día, al final del html tienen la fecha y hora de actualización).
 

@@ -42,6 +42,6 @@ Indeed, when I design my killer language, the identifiers "foo" and "bar" will b
 Two things I learned for sure during a particularly intense acid trip in my own lost youth: (1) everything is a trivial special case of something else; and, (2) death is a bunch of blue spheres.
 <span style="font-style: italic">Tim Peters, 1 May 1998</span>
 
-OO styles help in part because they make it easier to redo large parts over, or, when the moon is shining just right, to steal large parts from someone else. Python helps in many additional ways regardless of style, not least of which in that it hurts less to throw away 50 lines of code than 5,000 &lt;0.5 wink&gt;. The pains, and joys, of programming are qualitatively the same under Python. There's less pain less often, and joy comes quicker. And that's worth a whole lot.
+OO styles help in part because they make it easier to redo large parts over, or, when the moon is shining just right, to steal large parts from someone else. Python helps in many additional ways regardless of style, not least of which in that it hurts less to throw away 50 lines of code than 5,000 &lt;0.5 wink>. The pains, and joys, of programming are qualitatively the same under Python. There's less pain less often, and joy comes quicker. And that's worth a whole lot.
 <span style="font-style: italic">Tim Peters, 5 Jun 1998</span>
 </div>[@more@] |

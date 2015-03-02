@@ -1,75 +1,3 @@
-|         20 | 2005-01-05 12:52:34 | published  |                    6 | El poder de las herramientas correctas                  |
-Esto lo escribo solamente como un ejemplo redondito del porqué una plataforma Unix o Linux es mucho más poderosa que una plataforma Windows. Ejemplos como este se suceden varias veces al día; el tiempo ganado ampliamente supera el invertido para aprender estas herramientas.
-
-El trabajo que tenía que realizar era, de un archivo de log, saber cuales <span style="font-style: italic;">LAs</span> se estaban supervisando. No entraré en detalle acá de qué significa una <span style="font-style: italic;">LA</span>, pero consideren que se representa como un número. En otras palabras, tenía que extraer de un log cuales de esos "números" existían.
-
-El log en cuestión estaba en un archivo que pesaba 333MB. Sí, un archivo de texto de 333 <span style="font-weight: bold;">Megas</span>. ¿Cantidad de lineas del archivo? Más de cinco millones.
-
-Por supuesto, no me acordaba del formato interno del archivo, entonces debía ver algunas lineas del mismo para recordármelo. Piensen un segundo cómo editarían un archivo de esta magnitud en Windows. ¿Ya lo pensaron? Vuélvanlo a considerar, y sigan leyendo luego de que se den cuenta de cuantas veces van a tener que reiniciar la PC hasta poder terminar de trabajarlo.
-
-Bueno, en Pytonisa (que es el Linux que tengo instalado en la oficina) hice un "<span style="font-family: courier new,courier,monospace;">head statlogs_20050102.txt</span>", y me mostró instantáneamente las primeras diez lineas del archivo. Allí pude ver cual era el formato:
-
-<div style="margin-left: 40px;"><span style="font-family: courier new,courier,monospace;">15842;S;01158353525;15842;Message delivered;00:00</span><br style="font-family: courier new,courier,monospace;" /><span style="font-family: courier new,courier,monospace;">15842;S;02616502229;15842;Message delivered;00:00</span><br style="font-family: courier new,courier,monospace;" /><span style="font-family: courier new,courier,monospace;">15005;S;02362535926;15005;Message delivered;00:00</span><br style="font-family: courier new,courier,monospace;" /><span style="font-family: courier new,courier,monospace;">15842;S;02616592586;15842;Message delivered;00:00</span><br style="font-family: courier new,courier,monospace;" /><span style="font-family: courier new,courier,monospace;">15842;S;03814423758;15842;Message delivered;00:00</span><br style="font-family: courier new,courier,monospace;" /><span style="font-family: courier new,courier,monospace;">15004;S;01154975858;15004;Message delivered;00:00</span><br style="font-family: courier new,courier,monospace;" /><span style="font-family: courier new,courier,monospace;">15004;S;02652483462;15004;Message delivered;00:00</span><br style="font-family: courier new,courier,monospace;" /><span style="font-family: courier new,courier,monospace;">15005;S;01158335496;15005;Message delivered;00:00</span><br style="font-family: courier new,courier,monospace;" /><span style="font-family: courier new,courier,monospace;">15005;S;01158268262;15005;Message delivered;00:00</span><br style="font-family: courier new,courier,monospace;" /><span style="font-family: courier new,courier,monospace;">15004;S;02914189236;15004;Message delivered;00:00</span>
-</div>
-Yo tenía que ver cuales eran todos los numeros que estaban en la primer columna. ¿Complicado? ¡Para nada! Usé la órden...
-
-<div style="margin-left: 40px;"><span style="font-family: courier new,courier,monospace;">awk -F';' '{print $1}' statlogs_20050102.txt | sort -u</span><br style="font-family: courier new,courier,monospace;" /></div>
-...que me dió el resultado deseado:
-
-<div style="margin-left: 40px;"><span style="font-family: courier new,courier,monospace;">111</span><br style="font-family: courier new,courier,monospace;" /><span style="font-family: courier new,courier,monospace;">15000</span><br style="font-family: courier new,courier,monospace;" /><span style="font-family: courier new,courier,monospace;">15002</span><br style="font-family: courier new,courier,monospace;" /><span style="font-family: courier new,courier,monospace;">15003</span><br style="font-family: courier new,courier,monospace;" /><span style="font-family: courier new,courier,monospace;">15004</span><br style="font-family: courier new,courier,monospace;" /><span style="font-family: courier new,courier,monospace;">(etc)</span>
-</div>
-¡¡en 78 segundos!! ¡¡más de cinco millones de registros!! (consideren que es una PC de escritorio que está siendo compartida por varios usuarios; ya que estamos, les comento que hace 207 días que está prendida, trabajando sin chistar, sin tener que reiniciarla).
-
-Y aún más importante, en este minuto y monedas, yo no tuve que hacer nada: así hubiese tardado diez minutos, trabajó la máquina sola, yo perdí veinte segundos en armar la órden y luego estuve leyendo mails, etc...
-
-¿Cómo habrían hecho esto en Windows?[@more@]
- |
-|         21 | 2005-01-10 11:15:27 | published  |                    0 | Dominación económica                                    |
-Encontré en <a href="http://primates.ximian.com/~miguel/activity-log.php">el blog de Miguel de Icaza</a> la descripción de un libro, "Confessions of an Economic Hit Man", que Miguel describe como (traducido libremente por mí del <a href="http://primates.ximian.com/~miguel/archive/2005/Jan-08.html">artículo original</a>):
-
-<div style="margin-left: 40px;"><span style="font-style: italic;">El libro cuenta la historia de un hombre que es entrenado para convencer a </span><span style="font-style: italic;">países </span><span style="font-style: italic;">del tercer mundo de aceptar grandes prestamos para infraestructura de desarrollo. Esto se hace creando modelos y proyecciones de la prosperidad que tales proyectos le traerán a esos países.</span><br style="font-style: italic;" /><br style="font-style: italic;" /><span style="font-style: italic;">(...) Esta deuda nunca puede ser cancelada y es luego cambiada por tierra, bases militares, o votos en las Naciones Unidas. A cambio, los políticos que aceptan estos términos tienen un incremento de popularidad por traer infraestructura al país.</span><br style="font-style: italic;" /><br style="font-style: italic;" /><span style="font-style: italic;">(...) El libro describe tres etapas para asegurarse que el país contraiga la deuda. El primer paso es convencer a los líderes del </span><span style="font-style: italic;">país </span><span style="font-style: italic;">de los beneficios que traerá a la población y el crecimiento económico que logrará el </span><span style="font-style: italic;">país</span><span style="font-style: italic;">. Si el líder se rehusa, un segundo equipo denominado "chacales" realizan asesinatos puntuales y si esto falla, se envían a los militares.</span><br style="font-style: italic;" /><br style="font-style: italic;" /><span style="font-style: italic;">Cualquier latinoamericano ha sido testigo de estos préstamos, yendo las construcciones y favores especiales a pocas compañías en los últimos veinte años. Este libro ofrece una mirada en los mecanismos internos de este proceso.</span><br style="font-style: italic;" /></div>
-Más allá de que mucho de lo que describe Miguel es cierto, y lo vivimos en Argentina también (en parte por eso me parece loable la inquietud de dejar de depender económicamente del FMI para que no impongan más condiciones, más allá de que no esté del todo de acuerdo con el método para lograrlo que está siguiendo el gobierno actual), no se circunscribe solamente a los últimos veinte años.
-
-Como bien lo cuenta Jorge Lanata en su libro <a href="http://www.uolsinectis.com.ar/biblioteca/especiales/lanata/tomo.htm">Argentinos I</a>, este proceso comenzó aquí hace más de dos siglos, por parte del representante del poder económico en ese tiempo: Inglaterra.
-
-Todavía no leí el tomo II de Argentinos, pero lo tengo en la lista de los próximos que voy a leer.
-[@more@]
- |
-|         22 | 2005-01-19 09:40:15 | published  |                    2 | Quinta reunión de PyAr                                  |
-Se llevó a cabo la quinta reunión de <a href="http://pyar.decode.com.ar/">PyAr</a> con total éxito. Como Mariano (escriba oficial) estaba de vacaciones, recayó en mí la tarea de contarles qué hicimos.
-
-- Charlamos con los nuevos participantes, Leonardo, Octavio, David y Santiago, conociendo lo que hacen, qué hacen en Python, etc. Como nota de color, tuvimos el primer participante que no viene del área de sistemas, sino que es biólogo (Octavio, y usa Python para procesar datos).
-
-- Discutimos el mejor framework para crear un sistema administrativo con interfaz web, tema introducido por Leonardo, cuya necesidad es práctica y surge de su contexto laboral.
-
-- Definimos una cuestión administrativa que teníamos pendiente: ¿qué vamos a hacer con nuestra lista de correo? La decisión final es encontrar una lista que cumpla con nuestras expectativas (que pueda tener nuestro dominio y que tenga archivo) y migrar a ella. Pero antes, nada. Al respecto, yo me llevé como pendiente averiguar que características tienen las listas que puedo hostear en mi sitio.
-
-- Expuse Decimal. Estuvo muy interesante, porque nos poníamos a discutir sobre la curvatura del círculo, que los complejos tienen infinitos todo alrededor, sobre el pelo del gato y la quinta pata del huevo. ¡Y hasta les pude contar como usar el módulo! Realmente me encantó. Ah, de paso:
-
-<div style="margin-left: 40px;"><span style="font-family: courier new,courier,monospace;">&gt;&gt;&gt; from decimal import *</span><br style="font-family: courier new,courier,monospace;" /><span style="font-family: courier new,courier,monospace;">&gt;&gt;&gt; Decimal("-0")</span><br style="font-family: courier new,courier,monospace;" /><span style="font-family: courier new,courier,monospace;">Decimal("-0")</span><br style="font-family: courier new,courier,monospace;" /><span style="font-family: courier new,courier,monospace;">&gt;&gt;&gt; Decimal("0")</span><br style="font-family: courier new,courier,monospace;" /><span style="font-family: courier new,courier,monospace;">Decimal("0")</span><br style="font-family: courier new,courier,monospace;" /><span style="font-family: courier new,courier,monospace;">&gt;&gt;&gt; Decimal("0") == Decimal("-0")</span><br style="font-family: courier new,courier,monospace;" /><span style="font-family: courier new,courier,monospace;">True</span><br style="font-family: courier new,courier,monospace;" /></div>
-- Definimos el tema del Primer Sprint PyAr: vamos a hacer el Administrador de Colas de Mensajes (nombre no oficial), con interfaces SMTP (mail), SMPP (SMSs o mensajes cortos) y MM7 (MMSs o mensajes multimedia). La primer reunión será el Jueves 27 de Enero en el mismo lugar que hicimos la reunión, ya que comenzaremos con el diseño del sistema, y no necesitamos más que papel, lápiz, y buenas ideas (y, por supuesto, cerveeeeza).
-
-[@more@]
- |
-|         23 | 2005-01-20 14:50:03 | published  |                    0 | ¿Podré finalmente reemplazar el Outlook?                |
-
-En la oficina lamentablemente no me queda otra opción que usar el
-Outlook, ya que Unifón utiliza el Exchange como servidor de correo.
-Pero ayer leí la noticia de que <a href="http://www.novell.com/linux/">Novell/SuSE/Ximian</a> había contratado a <a href="http://www.saunalahti.fi/tlillqvi/">Tor Lilqvist</a> para llevar su cliente de correo <a href="http://www.gnome.org/projects/evolution/">Evolution</a> a Windows, lo que me abre una luz de esperanza.
-
-
-
-Tor Lilqvist es muy conocido por ser el responsable de primero portar y
-luego mantener el <a href="http://www.gimp.org/~tml/gimp/win32/">GIMP y Gtk+ en Windows</a>, lo que le otorga mucha
-credibilidad al proyecto.
-
-
-
-Crucemos los dedos...
-
-
-[@more@]
-                                                                                                                                                                                                                                                                         |
 |         24 | 2005-01-25 10:07:33 | published  |                    8 | Dos sitios y noticias                                   |
 Los dos sitios:
 
@@ -2059,7 +1987,7 @@ Indeed, when I design my killer language, the identifiers "foo" and "bar" will b
 Two things I learned for sure during a particularly intense acid trip in my own lost youth: (1) everything is a trivial special case of something else; and, (2) death is a bunch of blue spheres.
 <span style="font-style: italic">Tim Peters, 1 May 1998</span>
 
-OO styles help in part because they make it easier to redo large parts over, or, when the moon is shining just right, to steal large parts from someone else. Python helps in many additional ways regardless of style, not least of which in that it hurts less to throw away 50 lines of code than 5,000 &lt;0.5 wink&gt;. The pains, and joys, of programming are qualitatively the same under Python. There's less pain less often, and joy comes quicker. And that's worth a whole lot.
+OO styles help in part because they make it easier to redo large parts over, or, when the moon is shining just right, to steal large parts from someone else. Python helps in many additional ways regardless of style, not least of which in that it hurts less to throw away 50 lines of code than 5,000 &lt;0.5 wink>. The pains, and joys, of programming are qualitatively the same under Python. There's less pain less often, and joy comes quicker. And that's worth a whole lot.
 <span style="font-style: italic">Tim Peters, 5 Jun 1998</span>
 </div>[@more@] |
 |         69 | 2005-08-13 14:02:37 | published  |                    8 | Pelis y parranda                                        |
@@ -2732,7 +2660,7 @@ Este finde vimos con Laura dos películas en video que estaban en la <a href="ht
 
 <span style="font-weight: bold">Citas</span>
 
-<div style="margin-left: 40px">If I engineer code that I expect to be in use for N years, I make damn sure that every internal limit is at least 10x larger than the largest I can conceive of a user making reasonable use of at the end of those N years. The invariable result is that the N years pass, and fewer than half of the users have bumped into the limit &lt;0.5 wink&gt;.
+<div style="margin-left: 40px">If I engineer code that I expect to be in use for N years, I make damn sure that every internal limit is at least 10x larger than the largest I can conceive of a user making reasonable use of at the end of those N years. The invariable result is that the N years pass, and fewer than half of the users have bumped into the limit &lt;0.5 wink>.
 <span style="font-style: italic">Tim Peters, 11 Nov 1999 </span>
 
 When Jim [Fulton] says "tricky" it means your brain could explode.
@@ -3370,7 +3298,7 @@ Con los tags, por ejemplo para ordenar fotos, se puede lograr algo como lo sigui
 
 Luego, a las fotos no las <span style="font-style: italic;">ubicamos</span> en un lugar determinado, sino que las <span style="font-style: italic;">marcamos</span> con un tag o varios. Así, si tenemos las fotos del cumpleaños de un primo, podemos marcar esas fotos con los tags de "Cumpleaños" y "Primos".
 
-De esa manera, cuando se <span style="font-style: italic;">navegue</span> por la estructura de árbol, encontraremos dichas fotos tanto en Fotos-&gt;Familia-&gt;Primos como en Fotos-&gt;Fiestas-&gt;Cumpleaños.
+De esa manera, cuando se <span style="font-style: italic;">navegue</span> por la estructura de árbol, encontraremos dichas fotos tanto en Fotos->Familia->Primos como en Fotos->Fiestas->Cumpleaños.
 
 Esto es lo mismo que los enlaces simbólicos a los que estamos acostumbrados en cualquier sistema de archivos que se precie de tal. En dicho caso, el archivo está en un lugar determinado (por ejemplo en "Primos") y en la otra ubicación tenemos un enlace simbólico a ese archivo, por lo que si vamos "Cumpleaños", encontraremos el archivo, aunque realmente no esté ahí.
 
@@ -6038,7 +5966,7 @@ Resulta que tengo en MySQL una tabla con varios datos, de distintos tipos, y una
 
 
 <pre>
-mysql&gt; describe prueba;
+mysql> describe prueba;
 +-----------+-------------+------+-----+--------+-------+
 | Field     | Type        | Null | Key | Default| Extra |
 +-----------+-------------+------+-----+--------+-------+
@@ -6063,7 +5991,7 @@ Sin poder creerlo, fui a la base de datos, a mano, y tiré la siguiente consulta
 
 <pre>
 
-mysql&gt; SELECT * FROM prueba where tra_id=20060905093655001974;
+mysql> SELECT * FROM prueba where tra_id=20060905093655001974;
 +----------------------+----------+--------+------------+
 | transact             | campo1   | campo2 | campoN     |
 +----------------------+----------+--------+------------+
@@ -6937,7 +6865,7 @@ A partír de esa discusión, yo me pregunté "&iquest;Cómo puedo saber la ubica
 
 Para ayudarme con ese análisis, hice una herramienta que a partir de la info en SourceForge arma un cuadro resumen, tanto de los <a href="http://www.taniquetil.com.ar/facundo/py_patchs.html">patchs</a> como de los <a href="http://www.taniquetil.com.ar/facundo/py_bugs.html">bugs</a>.
 
-Agregué ambos enlaces en la barrita de la derecha ( ---&gt; ).
+Agregué ambos enlaces en la barrita de la derecha ( ---> ).
 
 Mi idea es actualizarlos periódicamente (algo así como una vez por día, al final del html tienen la fecha y hora de actualización).
 
@@ -7437,24 +7365,24 @@ Vistas:
 
 Se me ocurrió fijarme no sólo cuantas películas tenía pendientes, sino la distribución en función de <em>cuándo</em> las anoté para verlas. Me quedó un ejemplo tan útil de lo sencillo que es Python para tirar esas 10 lineas que le permiten a uno encontrar lo que está buscando sin tener que complicarse la vida. &iexcl;Ni siquiera tuve que hacer un programa! Directamente use el intérprete interactivo, abrí el archivo mío de películas, con una expresión regular saqué ese cuando de cada linea que correspondía, y los conté usando un diccionario:
 
-<blockquote><font face="andale mono,times"><font face="courier new,courier">&gt;&gt;&gt; import re
-&gt;&gt;&gt; coinc = re.compile(".*&lt;i&gt;((.*))&lt;/i&gt;.*")
-&gt;&gt;&gt; resum = {}
-&gt;&gt;&gt; for linea in open("peliculas.html"):
+<blockquote><font face="andale mono,times"><font face="courier new,courier">>>> import re
+>>> coinc = re.compile(".*&lt;i>((.*))&lt;/i>.*")
+>>> resum = {}
+>>> for linea in open("peliculas.html"):
 ...&nbsp;&nbsp;&nbsp;&nbsp; m = coinc.match(linea)
 ...&nbsp;&nbsp;&nbsp;&nbsp; if m:
 ...&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; cuando = m.groups()[0]
 ...&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; resum[cuando] = resum.get(cuando, 0) + 1
 ...
-&gt;&gt;&gt; sum(resum.values())
+>>> sum(resum.values())
 70
-&gt;&gt;&gt; print "n".join("%-13s %2d" % x for x in resum.items())
+>>> print "n".join("%-13s %2d" % x for x in resum.items())
 anterior&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 38
 15-Jun-2007&nbsp;&nbsp;&nbsp; 5
 26-Mar-2007&nbsp;&nbsp;&nbsp; 9
 02-Dic-2006&nbsp;&nbsp; 13
 26-Jan-2007&nbsp;&nbsp;&nbsp; 5
-&gt;&gt;&gt; </font>
+>>> </font>
 </font></blockquote>
 Al final sumé los valores del diccionario: me quedan 70 pelis pendientes, y luego mostré el contenido del diccionario: 38 son de "anterior" (antes de que empiece a ponerles justamente cuando, :p).[@more@] |
 |        268 | 2007-06-27 12:15:38 | NULL       |                    5 | Cerramos otra etapa                                     |
@@ -8047,15 +7975,15 @@ Para cerrar lo bien que viene la semana, hoy terminé de conseguir algo sobre lo
 |        292 | 2007-09-21 13:48:57 | NULL       |                   12 | Decimal, binario y el asado                             |
 <em>Resulta que era sábado a la noche, no tenía mucho que hacer porque Moni estaba en Bariloche, y hubo una pregunta interesante en la lista de PyAr. Y la respuesta me salió bastante bizarra, en general fue bastante comentada. Motivado por un comentario en la reunión del otro día, la busqué y la releí (por primera vez). Y como me causó gracia, la rescato acá. La pregunta era por qué al redondear 39.285714285714285, el usuario no veía un 39.29, sino algo raro:</em>
 
-&gt; Sin redondear:
-&gt;
-&gt; <font face="courier new,courier">&gt;&gt;&gt; chargeandprop("EEARGPLRGKGDQKSAVSQKPRSRGILH")[1]</font>
-&gt; <font face="courier new,courier">39.285714285714285</font>
-&gt;
-&gt; Con round a 2 decimales:
-&gt;
-&gt; <font face="courier new,courier">&gt;&gt;&gt; round(chargeandprop("EEARGPLRGKGDQKSAVSQKPRSRGILH")[1],2)</font>
-&gt; <font face="courier new,courier">39.289999999999999</font>
+> Sin redondear:
+>
+> <font face="courier new,courier">>>> chargeandprop("EEARGPLRGKGDQKSAVSQKPRSRGILH")[1]</font>
+> <font face="courier new,courier">39.285714285714285</font>
+>
+> Con round a 2 decimales:
+>
+> <font face="courier new,courier">>>> round(chargeandprop("EEARGPLRGKGDQKSAVSQKPRSRGILH")[1],2)</font>
+> <font face="courier new,courier">39.289999999999999</font>
 
 El detalle acá es que te están mostrando un número binario en su forma decimal. &iquest;Por qué en forma decimal? Porque hace rato que tenemos 10 dedos en las manos, y contar en esa base nos es natural. &iquest;Por qué el número es binario? Parecerá arcaico a esta altura, pero seguimos teniendo procesadores que trabajan en forma binaria: a nivel de silicio la FPU (floating point unit) de tu micro guarda el nro en binario.
 
@@ -8069,24 +7997,24 @@ Ok, el procesador hace algo parecido, pero en binario. Cuando vos en decimal le 
 
 Quizás porque esté programado así, o quizás porque no tiene un asado que atender, la FPU hace su mejor esfuerzo y guarda internamente el número más cercano al "39.29". Y eso es:
 <font face="courier new,courier">
-&gt;&gt;&gt; 39.29
+>>> 39.29
 39.289999999999999</font>
 
 Acá entra Python, quien en el intérprete interactivo, te muestra "la realidad posta posta, patente patente" (en inglés esta frase es distinta). Escribir directamente el nro, es como llamar a la función repr(), quien es lo más fiel posible con el ordenamiento de los átomos en el Universo:
 
-<font face="courier new,courier">&gt;&gt;&gt; repr(39.29)
+<font face="courier new,courier">>>> repr(39.29)
 '39.289999999999999'</font>
 
 Ahora, si vos querés ser engañado, podés decirle a Python que te muestre algo más humano. &iquest;Cómo le decís que te convierta un objeto a su representación en cadena de texto de una forma más "humana"? Con str():
 
-<font face="courier new,courier">&gt;&gt;&gt; str(39.29)
+<font face="courier new,courier">>>> str(39.29)
 '39.29'</font>
 
 Ahí, lo que hace Python, sabiendo en parte cómo funcionan las FPU de nuestra época, y en parte porque aunque vayas ahora a revisar el asado los chorizos están quemados y los chinchulines te apagaron el fuego, es "redondear" ese nro a los quinces dígitos decimales.
 
 Notar que el statement "print" llama automáticamente a str() para convertir los objetos a mostrar:
 
-<font face="courier new,courier">&gt;&gt;&gt; print 39.29
+<font face="courier new,courier">>>> print 39.29
 39.29</font>[@more@] |
 |        293 | 2007-09-25 17:45:58 | NULL       |                    2 | On the run, again                                       |
 Hace bastaaaaaante que no estaba con diferencia horaria positiva (más de dos años, desde <a href="http://www.taniquetil.com.ar/plog/post/1/60">EuroPython 2005</a>).
@@ -8702,7 +8630,7 @@ Si ejecutamos el siguiente script en PHP, intentando sumar 3 y 058...
 <blockquote><font face="courier new,courier">&lt;?
 $r = 3 + 058;
 echo $r."n";
-?&gt;
+?>
 </font></blockquote>..., el tipo muestra "8".
 
 La realidad es que estamos haciendo algo mal, pero PHP te oculta el error, sigue como si nada, y el programa sigue trabajando con fruta.
@@ -10764,7 +10692,7 @@ También corregí mucho sobre estilos, tratando de ir hacia la PEP 8 (muchas lin
 
 
 
-Limpieza de debugs: comenté algunos prints, aclaré otros (poniéndole algún título para reconocerlos), saqué algunos repr() (pasé a encodear la info), etc.&nbsp; Ahora es posible hacer un '&gt; out.tmp' para poder estudiar mejor la salida de todo si se dejan algunos prints que generan mucha info.
+Limpieza de debugs: comenté algunos prints, aclaré otros (poniéndole algún título para reconocerlos), saqué algunos repr() (pasé a encodear la info), etc.&nbsp; Ahora es posible hacer un '> out.tmp' para poder estudiar mejor la salida de todo si se dejan algunos prints que generan mucha info.
 
 
 
@@ -11021,7 +10949,7 @@ Lo siguiente es el código, con las pruebas para los ejemplos anteriores:
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;res = car
 
-&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #a52a2a"><strong>elif</strong></span>&nbsp;decomp.startswith("<span style="color: #ff00ff">&lt;compat&gt;</span>"):
+&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #a52a2a"><strong>elif</strong></span>&nbsp;decomp.startswith("<span style="color: #ff00ff">&lt;compat></span>"):
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #0000ff"># compatibilidad</span>
 
@@ -11078,7 +11006,7 @@ Hay formas piolas de lograr esto (creo que la mejor es usando la <a href="http:/
 
 
 
-Lo bueno de este tipo de procesamiento, sin embargo, es que nos ahorra el anterior (ya que encontraría una palabra con '&Ccedil;' aunque escribamos 'C', sólo porque son parecidas). Anyway... se los dejo como tarea para el hogar (o para el <a href="http://www.python.com.ar/moin/PyCamp/2009">PyCamp</a> de este año &lt;guiño&gt;). |
+Lo bueno de este tipo de procesamiento, sin embargo, es que nos ahorra el anterior (ya que encontraría una palabra con '&Ccedil;' aunque escribamos 'C', sólo porque son parecidas). Anyway... se los dejo como tarea para el hogar (o para el <a href="http://www.python.com.ar/moin/PyCamp/2009">PyCamp</a> de este año &lt;guiño>). |
 |        398 | 2009-02-11 04:13:00 | NULL       |                    2 | Dos frases                                              |
 
 Dos frases buenísimas que leí en los últimos días:
@@ -11197,7 +11125,7 @@ Entonces, como nosotros para desarrollo necesitamos esto corregido, me puse a ag
 
 
 
-Bajé las fuentes limpias del paquete (<span style="font-family: courier new,courier">apt-get source python-fuse</span>). Hice esto en un directorio vacío y ví que aparte del directorio con las fuentes, aparecieron unos archivos de control, los cuales borré prestamente porque no los iba a necesitar. Copié el parche que había creado al directorio correspondiente de las fuentes (<span style="font-family: courier new,courier">debian/patches</span>), agregando el nombre de ese parche en el archivo <span style="font-family: courier new,courier">debian/patches/00list</span>. Finalmente anoté una entrada en el changelog de las fuentes (esto se hace con un programita auxiliar, ya que deben tener un formato específico; en mi caso hice <span style="font-family: courier new,courier">dch -D &lt;distro&gt; -v &lt;version_del_paquete&gt; "mensaje para el changelog"</span>).
+Bajé las fuentes limpias del paquete (<span style="font-family: courier new,courier">apt-get source python-fuse</span>). Hice esto en un directorio vacío y ví que aparte del directorio con las fuentes, aparecieron unos archivos de control, los cuales borré prestamente porque no los iba a necesitar. Copié el parche que había creado al directorio correspondiente de las fuentes (<span style="font-family: courier new,courier">debian/patches</span>), agregando el nombre de ese parche en el archivo <span style="font-family: courier new,courier">debian/patches/00list</span>. Finalmente anoté una entrada en el changelog de las fuentes (esto se hace con un programita auxiliar, ya que deben tener un formato específico; en mi caso hice <span style="font-family: courier new,courier">dch -D &lt;distro> -v &lt;version_del_paquete> "mensaje para el changelog"</span>).
 
 
 
@@ -11205,7 +11133,7 @@ Ya con las fuentes modificadas, armé los archivos de control y paquete como par
 
 
 
-Finalmente, para subir el paquete al Launchpad: <span style="font-family: courier new,courier">dput -f &lt;host&gt; *.changes</span>
+Finalmente, para subir el paquete al Launchpad: <span style="font-family: courier new,courier">dput -f &lt;host> *.changes</span>
 
 
 
@@ -11305,7 +11233,7 @@ En pocos días tendremos novedades sobre esta iniciativa que tendrá lugar en un
 
 
 
-[2] <a href="http://www.senado.gov.ar/web/proyectos/verExpe.php?origen=S&amp;tipo=PL&amp;numexp=1298/08&amp;nro_comision=&amp;tConsulta=1">&lt;&gt;</a> |
+[2] <a href="http://www.senado.gov.ar/web/proyectos/verExpe.php?origen=S&amp;tipo=PL&amp;numexp=1298/08&amp;nro_comision=&amp;tConsulta=1">&lt;></a> |
 |        403 | 2009-03-20 16:35:38 | NULL       |                    6 | El soporte de Dell                                      |
 
 Hace algunos meses, cuando buscaba qué laptop comprarme, tuve alguna <a href="http://www.taniquetil.com.ar/plog/post/1/384">experiencia bizarra con Dell</a>. Pero, por suerte, esta vez fue distinto.
@@ -13157,11 +13085,11 @@ md0 : active raid1 sdb5[1] sda1[0]
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 97659008 blocks [2/2] [UU]
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [&gt;....................]&nbsp; resync =&nbsp; 1.0% (1036096/97659008) finish=26.4min speed=60946K/sec
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [>....................]&nbsp; resync =&nbsp; 1.0% (1036096/97659008) finish=26.4min speed=60946K/sec
 
 
 
-unused devices: &lt;none&gt;</span>
+unused devices: &lt;none></span>
 
 
 
@@ -13249,7 +13177,7 @@ Así que le dije al programita que administra el RAID que busque en lo que tiene
 
 
 
-<span style="font-family: courier new,courier">sudo mdadm --examine --scan &gt;&gt; /etc/mdadm/mdadm.conf</span>
+<span style="font-family: courier new,courier">sudo mdadm --examine --scan >> /etc/mdadm/mdadm.conf</span>
 
 
 
@@ -13281,7 +13209,7 @@ Entonces, todo lo que hice fue poner unas llamadas a este programita en mi cront
 
 
 
-<span style="font-family: courier new,courier">0 3 * * * SSH_AUTH_SOCK=$(find /tmp -name 'socket.ssh' -user $USER 2&gt;/dev/null); export SSH_AUTH_SOCK; rdiff-backup ...</span> |
+<span style="font-family: courier new,courier">0 3 * * * SSH_AUTH_SOCK=$(find /tmp -name 'socket.ssh' -user $USER 2>/dev/null); export SSH_AUTH_SOCK; rdiff-backup ...</span> |
 |        484 | 2010-10-14 18:03:20 | NULL       |                    1 | ¡Se vienen las conferencias Python del Cono Sur!        |
 
 Mañana y pasado, en Córdoba, tenemos la segunda edición de PyCon Argentina, con <a href="http://ar.pycon.org/2010/conference/schedule/">un montón de charlas buenísimas</a>.
@@ -13896,7 +13824,7 @@ Generamos el <em>.po</em>, renombrando la base del archivo para incorporarle las
 <blockquote>
 	<span style="font-family: courier new,courier">cd locale</span>
 
-	<span style="font-family: courier new,courier">msgmerge core_es.po core.pot &gt; /tmp/po_temporal</span>
+	<span style="font-family: courier new,courier">msgmerge core_es.po core.pot > /tmp/po_temporal</span>
 
 	<span style="font-family: courier new,courier">mv /tmp/po_temporal core_es.po</span>
 
@@ -14078,7 +14006,7 @@ Corriendo al normalize-mp3 en cada directorio, considerando para el ejemplo que 
 
 
 
-<span style="font-family: courier new,courier">&nbsp;&gt;&gt;&gt; (40+60) / 2
+<span style="font-family: courier new,courier">&nbsp;>>> (40+60) / 2
 
 50</span>
 
@@ -14088,7 +14016,7 @@ Corriendo al normalize-mp3 en cada directorio, considerando para el ejemplo que 
 
 
 
-<span style="font-family: courier new,courier">&nbsp;&gt;&gt;&gt; (70+90)/2
+<span style="font-family: courier new,courier">&nbsp;>>> (70+90)/2
 
 75</span>
 
@@ -14933,7 +14861,7 @@ Veo tres alternativas:
 
 
 
-<span style="font-family: courier new,courier">&nbsp; vncrec -depth 16 &lt;maquinadisertante&gt; -record /dev/stdout | transcode -x vnc -i /dev/stdin -y xvid | ffmpeg -i - - target ntsc-dv salida.dv</span>
+<span style="font-family: courier new,courier">&nbsp; vncrec -depth 16 &lt;maquinadisertante> -record /dev/stdout | transcode -x vnc -i /dev/stdin -y xvid | ffmpeg -i - - target ntsc-dv salida.dv</span>
 
 
 
@@ -14999,11 +14927,11 @@ Luego de buscar un rato por la web (pensé que tenía que haber algún programa 
 
 
 
-<span style="font-family: courier new,courier">&nbsp;&nbsp;&nbsp; convert foto_original.jpg -thumbnail '200x200&gt;' -unsharp 0x.5 thumbnail.jpg</span>
+<span style="font-family: courier new,courier">&nbsp;&nbsp;&nbsp; convert foto_original.jpg -thumbnail '200x200>' -unsharp 0x.5 thumbnail.jpg</span>
 
 
 
-<em>convert</em> es uno de los utilitarios de la fantástica <a href="http://www.imagemagick.org/script/index.php">ImageMagick</a>, toma mi <span style="font-family: courier new,courier">foto_original.jpg</span> y me deja <span style="font-family: courier new,courier">thumbnail.jpg</span>. El <span style="font-family: courier new,courier">-thumbnail</span> le dice que voy a generar justamente un thumbnail, lo cual aparte de cambiar el tamaño hace otras cosas (por ejemplo, le saca toda la metadata interna, para que ocupe menos). El <span style="font-family: courier new,courier">'200x200&gt;'</span> es una notación de ImageMagick que indica que la imagen resultante tiene que caber en una zona de 200 por 200 (o sea, me la reduce manteniendo el factor de forma hasta que el alto o el ancho ocupen como mucho 200 pixeles). El <span style="font-family: courier new,courier">-unsharp 0x.5</span> lo recomiendan para mejorar la visualización de la imagen pequeñita. En <a href="http://www.imagemagick.org/Usage/thumbnails/">esta página</a> tienen otros detalles y temas a considerar al generar thumbnails (que no se aplican en mi caso).
+<em>convert</em> es uno de los utilitarios de la fantástica <a href="http://www.imagemagick.org/script/index.php">ImageMagick</a>, toma mi <span style="font-family: courier new,courier">foto_original.jpg</span> y me deja <span style="font-family: courier new,courier">thumbnail.jpg</span>. El <span style="font-family: courier new,courier">-thumbnail</span> le dice que voy a generar justamente un thumbnail, lo cual aparte de cambiar el tamaño hace otras cosas (por ejemplo, le saca toda la metadata interna, para que ocupe menos). El <span style="font-family: courier new,courier">'200x200>'</span> es una notación de ImageMagick que indica que la imagen resultante tiene que caber en una zona de 200 por 200 (o sea, me la reduce manteniendo el factor de forma hasta que el alto o el ancho ocupen como mucho 200 pixeles). El <span style="font-family: courier new,courier">-unsharp 0x.5</span> lo recomiendan para mejorar la visualización de la imagen pequeñita. En <a href="http://www.imagemagick.org/Usage/thumbnails/">esta página</a> tienen otros detalles y temas a considerar al generar thumbnails (que no se aplican en mi caso).
 
 
 
@@ -15031,7 +14959,7 @@ Obviamente no iba a ejecutar esos dos comandos uno por uno para cada imagen, as�
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; echo $foto;
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; convert $foto -thumbnail '200x200&gt;' -unsharp 0x.5 $foto.thumb;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; convert $foto -thumbnail '200x200>' -unsharp 0x.5 $foto.thumb;
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; exiftool '-ThumbnailImage&lt;='$foto.thumb $foto;
 
@@ -15178,25 +15106,25 @@ En otra terminal, ejecuté:
 Y eso me abrió una linea de comandos a través de la cual me conecté a mi programa Python que estaba ejecutando en la otra ventana (sí, a SyncDaemon):
 
 <blockquote>
-	<span style="font-family: courier new,courier">&lt;Monitor&gt; </span>
+	<span style="font-family: courier new,courier">&lt;Monitor> </span>
 
 	<span style="font-family: courier new,courier">*** Connection 1 opened ***</span>
 
-	<span style="font-family: courier new,courier">&lt;Monitor&gt; lc</span>
+	<span style="font-family: courier new,courier">&lt;Monitor> lc</span>
 
 	<span style="font-family: courier new,courier">CID PID&nbsp; ARGV</span>
 
 	<span style="font-family: courier new,courier">&nbsp; 1 4451 ['bin/ubuntuone-syncdaemon', '--debug-heapy_monitor']</span>
 
-	<span style="font-family: courier new,courier">&lt;Monitor&gt; sc 1</span>
+	<span style="font-family: courier new,courier">&lt;Monitor> sc 1</span>
 
-	<span style="font-family: courier new,courier">Remote connection 1. To return to Monitor, type &lt;Ctrl-C&gt; or .&lt;RETURN&gt;</span>
+	<span style="font-family: courier new,courier">Remote connection 1. To return to Monitor, type &lt;Ctrl-C> or .&lt;RETURN></span>
 
-	<span style="font-family: courier new,courier">&lt;Annex&gt; h</span>
+	<span style="font-family: courier new,courier">&lt;Annex> h</span>
 
 	
 
-	<span style="font-family: courier new,courier">Documented commands (type help &lt;topic&gt;):</span>
+	<span style="font-family: courier new,courier">Documented commands (type help &lt;topic>):</span>
 
 	<span style="font-family: courier new,courier">========================================</span>
 
@@ -15204,7 +15132,7 @@ Y eso me abrió una linea de comandos a través de la cual me conecté a mi prog
 
 	
 
-	<span style="font-family: courier new,courier">&lt;Annex&gt; stat</span>
+	<span style="font-family: courier new,courier">&lt;Annex> stat</span>
 
 	<span style="font-family: courier new,courier">Target overview</span>
 
@@ -15224,19 +15152,19 @@ Y eso me abrió una linea de comandos a través de la cual me conecté a mi prog
 Abrí una consola interactiva, y le dije que me tomara un snapshot del <span style="font-family: courier new,courier">heap</span>:
 
 <blockquote>
-	<span style="font-family: courier new,courier">&lt;Annex&gt; int</span>
+	<span style="font-family: courier new,courier">&lt;Annex> int</span>
 
 	<span style="font-family: courier new,courier">Remote interactive console. To return to Annex, type '-'.</span>
 
-	<span style="font-family: courier new,courier">&gt;&gt;&gt; h1 = hp.heap()</span>
+	<span style="font-family: courier new,courier">>>> h1 = hp.heap()</span>
 
 </blockquote>
 Luego hice tiré un archivo con contenido a Ubuntu One, volví a pedir el <span style="font-family: courier new,courier">heap</span>. Y miré las diferencias:
 
 <blockquote>
-	<span style="font-family: courier new,courier">&gt;&gt;&gt; h2 = hp.heap()</span>
+	<span style="font-family: courier new,courier">>>> h2 = hp.heap()</span>
 
-	<span style="font-family: courier new,courier">&gt;&gt;&gt; h2.diff(h1)</span>
+	<span style="font-family: courier new,courier">>>> h2.diff(h1)</span>
 
 	<span style="font-family: courier new,courier">Summary of difference operation (A-B).</span>
 
@@ -15280,9 +15208,9 @@ Luego hice tiré un archivo con contenido a Ubuntu One, volví a pedir el <span 
 Seguí haciendo unos experimentos, y llegó un punto en que ciertos elementos no deberían estar más en memoria, pero estaban. Lo más piola es que pude ver <em>dónde</em>:
 
 <blockquote>
-	<span style="font-family: courier new,courier">&gt;&gt;&gt; markers = h5[39]</span>
+	<span style="font-family: courier new,courier">>>> markers = h5[39]</span>
 
-	<span style="font-family: courier new,courier">&gt;&gt;&gt; markers</span>
+	<span style="font-family: courier new,courier">>>> markers</span>
 
 	<span style="font-family: courier new,courier">Partition of a set of 241 objects. Total size = 18316 bytes.</span>
 
@@ -15290,7 +15218,7 @@ Seguí haciendo unos experimentos, y llegó un punto en que ciertos elementos no
 
 	<span style="font-family: courier new,courier">&nbsp;&nbsp;&nbsp;&nbsp; 0&nbsp;&nbsp;&nbsp; 241 100&nbsp;&nbsp;&nbsp; 18316 100&nbsp;&nbsp;&nbsp;&nbsp; 18316 100 ubuntuone.syncdaemon.marker.MDMarker</span>
 
-	<span style="font-family: courier new,courier">&gt;&gt;&gt; markers.referrers</span>
+	<span style="font-family: courier new,courier">>>> markers.referrers</span>
 
 	<span style="font-family: courier new,courier">Partition of a set of 2 objects. Total size = 6332 bytes.</span>
 
@@ -15300,7 +15228,7 @@ Seguí haciendo unos experimentos, y llegó un punto en que ciertos elementos no
 
 	<span style="font-family: courier new,courier">&nbsp;&nbsp;&nbsp;&nbsp; 1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1&nbsp; 50&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 52&nbsp;&nbsp; 1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 6332 100 collections.deque</span>
 
-	<span style="font-family: courier new,courier">&gt;&gt;&gt; markers.referrers[0].referrers</span>
+	<span style="font-family: courier new,courier">>>> markers.referrers[0].referrers</span>
 
 	<span style="font-family: courier new,courier">Partition of a set of 1 object. Total size = 136 bytes.</span>
 
@@ -15308,7 +15236,7 @@ Seguí haciendo unos experimentos, y llegó un punto en que ciertos elementos no
 
 	<span style="font-family: courier new,courier">&nbsp;&nbsp;&nbsp;&nbsp; 0&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1 100&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 136 100&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 136 100 dict of ubuntuone.syncdaemon.action_queue.DeferredMap</span>
 
-	<span style="font-family: courier new,courier">&gt;&gt;&gt; markers.referrers[1].referrers</span>
+	<span style="font-family: courier new,courier">>>> markers.referrers[1].referrers</span>
 
 	<span style="font-family: courier new,courier">Partition of a set of 1 object. Total size = 520 bytes.</span>
 
@@ -16673,14 +16601,14 @@ Igual, no importa la ubicación exacta: usando distutils (u otras alternativas) 
 
 &iquest;Pero qué pasa si no es una biblioteca sino un programa? El primer detalle es que necesitamos un <em>ejecutable</em> que arranque nuestro programa. Distutils y amigos tienen esto bastante bien manejado, se les puede especificar un <em>script</em>, y terminan instalando todo de la siguiente manera:
 
-<span style="font-family: courier new,courier;">&nbsp; script -&gt; /usr/bin/</span>
+<span style="font-family: courier new,courier;">&nbsp; script -> /usr/bin/</span>
 <span style="font-family: courier new,courier;">&nbsp; todo el resto /usr/lib/python2.6/dist-packages/ (o similar)</span>
 
 Hasta acá todo bien, &iquest;no? No. Resulta que nuestro programa tiene imágenes, archivos de audio, etc, y está "mal visto" meter esos archivos "de datos" dentro del directorio de bibliotecas de Python. Entonces, lo que recomiendan por ahí es:
 
-<span style="font-family: courier new,courier;">&nbsp; script -&gt; /usr/bin/</span>
-<span style="font-family: courier new,courier;">&nbsp; archivos de datos -&gt; /usr/share/</span>
-<span style="font-family: courier new,courier;">&nbsp; código python -&gt; /usr/lib/python2.6/dist-packages/ (o similar)</span>
+<span style="font-family: courier new,courier;">&nbsp; script -> /usr/bin/</span>
+<span style="font-family: courier new,courier;">&nbsp; archivos de datos -> /usr/share/</span>
+<span style="font-family: courier new,courier;">&nbsp; código python -> /usr/lib/python2.6/dist-packages/ (o similar)</span>
 
 Esto ya no es tan fácil de lograr, porque la distribución de archivos de datos es como un parche en los sistemas de distribución de bibliotecas.
 
@@ -16688,8 +16616,8 @@ Además, si nos vamos a poner quisquillosos de no meter archivos de datos en el 
 
 Entonces me embarqué en el siguiente capricho: quería que la distribución de mi programa vaya a parar a:
 
-<span style="font-family: courier new,courier;">&nbsp; script -&gt; /usr/bin/</span>
-<span style="font-family: courier new,courier;">&nbsp; todo el resto -&gt; /usr/share/</span>
+<span style="font-family: courier new,courier;">&nbsp; script -> /usr/bin/</span>
+<span style="font-family: courier new,courier;">&nbsp; todo el resto -> /usr/share/</span>
 
 Los archivos de datos, por supuesto, mezclados con "todo el resto".
 
@@ -17035,7 +16963,7 @@ Presten atención a los comandos que ejecutan, especialmente a los cambios de ".
 
 - Actualizar el <span style="font-family: courier new,courier;">PPA</span> (se puede crear el <span style="font-family: courier new,courier;">PPA</span> desde tu página personal de Launchpad):
 
-<span style="font-family: courier new,courier;">&nbsp;&nbsp;&nbsp; dput ppa:&lt;nombre_de_ppa_que_corresponda&gt; tuproyecto_X.Y.Z-0ubuntu1_source.changes</span>
+<span style="font-family: courier new,courier;">&nbsp;&nbsp;&nbsp; dput ppa:&lt;nombre_de_ppa_que_corresponda> tuproyecto_X.Y.Z-0ubuntu1_source.changes</span>
 
 - Luego de unos minutos, debería aparecer acá:
 
@@ -17109,10 +17037,10 @@ Tenemos que probar que podamos arrancar nuestro sistema desde el directorio padr
 <span style="font-family: courier new,courier;">facundo@exopus:~/prueba$ python</span>
 <span style="font-family: courier new,courier;">Python 2.7.1+ (r271:86832, Apr 11 2011, 18:05:24)</span>
 <span style="font-family: courier new,courier;">...</span>
-<span style="font-family: courier new,courier;">&gt;&gt;&gt; import proyecto.principal</span>
-<span style="font-family: courier new,courier;">&gt;&gt;&gt; proyecto.principal.run()</span>
+<span style="font-family: courier new,courier;">>>> import proyecto.principal</span>
+<span style="font-family: courier new,courier;">>>> proyecto.principal.run()</span>
 <span style="font-family: courier new,courier;">Arrancamos!</span>
-<span style="font-family: courier new,courier;">&gt;&gt;&gt;</span>
+<span style="font-family: courier new,courier;">>>></span>
 
 Una vez que lo logremos ejecutar así, tenemos que&nbsp; poner ese mismo código en un archivo con nombre <span style="font-family: courier new,courier;">__main__.py</span> en el directorio padre de nuestro proyecto:
 
@@ -17142,7 +17070,7 @@ Probamos nuevamente que, hasta acá, funcione todo correctamente:
 
 Finalmente, metemos todo eso adentro de un binario, indicando que se va a interpretar con Python, y haciéndolo ejecutable:
 
-<span style="font-family: courier new,courier;">facundo@exopus:~/prueba$ ( echo '#!/usr/bin/env python'; cat proyecto.zip ) &gt; miproyecto</span>
+<span style="font-family: courier new,courier;">facundo@exopus:~/prueba$ ( echo '#!/usr/bin/env python'; cat proyecto.zip ) > miproyecto</span>
 <span style="font-family: courier new,courier;">facundo@exopus:~/prueba$ chmod +x miproyecto</span>
 
 &iexcl;Ya está! Ahora podemos ejecutar ese binario, como cualquier otro binario, y realmente estaremos ejecutando nuestro proyecto Python:
@@ -18460,7 +18388,7 @@ Se intentaba decodificar con UTF-8, pero como fallaba, se decodificaba con otra 
 
 Empecé a ver en detalle, y resulta que la página está toda bien codificada en UTF-8, excepto una parte. La linea "molesta" es esta:
 
-<span style="font-family: courier new,courier;">'&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;h5 class="sinopsis_cat"&gt;Los Ludomatic, banda de m\xc3\xbasica infantil exitosa en los a\xc3\xb1os 80, se re\xc3\xbane luego de veinte a\xc3\xb1os para ver que sus vidas no son como lo hab\xc3\xadan imaginado tiempo atr\xc3\xa1s. Toni, Becca, Marco, Lupe y Ren\xc3 ...&lt;/h5&gt;&lt;br/&gt;\r\n'</span>
+<span style="font-family: courier new,courier;">'&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;h5 class="sinopsis_cat">Los Ludomatic, banda de m\xc3\xbasica infantil exitosa en los a\xc3\xb1os 80, se re\xc3\xbane luego de veinte a\xc3\xb1os para ver que sus vidas no son como lo hab\xc3\xadan imaginado tiempo atr\xc3\xa1s. Toni, Becca, Marco, Lupe y Ren\xc3 ...&lt;/h5>&lt;br/>\r\n'</span>
 
 Como pueden ver, está toda casi bien, en utf8... por ejemplo, dice "Los Ludomatic, banda de música", y ahí vemos que la "ú" está bien codificada en utf8 como 0xC3 0xBA. El problema está al final, en el último nombre. Seguramente debía decir "Toni, Becca, Marco, Lupe y René", pero está cortado (con el agregado de los tres puntos, para indicar continuación).
 
@@ -19687,7 +19615,7 @@ Les dejo una foto de Male que la muestra saboreando un hueso de asado, con inidi
 
 ..., y dos videos: uno cortito de <a href="http://ubuntuone.com/3XCxJoxhiTBYMH7OoF7dzO">ella charlando</a> (está que charla, charla, charla, charla...), y otro un poco más largo (de casi dos minutos) mostrando <a href="http://ubuntuone.com/1yxzmRiDWEGE1MX2Uuz2j3">como se mueve ya</a>.
 
-En fin. <span style="font-family: courier new,courier;">&lt;baba&gt;</span> Mis dos pimpollos están hermosos :) <span style="font-family: courier new,courier;">&lt;/baba&gt;</span></p> |
+En fin. <span style="font-family: courier new,courier;">&lt;baba></span> Mis dos pimpollos están hermosos :) <span style="font-family: courier new,courier;">&lt;/baba></span></p> |
 |        630 | 2013-10-22 22:25:40 | NULL       |                    0 | Piedra, Spock, papel, lagarto, tijera                   | <p>
 Es muy conocido el juego "piedra, papel y tijera", un juego que disfrutamos desde chicos porque no se necesita más que las manos para jugar, las reglas son sencillas, y es dentro de todo divertido.
 
@@ -20050,23 +19978,23 @@ Le puse un número a cada ítem para que sea más fácil referenciar en cualquie
 
 01. Debería soportar que le pase un directorio (default a '.') y que descubra todo ahí y para abajo:
 
-<span style="font-family: courier new,courier;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $ &lt;testrunner&gt; project/tests/</span>
-<span style="font-family: courier new,courier;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $ &lt;testrunner&gt;</span>
+<span style="font-family: courier new,courier;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $ &lt;testrunner> project/tests/</span>
+<span style="font-family: courier new,courier;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $ &lt;testrunner></span>
 
 02. Debería soportar que le pase un archivo, y que corra sólo los tests de ese archivo:
 
-<span style="font-family: courier new,courier;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $ &lt;testrunner&gt; project/tests/test_stuff.py</span>
+<span style="font-family: courier new,courier;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $ &lt;testrunner> project/tests/test_stuff.py</span>
 
 03. Debería soportar que le pase "paths de import de Python", y que corra sólo tests de ese paquete, módulo, clase, o lo que corresponda:
 
-<span style="font-family: courier new,courier;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $ &lt;testrunner&gt; project.tests</span>
-<span style="font-family: courier new,courier;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $ &lt;testrunner&gt; project.tests.test_stuff</span>
-<span style="font-family: courier new,courier;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $ &lt;testrunner&gt; project.tests.test_stuff.StuffTestCase</span>
-<span style="font-family: courier new,courier;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $ &lt;testrunner&gt; project.tests.test_stuff.StuffTestCase.test_feature</span>
+<span style="font-family: courier new,courier;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $ &lt;testrunner> project.tests</span>
+<span style="font-family: courier new,courier;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $ &lt;testrunner> project.tests.test_stuff</span>
+<span style="font-family: courier new,courier;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $ &lt;testrunner> project.tests.test_stuff.StuffTestCase</span>
+<span style="font-family: courier new,courier;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $ &lt;testrunner> project.tests.test_stuff.StuffTestCase.test_feature</span>
 
 04. Debería poder pasarle una regex para que corra sólo lo que re.search() encuentra en el path completo del método:
 
-<span style="font-family: courier new,courier;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $ &lt;testrunner&gt; project/tests/ --search feature</span>
+<span style="font-family: courier new,courier;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $ &lt;testrunner> project/tests/ --search feature</span>
 <span style="font-family: courier new,courier;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; correría:</span>
 <span style="font-family: courier new,courier;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; test_feature</span>
 <span style="font-family: courier new,courier;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; test_feature_1</span>
@@ -20074,7 +20002,7 @@ Le puse un número a cada ítem para que sea más fácil referenciar en cualquie
 <span style="font-family: courier new,courier;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; no correría:</span>
 <span style="font-family: courier new,courier;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; test_crash</span>
 
-<span style="font-family: courier new,courier;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $ &lt;testrunner&gt; project/tests/ --search feature$</span>
+<span style="font-family: courier new,courier;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $ &lt;testrunner> project/tests/ --search feature$</span>
 <span style="font-family: courier new,courier;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; correría:</span>
 <span style="font-family: courier new,courier;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; test_feature</span>
 <span style="font-family: courier new,courier;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; no correría:</span>
@@ -20088,7 +20016,7 @@ Le puse un número a cada ítem para que sea más fácil referenciar en cualquie
 
 07. Debería mostrar los resultados usando los nombres de paquete/módulo/clase/método, en una jerarquía de árbol o en la misma linea:
 
-<span style="font-family: courier new,courier;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $ &lt;testrunner&gt; project/tests/test_stuff.py</span>
+<span style="font-family: courier new,courier;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $ &lt;testrunner> project/tests/test_stuff.py</span>
 <span style="font-family: courier new,courier;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; project.tests.test_stuff</span>
 <span style="font-family: courier new,courier;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; StuffTestCase</span>
 <span style="font-family: courier new,courier;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; test_feature_1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; OK</span>
@@ -20096,7 +20024,7 @@ Le puse un número a cada ítem para que sea más fácil referenciar en cualquie
 <span style="font-family: courier new,courier;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; OtherStuffTestCase</span>
 <span style="font-family: courier new,courier;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; test_feature_A&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; OK</span>
 
-<span style="font-family: courier new,courier;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $ &lt;testrunner&gt; project/tests/test_stuff.py</span>
+<span style="font-family: courier new,courier;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $ &lt;testrunner> project/tests/test_stuff.py</span>
 <span style="font-family: courier new,courier;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; OK&nbsp;&nbsp;&nbsp; project.tests.test_stuff.StuffTestCase.test_feature_1</span>
 <span style="font-family: courier new,courier;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; FAIL&nbsp; project.tests.test_stuff.StuffTestCase.test_feature_2</span>
 <span style="font-family: courier new,courier;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; OK&nbsp;&nbsp;&nbsp; project.tests.test_stuff.OtherStuffTestCase.test_feature_A</span>
@@ -20503,9 +20431,9 @@ Sí, a Chalín la tengo que ir a buscar. &iexcl;Pero compro los cortes que quier
 |        657 | 2014-08-22 20:35:34 | NULL       |                    0 | Jardinera                                               | <p>
 Sí, ya sé que estoy denso con las fotitos de Malena... &iquest;&iquest;&iquest;pero qué quieren que haga???
 
-<em><span style="font-family: courier new,courier; font-size: x-small;">&lt;baba&gt;</span></em>
+<em><span style="font-family: courier new,courier; font-size: x-small;">&lt;baba></span></em>
 <img src="http://www.taniquetil.com.ar/facundo/imgs/malena-jardinera.jpeg" alt="Malena jardinera" height="766" width="620" />
-<em><span style="font-family: courier new,courier; font-size: x-small;">&lt;/baba&gt;</span></em></p>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+<em><span style="font-family: courier new,courier; font-size: x-small;">&lt;/baba></span></em></p>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 |        658 | 2014-09-14 15:37:43 | NULL       |                    1 | Causa y consecuencia, consecuencia y causa, quizás      | <p>
 &iquest;Cómo es que llegaste a leer esto? En algún momento apretaste un botón y la computadora se prendió. Luego hiciste un click y se abrió el navegador. Hiciste otro click o escribiste algo, y entraste a mi blog.
 
