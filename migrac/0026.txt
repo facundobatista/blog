@@ -1,28 +1,31 @@
 2005-02-03 04:57:24
 Primeras impresiones de Holanda
-<tags>
+viaje, avión, iberia, taxi, Utrecht, ciclistas, hotel, desayuno, Holanda
 
-<span style="font-weight: bold">Viaje en avión</span>
+Viaje en avión
+--------------
 
-La verdad es que siempre es malo generalizar, pero mi única experiencia con <a href="http://www.iberia.com">Iberia</a> es mala. Desde la atención de las azafatas (en una oportunidad prácticamente tuve que cruzarle el brazo en el pasillo para que me mirara y pedirle un vaso de agua) hasta en el catering.
+La verdad es que siempre es malo generalizar, pero mi única experiencia con `Iberia <http://www.iberia.com>`_ es mala. Desde la atención de las azafatas (en una oportunidad prácticamente tuve que cruzarle el brazo en el pasillo para que me mirara y pedirle un vaso de agua) hasta en el catering.
 
-Aunque debo admitir que las ensaladas y el postre estaban muy bien, la cena fue mediocre y el desayuno hasta ahí, no más. El café era una porquería. Pero si estaba protestón con respecto al viaje principal (Buenos Aires a Madrid, 12 horas), peor fue en el tramo final (Madrid a Holanda, 2 horas): &iexcl;No nos dieron nada! &iexcl;Ni siquiera un café!. Eso sí, te vendían lo que quisieras, pero sinceramente no tenía ganas de pagar 2.5 euros una latita de Coca-Cola.
+Aunque debo admitir que las ensaladas y el postre estaban muy bien, la cena fue mediocre y el desayuno hasta ahí, no más. El café era una porquería. Pero si estaba protestón con respecto al viaje principal (Buenos Aires a Madrid, 12 horas), peor fue en el tramo final (Madrid a Holanda, 2 horas): ¡No nos dieron nada! ¡Ni siquiera un café!. Eso sí, te vendían lo que quisieras, pero sinceramente no tenía ganas de pagar 2.5 euros una latita de Coca-Cola.
 
-Pero eso no fue todo: cuando fuí a sentarme a mi asiento, había otra persona. "Un boludo que se sentó en cualquier lado", pensé yo, y le dije a la azafata que el pibe tenía mi asiento. La señorita le pidió entonces el pasaje al mister, y para mi sorpresa... &iexcl;tenía el mismo asiento! Yo no lo podía creer. Piola estuvo Germán, que le dijo a la mina: "Esto pasa porque sobrevenden los vuelos...". Se pueden imaginar la cara de la azafata.
+Pero eso no fue todo: cuando fuí a sentarme a mi asiento, había otra persona. "Un boludo que se sentó en cualquier lado", pensé yo, y le dije a la azafata que el pibe tenía mi asiento. La señorita le pidió entonces el pasaje al mister, y para mi sorpresa... ¡tenía el mismo asiento! Yo no lo podía creer. Piola estuvo Germán, que le dijo a la mina: "Esto pasa porque sobrevenden los vuelos...". Se pueden imaginar la cara de la azafata.
 
-Como el tipo, mal que bien, estaba correctamente sentado, me dijo si no hacía el favor de tomar uno de los asientos de atrás. Fuimos con Germán, con tan mala suerte que nos pusimos justo en unos que sí estaban vendidos... &iexcl;a los de <a href="http://remhq.com/index.php">R.E.M.</a>! Al final nos terminaron ubicando en una fila de tres asientos, a nosotros dos solos, con lo que volamos más cómodos, así que esta terminó bien.
+Como el tipo, mal que bien, estaba correctamente sentado, me dijo si no hacía el favor de tomar uno de los asientos de atrás. Fuimos con Germán, con tan mala suerte que nos pusimos justo en unos que sí estaban vendidos... ¡a los de `R.E.M. <http://remhq.com/index.php>`_! Al final nos terminaron ubicando en una fila de tres asientos, a nosotros dos solos, con lo que volamos más cómodos, así que esta terminó bien.
 
 
-<span style="font-weight: bold">La llegada</span>
+La llegada
+----------
 
 Dos horas después por fin llegamos al aeropuerto de Amsterdam: realmente grande. Desde que aterrizó el avión, hasta que "estacionó" para que bajemos, habrá carreteado unos veinte minutos. Bajamos y fuimos a buscar las valijas (diez minutos de caminata). Cuando salimos, la decisión fue si nos tomábamos un taxi o el tren. Considerando que era tarde, bien entrada la noche, y no entendíamos ni jota de lo que hablaban los "locales", decidimos tomarnos un taxi.
 
-La distancia era considerable, desde el aeropuerto de Amsterdam hasta el centro de <a href="http://www.utrecht.nl/smartsite.dws?id=13353&amp;mw=1008&amp;w=18&amp;p=&amp;parFrom=13354&amp;infFrom=0">Utrecht</a>, pero fuimos charlando con el chofer, qué sabía perfectamente inglés, muy cómodos en un Mercedes Benz que era un despelote. Eso sí, la tarifa fue de 93 euros. Encima, y aunque le mostramos la dirección que llevábamos anotada, el imbécil nos dejó en el hotel equivocado (misma ciudad, mismo nombre de hotel, pero otro). Cuando entramos y la recepcionista nos dijo "Se equivocaron de hotel" nos queríamos morir.
+La distancia era considerable, desde el aeropuerto de Amsterdam hasta el centro de `Utrecht <http://www.utrecht.nl/smartsite.dws?id=13353&amp;mw=1008&amp;w=18&amp;p=&amp;parFrom=13354&amp;infFrom=0>`_, pero fuimos charlando con el chofer, qué sabía perfectamente inglés, muy cómodos en un Mercedes Benz que era un despelote. Eso sí, la tarifa fue de 93 euros. Encima, y aunque le mostramos la dirección que llevábamos anotada, el imbécil nos dejó en el hotel equivocado (misma ciudad, mismo nombre de hotel, pero otro). Cuando entramos y la recepcionista nos dijo "Se equivocaron de hotel" nos queríamos morir.
 
 Por suerte el otro estaba a unas quince cuadras de distancia, y aunque las valijas pesaban y estábamos cansadísimos, la caminata estuvo buena, porque nos sirvió para ir conociendo a los ciclistas.
 
 
-<span style="font-weight: bold">Ciclistas</span>
+Ciclistas
+---------
 
 Uno ve por la calle más bicicletas que autos, y en la calle existen cuatro zonas: las de adorno (pasto, monumentos, etc), las habilitadas para caminar (vereda, que le dicen), la calle común y corriente para los autos, y la calle para las bicicletas. No, no son bicisendas, son calles en todo su esplendor para las bicicletas.
 
@@ -31,14 +34,16 @@ Similar sucede con los semáforos: están los de los automovilistas (redondos, t
 Para colmo es normal que no existan cordones, por lo que las dos calles y la vereda están a la misma altura y definidas por el tipo de empedrado, etc. En algunos casos aunque uno se quede parado mirándolas con atención, no es capaz de diferenciarlas (por supuesto, hasta que pasa la primer bicicleta, momento en que uno se da cuenta que estaba en el lugar equivocado).
 
 
-<span style="font-weight: bold">Hotel y primera noche</span>
+Hotel y primera noche
+---------------------
 
 El hotel está lindo, pero baratón. O sea, no creo que no sea caro, pero algunas cosas te dan la pauta de que es de un nivel medio: cama individual, no tiene cajones, no tiene frigobar, no tiene caja de seguridad en la habitación, etcétera. Pero si no contamos eso, está bien: es cómodo, limpio, y hace calorcito en la habitación; el baño está bueno (aunque chico, se ve que los europeos no pasan mucho tiempo en el baño) y tiene una tele.
 
 Luego de dejar las cosas queríamos ir a comer pero no parecía haber nada cerca. Con la excepción de que justo al lado había un bar/restaurant. Estuvo piola, porque Estela y yo pedimos comidas raras (Germán comió un churrasco con papa a la crema), y eran ricas. Y el café es bueno en ese lugar. Casualmente es el mismo restaurant donde sirven el desayuno del hotel, dónde te podés servir un montón de cosas distintas: jugos, té, café, leche, panes, tostadas, mermeladas, miel, manteca, fiambres, frutas, e incluso hay salchichas y otras cosas calientes (tipo desayuno yanqui).
 
 
-<span style="font-weight: bold">Primer paseo</span>
+Primer paseo
+------------
 
 Fuimos a Amsterdam, en tren. Todavía estamos medios perdidos con el idioma, y muchas cosas no entendemos. Pero hay cosas que te despistan. Luego de encontrar el tren que nos teníamos que tomar, y llegar al andén correcto, debíamos que esperar diez minutos. En cartelera figuraba el tren anterior, y había un montón de gente esperando. En un momento dicen algo por los parlantes y la gente comenzó a bajar por las escaleras, para pasar por el túnel subterraneo a otro andén. Nosotros no sabíamos que hacer, pero confiamos en que cuando refrescaran la cartelera, nos iba a indicar que ahí venía nuestro tren. La cartelera se refrescó.... &iexcl;y quedó en blanco! Acto seguido Estela le preguntó a un señor y nos dijo que habían cambiado el tren de andén: salimos corriendo y por suerte lo agarramos sin problemas.
 
