@@ -1,6 +1,6 @@
 2005-02-03 04:57:24
 Primeras impresiones de Holanda
-viaje, avión, iberia, taxi, Utrecht, ciclistas, hotel, desayuno, Holanda
+viaje, avión, iberia, taxi, Utrecht, ciclistas, hotel, desayuno, Holanda, gouda, hp
 
 Viaje en avión
 --------------
@@ -45,33 +45,36 @@ Luego de dejar las cosas queríamos ir a comer pero no parecía haber nada cerca
 Primer paseo
 ------------
 
-Fuimos a Amsterdam, en tren. Todavía estamos medios perdidos con el idioma, y muchas cosas no entendemos. Pero hay cosas que te despistan. Luego de encontrar el tren que nos teníamos que tomar, y llegar al andén correcto, debíamos que esperar diez minutos. En cartelera figuraba el tren anterior, y había un montón de gente esperando. En un momento dicen algo por los parlantes y la gente comenzó a bajar por las escaleras, para pasar por el túnel subterraneo a otro andén. Nosotros no sabíamos que hacer, pero confiamos en que cuando refrescaran la cartelera, nos iba a indicar que ahí venía nuestro tren. La cartelera se refrescó.... &iexcl;y quedó en blanco! Acto seguido Estela le preguntó a un señor y nos dijo que habían cambiado el tren de andén: salimos corriendo y por suerte lo agarramos sin problemas.
+Fuimos a Amsterdam, en tren. Todavía estamos medios perdidos con el idioma, y muchas cosas no entendemos. Pero hay cosas que te despistan. Luego de encontrar el tren que nos teníamos que tomar, y llegar al andén correcto, debíamos que esperar diez minutos. En cartelera figuraba el tren anterior, y había un montón de gente esperando. En un momento dicen algo por los parlantes y la gente comenzó a bajar por las escaleras, para pasar por el túnel subterráneo a otro andén. Nosotros no sabíamos que hacer, pero confiamos en que cuando refrescaran la cartelera, nos iba a indicar que ahí venía nuestro tren. La cartelera se refrescó.... ¡y quedó en blanco! Acto seguido Estela le preguntó a un señor y nos dijo que habían cambiado el tren de andén: salimos corriendo y por suerte lo agarramos sin problemas.
 
 Una nota de color: en el andén, aunque es abierto, al aire libre, con techos altos, etc, etc, tiene sectores para fumadores. Son como postes con ceniceros, y el único lugar en donde se pueden fumar es alrededor de ellos.
 
 
-<span style="font-weight: bold">Amsterdam</span>
+Amsterdam
+---------
 
-<a href="http://www.amsterdam.nl/asp/get.asp?ItmIdt=00000494&amp;SitIdt=00000005&amp;VarIdt=00000002">Amsterdam</a> está bueno, mucha noche (por lo menos a comparación de Utrecht, que no hay nada abierto después de las once), aunque la mayoría son restaurants de comidas de otros paises. Chinos, japoneses, mexicanos, indonesios, y muchos (&iexcl;muchos!) lugares de comidas argentinas. Por supuesto, a 6 euros una empanada, no entramos ni a ganchazos en ninguno.
+`Amsterdam <http://www.amsterdam.nl/asp/get.asp?ItmIdt=00000494&amp;SitIdt=00000005&amp;VarIdt=00000002>`_ está bueno, mucha noche (por lo menos a comparación de Utrecht, que no hay nada abierto después de las once), aunque la mayoría son restaurants de comidas de otros paises. Chinos, japoneses, mexicanos, indonesios, y muchos (¡muchos!) lugares de comidas argentinas. Por supuesto, a 6 euros una empanada, no entramos ni a ganchazos en ninguno.
 
-<img src="http://farm1.static.flickr.com/243/527834030_1a12b542cc_o.jpg" border="0" />
+.. image:: http://farm1.static.flickr.com/243/527834030_1a12b542cc_o.jpg
 
-Pasamos por la zona roja: pura fama. Unas minas, detrás de unas vidrieras, en ropa interior. Los holandeses se escandalizarían si pasasen por <span style="font-style: italic">nuestra</span> zona roja; la de ellos, a comparación, es un poroto (aunque quizás es porque pasamos demasiado temprano). Lo que sí estaba divertido de ver eran los lugares que despachaban hierbas alucinógenas (la mayoría era marihuana) y diversos elementos para su consumo. Incluso había un lugar que vendían caramelos, galletitas, etc, todos hechos en parte con <a href="http://www.cannabis.com/">cannabis</a>.
-
-
-<span style="font-weight: bold">&iquest;Pero a qué fuimos?</span>
-
-&iexcl;Ah! Y por supuesto, también fuimos al curso: estamos nosotros tres (Estela, Germán y yo) con un irlandés y un pibe y una piba de Grecia. Gente copada, como el instructor, aunque estuvo medio aburrido. Toca los temas muy superficialmente, la mayoría de las cosas las sabemos, y encima habla lento, por lo que se pone bastante pesado. Igual algunas cosas interesantes se sacan.
-
-El Martes, como el profesor explicaba UCP (que es un protocolo que no usamos ni usaremos, ya que es viejo) arreglamos con LogicaCMG para que nos den un paseo por sus instalaciones, así que nos estuvieron mostrando productos hasta el mediodía, luego comimos en el comedor de la empresa (me reservo este capítulo para otro día) y luego fuimos a una de las plantas que <a href="http://www.hp.com/">HP</a> tiene en Holanda, dónde prácticamente trabajan solamente para LogicaCMG. Allí nos explicaron todos los pasos desde que obtienen las partes que encargaron a los distintos proveedores hasta que obtienen el producto armado (dos de esos productos los tenemos actualmente en Barracas trabajando para <a href="http://www.unifon.com.ar/">Unifón</a>).
+Pasamos por la zona roja: pura fama. Unas minas, detrás de unas vidrieras, en ropa interior. Los holandeses se escandalizarían si pasasen por *nuestra* zona roja; la de ellos, a comparación, es un poroto (aunque quizás es porque pasamos demasiado temprano). Lo que sí estaba divertido de ver eran los lugares que despachaban hierbas alucinógenas (la mayoría era marihuana) y diversos elementos para su consumo. Incluso había un lugar que vendían caramelos, galletitas, etc, todos hechos en parte con `cannabis <http://www.cannabis.com/>`_.
 
 
-<span style="font-weight: bold">Gouda</span>
+¿Pero a qué fuimos?
+-------------------
 
-Cuando salimos de HP con el "guía turístico de LogicaCMG" ya había terminado el día laboral/estudiantil, y nos dejó en la ciudad de <a href="http://www.gouda.nl/">Gouda</a> (de dónde es originario el famoso queso del mismo nombre). Allí recorrimos bastante, conociendo las distintas partes del canal que rodea la ciudad, y compramos algo que no me acuerdo como se llaman pero son como galletitas del material de los cucuruchos de la heladería con un dulce adentro. Muy ricas.
+¡Ah! Y por supuesto, también fuimos al curso: estamos nosotros tres (Estela, Germán y yo) con un irlandés y un pibe y una piba de Grecia. Gente copada, como el instructor, aunque estuvo medio aburrido. Toca los temas muy superficialmente, la mayoría de las cosas las sabemos, y encima habla lento, por lo que se pone bastante pesado. Igual algunas cosas interesantes se sacan.
 
-<img src="http://farm1.static.flickr.com/201/527924221_6a691e5291_o.jpg" border="0" />
+El Martes, como el profesor explicaba UCP (que es un protocolo que no usamos ni usaremos, ya que es viejo) arreglamos con LogicaCMG para que nos den un paseo por sus instalaciones, así que nos estuvieron mostrando productos hasta el mediodía, luego comimos en el comedor de la empresa (me reservo este capítulo para otro día) y luego fuimos a una de las plantas que `HP <http://www.hp.com/>`_ tiene en Holanda, dónde prácticamente trabajan solamente para LogicaCMG. Allí nos explicaron todos los pasos desde que obtienen las partes que encargaron a los distintos proveedores hasta que obtienen el producto armado (dos de esos productos los tenemos actualmente en Barracas trabajando para `Unifón <http://www.unifon.com.ar/>`_).
 
-Luego caminamos hasta el tren y nos volvimos a Utrech. Ya estamos cancheros, no tuvimos problemas con elegir el trén, el andén, ni dónde bajarnos. Ah, y cuando llegamos a la estación Utrech Centraal pasé a buscar mi mochila que ya estaba arreglada, :)
 
-Bueno, eso es todo por ahora. Esto lo tenía escrito de antes pero estuvimos complicados con la conexión a Internet. En sucesivos blogs iré describiendo cosas más puntuales, no tanto relato minuto a minuto. &iexcl;Manténganse sintonizados! (el que tenga una traducción mejor a "stay tuned" que avise...)[@more@] |
+Gouda
+-----
+
+Cuando salimos de HP con el "guía turístico de LogicaCMG" ya había terminado el día laboral/estudiantil, y nos dejó en la ciudad de `Gouda <http://www.gouda.nl/>`_ (de dónde es originario el famoso queso del mismo nombre). Allí recorrimos bastante, conociendo las distintas partes del canal que rodea la ciudad, y compramos algo que no me acuerdo como se llaman pero son como galletitas del material de los cucuruchos de la heladería con un dulce adentro. Muy ricas.
+
+.. image:: http://farm1.static.flickr.com/201/527924221_6a691e5291_o.jpg
+
+Luego caminamos hasta el tren y nos volvimos a Utrech. Ya estamos cancheros, no tuvimos problemas con elegir el tren, el andén, ni dónde bajarnos. Ah, y cuando llegamos a la estación Utrech Centraal pasé a buscar mi mochila que ya estaba arreglada, :)
+
+Bueno, eso es todo por ahora. Esto lo tenía escrito de antes pero estuvimos complicados con la conexión a Internet. En sucesivos blogs iré describiendo cosas más puntuales, no tanto relato minuto a minuto. ¡Manténganse sintonizados! (el que tenga una traducción mejor a "stay tuned" que avise...)

@@ -1,22 +1,18 @@
 2005-02-08 08:10:37
 Graffitis
-<tags>
+grafittis, pintadas, respeto
 
 
 Las pintadas en las paredes son muy similares a las que vi en Zurich. Coloridas, con letras raras, y sólo por el arte estético (o a lo sumo a favor de algun grupo musical joven). Pero tomando en cuenta que no era la primera vez que las veía, y considerando que ahora podía comparar más de tres "culturas" a nivel graffiti, noté un patrón muy claro.
 
-<img src="http://farm2.static.flickr.com/1151/527924329_3d9e7ceccc_o.jpg" />
+.. image:: http://farm2.static.flickr.com/1151/527924329_3d9e7ceccc_o.jpg
 
-En Argentina hay pintadas en todos lados. En <span style="font-weight: bold;">todos</span> lados. En Italia también, en ese sentido son bastante sucios. Pero Zurich y Holanda tienen algo en común: las pintadas son en lugares donde no afectan la estética de la ciudad (nunca vi una casa pintada, o la pared de un negocio todavía en funcionamiento). Por supuesto, hay excepciones. Y en algunas zonas, o barrios, son muy sucios: cuando pintan, <span style="font-weight: bold;">pintan</span> (o llenan las paredes de afiches: una porquería).
+En Argentina hay pintadas en todos lados. En **todos** lados. En Italia también, en ese sentido son bastante sucios. Pero Zurich y Holanda tienen algo en común: las pintadas son en lugares donde no afectan la estética de la ciudad (nunca vi una casa pintada, o la pared de un negocio todavía en funcionamiento). Por supuesto, hay excepciones. Y en algunas zonas, o barrios, son muy sucios: cuando pintan, *pintan* (o llenan las paredes de afiches: una porquería).
 
-<img src="http://farm2.static.flickr.com/1206/527924379_95100ae104_o.jpg" />
+.. image:: http://farm2.static.flickr.com/1206/527924379_95100ae104_o.jpg
 
 Pero al punto que quiero llegar, y es de lo que me di cuenta que sucede en Argentina, es que muchas pintadas son políticas. Y cuando un partido respeta "tanto" al ciudadano como para enviar gente a que pinte la pared de su casa con "Vote Fulanito", o "Menganito conducción", ¿cuán buena propaganda se hacen? Si uno lo pensara dos segundos, jamás votaría al tipo que mandó a ensuciarle (o permitió que alguien vaya a ensuciarle) la casa.
 
-Entonces, ¿cómo es que esta gente es votada, votada, reelecta, y reelecta? A primera vista, y disfrutando del riesgo de sacar conclusiones apresuradas, me atrevería a llegar a la idea de que al ciudadano argentino no le importa que sus dirigentes no lo respeten (tener en cuenta que estoy afirmando esto para los argentinos, pero <span style="font-style: italic;">no</span> digo que esto no suceda también en otros paises).
+Entonces, ¿cómo es que esta gente es votada, votada, reelecta, y reelecta? A primera vista, y disfrutando del riesgo de sacar conclusiones apresuradas, me atrevería a llegar a la idea de que al ciudadano argentino no le importa que sus dirigentes no lo respeten (tener en cuenta que estoy afirmando esto para los argentinos, pero *no* digo que esto no suceda también en otros países).
 
 Una vez que leemos esa conclusión escrita, creo que podemos entender muchas de las cosas que suceden en nuestra tierra. Y quizás pueda ayudarnos a pensar un poquito mejor cómo cambiar este estado de situación.
-
-[@more@]
-
- |
