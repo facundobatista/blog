@@ -9,4 +9,11 @@ Ese mismo sábado está FLISOL, Festival Latinoamericano de Instalación de Soft
 Este año, una vez más, soy mentor del <a href="http://code.google.com/soc/2008/">Google Summer of Code</a>, representando a la <a href="http://www.python.org/psf/">Python Software Foundation</a>. En esta oportunidad voy a trabajar con O. R. Senthil Kumaran, en los módulos urllib y urllib2 para Python 2.6 y 3.0 <a href="http://code.google.com/soc/2008/psf/appinfo.html?csaid=F665E4DF3178BFE5">[-]</a>. Esperemos que sea productivo. La lista completa de los proyectos de este GSoC bajo el paraguas de la PSF es <a href="http://code.google.com/soc/2008/psf/about.html">esta</a>.
 
 Ya confirmamos la <a href="http://www.python.com.ar/moin/Eventos/Reuniones/ProximaReunion">próxima reunión de Python Argentina</a>, en Buenos Aires. Será el 7 de Mayo, en el mismo bar que la vez anterior. Veremos si se hacen otras reuniones en otros lugares del pais, la oferta de mandarles parte del merchandising que trajimos está, veremos si se copan o no. La lista de temas a charlar es:
-<ul><li>Experiencia de PyCon 2008</li><li>Experiencia de Fisl 2008</li><li>Experiencia de PyWeek 6</li><li>Reparto de merchandising</li><li>&iquest;PyCon Argentina 2009?</li><li>Sprint de instalación de nuestro server</li><li>Global Python Sprint Weekend</li></ul>El fin de semana del 10 y 11 de Mayo se hará el primer Global Python Sprint Weekend. Es la evolución natural de un Python Bug Day, y lo incluye, las dos principales diferencias es que son dos días, y que distintos grupos se van a reunir fisicamente alrededor del mundo para esto. Más info, <a href="http://wiki.python.org/moin/PythonBugDay">aquí</a>.[@more@] |
+<ul><li>Experiencia de PyCon 2008
+<li>Experiencia de Fisl 2008
+<li>Experiencia de PyWeek 6
+<li>Reparto de merchandising
+<li>&iquest;PyCon Argentina 2009?
+<li>Sprint de instalación de nuestro server
+<li>Global Python Sprint Weekend
+</ul>El fin de semana del 10 y 11 de Mayo se hará el primer Global Python Sprint Weekend. Es la evolución natural de un Python Bug Day, y lo incluye, las dos principales diferencias es que son dos días, y que distintos grupos se van a reunir fisicamente alrededor del mundo para esto. Más info, <a href="http://wiki.python.org/moin/PythonBugDay">aquí</a>.[@more@] |

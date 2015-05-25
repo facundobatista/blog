@@ -7,9 +7,15 @@ Desastre
 Como aperitivo, antes de la historia, tres hechos en contra y tres a favor:
 
 En contra:
-<ul><li>No tenía backup</li><li>No tenía el /home en otra partición</li><li>Estaba seguro de que algo era de una manera, pero era de otra</li></ul>
+<ul><li>No tenía backup
+<li>No tenía el /home en otra partición
+<li>Estaba seguro de que algo era de una manera, pero era de otra
+</ul>
 A favor:
-<ul><li><span style="font-style: italic;">Algo</span> de experiencia en esto tengo</li><li><span style="font-style: italic;">Algo</span> del tema sé</li><li>Tengo un orto a prueba de balas</li></ul>
+<ul><li><span style="font-style: italic;">Algo</span> de experiencia en esto tengo
+<li><span style="font-style: italic;">Algo</span> del tema sé
+<li>Tengo un orto a prueba de balas
+</ul>
 Bueno, a la historia (esto se va a poner un poco techie).
 
 Luego de una semana donde la máquina se cayó dos o tres veces por cortes de luz, luego de que se cuelgue un par de veces, y al haber encontrado varios errores en el filesystem de particiones que no eran la booteable (donde tengo montada la raiz), decidí correrle un fsck al barra.

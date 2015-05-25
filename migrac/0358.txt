@@ -2,7 +2,7 @@
 Hielo en el Planeta Rojo
 <tags>
 
-No, no es una referencia a <a href="http://www.taniquetil.com.ar/facundo/hr/hr.html">mi libro</a>, sino a algo que pasó bastante desapercibido en las noticias (&iexcl;obvio! es mucho más importante el partido de Boca-Fluminense...).
+No, no es una referencia a <a href="http://www.taniquetil.com.ar/facundo/hr/hr.html">mi libro</a>, sino a algo que pasó bastante desapercibido en las noticias (¡obvio! es mucho más importante el partido de Boca-Fluminense...).
 
 En Marte, hoy, el agua sólo se encuentra en forma de gas atmosférico y como hielo en los polos. No obstante, hay evidencias geológicas de que hace miles de millones de años fluía en ríos y lagos. Para ayudar a que los científicos puedan comprender qué pasó con ese volumen de agua, de que manera se distribuía por el planeta, y por qué dejó de existir en estado líquido, la NASA envió a un explorador no humano a dicho planeta.
 
@@ -10,9 +10,9 @@ La NASA bautizó a esta nave espacial como <a href="http://en.wikipedia.org/wiki
 
 <img src="http://www.taniquetil.com.ar/facundo/imgs/phoenixlander1.jpg" border="0" alt="Polo norte marciano" title="Polo norte marciano" width="350" height="350" />
 
-Lanzada el 4 de Agosto del año pasado, llegó a Marte el 25 de Mayo pasado. Pesa 350kg y su alimentación es a base de fibras y carbohidratos (&iexcl;se prende al Nestum como loca!). No, mentira, tiene paneles solares y baterías de ion litio (las misma tecnología base que las de los teléfonos actuales, en serio).
+Lanzada el 4 de Agosto del año pasado, llegó a Marte el 25 de Mayo pasado. Pesa 350kg y su alimentación es a base de fibras y carbohidratos (¡se prende al Nestum como loca!). No, mentira, tiene paneles solares y baterías de ion litio (las misma tecnología base que las de los teléfonos actuales, en serio).
 
-La forma de aterrizaje es la clásica, de paracaídas y cohetes al final para frenar la nave antes de posarse (las últimas naves de este tipo terminan cayendo envueltas en bolsas de aire, para minimizar el impacto). Un hito: fue la primer nave <a href="http://en.wikipedia.org/wiki/Image:Phoenix_Lander_seen_from_MRO_during_EDL2.jpg">observada</a> al descender en otro planeta (<a href="http://www.google.com/mars/#lat=68.218830&amp;lon=-125.749222&amp;zoom=7">esta</a> es la zona donde bajó).
+La forma de aterrizaje es la clásica, de paracaídas y cohetes al final para frenar la nave antes de posarse (las últimas naves de este tipo terminan cayendo envueltas en bolsas de aire, para minimizar el impacto). Un hito: fue la primer nave <a href="http://en.wikipedia.org/wiki/Image:Phoenix_Lander_seen_from_MRO_during_EDL2.jpg">observada</a> al descender en otro planeta (<a href="http://www.google.com/mars/#lat=68.218830&lon=-125.749222&zoom=7">esta</a> es la zona donde bajó).
 
 La Phoenix analizará las moléculas contenidas en el agua presente en el permafrost marciano, la capa de hielo permanentemente congelado en los niveles superficiales del polo norte.&nbsp; El laboratorio incluido a bordo de la sonda se encarga de calentar, en un horno alimentado por energía solar, las muestras recogidas del subsuelo marciano hasta convertirlas en un gas más fácil de analizar por la multitud de sensores que dispone. Luego, transmitirá a la tierra la lista de moléculas que contiene.
 

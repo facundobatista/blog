@@ -4,45 +4,80 @@ Vamos con las pelis
 
  Varias vistas, pero no tantas, :/. Vamos a ver si le podemos poner ritmo...</p>
 <ul>
-<li><a href="http://www.imdb.com/title/tt1217613/">Battle LA</a>: -0. Una peli de acción pasable, pero ya no me banco más al concepto de "hay que mantener militares yanquis porque van a salvar al mundo algún día".</li>
-<li><a href="http://www.imdb.com/title/tt1194417/">Casino Jack</a>: -0. Aristas interesantes, muestra un poco lo que es el juego del "lobby" en EEUU, pero después no tiene mucho.</li>
-<li><a href="http://www.imdb.com/title/tt0977855/">Fair game</a>: +1. Muy buena película sobre construcción de la verdad desde el gobierno sobre la misma gente...</li>
-<li><a href="http://www.imdb.com/title/tt1152822/">Freakonomics</a>: -0. Conceptualmente interesante, pasa mucho tiempo con boludeces; no vale la pena.</li>
-<li><a href="http://www.imdb.com/title/tt1707386/">Les misérables</a>: +1. Nunca pensé que un musical me fuera a gustar tanto. Los actores están bárbaros, la música perfecta... la historia es conocida, pero igual no le resta.</li>
-<li><a href="http://www.imdb.com/title/tt0374853/">Malice in Wonderland</a>: -1. Demasiado loca y volada, no me gustó.</li>
-<li><a href="http://www.imdb.com/title/tt1251757/">Middle men</a>: +0. Más allá del nudo de la historia, que es interesante, se mezcla todo y se desenlaza todo de una forma interesante. Las actuaciones podrían ser mejores, pero está bien (o quizás es que Luke Wilson no me gusta nada nada).</li>
-<li><a href="http://www.imdb.com/title/tt1220634/">Resident evil: After life</a>: -0. Estúpida y sensual Milla Jovovich. Pero ya está, no veo ni una más.</li>
-<li><a href="http://www.imdb.com/title/tt1114731/">Seres: genesis</a>: ??. No la pude ver... no la conseguí bajar por ningún lado, :/</li>
-<li><a href="http://www.imdb.com/title/tt1337137/">South of the border</a>: +1. Genial serie de entrevistas de Oliver Stone a presidentes latinoamericanos, dejándolos hablar pero también repreguntando, todo mezclado con el punto de vista de USA sobre estos mandatarios, con lo que se generan opiniones y puntos de vista que normalmente no se conocen.</li>
-<li><a href="http://www.imdb.com/title/tt1650062/">Super 8</a>: +0. Un tanto trillada y "peli de adolescentes", pero más allá de eso, muy buena peli.</li>
-<li><a href="http://www.imdb.com/title/tt1474889/">The freebie</a>: +0. Muy interesante como plantean el tema y cómo lo desarrollan, especialmente al momento de hilvanar la historia. Pero tampoco es nada del otro mundo. Y no conseguí subtítulos en castellano.</li>
-<li><a href="http://www.imdb.com/title/tt0808285/">The good heart</a>: +0. Muy buena visión sobre dos personalidades complejas y atípicas; hay un concepto para desarrollar y está muy bien, pero la peli es oscura, enrevesada, y el punto álgido muy previsible...</li>
-<li><a href="http://www.imdb.com/title/tt1243957/">The tourist</a>: +1. Acción, mistero, Johnny Depp y Angelina Jolie. Say no more.</li>
-<li><a href="http://www.imdb.com/title/tt1399103/">Transformers: Dark of the moon</a>: -1. Mucha acción, no te aburrís, pero que película de mierda, toda una propaganda de los milicos yanquis. Es para perderle el respeto a Spielberg por ser productor ejecutivo de esta cagada.</li>
-<li><a href="http://www.imdb.com/title/tt1401152/">Unknown</a>: -0. Muy buen giro, pero no llega a hacer valer la peli.</li>
+<li><a href="http://www.imdb.com/title/tt1217613/">Battle LA</a>: -0. Una peli de acción pasable, pero ya no me banco más al concepto de "hay que mantener militares yanquis porque van a salvar al mundo algún día".
+
+<li><a href="http://www.imdb.com/title/tt1194417/">Casino Jack</a>: -0. Aristas interesantes, muestra un poco lo que es el juego del "lobby" en EEUU, pero después no tiene mucho.
+
+<li><a href="http://www.imdb.com/title/tt0977855/">Fair game</a>: +1. Muy buena película sobre construcción de la verdad desde el gobierno sobre la misma gente...
+
+<li><a href="http://www.imdb.com/title/tt1152822/">Freakonomics</a>: -0. Conceptualmente interesante, pasa mucho tiempo con boludeces; no vale la pena.
+
+<li><a href="http://www.imdb.com/title/tt1707386/">Les misérables</a>: +1. Nunca pensé que un musical me fuera a gustar tanto. Los actores están bárbaros, la música perfecta... la historia es conocida, pero igual no le resta.
+
+<li><a href="http://www.imdb.com/title/tt0374853/">Malice in Wonderland</a>: -1. Demasiado loca y volada, no me gustó.
+
+<li><a href="http://www.imdb.com/title/tt1251757/">Middle men</a>: +0. Más allá del nudo de la historia, que es interesante, se mezcla todo y se desenlaza todo de una forma interesante. Las actuaciones podrían ser mejores, pero está bien (o quizás es que Luke Wilson no me gusta nada nada).
+
+<li><a href="http://www.imdb.com/title/tt1220634/">Resident evil: After life</a>: -0. Estúpida y sensual Milla Jovovich. Pero ya está, no veo ni una más.
+
+<li><a href="http://www.imdb.com/title/tt1114731/">Seres: genesis</a>: ??. No la pude ver... no la conseguí bajar por ningún lado, :/
+
+<li><a href="http://www.imdb.com/title/tt1337137/">South of the border</a>: +1. Genial serie de entrevistas de Oliver Stone a presidentes latinoamericanos, dejándolos hablar pero también repreguntando, todo mezclado con el punto de vista de USA sobre estos mandatarios, con lo que se generan opiniones y puntos de vista que normalmente no se conocen.
+
+<li><a href="http://www.imdb.com/title/tt1650062/">Super 8</a>: +0. Un tanto trillada y "peli de adolescentes", pero más allá de eso, muy buena peli.
+
+<li><a href="http://www.imdb.com/title/tt1474889/">The freebie</a>: +0. Muy interesante como plantean el tema y cómo lo desarrollan, especialmente al momento de hilvanar la historia. Pero tampoco es nada del otro mundo. Y no conseguí subtítulos en castellano.
+
+<li><a href="http://www.imdb.com/title/tt0808285/">The good heart</a>: +0. Muy buena visión sobre dos personalidades complejas y atípicas; hay un concepto para desarrollar y está muy bien, pero la peli es oscura, enrevesada, y el punto álgido muy previsible...
+
+<li><a href="http://www.imdb.com/title/tt1243957/">The tourist</a>: +1. Acción, mistero, Johnny Depp y Angelina Jolie. Say no more.
+
+<li><a href="http://www.imdb.com/title/tt1399103/">Transformers: Dark of the moon</a>: -1. Mucha acción, no te aburrís, pero que película de mierda, toda una propaganda de los milicos yanquis. Es para perderle el respeto a Spielberg por ser productor ejecutivo de esta cagada.
+
+<li><a href="http://www.imdb.com/title/tt1401152/">Unknown</a>: -0. Muy buen giro, pero no llega a hacer valer la peli.
+
 </ul>
 <p>
  Y todas estas nuevas. Me estoy quedando atrás...</p>
 <ul>
-<li><a href="http://www.imdb.com/title/tt1272878/">2 guns</a></li>
-<li><a href="http://www.imdb.com/title/tt1815862/">After Earth</a></li>
-<li><a href="http://www.imdb.com/title/tt2209418/">Before midnight</a></li>
-<li><a href="http://www.imdb.com/title/tt1690953/">Despicable me 2</a></li>
-<li><a href="http://www.imdb.com/title/tt2132324/">Elefante blanco</a></li>
-<li><a href="http://www.imdb.com/title/tt1535108/">Elysium</a></li>
-<li><a href="http://www.imdb.com/title/tt1718158/">Generation um</a></li>
-<li><a href="http://www.imdb.com/title/tt2234155/">Internship</a></li>
-<li><a href="http://www.imdb.com/title/tt1995341/">It's a disaster</a></li>
-<li><a href="http://www.imdb.com/title/tt2718462/">La reconstrucción</a></li>
-<li><a href="http://www.imdb.com/title/tt1992193/">Pandora's promise</a></li>
-<li><a href="http://www.imdb.com/title/tt1979320/">Rush</a></li>
-<li><a href="http://www.imdb.com/title/tt2404311/">The family</a></li>
-<li><a href="http://www.imdb.com/title/tt2011300/">The kitchen</a></li>
-<li><a href="http://www.imdb.com/title/tt1659338/">The numbers station</a></li>
-<li><a href="http://www.imdb.com/title/tt1430132/">The wolverine</a></li>
-<li><a href="http://www.imdb.com/title/tt1758830/">This is 40</a></li>
-<li><a href="http://www.imdb.com/title/tt1924429/">Trance</a></li>
-<li><a href="http://www.imdb.com/title/tt0816711/">World war Z</a></li>
+<li><a href="http://www.imdb.com/title/tt1272878/">2 guns</a>
+
+<li><a href="http://www.imdb.com/title/tt1815862/">After Earth</a>
+
+<li><a href="http://www.imdb.com/title/tt2209418/">Before midnight</a>
+
+<li><a href="http://www.imdb.com/title/tt1690953/">Despicable me 2</a>
+
+<li><a href="http://www.imdb.com/title/tt2132324/">Elefante blanco</a>
+
+<li><a href="http://www.imdb.com/title/tt1535108/">Elysium</a>
+
+<li><a href="http://www.imdb.com/title/tt1718158/">Generation um</a>
+
+<li><a href="http://www.imdb.com/title/tt2234155/">Internship</a>
+
+<li><a href="http://www.imdb.com/title/tt1995341/">It's a disaster</a>
+
+<li><a href="http://www.imdb.com/title/tt2718462/">La reconstrucción</a>
+
+<li><a href="http://www.imdb.com/title/tt1992193/">Pandora's promise</a>
+
+<li><a href="http://www.imdb.com/title/tt1979320/">Rush</a>
+
+<li><a href="http://www.imdb.com/title/tt2404311/">The family</a>
+
+<li><a href="http://www.imdb.com/title/tt2011300/">The kitchen</a>
+
+<li><a href="http://www.imdb.com/title/tt1659338/">The numbers station</a>
+
+<li><a href="http://www.imdb.com/title/tt1430132/">The wolverine</a>
+
+<li><a href="http://www.imdb.com/title/tt1758830/">This is 40</a>
+
+<li><a href="http://www.imdb.com/title/tt1924429/">Trance</a>
+
+<li><a href="http://www.imdb.com/title/tt0816711/">World war Z</a>
+
 </ul>
 <p>
 Finalmente, el conteo de pendientes por fecha:

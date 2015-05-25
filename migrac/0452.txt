@@ -53,7 +53,7 @@ Durante la mañana no hice nada específico, más que nada charlas, cargué much
 
 
 
-A las 13 almorzamos, y luego jugamos a la pelota como media hora (sí, &iexcl;deporte!). Cortamos a las 14 porque arrancaba la sesión de <a href="https://edge.launchpad.net/lalita">Lalita</a>. Nos juntamos obviamente al aire libre (estabamos la mitad transpirados por el fúbol), y charlamos cosas para hacerle. Me anoté un bug doble (o dos bugs muy parecidos, como quieran), pero antes de empezar a hacer eso me fui a bañar.
+A las 13 almorzamos, y luego jugamos a la pelota como media hora (sí, ¡deporte!). Cortamos a las 14 porque arrancaba la sesión de <a href="https://edge.launchpad.net/lalita">Lalita</a>. Nos juntamos obviamente al aire libre (estabamos la mitad transpirados por el fúbol), y charlamos cosas para hacerle. Me anoté un bug doble (o dos bugs muy parecidos, como quieran), pero antes de empezar a hacer eso me fui a bañar.
 
 
 
@@ -99,7 +99,7 @@ Durante la tarde, también, se realizó el primer Torneo Universal de Ping Pong 
 
 
 
-Estuvimos también charlando un rato largo sobre el modelo del juego que construiremos durante el próximo PyWeek (<a href="http://the.most.biggest.gamest.in.the.worldst.com.ar/">el juego más grande del mundo</a>, &iexcl;ya les contaré cómo participar!).
+Estuvimos también charlando un rato largo sobre el modelo del juego que construiremos durante el próximo PyWeek (<a href="http://the.most.biggest.gamest.in.the.worldst.com.ar/">el juego más grande del mundo</a>, ¡ya les contaré cómo participar!).
 
 
 

@@ -12,7 +12,7 @@ La versión 0.3 (todavía pre-alfa) trae los siguientes cambios con respecto a l
 
 - Ahora podés poner al mismo tiempo a bajar muchos episodios (se encolan).
 
-- &iexcl;Soportamos botón derecho! Hacé click en cualquier episodio y fijate las opciones.
+- ¡Soportamos botón derecho! Hacé click en cualquier episodio y fijate las opciones.
 
 - Las descargas ahora pueden cancelarse.
 
@@ -26,4 +26,4 @@ La forma más fácil de instalarlo, si tienen un Debian o Ubuntu, es usando <a h
 
 En cualquier otro caso, pueden usar <a href="http://launchpad.net/encuentro/trunk/0.3.1/+download/encuentro-0.3.1.tar.gz">el tarball </a>para instalarlo. Recuerden revisar el archivo AYUDA.txt si tienen alguna duda de cómo usar el programa.
 
-&iexcl;Que lo disfruten!</p> |
+¡Que lo disfruten!</p> |

@@ -56,7 +56,7 @@ Finalmente, metemos todo eso adentro de un binario, indicando que se va a interp
 <span style="font-family: courier new,courier;">facundo@exopus:~/prueba$ ( echo '#!/usr/bin/env python'; cat proyecto.zip ) > miproyecto</span>
 <span style="font-family: courier new,courier;">facundo@exopus:~/prueba$ chmod +x miproyecto</span>
 
-&iexcl;Ya está! Ahora podemos ejecutar ese binario, como cualquier otro binario, y realmente estaremos ejecutando nuestro proyecto Python:
+¡Ya está! Ahora podemos ejecutar ese binario, como cualquier otro binario, y realmente estaremos ejecutando nuestro proyecto Python:
 
 <span style="font-family: courier new,courier;">facundo@exopus:~/prueba$ ./miproyecto</span>
 <span style="font-family: courier new,courier;">Arrancamos!</span>

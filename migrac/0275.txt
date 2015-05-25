@@ -5,5 +5,12 @@ Citas
 Buscando ya no me acuerdo qué, caí en la <a href="http://norvig.com/quotations.html">página de citas de Peter Norvig</a>, Director de Desarrollo de Google.
 
 Algunas de ellas me gustaron bastante, y las reproduzco acá (en castellano, si las quieren en inglés, vayan a buscarla a la página original).
-<ul><li>Siempre haz el bien. Eso agradará a algunas personas y asombrará al resto. <em>(Mark Twain)</em></li><li>Es la marca de una mente educada el poder entretener un pensamiento sin aceptarlo. <em>(Aristóteles)</em></li><li>Solo dos cosas son infinitas, el universo y la estupidez humana, y no estoy seguro del primero. <em>(Albert Einstein)</em></li><li>Las computadoras son inútiles. Solo pueden darte respuestas.<em> (Pablo Picasso)</em></li><li>La ciencia es como el sexo: a veces surge algo útil, pero no es por eso que lo hacemos.<em> (Richard Feynman)</em></li><li>El azar favorece solamente a la mente preparada. <em>(Louis Pasteur)</em></li></ul>Y este último que me encanta especialmente en el contexto de este post, :)
-<ul><li>Los hombres sabios crean proverbios, los tontos los repiten. <em>(Samuel Palmer)</em></li></ul>[@more@] |
+<ul><li>Siempre haz el bien. Eso agradará a algunas personas y asombrará al resto. <em>(Mark Twain)</em>
+<li>Es la marca de una mente educada el poder entretener un pensamiento sin aceptarlo. <em>(Aristóteles)</em>
+<li>Solo dos cosas son infinitas, el universo y la estupidez humana, y no estoy seguro del primero. <em>(Albert Einstein)</em>
+<li>Las computadoras son inútiles. Solo pueden darte respuestas.<em> (Pablo Picasso)</em>
+<li>La ciencia es como el sexo: a veces surge algo útil, pero no es por eso que lo hacemos.<em> (Richard Feynman)</em>
+<li>El azar favorece solamente a la mente preparada. <em>(Louis Pasteur)</em>
+</ul>Y este último que me encanta especialmente en el contexto de este post, :)
+<ul><li>Los hombres sabios crean proverbios, los tontos los repiten. <em>(Samuel Palmer)</em>
+</ul>[@more@] |

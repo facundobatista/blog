@@ -4,41 +4,72 @@ Películas, cerrando el dos mil trece
 
  Aunque estoy viendo un montón de cositas (sólo, con Felu, o toda la familia) bajadas de Encuentro, Pakapaka, Ronda, etc (con <a href="http://encuentro.taniquetil.com.ar/">mi programa</a>, obvio), pude ver varias películas anotadas (el viaje de ida y vuelta a Londres ayudó bastante acá :p).</p>
 <ul>
-<li><a href="http://www.imdb.com/title/tt1272878/">2 guns</a>: +0. Violenta, pero bien armada. Si te gustan las pelis de "pistoleros", adelante, si no no tiene sentido.</li>
-<li><a href="http://www.imdb.com/title/tt1542852/">Carancho</a>: +0. Cruda, muy dura. La historia está bien, mostrando un submundo que desconocía, las actuaciones impecables.</li>
-<li><a href="http://www.imdb.com/title/tt1694015/">Cool it</a>: +1. Muy interesante película alrededor del concepto de "hay que trabajar sobre el cambio climático pero no es lo más importante, y lo que se hace no es lo mejor". Para pensar bastante.</li>
-<li><a href="http://www.imdb.com/title/tt1570728/">Crazy, stupid, love</a>: +0. Otra comedia romanticona, pero mostrando también interacciones complejas a nivel familia (nada del otro mundo).</li>
-<li><a href="http://www.imdb.com/title/tt1340773/">Elektra Luxx</a>: +0. Varias historias mezcladas, ninguna completa, pero interesantes. No es una película clásica, pero está buena. Sencilla, pero comunicativa.</li>
-<li><a href="http://www.imdb.com/title/tt1185242/">Finding Bliss</a>: -0. Cuenta algunas cosas piolas, pero en general es rara, y como que le falta para que valga la pena.</li>
-<li><a href="http://www.imdb.com/title/tt1632708/">Friends with benefits</a>: +0. Una comedia romanticona, simple, para pasar el rato, pero bien.</li>
-<li><a href="http://www.imdb.com/title/tt0146882/">High fidelity</a>: +0. Una historia interesante, bien contada, personajes bárbaros.</li>
-<li><a href="http://www.imdb.com/title/tt2234155/">Internship</a>: -0. Por momemtos divertida, pero es una de esas películas que vimos mil veces.</li>
-<li><a href="http://www.imdb.com/title/tt1219289/">Limitless</a>: +0. Más allá de toda la acción que es casi de relleno (pero no sobra), una interesante película sobre qué harías si pudieras utilizar mucho más de tu cerebro... y qué precio estarías dispuesto a pagar por ello.</li>
-<li><a href="http://www.imdb.com/title/tt0114168/">Powder</a>: +0. Una historia pequeña pero muy bien contada, donde quizás el elemento más notable es el menos importante; varios actores muy conocidos, todos están bien.</li>
-<li><a href="http://www.imdb.com/title/tt1189340/">The Lincoln Lawyer</a>: +1. Mezcla de peli de abogados con thriller donde no sabés quien es bueno y quien es malo, hasta que todo se desanuda. Aparte de la historia en sí, me gustaron las actuaciones, y también la fotografía.</li>
-<li><a href="http://www.imdb.com/title/tt0756683/">The Man from Earth</a>: +1. Difícil contar de qué va la peli sin spoilearla, pero es muy buena para pensar, razonar y ver como otra gente reacciona con esos razonamientos.</li>
-<li><a href="http://www.imdb.com/title/tt1210819/">The lone ranger</a>: -0. Johnny Depp casi, casi, casi salva la película. El resto, poco y nada, más que muchos tiros y explosiones naif.</li>
-<li><a href="http://www.imdb.com/title/tt1334102/">The resident</a>: -1. Tres actores bárbaros para una película absolutamente predecible, que no hace más que repetir lo mismo que otras mil películas del género. Un fiasco.</li>
-<li><a href="http://www.imdb.com/title/tt1161864/">The rite</a>: -0. Anthony Hopkins *impecable*... pero la historia en total medio pelo, aunque amagan plantear dos o tres cosas para pensar... en la suma, bleh.</li>
-<li><a href="http://www.imdb.com/title/tt1240982/">Your highness</a>: -0. Con este película terminé de confirmar que no me gustan las "parodias"; incluso estando bien hechas y con actores decentes. Por otro lado, Natalie Portman está espléndida, :)</li>
+<li><a href="http://www.imdb.com/title/tt1272878/">2 guns</a>: +0. Violenta, pero bien armada. Si te gustan las pelis de "pistoleros", adelante, si no no tiene sentido.
+
+<li><a href="http://www.imdb.com/title/tt1542852/">Carancho</a>: +0. Cruda, muy dura. La historia está bien, mostrando un submundo que desconocía, las actuaciones impecables.
+
+<li><a href="http://www.imdb.com/title/tt1694015/">Cool it</a>: +1. Muy interesante película alrededor del concepto de "hay que trabajar sobre el cambio climático pero no es lo más importante, y lo que se hace no es lo mejor". Para pensar bastante.
+
+<li><a href="http://www.imdb.com/title/tt1570728/">Crazy, stupid, love</a>: +0. Otra comedia romanticona, pero mostrando también interacciones complejas a nivel familia (nada del otro mundo).
+
+<li><a href="http://www.imdb.com/title/tt1340773/">Elektra Luxx</a>: +0. Varias historias mezcladas, ninguna completa, pero interesantes. No es una película clásica, pero está buena. Sencilla, pero comunicativa.
+
+<li><a href="http://www.imdb.com/title/tt1185242/">Finding Bliss</a>: -0. Cuenta algunas cosas piolas, pero en general es rara, y como que le falta para que valga la pena.
+
+<li><a href="http://www.imdb.com/title/tt1632708/">Friends with benefits</a>: +0. Una comedia romanticona, simple, para pasar el rato, pero bien.
+
+<li><a href="http://www.imdb.com/title/tt0146882/">High fidelity</a>: +0. Una historia interesante, bien contada, personajes bárbaros.
+
+<li><a href="http://www.imdb.com/title/tt2234155/">Internship</a>: -0. Por momemtos divertida, pero es una de esas películas que vimos mil veces.
+
+<li><a href="http://www.imdb.com/title/tt1219289/">Limitless</a>: +0. Más allá de toda la acción que es casi de relleno (pero no sobra), una interesante película sobre qué harías si pudieras utilizar mucho más de tu cerebro... y qué precio estarías dispuesto a pagar por ello.
+
+<li><a href="http://www.imdb.com/title/tt0114168/">Powder</a>: +0. Una historia pequeña pero muy bien contada, donde quizás el elemento más notable es el menos importante; varios actores muy conocidos, todos están bien.
+
+<li><a href="http://www.imdb.com/title/tt1189340/">The Lincoln Lawyer</a>: +1. Mezcla de peli de abogados con thriller donde no sabés quien es bueno y quien es malo, hasta que todo se desanuda. Aparte de la historia en sí, me gustaron las actuaciones, y también la fotografía.
+
+<li><a href="http://www.imdb.com/title/tt0756683/">The Man from Earth</a>: +1. Difícil contar de qué va la peli sin spoilearla, pero es muy buena para pensar, razonar y ver como otra gente reacciona con esos razonamientos.
+
+<li><a href="http://www.imdb.com/title/tt1210819/">The lone ranger</a>: -0. Johnny Depp casi, casi, casi salva la película. El resto, poco y nada, más que muchos tiros y explosiones naif.
+
+<li><a href="http://www.imdb.com/title/tt1334102/">The resident</a>: -1. Tres actores bárbaros para una película absolutamente predecible, que no hace más que repetir lo mismo que otras mil películas del género. Un fiasco.
+
+<li><a href="http://www.imdb.com/title/tt1161864/">The rite</a>: -0. Anthony Hopkins *impecable*... pero la historia en total medio pelo, aunque amagan plantear dos o tres cosas para pensar... en la suma, bleh.
+
+<li><a href="http://www.imdb.com/title/tt1240982/">Your highness</a>: -0. Con este película terminé de confirmar que no me gustan las "parodias"; incluso estando bien hechas y con actores decentes. Por otro lado, Natalie Portman está espléndida, :)
+
 </ul>
 <p>
  Y las anotadas nuevas (no todas son películas que acaban de salir o van a estrenarse en el futuro: hay algunas recomendaciones también).</p>
 <ul>
-<li><a href="http://www.imdb.com/title/tt1631867/">Edge of tomorrow</a></li>
-<li><a href="http://www.imdb.com/title/tt1205537/">Jack Ryan: Shadow recruit</a></li>
-<li><a href="http://www.imdb.com/title/tt1617661/">Jupiter ascending</a></li>
-<li><a href="http://www.imdb.com/title/tt1613750/">Knon tiki</a></li>
-<li><a href="http://www.imdb.com/title/tt1022606/">Leonera</a></li>
-<li><a href="http://www.imdb.com/title/tt1715336/">Mindscape</a></li>
-<li><a href="http://www.imdb.com/title/tt2024469/">Non-stop</a></li>
-<li><a href="http://www.imdb.com/title/tt1439572/">Perfect sense</a></li>
-<li><a href="http://www.imdb.com/title/tt0390384/">Primer</a></li>
-<li><a href="http://www.imdb.com/title/tt1441952/">Salmon fishing in the Yemen</a></li>
-<li><a href="http://www.imdb.com/title/tt2278388/">The Grand Budapest Hotel</a></li>
-<li><a href="http://www.imdb.com/title/tt2177771/">The monuments men</a></li>
-<li><a href="http://www.imdb.com/title/tt1847746/">Wakolda</a></li>
-<li><a href="http://www.imdb.com/title/tt1877832/">X-Men: Days of future past</a></li>
+<li><a href="http://www.imdb.com/title/tt1631867/">Edge of tomorrow</a>
+
+<li><a href="http://www.imdb.com/title/tt1205537/">Jack Ryan: Shadow recruit</a>
+
+<li><a href="http://www.imdb.com/title/tt1617661/">Jupiter ascending</a>
+
+<li><a href="http://www.imdb.com/title/tt1613750/">Knon tiki</a>
+
+<li><a href="http://www.imdb.com/title/tt1022606/">Leonera</a>
+
+<li><a href="http://www.imdb.com/title/tt1715336/">Mindscape</a>
+
+<li><a href="http://www.imdb.com/title/tt2024469/">Non-stop</a>
+
+<li><a href="http://www.imdb.com/title/tt1439572/">Perfect sense</a>
+
+<li><a href="http://www.imdb.com/title/tt0390384/">Primer</a>
+
+<li><a href="http://www.imdb.com/title/tt1441952/">Salmon fishing in the Yemen</a>
+
+<li><a href="http://www.imdb.com/title/tt2278388/">The Grand Budapest Hotel</a>
+
+<li><a href="http://www.imdb.com/title/tt2177771/">The monuments men</a>
+
+<li><a href="http://www.imdb.com/title/tt1847746/">Wakolda</a>
+
+<li><a href="http://www.imdb.com/title/tt1877832/">X-Men: Days of future past</a>
+
 </ul>
 <p>
 Finalmente, el conteo de pendientes por fecha:

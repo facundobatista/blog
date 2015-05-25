@@ -8,7 +8,7 @@ El primero, es una computadora tamaño mínimo, <a href="http://www.linutop.com/
 
 <img src="http://farm4.static.flickr.com/3298/3257152749_b807ab2224_o.jpg" border="0" />
 
-Pesa menos de 300 gramos, y tiene un procesador AMD de 433MHz, 256 MB de RAM, 4 puertos USB, audio, salida VGA, y red. No tiene disco rígido, pero viene con un disco USB de 1GB preparado para bootear Linux, &iexcl;sólo se enchufa y se usa!
+Pesa menos de 300 gramos, y tiene un procesador AMD de 433MHz, 256 MB de RAM, 4 puertos USB, audio, salida VGA, y red. No tiene disco rígido, pero viene con un disco USB de 1GB preparado para bootear Linux, ¡sólo se enchufa y se usa!
 
 El segundo es un <a href="http://steampunkworkshop.com/keyboard.shtml">teclado</a>, hecho artesanalmente.
 

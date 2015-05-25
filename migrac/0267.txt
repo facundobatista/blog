@@ -5,12 +5,25 @@ Actualización del séptimo arte
 Películas nuevas y vistas desde la última vez que comenté...
 
 Para ver:
-<ul><li><a href="http://www.imdb.com/title/tt0344854/">Arthur et les Minimoys</a></li><li><a href="http://www.imdb.com/title/tt0373889/">Harry Potter and the Order of the Phoenix</a></li><li><a href="http://www.imdb.com/title/tt0432021/">Resident evil: extinction </a></li><li><a href="http://www.imdb.com/title/tt0486655/">Stardust </a></li><li><a href="http://www.imdb.com/title/tt0440963/">The Bourne ultimatum </a></li></ul>
+<ul><li><a href="http://www.imdb.com/title/tt0344854/">Arthur et les Minimoys</a>
+<li><a href="http://www.imdb.com/title/tt0373889/">Harry Potter and the Order of the Phoenix</a>
+<li><a href="http://www.imdb.com/title/tt0432021/">Resident evil: extinction </a>
+<li><a href="http://www.imdb.com/title/tt0486655/">Stardust </a>
+<li><a href="http://www.imdb.com/title/tt0440963/">The Bourne ultimatum </a>
+</ul>
 Vistas:
-<ul><li><a href="http://www.imdb.com/title/tt0343663/">Eros</a>: -1. Lenta, aburrida, cero erotismo.</li><li><a href="http://www.imdb.com/title/tt0165798/">Ghost Dog: The way of the Samurai</a>: +1. Super interesante, a veces lenta pero con mucho significado, y una buena historia. </li><li><a href="http://www.imdb.com/title/tt0351283/">Madagascar</a>: +1. Muy divertida, muy bien caracterizados los personajes (vale aclarar que la vi subtitulada).</li><li><a href="http://www.imdb.com/title/tt0410297/">The lake house</a>: +1. Una linda historia pseudoromántica; aunque parece que la temática es supertrillada, finalmente sorprende y mantiene en vilo.</li><li><a href="http://www.imdb.com/title/tt0449088/">Pirates of the caribbean 3: At world's end</a>: +1. Los personajes variados pero no superficiales, la historia divertida pero intrigante, los escenarios fantásticos; pasatista, pero más que recomendable.</li><li><a href="http://www.imdb.com/title/tt0145734/">Playing by heart</a>: +1. La cantidad de actores reconocidos (y buenos) de esta peli llama la atención. Son historias sueltas, que terminan convergiendo de manera inesperada; todas las historias son interesantes.</li><li><a href="http://www.imdb.com/title/tt0377109/">The ring two</a>: -0. Tiene sus momentos interesantes, y en algunos casos asusta, pero es más de lo mismo.</li><li><a href="http://www.imdb.com/title/tt0299977/">Ying xiong</a>: +1. Lenta, rara, pero muy cargada de significado; si les gusta el ballet y las coreografías NO se la pierdan; si les gusta la cultura oriental, tampoco.</li></ul>
-&iexcl;Qué bárbaro! Releyendo las calificaciones, encuentro que muchas fueron positivas, &iexcl;tuve suerte! :)
+<ul><li><a href="http://www.imdb.com/title/tt0343663/">Eros</a>: -1. Lenta, aburrida, cero erotismo.
+<li><a href="http://www.imdb.com/title/tt0165798/">Ghost Dog: The way of the Samurai</a>: +1. Super interesante, a veces lenta pero con mucho significado, y una buena historia.
+<li><a href="http://www.imdb.com/title/tt0351283/">Madagascar</a>: +1. Muy divertida, muy bien caracterizados los personajes (vale aclarar que la vi subtitulada).
+<li><a href="http://www.imdb.com/title/tt0410297/">The lake house</a>: +1. Una linda historia pseudoromántica; aunque parece que la temática es supertrillada, finalmente sorprende y mantiene en vilo.
+<li><a href="http://www.imdb.com/title/tt0449088/">Pirates of the caribbean 3: At world's end</a>: +1. Los personajes variados pero no superficiales, la historia divertida pero intrigante, los escenarios fantásticos; pasatista, pero más que recomendable.
+<li><a href="http://www.imdb.com/title/tt0145734/">Playing by heart</a>: +1. La cantidad de actores reconocidos (y buenos) de esta peli llama la atención. Son historias sueltas, que terminan convergiendo de manera inesperada; todas las historias son interesantes.
+<li><a href="http://www.imdb.com/title/tt0377109/">The ring two</a>: -0. Tiene sus momentos interesantes, y en algunos casos asusta, pero es más de lo mismo.
+<li><a href="http://www.imdb.com/title/tt0299977/">Ying xiong</a>: +1. Lenta, rara, pero muy cargada de significado; si les gusta el ballet y las coreografías NO se la pierdan; si les gusta la cultura oriental, tampoco.
+</ul>
+¡Qué bárbaro! Releyendo las calificaciones, encuentro que muchas fueron positivas, ¡tuve suerte! :)
 
-Se me ocurrió fijarme no sólo cuantas películas tenía pendientes, sino la distribución en función de <em>cuándo</em> las anoté para verlas. Me quedó un ejemplo tan útil de lo sencillo que es Python para tirar esas 10 lineas que le permiten a uno encontrar lo que está buscando sin tener que complicarse la vida. &iexcl;Ni siquiera tuve que hacer un programa! Directamente use el intérprete interactivo, abrí el archivo mío de películas, con una expresión regular saqué ese cuando de cada linea que correspondía, y los conté usando un diccionario:
+Se me ocurrió fijarme no sólo cuantas películas tenía pendientes, sino la distribución en función de <em>cuándo</em> las anoté para verlas. Me quedó un ejemplo tan útil de lo sencillo que es Python para tirar esas 10 lineas que le permiten a uno encontrar lo que está buscando sin tener que complicarse la vida. ¡Ni siquiera tuve que hacer un programa! Directamente use el intérprete interactivo, abrí el archivo mío de películas, con una expresión regular saqué ese cuando de cada linea que correspondía, y los conté usando un diccionario:
 
 <blockquote><font face="andale mono,times"><font face="courier new,courier">>>> import re
 >>> coinc = re.compile(".*&lt;i>((.*))&lt;/i>.*")

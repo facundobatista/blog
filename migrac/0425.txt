@@ -97,7 +97,7 @@ Infraestructura técnica para la organización: Hay muchas herramientas que se u
 
 
 
-El equipo: Este es uno de los principales riesgos, ya que si no se forma un grupo de gente con ganas de lograr el objetivo, con ganas de ponerse de acuerdo y trabajar con un destino común, puede llegar a suceder que no se logre armar un buen evento sólo por culpa de los organizadores mismos. Hay que tener en cuenta que en un evento organizado desde la participación voluntaria podemos tener gente que arranque y que luego no pueda terminar en el equipo, o que puede haber gente que se sume durante el camino. &iexcl;Y el equipo es una de las primeras cosas que hay que definir! Es por esto que es crítico que el Coordinador General del evento tenga el suficiente arrastre y empuje en la comunidad como para poder tener el equipo armado pronto y trabajando positivamente durante todos los meses del evento.
+El equipo: Este es uno de los principales riesgos, ya que si no se forma un grupo de gente con ganas de lograr el objetivo, con ganas de ponerse de acuerdo y trabajar con un destino común, puede llegar a suceder que no se logre armar un buen evento sólo por culpa de los organizadores mismos. Hay que tener en cuenta que en un evento organizado desde la participación voluntaria podemos tener gente que arranque y que luego no pueda terminar en el equipo, o que puede haber gente que se sume durante el camino. ¡Y el equipo es una de las primeras cosas que hay que definir! Es por esto que es crítico que el Coordinador General del evento tenga el suficiente arrastre y empuje en la comunidad como para poder tener el equipo armado pronto y trabajando positivamente durante todos los meses del evento.
 
 
 
@@ -149,7 +149,7 @@ Las tardes/noches luego de que termina la conferencia cada día es una buena opo
 
 
 
-En nuestro caso, quisimos profundizar esto realizando un asado el domingo, al que estaban invitados todos los disertantes y organizadores, más las respectivas familias. El objetivo era disfrutar de un día distendido, comer carne rica (&iexcl;o vegetales!), tomarse un vino, charlar, jugar a algo, etc., de manera de que la gente se conozca más y mejor.
+En nuestro caso, quisimos profundizar esto realizando un asado el domingo, al que estaban invitados todos los disertantes y organizadores, más las respectivas familias. El objetivo era disfrutar de un día distendido, comer carne rica (¡o vegetales!), tomarse un vino, charlar, jugar a algo, etc., de manera de que la gente se conozca más y mejor.
 
 
 
@@ -187,7 +187,7 @@ Por último, quiero dejarles la otra cara de la moneda: muchos comentarios que f
 
 
 
-<a href="http://twitter.com/rhfixer/statuses/3787345646">rhfixer</a>: Muy buena la #pyconar09, mis felicitaciones a los organizadores y disertantes. &iexcl;Un honor haber asistido!
+<a href="http://twitter.com/rhfixer/statuses/3787345646">rhfixer</a>: Muy buena la #pyconar09, mis felicitaciones a los organizadores y disertantes. ¡Un honor haber asistido!
 
 
 

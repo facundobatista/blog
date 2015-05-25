@@ -26,13 +26,20 @@ Separé lo que es el uso del índice, del <a href="http://code.google.com/p/cdpe
 La API no es complicada, se considera que las palabras (cadenas de texto) son claves, y los valores son tuplas en los que se guarda info arbitraria, y básicamente se necesita:
 
 <ul>
-	<li>crear el índice [create()] (lo cual no tiene que ser demasiado complejo, ya que se hace una sola vez)</li>
-	<li>obtener todos los items guardados [items()]</li>
-	<li>obtener todos los valores [values()]</li>
-	<li>sacar un valor al azar [random()]</li>
-	<li>nos dice si una clave está en el índice [__contains__()]</li>
-	<li>nos busca varias palabras, viendo que estén todas ellas, pero buscando *exactamente* cada palabra [search()]</li>
-	<li>nos busca varias palabras, también haciendo un AND, pero buscando parcialmente cada una [partial_search()]</li>
+	<li>crear el índice [create()] (lo cual no tiene que ser demasiado complejo, ya que se hace una sola vez)
+
+	<li>obtener todos los items guardados [items()]
+
+	<li>obtener todos los valores [values()]
+
+	<li>sacar un valor al azar [random()]
+
+	<li>nos dice si una clave está en el índice [__contains__()]
+
+	<li>nos busca varias palabras, viendo que estén todas ellas, pero buscando *exactamente* cada palabra [search()]
+
+	<li>nos busca varias palabras, también haciendo un AND, pero buscando parcialmente cada una [partial_search()]
+
 </ul>
 (este último punto es en el que fallan la mayoría de los índices que andan dando vuelta por ahí)
 
@@ -42,7 +49,7 @@ Más allá de esos requisitos "duros", la idea en general es que el índice tard
 
 
 
-Un disclaimer: realmente no estoy buscando que me cuenten teoría de índices, que me apunten a tal o cual solución mágica, o que me traten de explicar por qué tal o cual cosa es mala idea... el objetivo acá es encontrar un índice piola (o escribirlo)... si se sienten a la altura de las circunstancias, &iexcl;son bienvenidos a probarlo!
+Un disclaimer: realmente no estoy buscando que me cuenten teoría de índices, que me apunten a tal o cual solución mágica, o que me traten de explicar por qué tal o cual cosa es mala idea... el objetivo acá es encontrar un índice piola (o escribirlo)... si se sienten a la altura de las circunstancias, ¡son bienvenidos a probarlo!
 
 
 

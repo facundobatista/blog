@@ -11,4 +11,4 @@ Un sidecast es basicamente poner en paralelo las filminas con el audio. En este 
 
 
 
-Anyway, <a href="http://www.slideshare.net/nqnwebs/introduccin-a-python">acá</a> está, &iexcl;muchas gracias Martín!                                                                                                                                                                                                                                                                                                                                        |
+Anyway, <a href="http://www.slideshare.net/nqnwebs/introduccin-a-python">acá</a> está, ¡muchas gracias Martín!                                                                                                                                                                                                                                                                                                                                        |

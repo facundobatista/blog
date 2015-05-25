@@ -7,7 +7,7 @@ Está abierta la inscripción para participar de PyCon Argentina 2009, la primer
 
 
 
-En esta primera edición contaremos con la participación de Jacob Kaplan-Moss (creador de Django) y Collin Winter (core developer de Python) como invitados especiales del evento, y con más de 30 charlas sobre Python y temas relacionados, desde tutoriales para principiantes hasta charlas de nivel avanzado. Miren el <a href="http://ar.pycon.org/2009/conference/schedule/">cronograma de charlas</a>, &iexcl;está buenísimo!
+En esta primera edición contaremos con la participación de Jacob Kaplan-Moss (creador de Django) y Collin Winter (core developer de Python) como invitados especiales del evento, y con más de 30 charlas sobre Python y temas relacionados, desde tutoriales para principiantes hasta charlas de nivel avanzado. Miren el <a href="http://ar.pycon.org/2009/conference/schedule/">cronograma de charlas</a>, ¡está buenísimo!
 
 
 

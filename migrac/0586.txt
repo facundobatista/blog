@@ -4,38 +4,66 @@ Películas, catching up
 
  Al fin una buena temporada donde vi muchas pelis...</p>
 <ul>
-<li><a href="http://www.imdb.com/title/tt1179056/">A Nightmare on Elm Street</a>: -0. Dentro de todo zafa, pero no tiene vueltas la historia, y es todo muy repetitivo y predecible.</li>
-<li><a href="http://www.imdb.com/title/tt0374569/">Che</a>: +1. Más allá que la historia es conocida, está muy, pero MUY bien filmada, y contada. Imperdible.</li>
-<li><a href="http://www.imdb.com/title/tt1385867/">Cop out</a>: +0. Para ser una de "polis que se llevan bien/mal en tono de comedia", es bastante rescatable.</li>
-<li><a href="http://www.imdb.com/title/tt1179034/">From Paris with love</a>: +1. Típica de superagentes contra el mal, pero divertida y bien hecha (y muy violenta, como deben ser estas pelis).</li>
-<li><a href="http://www.imdb.com/title/tt1231587/">Hot tub time machine</a>: -0. Tiene sus momentos bastantes divertidos, pero no vale la pena como peli en general. A menos que estén muy al pedo...</li>
-<li><a href="http://www.imdb.com/title/tt1131729/">Pirate radio</a>: +0. Buenas historias, divertidas actuaciones, algunos temas interesantes... imperdible musicalización.</li>
-<li><a href="http://www.imdb.com/title/tt0473075/">Prince of Persia: The Sands of Time</a>: +0. Película de acción, de las berretas; por ejemplo, el tipo después de estar toda la película en el desierto, tiene el pelo sin arena...</li>
-<li><a href="http://www.imdb.com/title/tt0955308/">Robin Hood</a>: +1. Muy buena versión, que no cae en contar lo mismo de siempre, y arma una historia muy interesante.</li>
-<li><a href="http://www.imdb.com/title/tt0944835/">Salt</a>: +0. Parecida a 'From Paris with love' en su concepto (espías, el bien y el mal, violencia), pero un escalón abajo.</li>
-<li><a href="http://www.imdb.com/title/tt1345836/">The Dark Knight rises</a>: +1. No es la mejor Batman, y tiene una de las peores actuaciones de "me estoy muriendo, me morí", pero la peli en general está buena.</li>
-<li><a href="http://www.imdb.com/title/tt1054606/">The imaginarium of Doctor Parnassus</a>: +1. Muy difícil de describir... es una peli muy loca, pero muy interesante.</li>
-<li><a href="http://www.imdb.com/title/tt1486192/">The raven</a>: +1. Una historia alternativa sobre los últimos días de Edgard Allan Poe, convertido en un thriller macabro de suspenso, bastante bien hecho.</li>
-<li><a href="http://www.imdb.com/title/tt1340800/">Tinker tailor soldier spy</a>: -0. Muy enroscado todo al principio para disolverse en un final que no me pareció demasiado interesante... pero si te gustan las películas de espías (a nivel de inteligencia y contrainteligencia), adelante.</li>
-<li><a href="http://www.imdb.com/title/tt0435761/">Toy story 3</a>: -0. Más de lo mismo.</li>
-<li><a href="http://www.imdb.com/title/tt1027718/">Wall Street: Money never sleeps</a>: +1. Recontra interesante cómo explican la timba financiera en USA, tomando como ejemplo (real) el debacle que sufrieron de las hipotecas. &iexcl;Para verla hasta entenderla! ;)</li>
-<li><a href="http://www.imdb.com/title/tt1333667/">When you're strange</a>: +1. Muy bien contada la historia de los Doors, muy bien mezclada con la música. Imperdible si te gusta la banda.</li>
+<li><a href="http://www.imdb.com/title/tt1179056/">A Nightmare on Elm Street</a>: -0. Dentro de todo zafa, pero no tiene vueltas la historia, y es todo muy repetitivo y predecible.
+
+<li><a href="http://www.imdb.com/title/tt0374569/">Che</a>: +1. Más allá que la historia es conocida, está muy, pero MUY bien filmada, y contada. Imperdible.
+
+<li><a href="http://www.imdb.com/title/tt1385867/">Cop out</a>: +0. Para ser una de "polis que se llevan bien/mal en tono de comedia", es bastante rescatable.
+
+<li><a href="http://www.imdb.com/title/tt1179034/">From Paris with love</a>: +1. Típica de superagentes contra el mal, pero divertida y bien hecha (y muy violenta, como deben ser estas pelis).
+
+<li><a href="http://www.imdb.com/title/tt1231587/">Hot tub time machine</a>: -0. Tiene sus momentos bastantes divertidos, pero no vale la pena como peli en general. A menos que estén muy al pedo...
+
+<li><a href="http://www.imdb.com/title/tt1131729/">Pirate radio</a>: +0. Buenas historias, divertidas actuaciones, algunos temas interesantes... imperdible musicalización.
+
+<li><a href="http://www.imdb.com/title/tt0473075/">Prince of Persia: The Sands of Time</a>: +0. Película de acción, de las berretas; por ejemplo, el tipo después de estar toda la película en el desierto, tiene el pelo sin arena...
+
+<li><a href="http://www.imdb.com/title/tt0955308/">Robin Hood</a>: +1. Muy buena versión, que no cae en contar lo mismo de siempre, y arma una historia muy interesante.
+
+<li><a href="http://www.imdb.com/title/tt0944835/">Salt</a>: +0. Parecida a 'From Paris with love' en su concepto (espías, el bien y el mal, violencia), pero un escalón abajo.
+
+<li><a href="http://www.imdb.com/title/tt1345836/">The Dark Knight rises</a>: +1. No es la mejor Batman, y tiene una de las peores actuaciones de "me estoy muriendo, me morí", pero la peli en general está buena.
+
+<li><a href="http://www.imdb.com/title/tt1054606/">The imaginarium of Doctor Parnassus</a>: +1. Muy difícil de describir... es una peli muy loca, pero muy interesante.
+
+<li><a href="http://www.imdb.com/title/tt1486192/">The raven</a>: +1. Una historia alternativa sobre los últimos días de Edgard Allan Poe, convertido en un thriller macabro de suspenso, bastante bien hecho.
+
+<li><a href="http://www.imdb.com/title/tt1340800/">Tinker tailor soldier spy</a>: -0. Muy enroscado todo al principio para disolverse en un final que no me pareció demasiado interesante... pero si te gustan las películas de espías (a nivel de inteligencia y contrainteligencia), adelante.
+
+<li><a href="http://www.imdb.com/title/tt0435761/">Toy story 3</a>: -0. Más de lo mismo.
+
+<li><a href="http://www.imdb.com/title/tt1027718/">Wall Street: Money never sleeps</a>: +1. Recontra interesante cómo explican la timba financiera en USA, tomando como ejemplo (real) el debacle que sufrieron de las hipotecas. ¡Para verla hasta entenderla! ;)
+
+<li><a href="http://www.imdb.com/title/tt1333667/">When you're strange</a>: +1. Muy bien contada la historia de los Doors, muy bien mezclada con la música. Imperdible si te gusta la banda.
+
 </ul>
 <p>
  Obviamente, hay una buena tanda de nuevas anotadas:</p>
 <ul>
-<li><a href="http://www.imdb.com/title/tt1606378/">A good day to die hard</a></li>
-<li><a href="http://www.imdb.com/title/tt1368440/">Branded</a></li>
-<li><a href="http://www.imdb.com/title/tt1371111/">Cloud atlas</a></li>
-<li><a href="http://www.imdb.com/title/tt1300854/">Iron man 3</a></li>
-<li><a href="http://www.imdb.com/title/tt1549920/">Last stand</a></li>
-<li><a href="http://www.imdb.com/title/tt1707386/">Les misérables</a></li>
-<li><a href="http://www.imdb.com/title/tt1417592/">Pearl Jam Twenty</a></li>
-<li><a href="http://www.imdb.com/title/tt1748179/">Red lights</a></li>
-<li><a href="http://www.imdb.com/title/tt1990314/">Robot and Frank</a></li>
-<li><a href="http://www.imdb.com/title/tt1639075/">Sin retorno</a></li>
-<li><a href="http://www.imdb.com/title/tt1074638/">Skyfall</a></li>
-<li><a href="http://www.imdb.com/title/tt1258972/">The man with the iron fists</a></li>
+<li><a href="http://www.imdb.com/title/tt1606378/">A good day to die hard</a>
+
+<li><a href="http://www.imdb.com/title/tt1368440/">Branded</a>
+
+<li><a href="http://www.imdb.com/title/tt1371111/">Cloud atlas</a>
+
+<li><a href="http://www.imdb.com/title/tt1300854/">Iron man 3</a>
+
+<li><a href="http://www.imdb.com/title/tt1549920/">Last stand</a>
+
+<li><a href="http://www.imdb.com/title/tt1707386/">Les misérables</a>
+
+<li><a href="http://www.imdb.com/title/tt1417592/">Pearl Jam Twenty</a>
+
+<li><a href="http://www.imdb.com/title/tt1748179/">Red lights</a>
+
+<li><a href="http://www.imdb.com/title/tt1990314/">Robot and Frank</a>
+
+<li><a href="http://www.imdb.com/title/tt1639075/">Sin retorno</a>
+
+<li><a href="http://www.imdb.com/title/tt1074638/">Skyfall</a>
+
+<li><a href="http://www.imdb.com/title/tt1258972/">The man with the iron fists</a>
+
 </ul>
 <p>
 Finalmente, el conteo de pendientes por fecha:

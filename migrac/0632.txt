@@ -18,7 +18,7 @@ Robert, al final de la charla, hizo una invitación general a ir a tomar algo. P
 
 <a href="http://www.flickr.com/photos/70871182@N04/10516024666/in/set-72157637010046074"><img src="http://www.taniquetil.com.ar/facundo/imgs/pycon2013-grupal.jpg" alt="La foto grupal" height="213" width="800" /></a>
 
-El viernes nos levantamos tarde, tanto que desayunamos en el hostel, y llegamos a la conferencia un rato antes que diera mi segunda charla, <a href="http://www.taniquetil.com.ar/homedevel/presents/perlas-py3.odp">Las perlas de Python 3</a> (&iexcl;un estreno!). Luego estuve en un par de charlas, pero la que más me gustó fue la de Alecu, "Juegos electromecánicos con Arduino", tengo muchas ganas de arrancar con algún proyecto de electrónica o electromecánica!
+El viernes nos levantamos tarde, tanto que desayunamos en el hostel, y llegamos a la conferencia un rato antes que diera mi segunda charla, <a href="http://www.taniquetil.com.ar/homedevel/presents/perlas-py3.odp">Las perlas de Python 3</a> (¡un estreno!). Luego estuve en un par de charlas, pero la que más me gustó fue la de Alecu, "Juegos electromecánicos con Arduino", tengo muchas ganas de arrancar con algún proyecto de electrónica o electromecánica!
 
 Al final del día vinieron más lightning talks, y la plenaria de Claudo Freire sobre Paralelismo. Luego sorteos, palabras, saludos, y todos los etcéteras del cierre de la conferencia.
 

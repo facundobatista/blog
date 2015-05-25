@@ -10,47 +10,82 @@ Otra tanda de vistas y anotadas para ver. Aunque anoté bastantes, desconté dos
 Estas son las que vi:
 
 <ul>
-	<li><a href="http://www.imdb.com/title/tt0462200/">Black Snake Moan</a>: +0. Muy interesante las actuaciones.</li>
-	<li><a href="http://www.imdb.com/title/tt0081846/">Cosmos</a>: <a href="http://www.taniquetil.com.ar/plog/post/1/407">+1</a>.</li>
-	<li><a href="http://www.imdb.com/title/tt0480242/">Dan in real life</a>: +1. Hay fuerzas que debemos no controlar (no la tenía anotada, porque no me gusta el actor, pero esta peli está muy buena).</li>
-	<li><a href="http://www.imdb.com/title/tt0375785/">Gray matters</a>: +0. Comedia romanticona, pero con un buen giro.</li>
-	<li><a href="http://www.imdb.com/title/tt0462322/">Grindhouse</a>: +0. Acción y violencia cruda. La historia no tiene demasiado, ver sólo si te gustan las películas violentas.</li>
-	<li>Hellboy <a href="http://www.imdb.com/title/tt0167190/">I</a> y <a href="http://www.imdb.com/title/tt0411477/">II</a>: +1. Me gustó la estética, la forma de contar la historia, y las peli en si. Que bueno que El Hobbit va a ser dirigido por este mismo director.</li>
-	<li><a href="http://www.imdb.com/title/tt0448011/">Knowing</a>: +1. Me gustó mucho (aunque cada vez confirmo más que no me gusta Cage), especialmente el giro que tiene al final.</li>
-	<li><a href="http://www.imdb.com/title/tt0496806/">Ocean's Thirteen</a>: -0. No me terminó de gustar; el tema muy gastado, y dirigido de una manera que las actuaciones no se dejaban ver.</li>
-	<li><a href="http://www.imdb.com/title/tt0477071/">Premonition</a>: +0. Un tema repetido, pero bien armada la peli.</li>
-	<li><a href="http://www.imdb.com/title/tt0432021/">Resident Evil: Extintion</a>: -0. Como que se perdió la originalidad inicial y es todo demasiado lo mismo.</li>
-	<li><a href="http://www.imdb.com/title/tt0389328/">Rise</a>: +0. Un punto de vista piola sobre una temática repetidísima pero que no deja de gustarme.</li>
-	<li><a href="http://www.imdb.com/title/tt0420223/">Stranger than fiction</a>: +1. Fantástica por cómo se involucra en la forma de ser y los pensamientos de los personajes, y por la historia en sí. El elenco, imperdible.</li>
-	<li><a href="http://www.imdb.com/title/tt0440963/">The Bourne ultimatum</a>: +0. Es más de lo mismo, pero sigue bien hecha; ver si gustaron las anteriores.</li>
-	<li><a href="http://www.imdb.com/title/tt0443543/">The ilusionist</a>: +1. Una muy buena película sobre... &iquest;magia? (tampoco la tenía anotada).</li>
-	<li><a href="http://www.imdb.com/title/tt0454864/">The last winter</a>: -0. Pinta muy bien, parece tener toda una idea interesante, pero no la llega a desarrollar y se queda en nada.</li>
-	<li><a href="http://www.imdb.com/title/tt0444682/">The reaping</a>: +1. Todos saben que no me gustan las películas sobre religión... pero esta es distinta.</li>
-	<li><a href="http://www.imdb.com/title/tt0320691/">Underworld</a>, <a href="http://www.imdb.com/title/tt0401855/">Underworld: Evolution</a>, y <a href="http://www.imdb.com/title/tt0834001/">Underworld: Rise of the Lycans</a>: +0. Recomiendo la trilogía, pero sólo si te gusta la temática.</li>
-	<li><a href="http://www.imdb.com/title/tt0995829/">XXY</a>: +1. Un tema súper controvertido, pero muy bien tratado.</li>
+	<li><a href="http://www.imdb.com/title/tt0462200/">Black Snake Moan</a>: +0. Muy interesante las actuaciones.
+
+	<li><a href="http://www.imdb.com/title/tt0081846/">Cosmos</a>: <a href="http://www.taniquetil.com.ar/plog/post/1/407">+1</a>.
+
+	<li><a href="http://www.imdb.com/title/tt0480242/">Dan in real life</a>: +1. Hay fuerzas que debemos no controlar (no la tenía anotada, porque no me gusta el actor, pero esta peli está muy buena).
+
+	<li><a href="http://www.imdb.com/title/tt0375785/">Gray matters</a>: +0. Comedia romanticona, pero con un buen giro.
+
+	<li><a href="http://www.imdb.com/title/tt0462322/">Grindhouse</a>: +0. Acción y violencia cruda. La historia no tiene demasiado, ver sólo si te gustan las películas violentas.
+
+	<li>Hellboy <a href="http://www.imdb.com/title/tt0167190/">I</a> y <a href="http://www.imdb.com/title/tt0411477/">II</a>: +1. Me gustó la estética, la forma de contar la historia, y las peli en si. Que bueno que El Hobbit va a ser dirigido por este mismo director.
+
+	<li><a href="http://www.imdb.com/title/tt0448011/">Knowing</a>: +1. Me gustó mucho (aunque cada vez confirmo más que no me gusta Cage), especialmente el giro que tiene al final.
+
+	<li><a href="http://www.imdb.com/title/tt0496806/">Ocean's Thirteen</a>: -0. No me terminó de gustar; el tema muy gastado, y dirigido de una manera que las actuaciones no se dejaban ver.
+
+	<li><a href="http://www.imdb.com/title/tt0477071/">Premonition</a>: +0. Un tema repetido, pero bien armada la peli.
+
+	<li><a href="http://www.imdb.com/title/tt0432021/">Resident Evil: Extintion</a>: -0. Como que se perdió la originalidad inicial y es todo demasiado lo mismo.
+
+	<li><a href="http://www.imdb.com/title/tt0389328/">Rise</a>: +0. Un punto de vista piola sobre una temática repetidísima pero que no deja de gustarme.
+
+	<li><a href="http://www.imdb.com/title/tt0420223/">Stranger than fiction</a>: +1. Fantástica por cómo se involucra en la forma de ser y los pensamientos de los personajes, y por la historia en sí. El elenco, imperdible.
+
+	<li><a href="http://www.imdb.com/title/tt0440963/">The Bourne ultimatum</a>: +0. Es más de lo mismo, pero sigue bien hecha; ver si gustaron las anteriores.
+
+	<li><a href="http://www.imdb.com/title/tt0443543/">The ilusionist</a>: +1. Una muy buena película sobre... &iquest;magia? (tampoco la tenía anotada).
+
+	<li><a href="http://www.imdb.com/title/tt0454864/">The last winter</a>: -0. Pinta muy bien, parece tener toda una idea interesante, pero no la llega a desarrollar y se queda en nada.
+
+	<li><a href="http://www.imdb.com/title/tt0444682/">The reaping</a>: +1. Todos saben que no me gustan las películas sobre religión... pero esta es distinta.
+
+	<li><a href="http://www.imdb.com/title/tt0320691/">Underworld</a>, <a href="http://www.imdb.com/title/tt0401855/">Underworld: Evolution</a>, y <a href="http://www.imdb.com/title/tt0834001/">Underworld: Rise of the Lycans</a>: +0. Recomiendo la trilogía, pero sólo si te gusta la temática.
+
+	<li><a href="http://www.imdb.com/title/tt0995829/">XXY</a>: +1. Un tema súper controvertido, pero muy bien tratado.
+
 </ul>
 
 
 Y estas las anotadas nuevas:
 
 <ul>
-	<li><a href="http://www.imdb.com/title/tt1308094/">Alexander the last</a></li>
-	<li><a href="http://www.imdb.com/title/tt0913354/">Armored</a></li>
-	<li><a href="http://www.imdb.com/title/tt0327597/">Coraline</a></li>
-	<li><a href="http://www.imdb.com/title/tt1124039/">Echelon conspiracy</a></li>
-	<li><a href="http://www.imdb.com/title/tt0484740/">El amor en tiempos de cólera</a></li>
-	<li><a href="http://www.imdb.com/title/tt1032815/">I love you, Beth Cooper</a></li>
-	<li><a href="http://www.imdb.com/title/tt1130088/">Is anybody there?</a></li>
-	<li><a href="http://www.imdb.com/title/tt1182345/">Moon</a></li>
-	<li><a href="http://www.imdb.com/title/tt1188729/">Pandorum</a></li>
-	<li><a href="http://www.imdb.com/title/tt1152836/">Public enemies</a></li>
-	<li><a href="http://www.imdb.com/title/tt0473705/">State of play</a></li>
-	<li><a href="http://www.imdb.com/title/tt1111422/">The taking of Pelham 1 2 3</a></li>
-	<li><a href="http://www.imdb.com/title/tt1055369/">Transformers: Revenge of the fallen</a></li>
-	<li><a href="http://www.imdb.com/title/tt0409459/">Watchmen</a></li>
-	<li><a href="http://www.imdb.com/title/tt0458525/">X-Men origins: Wolverine</a></li>
-	<li><a href="http://www.imdb.com/title/tt1045778/">Year one</a></li>
-	<li><a href="http://www.imdb.com/title/tt1166827/">Zeitgeist</a></li>
+	<li><a href="http://www.imdb.com/title/tt1308094/">Alexander the last</a>
+
+	<li><a href="http://www.imdb.com/title/tt0913354/">Armored</a>
+
+	<li><a href="http://www.imdb.com/title/tt0327597/">Coraline</a>
+
+	<li><a href="http://www.imdb.com/title/tt1124039/">Echelon conspiracy</a>
+
+	<li><a href="http://www.imdb.com/title/tt0484740/">El amor en tiempos de cólera</a>
+
+	<li><a href="http://www.imdb.com/title/tt1032815/">I love you, Beth Cooper</a>
+
+	<li><a href="http://www.imdb.com/title/tt1130088/">Is anybody there?</a>
+
+	<li><a href="http://www.imdb.com/title/tt1182345/">Moon</a>
+
+	<li><a href="http://www.imdb.com/title/tt1188729/">Pandorum</a>
+
+	<li><a href="http://www.imdb.com/title/tt1152836/">Public enemies</a>
+
+	<li><a href="http://www.imdb.com/title/tt0473705/">State of play</a>
+
+	<li><a href="http://www.imdb.com/title/tt1111422/">The taking of Pelham 1 2 3</a>
+
+	<li><a href="http://www.imdb.com/title/tt1055369/">Transformers: Revenge of the fallen</a>
+
+	<li><a href="http://www.imdb.com/title/tt0409459/">Watchmen</a>
+
+	<li><a href="http://www.imdb.com/title/tt0458525/">X-Men origins: Wolverine</a>
+
+	<li><a href="http://www.imdb.com/title/tt1045778/">Year one</a>
+
+	<li><a href="http://www.imdb.com/title/tt1166827/">Zeitgeist</a>
+
 </ul>
 
 

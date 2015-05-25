@@ -7,7 +7,7 @@ Pelis! Pelis?
 
 
 
-Pero estuve buscando alternativas, y no encontré. El que pintaba más o menos es <a href="http://movies.yahoo.com/">Yahoo! Movies</a>,&nbsp; pero puse buscar y le tiré el string "resident evil after life", &iexcl;y no encontró nada! Che, vos, Yahoo, &iquest;decís que hacés buscadores? Triste...
+Pero estuve buscando alternativas, y no encontré. El que pintaba más o menos es <a href="http://movies.yahoo.com/">Yahoo! Movies</a>,&nbsp; pero puse buscar y le tiré el string "resident evil after life", ¡y no encontró nada! Che, vos, Yahoo, &iquest;decís que hacés buscadores? Triste...
 
 
 
@@ -18,36 +18,60 @@ Pero estuve buscando alternativas, y no encontré. El que pintaba más o menos e
 Anyway... las que vi en el último período:
 
 <ul>
-	<li><a href="http://www.imdb.com/title/tt0364970/">Babylon A.D.</a>: -0. Algunos destellos interesantes, pero no pasa de ser una de acción semipedorra.</li>
-	<li><a href="http://www.imdb.com/title/tt0861689/">Blindness</a>: +1. Muy interesante la peli en función de cómo trata las relaciones que se arman en tal peculiar situación.</li>
-	<li><a href="http://www.imdb.com/title/tt0758774/">Body of lies</a>: +1. Me gustan este tipo de pelis donde, más allá que es una de espías e intrigas, muestran otras culturas desde adentro.</li>
-	<li><a href="http://www.imdb.com/title/tt1111890/">Diario de una ninfómana</a>: +0. Bien tratado el tema del querer ser lo que uno es, pero siempre metido en una sociedad que quiere "normales".</li>
-	<li><a href="http://www.imdb.com/title/tt0497972/">Sex and death 101</a>: +0. Interesante historia, buenas actuaciones, divertida.</li>
-	<li><a href="http://www.imdb.com/title/tt1135985/">Sex drive</a>: +0. Porky's, 2010. Para reirte un rato... es más, me reí más de lo que pensé al principio que me iba a reir...</li>
-	<li><a href="http://www.imdb.com/title/tt0499570/">Slipstream</a>: -1. No le encontré sentido ni luego de una hora de verla. Una de las pocas películas que abandoné antes de llegar al final.</li>
-	<li><a href="http://www.imdb.com/title/tt0844286/">The brothers Bloom</a>: +1. Maravillosa historia, con impecables actuaciones.</li>
-	<li><a href="http://www.imdb.com/title/tt0467200/">The other Boleyn girl</a>: +0. Muy bien filmada, muy bien contada, una peli interesante.</li>
-	<li><a href="http://www.imdb.com/title/tt0482606/">The strangers</a>: -0. Típica película de terror donde, por ejemplo, los malos hacen cosas para asustar al espectador en lugar de hacer cosas que tengan sentido en la película.</li>
-	<li><a href="http://www.imdb.com/title/tt0458525/">X-Men origins: Wolverine</a>: +0. Mirar sólo si te gusta la saga de X-Men, y sabés que vas a ver un comic, no una peli "de verdad".</li>
+	<li><a href="http://www.imdb.com/title/tt0364970/">Babylon A.D.</a>: -0. Algunos destellos interesantes, pero no pasa de ser una de acción semipedorra.
+
+	<li><a href="http://www.imdb.com/title/tt0861689/">Blindness</a>: +1. Muy interesante la peli en función de cómo trata las relaciones que se arman en tal peculiar situación.
+
+	<li><a href="http://www.imdb.com/title/tt0758774/">Body of lies</a>: +1. Me gustan este tipo de pelis donde, más allá que es una de espías e intrigas, muestran otras culturas desde adentro.
+
+	<li><a href="http://www.imdb.com/title/tt1111890/">Diario de una ninfómana</a>: +0. Bien tratado el tema del querer ser lo que uno es, pero siempre metido en una sociedad que quiere "normales".
+
+	<li><a href="http://www.imdb.com/title/tt0497972/">Sex and death 101</a>: +0. Interesante historia, buenas actuaciones, divertida.
+
+	<li><a href="http://www.imdb.com/title/tt1135985/">Sex drive</a>: +0. Porky's, 2010. Para reirte un rato... es más, me reí más de lo que pensé al principio que me iba a reir...
+
+	<li><a href="http://www.imdb.com/title/tt0499570/">Slipstream</a>: -1. No le encontré sentido ni luego de una hora de verla. Una de las pocas películas que abandoné antes de llegar al final.
+
+	<li><a href="http://www.imdb.com/title/tt0844286/">The brothers Bloom</a>: +1. Maravillosa historia, con impecables actuaciones.
+
+	<li><a href="http://www.imdb.com/title/tt0467200/">The other Boleyn girl</a>: +0. Muy bien filmada, muy bien contada, una peli interesante.
+
+	<li><a href="http://www.imdb.com/title/tt0482606/">The strangers</a>: -0. Típica película de terror donde, por ejemplo, los malos hacen cosas para asustar al espectador en lugar de hacer cosas que tengan sentido en la película.
+
+	<li><a href="http://www.imdb.com/title/tt0458525/">X-Men origins: Wolverine</a>: +0. Mirar sólo si te gusta la saga de X-Men, y sabés que vas a ver un comic, no una peli "de verdad".
+
 </ul>
 
 
 Nuevas:
 
 <ul>
-	<li><a href="http://www.imdb.com/title/tt1423894/">Barney's version</a></li>
-	<li><a href="http://www.imdb.com/title/tt1217613/">Battle LA</a></li>
-	<li><a href="http://www.imdb.com/title/tt1194417/">Casino Jack</a></li>
-	<li><a href="http://www.imdb.com/title/tt1694015/">Cool it</a></li>
-	<li><a href="http://www.imdb.com/title/tt0409847/">Cowboys &amp; aliens</a></li>
-	<li><a href="http://www.imdb.com/title/tt0926084/">Harry Potter and the deathly hallows I</a></li>
-	<li><a href="http://www.imdb.com/title/tt1220634/">Resident evil: After life</a></li>
-	<li><a href="http://www.imdb.com/title/tt1114731/">Seres: genesis</a></li>
-	<li><a href="http://www.imdb.com/title/tt0945513/">Source code</a></li>
-	<li><a href="http://www.imdb.com/title/tt1423995/">Stone</a></li>
-	<li><a href="http://www.imdb.com/title/tt1474889/">The freebie</a></li>
-	<li><a href="http://www.imdb.com/title/tt1243957/">The tourist</a></li>
-	<li><a href="http://www.imdb.com/title/tt1401152/">Unknown</a></li>
+	<li><a href="http://www.imdb.com/title/tt1423894/">Barney's version</a>
+
+	<li><a href="http://www.imdb.com/title/tt1217613/">Battle LA</a>
+
+	<li><a href="http://www.imdb.com/title/tt1194417/">Casino Jack</a>
+
+	<li><a href="http://www.imdb.com/title/tt1694015/">Cool it</a>
+
+	<li><a href="http://www.imdb.com/title/tt0409847/">Cowboys & aliens</a>
+
+	<li><a href="http://www.imdb.com/title/tt0926084/">Harry Potter and the deathly hallows I</a>
+
+	<li><a href="http://www.imdb.com/title/tt1220634/">Resident evil: After life</a>
+
+	<li><a href="http://www.imdb.com/title/tt1114731/">Seres: genesis</a>
+
+	<li><a href="http://www.imdb.com/title/tt0945513/">Source code</a>
+
+	<li><a href="http://www.imdb.com/title/tt1423995/">Stone</a>
+
+	<li><a href="http://www.imdb.com/title/tt1474889/">The freebie</a>
+
+	<li><a href="http://www.imdb.com/title/tt1243957/">The tourist</a>
+
+	<li><a href="http://www.imdb.com/title/tt1401152/">Unknown</a>
+
 </ul>
 
 

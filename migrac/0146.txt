@@ -12,12 +12,18 @@ Aunque algunas tareas que estaban planeadas para esta versión fueron dejados pa
 
 
 <ul>
-<li>Se implementaron las ventanas para Nueva Monedas, Alta de Préstamos, Administración de intereses (incluyendo las altas).</li>
-<li>El menu "File" tiene funcionalidad completa.</li>
-<li>Se agregó la barra de herramientas.</li>
-<li>Se reescribió toda la estructura de configuración.</li>
-<li>Hay un nuevo demo con movimientos en una cuenta padre.</li>
-<li>Varias correcciones y pequeñas mejoras (incluyendo soporte para resolución 800x600!).</li>
+<li>Se implementaron las ventanas para Nueva Monedas, Alta de Préstamos, Administración de intereses (incluyendo las altas).
+
+<li>El menu "File" tiene funcionalidad completa.
+
+<li>Se agregó la barra de herramientas.
+
+<li>Se reescribió toda la estructura de configuración.
+
+<li>Hay un nuevo demo con movimientos en una cuenta padre.
+
+<li>Varias correcciones y pequeñas mejoras (incluyendo soporte para resolución 800x600!).
+
 </ul>
 
 

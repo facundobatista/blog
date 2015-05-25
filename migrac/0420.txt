@@ -7,7 +7,7 @@ Este blog nació como unos textos puestos a mano en páginas .html armadas por m
 
 
 
-En el 2004 retomé la idea del blog, ya utilizando un <a href="http://es.wikipedia.org/wiki/Sistema_de_gesti%C3%B3n_de_contenido">CMS</a> (&iexcl;<a href="http://lifetype.net/">este mismo</a> que estoy usando ahora!), y ya lo había instalado en un hosting pago, en Datattec. La <a href="http://web.archive.org/web/20050214194223/www.taniquetil.com.ar/plog/">estética en ese momento</a> ya era bastante parecida a la actual...
+En el 2004 retomé la idea del blog, ya utilizando un <a href="http://es.wikipedia.org/wiki/Sistema_de_gesti%C3%B3n_de_contenido">CMS</a> (¡<a href="http://lifetype.net/">este mismo</a> que estoy usando ahora!), y ya lo había instalado en un hosting pago, en Datattec. La <a href="http://web.archive.org/web/20050214194223/www.taniquetil.com.ar/plog/">estética en ese momento</a> ya era bastante parecida a la actual...
 
 
 
@@ -15,7 +15,7 @@ Luego de inumerables problemas con Datattec, decidí migrar a otro hosting, a Ho
 
 
 
-Así que decidí finalmente pegar el salto no a un <a href="http://es.wikipedia.org/wiki/Alojamiento_compartido">hosting</a>, sino directamente a un <a href="http://es.wikipedia.org/wiki/Servidor_virtual">VPS</a>. La diferencia en plata no es importante, sino que el detalle es que ahí tengo un servidor pelado, y tengo que hacer todo yo... Apache para servir estas páginas, Courier y Postfix para tener mail (&iexcl;me falta instalar SpamAssassin!), etc, etc, etc. Por otro lado, puedo hacer lo que se me de la gana allí, y eso quizás me permita explorar otras cosas a futuro.
+Así que decidí finalmente pegar el salto no a un <a href="http://es.wikipedia.org/wiki/Alojamiento_compartido">hosting</a>, sino directamente a un <a href="http://es.wikipedia.org/wiki/Servidor_virtual">VPS</a>. La diferencia en plata no es importante, sino que el detalle es que ahí tengo un servidor pelado, y tengo que hacer todo yo... Apache para servir estas páginas, Courier y Postfix para tener mail (¡me falta instalar SpamAssassin!), etc, etc, etc. Por otro lado, puedo hacer lo que se me de la gana allí, y eso quizás me permita explorar otras cosas a futuro.
 
 
 

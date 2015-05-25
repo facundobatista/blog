@@ -3,6 +3,63 @@ Más películas
 <tags>
 
 En este caso, vi algunas....
-<ul><li><a href="http://www.imdb.com/title/tt0470705/">Bug</a>: -0. No deja de ser una peli de miedo... pero que no da mucho miedo (aunque la idea base es interesante... pero ni tanto).</li><li><a href="http://www.imdb.com/title/tt0483726/">Man of the year</a>: +1. Muy buena película, pegando justo en estos modernos tiempos de "que se vayan todos" y voto electrónico... muy buena actuación de Robin Williams.</li><li><a href="http://www.imdb.com/title/tt0396171/">Perfume</a>: +0. Recomendadísima si les gusta ver películas de época, porque está muy bien hecha en ese aspecto.</li><li><a href="http://www.imdb.com/title/tt0489270/">Saw III</a>: -1. Notable como cayó la calidad de la peli desde la primera a la tercera.</li><li><a href="http://www.imdb.com/title/tt0435670/">The invisible</a>: +0. La historia es buena, las actuaciones les falta un poco a veces. Notablemente charlando el otro día con amigos que me estaban contando una peli sueca... &iexcl;me estaban contando esta! (resulta que la versión yanqui es una remake).</li><li><a href="http://www.imdb.com/title/tt0375920/">The libertine</a>: -0. Están Johnny Deep y otros buenos actores... pero ni así.</li><li><a href="http://www.imdb.com/title/tt0413099/">Evan Almighty</a>: +0. Comedia suave, pero entretenida. Recomendable para chicos.</li><li><a href="http://www.imdb.com/title/tt0361596/">Fahrenheit 9/11</a>: +0. Aunque está encarada desde un punto de vista yanqui, no deja de decir muchísimas verdades, no sólo interesantes per se, sino también extrapolables a otros lados.</li><li><a href="http://www.imdb.com/title/tt0468569/">The dark Knight</a>: +1. Ya la comentó Chaghi <a href="http://chaghi.com.ar/blog/post/2008/08/02/una_de_batman">acá</a>. Concuerdo con él.</li><li><a href="http://www.imdb.com/title/tt0443706/">Zodiac</a>: -0. La historia está bien llevada, pero no está buena.</li></ul>... pero las nuevas que anoté fueron <strong>muchas más</strong>, definitivamente no me voy a quedar sin nada para ver en el corto plazo...:
-<ul><li><a href="http://www.imdb.com/title/tt0800308/ ">Appaloosa</a></li><li><a href="http://www.imdb.com/title/tt0364970/ ">Babylon A.D.</a></li><li><a href="http://www.imdb.com/title/tt0861689/ ">Blindness</a></li><li><a href="http://www.imdb.com/title/tt0758774/ ">Body of lies</a></li><li><a href="http://www.imdb.com/title/tt0397892/ ">Bolt</a></li><li><a href="http://www.imdb.com/title/tt0887883/ ">Burn after reading</a></li><li><a href="http://www.imdb.com/title/tt1024715/ ">Choke</a></li><li><a href="http://www.imdb.com/title/tt0970411/ ">City of Ember</a></li><li><a href="http://www.imdb.com/title/tt0918927/ ">Doubt</a></li><li><a href="http://www.imdb.com/title/tt1059786/ ">Eagle eye</a></li><li><a href="http://www.imdb.com/title/tt0970416/ ">Earth stood still</a></li><li><a href="http://www.imdb.com/title/tt0974554/ ">Elegy</a></li><li><a href="http://www.imdb.com/title/tt0417741/ ">Harry Potter and the half-blood Prince</a></li><li><a href="http://www.imdb.com/title/tt0167190/ ">Hellboy I</a></li><li><a href="http://www.imdb.com/title/tt0411477/ ">Hellboy II</a>&nbsp; (dependencia: Hellboy I) </li><li><a href="http://www.imdb.com/title/tt1080016/ ">Ice Age III</a></li><li><a href="http://www.imdb.com/title/tt0465502/">Igor</a></li><li><a href="http://www.imdb.com/title/tt0448011/ ">Knowing</a></li><li><a href="http://www.imdb.com/title/tt0901485/ ">La fille coupée en deux</a></li><li><a href="http://www.imdb.com/title/tt0416044/ ">Mongol</a></li><li><a href="http://www.imdb.com/title/tt0830515/ ">Quantum of Solace</a></li><li><a href="http://www.imdb.com/title/tt0815241/ ">Religulous</a></li><li><a href="http://www.imdb.com/title/tt1034331/ ">Righteous kill</a></li><li><a href="http://www.imdb.com/title/tt1135985/ ">Sex drive</a></li><li><a href="http://www.imdb.com/title/tt0438488/ ">Terminator salvation</a></li><li><a href="http://www.imdb.com/title/tt0963178/ ">The International</a></li><li><a href="http://www.imdb.com/title/tt0443701/ ">The X files: I want to believe</a></li><li><a href="http://www.imdb.com/title/tt0844286/ ">The brothers Bloom</a></li><li><a href="http://www.imdb.com/title/tt0800080/ ">The incredible hulk</a></li><li><a href="http://www.imdb.com/title/tt0859163/ ">The mummy III</a></li><li><a href="http://www.imdb.com/title/tt0821642/ ">The soloist</a></li><li><a href="http://www.imdb.com/title/tt0482606/ ">The strangers</a></li><li><a href="http://www.imdb.com/title/tt0800241/ ">Transsiberian</a></li><li><a href="http://www.imdb.com/title/tt0497465/ ">Vicky Cristina Barcelona</a></li><li><a href="http://www.imdb.com/title/tt0461694/ ">Vier minuten</a></li><li><a href="http://www.imdb.com/title/tt0486674/ ">What just happened?</a></li><li><a href="http://www.imdb.com/title/tt1068680/ ">Yes man</a></li><li><a href="http://www.imdb.com/title/tt0120907/ ">eXistenZ</a></li></ul>La relación quedó así:
-<ul><li><font face="courier new,courier">(anterior)&nbsp;&nbsp;&nbsp;&nbsp; 3</font></li><li><font face="courier new,courier">(02-Dic-2006)&nbsp; 9</font></li><li><font face="courier new,courier">(26-Jan-2007)&nbsp; 4</font></li><li><font face="courier new,courier">(26-Mar-2007)&nbsp; 8</font></li><li><font face="courier new,courier">(15-Jun-2007)&nbsp; 4</font></li><li><font face="courier new,courier">(19-Nov-2007) 14</font></li><li><font face="courier new,courier">(23-May-2008) 28</font></li><li><font face="courier new,courier">(24-Sep-2008) 38</font></li><li><font face="courier new,courier">Total:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 108</font></li></ul>[@more@] |
+<ul><li><a href="http://www.imdb.com/title/tt0470705/">Bug</a>: -0. No deja de ser una peli de miedo... pero que no da mucho miedo (aunque la idea base es interesante... pero ni tanto).
+<li><a href="http://www.imdb.com/title/tt0483726/">Man of the year</a>: +1. Muy buena película, pegando justo en estos modernos tiempos de "que se vayan todos" y voto electrónico... muy buena actuación de Robin Williams.
+<li><a href="http://www.imdb.com/title/tt0396171/">Perfume</a>: +0. Recomendadísima si les gusta ver películas de época, porque está muy bien hecha en ese aspecto.
+<li><a href="http://www.imdb.com/title/tt0489270/">Saw III</a>: -1. Notable como cayó la calidad de la peli desde la primera a la tercera.
+<li><a href="http://www.imdb.com/title/tt0435670/">The invisible</a>: +0. La historia es buena, las actuaciones les falta un poco a veces. Notablemente charlando el otro día con amigos que me estaban contando una peli sueca... ¡me estaban contando esta! (resulta que la versión yanqui es una remake).
+<li><a href="http://www.imdb.com/title/tt0375920/">The libertine</a>: -0. Están Johnny Deep y otros buenos actores... pero ni así.
+<li><a href="http://www.imdb.com/title/tt0413099/">Evan Almighty</a>: +0. Comedia suave, pero entretenida. Recomendable para chicos.
+<li><a href="http://www.imdb.com/title/tt0361596/">Fahrenheit 9/11</a>: +0. Aunque está encarada desde un punto de vista yanqui, no deja de decir muchísimas verdades, no sólo interesantes per se, sino también extrapolables a otros lados.
+<li><a href="http://www.imdb.com/title/tt0468569/">The dark Knight</a>: +1. Ya la comentó Chaghi <a href="http://chaghi.com.ar/blog/post/2008/08/02/una_de_batman">acá</a>. Concuerdo con él.
+<li><a href="http://www.imdb.com/title/tt0443706/">Zodiac</a>: -0. La historia está bien llevada, pero no está buena.
+</ul>... pero las nuevas que anoté fueron <strong>muchas más</strong>, definitivamente no me voy a quedar sin nada para ver en el corto plazo...:
+<ul><li><a href="http://www.imdb.com/title/tt0800308/ ">Appaloosa</a>
+<li><a href="http://www.imdb.com/title/tt0364970/ ">Babylon A.D.</a>
+<li><a href="http://www.imdb.com/title/tt0861689/ ">Blindness</a>
+<li><a href="http://www.imdb.com/title/tt0758774/ ">Body of lies</a>
+<li><a href="http://www.imdb.com/title/tt0397892/ ">Bolt</a>
+<li><a href="http://www.imdb.com/title/tt0887883/ ">Burn after reading</a>
+<li><a href="http://www.imdb.com/title/tt1024715/ ">Choke</a>
+<li><a href="http://www.imdb.com/title/tt0970411/ ">City of Ember</a>
+<li><a href="http://www.imdb.com/title/tt0918927/ ">Doubt</a>
+<li><a href="http://www.imdb.com/title/tt1059786/ ">Eagle eye</a>
+<li><a href="http://www.imdb.com/title/tt0970416/ ">Earth stood still</a>
+<li><a href="http://www.imdb.com/title/tt0974554/ ">Elegy</a>
+<li><a href="http://www.imdb.com/title/tt0417741/ ">Harry Potter and the half-blood Prince</a>
+<li><a href="http://www.imdb.com/title/tt0167190/ ">Hellboy I</a>
+<li><a href="http://www.imdb.com/title/tt0411477/ ">Hellboy II</a>&nbsp; (dependencia: Hellboy I)
+<li><a href="http://www.imdb.com/title/tt1080016/ ">Ice Age III</a>
+<li><a href="http://www.imdb.com/title/tt0465502/">Igor</a>
+<li><a href="http://www.imdb.com/title/tt0448011/ ">Knowing</a>
+<li><a href="http://www.imdb.com/title/tt0901485/ ">La fille coupée en deux</a>
+<li><a href="http://www.imdb.com/title/tt0416044/ ">Mongol</a>
+<li><a href="http://www.imdb.com/title/tt0830515/ ">Quantum of Solace</a>
+<li><a href="http://www.imdb.com/title/tt0815241/ ">Religulous</a>
+<li><a href="http://www.imdb.com/title/tt1034331/ ">Righteous kill</a>
+<li><a href="http://www.imdb.com/title/tt1135985/ ">Sex drive</a>
+<li><a href="http://www.imdb.com/title/tt0438488/ ">Terminator salvation</a>
+<li><a href="http://www.imdb.com/title/tt0963178/ ">The International</a>
+<li><a href="http://www.imdb.com/title/tt0443701/ ">The X files: I want to believe</a>
+<li><a href="http://www.imdb.com/title/tt0844286/ ">The brothers Bloom</a>
+<li><a href="http://www.imdb.com/title/tt0800080/ ">The incredible hulk</a>
+<li><a href="http://www.imdb.com/title/tt0859163/ ">The mummy III</a>
+<li><a href="http://www.imdb.com/title/tt0821642/ ">The soloist</a>
+<li><a href="http://www.imdb.com/title/tt0482606/ ">The strangers</a>
+<li><a href="http://www.imdb.com/title/tt0800241/ ">Transsiberian</a>
+<li><a href="http://www.imdb.com/title/tt0497465/ ">Vicky Cristina Barcelona</a>
+<li><a href="http://www.imdb.com/title/tt0461694/ ">Vier minuten</a>
+<li><a href="http://www.imdb.com/title/tt0486674/ ">What just happened?</a>
+<li><a href="http://www.imdb.com/title/tt1068680/ ">Yes man</a>
+<li><a href="http://www.imdb.com/title/tt0120907/ ">eXistenZ</a>
+</ul>La relación quedó así:
+<ul><li><font face="courier new,courier">(anterior)&nbsp;&nbsp;&nbsp;&nbsp; 3</font>
+<li><font face="courier new,courier">(02-Dic-2006)&nbsp; 9</font>
+<li><font face="courier new,courier">(26-Jan-2007)&nbsp; 4</font>
+<li><font face="courier new,courier">(26-Mar-2007)&nbsp; 8</font>
+<li><font face="courier new,courier">(15-Jun-2007)&nbsp; 4</font>
+<li><font face="courier new,courier">(19-Nov-2007) 14</font>
+<li><font face="courier new,courier">(23-May-2008) 28</font>
+<li><font face="courier new,courier">(24-Sep-2008) 38</font>
+<li><font face="courier new,courier">Total:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 108</font>
+</ul>[@more@] |

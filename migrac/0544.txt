@@ -8,15 +8,15 @@ Notar que este programa no distribuye contenido de Canal Encuentro, sino que per
 
 <img src="http://encuentro.taniquetil.com.ar/imgs/title.png" alt="Encuentro" height="175" width="688" />
 
-&iexcl;Con esta versión entramos en "alfa"! O sea: están todas las funcionalidades que pretendo, veremos si aparecen bugs para corregir...
+¡Con esta versión entramos en "alfa"! O sea: están todas las funcionalidades que pretendo, veremos si aparecen bugs para corregir...
 
 La versión 0.4 trae los siguientes cambios con respecto a la versión anterior:
 
 - Ahora se puede filtrar todos los programas para encontrarlos más fácil.
 
-- &iexcl;Tenemos una versión para Windows! (gracias Javier Andalia)
+- ¡Tenemos una versión para Windows! (gracias Javier Andalia)
 
-- &iexcl;Tenemos un instalador para Arch Linux! (gracias Diego Mascialino)
+- ¡Tenemos un instalador para Arch Linux! (gracias Diego Mascialino)
 
 - Mostramos versiones de todas las bibliotecas usadas al arrancar.
 
@@ -28,4 +28,4 @@ Para las distintas formas de instalarlo en Debian/Ubuntu, suscribirse al PPA, c�
 
 Recuerden revisar el archivo AYUDA.txt si tienen alguna duda de cómo usar el programa.
 
-&iexcl;Que lo disfruten!</p> |
+¡Que lo disfruten!</p> |

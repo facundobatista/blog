@@ -7,66 +7,98 @@ Primer review del año:
 
 <ul>
 	<li><a href="http://www.imdb.com/title/tt0478087/">
-	21</a>: +1. Buena historia, buenos personakes, buen Spacey.</li>
+	21</a>: +1. Buena historia, buenos personakes, buen Spacey.
+
 	<li><a href="http://www.imdb.com/title/tt0405676/">
-	All the king's men</a>: +1. &iexcl;Cuán dificil es cambiar las cosas desde adentro de la política!</li>
+	All the king's men</a>: +1. ¡Cuán dificil es cambiar las cosas desde adentro de la política!
+
 	<li><a href="http://www.imdb.com/title/tt0371746/">
-	Ironman</a>: +1. Para ser una pochoclera de acción, muy interesante.</li>
+	Ironman</a>: +1. Para ser una pochoclera de acción, muy interesante.
+
 	<li><a href="http://www.imdb.com/title/tt0435705/">
-	Next</a>: +0. El tema muy interesante, pero se queda corto por Cage.</li>
+	Next</a>: +0. El tema muy interesante, pero se queda corto por Cage.
+
 	<li><a href="http://www.imdb.com/title/tt0376177/">
-	Seres queridos</a>: -0. Buenos actores, pero la historia es floja.</li>
+	Seres queridos</a>: -0. Buenos actores, pero la historia es floja.
+
 	<li><a href="http://www.imdb.com/title/tt0486576/">
-	The Fantastic Four - Rise of the silver surfer</a>: -0. Pochoclera barata.</li>
+	The Fantastic Four - Rise of the silver surfer</a>: -0. Pochoclera barata.
+
 	<li><a href="http://www.imdb.com/title/tt0457939/">
-	The holiday</a>: +1. Comedia romántica, pero buen fondo, buenas actuaciones.</li>
+	The holiday</a>: +1. Comedia romántica, pero buen fondo, buenas actuaciones.
+
 	<li><a href="http://www.imdb.com/title/tt0405163/">
-	The Moguls</a>: -0. No me llegó a enganchar.</li>
+	The Moguls</a>: -0. No me llegó a enganchar.
+
 	<li><a href="http://www.imdb.com/title/tt0859163/">
-	The mummy III</a>: -1. Insoportable, ni la terminé de ver.</li>
+	The mummy III</a>: -1. Insoportable, ni la terminé de ver.
+
 	<li><a href="http://www.imdb.com/title/tt0481369/">
-	The number 23</a>: +1. Buena historia, sorprendente final.</li>
+	The number 23</a>: +1. Buena historia, sorprendente final.
+
 </ul>
 Por otro lado, anoté todas estas en la lista de <a href="http://www.taniquetil.com.ar/facundo/bdvfiles/peliculas.html">Películas</a>:
 
 <ul>
-	<li><a href="http://www.imdb.com/title/tt0472033/">9</a></li>
-	<li><a href="http://www.imdb.com/title/tt0808151/">Angels &amp; deamons</a></li>
-	<li><a href="http://www.imdb.com/title/tt0374569/">Che</a></li>
-	<li><a href="http://www.imdb.com/title/tt1135487/">Duplicity</a></li>
-	<li><a href="http://www.imdb.com/title/tt0944101/">Good Dick</a></li>
-	<li><a href="http://www.imdb.com/title/tt0436364/">Good</a></li>
-	<li><a href="http://www.imdb.com/title/tt1205489/">Gran Torino</a></li>
+	<li><a href="http://www.imdb.com/title/tt0472033/">9</a>
+
+	<li><a href="http://www.imdb.com/title/tt0808151/">Angels & deamons</a>
+
+	<li><a href="http://www.imdb.com/title/tt0374569/">Che</a>
+
+	<li><a href="http://www.imdb.com/title/tt1135487/">Duplicity</a>
+
+	<li><a href="http://www.imdb.com/title/tt0944101/">Good Dick</a>
+
+	<li><a href="http://www.imdb.com/title/tt0436364/">Good</a>
+
+	<li><a href="http://www.imdb.com/title/tt1205489/">Gran Torino</a>
+
 	<li><a href="http://www.imdb.com/title/tt0830570/">
-	I can't think straight</a></li>
+	I can't think straight</a>
+
 	<li><a href="http://www.imdb.com/title/tt0780536/">
-	In Bruges</a></li>
+	In Bruges</a>
+
 	<li><a href="http://www.imdb.com/title/tt1194615/">
-	Lluvia</a></li>
+	Lluvia</a>
+
 	<li><a href="http://www.imdb.com/title/tt0480669/">
-	Los cronocrímenes</a></li>
+	Los cronocrímenes</a>
+
 	<li><a href="http://www.imdb.com/title/tt0465580/">
-	Push</a></li>
+	Push</a>
+
 	<li><a href="http://www.imdb.com/title/tt0961079/">
-	Reclaiming the blade</a></li>
+	Reclaiming the blade</a>
+
 	<li><a href="http://www.imdb.com/title/tt1068641/">
-	The burning plain</a></li>
+	The burning plain</a>
+
 	<li><a href="http://www.imdb.com/title/tt0421715/">
-	The curious case of Benjamin Button</a></li>
+	The curious case of Benjamin Button</a>
+
 	<li><a href="http://www.imdb.com/title/tt0976051/">
-	The reader</a></li>
+	The reader</a>
+
 	<li><a href="http://www.imdb.com/title/tt0420238/">
-	The tale of Desperaux</a></li>
+	The tale of Desperaux</a>
+
 	<li><a href="http://www.imdb.com/title/tt1142988/">
-	The ugly truth</a></li>
+	The ugly truth</a>
+
 	<li><a href="http://www.imdb.com/title/tt1139668/">
-	The unborn</a></li>
+	The unborn</a>
+
 	<li><a href="http://www.imdb.com/title/tt0320691/">
-	Underworld</a></li>
+	Underworld</a>
+
 	<li><a href="http://www.imdb.com/title/tt0401855/">
-	Underworld: Evolution</a></li>
+	Underworld: Evolution</a>
+
 	<li><a href="http://www.imdb.com/title/tt0834001/">
-	Underworld: Rise of the Lycans</a></li>
+	Underworld: Rise of the Lycans</a>
+
 </ul>
 El equilibrio de pendientes quedó, con un total de 114 para ver, marcadas en:
 

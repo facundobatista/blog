@@ -11,7 +11,11 @@ Textos:
 <ul><li><a href="http://www.cs.bgu.ac.il/%7Esipper/papabs/epcm.pdf">Evolution of Parallel Cellular Machines</a>
 (Moshe Sipper): Completísimo (213 páginas) documento sobre máquinas
 celulares y el acercamiento a la programación mediante varias en
-paralelo.</li><li><a href="http://www.joelonsoftware.com/articles/CollegeAdvice.html">Advice for Computer Science College Students</a> (Joel Spolsky): Muy bueno para todos los estudiantes que están relacionados con la ínformática.</li><li><a href="http://www.joelonsoftware.com/articles/fog0000000319.html">Back to Basics</a> (Joel Spolsky): Espectacular artículo mostrando que en computación, siempre hay que saber lo subyacente.</li><li><a href="http://users.rcn.com/python/download/Descriptor.htm">How-To Guide for Descriptors</a> (Raymond Hettinger): Muy buen tutorial de cómo usar descriptores en Python.</li></ul>Ayer fui a ver Constantine: +0 (y si querés saber por qué soy tan locuaz con la calificación, consultá <a href="http://www.taniquetil.com.ar/plog/post/1/34">este post previo</a>).
+paralelo.
+<li><a href="http://www.joelonsoftware.com/articles/CollegeAdvice.html">Advice for Computer Science College Students</a> (Joel Spolsky): Muy bueno para todos los estudiantes que están relacionados con la ínformática.
+<li><a href="http://www.joelonsoftware.com/articles/fog0000000319.html">Back to Basics</a> (Joel Spolsky): Espectacular artículo mostrando que en computación, siempre hay que saber lo subyacente.
+<li><a href="http://users.rcn.com/python/download/Descriptor.htm">How-To Guide for Descriptors</a> (Raymond Hettinger): Muy buen tutorial de cómo usar descriptores en Python.
+</ul>Ayer fui a ver Constantine: +0 (y si querés saber por qué soy tan locuaz con la calificación, consultá <a href="http://www.taniquetil.com.ar/plog/post/1/34">este post previo</a>).
 
 [@more@]
 

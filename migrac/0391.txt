@@ -15,4 +15,4 @@ Por otro lado, tenemos un <a href="http://trac.usla.org.ar/proyectos/pycon-ar">w
 
 
 
-&iexcl;Más novedades en el próximo boletín!                        |
+¡Más novedades en el próximo boletín!                        |

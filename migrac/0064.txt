@@ -22,9 +22,12 @@ no sólo por lo viejo de la película (vieja pero en color, por <a href="http://
 
 Sé cómo me calificaría si me dan a elegir entre las siguientes opciones:
 <ul><li>
-Geek (<a href="http://en.wikipedia.org/wiki/Geek">wikipedia</a>, <a href="http://www.catb.org/jargon/html/G/geek.html">jargon file</a>)</li><li>
-Nerd (<a href="http://en.wikipedia.org/wiki/Nerd">wikipedia</a>, <a href="http://www.catb.org/jargon/html/N/nerd.html">jargon file</a>)</li><li>
-Techie (<a href="http://en.wikipedia.org/wiki/Techie">wikipedia</a>)</li></ul>
+Geek (<a href="http://en.wikipedia.org/wiki/Geek">wikipedia</a>, <a href="http://www.catb.org/jargon/html/G/geek.html">jargon file</a>)
+<li>
+Nerd (<a href="http://en.wikipedia.org/wiki/Nerd">wikipedia</a>, <a href="http://www.catb.org/jargon/html/N/nerd.html">jargon file</a>)
+<li>
+Techie (<a href="http://en.wikipedia.org/wiki/Techie">wikipedia</a>)
+</ul>
 ¿Ustedes? ¿Entran en alguna de esas categorías o son seres humanos normales? :p
 
 

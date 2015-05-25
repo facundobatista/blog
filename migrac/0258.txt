@@ -13,7 +13,9 @@ Comimos bien. Con Moni armamos dos entradas distintas, y luego ella cocinó un f
 Python y el software en general fue un tema casi obligado, y creo que hubieron una o dos laptops siempre usándose en cualquier momento dado. Incluso se hablaron de algunos proyectos locos y algo se comenzó a explorar ahí mismo (lo de siempre, bah, conquistar el mundo...).
 
 Finalmente pude jugar a un juego muy loco que Alecu y Lucio conocieron en la última PyCon. Las reglas del juego son sencillas, pero el juego no. A priori, hay dos cosas muy buenas del mismo (aparte de que es divertido), que me llamaron la atención:
-<ul><li>Es muy dificil desarrollar un sistema, hay que improvisar todo el tiempo</li><li>Es en tiempo real, no por turnos, todos metiendo la mano simultáneamente, :)</li></ul>Acá pueden vernos jugando, a Lucio, Carolina, yo y Alecu (de izq a der).
+<ul><li>Es muy dificil desarrollar un sistema, hay que improvisar todo el tiempo
+<li>Es en tiempo real, no por turnos, todos metiendo la mano simultáneamente, :)
+</ul>Acá pueden vernos jugando, a Lucio, Carolina, yo y Alecu (de izq a der).
 
 <img src="http://farm4.static.flickr.com/3099/3257980416_5b4279a612_o.jpg" border="0" />
 
@@ -25,7 +27,7 @@ Gustavo se mandó un rico asadito, como corresponde a un sábado al mediodía...
 
 <img src="http://farm4.static.flickr.com/3365/3257151111_e0be4e99da_o.jpg" border="0" />
 
-Ayer domingo, tuvimos dos cumpleaños más. Al mediodía, el de Karen (&iexcl;ya son seis añitos! Pensar que a Kike lo conozco de antes de que Fabi quede embarazada...). Y de ahí, a lo de mi viejo, que justo cumplía ayer, 13 de Mayo.
+Ayer domingo, tuvimos dos cumpleaños más. Al mediodía, el de Karen (¡ya son seis añitos! Pensar que a Kike lo conozco de antes de que Fabi quede embarazada...). Y de ahí, a lo de mi viejo, que justo cumplía ayer, 13 de Mayo.
 
 <img src="http://farm4.static.flickr.com/3340/3257980568_9b31fc9c1f_o.jpg" border="0" />
 

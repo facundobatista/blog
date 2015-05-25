@@ -24,7 +24,7 @@ Pero finalmente llegamos a donde correspondía, nos registramos, y partimos para
 
 La charla estuvo muy bien, amena, y muy informativa. Basicamente habló de <a href="http://jackaudio.org/">Jack</a> (yo no lo conocía y está muy bueno, muy bien pensado), y de cómo configurar apenas el Linux para que la edición de sonido sea más rápida y dinámica. También mencionó <a href="http://ardour.org/">Ardour</a> (una estación de trabajo digital) y <a href="http://www.rosegardenmusic.com/">Rosegarden</a> (un secuenciador MIDI profesional).
 
-Luego fuimos con Mat y Guillo a ver de colgar en algún lado la bandera. Luego de largas y esforzadas gestiones con la gente de Grulic, &iexcl;pudimos hasta tener un stand!
+Luego fuimos con Mat y Guillo a ver de colgar en algún lado la bandera. Luego de largas y esforzadas gestiones con la gente de Grulic, ¡pudimos hasta tener un stand!
 
 <img src="http://farm4.static.flickr.com/3512/3257153043_6598feaeee_o.jpg" border="0" />
 
@@ -40,6 +40,6 @@ Después me relajé, estuve un ratito en la charla de Leito, y luego charlando c
 
 Pasamos un rato por el hostel, y después partimos para el restaurant donde nos íbamos a juntar todos para comer.
 
-Mi idea era comer rapidito, y al sobre. Pero nos terminamos juntando en un tenedor libre muy muy grande, y casi que copamos toda la parte anterior del local, &iexcl;eramos como 70 personas!
+Mi idea era comer rapidito, y al sobre. Pero nos terminamos juntando en un tenedor libre muy muy grande, y casi que copamos toda la parte anterior del local, ¡eramos como 70 personas!
 
 Podrán imaginar que no fue una comida rápida, incluso considerando que no debíamos esperar que nos sirvan: traer comida a la mesa era asincrónico por persona. Pero fue un evento social en extremo, y terminamos llegando al hostel a medianoche.[@more@] |

@@ -59,7 +59,7 @@ Limpieza de debugs: comenté algunos prints, aclaré otros (poniéndole algún t
 
 
 
-Normalicé algunas cosas a nivel config.py: saqué info que no se usaba más, y agregué otras variables necesarias.&nbsp; Como ahora todo funciona tanto desde adentro del .iso como en el entorno de desarrollo, algunas variables cambiaron en el config.py, y hay un config.py que se crea explicitamente para el .iso.&nbsp; También hice que algunas variables dejen de viajar como locas entre funciones, y se tomen directamente del config.py (&iexcl;ya estaban allí!).
+Normalicé algunas cosas a nivel config.py: saqué info que no se usaba más, y agregué otras variables necesarias.&nbsp; Como ahora todo funciona tanto desde adentro del .iso como en el entorno de desarrollo, algunas variables cambiaron en el config.py, y hay un config.py que se crea explicitamente para el .iso.&nbsp; También hice que algunas variables dejen de viajar como locas entre funciones, y se tomen directamente del config.py (¡ya estaban allí!).
 
 
 

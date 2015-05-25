@@ -2,7 +2,7 @@
 PyCamp 2011, en La Falda
 <tags>
 
-El fin de semana pasado, que era largo&nbsp; (&iexcl;cuatro días!), lo pasé en La Falda, Córdoba, junto con un montón de gente copada, disfrutando del cuarto PyCamp de Python Argentina.
+El fin de semana pasado, que era largo&nbsp; (¡cuatro días!), lo pasé en La Falda, Córdoba, junto con un montón de gente copada, disfrutando del cuarto PyCamp de Python Argentina.
 
 No voy a explicar de nuevo que es un PyCamp, pero pueden ver mis posts de las ediciones anteriores(<a href="http://www.taniquetil.com.ar/plog/post/1/329">acá</a>, <a href="http://www.taniquetil.com.ar/plog/post/1/404">acá</a>, y <a href="http://www.taniquetil.com.ar/plog/post/1/452">acá</a>).
 

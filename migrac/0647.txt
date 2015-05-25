@@ -10,13 +10,21 @@ Hoy estoy liberando la versión 2.0, una versión importante ya que hace que tod
 
 La versión 2.0 trae los siguientes cambios con respecto a la versión anterior:</p>
 <ul>
-<li><strong>Vuelve a funcionar</strong> luego de los cambios de backend de Encuentro y Conectate</li>
-<li><strong>Maneja las temporadas de los programas</strong>; no se repiten nombres y graba agrupado a disco</li>
-<li>Sólo anota (y <strong>no requiere aprobación del usuario</strong>) al tener errores en la descarga</li>
-<li><strong>Mejor manejo de las imágenes</strong> de los episodios, con lo cual ahora se ven las de Bacua</li>
-<li>Actualiza <strong>automáticamente</strong> la metadata si se la encuentra demasiado desactualizada</li>
-<li>El proyecto tiene <strong>menos dependencias</strong>, es más simple hacerlo funcionar en más sistemas</li>
-<li>Soporta ser ejecutado en un <strong>virtualenv</strong></li>
-<li>Varias correcciones y detalles para hacerlo <strong>más usable y robusto</strong></li>
+<li><strong>Vuelve a funcionar</strong> luego de los cambios de backend de Encuentro y Conectate
+
+<li><strong>Maneja las temporadas de los programas</strong>; no se repiten nombres y graba agrupado a disco
+
+<li>Sólo anota (y <strong>no requiere aprobación del usuario</strong>) al tener errores en la descarga
+
+<li><strong>Mejor manejo de las imágenes</strong> de los episodios, con lo cual ahora se ven las de Bacua
+
+<li>Actualiza <strong>automáticamente</strong> la metadata si se la encuentra demasiado desactualizada
+
+<li>El proyecto tiene <strong>menos dependencias</strong>, es más simple hacerlo funcionar en más sistemas
+
+<li>Soporta ser ejecutado en un <strong>virtualenv</strong>
+
+<li>Varias correcciones y detalles para hacerlo <strong>más usable y robusto</strong>
+
 </ul>
-<p>Hay muchas formas de instalarlo, todo bien explicadito en la <a href="http://encuentro.taniquetil.com.ar/">página oficial</a>. &iexcl;Que lo disfruten!</p> |
+<p>Hay muchas formas de instalarlo, todo bien explicadito en la <a href="http://encuentro.taniquetil.com.ar/">página oficial</a>. ¡Que lo disfruten!</p> |

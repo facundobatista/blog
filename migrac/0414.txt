@@ -19,7 +19,7 @@ Entonces la discusión es: armamos un servicio, agregamos funcionalidad, <strong
 
 
 
-Por ejemplo, la manera más fácil de hacerlo es poner un icono en el escritorio del usuario. &iexcl;Pero no queremos eso! A ninguno de nosotros nos gustaría que el proceso de instalación nos deje "cosas" en nuestro entorno, y como no nos gusta que nos lo hagan a nosotros, tampoco se lo haríamos al usuario...
+Por ejemplo, la manera más fácil de hacerlo es poner un icono en el escritorio del usuario. ¡Pero no queremos eso! A ninguno de nosotros nos gustaría que el proceso de instalación nos deje "cosas" en nuestro entorno, y como no nos gusta que nos lo hagan a nosotros, tampoco se lo haríamos al usuario...
 
 
 

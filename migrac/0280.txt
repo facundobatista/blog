@@ -15,7 +15,11 @@ De ahí, con Lucio casi directamente nos fuimos a comer, al comedor universitari
 Conseguir una impresora para llevarlo a papel no fue tan fácil, pero con la ayuda de Daniel Moisset logramos encontrar a alguien en la Universidad que nos dió esa mano, y ya cuando entré en la primer charla de la tarde que me pareció interesante: <em>Qué es lo que tu cliente quiere</em>.
 
 Algo muy interesante que sale de esta charla, y que quiero compartirles, es que una buena comunicación con los clientes, ya sean internos o externos, tanto en situaciones favorables como desfavorables, se basa en cuatro puntos que hay que ejercitar de forma consciente:
-<ul><li>Escuchar</li><li>Educar</li><li>Colaborar</li><li>Informar</li></ul>Inmediatamente luego de esa, me fui para la charla de un ex compañero de Universidad, Diego Brengi, que nos mostró que existía <a href="http://www.lis.inpg.fr/realise_au_lis/kicad/">KICAD</a>, una herramienta de software libre y multiplataforma que nos permite arrancar con el esquemático de un circuito electrónico (el <em>esquemático</em> es el típico dibujito simpático donde las resistencias parecen resortitos, etc.) a la placa impresa con las pistas de cobre donde corresponden, lista para soldarle los componentes. Muy interesante.
+<ul><li>Escuchar
+<li>Educar
+<li>Colaborar
+<li>Informar
+</ul>Inmediatamente luego de esa, me fui para la charla de un ex compañero de Universidad, Diego Brengi, que nos mostró que existía <a href="http://www.lis.inpg.fr/realise_au_lis/kicad/">KICAD</a>, una herramienta de software libre y multiplataforma que nos permite arrancar con el esquemático de un circuito electrónico (el <em>esquemático</em> es el típico dibujito simpático donde las resistencias parecen resortitos, etc.) a la placa impresa con las pistas de cobre donde corresponden, lista para soldarle los componentes. Muy interesante.
 
 Luego, y como cierre del día, estaba la Keynote de <a href="http://www.pps.jussieu.fr/~dicosmo/index.es.html">Roberto Di Cosmo</a>, profesor e investigador de la Universidad de Paris, que nos contó cómo nos estamos quedando atrás con el Software Libre con respecto a paises más desarrollados, y que tenemos que ponernos al día porque sino vamos a perder el tren, tanto a nivel de negocios, como a nivel de conocimientos, independencia, y soberanía del pais.
 

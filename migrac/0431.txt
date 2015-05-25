@@ -10,54 +10,96 @@ Bueno... graaaaan actualización de las <a href="http://www.taniquetil.com.ar/fa
 Vistas:
 
 <ul>
-	<li><a href="http://www.imdb.com/title/tt0450385/">1408</a>: +1. Para todos los que como yo, al ver una película de terror, piensa "pero ese tipo debería racionalizar lo que le está pasando, y ya".</li>
-	<li><a href="http://www.imdb.com/title/tt0344854/">Arthur et les Minimoys</a>: +1. Una gran historia, para niños, pero muy bien hecha.</li>
-	<li><a href="http://www.imdb.com/title/tt0770772/">I think love my wife</a>: -0. El tema podría ser interesante, pero no está bien tratado. Y como comedia falla.</li>
-	<li><a href="http://www.imdb.com/title/tt0368794/">I'm not there</a>: +0. Pero sólo si te gusta un poco Dylan; igual creo que la hubiese aprovechado más si hubiese conocido más de él o sus letras.</li>
-	<li><a href="http://www.imdb.com/title/tt0489099/">Jumper</a>: -0. Desde el principio se nota que es mala, y ni siquiera le dan un buen giro al "poder" del que habla la peli.</li>
-	<li><a href="http://www.imdb.com/title/tt0765120/">My blueberry nights</a>: +1. Maravillosa historia y actuaciones; imperdible música.</li>
-	<li><a href="http://www.imdb.com/title/tt0465234/">National treasure: Book of secrets</a>: -0. Ni siquiera está a la altura de la primera...</li>
-	<li><a href="http://www.imdb.com/title/tt0465602/">Shoot'em up</a>: -1. Notablemente mala, al punto en que al principio parece que es una joda...</li>
-	<li><a href="http://www.imdb.com/title/tt0413267/">Shrek the third</a>: +0. Está bien, pero es sólo más de Shrek.</li>
-	<li><a href="http://www.imdb.com/title/tt0486655/">Stardust</a>: +0. Buena historia y actuaciones, pero no deja de ser una de fantasía blanda.</li>
-	<li><a href="http://www.imdb.com/title/tt0448134/">Sunshine</a>: -0. De las de muchas personas que están en una nave y se les complica sicológicamente... ni vale la pena.</li>
-	<li><a href="http://www.imdb.com/title/tt0365830/">Tenacious D in The pick of destiny</a>: +0. Pero mirala solamente si te gustan las películas bizarras, el rocanrol, y Jack Black.</li>
-	<li><a href="http://www.imdb.com/title/tt0438488/">Terminator salvation</a>: +1. Muy bien hecha, volvemos a la calidad de T1 y T2, superando el mal trago de la 3.</li>
-	<li><a href="http://www.imdb.com/title/tt0443701/">The X files: I want to believe</a>: +0. Esperaba algo más que un capítulo de la serie que dura el doble. Pero es X Files, :)</li>
-	<li><a href="http://www.imdb.com/title/tt0476964/">The brave one</a>: +0. Bien tratado el tema de la justicia por mano propia.</li>
-	<li><a href="http://www.imdb.com/title/tt0408839/">The heartbreak kid</a>: +0. Comedia liviana, semi romántica, semi divertida. Para pasar el rato.</li>
-	<li><a href="http://www.imdb.com/title/tt0768212/">The last mimzy</a>: +0. Medio para chicos, pero linda.</li>
-	<li><a href="http://www.imdb.com/title/tt0811106/">The ten</a>: -0. Pobre en general.</li>
-	<li><a href="http://www.imdb.com/title/tt1055369/">Transformers: Revenge of the fallen</a>: +0. Con mucha acción, pero la historia hasta ahí. Se podrían ver mejor los robots.</li>
-	<li><a href="http://www.imdb.com/title/tt0497465/">Vicky Cristina Barcelona</a>: +0. Buenas actuaciones, varios puntos interesantes para pensar; me sigue sin gustar Woody Allen.</li>
-	<li><a href="http://www.imdb.com/title/tt0910970/">Wall-E</a>: +1. Buenísima, para grandes y chicos, :)</li>
+	<li><a href="http://www.imdb.com/title/tt0450385/">1408</a>: +1. Para todos los que como yo, al ver una película de terror, piensa "pero ese tipo debería racionalizar lo que le está pasando, y ya".
+
+	<li><a href="http://www.imdb.com/title/tt0344854/">Arthur et les Minimoys</a>: +1. Una gran historia, para niños, pero muy bien hecha.
+
+	<li><a href="http://www.imdb.com/title/tt0770772/">I think love my wife</a>: -0. El tema podría ser interesante, pero no está bien tratado. Y como comedia falla.
+
+	<li><a href="http://www.imdb.com/title/tt0368794/">I'm not there</a>: +0. Pero sólo si te gusta un poco Dylan; igual creo que la hubiese aprovechado más si hubiese conocido más de él o sus letras.
+
+	<li><a href="http://www.imdb.com/title/tt0489099/">Jumper</a>: -0. Desde el principio se nota que es mala, y ni siquiera le dan un buen giro al "poder" del que habla la peli.
+
+	<li><a href="http://www.imdb.com/title/tt0765120/">My blueberry nights</a>: +1. Maravillosa historia y actuaciones; imperdible música.
+
+	<li><a href="http://www.imdb.com/title/tt0465234/">National treasure: Book of secrets</a>: -0. Ni siquiera está a la altura de la primera...
+
+	<li><a href="http://www.imdb.com/title/tt0465602/">Shoot'em up</a>: -1. Notablemente mala, al punto en que al principio parece que es una joda...
+
+	<li><a href="http://www.imdb.com/title/tt0413267/">Shrek the third</a>: +0. Está bien, pero es sólo más de Shrek.
+
+	<li><a href="http://www.imdb.com/title/tt0486655/">Stardust</a>: +0. Buena historia y actuaciones, pero no deja de ser una de fantasía blanda.
+
+	<li><a href="http://www.imdb.com/title/tt0448134/">Sunshine</a>: -0. De las de muchas personas que están en una nave y se les complica sicológicamente... ni vale la pena.
+
+	<li><a href="http://www.imdb.com/title/tt0365830/">Tenacious D in The pick of destiny</a>: +0. Pero mirala solamente si te gustan las películas bizarras, el rocanrol, y Jack Black.
+
+	<li><a href="http://www.imdb.com/title/tt0438488/">Terminator salvation</a>: +1. Muy bien hecha, volvemos a la calidad de T1 y T2, superando el mal trago de la 3.
+
+	<li><a href="http://www.imdb.com/title/tt0443701/">The X files: I want to believe</a>: +0. Esperaba algo más que un capítulo de la serie que dura el doble. Pero es X Files, :)
+
+	<li><a href="http://www.imdb.com/title/tt0476964/">The brave one</a>: +0. Bien tratado el tema de la justicia por mano propia.
+
+	<li><a href="http://www.imdb.com/title/tt0408839/">The heartbreak kid</a>: +0. Comedia liviana, semi romántica, semi divertida. Para pasar el rato.
+
+	<li><a href="http://www.imdb.com/title/tt0768212/">The last mimzy</a>: +0. Medio para chicos, pero linda.
+
+	<li><a href="http://www.imdb.com/title/tt0811106/">The ten</a>: -0. Pobre en general.
+
+	<li><a href="http://www.imdb.com/title/tt1055369/">Transformers: Revenge of the fallen</a>: +0. Con mucha acción, pero la historia hasta ahí. Se podrían ver mejor los robots.
+
+	<li><a href="http://www.imdb.com/title/tt0497465/">Vicky Cristina Barcelona</a>: +0. Buenas actuaciones, varios puntos interesantes para pensar; me sigue sin gustar Woody Allen.
+
+	<li><a href="http://www.imdb.com/title/tt0910970/">Wall-E</a>: +1. Buenísima, para grandes y chicos, :)
+
 </ul>
 
 
 Nuevas:
 
 <ul>
-	<li><a href="http://www.imdb.com/title/tt0971209/">A perfect getaway</a></li>
-	<li><a href="http://www.imdb.com/title/tt1014759/">Alice in wonderland</a></li>
-	<li><a href="http://www.imdb.com/title/tt0499549/">Avatar</a></li>
-	<li><a href="http://www.imdb.com/title/tt0450405/">Cirque du freak: The vampire's assistant</a></li>
-	<li><a href="http://www.imdb.com/title/tt0433362/">Daybreakers</a></li>
-	<li><a href="http://www.imdb.com/title/tt1136608/">District 9</a></li>
-	<li><a href="http://www.imdb.com/title/tt1375666/">Inception</a></li>
-	<li><a href="http://www.imdb.com/title/tt0361748/">Inglourious basterds </a></li>
-	<li><a href="http://www.imdb.com/title/tt0869994/">Paris </a></li>
-	<li><a href="http://www.imdb.com/title/tt0762125/">Planet 51 </a></li>
-	<li><a href="http://www.imdb.com/title/tt0988045/">Sherlock Holmes </a></li>
-	<li><a href="http://www.imdb.com/title/tt1130884/">Shutter island </a></li>
-	<li><a href="http://www.imdb.com/title/tt0986263/">Surrogates </a></li>
-	<li><a href="http://www.imdb.com/title/tt0362478/">The box </a></li>
-	<li><a href="http://www.imdb.com/title/tt1220198/">The fourth kind </a></li>
-	<li><a href="http://www.imdb.com/title/tt1058017/">The invention of lying </a></li>
-	<li><a href="http://www.imdb.com/title/tt0898367/">The road </a></li>
-	<li><a href="http://www.imdb.com/title/tt0452694/">The time traveler's wife </a></li>
-	<li><a href="http://www.imdb.com/title/tt0780653/">The wolfman </a></li>
-	<li><a href="http://www.imdb.com/title/tt1104001/">Tron legacy </a></li>
-	<li><a href="http://www.imdb.com/title/tt1193138/">Up in the air </a></li>
+	<li><a href="http://www.imdb.com/title/tt0971209/">A perfect getaway</a>
+
+	<li><a href="http://www.imdb.com/title/tt1014759/">Alice in wonderland</a>
+
+	<li><a href="http://www.imdb.com/title/tt0499549/">Avatar</a>
+
+	<li><a href="http://www.imdb.com/title/tt0450405/">Cirque du freak: The vampire's assistant</a>
+
+	<li><a href="http://www.imdb.com/title/tt0433362/">Daybreakers</a>
+
+	<li><a href="http://www.imdb.com/title/tt1136608/">District 9</a>
+
+	<li><a href="http://www.imdb.com/title/tt1375666/">Inception</a>
+
+	<li><a href="http://www.imdb.com/title/tt0361748/">Inglourious basterds </a>
+
+	<li><a href="http://www.imdb.com/title/tt0869994/">Paris </a>
+
+	<li><a href="http://www.imdb.com/title/tt0762125/">Planet 51 </a>
+
+	<li><a href="http://www.imdb.com/title/tt0988045/">Sherlock Holmes </a>
+
+	<li><a href="http://www.imdb.com/title/tt1130884/">Shutter island </a>
+
+	<li><a href="http://www.imdb.com/title/tt0986263/">Surrogates </a>
+
+	<li><a href="http://www.imdb.com/title/tt0362478/">The box </a>
+
+	<li><a href="http://www.imdb.com/title/tt1220198/">The fourth kind </a>
+
+	<li><a href="http://www.imdb.com/title/tt1058017/">The invention of lying </a>
+
+	<li><a href="http://www.imdb.com/title/tt0898367/">The road </a>
+
+	<li><a href="http://www.imdb.com/title/tt0452694/">The time traveler's wife </a>
+
+	<li><a href="http://www.imdb.com/title/tt0780653/">The wolfman </a>
+
+	<li><a href="http://www.imdb.com/title/tt1104001/">Tron legacy </a>
+
+	<li><a href="http://www.imdb.com/title/tt1193138/">Up in the air </a>
+
 </ul>
 
 

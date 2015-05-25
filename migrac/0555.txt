@@ -6,9 +6,13 @@ Ya lo dije varias veces, pero siempre hay algún despistado... Encuentro es un s
 
 La versión 0.5 trae los siguientes cambios con respecto a la versión anterior:</p>
 <ul>
-<li>Se puede autorefrescar la lista de episodios al inicio (si lo dice la config)</li>
-<li>El filtro ahora funciona también sobre la columna de Sección</li>
-<li>Soporta mejor los episodios que fueron borrados del disco</li>
-<li>También hay algunas pequeñas mejoras y otros detalles corregidos</li>
+<li>Se puede autorefrescar la lista de episodios al inicio (si lo dice la config)
+
+<li>El filtro ahora funciona también sobre la columna de Sección
+
+<li>Soporta mejor los episodios que fueron borrados del disco
+
+<li>También hay algunas pequeñas mejoras y otros detalles corregidos
+
 </ul>
-<p>Más info (cómo instalarlo, etc), en la <a href="http://encuentro.taniquetil.com.ar/">página oficial</a>. &iexcl;Que lo disfruten!</p>                                                                                                                                                                                                                                               |
+<p>Más info (cómo instalarlo, etc), en la <a href="http://encuentro.taniquetil.com.ar/">página oficial</a>. ¡Que lo disfruten!</p>                                                                                                                                                                                                                                               |

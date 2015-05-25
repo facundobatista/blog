@@ -17,9 +17,12 @@ Entonces vienen los "pares" y revisan el código, a veces sugieren mejoras (a ve
 
 &iquest;Cómo se landea un branch? Bueno, hay formas y formas. Pero la más correcta, o completa, o la que está realmente buena hacer es....</p>
 <ol>
-<li>agarrar el trunk más reciente, y mergear los cambios del branch en cuestión</li>
-<li>si no hubo conflicto, correr los tests de integración del proyecto, y cualquier serie de pruebas (por ejemplo, verificadores de código como lint o pychecker).</li>
-<li>si todo estuvo bien, landear el código (esto es, commitear los cambios al trunk)</li>
+<li>agarrar el trunk más reciente, y mergear los cambios del branch en cuestión
+
+<li>si no hubo conflicto, correr los tests de integración del proyecto, y cualquier serie de pruebas (por ejemplo, verificadores de código como lint o pychecker).
+
+<li>si todo estuvo bien, landear el código (esto es, commitear los cambios al trunk)
+
 </ol>
 <p>
 &iquest;Cual es el problema de esta secuencia? Uno solo: es mucho trabajo. Entonces, o nadie lo hace, o el que lo hace termina tardando mucho en hacerlo. Y ambas situaciones son malas.

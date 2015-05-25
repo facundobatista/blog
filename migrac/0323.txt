@@ -86,7 +86,7 @@ Esta es la etapa que tiene que manejar distintos sistemas por separado:
 
 - Instalador: Permite copiar toda la info al disco duro, armar los accesos directos correspondientes, generar estructuras de datos adicionales si el usuario decide hacerlo en ese momento, etc.
 
-Tanto el servidor web como el instalador (&iexcl;especialmente el instalador!), tienen que ser multiplataforma.
+Tanto el servidor web como el instalador (¡especialmente el instalador!), tienen que ser multiplataforma.
 
 El espacio que ocuparían estos sistemas debería ser bastante estático. Con este dato, y en función del overhead de la etapa 2, podríamos indicar un número bastante acertado para que la primera etapa se acote a si misma.
 
@@ -99,4 +99,4 @@ El sistema no es sencillo. Implica procesar una alta cantidad de datos, bajar mu
 
 Pero es un desafío super interesante, y sé que Python Argentina está a la altura del mismo (aunque nos lleve tiempo, je).
 
-&iexcl;Ahí vamos![@more@] |
+¡Ahí vamos![@more@] |

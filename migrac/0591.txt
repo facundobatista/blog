@@ -2,7 +2,7 @@
 Tratando de colaborar
 <tags>
 
-Hace alguna semanas ví un tuit sobre la posibilidad de ayudar con la revista on line <a href="http://www.hdmagazine.org/">Hackers &amp; Developers</a>, un magazine digital de distribución mensual sobre Software Libre, Hacking y Programación.
+Hace alguna semanas ví un tuit sobre la posibilidad de ayudar con la revista on line <a href="http://www.hdmagazine.org/">Hackers & Developers</a>, un magazine digital de distribución mensual sobre Software Libre, Hacking y Programación.
 
 La revista está interesante, y se nota que le ponen un montón de laburo atrás. Entonces, me pareció copado ayudar. Lamentablemente no tengo tiempo en ponerme a escribir artículos desde cero (habrán notado cuanto participé en otras iniciativas como <a href="http://revista.python.org.ar/">PET, la revista de Python Argentina.</a>.. más allá de algo puntual, no tuve tiempo tampoco de escribir nada nuevo).
 

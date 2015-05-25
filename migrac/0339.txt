@@ -17,7 +17,11 @@ Hoy día somos capaces de interpretar el legado documental de generaciones ances
 Afortunadamente, la solución a este grave problema ya está entre nosotros, y se basa en un principio muy simple: el uso de estándares abiertos para el archivo de documentos.
 
 Un estándar abierto se caracteriza por:
-<ul><li>tener todas sus especificaciones disponibles de modo tal que cualquier persona, empresa u organización pueda acceder a ellas y desarrollar una implementación</li><li>estar libre de patentes que hagan que un proveedor esté en mejores condiciones que otro para implementarlo.</li><li>debe ser mantenido por múltiples actores y organizaciones</li><li>deben existir diversas aplicaciones que lo implementen.</li></ul>En materia de ofimática, estas condiciones sólo las reúne el estandar ODF, validado por ISO como Norma ISO 26300. Dada la fundamental importancia de la interoperabilidad y la conservación de los documentos, muchas administraciones públicas del mundo están adoptando ODF como estándar para sus documentos, para mantenerlos así libres del monopolio y el arbitrio de un sólo proveedor de software. &nbsp;
+<ul><li>tener todas sus especificaciones disponibles de modo tal que cualquier persona, empresa u organización pueda acceder a ellas y desarrollar una implementación
+<li>estar libre de patentes que hagan que un proveedor esté en mejores condiciones que otro para implementarlo.
+<li>debe ser mantenido por múltiples actores y organizaciones
+<li>deben existir diversas aplicaciones que lo implementen.
+</ul>En materia de ofimática, estas condiciones sólo las reúne el estandar ODF, validado por ISO como Norma ISO 26300. Dada la fundamental importancia de la interoperabilidad y la conservación de los documentos, muchas administraciones públicas del mundo están adoptando ODF como estándar para sus documentos, para mantenerlos así libres del monopolio y el arbitrio de un sólo proveedor de software. &nbsp;
 
 Pero la limitación que encontramos en esta adopción es la falta de conciencia pública sobre la fundamental importancia que tiene el hecho de que la gran mayoría de la gente no utilice estos formatos y esté aún presa de formatos privativos tales como el .doc, el .ppt o el .xls , entre otros.
 

@@ -3,5 +3,14 @@ Actualizando películas
 <tags>
 
 Luego de mucho tiempo sin actualizar aquí, vi algunas...
-<ul><li>Coffee and cigarettes: -1</li><li>El aura: -0</li><li>Leon: +1</li><li>National treasure: +1 </li><li>Syriana: -1</li><li>Toy story: +1</li></ul>... y agregué a otras en la <a href="http://www.taniquetil.com.ar/facundo/bdvfiles/peliculas.html">lista</a> ...
-<ul><li><a href="http://www.imdb.com/title/tt0364955/">Art school confidential</a></li><li><a href="http://www.imdb.com/title/tt0497116/">An inconvenient truth</a></li><li><a href="http://www.imdb.com/title/tt0410297/">The lake house</a></li></ul>[@more@]                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+<ul><li>Coffee and cigarettes: -1
+<li>El aura: -0
+<li>Leon: +1
+<li>National treasure: +1
+<li>Syriana: -1
+<li>Toy story: +1
+</ul>... y agregué a otras en la <a href="http://www.taniquetil.com.ar/facundo/bdvfiles/peliculas.html">lista</a> ...
+<ul><li><a href="http://www.imdb.com/title/tt0364955/">Art school confidential</a>
+<li><a href="http://www.imdb.com/title/tt0497116/">An inconvenient truth</a>
+<li><a href="http://www.imdb.com/title/tt0410297/">The lake house</a>
+</ul>[@more@]                                                                                                                                                                                                                                                                                                                                                                                                                                               |

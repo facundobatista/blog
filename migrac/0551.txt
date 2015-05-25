@@ -8,10 +8,15 @@ Es una especie de sprint solitario pero abierto. O sea, no voy a coordinar previ
 
 Por otro lado, la idea es siempre a bares distintos. Y calificarlos desde la perspectiva <em>sprintera</em>. Así, de pronto, se me ocurren las siguientes categorías:</p>
 <ul>
-<li>calidad del wifi</li>
-<li>cantidad y disponibilidad de enchufes</li>
-<li>comodidad del lugar para trabajar con laptop</li>
-<li>buena onda a que se vayan juntando geeks</li>
-<li>qué cervezas y comidas ofrecen, a qué precio</li>
+<li>calidad del wifi
+
+<li>cantidad y disponibilidad de enchufes
+
+<li>comodidad del lugar para trabajar con laptop
+
+<li>buena onda a que se vayan juntando geeks
+
+<li>qué cervezas y comidas ofrecen, a qué precio
+
 </ul>
 <p>&iquest;Se les ocurre algo más?</p>                                                                  |

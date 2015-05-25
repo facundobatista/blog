@@ -19,8 +19,10 @@ En Julio alcanzó los <span style="font-weight: bold;">70 millones</span> de dow
 
 Agregué varias a la lista de pendientes (<a href="http://www.imdb.com/title/tt0364343/">The final cut</a>, <a href="http://www.imdb.com/title/tt0360717/">King Kong</a>, <a href="http://www.imdb.com/title/tt0351283/">Madagascar</a>, <a href="http://www.imdb.com/title/tt0363771/">The Chronicles of Narnia: The Lion, the Witch and the Wardrobe</a>, <a href="http://www.imdb.com/title/tt0120667/">Fantastic four</a>, <a href="http://www.imdb.com/title/tt0340163/">Hostage</a>), y vi dos:
 
-<ul><li>Girl with a pearl earring: -0</li>
-  <li>War of the worlds: +1</li>
+<ul><li>Girl with a pearl earring: -0
+
+  <li>War of the worlds: +1
+
 </ul>
 
 <span style="font-weight: bold;">

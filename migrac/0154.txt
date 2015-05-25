@@ -4,7 +4,7 @@ Remeras y pelis
 
 <strong>Remeras</strong>
 
-&iexcl;Se vienen el primer merchandising oficial de Python Argentina! En el <a href="http://chaghi.homelinux.net/pyar/Remeras">beta del nuevo sitio de PyAr</a> estamos anotando cuantas queremos y de que talle (<strong>Actualización: </strong>Esa página beta ya no existe más, porque el sitio de PyAr está levantado y funcionando hace rato; la página de las remeras es <a href="http://www.python.com.ar/moin/Remeras">esta</a>).
+¡Se vienen el primer merchandising oficial de Python Argentina! En el <a href="http://chaghi.homelinux.net/pyar/Remeras">beta del nuevo sitio de PyAr</a> estamos anotando cuantas queremos y de que talle (<strong>Actualización: </strong>Esa página beta ya no existe más, porque el sitio de PyAr está levantado y funcionando hace rato; la página de las remeras es <a href="http://www.python.com.ar/moin/Remeras">esta</a>).
 
 No se duerman, es sólo por una semana, luego ya las compro y nadie les garantiza que en el furor de las ventas no se queden sin su talle preferido.
 

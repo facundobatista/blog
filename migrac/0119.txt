@@ -4,7 +4,10 @@ Retomamos las citas
 
 
 Hace rato que no ponía ninguna cita, y como esta semana estuvo lenta de noticias (tuve bastante laburo, ayer laburé a la madrugada, hoy también, y de día estoy saltando de quilombo en quilombo). Así y todo me las ingenié para ver una película, anoto otra que había visto hace un par de semanas, y una que ví ya en otra vida:
-<ul><li><a href="http://www.imdb.com/title/tt0369339/">Collateral</a>: +0</li><li><a href="http://www.imdb.com/title/tt0070723/">Soylent Green</a>: +0</li><li><a href="http://www.imdb.com/title/tt0304141/">Harry Potter and the Prisoner of Azkaban</a>: +0</li></ul>
+<ul><li><a href="http://www.imdb.com/title/tt0369339/">Collateral</a>: +0
+<li><a href="http://www.imdb.com/title/tt0070723/">Soylent Green</a>: +0
+<li><a href="http://www.imdb.com/title/tt0304141/">Harry Potter and the Prisoner of Azkaban</a>: +0
+</ul>
 Ahora sí, las citas:
 
 <div style="margin-left: 40px;">Have they sprouted a new timbot, more geared towards newbies, more polite and friendly maybe, with a touch of human fallibility (hence the occasional slip of the keyboard) and named it Alex?

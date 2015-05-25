@@ -12,4 +12,4 @@ Con espacios para charlar, para crear arte en el lugar, para conocer gente, para
 
 <span style="font-size: x-small;"><em>(hagan click en la imagen para ver un video copado)</em></span>
 
-Python Argentina, como siempre, tendrá un stand en el evento. No se lo pueden perder, &iexcl;nos vemos allá!</p> |
+Python Argentina, como siempre, tendrá un stand en el evento. No se lo pueden perder, ¡nos vemos allá!</p> |

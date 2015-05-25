@@ -4,34 +4,58 @@ Películas, y más películas
 
  Algunas tardes de sábado libre, más un par de viajes, hicieron que no me quede atrás con las películas...</p>
 <ul>
-<li><a href="http://www.imdb.com/title/tt1231586/">A good old fashioned orgy</a>: +0. De esas comedias livianas sobre la amistad y el amor. Divertida, no es gran cosa, pero está bien.</li>
-<li><a href="http://www.imdb.com/title/tt1772240/">Apollo 18</a>: -0. La idea general es interesante, pero ese querer simular una película con pedazos de filmaciones "reales" hace que todo sea muy forzado, especialmente cuando se nota lo "no real".</li>
-<li><a href="http://www.imdb.com/title/tt1886493/">Catch .44</a>: -0. Desordenada, aburrida, sin una historia que valga la pena.</li>
-<li><a href="http://www.imdb.com/title/tt1205537/">Jack Ryan: Shadow recruit</a>: +0. Una de acción, bien hecha, pero no más que eso.</li>
-<li><a href="http://www.imdb.com/title/tt1646974/">Le noms des gens</a>: +0. Una comedia simpática que plantea puntos interesantes sobre los franceses... y sobre el amor.</li>
-<li><a href="http://www.imdb.com/title/tt1758692/">Like crazy</a>: -0. Una historia de amor, que muestra las dificultades de las distancias. Aunque tiene sus momentos, en general la peli es muy lenta, y no entusiasma.</li>
-<li><a href="http://www.imdb.com/title/tt1446714/">Prometheus</a>: +0. Es una más de "alien", pero bien hecha, me gustó bastante, aunque al final no dejar de ser eso... una más de "alien" :)</li>
-<li><a href="http://www.imdb.com/title/tt1515091/">Sherlock Holmes: A game of shadows</a>: +0. Está perdiendo un poco la gracia (y es la segunda!), pero las buenas actuaciones y una historia interesante la salvan.</li>
-<li><a href="http://www.imdb.com/title/tt1093357/">The darkest hour</a>: -0. Un par de conceptos interesantes... pero no deja de ser una peli yanqui de adolescentes.</li>
-<li><a href="http://www.imdb.com/title/tt1568346/">The girl with the dragon tattoo</a>: +1. Una gran película, muy densa en contenidos (deja entrever que el libro es mucho más sabroso) y que te tiene atrapado hasta el final. Eso sí, muy dura (es un warning, no le resta).</li>
-<li><a href="http://www.imdb.com/title/tt1601913/">The grey</a>: +0. Fuerte, dura, pero bastante conceptual, con planteos que me gustaron. Estaría mejor si no estuviese bastante llena de golpes bajos al pedo (como ruidos que te quieren sorprender cuando lo único que sucedes es un cambio de encuadre que no tiene nada que ver).</li>
-<li><a href="http://www.imdb.com/title/tt2177771/">The monuments men</a>: +0. Un punto de vista sobre la guerra como destructor de culturas que no había pensado antes. Bien armada, con actuaciones decentes.</li>
-<li><a href="http://www.imdb.com/title/tt0376136/">The rum diary</a>: -0. Tiene un trasfondo interesante, pero la peli en general es aburrida, y no vale la pena.</li>
-<li><a href="http://www.imdb.com/title/tt1496025/">Underworld: Awakening</a>: -0. Ni siquiera más de lo mismo, antes las "underworld" tenían conceptos o historias interesantes... está es una mezcla mala de resident evil y blade; no más underworld para mí, gracias.</li>
+<li><a href="http://www.imdb.com/title/tt1231586/">A good old fashioned orgy</a>: +0. De esas comedias livianas sobre la amistad y el amor. Divertida, no es gran cosa, pero está bien.
+
+<li><a href="http://www.imdb.com/title/tt1772240/">Apollo 18</a>: -0. La idea general es interesante, pero ese querer simular una película con pedazos de filmaciones "reales" hace que todo sea muy forzado, especialmente cuando se nota lo "no real".
+
+<li><a href="http://www.imdb.com/title/tt1886493/">Catch .44</a>: -0. Desordenada, aburrida, sin una historia que valga la pena.
+
+<li><a href="http://www.imdb.com/title/tt1205537/">Jack Ryan: Shadow recruit</a>: +0. Una de acción, bien hecha, pero no más que eso.
+
+<li><a href="http://www.imdb.com/title/tt1646974/">Le noms des gens</a>: +0. Una comedia simpática que plantea puntos interesantes sobre los franceses... y sobre el amor.
+
+<li><a href="http://www.imdb.com/title/tt1758692/">Like crazy</a>: -0. Una historia de amor, que muestra las dificultades de las distancias. Aunque tiene sus momentos, en general la peli es muy lenta, y no entusiasma.
+
+<li><a href="http://www.imdb.com/title/tt1446714/">Prometheus</a>: +0. Es una más de "alien", pero bien hecha, me gustó bastante, aunque al final no dejar de ser eso... una más de "alien" :)
+
+<li><a href="http://www.imdb.com/title/tt1515091/">Sherlock Holmes: A game of shadows</a>: +0. Está perdiendo un poco la gracia (y es la segunda!), pero las buenas actuaciones y una historia interesante la salvan.
+
+<li><a href="http://www.imdb.com/title/tt1093357/">The darkest hour</a>: -0. Un par de conceptos interesantes... pero no deja de ser una peli yanqui de adolescentes.
+
+<li><a href="http://www.imdb.com/title/tt1568346/">The girl with the dragon tattoo</a>: +1. Una gran película, muy densa en contenidos (deja entrever que el libro es mucho más sabroso) y que te tiene atrapado hasta el final. Eso sí, muy dura (es un warning, no le resta).
+
+<li><a href="http://www.imdb.com/title/tt1601913/">The grey</a>: +0. Fuerte, dura, pero bastante conceptual, con planteos que me gustaron. Estaría mejor si no estuviese bastante llena de golpes bajos al pedo (como ruidos que te quieren sorprender cuando lo único que sucedes es un cambio de encuadre que no tiene nada que ver).
+
+<li><a href="http://www.imdb.com/title/tt2177771/">The monuments men</a>: +0. Un punto de vista sobre la guerra como destructor de culturas que no había pensado antes. Bien armada, con actuaciones decentes.
+
+<li><a href="http://www.imdb.com/title/tt0376136/">The rum diary</a>: -0. Tiene un trasfondo interesante, pero la peli en general es aburrida, y no vale la pena.
+
+<li><a href="http://www.imdb.com/title/tt1496025/">Underworld: Awakening</a>: -0. Ni siquiera más de lo mismo, antes las "underworld" tenían conceptos o historias interesantes... está es una mezcla mala de resident evil y blade; no más underworld para mí, gracias.
+
 </ul>
 <p>
  Pocas nuevas, eso sí, incluso metiendo una peli vieja en la lista...</p>
 <ul>
-<li><a href="http://www.imdb.com/title/tt2465146/">And So It Goes</a></li>
-<li><a href="http://www.imdb.com/title/tt2562232/">Birdman</a></li>
-<li><a href="http://www.imdb.com/title/tt0829150/">Dracula Untold</a></li>
-<li><a href="http://www.imdb.com/title/tt2802144/">Kingsman: The Secret Service</a></li>
-<li><a href="http://www.imdb.com/title/tt1129396/">Radio Free Albemuth</a></li>
-<li><a href="http://www.imdb.com/title/tt0105236/">Reservoir Dogs</a></li>
-<li><a href="http://www.imdb.com/title/tt1821641/">The Congress</a></li>
-<li><a href="http://www.imdb.com/title/tt0435651/">The Giver</a></li>
-<li><a href="http://www.imdb.com/title/tt2286990/">The Right Kind of Wrong</a></li>
-<li><a href="http://www.imdb.com/title/tt2910814/">The Signal</a></li>
+<li><a href="http://www.imdb.com/title/tt2465146/">And So It Goes</a>
+
+<li><a href="http://www.imdb.com/title/tt2562232/">Birdman</a>
+
+<li><a href="http://www.imdb.com/title/tt0829150/">Dracula Untold</a>
+
+<li><a href="http://www.imdb.com/title/tt2802144/">Kingsman: The Secret Service</a>
+
+<li><a href="http://www.imdb.com/title/tt1129396/">Radio Free Albemuth</a>
+
+<li><a href="http://www.imdb.com/title/tt0105236/">Reservoir Dogs</a>
+
+<li><a href="http://www.imdb.com/title/tt1821641/">The Congress</a>
+
+<li><a href="http://www.imdb.com/title/tt0435651/">The Giver</a>
+
+<li><a href="http://www.imdb.com/title/tt2286990/">The Right Kind of Wrong</a>
+
+<li><a href="http://www.imdb.com/title/tt2910814/">The Signal</a>
+
 </ul>
 <p>
 Finalmente, el conteo de pendientes por fecha:

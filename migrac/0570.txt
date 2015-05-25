@@ -20,4 +20,4 @@ Durante los días posteriores al PyCamp yo pulí algunos detalles más y generé
 
 Para ver los últimos cambios y distintas formas de instalarlo, pueden visitar <a href="http://encuentro.taniquetil.com.ar/">la página oficial del proyecto</a>.
 
-Ojalá disfruten el programita, cualquier cosa me avisan, &iexcl;y corran la voz! (&iexcl;gracias!).</p> |
+Ojalá disfruten el programita, cualquier cosa me avisan, ¡y corran la voz! (¡gracias!).</p> |

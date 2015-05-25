@@ -11,7 +11,7 @@ Todos sabemos que tenemos que hacer backup. Pero muy pocos lo hacen. Y todos nos
 
 
 
-El problema de hacer backup es la constancia. Lo hacemos una vez... quizás lo repetimos una vez más... y nos volvemos acordar cuando el problema nos muestra sus dientes gritando "&iexcl;tus datos están perdidos!".
+El problema de hacer backup es la constancia. Lo hacemos una vez... quizás lo repetimos una vez más... y nos volvemos acordar cuando el problema nos muestra sus dientes gritando "¡tus datos están perdidos!".
 
 
 
@@ -22,10 +22,13 @@ Y no importa si sos un principiante en el mundo de la informática, o un avezado
 Hasta hace una semana atrás yo tenía backups de pocas cosas:
 
 <ul>
-	<li>Todas las fotos que fui sacando las tengo en el disco rígido y en DVD, pero también las subo a <a href="http://www.flickr.com/photos/54757453@N00/sets/">Flickr</a>, en tamaño original. Esto no es gratis, ya que el servicio de Flickr sin costo no permite tanto almacenamiento, pero creo que vale los 25 dólares que pago por año.</li>
-	<li>&nbsp;Este blog y los archivos aledaños se copian cada tres días al disco rígido de mi computadora. Entonces, si algo le pasa al server, sé que la info la tengo en otro lado.</li>
+	<li>Todas las fotos que fui sacando las tengo en el disco rígido y en DVD, pero también las subo a <a href="http://www.flickr.com/photos/54757453@N00/sets/">Flickr</a>, en tamaño original. Esto no es gratis, ya que el servicio de Flickr sin costo no permite tanto almacenamiento, pero creo que vale los 25 dólares que pago por año.
+
+	<li>&nbsp;Este blog y los archivos aledaños se copian cada tres días al disco rígido de mi computadora. Entonces, si algo le pasa al server, sé que la info la tengo en otro lado.
+
 	<li>
-	La música que tengo en mp3 está en mi computadora de escritorio y en la laptop, más una copia de backup en DVD.</li>
+	La música que tengo en mp3 está en mi computadora de escritorio y en la laptop, más una copia de backup en DVD.
+
 </ul>
 Ahora, finalmente, armé una solución para proteger de incidentes mis datos diarios, que son los más complicados de todos.
 
@@ -241,7 +244,7 @@ Entonces, todo lo que hice fue poner unas llamadas a este programita en mi cront
 
 
 
-&iexcl;Y listo! La solución funciona, es eficiente, y no tengo que hacer nada de forma manual, :)
+¡Y listo! La solución funciona, es eficiente, y no tengo que hacer nada de forma manual, :)
 
 
 

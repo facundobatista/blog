@@ -4,7 +4,7 @@ Tener un huevo
 
 
 <blockquote>
-	<em>Daniel Rabinovich: &iexcl;Claro! Es tan hermoso poner un hijo...
+	<em>Daniel Rabinovich: ¡Claro! Es tan hermoso poner un hijo...
 
 	Ernesto Acher: &iquest;Qué?
 
@@ -12,7 +12,7 @@ Tener un huevo
 
 	Ernesto Acher: &iquest;QU&Eacute;?
 
-	Daniel Rabinovich: &iexcl;Tener un hijo!
+	Daniel Rabinovich: ¡Tener un hijo!
 
 	Fragmento de <a href="http://www.lesluthiers.org/verversion.php?ID=73">"La gallina dijo eureka" (Les Luthiers)</a>
 

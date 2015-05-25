@@ -14,29 +14,40 @@ Me recomendó usar <a href="http://normalize.nongnu.org/">normalize</a>. En part
 Lo analicé un rato, y ví que tiene dos modos, mix y batch:
 
 <ul>
-	<li><strong>mix:</strong> calcula el promedio de volúmenes de todos los temas, y normaliza cada archivo por separado para alcanzar este volumen. Este modo es ideal para cuando armamos un "compilado" a partir de distintas fuentes que están a distintos volúmenes</li>
-	<li><strong>batch:</strong> calcula el promedio de volúmenes de todos los temas, computa un sólo ajuste para llevar este promedio a lo deseado, y le aplica este mismo ajuste a todos los temas. Este modo es ideal para usar en las canciones de un mismo álbum, ya que el artista decidió que quizás un tema suene más fuerte que otro, y mantendríamos eso.</li>
+	<li><strong>mix:</strong> calcula el promedio de volúmenes de todos los temas, y normaliza cada archivo por separado para alcanzar este volumen. Este modo es ideal para cuando armamos un "compilado" a partir de distintas fuentes que están a distintos volúmenes
+
+	<li><strong>batch:</strong> calcula el promedio de volúmenes de todos los temas, computa un sólo ajuste para llevar este promedio a lo deseado, y le aplica este mismo ajuste a todos los temas. Este modo es ideal para usar en las canciones de un mismo álbum, ya que el artista decidió que quizás un tema suene más fuerte que otro, y mantendríamos eso.
+
 </ul>
 Entonces, vamos a contar mejor qué es lo que quiero obtener, así se entiende cómo lo obtuve. Yo tengo, por ejemplo, toda mi colección de música que son tres directorios:
 
 <ul>
-	<li>SuiGeneris</li>
-	<li>Kusturica</li>
-	<li>IronMaiden (compilado)</li>
+	<li>SuiGeneris
+
+	<li>Kusturica
+
+	<li>IronMaiden (compilado)
+
 </ul>
 Los primeros dos directorios contienen los mp3 de dos CDs que compré y bajé a la compu, manteniendo los volúmenes originales. El tercero es un compilado que armé a partir de otros CDs. Estas canciones son (expresando el volumen en valor ficticio entre 0 y 100 para que sea más fácil hacer la cuenta):
 
 <ul>
-	<li>SuiGeneris/Tranquila.mp3&nbsp;&nbsp;&nbsp;&nbsp; 40</li>
-	<li>SuiGeneris/Rocanrol.mp3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 60</li>
+	<li>SuiGeneris/Tranquila.mp3&nbsp;&nbsp;&nbsp;&nbsp; 40
+
+	<li>SuiGeneris/Rocanrol.mp3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 60
+
 </ul>
 <ul>
-	<li>Kusturica/Balada.mp3&nbsp;&nbsp; 70</li>
-	<li>Kusturica/Power.mp3&nbsp;&nbsp;&nbsp; 80</li>
+	<li>Kusturica/Balada.mp3&nbsp;&nbsp; 70
+
+	<li>Kusturica/Power.mp3&nbsp;&nbsp;&nbsp; 80
+
 </ul>
 <ul>
-	<li>IronMaiden/BaladaPower.mp3&nbsp;&nbsp;&nbsp; 70</li>
-	<li>IronMaiden/TePartoElCoco.mp3&nbsp; 40</li>
+	<li>IronMaiden/BaladaPower.mp3&nbsp;&nbsp;&nbsp; 70
+
+	<li>IronMaiden/TePartoElCoco.mp3&nbsp; 40
+
 </ul>
 Como yo voy a escuchar estos álbumes mezclados, quiero que en general el volumen de los temas de IronMaiden, SuiGeneris y Kusturica sean similares, pero manteniendo las diferencias internas que se haya decidido en cada caso.
 
@@ -85,16 +96,22 @@ El caso de IronMaiden es más sencillo: como es un compilado y no es el caso de 
 Finalmente, me dejaría:
 
 <ul>
-	<li>SuiGeneris/Tranquila.mp3&nbsp;&nbsp;&nbsp;&nbsp; 40</li>
-	<li>SuiGeneris/Rocanrol.mp3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 60</li>
+	<li>SuiGeneris/Tranquila.mp3&nbsp;&nbsp;&nbsp;&nbsp; 40
+
+	<li>SuiGeneris/Rocanrol.mp3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 60
+
 </ul>
 <ul>
-	<li>Kusturica/Balada.mp3&nbsp;&nbsp; 45</li>
-	<li>Kusturica/Power.mp3&nbsp;&nbsp;&nbsp; 55</li>
+	<li>Kusturica/Balada.mp3&nbsp;&nbsp; 45
+
+	<li>Kusturica/Power.mp3&nbsp;&nbsp;&nbsp; 55
+
 </ul>
 <ul>
-	<li>IronMaiden/BaladaPower.mp3&nbsp;&nbsp;&nbsp; 50</li>
-	<li>IronMaiden/TePartoElCoco.mp3&nbsp; 50</li>
+	<li>IronMaiden/BaladaPower.mp3&nbsp;&nbsp;&nbsp; 50
+
+	<li>IronMaiden/TePartoElCoco.mp3&nbsp; 50
+
 </ul>
 O sea, manteniendo las relaciones dentro de cada álbum, pero emparejando los promedios de los álbumes, y llevando lo compilado exactamente a eso.
 

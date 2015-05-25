@@ -25,36 +25,55 @@ La autoría del kilink y la responsabilidad sobre ese texto es del usuario que l
 
 &iquest;Por qué usar kilink?</p>
 <ul>
-<li>Se puede usar anonimamente...</li>
-<li>...pero recuerda quien sos</li>
-<li>Permite compartir un texto en pocos clicks</li>
-<li>Se da cuenta del lenguaje</li>
-<li>Es amigable a nivel de interfaz</li>
-<li>Copia el texto directamente a tu clipboard</li>
-<li>Se puede integrar el texto en donde quieras, por versión o siempre actualizado!</li>
+<li>Se puede usar anonimamente...
+
+<li>...pero recuerda quien sos
+
+<li>Permite compartir un texto en pocos clicks
+
+<li>Se da cuenta del lenguaje
+
+<li>Es amigable a nivel de interfaz
+
+<li>Copia el texto directamente a tu clipboard
+
+<li>Se puede integrar el texto en donde quieras, por versión o siempre actualizado!
+
 </ul>
 <p>
 <strong>Facilidad de uso / primera impresión</strong>
 
 El diseño tiene que ser simple y efectivo, orientado a bajar la barrera de entrada del visitante, el "costo" que el usuario tiene que pagar desde que llega a la página hasta que tiene el kilink en su portapapeles para pegarlo en otro lado. Esto se ve en varios detalles, por ejemplo:</p>
 <ul>
-<li>que el cursor por default esté en el textarea destino</li>
-<li>que el textarea, en lugar de estar 100% vacío, tenga adentro un "pegar acá" o algo similar en gris, suavecito, que desaparezca al pegarle algo.</li>
-<li>que entre el textarea y el botón de submit no haya nada que distraiga</li>
-<li>que el botón de submit se llame "crear kilink" o lo que corresponda</li>
-<li>que pueda llevar la url del kilink creado sin tener que seleccionar un texto</li>
-<li>que se pueda crear un kilink sin registrarse ni loguearse</li>
-<li>botones para copiar automaticamente al clipboard: URL y texto del kilink</li>
-<li>download as file</li>
-<li>botón de imprimir, y CSS especial para que quede linda la impresión</li>
-<li>etc</li>
+<li>que el cursor por default esté en el textarea destino
+
+<li>que el textarea, en lugar de estar 100% vacío, tenga adentro un "pegar acá" o algo similar en gris, suavecito, que desaparezca al pegarle algo.
+
+<li>que entre el textarea y el botón de submit no haya nada que distraiga
+
+<li>que el botón de submit se llame "crear kilink" o lo que corresponda
+
+<li>que pueda llevar la url del kilink creado sin tener que seleccionar un texto
+
+<li>que se pueda crear un kilink sin registrarse ni loguearse
+
+<li>botones para copiar automaticamente al clipboard: URL y texto del kilink
+
+<li>download as file
+
+<li>botón de imprimir, y CSS especial para que quede linda la impresión
+
+<li>etc
+
 </ul>
 <p>Visualmente, la página tiene que ser lo menos intrusiva posible, hay que minimizar la "polución visual", pero sin dejar de ofrecer la información necesaria (al hacer hover con el mouse, o en colores que no llamen demasiado la atención).
 
 Otras características:</p>
 <ul>
-<li>una URL o kilink ID que casi funciona como&nbsp; URL corta, ej: kilink.com.ar/4g3jxd</li>
-<li>el contenido del kilink debería ser indexado por google y otros buscadores</li>
+<li>una URL o kilink ID que casi funciona como&nbsp; URL corta, ej: kilink.com.ar/4g3jxd
+
+<li>el contenido del kilink debería ser indexado por google y otros buscadores
+
 </ul>
 <p>
 <strong>Contribución anónima</strong>
@@ -63,9 +82,12 @@ Se va a poder crear o editar un kilink sin tener que registrarse ni loguearse, p
 
 Dicho esto, al usuario le conviene autenticarse, ya que de esta manera puede tener distintas ventajas:</p>
 <ul>
-<li>Es autor de los tuits que cree (figura su nombre, digamos)</li>
-<li>Como es autor, puede borrar sus tuits</li>
-<li>Tiene en su perfil preferencias para adaptar mejor kilink a sus necesidades (habría que ver cuales :p )</li>
+<li>Es autor de los tuits que cree (figura su nombre, digamos)
+
+<li>Como es autor, puede borrar sus tuits
+
+<li>Tiene en su perfil preferencias para adaptar mejor kilink a sus necesidades (habría que ver cuales :p )
+
 </ul>
 <p>
 <strong>Edición, versionado, diffs</strong>
@@ -99,12 +121,18 @@ Como esta es una acción poco probable (nadie borra un paste, a menos que se de 
 
 Hay que tener una colección de herramientas, entre ellas:</p>
 <ul>
-<li>plugin para editores (seleccioná el texto &rarr; kilink, salta a la pag web con el kilink ya creado)</li>
-<li>plugin para navegador (seleccioná el texto &rarr; kilink, idem)</li>
-<li>linea de comando ("grep ERROR *.log | kilink" y este escupe la url de un kilink nuevo)</li>
-<li>applet que permita meter una "ventanita para rápidamente crear kilinks" en cualquier lado</li>
-<li>applet que permita meter un "visualizador de un kilink particular" en cualquier lado</li>
-<li>applet que permita meter "mis últimos kilinks" en cualquier lado</li>
+<li>plugin para editores (seleccioná el texto &rarr; kilink, salta a la pag web con el kilink ya creado)
+
+<li>plugin para navegador (seleccioná el texto &rarr; kilink, idem)
+
+<li>linea de comando ("grep ERROR *.log | kilink" y este escupe la url de un kilink nuevo)
+
+<li>applet que permita meter una "ventanita para rápidamente crear kilinks" en cualquier lado
+
+<li>applet que permita meter un "visualizador de un kilink particular" en cualquier lado
+
+<li>applet que permita meter "mis últimos kilinks" en cualquier lado
+
 </ul>
 <p>
 <strong>Tags</strong>
@@ -115,8 +143,10 @@ Habrá un área cerca del texto donde haya una colección de tags. Al crear un k
 
 Mecanismos para autosugerir tags:</p>
 <ul>
-<li>lenguaje de programación usado (if any)</li>
-<li>bibliotecas específicas usadas en el código</li>
+<li>lenguaje de programación usado (if any)
+
+<li>bibliotecas específicas usadas en el código
+
 </ul>
 <p>
 <strong>API</strong>

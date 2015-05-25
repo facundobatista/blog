@@ -25,10 +25,16 @@ Fueron surgiendo de una charla con el Ruso, algunas me las recomendó él, otras
 
 
 <ul>
-<li><a href="http://www.imdb.com/title/tt0109445/">Clerks</a></li>
-<li><a href="http://www.imdb.com/title/tt0285823/">Once upon a iime in Mexico</a></li>
-<li><a href="http://www.imdb.com/title/tt0090863/">The color of money</a></li>
-<li><a href="http://www.imdb.com/title/tt0379217/">Coffee and cigarettes</a></li>
-<li><a href="http://www.imdb.com/title/tt0165798/">Ghost Dog: The way of the Samurai</a></li>
-<li><a href="http://www.imdb.com/title/tt0335266/">Lost in translation</a></li>
+<li><a href="http://www.imdb.com/title/tt0109445/">Clerks</a>
+
+<li><a href="http://www.imdb.com/title/tt0285823/">Once upon a iime in Mexico</a>
+
+<li><a href="http://www.imdb.com/title/tt0090863/">The color of money</a>
+
+<li><a href="http://www.imdb.com/title/tt0379217/">Coffee and cigarettes</a>
+
+<li><a href="http://www.imdb.com/title/tt0165798/">Ghost Dog: The way of the Samurai</a>
+
+<li><a href="http://www.imdb.com/title/tt0335266/">Lost in translation</a>
+
 </ul>[@more@] |

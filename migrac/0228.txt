@@ -13,4 +13,7 @@ Auto upgrade
  <img src="http://farm2.static.flickr.com/1035/540696610_fdea73dee1_o.jpg" border="0" />
 
 <strong>Changelog</strong>
-<ul><li>Rellenado de agujero, interior y exterior, parante trasero. Pintado.</li><li>Rellenado de agujeros guardabarros delantero. Pintado.</li><li>Retoques guardabarro delantero derecho. Pintado.</li></ul>[@more@]                                                                                                                                                                                                                                                                                                                                                                              |
+<ul><li>Rellenado de agujero, interior y exterior, parante trasero. Pintado.
+<li>Rellenado de agujeros guardabarros delantero. Pintado.
+<li>Retoques guardabarro delantero derecho. Pintado.
+</ul>[@more@]                                                                                                                                                                                                                                                                                                                                                                              |

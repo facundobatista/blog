@@ -18,7 +18,7 @@ El otro punto era la dependencia en <em>PIL</em>, la biblioteca de manejo de im�
 
 Y finalmente, teníamos una dependencia de <em>perl</em>, para crear unas imágenes de linea de tiempo. Tuute estuvo buscando un montón y realmente apenas hay de estas imágenes en la wikipedia en español. Encima, la utilización de esta capacidad en la biblioteca está complicada, porque necesita usar unos directorios en particular, y cosas así. Entonces, decidimos "tocar" la biblioteca para que directamente no use esto.
 
-Finalmente, entonces, éramos capaces de traducir el XML a HTML. El proceso es bien simple, si se fijan el código de <font face="courier new,courier"><em>xml2html.py</em></font> es bastante simple. &iexcl;Y genera un HTML bastante piola! Sin embargo, dá algunos errores y me puse a ver qué pasaba.
+Finalmente, entonces, éramos capaces de traducir el XML a HTML. El proceso es bien simple, si se fijan el código de <font face="courier new,courier"><em>xml2html.py</em></font> es bastante simple. ¡Y genera un HTML bastante piola! Sin embargo, dá algunos errores y me puse a ver qué pasaba.
 
 Una de los primeros detalles es que no encontraba algunas categorías. Y esto era porque en el XML, al ser en español, están los tags como "categoría", y no como "category". Luego de revisar durante un buen rato como cambiarle el locale al parser antes de laburar, encontré que esto estaba bastante chancho: están hardcodeados en los programas estos tags para inglés y alemán, pero nada más. Feo, sucio. Pero agregué algunos en castellano y seguí experimentando. El HTML ahora se parecía más al original.
 

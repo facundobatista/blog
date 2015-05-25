@@ -34,7 +34,7 @@ Eso es: el espacio recorrido (h&sbquo; - h, en el dibujo) es la mitad de la ac
 
 Más allá de la complejidad matemática (?) todo esto que te estoy contando no te parece muy loco, &iquest;no? No. Pero ojo... no todo es tan simple en esta vida (bah, en este Universo).
 
-Y no es tan simple, porque esto de poder ir para adelante y para atrás en el tiempo ,en nuestra mente, en nuestros razonamientos, &iexcl;sorpresivamente no siempre se cumple!
+Y no es tan simple, porque esto de poder ir para adelante y para atrás en el tiempo ,en nuestra mente, en nuestros razonamientos, ¡sorpresivamente no siempre se cumple!
 
 Vayamos con otro ejemplo sencillo (aunque un poco más difícil de construir)... mirá el siguiente dibujo.
 
@@ -52,17 +52,17 @@ Pero ahora hagamos la pregunta inversa: arranquemos de la segunda imagen, y trat
 
 &iquest;Cómo se entiende este nuevo dibujo? Como decía, tenemos que pensar para atrás. Si nosotros sabemos que el detector recibió un fotón, la trayectoria B-C seguro se cumplió; entonces, al punto B del semiespejo el fotón llego de uno de dos lados posibles: o de la lamparita en A (atravesando el semiespejo), o desde un nuevo punto D (reflejándose en el semiespejo).
 
-Acá me dirás que le estoy pifiando conceptualmente... &iquest;cómo puede ser que el fotón salga desde el punto D, que arranque desde una pared? Pues claro, &iexcl;el fotón no puede venir nunca de ahí! Eso hace que la trayectoria E-B-C no sea realmente posible. En otras palabras, el fotón salió sí o sí de la lamparita: la trayectoria A-B-C se recorrió seguro (un 100% de probabilidad).
+Acá me dirás que le estoy pifiando conceptualmente... &iquest;cómo puede ser que el fotón salga desde el punto D, que arranque desde una pared? Pues claro, ¡el fotón no puede venir nunca de ahí! Eso hace que la trayectoria E-B-C no sea realmente posible. En otras palabras, el fotón salió sí o sí de la lamparita: la trayectoria A-B-C se recorrió seguro (un 100% de probabilidad).
 
 No te sientas frustrada/o si tenés que leer dos o tres veces la explicación para entender que pasa, es bastante avanzado a nivel de física. Yo, la primera vez, lo tuve que leer como cinco veces ;). Una de las razones por la que cuesta entenderlo, y hasta <em>aceptarlo</em> es que, justamente, todo eso está por afuera de lo que nosotros <em>sentimos</em> del universo, no forma parte de nuestra <em>experiencia</em>.
 
 En fin, resumiendo los dos análisis: si hacemos que el tiempo se desarrolle para adelante, arrancando con el fotón desde A, vemos que puede recorrer dos trayectorias, A-B-C o A-B-D, con un 50% de chances cada una. Pero si hacemos que el tiempo se desarrolle para atrás, arrancando con el fotón desde C, tenemos que sólo pudo recorrer un camino: A-B-C.
 
-&iexcl;Esta es una muestra de que el fotón atravesando el semiespejo no se comporta de una forma reversible en el tiempo! El tener dos posibles recorridos cuando hacemos correr el tiempo para adelante, y uno solo cuando lo hacemos recorrer para atrás, es totalmente distinto a lo que veíamos en el primer experimento, y totalmente distinto a la forma en que vemos normalmente a nuestro entorno, a la forma en que experimentamos el Universo.
+¡Esta es una muestra de que el fotón atravesando el semiespejo no se comporta de una forma reversible en el tiempo! El tener dos posibles recorridos cuando hacemos correr el tiempo para adelante, y uno solo cuando lo hacemos recorrer para atrás, es totalmente distinto a lo que veíamos en el primer experimento, y totalmente distinto a la forma en que vemos normalmente a nuestro entorno, a la forma en que experimentamos el Universo.
 
 La razón de este comportamiento se explica en las bases de la mecánica cuántica, donde se ve y entiende que hay todo un modelo que explica nuestro Universo con el tiempo reversible, pero hay toda una parte donde el tiempo no lo es. O sea, hay toda una rama de la física donde en las ecuaciones no podemos cambiarle alegremente el signo a <em><span style="font-family: courier new,courier;">t</span></em>.
 
-Respirá aliviada/o, no voy a meterme en toda esa explicación ;) [1]. Pero lo que te quería mostrar es que ahí afuera, aunque no lo veamos, aunque no forme parte de nuestra experiencia como humanos, hay todo un Universo al que sólo podemos acceder con el poder de nuestros cerebros y su capacidad de pensamiento abstracto. Es una herramienta maravillosa, &iexcl;la tenemos que entrenar más y mejor!
+Respirá aliviada/o, no voy a meterme en toda esa explicación ;) [1]. Pero lo que te quería mostrar es que ahí afuera, aunque no lo veamos, aunque no forme parte de nuestra experiencia como humanos, hay todo un Universo al que sólo podemos acceder con el poder de nuestros cerebros y su capacidad de pensamiento abstracto. Es una herramienta maravillosa, ¡la tenemos que entrenar más y mejor!
 
 
 <em>[0] Para usar terminología adecuada, tenemos que decir que hay una amplitud de uno sobre raíz cuadrada de dos de que el fotón esté en un lado y la misma amplitud de que esté en el otro... eso es hablando de distribución de amplitudes con respecto a las posiciones... el módulo del cuadrado de eso nos da la probabilidad de que el fotón esté en un punto o el otro, que es .5 en cada caso.</em>

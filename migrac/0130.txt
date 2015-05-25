@@ -13,5 +13,13 @@ This movie is about truth and redemption. It's the best film I've seen in a very
 See it, then see it again. It's brilliant.
 </div>
 Y agregué a mi lista de películas todas estas:
-<ul><li><a href="http://www.imdb.com/title/tt0382625/">The Da Vinci code</a></li><li><a href="http://www.imdb.com/title/tt0438097/">Ice age 2: The meltdown</a></li><li><a href="http://www.imdb.com/title/tt0376994/">X-Men 3</a></li><li><a href="http://www.imdb.com/title/tt0408790/">Flightplan</a></li><li><a href="http://www.imdb.com/title/tt0420509/">El aura</a></li><li><a href="http://www.imdb.com/title/tt0377059/">Eros</a></li><li><a href="http://www.imdb.com/title/tt0431955/">Oculto</a></li><li><a href="http://www.imdb.com/title/tt0387131/">The constant gardener</a></li></ul>¡Cómo se acumulan! Voy a tener que ir más seguido al cine y ponerme fijo ver una alquilada por semana, me tengo que poner al día...
+<ul><li><a href="http://www.imdb.com/title/tt0382625/">The Da Vinci code</a>
+<li><a href="http://www.imdb.com/title/tt0438097/">Ice age 2: The meltdown</a>
+<li><a href="http://www.imdb.com/title/tt0376994/">X-Men 3</a>
+<li><a href="http://www.imdb.com/title/tt0408790/">Flightplan</a>
+<li><a href="http://www.imdb.com/title/tt0420509/">El aura</a>
+<li><a href="http://www.imdb.com/title/tt0377059/">Eros</a>
+<li><a href="http://www.imdb.com/title/tt0431955/">Oculto</a>
+<li><a href="http://www.imdb.com/title/tt0387131/">The constant gardener</a>
+</ul>¡Cómo se acumulan! Voy a tener que ir más seguido al cine y ponerme fijo ver una alquilada por semana, me tengo que poner al día...
 [@more@] |

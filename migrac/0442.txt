@@ -31,7 +31,7 @@ La pantalla que me guiaba en la laptop avanzó sola al mensaje final, en el que 
 
 
 
-Hice click en el mismo, y automáticamente hizo que el teléfono se conectara, y que la máquina usara esa conexión: unos segundos después el Network Manager me indicaba que estaba conectado a la red usando el teléfono. &iexcl;Y listo! Ya podía usar Internet.
+Hice click en el mismo, y automáticamente hizo que el teléfono se conectara, y que la máquina usara esa conexión: unos segundos después el Network Manager me indicaba que estaba conectado a la red usando el teléfono. ¡Y listo! Ya podía usar Internet.
 
 
 

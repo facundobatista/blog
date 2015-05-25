@@ -38,9 +38,12 @@ Este experimento fue valioso para nosotros, ya que generó un equipo de dos que 
 Alguno de los casos donde esto fue evidente durante el experimento fue que al discutir problemas o nuevas características, el cirujano (teniendo un conocimiento más profundo del sistema) podía prever fácilmente situaciones, cómo podría diseñarse la característica, resolverse el problema, etc. Entonces el cirujano discutía eso con el copiloto, necesitando explicar el razonamiento lo suficiente como para que se entienda (pero a alguien con experiencia en el sistema), lo que provocaba algunos buenos efectos secundarios:
 
 <ul>
-	<li>Tener que poner el razonamiento en palabras lo hace más claro tanto para el cirujano como para el copiloto; sin embargo esto no es un gasto notable, ya que ambos conocen el sistema, lo que hace más sencillo la transferencia de conocimientos.</li>
-	<li>Se descubren temprano posibles fallas en el razonamiento, y también se pueden incorporar en este momento ideas frescas del copiloto.</li>
-	<li>Luego que el copiloto entendió la idea, él o ella pueden ayudar al cirujano a implementarla (o directamente hacerlo todo, liberando al cirujano para otras tareas).</li>
+	<li>Tener que poner el razonamiento en palabras lo hace más claro tanto para el cirujano como para el copiloto; sin embargo esto no es un gasto notable, ya que ambos conocen el sistema, lo que hace más sencillo la transferencia de conocimientos.
+
+	<li>Se descubren temprano posibles fallas en el razonamiento, y también se pueden incorporar en este momento ideas frescas del copiloto.
+
+	<li>Luego que el copiloto entendió la idea, él o ella pueden ayudar al cirujano a implementarla (o directamente hacerlo todo, liberando al cirujano para otras tareas).
+
 </ul>
 Quiero dejar en claro que esto no implica que el copiloto dependa siempre del cirujano para el trabajo diario. Normalmente el copiloto trabaja creativamente y trae nuevas ideas y conocimiento al equipo; sin embargo discutir esta nueva información con el cirujano, de manera de integrarla mejor al sistema actual, hace más eficientes estas contribuciones.
 

@@ -16,7 +16,7 @@ Perfecto. Humitos tenía la tortura de tener que hacer esto en Java para la facu
 
 Salió bastante derechita. Basicamente hice una clase Nodo que mantenía la letra, los ramas hijas, y un flag para indicar que hasta ahí llegaba la palabra. Parecía andar, tanto que Humitos termino implementando casi lo mismo en Java.
 
-Al otro día, sin embargo, Humitos me dió dos malas noticias. La primera, era que el sistema este consumía mucha memoria... para el diccionario de más de 80 mil palabras, &iexcl;&iexcl;el árbol armado ocupaba 180 MB!!. Como efecto secundario, tardaba mucho en armar la estructura en memoria (como 7 segundos); lo bueno era que la búsqueda en sí era super rápida.
+Al otro día, sin embargo, Humitos me dió dos malas noticias. La primera, era que el sistema este consumía mucha memoria... para el diccionario de más de 80 mil palabras, ¡¡el árbol armado ocupaba 180 MB!!. Como efecto secundario, tardaba mucho en armar la estructura en memoria (como 7 segundos); lo bueno era que la búsqueda en sí era super rápida.
 
 Por un lado lo mejoré usando <font face="courier new,courier">__slots__</font> (para que cada objeto Nodo ocupe menos memoria, algo sólo relevante cuando uno tiene tantos y tantos objetos). Por otro lado, encontré y solucioné una ineficiencia importante: tenía un nodo casi al pedo en cada hoja del árbol. Con estas dos correcciones, el sistema pasó a ocupar 55 MB en memoria, y tardaba 4 o 5 segundos en levantar.
 
@@ -42,4 +42,4 @@ Como es una especie de Trie <em>degenerado</em>, excusándome bajo una incapacid
 
 Llegué al concert bastante antes que los padres, pasaron 40, o 45 minutos antes de que se ocupara el salón. Ese tiempo lo pasé codeando tirado en un rincón, e implementé el 95% de lo que sería la solución final. Le terminé de dar un par de retoques el lunes o el martes pasado, en Brasil, donde le corrí el profiler y optimizé un par de detalles.
 
-El producto final tarda menos de un segundo en cargar, ocupa sólo 18 MB de memoria, y hace las busquedas en 60 micro segundos, centenares de veces más rápido que antes... &iexcl;una preciosura! El código, junto con el diccionario de palabras, <a href="http://www.taniquetil.com.ar/homedevel/devel/ftrie/">acá</a>.[@more@] |
+El producto final tarda menos de un segundo en cargar, ocupa sólo 18 MB de memoria, y hace las busquedas en 60 micro segundos, centenares de veces más rápido que antes... ¡una preciosura! El código, junto con el diccionario de palabras, <a href="http://www.taniquetil.com.ar/homedevel/devel/ftrie/">acá</a>.[@more@] |

@@ -29,7 +29,7 @@ Pero, todavía tengo algunas dudas, y mucho que aprender en este campo. &iquest;
 
 
 
-Y un tópico probablemente controversial: yo sé que tenemos que hacer pruebas, pero gente en mi equipo no, &iexcl;ayúdenme a convencerlos!
+Y un tópico probablemente controversial: yo sé que tenemos que hacer pruebas, pero gente en mi equipo no, ¡ayúdenme a convencerlos!
 
 
 
@@ -66,11 +66,16 @@ Esto es una especie de resumen con conclusiones y comentarios del hilo sobre Tes
 Es mejor mostrar ventajas sobre algo a la gente que forzarlos a usarlo. Hay un par de situaciones "fáciles de ver" donde las pruebas de unidad son claramente algo bueno. Jamu K. agregó algunos puntos a lo que yo mencioné en el correo original:
 
 <ul>
-	<li>Te dicen cuando cometiste un error y rompiste algo. Cuanto antes detectes el error será más barato arreglarlo. Si un problema entra a un sistema en producción y afecta a los clientes, costará mucho en términos de satisfacción del usuario y tiempo para arreglarlo.</li>
-	<li>Son material educativo que ayuda un principiante (o alguien experimentado) a entender la lógica en una manera que no es posible simplemente al leer el código mismo. Esto es especialmente verdad cuando las pruebas ejercitan condiciones de error que no se desprenden de forma obvia del código.</li>
-	<li>Te ayudan a mantener una velocidad consistente. Es mucho menos probable que encuentres un problema que te haga perder dos días revisando y corrigiendo cuanto tenés buenas pruebas.</li>
-	<li>Te permiten optimizar la implementación con la confianza de que no rompiste ninguna <a href="http://es.wikipedia.org/wiki/Interfaz_de_programaci%C3%B3n_de_aplicaciones">API</a>. "Primero hacelo bien, luego hacelo rápido" es bastante duro, y lo es aún más sin buenas pruebas.</li>
-	<li>Por definición, hacen que tu implementación se pueda probar. Te ayudan a entender cuando amontonaste demasiados detalles y te llevan a un mejor diseño.</li>
+	<li>Te dicen cuando cometiste un error y rompiste algo. Cuanto antes detectes el error será más barato arreglarlo. Si un problema entra a un sistema en producción y afecta a los clientes, costará mucho en términos de satisfacción del usuario y tiempo para arreglarlo.
+
+	<li>Son material educativo que ayuda un principiante (o alguien experimentado) a entender la lógica en una manera que no es posible simplemente al leer el código mismo. Esto es especialmente verdad cuando las pruebas ejercitan condiciones de error que no se desprenden de forma obvia del código.
+
+	<li>Te ayudan a mantener una velocidad consistente. Es mucho menos probable que encuentres un problema que te haga perder dos días revisando y corrigiendo cuanto tenés buenas pruebas.
+
+	<li>Te permiten optimizar la implementación con la confianza de que no rompiste ninguna <a href="http://es.wikipedia.org/wiki/Interfaz_de_programaci%C3%B3n_de_aplicaciones">API</a>. "Primero hacelo bien, luego hacelo rápido" es bastante duro, y lo es aún más sin buenas pruebas.
+
+	<li>Por definición, hacen que tu implementación se pueda probar. Te ayudan a entender cuando amontonaste demasiados detalles y te llevan a un mejor diseño.
+
 </ul>
 Algunas ventajas son más conceptuales: muy claras a la gente que ya probó pruebas de unidad, pero no tan fáciles de ver para gente que realmente nunca lo hizo. Un ejemplo de esto es que diseñar para ser probado frecuentemente lleva a una mejor API (sin embargo, algunas veces lleva a una API más fea, porque estás forzado a agregar parámetros que sólo son útiles en un entorno de pruebas; como en todo, el equilibrio es el mejor de los consejos).
 
@@ -106,7 +111,7 @@ Hubo un montón de charla alrededor de hacer pruebas, pero nadie hizo distinció
 
 
 
-Sin embargo, alguien preguntó específicamente sobre pruebas en interfaces gráficas. Realmente no sé sobre eso (&iexcl;quiero aprender!), pero creo que es un área menos conocida que las "pruebas sobre bibliotecas".
+Sin embargo, alguien preguntó específicamente sobre pruebas en interfaces gráficas. Realmente no sé sobre eso (¡quiero aprender!), pero creo que es un área menos conocida que las "pruebas sobre bibliotecas".
 
 
 

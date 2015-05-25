@@ -10,19 +10,26 @@ Seguimos con el trabajo detrás de bambalinas.
 El blog que uso, LifeType, tiene control bayesiano de spam. Esto quiere decir que, instalado el sitio desde cero, se obtiene el siguiente comportamiento:
 
 <ol><li>
-Yo posteo un artículo.</li>
+Yo posteo un artículo.
+
 <li>
-Viene alguien (hay programas que lo hacen automáticamente) y comenta el post con "Porno free www.zaraza.com".</li>
+Viene alguien (hay programas que lo hacen automáticamente) y comenta el post con "Porno free www.zaraza.com".
+
 <li>
-Yo recibo la notificación del comentario, pero veo que es propaganda, por lo que lo marco como Spam.</li>
+Yo recibo la notificación del comentario, pero veo que es propaganda, por lo que lo marco como Spam.
+
 <li>
-Viene de nuevo el programa y comenta con "Free porno www.jujuruaja.com" (fíjense que cambia el comentario, aunque la <i>idea</i> es la misma).</li>
+Viene de nuevo el programa y comenta con "Free porno www.jujuruaja.com" (fíjense que cambia el comentario, aunque la <i>idea</i> es la misma).
+
 <li>
-Yo recibo notificación del comentario, veo que de nuevo es propaganda, y lo marco también como Spam.</li>
+Yo recibo notificación del comentario, veo que de nuevo es propaganda, y lo marco también como Spam.
+
 <li>
-Una vez más viene el programa y comenta con "Porno www.cuidatequerete.com".</li>
+Una vez más viene el programa y comenta con "Porno www.cuidatequerete.com".
+
 <li>
-Automáticamente, el sistema antispam (que mediante estadística <i>aprende </i>a detectar el spam), lo marca de esta manera y ya no me jode más.</li>
+Automáticamente, el sistema antispam (que mediante estadística <i>aprende </i>a detectar el spam), lo marca de esta manera y ya no me jode más.
+
 </ol>
 El problema es que de unas semanas para acá, me están metiendo un tipo de spam que cambia mucho entre vuelta y vuelta. Y por cada "golpe", recibo unos cincocomentarios en unos siete artículos. Resultado: tengo que marcar muchísimos artículos como spam. Y como va cambiando mucho, el sistema no aprende.
 

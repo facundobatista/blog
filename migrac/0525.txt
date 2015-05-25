@@ -24,4 +24,4 @@ La forma más fácil de instalarlo, si tienen un Debian o Ubuntu, es usando <a h
 
 En cualquier otro caso, <a href="http://launchpad.net/enjuewemela/trunk/0.4.1/+download/enjuewemela-0.4.1.tar.gz">pueden usar el tarball</a> para instalarlo.
 
-&iexcl;Que lo disfruten!</p> |
+¡Que lo disfruten!</p> |

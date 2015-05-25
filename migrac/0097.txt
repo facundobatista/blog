@@ -15,12 +15,22 @@ En <a href="http://www.star.t.u-tokyo.ac.jp/projects/MEDIA/xv/images/oc-okugai3.
 
 <span style="font-weight: bold">Firefox</span>
 
-En otro hito impresionante en la historia del software libre, Firefox llegó a los <span style="font-weight: bold">cien millones de descargas</span>. &iexcl;100000000!. Hay que tener en cuenta que estas descargas están impulsadas por Firefox 1.0, estrenado hace casi un año.
+En otro hito impresionante en la historia del software libre, Firefox llegó a los <span style="font-weight: bold">cien millones de descargas</span>. ¡100000000!. Hay que tener en cuenta que estas descargas están impulsadas por Firefox 1.0, estrenado hace casi un año.
 
 <img src="http://farm2.static.flickr.com/1162/530141656_1bfff3dcca_o.jpg" border="0" />
 
 Se espera una aceleración de las descargas cuando se libere Firefox 1.5 (por ahora en estado <a href="http://www.mozilla.org/products/firefox/releases/1.5beta2.html">beta2</a>), que traerá muchas mejoras, entre ellas:
-<ul><li>Actualizaciones automáticas</li><li>Navegación acelerada, con mejoras en el uso del cache.</li><li>Mejoras en el bloqueo de ventanas emergentes (popup blocking)</li><li>Clear Private Data, permite borrar infromación sensible</li><li>Rediseño de la interfaz de usuario</li><li>Actualizaciones de accesibilidad incluyendo soporte para DHTML</li><li>Herramienta para reportar sitios que no renderizan correctamente en Gecko</li><li>Soporte mejorado para Mac OS X (10.2 y superior)</li><li>Soporte para SVG, CSS 2, CSS 3, y JavaScript 1.6.</li><li>Varias mejoras en materia de seguridad.</li></ul>
+<ul><li>Actualizaciones automáticas
+<li>Navegación acelerada, con mejoras en el uso del cache.
+<li>Mejoras en el bloqueo de ventanas emergentes (popup blocking)
+<li>Clear Private Data, permite borrar infromación sensible
+<li>Rediseño de la interfaz de usuario
+<li>Actualizaciones de accesibilidad incluyendo soporte para DHTML
+<li>Herramienta para reportar sitios que no renderizan correctamente en Gecko
+<li>Soporte mejorado para Mac OS X (10.2 y superior)
+<li>Soporte para SVG, CSS 2, CSS 3, y JavaScript 1.6.
+<li>Varias mejoras en materia de seguridad.
+</ul>
 
 <span style="font-weight: bold">Citas</span>
 

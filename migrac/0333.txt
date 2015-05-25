@@ -16,7 +16,7 @@ Leito sugirió de manejar compras con DineroMail, y hacer el delivery. También 
 
 PyCamp, Córdoba 2008. Se comentó un poquito del lado de los usuarios y del lado de los organizadores cómo había sido la experiencia, para los que no habían ido. Estuvimos todos de acuerdo en que fue un éxito rotundo. Es por este suceso que a todos nos gustaría que se vuelva a repetir, no sólo en Córdoba sino también en otras provincias. Incluso sugirieron de hacer un PyCamp de invierno.
 
-Surgió una vez más el tema de si PyAr debería ser una ONG. Estuvimos todos de acuerdo en que no, es mucho quilombo, y los pocos beneficios que nos traería pueden ser logrados a través de varias organizaciones amigas siempre dispuestas a apadrinarnos (ya que estamos, &iexcl;gracias!).
+Surgió una vez más el tema de si PyAr debería ser una ONG. Estuvimos todos de acuerdo en que no, es mucho quilombo, y los pocos beneficios que nos traería pueden ser logrados a través de varias organizaciones amigas siempre dispuestas a apadrinarnos (ya que estamos, ¡gracias!).
 
 Siguiendo con el hilo de detalles organizativos, se empezó a gestar la idea de que en el 2009, ya que PyAr cumple 5 años, podríamos hacer el primer PyCon Argentina; estuvimos todos de acuerdo en que ya tenemos masa crítica.
 

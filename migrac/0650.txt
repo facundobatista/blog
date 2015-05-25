@@ -12,7 +12,7 @@ Lo desarrolló la empresa argentina Satellogic, pero no lo lanzamos nosotros al 
 
 Pero Tita es diferente a los dos anteriores, que pesaban alrededor de dos kilos. También es un prototipo, y usa las mismas estrategias de diseño y fabricación con componentes de uso comercial (resortes de ferretería, electrónica de teléfonos celulares y computadoras personales), pero este permite tomar imágenes y videos de dos metros de resolución. Esencialmente, la gente de Satellogic está haciendo lo mismo que hace un satélite convencional, pero a un precio entre cien y mil veces menor.
 
-En este video bastante interesante podemos ver a Lino Barañao (Ministro de Ciencia y Tecnología) y Emiliano Kargieman (CEO de Satellogic), contándonos un poco todo esto (y de paso se ven pasos de la construcción, y las oficinas, &iexcl;donde se ve bastante gente de PyAr trabajando!).
+En este video bastante interesante podemos ver a Lino Barañao (Ministro de Ciencia y Tecnología) y Emiliano Kargieman (CEO de Satellogic), contándonos un poco todo esto (y de paso se ven pasos de la construcción, y las oficinas, ¡donde se ve bastante gente de PyAr trabajando!).
 
 
 <object type="application/x-shockwave-flash" data="http://www.youtube.com/v/1bF_U5Ep8-U" class="ltVideoYouTube" height="355" width="425">

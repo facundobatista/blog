@@ -4,7 +4,7 @@ Regalo de fin de año: Encuentro 0.9
 
 Y digo que es un regalo para las fiestas porque esta versión trae algunas cosas interesantes.
 
-Por un lado, &iexcl;hay un nuevo backend! Cuando actualicen los contenidos van a ver que pueden descargar programas del <a href="http://www.bacua.gob.ar/">Banco Audiovisual de Contenidos Universales Argentino</a> (gracias Gonzalo!),
+Por un lado, ¡hay un nuevo backend! Cuando actualicen los contenidos van a ver que pueden descargar programas del <a href="http://www.bacua.gob.ar/">Banco Audiovisual de Contenidos Universales Argentino</a> (gracias Gonzalo!),
 
 Por otro lado, rediseñamos la GUI en el último sprint. Ahora tenemos un sector a la derecha con la imagen del programa (gracias Diego!) y la descripción (más un botón de acción). Y también hay una cola de descargas, donde se muestra lo que se está descargando, lo que ya terminó (y cómo), y lo que está encolado para después.
 
@@ -14,4 +14,4 @@ También hay un mejor manejo de las cancelaciones, más logging, y otras pequeñ
 
 Como siempre, las formas de instalarlo, toda la info, y etc, en <a href="http://encuentro.taniquetil.com.ar/">la página del proyecto</a>.
 &nbsp;&nbsp;&nbsp;
-&iexcl;&iexcl;Feliz fin de año!!</p> |
+¡¡Feliz fin de año!!</p> |

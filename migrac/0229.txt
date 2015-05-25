@@ -10,7 +10,7 @@ De ahí en más, me puse las pilas (algo empujado por <a href="http://www.chaghi
 
 Por lo pronto, actualicé a la última versión de Lifetype, que es el motor de este sitio, lo cual me solucionó algunos inconvenientes nuevos (por ejemplo, ahora el blog no te muestra 128923 posts cuando vas a un archivo, sino que te arma varias páginas (ver abajo de todo); bueno, eso no funcaba del todo bien, ahora sí).
 
-E hice otros cambios más visibles. La fecha de los posts es más piola. Ahora tienen un link de imprimir en cada post, que los lleva al post con un formato super amigable para la impresora (&iexcl;salvemos los bosques!). Agregué un glitch con el órden de los datos que te pide cuando ponés un post, y mejoré los textos de esa página.
+E hice otros cambios más visibles. La fecha de los posts es más piola. Ahora tienen un link de imprimir en cada post, que los lleva al post con un formato super amigable para la impresora (¡salvemos los bosques!). Agregué un glitch con el órden de los datos que te pide cuando ponés un post, y mejoré los textos de esa página.
 
 En fin, mil detalles, que vengo tocando de hace un par de meses cuando tengo un rato (y ganas, maldita sea, que esto es un hobby).
 

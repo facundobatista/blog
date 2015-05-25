@@ -11,7 +11,11 @@ Ayer volviendo a casa, una camioneta me llamó mucho la atención:
 El sistema fue ideado por un el <a href="http://www.hffioramonti.com.ar/">electrotécnico Jorge Fioramonti</a>, y es un equipo que dosifica la cantidad de agua que debe entrar a la cámara de combustión del motor. La inyección de agua regulada automáticamente, ingresa una pequeña cantidad de agua destilada a la cámara de combustión junto con el aire, para llegar a los cilindros y mejorar la combustión.
 
 Con este sistema se logra:
-<ul><li>Un aumento de potencia por la disociación molecular del agua</li><li>Una disminución de consumo de combustible (entre 10 y 25 % según tipo de motor)</li><li>Eliminación de residuos carbonosos y por lo tanto mayor vida útil del motor.</li><li>Transforma el monóxido de carbono del escape en bióxido reduciendo la contaminación entre un 70 y 90%.</li></ul>Este equipo fue desarrollado por Fioramonti en Roque Perez, provincia de Buenos Aires. Ya le vendió los derechos a una empresa birtánica y está en tratativas con Nueva Zelanda.
+<ul><li>Un aumento de potencia por la disociación molecular del agua
+<li>Una disminución de consumo de combustible (entre 10 y 25 % según tipo de motor)
+<li>Eliminación de residuos carbonosos y por lo tanto mayor vida útil del motor.
+<li>Transforma el monóxido de carbono del escape en bióxido reduciendo la contaminación entre un 70 y 90%.
+</ul>Este equipo fue desarrollado por Fioramonti en Roque Perez, provincia de Buenos Aires. Ya le vendió los derechos a una empresa birtánica y está en tratativas con Nueva Zelanda.
 
 
 <span style="font-weight: bold">Charla sobre telefonía celular</span>

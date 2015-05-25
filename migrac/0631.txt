@@ -10,15 +10,23 @@ Yo lo voy a estar coordinando en general, pero la idea es que encontremos el mej
 
 &iquest;Cómo es la dinámica? si alguien sabe de un lugar en el que se podría hacer el PyCamp, que vaya o llame y averig&uuml;e. Hay que recabar varios datos:</p>
 <ul>
-<li>Formas de llegar</li>
-<li>Qué onda el lugar</li>
-<li>Qué onda las habitaciones</li>
-<li>Qué onda la comida</li>
-<li>Tres puntos a favor</li>
-<li>Tres puntos en contra</li>
-<li>Disponibilidad</li>
-<li>Precio</li>
+<li>Formas de llegar
+
+<li>Qué onda el lugar
+
+<li>Qué onda las habitaciones
+
+<li>Qué onda la comida
+
+<li>Tres puntos a favor
+
+<li>Tres puntos en contra
+
+<li>Disponibilidad
+
+<li>Precio
+
 </ul>
 <p>Algo piola para revisar es la página que les acabo de pasar sobre posibles sedes, para tener una idea del tipo de data que hay que juntar. Luego me contactan (por privado) y vamos definiendo todo para dejar el lugar listo para la votación.
 
-&iexcl;Gracias! :)</p> |
+¡Gracias! :)</p> |
