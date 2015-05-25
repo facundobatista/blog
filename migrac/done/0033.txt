@@ -1,0 +1,9 @@
+2005-02-24 12:13:22
+Decimal en PyCon 2005
+decimal, pycon, washington, python, pep 205, psf
+
+Finalmente todas los pequeños detalles que tenían que encajar justo lo hicieron.
+
+La Fundación de Software de Python (`PSF <http://www.python.org/psf/>`_) me invita a Washington, USA, para exponer en la Tercer Conferencia Internacional de Python (`PyCon 2005 <http://www.python.org/pycon/2005/>`_).
+
+La `charla <http://www.python.org/pycon/2005/schedule.html>`_ será sobre los aspectos avanzados de `Decimal <http://docs.python.org/lib/module-decimal.html>`_ (un módulo que agarré empezado, pero que `coordiné, impulsé, programé <http://www.python.org/peps/pep-0327.html>`_, y ahora está en Python 2.4).
