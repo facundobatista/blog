@@ -4,7 +4,7 @@ Python bug day
 
 El próximo 19 de Enero, sábado, se realizará un Python Bug Day.
 
-&iquest;Qué es esto? Basicamente un ataque de lleno y frontal para cerrar bugs y patches de Python, todos de forma más o menos coordinada.
+¿Qué es esto? Basicamente un ataque de lleno y frontal para cerrar bugs y patches de Python, todos de forma más o menos coordinada.
 
 Dura todo el día, aunque es normal que la gente labure más o menos de 9 a 15 (hora local de cada uno).
 

@@ -6,7 +6,7 @@ Estos días hice dos releases rápidos.
 
 El primero fue de <a href="http://launcherposta.taniquetil.com.ar/">LauncherPosta</a>, porque resulta que en Ubuntu Raring crasheaba mal. O sea, no tiraba un traceback: crasheaba.
 
-&iquest;Lo peor? Es un problema de la librería PyGtk, de cómo está implementado para Gtk 3. &iquest;Lo peor más peor de todos los peores? Es por diseño, y les parece bien que crashee a la mierda en lugar de tirar un traceback decente (miren <a href="https://bugs.launchpad.net/ubuntu/+source/pygobject/+bug/1170929">el bug que abrí y lo que me respondieron</a>).
+¿Lo peor? Es un problema de la librería PyGtk, de cómo está implementado para Gtk 3. ¿Lo peor más peor de todos los peores? Es por diseño, y les parece bien que crashee a la mierda en lugar de tirar un traceback decente (miren <a href="https://bugs.launchpad.net/ubuntu/+source/pygobject/+bug/1170929">el bug que abrí y lo que me respondieron</a>).
 
 En fin, esto refuerza <a href="http://www.taniquetil.com.ar/plog/post/1/603">lo que les decía</a> que Gtk3 me gustaba menos y menos y me estoy pasando a Qt.
 
@@ -16,7 +16,7 @@ El segundo release fue de <a href="http://enjuewemela.taniquetil.com.ar/">Enjuew
 
 Hace rato que no sacaba una versión del jueguito. Es que aunque le había hecho un montón de correcciones, había un gran feature que estaba esperando: el replayer.
 
-&iquest;Qué es el replayer? Es un modo de ejecución de Enjuewemela que le decís que te reproduzca un juego anterior (le tenés que pasar el log que generó la jugada), y podés ir viendo exactamente el juego que hiciste, avanzando y retrocediendo con las flechas. Esto más que nada lo hice porque era necesario para poder detectar algunos crashes raros, y porque era divertido de hacer, :)
+¿Qué es el replayer? Es un modo de ejecución de Enjuewemela que le decís que te reproduzca un juego anterior (le tenés que pasar el log que generó la jugada), y podés ir viendo exactamente el juego que hiciste, avanzando y retrocediendo con las flechas. Esto más que nada lo hice porque era necesario para poder detectar algunos crashes raros, y porque era divertido de hacer, :)
 
 Los cambios más interesantes para esta versión 0.5, aparte de la habilidad de "re-jugar un log", son:
 

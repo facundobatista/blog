@@ -8,7 +8,7 @@ Junín no es al lado de casa pero tampoco es demasiado lejos... salimos con Luci
 
 La conferencia propiamente dicha arrancó el viernes a la mañana; luego de una registración un poco complicada arrancó una keynote a la que asistí, estuve haciendo sociales un rato por los pasillos, y cerramos la mañana con un panel de programadores que trabajamos en Canonical, moderado por Nico César, con preguntas del público sobre qué hacíamos, cómo lo hacíamos, etc.
 
-Almorzamos en un lugar cercano, algo liviano, y estuve un rato en otra plenaria que no me interesaba demasiado, luego un rato afuera charlando, y justo antes del break de la tarde di mi clásica "Entendiendo Unicode"... es que el público se renueva, &iquest;viste?
+Almorzamos en un lugar cercano, algo liviano, y estuve un rato en otra plenaria que no me interesaba demasiado, luego un rato afuera charlando, y justo antes del break de la tarde di mi clásica "Entendiendo Unicode"... es que el público se renueva, ¿viste?
 
 Después del break, <a href="http://www.juanjoconti.com.ar/2011/09/23/lighting-talks-en-pyconar-2011/">Lightning Talks!</a> Siempre están buenas! Gracias a Manu Quiñones me enteré de la existencia de <a href="http://mypaint.intilinux.com/">MyPaint</a>, que está buenísimo, y yo por mi parte mostré un truquito interesante para hacer ejecutables Python, que ya <a href="http://www.taniquetil.com.ar/plog/post/1/531">mostré acá</a>. Para cerrar el primer día de conferencia, hubo una plenaria sobre PyPy que estuvo buena, por Maciej Fijalkowski.
 

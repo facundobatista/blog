@@ -12,7 +12,7 @@ Por otro lado, me estuve dedicando al software. No solo estuve siguiendo un poqu
 
 <a href="http://xpn.altervista.org/index-en.html">XPN</a> es un lector de noticias, con una interfaz gráfica, hecho en Python. Lo estoy empezando a usar, pero le hace falta algunas cosas que yo quiero. Entonces decidí meterme y participar en el desarrollo del mismo. De paso, empiezo a conocer un poquitito de PyGTK, a ver si prende en mi espíritu o no.
 
-También terminé los cambios que tenía planeado para mi blog. El último fue la incorporación de un plugin que hizo <a href="http://www.chaghi.com.ar/blog/">Mariano</a>, que muestra lo que escribí hace un año (fíjense en la barrita vertical de la derecha, casi arriba de todo). Está muy bueno porque te da un flashback del tipo <em>"Uh, que loco, me acuerdo de eso... &iquest;ya pasó un año?"</em>, :)
+También terminé los cambios que tenía planeado para mi blog. El último fue la incorporación de un plugin que hizo <a href="http://www.chaghi.com.ar/blog/">Mariano</a>, que muestra lo que escribí hace un año (fíjense en la barrita vertical de la derecha, casi arriba de todo). Está muy bueno porque te da un flashback del tipo <em>"Uh, que loco, me acuerdo de eso... ¿ya pasó un año?"</em>, :)
 
 Lo otro que cerré esta semana a nivel de software fue mi participación en el Google CodeJam, pero esto también es para otro post.
 

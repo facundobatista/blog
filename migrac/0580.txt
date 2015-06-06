@@ -2,7 +2,7 @@
 Vorágine de fin de año
 <tags>
 
-&iquest;Fin de año? Ni cerca. Pero ya en septiembre mi agenda se empezó a complicar con muchas actividades...
+¿Fin de año? Ni cerca. Pero ya en septiembre mi agenda se empezó a complicar con muchas actividades...
 
 Arrancamos a mitad de septiembre, con el <a href="http://www.pydaycba.com.ar/">PyDay de Córdoba</a>. Aunque el evento era sólo el sábado, viajé el jueves a la noche (llegando el viernes a la mañana), y volví el domingo a la noche. Eso me permitió laburar todo el día con Naty y Matías, estar fresco para el evento, que luego tuvo una cena, y estar el domingo allá para el asado que hizo Perrito en la casa.
 

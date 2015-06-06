@@ -4,9 +4,9 @@ Migrando Encuentro a PyQt
 
 Este no es un post sobre <a href="http://encuentro.taniquetil.com.ar/">Encuentro</a> precisamente, sino sobre la experiencia de migrar Encuentro a Qt.
 
-O, mejor dicho, a PyQt. &iquest;Qué es <a href="http://www.riverbankcomputing.com/software/pyqt/intro">PyQt</a>? Sencillo: una capa de unión para poder usar Qt desde Python. &iquest;Y qué es <a href="http://qt.digia.com/">Qt</a>? Qt es una biblioteca multiplataforma para desarrollar aplicaciones con interfaz gráfica. En otras palabras, una biblioteca para hacer las ventanas, botones, y todo eso que arma la interfaz gráfica de un programa de escritorio.
+O, mejor dicho, a PyQt. ¿Qué es <a href="http://www.riverbankcomputing.com/software/pyqt/intro">PyQt</a>? Sencillo: una capa de unión para poder usar Qt desde Python. ¿Y qué es <a href="http://qt.digia.com/">Qt</a>? Qt es una biblioteca multiplataforma para desarrollar aplicaciones con interfaz gráfica. En otras palabras, una biblioteca para hacer las ventanas, botones, y todo eso que arma la interfaz gráfica de un programa de escritorio.
 
-Con esa descripciones no tendríamos diferencia entre PyQt/Qt y PyGtk/Gtk, que es lo que usaba Encuentro hasta ahora. Entonces, &iquest;por qué migrar?
+Con esa descripciones no tendríamos diferencia entre PyQt/Qt y PyGtk/Gtk, que es lo que usaba Encuentro hasta ahora. Entonces, ¿por qué migrar?
 
 Son varias las razones... pero principalmente porque empaquetar PyGtk en un .exe es un dolor de muelas, y eso llevó a que la última versión que corre en windows es la que no funciona porque cambió todo el backend web (cuando los videos pasaron de ser hosteados por Encuentro a estar en Conectate). En otras palabras: la última versión de Encuentro que corre en windows no sirve para nada, y básicamente es culpa de Gtk.
 
@@ -14,7 +14,7 @@ Otras razón de menor importancia es que no me gustó como Gtk evoluciona. El <e
 
 <img src="http://www.taniquetil.com.ar/facundo/imgs/qt.png" alt="Qt" height="358" width="300" />
 
-En fin. La migración ya está terminada, pude hacer en Qt todo lo que tenía que hacer en función de la interfaz de Encuentro. &iquest;Qué me pareció? Bueno, las sensaciones son varias.
+En fin. La migración ya está terminada, pude hacer en Qt todo lo que tenía que hacer en función de la interfaz de Encuentro. ¿Qué me pareció? Bueno, las sensaciones son varias.
 
 Me gustó Qt, mucho más cuadradito, más pytónico especialmente en la versión 4 que es la que yo estoy usando. Aunque la mayoría del código es muy similar, hay varias cosas que son más sencillas que en Gtk, aunque no todas, y hay bordes que limar.
 

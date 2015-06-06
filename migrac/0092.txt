@@ -11,7 +11,7 @@ La entrada es libre y gratuita, solo hay que registrarse en el sitio.
 
 <span style="font-weight: bold">Controlando a nuestros representantes</span>
 
-&iquest;Querés ver quienes votaron a favor de una determinada ley? &iquest;O que leyes se agrupan en determinado tema? &iquest;Que tal saber como se comportó un determinado legislador? &iquest;O las tendencias de un distrito? La información es poder, y esa info está <a href="http://www.adclegislativo.org.ar/">acá</a>.
+¿Querés ver quienes votaron a favor de una determinada ley? ¿O que leyes se agrupan en determinado tema? ¿Que tal saber como se comportó un determinado legislador? ¿O las tendencias de un distrito? La información es poder, y esa info está <a href="http://www.adclegislativo.org.ar/">acá</a>.
 
 
 <span style="font-weight: bold">Películas</span>

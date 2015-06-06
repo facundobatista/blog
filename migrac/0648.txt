@@ -8,7 +8,7 @@ Así fue. Nos sentamos un rato largo con Martín Gaitán y empezamos a ver si co
 
 Algo en lo que no nos metimos mucho es la integración de nosetests con frameworks que proveen un reactor (o main loop). Buscando un poco ví que hay algo para integrarlo con Twisted, bastante sencillo, pero no encontré nada para GTK o Qt... no sé si porque no se puede, o es automático :p
 
-Entonces, vayamos a los bifes... &iquest;qué necesitamos para tener el testrunner ideal?
+Entonces, vayamos a los bifes... ¿qué necesitamos para tener el testrunner ideal?
 
 <img src="http://www.taniquetil.com.ar/facundo/imgs/keeptesting.png" alt="Keep testing" height="184" width="600" />
 

@@ -12,6 +12,6 @@ Para participar no hace falta más que ganas y algunos conocimientos mínimos. T
 
 La idea es participar, divertirse, y aprender.
 
-&iquest;Qué deberían tener instalado en sus máquinas para poder participar? En la página oficial del <a href="http://www.python.org/dev/">desarrollo de Python</a> tienen muchísima información, pero para arrancar podrían leer este buen <a href="http://humitos.wordpress.com/2008/05/05/colaborando-con-python/">documento que preparó Humitos</a> sobre cómo colaborar.
+¿Qué deberían tener instalado en sus máquinas para poder participar? En la página oficial del <a href="http://www.python.org/dev/">desarrollo de Python</a> tienen muchísima información, pero para arrancar podrían leer este buen <a href="http://humitos.wordpress.com/2008/05/05/colaborando-con-python/">documento que preparó Humitos</a> sobre cómo colaborar.
 
 ¡Los espero![@more@] |

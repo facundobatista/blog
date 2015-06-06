@@ -1,0 +1,19 @@
+2005-03-21 16:44:20
+Primeros dos días en PyCon
+pycon, sprint, washington, decimal, sigefi, pyar, impuesto
+
+Comenzaron finalmente los Sprint de PyCon 2005.
+
+Básicamente un Sprint es un evento donde varias personas se juntan físicamente a hacer lo que el resto de las veces realizan por separado: diseñar, echar código, etc...
+
+El ámbito físico de PyCon son dos salas del tercer piso de la `GWU <http://www.gwu.edu/>`_ (George Washington University). En una sala se trabaja principalmente sobre `Zope <http://www.zope.org/>`_ y `Twisted <http://twistedmatrix.com/>`_. En la otra los temas son `AST <http://www.zope.org/Members/jeremy/CurrentAndFutureProjects/PythonAST>`_, `PyPy <http://codespeak.net/pypy/>`_, `Distutils <http://python.fyxm.net/sigs/distutils-sig/doc/sc_submission.html>`_ y un par más. Yo estoy en la segunda sala, tratando de aprender un poquito de AST, y ayudando a Brett Cannon a que el documento explicativo del compilador que está armando quede listo para que lo entienda cualquiera (aportando mi extremadamente útil punto de vista del ignorante total, ;). No es que haga eso solamente. Estoy preparando las charlitas de SiGeFi y PyAr, trabajando un poquito en SiGeFi y Decimal, y un montón de temitas varios más (ya que estamos, subí las presentaciones de `SiGeFi <http://www.taniquetil.com.ar/homedevel/presents/sigefi.sxi>`_ y `Decimal <http://www.taniquetil.com.ar/homedevel/presents/decimal.sxi>`_ por si las quieren ver; están en .sxi, necesitan `OpenOffice <http://es.openoffice.org/>`_ para verlas).
+
+La sala no es nada especial, un montón de mesas y sillas, un proyector, etc. Tenemos `WiFi <http://es.wikipedia.org/wiki/Wifi>`_ y hay unos hubs para los que necesitan ethernet por cable. Enchufes por doquier, los pisos llenos de cables (tapados con cinta para no engancharlos), café, comida. Y mucha buena onda, para todo. Ese es el ambiente en general.
+
+Hay momentos en que están todos callados trabajando, muy concentrados, y hay momentos en que la algarabía es total, todos charlando, riendo, etc. La verdad es que está muy bueno, porque te permite conocer a un montón de gente que antes sólo era un remitente en un mail. Alex Martelli, Tim Peters, David Goodger, Fred Drake, Brett Cannon, Andrew Kuchling, y me debo estar olvidando de alguien seguro. Fumarme un cigarrillo con Alex o Tim, o ir a comer con Brett o Andrew, no son cosas que se puedan hacer mucho por mail.
+
+Los sprints comienzan a las 8 de la mañana (aunque los primeros dos días llegué tarde porque el subte se quedó parado veinte minutos en el medio del camino). Hay gente que se llevó una cafetera y hace café, yo hoy me fui a comprar un cafe con leche. Normalmente trabajamos hasta eso de las doce, doce y media, y vamos a comprar algo para comer (y nos traemos). Luego le pegamos hasta eso de las seis, por supuesto con las interrupciones normales para ir a buscar un café, etc. Todo muy distendido.
+
+Dos cosas que me asombraron de Washington. La primera es la forma de manejar (autos, camiones, etc.). Cuando hay un cartel de stop, o incluso en la bocacalle de una avenida, ¡los tipos paran!. Si, detienen el vehículo, miran, y luego arrancan nuevamente. Aunque no venga nadie.
+
+La segunda es que cuando uno va a comprar algo, el precio anunciado (o el que te dicen cuando les preguntás) no es el precio final. Por ejemplo, ayer fui a comer a un `lugar de comidas mexicanas <http://www.bajafresh.com/>`_, y pedí una ensalada (basicamente el contenido del burrito pero sin la tortilla alrededor) y un agua. Según los precios, el total era $7.99. En la boleta, los precios suman $7.99. Pero después le meten el impuesto (en este caso $0.80) y te cobran eso. Resultado: es difícil saber cuanto vas a gastar. El problema realmente es que el impuesto no es el mismo en todos lados; cada estado tiene su impuesto, eso seguro, pero creo que también varía según la zona, o el tipo de local, etc.

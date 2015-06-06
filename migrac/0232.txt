@@ -12,7 +12,7 @@ Que querramos estimar, y no calcular exactamente cuánto, implica que es suficie
 
 <img src="http://www.taniquetil.com.ar/facundo/bdvfiles/code/eta/barra1.png" border="0" alt="Barrita ejemplo 1" title="Barrita ejemplo 1" width="400" height="43" />
 
-Entonces... &iquest;por qué no está resuelto todavía de forma genérica y satisfactoria? Porque no es tan simple como parece. Veamos por qué. Por un lado, la velocidad con la cual estamos completando la tarea puede variar, y por el otro, le tenemos que dar una indicación a un humano. Y ambos son dos quilombos totalmente distintos... y complicados.
+Entonces... ¿por qué no está resuelto todavía de forma genérica y satisfactoria? Porque no es tan simple como parece. Veamos por qué. Por un lado, la velocidad con la cual estamos completando la tarea puede variar, y por el otro, le tenemos que dar una indicación a un humano. Y ambos son dos quilombos totalmente distintos... y complicados.
 
 La velocidad con la cual vamos completando la tarea es todo un tema, porque si estamos descargando un archivo, podemos tener el problema de que la conexión se corte, por ejemplo, o que pongamos a bajar algo y la velocidad caiga a la mitad. Venía pareja, de repente baja a la mitad, y luego queda en ese nivel por el resto de la descarga. Como un escalón. O podemos estar reordenando una estructura, y sabemos cuantas partes nos falta reordenar, pero no tenemos ni idea cuanto va a tardar reordenar cada una de esas partes.
 
@@ -51,7 +51,7 @@ Comienza generando en cero, y permanece tres valores en cero, como si fuera tiem
 <li>El 15% de las veces varía al azar sumando alguno de [-5, -4, ..., 4, 5]
 <li>El 10% de las veces varía al azar sumando alguno de [-10, ..., 10]
 </ul>
-<strong>&iquest;Entonces? &iquest;Cuánto falta?</strong>
+<strong>¿Entonces? ¿Cuánto falta?</strong>
 
 Un concepto que usé desde entrada (concepto bastante básico) es el de tomar no todos los valores para calcular la Velocidad Promedio, sino sólo algunos últimos (analogía eléctrica: es como si estuviésemos pasando la señal por un filtro pasabajos). Esto tiene el efecto de <em>calmar</em> el indicador que mostramos, siendo no tan nervioso sino que variará más tranquilamente.
 
@@ -76,7 +76,7 @@ Me puse a pensar entonces en como podía tener este tercer modelo más adaptativ
 
 Y me di cuenta de que las reglas que determiné arriba quizás estén incompletas, que se les podría agregar la siguiente:
 <ul><li>Debe tener en cuenta, en lo posible, en qué parte del proceso de completamiento estamos.
-</ul>O sea, que el sistema quizás se comporte distinto, estimando diferente, si estamos en la primer parte de, digamos, la descarga, en la mitad, o cerca del final. Por ejemplo, si estamos a un 40% de la descarga, está bien que tomemos valores tranquilos, porque falta un montón y tenemos que estimar lo que viene. Pero si nos falta un 5%, &iquest;tiene sentido que tomemos el otro 95% como indicador? porque cualquier variación, faltando tan poco, tiene una alta incidencia en el tiempo que nos falta para terminar.
+</ul>O sea, que el sistema quizás se comporte distinto, estimando diferente, si estamos en la primer parte de, digamos, la descarga, en la mitad, o cerca del final. Por ejemplo, si estamos a un 40% de la descarga, está bien que tomemos valores tranquilos, porque falta un montón y tenemos que estimar lo que viene. Pero si nos falta un 5%, ¿tiene sentido que tomemos el otro 95% como indicador? porque cualquier variación, faltando tan poco, tiene una alta incidencia en el tiempo que nos falta para terminar.
 
 Entonces desarrollé otro simulador, pero ahora con una lógica distinta, ya que en este calculamos lo que nos falta para terminar. Fíjense en las siguientes dos curvas, que tenemos en gris las velocidades reales, en negro la Velocidad Promedio, y en azul lo que le diríamos al usuario que falta.
 

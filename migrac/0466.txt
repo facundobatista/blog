@@ -11,7 +11,7 @@ Los últimos meses en el equipo Ubuntu One Foundations, en Canonical, estuvimos 
 
 
 
-&iquest;Qué es eso de cirujano-copiloto? El concepto viene de un libro de los setentas, <a href="http://es.wikipedia.org/wiki/The_Mythical_Man-Month">The Mythical Man Month</a>, donde Frederick Brooks describe un provocativo esquema (propuesto primero por Harlan Mills) para un equipo de desarrollo de diez personas. En el libro, Brooks intenta manejar el hecho de que proyectos grandes de software no pueden ser escritos por una persona, o por un equipo chico, por lo que propone partir el proyecto en partes más pequeñas, prestando especial atención a la optimización de las comunicaciones dentro y entre los equipos.
+¿Qué es eso de cirujano-copiloto? El concepto viene de un libro de los setentas, <a href="http://es.wikipedia.org/wiki/The_Mythical_Man-Month">The Mythical Man Month</a>, donde Frederick Brooks describe un provocativo esquema (propuesto primero por Harlan Mills) para un equipo de desarrollo de diez personas. En el libro, Brooks intenta manejar el hecho de que proyectos grandes de software no pueden ser escritos por una persona, o por un equipo chico, por lo que propone partir el proyecto en partes más pequeñas, prestando especial atención a la optimización de las comunicaciones dentro y entre los equipos.
 
 
 

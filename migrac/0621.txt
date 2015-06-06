@@ -8,7 +8,7 @@ Será un <strong>Curso Introductorio a Python</strong>, apuntado a aquellos que 
 
 El nivel es introductorio, lo que significa que se van a ver muchos conceptos del lenguaje de manera profunda, pero no se tocarán temas avanzados ni satélites a lo que es Python en sí, con la intención que el asistente gane sólidos conocimientos que luego le permitan explorar el resto a su gusto.&nbsp; Se necesita tener conocimientos previos de programación (pero no hace falta ser un programador avanzado).&nbsp; En detalle, el contenido del curso versará sobre los siguientes ítems:</p>
 <ul>
-<li>Introducción: &iquest;Qué es Python?; Primeros pasos; Recursos
+<li>Introducción: ¿Qué es Python?; Primeros pasos; Recursos
 
 <li>Tipos de Datos: Haciendo números, y más números; Cadenas de texto; Tuplas y listas; Conjuntos; Diccionarios
 

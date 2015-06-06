@@ -2,7 +2,7 @@
 Salió Encuentro 0.7
 <tags>
 
-Encuentro es un simple programa que permite... blah blah blah, ya les dije esto varias veces, &iquest;no? Bueno, lo que pasa es que ahora cambió.
+Encuentro es un simple programa que permite... blah blah blah, ya les dije esto varias veces, ¿no? Bueno, lo que pasa es que ahora cambió.
 
 Y cambió un poquito a la fuerza.
 

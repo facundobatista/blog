@@ -33,7 +33,7 @@ Por ejemplo, si quieren buscar ... no sirve que pongan ... :
 
 
 
-La pregunta es... &iquest;cómo podemos "normalizar" los términos con eñes, tildes, y letras raras, de manera que la búsqueda siga siendo por coincidencia del diccionario?
+La pregunta es... ¿cómo podemos "normalizar" los términos con eñes, tildes, y letras raras, de manera que la búsqueda siga siendo por coincidencia del diccionario?
 
 
 

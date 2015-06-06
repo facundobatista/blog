@@ -67,7 +67,7 @@ De esta manera, el único trabajo que hay que hacerle al video luego de la confe
 
 
 
-Entonces... &iquest;para qué toda esta explicación? Bueno, la clave de todo esto es el "Elemento Mezclador".
+Entonces... ¿para qué toda esta explicación? Bueno, la clave de todo esto es el "Elemento Mezclador".
 
 
 
@@ -79,7 +79,7 @@ Habiendo elegido la herramienta, aparecen otros frentes algo complejos.
 
 
 
-Como dije, necesitamos un stream de audio, y dos de video. Y dvswitch necesita que los dos stream de video sean en formato DV. El de la cámara que enfoca al disertante es sencillo: la enchufamos por el puerto FireWire (IEEE 1394) y ya está. &iquest;Y el otro?
+Como dije, necesitamos un stream de audio, y dos de video. Y dvswitch necesita que los dos stream de video sean en formato DV. El de la cámara que enfoca al disertante es sencillo: la enchufamos por el puerto FireWire (IEEE 1394) y ya está. ¿Y el otro?
 
 
 

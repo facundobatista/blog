@@ -4,7 +4,7 @@ Noviembre complicado
 
 El mes pasado les decía que la agenda venía complicada, que cerrar el año no iba a ser descansado, etc...
 
-A fines de Octubre me fui para Venezuela con la familia. &iquest;La excusa? Fui invitado a dar un par de charlas en la primer <a href="http://ve.pycon.org/">PyConVe</a>, y también una charla en una "mañana Python" en la ciudad de Mérida, así que aproveché y llevé a Moni y Felu para convertir el resto de los días en vacaciones :)
+A fines de Octubre me fui para Venezuela con la familia. ¿La excusa? Fui invitado a dar un par de charlas en la primer <a href="http://ve.pycon.org/">PyConVe</a>, y también una charla en una "mañana Python" en la ciudad de Mérida, así que aproveché y llevé a Moni y Felu para convertir el resto de los días en vacaciones :)
 
 La verdad es que estuvo todo muy lindo (más allá de los viajes, como ya comenté por acá). Llegamos a Caracas, y al toque nos fuimos para Mérida, donde fuimos recibidos por Francisco Palm (organizador de la jornada allí, donde di "Python en el mundo real") quien nos alojó en su casa.
 

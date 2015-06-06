@@ -2,7 +2,7 @@
 Muchas lecturas aleatorias y secuenciales, ¿mmap?
 <tags>
 
- Con Guillo y Alecu empezamos a charlar sobre si, en un módulo que estaba haciendo Guillo para el <a href="http://launchpad.net/ubuntuone-client">laburo</a> convenía usar <a href="http://en.wikipedia.org/wiki/Mmap">mmap</a> al tener muchas lecturas secuenciales y muchas lecturas aletorias sobre un archivo grande. Obviamente, usando Python (&iquest;faltaba aclararlo?).
+ Con Guillo y Alecu empezamos a charlar sobre si, en un módulo que estaba haciendo Guillo para el <a href="http://launchpad.net/ubuntuone-client">laburo</a> convenía usar <a href="http://en.wikipedia.org/wiki/Mmap">mmap</a> al tener muchas lecturas secuenciales y muchas lecturas aletorias sobre un archivo grande. Obviamente, usando Python (¿faltaba aclararlo?).
 
  Como no nos decidíamos, decidí medirlo.
 

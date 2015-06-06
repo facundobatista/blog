@@ -11,7 +11,7 @@ Revisando la configuración en la web de Dell, no hablan de esto para nada, pero
 
 
 
-<span style="font-size: small; font-family: courier new,courier">11:09:58&nbsp; Facundo Batista&nbsp;&nbsp;&nbsp;&nbsp; Pregunta inicial/Comentarios: [Argentina] &iquest;Qué distro de teclado viene en la XPS con Ubuntu si la compro de Argentina?
+<span style="font-size: small; font-family: courier new,courier">11:09:58&nbsp; Facundo Batista&nbsp;&nbsp;&nbsp;&nbsp; Pregunta inicial/Comentarios: [Argentina] ¿Qué distro de teclado viene en la XPS con Ubuntu si la compro de Argentina?
 
 11:12:24&nbsp; LA_DHS Luis 86610&nbsp;&nbsp; su compra es a nombre personal ?
 
@@ -23,7 +23,7 @@ Revisando la configuración en la web de Dell, no hablan de esto para nada, pero
 
 11:14:17&nbsp; Facundo Batista&nbsp;&nbsp;&nbsp;&nbsp; la semana que viene, pero eso depende de otra consulta que te hago luego, :)
 
-11:14:31&nbsp; Facundo Batista&nbsp;&nbsp;&nbsp;&nbsp; &iquest;querés que te pregunte lo otro primero?
+11:14:31&nbsp; Facundo Batista&nbsp;&nbsp;&nbsp;&nbsp; ¿querés que te pregunte lo otro primero?
 
 11:15:00&nbsp; LA_DHS Luis 86610&nbsp;&nbsp; si porque la verdad no entiendo la pregunta ?
 
@@ -35,15 +35,15 @@ Revisando la configuración en la web de Dell, no hablan de esto para nada, pero
 
 11:15:53&nbsp; Facundo Batista&nbsp;&nbsp;&nbsp;&nbsp; la XPS con Ubuntu es un modelo vuestro
 
-11:16:04&nbsp; Facundo Batista&nbsp;&nbsp;&nbsp;&nbsp; si compro esa máquina desde Argentina... &iquest;qué teclado viene?
+11:16:04&nbsp; Facundo Batista&nbsp;&nbsp;&nbsp;&nbsp; si compro esa máquina desde Argentina... ¿qué teclado viene?
 
 11:16:04&nbsp; LA_DHS Luis 86610&nbsp;&nbsp; en español logicamente te llegaria
 
-11:16:15&nbsp; Facundo Batista&nbsp;&nbsp;&nbsp;&nbsp; &iquest;por qué? yo estoy en latinoamérica
+11:16:15&nbsp; Facundo Batista&nbsp;&nbsp;&nbsp;&nbsp; ¿por qué? yo estoy en latinoamérica
 
 11:16:35&nbsp; LA_DHS Luis 86610&nbsp;&nbsp; español
 
-11:16:49&nbsp; Facundo Batista&nbsp;&nbsp;&nbsp;&nbsp; &iquest;no se puede elegir? en español no me sirve
+11:16:49&nbsp; Facundo Batista&nbsp;&nbsp;&nbsp;&nbsp; ¿no se puede elegir? en español no me sirve
 
 11:17:10&nbsp; LA_DHS Luis 86610&nbsp;&nbsp; si queres el teclado en ingles todo el sistema va en ingles
 
@@ -63,21 +63,21 @@ Revisando la configuración en la web de Dell, no hablan de esto para nada, pero
 
 11:18:29&nbsp; Facundo Batista&nbsp;&nbsp;&nbsp;&nbsp; ok
 
-11:18:36&nbsp; Facundo Batista&nbsp;&nbsp;&nbsp;&nbsp; lo quiero en Latinoamericano, &iquest;se puede?
+11:18:36&nbsp; Facundo Batista&nbsp;&nbsp;&nbsp;&nbsp; lo quiero en Latinoamericano, ¿se puede?
 
 11:19:26&nbsp; LA_DHS Luis 86610&nbsp;&nbsp; pues aca solo manejamos español e ingles no tengo otra opcion
 
-11:19:57&nbsp; Facundo Batista&nbsp;&nbsp;&nbsp;&nbsp; &iquest;hay otra manera de comprar la laptop que no sea por "ahí"?
+11:19:57&nbsp; Facundo Batista&nbsp;&nbsp;&nbsp;&nbsp; ¿hay otra manera de comprar la laptop que no sea por "ahí"?
 
 11:20:10&nbsp; LA_DHS Luis 86610&nbsp;&nbsp; en base a eso se ditribuye en todo el continente no hay otra opcion lo sentimos
 
-11:21:23&nbsp; Facundo Batista&nbsp;&nbsp;&nbsp;&nbsp; &iquest;o sea que en Latinoamérica Dell distribuye laptops con teclados que son de otro continente?
+11:21:23&nbsp; Facundo Batista&nbsp;&nbsp;&nbsp;&nbsp; ¿o sea que en Latinoamérica Dell distribuye laptops con teclados que son de otro continente?
 
 11:21:51&nbsp; LA_DHS Luis 86610&nbsp;&nbsp; no creo
 
-11:22:28&nbsp; Facundo Batista&nbsp;&nbsp;&nbsp;&nbsp; &iquest;con quien debería hablar de Dell que no *crea*, sino *sepa*?
+11:22:28&nbsp; Facundo Batista&nbsp;&nbsp;&nbsp;&nbsp; ¿con quien debería hablar de Dell que no *crea*, sino *sepa*?
 
-11:27:17&nbsp; Facundo Batista&nbsp;&nbsp;&nbsp;&nbsp; &iquest;hola?
+11:27:17&nbsp; Facundo Batista&nbsp;&nbsp;&nbsp;&nbsp; ¿hola?
 
 11:28:42&nbsp; LA_DHS Luis 86610&nbsp;&nbsp; si gustas mejor llama via telefonica y que te comuniquen con el area tecnica porque aparte de ingles y español no hay otr opcion disponible
 

@@ -13,7 +13,7 @@ Ya confirmamos la <a href="http://www.python.com.ar/moin/Eventos/Reuniones/Proxi
 <li>Experiencia de Fisl 2008
 <li>Experiencia de PyWeek 6
 <li>Reparto de merchandising
-<li>&iquest;PyCon Argentina 2009?
+<li>¿PyCon Argentina 2009?
 <li>Sprint de instalación de nuestro server
 <li>Global Python Sprint Weekend
 </ul>El fin de semana del 10 y 11 de Mayo se hará el primer Global Python Sprint Weekend. Es la evolución natural de un Python Bug Day, y lo incluye, las dos principales diferencias es que son dos días, y que distintos grupos se van a reunir fisicamente alrededor del mundo para esto. Más info, <a href="http://wiki.python.org/moin/PythonBugDay">aquí</a>.[@more@] |

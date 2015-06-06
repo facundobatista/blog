@@ -14,7 +14,7 @@ Decimal, binario y el asado
 > <font face="courier new,courier">>>> round(chargeandprop("EEARGPLRGKGDQKSAVSQKPRSRGILH")[1],2)</font>
 > <font face="courier new,courier">39.289999999999999</font>
 
-El detalle acá es que te están mostrando un número binario en su forma decimal. &iquest;Por qué en forma decimal? Porque hace rato que tenemos 10 dedos en las manos, y contar en esa base nos es natural. &iquest;Por qué el número es binario? Parecerá arcaico a esta altura, pero seguimos teniendo procesadores que trabajan en forma binaria: a nivel de silicio la FPU (floating point unit) de tu micro guarda el nro en binario.
+El detalle acá es que te están mostrando un número binario en su forma decimal. ¿Por qué en forma decimal? Porque hace rato que tenemos 10 dedos en las manos, y contar en esa base nos es natural. ¿Por qué el número es binario? Parecerá arcaico a esta altura, pero seguimos teniendo procesadores que trabajan en forma binaria: a nivel de silicio la FPU (floating point unit) de tu micro guarda el nro en binario.
 
 Hagamos una analogía, para que resulte más fácil de entender. Viene tu sobrinito de 12 años, y te dice "tío, tío, enseñame algo que no entiendo de matemática". Vos, envalentonado por demostrar tus conocimientos, y viendo que es la única manera de salvar el fin de semana luego de que Argentina haya perdido 3 a 0 en la Copa América, le contestás "Obvio, lo que quieras". Entonces tu sobrino te da un lapiz y un papel y te dice... "escribí 'un tercio'".
 
@@ -34,7 +34,7 @@ Acá entra Python, quien en el intérprete interactivo, te muestra "la realidad 
 <font face="courier new,courier">>>> repr(39.29)
 '39.289999999999999'</font>
 
-Ahora, si vos querés ser engañado, podés decirle a Python que te muestre algo más humano. &iquest;Cómo le decís que te convierta un objeto a su representación en cadena de texto de una forma más "humana"? Con str():
+Ahora, si vos querés ser engañado, podés decirle a Python que te muestre algo más humano. ¿Cómo le decís que te convierta un objeto a su representación en cadena de texto de una forma más "humana"? Con str():
 
 <font face="courier new,courier">>>> str(39.29)
 '39.29'</font>

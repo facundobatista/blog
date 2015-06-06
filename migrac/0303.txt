@@ -18,7 +18,7 @@ Entonces, el SSH desde la PC del laburo se conecta a la máquina de mi casa (pre
 <strong>
 Túnel dinámico</strong>
 
-En la máquina del laburo tengo un VirtualBox con un Ubuntu instalado adentro. Si yo quiero navegar desde ahí, sin salir por el proxy del laburo, tenía que hacer también un puente SSH. Pero en el caso anterior el destino es fijo, y uno cuando navega en Internet quiere acceder a muchos destinos... &iquest;cómo se hace? Solución: un túnel dinámico!
+En la máquina del laburo tengo un VirtualBox con un Ubuntu instalado adentro. Si yo quiero navegar desde ahí, sin salir por el proxy del laburo, tenía que hacer también un puente SSH. Pero en el caso anterior el destino es fijo, y uno cuando navega en Internet quiere acceder a muchos destinos... ¿cómo se hace? Solución: un túnel dinámico!
 <font face="courier new,courier">
 &nbsp; ssh -D 4567 lamaquinademicasa.net</font>
 &nbsp;
@@ -27,7 +27,7 @@ Luego agarro el navegador, y lo configuro como que tengo instalado un proxy tipo
 
 <strong>It's the proxy, stupid!</strong>
 
-Pero luego quise utilizar una herramienta a la que no se le puede configurar el proxy SOCKS (el Synaptic...), &iquest;cómo podía hacer?
+Pero luego quise utilizar una herramienta a la que no se le puede configurar el proxy SOCKS (el Synaptic...), ¿cómo podía hacer?
 
 Ahí encontré el programita <em>tsocks </em>(tienen una linda explicación en castellano <a href="http://rubensa.wordpress.com/2006/03/22/ubuntu-tsocks/">aquí</a>). Lo instalé, lo configuré, y luego ejecuté Synaptic de la siguiente forma:
 

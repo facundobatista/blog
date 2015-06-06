@@ -12,7 +12,7 @@ Con Lucio, la noche del sábado, madrugada y domingo, armamos una versión compl
 
 Como el tema del juego involucraba <em>cuerdas</em>, lo que hicimos fue una pelea de marionetas. A nivel de AI (artificial intelligence), el juego se basaba en entrenar a un aprendiz peleando contra él, y luego mandarlo a pelear contra nuestros enemigos.
 
-La temática del juego era gauchesca: el Maestro Titiritero es el Gauchito Gil, y tiene que entrenar al aprendiz para que pelee con distintos gauchos, finalizando con el diablo mismo (&iquest;se terminaría la "luz mala"?):
+La temática del juego era gauchesca: el Maestro Titiritero es el Gauchito Gil, y tiene que entrenar al aprendiz para que pelee con distintos gauchos, finalizando con el diablo mismo (¿se terminaría la "luz mala"?):
 
 <img src="http://www.taniquetil.com.ar/facundo/imgs/ggilvsdevil-peleando.png" border="0" alt="Nuestro aprendiz peleando contra el Diablo" title="Nuestro aprendiz peleando contra el Diablo" width="400" height="301" />
 

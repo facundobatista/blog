@@ -10,7 +10,7 @@ Como verán en la imagen siguiente, el juego es basado en texto, y se le van ind
 
 <img src="http://www.taniquetil.com.ar/facundo/imgs/startrekgame.png" alt="Star Trek" height="276" width="469" />
 
-&iquest;Dónde jugaba este juego? En la <a href="http://www.thecorememory.com/html/ncr_8250.html">NCR 8250</a> que programaba mi papá en el Buenos Aires Herald. Una máquina viejita... tenía casetera, lugar para dos discos rígidos removibles (de 10 MB cada uno, como 40 cm de diámetro), y corría un sistema operativo llamado IMOS III.
+¿Dónde jugaba este juego? En la <a href="http://www.thecorememory.com/html/ncr_8250.html">NCR 8250</a> que programaba mi papá en el Buenos Aires Herald. Una máquina viejita... tenía casetera, lugar para dos discos rígidos removibles (de 10 MB cada uno, como 40 cm de diámetro), y corría un sistema operativo llamado IMOS III.
 
 Para que se den una idea, esta es la terminal con la que mi viejo laburaba, mientras yo lo miraba (programaba COBOL!) o jugaba en otra terminal igual (obvio, era multiusuario!).
 

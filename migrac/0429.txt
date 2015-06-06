@@ -23,7 +23,7 @@ Entonces, armé mi propio mecanismo. Básicamente es un <em>gateway mail a micro
 
 
 
-&iquest;Qué se necesita? <a href="http://www.taniquetil.com.ar/homedevel/devel/mail2micropost.py">El programita que escribí</a>, una cuenta de mail en cualquier lado (yo usé una en mi server, y es IMAP... si la quieren POP3 tienen que cambiar un poco mi programita), y las cuentas de Twitter e identi.ca para postear. O sea, todo fácil y gratis.
+¿Qué se necesita? <a href="http://www.taniquetil.com.ar/homedevel/devel/mail2micropost.py">El programita que escribí</a>, una cuenta de mail en cualquier lado (yo usé una en mi server, y es IMAP... si la quieren POP3 tienen que cambiar un poco mi programita), y las cuentas de Twitter e identi.ca para postear. O sea, todo fácil y gratis.
 
 
 

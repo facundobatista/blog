@@ -18,4 +18,4 @@ Luego, habría que ir buscando contactos en las Universidades, para poder charla
 
 Con respecto a la folletería/merchandising, tenemos que pensar en algo para llevar a estas reuniones: algo que les muestre el uso de la herramienta más allá del lenguaje (ejemplo: no mostrar como se escribe un for, sino lo fácil que es hacer una normalización de un conjunto de datos). Algo que se lleven los asistentes con ellos, para poder verlo más tarde, y tener el contacto con PyAr para poder venir por más info.
 
-&iquest;Qué les parece?</p> |
+¿Qué les parece?</p> |

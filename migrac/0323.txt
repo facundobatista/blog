@@ -2,7 +2,7 @@
 Wikipedia para todos
 <tags>
 
-<strong>&iquest;Cuál es la idea?</strong>
+<strong>¿Cuál es la idea?</strong>
 
 Wikipedia Offline, o CDPedia, es un <a href="http://www.python.com.ar/moin/Proyectos">proyecto de PyAr</a> que arrancó hace un par de años.
 

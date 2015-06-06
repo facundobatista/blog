@@ -21,14 +21,14 @@ Pero la red en la oficina anda más o menos a veces, con lo cual tardaaaaaaba, t
 En el escritorio, el proceso fue obviamente más sencillo. Meter el CD, doble click, algunas preguntas básicas, y nada más: todito instalado desde cero.
 
 
-<strong>&iquest;Qué encontré de bueno? </strong>
+<strong>¿Qué encontré de bueno? </strong>
 
 Es más rápido, se nota abriendo programas, booteando, etc; ojo que no estoy haciendo ningún análisis estadístico del sistema, lo digo porque <em>se nota</em> que es más dinámico en el trabajo de todos los días.
 
 Pusieron un applet para manejo de conexiones inalámbricas que es fantástico. Lo configuré una vez, con cada red nueva que no era libre, y nunca más le tengo que decir nada, el tipo se conecta a la que corresponde, siempre, y sin molestar. Buenísimo también que te muestre todas las redes que encuentre, :)
 
 
-<strong>&iquest;Qué encontré de malo?</strong>
+<strong>¿Qué encontré de malo?</strong>
 
 Lo único que se me rompió es el manejo de las teclas multimedia del teclado de la laptop. En la misma tengo botones de play/pause, stop, etc, y los uso para manejar el reproductor de música de mi preferencia (<a href="http://www.sacredchao.net/quodlibet">Quod Libet</a>). Resulta que Gnome 2.18, que es el que viene en Feisty, <em>propaga</em> la señal de esas teclas de otra forma. Por suerte, vivo en un mundo open source, así que me fijé como podía capturar esas teclas desde Python, agarré el código de Quod Libet, lo toqué, y ahora funca perfecto.
 

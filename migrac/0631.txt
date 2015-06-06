@@ -8,7 +8,7 @@ La idea es hacer el PyCamp del 1 al 4 de Marzo, del 21 al 24 de Marzo, o del 22 
 
 Yo lo voy a estar coordinando en general, pero la idea es que encontremos el mejor <em>venue</em> posible, buscando de a varios. Es lo mismo que <a href="http://python.org.ar/PyCamp/2013/PosiblesSedes">hicimos el año pasado</a>.
 
-&iquest;Cómo es la dinámica? si alguien sabe de un lugar en el que se podría hacer el PyCamp, que vaya o llame y averig&uuml;e. Hay que recabar varios datos:</p>
+¿Cómo es la dinámica? si alguien sabe de un lugar en el que se podría hacer el PyCamp, que vaya o llame y averig&uuml;e. Hay que recabar varios datos:</p>
 <ul>
 <li>Formas de llegar
 

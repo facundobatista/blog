@@ -4,7 +4,7 @@ Agregando valor
 
 Leyendo un magnífico cuestionario, que se aplicó a muchos lenguajes, pero <a href="http://dfwpython.org/uploads/Forrester/forrester-survey.txt">acá</a> está contestado (y muy bien) con respecto a Python, me crucé con esta pregunta, y una respuesta que sintetiza tan bien el poder y la simplicidad de Python, que quise reproducirla aquí (la pongo directamente en castellano, si la quieren en el inglés original, la tienen en el cuestionario).
 <strong>
-</strong><em><strong>F77: &iquest;Cuál es el valor del lenguaje para los desarrolladores?</strong>
+</strong><em><strong>F77: ¿Cuál es el valor del lenguaje para los desarrolladores?</strong>
 
 <strong>Aprendelo una vez, usalo en todos lados</strong>: aplicaciones web, aplicaciones con interfaz gráfica, scripts de línea de órdenes, integración de sistemas, usar bibliotecas de otros lenguajes, multi-plataforma, escala de tareas rápidas a sistemas grandes y complejos.
 

@@ -25,7 +25,7 @@ Por ejemplo, yo estoy convencido de que debemos hacer pruebas cuando desarrollam
 
 
 
-Pero, todavía tengo algunas dudas, y mucho que aprender en este campo. &iquest;Es valioso en todos los casos? &iquest;Cual es el balance correcto entre pruebas de unidad y pruebas de integración? &iquest;Y qué hacemos con las interfaces gráficas?
+Pero, todavía tengo algunas dudas, y mucho que aprender en este campo. ¿Es valioso en todos los casos? ¿Cual es el balance correcto entre pruebas de unidad y pruebas de integración? ¿Y qué hacemos con las interfaces gráficas?
 
 
 
@@ -84,10 +84,10 @@ Algunas ventajas son más conceptuales: muy claras a la gente que ya probó prue
 Una buena frase del hilo que me gustó como razón para hacer pruebas:
 
 <blockquote>
-	El código que estás escribiendo será usado por años. Será actualizado al cambiar los requerimientos. Y de vez en cuando, alguien que no es familiar al código como lo estás vos ahora estará en apuros para corregir un problema en él. &iquest;Qué previsión razonable podés hacer para ayudar a esa persona? Pensalo un minuto. Acordate, esa persona podrías ser vos.
+	El código que estás escribiendo será usado por años. Será actualizado al cambiar los requerimientos. Y de vez en cuando, alguien que no es familiar al código como lo estás vos ahora estará en apuros para corregir un problema en él. ¿Qué previsión razonable podés hacer para ayudar a esa persona? Pensalo un minuto. Acordate, esa persona podrías ser vos.
 
 </blockquote>
-&iquest;Y qué desventajas hay? La gente a veces se queja de que si hacen pruebas, tardan más en escribir código. Sin embargo, lo que sucede es que las pruebas no cambian realmente el <em>total</em> de tiempo que toma desarrollar software, sólo cambia el <em>cuando</em> se paga ese costo. Sí, para software con pruebas, el beta inicial es mucho más completo y mejor probado, pero aparece más tarde en el ciclo, lo que puede ser un problema si no podés entregar ese código al usuario.
+¿Y qué desventajas hay? La gente a veces se queja de que si hacen pruebas, tardan más en escribir código. Sin embargo, lo que sucede es que las pruebas no cambian realmente el <em>total</em> de tiempo que toma desarrollar software, sólo cambia el <em>cuando</em> se paga ese costo. Sí, para software con pruebas, el beta inicial es mucho más completo y mejor probado, pero aparece más tarde en el ciclo, lo que puede ser un problema si no podés entregar ese código al usuario.
 
 
 
@@ -95,7 +95,7 @@ En todo el hilo, sólo se mencionó una desventaja real de <a href="http://es.wi
 
 
 
-Hay que aclarar que no hay nada malo en no hacer TDD, pero que entrega resultados muy distintos con respecto a hacer las pruebas como corresponde, y se podría decir que al no hacer TDD los resultados son peores. &iquest;Está bien tener malos resultados? En algunos entornos, apuesto a que sí; sin embargo en Canonical queremos entregar lo mejor. Jamu lo dijo bien claro: si estás escribiendo código de producción sin hacer pruebas, entonces no estás haciendo tu trabajo correctamente. Mark S. lo reforzó con:
+Hay que aclarar que no hay nada malo en no hacer TDD, pero que entrega resultados muy distintos con respecto a hacer las pruebas como corresponde, y se podría decir que al no hacer TDD los resultados son peores. ¿Está bien tener malos resultados? En algunos entornos, apuesto a que sí; sin embargo en Canonical queremos entregar lo mejor. Jamu lo dijo bien claro: si estás escribiendo código de producción sin hacer pruebas, entonces no estás haciendo tu trabajo correctamente. Mark S. lo reforzó con:
 
 <blockquote>
 	Deberíamos requerir pruebas para el código que somos responsables, y las excepciones que haya (seguro las habrán) necesitan justificarse y documentarse, no al revés.

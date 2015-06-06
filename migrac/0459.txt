@@ -89,7 +89,7 @@ Corriendo al normalize-mp3 en cada directorio, considerando para el ejemplo que 
 
 
 
-El caso de IronMaiden es más sencillo: como es un compilado y no es el caso de que el artista puso diferentes volúmenes para lograr efectos, se lleva todo al volumen indicado (fíjense que no tiene el <em>--batch</em> en el comando). &iquest;Por qué no uso <em>--mix</em> acá? Porque yo le estoy indicando qué volumen quiero, no que saque el promedio él.
+El caso de IronMaiden es más sencillo: como es un compilado y no es el caso de que el artista puso diferentes volúmenes para lograr efectos, se lleva todo al volumen indicado (fíjense que no tiene el <em>--batch</em> en el comando). ¿Por qué no uso <em>--mix</em> acá? Porque yo le estoy indicando qué volumen quiero, no que saque el promedio él.
 
 
 
@@ -117,7 +117,7 @@ O sea, manteniendo las relaciones dentro de cada álbum, pero emparejando los pr
 
 
 
-Analizando los resultados, luego, vi que en algunos temas (no revisé todos), pasó a recortarme sonido. O sea, lo amplificó de manera que algunos picos se van de rango, y eso distorsiona. &iquest;Se nota el efecto? Sí, abrí archivos con <a href="http://audacity.sourceforge.net/?lang=es">audacity</a> y lo comprobé visualmente, porque la canción me sonaba mal al escucharla.
+Analizando los resultados, luego, vi que en algunos temas (no revisé todos), pasó a recortarme sonido. O sea, lo amplificó de manera que algunos picos se van de rango, y eso distorsiona. ¿Se nota el efecto? Sí, abrí archivos con <a href="http://audacity.sourceforge.net/?lang=es">audacity</a> y lo comprobé visualmente, porque la canción me sonaba mal al escucharla.
 
 
 

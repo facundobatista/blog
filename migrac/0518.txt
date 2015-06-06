@@ -4,23 +4,23 @@ Distribuyendo un programa hecho en Python
 
 Más que un análisis completo de las tecnologías para permitir la distribución de programas hechos en Python, este post es casi una receta o colección de anotaciones para seguir un camino. Y es que es un camino que no me fué fácil recorrer, porque la mayoría de los mecanismos para distribuir código Python están pensadas para distribuir <em>bibliotecas</em> hechas en este lenguaje, y no <em>programas</em>.
 
-&iquest;Dónde está la diferencia? En dónde van las cosas.
+¿Dónde está la diferencia? En dónde van las cosas.
 
 Antes de seguir: para todo el armado usé <a href="http://docs.python.org/library/distutils.html">distutils</a>, que es lo que está en la biblioteca estándar. Le pegué una mirada a otras cosas como setuptools, distribute, etc, pero todas (aunque son más aptas para cosas más complejas) no me solucionaban el problema básico y me complicaban un poco la vida en otros aspectos.
 
 
-<strong>&iquest;Dónde van las cosas?</strong>
+<strong>¿Dónde van las cosas?</strong>
 
-Volviendo a el lugar en dónde se instala el código Python... si uno quiere distribuir una biblioteca, la respuesta es sencilla: en el directorio de bibliotecas de Python de tu sistema. &iquest;En dónde particularmente? Bueno, depende de tu sistema; incluso en Linux esto fue cambiando y no es el mismo lugar siempre. En mi máquina tengo <span style="font-family: courier new,courier;">/usr/lib/python2.6/dist-packages/</span>, que en parte apunta a <span style="font-family: courier new,courier;">/usr/share/pyshared/</span>.
+Volviendo a el lugar en dónde se instala el código Python... si uno quiere distribuir una biblioteca, la respuesta es sencilla: en el directorio de bibliotecas de Python de tu sistema. ¿En dónde particularmente? Bueno, depende de tu sistema; incluso en Linux esto fue cambiando y no es el mismo lugar siempre. En mi máquina tengo <span style="font-family: courier new,courier;">/usr/lib/python2.6/dist-packages/</span>, que en parte apunta a <span style="font-family: courier new,courier;">/usr/share/pyshared/</span>.
 
 Igual, no importa la ubicación exacta: usando distutils (u otras alternativas) las bibliotecas van a parar al lugar correcto sin mayor esfuerzo.
 
-&iquest;Pero qué pasa si no es una biblioteca sino un programa? El primer detalle es que necesitamos un <em>ejecutable</em> que arranque nuestro programa. Distutils y amigos tienen esto bastante bien manejado, se les puede especificar un <em>script</em>, y terminan instalando todo de la siguiente manera:
+¿Pero qué pasa si no es una biblioteca sino un programa? El primer detalle es que necesitamos un <em>ejecutable</em> que arranque nuestro programa. Distutils y amigos tienen esto bastante bien manejado, se les puede especificar un <em>script</em>, y terminan instalando todo de la siguiente manera:
 
 <span style="font-family: courier new,courier;">&nbsp; script -> /usr/bin/</span>
 <span style="font-family: courier new,courier;">&nbsp; todo el resto /usr/lib/python2.6/dist-packages/ (o similar)</span>
 
-Hasta acá todo bien, &iquest;no? No. Resulta que nuestro programa tiene imágenes, archivos de audio, etc, y está "mal visto" meter esos archivos "de datos" dentro del directorio de bibliotecas de Python. Entonces, lo que recomiendan por ahí es:
+Hasta acá todo bien, ¿no? No. Resulta que nuestro programa tiene imágenes, archivos de audio, etc, y está "mal visto" meter esos archivos "de datos" dentro del directorio de bibliotecas de Python. Entonces, lo que recomiendan por ahí es:
 
 <span style="font-family: courier new,courier;">&nbsp; script -> /usr/bin/</span>
 <span style="font-family: courier new,courier;">&nbsp; archivos de datos -> /usr/share/</span>
@@ -28,7 +28,7 @@ Hasta acá todo bien, &iquest;no? No. Resulta que nuestro programa tiene imágen
 
 Esto ya no es tan fácil de lograr, porque la distribución de archivos de datos es como un parche en los sistemas de distribución de bibliotecas.
 
-Además, si nos vamos a poner quisquillosos de no meter archivos de datos en el directorio de bibliotecas, yo pregunto: &iquest;por qué meter código de nuestro programa, que no es una biblioteca, en el directorio de bibliotecas?
+Además, si nos vamos a poner quisquillosos de no meter archivos de datos en el directorio de bibliotecas, yo pregunto: ¿por qué meter código de nuestro programa, que no es una biblioteca, en el directorio de bibliotecas?
 
 Entonces me embarqué en el siguiente capricho: quería que la distribución de mi programa vaya a parar a:
 
@@ -40,7 +40,7 @@ Los archivos de datos, por supuesto, mezclados con "todo el resto".
 
 <strong>Estructura de nuestro programa</strong>
 
-Primero lo primero, &iquest;cómo organizamos nuestro proyecto? Yo tengo lo siguiente (simplificado, pueden ver toda la estructura en <a href="http://bazaar.launchpad.net/%7Efacundo/encuentro/trunk/files">los archivos del proyecto Encuentro</a>):
+Primero lo primero, ¿cómo organizamos nuestro proyecto? Yo tengo lo siguiente (simplificado, pueden ver toda la estructura en <a href="http://bazaar.launchpad.net/%7Efacundo/encuentro/trunk/files">los archivos del proyecto Encuentro</a>):
 
 - un directorio 'bin' donde tengo el script que arranca todo
 
@@ -60,7 +60,7 @@ esto es un archivo ejecutable que no hace mucho más que jugar un poco con los d
 <span style="font-family: courier new,courier;">&nbsp; encuentro/ui/preferences.glade</span>
 <span style="font-family: courier new,courier;">&nbsp; encuentro/ui/update.glade</span>
 
-Una vez aclarado eso, quedan dos preguntas sencillas y una complicada por contestar: las sencillas son &iquest;cómo el script encuentra al resto del programa instalado? y &iquest;cómo accedemos a los archivos de datos desde nuestro código?.
+Una vez aclarado eso, quedan dos preguntas sencillas y una complicada por contestar: las sencillas son ¿cómo el script encuentra al resto del programa instalado? y ¿cómo accedemos a los archivos de datos desde nuestro código?.
 
 La primera es usando una variable que se inyecta en el script en el momento de instalar el programa (ver más abajo el cuándo hacemos eso en <span style="font-family: courier new,courier;">setup.py</span>).
 
@@ -72,7 +72,7 @@ y luego hago cosas como:
 
 <span style="font-family: courier new,courier;">&nbsp; data_file = os.path.join(BASEDIR, 'ui', 'preferences.glade')</span>
 
-Finalmente, la pregunta complicada: &iquest;cómo hacemos para que todo esto funcione?
+Finalmente, la pregunta complicada: ¿cómo hacemos para que todo esto funcione?
 
 
 <strong>Distribuyendo programas</strong>

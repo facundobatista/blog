@@ -6,7 +6,7 @@ Cuando se hizo público el proyecto <a href="http://one.ubuntu.com/">Ubuntu One<
 
 La comparación con <a href="http://www.dropbox.com/">Dropbox</a> fue obvia... Dropbox era (y sigue siendo) el servicio de sincronización de archivos con más usuarios.
 
-Si uno leía blogs y reviews del producto, una pregunta se repetía muchísimo: &iquest;cual era el punto de sacar <em>otro</em> servicio de sincronización de archivos? La respuesta era sencilla, eso era sólo el primer servicio de Ubuntu One, muchos más vendrían luego.
+Si uno leía blogs y reviews del producto, una pregunta se repetía muchísimo: ¿cual era el punto de sacar <em>otro</em> servicio de sincronización de archivos? La respuesta era sencilla, eso era sólo el primer servicio de Ubuntu One, muchos más vendrían luego.
 
 Hoy, Ubuntu One sigue teniendo sincronización de archivos en Linux y tiene un cliente en beta para Windows, y otro <a href="https://market.android.com/details?id=com.ubuntuone.android.files&feature=search_result">para Android</a> (salido de beta hace unos días!), tiene servicio de venta de música, y la posibilidad de escuchar tu música en tu teléfono (la hayas comprado por Ubuntu One o no) sin tener que descargarla previamente (por streaming, digamos), sincronización de contactos, una base de datos en tu escritorio de Ubuntu que se sincroniza automáticamente y que se puede usar para lo que quieras, etc...
 

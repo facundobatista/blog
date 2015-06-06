@@ -4,8 +4,8 @@
 
 Los veo programar, en VisualBasic, por ejemplo, o en Java... y están todo el tiempo abriendo y cerrando llaves, escriben el IF, y luego abajo escriben el END IF....pero dudan, no saben que poner adentro, todavía, entonces borran el END IF...
 
-&iquest;Cuánto más eficiente es esa persona si no tuvo que escribir el ENDIF y borrarlo las tres veces? &iquest;Se puede concentrar mejor si no lo tiene que hacer (como en Python)? Si supiera concentrarse, de entrada, &iquest;lo escribiría una sola vez y listo?
+¿Cuánto más eficiente es esa persona si no tuvo que escribir el ENDIF y borrarlo las tres veces? ¿Se puede concentrar mejor si no lo tiene que hacer (como en Python)? Si supiera concentrarse, de entrada, ¿lo escribiría una sola vez y listo?
 
-La sintáxis del lenguaje, &iquest;ayuda en estos casos? En muchos casos estoy seguro de que sí. &iquest;Y en estos?
+La sintáxis del lenguaje, ¿ayuda en estos casos? En muchos casos estoy seguro de que sí. ¿Y en estos?
 
-Muchas veces leo que Java, por ejemplo, es muy dificil de programar sin una IDE que te automatice todo esto... &iquest;entonces por qué no dejarlo de lado? Si voy a poner llaves para abrir y cerrar, pero no lo quiero poner y dependo de que me lo haga la IDE, &iquest;para que tener llaves? Porque después, si no tengo la IDE, no puedo programar... &iquest;No puedo usar algo más intuitivo para mí, y no para la máquina?[@more@] |
+Muchas veces leo que Java, por ejemplo, es muy dificil de programar sin una IDE que te automatice todo esto... ¿entonces por qué no dejarlo de lado? Si voy a poner llaves para abrir y cerrar, pero no lo quiero poner y dependo de que me lo haga la IDE, ¿para que tener llaves? Porque después, si no tengo la IDE, no puedo programar... ¿No puedo usar algo más intuitivo para mí, y no para la máquina?[@more@] |

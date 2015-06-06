@@ -4,7 +4,7 @@ Resumen de parches y bugs
 
 A principios de Marzo hubo una discusión en python-dev sobre parches y bugs que teóricamente no se revisaban. La discusión iba por el lado de cómo involucrar más gente en la revisión de patchs y bugs, y de imprimirle otra dinámica al asunto.
 
-A partír de esa discusión, yo me pregunté "&iquest;Cómo puedo saber la ubicación temporal de un patch/bug?". &iquest;Hay muchos patchs/bugs viejos? &iquest;Esos que son viejos no tienen update o hay toda una discusión con cada uno? &iquest;Están abandonados?
+A partír de esa discusión, yo me pregunté "¿Cómo puedo saber la ubicación temporal de un patch/bug?". ¿Hay muchos patchs/bugs viejos? ¿Esos que son viejos no tienen update o hay toda una discusión con cada uno? ¿Están abandonados?
 
 Para ayudarme con ese análisis, hice una herramienta que a partir de la info en SourceForge arma un cuadro resumen, tanto de los <a href="http://www.taniquetil.com.ar/facundo/py_patchs.html">patchs</a> como de los <a href="http://www.taniquetil.com.ar/facundo/py_bugs.html">bugs</a>.
 

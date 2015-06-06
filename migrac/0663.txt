@@ -12,7 +12,7 @@ En palabras de ellos mismos:
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <em>"Decime quién sos vos" es un programa de entrevistas tan distendidas como agudas e intimistas donde convergen personalidades emblemáticas del pensamiento, la cultura, el arte, el espectáculo, el deporte.</em>
 
-&iquest;Por qué les cuento esto? En parte porque el programa se merece ampliamente una recomendación: es uno de los (casi ningún) programas de radio y televisión que escucho religiosamente.
+¿Por qué les cuento esto? En parte porque el programa se merece ampliamente una recomendación: es uno de los (casi ningún) programas de radio y televisión que escucho religiosamente.
 
 Pero también porque van a poder bajarlo de forma fácil usando <a href="http://encuentro.taniquetil.com.ar/">Encuentro</a>, a partir de la versión 2.1 que acabo de liberar.
 

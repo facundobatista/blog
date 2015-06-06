@@ -15,7 +15,7 @@ Entonces la discusión es: armamos un servicio, agregamos funcionalidad, <strong
 
 
 
-&iquest;Cómo lo hacemos? En cualquier otra compañía, habría venido la gente de Marketing y habría dicho "hay que hacerlo así y así". Esto es un diferencial de cómo hacemos las cosas en <a href="http://www.canonical.com/">Canonical</a>, de la cual estoy muy contento: estuvimos durante una hora, más de treinta personas (algunas trabajan en la empresa, otras no, todas cuidando tener un mejor <a href="http://www.ubuntu.net/">Ubuntu</a>), discutiendo cual sería la manera menos intrusiva de ofrecerle la opción al usuario.
+¿Cómo lo hacemos? En cualquier otra compañía, habría venido la gente de Marketing y habría dicho "hay que hacerlo así y así". Esto es un diferencial de cómo hacemos las cosas en <a href="http://www.canonical.com/">Canonical</a>, de la cual estoy muy contento: estuvimos durante una hora, más de treinta personas (algunas trabajan en la empresa, otras no, todas cuidando tener un mejor <a href="http://www.ubuntu.net/">Ubuntu</a>), discutiendo cual sería la manera menos intrusiva de ofrecerle la opción al usuario.
 
 
 
@@ -23,4 +23,4 @@ Por ejemplo, la manera más fácil de hacerlo es poner un icono en el escritorio
 
 
 
-Parece fácil de "pensarlo", &iquest;no? Bueno, no. Hay que encontrar un equilibrio entre ser visible y no, y hay muchas variables que uno no tiende a considerar. Y este tipo de sesiones, donde gente de la comunidad y la empresa con experiencia en la interacción con el usuario durante el proceso de instalación piensan juntos, es la mejor manera de lograr un mejor producto a futuro. |
+Parece fácil de "pensarlo", ¿no? Bueno, no. Hay que encontrar un equilibrio entre ser visible y no, y hay muchas variables que uno no tiende a considerar. Y este tipo de sesiones, donde gente de la comunidad y la empresa con experiencia en la interacción con el usuario durante el proceso de instalación piensan juntos, es la mejor manera de lograr un mejor producto a futuro. |

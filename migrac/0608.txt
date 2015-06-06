@@ -23,7 +23,7 @@ No hay mecanismos de "compartición" de los kilinks: cualquiera puede acceder a 
 
 La autoría del kilink y la responsabilidad sobre ese texto es del usuario que lo pegó ahí. Hay que declinar explícitamente responsabilidad.&nbsp; El texto incluido en el mismo es de "dominio público" y puede ser mostrado/usado indiscriminadamente.
 
-&iquest;Por qué usar kilink?</p>
+¿Por qué usar kilink?</p>
 <ul>
 <li>Se puede usar anonimamente...
 
@@ -101,7 +101,7 @@ También, se podrá elegir dos versiones, y pedir un "diff" entre las mismas.
 
 <strong>Coloreado del texto y tipo del mismo</strong>
 
-&iquest;Qué es la autodetección? En lugar del funcionamiento "pastebin clásico" (de pegar un texto y elegir qué tipo de texto es), cuando el usuario pegue el texto se debe autodetectar qué tipo de texto y colorearlo en el momento según el tipo detectado. Obviamente, va a haber un combobox con todos los tipos, que cambia automáticamente al tipo autodetectado, pero que el usuario puede modificar para rectificar una autodetección erronea (obviamente, si el usuario cambia a mano el tipo de texto, el coloreado cambiará correspondientemente).
+¿Qué es la autodetección? En lugar del funcionamiento "pastebin clásico" (de pegar un texto y elegir qué tipo de texto es), cuando el usuario pegue el texto se debe autodetectar qué tipo de texto y colorearlo en el momento según el tipo detectado. Obviamente, va a haber un combobox con todos los tipos, que cambia automáticamente al tipo autodetectado, pero que el usuario puede modificar para rectificar una autodetección erronea (obviamente, si el usuario cambia a mano el tipo de texto, el coloreado cambiará correspondientemente).
 
 La "edición coloreada" es la habilidad de poder editar el kilink y que se vaya coloreando mientras se edita (recordemos que vamos a mostrar un sólo texto y el usuario podrá editar directamente allí).
 

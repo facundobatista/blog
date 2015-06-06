@@ -34,7 +34,7 @@ Ahora, finalmente, armé una solución para proteger de incidentes mis datos dia
 
 
 
-&iquest;Por qué son complicados? Porque cambian todo el tiempo, y si uno pasa cinco meses sin hacer backup, los cambios son muchos y están todos desparramados... ver qué cambió y hacer un backup parcial es complicado, y hacer backup de todo de nuevo es una putada.&nbsp; Se podrían hacer backups parciales y diferenciales, pero la info no son dos gigas, y armar algo en múltiples DVDs es más complicado de lo que parece.
+¿Por qué son complicados? Porque cambian todo el tiempo, y si uno pasa cinco meses sin hacer backup, los cambios son muchos y están todos desparramados... ver qué cambió y hacer un backup parcial es complicado, y hacer backup de todo de nuevo es una putada.&nbsp; Se podrían hacer backups parciales y diferenciales, pero la info no son dos gigas, y armar algo en múltiples DVDs es más complicado de lo que parece.
 
 
 
@@ -50,7 +50,7 @@ Además, armé un crontab para que me haga copias de determinados directorios ca
 
 
 
-&iquest;Cómo armé esto? Así...
+¿Cómo armé esto? Así...
 
 
 

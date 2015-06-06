@@ -22,4 +22,4 @@ El problema era que, por el tamaño de cada archivo, cada uno de las pruebas e i
 
 La cuestión es que me olvidé de ese tema. Y me mudé. Y traje la máquina. Y revisando lo que tenía, encontré los archivos, una copia dejada por ahí. Y la descomprimí... ¡y no dió ningún error!
 
-&iquest;Qué fue lo que anduvo de todo lo que probé? No lo sé. Pero funcó. Y recuperé todos los datos, :D[@more@] |
+¿Qué fue lo que anduvo de todo lo que probé? No lo sé. Pero funcó. Y recuperé todos los datos, :D[@more@] |

@@ -14,9 +14,9 @@ Y acá entra LXC.
 
 Aunque LXC no es propiamente dicho una "máquina virtual" (es más bien un "entorno virtual"), igual permite la ejecución de un linux que no se mezcla a nivel de configuraciones ni de paquetes instalados ni de lo que uno puede romper del sistema con la máquina que uno tiene.
 
-&iquest;Para qué se puede usar? En mi caso lo uso mucho en el laburo, ya que mi máquina de desarrollo es un Ubuntu Quantal, pero los sistemas que corren en los servers son bajo Precise o Lucid (entonces tengo un container para cada uno). Y también los tengo pensado usar para probar instalaciones desde cero (por ejemplo, al armar un .deb por primera vez, probar de instalarlo en una máquina limpia).
+¿Para qué se puede usar? En mi caso lo uso mucho en el laburo, ya que mi máquina de desarrollo es un Ubuntu Quantal, pero los sistemas que corren en los servers son bajo Precise o Lucid (entonces tengo un container para cada uno). Y también los tengo pensado usar para probar instalaciones desde cero (por ejemplo, al armar un .deb por primera vez, probar de instalarlo en una máquina limpia).
 
-&iquest;Cómo se arma y usa un contenedor? Luego de instalar los paquetes necesarios (sudo apt-get install lxc libvirt-bin), la creación de un contenedor es bastaaaaante simple (de acá en adelante reemplazar en todos lados el "mi-lxc" por el nombre que ustedes quieran para el contenedor):
+¿Cómo se arma y usa un contenedor? Luego de instalar los paquetes necesarios (sudo apt-get install lxc libvirt-bin), la creación de un contenedor es bastaaaaante simple (de acá en adelante reemplazar en todos lados el "mi-lxc" por el nombre que ustedes quieran para el contenedor):
 
 <span style="font-family: courier new,courier;">&nbsp;&nbsp;&nbsp; sudo lxc-create -t ubuntu -n mi-lxc -- -r precise -a i386 -b $USER</span>
 
@@ -38,7 +38,7 @@ Con esto ya estamos listos para entrar fácil al container. Lo podemos probar en
 
 <span style="font-family: courier new,courier;">&nbsp;&nbsp;&nbsp; ssh mi-lxc.local</span>
 
-Lindo, &iquest;no?. Pero también está bueno poder forwardear los eventos de X, así podemos levantar aplicaciones gráficas. Para eso tenemos que tocar lo siguiente en el host (o sea, no en el container sino en la máquina "real"): editar <span style="font-family: courier new,courier;">/var/lib/lxc/mi-lxc/fstab</span> y agregarle la linea:
+Lindo, ¿no?. Pero también está bueno poder forwardear los eventos de X, así podemos levantar aplicaciones gráficas. Para eso tenemos que tocar lo siguiente en el host (o sea, no en el container sino en la máquina "real"): editar <span style="font-family: courier new,courier;">/var/lib/lxc/mi-lxc/fstab</span> y agregarle la linea:
 
 <span style="font-family: courier new,courier;">&nbsp;&nbsp;&nbsp; /tmp/.X11-unix tmp/.X11-unix none bind</span>
 

@@ -2,7 +2,7 @@
 Ma, cosa facciamo?
 <tags>
 
-En otras palabras, &iquest;qué ando haciendo? Como verán, escribiendo poco en el blog, :p
+En otras palabras, ¿qué ando haciendo? Como verán, escribiendo poco en el blog, :p
 
 En parte la culpa la tiene que en el laburo hay mucho ídem (la semana que viene es el Mobile World Congress y estuvimos terminando unas cositas de lujo que se usan desde el Ubuntu Phone). Pero no sólo laburo es el tema... estoy empujando varios proyectos en paralelo, y la familia estuvo de vacaciones.
 
@@ -24,4 +24,4 @@ Para complicarme la vida, se me pinchó un disco de la compu (un Western Digital
 
 Y en el medio de todo, cerrando el contrato con el hotel donde vamos a hacer el PyCamp este año. Es en Villa Giardino, como el año pasado, <a href="http://python.org.ar/PyCamp/2014">¡y ya pueden anotarse!</a> No dejen de venir, es el evento de programación más divertido y productivo del año, :)
 
-En fin. &iquest;Qué ando haciendo? Mil cosas :D</p> |
+En fin. ¿Qué ando haciendo? Mil cosas :D</p> |
