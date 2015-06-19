@@ -1,6 +1,6 @@
 2005-03-23 22:35:51
 PyCon 2005, día 1
-<tags>
+pycon, conferencia, decimal, money
 
 
 Laaaaaaargaron!
@@ -26,6 +26,3 @@ Luego fui a la charla de Alex sobre Patrones de Diseño, y me quedé a la de Bru
 Cuando finalizó, fuí directamente a la sala donde tenía el Espacio Abierto. Basicamente fue una reunioncita donde nos juntamos Anna, Alex, tres personas más que no conocía, y yo, y estuvimos tirando las primeras ideas para Money. Lo encuadramos bastante en lo que queríamos, pero la media hora se acabó enseguida, por lo que supongo que armaré otro Espacio Abierto mañana o pasado, y quizás arme también una Charla Rápida (como las que voy a dar de SiGeFi y PyAr). Veré.
 
 Al terminar esta reunión ya eran más de las siete y cuarto, así que enfilé para casa, ¡era tardísimo!
-[@more@]
-
- |
