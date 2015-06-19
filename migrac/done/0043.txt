@@ -1,16 +1,16 @@
 2005-03-30 11:00:16
 Etapa final
-<tags>
+viaje, paseo, museo aeroespacial, biblioteca del congreso, washington
 
 El sábado dormí una hora y media más que los otros días, porque el museo no abría hasta las 10, me bañé, vestí, tomé un vaso de leche y arranqué.
 
 Me tomé el subte, pero esta vez tuve que volver a comprar un ticket, porque el pasaje que me había comprado el sábado pasado era hasta el viernes. Así que fui hasta la cartelera, me fijé el precio del viaje hasta la estación que necesitaba ir (en fin de semana es tarifa reducida, $1.35), fui hasta la máquina y compré el billete. No quise comprar dos porque no sabía si iba a volver desde esa estación o de otra (¡extraño la Subtecard!).
 
-Salí del subte y no sabía bien donde estaba, ya que las calles no tenían cartel. Caminé tres cuadras para un lado y nada, caminé para el otro lado, y encontré finalmente una calle señalizada, asi que me ubiqué en el mapa y cuatro cuadras después estaba en el <a href="http://www.nasm.si.edu/">Smithsonian Air and Space Museum</a>.
+Salí del subte y no sabía bien donde estaba, ya que las calles no tenían cartel. Caminé tres cuadras para un lado y nada, caminé para el otro lado, y encontré finalmente una calle señalizada, asi que me ubiqué en el mapa y cuatro cuadras después estaba en el `Smithsonian Air and Space Museum <http://www.nasm.si.edu/>`_.
 
-Como su nombre lo indica, es un museo sobre la historia aeroespacial, desde los <a href="http://www.aviacionulm.com/wright.html">hermanos Wright</a> hasta el <a href="http://marsrovers.jpl.nasa.gov/home/">Mars Rover</a>. Hice quince minutos de cola para entrar, y eso que habían cuatro filas más. Realmente estaba entrando muchísima gente, y adentro ya era un quilombo. Pero estuvo muy bueno, es para recomendar, y mínimo tengo que venir otra vez para dedicarle más tiempo a los detalles. Es impresionante los modelos a escala natural o incluso los originales de varios objetos que hicieron historia (como por ejemplo, el módulo de mando del Apolo XI con el que reentraron al planeta)
+Como su nombre lo indica, es un museo sobre la historia aeroespacial, desde los `hermanos Wright <http://www.aviacionulm.com/wright.html>`_ hasta el `Mars Rover <http://marsrovers.jpl.nasa.gov/home/>`_. Hice quince minutos de cola para entrar, y eso que habían cuatro filas más. Realmente estaba entrando muchísima gente, y adentro ya era un quilombo. Pero estuvo muy bueno, es para recomendar, y mínimo tengo que venir otra vez para dedicarle más tiempo a los detalles. Es impresionante los modelos a escala natural o incluso los originales de varios objetos que hicieron historia (como por ejemplo, el módulo de mando del Apolo XI con el que reentraron al planeta)
 
-Luego me caminé unas diez cuadras y fui a la <a href="http://www.loc.gov/homepage/lchp.html">Biblioteca del Congreso</a>. ¡Fantástica! Tiene muchísimo arte en las decoraciones del piso, techos y paredes. Los techos son fantásticos, todos pintados. Parece una Catedral pero sin motivos religiosos, sino siempre orientados al conocimiento y los libros. Paseé un buen rato por adentro, mirando maravillas como la Biblia de Gutenberg, el Mosaico de Minerva, o la sala de lectura principal de la biblioteca (a la cual no pude entrar porque para ello hay que estar registrado, y yo no había llevado el pasaporte).
+Luego me caminé unas diez cuadras y fui a la `Biblioteca del Congreso <http://www.loc.gov/homepage/lchp.html>`_. ¡Fantástica! Tiene muchísimo arte en las decoraciones del piso, techos y paredes. Los techos son fantásticos, todos pintados. Parece una Catedral pero sin motivos religiosos, sino siempre orientados al conocimiento y los libros. Paseé un buen rato por adentro, mirando maravillas como la Biblia de Gutenberg, el Mosaico de Minerva, o la sala de lectura principal de la biblioteca (a la cual no pude entrar porque para ello hay que estar registrado, y yo no había llevado el pasaporte).
 
 Luego caminé un rato por los alrededores y cuando comenzó a oscurecer me tomé el subte para casa.
 
@@ -23,6 +23,3 @@ A las tres de la tarde comencé a guardar las cosas de último momento y a las t
 El vuelo Washington-Miami salió demorado, y cuando llegué a Miami ya era la hora de abordar, así que caminé hasta la otra puerta, esperé cinco minutos, y entré en el otro avión. Como corresponde, dormí la mayor parte del vuelo, pero igual llegué bastante cansado.
 
 ¡De vuelta en casa! :D
-
-[@more@]
- |

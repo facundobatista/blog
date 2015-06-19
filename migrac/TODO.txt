@@ -1,3 +1,4 @@
 - ver que todos los artículos "compilen" rest bien
 - revisar que todas las URLs funcionen
 - que ningún párrafo tenga espacios antes o despues
+- que no hayan tags html que me olvidé: span, href
