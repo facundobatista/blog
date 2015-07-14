@@ -1,0 +1,22 @@
+2005-05-03 19:57:34
+Bowling, libro y el Universo
+bowling, canaleta, decimal, time, niemeyer, cookbook, planeta, lluvia, meteoritos, alineación, dios
+
+
+Este lunes no volví a jugar del todo bien al Bowling, aunque subí mi nivel un poquito. Igualmente Oscarcito se despertó, y sumado a la buena actuación de Diegote ganamos la primer linea que jugamos (lo cual dejó a los tres equipos con cuatro puntos). La próxima linea era "todos contra todos", y también la ganamos. Resultado: salimos primeros en la zona, :D ¡Aguante *Los Locos Canaleta*!
+
+El lunes mismo, también, recibí la copia del `Python Cookbook Segunda Edición <http://www.oreilly.com/catalog/pythoncook2/>`_. Esta copia me la mandó O'Reilly's gratis porque yo escribí, junto con `Gustavo Niemeyer <http://niemeyer.net/>`_, la intro al `capítulo 3: Time and Money <http://www.oreilly.com/catalog/pythoncook2/chapter/ch03.pdf>`_ (Tiempo y Dinero). Gustavo Niemeyer escribió sobre horas y fechas, y yo sobre `Decimal. <http://python.fyxm.net/doc/2.4/whatsnew/node9.html>`_
+
+El domingo me enteré sobre un `nuevo planeta <http://news.bbc.co.uk/hi/spanish/science/newsid_1680000/1680516.stm>`_ que fue descubierto y había bastante revuelo. Cuando me lo comentaron, pregunté si era en *nuestro* sistema solar, y al ser "no" la respuesta, realmente no comprendía por qué la noticia era interesante. Entramos a internet y ahí develé el misterio. Es la primera vez que encuentran un planeta fuera de nuestro sistema solar y que lo ven pasar por enfrente de su estrella.
+
+Esto es importantísimo, ya que por cómo la luz de la estrella atraviesa la atmósfera del planeta, permite conocer qué componentes químicos tiene dicha atmósfera. Y esto, en astronomía, es oro puro.
+
+Hablando de astronomía, el jueves `*lloverán* meteoritos <http://www.planetario.gov.ar/articulos.htm#meteoro>`_, como consecuencia de que todos los años a principios de mayo la Tierra cruza la órbita del cometa Halley. La lluvia "Eta Acuáridas", como se la conoce en la jerga astronómica, tiene ese nombre porque los meteoros *brotan* de una región del cielo cercana a la estrella Eta de la constelación de Acuario. El pico de intensidad será la madrugada del viernes, entre las 3 y las 7 horas, pronosticándose poder observar uno cada diez minutos (en el campo, sin contaminación lumínica, deberían poder verse uno cada dos o tres minutos).
+
+También este jueves, y a pesar de no ser visibles, `se alinearán los planetas <http://www.astrosen.unam.mx/~montalvo/alinea2.html>`_ Neptuno, Marte, Urano, Mercurio y Venus, los asteroides Juno, Vesta, nuestra estrella el Sol, y la Luna. La secuencia se inicia con Neptuno en la constelación de Capricornio seguido de Marte y Urano en la constelación de Acuario, seguido de la Luna, Mercurio y el asteroide Juno en la constelación de Piscis y finaliza en la constelación de Aries con el Sol, Venus y el asteroide Vesta.
+
+Como ven, hasta el Universo está asombrado de que finalmente, y luego de tres meses y medio de pelearme, Speedy completó el cambio de domicilio del servicio ADSL que me presta (que, a fuerza de ser justos, es impecable).
+
+Para colmo de casualidades, este Lunes fue mi cumpleaños. Decir que yo no creo en estas cosas, sino estaría preocupado sobre la integridad subatómica del Universo. "Mi dios no juega dados, quizás esté a mi favor" dicen los Redondos, y muestra un poco mi actitud a estas casualidades.
+
+Algo hay que reconocerle al tal dios (o, como sospecho, dioses), y es que no necesita que yo crea en él para que me malcríe.

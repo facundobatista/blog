@@ -1,0 +1,16 @@
+2005-04-11 12:32:19
+Películas y SETI
+películs, seti, boinc
+
+Agregué las siguientes películas a la `lista <http://www.taniquetil.com.ar/facundo/bdvfiles/peliculas.html>`_:
+
+- Being Julia
+- Comme une image
+- The Ring Two
+- Robots
+- Seres queridos
+- The life aquatic with Steve Zissou
+
+Acabo de revisar y el grupo *Telumendili* del `SETI <http://setiathome.ssl.berkeley.edu/>`_ está en el puesto 5368 (entre todos los grupos de este planeta). Si quieren unirse a nuestra búsqueda, ingresen *acá* y hagan click en *Join*.
+
+**Actualización**: El link de Telumendili y el otro para unirse a la búsqueda ya no funcionan más. Los cráneos del SETI dejaron de usar el programa que venían usando para que todos colaboremos, y pasaron a usar uno que se llama Boinc. Este Boinc es una completa cagada, al punto que todos los que yo conocían que colaboraban, dejaron de hacerlo porque traía más problemas que otra cosa... una lástima.
