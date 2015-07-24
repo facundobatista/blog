@@ -1,0 +1,29 @@
+2005-05-20 07:27:08
+Futuro y novedades
+robots, futuro, replicantes, tecnología, humanidad, terminator, rama, clarke, películas, money, decimal, charla, europython, bowling, rocanrol, banda
+
+
+Robots
+------
+
+¿Alguna vez leyeron o escucharon el concepto de robots autorreplicantes? Básicamente se trata de la idea de robots que pueden fabricar otros robots, con el detalle que la única condición a cumplir es que tengan acceso a los materiales adecuados, sin intervención humana.
+
+Este concepto puede ser llevado a finales catastróficos, como en la serie `Terminator <http://www.lukor.com/cine/especiales-terminator.htm>`_, o a finales fantásticos, como en la cuatrilogía de Rama, de `Arthur C. Clarke <http://es.wikipedia.org/wiki/Arthur_C._Clarke>`_.  Si les picó el bichito de la curiosidad, pasen y vean este `video <http://www.mae.cornell.edu/ccsl/research/selfrep/video/4x4ht4a.mpg>`_ de la Universidad de Cornell que muestra dicho concepto en acción. Hoy. Imagínense *mañana*.
+
+.. image:: http://farm2.static.flickr.com/1200/530128832_02921d2bae_o.jpg
+
+Una pequeña reflexión posterior nos sumergirá en superficiales inquietudes, ya que la incerteza del futuro siempre tiene un efecto normalmente negativo en la psiquis promedio. No voy a tratar de convencerlos de que el futuro va a ser uno o el otro, de que incesantes mareas de pequeños robots traerán este mundo de vuelta del desastre actual, o de que máquinas terribles y superpoderosas eliminarán toda vida del planeta (me refiero a la vida basada en el carbono).
+
+El punto que quiero resaltar es que toda tecnología no es mala *per se*, sino que nosotros podemos utilizarla para el bien o para el mal. Es **nuestra** responsabilidad. Cualquier avance científico nos puede traer tantos problemas como soluciones, el detalle es como usaremos esos avances, constructiva o destructivamente. Pseudo-parafraseando al conocido linyera, cuanto más conozco al humano menos fé le tengo. Pero la esperanza es lo último que se pierde.
+
+
+Película, charlas, bowling y no-rocanrol
+----------------------------------------
+
+El sábado fui a ver *White noise*: -0.  Agregué *Whisky Romeo Zulu* y *The interpreter* en `mi lista de películas pendientes <http://www.taniquetil.com.ar/facundo/bdvfiles/peliculas.html>`_.
+
+Me aprobaron las charlas del módulo *Money* (en la sección de Negocios) y de *Decimal para principiantes* (en la sección Tutoriales) de `EuroPython 2005 <http://www.europython.org/>`_, así que lo único que me queda al respecto es coordinar el tema de aviones y hotel. Y hacer las presentaciones de ambas charlas, je.
+
+El miércoles se jugó la semifinal del Campeonato de Bowling de Telefónica. "Los Locos Canaleta" tuvimos una noche fantástica. Aleja deslumbró a conocidos y extraños. Diegote tuvo una muy buena noche. Oscarcito brilló. Y yo, que venía en el torneo tirando 15 o 20 palos abajo del promedio, hice 150 y 131, 18 palos arriba del mismo. Conclusión: `quedamos primeros <http://farm2.static.flickr.com/1413/530224661_7594ac2634_o.jpg>`_ y pasamos a la final, que se jugará el primero de Junio.
+
+Ayer Jueves fui a ver nuevamente a "Todas para uno", esta vez a Niceto Vega y Humboldt, como me habían pasado el dato en `este comentario <http://www.taniquetil.com.ar/plog/post/1/45>`_. Al leerlo, asumí que era en Niceto Club, y allí me dirigí confiado. Estuve haciendo tiempo más de dos horas, para que más o menos se haga la hora del show, y cuando llegué allá me llevé la sorpresa de que en Niceto Club, ni en ninguno de los pubs de por ahí (pregunté en *todos*) tocaban "Todas para uno". Mal. Tenía ganas de volver a ver la banda, y me había hecho ilusiones. Será la próxima.
