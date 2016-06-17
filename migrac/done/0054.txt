@@ -1,0 +1,91 @@
+2005-06-27 07:17:52
+A Suecia pasando por México
+viaje, argentina, méxico, aerolínea, servicio, suecia, barbacoa, europython, guido
+
+
+Argentina - México
+------------------
+
+Arrancamos raro, ya que era un día de semana, tempranito a la tarde. Me resultó inusual.
+
+El viaje era con escala en Chile (Santiago), con cambio de avión incluído. En Chile no tuve que retirar las valijas y volver a pasarlas por aduana, iban directo. Cuando la persona del check-in en Buenos Aires me dijo que las valijas iban derechito a México, le pregunté por qué yo tenía que cambiar de avión y las valijas no, ¿ellas viajaban mejor que yo? El tipo me miró, dudó, creo que evaluó si yo estaba loco o bromeando, y sólo intentó una sonrisa nerviosa como toda respuesta (bueno, por lo menos no llamó a seguridad...).
+
+El primer tramo, Buenos Aires - Santiago estuvo muy bien. El servicio de LAN Chile era de calidad, como en Aerolineas Argentinas. Un detalle como comparación: en la cena te sirven vino tinto o blanco, según prefieras; en American Airlines, una latita de cerveza (ni pregunté por el vino) costaba cinco dólares.
+
+El segundo tramo, Santiago - México DF fue también impecable. Este fue vía AeroMéxico. Casi que comienzo a detectar un patrón... por un lado tenemos las aerolineas latinoaméricanas, con un servicio muy bueno (tanto en los productos como en la atención humana); por el otro tenemos a las aerolíneas europeas y yanquis, donde sucede todo lo contrario. La única excepción es Swiss Air, pero justo son los suizos (¿alguien supondría que ellos tendrían un mal servicio?). Vamos a ver cuando viaje por una aerolínea nórdica desde México a Suecia en que grupo entra...
+
+
+Primeros dos días en México
+---------------------------
+
+Ambos días trabajamos de 9 a 19, con almuerzo en el medio (bueno, no en el medio, arrancamos entre las tres y cuatro de la tarde). No hay mucho que contar estando encerrado en una oficina, así que sin pretender ser coherente, les voy tirando algunos conceptos que logré rescatar de la ciudad.
+
+He dicho en otras oportunidades que otras ciudades eran chicas (por ejemplo, Bologna). Ahorita me toca decir que el DF es inmenso. No es solamente grande, es inmenso. Los barrios se alternan en importancia o desarrollo, pero sigues, y sigues, y sigues, y todavía estás adentro del DF. Como analogía, creo que podríamos decir que tiene el tamaño (habría que confirmarlo...) de Capital y Gran Buenos Aires, pero todo efectivamente siendo la capital. Tengan en cuenta, además, que dentro del DF viven 25 millones de personas... imagínenselo.
+
+.. image:: http://farm2.static.flickr.com/1321/530129538_f27f0ce3ce_o.jpg
+
+.. role:: strike
+
+:strike:`Aquí o te mueves con un taxi o no te mueves. Puedes camin` Acá o te movés en taxi o no te movés. Podés caminar algunas cuadras, siempre y cuando no haya empezado a oscurecer, pero normalmente para ir de un lado al otro es tanta la distancia que vas en taxi. El problema es que siempre te dicen que no te tomes cualquier taxi, sino que trates de llamar a uno de los de "sitio" (esto es, que te van a buscar a donde estás). Estos taxis no tienen reloj, o sea que tenés que negociar con el chofer la tarifa, y esto es un problema para los que recién llegamos porque no tenemos ni idea de cuanto cuesta normalmente ir de un punto al otro, así que seguramente algún sobreprecio estamos pagando...
+
+En el DF, en esta época que es de lluvias, como regla general llueve a la tarde. Algún día puede no llover, u otro día puede llover entero, pero normalmente de mañana y tarde tempranito el clima está bueno, y a la tarde se nubla todo y llueve fuerte. En la parte alta de la ciudad llueve más fuerte que en la parte baja, pero llueve.
+
+.. image:: http://farm2.static.flickr.com/1348/530129580_957fa442cc_o.jpg
+
+Encontré la radio que escucharía si viviese en México: FM 106.5 (Mix 106.5, "mucho ritmo"). Basicamente te pasan los éxitos de los '80 y los '90.
+
+No se como los mexicanos son tranquilos. Yo, que no me pongo normalmente nervioso por el tránsito, termino con los pelos de punta cada vez que me subo a un taxi. Realmente tendría que poder acostumbrarme para manejar un auto aquí. Creo que la caja automática en los autos se popularizó tanto en los últimos años en México justamente por los problemas de tránsito.
+
+Si para algo quería aprovechar el viaje, aparte de para conocer México, era para visitar a Diego Foncerrada, el cuate compañero de Vigaforte (del curso de Jóvenes Profesionales que hice hace un par de semanas).  Lo llamé varias veces, y luego de un par de mensajes pudimos coordinar para vernos: me pasaría a buscar el viernes luego de trabajar.
+
+El viernes terminamos a las 18:30, aproximadamente, pero yo me quedé leyendo unos mails. Luego de esperar a Diego más de una hora, fui a buscarlo a su piso. Estaba hasta las manos de trabajo, así que lo esperé mientras iba armando la presentación de Decimal para EuroPython.  Como parte del trabajo que estaba haciendo, Diego llamó a varias personas para comentarles algo sobre un mail que él les había enviado.  Muy interesante, ya que ambos interlocutores usaban, en la presentación y la despedida, un lenguaje compuesto principalmente por monosílabos (con algunas excepciones bisilábicas), que con bastaaante esfuerzo uno podía traducir al castellano. Aparte de interesante, divertido. Está para estudiarlo como protocolo de comunicaciones.
+
+.. image:: http://farm2.static.flickr.com/1041/530225301_d655ef9cb3_o.jpg
+
+A la noche fui con Diego a comer a "Los ahogados", el restaurant que tiene él con otros tres socios. Vinieron también Juan Pablo, del curso, y su novia Lizbeth. De entrada comimos *tequeños", que son como bastoncitos de queso envueltos en masa y cocinados al horno, muy parecido a empanadas de queso cilíndricas (ya haré de estos en Argentina).
+
+Y luego *torta ahogada*, una receta que él mismo trajo de Guadalajara, y que es una especie de sánguche (torta, en mexicano) de carnitas, al que uno le agrega cebolla, col, limón y salsa picante a gusto, y luego le pone mucha salsa que no es picante, hasta ahogar la torta (esto se come en un recipiente que contiene el excedente de salsa, por supuesto). Luego uno va comiendo el sánguche con una mano, mientras que con una cuchara va re-bañando lo que queda con la salsa sobrante.  ¡Espectacular!
+
+Charlamos hasta pasada la medianoche, y luego Diego me llevó al hotel.  No nos fuimos de parranda porque yo quería levantarme más o menos temprano al día siguiente, y Diego *debía* levantarse temprano para ir a trabajar (sí, un sábado...).
+
+
+Paseo por México
+----------------
+
+El sábado me levanté medianamente temprano, me bañe, desayuné, y luego volví a la habitación. Armé la valija y pasé todos los gastos hechos en la laptop. Bajé, hice el check-out, dejé la valija en consigna, y comencé a caminar a eso de las 12hs.
+
+El recorrido (para aquellos que conocen México) partió del hotel Meliá Reforma hasta la Torre Latinoamericana. De allí al Zócalo, y bajando por Brasil hasta Paseo de la Reforma (que es donde empieza), y luego por esa misma, pasando de nuevo por el hotel, hasta el Angel de la Independencia, y vuelta al hotel, a las 17:30.
+
+La Torre Latinoamericana era el edificio más grande de latinoamérica hasta que se construyó la Torre Mayor, también en el DF.
+
+En varios puntos paré para filmar, pero en un lugar entré: Palacio de Bellas Artes. Luego de ver que había, fuí al Museo, donde recorrí una colección de pinturas y fotografías: "El mito de dos volcanes". Trata sobre los volcanes `Popocatéptl <http://es.wikipedia.org/wiki/Popocat%C3%A9petl>`_ e `Iztaccíhuatl <http://es.wikipedia.org/wiki/Iztacc%C3%ADhuatl>`_. Realmente interesante.
+
+   Guardianes del valle
+   a través del tiempo
+   Aquí me planto, efímero
+   y les rindo homenaje
+
+En el segundo piso hay varios murales. Absolutamente imperdible para cuando vayan: "El hombre contralor del universo" (o "El hombre en el
+cruce de caminos") de `Diego Rivera <http://es.wikipedia.org/wiki/Diego_Rivera>`_.
+
+.. image:: http://farm2.static.flickr.com/1046/530129912_df8ad97982_o.jpg
+
+De vuelta en el hotel, retiré la valija y me tomé el taxi hasta el aeropuerto, donde luego de los procedimientos normales partí hacia Göterborg, Suecia (vía Amsterdam). En el primer viaje me senté al lado de un flaco que estaba leyendo un libro. De reojo leí algunas estrofas, y me pareció interesantísimo. Trata sobre lenguaje corporal, basicamente, pero aparte de la teoría marca pautas y recomienda acciones (por ejemplo, que en una sala de reuniones sientes a tus opositores de espalda a la puerta, mientras que vos y tus colaboradores de frente a ellos, esto es porque el humano se pone inconscientemente más nervioso cuando está de espalda a espacios abiertos). Se llama "The definitive book of Body Language", de Allan y Barbara Pease; voy a tratar de conseguirlo cuando vuelva a Argentina.
+
+Otros libros que me quiero comprar son los de `Joel Spolsky <http://www.joelonsoftware.com/>`_. Es un fantástico escritor (escribe sobre software en general), y disfruto muchísimo leerlo. No solo me interesa el contenido de lo que escribe (tema de los cuales sabe bastante), sino que me encanta la forma en que lo escribe. Me interesa uno sobre diseño de interfaces gráficas (User Interface Design for Programmers) y otro donde él recopila artículos que están bien escritos (The Best Software Writing I).
+
+
+Primer noche en Suecia
+----------------------
+
+La verdad es que no estaba muy seguro de como llegar al hostel donde me hospedaría. Hostel no es la palabra indicada, ya que es como un campus para estudiantes: bloques de departamentos, en edificios de hasta tres pisos, todos en la misma zona.
+
+En el avión me encontré con otro pythonista, que asistía a `la conferencia <http://www.europython.org/>`_, pero el tampoco sabía muy bien como llegar. Retiramos las valijas, cambiamos plata y nos tomamos el colectivo hasta la ciudad. En el colectivo nos encontramos con un grupo de 5 pythonistas más, y ellos sí sabían como llegar (ya que estuvieron aquí el año pasado), así que fuimos con ellos: caminamos unos veinte minutos al bajar del autobus y llegamos.
+
+Nos registramos y subí a mi habitación. Conocí a mi compañero de cuarto, `Maik Roeder <http://uzopia.editthispage.com/>`_, que estaba trabajando en su presentación. Me bañé, cambié, y me fuí a la reunión del domingo a la noche que hacían en el campus. Ellos le decían "barbacoa", pero realmente era como un asado de distintas carnes: desde vaca en pedacitos para armar brochete, hasta filetes de merluza que los ponían en la parrilla todavía frizados. Eso sí, lo cocinaban todo al carbón, no a la llama.
+
+La reunión estuvo muy buena. La mitad del tiempo hablé en inglés, y la mitad del tiempo en castellano, ya que la mayoría sabe algunas palabras, y aparte conocí gente de afuera que vivió en Perú, o en Rosario, o aprende castellano porque le gusta, o directamente son de paises hispanoparlantes, como Juan David, que es de Valencia (España) u otro chico que es de Ecuador.
+
+Igualmente esa no fue la mayor sorpresa, sino esta: estaba charlando con otras dos personas cuando siento a mi espalda que alguien dice como al aire "Is that Facundo?" (¿es aquel Facundo?). Me doy vuelta y era el mismísimo `Guido van Rossum <http://www.python.org/~guido/>`_, :D. Nos quedamos charlando un rato y luego seguimos con la fiesta.
+
+Estuve hasta medianoche, pero era muy raro porque todavía no había oscurecido del todo. Luego me dijeron que a esta altura del año no oscurece completamente en ningún momento. La pasé muy bien, charlando de grupo en grupo. La gente es macanuda, y se nota que están allí ante todo para divertirse. Comí bien, tomé bastante (pero sólo cerveza), y me fui a dormir para comenzar la conferencia al otro día.

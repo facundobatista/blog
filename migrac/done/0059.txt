@@ -1,0 +1,21 @@
+2005-07-01 10:44:56
+Procesamiento distribuido
+xmlrp, procesamiento distribuido, server, client
+
+Como comenté en otro `post <http://www.taniquetil.com.ar/plog/post/1/55>`_, descubrí en una de las charlas al `SimpleXMLRPCServer <http://www.python.org/doc/2.4/lib/module-SimpleXMLRPCServer.html>`_. Basicamente lo que hace este pedazo de software es "publicar" via http, en el puerto que uno quiera, una determinada función.
+
+Luego, uno puede ejecutar esa función desde un cliente, vía la conexión http. Aquí tenemos dos códigos, ```clnt_trivial.py`` <http://www.taniquetil.com.ar/facundo/bdvfiles/code/procdistrib/clnt_trivial.py>`_ y ```serv_trivial.py`` <http://www.taniquetil.com.ar/facundo/bdvfiles/code/procdistrib/serv_trivial.py>`_, que muestran como esto funciona. Ejecuten el servidor, que va quedar escuchando, y luego el cliente. Este último sale sólito cuando termina, el otro hay que cortarlo con un ctrl-c.
+
+En ánimos de simular una tarea en la que se pasa poca información pero el tiempo de procesamiento es alto, creé un módulo (```factorizar.py`` <http://www.taniquetil.com.ar/facundo/bdvfiles/code/procdistrib/factorizar.py>`_) con una función (``factoriz_sum``) que recibe un número, lo factoriza, luego suma los factores y devuelve ese total. Para probarlo, tenemos ```serv_lineal.py`` <http://www.taniquetil.com.ar/facundo/bdvfiles/code/procdistrib/serv_lineal.py>`_, que importa el módulo y sirve la función. Y ```clnt_lineal.py`` <http://www.taniquetil.com.ar/facundo/bdvfiles/code/procdistrib/clnt_lineal.py>`_, que llama a la función 10 veces, con un número alto incrementándolo de a uno (de manera de que cada factoreo tarde distinto).
+
+La mecánica de prueba es la misma, y verán como va procesando la función para los distintos números, mostrando el server una conexión para cada ejecución de la función. Luego de probar los diez números, muestra el total de tiempo tardado.
+
+Y acá llegamos a la idea que tuve cuando escuché hablar de este módulo: procesamiento distribuido. La idea es tener el mismo programa servidor, con la misma función, en máquinas distintas, y de algún lado ir alimentado estos servidores para que procesen en paralelo, y devuelvan el valor procesado.
+
+El lado del servidor es fácil, ya que se ejecuta el mismo programa en distintas máquinas, ```serv_processes.py`` <http://www.taniquetil.com.ar/facundo/bdvfiles/code/procdistrib/serv_processes.py>`_, llamándolo con el número de puerto en el que queremos que escuche. El lado del cliente, ```clnt_processes.py`` <http://www.taniquetil.com.ar/facundo/bdvfiles/code/procdistrib/clnt_processes.py>`_, es apenas más complicado para ejecutarlo: solamente debemos indicarle los distintos pares servidor/puerto. En ambos casos, pueden ejecutar al programa sin argumentos para que les muestre la sintáxis.
+
+Lo que es más complicado es el código del lado cliente, ya que debe llevar la cuenta de cuantos servidores tiene disponibles, ir disparando *threads* para usar cada servidor, y dinámicamente cada vez que un servidor termina lanzar otro *thread* para usarlo y procesar un nuevo valor. Armé entonces un módulo, ```reparteThreads.py`` <http://www.taniquetil.com.ar/facundo/bdvfiles/code/procdistrib/reparteThreads.py>`_, que se encarga de todo este trabajo.
+
+Para usarlo tenemos tres etapas: instanciamos la clase con los servidores que creamos y el nombre de la función que hay que ejecutar. Luego le pasamos cada uno de los valores a procesar. Y finalmente le indicamos que termine, para esperar los últimos *threads*, y obtener todos los resultados. Fíjense en el programa cliente y verán cuán sencillo queda.
+
+Entre este módulo, y el poder de SimpleXMLRPCServer, tenemos un framework para procesamiento distribuido bien fácil de usar. Disfrútenlo.
