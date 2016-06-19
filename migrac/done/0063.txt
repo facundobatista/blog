@@ -13,9 +13,15 @@ No sé por qué no los anoté antes, pero acá van tres espectáculos que vi en 
 
 (*): No incluyo el link, ya que la página oficial, que no tiene contenido, abre otras dos ventanas, una que no va a ningún lado, y otra que te carga un flash bastante pesadito y recién después te presenta un menú con contenido. Cuando sean conscientes de la calidad de sitio que hacen, y lo arreglen, paso el link. Y si vieron los dos links anteriores, que tampoco son gran cosa, verán que no me puse taaaaan en hincha pelotas al respecto.
 
+--------------
+
 Agregué `Bowling for Columbine <http://www.imdb.com/title/tt0310793/>`_ a mi lista de películas (y agregué el link a esta lista en el menú de la derecha, en *Enlaces.Varios*). Y ví *The return of the King (extended version)*: +1.
 
+--------------
+
 Al fantástico producto `Google Maps <http://maps.google.com/>`_ de uso libre y gratuito para ver imágenes satelitales de todo el mundo (ejemplos: `el techo de mi casa <http://maps.google.com/maps?q=buenos+aires,+argentina&ll=-34.734811,-58.533440&spn=0.005575,0.008827&t=k&hl=en>`_, `la plaza mayor de Bologna <http://maps.google.com/maps?q=bologna,+italy&ll=44.493781,11.342998&spn=0.005575,0.008827&t=k&hl=en>`_, `las pirámides de Egipto <http://maps.google.com/maps?ll=29.976282,31.131027&spn=0.008175,0.012918&t=k&hl=en>`_), se le sumó `este otro <http://moon.google.com/>`_ que muestra algunas imágenes.... de la Luna!
+
+--------------
 
 Vamos con otras tres citas relacionadas con Python:
 
