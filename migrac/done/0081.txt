@@ -1,13 +1,15 @@
 2005-09-09 14:01:32
 Banda, federales, y citas
-<tags>
+música, zaguán, todas para uno, policía federal, movistar, estafa, schools of magic, python, citas
 
-<span style="font-weight: bold;">Banda</span>
+Banda
+-----
 
-El sábado 17 de septiembre tocan <span style="font-style: italic;">Todas para uno</span> en El Zaguán, Colombres 1669, Boedo. Es a las 23hs, $4 la entrada. Yo casi seguro que voy, :)
+El sábado 17 de septiembre tocan *Todas para uno* en El Zaguán, Colombres 1669, Boedo. Es a las 23hs, $4 la entrada. Yo casi seguro que voy, :)
 
 
-<span style="font-weight: bold;">Federales</span>
+Federales
+---------
 
 Me suena el teléfono, de recepción, en planta baja. Yo pienso, "Mierda, ¿tenía una reunión con alguien que venía?". Atiendo y el quía de abajo me dice "Disculpe, acá hay dos señores de la Policía Federal que lo buscan". Antes de decir otra palabra, en cinco disimulados segundos, guardé la cocaína abajo de la mesa, escondí la duplicadora de tarjetas de crédito y me deslogueé de la computadora de la SIDE que había crackeado. Digo, entonces, "¿A miii?. Bueno, hágalos pasar al cuarto piso".
 
@@ -18,24 +20,26 @@ No, mentira. Los saludo y me dan un telegrama, firmado por una fiscal, que les i
 Nada que preocuparse. O nada de lo que me preocupo yo, que no soy parámetro de nada...
 
 
-<span style="font-weight: bold;">Citas</span>
+Citas
+-----
 
 Una que robé de una firma...
 
-<div style="margin-left: 40px;">There are three schools of magic.
-One: State a tautology, then ring the changes on its corollaries; that's philosophy.
-Two: Record many facts. Try to find a pattern. Then make a wrong guess at the next fact; that's science.
-Three: Be aware that you live in a malevolent Universe controlled by Murphy's Law, sometimes offset by Brewster's Factor; that's engineering.
-<span style="font-style: italic;">Robert A. Heinlein</span>
-</div>
+    There are three schools of magic.
+    One: State a tautology, then ring the changes on its corollaries; that's philosophy.
+    Two: Record many facts. Try to find a pattern. Then make a wrong guess at the next fact; that's science.
+    Three: Be aware that you live in a malevolent Universe controlled by Murphy's Law, sometimes offset by Brewster's Factor; that's engineering.
+    *Robert A. Heinlein*
+
 ...y dos de Python:
 
-<div style="margin-left: 40px;">"What's Python?"
-"It's a computer programming language."
-"You mean, like DOS?"
-<span style="font-style: italic;">Some guy in a bar and Eric S. Raymond (who was wearing a conference T-shirt) at IPC7 </span>
+    "What's Python?"
+    "It's a computer programming language."
+    "You mean, like DOS?"
+    *Some guy in a bar and Eric S. Raymond (who was wearing a conference T-shirt) at IPC7*
 
-I would recommend not wasting any more time on the naming issue. (This is a recurring theme in my posts -- remember, I spent about 0.3 microseconds thinking about whether "Python" would be a good name for a programming language, and I've never regretted it.)
-<span style="font-style: italic;">Guido van Rossum, 25 Nov 1998</span>
-</div>[@more@]
- |
+    I would recommend not wasting any more time on the naming issue. (This is
+    a recurring theme in my posts -- remember, I spent about 0.3 microseconds
+    thinking about whether "Python" would be a good name for a programming
+    language, and I've never regretted it.)
+    *Guido van Rossum, 25 Nov 1998*

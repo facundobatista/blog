@@ -1,0 +1,21 @@
+2005-09-28 09:16:45
+No-triste canción de amor
+la renga, música
+
+Tema de La Renga, ligeramente reestructurado. *Triste canción de amor*, del disco *A dónde me lleva la vida* (1994).
+
+Me encanta, aunque reemplazaría "triste" por "alegre" (``:%s/triste/alegre/g``). Dedicada a Laura.
+
+    Ella existió solo en un sueño
+    Y él es el poema que el poeta nunca escribió
+    ...
+    El es como el mar y ella como la luna
+    y en las noches de luna llena hacen el amor
+    ...
+    El es como un dios y ella como una virgen
+    y los dioses les enseñaron a pecar
+    ...
+    Ella existió solo en un sueño
+    Y él es el poema que el poeta nunca escribió
+    Y en la eternidad los dos unieron sus almas
+    Para darle vida a esta triste canción de amor
