@@ -1,46 +1,52 @@
 2005-10-19 10:42:38
 Magia, Firefox y citas
-<tags>
+magia, clarke, invisibilidad, firefox, citas, python
 
-<span style="font-weight: bold">Magia</span>
 
-"Any sufficiently advanced technology is indistinguishable from magic" escribió <a href="http://es.wikipedia.org/wiki/Arthur_C._Clarke">Arthur C. Clarke</a> en <span style="font-style: italic">Profiles of the future</span> (1961). Lo que traducido vendría a ser algo así como "Cualquier tecnología lo suficientemente avanzada es indistinguible de la magia". Y para demostrar este punto, y que vivimos tiempos de cambios, les quiero presentar algo que hasta ahora veíamos, justamente, como magia.
+Magia
+-----
 
-<img src="http://farm2.static.flickr.com/1388/530141594_42dfd11c7b_o.gif" border="0" />
+"Any sufficiently advanced technology is indistinguishable from magic" escribió `Arthur C. Clarke <http://es.wikipedia.org/wiki/Arthur_C._Clarke>`_ en *Profiles of the future* (1961). Lo que traducido vendría a ser algo así como "Cualquier tecnología lo suficientemente avanzada es indistinguible de la magia". Y para demostrar este punto, y que vivimos tiempos de cambios, les quiero presentar algo que hasta ahora veíamos, justamente, como magia.
+
+.. image:: http://farm2.static.flickr.com/1388/530141594_42dfd11c7b_o.gif
 
 Este cobertor de invisibilidad está hecho de material retro-reflectivo, que refleja la luz en el misma dirección que viene, ya que la capa tiene granos microscópicos en su superficie que cumplen esta función. Adicionalmente, un medio espejo permite que un espectador vea virtualmente de la posición de un proyector que envía una imagen del paisaje del fondo, siendo este fondo capturado por una cámara de vídeo detrás del objeto camuflado. Una computadora calcula la perspectiva apropiada y transforma la imagen que se proyectará, de manera de que el observador termine viendo la misma imagen que vería si el objeto que se intenta camuflar no estuviese ahí.
 
-En <a href="http://www.star.t.u-tokyo.ac.jp/projects/MEDIA/xv/images/oc-okugai3.mpg">este video</a> pueden ver el efecto en movimiento, realmente sorprendente. Si quieren saber más sobre esta tecnología, pueden leer <a href="http://www.star.t.u-tokyo.ac.jp/projects/MEDIA/xv/VRIC2003.pdf">este paper</a>. Esta <a href="http://www.theharrowgroup.com/articles/20050829/20050829.htm#_Toc112983162">noticia</a> la levanté del Reporte de Tecnología de Harrow.
+En `este video <http://www.star.t.u-tokyo.ac.jp/projects/MEDIA/xv/images/oc-okugai3.mpg>`_ pueden ver el efecto en movimiento, realmente sorprendente. Si quieren saber más sobre esta tecnología, pueden leer `este paper <http://www.star.t.u-tokyo.ac.jp/projects/MEDIA/xv/VRIC2003.pdf>`_. Esta `noticia <http://www.theharrowgroup.com/articles/20050829/20050829.htm#_Toc112983162>`_ la levanté del Reporte de Tecnología de Harrow.
 
 
-<span style="font-weight: bold">Firefox</span>
+Firefox
+-------
 
-En otro hito impresionante en la historia del software libre, Firefox llegó a los <span style="font-weight: bold">cien millones de descargas</span>. ¡100000000!. Hay que tener en cuenta que estas descargas están impulsadas por Firefox 1.0, estrenado hace casi un año.
+En otro hito impresionante en la historia del software libre, Firefox llegó a los **cien millones de descargas**. ¡100000000!. Hay que tener en cuenta que estas descargas están impulsadas por Firefox 1.0, estrenado hace casi un año.
 
-<img src="http://farm2.static.flickr.com/1162/530141656_1bfff3dcca_o.jpg" border="0" />
+.. image:: http://farm2.static.flickr.com/1162/530141656_1bfff3dcca_o.jpg
 
-Se espera una aceleración de las descargas cuando se libere Firefox 1.5 (por ahora en estado <a href="http://www.mozilla.org/products/firefox/releases/1.5beta2.html">beta2</a>), que traerá muchas mejoras, entre ellas:
-<ul><li>Actualizaciones automáticas
-<li>Navegación acelerada, con mejoras en el uso del cache.
-<li>Mejoras en el bloqueo de ventanas emergentes (popup blocking)
-<li>Clear Private Data, permite borrar infromación sensible
-<li>Rediseño de la interfaz de usuario
-<li>Actualizaciones de accesibilidad incluyendo soporte para DHTML
-<li>Herramienta para reportar sitios que no renderizan correctamente en Gecko
-<li>Soporte mejorado para Mac OS X (10.2 y superior)
-<li>Soporte para SVG, CSS 2, CSS 3, y JavaScript 1.6.
-<li>Varias mejoras en materia de seguridad.
-</ul>
+Se espera una aceleración de las descargas cuando se libere Firefox 1.5 (por ahora en estado `beta2 <http://www.mozilla.org/products/firefox/releases/1.5beta2.html>`_), que traerá muchas mejoras, entre ellas:
 
-<span style="font-weight: bold">Citas</span>
+- Actualizaciones automáticas
+- Navegación acelerada, con mejoras en el uso del cache.
+- Mejoras en el bloqueo de ventanas emergentes (popup blocking)
+- Clear Private Data, permite borrar información sensible
+- Rediseño de la interfaz de usuario
+- Actualizaciones de accesibilidad incluyendo soporte para DHTML
+- Herramienta para reportar sitios que no renderizan correctamente en Gecko
+- Soporte mejorado para Mac OS X (10.2 y superior)
+- Soporte para SVG, CSS 2, CSS 3, y JavaScript 1.6.
+- Varias mejoras en materia de seguridad.
 
-<div style="margin-left: 40px">Mucking with builtins is fun the way huffing dry erase markers is fun. Things are very pretty at first, but eventually the brain cell lossage will more than outweigh that cheap thrill.
-<span style="font-style: italic">Barry Warsaw, 23 Mar 2000 </span>
 
-"The future" has arrived but they forgot to update the docs.
-<span style="font-style: italic">R. David Murray, 9 May 2000 </span>
+Citas
+-----
 
-Very rough; like estimating the productivity of a welder by the amount of acetylene used.
-<span style="font-style: italic">Paul Svensson, on measuring programmer productivity by lines of code, 19 Jun 2000 </span>
-</div>[@more@]<div style="text-align: right">
-</div><div style="text-align: right"> </div> |
+    Mucking with builtins is fun the way huffing dry erase markers is fun.
+    Things are very pretty at first, but eventually the brain cell
+    lossage will more than outweigh that cheap thrill.
+    *Barry Warsaw, 23 Mar 2000*
+
+    "The future" has arrived but they forgot to update the docs.
+    *R. David Murray, 9 May 2000*
+
+    Very rough; like estimating the productivity of a welder by the
+    amount of acetylene used.
+    *Paul Svensson, on measuring programmer productivity by lines of code, 19 Jun 2000*
