@@ -1,6 +1,6 @@
 2005-11-07 06:52:01
 Malditos demonios grises
-<tags>
+música
 
 Tu amor abrió una herida
 Porque todo lo que te hace bien siempre te hace mal
@@ -11,7 +11,7 @@ La bola sobre el piano la mañana aquella que dejamos de cantar
 Llegó la muerte un día y arrasó con todo
 Todo, todo, todo un vendaval
 Y fue un fuerte vendaval
-<span style="font-style: italic;">Tumbas de la gloria (Fito Páez) </span>
+*Tumbas de la gloria (Fito Páez)*
 
 No me arrepiento de este amor
 Aunque me cueste el corazón
@@ -21,7 +21,7 @@ Debo arrancarme de tu piel
 De tu mirada de tu ser
 Yo siento que la vida se nos va
 Y que el día de hoy no vuelve más
-<span style="font-style: italic;">No me arrepiento de este amor (Attaque 77)</span>
+*No me arrepiento de este amor (Attaque 77)*
 
 Jodido este noviembre
 Que me fusila y amanece sin vos
@@ -31,7 +31,7 @@ Y mientras las gentes salen a morir sus vidas
 Yo mastico tu nombre
 Y le tiro este corazón a los perros
 Y después, te olvido
-<span style="font-style: italic;">Jodido noviembre (Los Caballeros de la Quema) </span>
+*Jodido noviembre (Los Caballeros de la Quema) *
 
 Estos tres pedacitos de canción no reflejan lo que me pasa ahora, sí lo que me pasaba hace 36 horas. Te sigo queriendo, y creo que vamos a estar más fuertes y mejor juntos así.
 
@@ -40,5 +40,4 @@ Pisando demonios para ver la luz
 Nunca le pedí nada a la suerte
 Ahora está el riesgo de perderte
 Y no sé si pueda cargar esa cruz
-<span style="font-style: italic;">Mío</span>[@more@]
- |
+*Mío*
