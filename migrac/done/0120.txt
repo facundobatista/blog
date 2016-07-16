@@ -1,6 +1,6 @@
 2005-11-24 06:13:12
 Ooootro valle
-<tags>
+música
 
 Hay recuerdos que no voy a borrar
 Personas que no voy a olvidar
@@ -16,7 +16,7 @@ Personas que me quiero llevar
 Aromas que no quiero olvidar
 Silencios que prefiero callar
 Mientras vos jugás
-<span style="font-style: italic;">Brillante sobre el mic (Fito Páez) </span>
+*Brillante sobre el mic (Fito Páez)*
 
 
 Ni un analista, ni un doctor
@@ -26,7 +26,7 @@ La gente busca una razón
 Yo estoy buscando un rocanrol que me sacuda la cabeza
 Puedes echarme de aquí por no pensar como vos
 Pero nunca podrás sacarme mi amor
-<span style="font-style: italic;">Nunca podrás sacarme mi amor (Fito Páez) </span>
+*Nunca podrás sacarme mi amor (Fito Páez)*
 
 
 Se va desinflando nuestra milonga
@@ -38,5 +38,4 @@ Más garúa, más te extraño
 Arrodillada en mi boca
 Nunca juego bien esta historia
 Del tipo buen perdedor
-<span style="font-style: italic;">Oxidado (Los Caballeros de la Quema) </span>
-[@more@] |
+*Oxidado (Los Caballeros de la Quema)*

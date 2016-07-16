@@ -1,8 +1,8 @@
 2005-12-20 14:40:49
 Ganando tiempo
-<tags>
+tiempo, rotación, planetas, marea, reloj, tierra, luna, sol
 
-Uno de los efectos de las atracciones gravitatorias entre los cuerpos celestes más conocidos por los pescadores es la llamada <a href="http://es.wikipedia.org/wiki/Fuerza_de_marea">Fuerza de Marea</a>.
+Uno de los efectos de las atracciones gravitatorias entre los cuerpos celestes más conocidos por los pescadores es la llamada `Fuerza de Marea <http://es.wikipedia.org/wiki/Fuerza_de_marea>`_.
 
 El término en si es más genérico, y paso a explicarlo. Si tenemos dos cuerpos muy grandes, por ejemplo, un planeta y su luna, el planeta ejerce una fuerza debido a su campo gravitatorio sobre el cuerpo más chico (y viceversa pero no quiero llegar ahí todavía). Debido a que el campo gravitatorio pierde intensidad con el cuadrado de la distancia, la fuerza ejercida sobre el cuerpo menor es mayor del lado cercano al cuerpo grande que del lado lejano. A veces, esta diferencia de fuerzas es tan grande, que termina despedazando al cuerpo chico: por eso en Saturno no tenemos casi lunas sino miríadas de cascotitos que forman los anillos.
 
@@ -16,6 +16,6 @@ La Tierra también sufre este efecto, y aunque todavía no dejó de girar, cada 
 
 Que la Tierra gire cada vez más lento, sumado a que nosotros definimos un segundo en función de relojes atómicos que son mucho más estables que los planetas, nos da como resultado que tarde o temprano difieran y tengamos que ajustar uno o el otro. Como no podemos hacer que los átomos pulsen más lento, ni tampoco acelerar la rotación de la Tierra, lo que hacemos es ajustar la relación entre ambos contadores.
 
-Y es por eso, que este fin de año, por recomendación del <a href="http://www.iers.org/">International Earth Rotation and Reference Systems Service</a>, tendremos un minuto de 61 segundos. Lo que debemos hacer nosotros es, en nuestros relojes, cuando sean las 00:00:01 del nuevo año, resetearlo a 00:00:00 nuevamente.
+Y es por eso, que este fin de año, por recomendación del `International Earth Rotation and Reference Systems Service <http://www.iers.org/>`_, tendremos un minuto de 61 segundos. Lo que debemos hacer nosotros es, en nuestros relojes, cuando sean las 00:00:01 del nuevo año, resetearlo a 00:00:00 nuevamente.
 
-Y listo, aprovechamos ese segundo que nos ofrece la naturaleza, nos tomamos un vermouth con papas fritas, y ¡good show![@more@] |
+Y listo, aprovechamos ese segundo que nos ofrece la naturaleza, nos tomamos un vermouth con papas fritas, y ¡good show!

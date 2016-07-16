@@ -1,10 +1,10 @@
 2005-12-22 11:03:26
 ¿Vacaciones?
-<tags>
+vacaciones, traslasierra, mar, luna
 
 Ya sé donde quiero irme de vacaciones. Muy posiblemente en Marzo me vaya para Traslasierra, en Córdoba. Ya había escuchado de ella, pero me terminaron de confirmar que es un lugar fantástico:
 
-<img src="http://farm2.static.flickr.com/1161/530242611_483c35b56b_o.jpg" />
+.. image:: http://farm2.static.flickr.com/1161/530242611_483c35b56b_o.jpg
 
 Gracias, Soledad, por la foto y los consejos.
 
@@ -13,4 +13,3 @@ El tema es ver que hago antes de Marzo. Una semana me quiero tomar, tirando para
 Estoy saturado del Universo. Necesito hacer a mi cuerpo amigo del viento y la distancia, ;). Necesito irme, despejarme, olvidarme de algunas cosas de acá.
 
 Necesito mirar al mar de noche, le tengo que contar algunas cosas que sólo él y la Luna comprenderían...
-[@more@]                                                                                                                                                                                                               |
