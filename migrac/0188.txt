@@ -1,21 +1,15 @@
 2006-06-28 18:25:24
 Otras memorias de Python StaFe
-<tags>
+memorias, posts, santa fe, relatos, fotos
 
+No quería dejar de comentarles dos otros relatos de la primer jornada de Python Santa Fe (aparte de la `mía <http://www.taniquetil.com.ar/plog/post/1/185>`_).
 
-No quería dejar de comentarles dos otros relatos de la primer jornada de Python Santa Fe (aparte de la <a href="http://www.taniquetil.com.ar/plog/post/1/185">mía</a>).
+El `primer relato <http://pyar.decode.com.ar/moin/Eventos/Reuniones/Reunion16>`_ es de Nubis, quien nos acompañó desde Buenos Aires, y cuenta bajo el punto de vista de un asistente, ¡está muy divertido!
 
+.. image:: http://farm2.static.flickr.com/1191/533411999_d2218bb1bc_o.jpg
 
-El <a href="http://pyar.decode.com.ar/moin/Eventos/Reuniones/Reunion16">primer relato</a> es de Nubis, quien nos acompañó desde Buenos Aires, y cuenta bajo el punto de vista de un asistente, ¡está muy divertido!
+El `segundo relato <http://www.ceportela.com.ar/como-se-hizo-la-i-jornada-python-en-santa-fe/>`_ es de Cesar Portela, uno de los organizadores, y está contado desde el punto de vista puramente de organizador. Si alguna vez tienen que organizar algún evento, ¡no dejen de leerlo!
 
+.. image:: http://farm2.static.flickr.com/1240/533412029_fe679a9b1c_o.jpg
 
-<img src="http://farm2.static.flickr.com/1191/533411999_d2218bb1bc_o.jpg" />
-
-
-El <a href="http://www.ceportela.com.ar/como-se-hizo-la-i-jornada-python-en-santa-fe/">segundo relato</a> es de Cesar Portela, uno de los organizadores, y está contado desde el punto de vista puramente de organizador. Si alguna vez tienen que organizar algún evento, ¡no dejen de leerlo!
-
-
-<img src="http://farm2.static.flickr.com/1240/533412029_fe679a9b1c_o.jpg" />
-
-
-Las fotos que les dejo acá están tomadas prestadas del sitio donde están todas las fotos sacadas, <a href="http://www.lugli.org.ar/mediawiki/index.php/Fotos_1%C2%BA_Jornada_Python_en_Santa_Fe">aquí</a>.[@more@] |
+Las fotos que les dejo acá están tomadas prestadas del sitio donde están todas las fotos sacadas, `aquí <http://www.lugli.org.ar/mediawiki/index.php/Fotos_1%C2%BA_Jornada_Python_en_Santa_Fe>`_.

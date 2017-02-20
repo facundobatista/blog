@@ -2,3 +2,4 @@
 - revisar que todas las URLs funcionen
 - que ningún párrafo tenga espacios antes o despues
 - que no hayan tags html que me olvidé: span, href
+- asegurar que al final, en los tags, se incluyan las palabras del titulo

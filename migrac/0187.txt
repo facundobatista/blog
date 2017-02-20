@@ -1,15 +1,11 @@
 2006-06-22 15:22:13
 Viendo videos sin conexión a internet
-<tags>
-
+videos, youtube, google videos, apple trailers, mplayer, script, python
 
 Ufff, como me cuesta volver a agarrar ritmo con el blog... la verdad es que no tengo tampoco taaaaantas cosas para contar, pero creo que algunas tengo y se me pasan.
 
-
 Un ejemplo de esto servirá para el post de hoy.
 
+Me hice un `programita <http://www.taniquetil.com.ar/facundo/bdvfiles/code/bajavideos.py>`_ (en `Python <http://www.python.com.ar/moin>`_, por supuesto), que corre por linea de comandos, al que uno le pasa la URL del video que está viendo en `Google Videos <http://video.google.com/>`_, `YouTube <http://youtube.com/>`_, o los `trailers en Apple <http://www.apple.com/trailers/>`_, y el programita sólo te baja el video a disco, para luego verlo sin tener que estar conectado a internet.
 
-Me hice un <a href="http://www.taniquetil.com.ar/facundo/bdvfiles/code/bajavideos.py">programita</a> (en <a href="http://www.python.com.ar/moin">Python</a>, por supuesto), que corre por linea de comandos, al que uno le pasa la URL del video que está viendo en <a href="http://video.google.com/">Google Videos</a>, <a href="http://youtube.com/">YouTube</a>, o los <a href="http://www.apple.com/trailers/">trailers en Apple</a>, y el programita sólo te baja el video a disco, para luego verlo sin tener que estar conectado a internet.
-
-
-Para ver los videos, no puedo dejar de recomendar a <a href="http://www.mplayerhq.hu/">mplayer</a>, que corre tanto en Windows como Linux, y es mi preferido porque reproduce casi todo, aunque sufre de inconvenientes como no tener una interfaz gráfica en Windows (¿pero quién se fija en esas cosas? ;).[@more@] |
+Para ver los videos, no puedo dejar de recomendar a <a href="http://www.mplayerhq.hu/">mplayer</a>, que corre tanto en Windows como Linux, y es mi preferido porque reproduce casi todo, aunque sufre de inconvenientes como no tener una interfaz gráfica en Windows (¿pero quién se fija en esas cosas? ;).
