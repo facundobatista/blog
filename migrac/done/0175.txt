@@ -1,0 +1,30 @@
+2006-04-17 15:48:03
+Anti spam
+blog, spam, captcha
+
+Seguimos con el trabajo detrás de bambalinas.
+
+El blog que uso, LifeType, tiene control bayesiano de spam. Esto quiere decir que, instalado el sitio desde cero, se obtiene el siguiente comportamiento:
+
+
+- Yo posteo un artículo.
+
+- Viene alguien (hay programas que lo hacen automáticamente) y comenta el post con "Porno free www.zaraza.com".
+
+- Yo recibo la notificación del comentario, pero veo que es propaganda, por lo que lo marco como Spam.
+
+- Viene de nuevo el programa y comenta con "Free porno www.jujuruaja.com" (fíjense que cambia el comentario, aunque la *idea* es la misma).
+
+- Yo recibo notificación del comentario, veo que de nuevo es propaganda, y lo marco también como Spam.
+
+- Una vez más viene el programa y comenta con "Porno www.cuidatequerete.com".
+
+- Automáticamente, el sistema antispam (que mediante estadística *aprende *a detectar el spam), lo marca de esta manera y ya no me jode más.
+
+El problema es que de unas semanas para acá, me están metiendo un tipo de spam que cambia mucho entre vuelta y vuelta. Y por cada "golpe", recibo unos cinco comentarios en unos siete artículos. Resultado: tengo que marcar muchísimos artículos como spam. Y como va cambiando mucho, el sistema no aprende.
+
+Es por esto que, a partir de ahora, para comentar van a tener que sortear una prueba que para un humano es fácil pero para un programa no: van a ver unos números en un gráfico, y tienen que insertar esos números en un cuadro de texto.
+
+Les pido disculpas por la molestia, y les agradezco de antemano, pero ya me volvía loco este tema.
+
+Muchas gracias, :)

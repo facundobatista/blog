@@ -1,0 +1,23 @@
+2006-04-11 08:04:51
+Estoy, estoy
+blog, hosting, dattatec, servicio
+
+Y un día volvió, y siguió posteando.
+
+En general, al blog lo tengo superdesatendido porque tengo cero tiempo libre. Y quizás mis actividades se volvieron un poquitín más privadas que antes, pero me quedaron noticias que dar, películas que comentar.
+
+También, cuando tengo un rato libre, se lo dedico al mantenimiento del blog y no al contenido. Esto es algo que antes no me insumía tiempo, pero ahora sí. Con Mariano estamos viendo qué hacer, ya que la solución de nuestro hosting, Dattatec, es a todas luces insuficiente.
+
+Bueno, la verdad es que el servicio se volvió una mierda. A él el sitio `le funca cuando quiere <http://chaghi.com.ar/blog/post/2006/04/10/dattatec_todo_mal>`_ (o vayan al `raiz <http://chaghi.com.ar/blog>`_ y busquen el post "Dattatec, todo mal", ya que lo otro no funca siempre bien), y yo me estoy peleando todavía con los nombres de los links.
+
+Y en ambos casos, el soporte que nos dan es lamentable. Una porquería. Insuficiente. Tenemos tres alternativas:
+
+- Largar el hosting propietario y colgarnos de un administrador público de blogs (tipo `Blogger <http://www.blogger.com/start>`_). El problema acá es que yo quiero seguir manteniendo un hosting como el actual por mi dirección de mail y por las otras páginas que cuelgo aparte del blog en sí.
+
+- Irnos a otra empresa de hosting. Lo inconveniente acá es migrar todo el sitio.
+
+- Dejar el blog. No queremos, :)
+
+Yo estoy convencido de la segunda opción, sólo quiero encontrar aquel hosting que me convenza y que sea medianamente barato. `Datacenter1  <http://www.datacenter1.com/>`_parece ser una buena opción, ¿alguien lo probó?.
+
+Resumiendo... estoy, sigo vivo. Sólo que trabajando atrás de cámara...

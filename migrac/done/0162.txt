@@ -1,10 +1,11 @@
 2006-02-24 21:07:01
 PyCon 2006, días 0 y 1
-<tags>
+pycon, texas, viaje, python, conferencia, decimal, unicode
 
-<b>Día 0</b>
+Día 0
+-----
 
-El viaje estuvo bien. Luego de viajar varias veces en avión, se pierde la gracia del viaje y empieza a molestar un montón de otras cosas. Pero dormí mucho (el cuello me está matando), programé SiGeFi, leí, y hasta hice el amague de ver <a href="http://www.imdb.com/title/tt0432291/">The Fog</a> (no pintaba muy bien la película al principio, pero cuando mataron a los primeros, confirmé mis sospechas: es una porquería).
+El viaje estuvo bien. Luego de viajar varias veces en avión, se pierde la gracia del viaje y empieza a molestar un montón de otras cosas. Pero dormí mucho (el cuello me está matando), programé SiGeFi, leí, y hasta hice el amague de ver `The Fog <http://www.imdb.com/title/tt0432291/>`_ (no pintaba muy bien la película al principio, pero cuando mataron a los primeros, confirmé mis sospechas: es una porquería).
 
 Aunque salimos media hora tarde llegamos antes a Houston, donde cambié de avión luego de pasar la aduana (sin problemas, pero me sigue molestando que te hagan sacar las zapatillas). El vuelo hasta Dallas fue cortito (en otras palabras, dormí el 90% del viaje), y a los 20 minutos de bajar del avión ya estaba en la camioneta de SuperShuttle que me llevaba al hotel.
 
@@ -12,14 +13,15 @@ Llegué al mismo y ya en el check-in me encontré con un conocido: Gustavo Nieme
 
 A la tarde me fuí a pasear por la ciudad, ya que era el único día que iba a tener libre. La verdad, una porquería. Toda la ciudad son: edificios inmensos y feos, autos grandes, estacionamientos (miles), y autopistas que van y vienen.
 
-<img src="http://farm2.static.flickr.com/1392/530313597_f6e72f6366_o.jpg" />
+.. image:: http://farm2.static.flickr.com/1392/530313597_f6e72f6366_o.jpg
 
 Volví enseguida, luego de comerme unos tamales en un local mexicano. Al llegar me encontré con Anna Martelli Ravenscroft y con David Goodger, al que aproveché para preguntarle si les podía dar una mano con la organización.
 
 Me dijo que sí, pero más tarde, así que me fuí a pegar un baño, dormir un rato, y luego bajé. Doblamos remeras (con un método que no conocía, es rapidísimo), y armamos las bolsitas que te dan con la registración de la conferencia. Luego algunos se fueron a comer, pero yo que había almorzado tarde me compré un café con leche y me fui para la habitación: tenía un par de mails que contestar y debía leer al menos una vez la charla que daría al día siguiente (y cambiarle un par de cosas, especialmente "EuroPython 2005" por "PyCon 2006", :p).
 
 
-<b>Día 1</b>
+Día 1
+-----
 
 Arrancó temprano con la keynote de Plone. No hablaron del software en si, sino de la forma de organizarse (tienen entre dos mil y tres mil colaboradores), algo de los inicios, etc. Pero lo hicieron tan, pero tan aburrido, que la gente se iba y realmente costaba seguirles el hilo. Consejos para cuando armen una presentación: usen filminas. Esta gente ponía imágenes abstractas (el logo de plone, por ejemplo) y las dejaba por minutos. Aburrido.
 
@@ -27,9 +29,9 @@ En el break me encontré con Arnaldo Riquelme, un argentino que vive en Alaska d
 
 Luego del break di la charla yo. El lugar era inmenso y había bastante gente. Me presentó Anna. Fue raro, porque nunca había hablado en un estrado: realmente me gusta estar más cerca de la filmina y poder señalarla e interactuar con ella; como que de un estrado es demasiado impersonal. Pero igual estuvo bastante bien. Los noté enganchados y hasta se rieron dos o tres veces de comentarios míos. Y a petición mía, como siempre, me ayudaron con el inglés, :D.
 
-<img src="http://farm2.static.flickr.com/1428/530209370_7d8b6ac3d1_o.jpg" />
+.. image:: http://farm2.static.flickr.com/1428/530209370_7d8b6ac3d1_o.jpg
 
-La segunda charla fue sobre el uso de Python en una serie de aplicaciones web con mucho tráfico. Mostraron desafíos, soluciones, arquitectura. Y basicamente demostraron que la frase "Python no escala bien" es mentira. Realmente manejan mucho tráfico, y Python les facilita la vida.
+La segunda charla fue sobre el uso de Python en una serie de aplicaciones web con mucho tráfico. Mostraron desafíos, soluciones, arquitectura. Y básicamente demostraron que la frase "Python no escala bien" es mentira. Realmente manejan mucho tráfico, y Python les facilita la vida.
 
 La tercer charla de la mañana fue del estado actual de Dabo. Dabo es un constructor de aplicaciones estándares comerciales, de las del tipo que se arman fácil con VisualBasic (y a las cuales estaba orientado Clipper y COBOL en su momento). Parece funcionar bien, y aunque seguro que debe ser limitado, para las aplicaciones normales debe servir. Si alguna vez tengo que hacer algo así (como un Control de Stock, por ejemplo), seguro que voy a probarlo.
 
@@ -41,4 +43,4 @@ La última charla interesante de la tarde fue dada por David Goodger, "Understan
 
 Después hice tiempo, laburando en distintas cosas hasta que se hizo la hora de la reunión de la Python Software Foundation. Esta es mi primera, ya que votaron por mi inclusión en la PSF justamente en la reunión anterior, en PyCon 2005. Estuvo buena, porque uno ve toda la interna que hay en las decisiones atrás de la organización. Por ejemplo, estuvimos discutiendo sobre los "grants" (asignaciones de dinero para que gente trabaje en cosas específicas). Parece que este año vamos por otra, así que PyAr debería estar atenta...
 
-A la noche ya estaba bastante cansado, y encima llovía afuera, así que cero salir a comer. Me compré un cuarto de leche, un café y dos barritas de cereal, y estoy cenando eso al mismo tiempo que escribo esto, :).[@more@] |
+A la noche ya estaba bastante cansado, y encima llovía afuera, así que cero salir a comer. Me compré un cuarto de leche, un café y dos barritas de cereal, y estoy cenando eso al mismo tiempo que escribo esto, :)

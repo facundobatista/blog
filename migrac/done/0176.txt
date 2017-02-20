@@ -1,31 +1,34 @@
 2006-04-25 15:06:55
 Noticias tres
-<tags>
+google summer code, psf, decimal, python 3000, guido, santa fe, jornadas, viaje
 
-<strong>Google Summer Code</strong>
+Google Summer of Code
+---------------------
 
-El GSC es un evento donde Google, a través de diversas asociaciones, le da dinero a estudiantes para que desarrolle programas que serán de beneficio a la comunidad. Estas asociaciones designan a distintos <em>mentores</em>, que son los que supervisarán los proyectos de los estudiantes.
+El GSC es un evento donde Google, a través de diversas asociaciones, le da dinero a estudiantes para que desarrolle programas que serán de beneficio a la comunidad. Estas asociaciones designan a distintos *mentores*, que son los que supervisarán los proyectos de los estudiantes.
 
 El circuito es el siguiente. Una persona firma como mentor con Google, diciendo que pertenece a determinada asociación. Google confirma con esa asociación, y luego le otorga el título de Mentor a esa persona. Los estudiantes proponen proyectos y la asociación los aprueba (o los estudiantes directamente eligen de los proyectos que ofrece esa asociación), y luego se le asigna un mentor para que supervise el proyecto.
 
 Al aprobarse el proyecto, el estudiante queda pegado con la asociación para terminar el proyecto (o completar distintas etapas), con determinados montos de dinero fijados. Al ir completando las etapas, o el proyecto total, se le pagará al estudiante la suma acordada.
 
-La noticia es que firmé como Mentor con Google, a través de la <a href="http://www.python.org/psf/">Python Software Foundation</a>, de la cual soy miembro, y ya me aprobaron. Como tengo cero tiempo libre, la idea es ofrecerle a la PSF la posibilidad de que acepte proyectos en castellano. No creo que agarre otro proyecto (aunque se está barajando el tema de reescribir <a href="http://docs.python.org/dev/library/decimal.html">Decimal</a> en C, estaría piola ser mentor ahí).
+La noticia es que firmé como Mentor con Google, a través de la `Python Software Foundation <http://www.python.org/psf/>`_, de la cual soy miembro, y ya me aprobaron. Como tengo cero tiempo libre, la idea es ofrecerle a la PSF la posibilidad de que acepte proyectos en castellano. No creo que agarre otro proyecto (aunque se está barajando el tema de reescribir `Decimal <http://docs.python.org/dev/library/decimal.html>`_ en C, estaría piola ser mentor ahí).
 
 Detalle de color: el cuestionario que uno llena en Google para ser Mentor, implica marcar en un mapa del mundo, usando google maps, la ubicación de uno, :)
 
 
-<strong>Python 3000</strong>
+Python 3000
+-----------
 
 Guido dió una charla sobre Python 3.0. Mucho de la charla, ya se conocía, pero yo me desayuné de varias cosas interesantes aquí. Lo más loco, es cuán superpuesto estará con el branch 2.x (o sea, que quizás salga el 2.6 y el 3.0 casi al mismo tiempo, pero seguirán viniendo 2.7, 2.8, etc, para que se tengan varios años de migrar a la nueva tecnología).
 
-Los slides están <a href="http://www.python.org/doc/essays/ppt/accu2006/Py3kACCU.ppt">acá</a>.
+Los slides están `acá <http://www.python.org/doc/essays/ppt/accu2006/Py3kACCU.ppt>`_.
 
 
-<strong>Santa Fe</strong>
+Santa Fe
+--------
 
-Se confirmó para el 3 de Junio, sábado, la Primer <a href="http://www.pythonsantafe.com.ar/">Jornada Python Santa Fé</a> en la UTN de esa ciudad, al cual fuimos invitados como expositores Lucio y yo.
+Se confirmó para el 3 de Junio, sábado, la Primer `Jornada Python Santa Fé <http://www.pythonsantafe.com.ar/>`_ en la UTN de esa ciudad, al cual fuimos invitados como expositores Lucio y yo.
 
 La idea es que demos un par de charlas cada uno durante el día. Como es un sábado, y ese viernes es laborable, viajaríamos a la tarde, llegamos directamente a meternos en el sobre en un hotel, y arrancamos el sábado tempranito.
 
-Lamentablemente Mariano no va a venir, porque está llegando un par de días antes a Argentina, de su <a href="http://chaghi.com.ar/blog/post/2006/04/23/ultimos_preparativos_para_el_viaje">viaje</a> por Europa.[@more@] |
+Lamentablemente Mariano no va a venir, porque está llegando un par de días antes a Argentina, de su `viaje <http://chaghi.com.ar/blog/post/2006/04/23/ultimos_preparativos_para_el_viaje>`_ por Europa.

@@ -1,0 +1,9 @@
+2006-04-26 09:41:11
+¿Qué haremos esta noche, Cerebro?
+firefox, google, descargas
+
+A partir de hoy, `Google <http://www.google.com.ar/>`_ promociona `Firefox <http://www.mozilla-europe.org/es/products/firefox/>`_ en su página principal (es para gente que entra desde los Estados Unidos y utilizando el Microsoft Internet Explorer solamente, quizás por ahora).
+
+Esto son excelentes noticias para nuestro browser preferido (aguante el zorrito, vieja) y para el software libre y abierto en general.
+
+El contador de bajadas de Firefox (lo pueden ver `aquí <http://www.spreadfirefox.com/>`_) registra 167 millones al día de hoy. Al que mejor estima cuantas bajadas tendrá al mediodía del 26 de Mayo, le invito una cerveza.

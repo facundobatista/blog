@@ -1,6 +1,6 @@
 2006-03-10 23:17:12
 Un desastre
-<tags>
+trabajo, cierre, movistar, dattatec, hosting, servicio
 
 Hace rato que no posteo. Es verdad, les debo el post sobre mi cambio de trabajo. O mejor dicho, sobre el cierre de mi etapa en Movistar.
 
@@ -16,6 +16,6 @@ Un día de semana.
 
 Sin avisar.
 
-Y rompieron todo, y hace <b>más de una semana</b> que está roto y no lo arreglan.
+Y rompieron todo, y hace **más de una semana** que está roto y no lo arreglan.
 
-Bu, :(.[@more@]                                                                  |
+Bu, :(.
