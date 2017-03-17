@@ -1,8 +1,8 @@
 2006-09-05 13:56:22
 Haciendo caso
-<tags>
+manejo, reglas, tránsito
 
-El sábado a la tarde/noche fui a lo de Leito porque <a href="http://www.taniquetil.com.ar/plog/post/1/204">nos juntábamos por PyWeek</a>. El camino que agarré fue Panamericana, Donado, La Pampa, etc.
+El sábado a la tarde/noche fui a lo de Leito porque `nos juntábamos por PyWeek <http://www.taniquetil.com.ar/plog/post/1/204>`_. El camino que agarré fue Panamericana, Donado, La Pampa, etc.
 
 El motivo de este post es el comportamiento de un automovilista sobre Donado. Tal calle (o avenida, no sé), es relativamente ancha con sus tres carriles, y un sábado a esa hora, bien tranquila. Tiene una velocidad máxima de 60, con carteles que lo indican, y los semáforos en sincronismo con esa velocidad.
 
@@ -14,4 +14,4 @@ Si el tipo hubiese seguido las indicaciones de máxima, hubiese ido como yo, y l
 
 O sea, si hubiese seguido las reglas de tránsito, hubiese estado más tranquilo, con el mismo resultado final. ¿Por qué esa manía de no respetar las cosas?
 
-Y estoy seguro de que esto de jodernos por no respetar las reglas se puede extrapolar a <b>muchas</b> otras circunstancias.[@more@] |
+Y estoy seguro de que esto de jodernos por no respetar las reglas se puede extrapolar a **muchas** otras circunstancias.

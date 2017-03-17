@@ -1,6 +1,6 @@
 2006-09-20 18:45:44
 Bienvenida, Primavera
-<tags>
+música, letra, primavera, sabina
 
 Con su boina calada, con sus guantes de seda
 su sirena varada, sus fiestas de guardar
@@ -46,6 +46,6 @@ pero siempre hay un barco que naufraga en Madrid
 pero siempre hay un sueño que despierta en Madrid
 pero siempre hay un vuelo de regreso a Madrid
 
-<i>"Yo me bajo en Atocha", de Joaquín Sabina</i>
+*"Yo me bajo en Atocha", de Joaquín Sabina*
 
-El la espera en Madrid, yo la recibo abrazado a la mujer que amo.[@more@] |
+El la espera en Madrid, yo la recibo abrazado a la mujer que amo.
