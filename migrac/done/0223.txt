@@ -1,6 +1,6 @@
 2006-11-15 06:50:54
 Siendo feliz
-<tags>
+música, letra
 
 De vez en cuando la vida nos besa en la boca
 Y a colores se despliega como un atlas
@@ -22,7 +22,6 @@ Y nos regala un sueño tan escurridizo
 Que hay que andarlo de puntillas
 Por no romper el hechizo
 
-<em>Joan Manuel Serrat "De vez en cuando la vida"</em>
+*Joan Manuel Serrat "De vez en cuando la vida"*
 
 Un fin de semana como el que pasé, con la persona que amo a mi lado, me reafirma algo que muchas veces pienso: tengo los dioses de mi lado, :)
-[@more@]                                                                              |
