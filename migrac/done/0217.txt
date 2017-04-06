@@ -1,6 +1,6 @@
 2006-11-04 18:29:29
 Pedro B.
-<tags>
+almafuerte, letra, poesía
 
 No te des por vencido, ni aun vencido
 no te sientas esclavo, ni aun esclavo
@@ -16,15 +16,14 @@ o como el robledal, cuya grandeza
 necesita del agua y no la implora
 ¡Que muerda y vocifere vengadora,
 ya rodando en el polvo, tu cabeza!
-<a href="http://es.wikipedia.org/wiki/Pedro_Bonifacio_Palacios">Almafuerte</a>, <em>"Piu avanti"</em>
+`Almafuerte <http://es.wikipedia.org/wiki/Pedro_Bonifacio_Palacios>`_, *"Piu avanti"*
 
-¡Levántate holgazán!&hellip; ¿ves el conjunto?,
-la gloriosa verdad de las estrellas,
-pues sabe que sin ti, sombra, trasunto,
-dejarían de andar y de ser bellas;
-¡porque basta que ceda un solo punto,
-para verlas caer a todas ellas!&hellip;
+¡Levántate holgazán! ¿ves el conjunto?
+la gloriosa verdad de las estrellas
+pues sabe que sin ti, sombra, trasunto
+dejarían de andar y de ser bellas
+¡porque basta que ceda un solo punto
+para verlas caer a todas ellas!
 ¡Levántate holgazán: vibre tu pulpa,
 peligra el universo por tu culpa!
-<a href="http://es.wikipedia.org/wiki/Pedro_Bonifacio_Palacios">Almafuerte</a>, parte de <em>"Sin tregua"</em>
-[@more@] |
+`Almafuerte <http://es.wikipedia.org/wiki/Pedro_Bonifacio_Palacios>`_, parte de *"Sin tregua"*

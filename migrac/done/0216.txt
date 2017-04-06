@@ -1,12 +1,11 @@
 2006-11-03 18:47:10
 Maldiciendo a .NET
-<tags>
+problema, .net, imprimir, blog
 
 Son casi las diez de la noche, y sigo en la oficina. Estoy con Juan Pablo acá, Peter en la casa, y Marinela y Virgilio en Venezuela.
 
-¿Todo por qué? Porque .NET, en su afán de meterse en el medio, te hace cosas que no pedís. Y como las <a href="http://www.velocityreviews.com/forums/t108640-invalid-length-for-a-base64-string-any-ideas.html">hace mal</a>, te caga.
+¿Todo por qué? Porque .NET, en su afán de meterse en el medio, te hace cosas que no pedís. Y como las `hace mal <http://www.velocityreviews.com/forums/t108640-invalid-length-for-a-base64-string-any-ideas.html>`_, te caga.
 
 Anyway, por lo menos aproveché y terminé de reemprolijar el plugin para imprimir, :). Fíjense que en todos los posts tienen, al lado del link para el comentario, un nuevo link para imprimir, que formatea el texto y todo de manera de que quede lindo en la impresora, ahorrando papel y tinta.
 
 Es el primero de una lista de 10 cosas que quiero mejorar/agregar al blog. Ya les contaré nuevos cambios!
-[@more@]                                                                                                                                                     |

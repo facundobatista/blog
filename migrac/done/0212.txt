@@ -1,0 +1,13 @@
+2006-10-25 21:52:47
+Bandera PyAr - Votación
+bandera, fabricación, votación
+
+Estamos a miércoles, y el viernes se cierra la votación de la primer bandera de `Python Argentina <http://www.python.com.ar/moin>`_ (más info `acá <http://python.com.ar/moin/Bandera>`_, con estos `diseños <http://python.com.ar/moin/Bandera/propuestas>`_, pero para votar tienen que estar suscriptos a la `lista de PyAr <http://www.python.com.ar/moin/ListaDeCorreo>`_).
+
+Yo propuse cuatro modelos. Y tuvieron bastante buena aceptación: Aunque no voy ganando, porque el modelo *Pablo6* me desplaza del primer puesto, tengo los cuatro modelos dentro de los siete más votados.
+
+.. image:: http://farm2.static.flickr.com/1197/533315956_727fe4661c_o.png
+
+El viernes cierra la votación, hay dos días para hacerle alguna que otra modificación menor, y el lunes ya se manda a imprimir, :D.
+
+Gracias a `Alecu <http://www.alecu.com.ar/>`_, por llevar adelante este proyecto.

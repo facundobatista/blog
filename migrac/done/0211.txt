@@ -1,6 +1,6 @@
 2006-10-18 21:38:01
 Segunda etapa
-<tags>
+blog, lifetype, infraestructura
 
 Bueno, arranca una nueva etapa del blog.
 
@@ -17,4 +17,3 @@ Por lo pronto, todo funciona bastante bien. Les pido por favor que cualquier fun
 Ahora que tengo estable el sitio, es hora de corregir esos detalles.
 
 Mil gracias, y bienvenidos de nuevo, :D
-[@more@] |
