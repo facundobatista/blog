@@ -1,6 +1,6 @@
 2007-02-22 07:28:40
 Rueda que te rueda
-<tags>
+rueda, mecánica, reparación, frenos, luces, automóvil club argentino
 
 Cuando salimos de vacaciones, hace un par de semanas, con Moni empezamos a sentir una ligera vibración en el auto.
 
@@ -12,15 +12,15 @@ Llegamos a la costa sin inconvenientes, y me dije que debería ir a balancear el
 
 Encima, no era la misma vibración, era mayor. Pero veníamos más lento, y todo bien. Paramos a comprar unas aceitunas, ya cerca de llegar a casa (a menos de 40km de agarrar la autopista BsAs-LaPlata), y al ratito empezamos a sentir un ruido raro, pero justo una avioneta volaba arriba nuestro, a baja altura, y creímos que el ruido venía de ahí. La avioneta se fue, y el ruido seguía: habia muerto un neumático (notable que el auto iba derechito, impecable), así que me tiré a la banquina y lo cambié.
 
-<img src="http://farm2.static.flickr.com/1060/540697838_cab2c2dbc3_o.jpg" border="0" width="450" height="324" />
+.. image:: http://farm2.static.flickr.com/1060/540697838_cab2c2dbc3_o.jpg
 
-Notablemente, cuando volví a la ruta no sentía ninguna vibración: la culpa no era de la falta de balanceo, sino que era provocada por ese neumático que reemplacé. Raro, ¿no? ¿Se rompió el neumático porque tenía un problema y la vibración venía de ahí? ¿Se rompió el neumático porque sí? ¿O por la vibración que luego se arregló sola? (imaginar aquí la musiquita de <a href="http://es.wikipedia.org/wiki/Dimensi%C3%B3n_Desconocida">La Dimensión Desconocida</a>).
+Notablemente, cuando volví a la ruta no sentía ninguna vibración: la culpa no era de la falta de balanceo, sino que era provocada por ese neumático que reemplacé. Raro, ¿no? ¿Se rompió el neumático porque tenía un problema y la vibración venía de ahí? ¿Se rompió el neumático porque sí? ¿O por la vibración que luego se arregló sola? (imaginar aquí la musiquita de `La Dimensión Desconocida <http://es.wikipedia.org/wiki/Dimensi%C3%B3n_Desconocida>`_).
 
 Cuando llegué a destino, mi prioridad fue comprar un neumático nuevo, ya que al otro día era el cumpleaños de mi tía Vivi y nos íbamos hasta Luján. Por suerte encontré una gomería que me cambie el neumático (lo compré en Carrefour, porque la gomería sólo tenía Firestone) y balancee.
 
-El gomero me explicó que cuando el neumático es muy viejo (el mío tenía más de cuatro años y 75 mil kilómetros, era uno de los originales del auto), a veces se le forma un <em>huevo</em> (se relajan en un punto las capas de acero), y eso provoca vibraciones cada vez mayores hasta que el neumático se rompe:
+El gomero me explicó que cuando el neumático es muy viejo (el mío tenía más de cuatro años y 75 mil kilómetros, era uno de los originales del auto), a veces se le forma un *huevo* (se relajan en un punto las capas de acero), y eso provoca vibraciones cada vez mayores hasta que el neumático se rompe:
 
-<img src="http://farm2.static.flickr.com/1353/540806667_6f94c85f5a_o.jpg" border="0" />
+.. image:: http://farm2.static.flickr.com/1353/540806667_6f94c85f5a_o.jpg
 
 Ok, son cosas que pasan. El otro neumático tan viejo que tenía pasó a ser el auxilio, dejé el auxilio original como par del neumático nuevo que había comprado, y listo.
 
@@ -36,12 +36,12 @@ Con respecto a la rueda que había jodido al principio, la volví a desarmar par
 
 Inmenso error.
 
-<img src="http://farm2.static.flickr.com/1380/540806725_49e6f6cb19_o.png" border="0" />
+.. image:: http://farm2.static.flickr.com/1380/540806725_49e6f6cb19_o.png
 
-Regla número uno: cuando tengas una rueda desarmada, no apretes el freno. Regla número dos: cuando tengas una rueda desarmada, no apretes el freno. Regla número tres: cuando hayas apretado el freno, con la rueda desarmada, y haya saltado una piezita al carajo, no vuelvas a apretar el freno para ajustar nada.
+Regla número uno: cuando tengas una rueda desarmada, no apretes el freno. Regla número dos: cuando tengas una rueda desarmada, no apretes el freno. Regla número tres: cuando hayas apretado el freno, con la rueda desarmada, y haya saltado una piecita al carajo, no vuelvas a apretar el freno para ajustar nada.
 
 Cuando apretamos el freno por segunda vez (sí, soy un tarado), para ajustar una de las piezas, directamente se salió uno de los cilindritos del freno, y empezó a perder líquido hidráulico. Ahí sí me puse nervioso, porque ya eran como las siete de la tarde, y estaba en el horno, :(.
 
 Pero pudimos volver a poner todo como correspondía (gracias a la ayuda de Gustavo, que laburó par a par conmigo, y mi viejo que siempre es la última palabra y referente en lo que a mecánica se refiere), aunque incluso tuvimos que desarmar la otra rueda, porque no sabíamos en dónde iba la pieza que había saltado.
 
-Conclusión: no dejen de pagar el <a href="http://www.aca.org.ar/">Automóvil Club Argentino</a> porque nunca saben cuando lo pueden necesitar, :p.[@more@] |
+Conclusión: no dejen de pagar el `Automóvil Club Argentino <http://www.aca.org.ar/>`_ porque nunca saben cuando lo pueden necesitar, :p.
