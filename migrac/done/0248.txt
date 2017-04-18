@@ -1,11 +1,11 @@
 2007-03-27 17:16:17
 Curso de Python
-<tags>
+curso, python
 
-La semana pasada me contactaron de dos lugares diferentes, para dar un curso de <a href="http://www.python.org/">Python</a>, y en ambos casos me preguntaron cómo sería un temario básico.
+La semana pasada me contactaron de dos lugares diferentes, para dar un curso de `Python <http://www.python.org/>`_, y en ambos casos me preguntaron cómo sería un temario básico.
 
 Yo dí varios cursos de Python, en empresas, universidades y terciarios (incluso a particulares), siempre utilizando una técnica de enseñanza que probó ser dinámica, productiva y eficiente, :).
 
 Preparé entonces dicho temario, que sería lo básico que se puede enseñar sobre Python, más un último punto en que hay varios temas no tan estándares (quizás necesites saber sobre bases de datos, o XMl, o threads, quizás no).
 
-Dejé el temario <a href="http://www.taniquetil.com.ar/facundo/cursoPython.html">acá</a> (también puse el enlace en la barra de la derecha).[@more@]                                                                                              |
+Dejé el temario `acá <http://www.taniquetil.com.ar/facundo/cursoPython.html>`_ (también puse el enlace en la barra de la derecha).

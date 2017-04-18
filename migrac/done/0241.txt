@@ -1,8 +1,8 @@
 2007-03-06 06:42:16
 San Pablo
-<tags>
+viaje, brasil, aeropuerto, wifi, espera
 
-O, cómo lo escribirían aquí, <a href="http://es.wikipedia.org/wiki/S%C3%A3o_Paulo">S&atilde;o Paulo</a>.
+O, cómo lo escribirían aquí, <a href="http://es.wikipedia.org/wiki/S%C3%A3o_Paulo">São Paulo</a>.
 
 Estoy en Brasil esta semana, sí. Por trabajo. Salí de casa el lunes a la mañana, el viernes a la noche estoy en casa nuevamente.
 
@@ -22,8 +22,8 @@ Resulta que Telecom hizo un acuerdo con uno (o más) de los bares que están ah�
 
 Este... no había WiFi con tarjetita. Si van al aeropuerto, conéctense a Arnet, ingresen a la pantallita de login, y pongan admin/admin. Así, tan tontos que no sacaron el acceso por default, tuve red un rato (cuando me di cuenta de eso), hasta que salió el avión.
 
-Después anduvo todo bien, llegué al hotel demasiado tarde como para ir a la oficina, pero me acomodé, salí a comer (me encontré de casualidad con Tiago, conocido de <a href="http://www.logicacmg.com/">LogicaCMG</a>, aunque ya habíamos hablado y lo tenía que llamar), me bañé y me fui a dormir.
+Después anduvo todo bien, llegué al hotel demasiado tarde como para ir a la oficina, pero me acomodé, salí a comer (me encontré de casualidad con Tiago, conocido de `LogicaCMG <http://www.logicacmg.com/>`_, aunque ya habíamos hablado y lo tenía que llamar), me bañé y me fui a dormir.
 
-Un detalle, para que tengan en cuenta: no confíen en los taxistas, ni siquiera en los que son confiables, :p. <a href="http://www.taniquetil.com.ar/plog/post/1/26">Ya me pasó en Holanda</a>, que el taxista nos dejó en el hotel equivocado. Ayer casi me pasa lo mismo. Presten atención a la dirección. Fíjense si van por la calle correcta, miren bien el número de edificio.
+Un detalle, para que tengan en cuenta: no confíen en los taxistas, ni siquiera en los que son confiables, :p. `Ya me pasó en Holanda <http://www.taniquetil.com.ar/plog/post/1/26>`_, que el taxista nos dejó en el hotel equivocado. Ayer casi me pasa lo mismo. Presten atención a la dirección. Fíjense si van por la calle correcta, miren bien el número de edificio.
 
-Nota: el hotel tampoco tiene WiFi. En el quinto piso se agarran algunas redes, pero todas bloqueadas (tengo que trabajar un poquito con eso). Y en el lobby, así como en el shopping cercano al que fui a comer, lo único que hay es WiFi de una compañia... que tenés que comprar una tarjetita y poner usuario y clave, :s.[@more@] |
+Nota: el hotel tampoco tiene WiFi. En el quinto piso se agarran algunas redes, pero todas bloqueadas (tengo que trabajar un poquito con eso). Y en el lobby, así como en el shopping cercano al que fui a comer, lo único que hay es WiFi de una compañía... que tenés que comprar una tarjetita y poner usuario y clave, :s.
