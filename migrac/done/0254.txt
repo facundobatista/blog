@@ -1,14 +1,14 @@
 2007-05-01 11:48:59
 Finde a full
-<tags>
+cena, invitación, foto fantasma, luján, cumpleaños, teatro
 
-El sábado venían los chicos a conocer finalmente casa.&nbsp; Con Moni nos levantamos temprano, y estuvimos laburando todo el día... fuimos a comprar, limpiamos la casa, cocinamos... cuando finalmente llegaron los chicos, estábamos muertos, pero lo disfrutamos mucho, salió todo muy bien.
+El sábado venían los chicos a conocer finalmente casa. Con Moni nos levantamos temprano, y estuvimos laburando todo el día... fuimos a comprar, limpiamos la casa, cocinamos... cuando finalmente llegaron los chicos, estábamos muertos, pero lo disfrutamos mucho, salió todo muy bien.
 
 Diego y Diana, con Jose y Sofía, Cristian y Silvina, con Luca, Hernán y Vanesa, y Mariano. Moni hizo un pastel tri-modo, era configurable para ser de papa sólo, de zapallo sólo, o mixto (cada configuración vivía en scopes (fuentes) distintas). Y de postre, mousse de chocolate. Y para el café, brownies. Un espectáculo...
 
 Al final, nos sacamos una foto, con fantasma y todo...
 
-<img src="http://farm2.static.flickr.com/1248/544219974_cf80c5d25f_o.jpg" border="0" />
+.. image:: http://farm2.static.flickr.com/1248/544219974_cf80c5d25f_o.jpg
 
 El domingo al mediodía festejamos el cumpleaños de mi mamá, en Luján. Un asado espectacular de mi primo, y la pasamos tan bien como siempre que vamos a Luján en familia.
 
@@ -16,12 +16,12 @@ Y como siempre, también, perdí a La Canasta... juego tan poco a la misma que n
 
 Fue un lindo asado, ¡feliz cumple, Má!
 
-<img src="http://farm2.static.flickr.com/1243/544319223_66879489db_o.jpg" border="0" />
+.. image:: http://farm2.static.flickr.com/1243/544319223_66879489db_o.jpg
 
-A la noche, fuimos con Moni y Mariano al teatro, a ver La Muerte de un Viajante, de <a href="http://es.wikipedia.org/wiki/Arthur_Miller">Arthur Miller</a>, con <a href="http://es.wikipedia.org/wiki/Alfredo_Alc%C3%B3n">Alfredo Alcón</a>, <a href="http://en.wikipedia.org/wiki/Diego_Peretti">Diego Peretti</a> y Victoria Onetto. Arthur Miller escribió <em>Death of a Salesman</em> en 1949, y es considerada un clásico del teatro americano.
+A la noche, fuimos con Moni y Mariano al teatro, a ver La Muerte de un Viajante, de `Arthur Miller <http://es.wikipedia.org/wiki/Arthur_Miller>`_, con `Alfredo Alcón <http://es.wikipedia.org/wiki/Alfredo_Alc%C3%B3n>`_, `Diego Peretti <http://en.wikipedia.org/wiki/Diego_Peretti>`_ y Victoria Onetto. Arthur Miller escribió *Death of a Salesman* en 1949, y es considerada un clásico del teatro americano.
 
 Dicen que el teatro es caro... y algo de razón tienen, pero ojo al piojo. La entrada más cara para este espectáculo sale $55. Pagando con la tarjeta de Citibank, obtuve un descuento del 25% (pagué $41.50). Y el estacionamiento es gratis... Entonces, a 15 mangos de estacionamiento, tenés que fui al teatro por $26. El cine sale $14.50... ¿hay tanta diferencia? Encima, como saqué la entrada un par de semanas antes, obtuve los asientos centrales, del cuerpo central, primerísima fila (y sí... no poníamos la pata arriba del escenario porque quedaba mal...)..
 
-<img src="http://farm2.static.flickr.com/1287/544319331_0cd8de3c7a_o.jpg" border="0" />
+.. image:: http://farm2.static.flickr.com/1287/544319331_0cd8de3c7a_o.jpg
 
-Con Moni y Mariano tenemos la firme intención de comenzar a ir al teatro regularmente... espero que cumplamos.[@more@] |
+Con Moni y Mariano tenemos la firme intención de comenzar a ir al teatro regularmente... espero que cumplamos.
