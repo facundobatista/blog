@@ -1,0 +1,61 @@
+2007-06-19 11:37:25
+Actualización del séptimo arte
+películas, python
+
+Películas nuevas y vistas desde la última vez que comenté...
+
+Para ver:
+
+- `Arthur et les Minimoys <http://www.imdb.com/title/tt0344854/>`_
+
+- `Harry Potter and the Order of the Phoenix <http://www.imdb.com/title/tt0373889/>`_
+
+- `Resident evil: extinction  <http://www.imdb.com/title/tt0432021/>`_
+
+- `Stardust  <http://www.imdb.com/title/tt0486655/>`_
+
+- `The Bourne ultimatum  <http://www.imdb.com/title/tt0440963/>`_
+
+
+Vistas:
+
+- `Eros <http://www.imdb.com/title/tt0343663/>`_: -1. Lenta, aburrida, cero erotismo.
+
+- `Ghost Dog: The way of the Samurai <http://www.imdb.com/title/tt0165798/>`_: +1. Super interesante, a veces lenta pero con mucho significado, y una buena historia.
+
+- `Madagascar <http://www.imdb.com/title/tt0351283/>`_: +1. Muy divertida, muy bien caracterizados los personajes (vale aclarar que la vi subtitulada).
+
+- `The lake house <http://www.imdb.com/title/tt0410297/>`_: +1. Una linda historia pseudoromántica; aunque parece que la temática es supertrillada, finalmente sorprende y mantiene en vilo.
+
+- `Pirates of the caribbean 3: At world's end <http://www.imdb.com/title/tt0449088/>`_: +1. Los personajes variados pero no superficiales, la historia divertida pero intrigante, los escenarios fantásticos; pasatista, pero más que recomendable.
+
+- `Playing by heart <http://www.imdb.com/title/tt0145734/>`_: +1. La cantidad de actores reconocidos (y buenos) de esta peli llama la atención. Son historias sueltas, que terminan convergiendo de manera inesperada; todas las historias son interesantes.
+
+- `The ring two <http://www.imdb.com/title/tt0377109/>`_: -0. Tiene sus momentos interesantes, y en algunos casos asusta, pero es más de lo mismo.
+
+- `Ying xiong <http://www.imdb.com/title/tt0299977/>`_: +1. Lenta, rara, pero muy cargada de significado; si les gusta el ballet y las coreografías NO se la pierdan; si les gusta la cultura oriental, tampoco.
+
+¡Qué bárbaro! Releyendo las calificaciones, encuentro que muchas fueron positivas, ¡tuve suerte! :)
+
+Se me ocurrió fijarme no sólo cuantas películas tenía pendientes, sino la distribución en función de *cuándo* las anoté para verlas. Me quedó un ejemplo tan útil de lo sencillo que es Python para tirar esas 10 lineas que le permiten a uno encontrar lo que está buscando sin tener que complicarse la vida. ¡Ni siquiera tuve que hacer un programa! Directamente use el intérprete interactivo, abrí el archivo mío de películas, con una expresión regular saqué ese cuando de cada linea que correspondía, y los conté usando un diccionario::
+
+    >>> import re
+    >>> coinc = re.compile(".*&lt;i>((.*))&lt;/i>.*")
+    >>> resum = {}
+    >>> for linea in open("peliculas.html"):
+    ...     m = coinc.match(linea)
+    ...     if m:
+    ...         cuando = m.groups()[0]
+    ...         resum[cuando] = resum.get(cuando, 0) + 1
+    ...
+    >>> sum(resum.values())
+    70
+    >>> print "n".join("%-13s %2d" % x for x in resum.items())
+    anterior      38
+    15-Jun-2007    5
+    26-Mar-2007    9
+    02-Dic-2006   13
+    26-Jan-2007    5
+    >>>
+
+Al final sumé los valores del diccionario: me quedan 70 pelis pendientes, y luego mostré el contenido del diccionario: 38 son de "anterior" (antes de que empiece a ponerles justamente cuando, :p).
