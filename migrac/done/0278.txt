@@ -1,0 +1,11 @@
+2007-08-08 09:52:41
+Córdoba, ahí vamos
+conferencia, Córdoba, charla
+
+Esta noche salimos con Dave, Mat y Leito para Córdoba, en viaje a las `7mas Jornadas Regionales de Software Libre <http://jornadas.grulic.org.ar/7/>`_.
+
+El evento ya comenzó, con los talleres, pero desde mañana arrancan las `charlas <http://jornadas.grulic.org.ar/7/contenido/programa/listados/fixture-charlas>`_.
+
+Yo `presento <http://jornadas.grulic.org.ar/7/contenido/programa/charlas/charla72>`_ la ya clásica **Introducción a Python** (`actualizada <http://www.taniquetil.com.ar/homedevel/presents/intropython.odp>`_), mañana mismo, a las tres de la tarde. Tengo ganas de cambiar un poco la temática, y para CaFeConf 2007 voy a preparar otra charla totalmente distinta (veremos si continúo con *Intro to Py* o alguien más toma la posta, :).
+
+Prometo ir contándoles los pormenores de las jornadas, stay tunned!

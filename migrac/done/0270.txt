@@ -1,0 +1,33 @@
+2007-07-06 14:41:24
+Subiendo fotos raras para gente normal
+fotos, python, software
+
+Hace algunas semanas tomé la decisión de subir `todas mis fotos <http://www.flickr.com/photos/54757453@N00/>`_ a la red (ya hay bastantes, pero creo que recién voy por la mitad...). Compré el servicio de Flickr, porque por poca guita anual te da espacio ilimitado.
+
+Obviamente, no todas las fotos son públicas, así que si les interesa acceder a la parte de amigos y/o familia, me ponen un mail y listo.
+
+La idea está buena, porque no tengo que andar distribuyendo fotos luego de un evento (ya sea público como una conferencia, o familiar como un cumpleaños), tengo backup, puedo acceder en cualquier momento a una foto mía, etc.
+
+Pero había dos trabas operativas que evitó que lo haya hecho antes. Una es que hay que "limpiar" las fotos. Normalmente, luego de sacar fotos, las subo a la PC de casa y listo. Pero hay muchas fotos que no sirven (demasiado oscuras, movidas, etc.), y también sucede que en ocasiones hay que rotarlas. Ambos trabajos son inevitablemente humanos (por ahora), así que lo voy haciendo de a poco.
+
+La otra traba es la **acción** de subirlas. Hay dos maneras *clásicas*. Una es ir al sitio de Flickr, entrar a tu cuenta, e ir subiendo fotos de a 5; comprenderán rápidamente que no es la mejor manera de subir miles y miles de fotos (a menos que les guste los trabajos manuales y repetitivos sin sentido, no vengan a mi por ello). La segunda manera clásica es utilizar algún programita, que corre en la máquina local, con interfaz gráfica y todo, que te permita ordenar las fotos, administrarlas, y de paso subirlas a Flickr. En Linux ya viene, por supuesto, pero esta manera tampoco me gustó: no quiero tener que pasar a ordenarlas por otro método (mis fotos están básicamente en un directorio por evento, con el nombre del mismo y la fecha, y no quiero, por ahora, mayor info que esa).
+
+Entonces, como ya estarán imaginando, me hice un programita en Python (je!) al que uno le pasa las fotos y algo de metadata: los tags para marcar todas esas fotos, la clasificación de privacidad (ver más abajo), la descripción de todas esas fotos, el nombre del set (o conjunto en Flickr bajo el cual se agruparán esas fotos), y una foto inicial para el set (Flickr tiene una foto "especial" que marca como del tag, y la muestra siempre representando al mismo).
+
+Con respecto a la privacidad, se pueden marcar las fotos como...
+
+- familia: sólo para *familia*
+
+- amigos: sólo para *familia* y *amigos*
+
+- pública: las ve cualquiera
+
+El tipo de contacto, *familia* o *amigos*, es lo que les decía arriba que me pidan por mail.
+
+Para poder conectarme fácil a Flickr y utilizar `todos sus servicios <http://www.flickr.com/services/api/>`_, utilicé la `Beej's Python Flickr API <http://beej.us/flickr/flickrapi/>`_, que tuve que modificar levemente para que me dejara poner tags y descripciones utilizando caracteres acentuados. `Aquí les dejo un zip <http://www.taniquetil.com.ar/facundo/bdvfiles/code/subeFlickr.zip>`_ con los dos archivos, el módulo con la API levemente modificada y mi programita.
+
+Para probarlo, bajen el archivo y lo descomprimen obteniendo dos archivos en el mismo directorio, y ejecuten subeFlickr.py sin parámetros, que les sale un mensaje de ayuda (obviamente tienen que tener Python instalado, si están en Linux o en MacOS X ya está, y si están Windows, bájenlo gratis de `acá <http://www.python.org/download/>`_). Tengan en cuenta de que en subeFlickr.py hay unas anotaciones que tienen que seguir (busquen las *XXX*), por autenticaciones que obliga Flickr y eso).
+
+Cualquier feedback es muy bienvienido, :)
+
+*[*] El título no es más que una vaga referencia al `tema de Divididos <http://rock.com.ar/letras/5/5693.shtml>`_, sólo eso.*
