@@ -1,26 +1,26 @@
 2007-11-05 07:08:57
 Agitado comienzo de fin de semana
-<tags>
+charlas, conferencia, unlux, casamiento
 
-El viernes a la noche arrancamos el fin de semana dando una charla en el ITBA: "Python más rápido que C", invitado por Macarse. Teoricamente la iba a dar con Lucio, pero tuvo un problema con el auto y no pudo llegar, así que dí la charla solo... el público algo frío, y yo dí la charla demasiado rápido (nunca la había "pensado" dar sólo), pero bien.
+El viernes a la noche arrancamos el fin de semana dando una charla en el ITBA: "Python más rápido que C", invitado por Macarse. Teóricamente la iba a dar con Lucio, pero tuvo un problema con el auto y no pudo llegar, así que dí la charla solo... el público algo frío, y yo dí la charla demasiado rápido (nunca la había "pensado" dar sólo), pero bien.
 
 Luego de la charla, con Moni fuimos a comer algo a la costanera, cerca de casa, y nos fuimos a dormir temprano, porque el sábado iba a ser un largo, largo día.
 
-El sábado nos levantamos 6:30, nos bañamos y preparamos todo para salir hacia Luján, donde se haría el <a href="http://unlux.com.ar/index.php">Ciclo de Charlas Unlux 2007</a>. <a href="http://www.chaghi.com.ar/blog/index.php">Mariano</a> y Marcos llegaron a tiempo a casa, pero Qwerty nunca apareció ni llamó. Lo esperamos hasta las ocho, y nos fuimos.
+El sábado nos levantamos 6:30, nos bañamos y preparamos todo para salir hacia Luján, donde se haría el `Ciclo de Charlas Unlux 2007 <http://unlux.com.ar/index.php>`_. `Mariano <http://www.chaghi.com.ar/blog/index.php>`_ y Marcos llegaron a tiempo a casa, pero Qwerty nunca apareció ni llamó. Lo esperamos hasta las ocho, y nos fuimos.
 
-Llegamos bastante temprano, ya que la idea era armar el stand de <a href="http://www.python.com.ar/moin">PyAr</a>. Nos encontramos en seguida con Paula, una de los organizadores, y luego con Ezequiel (no me crucé con Tomás hasta más tarde). Con Mariano colgamos la bandera (que luego Alecu cambió de lugar, con valederas razones), y presentamos los folletos que había hecho.
+Llegamos bastante temprano, ya que la idea era armar el stand de `PyAr <http://www.python.com.ar/moin>`_. Nos encontramos en seguida con Paula, una de los organizadores, y luego con Ezequiel (no me crucé con Tomás hasta más tarde). Con Mariano colgamos la bandera (que luego Alecu cambió de lugar, con valederas razones), y presentamos los folletos que había hecho.
 
 Estos folletos los había preparado durante la semana, con ayuda de Gustavo, bajo una idea originalmente discutida con Mariano, y la verdad que quedaron muy bien:
 
-<img src="http://farm4.static.flickr.com/3526/3257153853_9cc920d2cb_o.jpg" border="0" width="500" height="306" />
+.. image:: http://farm4.static.flickr.com/3526/3257153853_9cc920d2cb_o.jpg
 
-Me perdí la primer charla, sobre <a href="http://es.wikipedia.org/wiki/Asterisk">Asterisk</a>, porque el que la daba no llegó a tiempo. Así que me quedé en el stand hasta que llegó la hora de mi charla. Pero la charla anterior, de Franco Iacomella, había tenido un problema con el proyector, y se atrasó un poco. Pero el tipo, en lugar de apurarse un poquito, y tratar de redondear la charla, se tomó todo el tiempo del mundo, como si no hubiera nadie esperándolo, y me entregó el Auditorio 25 minutos tarde.
+Me perdí la primer charla, sobre `Asterisk <http://es.wikipedia.org/wiki/Asterisk>`_, porque el que la daba no llegó a tiempo. Así que me quedé en el stand hasta que llegó la hora de mi charla. Pero la charla anterior, de Franco Iacomella, había tenido un problema con el proyector, y se atrasó un poco. Pero el tipo, en lugar de apurarse un poquito, y tratar de redondear la charla, se tomó todo el tiempo del mundo, como si no hubiera nadie esperándolo, y me entregó el Auditorio 25 minutos tarde.
 
 Yo no podía tomarme toda mi hora, porque la gente tenía planeadas otras cosas que hacer luego del horario de finalización de mi charla, así que hice mi presentación apurado y enojado por la falta de respeto del tipo este.
 
 Luego comimos en una parrillita justo afuera de la Universidad, un poco a las apuradas porque a las dos ya tanía otra charla que dar: "Python más rápido que C". Sí, la misma que había dado el día anterior, parece que está de moda, jejeje. Esperaba poder darla con Lucio, pero no llegó a que le arreglaran el auto temprano (no porque se demoraron en arreglarlo, él se levantó tarde y no llegó, :( ).
 
-<img src="http://farm4.static.flickr.com/3345/3257153925_20005a1e49_o.jpg" border="0" />
+.. image:: http://farm4.static.flickr.com/3345/3257153925_20005a1e49_o.jpg
 
 A diferencia de la del día anterior, esta salió muy bien: habían como 25 asistentes (más de lo que esperaba), y se mostraron interesados. Por mi parte el tener la experiencia del día anterior ayudó muchísimo a la dinámica de la charla, y me salió muy bien. Los últimos cinco minutos estuvieron complicados, porque justo se cortó la luz. La laptop seguía con la batería, pero sin proyector, tuve que improvisar un poquito.
 
@@ -30,10 +30,10 @@ Mi última charla del día fue justamente "a laptop sin proyector"; la daba Efra
 
 Luego estuve un rato vagando por la zona de registración, charlando con gente, haciendo sociales, bah. Por suerte más tarde volvió la energía eléctrica, y se pudo planificar mejor el cierre de la jornada. En función de lo que había pasado, los chicos decidieron hacer el cierre del evento, y luego poner dos charlas más que habían quedado sueltas.
 
-<img src="http://farm4.static.flickr.com/3430/3257983334_43e8f5e9de_o.jpg" border="0" width="550" height="277" />
+.. image:: http://farm4.static.flickr.com/3430/3257983334_43e8f5e9de_o.jpg
 
-De ahí partimos algunos a cenar todos juntos. Algunos bastantes, porque terminamos siendo como treinta en la pizzería. La pasamos muy bien, charlamos a morir, y dije unas palabras para homenajear a los coordinadores y todo, :). Pueden ver fotos de todo el día <a href="http://www.flickr.com/photos/54757453@N00/sets/72157602915116788/">acá</a>.
+De ahí partimos algunos a cenar todos juntos. Algunos bastantes, porque terminamos siendo como treinta en la pizzería. La pasamos muy bien, charlamos a morir, y dije unas palabras para homenajear a los coordinadores y todo, :). Pueden ver fotos de todo el día `acá <http://www.flickr.com/photos/54757453@N00/sets/72157602915116788/>`_.
 
 Con Moni, de ahí, partimos hacia Pilar, donde nos esperaba la fiesta de un casamiento (bueno, no nos esperaba, es una forma de decir...). La fiesta era del casamiento de Silvia y Gustavo (Silvia fue directora de Moni en un jardín, hace un año).
 
-La fiesta estuvo muy linda, y aunque nosotros estábamos destruídos, nos terminamos yendo bastante tarde de allí. Luego a casa, y a dormir, que sólo teníamos el domingo para descansar, :)[@more@] |
+La fiesta estuvo muy linda, y aunque nosotros estábamos destruidos, nos terminamos yendo bastante tarde de allí. Luego a casa, y a dormir, que sólo teníamos el domingo para descansar, :)

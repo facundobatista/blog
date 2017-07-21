@@ -1,0 +1,17 @@
+2007-10-29 07:59:34
+Viernes y sábado, charlas
+charla, presentaciones, luján, unlux, sorpresa
+
+El viernes Lucio y yo tenemos una cita en el `ITBA <http://www.itba.edu.ar/index.php>`_ para dar nuevamente nuestra charla "Python más rápido que C", invitados especialmente en el marco de charlas que se dan periódicamente en tal establecimiento.
+
+El sábado, sin embargo, ¡hay conferencia todo el día! Nos convoca el `Ciclo de Charlas Unlux 2007 <http://unlux.com.ar/index.php?option=com_content&task=view&id=11&Itemid=22>`_, "Conectando puntos", en la Universidad de Luján, auspiciado por Python Argentina, :)
+
+.. image:: http://farm4.static.flickr.com/3120/3257983146_2195f9c9f3_o.jpg
+
+Es un día completo de charlas de todo tipo, donde Python tiene varios espacios asignados (miren el `cronograma <http://unlux.com.ar/index.php?option=com_content&task=view&id=14&Itemid=24>`_), como nos tienen bien acostumbradas las últimas conferencias de Software Libre.
+
+Allí daremos nuevamente la charla antedicha. Pero también daré nuevamente mi "Introducción a Python", con algunas pequeñas modificaciones resultantes de comentarios luego de la presentación en CaFeConf 07.
+
+Pueden encontrar ambas charlas `aquí <http://www.taniquetil.com.ar/homedevel/presents/>`_. Tengan en cuenta que pueden browsear esos directorios con el navegador, pero también pueden hacer un branch anónimo con Bazaar (si no entendieron nada después de la última coma, descártenlo y usen el browser para entrar en esa dirección :) ).
+
+Por otro lado, estoy preparando una sorpresita para Luján, veamos si puedo llegar :)
