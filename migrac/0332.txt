@@ -14,4 +14,4 @@ Todas las versiones las pueden obtener de las páginas de <a href="http://www.py
 
 Todo este laburo salió en fecha, ya que estaba planeado para antes de PyCon 2008, en Chicago, en diez días.
 
-<a href="http://us.pycon.org"><img src="http://us.pycon.org/common/2008/website/img/PyConChi.png" border="0" alt="PyCon 2008: Chicago" /></a>[@more@] |
+<a href="http://us.pycon.org"><img src="http://us.pycon.org/common/2008/website/img/PyConChi.png" alt="PyCon 2008: Chicago" /></a>[@more@] |

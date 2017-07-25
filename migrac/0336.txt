@@ -12,7 +12,7 @@ Luego, mientras el resto de la gente comía en los pasillos, los miembros de la 
 
 Después estuve en un par de charla que no me gustaron mucho, excepto la de un filesystem distribuído robusto <a href="http://allmydata.org/trac/tahoe">[-]</a>, y más tarde vinieron las Lightning Talks. Como siempre que voy a una conferencia afuera del pais, hablé sobre Python Argentina (pueden ver las filminas <a href="http://www.taniquetil.com.ar/facundo/bdvfiles/pyar.pdf">acá</a>). Hubieron otras charlas interesantes, contando productos, herramientas o proyectos que tengo que investigar un poquito más: Una base de datos abierta con el conocimiento del mundo <a href="http://www.freebase.com/">[-]</a>, una biblioteca con material cultural de todo el mundo <a href="http://www.worlddigitallibrary.org/project/english/index.html">[-]</a>, y un wiki con un montón de info sobre Python mismo para dar apoyo a grupos de usuarios, con material y todo <a href="http://wiki.python.org/moin/Advocacy">[-]</a>.
 
-<img src="http://farm4.static.flickr.com/3473/3258006486_811450807d_o.jpg" border="0" alt="El público desde el estrado dónde hablé" title="El público desde el estrado dónde hablé" width="400" height="327" />
+<img src="http://farm4.static.flickr.com/3473/3258006486_811450807d_o.jpg" alt="El público desde el estrado dónde hablé" title="El público desde el estrado dónde hablé" width="400" height="327" />
 
 La charla que di trajo inmediatos frutos. Al toque se suscribió una nueva persona a la lista, Jeff Elkner me vino a preguntar si le podía dar una mano con unas traducciones para un grupo que estaba en San Salvador, que no tienen una comunidad armada y necesitaban ayuda, y en general varias personas se acercaron a hablarme sobre PyAr, incluso gente de Uruguay, Mexico, y Argentina mismo.
 
@@ -27,7 +27,7 @@ Luego de un break, venían tres charlas a las que yo quería asistir, por lo que
 
 A la tarde, luego del almuerzo, había una sola charla que me interesaba: <em>Sights and sounds with pyglet</em> (Richard Jones), que mostró el estado actual de <a href="http://www.pyglet.org/">pyglet</a>, una biblioteca que permite trabajar con animaciones, gráficos, videos, sonidos, y OpenGL en forma general, todo haciéndolo fácil y multiplataforma... ¿no está bueno? Felicitaciones a Cocos, la biblioteca sobre la que estuvieron trabajando varios de los chicos de PyAr y que arrancó en Los Cocos, y que en esta charla se mencionó primera entre las aplicaciones de terceros que usan pyglet, :)
 
-<img src="http://farm4.static.flickr.com/3330/3257176905_e42ce280eb_o.jpg" border="0" alt="Filmina de la presentación de pyglet" title="Filmina de la presentación de pyglet" width="377" height="323" />
+<img src="http://farm4.static.flickr.com/3330/3257176905_e42ce280eb_o.jpg" alt="Filmina de la presentación de pyglet" title="Filmina de la presentación de pyglet" width="377" height="323" />
 
 Pasaron luego un par de charlas más, mientras yo trabajaba en otras cosas, leía mails, y otros trámites. Y luego vino otra sesión de Charlas Rápidas. Las que más me gustaron: <a href="http://www.digitalriver.com/v2.0-img/operations/scansoft/site/367062/367062_dns-talk.html">Naturally Speaking</a>, un software de reconocimiento natural de voz, que por lo que mostraron en vivo funciona bastante bien; Lucio y Riq presentaron <a href="http://code.google.com/p/los-cocos/">Cocos</a>, la biblioteca que les comenté antes, y fue bien recibida. Después no pude seguir mirando charlas porque tenía que ver a alguien de los Organizadores afuera, así que hasta ahí llegué.
 
@@ -48,7 +48,7 @@ La primer Keynote, cortita, fue sobre como integrar mejor Python en las distinta
 
 En el break nos sacamos una foto con la bandera, que estuvo colgada en el atrio (donde estaban las registraciones) desde el inicio de la conferencia.
 
-<img src="http://farm4.static.flickr.com/3419/3257176989_8c5ebd06f8_o.jpg" border="0" alt="La Bandera, en Chicago" title="La Bandera, en Chicago" width="450" height="276" />
+<img src="http://farm4.static.flickr.com/3419/3257176989_8c5ebd06f8_o.jpg" alt="La Bandera, en Chicago" title="La Bandera, en Chicago" width="450" height="276" />
 
 Y luego vino la última sesión de charlas. Fui primero a una que hablaba de Iteradores, la cual tenía algunas cosas interesantes, otras no tanto, y encima el flaco ponía 15 lineas con un algoritmo bastante complicado, lleno de pequeños detalles que justamente estaba mostrando (o sea, no podía esperar que la gente lo sepa), y sacaba la filmina a los 30 segundos, con lo cual no se llegaba a entender del todo. La segunda charla fue <em>Core Python Containers -- Under the hood</em>, por Raymond Hettinger, dando detalles técnicos sobre los contenedores built-in de Python; esta charla estuvo buenísima, una de las mejores de toda la conferencia. Para terminar, fui a una charla de Collin Winter, que hablaba de la herramienta de migración de Python 2.x a Python 3.x (la herramienta se llama 2to3), la cual estuvo bien, y de la que les quiero dejar la siguiente recomendación de migración para cuando quieran llevar vuestro producto o sistema de 2.x a Python 3000:
 <ul><li>Mantener en 2.x

@@ -8,16 +8,16 @@ El objetivo de mi equipo fue, con la excusa de hacer el juego, explorar dos téc
 
 Con Lucio, la noche del sábado, madrugada y domingo, armamos una versión completa del animador de esqueletos. Luego él le agregó en la semana un editor para superponer <em>skins</em> a ese esqueleto, pudiendo armar animaciones completas de personajes, con sólo ponerlos en distintos tiempos, en distintas formas. La verdad, quedó buenísimo, espero que eso pase a formar parte de <a href="http://cocos2d.org/">Cocos</a> en algún momento...
 
-<img src="http://www.taniquetil.com.ar/facundo/imgs/ggilvsdevil-editor.png" border="0" alt="El editor en acción" title="El editor en acción" width="400" height="331" />
+<img src="http://www.taniquetil.com.ar/facundo/imgs/ggilvsdevil-editor.png" alt="El editor en acción" title="El editor en acción" width="400" height="331" />
 
 Como el tema del juego involucraba <em>cuerdas</em>, lo que hicimos fue una pelea de marionetas. A nivel de AI (artificial intelligence), el juego se basaba en entrenar a un aprendiz peleando contra él, y luego mandarlo a pelear contra nuestros enemigos.
 
 La temática del juego era gauchesca: el Maestro Titiritero es el Gauchito Gil, y tiene que entrenar al aprendiz para que pelee con distintos gauchos, finalizando con el diablo mismo (¿se terminaría la "luz mala"?):
 
-<img src="http://www.taniquetil.com.ar/facundo/imgs/ggilvsdevil-peleando.png" border="0" alt="Nuestro aprendiz peleando contra el Diablo" title="Nuestro aprendiz peleando contra el Diablo" width="400" height="301" />
+<img src="http://www.taniquetil.com.ar/facundo/imgs/ggilvsdevil-peleando.png" alt="Nuestro aprendiz peleando contra el Diablo" title="Nuestro aprendiz peleando contra el Diablo" width="400" height="301" />
 
 Más allá de esos dos grandes features del juego, volvimos a tener gente importante laburando en arte, tanto gráfica como sonidos. Les dejo, como ejemplo, el fondo de pantalla del menú del juego, pero igual hay muchas otras perlas, como la secuencia semianimada inicial, el malambo vocalizado por Leíto, y cosas así...
 
-<img src="http://www.taniquetil.com.ar/facundo/imgs/ggilvsdevil-background.jpeg" border="0" alt="Fondo del juego" title="Fondo del juego" width="350" height="410" />
+<img src="http://www.taniquetil.com.ar/facundo/imgs/ggilvsdevil-background.jpeg" alt="Fondo del juego" title="Fondo del juego" width="350" height="410" />
 
 El juego, más allá de todo lo aprendido, está bien. Veremos qué sucede en un par de semanas, cuando se terminen las votaciones. Les dejo el <a href="http://media.pyweek.org/dl/7/0AI/gilvsthedevil-1.0.tar.gz">enlace al juego</a>, para que lo prueben...[@more@] |

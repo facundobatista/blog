@@ -16,7 +16,7 @@ A eso de las once, luego de comer con la gente, ya me fui a la habitación, porq
 
 Del lunes al jueves se desarrollaron los sprints propiamente dichos. Yo participé en el sprint de PyPy-Flash (que lideraba Lucio), cuyo objetivo es poder escribir algo en Python (o mejor dicho RPython, que es muy parecido) y poder transformar eso en código ActionScript y que compile a Flash, para que se pueda ejecutar en cualquier navegador.
 
-<img src="http://farm4.static.flickr.com/3439/3258006696_db085a5ccc_o.jpg" border="0" alt="El grupito que se armó para trabajar juntos" title="El grupito que se armó para trabajar juntos" width="400" height="206" />
+<img src="http://farm4.static.flickr.com/3439/3258006696_db085a5ccc_o.jpg" alt="El grupito que se armó para trabajar juntos" title="El grupito que se armó para trabajar juntos" width="400" height="206" />
 
 El lunes comenzamos temprano, y estuvimos trabajando duro y parejo durante todo el día. A la noche Sean and Evelyn, de <a href="http://www.tummy.com/">tummy.com</a>, compraron 32 pizzas para todos los sprinters, más una gran bandeja de vegetales y fiambres. Asombroso. Después de eso seguimos trabajando, hasta las doce y media, que corté y me fui a dormir, totalmente cansado.
 
@@ -26,7 +26,7 @@ El tercer día de sprint marcó un hito importante: logramos completar uno de lo
 
 Para festejar (?) fuimos los que estábamos trabajando juntos más otros que se agregaron a comer a un lugar mexicano que estaba cerca del hotel. Como correspondía, cuando volvimos jugamos un partidito de Settlers.
 
-<img src="http://farm4.static.flickr.com/3299/3258006774_d68428c4cc_o.jpg" border="0" alt="Jugando al Settlers of Catán" title="Jugando al Settlers of Catán" width="400" height="254" />
+<img src="http://farm4.static.flickr.com/3299/3258006774_d68428c4cc_o.jpg" alt="Jugando al Settlers of Catán" title="Jugando al Settlers of Catán" width="400" height="254" />
 
 La verdad es que se armó un grupo piola, todos de puntas distintas del planeta, pero gente divertida.
 

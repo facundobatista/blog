@@ -12,7 +12,7 @@ Al rato nomás cayeron todos. Entramos, desayunamos, acondicionamos las instalac
 
 Con la ayuda de un pizarrón, Darni lideró el consenso grupal de cómo íbamos a encarar los cuatro días. Terminamos pasadas las 12, listos para la primer actividad (presentación y contar qué está haciendo cada uno), y esperando el almuerzo, :)
 
-<img src="http://farm4.static.flickr.com/3512/3258005672_cdab2263ef_o.jpg" border="0" alt="Todo lo que íbamos a hacer" title="Todo lo que íbamos a hacer" width="400" height="301" />
+<img src="http://farm4.static.flickr.com/3512/3258005672_cdab2263ef_o.jpg" alt="Todo lo que íbamos a hacer" title="Todo lo que íbamos a hacer" width="400" height="301" />
 
 Como terminamos antes de lo previsto, decidimos arrancar con la parte en que cada uno contaba un poco quién era, cómo había conocido a Python, y qué estaba haciendo ahora con Python. Lo hicimos afuera, apretujados en el borde del mismo fogón que antes, pero enseguida comenzaron a caer unas gotas, y tuvimos que volver al salón. Seguimos contando quienes éramos, incluso mientras comíamos (unos fideos con boloñesa muy ricos), y así ya entramos en la tarde.
 
@@ -33,7 +33,7 @@ El día se desarolló luego normalmente: comimos, comimos, y comimos (almorzamos
 
 Ya entrada la tarde, decidimos ir a comprar unas cervezas para hacer la reunión de PyAr. Debo decir que estuvo muy buena. Aunque eramos muchos (muchos, creo que el record), y el nivel de dispersión era alto, pudimos tratar algunos temas muy interesantes. Encima, teníamos algunos detalles que arreglar, y la gente de <a href="http://www.grulic.org.ar/">GrULiC</a> ya había pasado por los mismos problemas, y tenía experiencia que aportar. Incluso, tengo que admitir que llegamos a conclusiones en las discusiones (mmm... quizás faltaba más cerveza... :).
 
-<img src="http://farm4.static.flickr.com/3116/3257176047_d4bca150d5_o.jpg" border="0" alt="Reunión al aire libre" title="Reunión al aire libre" width="500" height="260" />
+<img src="http://farm4.static.flickr.com/3116/3257176047_d4bca150d5_o.jpg" alt="Reunión al aire libre" title="Reunión al aire libre" width="500" height="260" />
 
 Luego, a comer (carne al horno con papas y cebollas), y para terminar el día, como corresponde... ¡a jugar! Antes de que se larguen los juegos de mesa hicimos una actividad muy piola: un karaoke de charlas, donde por sorteo fuimos pasando todos y en cinco minutos teníamos que explicar la charla de otra persona... algunas charlas estuvieron más o menos, pero otras estuvieron <strong>muy</strong> divertidas, :)
 
@@ -48,7 +48,7 @@ Ambos trabajos siguieron luego del almuerzo. En un momento se nos complicó con 
 
 Igual lo cortamos antes, porque se estaba haciendo tarde y queríamos salir a caminar un rato. Subimos a una sierra cercana, donde había un mástil, y nos sacamos algunas fotos allá arriba. Entre que subimos y bajamos caminamos unas buenas dos horas y media, fue un lindo ejercicio. Al volver, nos tiramos un rato en la pileta, y luego ya vino un espectacular asadito.
 
-<img src="http://farm4.static.flickr.com/3369/3258005806_a8f4a2c6ef_o.jpg" border="0" alt="A un 80% del viaje" title="A un 80% del viaje" width="380" height="426" />
+<img src="http://farm4.static.flickr.com/3369/3258005806_a8f4a2c6ef_o.jpg" alt="A un 80% del viaje" title="A un 80% del viaje" width="380" height="426" />
 
 Durante los ratos libres seguí trabajando con los bugs de que habían corregido los chicos. Hice el commit de uno de John Lenton y uno de Javi Mansilla, y me quedó para después uno de Anthony Lenton. Ah, y aproveché también para cerrar uno que tenía asignado desde hace tiempo.
 
@@ -63,7 +63,7 @@ Con la tormenta se vinieron cortes de internet, y en el peor momento de los rayo
 
 Durante la primera parte de la mañana terminé de trabajar con el bug que había corregido Anthony, y luego ya me puse a full con la Wikipedia Offline. Estuvimos un buen rato discutiendo arquitecturas y soluciones, y luego hicimos el mapa de todos los pasos del proceso general de construcción del producto final.
 
-<img src="http://farm4.static.flickr.com/3485/3257176181_6448bd90be_o.jpg" border="0" alt="Ambiente de trabajo" title="Ambiente de trabajo" width="500" height="292" />
+<img src="http://farm4.static.flickr.com/3485/3257176181_6448bd90be_o.jpg" alt="Ambiente de trabajo" title="Ambiente de trabajo" width="500" height="292" />
 
 En el medio comimos (un pollo al horno con ensalada rusa y tomate, más arroz con atún, todo muy rico). Y luego ya me metí a codear la parte que había elegido: el índice para los títulos. Con esto estuve trabajando pila y pila hasta las siete de la tarde, donde ya habíendo logrado algo funcional (aunque todavía ineficiente), commiteé todo y me fuí a bañar y a preparar el bolso.
 

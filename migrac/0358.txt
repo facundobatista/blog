@@ -8,7 +8,7 @@ En Marte, hoy, el agua sólo se encuentra en forma de gas atmosférico y como hi
 
 La NASA bautizó a esta nave espacial como <a href="http://en.wikipedia.org/wiki/Phoenix_(spacecraft)">Mars Phoenix Lander</a>, hermana melliza de la Mars Polar Lander que en 1999 perdió comunicación con la Tierra al llegar a Marte. Al contrario que los robots&nbsp; Spirit y Opportunity, que desde el 2004 recorren y fotografían la superficie de Marte, la Phoenix carece de ruedas y no podrá moverse del punto en que aterrizó (en el polo norte del planeta, luego de recorrer casi 700 millones de kilómetros).
 
-<img src="http://www.taniquetil.com.ar/facundo/imgs/phoenixlander1.jpg" border="0" alt="Polo norte marciano" title="Polo norte marciano" width="350" height="350" />
+<img src="http://www.taniquetil.com.ar/facundo/imgs/phoenixlander1.jpg" alt="Polo norte marciano" title="Polo norte marciano" width="350" height="350" />
 
 Lanzada el 4 de Agosto del año pasado, llegó a Marte el 25 de Mayo pasado. Pesa 350kg y su alimentación es a base de fibras y carbohidratos (¡se prende al Nestum como loca!). No, mentira, tiene paneles solares y baterías de ion litio (las misma tecnología base que las de los teléfonos actuales, en serio).
 
@@ -16,7 +16,7 @@ La forma de aterrizaje es la clásica, de paracaídas y cohetes al final para fr
 
 La Phoenix analizará las moléculas contenidas en el agua presente en el permafrost marciano, la capa de hielo permanentemente congelado en los niveles superficiales del polo norte.&nbsp; El laboratorio incluido a bordo de la sonda se encarga de calentar, en un horno alimentado por energía solar, las muestras recogidas del subsuelo marciano hasta convertirlas en un gas más fácil de analizar por la multitud de sensores que dispone. Luego, transmitirá a la tierra la lista de moléculas que contiene.
 
-<img src="http://www.taniquetil.com.ar/facundo/imgs/phoenixlander2.jpg" border="0" alt="Algunas fotos de la Phoenix" title="Algunas fotos de la Phoenix" width="600" height="151" />
+<img src="http://www.taniquetil.com.ar/facundo/imgs/phoenixlander2.jpg" alt="Algunas fotos de la Phoenix" title="Algunas fotos de la Phoenix" width="600" height="151" />
 
 El brazo es similar a una excavadora mecánica y desplegado mide 2.35m. Es capaz de cavar hasta medio metro de profundidad a través del permafrost, cuya proporción de hielo y suelo es de 70 y 30% respectivamente (como el del ártico terrestre). Los científicos esperan que el suelo de Marte tenga un permafrost rico en agua, al alcance del brazo robótico de la sonda, un hallazgo que significaría que en algún momento de su historia fue una zona habitable. Los investigadores eligieron esa zona porque está sujeta a cambios estacionales y creen que, al igual que en la Tierra, el ártico marciano podría esconder un registro de un clima más cálido y habitable.
 
