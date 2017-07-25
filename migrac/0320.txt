@@ -1,23 +1,23 @@
 2008-01-18 07:04:20
 Aprendiendo idiomas en la internete
-<tags>
+idiomas, lenguajes, orwell, google, yahoo
 
 La frase "un millón de moscas no pueden equivocarse", más allá de las reminiscencias escatológicas, tiene algo de cierto: estadísticamente se pueden sacar conclusiones interesantes.
 
-En algunos casos es más dificil que otros; por ejemplo, si medio mundo dice que 2+2=3, yo igual desconfío (más allá del <a href="http://www.rock.com.ar/letras/2/2482.shtml">muy buen tema de La Renga</a>).
+En algunos casos es más difícil que otros; por ejemplo, si medio mundo dice que 2+2=3, yo igual desconfío (más allá del `muy buen tema de La Renga <http://www.rock.com.ar/letras/2/2482.shtml>`_).
 
 Pero a nivel de lenguajes, donde justamente las "especificaciones formales" cambian con el tiempo en función de cómo la gente utiliza el lenguaje, las estadísticas son útiles, especialmente cuando nos referimos a expresiones usadas en uno u otro lenguaje.
 
-Y, justamente, las expresiones son lo más dificil de aprender de un idioma.
+Y, justamente, las expresiones son lo más difícil de aprender de un idioma.
 
 Hoy estaba escribiendo un mail en inglés, y quería poner algo como "pensamos en vos para esto", y dudé como escribirlo. Mi primer intento, casi sin pensarlo, fue "thought about you for this" (falta el "we" adelante, obvio, pero es irrelevante para este ejercicio), pero no me gustó.
 
-Fui a <a href="http://www.google.com/">Google</a> y puse esta frase, con comillas. Encontró 3 coincidencias, y supe que estaba mal escrito. Probé con "thought in you for this", no encontró nada. Probé con "thought on you for this", tampoco.
+Fui a `Google <http://www.google.com/>`_ y puse esta frase, con comillas. Encontró 3 coincidencias, y supe que estaba mal escrito. Probé con "thought in you for this", no encontró nada. Probé con "thought on you for this", tampoco.
 
 Ahí me frustré un poquito, y saqué las comillas. Obviamente, encontró muchísimas páginas. Leyendo por arriba las coincidencias (sin siquiera entrar a las páginas), vi que en ocasiones se usaba el "thought of". Entonces probé con "thought of you for this", encontró 280 mil hits. Muchos (aunque sospechosamente demasiados, ver abajo los resultados para Yahoo).
 
 Lo importante, obvio, es que leí cómo estaba usada la frase, y era con el significado que quería yo.
 
-Para aquellos que están  (estamos) preocupados en que Google se está convirtiendo en un "generador de Verdad", y nos asustan las perspectivas <a href="http://es.wikipedia.org/wiki/1984_(novela)">orwellianas</a> de esto, también busqué en <a href="http://www.yahoo.com/">Yahoo</a>. Las coincidencias fueron 56, 0, 0 y 443, en el órden descripto arriba.
+Para aquellos que están  (estamos) preocupados en que Google se está convirtiendo en un "generador de Verdad", y nos asustan las perspectivas `orwellianas <http://es.wikipedia.org/wiki/1984_(novela)>`_ de esto, también busqué en `Yahoo <http://www.yahoo.com/>`_. Las coincidencias fueron 56, 0, 0 y 443, en el orden descripto arriba.
 
-Resumiendo, con un poco de tiempo uno se puede sacar estas dudas raras, que a menos que uno tenga a mano a alguien que hable inglés nativo, o que sepa <em>mucho</em> inglés, son muy difíciles de evacuar.[@more@] |
+Resumiendo, con un poco de tiempo uno se puede sacar estas dudas raras, que a menos que uno tenga a mano a alguien que hable inglés nativo, o que sepa *mucho* inglés, son muy difíciles de evacuar.
