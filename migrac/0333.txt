@@ -1,12 +1,12 @@
 2008-03-07 12:43:22
 Vigésimo sexta de PyAr
-<tags>
+reunion, pyar, cocos, pycamp, cdpedia, remera, fisl, pycon, pyweek
 
-  El miércoles pasado tuvimos la reunión nro 26 de PyAr. Aprovecho que hice la minuta (gracias Achuni por las anotaciones tomadas), y la reproduzco acá.
+El miércoles pasado tuvimos la reunión nro 26 de PyAr. Aprovecho que hice la minuta (gracias Achuni por las anotaciones tomadas), y la reproduzco acá.
 
-Tuvimos un nuevo record de asistencia, 23 personas de las cuales 5 fueron nuevos (ver el listado en la <a href="http://www.python.com.ar/moin/Eventos/Reuniones/Reunion26">página de la minuta</a>). Incluso tuvimos un invitado (Eric), que viene del lado de Ruby, y se acercó a la reunión para ver como era esto de tener un grupo humano, una comunidad alrededor del lenguaje, porque no lo encuentra en otros lados.
+Tuvimos un nuevo record de asistencia, 23 personas de las cuales 5 fueron nuevos (ver el listado en la `página de la minuta <http://www.python.com.ar/moin/Eventos/Reuniones/Reunion26>`_). Incluso tuvimos un invitado (Eric), que viene del lado de Ruby, y se acercó a la reunión para ver como era esto de tener un grupo humano, una comunidad alrededor del lenguaje, porque no lo encuentra en otros lados.
 
-Hablamos bastante del framework LosCocos. Riq nos contó que hicieron y por qué. Tenemos cuatro features importantes, a groso modo: Escenas, Transiciones, Efectos, y Acciones para los sprites.
+Hablamos bastante del framework LosCocos. Riq nos contó qué hicieron y por qué. Tenemos cuatro features importantes, a groso modo: Escenas, Transiciones, Efectos, y Acciones para los sprites.
 
 Con motivo de que algunos chicos se van al FISL Brazil, surgió el tema de la segunda edición de la remera. Alecu contó como había sido el proceso de selección del diseño para la Bandera, y luego de mucha discusión llegamos a la conclusión de como encarar este proceso.
 
@@ -28,4 +28,4 @@ También hablamos de PyWeek, como siempre. Humitos nos contó que en Santa Fe hu
 
 Hablando de dinámica de grupo, el wiki del sitio de PyAr volvió a ser tema de conversación, con la queja de que no está suficientemente editable. PabloZ dice que si, pero el consenso general es que de hecho no se edita. Cuando tengamos server propio (nos van a regalar uno), tendríamos que poner un Trac + SVN (hay que organizar un sprint de instalación de python.com.ar; que la instalación no la hagan los mismos de siempre, así hay más gente que sabe cómo funciona la cosa). Obvio, primero tenemos que poder instalar el server, y para eso necesitamos que alguien nos done housing (un par de unidades de rack, energía, conexión a internet, y algún humano eventualmente disponible para ir a apretar un botón).
 
-Tres horas después de comenzada, y con un promedio de un litro de cerveza por persona (teniendo en cuenta que había mucha gente que no tomaba alcohol, con lo que el resto tomó bastante más que eso...), dimos por cerrada la reunión y se armaron algunos grupos para jugar al Fluxx y a las Pirámides.[@more@] |
+Tres horas después de comenzada, y con un promedio de un litro de cerveza por persona (teniendo en cuenta que había mucha gente que no tomaba alcohol, con lo que el resto tomó bastante más que eso...), dimos por cerrada la reunión y se armaron algunos grupos para jugar al Fluxx y a las Pirámides.
