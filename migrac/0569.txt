@@ -10,9 +10,9 @@ Este año no fue la excepción, estuvo muy bueno, aunque distinto. Principalment
 
 El viernes arrancó demasiado lento... la gente fue llegando tarde, y no tuvimos la reunión de selección de proyectos hasta justo antes del almuerzo, y luego de comer hicimos la votación y asignación de slots. Inmediatamente luego de eso me puse a jugar un poquitito con <a href="https://github.com/luciotorre/spacecraft">Spacecraft</a>, un sistema donde se programan navecitas para que luego combatan entre ellas, tratando de darles la mayor "inteligencia" posible.
 
-Estuve con eso hasta que arrancó otro tema que me interesaba mucho: Python en Android.&nbsp; Arrancamos la sesión charlando sobre qué frameworks había, y ventajas y desventaja de cada uno. Finalmente, decidimos probar <a href="http://kivy.org">Kivy</a>, un framewook crossplatform que compila Python para android y escritorio.
+Estuve con eso hasta que arrancó otro tema que me interesaba mucho: Python en Android. Arrancamos la sesión charlando sobre qué frameworks había, y ventajas y desventaja de cada uno. Finalmente, decidimos probar <a href="http://kivy.org">Kivy</a>, un framewook crossplatform que compila Python para android y escritorio.
 
-Instalarlo y hacerlo andar no fue trivial, pero tuvimos éxito con ejemplos que trae el framework y hacerlos andar en nuestros teléfonos, y la verdad es que quedamos maravillados con los resultados.&nbsp; Lipe siguió luego trabajando con esto e hizo una "botonera de efectos" bastante piola.
+Instalarlo y hacerlo andar no fue trivial, pero tuvimos éxito con ejemplos que trae el framework y hacerlos andar en nuestros teléfonos, y la verdad es que quedamos maravillados con los resultados. Lipe siguió luego trabajando con esto e hizo una "botonera de efectos" bastante piola.
 
 A la noche nos hicimos un partidazo de <a href="http://www.enanoverde.com/2010/02/resena-battlestar-galactica-el-juego-de-mesa/">Battlestar Galáctica</a>, pero el sueño me venció y me fui a dormir antes de terminarlo :(
 

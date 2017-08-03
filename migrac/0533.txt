@@ -22,7 +22,7 @@ La versión 0.3 (todavía pre-alfa) trae los siguientes cambios con respecto a l
 
 La forma más fácil de instalarlo, si tienen un Debian o Ubuntu, es usando <a href="http://launchpad.net/encuentro/trunk/0.3.1/+download/encuentro-0.3.1.deb">este instalador</a>. Si quieren obtener automaticamente las nuevas actualizaciones, pueden suscribirse al PPA; en una linea de comandos hagan:
 
-<span style="font-family: courier new,courier;">&nbsp;&nbsp;&nbsp; sudo add-apt-repository ppa:facundo/encuentro</span>
+<span style="font-family: courier new,courier;">&nbsp; sudo add-apt-repository ppa:facundo/encuentro</span>
 
 En cualquier otro caso, pueden usar <a href="http://launchpad.net/encuentro/trunk/0.3.1/+download/encuentro-0.3.1.tar.gz">el tarball </a>para instalarlo. Recuerden revisar el archivo AYUDA.txt si tienen alguna duda de cómo usar el programa.
 

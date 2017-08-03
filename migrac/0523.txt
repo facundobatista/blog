@@ -20,7 +20,7 @@ Buen ritmo de películas vistas en los últimos meses!</p>
 
 <li><a href="http://www.imdb.com/title/tt1188729/">Pandorum</a>: +0. Nunca una peli tipo "medio perdidos, en una nave espacial, con algo raro adentro y bichos feos" podrá ser la mejor luego de Alien, pero esta vale la pena verla.
 
-<li><a href="http://www.imdb.com/title/tt0815241/">Religulous</a>: +1.&nbsp; Ver acá http://www.taniquetil.com.ar/plog/post/1/513 por un comentario.
+<li><a href="http://www.imdb.com/title/tt0815241/">Religulous</a>: +1. Ver acá http://www.taniquetil.com.ar/plog/post/1/513 por un comentario.
 
 <li><a href="http://www.imdb.com/title/tt0986263/">Surrogates</a>: +0. Buena idea, bien explorada... la historia en sí podría ser mejor, no deja de ser un policial más, pero ese no es el valor principal de la película.
 
@@ -64,14 +64,14 @@ Por otro lado, aparecieron casi la misma cantidad para ver...</p>
 <p>
 Finalmente, el resumen según cuando las anoté:
 
-<span style="font-family: courier new,courier;">(23-May-2008)&nbsp;&nbsp;&nbsp; 4&nbsp;&nbsp; 4</span>
-<span style="font-family: courier new,courier;">(24-Sep-2008)&nbsp;&nbsp; 29&nbsp; 21&nbsp; 15&nbsp;&nbsp; 6</span>
-<span style="font-family: courier new,courier;">(21-Ene-2009)&nbsp;&nbsp; 19&nbsp; 18&nbsp; 18&nbsp; 18&nbsp; 12</span>
-<span style="font-family: courier new,courier;">(09-May-2009)&nbsp;&nbsp; 14&nbsp; 14&nbsp; 13&nbsp; 11&nbsp; 10</span>
-<span style="font-family: courier new,courier;">(15-Oct-2009)&nbsp;&nbsp; 20&nbsp; 17&nbsp; 17&nbsp; 16&nbsp; 15</span>
-<span style="font-family: courier new,courier;">(01-Mar-2010)&nbsp;&nbsp; 19&nbsp; 18&nbsp; 18&nbsp; 18&nbsp; 18</span>
-<span style="font-family: courier new,courier;">(12-Sep-2010)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 19&nbsp; 19&nbsp; 18&nbsp; 18</span>
-<span style="font-family: courier new,courier;">(14-Dic-2010)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 13&nbsp; 13&nbsp; 13</span>
-<span style="font-family: courier new,courier;">(13-Abr-2011)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 23&nbsp; 23</span>
-<span style="font-family: courier new,courier;">(09-Ago-2011)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 12</span>
-<span style="font-family: courier new,courier;">Total:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 105 111 113 123 121</span></p> |
+<span style="font-family: courier new,courier;">(23-May-2008)&nbsp; 4 4</span>
+<span style="font-family: courier new,courier;">(24-Sep-2008) 29 21 15 6</span>
+<span style="font-family: courier new,courier;">(21-Ene-2009) 19 18 18 18 12</span>
+<span style="font-family: courier new,courier;">(09-May-2009) 14 14 13 11 10</span>
+<span style="font-family: courier new,courier;">(15-Oct-2009) 20 17 17 16 15</span>
+<span style="font-family: courier new,courier;">(01-Mar-2010) 19 18 18 18 18</span>
+<span style="font-family: courier new,courier;">(12-Sep-2010)&nbsp;&nbsp;&nbsp;&nbsp; 19 19 18 18</span>
+<span style="font-family: courier new,courier;">(14-Dic-2010)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 13 13 13</span>
+<span style="font-family: courier new,courier;">(13-Abr-2011)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 23 23</span>
+<span style="font-family: courier new,courier;">(09-Ago-2011)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 12</span>
+<span style="font-family: courier new,courier;">Total:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 105 111 113 123 121</span></p> |

@@ -2,9 +2,9 @@
 CDPedia 0.7
 <tags>
 
-Python Argentina (PyAr) se enorgullece de anunciar la versión 0.7 de la CDPedia.&nbsp; Esta versión fue entregada a <a href="http://educ.ar/">Educ.ar</a> para ser distribuida en escuelas del todo el país, y ya está disponible para la descarga pública.
+Python Argentina (PyAr) se enorgullece de anunciar la versión 0.7 de la CDPedia. Esta versión fue entregada a <a href="http://educ.ar/">Educ.ar</a> para ser distribuida en escuelas del todo el país, y ya está disponible para la descarga pública.
 
-La CDPedia es un proyecto del grupo de usuarios de Python Argentina que permite acceder a la información de la Wikipedia en castellano sin necesidad de una conexión a Internet.&nbsp; Se puede descargar libremente de la red y grabar a CDs o DVDs para repartirlos sin restricciones.&nbsp; La CDPedia funciona en cualquier computadora, ya sea que tenga Linux, MacOS o Windows como sistema operativo.
+La CDPedia es un proyecto del grupo de usuarios de Python Argentina que permite acceder a la información de la Wikipedia en castellano sin necesidad de una conexión a Internet. Se puede descargar libremente de la red y grabar a CDs o DVDs para repartirlos sin restricciones. La CDPedia funciona en cualquier computadora, ya sea que tenga Linux, MacOS o Windows como sistema operativo.
 
 <img src="http://www.taniquetil.com.ar/facundo/imgs/cdpedia.png" alt="CDPedia" />
 

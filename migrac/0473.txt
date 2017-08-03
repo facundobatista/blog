@@ -23,7 +23,7 @@ Luego de buscar un rato por la web (pensé que tenía que haber algún programa 
 
 
 
-<span style="font-family: courier new,courier">&nbsp;&nbsp;&nbsp; convert foto_original.jpg -thumbnail '200x200>' -unsharp 0x.5 thumbnail.jpg</span>
+<span style="font-family: courier new,courier">&nbsp; convert foto_original.jpg -thumbnail '200x200>' -unsharp 0x.5 thumbnail.jpg</span>
 
 
 
@@ -35,7 +35,7 @@ Luego, para poner esa nueva y pequeña imagen dentro de la original, utilicé ot
 
 
 
-<span style="font-family: courier new,courier">&nbsp;&nbsp;&nbsp; exiftool '-ThumbnailImage&lt;=thumbnail.jpg' foto_original.jpg</span>
+<span style="font-family: courier new,courier">&nbsp; exiftool '-ThumbnailImage&lt;=thumbnail.jpg' foto_original.jpg</span>
 
 
 
@@ -51,15 +51,15 @@ Obviamente no iba a ejecutar esos dos comandos uno por uno para cada imagen, as�
 
 
 
-<span style="font-family: courier new,courier">&nbsp;&nbsp;&nbsp; for foto in `find -name "????.jpg"`; do
+<span style="font-family: courier new,courier">&nbsp; for foto in `find -name "????.jpg"`; do
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; echo $foto;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; echo $foto;
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; convert $foto -thumbnail '200x200>' -unsharp 0x.5 $foto.thumb;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; convert $foto -thumbnail '200x200>' -unsharp 0x.5 $foto.thumb;
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; exiftool '-ThumbnailImage&lt;='$foto.thumb $foto;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; exiftool '-ThumbnailImage&lt;='$foto.thumb $foto;
 
-&nbsp;&nbsp;&nbsp; done;</span>
+&nbsp; done;</span>
 
 
 
@@ -71,7 +71,7 @@ Esto me dejó todo procesado, pero medio sucio, ya que por cada imagen tenía un
 
 
 
-<span style="font-family: courier new,courier">&nbsp;&nbsp;&nbsp; find -name '*.thumb' -or -name '*_original' | xargs rm</span>
+<span style="font-family: courier new,courier">&nbsp; find -name '*.thumb' -or -name '*_original' | xargs rm</span>
 
 
 

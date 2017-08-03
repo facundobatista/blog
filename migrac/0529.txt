@@ -27,15 +27,15 @@ La versión 0.2 (que es la primera que anuncio) es una versión pre-alfa... se p
 
 La forma más fácil de instalarlo, si tienen un Debian o Ubuntu, es usando este instalador:
 
-<span style="font-family: courier new,courier;">&nbsp;&nbsp;&nbsp; http://launchpad.net/encuentro/trunk/0.2/+download/encuentro-0.2.deb</span>
+<span style="font-family: courier new,courier;">&nbsp; http://launchpad.net/encuentro/trunk/0.2/+download/encuentro-0.2.deb</span>
 
 Si quieren obtener automaticamente las nuevas actualizaciones, pueden suscribirse al PPA; en una linea de comandos hagan:
 en
-<span style="font-family: courier new,courier;">&nbsp;&nbsp;&nbsp; sudo add-apt-repository ppa:facundo/encuentro</span>
+<span style="font-family: courier new,courier;">&nbsp; sudo add-apt-repository ppa:facundo/encuentro</span>
 
 En cualquier otro caso, pueden usar el tarball para instalarlo:
 
-<span style="font-family: courier new,courier;">&nbsp;&nbsp;&nbsp; http://edge.launchpad.net/encuentro/trunk/0.2/+download/encuentro-0.2.tar.gz</span>
+<span style="font-family: courier new,courier;">&nbsp; http://edge.launchpad.net/encuentro/trunk/0.2/+download/encuentro-0.2.tar.gz</span>
 
 
 Recuerden revisar el archivo AYUDA.txt si tienen alguna duda de cómo usar el programa.

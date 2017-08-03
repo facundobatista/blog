@@ -94,27 +94,27 @@ Finalmente, el resumen según cuando las anoté, pero esta vez lo mostramos apen
 
 
 <blockquote>
-	<span style="font-family: courier new,courier">(anterior)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1
+	<span style="font-family: courier new,courier">(anterior)&nbsp;&nbsp;&nbsp; 1
 
-	(02-Dic-2006)&nbsp;&nbsp; 2
+	(02-Dic-2006) 2
 
-	(26-Jan-2007)&nbsp;&nbsp; 1&nbsp;&nbsp;&nbsp; 1
+	(26-Jan-2007) 1&nbsp; 1
 
-	(26-Mar-2007)&nbsp;&nbsp; 7&nbsp;&nbsp;&nbsp; 2
+	(26-Mar-2007) 7&nbsp; 2
 
-	(15-Jun-2007)&nbsp;&nbsp; 4&nbsp;&nbsp;&nbsp; 2
+	(15-Jun-2007) 4&nbsp; 2
 
-	(19-Nov-2007)&nbsp; 14&nbsp;&nbsp; 12
+	(19-Nov-2007) 14 12
 
-	(23-May-2008)&nbsp; 25&nbsp;&nbsp; 24
+	(23-May-2008) 25 24
 
-	(24-Sep-2008)&nbsp; 37&nbsp;&nbsp; 34
+	(24-Sep-2008) 37 34
 
-	(21-Ene-2009)&nbsp; 22&nbsp;&nbsp; 19
+	(21-Ene-2009) 22 19
 
-	(09-May-2009)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 17
+	(09-May-2009)&nbsp;&nbsp;&nbsp;&nbsp; 17
 
-	Total:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 113&nbsp; 111
+	Total:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 113 111
 
 	</span>
 </blockquote> |

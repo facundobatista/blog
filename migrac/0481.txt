@@ -82,32 +82,32 @@ Nuevas:
 Finalmente, el resumen según cuando las anoté:
 
 <blockquote>
-	<span style="font-family: courier new,courier">(anterior)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1</span>
+	<span style="font-family: courier new,courier">(anterior)&nbsp;&nbsp;&nbsp; 1</span>
 
-	<span style="font-family: courier new,courier">(02-Dic-2006)&nbsp;&nbsp; 2</span>
+	<span style="font-family: courier new,courier">(02-Dic-2006) 2</span>
 
-	<span style="font-family: courier new,courier">(26-Jan-2007)&nbsp;&nbsp; 1&nbsp;&nbsp;&nbsp; 1</span>
+	<span style="font-family: courier new,courier">(26-Jan-2007) 1&nbsp; 1</span>
 
-	<span style="font-family: courier new,courier">(26-Mar-2007)&nbsp;&nbsp; 7&nbsp;&nbsp;&nbsp; 2</span>
+	<span style="font-family: courier new,courier">(26-Mar-2007) 7&nbsp; 2</span>
 
-	<span style="font-family: courier new,courier">(15-Jun-2007)&nbsp;&nbsp; 4&nbsp;&nbsp;&nbsp; 2</span>
+	<span style="font-family: courier new,courier">(15-Jun-2007) 4&nbsp; 2</span>
 
-	<span style="font-family: courier new,courier">(19-Nov-2007)&nbsp; 14&nbsp;&nbsp; 12&nbsp;&nbsp;&nbsp; 3</span>
+	<span style="font-family: courier new,courier">(19-Nov-2007) 14 12&nbsp; 3</span>
 
-	<span style="font-family: courier new,courier">(23-May-2008)&nbsp; 25&nbsp;&nbsp; 24&nbsp;&nbsp; 21&nbsp;&nbsp;&nbsp; 4&nbsp;&nbsp; 4</span>
+	<span style="font-family: courier new,courier">(23-May-2008) 25 24 21&nbsp; 4 4</span>
 
-	<span style="font-family: courier new,courier">(24-Sep-2008)&nbsp; 37&nbsp;&nbsp; 34&nbsp;&nbsp; 31&nbsp;&nbsp; 29&nbsp; 21</span>
+	<span style="font-family: courier new,courier">(24-Sep-2008) 37 34 31 29 21</span>
 
-	<span style="font-family: courier new,courier">(21-Ene-2009)&nbsp; 22&nbsp;&nbsp; 19&nbsp;&nbsp; 19&nbsp;&nbsp; 19&nbsp; 18</span>
+	<span style="font-family: courier new,courier">(21-Ene-2009) 22 19 19 19 18</span>
 
-	<span style="font-family: courier new,courier">(09-May-2009)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 17&nbsp;&nbsp; 16&nbsp;&nbsp; 14&nbsp; 14</span>
+	<span style="font-family: courier new,courier">(09-May-2009)&nbsp;&nbsp;&nbsp;&nbsp; 17 16 14 14</span>
 
-	<span style="font-family: courier new,courier">(15-Oct-2009)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 21&nbsp;&nbsp; 20&nbsp; 17</span>
+	<span style="font-family: courier new,courier">(15-Oct-2009)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 21 20 17</span>
 
-	<span style="font-family: courier new,courier">(01-Mar-2010)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 19&nbsp; 18 </span>
+	<span style="font-family: courier new,courier">(01-Mar-2010)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 19 18 </span>
 
-	<span style="font-family: courier new,courier">(12-Sep-2010)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 19</span>
+	<span style="font-family: courier new,courier">(12-Sep-2010)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 19</span>
 
-	<span style="font-family: courier new,courier">Total:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 113&nbsp; 111&nbsp; 111&nbsp; 105 111</span>
+	<span style="font-family: courier new,courier">Total:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 113 111 111 105 111</span>
 
 </blockquote> |

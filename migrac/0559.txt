@@ -14,30 +14,30 @@ Los siguientes son los pasos para solucionar esto....
 
 Editen el archivo de config de NetworkManager y borren la linea que dice <span style="font-family: courier new,courier;">dnsmasq</span>.
 
-<span style="font-family: courier new,courier;">&nbsp;&nbsp;&nbsp; sudo gedit /etc/NetworkManager/NetworkManager.conf</span>
+<span style="font-family: courier new,courier;">&nbsp; sudo gedit /etc/NetworkManager/NetworkManager.conf</span>
 
 Instalen dnsmasq (les va a dar error al tratar de arrancar porque hay otro proceso tomando el puerto, no se preocupen):
 
-<span style="font-family: courier new,courier;">&nbsp;&nbsp;&nbsp; sudo apt-get install dnsmasq</span>
+<span style="font-family: courier new,courier;">&nbsp; sudo apt-get install dnsmasq</span>
 
 Maten todas las instancias de dnsmasq que encuentren
 
-<span style="font-family: courier new,courier;">&nbsp;&nbsp;&nbsp; ps -eaf | grep dnsmasq</span>
-<span style="font-family: courier new,courier;">&nbsp; &nbsp; sudo kill ...</span>
+<span style="font-family: courier new,courier;">&nbsp; ps -eaf | grep dnsmasq</span>
+<span style="font-family: courier new,courier;">  sudo kill ...</span>
 
 Editen el archivo de configuración:
 
-<span style="font-family: courier new,courier;">&nbsp;&nbsp;&nbsp; sudo gedit /etc/dnsmasq.conf</span>
+<span style="font-family: courier new,courier;">&nbsp; sudo gedit /etc/dnsmasq.conf</span>
 
 Descomenten las lineas de no-resolv y no-poll, y agreguen servers externos a mano, esas lineas quedarían...
 
-<span style="font-family: courier new,courier;">&nbsp;&nbsp;&nbsp; no-resolv</span>
-<span style="font-family: courier new,courier;">&nbsp;&nbsp;&nbsp; no-poll</span>
-<span style="font-family: courier new,courier;">&nbsp;&nbsp;&nbsp; server=8.8.8.8</span>
-<span style="font-family: courier new,courier;">&nbsp;&nbsp;&nbsp; server=8.8.4.4</span>
+<span style="font-family: courier new,courier;">&nbsp; no-resolv</span>
+<span style="font-family: courier new,courier;">&nbsp; no-poll</span>
+<span style="font-family: courier new,courier;">&nbsp; server=8.8.8.8</span>
+<span style="font-family: courier new,courier;">&nbsp; server=8.8.4.4</span>
 
 No las pongan en cualquier lado, funciona, pero les queda desordenado. Fíjense que el archivo de config las tiene por ahí. Finalmente, reinicien dnsmasq:
 
-<span style="font-family: courier new,courier;">&nbsp;&nbsp;&nbsp; sudo service dnsmasq restart</span>
+<span style="font-family: courier new,courier;">&nbsp; sudo service dnsmasq restart</span>
 
 Para verificar que funciona lindo, pueden usar el comando <span style="font-family: courier new,courier;">dig</span>, que resuelve nombres, y les dice cuanto tardó. Entonces hagan <span style="font-family: courier new,courier;">dig unadireccionquenohayanusado.com</span> dos veces, y vean la diferencia entre ambos tiempos (pista: el segundo tiempo debería ser cero o casi cero).</p> |

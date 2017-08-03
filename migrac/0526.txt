@@ -2,7 +2,7 @@
 CDPedia, un poco de historia
 <tags>
 
-Con motivo de la reciente <a href="http://www.taniquetil.com.ar/plog/post/1/520">liberación de la versión 0.7</a> y algo más, me puse a pensar un poco sobre la historia de la&nbsp; CDPedia.
+Con motivo de la reciente <a href="http://www.taniquetil.com.ar/plog/post/1/520">liberación de la versión 0.7</a> y algo más, me puse a pensar un poco sobre la historia de la CDPedia.
 
 Cuenta la leyenda (?) que todo arrancó en el sprint posterior al <a href="http://www.taniquetil.com.ar/plog/post/1/185">primer PyDay de Santa Fé</a>; la idea la trajo el omnipresente Leito Monk, pero parece que había surgido del Gran Nico César. No sé, ustedes vieron como son los mitos.
 

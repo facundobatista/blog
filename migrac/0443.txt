@@ -34,7 +34,7 @@ Ahora, finalmente, armé una solución para proteger de incidentes mis datos dia
 
 
 
-¿Por qué son complicados? Porque cambian todo el tiempo, y si uno pasa cinco meses sin hacer backup, los cambios son muchos y están todos desparramados... ver qué cambió y hacer un backup parcial es complicado, y hacer backup de todo de nuevo es una putada.&nbsp; Se podrían hacer backups parciales y diferenciales, pero la info no son dos gigas, y armar algo en múltiples DVDs es más complicado de lo que parece.
+¿Por qué son complicados? Porque cambian todo el tiempo, y si uno pasa cinco meses sin hacer backup, los cambios son muchos y están todos desparramados... ver qué cambió y hacer un backup parcial es complicado, y hacer backup de todo de nuevo es una putada. Se podrían hacer backups parciales y diferenciales, pero la info no son dos gigas, y armar algo en múltiples DVDs es más complicado de lo que parece.
 
 
 
@@ -64,13 +64,13 @@ No voy a entrar en detalles de cómo particioné el disco nuevo y qué usé del 
 
 $ df -m
 
-S.ficheros&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Bloques de 1M&nbsp;&nbsp; Usado&nbsp;&nbsp;&nbsp; Dispon Uso% Montado en
+S.ficheros&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Bloques de 1M Usado&nbsp; Dispon Uso% Montado en
 
-/dev/sdb5&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 93872&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 188&nbsp;&nbsp;&nbsp;&nbsp; 88916&nbsp;&nbsp; 1% /backup
+/dev/sdb5&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 93872&nbsp;&nbsp;&nbsp;&nbsp; 188&nbsp;&nbsp; 88916 1% /backup
 
 ...
 
-/dev/sda1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 93872&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 188&nbsp;&nbsp;&nbsp;&nbsp; 88916&nbsp;&nbsp; 1% /mnt/old-barra</span>
+/dev/sda1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 93872&nbsp;&nbsp;&nbsp;&nbsp; 188&nbsp;&nbsp; 88916 1% /mnt/old-barra</span>
 
 
 
@@ -104,11 +104,11 @@ Luego le indicamos a <a href="http://en.wikipedia.org/wiki/Mdadm">mdadm</a> (el 
 
 mdadm: /dev/sda1 appears to contain an ext2fs file system
 
-&nbsp;&nbsp;&nbsp; size=97659100K&nbsp; mtime=Mon Dec 21 23:26:54 2009
+&nbsp; size=97659100K mtime=Mon Dec 21 23:26:54 2009
 
 mdadm: /dev/sdb5 appears to contain an ext2fs file system
 
-&nbsp;&nbsp;&nbsp; size=97659100K&nbsp; mtime=Mon Dec 21 20:18:02 2009
+&nbsp; size=97659100K mtime=Mon Dec 21 20:18:02 2009
 
 Continue creating array? yes
 
@@ -126,9 +126,9 @@ Personalities : [raid1]
 
 md0 : active raid1 sdb5[1] sda1[0]
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 97659008 blocks [2/2] [UU]
+&nbsp;&nbsp;&nbsp; 97659008 blocks [2/2] [UU]
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [>....................]&nbsp; resync =&nbsp; 1.0% (1036096/97659008) finish=26.4min speed=60946K/sec
+&nbsp;&nbsp;&nbsp; [>....................] resync = 1.0% (1036096/97659008) finish=26.4min speed=60946K/sec
 
 
 
@@ -168,9 +168,9 @@ Número máximo de bloques del sistema de ficheros=0
 
 Respaldo del superbloque guardado en los bloques:
 
-&nbsp;&nbsp; &nbsp;32768, 98304, 163840, 229376, 294912, 819200, 884736, 1605632, 2654208,
+ &nbsp;32768, 98304, 163840, 229376, 294912, 819200, 884736, 1605632, 2654208,
 
-&nbsp;&nbsp; &nbsp;4096000, 7962624, 11239424, 20480000, 23887872
+ &nbsp;4096000, 7962624, 11239424, 20480000, 23887872
 
 
 
@@ -186,7 +186,7 @@ Para que esta partición esté montada siempre, agregamos al archivo <em>/etc/fs
 
 
 
-<span style="font-family: courier new,courier">/dev/md0 &nbsp; /backup&nbsp;&nbsp; ext4 &nbsp; defaults,user 0 0</span>
+<span style="font-family: courier new,courier">/dev/md0  /backup ext4  defaults,user 0 0</span>
 
 
 
@@ -204,11 +204,11 @@ Se puede ver entonces que el dispositivo que habíamos creado originalmente est�
 
 $ df -m
 
-S.ficheros&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Bloques de 1M&nbsp;&nbsp; Usado&nbsp;&nbsp;&nbsp; Dispon Uso% Montado en
+S.ficheros&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Bloques de 1M Usado&nbsp; Dispon Uso% Montado en
 
 ...
 
-/dev/md0&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 93872&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 188&nbsp;&nbsp;&nbsp;&nbsp; 88916&nbsp;&nbsp; 1% /backup</span>
+/dev/md0&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 93872&nbsp;&nbsp;&nbsp;&nbsp; 188&nbsp;&nbsp; 88916 1% /backup</span>
 
 
 

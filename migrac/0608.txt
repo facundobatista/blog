@@ -11,7 +11,7 @@ Este proyecto, entonces, lo declaro abierto a la comunidad, para el que quiera p
 
 <strong>Descripción general</strong>
 
-La idea es ofrecer un "espacio de colaboración de corta vida".&nbsp; Algo así como un pastebin dinámico, pero que al mismo tiempo sea fácil de usar. En definitiva, algo útil.
+La idea es ofrecer un "espacio de colaboración de corta vida". Algo así como un pastebin dinámico, pero que al mismo tiempo sea fácil de usar. En definitiva, algo útil.
 
 Los kilinks van a poder ser editables, y cada nueva edición será hija del kilink editado (cada "submit" es un commit en un virtual versionado de código). Aclaración importante de terminología: el kilink es *uno solo*, que tiene distintas versiones; este kilink único tiene siempre la misma URL, el mismo "kilink id".
 
@@ -21,7 +21,7 @@ La autenticación será lo más sencilla posible para que un visitante pueda dec
 
 No hay mecanismos de "compartición" de los kilinks: cualquiera puede acceder a cualquier kilink (en general por la URL que se comparte, pero también buscando, ver abajo).
 
-La autoría del kilink y la responsabilidad sobre ese texto es del usuario que lo pegó ahí. Hay que declinar explícitamente responsabilidad.&nbsp; El texto incluido en el mismo es de "dominio público" y puede ser mostrado/usado indiscriminadamente.
+La autoría del kilink y la responsabilidad sobre ese texto es del usuario que lo pegó ahí. Hay que declinar explícitamente responsabilidad. El texto incluido en el mismo es de "dominio público" y puede ser mostrado/usado indiscriminadamente.
 
 ¿Por qué usar kilink?</p>
 <ul>
@@ -70,7 +70,7 @@ El diseño tiene que ser simple y efectivo, orientado a bajar la barrera de entr
 
 Otras características:</p>
 <ul>
-<li>una URL o kilink ID que casi funciona como&nbsp; URL corta, ej: kilink.com.ar/4g3jxd
+<li>una URL o kilink ID que casi funciona como URL corta, ej: kilink.com.ar/4g3jxd
 
 <li>el contenido del kilink debería ser indexado por google y otros buscadores
 

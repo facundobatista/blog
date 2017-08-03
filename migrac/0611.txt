@@ -14,6 +14,6 @@ Entonces, encaré el laburo de <a href="http://www.taniquetil.com.ar/plog/post/1
 
 Luego de un par de semanas de "beta", tengo el orgullo de presentarles <strong>Encuentro 1.0</strong>, :D
 
-Es una release rara porque a nivel funcionalidad real no hay mucho impacto, pero internamente cambió todo.&nbsp; Igual, lo importante acá es el nuevo público al que puede llegar.
+Es una release rara porque a nivel funcionalidad real no hay mucho impacto, pero internamente cambió todo. Igual, lo importante acá es el nuevo público al que puede llegar.
 
 Ah, y mañana jueves con Diego Mascialino (el otro gran desarrollador de <a href="http://encuentro.taniquetil.com.ar/">Encuentro</a>) hacemos la <em>release party</em> de esta versión... o sea, nos juntamos a tomar algo y jugar unos pooles en <a href="http://www.diversica.com/guia-de-salidas/vficha.php?ide=35">Wrangler's</a>... el que quiere venir que venga, están todos invitados! (pero cada uno se paga lo suyo :p).</p> |

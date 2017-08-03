@@ -83,14 +83,14 @@ Eso sí, hay un montonazazo de nuevas planeadas para ver:</p>
 <p>
 Finalmente, el resumen según cuando las anoté:
 
-<span style="font-family: courier new,courier;">&nbsp;&nbsp;&nbsp; (19-Nov-2007)&nbsp;&nbsp;&nbsp; 3</span>
-<span style="font-family: courier new,courier;">&nbsp;&nbsp;&nbsp; (23-May-2008)&nbsp;&nbsp; 21&nbsp;&nbsp;&nbsp; 4&nbsp;&nbsp; 4</span>
-<span style="font-family: courier new,courier;">&nbsp;&nbsp;&nbsp; (24-Sep-2008)&nbsp;&nbsp; 31&nbsp;&nbsp; 29&nbsp; 21&nbsp; 15&nbsp;&nbsp; 6</span>
-<span style="font-family: courier new,courier;">&nbsp;&nbsp;&nbsp; (21-Ene-2009)&nbsp;&nbsp; 19&nbsp;&nbsp; 19&nbsp; 18&nbsp; 18&nbsp; 18</span>
-<span style="font-family: courier new,courier;">&nbsp;&nbsp;&nbsp; (09-May-2009)&nbsp;&nbsp; 16&nbsp;&nbsp; 14&nbsp; 14&nbsp; 13&nbsp; 11</span>
-<span style="font-family: courier new,courier;">&nbsp;&nbsp;&nbsp; (15-Oct-2009)&nbsp;&nbsp; 21&nbsp;&nbsp; 20&nbsp; 17&nbsp; 17&nbsp; 16</span>
-<span style="font-family: courier new,courier;">&nbsp;&nbsp;&nbsp; (01-Mar-2010)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 19&nbsp; 18&nbsp; 18&nbsp; 18</span>
-<span style="font-family: courier new,courier;">&nbsp;&nbsp;&nbsp; (12-Sep-2010)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 19&nbsp; 19&nbsp; 18</span>
-<span style="font-family: courier new,courier;">&nbsp;&nbsp;&nbsp; (14-Dic-2010)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 13&nbsp; 13</span>
-<span style="font-family: courier new,courier;">&nbsp;&nbsp;&nbsp; (13-Abr-2011)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 23</span>
-<span style="font-family: courier new,courier;">&nbsp;&nbsp;&nbsp; Total:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 111&nbsp; 105 111 113 123</span></p> |
+<span style="font-family: courier new,courier;">&nbsp; (19-Nov-2007)&nbsp; 3</span>
+<span style="font-family: courier new,courier;">&nbsp; (23-May-2008) 21&nbsp; 4 4</span>
+<span style="font-family: courier new,courier;">&nbsp; (24-Sep-2008) 31 29 21 15 6</span>
+<span style="font-family: courier new,courier;">&nbsp; (21-Ene-2009) 19 19 18 18 18</span>
+<span style="font-family: courier new,courier;">&nbsp; (09-May-2009) 16 14 14 13 11</span>
+<span style="font-family: courier new,courier;">&nbsp; (15-Oct-2009) 21 20 17 17 16</span>
+<span style="font-family: courier new,courier;">&nbsp; (01-Mar-2010)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 19 18 18 18</span>
+<span style="font-family: courier new,courier;">&nbsp; (12-Sep-2010)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 19 19 18</span>
+<span style="font-family: courier new,courier;">&nbsp; (14-Dic-2010)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 13 13</span>
+<span style="font-family: courier new,courier;">&nbsp; (13-Abr-2011)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 23</span>
+<span style="font-family: courier new,courier;">&nbsp; Total:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 111 105 111 113 123</span></p> |

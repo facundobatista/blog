@@ -7,7 +7,7 @@ Las últimas semanas fueron de hacer demasiadas cosas en un día, todos los día
 
 
 
-Como estuve tres semanas afuera, luego de las vacaciones nos enfocamos en hacer visitas varias, yendo y viniendo.&nbsp; Otras tareas también se derivaron de la ausencia prolongada, como hacer algunos pagos, compras varias para la casa, etc.
+Como estuve tres semanas afuera, luego de las vacaciones nos enfocamos en hacer visitas varias, yendo y viniendo. Otras tareas también se derivaron de la ausencia prolongada, como hacer algunos pagos, compras varias para la casa, etc.
 
 
 
@@ -23,7 +23,7 @@ Nos quedan dos meses solamente para la <a href="http://ar.pycon.org/2009/about/"
 
 
 
-Vengo laburando también en dos proyectos que quiero ver de cerrar antes de la conferencia: tener una tirada del Tutorial de Python, en castellano, en papel, y terminar con la CDPedia (el contenido más relevante de la wikipedia en un CD!).&nbsp; Ambos son proyectos que vienen desde hace rato, pero en los últimos meses me los cargué al hombro con la firme idea de terminarlos (y por suerte hay gente que me está ayudando en ambos).
+Vengo laburando también en dos proyectos que quiero ver de cerrar antes de la conferencia: tener una tirada del Tutorial de Python, en castellano, en papel, y terminar con la CDPedia (el contenido más relevante de la wikipedia en un CD!). Ambos son proyectos que vienen desde hace rato, pero en los últimos meses me los cargué al hombro con la firme idea de terminarlos (y por suerte hay gente que me está ayudando en ambos).
 
 
 
@@ -31,7 +31,7 @@ Relacionado también con Python, tuve una reunión en <a href="http://www.fmlatr
 
 
 
-Otro proyecto más social que venimos empujando con otra gente, es lograr acercar a la gente a los pequeños productores (principalmente, pero no solamente, de alimentos).&nbsp; La idea es lograr un tipo de comercio más justo, eliminando intermediarios innecesarios, donde ganen no sólo los consumidores, sino también los pequeños productores (a detrimento de las grandes cadenas de comercialización dónde lo más importante es ganar dinero). Esto lo estamos laburando a través de <a href="http://www.mercadojusto.com.ar/">Mercado Justo</a>, que cómo dice el sitio, se propone como una herramienta para facilitar a las redes y organizaciones de comercio justo una comunicación más efectiva con sus actuales y potenciales consumidores. Este sitio todavía lo tenemos en desarrollo, y estamos por comenzar alguna prueba de distribución... ojalá podamos lanzarlo al público en los próximos meses.
+Otro proyecto más social que venimos empujando con otra gente, es lograr acercar a la gente a los pequeños productores (principalmente, pero no solamente, de alimentos). La idea es lograr un tipo de comercio más justo, eliminando intermediarios innecesarios, donde ganen no sólo los consumidores, sino también los pequeños productores (a detrimento de las grandes cadenas de comercialización dónde lo más importante es ganar dinero). Esto lo estamos laburando a través de <a href="http://www.mercadojusto.com.ar/">Mercado Justo</a>, que cómo dice el sitio, se propone como una herramienta para facilitar a las redes y organizaciones de comercio justo una comunicación más efectiva con sus actuales y potenciales consumidores. Este sitio todavía lo tenemos en desarrollo, y estamos por comenzar alguna prueba de distribución... ojalá podamos lanzarlo al público en los próximos meses.
 
 
 

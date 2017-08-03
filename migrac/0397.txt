@@ -23,13 +23,13 @@ Por ejemplo, si quieren buscar ... no sirve que pongan ... :
 
 <span style="font-family: courier new,courier">
 
-&nbsp; Camión&nbsp;&nbsp;&nbsp; - Camion
+ Camión&nbsp; - Camion
 
-&nbsp; Muñiz&nbsp;&nbsp;&nbsp;&nbsp; - Muniz
+ Muñiz&nbsp;&nbsp; - Muniz
 
-&nbsp; &Ccedil;anakkale - Canakkale
+ &Ccedil;anakkale - Canakkale
 
-&nbsp; &#8545;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - II</span>
+ &#8545;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - II</span>
 
 
 

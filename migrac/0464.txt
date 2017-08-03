@@ -115,7 +115,7 @@ Sin embargo, alguien preguntó específicamente sobre pruebas en interfaces grá
 
 
 
-También se mencionó un tipo de pruebas que es raramente comentado fuera de los círculos de administradores de sistemas: cuando se maneja un servicio que se tienen que monitorear, es vital disponer de una manera de poder probar al servicio de manera frecuente y repetida tal que se pueda asegurar que sigue funcionando.&nbsp; Entonces, también se necesitan pruebas de reglas y procesos de negocios para los sistemas funcionado.
+También se mencionó un tipo de pruebas que es raramente comentado fuera de los círculos de administradores de sistemas: cuando se maneja un servicio que se tienen que monitorear, es vital disponer de una manera de poder probar al servicio de manera frecuente y repetida tal que se pueda asegurar que sigue funcionando. Entonces, también se necesitan pruebas de reglas y procesos de negocios para los sistemas funcionado.
 
 
 
@@ -157,7 +157,7 @@ Por otro lado, está la situación donde se necesita código en producción, y r
 
 
 
-Entonces, como conclusión, por favor compartí sobre hacer pruebas en esta lista.&nbsp; Preocupaciones, ideas, tecnologías, si deberías o no hacer algo, etc.; este no es un tema donde todo es blanco o negro, o donde está todo dicho.
+Entonces, como conclusión, por favor compartí sobre hacer pruebas en esta lista. Preocupaciones, ideas, tecnologías, si deberías o no hacer algo, etc.; este no es un tema donde todo es blanco o negro, o donde está todo dicho.
 
 
 

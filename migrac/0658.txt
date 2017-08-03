@@ -28,7 +28,7 @@ Implícito en todo esto está la reversibilidad del tiempo. Viendo la primera im
 
 Lo vemos incluso en las ecuaciones que describen este modelo simple. Vayamos por ejemplo a las posiciones... la ecuación para esto es:
 
-<span style="font-family: courier new,courier;">&nbsp; e = &frac12;.a.t&sup2;</span>
+<span style="font-family: courier new,courier;"> e = &frac12;.a.t&sup2;</span>
 
 Eso es: el espacio recorrido (h&sbquo; - h, en el dibujo) es la mitad de la aceleración multiplicada por el tiempo que pasó al cuadrado. Si entre la primera y segunda imagen pasaron 2 segundos, siendo la aceleración 9.81m/s&sup2; (más o menos, acá en la Tierra), tenemos que el espacio es 19.62m. O sea, viendo la primera imagen podemos deducir que 2 segundos después la pelota va a estar casi 20 metros más abajo... y si vemos la segunda imagen, podemos deducir que 2 segundos antes (o sea, usando t=-2s en la ecuación) la pelota estaba esa distancia más arriba (el espacio lo recorremos en la dirección contraria, porque el resultado de la ecuación nos dio negativo).
 

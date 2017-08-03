@@ -11,7 +11,7 @@ Arrancamos con nuestro programa o proyecto Python que queremos meter adentro del
 <span style="font-family: courier new,courier;">facundo@exopus:~/prueba/proyecto$ touch __init__.py</span>
 <span style="font-family: courier new,courier;">facundo@exopus:~/prueba/proyecto$ cat principal.py</span>
 <span style="font-family: courier new,courier;">def run():</span>
-<span style="font-family: courier new,courier;">&nbsp;&nbsp;&nbsp; print "Arrancamos!"</span>
+<span style="font-family: courier new,courier;">&nbsp; print "Arrancamos!"</span>
 <span style="font-family: courier new,courier;">facundo@exopus:~/prueba/proyecto$ cd ..</span>
 <span style="font-family: courier new,courier;">facundo@exopus:~/prueba$</span>
 
@@ -25,7 +25,7 @@ Tenemos que probar que podamos arrancar nuestro sistema desde el directorio padr
 <span style="font-family: courier new,courier;">Arrancamos!</span>
 <span style="font-family: courier new,courier;">>>></span>
 
-Una vez que lo logremos ejecutar así, tenemos que&nbsp; poner ese mismo código en un archivo con nombre <span style="font-family: courier new,courier;">__main__.py</span> en el directorio padre de nuestro proyecto:
+Una vez que lo logremos ejecutar así, tenemos que poner ese mismo código en un archivo con nombre <span style="font-family: courier new,courier;">__main__.py</span> en el directorio padre de nuestro proyecto:
 
 <span style="font-family: courier new,courier;">facundo@exopus:~/prueba$ cat __main__.py</span>
 <span style="font-family: courier new,courier;">import proyecto.principal</span>
@@ -39,12 +39,12 @@ Volvemos a probar que nuestro sistema funciona correctamente:
 El próximo paso es meter todo adentro de un archivo ZIP, aprovechando que Python es capaz de interpretar directamente este tipo de archivos comprimidos (por eso el nombre especial de antes, para que Python lo reconozca):
 
 <span style="font-family: courier new,courier;">facundo@exopus:~/prueba$ zip -r proyecto.zip __main__.py proyecto/</span>
-<span style="font-family: courier new,courier;">&nbsp; adding: __main__.py (deflated 27%)</span>
-<span style="font-family: courier new,courier;">&nbsp; adding: proyecto/ (stored 0%)</span>
-<span style="font-family: courier new,courier;">&nbsp; adding: proyecto/__init__.py (stored 0%)</span>
-<span style="font-family: courier new,courier;">&nbsp; adding: proyecto/principal.pyc (deflated 45%)</span>
-<span style="font-family: courier new,courier;">&nbsp; adding: proyecto/__init__.pyc (deflated 30%)</span>
-<span style="font-family: courier new,courier;">&nbsp; adding: proyecto/principal.py (stored 0%)</span>
+<span style="font-family: courier new,courier;"> adding: __main__.py (deflated 27%)</span>
+<span style="font-family: courier new,courier;"> adding: proyecto/ (stored 0%)</span>
+<span style="font-family: courier new,courier;"> adding: proyecto/__init__.py (stored 0%)</span>
+<span style="font-family: courier new,courier;"> adding: proyecto/principal.pyc (deflated 45%)</span>
+<span style="font-family: courier new,courier;"> adding: proyecto/__init__.pyc (deflated 30%)</span>
+<span style="font-family: courier new,courier;"> adding: proyecto/principal.py (stored 0%)</span>
 
 Probamos nuevamente que, hasta acá, funcione todo correctamente:
 

@@ -18,7 +18,7 @@ Aunque LXC no es propiamente dicho una "máquina virtual" (es más bien un "ento
 
 ¿Cómo se arma y usa un contenedor? Luego de instalar los paquetes necesarios (sudo apt-get install lxc libvirt-bin), la creación de un contenedor es bastaaaaante simple (de acá en adelante reemplazar en todos lados el "mi-lxc" por el nombre que ustedes quieran para el contenedor):
 
-<span style="font-family: courier new,courier;">&nbsp;&nbsp;&nbsp; sudo lxc-create -t ubuntu -n mi-lxc -- -r precise -a i386 -b $USER</span>
+<span style="font-family: courier new,courier;">&nbsp; sudo lxc-create -t ubuntu -n mi-lxc -- -r precise -a i386 -b $USER</span>
 
 Desmenucemos. El <span style="font-family: courier new,courier;">-t</span> es el template a tomar, y el <span style="font-family: courier new,courier;">-n</span> es para el nombre que le vamos a dar. A partir de ahí vemos un "<span style="font-family: courier new,courier;">--</span>", lo que significa que el resto son opciones para el template propiamente dicho. En este caso, que use el release Precise, la arquitectura i386, y mi mismo usuario.
 
@@ -26,35 +26,35 @@ Lo maravilloso de esto es que el container, adentro, tiene mi usuario, porque el
 
 Para arrancar el container podemos hacer
 
-<span style="font-family: courier new,courier;">&nbsp;&nbsp;&nbsp; sudo lxc-start -n mi-lxc</span>
+<span style="font-family: courier new,courier;">&nbsp; sudo lxc-start -n mi-lxc</span>
 
 Y esto nos va a dejar con el prompt listo para loguear, y acá alcanza con usar los propios usuario y password. Una vez adentro, usamos el container como si fuera una máquina nuevita.
 
 Todo muy lindo, pero igual me gustan hacerle algunas configuraciones que hacen el uso aún más directo y sencillo. Y estas configuraciones, a nivel de sistema, son basicamente para que podamos entrar al container más fácil, y usar desde adentro aplicaciones gráficas.
 
-Para entrar más fácil, tenemos que tener Avahi configurado. Más allá de instalarlo (<span style="font-family: courier new,courier;">sudo apt-get update; sudo apt-get install avahi-daemon</span>), hay un detalle a toquetear.&nbsp; Adentro del lxc, abrir el archivo <span style="font-family: courier new,courier;">/etc/avahi/avahi-daemon.conf</span> y aumentar bastante el <span style="font-family: courier new,courier;">rlimit-nproc</span> (por ejemplo, de 3 a 300).
+Para entrar más fácil, tenemos que tener Avahi configurado. Más allá de instalarlo (<span style="font-family: courier new,courier;">sudo apt-get update; sudo apt-get install avahi-daemon</span>), hay un detalle a toquetear. Adentro del lxc, abrir el archivo <span style="font-family: courier new,courier;">/etc/avahi/avahi-daemon.conf</span> y aumentar bastante el <span style="font-family: courier new,courier;">rlimit-nproc</span> (por ejemplo, de 3 a 300).
 
 Con esto ya estamos listos para entrar fácil al container. Lo podemos probar en otra terminal; hacer:
 
-<span style="font-family: courier new,courier;">&nbsp;&nbsp;&nbsp; ssh mi-lxc.local</span>
+<span style="font-family: courier new,courier;">&nbsp; ssh mi-lxc.local</span>
 
 Lindo, ¿no?. Pero también está bueno poder forwardear los eventos de X, así podemos levantar aplicaciones gráficas. Para eso tenemos que tocar lo siguiente en el host (o sea, no en el container sino en la máquina "real"): editar <span style="font-family: courier new,courier;">/var/lib/lxc/mi-lxc/fstab</span> y agregarle la linea:
 
-<span style="font-family: courier new,courier;">&nbsp;&nbsp;&nbsp; /tmp/.X11-unix tmp/.X11-unix none bind</span>
+<span style="font-family: courier new,courier;">&nbsp; /tmp/.X11-unix tmp/.X11-unix none bind</span>
 
 En el container, tenemos que estar seguros que <span style="font-family: courier new,courier;">/tmp/.X11-unix</span> exista, y reiniciarlo luego de estas configuraciones.
 
 También necesitamos setear DISPLAY. Esto yo lo mezclé en el .bashrc, poniendo algo también para que cuando entro por ssh me cambie el color del prompt (incluso, poniendo distintos colores a distintos containers). Lo que estoy usando es:
 
-<span style="font-family: courier new,courier;">&nbsp;&nbsp;&nbsp; if [ `hostname` = "mi-lxc" ]; then</span>
-<span style="font-family: courier new,courier;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; export PS1='\[\e[1;34m\]\u@\h:\w${text}$\[\e[m\] ';</span>
-<span style="font-family: courier new,courier;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; export DISPLAY=:0</span>
-<span style="font-family: courier new,courier;">&nbsp;&nbsp;&nbsp; fi</span>
+<span style="font-family: courier new,courier;">&nbsp; if [ `hostname` = "mi-lxc" ]; then</span>
+<span style="font-family: courier new,courier;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; export PS1='\[\e[1;34m\]\u@\h:\w${text}$\[\e[m\] ';</span>
+<span style="font-family: courier new,courier;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; export DISPLAY=:0</span>
+<span style="font-family: courier new,courier;">&nbsp; fi</span>
 
 Para terminar, entonces, les dejo los tres comandos que más uso en el día a día con los containers, más allá de la instalación en sí: levantar el container (fíjense el <span style="font-family: courier new,courier;">-d</span>, que lo levanta como un demonio, total nos conectamos por ssh); conectarnos (fíjense el <span style="font-family: courier new,courier;">-A</span>, para que forwardee la conexión del agente de autenticación); y finalmente apagar el container:
 
-<span style="font-family: courier new,courier;">&nbsp;&nbsp;&nbsp; sudo lxc-start -n mi-lxc -d</span>
-<span style="font-family: courier new,courier;">&nbsp;&nbsp;&nbsp; ssh -A mi-lxc.local</span>
-<span style="font-family: courier new,courier;">&nbsp;&nbsp;&nbsp; sudo lxc-stop -n mi-lxc</span>
+<span style="font-family: courier new,courier;">&nbsp; sudo lxc-start -n mi-lxc -d</span>
+<span style="font-family: courier new,courier;">&nbsp; ssh -A mi-lxc.local</span>
+<span style="font-family: courier new,courier;">&nbsp; sudo lxc-stop -n mi-lxc</span>
 
 Que lo disfruten.</p> |

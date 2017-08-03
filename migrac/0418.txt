@@ -27,7 +27,7 @@ Hay una analogía, que aunque no exacta, puede ser ejemplificadora. Tomemos el c
 
 
 
-En la computadora la dinámica es distinta. A diferencia del motor, donde muchos lo usan, pocos lo saben arreglar, y menos aún pueden crear sus propias herramientas para arreglarlo, tenemos que no hay una barrera física entre el usuario y el objeto. Sí, la computadora sale dinero, ponerla a funcionar sale dinero, y esto es una barrera entre la persona y su acceso a la computadora. Pero una vez que accedió a la misma, no hay mayor barrera&nbsp; entre usar herramientas para consumir contenido, usar herramientas para producir contenido, y construir otras nuevas herramientas.
+En la computadora la dinámica es distinta. A diferencia del motor, donde muchos lo usan, pocos lo saben arreglar, y menos aún pueden crear sus propias herramientas para arreglarlo, tenemos que no hay una barrera física entre el usuario y el objeto. Sí, la computadora sale dinero, ponerla a funcionar sale dinero, y esto es una barrera entre la persona y su acceso a la computadora. Pero una vez que accedió a la misma, no hay mayor barrera entre usar herramientas para consumir contenido, usar herramientas para producir contenido, y construir otras nuevas herramientas.
 
 
 

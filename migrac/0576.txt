@@ -10,7 +10,7 @@ Claro, en unity2d el "launcher" es la barra vertical de la izquierda, pero por d
 
 También se pueden abrir o lanzar cosas desde el "dash" (eso que aparece cuando uno hace click en la tecla que está entre el el <em>control</em> y el <em>alt</em>). Pero no funciona del todo bien si uno quiere abrir archivos (antes me los mostraba, ahora no... e incluso cuando me los mostraba, si tenía dos con el mismo nombre me mostraba ambos, y no sabía cual era cual). En el mejor de los casos, hay que apretar una tecla, escribir parte de lo que queremos ejecutar, esperar a que se refresque, ubicar visualmente lo que uno quiere, hacer click... lentísimo.
 
-En fin. Había perdido la posibilidad de "facilmente lanzar programas o abrir archivos", y decidí hacer algo yo para reemplazarlo. Lo tomé también como excusa para jugar con Gtk3 (obviamente desde Python), ya que cambia mucho con respecto a Gtk2 y todavía no lo había usado para nada.&nbsp; El resultado: <strong>LauncherPosta</strong>.
+En fin. Había perdido la posibilidad de "facilmente lanzar programas o abrir archivos", y decidí hacer algo yo para reemplazarlo. Lo tomé también como excusa para jugar con Gtk3 (obviamente desde Python), ya que cambia mucho con respecto a Gtk2 y todavía no lo había usado para nada. El resultado: <strong>LauncherPosta</strong>.
 
 LauncherPosta es un lanzador. Realmente un lanzador. Uno que te deja ejecutar programas, o abrir archivos facilmente, :D.
 

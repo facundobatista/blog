@@ -37,7 +37,7 @@ Creamos el directorio para guardar nuestra estructura de traducciones:
 	<span style="font-family: courier new,courier">mkdir locale</span>
 
 </blockquote>
-Editamos todos nuestros archivos y metemos todos los textos que queramos internacionalizar en la llamada a función <em>_()</em>.&nbsp; O sea, que si teníamos el texto <em>"click here"</em> y queremos que ese texto se internacionalice, tenemos que dejar <em>_("click here")</em>. Esto es vital para el próximo paso, y para el funcionamiento luego, ya que <em>_()</em> será la función de gettext que reemplazará lo que está escrito en el código con lo que se mostrará al usuario en función de su lenguaje.
+Editamos todos nuestros archivos y metemos todos los textos que queramos internacionalizar en la llamada a función <em>_()</em>. O sea, que si teníamos el texto <em>"click here"</em> y queremos que ese texto se internacionalice, tenemos que dejar <em>_("click here")</em>. Esto es vital para el próximo paso, y para el funcionamiento luego, ya que <em>_()</em> será la función de gettext que reemplazará lo que está escrito en el código con lo que se mostrará al usuario en función de su lenguaje.
 
 
 

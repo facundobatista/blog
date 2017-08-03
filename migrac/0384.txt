@@ -11,81 +11,81 @@ Revisando la configuración en la web de Dell, no hablan de esto para nada, pero
 
 
 
-<span style="font-size: small; font-family: courier new,courier">11:09:58&nbsp; Facundo Batista&nbsp;&nbsp;&nbsp;&nbsp; Pregunta inicial/Comentarios: [Argentina] ¿Qué distro de teclado viene en la XPS con Ubuntu si la compro de Argentina?
+<span style="font-size: small; font-family: courier new,courier">11:09:58 Facundo Batista&nbsp;&nbsp; Pregunta inicial/Comentarios: [Argentina] ¿Qué distro de teclado viene en la XPS con Ubuntu si la compro de Argentina?
 
-11:12:24&nbsp; LA_DHS Luis 86610&nbsp;&nbsp; su compra es a nombre personal ?
+11:12:24 LA_DHS Luis 86610 su compra es a nombre personal ?
 
-11:13:32&nbsp; Facundo Batista&nbsp;&nbsp;&nbsp;&nbsp; si
+11:13:32 Facundo Batista&nbsp;&nbsp; si
 
-11:13:39&nbsp; Facundo Batista&nbsp;&nbsp;&nbsp;&nbsp; soy un usuario final, digamos
+11:13:39 Facundo Batista&nbsp;&nbsp; soy un usuario final, digamos
 
-11:13:54&nbsp; LA_DHS Luis 86610&nbsp;&nbsp; cuando estaria efectuando la compra ?
+11:13:54 LA_DHS Luis 86610 cuando estaria efectuando la compra ?
 
-11:14:17&nbsp; Facundo Batista&nbsp;&nbsp;&nbsp;&nbsp; la semana que viene, pero eso depende de otra consulta que te hago luego, :)
+11:14:17 Facundo Batista&nbsp;&nbsp; la semana que viene, pero eso depende de otra consulta que te hago luego, :)
 
-11:14:31&nbsp; Facundo Batista&nbsp;&nbsp;&nbsp;&nbsp; ¿querés que te pregunte lo otro primero?
+11:14:31 Facundo Batista&nbsp;&nbsp; ¿querés que te pregunte lo otro primero?
 
-11:15:00&nbsp; LA_DHS Luis 86610&nbsp;&nbsp; si porque la verdad no entiendo la pregunta ?
+11:15:00 LA_DHS Luis 86610 si porque la verdad no entiendo la pregunta ?
 
-11:15:15&nbsp; LA_DHS Luis 86610&nbsp;&nbsp; Qué distro de teclado viene en la XPS con Ubuntu si la compro de Argentina?
+11:15:15 LA_DHS Luis 86610 Qué distro de teclado viene en la XPS con Ubuntu si la compro de Argentina?
 
-11:15:30&nbsp; Facundo Batista&nbsp;&nbsp;&nbsp;&nbsp; los teclados vienen en distintas distribuciones
+11:15:30 Facundo Batista&nbsp;&nbsp; los teclados vienen en distintas distribuciones
 
-11:15:41&nbsp; Facundo Batista&nbsp;&nbsp;&nbsp;&nbsp; inglés, español, latinoamericano, italiano, griego, etc
+11:15:41 Facundo Batista&nbsp;&nbsp; inglés, español, latinoamericano, italiano, griego, etc
 
-11:15:53&nbsp; Facundo Batista&nbsp;&nbsp;&nbsp;&nbsp; la XPS con Ubuntu es un modelo vuestro
+11:15:53 Facundo Batista&nbsp;&nbsp; la XPS con Ubuntu es un modelo vuestro
 
-11:16:04&nbsp; Facundo Batista&nbsp;&nbsp;&nbsp;&nbsp; si compro esa máquina desde Argentina... ¿qué teclado viene?
+11:16:04 Facundo Batista&nbsp;&nbsp; si compro esa máquina desde Argentina... ¿qué teclado viene?
 
-11:16:04&nbsp; LA_DHS Luis 86610&nbsp;&nbsp; en español logicamente te llegaria
+11:16:04 LA_DHS Luis 86610 en español logicamente te llegaria
 
-11:16:15&nbsp; Facundo Batista&nbsp;&nbsp;&nbsp;&nbsp; ¿por qué? yo estoy en latinoamérica
+11:16:15 Facundo Batista&nbsp;&nbsp; ¿por qué? yo estoy en latinoamérica
 
-11:16:35&nbsp; LA_DHS Luis 86610&nbsp;&nbsp; español
+11:16:35 LA_DHS Luis 86610 español
 
-11:16:49&nbsp; Facundo Batista&nbsp;&nbsp;&nbsp;&nbsp; ¿no se puede elegir? en español no me sirve
+11:16:49 Facundo Batista&nbsp;&nbsp; ¿no se puede elegir? en español no me sirve
 
-11:17:10&nbsp; LA_DHS Luis 86610&nbsp;&nbsp; si queres el teclado en ingles todo el sistema va en ingles
+11:17:10 LA_DHS Luis 86610 si queres el teclado en ingles todo el sistema va en ingles
 
-11:17:40&nbsp; Facundo Batista&nbsp;&nbsp;&nbsp;&nbsp; no
+11:17:40 Facundo Batista&nbsp;&nbsp; no
 
-11:17:47&nbsp; Facundo Batista&nbsp;&nbsp;&nbsp;&nbsp; quiero el teclado en LATINOAMERICANO
+11:17:47 Facundo Batista&nbsp;&nbsp; quiero el teclado en LATINOAMERICANO
 
-11:17:50&nbsp; Facundo Batista&nbsp;&nbsp;&nbsp;&nbsp; Mirá: http://en.wikipedia.org/wiki/Image:KB_Latin_American.svg
+11:17:50 Facundo Batista&nbsp;&nbsp; Mirá: http://en.wikipedia.org/wiki/Image:KB_Latin_American.svg
 
-11:18:06&nbsp; Facundo Batista&nbsp;&nbsp;&nbsp;&nbsp; Fijate acá, también
+11:18:06 Facundo Batista&nbsp;&nbsp; Fijate acá, también
 
-11:18:09&nbsp; Facundo Batista&nbsp;&nbsp;&nbsp;&nbsp; http://en.wikipedia.org/wiki/Keyboard_layout#Spanish_.28Latin_America.29
+11:18:09 Facundo Batista&nbsp;&nbsp; http://en.wikipedia.org/wiki/Keyboard_layout#Spanish_.28Latin_America.29
 
-11:18:20&nbsp; Facundo Batista&nbsp;&nbsp;&nbsp;&nbsp; Latinoamericano y Español son dos teclados *distintos*
+11:18:20 Facundo Batista&nbsp;&nbsp; Latinoamericano y Español son dos teclados *distintos*
 
-11:18:25&nbsp; LA_DHS Luis 86610&nbsp;&nbsp; no unicamente podes llevar el sistema en un solo idioma lo siento
+11:18:25 LA_DHS Luis 86610 no unicamente podes llevar el sistema en un solo idioma lo siento
 
-11:18:29&nbsp; Facundo Batista&nbsp;&nbsp;&nbsp;&nbsp; ok
+11:18:29 Facundo Batista&nbsp;&nbsp; ok
 
-11:18:36&nbsp; Facundo Batista&nbsp;&nbsp;&nbsp;&nbsp; lo quiero en Latinoamericano, ¿se puede?
+11:18:36 Facundo Batista&nbsp;&nbsp; lo quiero en Latinoamericano, ¿se puede?
 
-11:19:26&nbsp; LA_DHS Luis 86610&nbsp;&nbsp; pues aca solo manejamos español e ingles no tengo otra opcion
+11:19:26 LA_DHS Luis 86610 pues aca solo manejamos español e ingles no tengo otra opcion
 
-11:19:57&nbsp; Facundo Batista&nbsp;&nbsp;&nbsp;&nbsp; ¿hay otra manera de comprar la laptop que no sea por "ahí"?
+11:19:57 Facundo Batista&nbsp;&nbsp; ¿hay otra manera de comprar la laptop que no sea por "ahí"?
 
-11:20:10&nbsp; LA_DHS Luis 86610&nbsp;&nbsp; en base a eso se ditribuye en todo el continente no hay otra opcion lo sentimos
+11:20:10 LA_DHS Luis 86610 en base a eso se ditribuye en todo el continente no hay otra opcion lo sentimos
 
-11:21:23&nbsp; Facundo Batista&nbsp;&nbsp;&nbsp;&nbsp; ¿o sea que en Latinoamérica Dell distribuye laptops con teclados que son de otro continente?
+11:21:23 Facundo Batista&nbsp;&nbsp; ¿o sea que en Latinoamérica Dell distribuye laptops con teclados que son de otro continente?
 
-11:21:51&nbsp; LA_DHS Luis 86610&nbsp;&nbsp; no creo
+11:21:51 LA_DHS Luis 86610 no creo
 
-11:22:28&nbsp; Facundo Batista&nbsp;&nbsp;&nbsp;&nbsp; ¿con quien debería hablar de Dell que no *crea*, sino *sepa*?
+11:22:28 Facundo Batista&nbsp;&nbsp; ¿con quien debería hablar de Dell que no *crea*, sino *sepa*?
 
-11:27:17&nbsp; Facundo Batista&nbsp;&nbsp;&nbsp;&nbsp; ¿hola?
+11:27:17 Facundo Batista&nbsp;&nbsp; ¿hola?
 
-11:28:42&nbsp; LA_DHS Luis 86610&nbsp;&nbsp; si gustas mejor llama via telefonica y que te comuniquen con el area tecnica porque aparte de ingles y español no hay otr opcion disponible
+11:28:42 LA_DHS Luis 86610 si gustas mejor llama via telefonica y que te comuniquen con el area tecnica porque aparte de ingles y español no hay otr opcion disponible
 
-11:28:42&nbsp; LA_DHS Luis 86610&nbsp;&nbsp; en la pagina de internet en la opcion contactenos encontraras el telefono para que marques desde tu pais
+11:28:42 LA_DHS Luis 86610 en la pagina de internet en la opcion contactenos encontraras el telefono para que marques desde tu pais
 
-11:29:11&nbsp; Facundo Batista&nbsp;&nbsp;&nbsp;&nbsp; ok, gracias
+11:29:11 Facundo Batista&nbsp;&nbsp; ok, gracias
 
-11:30:18&nbsp; LA_DHS Luis 86610&nbsp;&nbsp; gracias por contactar a DELL ha sido un gusto atenderle</span>
+11:30:18 LA_DHS Luis 86610 gracias por contactar a DELL ha sido un gusto atenderle</span>
 
 
 

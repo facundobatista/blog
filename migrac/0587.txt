@@ -6,11 +6,11 @@ Les comentaba en un post anterior que había vuelto a dar "Entendiendo Unicode" 
 
 Bueno, no, este es el top 5 de <a href="http://www.taniquetil.com.ar/facundo/charlas.html">todas las charlas que dí</a>:
 
-<span style="font-family: courier new,courier;">&nbsp;&nbsp; 13&nbsp; Introducción a Python</span>
-<span style="font-family: courier new,courier;">&nbsp;&nbsp; 10&nbsp; Entendiendo Unicode</span>
-<span style="font-family: courier new,courier;">&nbsp;&nbsp;&nbsp; 8&nbsp; Python más rápido que C</span>
-<span style="font-family: courier new,courier;">&nbsp;&nbsp;&nbsp; 4&nbsp; Python 3000</span>
-<span style="font-family: courier new,courier;">&nbsp;&nbsp;&nbsp; 3&nbsp; Comunidad, anarquía y subversión</span>
+<span style="font-family: courier new,courier;"> 13 Introducción a Python</span>
+<span style="font-family: courier new,courier;"> 10 Entendiendo Unicode</span>
+<span style="font-family: courier new,courier;">&nbsp; 8 Python más rápido que C</span>
+<span style="font-family: courier new,courier;">&nbsp; 4 Python 3000</span>
+<span style="font-family: courier new,courier;">&nbsp; 3 Comunidad, anarquía y subversión</span>
 
 Se acumulan las repeticiones.
 

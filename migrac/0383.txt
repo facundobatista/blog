@@ -7,7 +7,7 @@ En nombre del equipo de desarrollo de Python, estoy feliz en anunciarles la libe
 
 
 
-Hay nuevos módulos, muchas características nuevas, mejoras, correcciones de bugs, y otros cambios en Python 2.6.&nbsp; Pueden mirar la <a href="http://docs.python.org/dev/whatsnew/2.6.html">página de "What's new"</a> para detalles, así como también la <a href="http://www.python.org/dev/peps/pep-0361/">PEP 361</a>.
+Hay nuevos módulos, muchas características nuevas, mejoras, correcciones de bugs, y otros cambios en Python 2.6. Pueden mirar la <a href="http://docs.python.org/dev/whatsnew/2.6.html">página de "What's new"</a> para detalles, así como también la <a href="http://www.python.org/dev/peps/pep-0361/">PEP 361</a>.
 
 
 

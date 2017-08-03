@@ -32,20 +32,20 @@ Finalmente, tenemos varios detalles. Le podemos decir que corte en el primer tes
 
 Lo primero, obviamente en el virtualenv de tu proyecto, es instalar nose y todos sus plugins:
 
-<span style="font-family: courier new,courier;">&nbsp;&nbsp;&nbsp; pip install nose nose-progressive nose-selecttests nose-timer nosecomplete</span>
+<span style="font-family: courier new,courier;">&nbsp; pip install nose nose-progressive nose-selecttests nose-timer nosecomplete</span>
 
 Para el plugin de autocomplete, como autocompletamos desde el shell, realmente, tenemos que hookear al mismo con el plugin de nose. Es copiar y pegar algo, nada más, las instrucciones <a href="https://github.com/alonho/nosecomplete">acá</a>.
 
 Finalmente, hay que decirle a nose, cuando lo ejecutamos, que use tal o cual plugin, y de qué forma. Acá viene mezclada la mano... algunas configs la podemos poner en el el <span style="font-family: courier new,courier;">$HOME/.noserc</span>...
 
-<span style="font-family: courier new,courier;">&nbsp;&nbsp;&nbsp; [nosetests]</span>
-<span style="font-family: courier new,courier;">&nbsp;&nbsp;&nbsp; with-progressive=1</span>
-<span style="font-family: courier new,courier;">&nbsp;&nbsp;&nbsp; nologcapture=1</span>
-<span style="font-family: courier new,courier;">&nbsp;&nbsp;&nbsp; verbose=1</span>
+<span style="font-family: courier new,courier;">&nbsp; [nosetests]</span>
+<span style="font-family: courier new,courier;">&nbsp; with-progressive=1</span>
+<span style="font-family: courier new,courier;">&nbsp; nologcapture=1</span>
+<span style="font-family: courier new,courier;">&nbsp; verbose=1</span>
 
 ..., pero otras las tenemos que especificar al ejecutarlo:
 
-<span style="font-family: courier new,courier;">&nbsp;&nbsp;&nbsp; nosetests --progressive-bar-filled=2 --progressive-function-color=1 --progressive-dim-color=5</span>
+<span style="font-family: courier new,courier;">&nbsp; nosetests --progressive-bar-filled=2 --progressive-function-color=1 --progressive-dim-color=5</span>
 
 Esto último se podría meter como un <em>alias</em> del bash, o simplemente encapsularlo en un script 'test' en el proyecto (junto con algún pyflakes o pylint, etc).
 

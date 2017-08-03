@@ -20,7 +20,7 @@ La versión 0.4.1 trae un montón de nuevas características, y muchos bugs corr
 
 La forma más fácil de instalarlo, si tienen un Debian o Ubuntu, es usando <a href="http://launchpad.net/enjuewemela/trunk/0.4.1/+download/enjuewemela-0.4.1.deb">este instalador</a>. Si quieren obtener automaticamente las nuevas actualizaciones, pueden suscribirse al PPA; en una linea de comandos hagan:
 
-<span style="font-family: courier new,courier;">&nbsp;&nbsp;&nbsp; sudo add-apt-repository ppa:facundo/enjuewemela</span>
+<span style="font-family: courier new,courier;">&nbsp; sudo add-apt-repository ppa:facundo/enjuewemela</span>
 
 En cualquier otro caso, <a href="http://launchpad.net/enjuewemela/trunk/0.4.1/+download/enjuewemela-0.4.1.tar.gz">pueden usar el tarball</a> para instalarlo.
 

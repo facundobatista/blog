@@ -183,7 +183,7 @@ Por último, quiero dejarles la otra cara de la moneda: muchos comentarios que f
 
 
 
-<a href="http://anthony.lenton.com.ar/2009/09/07/pycon-argentina-2009/en/">achuni</a>: It was our first PyCon in Argentina, and we weren&rsquo;t expecting it to be so successful.&nbsp; With no international publicity (other than the public mailing list archive, banners on blogs and such) we had people coming from Peru, Paraguay and Colombia.&nbsp; And thanks to a few well placed reminders, unlike the vast majority of the FOSS related conferences in Argentina lately, as far as I know nobody had anything stolen during the conference. I must say everybody from the organization did an impressive job, I hope PyConAr 2010 (this time in Córdoba) goes just as well.
+<a href="http://anthony.lenton.com.ar/2009/09/07/pycon-argentina-2009/en/">achuni</a>: It was our first PyCon in Argentina, and we weren&rsquo;t expecting it to be so successful. With no international publicity (other than the public mailing list archive, banners on blogs and such) we had people coming from Peru, Paraguay and Colombia. And thanks to a few well placed reminders, unlike the vast majority of the FOSS related conferences in Argentina lately, as far as I know nobody had anything stolen during the conference. I must say everybody from the organization did an impressive job, I hope PyConAr 2010 (this time in Córdoba) goes just as well.
 
 
 

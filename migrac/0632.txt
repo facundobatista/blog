@@ -6,7 +6,7 @@ Salimos el miércoles tarde (porque yo tenía el curso de Python en el centro), 
 
 Al otro día nos levantamos bien tempranito, porque yo tenía que llevar los tutoriales y posavasos para que se repartieran cuando la gente se registraba al evento. Llegamos con tiempo, tanto que luego de entregar los materiales, saludar y etc, nos quedamos tomando mate y desayunando a la vera del rio, durante como media hora...
 
-Y finalmente arrancó la conferencia.&nbsp; El primer bloque de charlas me gustó entero, y mucho, lo cual hace rato que no me pasaba en una PyCon. Fuí primero a "Recorriendo Nodos con Python" (de Martín Alderete y alguien más que el sitio de PyCon no me deja ver quién es :( ), después a "Aprendizaje automático con scikit-learn" (de Rafa Carrascosa), y finalmente a "Monitoreo de procesos industriales utilizando Python" (de Joac).
+Y finalmente arrancó la conferencia. El primer bloque de charlas me gustó entero, y mucho, lo cual hace rato que no me pasaba en una PyCon. Fuí primero a "Recorriendo Nodos con Python" (de Martín Alderete y alguien más que el sitio de PyCon no me deja ver quién es :( ), después a "Aprendizaje automático con scikit-learn" (de Rafa Carrascosa), y finalmente a "Monitoreo de procesos industriales utilizando Python" (de Joac).
 
 Después salimos a almorzar, lo cual es siempre una aventura en este tipo de eventos (imagínense centenares de personas atacando de repente los locales cercanos). Pero teníamos una hora y media, así que no hubo mayor inconveniente que la quemazón generalizada de caras y brazos porque el sol estaba fuerte y nadie se avivó :/.
 
@@ -24,4 +24,4 @@ Al final del día vinieron más lightning talks, y la plenaria de Claudo Freire 
 
 Esa noche era la cena "de invitados", donde volvimos a repetir asado (pero esta vez en un restaurant muy bonito), y luego varios nos fuimos a reventar la noche (not really) a una fiesta del <a href="http://www.cecrosario.org.ar/">CEC</a>.
 
-En fin, pasó otra PyCon Argentina, la cual me gustó mucho mucho. Felicitaciones a todos los que trabajaron para que salga tan lindo todo!&nbsp; Yo no llevé cámara, pero hay muchas fotos <a href="http://www.flickr.com/photos/96412866@N03/sets/72157637086696953/">acá</a>, <a href="http://www.flickr.com/photos/70871182@N04/sets/72157637010046074/">acá</a>, y <a href="https://plus.google.com/photos/108155033271790413956/albums/5939980470881806081">acá</a>.</p> |
+En fin, pasó otra PyCon Argentina, la cual me gustó mucho mucho. Felicitaciones a todos los que trabajaron para que salga tan lindo todo! Yo no llevé cámara, pero hay muchas fotos <a href="http://www.flickr.com/photos/96412866@N03/sets/72157637086696953/">acá</a>, <a href="http://www.flickr.com/photos/70871182@N04/sets/72157637010046074/">acá</a>, y <a href="https://plus.google.com/photos/108155033271790413956/albums/5939980470881806081">acá</a>.</p> |

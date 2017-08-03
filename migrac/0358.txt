@@ -6,7 +6,7 @@ No, no es una referencia a <a href="http://www.taniquetil.com.ar/facundo/hr/hr.h
 
 En Marte, hoy, el agua sólo se encuentra en forma de gas atmosférico y como hielo en los polos. No obstante, hay evidencias geológicas de que hace miles de millones de años fluía en ríos y lagos. Para ayudar a que los científicos puedan comprender qué pasó con ese volumen de agua, de que manera se distribuía por el planeta, y por qué dejó de existir en estado líquido, la NASA envió a un explorador no humano a dicho planeta.
 
-La NASA bautizó a esta nave espacial como <a href="http://en.wikipedia.org/wiki/Phoenix_(spacecraft)">Mars Phoenix Lander</a>, hermana melliza de la Mars Polar Lander que en 1999 perdió comunicación con la Tierra al llegar a Marte. Al contrario que los robots&nbsp; Spirit y Opportunity, que desde el 2004 recorren y fotografían la superficie de Marte, la Phoenix carece de ruedas y no podrá moverse del punto en que aterrizó (en el polo norte del planeta, luego de recorrer casi 700 millones de kilómetros).
+La NASA bautizó a esta nave espacial como <a href="http://en.wikipedia.org/wiki/Phoenix_(spacecraft)">Mars Phoenix Lander</a>, hermana melliza de la Mars Polar Lander que en 1999 perdió comunicación con la Tierra al llegar a Marte. Al contrario que los robots Spirit y Opportunity, que desde el 2004 recorren y fotografían la superficie de Marte, la Phoenix carece de ruedas y no podrá moverse del punto en que aterrizó (en el polo norte del planeta, luego de recorrer casi 700 millones de kilómetros).
 
 <img src="http://www.taniquetil.com.ar/facundo/imgs/phoenixlander1.jpg" alt="Polo norte marciano" title="Polo norte marciano" width="350" height="350" />
 
@@ -14,7 +14,7 @@ Lanzada el 4 de Agosto del año pasado, llegó a Marte el 25 de Mayo pasado. Pes
 
 La forma de aterrizaje es la clásica, de paracaídas y cohetes al final para frenar la nave antes de posarse (las últimas naves de este tipo terminan cayendo envueltas en bolsas de aire, para minimizar el impacto). Un hito: fue la primer nave <a href="http://en.wikipedia.org/wiki/Image:Phoenix_Lander_seen_from_MRO_during_EDL2.jpg">observada</a> al descender en otro planeta (<a href="http://www.google.com/mars/#lat=68.218830&lon=-125.749222&zoom=7">esta</a> es la zona donde bajó).
 
-La Phoenix analizará las moléculas contenidas en el agua presente en el permafrost marciano, la capa de hielo permanentemente congelado en los niveles superficiales del polo norte.&nbsp; El laboratorio incluido a bordo de la sonda se encarga de calentar, en un horno alimentado por energía solar, las muestras recogidas del subsuelo marciano hasta convertirlas en un gas más fácil de analizar por la multitud de sensores que dispone. Luego, transmitirá a la tierra la lista de moléculas que contiene.
+La Phoenix analizará las moléculas contenidas en el agua presente en el permafrost marciano, la capa de hielo permanentemente congelado en los niveles superficiales del polo norte. El laboratorio incluido a bordo de la sonda se encarga de calentar, en un horno alimentado por energía solar, las muestras recogidas del subsuelo marciano hasta convertirlas en un gas más fácil de analizar por la multitud de sensores que dispone. Luego, transmitirá a la tierra la lista de moléculas que contiene.
 
 <img src="http://www.taniquetil.com.ar/facundo/imgs/phoenixlander2.jpg" alt="Algunas fotos de la Phoenix" title="Algunas fotos de la Phoenix" width="600" height="151" />
 

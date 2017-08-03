@@ -47,7 +47,7 @@ La imagen de la cámara, el audio (o la imagen con el audio desde la cámara, no
 
 
 
-Ir pasando entre los cuatros es sencillo, y el Operador va prestando atención a la charla y decide al vuelo qué es más interesante mostrar.&nbsp; El Elemento Mezclador graba directamente el video final teniendo en cuenta esto.
+Ir pasando entre los cuatros es sencillo, y el Operador va prestando atención a la charla y decide al vuelo qué es más interesante mostrar. El Elemento Mezclador graba directamente el video final teniendo en cuenta esto.
 
 
 
@@ -99,7 +99,7 @@ Veo tres alternativas:
 
 
 
-<span style="font-family: courier new,courier">&nbsp; vncrec -depth 16 &lt;maquinadisertante> -record /dev/stdout | transcode -x vnc -i /dev/stdin -y xvid | ffmpeg -i - - target ntsc-dv salida.dv</span>
+<span style="font-family: courier new,courier"> vncrec -depth 16 &lt;maquinadisertante> -record /dev/stdout | transcode -x vnc -i /dev/stdin -y xvid | ffmpeg -i - - target ntsc-dv salida.dv</span>
 
 
 

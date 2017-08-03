@@ -17,14 +17,14 @@ Igual, no importa la ubicación exacta: usando distutils (u otras alternativas) 
 
 ¿Pero qué pasa si no es una biblioteca sino un programa? El primer detalle es que necesitamos un <em>ejecutable</em> que arranque nuestro programa. Distutils y amigos tienen esto bastante bien manejado, se les puede especificar un <em>script</em>, y terminan instalando todo de la siguiente manera:
 
-<span style="font-family: courier new,courier;">&nbsp; script -> /usr/bin/</span>
-<span style="font-family: courier new,courier;">&nbsp; todo el resto /usr/lib/python2.6/dist-packages/ (o similar)</span>
+<span style="font-family: courier new,courier;"> script -> /usr/bin/</span>
+<span style="font-family: courier new,courier;"> todo el resto /usr/lib/python2.6/dist-packages/ (o similar)</span>
 
 Hasta acá todo bien, ¿no? No. Resulta que nuestro programa tiene imágenes, archivos de audio, etc, y está "mal visto" meter esos archivos "de datos" dentro del directorio de bibliotecas de Python. Entonces, lo que recomiendan por ahí es:
 
-<span style="font-family: courier new,courier;">&nbsp; script -> /usr/bin/</span>
-<span style="font-family: courier new,courier;">&nbsp; archivos de datos -> /usr/share/</span>
-<span style="font-family: courier new,courier;">&nbsp; código python -> /usr/lib/python2.6/dist-packages/ (o similar)</span>
+<span style="font-family: courier new,courier;"> script -> /usr/bin/</span>
+<span style="font-family: courier new,courier;"> archivos de datos -> /usr/share/</span>
+<span style="font-family: courier new,courier;"> código python -> /usr/lib/python2.6/dist-packages/ (o similar)</span>
 
 Esto ya no es tan fácil de lograr, porque la distribución de archivos de datos es como un parche en los sistemas de distribución de bibliotecas.
 
@@ -32,8 +32,8 @@ Además, si nos vamos a poner quisquillosos de no meter archivos de datos en el 
 
 Entonces me embarqué en el siguiente capricho: quería que la distribución de mi programa vaya a parar a:
 
-<span style="font-family: courier new,courier;">&nbsp; script -> /usr/bin/</span>
-<span style="font-family: courier new,courier;">&nbsp; todo el resto -> /usr/share/</span>
+<span style="font-family: courier new,courier;"> script -> /usr/bin/</span>
+<span style="font-family: courier new,courier;"> todo el resto -> /usr/share/</span>
 
 Los archivos de datos, por supuesto, mezclados con "todo el resto".
 
@@ -44,21 +44,21 @@ Primero lo primero, ¿cómo organizamos nuestro proyecto? Yo tengo lo siguiente 
 
 - un directorio 'bin' donde tengo el script que arranca todo
 
-<span style="font-family: courier new,courier;">&nbsp; bin/encuentro</span>
+<span style="font-family: courier new,courier;"> bin/encuentro</span>
 
 esto es un archivo ejecutable que no hace mucho más que jugar un poco con los directorios y el sys.path para que se encuentre al resto del código Python de nuestro programa (en dos situaciones: cuando ejecutamos bin/encuentro desde el repositorio mientras estamos desarrollando, y cuando está instalado finalmente en el sistema), e inicializar alguna estructura básica y arrancarla, para que comience nuestro programa.
 
 - un directorio con el nombre de nuestro proyecto, con el resto del programa:
 
-<span style="font-family: courier new,courier;">&nbsp; encuentro/__init__.py</span>
-<span style="font-family: courier new,courier;">&nbsp; encuentro/main.py</span>
-<span style="font-family: courier new,courier;">&nbsp; encuentro/network.py</span>
+<span style="font-family: courier new,courier;"> encuentro/__init__.py</span>
+<span style="font-family: courier new,courier;"> encuentro/main.py</span>
+<span style="font-family: courier new,courier;"> encuentro/network.py</span>
 
 - directorios con los archivos de datos, adentro de nuestro proyecto (no por separado), en este caso:
 
-<span style="font-family: courier new,courier;">&nbsp; encuentro/ui/main.glade</span>
-<span style="font-family: courier new,courier;">&nbsp; encuentro/ui/preferences.glade</span>
-<span style="font-family: courier new,courier;">&nbsp; encuentro/ui/update.glade</span>
+<span style="font-family: courier new,courier;"> encuentro/ui/main.glade</span>
+<span style="font-family: courier new,courier;"> encuentro/ui/preferences.glade</span>
+<span style="font-family: courier new,courier;"> encuentro/ui/update.glade</span>
 
 Una vez aclarado eso, quedan dos preguntas sencillas y una complicada por contestar: las sencillas son ¿cómo el script encuentra al resto del programa instalado? y ¿cómo accedemos a los archivos de datos desde nuestro código?.
 
@@ -66,11 +66,11 @@ La primera es usando una variable que se inyecta en el script en el momento de i
 
 La segunda es accediendo a los archivos de forma relativa al código. Yo tengo esto al principio del programa:
 
-<span style="font-family: courier new,courier;">&nbsp; BASEDIR = os.path.dirname(__file__)</span>
+<span style="font-family: courier new,courier;"> BASEDIR = os.path.dirname(__file__)</span>
 
 y luego hago cosas como:
 
-<span style="font-family: courier new,courier;">&nbsp; data_file = os.path.join(BASEDIR, 'ui', 'preferences.glade')</span>
+<span style="font-family: courier new,courier;"> data_file = os.path.join(BASEDIR, 'ui', 'preferences.glade')</span>
 
 Finalmente, la pregunta complicada: ¿cómo hacemos para que todo esto funcione?
 
@@ -81,13 +81,13 @@ En realidad, la respuesta no es tan complicada una vez que está resuelto (como 
 
 Para incluir todos los archivos, en el <span style="font-family: courier new,courier;">setup.py</span>, en la llamada a <span style="font-family: courier new,courier;">setup()</span> hay que poner:
 
-<span style="font-family: courier new,courier;">&nbsp; packages = ["encuentro"],</span>
-<span style="font-family: courier new,courier;">&nbsp; package_data = {"encuentro": ["ui/*.glade"]},</span>
-<span style="font-family: courier new,courier;">&nbsp; scripts = ["bin/encuentro"],</span>
+<span style="font-family: courier new,courier;"> packages = ["encuentro"],</span>
+<span style="font-family: courier new,courier;"> package_data = {"encuentro": ["ui/*.glade"]},</span>
+<span style="font-family: courier new,courier;"> scripts = ["bin/encuentro"],</span>
 
 Fíjense como ahí declaro el paquete donde está mi programa, el script, y los archivos de datos. Pero hay un bug, hasta en Python 2.6 inclusive, que hace que para meter los archivos de datos con eso sólo no alcanza, y hay que declararlos también en el <span style="font-family: courier new,courier;">MANIFEST.in</span>:
 
-&nbsp; <span style="font-family: courier new,courier;">include encuentro/ui/*.glade</span>
+ <span style="font-family: courier new,courier;">include encuentro/ui/*.glade</span>
 
 Para que todos estos archivos vayan a parar al lugar correcto, hay que hacer algo específico: una clase que acomoda cosas en el proceso de instalación. Pueden ver el detalle de esa clase en <a href="http://bazaar.launchpad.net/%7Efacundo/encuentro/trunk/view/head:/setup.py">el setup.py de Encuentro</a>, pero basicamente hace dos cosas:
 

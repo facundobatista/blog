@@ -29,13 +29,13 @@ A esos rubros, le agrego lo que es la amortización de la compra del auto en sí
 
 En este año, que al auto le hicimos 23742 km, los gastos fueron:
 
-<span style="font-family: courier new,courier;">&nbsp; Estacionamiento: $ 3761.25</span>
-<span style="font-family: courier new,courier;">&nbsp; Seguro:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $ 4457.00</span>
-<span style="font-family: courier new,courier;">&nbsp; Patente:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $ 2545.20</span>
-<span style="font-family: courier new,courier;">&nbsp; Mantenimiento:&nbsp;&nbsp; $ 3539.00</span>
-<span style="font-family: courier new,courier;">&nbsp; Nafta:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $11641.92</span>
-<span style="font-family: courier new,courier;">&nbsp; Peajes:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $ 1281.69</span>
-<span style="font-family: courier new,courier;">&nbsp; Amortización:&nbsp;&nbsp;&nbsp; $14300.00</span>
+<span style="font-family: courier new,courier;"> Estacionamiento: $ 3761.25</span>
+<span style="font-family: courier new,courier;"> Seguro:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $ 4457.00</span>
+<span style="font-family: courier new,courier;"> Patente:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $ 2545.20</span>
+<span style="font-family: courier new,courier;"> Mantenimiento: $ 3539.00</span>
+<span style="font-family: courier new,courier;"> Nafta:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $11641.92</span>
+<span style="font-family: courier new,courier;"> Peajes:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $ 1281.69</span>
+<span style="font-family: courier new,courier;"> Amortización:&nbsp; $14300.00</span>
 
 El gasto total en este año (considerando gastos fijos y variables) es de $41526, lo cual da $3461 por mes: $2070 de gastos fijos ($878 sin contar la amortización), y $1390 de gastos variables.
 

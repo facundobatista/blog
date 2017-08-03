@@ -103,15 +103,15 @@ Por otro lado, anoté todas estas en la lista de <a href="http://www.taniquetil.
 El equilibrio de pendientes quedó, con un total de 114 para ver, marcadas en:
 
 <blockquote>
-	(anterior)&nbsp;&nbsp;&nbsp;&nbsp; 1
+	(anterior)&nbsp;&nbsp; 1
 
-	(02-Dic-2006)&nbsp; 2
+	(02-Dic-2006) 2
 
-	(26-Jan-2007)&nbsp; 2
+	(26-Jan-2007) 2
 
-	(26-Mar-2007)&nbsp; 7
+	(26-Mar-2007) 7
 
-	(15-Jun-2007)&nbsp; 4
+	(15-Jun-2007) 4
 
 	(19-Nov-2007) 14
 

@@ -26,19 +26,19 @@ Pero hay que animarse a venir al PyCamp. Y se escucha muchas veces razones como 
 ¿Qué estructura tendría este Workshop? Lo estaba pensando en dos partes más bien separadas, una donde dejemos la computadora de cada uno lista para trabajar, y otra donde aprendamos las distintas herramientas...
 
 <span style="font-family: courier new,courier;">- Set up:</span>
-<span style="font-family: courier new,courier;">&nbsp;&nbsp;&nbsp; * Instalar Python</span>
-<span style="font-family: courier new,courier;">&nbsp;&nbsp;&nbsp; * Instalar y preparar un editor de texto o IDE</span>
-<span style="font-family: courier new,courier;">&nbsp;&nbsp;&nbsp; * Instalar sistemas de control de versiones</span>
-<span style="font-family: courier new,courier;">&nbsp;&nbsp;&nbsp; * Hagamos un "Hola mundo"!</span>
+<span style="font-family: courier new,courier;">&nbsp; * Instalar Python</span>
+<span style="font-family: courier new,courier;">&nbsp; * Instalar y preparar un editor de texto o IDE</span>
+<span style="font-family: courier new,courier;">&nbsp; * Instalar sistemas de control de versiones</span>
+<span style="font-family: courier new,courier;">&nbsp; * Hagamos un "Hola mundo"!</span>
 
 <span style="font-family: courier new,courier;">- Pequeñas gotas de conocimiento:</span>
-<span style="font-family: courier new,courier;">&nbsp;&nbsp;&nbsp; * Intro a Python y más (~1 hora)</span>
-<span style="font-family: courier new,courier;">&nbsp;&nbsp;&nbsp; * Trabajando con mercurial, git y bazaar (~1 hora)</span>
-<span style="font-family: courier new,courier;">&nbsp;&nbsp;&nbsp; * Cómo usar un Wiki (~20 min)</span>
+<span style="font-family: courier new,courier;">&nbsp; * Intro a Python y más (~1 hora)</span>
+<span style="font-family: courier new,courier;">&nbsp; * Trabajando con mercurial, git y bazaar (~1 hora)</span>
+<span style="font-family: courier new,courier;">&nbsp; * Cómo usar un Wiki (~20 min)</span>
 
 La idea de la charla de Python es para nivelar conocimientos, y de los sistemas de control de versiones no es hacer comparaciones ni discutir cual es mejor: sólo mostrar los cinco comandos más comunes de cada uno que le permitan a una persona trabajar con un grupo que está usando ese control de versiones.
 
-¿Cuando sería y dónde? Capital Federal, el jueves 5 de Julio. Al otro día arranca PyCamp en Verónica, y la mayor parte de los que vayan van a pasar por Capital Federal, así que "queda de paso"... sí, si vienen de lejos van a tener una noche más de hotel o hostel, pero seguro que lo podemos resolver a nivel comunidad (gente de PyAr que tiene un colchón de más en la casa, por ejemplo... y si al otro día también va a PyCamp, es un win win).&nbsp; Creo que se puede hacer todo en una tarde (arrancar a las 14hs, terminar a las 19hs, e ir a tomar/comer algo entre todos).
+¿Cuando sería y dónde? Capital Federal, el jueves 5 de Julio. Al otro día arranca PyCamp en Verónica, y la mayor parte de los que vayan van a pasar por Capital Federal, así que "queda de paso"... sí, si vienen de lejos van a tener una noche más de hotel o hostel, pero seguro que lo podemos resolver a nivel comunidad (gente de PyAr que tiene un colchón de más en la casa, por ejemplo... y si al otro día también va a PyCamp, es un win win). Creo que se puede hacer todo en una tarde (arrancar a las 14hs, terminar a las 19hs, e ir a tomar/comer algo entre todos).
 
 ¿Quienes pueden venir? Obviamente, gente que esté anotada al PyCamp. Pero si están tan indecisos de ir o no ir, me mandan un <a href="http://www.taniquetil.com.ar/facundo/bdvfiles/facumail.png">mail</a> y vemos qué podemos hacer. Un detalle muy importante: por favor agreguen su nombre a la lista en <a href="http://python.org.ar/pyar/PyCamp/2012/Workshop">este wiki</a> si planean venir al workshop (para ver si juntamos gente interesada, y estimar cuantos seríamos). Obvio, si no saben o no pueden editar el wiki, me mandan un <a href="http://www.taniquetil.com.ar/facundo/bdvfiles/facumail.png">mail</a> y yo los agrego.
 

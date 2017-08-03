@@ -15,7 +15,7 @@ Agradecemos la contribución de todos en la difusión de este llamado y del even
 
 
 
-Las charlas deben ser ingresadas para su aprobación <a href="http://ar.pycon.org/2009/conference/proposals/submit/">aquí</a>.&nbsp; La fecha límite de envío de charlas es el Lunes 29 de Junio inclusive.&nbsp; En caso de consultas o inconvenientes, <a href="mailto:charlas@python.org.ar">envianos un mail</a>.
+Las charlas deben ser ingresadas para su aprobación <a href="http://ar.pycon.org/2009/conference/proposals/submit/">aquí</a>. La fecha límite de envío de charlas es el Lunes 29 de Junio inclusive. En caso de consultas o inconvenientes, <a href="mailto:charlas@python.org.ar">envianos un mail</a>.
 
 
 

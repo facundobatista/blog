@@ -65,7 +65,7 @@ La organización del grupo merece un párrafo aparte. Desde el comienzo de Pytho
 
 
 
-En Junio del 2006 se realizó la Primer Jornada Python Santa Fe, en la Universidad Tecnológica Nacional, ciudad y provincia de, justamente, Santa Fe. Las jornadas fueron un éxito, y en la reunión / sprint posterior a las mismas (mientras comíamos pizza y hablábamos de todo un poco) se empezó a trabajar en un proyecto importante para el grupo: una versión offline de la Wikipedia. Este evento nos motivó bastante, y en la reunión siguiente Pablo Ziliani&nbsp; sugirió que tratemos de ponernos como objetivo "organizar una reunión /federal/ al menos una vez al año", y decidimos que queríamos tener una bandera de PyAr.
+En Junio del 2006 se realizó la Primer Jornada Python Santa Fe, en la Universidad Tecnológica Nacional, ciudad y provincia de, justamente, Santa Fe. Las jornadas fueron un éxito, y en la reunión / sprint posterior a las mismas (mientras comíamos pizza y hablábamos de todo un poco) se empezó a trabajar en un proyecto importante para el grupo: una versión offline de la Wikipedia. Este evento nos motivó bastante, y en la reunión siguiente Pablo Ziliani sugirió que tratemos de ponernos como objetivo "organizar una reunión /federal/ al menos una vez al año", y decidimos que queríamos tener una bandera de PyAr.
 
 
 
@@ -81,7 +81,7 @@ Luego de este evento empezamos a reconocer lo importante que era para Python Arg
 
 
 
-El año 2007 fueron meses de consolidación. Se realizaron varias reuniones en Capital e interior, estuvo el segundo Día Python en Santa Fé (esta vez con dos tracks, de nuevo un éxito), y PyAr participó en CaFeConf, en Unlux y en las Jornadas Regionales de Software Libre, en Córdoba. Como se discutió en la reunión del grupo luego de esa conferencia, Python Argentina era un grupo nuevo que estaba naciendo y&nbsp; aprovechábamos la gentileza de los &ldquo;hermanos mayores&rdquo;: la capacidad organizativa y la gente involucrada en los LUGs. Un detalle importante a considerar es que Python era el único lenguaje de programación con stand propio, tanto en CaFeConf como en dichas Jornadas.
+El año 2007 fueron meses de consolidación. Se realizaron varias reuniones en Capital e interior, estuvo el segundo Día Python en Santa Fé (esta vez con dos tracks, de nuevo un éxito), y PyAr participó en CaFeConf, en Unlux y en las Jornadas Regionales de Software Libre, en Córdoba. Como se discutió en la reunión del grupo luego de esa conferencia, Python Argentina era un grupo nuevo que estaba naciendo y aprovechábamos la gentileza de los &ldquo;hermanos mayores&rdquo;: la capacidad organizativa y la gente involucrada en los LUGs. Un detalle importante a considerar es que Python era el único lenguaje de programación con stand propio, tanto en CaFeConf como en dichas Jornadas.
 
 
 
@@ -93,7 +93,7 @@ Durante este año también la lista de correo alcanzó una cantidad de participa
 
 
 
-En la reunión de Mayo de ese año se charló sobre las participaciones del grupo en otros eventos internacionales. Estuvimos representados nuevamente en PyCon y por primera vez en Fisl (donde integrantes de PyAr hicieron Falabracman, un juego en 36 horas para la competencia OLPC Game Jam, ¡la cual ganaron!).&nbsp; También se charló una diferencia importante entre los grupos de usuarios de USA y de Argentina; en Estados Unidos se juntan directamente a programar o a hablar de cosas netamente técnicas, y en Argentina las reuniones son con un fin más social, para conocernos las caras y quizá tomar alguna que otra cerveza.&nbsp; Relacionado con una idea que venía de antes, Humitos nos contó que estaba haciendo una traducción al español de manual de Django, y surgió el tema de traducir el Tutorial oficial de Python, con la posibilidad de imprimirlos y encuadernarlos para venderlos o regalarlos en algunos eventos.
+En la reunión de Mayo de ese año se charló sobre las participaciones del grupo en otros eventos internacionales. Estuvimos representados nuevamente en PyCon y por primera vez en Fisl (donde integrantes de PyAr hicieron Falabracman, un juego en 36 horas para la competencia OLPC Game Jam, ¡la cual ganaron!). También se charló una diferencia importante entre los grupos de usuarios de USA y de Argentina; en Estados Unidos se juntan directamente a programar o a hablar de cosas netamente técnicas, y en Argentina las reuniones son con un fin más social, para conocernos las caras y quizá tomar alguna que otra cerveza. Relacionado con una idea que venía de antes, Humitos nos contó que estaba haciendo una traducción al español de manual de Django, y surgió el tema de traducir el Tutorial oficial de Python, con la posibilidad de imprimirlos y encuadernarlos para venderlos o regalarlos en algunos eventos.
 
 
 
