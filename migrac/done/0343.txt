@@ -1,6 +1,6 @@
 2008-04-02 09:13:21
 Amiga
-<tags>
+visita
 
 Agata pasó por Buenos Aires, sólo unos días, aprovechando que se casaba el hermano de Edu.
 
@@ -10,10 +10,11 @@ El miércoles a la noche nos hicimos con Moni una escapada hasta allá. El reenc
 
 El sábado volvimos a ir, pero ahora era con más tiempo, más tranquis, y también con más gente. Lo encontré a Pablo, también, que hace mucho que no lo veía, y a toda la familia de Agata.
 
-<img src="http://farm4.static.flickr.com/3337/3258006852_659451312e_o.jpg" alt="Agata, el que suscribe, y Moni... un lujo" title="Agata, el que suscribe, y Moni... un lujo" width="500" height="301" />
+.. image:: http://farm4.static.flickr.com/3337/3258006852_659451312e_o.jpg
+    :alt: Agata, el que suscribe, y Moni... un lujo
 
 Como si fuera poco, el domingo repetimos, ¡desde el mediodía hasta tarde a la noche! También con familia durante gran parte del día, la pasamos bárbaro.
 
 Estoy muy contento de poderla haber visto. Y más aún de haber podido encontrar ratitos para charlar (esto lo logré más que nada por repetir la rutina que tenía hace más de una década: llegar antes que nadie, e irme después que todos).
 
-Ahora con Moni tenemos el "pendiente" de ir a visitarla a Italia... es complicado, pero espero no tener que esperar nuevamente cinco años para volver a encontrame con una persona que quiero tanto.[@more@] |
+Ahora con Moni tenemos el "pendiente" de ir a visitarla a Italia... es complicado, pero espero no tener que esperar nuevamente cinco años para volver a encontrarme con una persona que quiero tanto.
