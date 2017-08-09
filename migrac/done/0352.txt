@@ -1,6 +1,6 @@
 2008-05-11 18:14:12
 Razón y baldío
-<tags>
+letras
 
 Hay un destino que no tiene pruebas, por eso esta historia
 Puede que muera con una verdad olvidada en tu memoria
@@ -11,7 +11,7 @@ La ruta sigue más allá de las luces de la autopista
 Secando al ojo de la lágrima te perderás de vista
 Como un relámpago en la fría noche cruzarás los abismos
 Esos que guardan a la sombra que te oculta de vos mismo
-<em>("La razón que te demora", La Renga) </em>
+*("La razón que te demora", La Renga)*
 
 
 Las garras de un terrible ser desplumaban a un ángel en el cielo
@@ -23,4 +23,4 @@ No me mires así, Dios me ha hecho para caer
 Y no sientas pena por mí, tal vez vivir cueste el pecado
 Y si todo lo soñado no vive en la realidad
 Es el ángel que te cuida el que ves caído acá
-<em>("En el baldío", La Renga) </em>[@more@] |
+*("En el baldío", La Renga)*
