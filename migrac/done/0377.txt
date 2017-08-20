@@ -1,0 +1,13 @@
+2008-09-11 10:50:05
+Educación libre
+conferencia, software, libre, educación
+
+Bajo la convocatoria de Cáritas San Isidro, la Escuela de Oficios San Cayetano (CFP401), Gleducar y la Fundación Vía Libre, se realizará el `Primer Encuentro por una Educación Libre, EPUEL08 <http://www.epuel.org.ar>`_, el 12 de septiembre de 9 a 19hs. en la sede de Cáritas San Isidro, Ituzaingo 90. La jornada contará con alrededor de 15 ponencias, charlas y experiencias sobre uso de Software Libre en el sistema educativo, además de la discusión sobre los materiales que producimos en el ámbito de la escuela y el uso de conocimiento libre en la educación. Cuando hablamos de conocimiento y software libre, nos referimos a materiales y programas que se pueden usar con cualquier propósito, adaptar a las propias necesidades, copiar y distribuir copias legalmente, mejorar y redistribuir los materiales y los programas mejorados. Algunos modelos exitosos de construcción colaborativa de software libre son, por ejemplo, los contenidos de la enciclopedia libre Wikipedia o numerosos programas de software libre como GNU/Linux.
+
+Entre los objetivos de este evento se destacan el difundir el Software Libre en el ámbito educativo, compartir con comunidades educativas vecinas del área la experiencia de trabajo con software libre como alternativa madura en educación, formalizar una propuesta educativa a las autoridades del área a nivel provincial y nacional, y construir un lazo con las empresas y emprendimientos del sector informático para trabajar la inserción laboral de nuestros estudiantes.
+
+Pueden ver la `oferta de charlas <http://www.epuel.org.ar/web/?page_id=18>`_ para mañana. Hay **muchas** interesantes, lástima que no puedo ir, :(.
+
+La Escuela de Oficios San Cayetano, uno de los organizadores del evento, está actualmente dando cursos de Python como parte de su oferta educativa (Python es un lenguaje muy útil para enseñar programación debido a su clara y simple sintáxis, su curva de aprendizaje suave, y la calidad de su comunidad).
+
+En función de esto, y de tratar de devolver a la comunidad algo de lo que la comunidad nos da, PyAr se enorgullece de ser `uno de los sponsors del evento <http://www.epuel.org.ar/web/?page_id=35>`_.

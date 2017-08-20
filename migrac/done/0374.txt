@@ -1,0 +1,7 @@
+2008-08-21 15:59:24
+Mis charlas
+charlas, slides
+
+Como muchos me preguntaban dónde están los slides de las charlas que doy, decidí armar en la sección *Enlaces* de la barrita de la derecha un agrupado para *Charlas* donde apunté a las más interesantes que tengo.
+
+Por lo pronto, les dejó tambien acá los enlaces para las de `Introducción a Python <http://www.taniquetil.com.ar/homedevel/presents/intropython.odp>`_ y `Entendiendo Unicode <http://www.taniquetil.com.ar/homedevel/presents/unicode.odp>`_, que dí en las Regionales.

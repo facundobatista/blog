@@ -1,6 +1,6 @@
 2008-09-04 16:02:41
 Che Comandante
-<tags>
+che guevara, guillén, letra, poesía
 
 No porque hayas caído tu luz es menos alta. Un caballo de fuego sostiene tu escultura guerrillera entre el viento y las nubes de la Sierra.
 
@@ -35,4 +35,4 @@ O mejor todavía desde el hondón americano: Espéranos. Partiremos contigo. Que
 
 Che Comandante, amigo.
 
-<em><a href="http://www.cervantesvirtual.com/bib_autor/Guillen/">Nicolás Guillén</a> (de Tengo, 1964)</em>[@more@] |
+*`Nicolás Guillén <http://www.cervantesvirtual.com/bib_autor/Guillen/>`_ (de Tengo, 1964)*

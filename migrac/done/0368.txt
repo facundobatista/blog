@@ -1,0 +1,17 @@
+2008-07-07 13:43:41
+Jornadas Regionales 2008
+jornadas software libre, charlas, conferencia
+
+El 20, 21 y 22 de Agosto tendremos en Buenos Aires las `Octavas Jornadas Regionales de Software Libre <http://www.jornadasregionales.org/>`_ (el nombre es un poco largo, pero se puede acortar como 8JRSL). Las organiza el `Grupo de Usuarios de Software Libre de la Capital Federal Argentina <http://www.cafelug.org.ar>`_ (CaFeLUG), y este año absorben a CaFeConf, la conferencia anual de este grupo.
+
+Las Jornadas Regionales de Software Libre son un evento regional, internacional, e itinerante, donde líderes y seguidores trabajan para integrar proyectos, lanzar nuevas ideas y superar los límites de los programas que utilizan. Durante las jornadas se reunirán programadores, desarrolladores, estrategas, expertos en tecnologías, emprendedores involucrados en software Libre para intercambiar ideas, compartir técnicas, discutir y explorar tecnologías libres tales como Python, Linux, Perl, MySQL, PHP, Apache y muchas otras cosas. **La participación es libre y gratuita**.
+
+Hace algunas semanas enviaron el `Call For Charlas <http://www.cafelug.org.ar/modules/news/article.php?storyid=183>`_, pedido formal para que todos nosotros enviemos las charlas que queremos dar en esas jornadas, de manera que elijan las mejores y las podamos disfrutar esos días. Yo me relajé un poco y recien hoy propuse algunas charlas:
+
+- **Unicode**: La charla muestra de forma teórica/práctica qué son Unicode, las planillas de códigos, los caracteres, y las codificaciones, entra en detalle en las distintas codificaciones, para saber cómo usarlas, ejemplifica las reglas de oro para utilizar Unicode en nuestros programa, y termina mostrando algunas funciones útiles para el manejo de esa tecnología.
+
+- **Introducción a Python**: Esta charla se orienta a programadores, principiantes o avanzados, que desean conocer este lenguaje, de manera de aprender sus principios básicos. Se presentan las características generales del lenguaje y su biblioteca estándar, su parte social, y se recorren los tipos de datos, los controles de flujo, y las diversas maneras de encapsular código, terminando con algunos detalles que muestran la expresividad, sencillez y poder de Python.
+
+- **Python 3000**: Aquí se presenta la evolución de Python, la versión 3 del lenguaje (a.k.a. Python 3000), y explica las razones por las cuales se planeó y ejecutó esta evolución. Además de las nuevas características del lenguajes y mejoras generales se detallan los cambios que presentarán problemas de compatibilidad, y las estrategias para migrar de la rama actual (Python 2) a esta nueva versión: cómo y cuando migrar, y qué herramientas tendremos como ayuda.
+
+Me queda proponer una cuarta, pero estoy viendo con Lucio que hacemos: tenemos la posibilidad de dar la que hicimos el año pasado, de *Python más rápido que C*, o alguna otra (estamos con una buena idea en la cabeza, pero tenemos que ver cuan posible es concretarla).

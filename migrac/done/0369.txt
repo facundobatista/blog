@@ -1,11 +1,12 @@
 2008-07-10 14:40:21
 Hasta la victoria, siempre
-<tags>
+letras, música
 
 No acostumbro a poner la letra entera de los temas, pero estos no tienen desperdicio. Incluí links a videos de YouTube, para referencia rápida e interesante.
 
 
-<strong>Cinco siglos igual (León Gieco)</strong> <a href="http://www.youtube.com/watch?v=Rrxiy3dOnfg">[-]</a>
+`Cinco siglos igual (León Gieco) <http://www.youtube.com/watch?v=Rrxiy3dOnfg>`_
+-------------------------------------------------------------------------------
 
 Soledad sobre ruinas, sangre en el trigo rojo y amarillo
 Manantial del veneno, escudo, heridas
@@ -15,14 +16,13 @@ Libertad sin galope, banderas rotas, soberbia y mentiras
 Medallas de oro y plata contra esperanzas
 Cinco siglos igual
 
-Desamor, desencuentro, perdon y olvido, cuerpo con mineral
+Desamor, desencuentro, perdón y olvido, cuerpo con mineral
 Pueblos trabajadores, infancias pobres
 Cinco siglos igual
 
 Lealtad sobre tumbas, piedra sagrada, Dios no alcanzó a llorar
 Sueño largo del mal, hijos de nadie
 Cinco siglos igual
-
 
 Muerte contra la vida, gloria de un pueblo desaparecido
 Es comienzo, es final, leyenda perdida
@@ -37,7 +37,8 @@ Nunca nadie pensó besarte los pies
 Cinco siglos igual
 
 
-<strong>Todavía cantamos (Víctor Heredia)</strong> <a href="http://www.youtube.com/watch?v=rYUzHpCBx7s">[-]</a>
+`Todavía cantamos (Víctor Heredia) <http://www.youtube.com/watch?v=rYUzHpCBx7s>`_
+---------------------------------------------------------------------------------
 
 Todavía cantamos, todavía pedimos
 Todavía soñamos, todavía esperamos
@@ -67,7 +68,8 @@ Todavía cantamos, todavía pedimos,
 Todavía soñamos, todavía esperamos...
 
 
-<strong>Canción con todos</strong> (A. Tejada Gomez - Cesar Isella) <a href="http://www.youtube.com/watch?v=jYwT3ms-pGw">[-]</a>
+`Canción con todos (A. Tejada Gomez - Cesar Isella) <http://www.youtube.com/watch?v=jYwT3ms-pGw>`_
+--------------------------------------------------------------------------------------------------
 
 Salgo a caminar por la cintura cósmica del sur
 piso en la región, mas vegetal del viento y de la luz
@@ -82,4 +84,4 @@ pura raíz de un grito destinado a crecer y a estallar.
 Todas las voces todas, todas las manos todas
 Toda la sangre puede ser canción en el viento
 Canta conmigo canta, hermano americano
-Libera tu esperanza con un grito en la voz[@more@] |
+Libera tu esperanza con un grito en la voz

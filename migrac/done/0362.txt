@@ -1,8 +1,8 @@
 2008-06-18 14:34:42
 Charla
-<tags>
+charla, amigos, contexto
 
-Una de las mejores cosas de hacer una carrera en una Universidad es el contexto humano. Inevitablemente uno termina armando un grupo de trabajo, y quizás tenga la suerte de armar un grupo de amigos (yo, en particular, he tenido una increible buena fortuna en este aspecto).
+Una de las mejores cosas de hacer una carrera en una Universidad es el contexto humano. Inevitablemente uno termina armando un grupo de trabajo, y quizás tenga la suerte de armar un grupo de amigos (yo, en particular, he tenido una increíble buena fortuna en este aspecto).
 
 El punto es que uno está rodeado mucho tiempo por personas con los mismos intereses intelectuales, personas que están en un momento de creatividad cerebral, con las cuales te podés poner hablar de cualquier cosa técnica.
 
@@ -14,6 +14,7 @@ Ayer a la noche, por motivos que no vienen al caso, me junté con Lucio para com
 
 Incluso terminamos haciendo lo siguiente, en uno de los intercambios de conocimientos (y bueno, necesitábamos dibujarlo):
 
-<img src="http://www.taniquetil.com.ar/facundo/imgs/servilleta.jpeg" alt="Servilleta con algunas cuentas" title="Servilleta con algunas cuentas" width="400" height="363" />
+.. image:: http://www.taniquetil.com.ar/facundo/imgs/servilleta.jpeg
+    :alt: Servilleta con algunas cuentas
 
-Que grande Lucio. La pasé muy bien.[@more@] |
+Que grande Lucio. La pasé muy bien.

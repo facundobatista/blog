@@ -1,0 +1,20 @@
+2008-06-25 15:27:28
+Python Bug Weekend
+bugs, python, picada, evento, aprendizaje
+
+El sábado y domingo pasados ocurrió un nuevo evento de este tipo, como `ya había anunciado <http://www.taniquetil.com.ar/plog/post/1/357>`_. No tuvo mucha repercusión en el mundo, pero sí en Argentina, donde cerramos una cantidad de bugs parecida a lo que cerró el resto del mundo.
+
+En Buenos Aires nos juntamos en oficinas de Livra, en Belgrano, alrededor de quince personas. Las oficinas, debo reconocer, están muy buenas. Los escritorios tienen una separación entre ellos, una pared de alrededor de 30cm arriba del escritorio, lo cual es mejor que lo que tenemos en Ericsson donde te tenés que parar para darle un mate a tu vecino. No sé como será con el ruido, pero en Movistar no había ninguna separación, y nos la arreglábamos (aunque en Livra están más como amontonados). Igual la oficina tiene mucha onda... libros, un deck al aire libre, un proyector con info, una wii, etc. Debe estar bueno.
+
+Anyway, cuando llegué solamente estaba Martín, Victoria (su novia), y Cuerty. Probé la laptop, pero no logré que el proyector funcione correctamente: tomaba mi salida, pero mostraba como un "problema en el vertical". No sé. Al final le pasé a Cuerty la presentación de `Unicode <http://www.taniquetil.com.ar/homedevel/presents/unicode.odp>`_, y utilicé su máquina para dar la charla.
+
+Luego fue llegando más gente, y a las 10 arrancamos. Martín dió una charla sobre Dummia, un proyecto nuevo para el cual están buscando gente que programe Python, y luego yo di mi charla, la cual estuvo bien (y me traje dos sugerencias para mejorarle unos detalles).
+
+Después de eso ya nos pusimos a trabajar, hasta el mediodía en que cortamos porque llegaron las pizzas invitación de Livra (como las facturas del desayuno). También teníamos una torta buenísima, hecha por Martín:
+
+.. image:: http://www.taniquetil.com.ar/facundo/imgs/tortalogopy.jpeg
+    :alt: Torta con forma del logo de Python
+
+Luego de tan arduo día de trabajo, nos fuimos con Sabri, Cuerty, Nubis y Achuni a por cervezas (Valeria, novia de este último, cayó más tarde). La pasamos rebien, a pura Stella y picadita, tanto que cuando nos quisimos dar cuenta habían pasado cuatro horas!! Lástima que Moni tenía un cumpleaños, no podía venir.
+
+El domingo también laburé un poco en esto, pero ya más tranqui, cerrando algunos cabos sueltos, y sólo un tres o cuatro de horas. Los resultados finales a nivel de bugs son `estos <http://bugs.python.org/issue?%40search_text=&title=&%40columns=title&id=&%40columns=id&creation=&creator=&activity=from+2008-06-21+to+2008-06-23&%40columns=activity&%40sort=activity&actor=&nosy=&type=&components=&versions=&dependencies=&assignee=&keywords=&priority=&%40group=priority&status=2&%40columns=status&resolution=&%40pagesize=50&%40startwith=0&%40queryname=&%40old-queryname=&%40action=search>`_, pero los resultados a nivel de experiencia es que este tipo de actividad es buenísimo, uno se divierte, ¡y se aprende un montón!
