@@ -1,0 +1,115 @@
+2008-09-24 12:27:01
+Más películas
+películas
+
+En este caso, vi algunas....
+
+- `Bug <http://www.imdb.com/title/tt0470705/>`_: -0. No deja de ser una peli de miedo... pero que no da mucho miedo (aunque la idea base es interesante... pero ni tanto).
+
+- `Man of the year <http://www.imdb.com/title/tt0483726/>`_: +1. Muy buena película, pegando justo en estos modernos tiempos de "que se vayan todos" y voto electrónico... muy buena actuación de Robin Williams.
+
+- `Perfume <http://www.imdb.com/title/tt0396171/>`_: +0. Recomendadísima si les gusta ver películas de época, porque está muy bien hecha en ese aspecto.
+
+- `Saw III <http://www.imdb.com/title/tt0489270/>`_: -1. Notable como cayó la calidad de la peli desde la primera a la tercera.
+
+- `The invisible <http://www.imdb.com/title/tt0435670/>`_: +0. La historia es buena, las actuaciones les falta un poco a veces. Notablemente charlando el otro día con amigos que me estaban contando una peli sueca... ¡me estaban contando esta! (resulta que la versión yanqui es una remake).
+
+- `The libertine <http://www.imdb.com/title/tt0375920/>`_: -0. Están Johnny Deep y otros buenos actores... pero ni así.
+
+- `Evan Almighty <http://www.imdb.com/title/tt0413099/>`_: +0. Comedia suave, pero entretenida. Recomendable para chicos.
+
+- `Fahrenheit 9/11 <http://www.imdb.com/title/tt0361596/>`_: +0. Aunque está encarada desde un punto de vista yanqui, no deja de decir muchísimas verdades, no sólo interesantes per se, sino también extrapolables a otros lados.
+
+- `The dark Knight <http://www.imdb.com/title/tt0468569/>`_: +1. Ya la comentó Chaghi `acá <http://chaghi.com.ar/blog/post/2008/08/02/una_de_batman>`_. Concuerdo con él.
+
+- `Zodiac <http://www.imdb.com/title/tt0443706/>`_: -0. La historia está bien llevada, pero no está buena.
+
+... pero las nuevas que anoté fueron <strong>muchas más</strong>, definitivamente no me voy a quedar sin nada para ver en el corto plazo...:
+
+- `Appaloosa <http://www.imdb.com/title/tt0800308/ >`_
+
+- `Babylon A.D. <http://www.imdb.com/title/tt0364970/ >`_
+
+- `Blindness <http://www.imdb.com/title/tt0861689/ >`_
+
+- `Body of lies <http://www.imdb.com/title/tt0758774/ >`_
+
+- `Bolt <http://www.imdb.com/title/tt0397892/ >`_
+
+- `Burn after reading <http://www.imdb.com/title/tt0887883/ >`_
+
+- `Choke <http://www.imdb.com/title/tt1024715/ >`_
+
+- `City of Ember <http://www.imdb.com/title/tt0970411/ >`_
+
+- `Doubt <http://www.imdb.com/title/tt0918927/ >`_
+
+- `Eagle eye <http://www.imdb.com/title/tt1059786/ >`_
+
+- `Earth stood still <http://www.imdb.com/title/tt0970416/ >`_
+
+- `Elegy <http://www.imdb.com/title/tt0974554/ >`_
+
+- `Harry Potter and the half-blood Prince <http://www.imdb.com/title/tt0417741/ >`_
+
+- `Hellboy I <http://www.imdb.com/title/tt0167190/ >`_
+
+- `Hellboy II <http://www.imdb.com/title/tt0411477/ >`_ (dependencia: Hellboy I)
+
+- `Ice Age III <http://www.imdb.com/title/tt1080016/ >`_
+
+- `Igor <http://www.imdb.com/title/tt0465502/>`_
+
+- `Knowing <http://www.imdb.com/title/tt0448011/ >`_
+
+- `La fille coupée en deux <http://www.imdb.com/title/tt0901485/ >`_
+
+- `Mongol <http://www.imdb.com/title/tt0416044/ >`_
+
+- `Quantum of Solace <http://www.imdb.com/title/tt0830515/ >`_
+
+- `Religulous <http://www.imdb.com/title/tt0815241/ >`_
+
+- `Righteous kill <http://www.imdb.com/title/tt1034331/ >`_
+
+- `Sex drive <http://www.imdb.com/title/tt1135985/ >`_
+
+- `Terminator salvation <http://www.imdb.com/title/tt0438488/ >`_
+
+- `The International <http://www.imdb.com/title/tt0963178/ >`_
+
+- `The X files: I want to believe <http://www.imdb.com/title/tt0443701/ >`_
+
+- `The brothers Bloom <http://www.imdb.com/title/tt0844286/ >`_
+
+- `The incredible hulk <http://www.imdb.com/title/tt0800080/ >`_
+
+- `The mummy III <http://www.imdb.com/title/tt0859163/ >`_
+
+- `The soloist <http://www.imdb.com/title/tt0821642/ >`_
+
+- `The strangers <http://www.imdb.com/title/tt0482606/ >`_
+
+- `Transsiberian <http://www.imdb.com/title/tt0800241/ >`_
+
+- `Vicky Cristina Barcelona <http://www.imdb.com/title/tt0497465/ >`_
+
+- `Vier minuten <http://www.imdb.com/title/tt0461694/ >`_
+
+- `What just happened? <http://www.imdb.com/title/tt0486674/ >`_
+
+- `Yes man <http://www.imdb.com/title/tt1068680/ >`_
+
+- `eXistenZ <http://www.imdb.com/title/tt0120907/ >`_
+
+La relación quedó así:
+
+    (anterior)       3
+    (02-Dic-2006)    9
+    (26-Jan-2007)    4
+    (26-Mar-2007)    8
+    (15-Jun-2007)    4
+    (19-Nov-2007)   14
+    (23-May-2008)   28
+    (24-Sep-2008)   38
+    Total:         108
