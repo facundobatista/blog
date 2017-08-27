@@ -22,3 +22,5 @@ site/.doit.db.db
 *.egg
 
 
+/site/.doit.db
+

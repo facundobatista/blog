@@ -1,6 +1,5 @@
 # -*- coding: utf-8 -*-
 
-from __future__ import unicode_literals
 import time
 
 # !! This is the configuration of Nikola. !! #
@@ -18,15 +17,15 @@ import time
 
 # Data about this site
 BLOG_AUTHOR = "Facundo Batista"  # (translatable)
-BLOG_TITLE = "Taniquetil"  # (translatable)
+BLOG_TITLE = "Bitácora de vuelo"  # (translatable)
 # This is the main URL for your site. It will be used
 # in a prominent link. Don't forget the protocol (http/https)!
-SITE_URL = "http://www.taniquetil.com.ar/plog/"
+SITE_URL = "http://www.taniquetil.com.ar/blog/"
 # This is the URL where Nikola's output will be deployed.
 # If not set, defaults to SITE_URL
 # BASE_URL = "http://www.taniquetil.com.ar/plog/"
 BLOG_EMAIL = "facundo@taniquetil.com.ar"
-BLOG_DESCRIPTION = "Bitácora de Vuelo"  # (translatable)
+BLOG_DESCRIPTION = ""  # (translatable)
 
 # Nikola is multilingual!
 #
@@ -141,7 +140,7 @@ NAVIGATION_LINKS = {
 }
 
 # Name of the theme to use.
-THEME = "oldfashioned"
+THEME = 'hpstr'
 
 # Primary color of your theme. This will be used to customize your theme and
 # auto-generate related colors in POSTS_SECTION_COLORS. Must be a HEX value.
@@ -204,7 +203,7 @@ PAGES = (
 # (e.g. 'Europe/Zurich')
 # Also, if you want to use a different time zone in some of your posts,
 # you can use the ISO 8601/RFC 3339 format (ex. 2012-03-30T23:00:00+02:00)
-TIMEZONE = "America/Argentina/Cordoba"
+TIMEZONE = "America/Argentina/Buenos_Aires"
 
 # If you want to use ISO 8601 (also valid RFC 3339) throughout Nikola
 # (especially in new_post), set this to True.
@@ -517,7 +516,7 @@ HIDDEN_CATEGORIES = []
 
 # If ENABLE_AUTHOR_PAGES is set to True and there is more than one
 # author, author pages are generated.
-# ENABLE_AUTHOR_PAGES = True
+ENABLE_AUTHOR_PAGES = False
 
 # Path to author pages. Final locations are:
 # output / TRANSLATION[lang] / AUTHOR_PATH / index.html (list of authors)
@@ -576,10 +575,10 @@ FRONT_INDEX_HEADER = {
 # ARCHIVE_PATH = ""
 # ARCHIVE_FILENAME = "archive.html"
 
-# If ARCHIVES_ARE_INDEXES is set to True, each archive page which contains a list
+# If ARCHIVES_ARE_INDEXES la is set to True, each archive page which contains a list
 # of posts will contain the posts themselves. If set to False, it will be just a
 # list of links.
-# ARCHIVES_ARE_INDEXES = False
+ARCHIVES_ARE_INDEXES = False
 
 # URLs to other posts/pages can take 3 forms:
 # rel_path: a relative URL to the current page/post (default)
@@ -930,7 +929,7 @@ FEED_LINKS_APPEND_QUERY = False
 
 # A HTML fragment describing the license, for the sidebar.
 # (translatable)
-LICENSE = ""
+LICENSE = "CC BY-NC-SA"
 # I recommend using the Creative Commons' wizard:
 # https://creativecommons.org/choose/
 # LICENSE = """
