@@ -1,0 +1,17 @@
+Step by step instructions to deploy the site
+============================================
+
+Base
+----
+
+Basic server infrastructure:
+
+- Have an Ubuntu Xenial
+
+- Install some dependencies???
+
+- Clone this blog site
+
+
+Then do: FIXME
+
