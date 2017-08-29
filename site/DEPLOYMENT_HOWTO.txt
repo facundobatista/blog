@@ -4,14 +4,20 @@ Step by step instructions to deploy the site
 Base
 ----
 
-Basic server infrastructure:
+To generate the site:
+´´´
+git clone https://github.com/facundobatista/blog.git
+cd blog
+virtualenv -p python3 nikola
+source nikola/bin/activate
+pip install --upgrade pip
+pip install nikola
+cd site
+nikola build
+´´´
+This will generate the static content in this path:
 
-- Have an Ubuntu Xenial
+`blog/site/output`
 
-- Install some dependencies???
-
-- Clone this blog site
-
-
-Then do: FIXME
+Copy them in the apropiate webserver directory, and ... enjoy!
 
