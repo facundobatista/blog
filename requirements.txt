@@ -1,1 +1,2 @@
 Nikola==7.8.9
+webassets==0.12.1
