@@ -1,23 +1,40 @@
 Step by step instructions to deploy the site
 ============================================
 
-Base
-----
 
-To generate the site:
-´´´
-git clone https://github.com/facundobatista/blog.git
-cd blog
-virtualenv -p python3 nikola
-source nikola/bin/activate
-pip install --upgrade pip
-pip install nikola
-cd site
-nikola build
-´´´
-This will generate the static content in this path:
+Create a file in `/etc/apache2/sites-available` and link it
+from `/etc/apache2/sites-enabled`, with the following content
+(see the replacements inside):
 
-`blog/site/output`
+    # NameVirtualHost *:8080
 
-Copy them in the apropiate webserver directory, and ... enjoy!
+    <VirtualHost *>
+        ServerName $SITE_ADDRESS
 
+        DocumentRoot $DIRBASE/www/
+
+        <Location />
+            Require all granted
+        </Location>
+
+        AddDefaultCharset utf-8
+        ServerSignature On
+        LogLevel info
+
+        ErrorLog  /var/log/apache2/blog-error.log
+        CustomLog /var/log/apache2/blog-access.log combined
+    </VirtualHost>
+
+
+Remember to point $SITE_ADDRESS to the server!
+
+
+To refresh
+----------
+
+    cd $DIRBASE/blog/
+    git pull
+    cd site
+    fades -r ../requirements.txt -x nikola build
+    cd output/
+    rsync -t -r --inplace * $DIRBASE/www

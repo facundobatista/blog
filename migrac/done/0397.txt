@@ -1,0 +1,73 @@
+2009-02-08 18:39:42
+Las búsquedas son un quilombo
+búsquedas, software, python, unicode
+
+Encontrar lo que el usuario necesita pero no sabe bien como expresarlo es un bardo... es más... diría que si lo resolvés bien, te llenás de guita (preguntale a Google).
+
+Por el otro lado, entregarte un montón de información pero no dejarte buscar en ese montón, es inútil. De ahí la famosa frase "darte la Wikipedia en un CD, pero sin buscador, es darte un CD cuya mayor utilidad es ponerlo atrás de la patente para evadir fotomultas".
+
+La solución es fácil: agregarle búsquedas a la `CDPedia <http://code.google.com/p/cdpedia/>`_. Hoy por hoy ya la tienen, con un `índice no demasiado elaborado <http://code.google.com/p/cdpedia/source/browse/trunk/src/armado/cdpindex.py>`_ sobre los títulos, pero que nos permite buscar por palabras exactas con mucha rapidez (una búsqueda por `diccionario <http://docs.python.org/dev/library/stdtypes.html#dict>`_), aunque también implementé una búsqueda por palabra incompleta (aunque esto, en el modelo simple actual, con todos los datos, creo que tardaría demasiado, aunque todavía no lo probamos).
+
+Hoy por hoy, también, la búsqueda es utilizando Unicode sin ningún tratamiento. Y aunque esto tiene la ventaja de que soportamos eñes, tildes, y letras *raras* (o sea, letras a las que no estamos acostumbrados los hispanoparlantes), tiene la desventaja que tenés que poder escribir esas letras (o incluso recordarlas).
+
+Por ejemplo, si quieren buscar ... no sirve que pongan ... ::
+
+    Camión - Camion
+    Muñiz - Muniz
+    Çanakkale - Canakkale
+    Ⅱ - II
+
+La pregunta es... ¿cómo podemos "normalizar" los términos con eñes, tildes, y letras raras, de manera que la búsqueda siga siendo por coincidencia del diccionario?
+
+Estuve leyendo algo de Desnormalización de Unicode (`acá <http://unicode.org/reports/tr15/>`_ está todo, pero también ver `esto <http://www.mediawiki.org/wiki/Unicode_normalization_considerations>`_), pero no me llegaba a convencer que lo que había que hacer era eso, porque las reglas de las distintas normalizaciones no me permitían inferir un único procedimiento para lograr lo que quería hacer.
+
+Buscando y buscando, me di cuenta que si puedo acceder a cierta info de la `Tabla de Unicode <http://www.unicode.org/Public/UNIDATA/UnicodeData.txt>`_ sin entrar en una Normalización formal, podía tener lo que quería. El acceso a esta información desde Python es con la función `decomposition() <http://docs.python.org/library/unicodedata.html#unicodedata.decomposition>`_, y la regla es la siguiente: si la decomposición indica que es por compatibilidad, incluir los caracteres devueltos, pero si solamente nos está separando el grafo principal de los accesorios, quedarnos con el principal.
+
+Lo siguiente es el código, con las pruebas para los ejemplos anteriores::
+
+.. code::
+
+    # -*- coding: utf8 -*-
+
+    import unicodedata
+
+    def _norm_car(car):
+        # si es una letra simple, no hace falta normalización, nos fijamos
+        # primero porque es más rápido
+        if ord(car) < 128:
+            return car
+
+        # descomponemos y vemos en qué caso estamos
+        decomp = unicodedata.decomposition(car)
+        if decomp == "":
+            # no tiene
+            res = car
+        elif decomp.startswith("<compat>"):
+            # compatibilidad
+            utiles = [x for x in decomp.split()][1:]
+            res = u"".join(unichr(int(x, 16)) for x in utiles)
+        else:
+            # nos quedamos con el primero
+            prim = decomp.split()[0]
+            res = unichr(int(prim, 16))
+
+        # guardamos en el caché y volvemos
+        return res
+
+    def normalizar(palabra):
+        return u"".join(_norm_car(c) for c in palabra)
+
+    assert normalizar(u"Camión") == u"Camion"
+    assert normalizar(u"Muñiz") == u"Muniz"
+    assert normalizar(u"Çanakkale") == u"Canakkale"
+    assert normalizar(u"Ⅱ") == u"II"
+
+El costo de usar esto en el índice, en la búsqueda real, es primero al construirlo, y luego en cada búsqueda. En ambos casos el extra de procesamiento es agarrar las palabras e ir reemplazando cada caracter por lo que devuelva la función anterior. Creo que al armar el índice esto va a tardar un poco (pero se hace una sola vez), y que en cada búsqueda ni se va a notar (que es lo importante de cara al usuario final).
+
+El resultado final sería que tenemos esta funcionalidad requerida, con un costo que podemos pagar.
+
+Por otro lado, hay otra funcionalidad que querría tener, pero no voy a atacar ahora (posiblemente nunca, pero se los dejo por si les interesa), que es la de búsquedas aproximadas. La idea es que (por ejemplo) si busco *almoada* o *cavra*, me encuentre *almohada* o *cabra*, respectivamente. Obviamente, en estos casos lo que se hace es listar las palabras que más se parecen, ordenadas de mayor a menor similitud.
+
+Hay formas piolas de lograr esto (creo que la mejor es usando la `distancia de Levensthein <http://es.wikipedia.org/wiki/Distancia_de_Levenshtein>`_, que fue sugerida por gente que sabe en la `lista de PyAr <http://www.python.com.ar/moin/ListaDeCorreo>`_). El problema que encuentro con este tipo de procesamiento, es que se pierde la coincidencia por diccionario, y hay que calcular esta distancia entre la palabra buscada y las guardadas en el momento de la búsqueda en sí.
+
+Lo bueno de este tipo de procesamiento, sin embargo, es que nos ahorra el anterior (ya que encontraría una palabra con 'Ç' aunque escribamos 'C', sólo porque son parecidas). Anyway... se los dejo como tarea para el hogar (o para el `PyCamp <http://www.python.com.ar/moin/PyCamp/2009>`_ de este año <guiño>).
