@@ -1,0 +1,49 @@
+2009-01-03 15:07:03
+CDPedia en Villa Ventana
+cdpedia, vacaciones, paseo, python
+
+Los días año2008[Navidad:] (ok, la semana entre Navidad y Año Nuevo, pero este es un post de Python, así que deberían entender lo otro, ;), nos fuimos con Moni a `Villa Ventana <http://es.wikipedia.org/wiki/Villa_Ventana>`_, un pueblito a kilómetros de Sierra de la Ventana.
+
+.. image:: http://www.taniquetil.com.ar/facundo/imgs/villaventana_facupileta.jpeg
+    :alt: Disfrutando del sol en la pileta del lugar
+
+Pero ojo, que no se confundan por estas imágenes, no todo fue descanso y relajo. También vimos algunas películas, hicimos un asadito, paseamos, y varios etcéteras.
+
+.. image:: http://www.taniquetil.com.ar/facundo/imgs/villaventana_monicerro.jpeg
+    :alt: Subimos al Cerro Bahía Blanca
+
+Y también trabajé en la `CDPedia <http://code.google.com/p/cdpedia/>`_, un proyecto de `PyAr <http://www.python.com.ar/moin>`_ que teníamos bastante abandonado, pero que quiero empujar para que salga este nuevo año.
+
+A continuación les cuento una (más o menos detallada) descripción de los cambios que le hice al código, pero básicamente, lo que ahora tenemos es que luego de correr el "generar.py", se puede probar el sistema ejecutando "main.py", con página principal, búsquedas, etc. El mismo generador deja un .iso, con la misma funcionalidad que se prueba en vivo y directo.
+
+También creé una `lista de correo <http://groups.google.com/group/cdpedia>`_ para toda discusión sobre este proyecto, y agregué algunos puntos a los issues del proyecto.
+
+Tónces, los cambios:
+
+- Paqueticé algunos directorios, y cambié la forma en que se importaban los módulos de los mismos. También cambié algunas cosas de lugar, todo orientado a que se pueda probar el server sin tener que armar el .iso (si se ejecuta main.py luego de generar.py en los directorios de desarrollo se puede probar todo e ir corrigiendo cosas 'live', sin la complicación de montar el .iso, tener que probar desde ahí, y que los cambios allí no son de producción).
+
+- Renombré 'pasos.txt' a 'README.txt', para una más fácil exploración, con instrucciones claras de cómo usar el proyecto en el estado actual.
+
+- Cambié la interacción entre los procesadores y quien los llama: ahora los procesadores NO tocan el 'resultado' del WikiSitio, ya que esto hacía que se pierda el control del mismo y aparezcan páginas espúreas al final. Ahora cada procesador devuelve dos cosas: el puntaje de la página que procesa, y una lista de tuplas (otra_página, puntaje) en caso de asignar puntajes a otras páginas. En caso de querer omitir la página que se le ofrece, el procesador debe devolver None en lugar del puntaje.
+
+- Corregí muchos acentos, y normalicé muchas cosas a UTF-8 (había todo un quilombo de encodings, y creo que no solucioné todo), y llevé algún archivo de DOS a UNIX a nivel de fin de línea.
+
+- También corregí mucho sobre estilos, tratando de ir hacia la PEP 8 (muchas lineas se pasaban de las 80 columnas, espacios entre los '=', espacios entre el último caracter y el fin de linea, etc.).
+
+- Limpieza de debugs: comenté algunos prints, aclaré otros (poniéndole algún título para reconocerlos), saqué algunos repr() (pasé a encodear la info), etc. Ahora es posible hacer un '> out.tmp' para poder estudiar mejor la salida de todo si se dejan algunos prints que generan mucha info.
+
+- Normalicé algunas cosas a nivel config.py: saqué info que no se usaba más, y agregué otras variables necesarias. Como ahora todo funciona tanto desde adentro del .iso como en el entorno de desarrollo, algunas variables cambiaron en el config.py, y hay un config.py que se crea explícitamente para el .iso. También hice que algunas variables dejen de viajar como locas entre funciones, y se tomen directamente del config.py (¡ya estaban allí!).
+
+- Lo que se toma en cuenta para generar el .iso ahora se toma desde un directorio, no en función de una variable de config: esto permite realizar pruebas mejores a nivel de qué se pone para armar el disco.
+
+- Agregué más control de errores donde me fue necesario para depurar los problemas que había (faltaría agregar bastante más).
+
+- Tenemos un directorio nuevo, 'utilities', con pequeñas aplicaciones. Por ahora hay dos solamente: 'verComprimido.py' que nos abre y muestra un .odp, y 'verIndice.py' que nos abre y muestra los archivos de índice creados. Ambos los armé para mejor debugging.
+
+- A nivel del generador de índices, lo corregí en función de los últimos cambios en la etapa de procesamiento, y agregué alguna que otra función útil.
+
+- Corregí y cambié algunas cosas en server.py en función de todos los otros cambios: estructura de directorios, índice, decompresor, etc. También limpié algunas cosas, pero en general no hice ningún cambio importante de funcionalidad más que lo explicado en el siguiente párrafo.
+
+- El server.py ahora tiene una página principal adentro, que es usada como punto de partida para ofrecer las distintas funcionalidades, y como punto de retorno si hay algún error. Esta página hay que hacerla linda en un futuro, ;)
+
+- Le agregué al generar.py una opción '--no-iso', útil para generar sólo la info necesaria para probar todo, sin armar el ISO final.
