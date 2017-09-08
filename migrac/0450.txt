@@ -2,18 +2,11 @@
 Lalita liberada por primera vez
 <tags>
 
-
 Python Argentina se deleita en anunciar la <a href="https://edge.launchpad.net/lalita/trunk/pre-alpha-1">versión 0.1.1 de Lalita</a>.
-
-
 
 Lalita es otro bot IRC más, uno donde es simple crear nueva funcionalidad agregando plugins fáciles de escribir.
 
-
-
 Esta es una liberación pre-alfa, nuestra primera liberación, pero el producto entregado es bastante robusto: lo estamos usando desde hace casi un año.
-
-
 
 Lalita está escrita con algunos objetivos en mente:
 

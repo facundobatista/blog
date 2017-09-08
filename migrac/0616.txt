@@ -26,7 +26,6 @@ Un rato después nos pasó a buscar el auto, nos subimos los cuatro, y ahí si y
 
 Y en la vida me vuelvo a tomar un micro de Mercobus/PlusUltra.
 
-
 <strong>El resto del Jueves</strong>
 
 Al llegar fueron todos saludos, presentaciones con varias personas a las que no conocía personalmente, el almuerzo, más saludos y presentaciones, y el arranque con el PyCamp propiamente dicho.
@@ -40,7 +39,6 @@ No pude seguir con TOMy porque llegó la hora asignada de empezar con LocoLander
 Lo groso es que se logró muchísimo. Pueden ver <a href="https://launchpad.net/locolander">acá el código</a>, ya con mucho hecho de la interfaz de registro de proyectos y de seguimiento del proceso, así como también toda la infraestructura para armar imágenes de distintos linuxes y configurarlos con las dependencias necesarias para correr los tests necesarios sobre los branches de los proyectos registrados.
 
 Luego de la cena, y para cerrar el día, jugamos una partida de <a href="http://boardgamegeek.com/image/1368514/belfort">Belfort</a>, un juego muy muy divertido que tiene Alecu. Los jugamos de a tres parejas: él y Matías, Nati y yo, y Elvio y Gisele, una pareja que yo no conocía hasta el PyCamp. Estuvo muy bueno, y con Nati lo ganamos en una serie de movimientos maestros cerca del final, sorprendiendo incluso a Alecu porque logramos el máximo de puntos del juego.
-
 
 <strong>Segundo día, el viernes</strong>
 
@@ -60,7 +58,6 @@ No todo terminó ahí con Kilink, especialmente los dos días siguientes. Filly 
 
 El jueves también lo cerramos con un juego: el <a href="http://boardgamegeek.com/image/488300/galaxy-trucker">Galaxy Trucker</a>, que yo ya había jugado una vez en un PyDay en Córdoba, pero no me acordaba mucho. Igual, lo jugué bastante bien y gané por UN puntito, muy muy justo.
 
-
 <strong>Sábado</strong>
 
 Habiéndome acostado la noche anterior a las tres de la mañana, era obvio que no me iba a levantar demasiado temprano. Pero nueve y media ya estaba bañadito y listo para comenzar a trabajar.
@@ -76,7 +73,6 @@ El cierre del día lo dió la reunión número 61 de PyAr, pegadita a la cena. L
 <img src="http://www.taniquetil.com.ar/facundo/imgs/pycamp2013-reunión.jpeg" alt="Reunión de PyAr" height="450" width="600" />
 
 Cuando volvimos a buscar las cosas al salón era como la una de la mañana. Yo estaba listo para irme a dormir, pero salió la idea de jugar nuevamente al Belfort... en esta oportunidad jugamos individualmente Nati, Matías, Ricardo, Lucio, y yo. Sorprendentemente volví a ganar, por unos buenos tres puntos.
-
 
 <strong>&Uacute;ltimo día</strong>
 

@@ -6,7 +6,6 @@ El formato de PyCon USA este año fue de dos días de tutoriales, tres días de 
 
 A los tutoriales no fui, pero sí a la conferencia y los sprints. Este post es sobre esos tres días de conferencia.
 
-
 <strong>Primer día</strong>
 
 Luego de la presentación y apertura del evento, tuvimos en la primera charla plenaria a <a href="http://www.hilarymason.com/">Hilary Mason</a> hablando de programación, análisis de datos, y varias cosas diversas... nada específico, pero entretenido.
@@ -31,7 +30,6 @@ Al rato nos fuimos a cenar Dani Moisset, Armin Rigo (core developer de <a href="
 
 Al volver me puse a laburar en un fix a Twisted, y al sobre.
 
-
 <strong>Segundo día</strong>
 
 Al otro día, arrancamos con lightning talks de nuevo. Estuvo buena la de <a href="http://code.google.com/p/python-on-a-chip/">python-on-a-chip</a>, que es una colección de ports de Python a algunos microcontroladores... me llamó la atención particularmente el port a DryOS, que es el sistema operativo de muchas Canon, incluída <a href="http://en.wikipedia.org/wiki/Canon_PowerShot_G10">la que tengo</a>.
@@ -52,7 +50,6 @@ Y para cerrar, lightning talks de nuevo! Se habló de <a href="http://readthedoc
 
 A la noche cena con Nati Bidart, Dani Moisset y Juan Pablo (un chico de Buenos Aires que no conocíamos... bah, nos vimos un par de veces en algún PyDay) a un mexicano cerca que no estuvo muy bueno.
 
-
 <strong>Tercer día</strong>
 
 Nuevamente arrancamos con lightning talks, en las que yo día una charlita sobre PyAr, básicamente hablando de las Charlas Abiertas de Python en La Tribu, y de la CDPedia.
@@ -66,7 +63,6 @@ Luego de un break bastante largo (porque estaba la "poster session"... eso de lo
 A la tarde asistí a una charla sobre cómo habían escalado el nuevo frontend de SourceForge, y a una en que Doug Hellmann contaba sobre "tesoros escondidos" de la biblioteca estándar (no estuvo mal, pero ya conocía todos los módulos que comentó).
 
 Para cerrar el evento, más lightning talks y mucha gente desfilando diciendo qué sprint va a liderar, a ver si consigue gente. Yo ya lo tengo decidido antes de venir, voy a empezar a portar Twisted a Python 3.
-
 
 <strong>Conclusión</strong>
 

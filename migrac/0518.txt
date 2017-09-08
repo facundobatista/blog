@@ -8,7 +8,6 @@ Más que un análisis completo de las tecnologías para permitir la distribució
 
 Antes de seguir: para todo el armado usé <a href="http://docs.python.org/library/distutils.html">distutils</a>, que es lo que está en la biblioteca estándar. Le pegué una mirada a otras cosas como setuptools, distribute, etc, pero todas (aunque son más aptas para cosas más complejas) no me solucionaban el problema básico y me complicaban un poco la vida en otros aspectos.
 
-
 <strong>¿Dónde van las cosas?</strong>
 
 Volviendo a el lugar en dónde se instala el código Python... si uno quiere distribuir una biblioteca, la respuesta es sencilla: en el directorio de bibliotecas de Python de tu sistema. ¿En dónde particularmente? Bueno, depende de tu sistema; incluso en Linux esto fue cambiando y no es el mismo lugar siempre. En mi máquina tengo <span style="font-family: courier new,courier;">/usr/lib/python2.6/dist-packages/</span>, que en parte apunta a <span style="font-family: courier new,courier;">/usr/share/pyshared/</span>.
@@ -36,7 +35,6 @@ Entonces me embarqué en el siguiente capricho: quería que la distribución de 
 <span style="font-family: courier new,courier;"> todo el resto -> /usr/share/</span>
 
 Los archivos de datos, por supuesto, mezclados con "todo el resto".
-
 
 <strong>Estructura de nuestro programa</strong>
 
@@ -73,7 +71,6 @@ y luego hago cosas como:
 <span style="font-family: courier new,courier;"> data_file = os.path.join(BASEDIR, 'ui', 'preferences.glade')</span>
 
 Finalmente, la pregunta complicada: ¿cómo hacemos para que todo esto funcione?
-
 
 <strong>Distribuyendo programas</strong>
 

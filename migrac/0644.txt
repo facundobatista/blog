@@ -6,7 +6,6 @@ Se fue otro PyCamp. Como siempre, genial. Lo charlaba con Moni, es notable como 
 
 Eso sí, voy a tratar de innovar en lo que es la descripción del mismo, escaparme de hacer una cronología, y orientar más el relato a las situaciones.
 
-
 <strong>Llegando y saliendo</strong>
 
 Los viajes bien. Como el año pasado, me quedé hasta "cerrar el evento", y también como el año pasado, luego de vaciar el lugar, entregar la llave y eso, nos quedamos algunos tomando unas cervezas en el bar del lugar, hasta que íbamos partiendo en función del horario de bondi de cada uno.
@@ -14,7 +13,6 @@ Los viajes bien. Como el año pasado, me quedé hasta "cerrar el evento", y tamb
 La diferencia estuvo en la llegada, ya que este año no tuvimos al Joven Ocupado en la Accesibilidad y Conectividad (JOAC), así que tuvimos que armar toda la infraestructura de red sin saber demasiado. Viajé con Nico Demarchi, así que al llegar nos pusimos con eso... y aunque no es <em>rocket science</em>, tampoco es trivial, y estuvimos como tres horas para dejar todo lindo!
 
 <img src="http://www.taniquetil.com.ar/facundo/imgs/pycamp14-red.jpeg" alt="Una Antena Sable Laser" height="398" width="600" />
-
 
 <strong>Proyectos</strong>
 
@@ -30,7 +28,6 @@ Finalmente, arranqué ayudando a un par de chicos a migrar código a Python 3, p
 
 <img src="http://www.taniquetil.com.ar/facundo/imgs/pycamp14-trabajando.jpeg" alt="Laburando en Encuentro con Nico, Mica y Emi (que sacó la foto)" height="413" width="600" />
 
-
 <strong>Las noches</strong>
 
 Sólo tres, porque el último día uno viaja, pero las aprovechamos a full :)... la gente se va a dormir sorprendentemente tarde luego de lo arduo que son los días. Bah, más sorprendente es que muchos al otro día nos levantamos temprano :p
@@ -43,7 +40,6 @@ La tercer noche fue doble... Munchkin primero (ganó Matías), y luego jugamos a
 
 <img src="http://www.taniquetil.com.ar/facundo/imgs/pycamp14-jugando.jpeg" alt="Carrera de Mente" height="397" width="600" />
 
-
 <strong>Notas de color</strong>
 
 Este año Alecu no pudo venir... y Diego Sarmentero se le ocurrió la idea de nombrarlo Lider Inspiracional, y mandó a imprimir dos cuadros, uno para tenerlo <a href="http://www.flickr.com/photos/54757453@N00/13411587035/in/set-72157642919370713">durante el día</a>, y otro para tenerlo <a href="http://www.flickr.com/photos/54757453@N00/13412026314/in/set-72157642919370713">luego de las cenas</a>.
@@ -53,7 +49,6 @@ A nivel de "actividades al aire libre", este año volvimos a repetir la caminata
 También hicimos una <a href="http://es.wikipedia.org/wiki/Fiesta_de_firmado_de_claves"><em>key signing party</em></a>, y Juanjo Ciarlante nos charló un poco de seguridad y buenas costumbres.
 
 <img src="http://www.taniquetil.com.ar/facundo/imgs/pycamp14-grupal.jpeg" alt="Todos" height="413" width="800" />
-
 
 <strong>Conclusión</strong>
 

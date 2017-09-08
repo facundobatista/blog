@@ -17,7 +17,6 @@ Muchas lecturas aleatorias y secuenciales, ¿mmap?
 </ul>
 <p>En ambos casos, las pruebas que realicé fueron haciendo .read() y .seek() sobre archivos normales, haciendo .read() y .seek() sobre el mmap, y usando el mmap como un string, accediendo por slices.
 
-
  <strong>Resultados</strong>
 
  Entonces, lectura secuencial, leyendo los cien megabytes de principio a fin (en milisegundos):
@@ -36,7 +35,6 @@ Muchas lecturas aleatorias y secuenciales, ¿mmap?
  - .read() y seek() sobre el mmap: 10.8 useg
  - usando slices sobre el mmap:&nbsp;&nbsp; 10.3 useg</span>
 
-
  <strong>Conclusiones</strong>
 
  Si vamos a usar mmap, en estos casos, conviene usar el acceso por slices (con corchetes). &nbsp;
@@ -44,7 +42,6 @@ Muchas lecturas aleatorias y secuenciales, ¿mmap?
  Tomando esos tiempos, mmap es un<em> 296% más rápido</em> en la lectura secuencial, y un <em>75% más rápido</em> en el acceso aleatorio.
 
  Claramente mmap es el ganador.
-
 
  <strong>Disclaimers</strong>
 

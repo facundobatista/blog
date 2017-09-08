@@ -14,7 +14,6 @@ El código en sí lo pueden ver <a href="http://bazaar.launchpad.net/~facundo/en
 
 Bueno, a los bifes.
 
-
 <strong>El código "útil" en sí</strong>
 
 Tenemos dos archivos y varios directorios...
@@ -35,7 +34,6 @@ Tenemos dos archivos y varios directorios...
 
 <span style="font-family: courier new,courier;">- tests/</span>: Los tests de unidad del proyecto, normalmente un montón de archivos cuyo nombre arranca con "test_" pero también pueden haber otros (módulos o no) para dar soporte a las pruebas.
 
-
 <strong>Otros directorios</strong>
 
 Estos son directorios puntuales que tengo para Encuentro. Algunos se repiten con otros proyectos, otros no.
@@ -47,7 +45,6 @@ Estos son directorios puntuales que tengo para Encuentro. Algunos se repiten con
 - <span style="font-family: courier new,courier;">web</span>: Todos los archivos necesarios para montar <a href="http://encuentro.taniquetil.com.ar/">el sitio web del proyecto</a>.
 
 - <span style="font-family: courier new,courier;">windows</span>: Imágenes, configuraciones, y explicaciones necesarias para armar el .exe en Windows y luego armar con eso el instalador final que se distribuye.
-
 
 <strong>Otros archivos</strong>
 

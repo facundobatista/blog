@@ -8,7 +8,6 @@ Es un proyecto donde la idea es dar un servicio gratis a la comunidad de softwar
 
 Estoy contando acá entonces de qué va el proyecto, y también voy a poner algo de esto en la página del PyCamp, a ver si genera tracción para ser laburado este Junio.
 
-
 <strong>Contexto</strong>
 
 La idea surge de una necesidad en particular. Una gran idea dentro de un proyecto de software es "la revisión por pares" (<em>peer review</em>). En ese contexto, cuando uno escribe el código de un cambio, ese código no va directamente al <em>trunk</em> (<em>main</em>, o <em>head</em>, o lo que sea) del proyecto, sino que uno termina el branch, y lo propone a revisión.
@@ -32,7 +31,6 @@ Entonces vienen los "pares" y revisan el código, a veces sugieren mejoras (a ve
 Ahora, imagínense que uno, como desarrollador del proyecto, pudiera decir "este branch está aprobado, está listo para entrar en trunk", y viniera un bot al ratito, y ejecutase todos esos pasos que indiqué yo antes.
 
 <img src="http://www.taniquetil.com.ar/facundo/imgs/locolander.png" alt="LocoLander" height="354" width="308" />
-
 
 <strong>El proyecto</strong>
 

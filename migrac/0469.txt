@@ -2,69 +2,36 @@
 Sprint en Londres, primera parte
 <tags>
 
-
 Con motivo de una reunión de equipo (¡toda la gente de Online Services de Canonical!) arranqué para Londres el sábado a la mañana.
-
-
 
 El avión salía al mediodía, así que preparé todo la noche anterior, de manera de levantarnos y salir, ya que Mónica y Felipe me llevaban al aeropuerto. Parte de la preparación de la valija fue más complicada... quise llevarme a Felu, pero al final me hicieron desistir...
 
-
-
 <img src="http://www.taniquetil.com.ar/facundo/imgs/viajelondres-feluvalija.jpg" alt="Felipe en la valija" width="550" height="420" />
-
-
 
 El vuelo estuvo muy bien, viajé con Martín y Alecu. Fue largo (16 horas en total), pero Martín (beuno) se cambió de asiento y nos charlamos todo hasta que el avión hizo la escala en San Pablo, donde se acercó Alecu y seguimos charlando. El segundo tramo, considerablemente más largo, lo distribuí entre charla, ver una peli, programar algo, y dormir algunas horas.
 
-
-
 Aterrizamos el domingo tempranito, y mediante tren y subte llegamos al hotel un rato antes de las diez de la mañana. Hicimos el check-in, pero no teníamos habitación disponible todavía, así que nos fuimos a la habitación de Naty (que había llegado la noche anterior) y nos bañamos ahí.
-
-
 
 Enseguida arrancamos con Naty y Alecu para Camden, una zona de Londres que es un mercado callejero grande, y estuvimos paseando como cuatro horas, viendo cosas, comprando algunos souvenirs, almorzando, etc.
 
-
-
 <img src="http://www.taniquetil.com.ar/facundo/imgs/viajelondres-camden.jpg" alt="Camden" width="550" height="376" />
-
-
 
 A media tarde nos tomamos un bondi y nos acercamos a la zona de Picadilly Circus, donde nos encontramos con más gente. Entramos a un negocio de ropa deportiva porque Naty y Alecu querían comprar un par de cosas, pero me terminé comprando unas medias y un pantalón largo para jugar al tenis. Luego fuimos a una librería, y finalmente a una jueguetería inmensa, de tres pisos, donde tenían absolutamente de todo.
 
-
-
 Volvimos al hotel con el tiempo exacto como para organizarnos para ver el partido de Argentina con México. La idea era cenar mientras mirábamos el partido, pero al final se juntó tanta gente en la habitación que sólo nos tomamos unas cervezas, y comimos después.
-
-
 
 El lunes arrancamos bien temprano, y a las nueve estábamos en el piso -4 de otro hotel cercano, donde teníamos las salas para trabajar. Era un día sin laptops, con presentaciones y charlas toda la mañana. Después del almuerzo participamos en un juego en el que varios equipos recorrían la ciudad tratando de encontrar respuestas a unos acertijos. Mi equipo (y otro más) fallamos totalmente, porque leímos mal las instrucciones y arrancamos en otro punto y no donde debíamos, lo que hacía que la primer adivinanza fuese imposible de resolver. Igual nos divertimos, y caminamos como tres horas.
 
-
-
 El juego terminaba en un bar, donde tomamos algo, y volvimos al hotel a eso de las siete de la tarde. Laburamos un rato en distintas cosas, mientras tomábamos unos mates, y luego partimos (¡caminando!) a un restaurant chino que quedaba como a 30 cuadras, pero lo valía: comí cosas raras y ricas. Volvimos caminando (sí, de nuevo) al hotel, pero en el medio paramos para tomar un helado, :)
-
-
 
 <img src="http://www.taniquetil.com.ar/facundo/imgs/viajelondres-cenachino.jpg" alt="Cenando chino" width="550" height="345" />
 
-
-
 Al otro día también fuimos al otro hotel a trabajar, pero en esta oportunidad llevamos las laptops, y laburamos en distintos proyectitos de dos horas de duración cada una. La idea era meterle mano a distintas tecnologías para que todos las conozcamos más allá de la teoría (aunque no todos vayamos a laburar en ellas todo el tiempo). Lo que más me gustó fue usar <a href="http://couchdb.es/que-es-couchdb/">CouchDB</a> desde Python, y también trabajar con <a href="http://www.amqp.org/confluence/display/AMQP/Advanced+Message+Queuing+Protocol">AMQP</a>.
-
-
 
 Luego de las seis volvimos al hotel pero en seguida partimos hacia un picnic donde iba a estar mucha gente de la empresa. Paramos en el medio a comprar algo de morfi en un supermercado, y llegamos luego de caminar como una hora (sí, seguimos caminando...). El picnic estuvo bien, y hasta jugamos un rato al fútbol en algo super caótico que incluía a más o menos veinte varones y cuatro mujeres de los cuales un 4% sabía algo de futbol, en una canchita provisoria armada entre los árboles...
 
-
-
 Luego volvimos (nuevamente caminando) al hotel, me pegué un baño y me fui a la habitación de Naty, donde nos pusimos a armar una presentación que teníamos que dar al otro día. Pensamos que iba a ser sencillo y rápido, pero terminamos trabajando hasta las dos y media de la mañana :(, así que al otro día no podía despertarme para nada.
 
-
-
 Encima el miércoles también era día sin laptops, así que eran todas presentaciones y charlas, y aunque había algunas interesantes, en otras no podía evitar cabecear del sueño. Con Naty dimos la <a href="http://www.taniquetil.com.ar/facundo/magicicada-lt.pdf">lightning talk de Magicicada</a> que habíamos armado, y también yo dí una cortita de <a href="http://www.taniquetil.com.ar/homedevel/presents/logs.odp">Logs</a>.
-
-
 
 El día no ofreció mucho más, laburamos hasta tarde, cenamos, y a dormir! |

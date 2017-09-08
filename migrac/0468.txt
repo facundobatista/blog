@@ -2,25 +2,14 @@
 Todo roto, todo
 <tags>
 
-
 <strong>Consejo:</strong> Nunca traten de upgradear el sistema operativo de un VPS que tienen contratado.
-
-
 
 No funciona, por cosas que van más allá del OS en cuestión (uno de los detalles que ví en el mío, es que el <span style="font-family: courier new,courier">/boot</span> está vacío... nunca puede andar, :p).
 
-
-
 ¿Cómo lo sé? Porque lo intenté, e hice crema mi server.
-
-
 
 Tenía backup, pero sólo de los datos. Esto significa que aunque tenía copias de lo más importante y realmente valioso, volver a hacer funcionar todo me llevó varias (<em>varias</em>) horas de trabajo de instalar y configurar cosas.
 
-
-
 Lo último que acabo de arreglar: la posibilidad de dejar comentarios aquí en el blog. Con esto creo que ya está todo al 100% como antes.
-
-
 
 Si encuentran algún otro detalle, me chiflan. ¡Gracias!    |

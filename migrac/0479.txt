@@ -2,149 +2,76 @@
 Python Argentina, la historia
 <tags>
 
-
 <em>El siguiente texto formó parte de la Primera Edición de <a href="http://revista.python.org.ar/">PET - Python Entre Todos</a>, la revista de PyAr. Tiene un montón de artículos copados, y la pueden ver online, o bajarla en PDF en distintos formatos. En la semana va a salir el mismo número, pero en inglés, y esperamos una segunda edición prontito. ¡Disfrútenla!</em>
 
 <em>
 
 Ahora, el artículo.</em>
 
-
-
 Conocí Python en el 2001, buscando un lenguaje piola para trabajar en entornos Unix y Windows, y frustrado por algunas experiencias anteriores. Inmediatamente ví que era algo que me gustaba, y comencé a invertir tiempo, aprendiendo y profundizando en él.
-
-
 
 No conocía muchos que usaran este lenguaje. Sí, estaba la lista de Python en español, y la lista en inglés, pero no tenía contacto con otros argentinos que programaran en él (más que un par de compañeros de trabajo). Buscando gente, caí en un sitio que organizaba reuniones de todo tipo, me anoté, pero nada.
 
-
-
 Llegó el 2004. Pablo Ziliani (más conocido como <em>un tal Pablo</em>) encontró el mismo sitio pero lo tomó, lo sacó de su hibernación, y mandó invitación para juntarnos.
-
-
 
 Esta juntada fue finalmente la Primera Reunión de Python Argentina. Nos encontramos en un bar céntrico, el 9 de Septiembre de 2004, Pablo, un chico llamado Javier que no volvimos a ver, y el que suscribe.
 
-
-
 Aunque sólo charlamos de generalidades alrededor de Python, el ímpetu no quedó ahí y con esa base se organizó la próxima reunión, en la que ya se empezó a formar el grupo propiamente dicho.
-
-
 
 En esta segunda reunión, a fines de Octubre, se bautizó al grupo como &ldquo;PyAr - Python Argentina&rdquo;, y decidimos crear la lista de correo y establecer un portal web donde se den a conocer los objetivos y actividades del grupo, las instrucciones para participar, enlaces a información útil, y generar contenido propio (como por ejemplo experiencias locales en el uso de Python).
 
-
-
 El primer año del grupo pasó a pura reunión. Darnos a conocer no era fácil, y aunque hacíamos promedio una reunión por mes, éramos entre cuatro y siete personas, siempre los mismos. Pero en función de llegar a más gente fue que en la reunión de Agosto del 2005 decidimos participar en CaFeConf 2005, las Jornadas Abiertas de GNU/Linux y Software Libre organizadas por CaFeLUG. Presentamos entonces dos charlas para dicha conferencia, Lucio dió una sobre PyGame y yo una de introducción a Python.
-
-
 
 Las primeras reuniones del 2006 nos encontraron ya con más gente (entre diez y veinte por reunión), y discutiendo sobre otros temas a nivel de grupo más allá de la difusión. Estábamos con la creación de las primeras remeras, Ricardo había creado un canal de IRC en Freenode (el viejo <em>#python-ar</em>), y Alecu proponía formalizar un poco el tema de las reuniones, creando un procedimiento para las mismas.
 
-
-
 También con estructuras más afianzadas se empezaron a barajar otros desafíos, como reuniones en interior del país, traer algún invitado internacional a CaFeConf 2006, traducir documentación oficial de Python, y algo que en su momento se llamó NERDcamp...
-
-
 
 En Febrero de ese año yo realicé mi primer viaje a PyCon USA (la conferencia de Python más importante del mundo), donde PyAr comenzó a hacerse visible más allá de nuestras fronteras, no sólo porque dí una Lightning Talk de nuestro grupo, sino porque aproveché para vender muchas de las remeras que habíamos hecho.
 
-
-
 En reuniones de esa primera parte del año también hablamos sobre el contenido de la lista de correo (si la separamos en sub listas o qué hacemos para limitar las conversaciones no específicas a Python; esta discusión la seguimos teniendo hoy en día...), hablamos del Día Python realizado en Mendoza, y charlamos sobre cómo organizar el grupo a nivel estructura: si íbamos a definir /cargos/ dentro del grupo, o seguir como estábamos en una estructura plana sin presidentes ni presididos.
-
-
 
 La organización del grupo merece un párrafo aparte. Desde el comienzo de Python Argentina hasta ahora no hubieron nunca personas con cargos específicos, sino que siempre mantuvimos una muy saludable anarquía, en donde había una asociación y un pacto voluntario entre las personas del grupo que quisieran llevar algún proyecto interno adelante, sin necesidad de "decisiones oficiales" que impongan recorridos al resto de las personas del grupo. En otras palabras, si alguien en PyAr desea empujar un proyecto, sólo tiene que hacerlo, y tendrá más o menos participantes y/o ayudantes en función de si el proyecto es interesante o no, pero no tiene que "oficializarlo", o pedir aprobación sobre el mismo.
 
-
-
-
-
 <strong>Siguiendo con la historia</strong>
-
-
 
 En Junio del 2006 se realizó la Primer Jornada Python Santa Fe, en la Universidad Tecnológica Nacional, ciudad y provincia de, justamente, Santa Fe. Las jornadas fueron un éxito, y en la reunión / sprint posterior a las mismas (mientras comíamos pizza y hablábamos de todo un poco) se empezó a trabajar en un proyecto importante para el grupo: una versión offline de la Wikipedia. Este evento nos motivó bastante, y en la reunión siguiente Pablo Ziliani sugirió que tratemos de ponernos como objetivo "organizar una reunión /federal/ al menos una vez al año", y decidimos que queríamos tener una bandera de PyAr.
 
-
-
 Septiembre del 2006 nos encontró participando en la tercera edición de PyWeek, una competencia internacional en la que se debe programar un juego en Python en una semana, arrancando desde cero y terminando con algo que prueban el resto de los competidores. No era la primera vez que participábamos, pero en esta oportunidad uno de los grupos de PyAr ganó la competencia con el juego Typus Pocus (¡y otro grupo nuestro quedó tercero!).
-
-
 
 La segunda mitad del año no trajo mayores novedades hasta que llegamos a CaFeConf 2006, donde estrenamos stand con una bandera recién salida del horno, y además una de las plenarias del evento era dada por Alex Martelli (habló de "Qué es Python y por qué importa"), invitado internacional traído por gestiones propias de PyAr.
 
-
-
 Luego de este evento empezamos a reconocer lo importante que era para Python Argentina participar de estas conferencias y jornadas abiertas a la comunidad, ya que luego de las mismas notábamos un salto en la cantidad de suscriptos a la lista de correo. Además, empezamos a establecer buenos vínculos con el resto de la comunidad de software libre de Argentina, comunidad a la que algunos conocíamos pero en la que no estábamos involucrados.
-
-
 
 El año 2007 fueron meses de consolidación. Se realizaron varias reuniones en Capital e interior, estuvo el segundo Día Python en Santa Fé (esta vez con dos tracks, de nuevo un éxito), y PyAr participó en CaFeConf, en Unlux y en las Jornadas Regionales de Software Libre, en Córdoba. Como se discutió en la reunión del grupo luego de esa conferencia, Python Argentina era un grupo nuevo que estaba naciendo y aprovechábamos la gentileza de los &ldquo;hermanos mayores&rdquo;: la capacidad organizativa y la gente involucrada en los LUGs. Un detalle importante a considerar es que Python era el único lenguaje de programación con stand propio, tanto en CaFeConf como en dichas Jornadas.
 
-
-
 Durante este año también la lista de correo alcanzó una cantidad de participantes suficientes como para que la rueda gire sola: la gran cantidad de respuestas a las preguntas dejó de surgir del grupito de 20 o 30 personas que arrancó el grupo y pasó a ser generadas por personas más nuevas. También activamos el IRC como medio de comunicación, pero usando <em>#pyar</em> como canal en Freenode (necesitábamos hacer algunos cambios y no teníamos acceso a Ricardo, que había creado el anterior). En conjunto, la lista y el canal de IRC, probaron ser los mejores medios de comunicación para el grupo, complementándose entre ellos ya que la dinámica es distinta en cada caso, y ambos teniendo como soporte persistente al sitio web, que de a poco se fue llenando de Recetas, Cartelera de Trabajo, Novedades, Documentación, FAQ, etc.
-
-
 
 2008 arrancó con una gran novedad: el primer PyCamp. Organizado por Except, una empresa de Córdoba, este evento se desarrolló durante cuatro días en los que fuimos a trabajar en distintos proyectos de Software libre relacionados con Python, a socializar, y a tener algún pequeño contacto con la naturaleza.
 
-
-
 En la reunión de Mayo de ese año se charló sobre las participaciones del grupo en otros eventos internacionales. Estuvimos representados nuevamente en PyCon y por primera vez en Fisl (donde integrantes de PyAr hicieron Falabracman, un juego en 36 horas para la competencia OLPC Game Jam, ¡la cual ganaron!). También se charló una diferencia importante entre los grupos de usuarios de USA y de Argentina; en Estados Unidos se juntan directamente a programar o a hablar de cosas netamente técnicas, y en Argentina las reuniones son con un fin más social, para conocernos las caras y quizá tomar alguna que otra cerveza. Relacionado con una idea que venía de antes, Humitos nos contó que estaba haciendo una traducción al español de manual de Django, y surgió el tema de traducir el Tutorial oficial de Python, con la posibilidad de imprimirlos y encuadernarlos para venderlos o regalarlos en algunos eventos.
-
-
 
 La segunda mitad del año estuvo bien movidita también. No sólo por reuniones en Buenos Aires e interior (¡primera vez en Rosario!), sino que terminamos de definir el diseño de la segunda tanda de remeras de PyAr, y participamos nuevamente en las Jornadas Regionales de Software Libre. En este evento Python volvió a pisar fuerte, no solo por la cantidad de charlas presentadas o lo exitoso del stand, sino que volvimos a traer un invitado internacional (Raymond Hettinger) para que dé una plenaria en un evento de primera linea.
 
-
-
 También se realizaron las 3ras Jornadas Python en Santa Fe, donde se anunció formalmente que al año siguiente se realizaría la primera conferencia nacional de Python en Argentina. En la última reunión del año en Buenos Aires se terminó de discutir el arranque de la organización de esta importante conferencia, y terminamos el 2008 con muchas ganas de que arranque el próximo.
-
-
-
-
 
 <strong>Quinto aniversario</strong>
 
-
-
 Los últimos días de Marzo del 2009 nos trajo la segunda edición del PyCamp, nuevamente en Los Cocos (Córdoba). Fueron nuevamente cuatro días en los que se desarrollaron muchos proyectos, y se profundizaron muchos lazos dentro de la comunidad Python.
-
-
 
 La segunda parte del año tuvo como plato fuerte a PyCon Argentina 2009, la primera conferencia en español del mundo, un merecido festejo del quinto cumpleaños de PyAr. Fueron dos días en Septiembre, mañana y tarde, con tres secciones en paralelo la mayor parte del tiempo. Usamos tres auditorios de distintas capacidades, siendo el mayor para 300 personas, y dividimos las exposiciones en tres tipos: charlas comunes (tuvimos 33 distribuidas en ambos días), lightning talks, y plenarias.
 
-
-
 PyCon fue todo un éxito (no esperábamos tanta gente, vinieron más de 400 personas, muchas de Buenos Aires, pero una buena parte de interior, y también gente de otros paises), y tuvo muy buena repercusión tanto en nuestro país como en medios internacionales. A esto último ayudó que tuvimos dos invitados de primera linea (Jacob Kaplan-Moss y Collin Winter) que se lucieron en sus respectivas charlas plenarias.
-
-
 
 Para la conferencia pudimos terminar uno de los proyectos de larga data dentro del grupo: ni más ni menos que la traducción completa al castellano del Tutorial de Python (el oficial), que publicamos en la red pero que también imprimimos en cantidad para repartir durante la conferencia (especialmente en la charla de <em>Introducción a Python</em>), y que luego fuimos llevando a los otros eventos que participamos. Además, aprovechando que PyAr tiene mucha gente estudiando en Universidades, donamos Tutoriales a las Bibliotecas de dichas instituciones.
 
-
-
 Terminamos el año con una participación en un evento amigo, Fábrica de Fallas, en La Tribu. No es un ámbito tradicionalmente orientado a la programación, y aunque PyAr siempre tuvo buena acogida en ese ámbito, nos sorprendió gratamente que uno de los momentos artísticos del evento haya sido la pintada de un mural cuya base es un tutorial de Python!
-
-
 
 El comienzo del 2010 tuvo al clásico PyCamp en la primera parte del año, pero esta vez no en Los Cocos, como en las dos ediciones anteriores, sino en Verónica (Buenos Aires). Cambió el lugar pero no el estilo: los PyCamps son uno de los eventos de programación más interesantes que conozco, y uno de los que más cumplen a la hora de aprender y divertirse.
 
-
-
 También se aceleró el trabajo sobre la CDPedia, el proyecto que ya les había mencionado sobre meter la Wikipedia en un disco para usarse sin estar conectados a Internet. En la versión CD entraron más de 80 mil artículos, la mayoría con imágenes. Y en la versión DVD entraron todos, casi todos con sus respectivas imágenes. Si podemos terminar algunas funcionalidades que necesitamos, estaríamos distribuyendo la CDPedia en muchas escuelas de todo el país, a través del Ministerio de Educación.
-
-
 
 En Mayo se realizó el primer Python Day en Rafaela, Santa Fe, el cual fue un éxito, llevando a casi 100 personas. Y para Septiembre se hará el primer Python Day en Buenos Aires, que esperamos ansiosos.
 
-
-
 La segunda parte del año nos traerá también el primer Ciclo de Charlas Abiertas, en La Tribu (una serie de charlas sobre programación y Python, a la gorra, abiertas a la comunidad), y la segunda edición de PyCon Argentina, esta vez en Córdoba.
-
-
 
 Seguramente cerremos el sexto año del grupo festejando todo lo hecho, pero también planeando nuevos eventos, nuevas formas de promover Python, y de juntarnos entre todos los usuarios de Python del país. |

@@ -12,7 +12,6 @@ Entonces, vayamos a los bifes... ¿qué necesitamos para tener el testrunner ide
 
 <img src="http://www.taniquetil.com.ar/facundo/imgs/keeptesting.png" alt="Keep testing" height="184" width="600" />
 
-
 <strong>Los componentes</strong>
 
 El primer paso, obvio, es instalar el <span style="font-family: courier new,courier;">nosetests</span> base. Con esto tenemos el primer par de puntos de lo que queríamos en mi post original: que soporte recibir un directorio y que busque de ahí para abajo, y que al recibir un archivo que corra los tests de ese archivo.
@@ -26,7 +25,6 @@ De la info que nos da en ese resumen también podemos extraer el path para corre
 Para correr más de un test, un subconjunto que matchee con una regex, tenemos el "nose-selecttests", que nos permite pasarle un <span style="font-family: courier new,courier;">--select-tests=</span> que hace que le podamos pasar luego aquello que queremos que coincida.
 
 Finalmente, tenemos varios detalles. Le podemos decir que corte en el primer test que falla, y que no siga, con -<span style="font-family: courier new,courier;">x</span>. También podemos pedirle que no esconda ni los prints que hagamos ni lo que logueamos, con <span style="font-family: courier new,courier;">--nocapture</span> y <span style="font-family: courier new,courier;">--nologcapture</span>. Y le podemos pedir que nos tire un buen resumen de cuales tests tardan más con <span style="font-family: courier new,courier;">--with-timer</span> (necesitamos el plugin "nose-timer").
-
 
 <strong>Armando el entorno</strong>
 

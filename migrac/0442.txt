@@ -2,37 +2,20 @@
 Internet por el celular
 <tags>
 
-
 Con Moni y Feli pasamos unos días en Cardales, entre Navidad y Año Nuevo, en la casa de unos amigos que se iban de vacaciones toda la semana.
-
-
 
 El lugar no tiene Internet, y aunque esto a mí no me jode porque tengo siempre laburo para hacer estando offline, se me ocurrió hacer una prueba... ¿cómo me conecto a Internet en la laptop, pero usando el transporte de datos de la red celular?
 
-
-
 Nunca lo había hecho, y encima tenía que comunicar la laptop con el teléfono a través de bluetooth, lo que siempre que probé resultó ser una tarea no trivial... pero nunca lo había probado con Ubuntu Karmic.
-
-
 
 Agarré el fonito entonces y le prendí bluetooth, y lo mismo hice con la laptop (los tenía apagados en ambos para que no consuman energía).
 
-
-
 En la laptop me apareció un iconito de bluetooth, al que le hice click y elegí la opción de <em>Configurar dispositivo nuevo</em>. Me apareció una pantalla que me contaba que me iba a guiar a través de la configuración, se puso a buscar dispositivos y me encontró el teléfono.
-
-
 
 Lo seleccioné y me apareció un número de unos pocos dígitos, indicando que pusiera lo mismo en celular. Voy a este y veo que ya estaba pidiéndome la clave. Ingresé el número y ya estaba listo: ambos dispositivos quedaron acoplados.
 
-
-
 La pantalla que me guiaba en la laptop avanzó sola al mensaje final, en el que me decía justamente que el dispositivo ya estaba configurado. Pero en este ventana también había un checkbox que decía "usar este dispositivo para conectarse a Internet".
 
-
-
 Hice click en el mismo, y automáticamente hizo que el teléfono se conectara, y que la máquina usara esa conexión: unos segundos después el Network Manager me indicaba que estaba conectado a la red usando el teléfono. ¡Y listo! Ya podía usar Internet.
-
-
 
 La verdad, todo el proceso me sorprendió mucho, ya que en cuatro clicks y sin tener que consultar ninguna documentación ni hacer cosas raras (ni siquiera cargar un driver del teléfono, o indicar qué modelo de teléfono tenía), pude conectar mi máquina a Internet de esta manera. |

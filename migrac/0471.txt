@@ -2,113 +2,58 @@
 Grabando conferencias
 <tags>
 
-
 Es recurrente en todos los eventos nuestros y de amigos el tema de la filmación.
-
-
 
 En mi personalísima opinión, el peor pecado en este tema es que se filmen todas las charlas y que luego no se procesen los videos y eso se muera, o se entregue un año después. También es malo que se filme pero que luego no se escuche lo que dice el disertante, o que no se vea, etc.
 
-
-
 Creo que la mejor (y casi única) manera de que "filmar las charlas de un evento" sea algo exitoso (obviamente sin gastar cantidades obscenas de dinero como podría/puede hacer la PSF o cualquier evento que maneje presupuestos de cientos de miles de dólares), es lo siguiente:
-
-
 
 - Una cámara, manejada por un humano (de acá en más, el "Operador"), en cada aula/lugar donde se dé la charla.
 
-
-
 - Un micrófono, ya que sino el audio es feo. Puede ser normal o corbatero, pero tiene que haber alguno.
-
-
 
 - Un feed con la imagen que está mostrando la presentación.
 
-
-
 La imagen de la cámara, el audio (o la imagen con el audio desde la cámara, no sé), más el feed con la presentación van a un "Elemento Mezclador" (más sobre esto luego), que es controlado por el mismo humano que maneja la cámara (sí, el Operador). Este elemento mezclador basicamente tiene cuatro posiciones:
-
-
 
 - Pantalla completa "cámara".
 
-
-
 - Pantalla completa "cámara", con cuadrito más pequeño (tipo "picture in picture") del "proyector".
-
-
 
 - Pantalla completa "proyector", con cuadrito más pequeño (tipo "picture in picture") de la "cámara".
 
-
-
 - Pantalla completa "proyector".
-
-
 
 Ir pasando entre los cuatros es sencillo, y el Operador va prestando atención a la charla y decide al vuelo qué es más interesante mostrar. El Elemento Mezclador graba directamente el video final teniendo en cuenta esto.
 
-
-
 De esta manera, el único trabajo que hay que hacerle al video luego de la conferencia es:
-
-
 
 - Ponerle una pantalla inicial con el nombre de la persona, título de la charla, etc. (trabajo humano, pero trivial).
 
-
-
 - Reencodear el video a un formato piola para distribuir (lleva tiempo, pero es todo CPU).
-
-
 
 - Subir los videos a algún lado (para esto se necesita upload)
 
-
-
 Entonces... ¿para qué toda esta explicación? Bueno, la clave de todo esto es el "Elemento Mezclador".
-
-
 
 Preguntando en PyAr me recomendaron dvswitch. Me contaron que la gente de Debian hace exactamente lo que cuento todos los años en la DebConf. Para ello desarrollaron <a href="http://dvswitch.alioth.debian.org/wiki/">DVSwitch</a> hecho en C/C++. Tiene sus limitaciones ya que sólo trabaja con formato DV; pero es lo que necesito.
 
-
-
 Habiendo elegido la herramienta, aparecen otros frentes algo complejos.
-
-
 
 Como dije, necesitamos un stream de audio, y dos de video. Y dvswitch necesita que los dos stream de video sean en formato DV. El de la cámara que enfoca al disertante es sencillo: la enchufamos por el puerto FireWire (IEEE 1394) y ya está. ¿Y el otro?
 
-
-
 Veo tres alternativas:
-
-
 
 - Tomamos la salida de video del proyector. Esta es la más piola porque todo lo que haya que cablear o configurar se hace antes. El problema es que se necesita alguna especie de conversor para meterlo en la computadora (o que la misma tenga entrada de video).
 
-
-
 - Filmamos la pantalla proyectada con otra cámara. Esta tampoco necesita configuración previa, pero la calidad seguramente será menor. Obviamente se necesita una segunda cámara de video, pero el principal problema que encuentro acá es que se necesitan *dos* entradas FireWire en la computadora.
-
-
 
 - Levantamos lo proyectado directamente de la computadora del disertante. No es trivial pero tampoco nada del otro mundo... levantamos un VNC server en la máquina del que da la charla, y en nuestra computadora de control hacemos:
 
-
-
 <span style="font-family: courier new,courier"> vncrec -depth 16 &lt;maquinadisertante> -record /dev/stdout | transcode -x vnc -i /dev/stdin -y xvid | ffmpeg -i - - target ntsc-dv salida.dv</span>
-
-
 
 En el ejemplo, puse salida.dv, que es un archivo; en la vida real habría que mandar eso a dvswitch. El problema de esta solución es que hay que configurar la computadora del disertante, y eso lleva tiempo. Además, depende de la calidad de la red entre ambas computadoras, lo cual es algo a tomar en cuenta si ambas están conectadas a un switch lento, o por wifi.
 
-
-
 En fin... como mi laptop no tiene entrada de video y tiene una sola entrada firewire, voy a seguir experimentando con la tercer solución.
-
-
 
 Cualquier idea es bienvenida. |

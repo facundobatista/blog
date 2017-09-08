@@ -2,49 +2,26 @@
 Karmic UDS
 <tags>
 
-
 Pasó la semana del Ubuntu Developer Summit en preparación para Karmic Koala (Ubuntu 9.10).
-
-
 
 El lunes tuvimos una reunión de equipo, donde vimos y definimos un montón de cosas, aunque quedaron varias otras por definir... veremos que pasa. Me hubiese gustado otro día más de reunión, pero bueno...
 
-
-
 Los otros cuatro días me los pasé trabajando en uno de los próximos servicios que daremos en <a href="http://ubuntuone.com/">UbuntuOne</a>. Trabajar en un servicio, pero dentro del UDS, implica que hay que ver qué cosas se van a necesitar que estén en el próximo Ubuntu, e ir estudiando cómo se van a acomodar esas cosas. Eso es lo bueno del UDS, te permite planear el trabajo de integración con anticipación.
-
-
 
 Anyway... trabajé mucho, lo que implicaba en muchas ocasiones asistir a las reuniones de UDS para aprender, entender, o explicar/contar cosas. Otra faceta del laburo fue reunirnos con el equipo de diseño para discutir unos cambios en un diálogo, cosa que es muy dificil hacer a la distancia. Fue una semana bastante cansadora.
 
-
-
 A la noche, cuando terminaba el trabajo formal, normalmente uno seguía con trabajo atrasado, o se iba a pasear un poco y conocer Barcelona. También armamos una regia picada en la habitación, y jugamos al Catán con los chicos, experiencia que involucró derramar aceite de boquerones sobre una cama (por suerte no pasó a mayores).
-
-
 
 El miércoles aproveché para ir a cenar con Tere, Santi y Rosa Mari. Caminamos un rato buscando un buen lugar, y finalmente lo encontramos. Estuvo muy bien, hacía mucho que no veía a Tere, y a sus amigos no los conocía personalmente, así que estuvimos de charla y charla toda la noche.
 
-
-
 Al otro día dijimos con Lucio que nos íbamos a quedar en el hotel, pero Martín nos dijo de ir a cenar, así que aprovechamos y fuimos a pasear por el <a href="http://es.wikipedia.org/wiki/Parque_G%C3%BCell">Park G&uuml;ell</a> un rato, hasta que cayó bastante la luz, cenamos por ahí, y volvimos.
-
-
 
 <img src="http://www.taniquetil.com.ar/facundo/imgs/parkguell.jpeg" alt="Park G&uuml;ell" width="550" height="413" />
 
-
-
 El viernes había un karaoke organizado por la empresa a la noche, así que dormí un par de horas de siesta, me levanté y fuí al bar que se había reservado todo para nosotros. Comí algo, tomé algo, escuché a algunos hacer que cantaban, y cuando me aburrí (bastante pronto), me volví al hotel.
-
-
 
 Nos quedamos charlando un rato con Lucio, y de pronto me suena el celular: era Moni, que estaba en Ezeiza para tomar el vuelo hacia Barcelona, pero no la dejaban subir al avión por un detalle en el trámite de la compra del pasaje: yo no había presentado mi tarjeta para validarla (y eso que ya me habían debitado el dinero de mi cuenta y todo...). Corté con Moni y llamé a Iberia Argentina, pero sólo atienden de 9 a 18 (y eran las 20 en Arg, una de la mañana en España), así que llamé a Iberia España... me dijeron que tenía que presentar la tarjeta sí o sí (por suerte la tenía encima), y que a esa hora sólo había gente en los aeropuertos.
 
-
-
 Así que me puse las zapatillas, salí corriendo a agarrar un taxi, y en 15 minutos estaba en el aeropuerto de Barcelona. En la zona de Iberia no había nadie, pero un guardia de seguridad me indicó dónde estaba Informaciones (yo ya estaba llamando a Iberia de nuevo), y la chica de allí salió corriendo a buscarme el supervisor de Iberia (<em>alguien</em> tenía que haber, dijo). Vino el supervisor, revisó la tarjeta, aprobó todo, e incluso habló con el de Iberia en Argentina. Finalmente se solucionó todo, y Moni pudo viajar, ¡pero que susto!
-
-
 
 Al día siguiente Lucio se fue muy temprano, yo me levanté más tarde, junté todo, armé la valija, hice el checkout, y partí para el hotel donde estaría con Moni, en Barcelona una semana más. |
