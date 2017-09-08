@@ -1,34 +1,21 @@
 2009-03-12 12:12:27
 Sprint en Córdoba
-<tags>
-
+sprint, trabajo, viaje, córdoba
 
 Resulta que en el laburo, porque se dieron determinadas condiciones, surgió la necesidad de que el equipo en Argentina se junte a hacer un laburo intensivo y urgente.
 
-
-
 John no podía venir a Bs As en esas semanas, así que nos fuimos Guillo, Lucio y el que suscribe para allá. Laburamos en distintos lados, por problemas de conectividad, pero principalmente en la "oficina" de John.
-
-
 
 Así que la última semana y media de Febrero la pasé trabajando *mucho* en Córdoba (por eso hace rato que no escribo acá).
 
-
-
 La pasamos así de mal mientras estábamos diseñando...
 
-
-
-<img src="http://www.taniquetil.com.ar/facundo/imgs/sprintcor_pensando.jpeg" alt="Discutiendo diseño" width="500" height="280" />
-
-
+<img src="http://www.t.. image:: com.ar/facundo/imgs/sprintcor_pensando.jpeg
+    :alt: Discutiendo diseño
 
 ...o ya programando...
 
+.. image:: http://www.taniquetil.com.ar/facundo/imgs/sprintcor_codeando.jpeg
+    :alt: Codeando
 
-
-<img src="http://www.taniquetil.com.ar/facundo/imgs/sprintcor_codeando.jpeg" alt="Codeando" width="500" height="305" />
-
-
-
-No se quejen, que no les muestro las fotos de cuando estábamos en la pile. Y como si fuera poco, tuvimos visitas (como Perrito, o Fede), y hasta nos juntamos con los chicos de Córdoba a tomar algo (fuimos a reuniones del GrULiC y todo!). |
+No se quejen, que no les muestro las fotos de cuando estábamos en la pile. Y como si fuera poco, tuvimos visitas (como Perrito, o Fede), y hasta nos juntamos con los chicos de Córdoba a tomar algo (fuimos a reuniones del GrULiC y todo!).
