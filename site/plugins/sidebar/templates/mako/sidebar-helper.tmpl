@@ -3,7 +3,7 @@
 <%def name="list_posts(posts)">
   <div id="global-recent-posts">
     <h2>
-      ${ messages("Recent Posts", lang) }
+      ${ messages("New Posts", lang) }
     </h2>
     <ul class="post-list">
     % for post in posts:
@@ -51,5 +51,5 @@
 </%def>
 
 <%def name="archives(archives)">
-${ list_taxonomy('Archives', hierarchy=archives, type='archive') }
+${ list_taxonomy('Archive', hierarchy=archives, type='archive') }
 </%def>
