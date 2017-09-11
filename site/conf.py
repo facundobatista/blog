@@ -240,7 +240,7 @@ TIMEZONE = "America/Argentina/Buenos_Aires"
 
 # LOCALES = {}
 # LOCALE_FALLBACK = None
-# LOCALE_DEFAULT = None
+LOCALE_DEFAULT = "es_AR.UTF-8"
 
 # One or more folders containing files to be copied as-is into the output.
 # The format is a dictionary of {source: relative destination}.
