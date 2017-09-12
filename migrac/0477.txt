@@ -2,10 +2,7 @@
 Analizando la memoria en Python
 <tags>
 
-
 Estoy haciendo un análisis de la memoria del <a href="http://launchpad.net/ubuntuone-client">cliente de Ubuntu One</a> (particularmente unos módulos que conforman el SyncDaemon propiamente dicho), y me pareció tan copado que muestro acá parte de eso (aprendí el 99% de esto gracias a <a href="http://launchpad.net/~verterok">Guillo</a>).
-
-
 
 El análisis se basa en usar <a href="http://guppy-pe.sourceforge.net/">Heapy</a>. Si a ubuntuone-client se lo levanta con <span style="font-family: courier new,courier">--debug-heapy_monitor</span>, el mismo hace (sacando el manejo de error):
 
@@ -16,8 +13,6 @@ El análisis se basa en usar <a href="http://guppy-pe.sourceforge.net/">Heapy</a
 
 </blockquote>
 Nada más. Entonces, lo ejecuté, y lo llevé a un estado en donde quería probar un par de cosas.
-
-
 
 En otra terminal, ejecuté:
 
@@ -169,7 +164,5 @@ Seguí haciendo unos experimentos, y llegó un punto en que ciertos elementos no
 
 </blockquote>
 El segundo es un caché, y está todo bien, está acotado y cuando se suelte, se volarán. Pero el primer es un leak (del código nuestro, no de Python), y me confirmó lo que yo había visto por inspección del código.
-
-
 
 Buenísimo el Heapy, :D |

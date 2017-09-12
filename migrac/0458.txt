@@ -2,5 +2,4 @@
 Entrenando al pequeño
 <tags>
 
-
 <img src="http://www.taniquetil.com.ar/facundo/imgs/enojado.png" alt="Felipe enojado" width="600" height="337" />                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |

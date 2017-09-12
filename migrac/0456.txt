@@ -2,21 +2,12 @@
 El juego más grande del mundo
 <tags>
 
-
 Arrancó PyWeek, y estamos haciendo un juego en una semana. Y vos podés participar en el juego colaborativo más grande jamás creado!
-
-
 
 <strong>¿Podés tipear? ¡Podés participar! </strong>Para cada nivel de conocimiento, hay una manera de crear niveles... podés participar incluso si nunca programaste, o si hiciste millones de juegos... podés participar si querés invertir 5 minutos o varios días... ¡esto es para todos!
 
-
-
 <a href="http://the.most.biggest.gamest.in.the.worldst.com.ar/"><img src="http://www.taniquetil.com.ar/facundo/imgs/worldst.png" alt="Worldst!" width="280" height="126" /></a>
 
-
-
 <a href="http://the.most.biggest.gamest.in.the.worldst.com.ar/">Entrá acá</a>, registrate (tu nombre va a los créditos del juego, y el mail es por si te olvidás la clave), y empezá agregando niveles!
-
-
 
 El más sencillo es una <em>trivia</em>: tenés que pensar una pregunta y un par de respuestas, ¿te animás? Dale! |

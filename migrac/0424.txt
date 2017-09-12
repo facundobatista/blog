@@ -2,29 +2,16 @@
 Corriendo
 <tags>
 
-
 Bueno, mi recomendación es oficial. No armen una <a href="http://www.taniquetil.com.ar/plog/post/1/422">conferencia nacional</a> al mismo tiempo que quieran <a href="http://www.taniquetil.com.ar/plog/post/1/423">tener un hijo</a>.
-
-
 
 Ya hace semanas que estoy corriendo, haciendo mil cosas, acostándome a las 2 y levantándome a las 8. Porque no sólo estoy con lo que acabo de decirles, sino que también estoy terminando la <a href="http://code.google.com/p/cdpedia">CDPedia</a>, estreno una charla nueva (<em>Python 3000</em>), tengo que hacer el cierre de la conferencia, y encima una semana después doy una charla en un posgrado sobre NumPy y SciPy.
 
-
-
 Por suerte Felipe viene muy bien, Moni está muy bien, y no es más que muchos viajes para todos lados (¡encima Moni ya no puede manejar!).
-
-
 
 La conferencia, por otro lado, también está encaminada. Se mandó a imprimir casi todo lo que correspondía, la mayoría del resto de las cosas están compradas, etc. Hasta con el festejo posterior venimos enfilados. La única mancha negra es que el lunes de la UB me comunicaron que nos cobran como 4000 pesos por gastos varios... venimos hablando todo desde Abril, y se despachan con esto una semana antes; veremos como resulta esto.
 
-
-
 Como si fuera poco, por estos días es el Feature Freeze de Ubuntu Karmic Koala, así que en el laburo estamos a full, y la semana pasada la pasé laburando con gente local y con gente que vino de afuera, encerrados, en el Sheraton de Pilar.
 
-
-
 Pero bueno, el fin de semana duermo algo (¡siesta!), y Moni me banca bastante, así que no me puedo quejar.
-
-
 
 Pero no por eso dejo de tener que correr... |

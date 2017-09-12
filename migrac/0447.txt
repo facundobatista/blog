@@ -2,7 +2,6 @@
 Proyectos para PyCamp 2010
 <tags>
 
-
 Este es la lista de proyectos que quiero empujar para <a href="http://python.org.ar/pyar/PyCamp/2010">PyCamp 2010</a>, sin orden en particular:
 
 <ul>
@@ -16,7 +15,5 @@ Este es la lista de proyectos que quiero empujar para <a href="http://python.org
 
 </ul>
 Mi idea es trabajar al menos un rato en todos y cada uno de ellos, así que si les interesa podemos trabajar juntos (y si quieren trabajar en alguno de estos mientras yo no lo estoy haciendo, igual los ayudo, obvio).
-
-
 
 Después de todo, son cuatro días, y no todo es Python en PyCamp (mucho mate y charla, ejercicios físicos, juegos de mesa, etc.). |

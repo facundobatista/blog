@@ -2,10 +2,7 @@
 Decidiendo a qué le hago propaganda
 <tags>
 
-
 Hace un tiempo tomé la <a href="http://www.taniquetil.com.ar/plog/post/1/229">decisión de poner las publicidades</a> de Google Ad Sense en este blog, para ver qué links me ofrecía Google en función del contenido del blog, y ver de sumar una moneda.
-
-
 
 Luego de un par de años, considero el experimento terminado, con las siguientes dos conclusiones:
 

@@ -3,12 +3,27 @@
 <%def name="list_posts(posts)">
   <div id="global-recent-posts">
     <h2>
-      ${ messages("New Posts", lang) }
+      ${ messages("Newer posts", lang) }
     </h2>
     <ul class="post-list">
     % for post in posts:
       <li>
         <a href="${ post.permalink() }" class="listtitle">${ post.title(lang) }</a>
+      </li>
+    % endfor
+    </ul>
+  </div>
+</%def>
+
+<%def name="list_months(month_list)">
+  <div id="global-month-list">
+    <h2>
+      Meses
+    </h2>
+    <ul class="post-list">
+    % for item in month_list:
+      <li>
+        <a href="${ item.permalink }" class="listtitle">${ item.friendly_name }</a>
       </li>
     % endfor
     </ul>

@@ -2,26 +2,15 @@
 Linux Week Perú 2010
 <tags>
 
-
 Fuí gentilmente invitado a dar una charla en <a href="http://tuxpuc.pucp.edu.pe/lw2010">dicho evento</a>, en la Universidad Católica de Lima, Perú.
-
-
 
 Llegué el lunes bien tarde, y me volví el sábado al mediodía para Argentina. En el medio esta buena gente me trató más que bien: me sacaron siempre a almorzar/cenar, me llevaron/trajeron a la Universidad, etc. (no solo los organizadores, sino también Nico Valcarcel, compañero de Canonical, que se re portó).
 
-
-
 Lamentablemente no pude pasear demasiado por Lima... aunque era la primera vez que iba me quedé sin ver nada más que lo que espié desde taxis y coches, porque tenía que trabajar durante mañana y tarde (el evento era a la noche). Es que era esto o no ir para nada, porque estamos trabajando contra reloj por la <a href="https://wiki.ubuntu.com/LucidReleaseSchedule">liberación de Lucid Lynx</a> y no era momento de tomar días de vacaciones).
-
-
 
 Pero la visita me sirvió para conocer a Fernando San Martín, de Chile, que dio una charla muy interesante sobre la importancia de los proyectos de código abierto en la formación profesional, y con el que charlamos muchísimos temas de software y demás (y también de los lamentables sucesos sísmicos acaecidos recientemente en su hogar). También pude conocer y charlar con otras personas de la comunidad peruana, como Rosa María, Marcos, Diego, Antonio, y tantos otros.
 
-
-
 Mi presentación fue sobre <a href="http://www.taniquetil.com.ar/homedevel/presents/pyreal.pdf">Python en el mundo real</a>, y la verdad es que salió muy bien (siendo la primera vez que la daba)... la gente no se durmió, se mostró muy interesada, y al terminar hubieron decenas de preguntas, no sólo en el espacio que correspondía, sino afuera del auditorio, y en todo el camino hacia la salida (ya cuando la gente de la Universidad nos echaba porque debían cerrar).
-
-
 
 Algunos comentarios sobre Lima:
 

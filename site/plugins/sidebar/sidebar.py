@@ -34,7 +34,11 @@ import os
 import os.path
 
 _LOGGER = utils.get_logger('render_sidebar', utils.STDERR_HANDLER)
-
+class Month_Page(object):
+    '''Define a month page'''
+    def __init__(self, friendly_name, permalink):
+        self.friendly_name = friendly_name
+        self.permalink = permalink
 
 class RenderSidebar(Task):
     """Render a sidebar."""
@@ -44,6 +48,21 @@ class RenderSidebar(Task):
     def set_site(self, site):
         """Set site."""
         super(RenderSidebar, self).set_site(site)
+
+    def _build_month_post_list(self, lang):
+        """Create a list of months"""
+        try:
+            months = list(self.site.posts_per_month.keys())
+            months = sorted(months, reverse=True)
+            month_list = []
+            for item in months:
+                year, month = [int(part) for part in item.split('/')]
+                month_name = utils.LocaleBorg().get_month_name(month, lang)
+                month_page = Month_Page("{} {}".format(month_name, year), '/' + item)
+                month_list.append(month_page)
+            return month_list
+        except KeyError:
+            return None
 
     def _build_post_list(self, lang, max_count):
         """Build list of the at most ``max_count`` most recent posts for the given language."""
@@ -137,11 +156,19 @@ class RenderSidebar(Task):
             context['global_{}_hierarchy'.format(taxonomy)] = taxonomy_hierarchy
             deps_dict['global_{}_hierarchy'.format(taxonomy)] = taxonomy_hierarchy
 
-        url_type = self.site.config['URL_TYPE']
-        if url_type == 'rel_path':
-            url_type = 'full_path'
+        months = self._build_month_post_list(lang)
+        context['month_list'] = months
+        deps_dict['month_list'] = [(month.permalink, month.friendly_name) for month in months]
 
-        task = self.site.generic_renderer(lang, destination, template, self.site.config['FILTERS'], context=context, context_deps_remove=['global_posts'], post_deps_dict=deps_dict, url_type=url_type, is_fragment=True)
+        task = self.site.generic_renderer(lang,
+                                          destination,
+                                          template,
+                                          self.site.config['FILTERS'],
+                                          context=context,
+                                          context_deps_remove=['global_posts'],
+                                          post_deps_dict=deps_dict,
+                                          url_type=self.site.config['URL_TYPE'],
+                                          is_fragment=True)
         task['basename'] = self.name
         yield task
 
@@ -151,6 +178,6 @@ class RenderSidebar(Task):
         yield self.group_task()
 
         for lang in self.site.config['TRANSLATIONS'].keys():
-            destination = os.path.join(self.site.config['OUTPUT_FOLDER'], 'sidebar-{0}.inc'.format(lang))
+            destination = os.path.join(self.site.config['OUTPUT_FOLDER'], 'sidebar-{0}.html'.format(lang))
             template = 'sidebar.tmpl'
             yield self._prepare_sidebar(destination, lang, template)

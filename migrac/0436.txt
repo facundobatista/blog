@@ -2,26 +2,15 @@
 El índice de la CDPedia
 <tags>
 
-
 La <a href="http://code.google.com/p/cdpedia/">CDPedia</a> tiene mucha información. En su versión CD, guarda como 85 mil artículos de la wikipedia en español, en su versión de DVD los guarda todos. El acceso a cada uno está armado con una estructura diseñada a tal fin, para que sea rápida y bonita.
-
-
 
 El problema con tanta información es la búsqueda. Hoy por hoy solamente estamos buscando en los títulos de las páginas, y así y todo es un problema... porque la mayoría de los esquemas de búsquedas están armados por palabras completas (coincidencia exacta), o por parte de la palabra, pero siempre comenzando de esa manera (o sea, buscar por "cam", encuentra "camino", pero no "videocámara"). Creo firmemente en que la búsqueda debería permitir coincidencias parciales en cualquier parte de la palabra.
 
-
-
 Yo, en sus orígenes, armé un índice rápido y simple, porque la idea no era trabarnos ahí. Varias personas exploraron distintas alternativas, pero por h o por b, ninguna sirvió. Mientras tanto, yo fui emprolijando un poquito el índice rápido y tonto... ahora es sencillo, y aunque no trivial, hace todo lo que tiene que hacer sin consumir demasiado ni tardar demasiado.
-
-
 
 Pero es un índice hecho en casa, y como yo no sé del tema, seguro que hay muchas soluciones por ahí que son mejores. Entonces decidí bajar la barrera de entrada para que se propongan otros índices.
 
-
-
 Separé lo que es el uso del índice, del <a href="http://code.google.com/p/cdpedia/source/browse/trunk/src/armado/easy_index.py">"motor de indexado"</a> propiamente dicho, y a este motor le agregué <a href="http://code.google.com/p/cdpedia/source/browse/trunk/tests/test_indice.py">casos de prueba</a>. Entonces, cualquier persona que quiera jugar con índices, sólo necesita copiar de <a href="http://code.google.com/p/cdpedia/source/browse/trunk/src/armado/easy_index.py">mi motor de indexado</a> lo que es la API, y corriendo los casos de prueba puede saber si cumple o no con lo necesario.
-
-
 
 La API no es complicada, se considera que las palabras (cadenas de texto) son claves, y los valores son tuplas en los que se guarda info arbitraria, y básicamente se necesita:
 
@@ -43,14 +32,8 @@ La API no es complicada, se considera que las palabras (cadenas de texto) son cl
 </ul>
 (este último punto es en el que fallan la mayoría de los índices que andan dando vuelta por ahí)
 
-
-
 Más allá de esos requisitos "duros", la idea en general es que el índice tarde poco tiempo en buscar, y que consuma no demasiada memoria (por ejemplo: 100MB de RAM es bastante, pero aceptable...). Y otro detalle importante: tiene que ser multiplataforma... eso significa que la solución que propongan tiene que correr en Linux, Mac y Windows (esto es algo fácil de lograr si la solución es Python pura, pero también se aceptaría algo con binarios precompilados que no ocupen demasiado).
 
-
-
 Un disclaimer: realmente no estoy buscando que me cuenten teoría de índices, que me apunten a tal o cual solución mágica, o que me traten de explicar por qué tal o cual cosa es mala idea... el objetivo acá es encontrar un índice piola (o escribirlo)... si se sienten a la altura de las circunstancias, ¡son bienvenidos a probarlo!
-
-
 
 Desde ya, muchas gracias, :) |

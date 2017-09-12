@@ -2,18 +2,11 @@
 Pelis! Pelis?
 <tags>
 
-
 <a href="http://www.imdb.com/">IMDB</a> suckea. Mal. No solo porque se autolimita a un formato de pantalla absurdamente angosto, sino porque me muestra todos los títulos en castellano! Y es una mierda, yo los quiero en "original", dependiendo de donde sea la peli.
-
-
 
 Pero estuve buscando alternativas, y no encontré. El que pintaba más o menos es <a href="http://movies.yahoo.com/">Yahoo! Movies</a>, pero puse buscar y le tiré el string "resident evil after life", ¡y no encontró nada! Che, vos, Yahoo, ¿decís que hacés buscadores? Triste...
 
-
-
 ¿Alguien conoce un sitio que muestre buena info sobre películas pero que no esté empederrándose?
-
-
 
 Anyway... las que vi en el último período:
 
@@ -41,7 +34,6 @@ Anyway... las que vi en el último período:
 	<li><a href="http://www.imdb.com/title/tt0458525/">X-Men origins: Wolverine</a>: +0. Mirar sólo si te gusta la saga de X-Men, y sabés que vas a ver un comic, no una peli "de verdad".
 
 </ul>
-
 
 Nuevas:
 
@@ -74,10 +66,7 @@ Nuevas:
 
 </ul>
 
-
 Finalmente, el resumen según cuando las anoté:
-
-
 
 <span style="font-family: courier new,courier">(26-Jan-2007)&nbsp; 1
 
@@ -104,7 +93,5 @@ Finalmente, el resumen según cuando las anoté:
 (14-Dic-2010)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 13
 
 Total:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 111 111 105 111 113
-
-
 
 </span> |

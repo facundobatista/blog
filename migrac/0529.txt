@@ -24,7 +24,6 @@ La versión 0.2 (que es la primera que anuncio) es una versión pre-alfa... se p
 
 - Descargable como tarball (multiplataforma), con un instalador para Debian/Ubuntu, e incluso con un PPA para suscribirse.
 
-
 La forma más fácil de instalarlo, si tienen un Debian o Ubuntu, es usando este instalador:
 
 <span style="font-family: courier new,courier;">&nbsp; http://launchpad.net/encuentro/trunk/0.2/+download/encuentro-0.2.deb</span>
@@ -36,7 +35,6 @@ en
 En cualquier otro caso, pueden usar el tarball para instalarlo:
 
 <span style="font-family: courier new,courier;">&nbsp; http://edge.launchpad.net/encuentro/trunk/0.2/+download/encuentro-0.2.tar.gz</span>
-
 
 Recuerden revisar el archivo AYUDA.txt si tienen alguna duda de cómo usar el programa.
 

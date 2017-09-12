@@ -64,7 +64,6 @@ La razón de este comportamiento se explica en las bases de la mecánica cuánti
 
 Respirá aliviada/o, no voy a meterme en toda esa explicación ;) [1]. Pero lo que te quería mostrar es que ahí afuera, aunque no lo veamos, aunque no forme parte de nuestra experiencia como humanos, hay todo un Universo al que sólo podemos acceder con el poder de nuestros cerebros y su capacidad de pensamiento abstracto. Es una herramienta maravillosa, ¡la tenemos que entrenar más y mejor!
 
-
 <em>[0] Para usar terminología adecuada, tenemos que decir que hay una amplitud de uno sobre raíz cuadrada de dos de que el fotón esté en un lado y la misma amplitud de que esté en el otro... eso es hablando de distribución de amplitudes con respecto a las posiciones... el módulo del cuadrado de eso nos da la probabilidad de que el fotón esté en un punto o el otro, que es .5 en cada caso.</em>
 
 <em>[1] Pero si te interesa, hay un libro que es GENIAL y que habla de esto en tres o cuatro páginas del medio millar que tiene: <a href="http://es.wikipedia.org/wiki/La_nueva_mente_del_emperador">The Emperor's New Mind</a>, de Roger Penrose</em></p> |

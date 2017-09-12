@@ -8,7 +8,6 @@ Muchos meses después, viendo que jamás vamos a seguir eso, le pedí permiso pa
 
 Este proyecto, entonces, lo declaro abierto a la comunidad, para el que quiera participar, participe. Yo lo voy a empujar en <a href="http://python.org.ar/pyar/PyCamp/2013/TemasPropuestos">el PyCamp de este año</a>!
 
-
 <strong>Descripción general</strong>
 
 La idea es ofrecer un "espacio de colaboración de corta vida". Algo así como un pastebin dinámico, pero que al mismo tiempo sea fácil de usar. En definitiva, algo útil.
@@ -98,7 +97,6 @@ Obviamente, poder editar nos va a generar una estructura de árbol para las vers
 
 También, se podrá elegir dos versiones, y pedir un "diff" entre las mismas.
 
-
 <strong>Coloreado del texto y tipo del mismo</strong>
 
 ¿Qué es la autodetección? En lugar del funcionamiento "pastebin clásico" (de pegar un texto y elegir qué tipo de texto es), cuando el usuario pegue el texto se debe autodetectar qué tipo de texto y colorearlo en el momento según el tipo detectado. Obviamente, va a haber un combobox con todos los tipos, que cambia automáticamente al tipo autodetectado, pero que el usuario puede modificar para rectificar una autodetección erronea (obviamente, si el usuario cambia a mano el tipo de texto, el coloreado cambiará correspondientemente).
@@ -107,7 +105,6 @@ La "edición coloreada" es la habilidad de poder editar el kilink y que se vaya 
 
 Ambos comportamientos no son fáciles de lograr, pero facilitaría mucho la interacción del usuario, y quizás con herramientas como google-code-prettify no sea tan complicado.
 
-
 <strong>Caducidad de los kilinks</strong>
 
 Los kilinks serán permanentes, nunca vencen y siempre estarán online, a menos que el autor del mismo los borre explícitamente. Esta no-caducidad hay que comunicarla explícitamente, pero aclarando que no nos hacemos cargo si un kilink desaparece por problemas ajenos o propios, o por la baja del servicio.
@@ -115,7 +112,6 @@ Los kilinks serán permanentes, nunca vencen y siempre estarán online, a menos 
 Con respecto a que los usuarios puedan borrar kilinks, sólo será posible si el usuario es el autor del mismo.
 
 Como esta es una acción poco probable (nadie borra un paste, a menos que se de cuenta que metió info muy sensible o demasiado privada), la idea es que sólo se pueda hacer desde la página de perfil del usuario, para no ensuciar la interfaz de uso "normal".
-
 
 <strong>Herramientas</strong>
 

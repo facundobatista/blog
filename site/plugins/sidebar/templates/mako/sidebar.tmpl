@@ -12,6 +12,7 @@
 % if global_posts:
   ${ helper.list_posts(global_posts) }
 % endif
+${ helper.list_months(month_list) }
 % if global_category_items:
   ${ helper.list_taxonomy("Categories", global_category_items, global_category_hierarchy, type='category') }}
 % endif

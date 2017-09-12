@@ -2,18 +2,11 @@
 Microblogging
 <tags>
 
-
 Como bien informa la <a href="http://es.wikipedia.org/wiki/Microblogging">página de wikipedia</a>, el microblogging es un servicio que permite a sus usuarios enviar y publicar mensajes breves, generalmente de sólo texto, que se muestran en la página de perfil del usuario, y son también enviadas de forma inmediata a otros usuarios que han elegido la opción de recibirlas.
-
-
 
 Yo hace un par de meses que me enganché en esta, y estoy usando el servicio de <a href="http://twitter.com/">Twitter</a> e <a href="http://identi.ca">identi.ca</a>. Como cliente venía usando gwibber, pero se rompió tanto en las últimas versiones, creciendo desordenado con mil cosas que no me interesan y perdiendo aquellas que me eran útiles, que quizás no lo use más (estoy accediendo a Twitter e identi.ca por la página web directamente, veremos en un par de semanas que pasa con gwibber... si sigue roto tendré que escribir mi propio cliente...).
 
-
-
 Anyway... este post era para contarles que en la barra de la derecha incorporé una sección de microblogging en la que reproduzco los mensajes que fui enviando por este servicio, mezclando lo que dije por los distintos canales.
-
-
 
 Esa listita la genero con un programita en Python, <a href="http://www.taniquetil.com.ar/homedevel/devel/microblog.py">microblog.py</a>, que levanta los feeds de Twitter e identi.ca y deja algo lindo como para mostrar en la página web.
  |

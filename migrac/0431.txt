@@ -2,10 +2,7 @@
 Más y más películas
 <tags>
 
-
 Bueno... graaaaan actualización de las <a href="http://www.taniquetil.com.ar/facundo/bdvfiles/peliculas.html">pelis para ver</a> que se me fue juntando y juntando.
-
-
 
 Vistas:
 
@@ -54,7 +51,6 @@ Vistas:
 
 </ul>
 
-
 Nuevas:
 
 <ul>
@@ -101,7 +97,6 @@ Nuevas:
 	<li><a href="http://www.imdb.com/title/tt1193138/">Up in the air </a>
 
 </ul>
-
 
 Finalmente, el resumen según cuando las anoté, ya con más historial:
 

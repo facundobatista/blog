@@ -10,7 +10,6 @@ Para mayor información e instrucciones para la descarga, visitar <a href="http:
 
 <a href="http://cdpedia.python.org.ar/"><img src="http://www.taniquetil.com.ar/facundo/imgs/cdpedia.png" alt="Logo" height="300" width="300" /></a>
 
-
 Esta versión trae las siguientes novedades:</p>
 <ul>
 <li>Renovamos completamente la generación del ejecutable para Windows, se deberían tener muchísimos menos problemas para usar la CDPedia en ese entorno.

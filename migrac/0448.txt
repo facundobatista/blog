@@ -2,7 +2,6 @@
 Repercusiones de la CDPedia
 <tags>
 
-
 Estos fueron algunos de los medios en Internet en los que rebotó la noticia de la <a href="http://python.org.ar/pyar/Proyectos/CDPedia">edición 0.6 de la CDPedia</a>...
 
 <ul>
@@ -44,7 +43,5 @@ Pero no sólo en castellano, sino que también tuvimos noticias en otros idiomas
 
 </ul>
 Ah, y también salí al aire en la <a href="http://fmlatribu.com/">FM La Tribu</a>, en una entrevista a este respecto.
-
-
 
 En fin, mucha presión y pilas para trabajar en una versión 0.7 que haga aún más ruido, :) |
