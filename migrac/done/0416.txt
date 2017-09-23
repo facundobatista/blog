@@ -1,0 +1,9 @@
+2009-06-08 13:36:21
+Frase
+irc, topic, frase
+
+En los canales de IRC hay algo que se llama *topic*, que es una especie de título, o tópico del canal, y se usa mucho para contar de que va el mismo, hacer anuncios, etc.
+
+En el canal de Python Argentina (#pyar, Freenode) lo usamos bastante libremente. Hoy fui a poner el anuncio de que necesitamos que `propongan charlas para PyConAr09 <http://ar.pycon.org/2009/conference/proposals/>`_, y tuve que sacar la siguiente frase de Naty Bidart, pero como está *tan buenísima*, la copio acá para la posteridad:
+
+    Python es de las mejores cosas que te van a pasar en la vida ñoña.

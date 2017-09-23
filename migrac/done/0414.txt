@@ -1,0 +1,15 @@
+2009-05-29 02:41:30
+Cuidando al usuario
+uds, ubuntu, usuarios
+
+Acabamos de tener una sesión en `UDS <https://wiki.ubuntu.com/UDSKarmic>`_ donde discutimos cómo iba a ver, un usuario que está instalando Ubuntu, que tiene la opción de configurar `UbuntuOne <https://ubuntuone.com/>`_.
+
+Queremos que todo el mundo tenga una cuenta `UbuntuOne <https://ubuntuone.com/>`_, ya que muchas aplicaciones de escritorio van a tener mejoras a través de este servicio, incluso aunque nunca pagues un peso.
+
+Entonces la discusión es: armamos un servicio, agregamos funcionalidad, **gratis**, y queremos que la gente al instalar `Ubuntu <http://www.ubuntu.net/>`_ se configure una cuenta, para que su experiencia sea mejor.
+
+¿Cómo lo hacemos? En cualquier otra compañía, habría venido la gente de Marketing y habría dicho "hay que hacerlo así y así". Esto es un diferencial de cómo hacemos las cosas en `Canonical <http://www.canonical.com/>`_, de la cual estoy muy contento: estuvimos durante una hora, más de treinta personas (algunas trabajan en la empresa, otras no, todas cuidando tener un mejor `Ubuntu <http://www.ubuntu.net/>`_), discutiendo cual sería la manera menos intrusiva de ofrecerle la opción al usuario.
+
+Por ejemplo, la manera más fácil de hacerlo es poner un icono en el escritorio del usuario. ¡Pero no queremos eso! A ninguno de nosotros nos gustaría que el proceso de instalación nos deje "cosas" en nuestro entorno, y como no nos gusta que nos lo hagan a nosotros, tampoco se lo haríamos al usuario...
+
+Parece fácil de "pensarlo", ¿no? Bueno, no. Hay que encontrar un equilibrio entre ser visible y no, y hay muchas variables que uno no tiende a considerar. Y este tipo de sesiones, donde gente de la comunidad y la empresa con experiencia en la interacción con el usuario durante el proceso de instalación piensan juntos, es la mejor manera de lograr un mejor producto a futuro.
