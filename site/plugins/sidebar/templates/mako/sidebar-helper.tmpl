@@ -15,19 +15,23 @@
   </div>
 </%def>
 
-<%def name="list_months(month_list)">
+<%def name="list_months(archive_list)">
   <div id="global-month-list">
-    <h2>
-      Meses
-    </h2>
-    <ul class="post-list">
-    % for item in month_list:
-      <li>
-        <a href="${ item.permalink }" class="listtitle">${ item.friendly_name }</a>
-      </li>
-    % endfor
-    </ul>
-  </div>
+    <div id="accordion">
+      % for year, month_list in archive_list:
+      <h3>${ year}</h3>
+      <div>
+        <ul>
+        % for month in month_list:
+          <li>
+             <a href="link:///${ month.year }/${ month.month }" class="li.s.ttitle">${ month.friendly_name }</a>
+          </li>
+        % endfor
+        </ul>
+      </div>
+      % endfor
+    </div>
+   </div>
 </%def>
 
 <%def name="list_taxonomy(title, items=None, hierarchy=None, type='tag')">

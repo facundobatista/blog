@@ -1,4 +1,12 @@
 ## -*- coding: utf-8 -*-
+<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<script>
+$( function() {
+  $( "#accordion" ).accordion();
+} );
+</script>
+
 <%namespace name="helper" file="sidebar-helper.tmpl"/>
 
 <div>
@@ -9,10 +17,11 @@
     This is a blog.
   </div>
 </div>
+${ helper.list_months(archive_list) }
+<!--
 % if global_posts:
   ${ helper.list_posts(global_posts) }
 % endif
-${ helper.list_months(month_list) }
 % if global_category_items:
   ${ helper.list_taxonomy("Categories", global_category_items, global_category_hierarchy, type='category') }}
 % endif
@@ -22,3 +31,4 @@ ${ helper.list_months(month_list) }
 % if global_tag_items:
   ${ helper.list_taxonomy("Tags", global_tag_items, type='tag') }
 % endif
+-->

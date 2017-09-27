@@ -23,7 +23,7 @@ BLOG_TITLE = "Bitácora de vuelo"  # (translatable)
 SITE_URL = "http://www.taniquetil.com.ar/blog/"
 # This is the URL where Nikola's output will be deployed.
 # If not set, defaults to SITE_URL
-# BASE_URL = "http://www.taniquetil.com.ar/plog/"
+# 0BASE_URL = "http://www.taniquetil.com.ar/plog/"
 BLOG_EMAIL = "facundo@taniquetil.com.ar"
 BLOG_DESCRIPTION = ""  # (translatable)
 
@@ -140,7 +140,8 @@ NAVIGATION_LINKS = {
 }
 
 # Name of the theme to use.
-THEME = 'hpstr'
+THEME = 'blogtxt'
+# THEME = 'hpstr'
 
 # Primary color of your theme. This will be used to customize your theme and
 # auto-generate related colors in POSTS_SECTION_COLORS. Must be a HEX value.

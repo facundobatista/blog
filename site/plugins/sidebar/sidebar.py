@@ -36,9 +36,10 @@ import os.path
 _LOGGER = utils.get_logger('render_sidebar', utils.STDERR_HANDLER)
 class Month_Page(object):
     '''Define a month page'''
-    def __init__(self, friendly_name, permalink):
+    def __init__(self, friendly_name, item):
         self.friendly_name = friendly_name
-        self.permalink = permalink
+        self.year, self.month = [part for part in item.split('/')]
+        self.link = 'href = "/{}/{}"'.format(self.year,self.month)
 
 class RenderSidebar(Task):
     """Render a sidebar."""
@@ -54,13 +55,19 @@ class RenderSidebar(Task):
         try:
             months = list(self.site.posts_per_month.keys())
             months = sorted(months, reverse=True)
-            month_list = []
+            archive_list = []
+            year_ant = 0
             for item in months:
                 year, month = [int(part) for part in item.split('/')]
+                if year != year_ant:
+                    month_list = []
+                    archive_list.append([year, month_list])
+                    year_ant = year
+
                 month_name = utils.LocaleBorg().get_month_name(month, lang)
-                month_page = Month_Page("{} {}".format(month_name, year), '/' + item)
+                month_page = Month_Page("{} {}".format(month_name, year), item)
                 month_list.append(month_page)
-            return month_list
+            return archive_list
         except KeyError:
             return None
 
@@ -156,9 +163,16 @@ class RenderSidebar(Task):
             context['global_{}_hierarchy'.format(taxonomy)] = taxonomy_hierarchy
             deps_dict['global_{}_hierarchy'.format(taxonomy)] = taxonomy_hierarchy
 
-        months = self._build_month_post_list(lang)
-        context['month_list'] = months
-        deps_dict['month_list'] = [(month.permalink, month.friendly_name) for month in months]
+        archive_list = self._build_month_post_list(lang)
+        context['archive_list'] = archive_list
+        deps_dict['archive_list'] = []
+        for year, months in archive_list:
+            deps_dict['archive_list'] += [(month.year + '/' + month.month, month.friendly_name) for month in months]
+
+        url_type = self.site.config['URL_TYPE']
+        if url_type == 'rel_path':
+            url_type = 'full_path'
+
 
         task = self.site.generic_renderer(lang,
                                           destination,
@@ -167,7 +181,8 @@ class RenderSidebar(Task):
                                           context=context,
                                           context_deps_remove=['global_posts'],
                                           post_deps_dict=deps_dict,
-                                          url_type=self.site.config['URL_TYPE'],
+                                          url_type='abs_path',
+                                          #url_type=self.site.config['URL_TYPE'],
                                           is_fragment=True)
         task['basename'] = self.name
         yield task
