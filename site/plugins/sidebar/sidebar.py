@@ -32,6 +32,7 @@ from nikola import utils
 import natsort
 import os
 import os.path
+import datetime
 
 _LOGGER = utils.get_logger('render_sidebar', utils.STDERR_HANDLER)
 class Month_Page(object):
@@ -39,7 +40,6 @@ class Month_Page(object):
     def __init__(self, friendly_name, item):
         self.friendly_name = friendly_name
         self.year, self.month = [part for part in item.split('/')]
-        self.link = 'href = "/{}/{}"'.format(self.year,self.month)
 
 class RenderSidebar(Task):
     """Render a sidebar."""
@@ -49,6 +49,16 @@ class RenderSidebar(Task):
     def set_site(self, site):
         """Set site."""
         super(RenderSidebar, self).set_site(site)
+
+    def _post_time_ago(self, timedelta):
+        posts = list(self.site.posts)
+        posts = sorted(posts, key=lambda post: post.date)
+        posts.reverse()
+        target_date = datetime.datetime.now(datetime.timezone.utc) - timedelta
+        for post in posts:
+            if post.date <= target_date:
+                return post
+        return post    # return last post in other case
 
     def _build_month_post_list(self, lang):
         """Create a list of months"""
@@ -166,8 +176,12 @@ class RenderSidebar(Task):
         archive_list = self._build_month_post_list(lang)
         context['archive_list'] = archive_list
         deps_dict['archive_list'] = []
+
         for year, months in archive_list:
             deps_dict['archive_list'] += [(month.year + '/' + month.month, month.friendly_name) for month in months]
+
+        year_ago_post = self._post_time_ago(datetime.timedelta(days=365))
+        context['year_ago_post'] = year_ago_post
 
         url_type = self.site.config['URL_TYPE']
         if url_type == 'rel_path':
@@ -181,8 +195,7 @@ class RenderSidebar(Task):
                                           context=context,
                                           context_deps_remove=['global_posts'],
                                           post_deps_dict=deps_dict,
-                                          url_type='abs_path',
-                                          #url_type=self.site.config['URL_TYPE'],
+                                          url_type=self.site.config['URL_TYPE'],
                                           is_fragment=True)
         task['basename'] = self.name
         yield task
