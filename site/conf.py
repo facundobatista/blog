@@ -23,7 +23,7 @@ BLOG_TITLE = "Bitácora de vuelo"  # (translatable)
 SITE_URL = "http://www.taniquetil.com.ar/blog/"
 # This is the URL where Nikola's output will be deployed.
 # If not set, defaults to SITE_URL
-# BASE_URL = "http://www.taniquetil.com.ar/plog/"
+# 0BASE_URL = "http://www.taniquetil.com.ar/plog/"
 BLOG_EMAIL = "facundo@taniquetil.com.ar"
 BLOG_DESCRIPTION = ""  # (translatable)
 
@@ -140,7 +140,8 @@ NAVIGATION_LINKS = {
 }
 
 # Name of the theme to use.
-THEME = 'hpstr'
+THEME = 'blogtxt'
+# THEME = 'hpstr'
 
 # Primary color of your theme. This will be used to customize your theme and
 # auto-generate related colors in POSTS_SECTION_COLORS. Must be a HEX value.
@@ -557,7 +558,7 @@ FRONT_INDEX_HEADER = {
 }
 
 # Create per-month archives instead of per-year
-# CREATE_MONTHLY_ARCHIVE = False
+CREATE_MONTHLY_ARCHIVE = True
 # Create one large archive instead of per-year
 # CREATE_SINGLE_ARCHIVE = False
 # Create year, month, and day archives each with a (long) list of posts
@@ -578,7 +579,7 @@ FRONT_INDEX_HEADER = {
 # If ARCHIVES_ARE_INDEXES la is set to True, each archive page which contains a list
 # of posts will contain the posts themselves. If set to False, it will be just a
 # list of links.
-ARCHIVES_ARE_INDEXES = False
+ARCHIVES_ARE_INDEXES = True
 
 # URLs to other posts/pages can take 3 forms:
 # rel_path: a relative URL to the current page/post (default)
