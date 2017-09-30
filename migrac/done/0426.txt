@@ -1,0 +1,19 @@
+2009-09-13 16:00:18
+Experiencias
+experiencia, dipolos, monopolos magnéticos, la plata, física, pizzas
+
+La vida me ha llevado a lugares raros, a momentos en que disfruto estar justo en ese lugar y justo en ese momento, porque puedo experimentar cosas que sé que no son comunes, que me alimentan de formas raras.
+
+El viernes viví algo así.
+
+Resulta que fui a dar una charla de onda sobre Python a un posgrado para científicos en el Instituto de Física de Líquidos y Sistemas Biológicos de la Universidad de La Plata. Fui invitado por Manuel Carlevaro, y la verdad es que la charla estuvo muy buena... llegué tarde, pero tenía tiempo para darla, y creo que gustó. Fue `Introducción a Python <http://www.taniquetil.com.ar/homedevel/presents/intropython.odp>`_, más un `repaso rápido de Numpy y algo de Scipy <http://www.taniquetil.com.ar/homedevel/presents/numsci.pdf>`_.
+
+El punto es que después de la charla Manuel me invitó a la casa, a por cerveza y pizzas que tan gentilmente cocinó su mujer. El punto es que a la cena se sumió Luis Pugnaloni (quién junto a Manuel y otros mantienen el portal de divulgación científica `CienciaNet <http://ciencianet.com.ar>`_), y Santiago Grigera.
+
+Y este muchacho Santiago es un físico groso: Doctor en Física del Instituto Balseiro, Profesor asociado en la Universidad de Saint Andrews (Reino Unido), Investigador Independiente de nuestro CONICET, y University Research Fellow de The Royal Society (Londres).
+
+Antes de que Santiago llegara, Manuel me comentó que Santiago y su equipo publicaron un artículo en la revista Science sobre un experimento en el que *vieron* experimentalmente monopolos magnéticos. Un `monopolo magnético <http://es.wikipedia.org/wiki/Monopolo_magn%C3%A9tico>`_ es un partícula hipotética que consiste en un imán con un solo polo magnético. Lo que les debería llamar la atención en el último párrafo es que la definición dice partícula **hipotética**, que este muchacho la ha **visto** en un experimento.
+
+En `este artículo de La Nación <http://www.lanacion.com.ar/nota.asp?nota_id=1170572>`_ lo explican con más detalle, pero lamentablemente no se puede bajar `el artículo de Science <http://www.sciencemag.org/cgi/content/abstract/1178868>`_... bah, sí lo pueden bajar si pagan mucha plata... ¡eso es una mierda! Por suerte hay iniciativas como `Papers in Physics <http://papersinphysics.org/index.php/papersinphysics>`_ (que acaba de comenzar), que apuntan a que el conocimiento se distribuya gratis.
+
+Volvamos al punto en cuestión. Lo que me fascinó, y lo que quiero rescatar como una experiencia extraña, es que en la Universidad, en física, yo había estudiado que en esta realidad solamente existen los dipolos magnéticos. Y el viernes, por una de esas casualidades de la vida, ¡estuve comiendo pizzas con alguien que experimentalmente vio eso que yo había estudiado que no existía!

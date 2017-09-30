@@ -1,0 +1,124 @@
+2009-09-11 02:53:24
+PyCon Argentina 2009, ¡terminada!
+pycon, python, conferencia
+
+*(Note: There's an English version of this report `here <http://www.taniquetil.com.ar/facundo/pyconar09_report.txt>`_)*
+
+Bueno, luego de tanto juego previo y expectativas, finalmente tuvimos PyCon Argentina 2009, la primer conferencia de Python a nivel nacional, en castellano, del mundo.
+
+Mi idea acá no es comentarles cómo la pasé durante el evento, sino más bien tratar de transmitirles sensaciones, ideas y pensamientos sobre el lado organizativo/ejecutivo del asunto.
+
+.. image:: http://www.taniquetil.com.ar/facundo/imgs/pyconar09-cierre.jpg
+    :alt: Vuestro servidor, en la ceremonia de cierre
+
+
+Formato del evento
+------------------
+
+Fueron dos días, mañana y tarde, con tres secciones en paralelo la mayor parte del tiempo. Usamos tres auditorios de distintas capacidades, siendo el mayor para 300 personas. Las exposiciones se dividían en tres tipos:
+
+Charlas: Se encontraban en los tres auditorios, con disertantes mayormente nacionales, siempre en castellano. También habían algunos casos en que no era una charla de un disertante, sino más bien un panel, pero el esquema era parecido. El tiempo asignado era de 40 minutos, más 5 de preguntas y respuestas. Luego de cada charla quedaban 15 minutos libres para que la gente pudiera ir al baño, o cambiar de auditorio.
+
+Lightning Talks: Son charlas de cinco minutos. Cualquiera puede dar una de estas charlas (la gente se anota en una hoja durante los dos días), y los temas son abiertos. Normalmente no se espera una gran calidad de cada charla (porque son rápidas y muchas veces improvisadas), pero el tener 10-12 temas distintos en sólo una hora el valor obtenido es importante. Para estas charlas, toda la gente se junta en el auditorio principal.
+
+Plenarias: Tuvimos dos charlas plenarias (charlas de 45 minutos en el auditorio principal, con todo el público asistente), que fueron dadas por dos invitados internacionales: Jacob Kaplan-Moss (creador de `Django <http://www.djangoproject.com/>`_, uno de los frameworks web más usados en el mundo), y Collin Winter (desarrollador de `Unladen Swallow <http://code.google.com/p/unladen-swallow/>`_, un proyecto de Google que promete un Python 5 veces más rápido que el actual). Estas charlas fueron en inglés, pero en una de ellas se repartieron folletos en castellano, y en la otra se proyectó simultáneamente la misma presentación en castellano.
+
+.. image:: http://www.taniquetil.com.ar/facundo/imgs/pyconar09-muchagente.jpg
+    :alt: Mucha gente en las plenarias
+
+
+Organización del equipo
+-----------------------
+
+Python Argentina no tiene una estructura formal ni informal, somos todos pares y cada uno empuja el proyecto que le interesa.
+
+En este proyecto en particular, yo estructuré el equipo de trabajo según una organización jerárquica militar (qué es la misma que se usa en las empresas). Básicamente estaba yo como Coordinador General del evento, tenía una segunda persona de confianza (una persona en la que uno confía tanto a nivel del tipo de decisiones que toma como en la capacidad de ejecución, en este caso Alecu), un grupo de 6-8 personas cercanas con las cuales se organizaba todo, y luego muchos más colaboradores eventuales o con menor participación (ayudando el día de la conferencia, o en distintos comités, etc).
+
+El requerimiento más importante para una participación exitosa en la organización, considerando que todos somos voluntarios, es cumplir con aquello que uno se hace responsable (más allá de que la tarea sea importante o trivial). Si decís "yo lo hago", hacelo.
+
+Hay que separar bien el tipo de trabajo que se realiza durante el año, contra el que se tiene en los días del evento. Durante el año los tiempos de respuesta son muchos más bajos, hay que tomar decisiones que influyen a largo plazo pero se pueden discutir y charlar en varias reuniones, etc. Durante los dos días, las decisiones se toman y ejecutan en el momento, y no hay demasiado tiempo para dudar. En general, cuanto más firme y mejor preparado haya estado el trabajo durante el año, en los días del evento todo será más suave, con menos sorpresas.
+
+.. image:: http://www.taniquetil.com.ar/facundo/imgs/pyconar09-azules.jpg
+    :alt: Equipo organizativo
+
+
+Riesgos
+-------
+
+Hay varios puntos importantes que insumen mucho tiempo y traen riesgo en la organización:
+
+El lugar en el que se hace la conferencia, más los servicios que se brindan allí: En este caso fue en una Universidad privada, a la que se le abonaron distintos conceptos (internet, seguridad, sonido). Se vino hablando desde Abril sobre todo lo necesario, pero muchas cosas fueron apareciendo demasiado cerca de la conferencia. En particular, se instaló el acceso internet la tarde anterior. Por suerte, contamos con el servicio voluntario (de excelentísima calidad) de `Buenos Aires Libre <http://www.buenosaireslibre.org/>`_ para el armado de WiFi (que se podía armar sólo después de tener el acceso a internet).
+
+Impresión de los distintos elementos: Más allá de distinta papelería que imprimimos o sacamos fotocopias (carteles, encuestas, etc), tuvimos tres grandes cosas que imprimir: los programas del evento (un libro de 32 páginas a todo color), los tutoriales de Python en castellano que armamos (libritos de 116 páginas), y unos anotadores. El diseño de cada cosa lleva mucho tiempo, y el imprimirlo también. Es un error que vi en demasiadas conferencias que se termina mandando a imprimir todo junto al final y siempre hay algo que no está en tiempo y forma para el evento. Es importante hablar con la Imprenta con suficiente antelación, e involucrarlos en el diseño desde temprano, para minimizar las sorpresas luego.
+
+Aspecto económico-financiero: Meses antes de la conferencia creamos tres presupuestos distintos, escalonados, que ejecutaríamos de una u otra forma en función de la cantidad de dinero que se obtendría luego (y en base a estos presupuestos armamos las categorías de los patrocinadores). Por suerte no tuvimos que salir a golpear puertas para juntar el dinero, sino que todos los sponsors fueron por contactos de gente que está en Python Argentina (ya sea porque trabajan o son dueños de las empresas que patrocinaron el evento). Hay dos puntos que son muy importantes: uno es que el presupuesto tiene que estar escalonado de manera que si no se junta todo el dinero, se pueda distribuir lo que se junto de manera que maximice los beneficios para la conferencia; el otro es que hay que tratar de empezar a juntar el dinero lo antes posible, porque *gastar* el dinero (o sea, ejecutar el presupuesto) no es trivial y lleva más tiempo del pensado. También, como organización no legal (sin personería jurídica), hay que pensar cómo juntar el dinero... nosotros por suerte contamos con la colaboración de la Fundación Via Libre, que nos ayudó en este punto.
+
+Infraestructura técnica para la organización: Hay muchas herramientas que se usaron para que los organizadores trabajen juntos. Teníamos un wiki para llevar anotado todo, una lista de correo para el principal intercambio de información, e IRC para algunas reuniones no presenciales que armamos (especialmente para la selección de charlas, donde participó mucha gente que vive lejos). También usamos un repositorio SVN para todos los archivos que había que guardar, especialmente los del sitio del evento. Para este último usamos `pycon-tech <https://pycon.coderanger.net/>`_, un proyecto orientado justamente a sitios de conferencias.
+
+El equipo: Este es uno de los principales riesgos, ya que si no se forma un grupo de gente con ganas de lograr el objetivo, con ganas de ponerse de acuerdo y trabajar con un destino común, puede llegar a suceder que no se logre armar un buen evento sólo por culpa de los organizadores mismos. Hay que tener en cuenta que en un evento organizado desde la participación voluntaria podemos tener gente que arranque y que luego no pueda terminar en el equipo, o que puede haber gente que se sume durante el camino. ¡Y el equipo es una de las primeras cosas que hay que definir! Es por esto que es crítico que el Coordinador General del evento tenga el suficiente arrastre y empuje en la comunidad como para poder tener el equipo armado pronto y trabajando positivamente durante todos los meses del evento.
+
+En general, se recomienda hacer lo que uno sabe hacer y pedir ayuda a especialistas (o contratarlos) para todas las cosas que no se tiene el conocimiento o recurso necesario.
+
+Por otro lado, hay imponderables: el primer día de la conferencia se cortó la luz en todo el barrio. Por suerte, fue en el último track antes del almuerzo, algunas charlas estuvieron un rato a oscuras, y luego la energía volvió dos minutos antes de que empiece la tarde. En este caso, no podíamos hacer nada para prever ni mitigar el problema.
+
+.. image:: http://www.taniquetil.com.ar/facundo/imgs/pyconar09-remera.jpg
+    :alt: Remera de staff
+
+
+Contenido
+---------
+
+El contenido se determina para las plenarias y las charlas normales, ya que las lightning talks no pasan por una decisión del equipo organizativo.
+
+En el caso de las plenarias de los invitados internacionales, normalmente se elige al invitado y se le da libertad sobre lo que quiera decir. Para el caso nuestro, la elección fue coordinada con PyCon Brasil, y fue sorprendentemente acertada.
+
+En cambio, para las charlas normales se hace un *call for charlas* unos meses antes, y luego de la fecha límite para presentar las propuestas, un comité se reúne y determina qué charlas se van a elegir para el evento. Esta elección se basa en la calidad de las ponencias, y en los temas que se quieren representar durante la conferencia.
+
+.. image:: http://www.taniquetil.com.ar/facundo/imgs/pyconar09-collinwinter.jpg
+    :alt: Collin Winter usando la presentación traducida
+
+
+Aspecto social
+--------------
+
+Un punto que no sólo no hay que descuidar sino en el que hay que hacer énfasis es el del aspecto social. Una conferencia nacional es una muy buena excusa para que la gente se reúna, se vuelva a ver luego de un tiempo, se conozca, intercambie ideas y conocimiento, etc.
+
+Las tardes/noches luego de que termina la conferencia cada día es una buena oportunidad para que la gente vaya a tomar algo o comer por los bares o restaurantes cercanos, y se produzca este encuentro social.
+
+En nuestro caso, quisimos profundizar esto realizando un asado el domingo, al que estaban invitados todos los disertantes y organizadores, más las respectivas familias. El objetivo era disfrutar de un día distendido, comer carne rica (¡o vegetales!), tomarse un vino, charlar, jugar a algo, etc., de manera de que la gente se conozca más y mejor.
+
+.. image:: http://www.taniquetil.com.ar/facundo/imgs/pyconar09-asado.jpg
+    :alt: Jacob Kaplan-Moss y otros jugando a las cartas
+
+
+Comentarios
+-----------
+
+Por último, quiero dejarles la otra cara de la moneda: muchos comentarios que fui levantando por ahí de **asistentes** a la conferencia:
+
+`chaghi <http://chaghi.com.ar/blog/post/2009/09/06/pycon_argentina_2009>`_: La conferencia estuvo EXCELENTE, empezando por el material de registración, siguiendo por la organización general, el lugar, la coordinación, las charlas, la versión impresa del tutorial en español, las keynotes de Jacob Kaplan-Moss y Collin Winter, y toda la cosa social que hubo alrededor.
+
+`xavierlesa <http://twitter.com/xavierlesa/statuses/3800597144>`_: muy buenas las charlas del #pyconar09, el que se la perdió se jodió!
+
+`felipelerena <http://twitter.com/felipelerena/statuses/3819463026>`_: no twitee nada de la #pyconar09 fue FAN TAS TI CA
+
+`santiycr <http://twitter.com/santiycr/statuses/3793321988>`_: Back home from the PyCon. Learned a lot, the event was flawless, kudos to the organizers. #pyconar09
+
+`achuni <http://anthony.lenton.com.ar/2009/09/07/pycon-argentina-2009/en/>`_: It was our first PyCon in Argentina, and we weren't expecting it to be so successful. With no international publicity (other than the public mailing list archive, banners on blogs and such) we had people coming from Peru, Paraguay and Colombia. And thanks to a few well placed reminders, unlike the vast majority of the FOSS related conferences in Argentina lately, as far as I know nobody had anything stolen during the conference. I must say everybody from the organization did an impressive job, I hope PyConAr 2010 (this time in Córdoba) goes just as well.
+
+`rhfixer <http://twitter.com/rhfixer/statuses/3787345646>`_: Muy buena la #pyconar09, mis felicitaciones a los organizadores y disertantes. ¡Un honor haber asistido!
+
+`chaghi <http://twitter.com/chaghi/statuses/3788467681>`_: Excelente segundo día de #pyconar09. Muy buenas charlas, lightning talks, plenaria, sorteo, y cierre emotivo. Un lujo.
+
+`michelpeterson <http://twitter.com/michelpeterson/statuses/3786073277>`_: #pyconar09 has come to an end and let me say that it exceeded my expectations. Congrats to everyone involved!
+
+`frapell <http://frapellito.blogspot.com/2009/09/pycon-argentina-2009.html>`_: En primer lugar, la conferencia estuvo fabulosamente bien organizada, todo salio espectacular y no hubo problemas (bueno, un pequeñito corte de luz justo cuando dabamos nuestra charla, pero obviamente no tuvo nada que ver con la organizacion del evento) asi que felicitaciones realmente a toda la gente involucrada porque fue un laburo admirable.
+
+`robertoallende <http://twitter.com/robertoallende/status/3796372569>`_: PyConAr is over. This was the most inspiring event i had been ever. Re Plone: 3 talks, 1 lighting talk. #pycon 2010 : Cordoba! (sept/oct)
+
+`technophilic <http://www.santiagorojo.com.ar/2009/09/pycon-argentina-2009/>`_: ...pero en realidad lo que quiero destacar de la conferencia, es que fue completamente gratuita, y el nivel estuvo a la altura de cualquier otra en la que haya que pagar un entrada para poder participar.
+
+Ah! Y `fotos <http://www.flickr.com/photos/54757453@N00/sets/72157622207921223/>`_, `fotos <http://www.flickr.com/photos/blmurch/>`_, `fotos <http://gallery.atpic.com/30241>`_, `fotos <http://www.flickr.com/photos/tags/pyconar09/>`_, `fotos <http://picasaweb.google.com/frapell/PyConArgentina2009#>`_.
+
+.. image:: http://www.taniquetil.com.ar/facundo/imgs/pyconar09-felices5.png
+    :alt: El Gran Grossini nos saluda!

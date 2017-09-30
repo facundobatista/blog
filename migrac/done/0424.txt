@@ -1,10 +1,10 @@
 2009-08-26 02:54:43
 Corriendo
-<tags>
+conferencia, embarazo, ubuntu
 
-Bueno, mi recomendación es oficial. No armen una <a href="http://www.taniquetil.com.ar/plog/post/1/422">conferencia nacional</a> al mismo tiempo que quieran <a href="http://www.taniquetil.com.ar/plog/post/1/423">tener un hijo</a>.
+Bueno, mi recomendación es oficial. No armen una `conferencia nacional <http://www.taniquetil.com.ar/plog/post/1/422>`_ al mismo tiempo que quieran `tener un hijo <http://www.taniquetil.com.ar/plog/post/1/423>`_.
 
-Ya hace semanas que estoy corriendo, haciendo mil cosas, acostándome a las 2 y levantándome a las 8. Porque no sólo estoy con lo que acabo de decirles, sino que también estoy terminando la <a href="http://code.google.com/p/cdpedia">CDPedia</a>, estreno una charla nueva (<em>Python 3000</em>), tengo que hacer el cierre de la conferencia, y encima una semana después doy una charla en un posgrado sobre NumPy y SciPy.
+Ya hace semanas que estoy corriendo, haciendo mil cosas, acostándome a las 2 y levantándome a las 8. Porque no sólo estoy con lo que acabo de decirles, sino que también estoy terminando la `CDPedia <http://code.google.com/p/cdpedia>`_, estreno una charla nueva (*Python 3000*), tengo que hacer el cierre de la conferencia, y encima una semana después doy una charla en un posgrado sobre NumPy y SciPy.
 
 Por suerte Felipe viene muy bien, Moni está muy bien, y no es más que muchos viajes para todos lados (¡encima Moni ya no puede manejar!).
 
@@ -14,4 +14,4 @@ Como si fuera poco, por estos días es el Feature Freeze de Ubuntu Karmic Koala,
 
 Pero bueno, el fin de semana duermo algo (¡siesta!), y Moni me banca bastante, así que no me puedo quejar.
 
-Pero no por eso dejo de tener que correr... |
+Pero no por eso dejo de tener que correr...
