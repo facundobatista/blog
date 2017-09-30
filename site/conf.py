@@ -240,7 +240,7 @@ TIMEZONE = "America/Argentina/Buenos_Aires"
 
 # LOCALES = {}
 # LOCALE_FALLBACK = None
-# LOCALE_DEFAULT = None
+LOCALE_DEFAULT = "es_AR.UTF-8"
 
 # One or more folders containing files to be copied as-is into the output.
 # The format is a dictionary of {source: relative destination}.
@@ -1301,7 +1301,7 @@ UNSLUGIFY_TITLES = True
 # If webassets is installed, bundle JS and CSS into single files to make
 # site loading faster in a HTTP/1.1 environment but is not recommended for
 # HTTP/2.0 when caching is used. Defaults to True.
-# USE_BUNDLES = True
+USE_BUNDLES = False
 
 # Plugins you don't want to use. Be careful :-)
 # DISABLED_PLUGINS = ["render_galleries"]

@@ -9,6 +9,14 @@ Install system dependencies:
 
     sudo apt install git fades rsync
 
+
+If not using only English in the Nikola config, remember to install
+other locales:
+
+    sudo locale-gen es_AR.UTF-8
+    sudo update-locale
+
+
 Get the project and create a dir for web server:
 
     cd $DIRBASE
