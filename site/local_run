@@ -1,0 +1,4 @@
+#!/bin/sh
+
+fades -r ../requirements.txt -x nikola build
+fades -r ../requirements.txt -x nikola serve
