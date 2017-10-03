@@ -51,9 +51,8 @@ class RenderSidebar(Task):
         super(RenderSidebar, self).set_site(site)
 
     def _post_time_ago(self, timedelta):
-        posts = list(self.site.posts)
-        posts = sorted(posts, key=lambda post: post.date)
-        posts.reverse()
+        """Select a post that was publish a `timedelta` ago, or last post on other case."""
+        posts = sorted(self.site.posts, key=lambda post: post.date, reverse=True)
         target_date = datetime.datetime.now(datetime.timezone.utc) - timedelta
         for post in posts:
             if post.date <= target_date:
@@ -61,7 +60,7 @@ class RenderSidebar(Task):
         return post    # return last post in other case
 
     def _build_month_post_list(self, lang):
-        """Create a list of months"""
+        """Create a list of months."""
         try:
             months = list(self.site.posts_per_month.keys())
             months = sorted(months, reverse=True)
@@ -91,7 +90,7 @@ class RenderSidebar(Task):
         return posts[:max_count]
 
     def _build_taxonomy_list_and_hierarchy(self, taxonomy_name, lang):
-        """Build taxonomy list and hierarchy for the given taxnonmy name and language."""
+        """Build taxonomy list and hierarchy for the given taxonomy name and language."""
         if taxonomy_name not in self.site.posts_per_classification or taxonomy_name not in self.site.taxonomy_plugins:
             return None, None
         posts_per_tag = self.site.posts_per_classification[taxonomy_name][lang]
