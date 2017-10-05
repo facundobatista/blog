@@ -16,7 +16,7 @@
 </%def>
 
 <%def name="list_months(archive_list)">
-  <div id="global-month-list">
+  <div id="archive-month-list">
     <div id="accordion">
       % for year, month_list in archive_list:
       <h3>${ year}</h3>
@@ -24,13 +24,19 @@
         <ul>
         % for month in month_list:
           <li>
-             <a href="link:///${ month.year }/${ month.month }" class="li.s.ttitle">${ month.friendly_name }</a>
+             <a href="link:///${ month.year }/${ month.month }" class="listtitle">${ month.friendly_name }</a>
           </li>
         % endfor
         </ul>
       </div>
       % endfor
     </div>
+   </div>
+</%def>
+
+<%def name="time_ago(year_ago_post)">
+  <div id="year_ago_post">
+      <a href="link://${ year_ago_post.permalink() }" class="listtitle">${ year_ago_post.title(lang) }</a>
    </div>
 </%def>
 

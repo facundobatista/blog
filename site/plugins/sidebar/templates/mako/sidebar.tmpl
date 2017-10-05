@@ -11,13 +11,16 @@ $( function() {
 
 <div>
   <h2>
-    About.
+    Un año atrás.
   </h2>
-  <div>
-    This is a blog.
-  </div>
+  ${ helper.time_ago(year_ago_post) }
 </div>
+
+<h2>
+Archivo
+</h2>
 ${ helper.list_months(archive_list) }
+
 <!--
 % if global_posts:
   ${ helper.list_posts(global_posts) }

@@ -15,7 +15,6 @@ nikola/
 
 site/output/
 site/cache/
-site/posts/*.rst
 site/.doit.db
 *.egg-info/
 .installed.cfg
