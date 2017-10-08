@@ -1,14 +1,14 @@
 ## -*- coding: utf-8 -*-
 <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
-<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 <script>
-$( function() {
-  $( "#accordion" ).accordion();
-} );
+    document.getElementById("archive").onchange = function() {
+        if (this.selectedIndex!==0) {
+            window.location.href = this.value;
+        }
+    };
 </script>
 
 <%namespace name="helper" file="sidebar-helper.tmpl"/>
-
 <div>
   <h2>
     Un año atrás.
@@ -19,7 +19,7 @@ $( function() {
 <h2>
 Archivo
 </h2>
-${ helper.list_months(archive_list) }
+${ helper.list_months(month_list) }
 
 <!--
 % if global_posts:
