@@ -169,10 +169,7 @@ class RenderSidebar(Task):
 
         month_list = self._build_month_post_list(lang)
         context['month_list'] = month_list
-        deps_dict['month_list'] = []
-
-
-        deps_dict['month_list'] += [(month.year + '/' + month.month, month.friendly_name) for month in month_list]
+        deps_dict['month_list'] = [(month.year + '/' + month.month, month.friendly_name) for month in month_list]
 
         year_ago_post = self._post_time_ago(datetime.timedelta(days=365))
         context['year_ago_post'] = year_ago_post
