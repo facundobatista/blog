@@ -15,22 +15,17 @@
   </div>
 </%def>
 
-<%def name="list_months(archive_list)">
-  <div id="archive-month-list">
-    <div id="accordion">
-      % for year, month_list in archive_list:
-      <h3>${ year}</h3>
-      <div>
-        <ul>
-        % for month in month_list:
-          <li>
-             <a href="link:///${ month.year }/${ month.month }" class="listtitle">${ month.friendly_name }</a>
-          </li>
-        % endfor
-        </ul>
-      </div>
+<%def name="list_months(month_list)">
+  <div id="archive_month_list">
+    <select id="archive">
+      <option value="">Elija un mes ..</option>
+      % for month in month_list:
+      <option
+        value="${'/{}/{}'.format(month.year,month.month)}" class="listtitle">
+        ${ month.friendly_name }
+      </option>
       % endfor
-    </div>
+    </select>
    </div>
 </%def>
 

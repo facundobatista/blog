@@ -64,19 +64,14 @@ class RenderSidebar(Task):
         try:
             months = list(self.site.posts_per_month.keys())
             months = sorted(months, reverse=True)
-            archive_list = []
-            year_ant = 0
+            month_list = []
             for item in months:
                 year, month = [int(part) for part in item.split('/')]
-                if year != year_ant:
-                    month_list = []
-                    archive_list.append([year, month_list])
-                    year_ant = year
-
                 month_name = utils.LocaleBorg().get_month_name(month, lang)
                 month_page = Month_Page("{} {}".format(month_name, year), item)
                 month_list.append(month_page)
-            return archive_list
+
+            return month_list
         except KeyError:
             return None
 
@@ -172,20 +167,12 @@ class RenderSidebar(Task):
             context['global_{}_hierarchy'.format(taxonomy)] = taxonomy_hierarchy
             deps_dict['global_{}_hierarchy'.format(taxonomy)] = taxonomy_hierarchy
 
-        archive_list = self._build_month_post_list(lang)
-        context['archive_list'] = archive_list
-        deps_dict['archive_list'] = []
-
-        for year, months in archive_list:
-            deps_dict['archive_list'] += [(month.year + '/' + month.month, month.friendly_name) for month in months]
+        month_list = self._build_month_post_list(lang)
+        context['month_list'] = month_list
+        deps_dict['month_list'] = [(month.year + '/' + month.month, month.friendly_name) for month in month_list]
 
         year_ago_post = self._post_time_ago(datetime.timedelta(days=365))
         context['year_ago_post'] = year_ago_post
-
-        url_type = self.site.config['URL_TYPE']
-        if url_type == 'rel_path':
-            url_type = 'full_path'
-
 
         task = self.site.generic_renderer(lang,
                                           destination,
