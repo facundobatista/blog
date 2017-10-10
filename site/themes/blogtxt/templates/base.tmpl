@@ -38,19 +38,21 @@ ${template_hooks['extra_head']()}
     </div><!-- #content -->
 </div><!-- #container -->
 
-<div id="primary" class="theme_sidebar">
-    <!-- '''
+<div id="sidebar_outer" class="theme_sidebar">
+    <ul>
+        <li>${search_form}</li>
+    </ul>
+    <div id="sidebar_inner">
+    </div><!-- to include dynamically sidebar generate by plugin -->
     <ul>
         %for url, text in navigation_links[lang]:
-            <li><h3><a href="${rel_link(permalink, url)}">${text} ; ${permalink} ; ${url}</a></h3>
+            <li><h3><a href="${rel_link(permalink, url)}">${text}</a></h3>
             ${template_hooks['menu']()}
             ${template_hooks['menu_alt']()}
         %endfor
-        <li>${license}
-        <li>${search_form}
+        <li>${license}</li>
 
     </ul>
-    ''' -->
 </div><!-- #primary .theme_sidebar -->
 
 <div id="footer">
@@ -65,7 +67,7 @@ ${template_hooks['extra_head']()}
     ${template_hooks['body_end']()}
     ${base.late_load_js()}
 <script>
-$( "#primary" ).load( "${rel_link(permalink,'/sidebar-es.html')}" );
+$( "#sidebar_inner" ).load( "${rel_link(permalink,'/sidebar-es.html')}" );
 </script>
 </body>
 </html>
