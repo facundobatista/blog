@@ -1,10 +1,11 @@
 2009-11-13 21:51:28
 Dietas balanceadas del Dr. Oliva
-<tags>
+dieta, clemente
 
-<em>Lo siguiente lo rescaté del disco de <a href="http://es.wikipedia.org/wiki/Clemente_%28historieta%29">Clemente</a>... ah, ¿qué?... ¿no sabían que Clemente tenía un disco? Anyway... siempre que lo escucho me causa tanta gracia, que lo quise transcribir acá... (nota: los errores ortográficos son del audio original)</em>
+*Lo siguiente lo rescaté del disco de `Clemente <http://es.wikipedia.org/wiki/Clemente_%28historieta%29>`_... ah, ¿qué?... ¿no sabían que Clemente tenía un disco? Anyway... siempre que lo escucho me causa tanta gracia, que lo quise transcribir acá... (nota: los errores ortográficos son del audio original)*
 
-<img src="http://www.taniquetil.com.ar/facundo/imgs/clementeysushinchadas.jpg" alt="La tapa del casete" width="350" height="338" />
+.. image:: http://www.taniquetil.com.ar/facundo/imgs/clementeysushinchadas.jpg
+    :alt: La tapa del casete
 
 En una concentración, hay muchas cosas importantes; no sólo correr y jugar al fúlbo.
 
@@ -16,7 +17,7 @@ A las 8 de la mañana, gran mateada con bizcochitos de grasa, palmeritas, cañon
 
 A las 11, vermú con ingredientes... treinta y dos platitos, treinta y dos.
 
-A las 12, almuerzo liviano. Pulenta con estofado y almóndigas, guiso carrero con porotos y chorizo colorado, lechón adobado, parrillada mixta, chivito a la calabresa, chupín de pescado, lasaña rellena, torta de chicharrones, chorizo a la pumarola, pucherito de gallina, y vino de la casa (varios ping&uuml;inos).
+A las 12, almuerzo liviano. Pulenta con estofado y almóndigas, guiso carrero con porotos y chorizo colorado, lechón adobado, parrillada mixta, chivito a la calabresa, chupín de pescado, lasaña rellena, torta de chicharrones, chorizo a la pumarola, pucherito de gallina, y vino de la casa (varios pingüinos).
 
 De postre, fresco y batata, banana con dulce de leche, merengue con crema, merengue con crema chantilly, y después, café con sacarina... y coñac.
 
@@ -24,4 +25,4 @@ A las 4 de la tarde nos llaman a tomar la leche: chocolate con churros y factura
 
 La cena la hacen afuera, en una cantina de por ahí.
 
-Y después, a la noche, salen en patota a patear tachos de basura y a tocar timbre por los barrios de Alicante, pa' bajar la comida. |
+Y después, a la noche, salen en patota a patear tachos de basura y a tocar timbre por los barrios de Alicante, pa' bajar la comida.

@@ -1,9 +1,11 @@
 2009-11-23 11:07:26
 Primer mes de Felipe
-<tags>
+felipe, video
 
-Les dejo un <a href="http://www.youtube.com/watch?v=GoK238qW_G8">video</a> de fotos compaginadas del primer mes de Feli (<a href="http://www.taniquetil.com.ar/facundo/FelipePrimerMes.avi">acá</a> tienen una versión con más calidad que pueden descargar fácil).
+Les dejo un `video <http://www.youtube.com/watch?v=GoK238qW_G8>`_ de fotos compaginadas del primer mes de Feli (`acá <http://www.taniquetil.com.ar/facundo/FelipePrimerMes.avi>`_ tienen una versión con más calidad que pueden descargar fácil).
 
-<a href="http://www.youtube.com/watch?v=GoK238qW_G8"><img src="http://www.taniquetil.com.ar/facundo/imgs/felimes1.jpg" alt="Felipe" width="500" height="375" /></a>
+.. image:: http://www.taniquetil.com.ar/facundo/imgs/felimes1.jpg
+    :alt: Felipe
+    :link: http://www.youtube.com/watch?v=GoK238qW_G8
 
-También pueden ver <a href="http://www.flickr.com/photos/54757453@N00/sets/72157622806321902/">todas las fotos del mes</a>.                                                                                                                                                                                                                                                                                                                                                                                                                     |
+También pueden ver `todas las fotos del mes <http://www.flickr.com/photos/54757453@N00/sets/72157622806321902/>`_.

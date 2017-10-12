@@ -1,12 +1,12 @@
 2009-11-03 17:54:36
 ¡Eselacabose!
-<tags>
+legui
 
 Que haya inflación... ok. Que devaluemos... ok. Que pongan las papeleras... ok. Que se me caiga el pelo... ok.
 
 ¿Pero que me achiquen la botella de Legui?
 
-<img src="http://www.taniquetil.com.ar/facundo/imgs/leguis.jpg" alt="Antes y después" width="349" height="500" />
+.. image:: http://www.taniquetil.com.ar/facundo/imgs/leguis.jpg
+    :alt: Antes y después
 
 ¿A dónde iremos a parar?
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
