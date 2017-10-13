@@ -1,0 +1,17 @@
+2010-01-30 02:31:20
+Proyectos para PyCamp 2010
+pycamp, python, proyectos
+
+Este es la lista de proyectos que quiero empujar para `PyCamp 2010 <http://python.org.ar/pyar/PyCamp/2010>`_, sin orden en particular:
+
+- `CDPedia <http://code.google.com/p/cdpedia/>`_: Proyecto para tener la información de la Wikipedia en castellano accesible aunque no tengas una conexión a Internet.
+
+- `BugDay <http://humitos.wordpress.com/2008/05/05/colaborando-con-python/>`_: Salimos a la caza de bugs de Python (esto seguro que será sólo medio día o un día como muuucho)
+
+- `Lalita <https://edge.launchpad.net/lalita>`_: Un bot de IRC donde agregar nuevas funcionalidades es muy fácil, sólo se necesita escribir un plugin muy sencillo.
+
+- `enjuewemela <http://code.google.com/p/enjuewemela/>`_: Un juego loco donde un montón de gemas tienden a desaparecer extrañamente siguiendo lo que el usuario hace.
+
+Mi idea es trabajar al menos un rato en todos y cada uno de ellos, así que si les interesa podemos trabajar juntos (y si quieren trabajar en alguno de estos mientras yo no lo estoy haciendo, igual los ayudo, obvio).
+
+Después de todo, son cuatro días, y no todo es Python en PyCamp (mucho mate y charla, ejercicios físicos, juegos de mesa, etc.).
