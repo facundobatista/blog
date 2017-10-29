@@ -20,7 +20,7 @@ BLOG_AUTHOR = "Facundo Batista"  # (translatable)
 BLOG_TITLE = "Bitácora de vuelo"  # (translatable)
 # This is the main URL for your site. It will be used
 # in a prominent link. Don't forget the protocol (http/https)!
-SITE_URL = "http://www.taniquetil.com.ar/blog/"
+SITE_URL = "http://beta.taniquetil.com.ar/"
 # This is the URL where Nikola's output will be deployed.
 # If not set, defaults to SITE_URL
 # 0BASE_URL = "http://www.taniquetil.com.ar/plog/"
@@ -134,7 +134,7 @@ TRANSLATIONS_PATTERN = "{path}.{lang}.{ext}"
 NAVIGATION_LINKS = {
     DEFAULT_LANG: (
         #("/archive.html", "Archivo"),
-        #("/categories/", "Etiquetas"),
+        ("/categories/", "Etiquetas"),
         ("/rss.xml", "Canal RSS"),
     ),
 }
@@ -1365,3 +1365,54 @@ GLOBAL_CONTEXT = {}
 # GLOBAL_CONTEXT as parameter when the template is about to be
 # rendered
 GLOBAL_CONTEXT_FILLER = []
+
+RENDER_STATIC_TAG_CLOUDS = {
+    'tag-small': {
+        # Tag cloud's name (used as CSS class). {0} will be replaced
+        # by the language.
+        'name': 'tcs-{0}',
+
+        # Filename for the HTML fragment. {0} will be replaced by the
+        # language.
+        'filename': 'tagcloud-{0}.inc.html',
+
+        # The taxonomy type to obtain the classification ("tags")
+        # from.
+        'taxonomy_type': 'tag',
+
+        # Filename for the CSS. {0} will be replaced by the language.
+        'style_filename': 'assets/css/tagcloud-{0}-small.css',
+
+        # Maximum number of levels to be generated
+        'max_number_of_levels': 15,
+
+        # Maximum number of tags in cloud. Negative values mean
+        # that all tags will appear.
+        'max_tags': 40,
+
+        # Tags which appear less often than this number will be
+        # ignored.
+        'minimal_number_of_appearances': 1,
+
+        # Colors defining a gradient out of which the tag font colors
+        # are taken. The colors are specified as RGP triples with each
+        # component being a floating point number between 0.0 and 1.0.
+        'colors': ((0.6,0.6,0.6), (1.0,1.0,1.0)),
+
+        # Colors defining a gradient out of which the tag background
+        # colors are taken.
+        'background_colors': ((0.1, 0.1, 0.1), ),
+
+        # Colors defining a gradient out of which the tag border colors
+        # are taken.
+        'border_colors': ((0.4, 0.4, 0.4), ),
+
+        # Interval (min_value, max_value) for the font size
+        'font_sizes': (6, 20),
+
+        # If positive, will be multiplied by font size to yield the
+        # CSS border radius and the vertical margin. (The horizontal
+        # margin is set to zero.)
+        'round_factor': 0.6,
+    },
+}

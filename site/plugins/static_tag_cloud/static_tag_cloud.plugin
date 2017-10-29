@@ -1,0 +1,12 @@
+[Core]
+Name = render_static_tag_cloud
+Module = static_tag_cloud
+
+[Documentation]
+Author = Felix Fontein
+Version = 1.0
+Website = https://felix.fontein.de
+Description = 'Tag cloud' rendering
+
+[Nikola]
+PluginCategory = Task
