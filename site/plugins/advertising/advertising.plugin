@@ -1,0 +1,13 @@
+[Core]
+Name = advertising
+Module = advertising
+
+[Documentation]
+Author = Maria Andrea Vignau
+Version = 1.0
+Website = https://felix.fontein.de
+Description = Slideshow of advertising
+
+[Nikola]
+PluginCategory = Task
+MinVersion = 7.8.2
