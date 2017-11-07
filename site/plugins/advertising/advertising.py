@@ -24,7 +24,7 @@
 # OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
 # SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-"""Create a slideshow ."""
+"""Select one random advertisment image from a list. """
 
 from nikola.plugin_categories import Task
 from nikola import utils
@@ -32,113 +32,80 @@ from nikola import utils
 import natsort
 import os
 import os.path
-import datetime
+from plugins.advertising.variables import html
 
 _LOGGER = utils.get_logger('render_sidebar', utils.STDERR_HANDLER)
 
 
 
 class Advertising(Task):
-    """"""
+    """To render an advertising box with content of some defined subdir"""
 
-    def _gen_html(self, destination, images_folder):
-         list_item = """
-         <li id="{item}" class="hideable" {style}>
-            <a href="{url}">
-                <img src="/propaganda/{image}" alt="{title}" />
-            </a></li>
-         """
-         with open(destination, "wb") as destination_file:
-            destination_file.write(html.encode('utf-8'))
-            n = 1
-            style = 'style="display: block;"'
-            for item in os.listdir(images_folder):
-                item_path = os.path.join(images_folder, item)
-                if os.path.isdir(item_path):
+    def _gen_html(self, destination, images_folder, conf):
+        "Generate html "
+        list_item = """
+        <li id="{item}" class="hideable">
+        <a href="{url}">
+            <img src="/propaganda/{image}" alt="{title}" />
+        </a></li>
+        """
 
-                    with open(os.path.join(item_path, 'url.txt'), 'r') as url_file:
-                        title, url = url_file.readlines()
+        n = 1
+        items = []
+        for item in os.listdir(images_folder):
+            item_path = os.path.join(images_folder, item)
+            if os.path.isdir(item_path):
 
-                    advertise = {
-                        'item': n,
-                        'style': style,
-                        'title': title.strip(),
-                        'url': url.strip(),
-                        'image': os.path.join(item, 'logo_c.png')
-                    }
-                    n += 1
-                    style = ''
-                    other_item = list_item.format(**advertise).encode('utf-8')
-                    destination_file.write(other_item)
+                with open(os.path.join(item_path, 'url.txt'), 'r') as url_file:
+                    title, url = url_file.readlines()
 
-            destination_file.write('</ul>'.encode('utf-8'))
+                advertise = {
+                    'item': n,
+                    'title': title.strip(),
+                    'url': url.strip(),
+                    'image': os.path.join(item, 'logo_c.png')
+                }
+                n += 1
+                items.append(list_item.format(**advertise))
+        conf["advertise_list"] = "".join(items)
+
+        local_html = html
+        for key, value in conf.items():
+            local_html = local_html.replace("{{%s}}" % key, str(value))
+
+        with open(destination, "wb") as destination_file:
+            destination_file.write(local_html.encode('utf-8'))
+
 
 
 
 
     def gen_tasks(self):
         """Generate tasks."""
+        conf = self.site.config['ADVERTISING']
 
         destination = os.path.join(self.site.config['OUTPUT_FOLDER'], 'advertising.html')
         images_folder = os.path.join(self.site.config['OUTPUT_FOLDER'], 'propaganda')
+        filters = self.site.config['FILTERS']
+        conf["items"] = os.listdir(conf['source_folder'])
+
+        # copy files to static site
+
+        for task in utils.copy_tree(conf['source_folder'], images_folder, link_cutoff=images_folder):
+            task['basename'] = self.name
+            task['uptodate'] = [utils.config_changed(conf, 'nikola.plugins.task.advertising')]
+            yield utils.apply_filters(task, filters, skip_ext=['.html'])
+
+        # generate html to insert into sidebar
 
         task = {
             'basename': self.name,
             'name': destination,
             'targets': [destination],
-            'actions': [(self._gen_html, [destination, images_folder])],
+            'actions': [(self._gen_html, [destination, images_folder, conf])],
             'clean': True,
-            'uptodate': []
+            'uptodate': [utils.config_changed(conf, 'nikola.plugins.task.advertising')]
         }
 
-        yield task
+        yield utils.apply_filters(task, filters)
 
-html = """
-
-<style type="text/css">
-.hideable {
-    display: none;
-}
-img {
-    width: 180px;
-    height: 120px;
-}
-</style>
-            <base href="propaganda/" />
-
-<script type="text/javascript">
-// direction = boolean value: true or false. If true, go to NEXT slide; otherwise go to PREV slide
-function toggleSlide() {
-    var elements = document.getElementsByClassName("hideable"); // gets all the "slides" in our slideshow
-
-    // Find the LI that's currently displayed
-    var visibleID = getVisible(elements);
-
-    elements[visibleID].style.display = "none"; // hide the currently visible LI
-    var makeVisible = next(visibleID, elements.length); // get the next slide
-    elements[makeVisible].style.display = "block"; // show the next slide
-    var sn = document.getElementById("slideNumber");
-    sn.innerHTML = (makeVisible + 1);
-}
-
-function getVisible(elements) {
-    var visibleID = -1;
-    for(var i = 0; i < elements.length; i++) {
-        if(elements[i].style.display == "block") {
-            visibleID = i;
-        }
-    }
-    return visibleID;
-}
-
-function next(num, arrayLength) {
-    if(num == arrayLength-1) return 0;
-    else return num+1;
-}
-
-var interval = 1000; // You can change this value to your desired speed. The value is in milliseconds, so if you want to advance a slide every 5 seconds, set this to 5000.
-var switching = setInterval("toggleSlide()", interval);
-</script>
-
-                <ul style="list-style-type:none; margin-left:-2em;">
-        """

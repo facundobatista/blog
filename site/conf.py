@@ -246,7 +246,7 @@ LOCALE_DEFAULT = "es_AR.UTF-8"
 # One or more folders containing files to be copied as-is into the output.
 # The format is a dictionary of {source: relative destination}.
 # Default is:
-FILES_FOLDERS = {'../propaganda': 'propaganda'}
+# FILES_FOLDERS = {'files': ''}
 # Which means copy 'files' into 'output'
 
 # One or more folders containing code listings to be processed and published on
@@ -1414,4 +1414,11 @@ RENDER_STATIC_TAG_CLOUDS = {
         # margin is set to zero.)
         'round_factor': 0.6,
     },
+}
+
+ADVERTISING = {
+    "source_folder": "../propaganda",
+    "image_width": 180,
+    "image_heigth": 120
+
 }
