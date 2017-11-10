@@ -6,7 +6,7 @@ Module = advertising
 Author = Maria Andrea Vignau
 Version = 1.0
 Website = https://felix.fontein.de
-Description = Slideshow of advertising
+Description = Random select an advertise
 
 [Nikola]
 PluginCategory = Task

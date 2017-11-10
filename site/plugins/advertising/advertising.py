@@ -43,14 +43,9 @@ class Advertising(Task):
 
     def _gen_html(self, destination, images_folder, conf):
         "Generate html "
-        list_item = """
-        <li id="{item}" class="hideable">
-        <a href="{url}">
-            <img src="/propaganda/{image}" alt="{title}" />
-        </a></li>
-        """
+        list_item = """images[{item}] = ["{image}", "{url}", "{title}"];"""
 
-        n = 1
+        n = 0
         items = []
         for item in os.listdir(images_folder):
             item_path = os.path.join(images_folder, item)
@@ -67,7 +62,7 @@ class Advertising(Task):
                 }
                 n += 1
                 items.append(list_item.format(**advertise))
-        conf["advertise_list"] = "".join(items)
+        conf["advertise_list"] = "\n".join(items)
 
         local_html = html
         for key, value in conf.items():

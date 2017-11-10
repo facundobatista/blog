@@ -2,31 +2,31 @@
 html = """
 
 <style type="text/css">
-.hideable {
-    display: none;
-}
 img {
-    width: {{image_width}}px;
-    height: {{image_heigth}}px;
+    vertical-align: middle;
+    align-content: center; 
+    max-width: {{image_width}}px;
+    max-height: {{image_heigth}}px;
 }
 </style>
-<base href="propaganda/" />
-
+<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
 <script type="text/javascript">
 window.onload = toggleSlide;
 
 function toggleSlide() {
-    var elements = document.getElementsByClassName("hideable"); // gets all the "slides" in our slideshow
+    var images = [];
+    {{advertise_list}}
 
-    // Find the LI that's currently displayed
-    var makeVisible = Math.floor((Math.random() * elements.length) + 1);
-    elements[makeVisible].style.display = "block";
-
+    var choosed = images[Math.floor((Math.random() * images.length))];
+    var base = "/propaganda/";
+    $("a").attr("href", choosed[1]);
+    $("img").attr("alt", choosed[2]);
+    $("img").attr("src", base.concat(choosed[0]));
 }
 
 </script>
 
-<ul style="list-style-type:none; margin-left:-2em;">
-    {{advertise_list}}
-</ul>
-</body>"""
+<a href="#">
+    <img src="/propaganda/loading.gif" />
+</a>
+"""
