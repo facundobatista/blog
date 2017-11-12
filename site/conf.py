@@ -1416,9 +1416,18 @@ RENDER_STATIC_TAG_CLOUDS = {
     },
 }
 
-ADVERTISING = {
+PROPAGANDA = {
     "source_folder": "../propaganda",
-    "image_width": 180,
-    "image_heigth": 120
-
-}
+    "task0": {
+        "image_width": 180,
+        "image_heigth": 120,
+        "image_name": "logo_c.png",
+        "generated_at": "propaganda.html",
+    },
+    "task1": {
+        "image_width": 460,
+        "image_heigth": 60,
+        "image_name": "logo_r.png",
+        "generated_at": "propaganda_r.html",
+    }
+    }
