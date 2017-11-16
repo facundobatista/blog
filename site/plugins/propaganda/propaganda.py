@@ -70,17 +70,17 @@ class Propaganda(Task):
         with open(destination, "wt", encoding="utf8") as destination_file:
             destination_file.write(local_html)
 
-    def _gen_html_task(self, images_folder, tasks, key):
+    def _gen_html_task(self, images_folder, task_conf, key):
         """Generate task to generate html."""
-        destination = os.path.join(self.site.config['OUTPUT_FOLDER'], tasks[key]['generated_at'])
-        tasks[key]['key'] = key
+        destination = os.path.join(self.site.config['OUTPUT_FOLDER'], task_conf['generated_at'])
+        task_conf['key'] = key
         task = {
             'basename': self.name,
             'name': destination,
             'targets': [destination],
-            'actions': [(self._gen_html, [destination, images_folder, tasks[key]])],
+            'actions': [(self._gen_html, [destination, images_folder, task_conf])],
             'clean': True,
-            'uptodate': [utils.config_changed(tasks[key], 'nikola.plugins.task.propaganda'), destination]
+            'uptodate': [utils.config_changed(task_conf, 'nikola.plugins.task.propaganda'), destination]
         }
         return task
 
@@ -103,8 +103,8 @@ class Propaganda(Task):
 
         # generate html to insert into sidebar
 
-        for key in conf["tasks"].keys():
-            task = self._gen_html_task(images_folder, conf["tasks"], key)
+        for key, task_conf in conf["tasks"].items():
+            task = self._gen_html_task(images_folder, task_conf, key)
             yield utils.apply_filters(task, filters)
 
 
