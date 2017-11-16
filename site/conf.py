@@ -1415,3 +1415,21 @@ RENDER_STATIC_TAG_CLOUDS = {
         'round_factor': 0.6,
     },
 }
+
+PROPAGANDA = {
+    "source_folder": "../propaganda",
+    "tasks": {
+        "prop_c": {
+            "image_width": 180,
+            "image_heigth": 120,
+            "image_name": "logo_c.png",
+            "generated_at": "propaganda_c.html",
+        },
+        "prop_r": {
+            "image_width": 460,
+            "image_heigth": 60,
+            "image_name": "logo_r.png",
+            "generated_at": "propaganda_r.html",
+        }
+    }
+}
