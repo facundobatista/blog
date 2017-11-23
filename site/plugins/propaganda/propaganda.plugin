@@ -1,0 +1,13 @@
+[Core]
+Name = propaganda
+Module = propaganda
+
+[Documentation]
+Author = Maria Andrea Vignau
+Version = 1.0
+Website = https://github.com/marian-vignau
+Description = Random select a propaganda
+
+[Nikola]
+PluginCategory = Task
+MinVersion = 7.8.2

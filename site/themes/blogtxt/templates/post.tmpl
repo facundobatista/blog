@@ -36,4 +36,9 @@ ${helper.twitter_card_information(post)}
     % endif
     ${helper.mathjax_script(post)}
     </div>
+    <div id="propaganda_r">
+    </div><!-- to include a random propaganda -->
+<script>
+$("#propaganda_r" ).load( "${rel_link(permalink,'/propaganda_r.html')}" );
+</script>
 </%block>
