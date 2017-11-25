@@ -1,6 +1,6 @@
 body{ background-color:#FFFFFF; background-image:none; color:#000000 }
 #sidebar_outer{ display:none;}
-#header{ display:none;}
+.blog-title{font-size: 2em;}
 #hfeed{ width:100%;}
 .pager{ display:none;}
 .archive-meta{ display:none;}
