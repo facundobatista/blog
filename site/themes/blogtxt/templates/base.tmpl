@@ -10,7 +10,8 @@ ${template_hooks['extra_head']()}
 <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
 
 <link href="${rel_link(permalink,'/assets/css/tagcloud-es-small.css')}" rel="stylesheet" type="text/css">
-
+<link rel="alternate stylesheet" href="${rel_link(permalink,'/assets/css/printer-friendly.css')}" media="screen" title="printer-friendly">
+<link rel="stylesheet" href="${rel_link(permalink,'/assets/css/printer-friendly.css')}" media="print">
 </head>
 <body>
 <div id="wrapper">
@@ -79,5 +80,6 @@ $( "#propaganda_c" ).load( "${rel_link(permalink,'/propaganda_c.html')}" );
 $( "#sidebar_inner" ).load( "${rel_link(permalink,'/sidebar-es.html')}" );
 $( "#tag_cloud" ).load( "${rel_link(permalink,'/tagcloud-es.inc.html')}" );
 </script>
+<script src="${rel_link(permalink,'/assets/js/printer-friendly.js')}"></script>
 </body>
 </html>
