@@ -11,3 +11,4 @@ let @b = 'dt>xi*t<€krdt>xi*€ü'
 let @n = 'dt>xi**t<€krdt>xi**'
 let @z = 'ill'
 let @c = 'dt>xi``t<€krdt>xi``'
+let @a = 'ct".. image:: lxt"lict"    :alt: lxt"lDo'
