@@ -12,6 +12,7 @@ ${helper.twitter_card_information(post)}
 <%block name="content">
     <div id="post-${post.meta('slug')}" class="post hfeed">
         <h2 class="entry-title"><a href='${permalink}'>${title}</a></h2>
+        <a id="printer_friendly_link" href="#" onclick="switch_printer_friendly( false ); return false;">Print this page</a>
         <div class="entry-content">
             ${post.text()}
         </div>
@@ -35,4 +36,9 @@ ${helper.twitter_card_information(post)}
     % endif
     ${helper.mathjax_script(post)}
     </div>
+    <div id="propaganda_r">
+    </div><!-- to include a random propaganda -->
+<script>
+$("#propaganda_r" ).load( "${rel_link(permalink,'/propaganda_r.html')}" );
+</script>
 </%block>
