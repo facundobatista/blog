@@ -1,3 +1,4 @@
+# select article_id, date, topic, normalized_text from plog_articles inner join plog_articles_text using(id) where article_id = 641;
 
 
 def process(bloque):
