@@ -1,0 +1,53 @@
+2017-08-16 01:28:04
+Dos experiencias nuevas
+<tags>
+
+
+
+Por un lado, el miércoles 9 pasado hicimos un evento de PyAr (en oficinas de Onapsis) que nunca habíamos hecho antes: un Consultorio Python.
+
+Coorganizado por <a href="https://twitter.com/gilgamezh">Nico</a> y yo, la idea era replicar de forma personal un poco lo que sucede en el canal de IRC día a día: que alguien venga con una duda o consulta y que algunos que saben más o tienen más experiencia piensen un rato para resolver la inquietud.
+
+Parte de la gracia era no sólo solucionar el problema, sino también que gente más nueva vea que hacerlo "no es magia", sino que todos buscamos en internet, todos hacemos razonamientos esquivos, todos vamos elaborando la respuesta, y así...
+
+Estuvo muy bueno. La gente se animó a participar, fuimos pensando distintos problemas que nada que ver entre uno y otro, etc. Y todo mientras comíamos sanguchitos y tomábamos unas cervezas, cortesía de Onapsis (¡gracias!). Fue divertido, y el feedback de la gente también estuvo bien, les gustó.
+
+Fotito que <a href="https://twitter.com/chechuriva/status/895420663481065472">tuiteó Chechu</a>:
+
+<img src="http://www.taniquetil.com.ar/facundo/imgs/dosexp-consultoriopython.jpg" alt="Consultorio Python" width="600" height="600" />
+
+Por otro lado, el domingo pasado en las PASO fui por primera vez autoridad de mesa en una elección. Presidente de mesa, incluso.
+
+Llegué siete y media a la escuela, entramos, me dieron la urna con cosas adentro, una bolsa con boletas, un bolsín también con planillas, y unas viandas frías/secas.
+
+Mi mesa era en el primer piso, así que subí, y ahí nomás fueron llegando fiscales: la mayoría generales, y una fiscal de Cambiemos que estuvo todo el día conmigo en mi mesa. El suplente que correspondía a mi mesa quedó como presidente en una de las mesas de abajo, de la cual faltaron las dos autoridades (bah, faltaron ambos autoridades de ambas mesas de abajo!).
+
+Abrí la urna, que contenía una caja con útiles y planillas varias. Preparé el cuarto oscuro, reordenando las mesas y acomodando las boletas por número de lista. Algunos fiscales ayudaban, pero en general me dejaban sólo (yo prefería eso).
+
+Luego preparé el padrón principal, más otro para control, y le dí uno de control a la fiscal. Hice el acta de apertura a las ocho de la mañana, y voté :). Fue muy loco, me firmé mi propio comprobante :p.
+
+<img src="http://www.taniquetil.com.ar/facundo/imgs/dosexp-comprobante.jpg" alt="Mi comprobante de que voté, firmado por mí :p" width="600" height="267" />
+
+Luego, empezó a venir la gente, de forma lenta. Pero a eso de las nueve empezaron a venir más. Y ahí nomás ya nos saturamos: desde la 9:30 a las 15hs no paramos nunca. Por suerte con la fiscal (y con otro que la vino a reemplazar una media hora mientras ella iba a votar a otro lado) tuvimos una buena dinámica y no teníamos tiempos muertos (las esperas eran en gran parte por los que tardaban adentro del cuarto oscuro).
+
+También una vez por hora venían los fiscales generales, y revisábamos el cuarto oscuro para ver si estaba todo bien. Yo también entraba cada tanto y revisaba. Era necesario, la gente hace maldades: en una se robaron las boletas de Cambiemos, en otra se robaron las boletas del Frente de Izquierda, y también pasó que habían puesto las boletas de 1Pais arriba de las de Unidad Ciudadana, tapándolas.
+
+Desde las tres estuvo más tranquilo. Hasta eso de las cinco y cuarto, que por media hora vino un poco más de gente, pero ya al final no apareció nadie, al punto que empecé a acomodar todo faltando diez minutos para las seis. Contamos los votos que teníamos registrados (un par de veces, teníamos algunas diferencias, pero las subsanamos), y luego cerramos la mesa.
+
+Agarré todo, me metí en el cuarto oscuro, y empezó el recuento. Abrí la urna, y contamos todos los sobres (yo los contaba de a diez, y se los pasaba a la fiscal que validaba que hubieran diez como le había pedido). Luego de que vimos que teníamos la misma cantidad de sobres que votos registrados, empecé a abrirlos.
+
+Acá vinieron varios fiscales a querer ayudarme con la apertura de los sobres, a lo que yo me fui negando siempre. El sobre lo abría yo, veía lo que había, y ahí le pasaba el contenido a la fiscal de siempre o a otro que ayudó un poco (había un par más de fiscales, pero no se metieron) y los iban apilando por lista (en dos grandes grupos: lista entera, y cortes). Yo también separaba sobres incompletos o raros: en blanco, o con votos parciales, o que parecían nulos.
+
+Ya con todos los sobres abiertos, empecé a contar lista por lista todas las boletas (dos veces) e íbamos anotando en un "acta-poster" que llevaron los fiscales de Cambiemos (¡esa acta-poster fue de una ayuda bárbara!). Anotamos las listas completas y los cortes, partido por partido, y luego los votos parciales (con cargos en blanco), luego los otros blancos, y finalmente estudiamos los nulos.
+
+Para terminar sumamos todo, casillero por casillero (un fiscal con calculadora, pero yo terminaba antes mentalmente y veía que estuviera bien). Y sumamos todas las columnas. Y nos dio redondito redondito :D.
+
+<img src="http://www.taniquetil.com.ar/facundo/imgs/dosexp-votos.jpg" alt="Planilla con los totales de votos" width="600" height="450" />
+
+Ahí empezaron todos a llenar sus planillas. Y yo también: el acta de escrutinio, el certificado de escrutinio, y el telegrama. Y empezar a acomodar todas las cosas (que se entregan al correo de forma muy predeterminada). Luego firmas por todos lados (yo como presidente de mesa a todo lo que hice yo e hicieron los fiscales, y ellos también entre sí y a lo que llené yo), y terminar de irnos.
+
+Salí de la esuela a las nueve de la noche. Muerto de cansancio, pero contento, fue una experiencia buenísima.
+
+Debo admitir que no vi ni una actitud sospechosa de parte de los fiscales, en ningún momento. Eso sí, siempre los mantuve "a raya" y no dejaba que se metieran en cosas que me parecían que tenía que resolver yo y sobre las que tenía que confiar yo en el resultado. Aunque tardáramos (especialmente en el recuento de votos).
+
+En Octubre repito, ya en la elección "real", aprovechando toda la experiencia que gané :D |

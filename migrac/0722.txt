@@ -1,0 +1,40 @@
+2016-12-05 22:43:11
+Incubadora de eventos
+<tags>
+
+
+
+Una de los roles claves de la Asociación Civil de Python Argentina (en adelante "AC") debería ser que la gente se junte y comparta conocimiento. En consonancia con esto, estuve armando la siguiente idea para ayudar a que se generen eventos y reuniones.
+
+Hay distintas formas en la cual la AC puede ayudar a los organizadores de un evento, entre ellas:
+<ul>
+<li>Ayuda logística: transmitir experiencia, ayudar a resolver inconvenientes que se produzcan en la operatoria del día a día</li>
+<li>Ayuda financiera: como es normal que algunos sponsors se comprometan a aportar dinero, pero luego ese aporte se demora (por el sponsor en sí, o trámites de todo tipo, especialmente internacionales), la AC puede adelantarle dinero al organizador, el cual ingresará a la AC luego cuando el sponsor efectivice.</li>
+<li>Ayuda económica: Partiendo de la idea base de que el evento salga hecho, o incluso genere dinero para la AC, hay dos puntos en que se puede ayudar económicamente: siendo sponsors de un evento muy chico (ej: pagando unas pizzas para un sprint), pero me parece más importante poder ser una red de contención, en el caso de que por fallos en la planificación conjunta se pierde algo de dinero: que la pérdida la cubra la AC y no la persona que organizó.</li>
+<li>Ayuda institucional: Por un lado es útil tener una entidad legal para poder presentarse a más sponsors, o al estado, dando más seriedad al evento, y además es imprescindible que los sponsorships o donaciones para el evento se hagan a una entidad ya formada, y no a individuos; esto le saca un quilombo personal al organizador, y permite pagos internacionales.</li>
+</ul>
+
+Para poder ejecutar estas ayudas, los organizadores del evento y la AC tienen que colaborar, seguir ciertos pasos y reglas. ¿Quizás incluso firmar algún contrato?
+
+Describo la metodología a grandes rasgos en los siguientes puntos. Pero esto hay que pensarlo, refinarlo, y escribirlo bien en detalle, para lograr dos cosas:
+<ul>
+<li>que el organizador u organizadores entienda bien como la AC va a jugar en esto</li>
+<li>que la AC corra la menor cantidad de riesgos innecesarios posibles</li>
+</ul>
+
+Entonces, la idea es tener un presupuesto base, un template de lo que sería el presupuesto final del evento, con todo lo que podamos pensar y se nos pueda ocurrir de eventos anteriores. Se recorre el mismo con el organizador, en una primera instancia, y se elije lo que el organizador "quiere hacer"; luego el organizador mismo tiene que poner un estimado de costo a cada ítem, y separar los ítems en tres secciones (o quizás sólo dos para eventos chicos):
+<ul>
+<li>de mínima: sin esto el evento no sale</li>
+<li>intermedio: con esto el evento está lindo</li>
+<li>de máxima: si se logra esto es un golazo</li>
+</ul>
+
+En función de todo lo elegido, hay que planificar los sponsorships necesarios, en base a niveles: definirlos, incluyendo el costo y las retribuciones. Es imprescindible que la AC de "el visto bueno" sobre esta planificación, y que luego realice un "seguimiento en el tiempo" de la evolución de la ejecución del presupuesto. Acá la AC también puede jugar un rol centralizador, básicamente armando un folleto de "hay un nuevo evento, ¿querés ser sponsor?" y mandándolo a todos las empresas, instituciones, o lo que sea que tengamos en carpeta.
+
+También en esta interacción AC/organizador se pueden pedir más cosas, o hacerlas obligatorias, ejemplo (¡hay que pensar más!):
+<ul>
+<li>que el evento tenga un código de conducta; incluso la AC puede proveerlo, junto con un pequeño texto de "qué hacer si se recibe una denuncia"</li>
+<li>que el sitio web del evento sea "exportable a estático", así la AC lo guarda y sirve a futuro; también la AC podría dar un sitio web base, y hostearlo.</li>
+</ul>
+
+Por último, un detalle: estaría bueno que la AC también cumpla el rol de "paraguas legal" (básicamente, lo que arriba describo como "ayuda institucional") para ayudar a otros grupos relacionados con el software y/o cultura libre, para que puedan ellos hacer sus eventos. |

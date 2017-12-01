@@ -1,0 +1,32 @@
+2015-10-08 02:06:02
+Pico de segundo semestre
+<tags>
+
+
+
+Ah, ¡qué semanas!
+
+Vengo a recontrafull, pero fue un pico de un par de meses, ya se tranquiliza el segundo semestre. Bah, en un par de semanas se tranquiliza...
+
+Se juntaron muchas cosas...
+
+Estoy dando un curso de Python en Mercadolibre (bah, tres cursos) y eso me tiene ocupado los anocheceres de un día de la semana, o incluso de dos.
+
+Pasó la charla que doy siempre en el postgrado para científicos en La Plata (de la mano de <a href="https://twitter.com/mcarlevaro">Manuel</a>), y el PyDay en Junín (organizado por <a href="https://twitter.com/jrodriguezmonti">Juan</a>), donde dí un taller de Intro a Python y además estrené una charla de programación asincrónica en Python 3.
+
+Y el fin de semana pasado fue el cumpleaños de Felipe, que no sólo es que el sábado sea movidito (almuerzo con mi vieja, salón a la tarde para toda la familia y amigos con niños, más compañeritos del jardín, y cena con el resto de la familia), sino que hay mucha preparación los días anteriores.
+
+<img src="http://www.taniquetil.com.ar/facundo/imgs/cumple6felu.jpeg" alt="Cumple 6 de Felu" height="528" width="600" />
+
+Además, estuve corriendo para renovar la visa de USA, que me había expirado, y de repente pasé a necesitarla.
+
+Todo eso teniendo en cuenta también que estoy bastante activo en varios proyectos de software libre.
+<ul>
+<li><a href="http://cdpedia.python.org.ar/">CDPedia</a>: Salió <a href="http://listas.python.org.ar/pipermail/pyar/2015-October/036428.html">una nueva versión, la 0.8.3</a>, principalmente con contenido actualizado y un par de fixes</li>
+<li><a href="http://fades.readthedocs.org/">fades</a>: Con Nico <a href="http://listas.python.org.ar/pipermail/pyar/2015-September/036322.html">sacamos la beta de la versión 4</a>, con un montón de cambios! en breve sale el release final, una versión para no perderse!</li>
+<li><a href="https://twitter.com/magicicadaOK">Magicicada</a>: seguimos laburando a full con Nati dandole forma para que sea ampliamente usable; estamos a un 80% de una gran beta inicial.</li>
+<li><a href="http://encuentro.taniquetil.com.ar/">Encuentro</a>: más allá de algunas acciones de mantenimiento que tuve que hacer, voy a tratar de incorporarle los videos de TED de Argentina...</li>
+<li><a href="https://pypi.python.org/pypi/launcherposta">Launcherposta</a>: una nueva release, sólo en PyPI, con un par de fixes pequeños que fuí agregándole en algún momento.</li>
+</ul>
+
+En fin. Para ir cerrando ahora el año solamente (?!) me queda un viaje por laburo, más la <a href="http://ar.pycon.org/">PyCon Argentina en Noviembre</a> (para la cual todavía tengo que preparar una <a href="https://twitter.com/_joac">charla con Joac</a>). |

@@ -1,0 +1,27 @@
+2015-04-30 21:16:32
+Búsqueda por prefijos tolerante a errores
+<tags>
+
+
+
+Hace un tiempo <a href="http://www.taniquetil.com.ar/plog/post/1/598">les hablé</a> de un árbol que hice para sacar prefijos de palabras.
+
+En el laburo estoy estudiando la forma de hacer un autocompletador. Entonces, luego de leer cosas por ahí, decidí probar ese árbol que ya tenía hecho.
+
+Nunca le había tirado tantos datos, pero la verdad es que salió andando de perlas.
+
+Por otro lado, tenía un detalle que necesitaba solucionar: yo quería que la búsqueda de palabras soportara errores en la escritura. O sea, que si uno buscara "maise", encontrara "maizena".
+
+Encontré un paper bastante loco, <a href="http://www.google.com.ar/url?sa=t&amp;rct=j&amp;q=&amp;esrc=s&amp;source=web&amp;cd=12&amp;ved=0CCQQFjABOAo&amp;url=http%3A%2F%2Fwww.vldb.org%2Fpvldb%2Fvol6%2Fp373-xiao.pdf&amp;ei=f984VdisMsWbNo35gIgH&amp;usg=AFQjCNEz5UO-CPIka7Qv7b96UUOWE_msvA&amp;sig2=4FPPFFf4lnYRHYY8hkIxRg&amp;bvm=bv.91427555,d.eXY&amp;cad=rja">Efficient Error-tolerant Query Autocompletion</a>, pero que mostraba la forma de soportar errores al buscar palabras completas, no prefijos. Igual, apliqué ideas de ahí, y en un par de días de laburo conseguí lo que quería. Pero, al cargar el millón y medio de registros que tengo que cargar, ¡explotaba por memoria!
+
+Luego de algunas optimizaciones obvias, se me ocurrió lo de deduplicar los subtrees internos. ¿Qué es deduplicar? Deduplicar es la acción por la cual si tengo un objeto A, y luego tengo otro B, que resulta ser igual a A, puedo usar el A directamente en ambos casos, descartando B (libera memoria), y listo.
+
+Deduplicar diccionarios no es un asunto trivial. Tiré <a href="http://listas.python.org.ar/pipermail/pyar/2015-April/034090.html">el asunto en la lista de PyAr</a>, y en pocas horas logré que todo funcione correctamente. Ahora no sólo no explota, sino que ocupa bastante poca memoria!
+
+<span style="font-family: courier new,courier;">    Memory usage after loading the tree: rss: +586 MB  vms: +586 MB</span>
+<span style="font-family: courier new,courier;">    Time to load the tree: 327190.99 msec</span>
+<span style="font-family: courier new,courier;">    <WordTree at 3068071276 [tau=1]: 1478347 words 30015540 (2201293) nodes (unique)></span>
+
+Millón y medio de palabras, 30 millones de nodos (de los cuales 2.2 millones son únicos), ocupando 590 MB de memoria. Nada mal, ¿no? Que tarde 5.5 minutos en armar toda la estructura es un problema, la semana que viene voy a mirar eso bien.
+
+Todo el código, <a href="https://launchpad.net/ftrie">acá</a>. |

@@ -1,0 +1,30 @@
+2017-11-27 17:02:55
+PyCon Argentina 2017
+<tags>
+
+
+
+Este fin de semana se realizó una nueva PyCon en Argentina, esta vez (y es la primera vez que repetimos ciudad) en Córdoba.
+
+Yo di dos charlas "formales"... bah, una charla ("<a href="http://www.taniquetil.com.ar/homedevel/presents/concurrencia/">Emulando paralelismo de forma asincrónica</a>") y un taller ("Introducción a Python"). También di una mini-plenaria de 20 minutos donde hablé sobre la <a href="http://ac.python.org.ar/">Asociación Civil Python Argentina</a>.
+
+<a href="https://www.flickr.com/photos/70871182@N04/37720393655/in/album-72157662945453988/"><img src="http://www.taniquetil.com.ar/facundo/imgs/pyconar2017-grupal.jpeg" alt="Grupal" width="800" height="471" /></a>
+
+Hubieron un montón de charlas interesantes! Estas son las que más me gustaron:
+<ul>
+<li>"Distribuyendo código de py a <a href="http://pypi.python.org/">PyPI</a>", donde <a href="https://twitter.com/mbordese">Matías Bordese</a> nos contó todo el proceso de empaquetamiento y publicación de un programa o biblioteca en Python.</li>
+<li>"Robótica educativa con software y hardware libre... y Python!", de Valentín Basel, que mostró cómo armaron el <a href="http://roboticaro.org/">proyecto Icaro</a> de forma que los niños puedan hacer cosas con componentes baratos o reciclado y aprender a programar en el camino.</li>
+<li>"Magicicada: el fork open-source de Ubuntu One Filesync" donde Naty Bidart contó un poco la historia del servicio de sincronización de archivos en el que trabajamos en Canonical, su evolución luego de que fue liberado a <a href="https://launchpad.net/magicicada">Magicicada</a>, y mostró la arquitectura del sistema y sus complejidades.</li>
+<li>"Django Channeled", de Jonatas Baldin, que mostró como el concepto de "conexión permanente del cliente al servidor usado para que el servidor le pueda mandar mensajes al cliente en cualquier momento" se implementa en <a href="https://www.djangoproject.com/">Django</a> de manera elegante, integrándose correctamente con el resto del framework.</li>
+<li>"Me están espiando! Cómo saber con Python si el imperialismo te persigue o te pasaste de Focusyn", de <a href="https://twitter.com/gilgamezh">Nicolás Demarchi</a>, donde aprendimos cómo calcular la posición de todos los satélites alrededor de la tierra, y darnos cuenta que si en un momento en particular podemos ver a determinado satélite (lo cual significa que ese satélite también nos puede ver).</li>
+<li>"De la Rabbit, Pascal y Stored Procedures a la Beaglebone Black, Flask y PyZMQ", de <a href="https://twitter.com/LeCoVi">Leandro Colombo Viña</a>, la historia de la evolución de un hardware determinado, donde con conceptos modernos de comunicación y Python se lograron revolucionar las especificaciones del producto.</li>
+<li>"Python en el browser, mil intentos y un invento", de <a href="https://twitter.com/ralsina">Roberto Alsina</a>, que nos contó un poco de historia y un poco de realidad por si queremos programar "en el browser, del lado del cliente" en Python, y no en javascript.</li>
+</ul>
+
+Las plenarias también estuvieron buenas. <a href="https://twitter.com/asendecka">Aleksandra Sendecka</a> nos contó en "Anatomy of a Code Review" el por qué y para qué de las revisiones de código por parte del equipo de trabajo, y especialmente el cómo, con un montón de consejos interesantes. Por otro lado <a href="https://twitter.com/luciotorre">Lucio Torre</a> en "No hay tal cosa como un almuerzo gratis en temas de software" nos habló sobre cómo en desarrollo siempre las acciones que nos dan algo de beneficio por un lado, nos traen algo de perjuicio por otro, y que muchas veces entender dónde uno está parado (y saber leer eso, especialmente cuando uno no tiene toda la información y se basa en prejuicios) es fundamental para la evolución del desarrollo del sistema.
+
+A nivel social, la comunidad de Python Argentina sigue mostrándose ejemplar. No sólo en lo personal (donde es una excusa para reencontrarse con amiga/os y charlar, charlar, charlar) sino también en la inclusión de nuevas personas en el grupo. El ejemplo que más me resuena a este respecto es esta serie de tuits:
+
+<a href="https://twitter.com/EliTnk/status/932714350112116739"><img src="http://www.taniquetil.com.ar/facundo/imgs/pyconar2017-inclusión.png" alt="Inclusión" width="400" height="457" /></a>
+
+Hasta donde sé se grabaron todas las charlas, así que avisaré cuando estén subidas. Y acá tienen <a href="https://www.flickr.com/photos/54757453@N00/albums/72157688884589701">fotos mías</a> y <a href="https://www.flickr.com/photos/70871182@N04/sets/72157662945453988">las que sacó Yami</a> (incluyendo la grupal que reproduzco arriba). |

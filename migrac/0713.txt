@@ -1,0 +1,39 @@
+2016-07-21 12:58:18
+Traveller cheques cheques cheques!
+<tags>
+
+
+
+Hace catorce años, unos meses antes de viajar a Italia (como parte de mi Master en Ingeniería de la Innovación) fui a un banco en <em>la city porteña</em> y compré 1100 euros en <a href="https://www.americanexpress.com/argentina/travelers-caheque/">American Express Traveler Checks</a>.
+
+¿Para qué? Bueno, era la primera vez que iba a Europa (la primera vez que salía del país, si no contamos las vacaciones en Fray Bentos, Uruguay), y tenía que llevar bastante dinero para vivir las primeras semanas, y los travelers checks tienen la característica (teoricamente) de que si los perdés o te los roban, American Express te los puede volver a dar, no importa donde estés.
+
+En su momento, en Italia, cambié 800 euros, y como luego empecé a recibir el dinero de la Universidad (viáticos), me quedaron 300 sin cambiar. Volví a casa, guardé eso para un futuro donde los necesitara. Pero cuando volví a viajar a Europa ya tenía una tarjeta de crédito que funcionaba fuera de Argentina, así que no me llevé los cosos esos, sino que quedaron ahí.
+
+Hace unos años decidí sacármelos de encima, pero no los quería cambiar en Argentina, porque no me iban a dar euros, así que esperé a volver a viajar a Europa. Y llegó Europython, y acá estoy en Bilbao, así que decidí irlos a cambiar al banco.
+
+Catorce años después de comprarlos.
+
+Así que almorcé rápido, me cargué la mochila, y caminé unas 10 cuadras hasta el centro de la ciudad. Fuí a un Banco Santander, hablé con una persona, puso cara de no saber qué eran los Traveler Checks, y me dijo que hablara con la cajera. Fui con la cajera y me dijo que ahí no los cambiaban, que vaya a la casa central (que quedaba ahí a la vuelta).
+
+Caminé dos cuadras, entré, averig&uuml;é, me dijeron que hable con el Jefe de Cajas, el que me dijo que el Banco Santander ya no cambiaba "de eso".
+
+En la esquina había un BBVA, así que entré y pregunté. Me dijo (con bastante seguridad) que Traveler Checks sólo cambiaban en la casa central (Gran Via 12, enfrente del Corte Inglés). Caminé unas 7 cuadras hasta ahí, entré, pregunté, me mandaron a las cajas.
+
+La cajera puso cara de "queloqué?", le preguntó al de al lado, que llamó a uno de un escritorio, que dijo "sí, esto me parece que lo aceptamos". Se sentó en la computadora de la señora, y empezó a (por lo que veía y suponía yo) navegar ventanas que él nunca había visto en el sistema interno que usan.
+
+En un momento me pidió el pasaporte, le sacó fotocopia, luego lo escaneó, luego firmé los traveler checks y les puse la fecha. En ese momento (unos diez minutos luego de haber empezado el trámite) yo pensé "listo, ya está, esto es la confirmación de que los aceptan, porque ya no puedo llevarlos a otro lado ni nada".
+
+El tipo siguió cargando datos, hasta que en un momento le dió "servicio no disponible". Lo consultó con uno, con otro, volvió a intentarlo, lo mismo. Llamó a Soporte (que por lo visto puede entrar y ver la misma ventana que él estaba usando, al mismo tiempo que él la estaba usando), le contestó veinte preguntas, y volvió a hacer TODO de nuevo.
+
+Cortó, esperó, lo llamaron, volvió a probar algo. Me enteré que la chica de soporte había llamado a Soporte nivel 2. Esperamos. Lo volvieron a llamar. Hizo otra cosa, le pasaron un valor hardcodeado, ahí pudo avanzar y tuvo un "código de autorización". Iupi!
+
+Pero siguió una ventana más, y "servicio no disponible". Volvió a intentar todo, lo mismo. A esta altura el banco había cerrado hace 10 minutos, toda la gente se estaba yendo, los otros cajeros cerrando las cajas, etc.
+
+Lo volvieron a llamar, era Soporte nivel 3. Volvieron a intentar cosas, nada. Vino otra chica (a esta altura quedábamos solamente cuatro en todo el banco). Volvió a probar algo, le dió error y un número de American Express. Llamó (acá me enteré mucho porque puso el móvil en speaker), le pidieron todos los datos (míos, de los cheques, etc), hasta que le dijeron que los cheques estaban autorizados (con el código que ya sabíamos), así que efectivamente era un problema del sistema del banco.
+
+Esperamos diez minutos más, el flaco llamó a soporte de nuevo, le dijeron que estaba en Soporte nivel 4 (!!!), que lo iban a llamar.
+
+Siguieron probando cosas, hasta que el flaco se cansó, agarró y me dió 300 euros (teoricamente yo tenía que pagar una comisión, pero nadie sabía cuanto), y me fui.
+
+Dos horas y media después de entrar al banco :/ |

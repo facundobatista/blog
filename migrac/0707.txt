@@ -1,0 +1,37 @@
+2016-05-19 16:32:28
+Como no perder las fotos del teléfono
+<tags>
+
+
+
+La combinación de tener buena cámara en el teléfono, y tener el teléfono todo el tiempo a mano, hace que uno saque fotos con dicho dispositivo bastante seguido. Por no decir todo el tiempo.
+
+Lo que no es tan fácil o automático es cómo guardar las fotos, cómo salvarlas de manera que no perderlas si te roban el celular, o lo perdés, o se te rompe, o se rompe la memoria interna, etc. Y además, cómo tenerlas siempre a mano: poder ir a buscarlas fácil para meterlas en un documento y mandarlas por mail, o mezclarlas con las fotos de la <em>cámara grande</em>, etc.
+
+Yo tengo algo armado que me soluciona esto, hace rato, y me está funcionando tan bien que pensé en compartirlo. ¿Es trivial de montarlo para que funcione? No. Pero una vez armado todo, anda pipí cucú. Y gratis :D
+
+<img src="http://www.taniquetil.com.ar/facundo/imgs/smiley-ok.png" alt="Yes!" height="405" width="400" />
+
+El setup o configuración tiene tres partes: un servicio online, el teléfono, y la compu o laptop donde trabajes normalmente.
+
+El servicio online que uso es Flickr. Podés sacar una cuenta gratis, te da 1000 GB de almacenamiento. Son cuatro clicks, dale.
+
+Luego, te instalás la aplicación de Flickr en el teléfono, y la configurás para que automáticamente suba las fotos a la nube cuando estés conectado por WiFi. Acá, algunos detalles. Está piola que las suba automáticamente, pero no te consuma internet de la compañía de teléfonos, así que no vas a terminar pagando más a fin de mes. Y funciona bien el "subirlas automáticamente", si estás conectado te las sube al toque, y no es para nada intrusivo. Además, te las sube por default en modo "no compartido con nadie", así que no tengas miedo en sacarte fotos en bolas o al resumen de la tarjeta de crédito, que nadie va a ver esas fotos (a menos que vayas al sitio web de Flickr, las elijas, y les cambies los permisos).
+
+Hasta acá, tenés un backup automático de las fotos. Todo lo que saques lo vas a tener en la nube. Queda el último paso, que es tener las fotos bien a mano.
+
+Para eso, <a href="http://www.taniquetil.com.ar/homedevel/utils/baja_flickr.py">yo tengo un script</a> que corro cada dos horas automáticamente (lo puse en el crontab; dos horas parece mucho, pero no quería pegarle a Flickr todo el tiempo indiscriminadamente, y de última si quiero bajar algo que recién subió y no quiero esperar que se cumplan las dos horas, corro el script a mano). El script va a Flickr, se fija qué fotos nuevas hay en el álbum donde la aplicación del teléfono las sube sola, y las baja. Simple y efectivo.
+
+Lo ejecuto así:
+
+<span style="font-family: courier new,courier;">    baja_flickr.py --quiet album_id algun_path</span>
+
+El <span style="font-family: courier new,courier;">--quiet</span> es para que si todo funciona como es esperado no tire ninguna salida, así crontab no me manda mail al cuete (al principio, especialmente al probarlo a mano, no le pongan esta opción). El <span style="font-family: courier new,courier;">album_id</span> es el identificador del álbum en Flickr donde se suben las fotos automáticamente, la forma más fácil de saber este numerito es ir al sitio de Flickr, ir al álbum donde están estas fotos, y sacar el código de la URL. Finalmente, <span style="font-family: courier new,courier;">algun_path</span> es el directorio donde querés que el script te ponga las fotos que baja.
+
+Un detalle importante, para que esto funcione. Como dije arriba, las fotos no son visibles para cualquiera, así que el script tiene que autenticarse como ustedes. Esto se maneja automáticamente, pero el script tiene que saber unos datos de ustedes; como pueden ver en el script, tienen que poner dos claves en dos archivos, más vuestro id de usuario de flickr en una constante. Las dos claves esas las sacan <a href="http://www.flickr.com/services/api/keys/">de acá</a>.
+
+Finalmente, un comentario sobre cómo se guardan las fotos bajadas. El script arma el nombre del archivo como, por ejemplo, el siguiente:
+
+<span style="font-family: courier new,courier;">    20160507-201900-26273387653_c1da64d753_o.jpg</span>
+
+Básicamente el nombre se arma primero con la fecha y hora de cuando fue tomada la foto, y luego con el nombre original que le puso Flickr. |

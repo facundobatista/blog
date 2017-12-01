@@ -1,0 +1,36 @@
+2017-09-30 14:11:25
+CDPedia, release y planes
+<tags>
+
+
+
+<strong>Nueva versión</strong>
+
+Hace unos diez días terminé de armar las imágenes para la nueva versión de la CDPedia, la 0.8.4 con contenido actualizado a Junio 2017, y la semana pasada hice los avisos correspondientes en todos lados menos acá.
+
+Ya saben <a href="http://www.taniquetil.com.ar/plog/post/1/697">qué es la CDPedia</a>, pero vuelvo a insistir: descárguenla, compártanla, difúndanla, ya que ayuda a que la mayor gente posible acceda a la Wikipedia y al conocimiento que la misma permite.
+
+Vayan a <a href="http://cdpedia.python.org.ar/">la página oficial</a> para ver cómo descargarla y otra info.
+
+Esta versión no trae demasiadas novedades más que el contenido actualizado (que ya es bastante), pero también renové el contenido de la página de inicio, e hice varias mejoras a la hora de la generación de discos y tarballs, así como también en la calidad del código.
+
+<img src="http://www.taniquetil.com.ar/facundo/imgs/cdpedia2-luz.jpg" alt="Velita en un festival de jazz en Baradero" width="600" height="449" />
+
+
+<strong>Grupo de trabajo</strong>
+
+Por otro lado, tengo ganas de mezclar dos cosas que me vienen dando vuelta en la cabeza: la idea de meter más gente a trabajar con CDPedia, y la de hacer algo de mentoring para que gente más nueva aprenda a programar (no sólo a nivel lenguaje, sino también las buenas prácticas, etc.).
+
+Entonces, tengo la idea de armar un grupo de trabajo para CDPedia. Buscar tres o cuatro newbies, más quizás alguien con experiencia que me ayude, y ponernos a trabajar (de forma relajada, remota, pero más o menos constante) en CDPedia.
+
+A nivel del proyecto a varias cosas al alcance de la mano, desde modernización del código y hacerlo más robusto en varias situaciones, hasta mejorar y normalizar los logs, preparar todo para Python 3, corregir bugs, etc.
+
+Claro, la idea también ronda alrededor de las personas, los que participen del proyecto, que aprenderían Python en un nivel básico o intermedio, y obtendrían experiencia en trabajar en grupo de forma remota (y algo de presencial). También se haría foco en usar herramientas como control de versiones, manejo de issues/bugs, y prácticas modernas de desarrollo en general.
+
+En algún punto es parecido a lo que en otro momento se llamó <a href="http://www.taniquetil.com.ar/plog/post/1/507">Adopte un Newbie</a>, pero en este caso no hay una relación uno a uno entre mentor y participante, sino que sería un grupo donde cada integrante puede ayudar a otros, todos tutelados o guiados por mí (y como dije arriba, quizás alguien más), todo en un ambiente amigable y "seguro".
+
+<img src="http://www.taniquetil.com.ar/facundo/imgs/cdpedia2-fuente.jpg" alt="Fuente en el Cerro Santa Lucia, Santiago de Chile" width="600" height="450" />
+
+Tengo que terminar de redondear la idea, especialmente a nivel operativa: composición del grupo (haría una búsqueda/oferta y luego una selección), formas de comunicación, ¿reuniones presenciales?, etc. También quiero definir la duración de la experiencia: quiero hacerla finita, y luego de alguna manera presentar los resultados con el grupo en alguna conferencia.
+
+Ya les iré contando más novedades. |

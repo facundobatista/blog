@@ -1,0 +1,48 @@
+2015-08-21 22:35:25
+PyCamp 2015, en La Serranita, Córdoba
+<tags>
+
+
+
+Como casi siempre a Córdoba, fuí y volví en micro (porque en el colectivo en general duermo pasablemente bien, entonces aprovecho la noche, y no pierdo medio día "para viajar"). Esta vez, por otro lado, fuí un día antes, porque tenía que hacer un trámite en Córdoba Capital, así que estuve el jueves hospedado en la casa de Nati y Matías, trabajando durante el día, jugando juegos de mesa durante la noche.
+
+El viernes a la mañana hicimos el viaje hasta La Serranita con los chicos. Llegamos a media mañana, y ahí se dió la situación de siempre, que es muchas veces esperada: saludar y abrazar a viejos amigos que uno no puede ver tan seguido (y a cuatro o cinco nuevos que uno todavía no conoce :) ).
+
+<img src="http://taniquetil.com.ar/facundo/imgs/pycamp15-grupo.jpeg" alt="El grupo recién reunido, charlando sobre las propuestas" height="384" width="600" />
+
+<img src="http://taniquetil.com.ar/facundo/imgs/pycamp15-temas.jpeg" alt="Como quedaron planeadas las actividades" height="400" width="600" />
+
+
+El lugar estuvo muy bueno. Quizás me podría quejar que el salón principal era demasiado ajustado, y que las comidas eran en una hostería a cuatro cuadras de distancia, pero el resto estuvo más que bien. No sólo las instalaciones (habitaciones, parque, quincho, etc, etc), sino la atención humana. Un lujo.
+
+Hasta buena internet tuvimos en este PyCamp, ya que estábamos en la red vecinal abierta que Nico Echaniz y amigos montaron en La Quintana y ciudades aledañas. Eso sí, notamos que cuando teníamos problemas con lo que era comunicaciones el tema estaba en el router que estábamos usando (y eso que terminamos poniendo uno muy bueno). Decidimos que había que invertir en hardware un poco más pro (no algo "de uso hogareño bueno" sino algo "profesional")... veremos cuanto cuesta, pero creo que vamos a gastar unos mangos ahí, ya que nos queda no sólo para el PyCamp sino para otros eventos.
+
+<img src="http://taniquetil.com.ar/facundo/imgs/pycamp15-terraza.jpeg" alt="Una terraza dos niveles más arriba que la sala de laburo" height="400" width="600" />
+
+<img src="http://taniquetil.com.ar/facundo/imgs/pycamp15-parquecito.jpeg" alt="Pequeño parque en uno de los niveles" height="400" width="600" />
+
+A nivel proyectos y Python: lo de siempre... se hacen mil cosas, desde laburar en proyectos estables hasta delirar con cosas nuevas, se mejoran cosas arrancadas de antes, se agregan funcionalidades, se empiezan proyectos que se terminan en esos cuatro días, se arrancan cosas que luego duran mucho tiempo, etc... pero lo más importante no pasa por ahí.
+
+El núcleo del evento es humano. Charlar con gente que conocés de siempre, y podés delirar ideas, proyectos nuevos, o simplemente charlar. Y conocer gente nueva. Pibes que están haciendo cosas locas o no, con laburos copados o no, con vidas interesantes o no. Pero charlar, compartir tiempo, ver como las otras personas encaran un proyecto, qué aportan, como ayudarlos, como transmitirles experiencias.
+
+El programar Python es casi una excusa para que todo lo otro suceda. Y digo "casi" porque sí, claro, lo que se programa y hace está buenísimo también :D
+
+<img src="http://taniquetil.com.ar/facundo/imgs/pycamp15-comiendo.jpeg" alt="En el comedor, almorzando" height="400" width="600" />
+
+<img src="http://taniquetil.com.ar/facundo/imgs/pycamp15-trabajando.jpeg" alt="En la sala principal de laburo (no era grande, pero no era la única)" height="450" width="600" />
+
+En ese aspecto, yo estuve principalmente con dos proyectos. Por un lado <a href="https://launchpad.net/magicicada-server">filesync server</a>, recientemente <a href="http://insights.ubuntu.com/2015/08/10/ubuntu-one-file-syncing-code-open-sourced/">liberado open source</a>, con un cambio muy grande que empecé el jueves mismo estando en la casa de Nati y continué intermitentemente durante los cuatro días de PyCamp.
+
+El otro proyecto en el que invertí mucho tiempo es <a href="http://fades.readthedocs.org/en/latest/">fades</a> que desarrollo principalmente con <a href="https://twitter.com/gilgamezh">Nico</a>. Es que se enganchó mucha gente que le gustaba lo que fades ofrece, y aportaron un montón de ideas buenísimas. ¡Y no sólo ideas! También código, branches que mergeamos o que todavía tenemos que revisar. Ya iremos metiendo todo, y queremos hacer un release en las próximas semanas. Estén atentos, porque fades ahora hace cosas que te vuela la peluca :D
+
+Pero no sólo trabajé en eso. También porté <a href="https://pypi.python.org/pypi/Tritcask">Tritcask</a> a que trabaje simultaneamente con Python 2 y Python 3 (arranqué sólo con esto, pero el 70% del laburo lo hicimos juntos con <a href="https://twitter.com/spiccinini">SAn</a>). Y estuvimos buscando cómo hacer para detectar cuanto de un subtítulo matchea con las voces de un video, de manera de poder determinar si está bien sincronizado o no. Y estuve haciendo algo de código asincrónico usando <a href="https://docs.python.org/3/library/asyncio.html">asyncio</a>. Y estuve charlando con SAn, <a href="https://twitter.com/dmascialino">DiegoM</a>, Bruno y <a href="https://twitter.com/nicoechaniz">Nico Echaniz</a> sobre una especie de Repositorio Federado de Contenido Educativo. Y estuve ayudando a gente a trabajar en Python mismo durante un cortito Python Bug Day (<a href="https://twitter.com/JairoTrad">Jairo</a> solucionó un issue y medio!!).
+
+<img src="http://taniquetil.com.ar/facundo/imgs/pycamp15-selva.jpeg" alt="Camino al río" height="379" width="600" />
+
+<img src="http://taniquetil.com.ar/facundo/imgs/pycamp15-piedrasrio.jpeg" alt="Recorriendo la vera del río, saltando de piedra en piedra" height="366" width="600" />
+
+<img src="http://taniquetil.com.ar/facundo/imgs/pycamp15-asadazo.jpeg" alt="El mejor asado de un PyCamp, ever" height="337" width="600" />
+
+Y tomé sol. Y tuve en mis manos una espada de verdad por primera vez. Y caminé por el costado del río saltando de piedra en piedra. Y comí un asadazo (entre el centenar de kilos de comida que ingeríamos por día por persona). Y conocí La Serranita. Y charlé mil. Y usé un sistema de realidad virtual. Y jugué a muchos juegos de mesa.
+
+Y abracé amigos. |

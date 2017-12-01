@@ -1,0 +1,73 @@
+2017-07-20 21:27:48
+Análisis de la encuesta "cuál evento"
+<tags>
+
+
+
+El último día de Nerdear.la armá una encuesta que llamé "¿Cuál evento?", y la empecé a desparramar por las redes.
+
+La pregunta principal era ¿A qué evento te interesería asistir?
+
+
+<ul>
+<li>PyCon: Conferencia nacional de Python, gratis, con charlas de nivel internacional. Dura 2 o 3 días, sucede una vez por año en algún lugar del país (el próximo es en Córdoba).</li>
+<li>PyDay: Conferencia local de Python, gratis, con charlas más introductoria. Dura un día, puede haber varios en un año y puede ser en tu ciudad o cerca.</li>
+<li>PyCamp: Hacking space durante cuatro días haciendo Python o lo que se te cante. Es pago (ya que tenemos el lugar y las comidas todo incluido). Sucede una vez al año en algún lugar del país (el próximo es en Baradero).</li>
+<li>Consultorio Python: Un afteroffice nerd donde podés traer tu problema de Python y lo resolvemos entre todos. Es en algún lugar con proyector o tele, donde podamos charlar y tomar algo. Se puede hacer varias veces al año, en cualquier ciudad.</li>
+<li>Reunión Social: Nos juntamos en un bar y charlamos de cualquier cosa (incluso de Python y PyAr, especialmente si hay novedades del grupo o cosas que decidir). Se puede hacer varias veces al año, en cualquier ciudad.</li>
+<li>Meetup corto: Mini-conferencia de un par de horas para ver dos o tres charlas/presentaciones cortas, con algún espacio social también. Se puede hacer varias veces al año, en cualquier ciudad.</li>
+<li>Meetup largo: Mezcla de mini-conferencia y sprint. Se hace normalmente un sábado, con algunas charlas a la mañana y un espacio de trabajo/hackeo a la tarde. Se puede hacer varias veces al año, en cualquier ciudad.</li>
+<li>Sprint: Espacio de trabajo (sobre uno o más proyectos), normalmente un sábado para tener varias horas. Se puede hacer varias veces al año, en cualquier ciudad.</li>
+</ul>
+
+
+Luego también preguntaba ¿En qué ciudad vivís?, ¿A qué otras ciudades cercanas irías para un evento que dure un día o una tarde?, y dejaba un campo para comentarios.
+
+Obtuve 169 respuestas. Bien.
+
+Los eventos que mayormente la gente quiere ir tienen estilo de conferencia, primero PyCon, luego PyDay. Después ya vienen eventos mezcla de codear y charla (pycamp, meetups, sprints).
+
+Notablemente el modelo de "consultorio Python" fue el que menos votos recibió, igual queremos probar esto al menos una vez, para ver como sale...
+
+El siguiente gráfico es el que me da el form para ver los resultados, está recortado excluyendo opciones que no estaban en la encuesta original (de cualquier manera <a href="https://docs.google.com/spreadsheets/d/1cFTN2MJB08myeD_42zcgzOpMID5ZqWaHa0L7nUMS_Yw">acá está la planilla con toda la data</a>)
+
+<img src="http://www.taniquetil.com.ar/facundo/imgs/cualevento.png" alt="Cual evento" width="717" height="205" />
+
+La distribución de votantes es la esperable en función de la (lamentable) centralización de nuestro pais: muchos de CABA y Buenos Aires, bastantes de otras ciudades grandes (Córdoba, Rosario, Santa Fe, La Plata), algunos de otros lados. En general la gente está dispuesta a viajar para los eventos.
+
+A nivel comentarios, los más notables son los que reproduzco acá...
+
+<em>    Me parece que estaría bueno usar internet para acortar distancias, los </em>
+<em>    que estamos lejos sabemos que todo pasa en Bs.As. o alrededores (y es </em>
+<em>    lógico por una cuestion de cantidad de asistentes). Me encantaría que </em>
+<em>    halla un taller online o un PyDayOnline o algo así.</em>
+
+<em>    Algunos eventos no los seleccioné por mi nivel de conocimiento, más </em>
+<em>    adelante sí me gustaría participar. El que más me gusta es pycamp (esta </em>
+<em>    letra gris no se ve, je)</em>
+
+<em>    Es notable la ausencia de meetups como en otras comunidades, lugar: una </em>
+<em>    empresa, aporte de bebidas y comida, dos conferencias, lightning talks... </em>
+<em>    Un PyCamp es demasiado inmersivo y generalmente, para mi, muy lejos. Lo </em>
+<em>    bueno de las meetups, es que cumplen con la regla agil de los "dos pies": </em>
+<em>    en cualquier momento, te podes ir, caminando :-)</em>
+
+<em>    Estaria muy bueno mas charlas jornadas, hackaton de python cientifico</em>
+
+<em>    La pycon debería hacerse en días de semana y/o sin coincidir con fin de </em>
+<em>    semana largo.  Mucha gente usa Python en su trabajo y puede ir. En cambio </em>
+<em>    un fin de semana (y más si es largo) choca con el necesario descanso y </em>
+<em>    espacio para la vida personal</em>
+
+<em>    Los que somos del interior aprovechariamos más  los eventos que tienen </em>
+<em>    mas días.</em>
+
+<em>    Me gustan más los eventos en donde todos hablan a los eventos que tienen </em>
+<em>    charlas predefinidas, ya que de esa manera todos intercambiamos ideas y </em>
+<em>    se pueden escuchar muchas ideas y opiniones.</em>
+
+<em>    Me gustaría que exista información acerca de vuelos disponibles, hoteles </em>
+<em>    cercanos al evento y costos mínimos de bus, tren, taxi para movilización </em>
+<em>    en los lugares que se desarrolla los eventos</em>
+
+En fin, acá está <a href="https://docs.google.com/spreadsheets/d/1cFTN2MJB08myeD_42zcgzOpMID5ZqWaHa0L7nUMS_Yw">toda la data</a> si quieren hacer más análisis o buscar algún dato puntual. |

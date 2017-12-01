@@ -1,0 +1,21 @@
+2017-08-24 01:48:02
+Encuentro 5.0
+<tags>
+
+
+
+Tengo el agrado de anunciar, luego de mucho (demasiado) tiempo, una nueva liberación de <a href="http://encuentro.taniquetil.com.ar/">Encuentro</a> (que es, como ya sabrán, un programejo que permite buscar, descargar y ver contenido del Canal Encuentro, Paka Paka, BACUA, Educ.ar, Decime quien sos vos, TED y otros).
+
+<a href="http://encuentro.taniquetil.com.ar/"><img src="http://www.taniquetil.com.ar/facundo/imgs/encuentro-logonuevo.png" alt="Encuentro (¡nuevo logo y tipografía!)" width="600" height="150" /></a>
+
+Esta nueva liberación se justifica principalmente por dos motivos: renovación, y cambio estético.
+
+La renovación es porque tuvimos (junto a <a href="https://twitter.com/dmascialino">Diego Mascialino</a>, que me ayudó un montón) que renovar la mitad de los backends, ya que algunos habían cambiado tanto que no andaban más y tuvimos que meterle bastante laburo para sacarlos adelante.
+
+El cambio estético viene de la mano de <a href="https://ceciliaschiebel.github.io/">Cecilia Schiebel</a>, quien de onda (o sea, porque tuvo la idea y se ofreció ella, y además no me quiso cobrar ni un peso) renovó la estética del sitio web, y armó un nuevo ícono e imágenes para el programa.
+
+También hay un par más de correcciones o mejoras, pero nada demasiado importante.
+
+El detalle de la nueva versión, instaladores, etc, en <a href="http://encuentro.taniquetil.com.ar/">la página oficial</a>.
+
+¡Que lo disfruten! |

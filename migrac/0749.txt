@@ -1,0 +1,37 @@
+2017-10-23 19:13:48
+Distribución de teclado
+<tags>
+
+
+
+Arranquemos la historia a principios de siglo, porque en algún momento hay que arrancarla.
+
+Mi computadora principal hogareña tenía un teclado con <a href="https://upload.wikimedia.org/wikipedia/commons/7/74/KB_Spanish.svg">distribución "en español"</a> (lo que normalmente se consigue en las casas de computación), pero en el laburo que arranqué en el 2000 (Unifón) todas las computadoras tenían <a href="https://upload.wikimedia.org/wikipedia/commons/8/8e/KB_Latin_American.svg">distribución "latinoamericana"</a> (que es lo que venden las marcas grandes, como IBM, Dell, etc, en toda latinoamérica).
+
+Los teclados eran diferentes, sí, pero no tanto. Encima alrededor del 2004 decidí comprarme un teclado de buena calidad, y elegí uno marca IBM, como los de la oficina, que me gustaban mucho. Obviamente, era distribución latinoamericana.
+
+Desde ese momento usé esa distribución exclusivamente.
+
+La laptop que usaba los últimos meses de Movistar, la que me dieron en Cyclelogic (una Dell Inspiron), y la que me dieron en Ericsson (creo que una HP) todas eran compradas acá así que eran todas con teclado latinoamericano.
+
+Cuando entré en Canonical, me compré una laptop yo. En ese momento compré en Argentina una <a href="http://www.taniquetil.com.ar/plog/post/1/403">Dell XPS m1330</a>, muy linda máquina. Al momento de renovarla busqué mucho y terminé en <a href="http://www.taniquetil.com.ar/plog/post/1/597">una Samsung que nunca me convenció mucho</a>, también comprada acá. En ambos casos, teclado latinoamericano.
+
+Y mientras tanto, seguía usando en la desktop el <strong>excelente</strong> teclado IBM que me había comprado hace tanto tiempo.
+
+El año pasado volvía a renovar la laptop, y luego de buscar varios meses algo que me convenciera acá en Argentina, en Chile o en Uruguay, terminé tomando la decisión de comprarla en USA (una Lenovo Thinkpad). Claro, con <a href="http://www.spanish411.net/images/Keyboard-US-International.gif">teclado en inglés</a>, pero mi idea era luego comprar el teclado acá y cambiárselo.
+
+Muchas personas (desde hace mucho tiempo) me preguntaban por qué no usaba teclado en inglés y listo. Puedo agrupar toda esa gente en dos grandes grupos:
+<ul>
+<li>los que usan el teclado en inglés configurado como "inglés", sin acentos ni eñe, pero escriben todo el tiempo con faltas de ortografía; esto es llanamente inaceptable para mí.</li>
+<li>los que usan el teclado en inglés configurado como "internacional con teclas muertas" (que era como yo tenía la laptop nueva), donde para poner un acento hay que teclear el tilde y luego la vocal; el problema de esto es que para escribir el tilde sólo, hay que teclear el tilde y luego espacio (y como es la misma tecla, para comillas hay que hacer shift+tilde y luego espacio). Funciona, pero es tremendamente ineficiente y molesto.</li>
+</ul>
+
+El 2017 me encontró con el mismatch de teclado entre el desktop y la laptop, algo que me molestaba bastante. Y en Agosto pasaron dos cosas.
+
+Por un lado ya me había cansado de esperar que Lenovo Argentina me vendiera un teclado en latinoamericano para la laptop. Nunca lo importaron, siempre me lo patearon para adelante, ¡durante un año!
+
+Por otro lado, Joac me mostró que hay una configuración "internacional con teclas muertas por AltGr", que lo que hace es evitar el "doble tecleo": para poner una á, sólo hay que hacer AltGr+a. Y listo. Tilde es tilde, comilla es comilla, etc. Hay casos donde necesitamos componer caracteres con varias teclas, pero no es frecuente (por ejemplo, si queremos escribir una &uuml;, donde ahí si tenemos que teclear AltGr+shift+tilde, y luego la u).
+
+Esta configuración me resultó bastante funcional (aunque no ideal), así que lo que tenía que hacer también era solucionar el mismatch con la desktop, por lo que me compré en el último viaje <a href="https://www.amazon.com/gp/product/B000AOYWVE/ref=oh_aui_detailpage_o07_s00?ie=UTF8&amp;psc=1">un teclado Lenovo que es igualito al IBM que tenía... pero en inglés</a>.
+
+Así que acá me ven, a la vejez viruela, etc, etc. |
