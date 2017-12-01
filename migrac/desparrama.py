@@ -1,20 +1,16 @@
-# select article_id, date, topic, normalized_text from plog_articles inner join plog_articles_text using(id) where article_id = 641;
-
+# select article_id, date, topic, text from plog_articles inner join plog_articles_text using(id) where article_id > 667;
 
 def process(bloque):
-    header, *resto = bloque
-    hparts = header.split("|")
-
-    postnum = hparts[1].strip()
-    dt = hparts[2].strip()
-    title = hparts[5].strip()
-
+    print("====== bloque", bloque)
+    firstline, *resto = bloque
+    _, postnum, dt, title, text_line1 = [x.strip() for x in firstline.split("|")]
     fname = postnum.zfill(4) + ".txt"
 
     with open(fname, "wt", encoding='utf8') as fh:
         fh.write(dt + "\n")
         fh.write(title + "\n")
         fh.write("<tags>\n\n")
+        fh.write(text_line1 + "\n")
         fh.writelines(resto)
 
 
