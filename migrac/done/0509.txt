@@ -1,8 +1,8 @@
 2011-04-19 11:02:35
 Tango de la Muerte
-<tags>
+música, letra, tango, dolina
 
-<em>Así se llama un tango que forma parte de la obra </em>"Lo que me costó el amor de Laura"<em>, del gran Alejandro Dolina. Está cantado por Juan Carlos Baglietto, y mientras la leen pueden escucharla <a href="http://www.youtube.com/watch?v=_PpmtEWz3oE&feature=player_detailpage#t=122s">acá</a> (se los recomiendo).</em><em></em>
+*Así se llama un tango que forma parte de la obra* "Lo que me costó el amor de Laura"*, del gran Alejandro Dolina. Está cantado por Juan Carlos Baglietto, y mientras la leen pueden escucharla `acá <http://www.youtube.com/watch?v=_PpmtEWz3oE&feature=player_detailpage#t=122s>`_ (se los recomiendo).*
 
 ¡Qué se haga ya la oscuridad!
 Deténgase la sucesión
@@ -33,4 +33,4 @@ Yo soy mi propia explicación
 Soy el sentido y el motor
 De la poesía y el amor
 La nada espera, vamos ya
-Su tiempo terminó</p> |
+Su tiempo terminó
