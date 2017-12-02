@@ -1,22 +1,23 @@
 2011-01-04 02:54:40
 Unos días en la costa
-<tags>
+paseo, playa, mar, felipe, carpa, arena
 
 Aprovechando que en Canonical no se trabaja entre Navidad y Año Nuevo, decidimos con la familia irnos unos días a la playa.
 
-No fueron demasiados, ya que el 26 lo pasamos preparando cosas, y volvimos el 30 a la tarde, así Felu estaba descansado y en casa durante el 31, así podíamos todos disfrutar mejor la última noche del año. Pero entre viaje y todo fueron casi cuatro días, lo cual nos sirvió para explorar cómo se llevaba Felipe con los viajes más o menos largos, y con la carpa en particular, el camping en general, la arena y el mar, las olas y el viento, sucundún, sucundún.
+No fueron demasiados, ya que el 26 lo pasamos preparando cosas, y volvimos el 30 a la tarde, así Felu estaba descansado y en casa durante el 31, y podíamos todos disfrutar mejor la última noche del año. Pero entre viaje y todo fueron casi cuatro días, lo cual nos sirvió para explorar cómo se llevaba Felipe con los viajes más o menos largos, y con la carpa en particular, el camping en general, la arena y el mar, las olas y el viento, sucundún, sucundún.
 
 En particular con Felipe, en el viaje no tuvimos problema. Nosotros somos de parar bastante, e hicimos que baje y camine un rato todas las veces, y más allá que se puso un poco fastidioso en algunos momentos, estuvo bien.
 
-Pero lo que nos pasó en el viaje fue que se nos voló el colchón de Felu que llevábamos en el portaequipaje! Salimos de una estación de servicio, y al ratito nos hace seña un auto de algo raro, y caímos en que no teníamos más el colchón arriba del techo :(. Ahí nomás se bajó Moni y empezó a caminar de regreso, y yo hice una U y volví por la ruta hasta la estación de servicio y recorrí la ruta despacito a ver si lo encontrábamos... y sí, encontré al borde de la ruta la bolsa con unas mantitas, y al colchón agarrado contra la baranda que da al Río Samborombon... de casualidad no se nos fue al agua.
+Pero lo que nos pasó en el viaje fue que se nos voló el colchón de Felu que llevábamos en el portaequipaje! Salimos de una estación de servicio, y al ratito nos hace seña un auto de algo raro, y caímos en que no teníamos más el colchón arriba del techo :(. Ahí nomás se bajó Moni y empezó a caminar de regreso, y yo hice una U y volví por la ruta hasta la estación de servicio y recorrí la ruta despacito a ver si lo encontrábamos... y sí, encontré al borde de la ruta la bolsa con unas mantitas, y al colchón agarrado contra la baranda que da al Río Samborombón... de casualidad no se nos fue al agua.
 
 Más allá de eso llegamos perfecto, y tempranito. Buscamos un camping, elegimos un lugar, armamos la carpa, y antes de que anochezca teníamos todo armado, así que aprovechamos para ir a saludar al mar.
 
 El primer encuentro de Felu con el mar no fue el más auspicioso: le hablaba pero estando arriba mío, no le gustaba mucho tocar el agua con los pies, y evitaba totalmente (haciendo unas contorsiones raras con el cuerpo) el tocar la arena: ¡no quería saber nada!
 
-<a href="http://www.taniquetil.com.ar/facundo/feluplaya-d1.ogv"><img src="http://www.taniquetil.com.ar/facundo/imgs/feluplaya-d1.jpg" /></a>
+.. image:: http://www.taniquetil.com.ar/facundo/imgs/feluplaya-d1.jpg
+    :link: http://www.taniquetil.com.ar/facundo/feluplaya-d1.ogv
 
-<em>(click en la foto para ver un video)</em>
+*(click en la foto para ver un video)*
 
 Incluso las primeras horas en la carpa, que estaba sobre un terreno mezcla arena, tierra y pasto, no estaba muy convencido de salir de una mantita que le habíamos puesto.
 
@@ -28,17 +29,19 @@ Se metió mejor en el mar, y en un punto hizo un click: encontró un palito y us
 
 Incluso no le molestaba demasiado el caerse sentado, y se volvía a parar solo.
 
-<a href="http://www.taniquetil.com.ar/facundo/feluplaya-d2.ogv"><img src="http://www.taniquetil.com.ar/facundo/imgs/feluplaya-d2.jpg" width="500" height="395" /></a>
+.. image:: http://www.taniquetil.com.ar/facundo/imgs/feluplaya-d2.jpg
+    :link: http://www.taniquetil.com.ar/facundo/feluplaya-d2.ogv
 
-<em>(click en la foto para ver un video)</em>
+*(click en la foto para ver un video)*
 
 El tercer día amaneció bastante fresco, así que fuimos a pasear por Mar de Las Pampas, a comprar algún que otro recuerdo, un llamador para la casa, Moni se compró algo de ropa, yo un libro ("Los juegos de Mastropiero", por Carlos Núñez Cortés), etc.
 
 También compramos algunas vituallas, y entre una cosa y la otra, no arrancamos a la playa hasta la tardecita. Pero Felipe lo disfrutó a full, metiendo bien las patas en el mar, e incluso jugando como loco en la arena. Ya no le tenía asco a nada.
 
-<a href="http://www.taniquetil.com.ar/facundo/feluplaya-d3.ogv"><img src="http://www.taniquetil.com.ar/facundo/imgs/feluplaya-d3.jpg" /></a>
+.. image:: http://www.taniquetil.com.ar/facundo/imgs/feluplaya-d3.jpg
+    :link: http://www.taniquetil.com.ar/facundo/feluplaya-d3.ogv
 
-<em>(click en la foto para ver un video)</em>
+*(click en la foto para ver un video)*
 
 En el camping ya estaba como chancho. Iba y venía de acá para allá, y hasta se cayó un par de veces con los vientos de la carpa (esa era fija que pasaba).
 
@@ -46,6 +49,6 @@ El último día nos levantamos tempranito... bah, Felipe nos levantó tempranito
 
 Bueno, decía, el último día nos levantamos tempranito, desayunamos, desarmamos y acomodamos todo, y a las once ya estábamos en la ruta, camino a Pinamar para pasar un rato ahí. Nos metimos en la playa para despedir al mar, y Felipe lo disfrutó a full, ya no ponía ningún pero.
 
-<img src="http://www.taniquetil.com.ar/facundo/imgs/feluplaya-d4.jpg" width="500" height="407" />
+.. image:: http://www.taniquetil.com.ar/facundo/imgs/feluplaya-d4.jpg
 
-Comimos, y emprendimos el regreso. Llegamos a casa a tiempo para desensillar, picar algo, e irnos a dormir. |
+Comimos, y emprendimos el regreso. Llegamos a casa a tiempo para desensillar, picar algo, e irnos a dormir.

@@ -1,9 +1,0 @@
-2011-01-11 02:38:16
-Junin, pasado y futuro
-<tags>
-
-Les dejo los videos de las <a href="http://jornadassl.agora.unnoba.edu.ar/">Sextas Jornadas de Software Libre de Junín</a>; <a href="http://unnoba.blip.tv/posts?view=archive&nsfw=dc">acá están todos</a>, y si releen <a href="http://www.taniquetil.com.ar/plog/post/1/487">mi post sobre el evento</a>, pueden sacar cuales me gustaron, :)
-
-Eso con respecto al pasado... ¿y al futuro?
-
-Bueno, resulta que en Junín se realizará la tercera edición de PyCon Argentina (organizada por la misma gente que hizo las jornadas mencionadas arriba). PyConAr 2011 será en dicha ciudad los días Viernes 23 y Sábado 24 de Septiembre; una semana antes que PyCon Brasil.                                                                                                                                                                                                                                                                         |

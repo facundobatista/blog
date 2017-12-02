@@ -4,7 +4,7 @@
 " para cargar esto:   :so macros.vim
 
 let @t = 'dt>xt<€krDo-------------------------------------------------------------------------------------------------------€ku€kl€kr€kd€krD€kd€kd'
-let @i = 'i.. image:: €kD€kD€kD€kD€kD€kD€kD€kD€kD€kD€@7xxxx€kh€kd€kd'
+let @i = 'i.. image:: ^[ldtht"lD'
 let @h = 'i`€krt>€kr€krdt<€kl€klT<€klP€kri €kr€krxxxxxxxxt>x€krxxR`_'
 let @l = 'xxxxi- €kljj'
 let @b = 'dt>xi*t<€krdt>xi*€ü'
