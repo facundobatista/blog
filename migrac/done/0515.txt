@@ -1,10 +1,10 @@
 2011-05-21 19:56:30
 Enjuewemela 0.3 está en la calle
-<tags>
+python, juego, liberación
 
-Enjuewemela es aún otro juego similar a los populares "Bejeweled" o "Diamond Mine". El juego se basa en alinear 3 o más gemas, tanto verticalmente como horizontalmente, intercambiando gemas adyacentes. Está (por supuesto) escrito en Python, usando el framework para juegos cocos2d.
+Enjuewemela es otro juego más similar a los populares "Bejeweled" o "Diamond Mine". El juego se basa en alinear 3 o más gemas, tanto verticalmente como horizontalmente, intercambiando gemas adyacentes. Está (por supuesto) escrito en Python, usando el framework para juegos cocos2d.
 
-La versión 0.3 trae un montón de nuevas características, y muchos bugs corregidos. Lo pueden <a href="http://launchpad.net/enjuewemela/trunk/0.3/+download/enjuewemela-0.3.tar.gz">descargar de acá</a>.
+La versión 0.3 trae un montón de nuevas características, y muchos bugs corregidos. Lo pueden `descargar de acá <http://launchpad.net/enjuewemela/trunk/0.3/+download/enjuewemela-0.3.tar.gz>`_.
 
 Noten sin embargo que todavía es una liberación pre-alfa: tiene un montón de detalles a mejorar, y necesita mucho amor a nivel de "arte".
 
@@ -28,4 +28,4 @@ Algunos de los cambios más grandes son:
 
 - Ahora se puede salir con ESC, y pausar el juego con "p" o la tecla de pausa.
 
-Para más información, pueden visitar <a href="http://launchpad.net/enjuewemela">la página del proyecto</a>.</p> |
+Para más información, pueden visitar `la página del proyecto <http://launchpad.net/enjuewemela>`_.

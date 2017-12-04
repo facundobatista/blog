@@ -1,8 +1,8 @@
 2011-05-03 20:01:14
 PyDay en Córdoba
-<tags>
+python, conferencia, cena, charlas
 
-El sábado pasado se hizo un nuevo <a href="http://www.pyday.com.ar/cordoba2011">PyDay en Córdoba</a>. Algunas fotos <a href="http://www.flickr.com/photos/54757453@N00/sets/72157626509291051/">acá</a>.
+El sábado pasado se hizo un nuevo `PyDay en Córdoba <http://www.pyday.com.ar/cordoba2011>`_. Algunas fotos `acá <http://www.flickr.com/photos/54757453@N00/sets/72157626509291051/>`_.
 
 Salí en avión el viernes a la tarde, en un vuelo que tuvo demora pero que me dejó en Córdoba a las seis y monedas. Me tomé un bondi, pasé un rato por lo de Naty y Matías, y me fui a cenar con Roberto Allende y Daniel Valfre, volví y a la cama
 
@@ -10,9 +10,10 @@ El sábado nos levantamos tempranito y fuimos hasta la UTN con Matías (Naty ven
 
 Las charlas del PyDay estaban separadas en dos tracks, principiante y avanzado. Así que al rato me metí en la sala donde eran las avanzadas y me quedé ahí hasta el mediodía.
 
-<img src="http://www.taniquetil.com.ar/facundo/imgs/pyday-abr11.jpeg" alt="Instrucciones y programa" height="425" width="600" />
+.. image:: http://www.taniquetil.com.ar/facundo/imgs/pyday-abr11.jpeg
+    :alt: Instrucciones y programa
 
-Algunas charlas que me interesaron: sobre <a href="http://www.nltk.org/">NLTK</a> y procesamiento de lenguaje natural, por Pablo Duboue y Rafael Carrascosa, realmente muy interesante todo lo que se puede hacer; una sobre Python, <a href="http://wiki.laptop.org/go/OLPC_Python_Environment">Sugar</a> y robótica, por Valentín Basel, muy groso controlar un robot físico con lo que es la evolución del <a href="http://es.wikipedia.org/wiki/Logo_%28lenguaje_de_programaci%C3%B3n%29">Logo</a>; una sobre <a href="http://www.myhdl.org/doku.php">MyHDL</a> por Martín Gaitán, donde vimos como diseñar silicio usando Python; y una sobre <a href="http://es.wikipedia.org/wiki/D-Bus">DBus</a> por Alecu, un tema que más o menos ya sabía pero siempre se aprende algún detalle.
+Algunas charlas que me interesaron: sobre `NLTK <http://www.nltk.org/>`_ y procesamiento de lenguaje natural, por Pablo Duboue y Rafael Carrascosa, realmente muy interesante todo lo que se puede hacer; una sobre Python, `Sugar <http://wiki.laptop.org/go/OLPC_Python_Environment>`_ y robótica, por Valentín Basel, muy groso controlar un robot físico con lo que es la evolución del `Logo <http://es.wikipedia.org/wiki/Logo_%28lenguaje_de_programaci%C3%B3n%29>`_; una sobre `MyHDL <http://www.myhdl.org/doku.php>`_ por Martín Gaitán, donde vimos como diseñar silicio usando Python; y una sobre `DBus <http://es.wikipedia.org/wiki/D-Bus>`_ por Alecu, un tema que más o menos ya sabía pero siempre se aprende algún detalle.
 
 Luego vinieron las lightning talks, mi plenaria sobre "Comunidad, anarquía y subversión", y el cierre. Estuvo muy bien el evento.
 
@@ -24,4 +25,4 @@ Mucha charla, partidos de ping-pong (hay que banear a Matías Herranz de cualqui
 
 La gente se fue retirando, y los más jóvenes (?) decidimos que la joda siguiera... bah, Perrito me dijo "vamos a tomar un café" y ahí arrancamos para otro lado. Terminamos yendo Perrito, Nueces, Anggie, su novio Catriel, y el que suscribe a un lugar a tomar un trago. Y más y más charla, hasta que el frío y el día largo hicieron estragos suficientes, y emprendimos la retirada (Perrito me hizo la gauchada de llevarme hasta lo de Naty).
 
-Al otro día, me levanté tempranito, me pegué un baño y preparé todo, desayuné con Naty, y de ahí al aeropuerto, y a casita, con la familia.</p> |
+Al otro día, me levanté tempranito, me pegué un baño y preparé todo, desayuné con Naty, y de ahí al aeropuerto, y a casita, con la familia.

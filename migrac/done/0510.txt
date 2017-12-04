@@ -1,6 +1,6 @@
 2011-04-27 11:00:08
 Fin de semana en Tapalqué
-<tags>
+paseo, visita, carpa, frío, asado, familia
 
 Viajamos el jueves... queríamos salir más temprano, pero terminamos armando casi todo el mismo jueves, así que no salimos antes de las once y cuarto.
 
@@ -14,7 +14,8 @@ Ese día para cenar hicimos un arroz con verduras y caballa, que no nos llegó a
 
 Al otro día, luego de desayunar salimos a pegar una vuelta por la ciudad. Por suerte, a pesar de ser viernes santo, encontramos un supermercado abierto y pudimos comprar carne, carbón, verduras, etc.
 
-<img src="http://www.taniquetil.com.ar/facundo/imgs/tapalque-plaza.jpeg" alt="Familia en la plaza" height="485" width="600" />
+.. image:: http://www.taniquetil.com.ar/facundo/imgs/tapalque-plaza.jpeg
+    :alt: Familia en la plaza
 
 El centro está lindo, una plaza muy cuidada (aunque con la fuente apagada), las calles pintorescas, una plaza seca de juegos para chicos, bien. Lo que no nos gustó fue un monumento que había en la plaza, que resalta con orgullo que la ciudad fue una avanzada en la matanza de los indígenas que se realizó bajo el gobierno de Rosas.
 
@@ -26,8 +27,9 @@ De nuevo estuvo complicado descansar, por el frío, así que con Moni terminamos
 
 El sábado hizo mucho sol, pero no llegaba a calentar demasiado en el camping abajo de los árboles. Por eso es que nos fuimos de picnic a unos cien metros de la carpa donde el sol pegaba lindo, y así pasamos la mañana calentitos.
 
-<img src="http://www.taniquetil.com.ar/facundo/imgs/tapalque-feluhojas.jpeg" alt="Felipe jugando con las hojas" height="450" width="600" />
+.. image:: http://www.taniquetil.com.ar/facundo/imgs/tapalque-feluhojas.jpeg
+    :alt: Felipe jugando con las hojas
 
 La tarde se fue pasando entre comida, charlas, un paseo que hicimos caminando por los alrededores del camping, y el desarmado de la carpa y armado de todo adentro del auto, y a la tardecita emprendimos el regreso. Nuevamente manejó la mitad Moni, y llegamos bien entrada la noche, pero no tan tarde, con tiempo para incluso acomodar muchas de las cosas antes de irnos a dormir.
 
-La pasamos bien (todas las fotos <a href="http://www.flickr.com/photos/54757453@N00/sets/72157626586165836/">acá</a>), pero un bajón el frío... para el año que viene, veremos si podemos hacer que semana santa caiga en Febrero, :p</p> |
+La pasamos bien (todas las fotos `acá <http://www.flickr.com/photos/54757453@N00/sets/72157626586165836/>`_), pero un bajón el frío... para el año que viene, veremos si podemos hacer que semana santa caiga en Febrero, :p
