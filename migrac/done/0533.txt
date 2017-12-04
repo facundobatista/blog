@@ -1,12 +1,14 @@
 2011-10-06 22:17:41
 Encuentro 0.3
-<tags>
+liberación, python
 
 Encuentro es un simple programa que permite buscar, descargar y ver contenido del Canal Encuentro.
 
 Notar que este programa no distribuye contenido de Canal Encuentro, sino que permite un mejor uso personal de esos contenidos. Por favor, referirse al sitio web de Canal Encuentro (www.encuentro.gov.ar) para saber qué se puede y qué no se puede hacer con los contenidos de ese sitio.
 
-<a href="http://encuentro.taniquetil.com.ar/"><img src="http://encuentro.taniquetil.com.ar/imgs/title.png" alt="Encuentro" height="175" width="688" /></a>
+.. image:: http://encuentro.taniquetil.com.ar/imgs/title.png
+    :alt: Encuentro
+    :link: http://encuentro.taniquetil.com.ar/
 
 La versión 0.3 (todavía pre-alfa) trae los siguientes cambios con respecto a la versión anterior:
 
@@ -20,10 +22,10 @@ La versión 0.3 (todavía pre-alfa) trae los siguientes cambios con respecto a l
 
 - También corregí algunos problemillas, y limpié un poco el código.
 
-La forma más fácil de instalarlo, si tienen un Debian o Ubuntu, es usando <a href="http://launchpad.net/encuentro/trunk/0.3.1/+download/encuentro-0.3.1.deb">este instalador</a>. Si quieren obtener automaticamente las nuevas actualizaciones, pueden suscribirse al PPA; en una linea de comandos hagan:
+La forma más fácil de instalarlo, si tienen un Debian o Ubuntu, es usando `este instalador <http://launchpad.net/encuentro/trunk/0.3.1/+download/encuentro-0.3.1.deb>`_. Si quieren obtener automáticamente las nuevas actualizaciones, pueden suscribirse al PPA; en una linea de comandos hagan::
 
-<span style="font-family: courier new,courier;">&nbsp; sudo add-apt-repository ppa:facundo/encuentro</span>
+    sudo add-apt-repository ppa:facundo/encuentro
 
-En cualquier otro caso, pueden usar <a href="http://launchpad.net/encuentro/trunk/0.3.1/+download/encuentro-0.3.1.tar.gz">el tarball </a>para instalarlo. Recuerden revisar el archivo AYUDA.txt si tienen alguna duda de cómo usar el programa.
+En cualquier otro caso, pueden usar `el tarball <http://launchpad.net/encuentro/trunk/0.3.1/+download/encuentro-0.3.1.tar.gz>`_para instalarlo. Recuerden revisar el archivo AYUDA.txt si tienen alguna duda de cómo usar el programa.
 
-¡Que lo disfruten!</p> |
+¡Que lo disfruten!

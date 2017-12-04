@@ -1,0 +1,9 @@
+2011-10-12 20:41:48
+Diversidad cultural
+diversidad, python, comunidad
+
+Hoy, 12 de Octubre, fue durante casi todo el siglo pasado y parte de este el *Día de la Raza*, pero fue cambiado hace poco y ahora se denomina *Día del Respeto a la Diversidad Cultural*.
+
+Como festejo de este día, les dejo la traducción de la declaración de diversidad de la Python Software Foundation (pueden ver el original `acá <http://www.python.org/community/diversity/>`_), declaración que Steve Holden comentó y explicó en la última PyCon en Argentina, y la cual comparto:
+
+    La Python Software Foundation y la comunidad global de Python damos la bienvenida y alentamos la participación de todos. Nuestra comunidad está basada en el respeto mutuo, la tolerancia, y el ánimo, y estamos trabajando para ayudarnos entre todos a vivir en base a estos principios. Queremos que nuestra comunidad sea más diversa: dondequiera que estés, y cualquiera sea tu origen, te damos la bienvenida.
