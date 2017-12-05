@@ -1,0 +1,39 @@
+.. date: 2007-05-14 21:20:51
+.. title: Finde de cumpleaños
+.. tags: cumpleaños, juego, python, asado, pizzas
+
+Arranqué con el mío el viernes a la noche. Yo ya había hecho `una función del mismo <http://www.taniquetil.com.ar/plog/post/1/256>`_, y van a seguir, pero el viernes agrupé a lo que podríamos llamar "el grupo Python".
+
+Vinieron a casa Chaghi, Lucio, Leito y Carolina, Dave, Alecu, y Marito, como pueden ver en el siguiente collage (y Guillermina, que no apareció en la foto).
+
+.. image:: http://farm4.static.flickr.com/3340/3257151011_0fddba7f54_o.jpg
+
+Comimos bien. Con Moni armamos dos entradas distintas, y luego ella cocinó un fricassé de pollo muy rico. Y torta de postre, :).
+
+Python y el software en general fue un tema casi obligado, y creo que hubieron una o dos laptops siempre usándose en cualquier momento dado. Incluso se hablaron de algunos proyectos locos y algo se comenzó a explorar ahí mismo (lo de siempre, bah, conquistar el mundo...).
+
+Finalmente pude jugar a un juego muy loco que Alecu y Lucio conocieron en la última PyCon. Las reglas del juego son sencillas, pero el juego no. A priori, hay dos cosas muy buenas del mismo (aparte de que es divertido), que me llamaron la atención:
+
+- Es muy dificil desarrollar un sistema, hay que improvisar todo el tiempo
+
+- Es en tiempo real, no por turnos, todos metiendo la mano simultáneamente, :)
+
+Acá pueden vernos jugando, a Lucio, Carolina, yo y Alecu (de izq a der).
+
+.. image:: http://farm4.static.flickr.com/3099/3257980416_5b4279a612_o.jpg
+
+Los chicos se fueron pasadas las cuatro y media de la mañana... La pasamos de maravillas, :)
+
+El sábado, nos levantamos como pudimos y fuimos al cumple de mi hermana (había cumplido el 10, pero lo festejaba el sábado, mañana, tarde y noche).
+
+Gustavo se mandó un rico asadito, como corresponde a un sábado al mediodía...
+
+.. image:: http://farm4.static.flickr.com/3365/3257151111_e0be4e99da_o.jpg
+
+Ayer domingo, tuvimos dos cumpleaños más. Al mediodía, el de Karen (¡ya son seis añitos! Pensar que a Kike lo conozco de antes de que Fabi quede embarazada...). Y de ahí, a lo de mi viejo, que justo cumplía ayer, 13 de Mayo.
+
+.. image:: http://farm4.static.flickr.com/3340/3257980568_9b31fc9c1f_o.jpg
+
+Se amasó unas pizzas muy ricas, y charlamos de mil cosas, pero como era Domingo, no nos pudimos quedar demasiado, y nos volvimos temprano. Encima Diana se sentía mal, con lo que se fue incluso antes de comer...
+
+Resumiendo, creo que nunca tuve tantos cumpleaños en un fin de semana, :D

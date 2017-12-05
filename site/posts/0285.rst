@@ -1,0 +1,17 @@
+.. date: 2007-08-30 21:23:33
+.. title: Transportes y el modelo
+.. tags: medios de transporte, bus, metro, modelos, ciudades
+
+Cuando llegué a Chile me estaba esperando un remis, con el que viajé unos 20 minutos hasta el apart-hotel que me había reservado la empresa.
+
+Durante ese tiempo, estuve charlando con el chofer sobre los medios de transporte en Santiago. El tema surgió porque ese día había manifestación en la ciudad, porque el llamado "Plan Santiago" había sido un fracaso.
+
+Este plan, impulsado por la presidenta Bachellet, duplicó el precio del boleto (¡a un dólar!), y prometió reemplazar los 7000 buses normales por 5000 tipo "oruga" (de esos largos con un acordeón en el medio). Había también una renovación pensada para los vehículos, y un sistema de GPS para controlarlos mejor, etc. El tema es que con esos 5000 no dan a basto, se forman larguísimas colas para viajar, y está todo bastante espeso. La renovación vehicular se hizo, pero en general los automóviles en Santiago son muy nuevos, lo normal es que sean de después del 2000, así que eso no es tan relevante.
+
+El metro (subte) funciona OK, aunque ahora está muy desbordado porque los buses no andan como corresponden. Estos últimos nunca fueron de cumplir horarios (por eso lo del GPS), y en general se los espera bastante. Eso sí, como son vehículos nuevos, contaminan poco (tanto de humo como de ruido), y son cómodos.
+
+¿Y qué me importa a mi todo eso? No se, pero me importa.
+
+Como dice el dicho, "Dios los cría y ellos se juntan". Hace un par de semanas en las oficinas de Except, en Córdoba, dónde hicimos la reunión de PyAr y posterior parranda, había una revista "Go local!" que hablaba de temas como desarrollo sustentable, cambios climáticos, problemas de las grandes ciudades, etc. Hay un subgrupo de la gente de PyAr que se está formando para hablar temas como estos.  Cuando fuimos a Córdoba, yo le decía a Leito (que había ido conmigo también a Santa Fe)... "¿puede ser que en todos los viajes terminemos hablando de sociología?".
+
+Ya van varias charlas que tenemos con respecto a los modelos de sociedades que tenemos, los problemas de cada uno, qué se puede hacer para mejorar. Creo que es una evolución natural de los intereses de una persona, especialmente cuando va creciendo (y saliendo de la adolescencia, como yo, ;), el tratar de mejorar un poquito la sociedad en la que vive. En parte por eso, uno también está metido en el Software Libre...

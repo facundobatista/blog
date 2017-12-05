@@ -1,0 +1,29 @@
+.. date: 2007-03-06 06:42:16
+.. title: San Pablo
+.. tags: viaje, brasil, aeropuerto, wifi, espera
+
+O, cómo lo escribirían aquí, <a href="http://es.wikipedia.org/wiki/S%C3%A3o_Paulo">São Paulo</a>.
+
+Estoy en Brasil esta semana, sí. Por trabajo. Salí de casa el lunes a la mañana, el viernes a la noche estoy en casa nuevamente.
+
+El viaje estuvo complicado. Teóricamente salía a las 8hs, pero el avión que iba a Ezeiza, que tenía que llegar como a las 7 de la mañana, fue desviado a Córdoba porque no podía bajar en Ezeiza por la niebla. Resulta que ese avión después no pudo salir de Córdoba, porque el aeropuerto estaba cerrado allá también por condiciones climáticas. La cuestión: se terminó reprogramando para las 13:50. Sí, casi seis horas después.
+
+¿Qué hice esas seis horas? Un poco de todo. Desayuné, que no había comido nada antes de salir. Leí bastante, siempre llevo encima suficiente material de lectura.
+
+Y usé la laptop. Contesté todos los mails que tenía pendiente, leí todas las listas de correo que tenía pendiente, y programé algo de Python, tanto para Python mismo (estoy empezando a modificar algunas cosas en un módulo), como para XPN, el cliente de noticias que uso.
+
+El Aeropuerto de Ezeiza está complicado en algo básico: enchufes. Un aeropuerto moderno tiene que tener enchufes, porque una parte importante de la gente que viaja, lo hace con portátiles. Y ni bien te hicieron esperar más de media hora, usás la portátil. Y ni bien te hicieron esperar más de dos horas, no te alcanza la batería. Entonces, la gente necesita enchufes.
+
+Yo encontré dos que funcionaban y uno que no, y pude hacer durar la batería, alternando con otra gente que también los estaba usando. Pero toooooodo un aeropuerto, con dos enchufes accesibles en las zonas de espera, está mal.
+
+El otro punto en contra es que no tenía WiFi accesible. Sí tenía WiFi, pero el sentido de mafia está más inculcado en algunas empresas que el sentido de servicio. Explico: Telecom tiene la infraestructura de WiFi funcionando, a la cual uno accedería comprando unas tarjetitas en el puesto de Arnet que está en el aeropuerto (luego uno se conecta al WiFi, entra a internet y le aparece una pantalla de login donde tiene que poner usuario y clave, sacados de la tarjetita, y tiene internet durante determinado tiempo).
+
+Resulta que Telecom hizo un acuerdo con uno (o más) de los bares que están ahí, entonces ellos mismos no podían vender las tarjetas, y el bar te daba una si consumías en el bar. ¿Pero saben qué? El bar se había quedado sin tarjetas. Ergo, no había WiFi.
+
+Este... no había WiFi con tarjetita. Si van al aeropuerto, conéctense a Arnet, ingresen a la pantallita de login, y pongan admin/admin. Así, tan tontos que no sacaron el acceso por default, tuve red un rato (cuando me di cuenta de eso), hasta que salió el avión.
+
+Después anduvo todo bien, llegué al hotel demasiado tarde como para ir a la oficina, pero me acomodé, salí a comer (me encontré de casualidad con Tiago, conocido de `LogicaCMG <http://www.logicacmg.com/>`_, aunque ya habíamos hablado y lo tenía que llamar), me bañé y me fui a dormir.
+
+Un detalle, para que tengan en cuenta: no confíen en los taxistas, ni siquiera en los que son confiables, :p. `Ya me pasó en Holanda <http://www.taniquetil.com.ar/plog/post/1/26>`_, que el taxista nos dejó en el hotel equivocado. Ayer casi me pasa lo mismo. Presten atención a la dirección. Fíjense si van por la calle correcta, miren bien el número de edificio.
+
+Nota: el hotel tampoco tiene WiFi. En el quinto piso se agarran algunas redes, pero todas bloqueadas (tengo que trabajar un poquito con eso). Y en el lobby, así como en el shopping cercano al que fui a comer, lo único que hay es WiFi de una compañía... que tenés que comprar una tarjetita y poner usuario y clave, :s.

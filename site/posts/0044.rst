@@ -1,6 +1,6 @@
-.. date:  2005-03-31 11:22:33
+.. date: 2005-03-31 11:22:33
 .. title: Reclamos, novedades, y artículos
-.. tags:  textos, novedades, reclamos
+.. tags: textos, novedades, reclamos
 
 Esta semana viene de reclamos. No sólo con Speedy que me tiene sin servicio desde Enero (aunque me siguen cobrando mes a mes), sino que me estoy cruzando varios mails con Subtecard porque, cito, *"la pagina de subtecard solo es compatible con Internet Explorer, preferentemente en la versión 6.0..."*. Imbéciles. Ojalá que cuando tengan que migrar incurran en costos altísimos por haberlo hecho mal de entrada.
 

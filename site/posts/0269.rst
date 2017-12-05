@@ -1,0 +1,105 @@
+.. date: 2007-07-03 08:32:24
+.. title: Barra reloaded
+.. tags: blog, infrastructura, enlaces, recomendaciones
+
+Como pueden ver, arrancamos Julio con un layout diferente de la *barra de la derecha*.
+
+A grandes rasgos, lo que hice fue agrupar los *archivos* en un combo, y cambié el significado de la sección *Enlaces*.
+
+Puse los archivos en un combo porque ya tenía más de 30 lineas (mes a mes, desde Agosto del 2004), y es al cuete: si uno quiere ir a un mes específico sirve tanto el combo como que estén listados uno por uno.
+
+En los enlaces el cambio fue más profundo. A partir de ahora **no** linkeo enlaces externos, sino sólo internos. Esto es porque luego de una revisión, la mayoría de los que quedaban eran internos, y cuando es un enlace externo que reviso frecuentemente, termino linkeándolo en los posts mismos.
+
+Este es el listado de lo que había antes, y lo que pasó:
+
+**Frecuentes**
+
+- `Python Argentina <http://www.python.com.ar/moin>`_: Casi siempre que la nombro, la linkeo.
+
+- `Daily Python-URL <http://www.pythonware.com/daily/>`_: Antes lo leía bastante, pero luego empezaron a poner 400 links por día (de los cuales 399 siempre aparecían en otro lado), así que dejé de leerlo. Acabo de entrar, y hay menos información, supongo que mejor seleccionada. Lo agregué a `mi cliente RSS <http://liferea.sourceforge.net/es/>`_, veremos como evoluciona esto...
+
+- `Página 12 <http://www.pagina12.com.ar>`_: Lo sigo leyendo a diario, y casi siempre que lo nombro, lo linkeo.
+
+- `cHagHi <http://www.chaghi.com.ar/blog/>`_: El blog de Mariano, siempre interesante...
+
+- `Joel on Software <http://www.joelonsoftware.com/>`_: Lo sigo por RSS, es sólo interesante cuando escribe sus bien conocidos artículos, no noticias cortas de cómo le va con su software...
+
+- `Miguel de Icaza <http://tirania.org/blog/>`_: Entre que no sigo a Mono, y no me interesan sus comentarios políticos, lo dejé de leer.
+
+- `Nat Friedman <http://nat.org/>`_: Cuando escribía, (normalmente) estaba bueno. Hace un año que no lo actualiza...
+
+
+**Hardware**
+
+- Hardware de PC (UNLaM): La página ya no existe, la saqué porque me pesaba demasiado en el blog. Esta sección nació porque iba a linkear páginas de hardware, pero la verdad es que ya no sigo mucho ese tema...
+
+
+**Linux**
+
+- `Multimedia en Fedora <http://tldp.org/HOWTO/Fedora-Multimedia-Installation-HOWTO/>`_: No uso más Fedora, ahora soy un chico `Ubuntu <http://www.ubuntu.net/>`_.
+
+- `DNS HowTo <http://www.faqs.org/docs/Linux-HOWTO/DNS-HOWTO.html>`_: Este tipo de artículos es el que linkearía cuando lo menciono en un post.
+
+- `Securing a fresh Linux install <http://docs.linux.com/article.pl?sid=04/04/15/1913248&tid=2>`_: Idem anterior.
+
+
+**Referencia**
+
+- `The Encyclopedia of Arda <http://www.glyphweb.com/arda/index.html>`_: Para los fanáticos de Tolkien.
+
+- `Via Michelin <http://www.viamichelin.com/viamichelin/int/tpl/hme/MaHomePage.htm>`_: Fantástico lugar para encontrar direcciones en Europa. Pero no en Argentina (sería buenísimo disponer de algo así...).
+
+- Verba Universal Conjugator: No me queda claro si el sitio no está más, o lo compraron y lo volvieron inusable...
+
+- `Colección de Mapas <http://www.lib.utexas.edu/maps/map_collection_guide.html>`_: Interesante si buscan mapas. Por ejemplo, `este <http://www.lib.utexas.edu/maps/americas/argentina_pol96.jpg>`_ es uno de los que hay de Argentina.
+
+
+**Software**
+
+- `Curso de Python <http://www.taniquetil.com.ar/facundo/cursoPython.html>`_: Temario del curso de Python que he dado tantas veces, y que sigo dando, a particulares, terciarios, empresas, etc...
+
+- `Python patchs <http://www.taniquetil.com.ar/facundo/py_patchs_00.html>`_: Resumen siempre actualizado de los `Parches <http://es.wikipedia.org/wiki/Parche_inform%C3%A1tico>`_ propuestos de Python.
+
+- `Python bugs <http://www.taniquetil.com.ar/facundo/py_bugs_00.html>`_: Resumen siempre actualizado de los `Bugs <http://es.wikipedia.org/wiki/Error_de_software>`_ reportados de Python.
+
+- `Open Office <http://www.openoffice.org/>`_: Fantástico suite de oficina, lo uso todo el tiempo.
+
+- `SourceForge <http://sourceforge.net/>`_: Podrán criticarle mil cosas, pero si en algo falla, es que el proyecto ya es grande y puede conseguirse solito los servicios que ellos dan gratis.
+
+- `Mozilla <http://www.mozilla.org/>`_: ¡¡Redescubrimos la web!!
+
+
+**Tecnología**
+
+- `How Stuff Works <http://www.howstuffworks.com/>`_: Muy buen sitio con explicaciones de cómo funciona todo (desde equipos electrónicos a procesos comerciales).
+
+- `The Harrow Technology Report <http://www.theharrowgroup.com/>`_: Reportes buenísimos sobre tecnología, lo cité más de una vez. Lamentablemente dejaron de aparecer hace un año y medio, vaya uno a saber por qué...
+
+
+**Varios**
+
+- `Clases de Fotografía <http://www.taniquetil.com.ar/facundo/bdvfiles/clasesfoto.html>`_: Las clases de fotografía del Inmenso Alopa.
+
+- `BDV Anterior <http://www.taniquetil.com.ar/facundo/bdvfiles/bdv-anterior.html>`_: Resumen de la primer y original Bitácora de Vuelo, que creé y mantuve durante mi estadía en Italia, en el 2002.
+
+- `Busque marcianitos <http://setiathome.berkeley.edu/>`_: Antes era buenísimo, pero cambiaron de modelo de procesamiento distribuido a uno que me trajo tantos problemas, que dejé de ayudar...
+
+- `Curso de Quenya <http://www.uib.no/People/hnohf/qcourse.htm>`_: Curso para aprender a hablar y escribir `Quenya <http://es.wikipedia.org/wiki/Quenya>`_.
+
+- `Películas <http://www.taniquetil.com.ar/facundo/bdvfiles/peliculas.html>`_: Lista de películas que tengo pendientes de ver.
+
+- CV Castellano e inglés: Los saqué, porque lo que es interesante, no puede ser tan público. Pero si necesitan mi CV, tienen mi contacto en esta misma página...
+
+- Videos: Lista de algunos videos míos que yo servía a través de la mula. Si alguna vez retomo este proyecto, seguro los subo a YouTube o lugar similar...
+
+- `Libros <http://www.taniquetil.com.ar/facundo/bdvfiles/libros.html>`_: Lista de los libros que tengo guardados.
+
+- `El Gordo en Colombia <http://www.taniquetil.com.ar/facundo/bdvfiles/egec.html>`_: Fantástico relato fantástico (primer cuento entregado por SMS), por El Inmenso Alopa.
+
+También le agregué, casi abajo de todo, la `licencia bajo la cual publico <http://creativecommons.org/licenses/by-nc-sa/3.0/deed.es_AR>`_ **todo** el contenido del sitio (a menos que en algún lado puntual se especifique lo contrario).
+
+La licencia es una Creative Commons típica, bajo la cual son libres de copiar, distribuir y exhibir la obra, e incluso hacer obras derivadas, pero siempre teniendo en cuenta de que tienen que atribuirme la obra original, y que si distribuyen algo que incluye este material, deberán distribuirlo bajo esta misma licencia. Es importante notar que no pueden usar esta obra con fines comerciales. Para mayor detalle, vayan a la página de la licencia...
+
+Como retoque mínimo, incrementé la cantidad de comentarios anteriores que se muestran al principio de la barra: la llevé de cinco a siete, que es otro número primo piola (?!).
+
+Cualquier detalle que haya quedado mal, o mejoras que se les ocurra en la *usabilidad* del sitio, me avisan. Disfruten.

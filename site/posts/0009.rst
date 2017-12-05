@@ -1,0 +1,13 @@
+.. date: 2004-11-01 11:10:22
+.. title: Liberación oficial del blog
+.. tags: blog, infrastructura
+
+Doy de alta oficialmente mi blog, :)
+
+Desde que lo instalé hasta ahora me tardé un poquito, por lo que las primeras noticias la van a encontrar en Archivos (a la derecha de la página, hay uno por mes). También pueden ver las noticias agrupadas por distintas categorías, si lo desean (siempre a la derecha, verán que están las categorías con un número que indica cuantas noticias hay en cada una).
+
+También podrán encontrar una serie de enlaces que son muy útiles/importantes para mi (adivinen en que lugar de la página, ;).
+
+Cualquier comentario será bienvenido. Para ello pueden enviarme un mail directamente a facundo arroba taniquetil punto com punto ar, o contestar las mismas noticias (al final de cada una hay un enlace para ello).
+
+¡Que lo disfruten!

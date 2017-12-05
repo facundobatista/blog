@@ -1,0 +1,43 @@
+.. date: 2007-10-24 12:59:19
+.. title: Jugando con la red
+.. tags: ssh, red, puertos, vpn, proxy
+
+Hace rato que venía manejándome diariamente con túneles SSH (o puentes, llamados por algunos). Pero esta semana aprendí un par de cosas más.
+
+
+Túnel local
+-----------
+
+Un túnel SSH, de la manera que yo lo hacía, me permitía llegar a un destino específico a través de otra máquina. Esto lo hacía porque no podía llegar directamente a ese destino específico, pero sí a la máquina intermedia.
+
+Por ejemplo, en el laburo, cuando no tengo trabajo, entro al canal de PyAr en IRC (#pyar en Freenode). Pero si yo quiero alcanzar el puerto 6667 del servidor irc.freenode.org desde el trabajo, no puedo. Pero sí puedo llegar a mi casa con SSH. Entonces hago un puente como el siguiente::
+
+    ssh -L 4567:irc.freenode.org:6667 lamaquinademicasa.net
+
+Entonces, el SSH desde la PC del laburo se conecta a la máquina de mi casa (previa autenticación mía). Luego apunto al programita de chat para que se comunique con la PC del laburo, al puerto 4567, y automágicamente termina llegando a irc.freenode.org al puerto indicado, y *voilá*.
+
+
+Túnel dinámico
+--------------
+
+En la máquina del laburo tengo un VirtualBox con un Ubuntu instalado adentro. Si yo quiero navegar desde ahí, sin salir por el proxy del laburo, tenía que hacer también un puente SSH. Pero en el caso anterior el destino es fijo, y uno cuando navega en Internet quiere acceder a muchos destinos... ¿cómo se hace? Solución: un túnel dinámico!
+
+::
+
+    ssh -D 4567 lamaquinademicasa.net
+
+Luego agarro el navegador, y lo configuro como que tengo instalado un proxy tipo SOCKS en la PC del laburo, en el puerto 4567. Y listo, funciona perfecto.
+
+
+It's the proxy, stupid!
+-----------------------
+
+Pero luego quise utilizar una herramienta a la que no se le puede configurar el proxy SOCKS (el Synaptic...), ¿cómo podía hacer?
+
+Ahí encontré el programita *tsocks* (tienen una linda explicación en castellano `aquí <http://rubensa.wordpress.com/2006/03/22/ubuntu-tsocks/>`_). Lo instalé, lo configuré, y luego ejecuté Synaptic de la siguiente forma::
+
+    sudo tsocks synaptic
+
+(el sudo es porque Synaptic tiene que levantar con permisos de superusuario)
+
+Y listo! :)

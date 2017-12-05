@@ -1,0 +1,17 @@
+.. date: 2010-11-26 19:56:00
+.. title: Cerrando el año con todo
+.. tags: cierre, conferencias, tiempo libre
+
+Bueno, casi. Estamos terminando Noviembre, pero venimos muy acelerados.
+
+Por suerte casi se terminó la "época de conferencias". Dos PyCon en Octubre y Jornadas en Junín en Noviembre me sacaron bastante tiempo. Pero también tuve un viaje de capacitación a Orlando de una semana, y tengo un sprint la semana que viene (por suerte en Buenos Aires). Ah, y veníamos casi sábado por medio con las Charlas Abiertas en La Tribu...
+
+Mañana está `Fábrica de Fallas <http://culturalibre.fmlatribu.com/?p=101>`_, y el domingo viene gente a casa, hago asado para quince. Por suerte hoy puedo relajarme un poquito, ¿no? No, a las seis me rajo para La Plata al evento de cierre del `postgrado de computación para científicos <http://www.taniquetil.com.ar/plog/post/1/426>`_ en el que vengo mostrando Python los últimos dos años.
+
+Pero bueno, calavera no chilla y chancho limpio nunca engorda (?).
+
+Por otro lado, la familia muy bien, ví a mi padre, madre y hermana esta semana, Felu sigue creciendo maravillosamente, y con Moni estamos terminando de terminar los arreglos iniciales de la casa para terminar de mudarnos (sí, nos mudamos hace dos meses, pero todavía no terminamos).
+
+Tengo a todos mis proyectos open source casi en hold, ya retomarán momento cuando termine de cerrar el año.
+
+Bueno, los dejo que me tengo que ir a bañar, recién llegué de tenis (hermoso día de 33°C con un sol bárbaro).

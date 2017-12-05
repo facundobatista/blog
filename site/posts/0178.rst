@@ -1,0 +1,13 @@
+.. date: 2006-05-05 13:38:35
+.. title: Verano (invierno) de código
+.. tags: google summer of code, psf, dinero
+
+Más especificaciones con respecto al Summer Of Code de Google.
+
+Los estudiantes que quieran encarar un proyecto (pueden elegir alguno de `aquí <http://wiki.python.org/moin/SummerOfCode/>`_ y ver también más info) no tienen más que escribir una propuesta.
+
+Luego de ser aprobada, se pondrán algúnos hitos y se irá evaluando el desarrollo del proyecto en el tiempo, durante lo que dure el verano (invierno aquí).
+
+Al final del proyecto, el estudiante recibirá **4500 dólares** de Google (otros 500 dólares van para la organización que coordinó el proyecto (en este caso, la Python Software Foundation).
+
+Entonces... ¡a proponer ideas y ganar platita! :D

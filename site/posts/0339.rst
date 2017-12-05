@@ -1,0 +1,37 @@
+.. date: 2008-03-21 20:04:16
+.. title: Documentos libres
+.. tags: documentos libres, fundación, vía libre
+
+Fundación Vía Libre invita a la celebración del Día de los Documentos Libres, el próximo 26 de Marzo.
+
+Con tal motivo se organizó una jornada para llamar la atención sobre la necesidad de utilizar estándares abiertos en archivos digitalizados de información. Como única forma de conservar nuestros datos en el mediano y largo plazo, y como garantía de la libertad de elección de plataformas informáticas, los estándares abiertos representan la clave para la construcción de entornos informáticos donde nuestra información no quede secuestrada en manos de un formato privativo de una sola empresa.
+
+Las actividades coordinadas por Vía Libre se llevarán a cabo el mismo día miércoles 26 de marzo. En la Ciudad de Buenos Aires, desde las 19 horas en la Sala Garibaldi del Centro Cultural de la Cooperación, Av. Corrientes 1543, Enrique Chaparro, María Elena Casañas y Ezequiel Singer realizarán presentaciones prácticas y conceptuales en relación a los formatos abiertos en materia de documentación, haciendo especial énfasis en el manejo de documentos de ofimática bajo la norma ISO 26300 y el estándar internacional ODF. Pueden encontrar más información sobre actividades en Córdoba y Santa Fé en el `anuncio original <http://www.vialibre.org.ar/2008/03/18/26-de-marzo-dia-mundial-de-los-documentos-libres/>`_. Todas las actividades de esta jornada son libres y gratuitas.
+
+
+¿Por qué dedicar un día a los documentos libres?
+------------------------------------------------
+
+El uso de programas de ofimática es una de las tareas más extendidas en materia de computación. Todas aquellas personas que trabajan en nuevas tecnologías dependen en gran medida de la ofimática para sus tareas cotidianas. En este sentido, día a día, archivamos miles de millones de documentos en este formato. La gran mayoría de las personas jamás se han detenido a considerar la importancia de esos formatos para la conservación de sus documentos. Así, nos encontramos con que documentos guardados hace 5 o 10 años ya no son accesibles con los programas de ofimática actuales. Esto se debe a que algunas empresas de software privativo que nos proveen los paquetes de oficina necesitan mantener un flujo regular de venta de programas que en definitiva hacen las mismas tareas que sus predecesores. La incompatibilidad deliberada entre formatos es una de las estrategias para forzarnos a comprar nuevas licencias de sus programas. Un ejemplo práctico de esta realidad es lo que ocurre con los documentos en formato .docx de la nueva suite de oficina Office 2007 de Microsoft, que sólo es accesible desde una copia del mismo programa, forzando a la gente a comprar la nueva aplicación aunque no tenga necesidad real de hacerlo.
+
+Hoy día somos capaces de interpretar el legado documental de generaciones ancestrales mientras que perdemos irremediablemente documentación elaborada hace 10 o 15 años simplemente porque el proveedor de las aplicaciones y el formato de archivos decidió discontinuarlos. Es nuestra memoria social lo que está en riesgo y por la cual somos responsables.
+
+Afortunadamente, la solución a este grave problema ya está entre nosotros, y se basa en un principio muy simple: el uso de estándares abiertos para el archivo de documentos.
+
+Un estándar abierto se caracteriza por:
+
+- tener todas sus especificaciones disponibles de modo tal que cualquier persona, empresa u organización pueda acceder a ellas y desarrollar una implementación
+
+- estar libre de patentes que hagan que un proveedor esté en mejores condiciones que otro para implementarlo.
+
+- debe ser mantenido por múltiples actores y organizaciones
+
+- deben existir diversas aplicaciones que lo implementen.
+
+En materia de ofimática, estas condiciones sólo las reúne el estándar ODF, validado por ISO como Norma ISO 26300. Dada la fundamental importancia de la interoperabilidad y la conservación de los documentos, muchas administraciones públicas del mundo están adoptando ODF como estándar para sus documentos, para mantenerlos así libres del monopolio y el arbitrio de un sólo proveedor de software.
+
+Pero la limitación que encontramos en esta adopción es la falta de conciencia pública sobre la fundamental importancia que tiene el hecho de que la gran mayoría de la gente no utilice estos formatos y esté aún presa de formatos privativos tales como el .doc, el .ppt o el .xls , entre otros.
+
+El día de los documentos libres permitirá mostrar públicamente la problemática y sus soluciones y compartir con las personas participantes la buena noticia de que hoy es posible y muy sencillo archivar nuestra información en formatos libres.
+
+*(Gracias a la Fundación Vía Libre por estas valiosas acciones y por este texto que es un 99% suyo)*

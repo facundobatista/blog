@@ -1,0 +1,35 @@
+.. date: 2010-10-28 12:00:22
+.. title: Conferencias Python Cono Sur 2010
+.. tags: pyconar, pyconbr, Córdoba, brasil, keynote, paseo, avión
+
+Una atrás de la otra, pasaron más rápido de lo que hubiese querido.
+
+En Córdoba estuve un par de días antes de la conferencia http://ar.pycon.org/, incluso un día trabajando desde allá (el otro ayudando un poco). Pero igual me fui con la sensación de que me faltó charlar con un montón de gente. Quizás estoy mal acostumbrado por los PyCamp, donde son cuatro días no tan estructurados como en una conferencia, y uno puede lograr un mayor contacto humano.
+
+Como `conté <http://www.taniquetil.com.ar/plog/post/1/484>`_, dí dos charlas, las cuales salieron bien. Las Charlas Relámpago estuvieron geniales, los keynotes no tanto. Los dos días luego de la conferencia estuvieron buenos (el viernes hubo un asado que no fue asado, lejos de la ciudad, y el sábado una cerveceada, en un bar copado a unas cuadras de la Uni).
+
+.. image:: http://www.taniquetil.com.ar/facundo/imgs/pycon10ar.jpeg
+    :alt: Cerveceada cordobesa
+
+¿Cómo es un asado que no es asado? Originalmente iba a ser asado, pero terminó siendo algo que parece estar muy de moda en Córdoba: "pata". Con el término "pata" se refieren a que uno contrata el servicio de `una gente <http://www.pata-pata.com.ar/home.html>`_ que vienen con una pata graaande de ternera, ya cocida, calentita, mucho pan, algunos tarritos con diferentes salsitas, y la cortan ahí "en vivo", y uno mismo se va haciendo sanguchitos. No me quedó claro si el tomate y la lechuga que había la habían puesto los organizadores, o vienen incluidos en el servicio de "pata".
+
+Todas mis fotos de PyCon en Córdoba, `acá <http://www.flickr.com/photos/54757453@N00/sets/72157625061739525/>`_. Y `acá <http://petitcba.homelinux.net/~mdione/gallery/index.py/pictures/eventos/2010/PyConAr>`_ están las de Marcos Dione, fotógrafo (semi?) oficial del evento.
+
+`PyCon Brasil <http://www.pythonbrasil.org.br/2010>`_ fue mucho más express. Como mi keynote fue decidida medio de emergencia, mi vuelo fue medio "como pude". Viajé a Curitiba el jueves a la mañana, vía Montevideo (buenísimo, porque salí de Aeroparque), y llegué allá a media tarde, perdiéndome casi todo el primer día de la conferencia. Una cal y una de arena con respecto al vuelo de Pluna: no te sirven nada a bordo a menos que lo compres, pero los aviones (Bombardier CRJ-900NG) son realmente cómodos.
+
+Me pasaron a buscar por el aeropuerto, me llevaron hasta al hotel donde hice el check-in y dejé algunas cosas, y fuimos a la conferencia. Llegué más o menos justo para las Lightning Talks, y me quedé en la Asamblea de la Asociación de Python Brasil, donde casi no entendí nada de lo que discutían. Casi. Luego, fuimos todos a cenar a una especie de tenedor libre en la que pasean un montón de mozos con distintos cortes de carne y te van sirviendo. Comí muy bien, luego me llevaron hasta el hotel, y al sobre.
+
+Al otro día me levanté no demasiado temprano, desayuné tranqui y me tomé un taxi hasta la Universidad. Estuve un rato con la gente, hasta que a las once y cuarto arrancó una charla donde contaban qué es `Arduino <http://www.arduino.cc/>`_, cómo se conecta, un ejemplo de programita en C, y luego cómo usarlo desde Python a través de `Firmata <http://github.com/lupeke/python-firmata/>`_.
+
+Luego del almuerzo (algo bien brasileño en un lugar cercano), vino mi keynote. Mi charla sobre `Comunidad, anarquía y subversión <http://www.taniquetil.com.ar/homedevel/presents/comunidad.odp>`_ salió muy bien, pude hilar todos los conceptos que quería, y hacer el remate con el efecto deseado sin que parezca tirado de los pelos. Tuve muy buen feedback, no sólo por algunas preguntas en el momento, sino gente que luego se me acercó. "Motivadora" fue un adjetivo que me gustó.
+
+Luego hubieron un par de charlas más, y llegaron las charlas relámpagos. Yo dí una de las charlitas: Archivos ejecutables de Python, una pequeña receta que ya pondré acá como post, tomada de una charla más larga de `John Lenton <http://pyvore.com/>`_. Ni bien terminaron me llamé un taxi, y me volví al hotel. Compré algo para comer, y a dormir temprano, que estaba destruido...
+
+.. image:: http://www.taniquetil.com.ar/facundo/imgs/pycon10br.jpeg
+    :alt: PyCon Brasil
+
+El sábado todo fue más tranquilo, yo me desperté tarde, llegué a media mañana, pero vi bastante gente que llegó más tarde que yo. Como había desayunado tarde terminé no almorzando, sino que paseando un poquito por ahí. Presencié la keynote de Ruby, y estuve en un par más pero sin prestar atención casi. Al final del día, volví a presentar una Charla Rápida, esta vez sobre `PET <http://revista.python.org.ar/1/html/>`_ (Python Entre Todos, la revista de PyAr), cuya primer edición está siendo traducida al portugués en este momento (ya está en castellano e inglés).
+
+A la noche, fuimos a comer a un lugar de comida árabe. No estaba demasiado ambientado, ni nada, pero era árabe posta (o sea, no era "árabe para turistas", sino "árabe para árabes"). Comí muchas cosas raras. Incluso algunas que al principio no me animé, como carne cruda condimentada (pero no cocinada con limón, por ejemplo...).
+
+El domingo me levanté temprano, y me llevaron a pasear a una feria artesanal, luego a almorzar, y finalmente me alcanzaron hasta el aeropuerto (gracias Ramiro!). El viaje de vuelta todo muy bien, y finalmente pude llegar a casa. Todas las fotos de PyCon Br, `acá <http://www.flickr.com/photos/54757453@N00/sets/72157625131236901/>`_.

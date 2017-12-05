@@ -1,0 +1,13 @@
+.. date: 2007-04-19 12:57:32
+.. title: Nuevamente mentor
+.. tags: google summer of code, mentorship, software, python
+
+Se cerró la elección de proyectos para el Google Summer of Code 2007. Nuevamente, `igual que el año pasado <http://www.taniquetil.com.ar/plog/post/1/176>`_, soy mentor de uno de los proyectos.
+
+Este año la `Python Software Foundation <http://www.python.org/psf>`_ funcionó oficialmente como organización *paraguas* de otros proyectos (`SymPy <http://code.google.com/p/sympy/>`_, `PyPy <http://codespeak.net/pypy/dist/pypy/doc/news.html>`_, `Pyjamas <http://jtauber.com/pyjamas/>`_, etc; proyectos que están hechos en Python, pero que no son Python itself).
+
+Google, en total, nos aprobó 34 proyectos, :D. Pueden ver todos los proyectos aprobados y demás info `aquí <http://code.google.com/soc/psf/about.html>`_. Si les interesa revisar tooooodos los proyectos de todas las organizaciones involucradas, hay un resumen `aquí <http://www.third-bit.com/soc2007.html>`_.
+
+El proyecto del cual soy mentor se basa básicamente en mejorar casos de pruebas de la biblioteca estándar de Python. Alan McIntyre (la persona que va a ejecutar el proyecto propiamente dicho), va a hacer un análisis para determinar a qué módulos les falta mejorar sus casos de prueba, definiremos los tres o cuatros que va a atacar, y se pondrá a hacerlo.
+
+Si están leyendo esto, y piensan "Ufa! Lástima que yo curso en esta época en lugar de tener vacaciones", sepan que Google estaba barajando la posibilidad de hacer esto mismo pero en los meses de *nuestro* verano, para que los estudiantes del hemisferio sur puedan participar mejor.

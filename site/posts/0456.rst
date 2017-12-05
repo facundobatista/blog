@@ -1,0 +1,15 @@
+.. date: 2010-03-31 20:35:34
+.. title: El juego más grande del mundo
+.. tags: python, juego, pyweek, proyecto
+
+Arrancó PyWeek, y estamos haciendo un juego en una semana. Y vos podés participar en el juego colaborativo más grande jamás creado!
+
+**¿Podés tipear? ¡Podés participar!** Para cada nivel de conocimiento, hay una manera de crear niveles... podés participar incluso si nunca programaste, o si hiciste millones de juegos... podés participar si querés invertir 5 minutos o varios días... ¡esto es para todos!
+
+.. image:: http://www.taniquetil.com.ar/facundo/imgs/worldst.png
+    :alt: Worldst!
+    :link: http://the.most.biggest.gamest.in.the.worldst.com.ar/
+
+`Entrá acá <http://the.most.biggest.gamest.in.the.worldst.com.ar/>`_, registrate (tu nombre va a los créditos del juego, y el mail es por si te olvidás la clave), y empezá agregando niveles!
+
+El más sencillo es una *trivia*: tenés que pensar una pregunta y un par de respuestas, ¿te animás? Dale! |

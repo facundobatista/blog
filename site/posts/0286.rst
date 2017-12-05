@@ -1,0 +1,11 @@
+.. date: 2007-08-31 12:06:31
+.. title: Python 3000
+.. tags: python, release
+
+Acaba de salir, calentito calentito recién salido del horno, el primer alfa de Python 3.0.
+
+Lo pueden buscar `aquí <http://python.org/download/releases/3.0/>`_.
+
+Pensar que hace un par de años se hablaba de esto como algo en el futuro, no del todo probable. Ahora está ahí, al alcance de la mano.
+
+Yo ya lo instalé, :D

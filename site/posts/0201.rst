@@ -1,0 +1,43 @@
+.. date: 2006-08-18 18:12:27
+.. title: Dos casos de éxito
+.. tags: grabar cd, nero, música, búsqueda, computadora
+
+Haz lo que quiero, y no me molestes
+-----------------------------------
+
+Secuencia que pasó el otro día y me motivó a escribir esto:
+
+- Meto el CD virgen en la laptop, donde estoy usando `Ubuntu <http://www.ubuntu.com/>`_ Dapper Drake, con `Gnome <http://www.es.gnome.org/>`_ 2.14
+- Me sale un cartel, diciendo "Ha insertado un CD virgen, ¿qué quiere hacer?", o algo así, ofreciendo ignorarlo, escribir un cd de datos, o uno de música.
+- Elijo música, y me abre una ventanita con la que elegí los mp3 que quería grabar, de forma muy fácil, y le dije que grabe.
+- Grabó el CD, mientras me mostraba el avance en una ventanita y me contaba lo que iba haciendo. Igual yo lo dejé y me fui. Volví a los 3 minutos, y me decía que había grabado el CD satisfactoriamente, y ya incluso había abierto la compactera.
+
+Conclusión: funciona.
+
+Antes, grabar CDs con Linux era complicado, pero todo fue avanzando y ahora funca bien. Tengan en cuenta que el sistema operativo lo hace, que es quien corresponde. En windor, lo primero que se hace es instalar el Nero, un programa aparte.
+
+Y hay muchos programas que graban CDs en windor, pero todos quieren hacer más cosas. Hoy por hoy, el Nero, que en su época era un grabador de CDs fantásticos, se ha convertido en un monstruo que hasta intenta hacerte el café con leche mientras te concilia la cuenta en el banco. Y el resto de los programas son iguales.
+
+No. Yo quiero grabar un CD. Gracias.
+
+
+"Computadora, ..."
+------------------
+
+Cuando uno ingresa un texto en la barra de direcciones del `Firefox <http://www.spreadfirefox.com/?q=affiliates&id=30445&t=64>`_, el navegador analiza ese texto y si es una dirección, la carga y ya. Pero si el formato del texto no corresponde a una dirección de internet, el Firefox realiza otra acción.
+
+En este caso, el navegador automáticamente busca ese texto en Google, pero en lugar de traer todos los resultados y mostrarlos, va automáticamente a la dirección del primer resultado que ofreció Google.
+
+Entonces, supongamos que queremos saber los actores que trabajaron en la película Tiempo de Valientes, por poner un ejemplo. Una secuencia sería:
+
+- Vamos a la base de datos de películas IMDB
+- Ponemos "Tiempo de Valientes" en el cuadro de búsqueda IMDB trae las películas que coinciden con lo buscado
+- Elegimos alguna de las que trae (si hay una sola, va automáticamente), hacemos click y vamos a la página de la película
+
+En cambio, con la ayuda de Firefox y Google, dos tecnologías que son gratis, vale la pena decirlo, la secuencia sería
+
+- Ponemos "imdb tiempo de valientes" en la barra de direcciones del Firefox
+
+¡Y listo! Ya está. Nada más. Pruébenlo si no me creen.
+
+Hoy por hoy es lo más parecido al ideal, que sería algo así como acercarse a la máquina y decir... "Computadora, quiero ver los actores de Tiempo de Valientes", :)

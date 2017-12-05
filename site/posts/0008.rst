@@ -1,0 +1,58 @@
+.. date: 2004-10-25 10:40:44
+.. title: ¿Referencia o valor?
+.. tags: python, referencia, valor, pensar, pythonista, objetos
+
+
+Python, a decir verdad, ¡no pasa los objetos!. Los objetos están en memoria, y lo que se hace es reasignarles un nombre.
+
+Por ejemplo::
+
+    def func(a):
+        print a
+
+    b = "blah"
+    print b
+    func(b)
+
+En la línea 4 se crea un objeto en memoria, tipo string, y con un contenido determinado. A este objeto se lo relaciona con el nombre "b". A partir de ese momento, cuando hablemos de "b" en este espacio de nombres, estaremos haciendo referencia a ese objeto en memoria (que es lo que hacemos justamente en la linea 5).
+
+En la linea 6, llamamos a una función, con el nombre "b" como primer parámetro. Según la definición de la función, llamaremos "a" al primer parámetro. Dentro del espacio de nombres de esa función, cada vez que usemos el nombre "a", nos referiremos al mismo string que indicamos antes, al mismo objeto en memoria.
+
+Resumiendo, el objeto no se copia, y no se pasa un puntero al mismo, simplemente se le asigna otro nombre en otro espacio de nombres.
+
+>>> def f(a):
+...     print id(a)
+...
+>>> b = 5
+>>> id(5)
+9065408
+>>> f(b)
+9065408
+
+Pensarlo de esta forma (que es lo que realmente sucede) nos simplifica la vida cuando tenemos distintos comportamientos con los objetos mutables e inmutables. Por ejemplo:
+
+>>> def f(a,b):
+...     print id(a), id(b)
+...     a = 7778
+...     b.append('?')
+...     print id(a), id(b)
+...
+>>> c = 56
+>>> d = ['pp', 11]
+>>> c, d
+(56, ['pp', 11])
+>>> id(c), id(d)
+(9064796, 11094976)
+>>> f(c,d)
+9064796 11094976
+10047164 11094976
+>>> c, d
+(56, ['pp', 11, '?'])
+
+Como vemos, al comienzo de la función, "a" apunta al mismo objeto que "c" fuera de la función, y lo mismo sucede con "b" y "d".
+
+Y aquí es donde paga no pensar como "variables clásicas": en la primer linea NO estamos modificando una variable "a", sino que llamamos "a" a otro objeto en memoria, que no tiene nada que ver con el anterior. El nombre "b", en cambio, no es reasignado a otro objeto. Al final de la función vemos lo que acabo de explicar: "a" apunta a otro objeto en memoria y "b" todavía al mismo.
+
+Cuando volvemos al cuerpo principal de la función encontramos que el objeto al que apunta "c" sigue estando igual (nunca se modificó), y el objeto al que apuntamos con el nombre "b" sí sufrió una modificación.
+
+Hay un excelente `artículo <http://starship.python.net/crew/mwh/hacks/objectthink.html>`_ de Alex Martelli sobre este asunto, gentilmente `traducido <http://blog.foffani.org/2007/04/cmo-pensar-como-un-pythonista.html>`_ por Hernán Martínez Foffani.

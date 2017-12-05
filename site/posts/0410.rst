@@ -1,0 +1,19 @@
+.. date: 2009-05-16 13:43:48
+.. title: Jerarquía de "extrañeza"
+.. tags: libro, ender, extrañeza
+
+Estoy leyendo el tercer libro de una saga que es, al menos, interesante. Comienza por `Ender's game <http://es.wikipedia.org/wiki/El_juego_de_Ender>`_, sigue por `Speaker for the Dead <http://es.wikipedia.org/wiki/La_voz_de_los_muertos>`_, y el tercero es `Xenocide <http://es.wikipedia.org/wiki/Ender_el_Xenocida>`_ (Lucio me dice que luego de estos tres la calidad cae notablemente). Están escritos por `Orson Scott Card <http://es.wikipedia.org/wiki/Orson_Scott_Card>`_.
+
+Como hablaba el otro día con no me acuerdo quien, estos libros podrían estar mejor escritos, sí, pero igualmente hay muchos conceptos interesantes, muchas cosas que te dejan pensando y están buenas para analizar.
+
+Lo siguiente es un ejemplo de esto. Tomado del segundo libro, en inglés es *Hierarchy of Foreigness*, siendo esta última palabra muy difícil de traducir al castellano (o yo no encontré otra mejor que *extrañeza*).
+
+Este concepto describe cuatro modos en los cuales otro *ser* puede ser "extraño" a nosotros, utilizando para ello palabras cuya etimología proviene de lenguajes nórdicos:
+
+- **Utlanning**: Aquellos reconocidos como humanos, pero de otra ciudad o país
+
+- **Framlings**: También humanos, pero de otro planeta, sustancialmente distintos a nosotros.
+
+- **Raman**: Estos se consideran también humanos, pero de otra especie que la nuestra; tan distintos a nosotros que es difícil entender sus ideas y conceptos.
+
+- **Varelse**: Verdaderos extraños con los cuales no hay conversación posible (aquí se incluye a los animales); pueden ser inteligentes, pueden ser conscientes de si mismos, pero no tenemos forma de saberlo.

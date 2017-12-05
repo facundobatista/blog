@@ -1,0 +1,47 @@
+.. date: 2010-07-07 21:35:25
+.. title: Sprint en Londres, segunda parte
+.. tags: sprint, viaje, londres, paseo, trabajo
+
+El jueves fue un día distinto, porque en lugar de ir a la sala de conferencia del hotel como hasta ahora, pasamos el día trabajando en las oficinas de Canonical de Londres.
+
+Canonical tiene todo el piso 27 en la torre Millbank, lo que hace que la vista sea interesante....
+
+.. image:: http://www.taniquetil.com.ar/facundo/imgs/viajelondres-vistaoficina.jpg
+    :alt: Vista desde la oficina
+
+Durante el día nos dividimos en tres grupos, y la actividad fue más de aprovechar la oportunidad de que estábamos todos cara a cara para atacar algunas situaciones y decidir qué íbamos a hacer con determinados temas. Laburar distribuidos está bueno, pero estar en la misma habitación y poder utilizar un pizarrón facilita muchísimo algunas charlas.
+
+Mi grupo en particular terminamos de ajustar algunos detalles en un cambio importante que se viene para el cliente de Ubuntu One (*Generations*), y a la tarde estuvimos entendiendo `Cassandra <http://cassandra.apache.org/>`_ y tratando de ver si nos sirve, y cómo nos sirve.
+
+A la noche el plan era ir a comer pizza a un lugar que estaba al ladito del hotel, pero nos dijeron que la calidad no era la mejor, y nos recomendaron una pizzería estilo italiana que estaba (como ya era costumbre), a más de media hora de paseo. Como a esta altura ya no nos importaba si caminábamos mucho o poco, decidimos ir igual, y la decisión fue acertada, la pizza estaba rica, y `el lugar <http://www.laporchetta.biz/>`_ era interesante, con mozas italianas, y un estilo sencillo y sin pretensiones.
+
+Pasear por el `soho de Londres <http://en.wikipedia.org/wiki/Soho>`_ un jueves a la tarde no era sencillo: había mucha gente. Especialmente en los bares, y no precisamente adentro de los mismos, porque es costumbre que la gente compre la cerveza y salga a la calle a tomarla. Incluso esto es favorecido porque los bares arman pequeñas *barritas* donde la gente puede apoyar los vasos, así que cada vez que uno pasaba por un pub (¡y no es que haya pocos!), había una marea de personas tomando y charlando en toda la calle.
+
+.. image:: http://www.taniquetil.com.ar/facundo/imgs/viajelondres-vidanocturna.jpg
+    :alt: Vida nocturna
+
+Incluso después de cenar, cuando volvimos caminando al hotel (con un par de vueltas incluidas porque algunos querían tomar un helado), siendo alrededor de las once de la noche, las calles estaban bastante llenas y activas. Esto fue una grata sorpresa, especialmente luego de pasear en Bélgica y ver que te cierran todo tempranísimo.
+
+El viernes era el último día, y ya se notaba demasiado el cansancio general. La mañana fue de charlas normales, así como parte de la tarde. Completamos el día con un ejercicio de qué nos había gustado (y qué no) durante la semana, como para mejorar la organización a futuro, y volvimos al hotel ya que seis y media partíamos para una cena grupal de todo el equipo. Esto era en un lugar también estilo italiano, pero de comidas varias, las cuales estaban muy bien (pedí un vitello tonello de entrada, y unos spaghettis con almejas de primer plato, sin segundo plato, y sólo un limoncello de postre), aunque realmente el lugar en sí no era piola: no estaba preparado para que vayamos alrededor de treinta personas, estábamos todos demasiado amontonados, y el nivel de ruido era muy alto.
+
+Así que aunque no puedo decir que no lo disfruté, cuando el primer grupo decidió arrancar de vuelta, me sumé al mismo. Volvimos en taxi Lucio, Rodrigo, Naty y yo. Muy locos los taxis ingleses, porque tienen mucho espacio atrás, con el asiento mirando para adelante puesto sobre el espacio del baúl, y asientos mirando para atrás contra el conductor, con lo cual van cinco personas cómodas sentadas unas frente a otras.
+
+.. image:: http://www.taniquetil.com.ar/facundo/imgs/viajelondres-cenagrupal.jpg
+    :alt: Cena grupal
+
+Lucio se tenía que ir a lo de su hermana, porque a la madrugada partían de vacaciones, así que estuvimos charlando en nuestra habitación mientras él preparaba las cosas. Luego me fui a la habitación de Naty, que se sentía súper mal del estómago y le hice el aguante porque estaba viniendo una amiga de ella desde Madrid, la cual debía llegar tipo once de la noche, pero le fueron retrasando el vuelo y terminó llegando a Londres pasadas las tres de la mañana. Así que mientras Naty trataba de dormir y aguantar los retorcijones, yo me quedé atento a su celular para ver cuando llegaba la amiga y programando algo que había empezado esa misma tarde y quería terminar pronto: recorrí el directorio de Canonical (en donde están listadas las personas con datos como nombre, foto, equipo, posición, etc.), y armé un organigrama gráfico. Para esto me tuve que autenticar por `OpenID <http://es.wikipedia.org/wiki/OpenID>`_ al sitio interno de Canonical, ir bajando todas las páginas HTML, extraerles la data, armar un archivo `DOT <http://www.graphviz.org/>`_ a mano el que luego se usa para generar el organigrama en sí en formato SVG, y al que luego abro y le meto las fotos de las personas sobre la cajita con nombre y posición. `Todo hecho <https://code.edge.launchpad.net/~facundo/+junk/canonical-directory>`_ desde Python, por supuesto, :)
+
+Finalmente esta chica llegó, así que cerca de las cuatro de la mañana nos tomamos un taxi con Naty para irla a buscar a la estación de tren. La esperamos un par de minutos y volvimos al hotel, en donde me encontré con Guillo fumando afuera del hotel. Las chicas subieron a acostarse, y yo me quedé contándole a Guillermo lo del organigrama (ya le había comentado algo a la tarde porque le había pedido ayuda con lo de OpenID). A los cinco minutos subimos, y al sobre.
+
+Pensé que el sábado me iba a costar horrores levantarme, pero no. Puse la alarma a las diez, pero a las nueve ya estaba despierto. Acomodé algunas cosas, bajé a desayunar, volví a la habitación y terminé de armar las valijas y me pegué un baño. Llevé las cosas a la habitación de beuno (después verán por qué) y bajé a hacer el checkout.
+
+Enseguidita partí hacia el London Eye al que Naty y amiga habían ido más temprano, y de ahí nos fuimos a pasear por la zona del `Tower Bridge <http://es.wikipedia.org/wiki/Puente_de_la_Torre>`_, uno de los puentes más famosos del río `Támesis <http://es.wikipedia.org/wiki/R%C3%ADo_T%C3%A1mesis>`_. Naty se seguía sintiendo mal pero pudimos pasear sin drama, hasta que volvimos al hotel que era la hora del partido.
+
+.. image:: http://www.taniquetil.com.ar/facundo/imgs/viajelondres-towerbridge.jpg
+    :alt: Puente de la Torre
+
+Nos juntamos un grupito de cinco o seis en la habitación de beuno, donde comimos algo, tomamos unos mates, y vimos el partido (perdimos, bú). También seguí laburando con eso del organigrama, hasta que se hizo la hora de partir. Alecu y yo dejamos a los chicos convenciendo a Naty que tenía que llamar a un médico, y arrancamos hacia el subte, luego hicimos combinación con el tren, y llegamos bien cómodos en tiempo al aeropuerto.
+
+Esperas habituales, controles de seguridad, vuelo muy largo (¡qué bien que se come en British Airways!), pero dormí bastante, y llegué a casita con la familia, a la que extrañé un montón.
+
+Las fotos de todo el sprint, `acá <http://www.flickr.com/photos/54757453@N00/sets/72157624438614802/>`_.

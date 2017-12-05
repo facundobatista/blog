@@ -1,0 +1,15 @@
+.. date: 2008-05-07 13:03:27
+.. title: Colaborando, Cocos, estadística y reunión
+.. tags: python bug day, colaborando, guia, cocos2d, lista, mails
+
+Este sábado y domingo se hace un `Global Python Sprint Weekend <http://wiki.python.org/moin/PythonBugDay>`_ (ya se los había comentado `acá <http://www.taniquetil.com.ar/plog/post/1/347>`_). Para aquellos que quieran colaborar, la novedad es que Humitos escribió un `documento <http://humitos.wordpress.com/2008/05/05/colaborando-con-python/>`_ que les permitirá estar productivo en un abrir y cerrar de ojos.
+
+¡Felicitaciones (nuevamente) a los cerebros atrás de Cocos! No sólo se mandaron una `linda página <http://cocos2d.org/>`_, sino que subieron dos videos a YouTube, uno mostrando `los efectos <http://www.youtube.com/watch?v=mrhfaoMvpps>`_ y el otro `usando Cocos de forma interactiva <http://www.youtube.com/watch?v=MJsd0J4G4RU>`_. Les recomiendo efusivamente que vean esos dos videos, ¡son buenísimos!
+
+En función del incremento de tráfico que tuvo la lista de Python Argentina en los últimos meses, y que tenemos lectores de muchas partes del mundo hispanoparlante, quise hacer una estadística comparativa con la otra gran lista en español del planeta. Para ello recurrí a `Gmane <http://gmane.org/>`_, que es el puente usado por ambas listas para tener un espejo en forma de News. Luego de pelearme durante media hora con esos números (que tienen agujeros, y están actualizados sólo hasta hace seis meses), saqué un grafiquito:
+
+.. image:: http://www.taniquetil.com.ar/facundo/imgs/gmane-ult200d.png
+    :alt: Ambas listas comparadas
+    :link: http://www.taniquetil.com.ar/facundo/imgs/gmane-ult200d.png
+
+Por último, ¡hoy hay `reunión de PyAr <http://www.python.com.ar/moin/Eventos/Reuniones/ProximaReunion>`_! ¡Fiesta! :)

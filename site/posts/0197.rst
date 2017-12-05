@@ -1,0 +1,11 @@
+.. date: 2006-08-11 10:54:44
+.. title: Elefantes y plumíferos
+.. tags: elephant's dream, plumíferos, blender, creative commons, ccc
+
+El martes 29 de Agosto, a las 19hs se realizará en el `Centro Cultural de la Cooperación <http://www.centrocultural.coop/>`_ (Sala Solidaridad) un evento que junta al cine con el software libre. La entrada al evento es libre y gratuita.
+
+Este evento está auspiciado por la Fundación Vía Libre, el proyecto Plumíferos y la Blender Foundation, y girará en torno a la Animación 3D con herramientas de Software Libre. Durante el evento se presentará el cortometraje Elephants Dream, realizado con software libre, y se podrá conversar con sus realizadores. Además, se presentará el proyecto Plumíferos, una producción **argentina** que será el primer largometraje animado realizado íntegramente con programas libres.
+
+El objetivo del evento es difundir estos proyectos, mostrar trabajos realizados con aplicaciones de software libre para animación, y conversar con los artistas involucrados en ellos.
+
+`Elephant's Dream <http://www.elephantsdream.org/>`_, que será proyectado durante el evento, es un cortometraje distribuido bajo una licencia Creative Commons By, realizado por miembros de la Fundación Blender. Por su parte, `Plumíferos <http://www.plumiferos.com/>`_, es un proyecto argentino en marcha y será el primer largometraje 3D realizado íntegramente con aplicaciones de software libre (el estreno de Plumíferos está previsto para mediados del año 2007).

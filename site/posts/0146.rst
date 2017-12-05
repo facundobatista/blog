@@ -1,0 +1,23 @@
+.. date: 2006-01-11 18:31:03
+.. title: Nueva release de SiGeFi
+.. tags: sigefi, release
+
+¡La versión 0.3.4 de `SiGeFi <http://sourceforge.net/projects/sigefi>`_ está recién salidita del horno!
+
+Aunque algunas tareas que estaban planeadas para esta versión fueron dejados para la próxima, es una versión que trae muchos cambios.
+
+- Se implementaron las ventanas para Nueva Monedas, Alta de Préstamos, Administración de intereses (incluyendo las altas).
+
+- El menu "File" tiene funcionalidad completa.
+
+- Se agregó la barra de herramientas.
+
+- Se reescribió toda la estructura de configuración.
+
+- Hay un nuevo demo con movimientos en una cuenta padre.
+
+- Varias correcciones y pequeñas mejoras (incluyendo soporte para resolución 800x600!).
+
+Lo bueno es que salió en fecha (para el caso, un día antes de lo estimado).
+
+Para la próxima versión no tendremos cambios muy radicales, creo, sino más bien mil pequeños ajustes. Está planeada para el 12 de Marzo.

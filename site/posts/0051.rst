@@ -1,6 +1,6 @@
-.. date:  2005-05-24 19:49:49
+.. date: 2005-05-24 19:49:49
 .. title: Canción y película
-.. tags:  canción, película
+.. tags: canción, película
 
 
 Prócer el que mata

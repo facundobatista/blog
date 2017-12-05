@@ -1,0 +1,25 @@
+.. date: 2006-05-31 15:41:15
+.. title: Actualizando películas
+.. tags: películas
+
+Luego de mucho tiempo sin actualizar aquí, vi algunas...
+
+- Coffee and cigarettes: -1
+
+- El aura: -0
+
+- Leon: +1
+
+- National treasure: +1
+
+- Syriana: -1
+
+- Toy story: +1
+
+... y agregué a otras en la `lista <http://www.taniquetil.com.ar/facundo/bdvfiles/peliculas.html>`_...
+
+- `Art school confidential <http://www.imdb.com/title/tt0364955/>`_
+
+- `An inconvenient truth <http://www.imdb.com/title/tt0497116/>`_
+
+- `The lake house <http://www.imdb.com/title/tt0410297/>`_

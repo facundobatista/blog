@@ -1,0 +1,19 @@
+.. date: 2007-06-07 15:52:07
+.. title: Un Python por chico
+.. tags: python, sugar, pyday, Santa Fé, olpc
+
+Hace casi dos años atrás, `yo escribía <http://www.taniquetil.com.ar/plog/post/1/102>`_ sobre un proyecto del MIT, One Laptop Per Child. Hoy por hoy, ese proyecto es mucho más conocido, así que no voy a repetir características.
+
+Ha pasado mucha agua bajo el puente, y aunque todavía no está en producción masiva, ya existen muchas de estas máquinas distribuidas alrededor del mundo, para que los desarrolladores experimenten, creen contenidos, programas, etc.
+
+Esto es principalmente porque aunque el sistema operativo es más o menos estándar (un `Fedora <http://fedoraproject.org/wiki/>`_ adaptado), tiene una nueva interfaz gráfica: Sugar. La misma tiene algunos conceptos totalmente revolucionarios, y otros que aunque probados, no son "normales". Un ejemplo del segundo, es que es un sistema de ventanas, pero las ventanas no son solapables.
+
+Esta nueva interfaz abandona un poco el tradicional concepto de escritorio que usan la mayoría de interfaces y se centra más en el usuario, el cual dispondrá de cuatro tipos de vista distintos: Inicio, Amigos, Vecinos y Actividades. En Amigos se podrá charlar con los amigos del usuario, en Vecinos se podrán crear comunidades y realizar actividades en grupo (imaginemos un trabajo en grupo en la escuela) y en Actividades será donde se realicen estas propiamente dichas.
+
+`Sugar <http://wiki.laptop.org/go/Sugar/lang-es>`_ misma está integralmente hecha en Python, así como también gran parte los programas, lo que permite que siempre esté accesible el código fuente del programa que estás usando, pensado esto principalmente como herramienta pedagógica.
+
+Entonces, se pueden imaginar que esta laptop tiene una importancia estratégica para Python en general, y para PyAr en particular. Por este motivo, nos acercamos a la gente de `educ.ar <http://www.educ.ar/educar/>`_, y hoy tuvimos una reunión con Laura Marés Serra quien en dicho acto nos prestó (por tiempo indeterminado) **dos** de estas preciosuras, :D.
+
+Alecu y Dave van a dar una charla de la OLPC este finde en `Python Santa Fe <http://www.pythonsantafe.com.ar/>`_, y ya tenemos pensado meternos a participar en el desarrollo de estas máquinas. Por lo pronto, vamos a migrar `Typus Pocus <http://www.taniquetil.com.ar/plog/post/1/210>`_, :)
+
+Con respecto al Python Day en Santa Fe, ya salimos en los diarios y todo (en La Nación, pero no pongo el link porque los turros, después de un tiempo, te imponen que seas de su club para mostrarte el artículo, y en `El Litoral <http://www.ellitoral.com/index.php/diarios/2007/06/07/educacion/EDUC-02.html>`_).

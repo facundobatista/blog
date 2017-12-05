@@ -1,0 +1,20 @@
+.. date: 2005-01-25 10:07:33
+.. title: Dos sitios y noticias
+.. tags: bilo y nano, debian, mandrake, windows, development, logo, pyar, Holanda, png, firefox, internet explorer, madrid
+
+Los dos sitios:
+
+- `Bilo y Nano se lo montan <http://tira.escomposlinux.org/>`_: Espectacular página donde todas las semanas sacan una historieta nueva: Las peripecias de tres amigos, uno fanático de Debian, otro de Mandrake y otro de Windows. Tiene más cosas, voy descubriéndolas de a poquito.
+
+- BCP Development: Empresa dedicada al control de edificios inteligentes. He visto demostraciones del producto y la conclusión es sencilla: si pudiera tener una casa con las últimas tecnologías en Domótica, tengo muy claro que empresa contrataría para ello (**actualización** 07-Nov-2007, este sitio parece no existir más...)
+
+Bueno, algunas noticias. No se si 100% oficial, pero está bastante aceptado el logo que hice de `PyAr <http://python.org.ar/>`_:
+
+.. image:: http://farm2.static.flickr.com/1188/527924135_3bd987055a_o.png
+    :alt: Logo de PyAr
+
+El diseño original no es mío, sino de Pablo Ziliani que se mandó un espectacular .gif aplaudido y designado por unanimidad como logo oficial de la organización. Yo lo único que hice es rehacer el dibujo de Pablo pero en `vectorial <http://www.taniquetil.com.ar/homedevel/docs/logo-pyar.svg>`_, para que se pueda redimensionar sin perder la calidad del mismo.
+
+Tengan en cuenta que la imagen que pegué acá es un PNG con transparencias. Si usan Internet Explorer, no lo van a poder ver bien: después de todo, ¡el PNG es un formato re-nuevo! (Es de 1995, Microsoft no tiene tanta plata como para mantenerse al tanto de tooodas las nuevas tecnologías). Ahora, en serio, dejen de usar esa bosta e instalen `Firefox <http://www.spreadfirefox.com/?q=affiliates&id=30445&t=64>`_.
+
+La otra noticia es que este sábado estoy partiendo a Holanda, por un curso de SMS que dura una semana y media (luego me quedo tres días en Madrid, que es la escala del avión, así que estoy afuera dos semanas). Quizás postee algo desde allá, pero tengo que ver cuán caro salen los locutorios internéticos.

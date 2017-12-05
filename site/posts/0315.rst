@@ -1,0 +1,22 @@
+.. date: 2007-12-17 12:45:38
+.. title: PHP no sabe sumar
+.. tags: php, sumar, bug
+
+Hace rato que quería hacer este post. Más que nada, como referencia, porque luego comento esto y no me acuerdo exactamente estas lineas, entonces me es más fácil apuntar a este post y listo.
+
+Si ejecutamos el siguiente script en PHP, intentando sumar 3 y 058...
+
+::
+
+    <?
+    $r = 3 + 058;
+    echo $r."n";
+    ?>
+
+..., el tipo muestra "8".
+
+La realidad es que estamos haciendo algo mal, pero PHP te oculta el error, sigue como si nada, y el programa sigue trabajando con fruta.
+
+"Ningún error debería pasar silenciosamente", dice el Zen de Python. Si ejecutamos esa suma en Python, encontramos que da un error. A partir de ese error vemos que realmente tenemos un problema en lo que queríamos hacer.
+
+Pero PHP no da error. Contesta el resultado de la suma. Un resultado equivocado. Ergo, **PHP no sabe sumar**.

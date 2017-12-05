@@ -1,0 +1,19 @@
+.. date: 2005-03-22 21:02:38
+.. title: Fueron los Sprint de PyCon 2005
+.. tags: sprint, pycon, washington, conferencia, open space, europython, pyar
+
+Hoy fue el último día de Sprint. Mañana ya empieza la Conferencia propiamente dicha.
+
+Sí me estaba olvidando de alguien a mencionar los más conocidos aquí: Martin von Löwis, Michael Chermside y Armin Rigo. Y ayer vino Steve Holden, que no es otro que el Chairman de la `PSF <http://www.python.org/psf/>`_ (Python Software Foundation).
+
+Estos dos días fueron muy similares a los otros a nivel trabajo. Realmente es muy lindo poder dedicarle varias horas seguidas a los proyectos que uno tiene, sin estar cansado de trabajar todo el día. Y es muy productivo trabajar en conjunto aunque sean cosas por separado, ya que cuando uno normalmente se distrae, lo hace para engancharse en otra conversación y aprender algo nuevo.
+
+Por supuesto, hay de todo. Ayer estuve media hora fumando y charlando con Alex Martelli sobre pescado ahumado y salado, y las formas de conservarlo, para qué se usaba, y esas cosas. Muy pytónico, ¿no? :p
+
+Una noticia interesante: ¡Me invitaron a EuroPython! (Suecia, fines de Junio). Todavía no definí las charlas que voy a dar. Seguro que iré por una de Decimal, pero tengo que decidir si voy a dar alguna sobre Money (un tipo de dato específico para manejar dinero), o dar una charla sobre cómo es desarrollar para Python sin ser yanqui (sugerida por la persona que me contactó, pero algo ya me había dicho Michael Chermside sobre que sería interesante que yo escriba algo de eso). O incluso podría dar ambas, pero tres creo que es demasiado...
+
+Razonando mientras escribo, quizás sería interesante armar un Sprint sobre Money, en lugar de una charla, y que más o menos salga ese proyecto definido desde ahí. Podría ser.
+
+*Actualización: Estuve charlando con Alex Martelli, y llegamos a la conclusión que lo mejor es tener un Open Space (sería como una charla abierta sobre un tema; muy piola para discutir especificaciones) aquí mismo en PyCon, continuar el desarrollo de las especificaciones por la lista luego, y armar un Sprint para implementar Money en EuroPython.*
+
+Mi último trabajo de los Sprints fue armar la `presentación de PyAr <http://www.taniquetil.com.ar/homedevel/presents/pyar.sxi>`_. Estoy viendo lo de pedir una URL piola, ¡quizás se nos de!

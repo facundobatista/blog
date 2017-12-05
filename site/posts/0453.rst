@@ -1,0 +1,11 @@
+.. date: 2010-03-19 15:05:19
+.. title: Community Award
+.. tags: premio, psf, comunidad
+
+Y cuando uno cree que ya nada lo sorprende, va y `recibe un premio de la Python Software Foundation <http://pyfound.blogspot.com/2010/03/final-2009-community-service-awards.html>`_!
+
+    El premio de Facundo Batista fue por organizar PyCon Argentina y la comunidad argentina de Python, así como también por sus contribuciones a la biblioteca estándar y por su trabajo en traducir la documentación de Python.
+
+¡Estoy *tan* contento por esto!
+
+:D

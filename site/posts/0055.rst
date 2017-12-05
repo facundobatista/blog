@@ -1,6 +1,6 @@
-.. date:  2005-06-28 06:04:58
+.. date: 2005-06-28 06:04:58
 .. title: EuroPython 2005, día 1
-.. tags:  conferencia, europython, brasil, xmlrpc, pep
+.. tags: conferencia, europython, brasil, xmlrpc, pep
 
 Me desperté a las 4 de la mañana, con un sol espantoso entrando a la habitación. Me maldije por no haber cerrado las cortinas de tela que tienen las ventanas, pero cuando miré, sí estaban cerradas: el sol brillaba *a través* de las cortinas...
 

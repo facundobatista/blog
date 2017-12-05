@@ -1,6 +1,6 @@
-.. date:  2005-04-11 12:32:19
+.. date: 2005-04-11 12:32:19
 .. title: Películas y SETI
-.. tags:  películs, seti, boinc
+.. tags: películs, seti, boinc
 
 Agregué las siguientes películas a la `lista <http://www.taniquetil.com.ar/facundo/bdvfiles/peliculas.html>`_:
 

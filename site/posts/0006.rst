@@ -1,12 +1,6 @@
+.. date: 2004-09-17 15:22:54
 .. title: Curva de bugs
-.. slug: curva-de-bugs
-.. date: 2004-09-17 15:22:54 UTC
 .. tags: bugs, saclla, unifón, tickets
-.. link:
-.. description:
-.. type: text
-
-
 
 La cantidad de bugs en un determinado sistema, proyecto o programa depende de *muchos* factores. Lo que sucede siempre es que, manteniendo el código estable (no agregándole nuevas características, no haciendo refactoring, etc.) la cantidad de bugs baja.
 

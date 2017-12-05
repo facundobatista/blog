@@ -1,0 +1,49 @@
+.. date: 2006-01-27 08:54:59
+.. title: No se queje sino se queja
+.. tags: ticket, restaurant, quejas, reclamos, recursos, accor
+
+En el laburo me dan parte de mi sueldo como Ticket Restaurant.
+
+Antes cobraba de 3 y 4 pesos, o 3, 4 y 6 pesos, pero en los últimos meses, venía cobrando en tickets de 4 y 6 pesos. La complicación de cobrar en esas denominaciones es que nunca se puede sumar una cifra impar.
+
+`Mariano <http://www.chaghi.com.ar/blog/>`_ ya había averiguado de que no es imposible que la empresa que emite los tickets, Accor, cambie la denominación en las que te lo entrega. La cuestión es que ayer me terminé hinchando las pelotas (perdón, molestando sobremanera), y llamé al *612, que es un número de "atención al cliente interno" que tenemos acá en Movistar.
+
+Me atendió una persona al que le planteé el problema, y me dijo...
+
+    - No se puede
+    - ¿No se puede?
+    - No, no se puede
+    - ¿No se puede o no quieren?
+    - No se puede
+
+Acá ya noté cierta incomodidad de mi interlocutor...
+
+    - ¿Y por qué no se puede?
+    - Porque no podemos tener distintos valores de tickets para todos los
+      empleados, imaginate si todos quieren valores distintos.
+    - ¿Qué tiene que ver? Si ustedes lo único que tienen que hacer es
+      informárselo a Accor y Accor es el que se toma el trabajo.
+    - Bueno, no se puede.
+    - Está bien -terminé contestando yo-, entonces quiero presentar una
+      queja formal de que no se puede.
+    - Tenés que mandar un mail a *RRHH Administración*.
+    - Ok, gracias.
+
+Acto seguido, escribí un mail a Recursos Humanos con copia a mi jefe...
+
+    Buenas tardes.
+
+    Quería quejarme formalmente porque pedí que me cambien la denominación en
+    que recibo los tickets restaurant, al *612 (me atendió un tal Diego), y me
+    indicaron que esto no es posible.
+
+    Quiero cambiar la denominación porque hoy en día recibo tickets de 4 y de
+    6 pesos. Y cualquier combinación de números pares jamás da un número impar.
+    Si entregaran de 3, 4 y 6... o 3 y 4.... o para el caso de solamente 3,
+    sería mejor.
+
+    Gracias, slds.
+
+Hoy cuando llegué a la oficina tenía un mail de Recursos Humanos diciendo que a partir de ahora iba a cobrar los tickets de a 3, 5 y 7 pesos.
+
+:)

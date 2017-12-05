@@ -1,0 +1,23 @@
+.. date: 2009-03-20 16:35:38
+.. title: El soporte de Dell
+.. tags: dell, soporte, laptop
+
+Hace algunos meses, cuando buscaba qué laptop comprarme, tuve alguna `experiencia bizarra con Dell <http://www.taniquetil.com.ar/plog/post/1/384>`_. Pero, por suerte, esta vez fue distinto.
+
+En esa oportunidad terminé comprándole a Dell una XPS M1330 (que sí, viene con teclado latinoamericano). En general estoy satisfecho con la máquina, más allá de un par de errores de diseño (por ejemplo, que los controles de volumen y manejo del CD no son botones, sino que son sensores que se activan al pasar levemente el dedo por arriba, con lo cual si uno está usando la laptop con poca luz, y quiere bajar el volumen, el mismo proceso de que los dedos busquen el botón termina "apretando" varios botones que uno no quería).
+
+Anyway... la historia es que hace un par de semanas, laburando en Córdoba, me surgieron unas espantosas franjas verticales en la pantalla, con colores raros, que iban y venían medio al azar. Eso sucedió un jueves a última hora, apagué la máquina hasta el otro día, y la dejé tranquila. Pero al otro día esas franjas persistían.
+
+.. image:: http://www.taniquetil.com.ar/facundo/imgs/laptoprayas.jpeg
+    :alt: Raya vertical en la pantalla
+
+Yo estaba preocupado, pero también molesto, porque faltaban 10 días para volver a casa y poder hacerla revisar. Pero Perrito me dijo que pruebe, que quizás me mandaban un técnico a Córdoba. Así que busqué el teléfono de soporte de Dell en la página web, y llamé. Me atendió alguien en un call center, con el que hicimos que la máquina ejecute toda una serie de comprobaciones (menos mal que era un 0-800, porque terminé hablando más de una hora). Luego de todas las pruebas, especialmente la de conectar la máquina a un monitor externo (se veía bien), se terminó convenciendo el muchacho que mi pantalla estaba jodida. Decidieron mandarme un técnico.
+
+Eso fue un viernes. Volví a casa el finde, y la otra semana de nuevo a Córdoba. Teóricamente entre lunes y miércoles tenía que tener novedades de Dell, ya que me habían dicho de 24 a 72 horas. Pero era miércoles a la tarde y nada. Llamé, y luego de las comprobaciones de rigor me pusieron en conferencia con la gente de Buenos Aires encargada de mi caso, quienes me indicaron que la pantalla estaba viajando de Buenos Aires a Córdoba, que debía llegar el jueves. Al otro día, me llamó un técnico con acento cordobés indicando que tenía una pantalla para mí, y coordinamos para el viernes a la mañana.
+
+Cuando llegué a la oficina de John, el flaco ya me estaba esperando. En una mesa grande, el técnico despanzurró toda la laptop, y la volvió a armar con la pantalla nueva. Todo bien, por suerte. Firmé un papelillo, y ya.
+
+.. image:: http://www.taniquetil.com.ar/facundo/imgs/laptopdespanzurrada.jpeg
+    :alt: ¿Vos decís que se vuelve a armar?
+
+Me dice Ricardo Kirkner que ese nivel de soporte no es el mismo para toda la linea, que la que compré yo es high end y tiene mejor soporte (sino, la tenes que llevar vos para que te la arreglen.). No sé, en mi caso, fue 100% satisfactorio!

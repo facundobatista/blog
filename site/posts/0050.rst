@@ -1,6 +1,6 @@
-.. date:  2005-05-20 07:27:08
+.. date: 2005-05-20 07:27:08
 .. title: Futuro y novedades
-.. tags:  robots, futuro, replicantes, tecnología, humanidad, terminator, rama, clarke, películas, money, decimal, charla, europython, bowling, rocanrol, banda
+.. tags: robots, futuro, replicantes, tecnología, humanidad, terminator, rama, clarke, películas, money, decimal, charla, europython, bowling, rocanrol, banda
 
 
 Robots

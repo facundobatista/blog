@@ -1,0 +1,13 @@
+.. date: 2010-11-20 04:44:06
+.. title: Vuelta a Taniquetil
+.. tags: infraestructura, blog, dominio
+
+¿Qué? ¿Me fuí? No, ¡me fueron!
+
+Bueno, casi.
+
+Resulta que `nic.ar <http://www.nic.ar/>`_ te hace renovar el nombre (en mi caso, *taniquetil.com.ar*) una vez por año. Normalmente manda mail antes de la fecha límite de renovación, pero esta vez o no lo mandaron, o me dieron de baja los DNSs antes de mandarmelo.
+
+Y encima yo, bien boludo, tenía el mail de contacto bajo este mismo nombre (lo pasé cuando me fuí de Movistar), así que me costó reactivar el nombre.
+
+Pero bueno, ya está. Tengo que pasar el contacto a otra cuenta de correo. Y espero acordarme antes el año que viene :|

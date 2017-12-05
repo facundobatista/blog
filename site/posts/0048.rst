@@ -1,6 +1,6 @@
-.. date:  2005-04-29 09:21:30
+.. date: 2005-04-29 09:21:30
 .. title: Bowling y Firefox
-.. tags:  bowling, telefónica, firefox, spreadfirefox
+.. tags: bowling, telefónica, firefox, spreadfirefox
 
 Se largó el primer campeonato del año de bowling, interno a Telefónica, el lunes pasado.
 

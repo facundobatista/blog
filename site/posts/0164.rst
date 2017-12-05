@@ -1,0 +1,25 @@
+.. date: 2006-02-25 21:57:20
+.. title: PyCon 2006, día 2
+.. tags: python, pycon, conferencia, ast, chandler, pyar, remeras
+
+Abrimos con una keynote de Guido, donde mostró algunas cosas actuales (el nuevo sitio, el cronograma de liberaciones para 2.4 y 2.5, etc.), una presentación general de los nuevos puntos de la versión 2.5 (cuya versión final saldría por septiembre), y algunos detalles nuevos sobre Py3k (lambda queda, hay una reforma de los tipos de cadena de texto, un nuevo stack de entrada/salida, etc.).
+
+Con respecto a la 2.5, es la versión con mayor cantidad de cambios desde la 2.2. No solo cambios en el lenguaje (la declaración *with*, *import*'s absolutos y relativos, mejoras a los generadores, una nueva expresión condicional, cambios en las excepciones, y un nuevo *__index__*), sino también cambios en la implementación (compilador basado en AST, ssize_t, etc.). También mencionó nuevos items en la biblioteca estándar.
+
+La primer charla de la mañana fue sobre la generación de bytecode de Python con la nueva Abstract Syntax. Aunque está más allá de mi entendimiento inmediato (y hoy por hoy no me voy a poner a estudiarlo), estuvo buena, me gusta esa parte del lenguaje.
+
+Tanto en esta última charla como en otras, siempre pasa lo mismo.  Resulta que toda la charla es explicando como se terminó un trabajo que llevó meses y muchas horas de razonamiento. Y siempre se levanta uno y hace una pregunta tipo "¿Consideraron agarrar y hacerlo de esta otra manera?". Las probabilidades de que surja con algo interesante son bajas (aunque no cero); ¿la gente no se da cuenta de que si se le acaba de ocurrir a ellos, al que hizo el laburo también se le ocurrió y lo descartó por algo? ¿Por qué no se van a la casa, lo piensan mejor, lo estudian, y de última mandan un mail? ¿O son ansias de figurar?
+
+Para la otra charla me quedé en la misma habitación (sólo me acerqué a un enchufe), ya que aquí venía un caso de estudio: como `Chandler <http://chandler.osafoundation.org/>`_ manejó la internacionalización. La idea general es que la internacionalización es mucho más que traducir texto. Como muestra basta un botón: ¿sabían que el francés tiene reglas muy específicas sobre como ordenar las palabras? Interesante: miren la biblioteca `ICU <http://www-306.ibm.com/software/globalization/icu/index.jsp>`_ de IBM. Más interesante aún: `PyICU <http://pyicu.osafoundation.org/>`_.
+
+Saco en conclusión que en SiGeFi tenemos todo más o menos bien encarado, lo que es todo un logro considerando que ni Mariano ni yo teníamos experiencia en `l10n ni i18n <http://en.wikipedia.org/wiki/I18n>`_.
+
+Hubieron un par de horas en que no encontré ninguna charla interesante, y luego arrancaron las lightning talks. Las dos más interesantes fueron la de `twill <http://www.idyll.org/~t/www-tools/twill.html>`_ (una aplicación para testear aplicaciones web) y `Chandler <http://chandler.osafoundation.org/>`_ (realmente está quedando muy bien; está super completo, sin embargo van por la versión 0.5, y es bastante usable... ¿estamos viendo otro futuro suceso como Mozilla?)
+
+La de PyAr estuvo buena, y los hice reir bastante en dos partes, una cuando les dije que cuando nos juntamos, hablamos bastante y *tomamos* bastante. Y después en el slides de las remeras, cuando les dije que *están a la venta*, hice una pausa, y la rematé con un *a sus hijos les va a encantar*, jijiji.
+
+Luego hubieron algunas más o menos aburridas (o divertidas pero irrelevantes). Quince minutos después de que terminaron arrancamos para la librería que nos invitó a una especie de fiesta. Era una librería muy grandota con todos libros de tecnología, y habían pizzas, quesos, galletitas, dulces, bebidas, etc., todo gratis. Entonces la gente compraba libros aprovechando que habían muchos autores de esos libros por ahí (de los de Python, obvio). Pero todos también compraban otros libros (¡yo compré tres!), así que los tipos vendieron muchísimo.
+
+Lo loco es que como no era un negocio normal, sino más bien una especie de depósito, no había cajero: la única forma de comprar era por internet! Encima no aceptaban tarjetas de crédito de afuera de USA, así que uno de los empleados me hizo la gauchada de pagar con su tarjeta de crédito y yo le dí el efectivo a él.
+
+Después volvimos al hotel, donde estuve trabajando un rato en SiGeFi, escribiendo esto, y luego bajé un rato a tomarme una cerveza: estuvimos charlando con Raymond y Brett Cannon. Después subí, me bañé, y a la cama...

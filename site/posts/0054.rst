@@ -1,6 +1,6 @@
-.. date:  2005-06-27 07:17:52
+.. date: 2005-06-27 07:17:52
 .. title: A Suecia pasando por México
-.. tags:  viaje, argentina, méxico, aerolínea, servicio, suecia, barbacoa, europython, guido
+.. tags: viaje, argentina, méxico, aerolínea, servicio, suecia, barbacoa, europython, guido
 
 
 Argentina - México

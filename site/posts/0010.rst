@@ -1,0 +1,9 @@
+.. date: 2004-11-03 15:29:51
+.. title: El Arte de la Programación Unix
+.. tags: arte, programación, unix, linux, raymond, optimization, evil, knuth
+
+Estoy leyendo el espectacular libro de `Eric S. Raymond <http://www.catb.org/~esr/>`_ titulado "The Art of Unix Programming". Lo pueden comprar, si quieren, pero también está `disponible en la web <http://www.catb.org/~esr/writings/taoup/>`_ (sí, ¡gratis!)
+
+Muy recomendable para todos los que programan y/o gastan parte de su tiempo trabajando/estudiando/jugando con Unix o `Linux <http://www.linux.org/>`_.
+
+Una cita que me encantó, sacada del libro: "Premature optimization is the root of all evil" (La optimización prematura es la madre de todos los males), de Donald Knuth.

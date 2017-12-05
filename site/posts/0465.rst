@@ -1,0 +1,15 @@
+.. date: 2010-05-31 18:15:26
+.. title: Más videos de Felipe
+.. tags: felipe, videos
+
+Venimos atrasados con el procesamiento de fotos, pero acá ya tenemos los videos del cuarto y quinto mes de Felipe (click en la foto para verlos en YouTube).
+
+.. image:: http://www.taniquetil.com.ar/facundo/imgs/felipe4mes.jpg
+    :alt: Fotos del cuarto mes
+    :link: http://www.youtube.com/watch?v=yBoBxK8rVxA
+
+.. image:: http://www.taniquetil.com.ar/facundo/imgs/felipe5mes.jpg
+    :alt: Fotos del quinto mes
+    :link: http://www.youtube.com/watch?v=OkWbu2BgJbM
+
+Si quieren, pueden bajarlos de `acá <http://www.taniquetil.com.ar/facundo/FelipeCuartoMes.avi>`_ y `acá <http://www.taniquetil.com.ar/facundo/FelipeQuintoMes.avi>`_ con más resolución.

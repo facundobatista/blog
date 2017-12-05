@@ -1,0 +1,15 @@
+.. date: 2007-03-22 10:37:25
+.. title: Resumen de parches y bugs
+.. tags: python, visualización, desarrollo, servicio
+
+A principios de Marzo hubo una discusión en python-dev sobre parches y bugs que teóricamente no se revisaban. La discusión iba por el lado de cómo involucrar más gente en la revisión de patchs y bugs, y de imprimirle otra dinámica al asunto.
+
+A partír de esa discusión, yo me pregunté "¿Cómo puedo saber la ubicación temporal de un patch/bug?". ¿Hay muchos patchs/bugs viejos? ¿Esos que son viejos no tienen update o hay toda una discusión con cada uno? ¿Están abandonados?
+
+Para ayudarme con ese análisis, hice una herramienta que a partir de la info en SourceForge arma un cuadro resumen, tanto de los `patchs <http://www.taniquetil.com.ar/facundo/py_patchs.html>`_ como de los `bugs <http://www.taniquetil.com.ar/facundo/py_bugs.html>`_.
+
+Agregué ambos enlaces en la barrita de la derecha ( ---> ).
+
+Mi idea es actualizarlos periódicamente (algo así como una vez por día, al final del html tienen la fecha y hora de actualización).
+
+Me es útil, y a otra gente también, e incluso ya me dieron ideas para mejorarlo (por ejemplo, una barrita negra justo en el momento en que hubo un comentario o update, aunque no es tan fácil sacar esa info de SourceForge).

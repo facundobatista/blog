@@ -1,0 +1,17 @@
+.. date: 2008-10-16 18:21:42
+.. title: Chau, Ericsson
+.. tags: cambio trabajo, experiencia, ericsson, canonical
+
+Fueron nada más que un año y cuatro meses... casi. Quince meses y medio estuve en Ericsson, desempeñándome como Arquitecto de Soluciones en el área de Multimedia.
+
+De todos los laburos que tuve hasta ahora, el que más me defraudó. Quizás suene fuerte esto, pero es verdad, aunque se deba quizás a que mis expectativas eran altas, que estoy viejo e hinchapelotas, y a que en los últimos años me he rodeado de gente técnicamente muy capaz en el ambiente del software libre... y paso a explicar estos puntos.
+
+Mis expectativas eran altas porque yo conocía Ericsson de mi etapa en Movistar, y la empresa en sí era interesante, la gente que trabajaba allí también, y los desafíos técnicos eran divertidos. Pero yo entré al área de Multimedia (que teóricamente debería ser más divertida que la parte de Core Network)... y no está tan bueno. En gran medida se debe a que técnicamente era sólo un intermediario entre las áreas de desarrollo de otros países y el cliente, ya que acá en Argentina no hay Investigación y Desarrollo en Ericsson. Y el laburo, aunque tenía sus detalles interesantes, en general era aburrido.
+
+Lo de que estoy viejo e hinchapelotas lo sabrán de otros ámbitos, pero me cansó (y pronto) el corporativismo recalcitrante de Ericsson. Entiendo que es una gran empresa, y que quizás sea el único modelo para mantener una estructura de decenas de miles de empleados, pero muchas veces los procesos no te dejaban trabajar, y casi siempre era más importante cumplir el proceso bien, que hacer correctamente el trabajo. En todo caso, creo que lo que falla es que exista una empresa tan grande. Creo que las organizaciones deberían ser más chicas, en general.
+
+Con respecto a lo de rodarse de gente capaz... se notaba el contraste entre personas que conocía de Python Argentina u otras comunidades de software libre, con las que realmente tenía que pensar, conocía cosas nuevas, etc, y otras personas en Ericsson que ni sabían usar el correo electrónico, o tenías que explicarles que era un wiki. Ok, los perfiles eran distintos, y hay mil excusas, pero a la hora de pasarla bien en las nueve horas de trabajo, esta situación restaba.
+
+Por el lado positivo, como casi siempre, está la gente. No toda, por supuesto, pero conocí personas muy piolas ahí adentro, y espero seguir viéndolas por afuera de la relación laboral.
+
+Esta semana empecé en Canonical una etapa **totalmente distinta**, programando Python. Veremos como evoluciona la vida.

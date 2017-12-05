@@ -1,0 +1,69 @@
+.. date: 2007-09-30 16:17:23
+.. title: Un largo, largo camino a casa
+.. tags: paseo, ciudad, internet, aeropuerto
+
+El jueves terminamos el curso una hora antes de las seis, así que aproveché y me fuí rápido al hotel a dejar las cosas. El bus de la empresa, el tren hasta Dun Laoghaire, cinco minutos de caminata hasta el hotel, subir y dejar las cosas. A las seis ya estaba afuera nuevamente.
+
+Aunque el cielo estaba encapotado y a punto de llover, tenía una o dos horas de luz para pasear un poquito por esa zona, que no la había recorrido, y al menos el muelle parecía interesante. También pasé por una librería, porque tenía un encargo y otras cosas que comprar.
+
+Como siempre, prefiero no salir a comer sólo cuando estoy afuera, así que me compré algo de comer y unas cervezas, y me fui al hotel. Antes de subir, pasé por recepción para que me dieran el código de acceso de internet de ese día.
+
+
+Internet
+--------
+
+Llegué a la habitación y me conecté. Bueno, es un decir, porque no funcaba. Y acá corresponde recapitular algo.
+
+Todavía en Argentina, averigüé y me confirmaron desde el hotel que daban acceso a Internet en las habitaciones, con un costo diario de 10 euros que yo tranquilamente pensaba cargárselo a Ericsson. Cuando llego el primer día y me quiero conectar, veo que lamentablemente es por cable, no wifi.
+
+No importa, me conecto, y nada. No tenía link (no se me prendía la lucecita de dónde uno enchufa el cable), así que seguro que no era yo. Llamo a soporte al 222, como decía un cartelito por ahí, y constantemente ocupado. Llamo entonces a recepción, y tratando de ponerme lo menos técnico posible, les expliqué que "internet no andaba", y que eran ellos porque no tenía "ni señal".
+
+Me dijeron que revisaban y subían para ver si podían ayudarme. Yo me puse a acomodar las cosas, y unos cinco minutos después me percaté que ya tenía link, así que me apronté a ver si funcaba todo ok. En eso llamaron a la puerta, y eran un muchacho y una señora, que venían a ver qué onda. Les dije "je, link ya tengo, ustedes tocaron algo, ¿no?". El flaco me contestó que sí, que habían cambiado unos cables, pero mejor revisar si funcionaba.
+
+Fuimos a la laptop, y me fijé que tenía ip, gateway, y hasta dns! Abro el Firefox, y entro a una página del hotel que me pedía un código. El flaco se vio contrariado por la situación, explicándome que eso debería verlo si estaba conectado al wifi, pero no, yo tenía la eth1 apagada, así que estaba por cable seguro. Anyway, el pibe me dice que me va a tener que dar un código por día, y todo bien por mi.
+
+Volvemos al último día, donde llegué a la habitación y me conecté, y no funcaba.Luego de media hora de hacer pruebas (las que no voy a escribir acá por lo tedioso), me aseguré finalmente que el problema era de ellos: yo tenía ip, tenía gw, y lo único raro era que el dns correspondía a otra red; podía hacer ping al gw y al dns, pero un "dig @dns www.google.com" no funcaba, y un ping a OpenDNS tampoco. Un tcpdump me mostró que cada muuuuuy tanto recibía un paquete de respuesta del dns, hice un ping a www.google.com, y la enésima vez que recibió la IP del dns, probé lo que decía antes: el ping me marcaba un 98% de paquetes perdidos (de unos 480 envíados, recibí 2).
+
+Por suerte no era tarde, así que llamé al 222, y ocupado. Llamé a recepción, y me dijeron que tenía que marcar "9" antes. Ok, llamo al 9222, y ocupado. Es más, ya al marcar 9 daba ocupado. Llamo nuevamente a recepción, y me dicen que está ok ese tono de ocupado, que ella tiene el mismo, que vuelva a probar. Ya desconfiado, sin saber si la mina tenía mala leche o era simplemente estúpida, vuelvo a probar 10 veces, y nunca tuve respuesta. Llamé entonces a recepción y le rompí las pelotas hasta que mandó a alguien.
+
+Vino un flaquito, que comprobó que "internet no andaba", e intentó llamar al 222 (acá me reí yo, porque el flaco luego de probar 10 maneras distintas, terminó llamando a recepción diciendo que había probado todo y no sabía más que hacer). Finalmente la mina de recepción llamó a soporte (es una empresa externa, que es la que les da internet a ellos; pero no solo el acceso, sino toda la solución, parece) y me pasó la llamada. Luego de algo de música y unas opciones raras (en una tuve que elegir si estaba con wifi en el lobby, o por cable en la habitación), y una voz grabada que me daba instrucciones super elaboradas como "agarre el cable negro que está con un cartel de Internet, y enchúfelo en su computadora", me atendió un humano.
+
+Era un piba. Pobre, porque en tres minutos le conté toda la situación, desde que tenía los datos, hasta lo del tcpdump. Yo pensé "o entiende todo y hace lo posible para resolverlo, o me corta". Por suerte, caí con alguien más o menos calificado, que me fue haciendo algunas preguntas (hasta mi MAC address), y estuvo, al menos, haciendo como si tratara de resolver algo. Al rato me dice que ella probó todo y está bien, que iba a averiguar con back office, y me puso en hold. A los 10 minutos volvió, pero sólo con una mala noticia: ellos veían todo bien, y tenían que pasarle todo a un soporte externo, que vaya probando cada 10 minutos, y me dió un número de reclamo.
+
+
+No internet, no paseo
+---------------------
+
+Ok, sin acceso a la red. No podía revisar mail, no podía entrar en IRC en #pyar, y no podía buscarlo a Lucio en el IM para hablar de la charla que estamos preparando. Pero como tenía laburo que hacer en la máquina, no me preocupé.
+
+Estoy haciendo un programita para mostrar texto como presentación en filminas, y como dice mi amigo `Karucha <http://www.karuchin.com.ar/wordpress/>`_, con Python se puede programar sin tener acceso a internet. Uno tarda más en encontrar la info, pero está, y pude avanzar bastante en mi sistema hasta que me fui a dormir.
+
+Al otro día me levanté temprano, me bañé y luego de desayunar me tomé un bus hasta el aeropuerto. Todo sin novedad, hasta que llegué al "charlsdegol" de París, donde tenía la escala a Buenos Aires. Una escala complicada, porque tuve 11 horas de espera (sí, once, joder). Ojo, que viéndolo desde otro punto de vista, me daba tiempo para salir a la ciudad y pasear un poquito.
+
+Acá fue donde comenzaron los problemas. Aunque mi primer impresión de los franceses fue buena, ellos mismos se encargaron muy prontamente de marcar lo antipáticos que son. Al bajar del avión uno tiene dos posibilidades, o va a la zona para tomar el otro avión, o va a la zona de salida del aeropuerto. Antes de tomar esta decisión, le pregunté a un flaquito del aeropuerto que andaba por ahí si podía salir sin problemas del aeropuerto, ir a la ciudad, y volver en unas horas. Terminé hablando en castellano, y me comentó que él estaba casi seguro que sí, que el único problema posible es que necesite una visa para entrar, que le pregunte al mismo tipo que hace el trámite de salida (que no intente pasar directamente, que pregunte). Ok, fuí allí y el con este también terminé hablando en castellano, y me dijo que no había problema. Ese fue el punto hasta donde estuvo todo bien.
+
+Antes que nada tenía que buscar dónde agarrar el tren, y dónde dejar el bolso (mi único problema es que yo tenía un bolsito de mano, que como compré algunas cosas en Irlanda pesaba bastante; está todo bien para llevarlo un rato, pero ya incluso me empezó a romper las pelotas de llevarlo de un lado al otro del aeropuerto).
+
+Fuí a Turismo, y les comenté que tenía algunas horas libres, que quería ir al centro de la ciudad a conocer algo. Como la mina no reaccionaba, le pregunté dónde me podía tomar el tren, y me contestó que no era un buen día para trenes, que tenían un problema, que salían uno de cada tres, y que no me los recomendaba, pero que había un bus que por 20 morlacos de los europeos me llevaba al Campo Elíseos, ida y vuelta. No me hacía ninguna gracia gastarme esa guita sólo en el viaje, pero si no quedaba otra... Después de eso, la mina no me dijo más nada. Entonces le pregunté, "y ahí qué hago?". Para mi sorpresa, la mina (la que te atiende en turismo!) se encogió de hombros. "¿Algo para ver, algún museo?", le pregunté, y ahí me dió dos folletos y me mandó a una pared donde había 500 más.
+
+Bien, ya tenía como ir al centro. Ahora tenía que dejar el bolso. Ahi mismo en turismo pregunté por un lugar dónde haya lockers o algo, y me mandaron para una punta. Luego de caminar un buen rato, y terminar esa zona, me di cuenta que no había nada ni remotamente parecido. Por suerte había un mostrador de informaciones. Le hice la misma pregunta, y me contestó "Gate 4" y mandó por donde había venido. Comencé a caminar, y lo que más sospecha me traía era que en todos los carteles, no habían "gates", todas las zonas del aeropuerto tienen otros nombres. Ok, seguí caminando, y le pregunté a otra persona. Me dijo que ni idea, pero que por esa zona seguro que no, y que más allá había otro mostrador de informaciones. Tuve que esperar cinco minutos que la mina dejara de hablar con las amigas, y me mandó a otra punta del aeropuerto, diciendo "Gate 4". A esa altura yo creía que "gate 4" es un código que estas hijas de puta usaban para mandarme a cagar, pero seguí caminando para esa zona.
+
+De cualquier manera, era para el lado del tren, donde yo pensé que quizás habían otros lockers, así que todo bien. Obvio, no encontré nada ni parecido a un lugar para dejar valijas, así que en el camino le pregunté a un par de morochos que había ahí. Uno me despachó enseguida con un "no english", pero el otro, con un inglés muy malo, me quiso ayudar. Cuando entendió lo que quería, me comentó (más con señas que con palabras) que no habían más lockers en el aeropuerto ni en ninguna zona de esas, por una cuestión de seguridad, por las bombas.
+
+Debo reconocer que este es el que me pareció más creíble de todos. La única oportunidad que tenía era tomarme el tren, y jugarme a que haya lockers en la estación donde me baje (que es normal en estaciones grandes, y asumí que la de los campos elíseos esos debe ser grande porque el lugar es conocido). Así que caminé como 700 metros más y llegué a la zona de los trenes.
+
+Un puto quilombo. Gente haciendo colas inmensas, guardias de seguridad y encargados de los trenes corriendo de un lado para el otro, etc. No sé que mierda pasaba, pero ni preguntar podías. Encima, en una estoy parado mirando que hacer (y descansando mis brazos por el bolsito), y escucho a una pareja de españoles que decían algo como "ni siquiera saben si se va a normalizar hoy". Y al 70% de los franceses a los que querés preguntar algo, te contestan "no english". Loco, ¡¡están en un aeropuerto internacional!!
+
+Ahí me rendí: si había algo que NO quería que pase, es ir al centro y luego no poder volver en hora y perder el vuelo. Franceses del orto, mal organizados, y con poca ganas de ayudar. Gracias, me voy a gastar mi platita a otro lado. Métanse la torre eiffel en el culo.
+
+
+Etapa final
+-----------
+
+Con la decisión tomada de quedarme en el aeropuerto, tuve tiempo para trabajar en el sistemita que estoy haciendo. Mucho tiempo. Horas.
+
+Pero encontré un lugar piola para sentarme, sin gente que rompa las bolas, con enchufe, un monitor cerca para ver que no se me vaya el avión, y pude trabajar tranquilo. También aproveché para escribir algo de esto, ver un video de `cómo dar vuelta una esfera "de adentro para afuera" <http://video.google.com/videoplay?docid=-6626464599825291409>`_ (es buenísimo, ¡gracias Dave!), y un capítulo de los `Expedientes X <http://es.wikipedia.org/wiki/The_X-Files>`_ (voy por la cuarta temporada).
+
+Luego el viaje, que no se me hizo tan largo porque entre dormir, ver una peli, laburar en la laptop lo que dura la batería, cenar, desayunar, y leer un rato, creo que me aburrí diez minutos...
+
+Y finalmente, en casa, :D. Fotos de Irlanda, `acá <http://www.flickr.com/photos/54757453@N00/sets/72157602218589449/>`_.

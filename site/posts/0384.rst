@@ -1,0 +1,86 @@
+.. date: 2008-10-07 11:14:57
+.. title: Charlando con Dell
+.. tags: charla, dell, teclado, laptop
+
+Averiguando sobre la laptop que me quiero comprar, me saltó una duda cruel: yo quiero teclado Latinoamericano sí o sí (no me voy a comprar una laptop si no lo tiene).
+
+Revisando la configuración en la web de Dell, no hablan de esto para nada, pero había un botón que decía "chateá en linea con Dell"...
+
+    11:09:58 Facundo Batista   Pregunta inicial/Comentarios: [Argentina] ¿Qué distro de teclado viene en la XPS con Ubuntu si la compro de Argentina?
+
+    11:12:24 LA_DHS Luis 86610 su compra es a nombre personal ?
+
+    11:13:32 Facundo Batista   si
+
+    11:13:39 Facundo Batista   soy un usuario final, digamos
+
+    11:13:54 LA_DHS Luis 86610 cuando estaria efectuando la compra ?
+
+    11:14:17 Facundo Batista   la semana que viene, pero eso depende de otra consulta que te hago luego, :)
+
+    11:14:31 Facundo Batista   ¿querés que te pregunte lo otro primero?
+
+    11:15:00 LA_DHS Luis 86610 si porque la verdad no entiendo la pregunta ?
+
+    11:15:15 LA_DHS Luis 86610 Qué distro de teclado viene en la XPS con Ubuntu si la compro de Argentina?
+
+    11:15:30 Facundo Batista   los teclados vienen en distintas distribuciones
+
+    11:15:41 Facundo Batista   inglés, español, latinoamericano, italiano, griego, etc
+
+    11:15:53 Facundo Batista   la XPS con Ubuntu es un modelo vuestro
+
+    11:16:04 Facundo Batista   si compro esa máquina desde Argentina... ¿qué teclado viene?
+
+    11:16:04 LA_DHS Luis 86610 en español logicamente te llegaria
+
+    11:16:15 Facundo Batista   ¿por qué? yo estoy en latinoamérica
+
+    11:16:35 LA_DHS Luis 86610 español
+
+    11:16:49 Facundo Batista   ¿no se puede elegir? en español no me sirve
+
+    11:17:10 LA_DHS Luis 86610 si queres el teclado en ingles todo el sistema va en ingles
+
+    11:17:40 Facundo Batista   no
+
+    11:17:47 Facundo Batista   quiero el teclado en LATINOAMERICANO
+
+    11:17:50 Facundo Batista   Mirá: http://en.wikipedia.org/wiki/Image:KB_Latin_American.svg
+
+    11:18:06 Facundo Batista   Fijate acá, también
+
+    11:18:09 Facundo Batista   http://en.wikipedia.org/wiki/Keyboard_layout#Spanish_.28Latin_America.29
+
+    11:18:20 Facundo Batista   Latinoamericano y Español son dos teclados *distintos*
+
+    11:18:25 LA_DHS Luis 86610 no unicamente podes llevar el sistema en un solo idioma lo siento
+
+    11:18:29 Facundo Batista   ok
+
+    11:18:36 Facundo Batista   lo quiero en Latinoamericano, ¿se puede?
+
+    11:19:26 LA_DHS Luis 86610 pues aca solo manejamos español e ingles no tengo otra opcion
+
+    11:19:57 Facundo Batista   ¿hay otra manera de comprar la laptop que no sea por "ahí"?
+
+    11:20:10 LA_DHS Luis 86610 en base a eso se ditribuye en todo el continente no hay otra opcion lo sentimos
+
+    11:21:23 Facundo Batista   ¿o sea que en Latinoamérica Dell distribuye laptops con teclados que son de otro continente?
+
+    11:21:51 LA_DHS Luis 86610 no creo
+
+    11:22:28 Facundo Batista   ¿con quien debería hablar de Dell que no *crea*, sino *sepa*?
+
+    11:27:17 Facundo Batista   ¿hola?
+
+    11:28:42 LA_DHS Luis 86610 si gustas mejor llama via telefonica y que te comuniquen con el area tecnica porque aparte de ingles y español no hay otr opcion disponible
+
+    11:28:42 LA_DHS Luis 86610 en la pagina de internet en la opcion contactenos encontraras el telefono para que marques desde tu pais
+
+    11:29:11 Facundo Batista   ok, gracias
+
+    11:30:18 LA_DHS Luis 86610 gracias por contactar a DELL ha sido un gusto atenderle</span>
+
+
+A veces quiero tener un emoticón que signifique "decís una pelotudez más y te cago a trompadas"... pero no hay.

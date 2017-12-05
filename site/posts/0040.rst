@@ -1,0 +1,28 @@
+.. date: 2005-03-23 22:35:51
+.. title: PyCon 2005, día 1
+.. tags: pycon, conferencia, decimal, money
+
+
+Laaaaaaargaron!
+
+Llegué tempranito, la verdad es que me desperté a las 6 y no me pude volver a dormir. ¡Y eso para mí es un montón!. Hasta para afeitarme tranquilo tuve tiempo, :). La verdad es que estaba un poco nervioso, pero es ese nerviosismo disfrutable, como antes de dar un final en la Universidad (o sea, es como andar en montaña rusa, es una sensación horrible, pero uno aprende a que le guste).
+
+Me registré y me dieron una remera, una bolsita con un par de papeles, un pin, etc. El kit básico del conferencista. Desayunamos y bajamos a el primer piso, al teatro, donde se abría formalmente la conferencia. Primero habló Steve Holden, chairman de la PSF, donde contó algunas novedades interesantes y otros formalismos.
+
+Luego habló Jim Hugunin, de parte de Microsoft, sobre Python en la plataforma .NET. Realmente estuvo interesante la charla, ya que mostró ejemplos, y hasta se animó a echarse un código ahí en vivo. Un programita corto, pero complicado, donde compilaba en .NET una clase genérica y luego creaba una función en IronPython y se la pasaba directamente (o algo así, no se nada de .NET). El punto es que el público se la complicó a propósito, pero al pibe le anduvo (aunque él no estaba muy seguro, ¡les juro que transpiraba!), y el anfiteatro aplaudió a rabiar.
+
+Luego se hizo un break, antes de empezar con las charlas. Ahí conocí a Guido van Rossum y a Raymond Hattinger, que eran dos de los que me quedaban por conocer. Ah! Y en el desayuno me encontré con Anna Ravenscroft (para ser exactos ella me encontró a mi), coautora del Python Cookbook y contribuidora a Python en general (y también es la esposa de Alex, ya que estamos).
+
+Mientras se daban las charlas de la mañana estuve contestando algunos mails y revisando la presentación, para ver principalmente cuanto tiempo me llevaba darla. Me dió un total de 28 minutos, lo que ayer hubiese pensando que estaba bien (después de todo la charla tiene asignado un espacio de media hora). Pero hoy a la mañana, en la presentación de Steve, me enteré de que la idea cuando dicen media hora, es que sean 20 minutos para la charla, 5 para preguntas, y 5 para permitir a la gente moverse de un lugar a otro. Así que de alguna manera voy a tener que achicar los tiempos...
+
+Comí algo de lo que había al mediodía (cuando llegué ya se había acabado todo lo bueno, así que me conformé con algo que era mozzarella, tomate, lechuga y fideos, pero no comí los fideos), y me fuí a la sala donde era mi charla para conectar la notebook y ver que todo estuviese bien. El proyector que había ponía los colores feos, y luego dejó de andar. Entonces Michael (Chermside, que daba la parte para principiantes de Decimal antes que yo) fue a buscar otro proyector. Este estaba mucho mejor, muy muy bien.
+
+Al final arrancamos, con alrededor de cuarenta personas en la sala. Michael dió su charla muy bien, y luego me dejó a mi la posta. En los tres o cuatro minutos de cambio de charla llegaron más personas. Cuando empecé, el público llegaba a sesenta personas. Encima, estaban todos: Raymond, Alex, Anna, Brett, Tim... ¡hasta Guido! Como para ponerse nervioso, ¿no?
+
+Pero lo sobrellevé bastante bien, e incluso fue divertido, porque cuando no me salía una palabra en inglés, se la preguntaba al público, :D. Luego de la charla, esa sala estaba vacía, por lo que aprovechamos para una sesión de preguntas y respuestas más distendida. Estuvo muy bueno. Y parece que realmente estuvo bien, porque varios me felicitaron, :D
+
+Luego fui a la charla de Alex sobre Patrones de Diseño, y me quedé a la de Bruce Eckel, que habló sobre cómo el lenguaje que uno usa para programar realmente cambia el enofoque que uno aplica a los problemas, todo desde el punto de vista de programación orientada a objetos. Estuvo muy buena. Al terminar esa, fui a la charla de Anna, pero la había reprogramado para el otro día. Por lo tanto, estuve haciendo un poquito de sociales por aquí y por allá y luego me puse a armar algunas ideas para el Espacio Abierto que tuve sobre Money. A las seis fuí a la charla de Brett sobre Inferencia Localizada de Tipos, charla que estuvo piola.
+
+Cuando finalizó, fuí directamente a la sala donde tenía el Espacio Abierto. Basicamente fue una reunioncita donde nos juntamos Anna, Alex, tres personas más que no conocía, y yo, y estuvimos tirando las primeras ideas para Money. Lo encuadramos bastante en lo que queríamos, pero la media hora se acabó enseguida, por lo que supongo que armaré otro Espacio Abierto mañana o pasado, y quizás arme también una Charla Rápida (como las que voy a dar de SiGeFi y PyAr). Veré.
+
+Al terminar esta reunión ya eran más de las siete y cuarto, así que enfilé para casa, ¡era tardísimo!

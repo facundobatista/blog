@@ -1,0 +1,13 @@
+.. date: 2009-10-26 20:11:30
+.. title: Ahora con imágenes
+.. tags: twitter, posts, imágenes
+
+Le incorporé al programita para `postear al microblog desde el celular <http://www.taniquetil.com.ar/homedevel/devel/mail2micropost.py>`_ la funcionalidad de reconocer si el mail que uno manda tiene imágenes.
+
+El programa, si el mail tiene una imagen, lo que hace es bajarla y grabarla en el servidor, y gestionar en `bit.ly <http://bit.ly/>`_ una URL corta para la URL larga que queda de poner la imagen en nuestro servidor.
+
+Luego arma el post con el texto que uno haya mandado, más la URL corta, y la sube a twitter e identi.ca.
+
+El único cambio que hay que hacer en el programa es volverlo a ejecutar con --auth para, aparte de poner la info de twitter/identi.ca y el mail, poner el nombre de usuario y la clave de la API de bit.ly (que es gratis, te registrás y listo).
+
+Enjoy it.

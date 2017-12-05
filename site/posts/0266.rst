@@ -1,0 +1,76 @@
+.. date: 2007-06-13 13:12:20
+.. title: Día Python, Santa Fe 2007
+.. tags: pyday, Santa Fé, conferencia, viaje, tobogán, chiquito
+
+Viaje de ida
+------------
+
+El viernes me rajé temprano de la oficina, me econtré con Leito en el estacionamiento, y fuimos a buscar a Moni al jardín. Tuve que pasar por casa porque me había olvidado los regalos, pero terminamos agarrando la Panamericana antes del quilombo (estuvo lenta en una parte por un choque, pero luego muy bien).
+
+En la ruta nos encontramos con Dave, Alecu y Matías, en una estación de servicio, y fuimos casi juntos hasta Sta Fe. Llegamos relativamente temprano, lo pasamos a buscar a `Nico <http://nicocesar.com/>`_, y fuimos para el hotel donde estaba el resto de la gente. Y todos en masa a comer: mucha charla, mucha cerveza, y una milanesas buenísimas. Luego al sobre, que el sábado era largo.
+
+
+El sábado
+---------
+
+Nos levantamos temprano, no tanto como hubiéramos debido, y luego de desayunar en el hotel nos fuimos a la UTN. Allí nos encontramos con los organizadores: `César <http://www.ceportela.com.ar/>`_, `Juanjo <http://www.juanjoconti.com.ar/>`_ y `Diego <http://www.diegolevental.com.ar/>`_.
+
+Llegamos un rato antes del comienzo de la charla, pero se me complicó al configurar la laptop con el proyector: no lo podía sacar de 640x480 de resolución. Finalmente reinicié la laptop, como que reconoció una mayor resolución, en lo proyectado se vió todo bien, pero yo no tenía imagen en mi pantalla.
+
+Con esa pequeña molestia y todo, la charla salió muy bien, pude terminar con casi todo el contenido, y recibí feedback interesante para seguir puliendola.
+
+.. image:: http://farm4.static.flickr.com/3456/3257981354_d1259f1d61_o.jpg
+
+Una vez terminada mi charla, ya quedé como "espectador solamente", y me deleité con las charlas de "Turbogears" (Matías Gieco), y de "PyWeek: un juego en 7 días" (Alecu y Daniel Moisset).
+
+Luego almorzamos, todos los disertantes en una mesa grandota, donde nos atendieron muy bien. El almuerzo estuvo bueno, pero no es estratégico: ¡¡¡nos agarró una modorra espantosa!!!
+
+.. image:: http://farm4.static.flickr.com/3418/3257981442_1da3830018_o.jpg
+
+A la tarde habían dos tracks de charlas, con lo que había que elegir cuales ver. Yo me decidí por "Desarrollando aplicaciones web con Zope 3" (Pablo Ambrosio), en la que aprendí bastante; "Creando juegos 3D de la mano de Python" (Silvestre Huens), muy bien llevada, especialmente por las demostraciones; "Usando Python para testeos de seguridad mediante simulación automática de ataques" (Dave y Matías Eissler), donde vi que hay mucho para investigar en programación automática de tareas; y finalmente "Programando para la OLPC" (Dave y Alecu), que fue super interesante.
+
+.. image:: http://farm4.static.flickr.com/3330/3257152063_159b4c8077_o.jpg
+
+En la última charla se me complicó cual elegir, porque se pisaba con "Concurrencia en Python" (Lucio). Pero ya había dicho que iba a filmar la charla de OLPC, así que no tuve opción. Espero poder ver la charla de Lucio en otro lugar...
+
+Luego de todas las charlas, se sortearon algunos de los regalos que Lucio y Alecu habían traido de la última PyCon, haciendo el sorteo con cuatro lineas de código hechas por Alecu en el momento, mostrándolas en el proyector y explicándole al público qué iba haciendo... ¡muy bien! Hasta tuvo una secretaria de lujo:
+
+.. image:: http://farm4.static.flickr.com/3522/3257981586_c0be156e4f_o.jpg
+
+Los nombres se sacaron de una lista suministrada por los organizadores, pero había gente que ya no estaba. Los elegidos pasaban al frente y elegían algunos de los regalos (remeras, bolsitos, etc.).
+
+.. image:: http://farm4.static.flickr.com/3266/3257152213_7f0f93c919_o.jpg
+
+Se produjeron los cierres de rigor, algunas palabras de los organizadores, etc, y nos fuimos para el bar de la terminal de colectivos de Santa Fe, donde tuvimos muchas mesas a nuestra disposición, WiFi, y hasta la onda de desenchufar un toque la tele para poder enchufar nuestras zapatillas.
+
+La idea era hacer un sprint, y nos pusimos a trabajar en Typus Pocus, arreglando detalles, limpiando código, y tocando cosas para que pueda correr en la OLPC.
+
+.. image:: http://farm4.static.flickr.com/3091/3257152299_da866e41c4_o.jpg
+
+Nos quedamos hastas altas horas de la madrugada (bueno, las dos de la mañana, pero había sido un sábado super intenso). Se avanzó bastante, y quedamos muy contentos con la experiencia.
+
+
+Cerrando el finde
+-----------------
+
+El domingo nos levantamos con Moni algo tarde, y ya estaban los chicos desayunando (no todos, tuvimos que esperar a otros, pero lo aprovechamos para jugar al Crystal Towers, :).
+
+Despues de desayunar, preparamos los autos para partir y nos fuimos a comprar alfajores y dulce de leche. Recién despues de eso arrancamos. Lo pasé a buscar a Nico y fuimos todos a lo de Chiquito, un restaurant especialista en pescados, a la vera del río, que estuvo muy muy bien.
+
+Empanada de pescado (no sé de qué), milanesas de surubí, milanesas de otro pescado más, albóndigas de surubí, boga la parrilla (para caranchear), mimoso (servido de la misma manera), una cazuelita de tampoco me acuerdo qué, etc. Comimos como cerdos, porque estaba todo riquísimo.
+
+Como corresponde despues de tanta comida, más a la tarde fuimos caminando a tomar un helado, y a la vuelta, con Moni, Alecu, César y otro chico que no me acuerdo el nombre, `nos tiramos por un tobogán <http://video.google.es/videoplay?docid=119884329228622402>`_ de esos gigantes y ondulados.
+
+.. image:: http://farm4.static.flickr.com/3506/3257152369_78a57fa769_o.jpg
+
+Esa fue como la última actividad, y luego de los saludos de rigor y de dejar a Nico en la casa, partimos para Buenos Aires.
+
+
+Conclusiones
+------------
+
+Un fin de semana muy bueno, para repetir y recomendar.
+
+A nivel de software, estas jornadas ayudan muchísimo a la difusión del mismo, capacitación de la gente, e integración de conceptos. Pero también es muy importante en su aspecto social. Reunir movimientos separados geográficamente es una tarea que hay que realizar. Como siempre, fuimos muy bien atendidos por toda la gente de Santa Fe. Pueden ver `acá <http://www.flickr.com/photos/54757453@N00/sets/72157600348574980/>`_ todas las fotos del finde.
+
+Muchas gracias a los organizadores, fue un honor participar de las jornadas.
