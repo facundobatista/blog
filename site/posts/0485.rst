@@ -1,9 +1,0 @@
-.. date: 2010-10-23 13:44:13
-.. title: Azules en la oscuridad
-.. tags: imagen, foto
-
-Vitral en `La Sagrada Familia <http://es.wikipedia.org/wiki/Templo_Expiatorio_de_la_Sagrada_Familia>`_ (una obra de arte que excede lo religioso), en el que me encantó el efecto logrado por el contraste de lo oscuro y la luz, más la gama de colores que ofrece.
-
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/fotint-vitralazul.jpeg
-    :alt: Vitral azul
-    :link: http://www.flickr.com/photos/54757453@N00/3615414569/sizes/l/in/set-72157624548630453/

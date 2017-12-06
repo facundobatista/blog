@@ -1,7 +1,0 @@
-.. date: 2006-02-25 13:30:24
-.. title: Presentaciones PyCon 2006
-.. tags: presentaciones, pycon, python, decimal, pyar
-
-Subí las dos presentaciones que mostré en `PyCon 2006 <http://us.pycon.org/TX2006/HomePage>`_.
-
-La primera es una charla de media hora, `Decimal para principiantes <http://www.taniquetil.com.ar/homedevel/presents/decimal_beginners.sxi>`_. La segunda es una charla rápida, de cinco minutos, sobre el estado actual de `Python Argentina <http://www.taniquetil.com.ar/homedevel/presents/pyar.sxi>`_.

@@ -1,9 +1,0 @@
-.. date: 2005-04-29 09:21:30
-.. title: Bowling y Firefox
-.. tags: bowling, telefónica, firefox, spreadfirefox
-
-Se largó el primer campeonato del año de bowling, interno a Telefónica, el lunes pasado.
-
-Empezamos más o menos, yo particularmente estuve quince palos bajo mi promedio. Encima una de las lineas la jugamos contra un equipo que no vino, por lo que no sabemos si tenemos la linea ganada (en caso de que vaya el lunes que viene y siga participando), o la tenemos que comparar contra el promedio de la zona (en caso de que este equipo no venga nunca y sea como que nunca existió).
-
-Con respecto a `Firefox <http://www.spreadfirefox.com/?q=affiliates&id=30445&t=64>`_, cumplió (cumplimos, :) un nuevo hito: Hoy viernes, y luego de menos de seis meses, `Firefox <http://www.spreadfirefox.com/?q=affiliates&id=30445&t=64>`_ 1.0.x llegó al download numero 50000000. ¡Cuántos ceros! Cincuenta millones de bajadas. Impresionante.
