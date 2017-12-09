@@ -1,6 +1,6 @@
 2012-01-02 13:31:55
 Dieta, cerrando el 2011
-<tags>
+dieta, peso, curva
 
 El 12 de Noviembre pasado, sábado, me levanté y pesé como todas las mañanas. Noventa y tres kilos y medio. Sí, 93.5 kg. Un desastre. Tanto, que decidí arrancar una dieta ese mismo sábado.
 
@@ -10,8 +10,10 @@ Pero bueno, decidí ponerme objetivos a corto plazo, e irlos tuiteando tanto al 
 
 ¡Y funcionó! Esta es la curva de mi peso desde ese día hasta fin de año, con recta de tendencia y todo :)
 
-<a href="http://www.taniquetil.com.ar/facundo/imgs/dieta-2009-2011.png"><img src="http://www.taniquetil.com.ar/facundo/imgs/dieta-final2011.png" alt="Curva de peso de la dieta" height="376" width="678" /></a>
+.. image:: http://www.taniquetil.com.ar/facundo/imgs/dieta-final2011.png
+    :alt: Curva de peso de la dieta
+    :link: http://www.taniquetil.com.ar/facundo/imgs/dieta-2009-2011.png
 
-Si hacen click en la imagen, pueden ver toooodo el historial de los últimos dos años (tienen los números <a href="http://ubuntuone.com/1kGxROiXNeXyvnf1EDPR0d">acá</a>).
+Si hacen click en la imagen, pueden ver toooodo el historial de los últimos dos años (tienen los números `acá <http://ubuntuone.com/1kGxROiXNeXyvnf1EDPR0d>`_).
 
-Ahora, a redoblar esfuerzos en Enero, para ver si puedo bajar otro escalón más y posicionarme en los 85 kg.</p> |
+Ahora, a redoblar esfuerzos en Enero, para ver si puedo bajar otro escalón más y posicionarme en los 85 kg.

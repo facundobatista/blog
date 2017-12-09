@@ -1,14 +1,15 @@
 2011-12-19 02:22:04
 Paka paka y agua
-<tags>
+tele, canal, aire, tda, pileta, accidente, felipe
 
-Mi hijo, desde hace tres semanas, puede disfrutar <a href="http://www.pakapaka.gov.ar/">Paka Paka</a> en la tele.
+Mi hijo, desde hace tres semanas, puede disfrutar `Paka Paka <http://www.pakapaka.gov.ar/>`_ en la tele.
 
-Y no, no es que Cablevisión decidió incorporar la señal a su grilla (hijos de puta), no, sino que finalmente tengo <a href="http://www.tda.gob.ar/contenidos/home.html">Televisión Digital Terrestre</a>.
+Y no, no es que Cablevisión decidió incorporar la señal a su grilla (hijos de puta), no, sino que finalmente tengo `Televisión Digital Terrestre <http://www.tda.gob.ar/contenidos/home.html>`_.
 
 Ya me había comprado una tele con sintonizador para la misma, pero hace casi un mes decidí terminar de instalar todo, compré cable, conectores, la antena, y prepraré la entrada de la casa para pasar el cable... y esperé a ver quién me podía ayudar. Un finde vinieron Di y Gus a casa, y aprovechando que Gus es flaquito (un gustavo son dos tercios de facundo) se subió él a instalar la antena.
 
-<img src="http://www.taniquetil.com.ar/facundo/imgs/gustavoantena.jpg" alt="Gustavo instalando la antena" height="600" width="495" />
+.. image:: http://www.taniquetil.com.ar/facundo/imgs/gustavoantena.jpg
+    :alt: Gustavo instalando la antena
 
 ¿El resultado? Espectacular, la TV digital está buena, y que Felu pueda disfrutar Paka paka, mejor.
 
@@ -18,6 +19,7 @@ Obviamente, se terminó cayendo, y de cabeza. Yo reaccioné tan rápido que me t
 
 Eso sí, reaccioné rápido para sacar a Felu del agua, pero no para sacar mi teléfono del bolsillo... cuando salí yo del agua le dí el fono a Diegote para que le saque la batería. Al final del día me lo llevé a casa, lo desarmé completamente, y lo metí en un bol con arroz.
 
-<img src="http://www.taniquetil.com.ar/facundo/imgs/fonodespanzurrado.jpg" alt="Fono despanzurrado" height="450" width="600" />
+.. image:: http://www.taniquetil.com.ar/facundo/imgs/fonodespanzurrado.jpg
+    :alt: Fono despanzurrado
 
-Un día y medio después, lo armé, ¡y anduvo! Al principio tenía como unas manchas de humedad en la pantalla, pero al pasar el tiempo (y fuertemente condicionadas por la temperatura interna del aparato) esas manchas se fueron yendo.</p> |
+Un día y medio después, lo armé, ¡y anduvo! Al principio tenía como unas manchas de humedad en la pantalla, pero al pasar el tiempo (y fuertemente condicionadas por la temperatura interna del aparato) esas manchas se fueron yendo.

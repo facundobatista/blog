@@ -1,6 +1,6 @@
 2012-01-13 22:46:42
 Pastel de berenjenas
-<tags>
+comida, cocina
 
 Pelar un par berenjenas medianas, cortarlas en rodajas, y sumergirlas un par de minutos en agua hirviendo (no tanto como para "hervirlas", pero más que "blanquearlas").
 
@@ -10,6 +10,8 @@ En una fuente, alternar capas de rodajas de berenjenas y lo que preparamos en la
 
 Meter un rato al horno. Luego agregarle queso rallado por arriba, y orégano. Más horno.
 
-<a href="http://www.flickr.com/photos/54757453@N00/sets/72157628170468097/"><img src="http://www.taniquetil.com.ar/facundo/imgs/pastel-berenjena.jpg" alt="Pastel de berenjenas" height="488" width="648" /></a>
+.. image:: http://www.taniquetil.com.ar/facundo/imgs/pastel-berenjena.jpg
+    :alt: Pastel de berenjenas
+    :link: http://www.flickr.com/photos/54757453@N00/sets/72157628170468097/
 
-<strong>Comer y disfrutar.</strong> Click en la foto para verlas en mejor resolución.</p> |
+**Comer y disfrutar.** Click en la foto para verla en mejor resolución.

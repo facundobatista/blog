@@ -1,0 +1,32 @@
+2012-01-05 02:27:25
+Encuentro 0.4, con todo
+liberación
+
+*Encuentro* es un simple programa que permite buscar, descargar y ver contenido del Canal Encuentro.
+
+Notar que este programa no distribuye contenido de Canal Encuentro, sino que permite un mejor uso personal de esos contenidos. Por favor, referirse al `sitio web de Canal Encuentro <http://www.encuentro.gov.ar>`_ para saber qué se puede y qué no se puede hacer con los contenidos de ese sitio.
+
+.. image:: http://encuentro.taniquetil.com.ar/imgs/title.png
+    :alt: Encuentro
+
+¡Con esta versión entramos en "alfa"! O sea: están todas las funcionalidades que pretendo, veremos si aparecen bugs para corregir...
+
+La versión 0.4 trae los siguientes cambios con respecto a la versión anterior:
+
+- Ahora se puede filtrar todos los programas para encontrarlos más fácil.
+
+- ¡Tenemos una versión para Windows! (gracias Javier Andalia)
+
+- ¡Tenemos un instalador para Arch Linux! (gracias Diego Mascialino)
+
+- Mostramos versiones de todas las bibliotecas usadas al arrancar.
+
+- Mejor info de error si no se encuentra alguna biblioteca.
+
+- Correcciones pequeñas, y más control de errores...
+
+Para las distintas formas de instalarlo en Debian/Ubuntu, suscribirse al PPA, cómo hacer con Arch Linux, bajarse el instalador para Windows, o dónde encontrar el tarball genérico, vayan a `la página del proyecto <http://encuentro.taniquetil.com.ar/>`_.
+
+Recuerden revisar el archivo AYUDA.txt si tienen alguna duda de cómo usar el programa.
+
+¡Que lo disfruten!
