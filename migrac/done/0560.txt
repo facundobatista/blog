@@ -1,6 +1,6 @@
 2012-05-11 17:54:46
 PyDay Luján 2012
-<tags>
+python, conferencia
 
 El sábado pasado se hizo un PyDay en Luján.
 
@@ -10,7 +10,8 @@ El almuerzo estuvo muy bien resuelto (con excepción del catering pre-armado, la
 
 Ah, y también tuvimos tiempo para sacarnos una foto grupal:
 
-<img src="http://www.taniquetil.com.ar/facundo/imgs/pyday-lujan.jpeg" alt="Todos" height="295" width="600" />
+.. image:: http://www.taniquetil.com.ar/facundo/imgs/pyday-lujan.jpeg
+    :alt: Todos
 
 La tarde siguió tranquila, con charlas copadas y algunos talleres o sesiones interesantes. Yo volví a dar "Python más rápido que C".
 
@@ -18,4 +19,4 @@ Para el cierre hubieron algunas palabras de los organizadores (gracias Yami, Tom
 
 Luego, nos fuimos a un quinchito cercano a charlar, comer y tomar, y jugar juegos de mesa... me terminé yendo como a las tres de la mañana.
 
-La verdad, la pasamos genial! Algunas fotos <a href="http://www.flickr.com/photos/54757453@N00/sets/72157629664252218/">acá</a> y <a href="http://www.flickr.com/photos/79843343@N05/sets/72157629618717058/">acá</a>.</p> |
+La verdad, la pasamos genial! Algunas fotos `acá <http://www.flickr.com/photos/54757453@N00/sets/72157629664252218/>`_ y `acá <http://www.flickr.com/photos/79843343@N05/sets/72157629618717058/>`_.

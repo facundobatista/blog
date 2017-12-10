@@ -1,6 +1,6 @@
 2012-05-16 17:52:52
 Bibliotequitas
-<tags>
+carpintería, bibliotecas, libros
 
 Algo que venía postergando y postergando, desde hace muchos años (más de un lustro!) es el tema de traerme los libros que están en la casa de mi papá.
 
@@ -10,8 +10,9 @@ Parte de la complejidad, justamente, es no tener un lugar definitivo. Entonces, 
 
 Así que diseñé algo, compré una placa de madera en el Sodimac (indicando que la corten, obvio), ajusté, atornillé, emprolijé, pinté... y acá tienen:
 
-<img src="http://www.taniquetil.com.ar/facundo/imgs/bibliotequitas.jpeg" alt="Las bibliotequitas :)" height="399" width="600" />
+.. image:: http://www.taniquetil.com.ar/facundo/imgs/bibliotequitas.jpeg
+    :alt: Las bibliotequitas :)
 
 Están lindas, ¿no?
 
-Cuando las termine de llenar de libros les saco otra foto y muestro :).</p> |
+Cuando las termine de llenar de libros les saco otra foto y muestro :).
