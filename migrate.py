@@ -2,7 +2,6 @@
 To convert txt to rst, converting the first three lines
 in Nikola metadata format, and replacing duplicated tags
 
-
 """
 
 import os
@@ -20,28 +19,31 @@ def main():
     """Loop through all post in 'done' folder."""
     total = {True: 0, False: 0}
     for filename in os.listdir(path_source):
-        error, output = check_file(filename)
-        if error:
-            print(output)
-        else:
-            process_file(filename, output)
-        total[error] += 1
-    print("\nFiles: {} processed, {} not processed".format(total[False], total[True]))
+        try:
+            file_out = check_file(filename)
+            process_file(filename, file_out)
+            total[True] += 1
+        except Exception as err:
+            print(err)
+            total[False] += 1
+    print("\nFiles: {} processed, {} not processed".format(total[True], total[False]))
 
 
 def check_file(filename):
     """Check if file will be processed.
-    Return file_out name or error message."""
+
+    Return file_out name or error message.
+    """
     file_split = filename.rsplit(".", 1)
     if not len(file_split) > 1:
-        return True, "File '{}' doesn't have file extension and won't be processed.".format(filename)
+        raise Exception("File '{}' doesn't have file extension and won't be processed.".format(filename))
     if file_split[1] != 'txt':
-        return True, "File '{}' doesn't have 'txt' extension and won't be processed.".format(filename)
+        raise Exception("File '{}' doesn't have 'txt' extension and won't be processed.".format(filename))
     file_out = os.path.join(path_dest, file_split[0] + ".rst")
     if os.path.exists(file_out):
-        return True, "File '{}' exists and won't be overwritten.".format(file_out)
+        raise Exception("File '{}' exists and won't be overwritten.".format(file_out))
     else:
-        return False, file_out
+        return file_out
 
 
 def process_file(filename, file_out):
