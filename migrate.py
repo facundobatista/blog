@@ -1,4 +1,7 @@
 """
+To convert txt to rst, converting the first three lines
+in Nikola metadata format, and replacing duplicated tags
+
 
 """
 
@@ -12,48 +15,44 @@ if not os.path.exists(path_dest):
 
 fields = ["date", "title", "tags"]
 
-replacements = [("pinchilon", "pinchilón"),
-                ("<tags>" , "tags"),
-                ("imagenes", "imágenes"),
-                ("santa fe", "Santa Fé"),
-                ("santa fé", "Santa Fé"),
-                ("córdoba", "Córdoba"),
-                ("holanda", "Holanda"),
-                ("reunion", "reunión"),
-                ("utrecht", "Utrecht"),
-                ("u2", "U2")
-]
 
 def main():
-    """Loop through all post in 'done' folder """
-    for file_in in os.listdir(path_source):
-        progress()
-        if file_in.endswith("txt"):
-            with open(os.path.join(path_source, file_in), "rt+", encoding="utf8") as fin:
-                file_out = os.path.join(path_dest, file_in.split(".", -1)[0] + ".rst")
-                if not os.path.exists(file_out):
-                    with open(file_out, "wt+", encoding="utf8") as fout:
-                        process_file(fin, fout)
+    """Loop through all post in 'done' folder."""
+    total = {True: 0, False: 0}
+    for filename in os.listdir(path_source):
+        error, output = check_file(filename)
+        if error:
+            print(output)
+        else:
+            process_file(filename, output)
+        total[error] += 1
+    print("\nFiles: {} processed, {} not processed".format(total[False], total[True]))
 
-def process_file(fin, fout):
-    """Add yaml fields to header and fix some tags"""
-    for nline, line in enumerate(fin.readlines()):
-        if nline < len(fields):
-            if fields[nline] == "tags":
-                for rep in replacements:
-                    line = line.replace(rep[0], rep[1])
-            line = '.. %s: %s' % (fields[nline], line)
-        fout.write(line)
 
-n = 0
-def progress():
-    """ Show something while run process"""
-    global n
-    n += 1
-    if n % 70 == 0:
-        print(".")
+def check_file(filename):
+    """Check if file will be processed.
+    Return file_out name or error message."""
+    file_split = filename.rsplit(".", 1)
+    if not len(file_split) > 1:
+        return True, "File '{}' doesn't have file extension and won't be processed.".format(filename)
+    if file_split[1] != 'txt':
+        return True, "File '{}' doesn't have 'txt' extension and won't be processed.".format(filename)
+    file_out = os.path.join(path_dest, file_split[0] + ".rst")
+    if os.path.exists(file_out):
+        return True, "File '{}' exists and won't be overwritten.".format(file_out)
     else:
-        print(".", end="")
+        return False, file_out
+
+
+def process_file(filename, file_out):
+    """Add metadata fields to header."""
+    with open(os.path.join(path_source, filename), "rt", encoding="utf8") as fin:
+        with open(file_out, "wt", encoding="utf8") as fout:
+            for nline, line in enumerate(fin.readlines()):
+                if nline < len(fields):
+                    line = '.. %s: %s' % (fields[nline], line)
+                fout.write(line)
+
 
 if __name__ == "__main__":
     main()
