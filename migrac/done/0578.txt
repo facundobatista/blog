@@ -1,0 +1,45 @@
+2012-09-03 14:59:58
+Videos del casamiento
+<tags>
+
+Luego de recibir algunos reclamos acerca de que nunca subí el video del casamiento (de ya hace casi cuatro años), me puse un poco las pilas y acá están.
+
+No subí el .iso que dejó el fotógrafo (bah, el tipo me dejó un DVD, yo tengo guardada la imagen), sino que los partí y re-encodeé en theora para que sean más fácil de subir y/o elegir qué ver.
+
+Entonces (haciendo click en cada foto)... el primer video es del casamiento por civil:
+
+.. image:: http://www.taniquetil.com.ar/facundo/imgs/videoscasamiento-pic1.png
+    :alt: Civil
+    :link: http://ubuntuone.com/1EkwjzDuiBdMB9arbuIHdK
+
+Ya el mismo día que la fiesta, primero fue la ceremonia:
+
+.. image:: http://www.taniquetil.com.ar/facundo/imgs/videoscasamiento-pic2.png
+    :alt: Ceremonia
+    :link: http://ubuntuone.com/3g1ir02DyHMKvNlmz6wqxf
+
+La fiesta propiamente dicha está en tres partes... la picada y el baile inicial, la sesión de fotos, más baile y los juegos, y finalmente el brindis, algunos mensajes y ya las despedidas cuando se iban todos.
+
+.. image:: http://www.taniquetil.com.ar/facundo/imgs/videoscasamiento-pic3.png
+    :alt: Fiesta 1
+    :link: http://ubuntuone.com/6tg9aFCERGjipc3nR13jOm
+
+.. image:: http://www.taniquetil.com.ar/facundo/imgs/videoscasamiento-pic4.png
+    :alt: Fiesta 2
+    :link: http://ubuntuone.com/6EXn8y4E0Y6hqXXoOVsTz7
+
+.. image:: http://www.taniquetil.com.ar/facundo/imgs/videoscasamiento-pic5.png
+    :alt: Fiesta 3
+    :link: http://ubuntuone.com/6raiChtt1ZWXmUwOAkeN6p
+
+El fotógrafo también nos dejó un resumen del casamiento, algo cortito pero que muestra un poco de todo:
+
+.. image:: http://www.taniquetil.com.ar/facundo/imgs/videoscasamiento-pic6.png
+    :alt: Resumen
+    :link: http://ubuntuone.com/5i9zYtWLgnHxUIII1oudYb
+
+Y el postre son las fotos de la luna de miel:
+
+.. image:: http://www.taniquetil.com.ar/facundo/imgs/videoscasamiento-pic7.png
+    :alt: Luna de miel
+    :link: http://ubuntuone.com/0E3Zf9ziYAnmsJQjJ7Sj6I
