@@ -1,5 +1,5 @@
 - ver que todos los artículos "compilen" rest bien
 - revisar que todas las URLs funcionen
 - que ningún párrafo tenga espacios antes o despues
-- que no hayan tags html que me olvidé: span, href
-- asegurar que al final, en los tags, se incluyan las palabras del titulo
+- que no hayan tags html que me olvidé: span, href, <p>, </p>, ni lineas con & y ; al mismo tiempo
+- asegurar que al final, en los tags, se incluyan las palabras del titulo (y que no haya "<tags>")

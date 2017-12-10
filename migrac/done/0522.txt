@@ -1,0 +1,29 @@
+2011-07-25 15:05:28
+Campus Party, Colombia
+<tags>
+
+Este post viene bastante demorado, pero no quiero dejarlo pasar y que al final no salga nunca...
+
+En la semana de fines de Junio principios de Julio estuve por Colombia, más específicamente en Bogotá, invitado en la sección de Software Libre de Campus Party (algunas fotos, `acá <http://www.flickr.com/photos/54757453@N00/sets/72157627110709457/>`_).
+
+Campus Party es un evento como nunca había visto. Por lo pronto, no es sólo de software (que sí la tiene, con Software Libre, Seguridad y Redes, y Desarrollo de Software), sino que incluye temas tan dispares como Astronomía y Espacio, Hardware y Modding, Social Media, Juegos, etc...
+
+Pero lo más *distinto* del evento es la disposición física interna y su dinámica. En lugar de ser distintas habitaciones (de hotel, de universidad, etc) con charlas adentros y algunos espacios comunes, Campus Party es *un gran espacio común*.
+
+Armado adentro de un gran lugar sin separaciones (un pabellón entero de un centro de exposiciones, como acá puede ser el Centro Municipal de Exposicione, o Costa Salgureo), tiene la siguiente disposición: espacios de conferencia contra las paredes, y mesas, mesas y mesas en el centro.
+
+.. image:: http://www.taniquetil.com.ar/facundo/imgs/campusparty11a.jpeg
+
+Los espacios de conferencia de alrededor es nada más que una pantalla contra la pared, un proyector, sillas/sillones/pufs para que la gente se acomode, y parlantes apuntando para *el adentro* de cada espacio. Es muy loco, porque no hay nada que separe los distintos espacios de conferencia, sino que se logra la separación de uno y el otro sólo con el audio: si estás adentro de uno de los espacios, sólo vas a escuchar los parlantes de ese espacio, y listo.
+
+En todo lo que no es contra la pared, y dejando pasillos pra pasar, hay un centenar de mesas largas, sólo con cables de red y cables de energía eléctrica. Allí la gente se instala con laptops, con computadoras de escritorio, teles de cualquier tamaño (había una de 52"!), equipos de pintura, de soldadura, etc. Todo lo que se les ocurra.
+
+.. image:: http://www.taniquetil.com.ar/facundo/imgs/campusparty11b.jpeg
+
+Se puede llevar cualquier cosa al evento, porque las actividades eran muy variadas, y en general se las podía dejar semiabandonadas, porque la seguridad para entrar y salir del pabellón eran muy estrictas. Hay que pensar que al evento asisten 4500 personas, y es algo que dura 7 días las 24 horas. Hay una zona de carpas y lockers ofrecidos por la organización, y hay centenares de personas que no abandonan el predio en toda la semana (obviamente, también hay servicios como duchas, lugares para comer, etc).
+
+A nivel de organización también es muy distinto. El evento es fuertemente patrocinado por empresas, y organizado por Futura Networks una empresa de Telefónica que lo único que hace son estos eventos (no sólo en Colombia, sino también en los otros países donde se hace: México, España y Brasil). Yo fuí invitado a dar dos charlas, *Python más rápido que C* y *Comunidad, Anarquía y Subversión*.
+
+.. image:: http://www.taniquetil.com.ar/facundo/imgs/campusparty11c.jpeg
+
+Bueno, no quería terminar el post sin agradecer también la hospitalidad brindada por Manuel Cerón (el Coordinador del área de Software Libre), y varias personas (Antonio, Luis, Natalia, otro Manuel, Luisa), que hicieron que me sienta muy cómodo los días que estuve allí.

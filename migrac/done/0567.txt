@@ -1,0 +1,23 @@
+2012-06-24 18:56:10
+Actividades del pequeño
+felipe, fotos
+
+Gastronomicamente, no es la primera vez que lo vemos preparar milanesas...
+
+.. image:: http://www.taniquetil.com.ar/facundo/imgs/actividades-milanesas.jpeg
+    :alt: Haciendo milanesas
+
+... pero ahora también le enseñamos lo que es hacer un fueguito:
+
+.. image:: http://www.taniquetil.com.ar/facundo/imgs/actividades-fuego.jpeg
+    :alt: Aprendiendo a hacer fuego
+
+No todo es morfi en la vida, por eso hay que mantener el cuerpo con deporte...
+
+.. image:: http://www.taniquetil.com.ar/facundo/imgs/actividades-nataci%C3%B3n.jpeg
+    :alt: Natación con Facu
+
+...y el espíritu con música:
+
+.. image:: http://www.taniquetil.com.ar/facundo/imgs/actividades-m%C3%BAsica.jpeg
+    :alt: Tocando instrumentos

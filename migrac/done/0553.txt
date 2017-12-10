@@ -1,0 +1,35 @@
+2012-03-08 19:02:05
+Ordenando un poco
+blog, infraestructura
+
+Uno de los directorios que puse como "genérico" al arrancar el blog fue el *bdvfiles*, donde iba a ir poniendo archivos que iría enlazando desde aquí.
+
+Con el paso del tiempo, este directorio se fue llenando de cosas, y un laburo que tenía pendiente de hace rato es ver qué había quedado acá, si era útil, si estaba muy sucio, etc.
+
+Bueno, lo que hay es:
+
+- La `Bitácora de Vuelo anterior a este blog <http://www.taniquetil.com.ar/facundo/bdvfiles/bdv-anterior.html>`_, que hice a mano cuando estuve en Italia.
+
+- Las `clases de fotografía <http://www.taniquetil.com.ar/facundo/bdvfiles/clasesfoto.html>`_, junto con sus distintos capítulos.
+
+- Un `directorio con diferentes códigos <http://www.taniquetil.com.ar/facundo/bdvfiles/code>`_ que fui mostrando en posts en este blog.
+
+- El libro `Copia este libro <http://www.taniquetil.com.ar/facundo/bdvfiles/david-bravo-copia-este-libro.pdf.gz>`_, de David Bravo.
+
+- El gran relato `El Gordo en Colombia <http://www.taniquetil.com.ar/facundo/bdvfiles/egec.html>`_.
+
+- `Mi mail <http://www.taniquetil.com.ar/facundo/bdvfiles/facumail.png>`_ :)
+
+- Una explicación (`inglés <http://www.taniquetil.com.ar/facundo/bdvfiles/get_decimal.html>`_ y `castellano <http://www.taniquetil.com.ar/facundo/bdvfiles/obtener_decimal.html>`_) de cómo poner el módulo de Decimal si tenías Python 2.3 (ohmygod, que viejo!)
+
+- `Mis libros! <http://www.taniquetil.com.ar/facundo/bdvfiles/libros.html>`_ Tengo que actualizar esto... supongo que lo haré cuando traiga las cajas de lo de mi viejo, aunque antes tengo que pegarle una mirada al proceso, tengo un par de ideas que quiero ver si son factibles, ya hablaré de eso acá.
+
+- La `lista de películas por ver <http://www.taniquetil.com.ar/facundo/bdvfiles/peliculas.html>`_ (esta sí la voy actualizando!)
+
+- Los slides de una `LT de PyAr <http://www.taniquetil.com.ar/facundo/bdvfiles/pyar.pdf>`_ de hace cuatro años...
+
+- El análisis de states que hicimos con Nati Bidart del cliente de Ubuntu One (`antes del refactor <http://www.taniquetil.com.ar/facundo/bdvfiles/states-analisis.jpg>`_, y `como quedó <http://www.taniquetil.com.ar/facundo/bdvfiles/states-nuevo.zip>`_).
+
+- Una `presentación sobre telefonía celular <http://www.taniquetil.com.ar/facundo/bdvfiles/telef_celular.zip>`_ que hicimos hace miles de años con el gran Diego Quevedo.
+
+Bueno, no estuvo tan mal, a decir verdad. Había muy poca mugre (que limpié, no quedó reflejada acá), y un par de cosas que no me acordaba, pero nada más.

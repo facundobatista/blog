@@ -1,0 +1,17 @@
+2012-02-11 12:14:38
+Bajando videoclips
+videos, música, torrent, descargar, automatizar, python
+
+En algún momento me di cuenta que en una reunión es mucho más interesante, en lugar de solamente tener algo de música de fondo, pasar videos musicales... tenés la música, y tenés la imagen. Mi hermana es de hacer esto, y funciona.
+
+Entonces, pensé en bajarme todos los videos correspondientes a la música que me gusta... y caí en la conclusión de que era mucho trabajo. Y cuando las cosas implican mucho trabajo, en vez de hacerlas, hay que pensar cómo hacerlas con menos esfuerzo :)
+
+Y, en este caso, la respuesta es: automatizar el proceso. Obviamente, como en todas las automatizaciones, uno primero tiene que aprender el proceso. Para eso, me puse a bajar algunos videos a mano.
+
+Lo más fácil a la hora de bajar archivos es el torrente. Entonces fui a mi `buscador de torrents de cabecera <http://torrentz.eu/>`_ y descubrí que realmente no era copado para buscar videos de música (yo lo uso un 99% de las veces para buscar pelis), así que estuve probando otros sitios hasta que encontré `Kickass Torrents <http://kat.ph/>`_, que tiene un tag específico para videos, y funciona bastante bien.
+
+Luego, automatizar. Entonces, hice un `programita <http://www.taniquetil.com.ar/homedevel/devel/get_torrent.py>`_ en Python que revisa toda la música que tengo, busca en este sitio los torrentes, y cuando los encuentra, los baja. Si miran el código verán que no es complejo (está desordenado, depende de cómo guardo mi música, etc., pero es simple... es un scriptcito rápido), y funciona de perlas.
+
+Obvio, ahora están bajando un montón de videos y hay que hacer un filtro y selección que es obviamente a mano (o a ojo ;). Y luego vendrá una segunda etapa de aquellos videos que entiendo que existen, pero no se bajaron en esta tanda. Veremos como encaro eso. Deberían ser los menos.
+
+De cualquier manera, este es un buen ejemplo de cómo siempre es mejor saber programar, aunque uno no se dedique a trabajar con computadoras, porque es una buena forma de laburar menos en algunas cosas, :)
