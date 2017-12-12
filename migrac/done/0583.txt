@@ -1,6 +1,6 @@
 2012-10-28 01:38:16
 Aerolineas
-<tags>
+pycon, conferencia, vuelo, viaje, nombres, despegar, servicio, aeropuerto
 
 En unos días más se realiza PyCon Venezuela, un evento al que fui invitado a dar un charla. La invitación era a todo trapo: me pagaban el viaje y el hotel, lo cual estaba buenísimo (gracias Israel Fermín!).
 
@@ -16,7 +16,9 @@ El viernes al mediodía hice los checkins de todos los vuelos. Primero el de Mon
 
 Error. Grosero error.
 
-<a href="http://www.flickr.com/photos/elycefeliz/4448688868/"><img src="http://www.taniquetil.com.ar/facundo/imgs/aerolineas-error.jpeg" alt="Error" /></a>
+.. image:: http://www.taniquetil.com.ar/facundo/imgs/aerolineas-error.jpeg
+    :alt: Error
+    :link: http://www.flickr.com/photos/elycefeliz/4448688868/
 
 El viernes fuimos a comer a lo de mi viejo, y tipo dos y media de la mañana partimos para el aeropuerto. Ni bien llegamos, empecé a moverme para asegurarme que Moni y Felipe pudieran viajar bien (como salían tres horas después que yo no era cuestión que tuvieran algún drama, yo iba a estar volando). Estaba todo bien mientras pasáramos por migraciones los tres al mismo tiempo. Fuimos a LAN, que es por donde viajaban ellos, y sin problemas aceptaron hacerle el check-in antes de que lo abran oficialmente, entonces si yo despachaba todo lo mío (yo viajaba por TAM), luego despachábamos lo de ellos, y hacíamos el resto de los trámites juntos (control de seguridad, migraciones), y yo ya los dejaba "del lado de adentro", me tomaba mi avión, y listo.
 
@@ -36,7 +38,9 @@ A esta altura ya había vuelto al mostrador de TAM, y mientras hablaba con la pa
 
 Anyway. Le pedí a la panameña que por favor lo cambien, y me contestó que ellos no podían hacer nada, porque el ticket fue emitido por Despegar.com, que tenía que hablar con ellos para que lo rectifiquen. A todo esto eran las cuatro y cuarto, mi embarque era en quince minutos, yo no tenía ningún número de Despegar, y en Venezuela ya era de noche.
 
-<a href="http://www.flickr.com/photos/leo-gruebler/6750771599/"><img src="http://www.taniquetil.com.ar/facundo/imgs/aerolineas-resig.jpeg" alt="Resignación" /></a>
+.. image:: http://www.taniquetil.com.ar/facundo/imgs/aerolineas-resig.jpeg
+    :alt: Resignación
+    :link: http://www.flickr.com/photos/leo-gruebler/6750771599/
 
 La coordinadora de TAM me dijo que ella iba a averiguar un número de Despegar y que iba a intentar llamar (¿les dije que tenía la mejor onda?), y mientras tanto yo llamé a Israel, a ver si todavía estaba despierto. Por suerte lo encontré, le expliqué el tema, y le pedí que por favor se pusiera en contacto con la gente allá para que hablaran con Despegar y arreglaran todo.
 
@@ -44,7 +48,7 @@ A esa altura, las otras dos chicas del check-in estaban leyendo y releyendo el m
 
 Se puso con las otras chicas y el manual, y les explicaba que habían tres párrafos que podrían ser los que se aplicaran a mi situación, pero ninguno de ellos eran lo suficientemente específicos como para indicar que lo mío estaba ok, o que estaba directamente mal.
 
-Al final, la supervisora volvió a irse con <strong>todos</strong> mis papeles, volvió a los cinco minutos, y me dijo que el nombre estaba teóricamente mal, que a esta altura nadie lo iba a poder corregir, pero que ella me iba a liberar el ticket igual, así que yo iba a poder viajar. Y que el ticket en Rio de Janeiro (donde yo hacía escala) se liberaba al mismo tiempo, que ella estaba segura que no iba a tener problema, que a lo sumo después le llegaba un reclamo interno a ella. Yo no sabía como agradecerle, :p.
+Al final, la supervisora volvió a irse con **todos** mis papeles, volvió a los cinco minutos, y me dijo que el nombre estaba teóricamente mal, que a esta altura nadie lo iba a poder corregir, pero que ella me iba a liberar el ticket igual, así que yo iba a poder viajar. Y que el ticket en Rio de Janeiro (donde yo hacía escala) se liberaba al mismo tiempo, que ella estaba segura que no iba a tener problema, que a lo sumo después le llegaba un reclamo interno a ella. Yo no sabía como agradecerle, :p.
 
 Me hicieron los tickets, salimos corriendo a hacer el check-in de Moni y Felipe, y subimos. Arriba era todo un bardo de quintillones de personas, pero teníamos doble prioridad (por llevar un niño pequeño, y por estar embarazados), así que hicimos todo en tres minutos, y se terminó la odisea.
 
@@ -56,4 +60,4 @@ Retomo este texto ya en Caracas. Yo llegué bien.
 
 ¿Felu y Moni? Les cancelaron el segundo tramo del vuelo, están demorados en Perú. Ambos están bien (Felu con un poco de fiebre, bah), en el Sheraton de Lima, pero es un bajón. LAN me dice que la salida estimada es para las 7:50, o sea que estarían llegando acá pasado el mediodía.
 
-Ufa, :(.</p> |
+Ufa, :(.
