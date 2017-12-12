@@ -1,13 +1,14 @@
 2013-01-31 19:30:47
 Pequeño paseo matinal
-<tags>
+paseo, familia
 
 El domingo pasado fuimos a Plaza Francia a buscar alguna cosita puntual que no puedo develar, pero también servía de paseo de domingo con la familia.
 
 Un bardo para estacionar, más que nada porque los carteles son confusos, pero llegamos, Felipe jugó un buen rato en un árbol que es increíble de grande, y paseamos por la feria un rato.
 
-<img src="http://www.taniquetil.com.ar/facundo/imgs/monifeluarbol.jpeg" alt="Moni y Felu en el árbol" height="450" width="600" />
+.. image:: http://www.taniquetil.com.ar/facundo/imgs/monifeluarbol.jpeg
+    :alt: Moni y Felu en el árbol
 
 Bueno, no paseamos tanto porque a los diez minutos de caminar encontramos el mismo puesto al que otros años le compramos cosas similares, estuvimos un rato ahí eligiendo, y nos volvimos.
 
-Me gustan mucho estos paseitos, :)</p>                                                                                                                                                                                                                          |
+Me gustan mucho estos paseitos, :)

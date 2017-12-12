@@ -1,8 +1,8 @@
 2013-02-18 22:11:01
 A la caza de la laptop perdida
-<tags>
+notebook, informática, hardware, samsung, ultrabook
 
-Hace un año y medio que me quiero comprar una laptop nueva. No es que la <em>necesite</em>, pero la empresa ya me dió la plata para renovarla y debería hacerlo.
+Hace un año y medio que me quiero comprar una laptop nueva. No es que la *necesite*, pero la empresa ya me dió la plata para renovarla y debería hacerlo.
 
 Hace un año y medio más o menos que también entró en vigencia toda esa loca restricción para las importaciones. Ojo, no es que no se importen laptops, se importan y muchas. Pero son para el mercado masivo, y las características de máquina que yo quiero/necesito para trabajar no son las más comunes.
 
@@ -34,17 +34,19 @@ La última escala del paseo la hice por un local de Samsung muy muy cheto, en el
 
 En fin. No quería gastar tanta plata, así que me decidí por la Samsung Ultrabook NP530U3C-A01AR.
 
-<img src="http://www.taniquetil.com.ar/facundo/imgs/newlap_lamisma.png" alt="Samsung Ultrabook" height="473" width="600" />
+.. image:: http://www.taniquetil.com.ar/facundo/imgs/newlap_lamisma.png
+    :alt: Samsung Ultrabook
 
-Como la gran mayoría, viene con 4GB de RAM, pero en el local me la subían a 8GB. Precio final (IVA incluído): $7000 (en <a href="http://www.previus.com.ar/">Previus</a>).
+Como la gran mayoría, viene con 4GB de RAM, pero en el local me la subían a 8GB. Precio final (IVA incluído): $7000 (en `Previus <http://www.previus.com.ar/>`_).
 
 La compré este último viernes, pero como tenía otras cosas que hacer luego, recién la probé el sábado a la mañana. Ya había visto que para que el BIOS reconozca el pendrive con el instalador de Ubuntu había que toquetear algunas cosas. Yo lo primero que hice fue meterme en el BIOS, sí, pero para curiosear. Realmente no tuve que cambiar nada más que el orden de booteo (que tenía primero al rígido).
 
 Así que sin haber booteado nunca en el windor (por cábala, viste) me puse a instalar el Ubuntu. Le dije al instalador que quería customizar las particiones, y ahí vi que realmente la máquina tiene DOS discos, uno "clásico" (de esos que tienen platitos magnéticos que giran, un HDD), y otro de silicio (o sea, los denominados SSD).
 
-Dudé qué instalar dónde, busqué un poco y <a href="http://schoolsplay.wordpress.com/2012/11/22/install-ubuntu-linux-on-a-samsung-series-5-ultrabook-with-ssd/">esto que encontré</a> me pareció bien. Basicamente: "/" en el SSD entero, y en el disco de platos un swap de 6GB, "/var" con 20GB, y el resto para "/home".
+Dudé qué instalar dónde, busqué un poco y `esto que encontré <http://schoolsplay.wordpress.com/2012/11/22/install-ubuntu-linux-on-a-samsung-series-5-ultrabook-with-ssd/>`_ me pareció bien. Basicamente: "/" en el SSD entero, y en el disco de platos un swap de 6GB, "/var" con 20GB, y el resto para "/home".
 
-<img src="http://www.taniquetil.com.ar/facundo/imgs/newlap_instalac.png" alt="Particionado durante la instalación" />
+.. image:: http://www.taniquetil.com.ar/facundo/imgs/newlap_instalac.png
+    :alt: Particionado durante la instalación
 
 Si miran con cuidado van a ver que le pifié a las cantidades: puse los valores en MB en lugar de GB... por suerte el particionador se avivó y me dijo que necesitaba más espacio en "/var" que lo que estaba poniendo, así que me di cuenta del error y lo corregí.
 
@@ -52,4 +54,4 @@ El único detalle que hay que tener cuidado (que yo le pifié) es que el disco m
 
 En fin, luego de instalar un rato, y que baje las actualizaciones y eso, ya tenía mi notebook nueva con Ubuntu Quantal.
 
-Contento con la renovación, :)</p> |
+Contento con la renovación, :)
