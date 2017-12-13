@@ -1,0 +1,12 @@
+[Core]
+Name = check_warnings
+Module = check_warnings
+
+[Nikola]
+PluginCategory = LateTask
+
+[Documentation]
+Author = María Andrea Vignau
+Version = 0.1
+Website = http://plugins.getnikola.com/#check_warnings
+Description = Check warnings for new posts
