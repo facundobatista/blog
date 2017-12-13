@@ -21,11 +21,12 @@ def main():
     for filename in os.listdir(path_source):
         try:
             file_out = check_file(filename)
-            process_file(filename, file_out)
-            total[True] += 1
-        except Exception as err:
+        except ValueError as err:
             print(err)
             total[False] += 1
+            continue
+        process_file(filename, file_out)
+        total[True] += 1
     print("\nFiles: {} processed, {} not processed".format(total[True], total[False]))
 
 
@@ -36,12 +37,12 @@ def check_file(filename):
     """
     file_split = filename.rsplit(".", 1)
     if not len(file_split) > 1:
-        raise Exception("File '{}' doesn't have file extension and won't be processed.".format(filename))
+        raise ValueError("File '{}' doesn't have file extension and won't be processed.".format(filename))
     if file_split[1] != 'txt':
-        raise Exception("File '{}' doesn't have 'txt' extension and won't be processed.".format(filename))
+        raise ValueError("File '{}' doesn't have 'txt' extension and won't be processed.".format(filename))
     file_out = os.path.join(path_dest, file_split[0] + ".rst")
     if os.path.exists(file_out):
-        raise Exception("File '{}' exists and won't be overwritten.".format(file_out))
+        raise ValueError("File '{}' exists and won't be overwritten.".format(file_out))
     else:
         return file_out
 
