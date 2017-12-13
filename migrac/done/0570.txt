@@ -1,6 +1,6 @@
 2012-07-18 14:23:07
 Salió Encuentro 0.7
-<tags>
+liberación, software
 
 Encuentro es un simple programa que permite... blah blah blah, ya les dije esto varias veces, ¿no? Bueno, lo que pasa es que ahora cambió.
 
@@ -14,10 +14,12 @@ El problema, de mi lado, es que esto me cambiaba todo el escenario. Pero bueno, 
 
 Durante el PyCamp tuve bastante ayuda también (Diego, Humitos, Martín) y pulimos muchos detalles, y dejamos todo casi listo para una nueva release.
 
-<a href="http://encuentro.taniquetil.com.ar/"><img src="http://encuentro.taniquetil.com.ar/imgs/title.png" alt="Logo" height="175" width="688" /></a>
+.. image:: http://encuentro.taniquetil.com.ar/imgs/title.png
+    :alt: Logo
+    :link: http://encuentro.taniquetil.com.ar/
 
 Durante los días posteriores al PyCamp yo pulí algunos detalles más y generé una pre-release para que se vayan armando los otros instaladores, y finalemente estos últimos días preparé el .deb, actualicé el PPA, y anuncié por todos lados.
 
-Para ver los últimos cambios y distintas formas de instalarlo, pueden visitar <a href="http://encuentro.taniquetil.com.ar/">la página oficial del proyecto</a>.
+Para ver los últimos cambios y distintas formas de instalarlo, pueden visitar `la página oficial del proyecto <http://encuentro.taniquetil.com.ar/>`_.
 
-Ojalá disfruten el programita, cualquier cosa me avisan, ¡y corran la voz! (¡gracias!).</p> |
+Ojalá disfruten el programita, cualquier cosa me avisan, ¡y corran la voz! (¡gracias!).

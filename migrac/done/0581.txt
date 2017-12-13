@@ -1,0 +1,26 @@
+2012-10-16 21:11:42
+Nuevo Encuentro
+liberación, software
+
+No, este no es un post sobre un partido político. Sino que es el anuncio de que tenemos una nueva versión de `Encuentro <http://encuentro.taniquetil.com.ar/>`_ en la calle!
+
+Encuentro es un simple programa que permite buscar, descargar y ver contenido del Canal Encuentro, Paka Paka, Educ.ar y otros.
+
+.. image:: http://encuentro.taniquetil.com.ar/imgs/title.png
+    :alt: Encuentro
+    :link: http://encuentro.taniquetil.com.ar/
+
+La versión 0.8 trae los siguientes cambios con respecto a la versión anterior:
+
+- Soporte para múltiples fuentes de datos. Ahora también baja los episodios perdidos de la web de Encuentro.
+
+- Corregido el problema que hacía perder las actualizaciones cuando se reordenaba o filtraba (dando la impresión que los downloads se trababan).
+
+- Mejor uso de nombres y directorios al grabar los videos.
+
+- Otras pequeñas mejoras y correcciones.
+
+
+Pueden ver en `la página <http://encuentro.taniquetil.com.ar/>`_ las distintas formas de instalarlo según el sistema operativo. Recuerden revisar el archivo AYUDA.txt si tienen alguna duda de cómo usar el programa.
+
+¡Que lo disfruten!

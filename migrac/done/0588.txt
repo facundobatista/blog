@@ -1,0 +1,17 @@
+2012-12-14 21:15:18
+Extrapolando la realidad
+ciencia ficción, historias, teorema, incompletitud
+
+Con el tiempo me fui dando cuenta que disfruto muchísimo las historias de ciencia ficción donde el autor agarra algo ya de por sí interesante de la realidad, lo extrapola para otro lado, y le agrega una historia copada alrededor.
+
+Esto hace que si yo ya conocía las bases reales de la historia, disfrute mucho la extrapolación y las posibilidades que se desprenden. Y si no las conocía, tuve contacto con las mismas y es una excusa para aprender.
+
+Por ejemplo, tomemos algo interesante de la realidad sobre lo cual estaba leyendo el otro día: un `teorema de incompletitud de Kurt Gödel <http://es.wikipedia.org/wiki/Teoremas_de_la_incompletitud_de_G%C3%B6del>`_ que básicamente dice que en cualquier teoría siempre hay enunciados que no se pueden probar como verdaderos o falsos a partir de los axiomas de la misma teoría. O sea, no se puede demostrar toda la teoría, completamente, *desde adentro*.
+
+Una extrapolación de esto (totalmente fuera de lo que dijo Gödel, ya entrando en terrenos propios de la ciencia ficción) es que viviendo dentro de un Universo no se puede llegar a conocer toda la física que explique el funcionamiento de ese Universo. Por ejemplo, los fantasmas, el alma, o lo que pasa adentro de un agujero negro: existen y funcionan con reglas físicas del Universo, pero estas reglas no son deducibles/encontrables a menos que al Universo se lo estudie de afuera.
+
+A eso le agregamos toda una historia, posiblemente que involucre comunicación entre científicos entre dos Universos distintos (mediante *mediums* o interlocutores paranormales!), lo escribimos bonito e interesante, y tenemos un libro.
+
+Y la parte complicada es esta última.
+
+Ideas de historias copadas tiene cualquiera. Armar un buen libro, interesante y lindo de leer, es otro tema.

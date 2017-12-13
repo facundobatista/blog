@@ -1,0 +1,79 @@
+2012-11-27 02:24:07
+Películas, catching up
+<tags>
+
+Al fin una buena temporada donde vi muchas pelis...
+
+- `A Nightmare on Elm Street <http://www.imdb.com/title/tt1179056/>`_: -0. Dentro de todo zafa, pero no tiene vueltas la historia, y es todo muy repetitivo y predecible.
+
+- `Che <http://www.imdb.com/title/tt0374569/>`_: +1. Más allá que la historia es conocida, está muy, pero MUY bien filmada, y contada. Imperdible.
+
+- `Cop out <http://www.imdb.com/title/tt1385867/>`_: +0. Para ser una de "polis que se llevan bien/mal en tono de comedia", es bastante rescatable.
+
+- `From Paris with love <http://www.imdb.com/title/tt1179034/>`_: +1. Típica de superagentes contra el mal, pero divertida y bien hecha (y muy violenta, como deben ser estas pelis).
+
+- `Hot tub time machine <http://www.imdb.com/title/tt1231587/>`_: -0. Tiene sus momentos bastantes divertidos, pero no vale la pena como peli en general. A menos que estén muy al pedo...
+
+- `Pirate radio <http://www.imdb.com/title/tt1131729/>`_: +0. Buenas historias, divertidas actuaciones, algunos temas interesantes... imperdible musicalización.
+
+- `Prince of Persia: The Sands of Time <http://www.imdb.com/title/tt0473075/>`_: +0. Película de acción, de las berretas; por ejemplo, el tipo después de estar toda la película en el desierto, tiene el pelo sin arena...
+
+- `Robin Hood <http://www.imdb.com/title/tt0955308/>`_: +1. Muy buena versión, que no cae en contar lo mismo de siempre, y arma una historia muy interesante.
+
+- `Salt <http://www.imdb.com/title/tt0944835/>`_: +0. Parecida a 'From Paris with love' en su concepto (espías, el bien y el mal, violencia), pero un escalón abajo.
+
+- `The Dark Knight rises <http://www.imdb.com/title/tt1345836/>`_: +1. No es la mejor Batman, y tiene una de las peores actuaciones de "me estoy muriendo, me morí", pero la peli en general está buena.
+
+- `The imaginarium of Doctor Parnassus <http://www.imdb.com/title/tt1054606/>`_: +1. Muy difícil de describir... es una peli muy loca, pero muy interesante.
+
+- `The raven <http://www.imdb.com/title/tt1486192/>`_: +1. Una historia alternativa sobre los últimos días de Edgard Allan Poe, convertido en un thriller macabro de suspenso, bastante bien hecho.
+
+- `Tinker tailor soldier spy <http://www.imdb.com/title/tt1340800/>`_: -0. Muy enroscado todo al principio para disolverse en un final que no me pareció demasiado interesante... pero si te gustan las películas de espías (a nivel de inteligencia y contrainteligencia), adelante.
+
+- `Toy story 3 <http://www.imdb.com/title/tt0435761/>`_: -0. Más de lo mismo.
+
+- `Wall Street: Money never sleeps <http://www.imdb.com/title/tt1027718/>`_: +1. Recontra interesante cómo explican la timba financiera en USA, tomando como ejemplo (real) el debacle que sufrieron de las hipotecas. ¡Para verla hasta entenderla! ;)
+
+- `When you're strange <http://www.imdb.com/title/tt1333667/>`_: +1. Muy bien contada la historia de los Doors, muy bien mezclada con la música. Imperdible si te gusta la banda.
+
+Obviamente, hay una buena tanda de nuevas anotadas:
+
+- `A good day to die hard <http://www.imdb.com/title/tt1606378/>`_
+
+- `Branded <http://www.imdb.com/title/tt1368440/>`_
+
+- `Cloud atlas <http://www.imdb.com/title/tt1371111/>`_
+
+- `Iron man 3 <http://www.imdb.com/title/tt1300854/>`_
+
+- `Last stand <http://www.imdb.com/title/tt1549920/>`_
+
+- `Les misérables <http://www.imdb.com/title/tt1707386/>`_
+
+- `Pearl Jam Twenty <http://www.imdb.com/title/tt1417592/>`_
+
+- `Red lights <http://www.imdb.com/title/tt1748179/>`_
+
+- `Robot and Frank <http://www.imdb.com/title/tt1990314/>`_
+
+- `Sin retorno <http://www.imdb.com/title/tt1639075/>`_
+
+- `Skyfall <http://www.imdb.com/title/tt1074638/>`_
+
+- `The man with the iron fists <http://www.imdb.com/title/tt1258972/>`_
+
+Finalmente, el conteo de pendientes por fecha::
+
+    (24-Sep-2008)   15   6
+    (21-Ene-2009)   18  18  12   1   1
+    (09-May-2009)   13  11  10   5
+    (15-Oct-2009)   17  16  15  14
+    (01-Mar-2010)   18  18  18  18  16   4
+    (12-Sep-2010)   19  18  18  18  18  18
+    (14-Dic-2010)   13  13  13  13  12  12
+    (13-Abr-2011)       23  23  23  23  23
+    (09-Ago-2011)           12  12  11  11
+    (06-Ene-2012)               21  21  18
+    (27-Jul-2012)                   15  15
+    (26-Nov-2012)                       12
+    Total:         113 123 121 125 117 113
