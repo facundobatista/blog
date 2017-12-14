@@ -62,7 +62,7 @@ class RenderPosts(LateTask):
     def check_warnings(self, post, lang):
         """ Check warnings for the given post and given language. """
         text = post.text(lang=lang)
-        if '<div class="system-message">' in text:
+        if 'class="system-message"' in text:
             LOGGER.notice(
                 'Warnings in %s' % (
                     post.fragment_deps(lang)
