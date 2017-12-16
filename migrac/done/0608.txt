@@ -1,14 +1,16 @@
 2013-05-06 01:03:41
 Kilink, el pastebin útil
-<tags>
+servicio, software, proyecto
 
 Con el gran Nico César hace tiempo definimos lo que serían los términos de un servicio que queríamos ofrecer. Por cuestiones varias de la vida, al final nunca terminamos armando algo que cumpla con todos estos requisitos, aunque arrancamos con el proyecto. Pero lo arrancamos en un repo privado.
 
-Muchos meses después, viendo que jamás vamos a seguir eso, le pedí permiso para liberar el código y las especificaciones que armamos. Entonces, subí <a href="https://github.com/facundobatista/kilink">el código del proyecto a GitHub</a>, y tengo reservado el dominio <em>kilink.com.ar</em> para ofrecer el servicio ahí.
+Muchos meses después, viendo que jamás vamos a seguir eso, le pedí permiso para liberar el código y las especificaciones que armamos. Entonces, subí `el código del proyecto a GitHub <https://github.com/facundobatista/kilink>`_, y tengo reservado el dominio *kilink.com.ar* para ofrecer el servicio ahí.
 
-Este proyecto, entonces, lo declaro abierto a la comunidad, para el que quiera participar, participe. Yo lo voy a empujar en <a href="http://python.org.ar/pyar/PyCamp/2013/TemasPropuestos">el PyCamp de este año</a>!
+Este proyecto, entonces, lo declaro abierto a la comunidad, para el que quiera participar, participe. Yo lo voy a empujar en `el PyCamp de este año <http://python.org.ar/pyar/PyCamp/2013/TemasPropuestos>`_!
 
-<strong>Descripción general</strong>
+
+Descripción general
+-------------------
 
 La idea es ofrecer un "espacio de colaboración de corta vida". Algo así como un pastebin dinámico, pero que al mismo tiempo sea fácil de usar. En definitiva, algo útil.
 
@@ -22,74 +24,73 @@ No hay mecanismos de "compartición" de los kilinks: cualquiera puede acceder a 
 
 La autoría del kilink y la responsabilidad sobre ese texto es del usuario que lo pegó ahí. Hay que declinar explícitamente responsabilidad. El texto incluido en el mismo es de "dominio público" y puede ser mostrado/usado indiscriminadamente.
 
-¿Por qué usar kilink?</p>
-<ul>
-<li>Se puede usar anonimamente...
+¿Por qué usar kilink?
 
-<li>...pero recuerda quien sos
+- Se puede usar anonimamente...
 
-<li>Permite compartir un texto en pocos clicks
+- ...pero recuerda quien sos
 
-<li>Se da cuenta del lenguaje
+- Permite compartir un texto en pocos clicks
 
-<li>Es amigable a nivel de interfaz
+- Se da cuenta del lenguaje
 
-<li>Copia el texto directamente a tu clipboard
+- Es amigable a nivel de interfaz
 
-<li>Se puede integrar el texto en donde quieras, por versión o siempre actualizado!
+- Copia el texto directamente a tu clipboard
 
-</ul>
-<p>
-<strong>Facilidad de uso / primera impresión</strong>
+- Se puede integrar el texto en donde quieras, por versión o siempre actualizado!
 
-El diseño tiene que ser simple y efectivo, orientado a bajar la barrera de entrada del visitante, el "costo" que el usuario tiene que pagar desde que llega a la página hasta que tiene el kilink en su portapapeles para pegarlo en otro lado. Esto se ve en varios detalles, por ejemplo:</p>
-<ul>
-<li>que el cursor por default esté en el textarea destino
 
-<li>que el textarea, en lugar de estar 100% vacío, tenga adentro un "pegar acá" o algo similar en gris, suavecito, que desaparezca al pegarle algo.
+Facilidad de uso / primera impresión
+------------------------------------
 
-<li>que entre el textarea y el botón de submit no haya nada que distraiga
+El diseño tiene que ser simple y efectivo, orientado a bajar la barrera de entrada del visitante, el "costo" que el usuario tiene que pagar desde que llega a la página hasta que tiene el kilink en su portapapeles para pegarlo en otro lado. Esto se ve en varios detalles, por ejemplo:
 
-<li>que el botón de submit se llame "crear kilink" o lo que corresponda
+- que el cursor por default esté en el textarea destino
 
-<li>que pueda llevar la url del kilink creado sin tener que seleccionar un texto
+- que el textarea, en lugar de estar 100% vacío, tenga adentro un "pegar acá" o algo similar en gris, suavecito, que desaparezca al pegarle algo.
 
-<li>que se pueda crear un kilink sin registrarse ni loguearse
+- que entre el textarea y el botón de submit no haya nada que distraiga
 
-<li>botones para copiar automaticamente al clipboard: URL y texto del kilink
+- que el botón de submit se llame "crear kilink" o lo que corresponda
 
-<li>download as file
+- que pueda llevar la url del kilink creado sin tener que seleccionar un texto
 
-<li>botón de imprimir, y CSS especial para que quede linda la impresión
+- que se pueda crear un kilink sin registrarse ni loguearse
 
-<li>etc
+- botones para copiar automaticamente al clipboard: URL y texto del kilink
 
-</ul>
-<p>Visualmente, la página tiene que ser lo menos intrusiva posible, hay que minimizar la "polución visual", pero sin dejar de ofrecer la información necesaria (al hacer hover con el mouse, o en colores que no llamen demasiado la atención).
+- download as file
 
-Otras características:</p>
-<ul>
-<li>una URL o kilink ID que casi funciona como URL corta, ej: kilink.com.ar/4g3jxd
+- botón de imprimir, y CSS especial para que quede linda la impresión
 
-<li>el contenido del kilink debería ser indexado por google y otros buscadores
+- etc
 
-</ul>
-<p>
-<strong>Contribución anónima</strong>
+Visualmente, la página tiene que ser lo menos intrusiva posible, hay que minimizar la "polución visual", pero sin dejar de ofrecer la información necesaria (al hacer hover con el mouse, o en colores que no llamen demasiado la atención).
+
+Otras características:
+
+- una URL o kilink ID que casi funciona como URL corta, ej: kilink.com.ar/4g3jxd
+
+- el contenido del kilink debería ser indexado por google y otros buscadores
+
+
+Contribución anónima
+--------------------
 
 Se va a poder crear o editar un kilink sin tener que registrarse ni loguearse, pero va a aparecer "Anonymous" como autor (o algo más divertido).
 
-Dicho esto, al usuario le conviene autenticarse, ya que de esta manera puede tener distintas ventajas:</p>
-<ul>
-<li>Es autor de los tuits que cree (figura su nombre, digamos)
+Dicho esto, al usuario le conviene autenticarse, ya que de esta manera puede tener distintas ventajas:
 
-<li>Como es autor, puede borrar sus tuits
+- Es autor de los tuits que cree (figura su nombre, digamos)
 
-<li>Tiene en su perfil preferencias para adaptar mejor kilink a sus necesidades (habría que ver cuales :p )
+- Como es autor, puede borrar sus tuits
 
-</ul>
-<p>
-<strong>Edición, versionado, diffs</strong>
+- Tiene en su perfil preferencias para adaptar mejor kilink a sus necesidades (habría que ver cuales :p )
+
+
+Edición, versionado, diffs
+--------------------------
 
 Un gran detalle con respecto a la edición es que va a ser "in place". En otras palabras, en lugar de ofrecer un texto estático y un área nueva (como la mayoría de los pastebines), queremos mostrar el texto del kilink, y que el usuario lo pueda editar ahí mismo.
 
@@ -97,15 +98,19 @@ Obviamente, poder editar nos va a generar una estructura de árbol para las vers
 
 También, se podrá elegir dos versiones, y pedir un "diff" entre las mismas.
 
-<strong>Coloreado del texto y tipo del mismo</strong>
 
-¿Qué es la autodetección? En lugar del funcionamiento "pastebin clásico" (de pegar un texto y elegir qué tipo de texto es), cuando el usuario pegue el texto se debe autodetectar qué tipo de texto y colorearlo en el momento según el tipo detectado. Obviamente, va a haber un combobox con todos los tipos, que cambia automáticamente al tipo autodetectado, pero que el usuario puede modificar para rectificar una autodetección erronea (obviamente, si el usuario cambia a mano el tipo de texto, el coloreado cambiará correspondientemente).
+Coloreado del texto y tipo del mismo
+------------------------------------
+
+¿Qué es la autodetección? En lugar del funcionamiento "pastebin clásico" (de pegar un texto y elegir qué tipo de texto es), cuando el usuario pegue el texto se debe autodetectar qué tipo de texto y colorearlo en el momento según el tipo detectado. Obviamente, va a haber un combobox con todos los tipos, que cambia automáticamente al tipo autodetectado, pero que el usuario puede modificar para rectificar una autodetección errónea (obviamente, si el usuario cambia a mano el tipo de texto, el coloreado cambiará correspondientemente).
 
 La "edición coloreada" es la habilidad de poder editar el kilink y que se vaya coloreando mientras se edita (recordemos que vamos a mostrar un sólo texto y el usuario podrá editar directamente allí).
 
 Ambos comportamientos no son fáciles de lograr, pero facilitaría mucho la interacción del usuario, y quizás con herramientas como google-code-prettify no sea tan complicado.
 
-<strong>Caducidad de los kilinks</strong>
+
+Caducidad de los kilinks
+------------------------
 
 Los kilinks serán permanentes, nunca vencen y siempre estarán online, a menos que el autor del mismo los borre explícitamente. Esta no-caducidad hay que comunicarla explícitamente, pero aclarando que no nos hacemos cargo si un kilink desaparece por problemas ajenos o propios, o por la baja del servicio.
 
@@ -113,39 +118,41 @@ Con respecto a que los usuarios puedan borrar kilinks, sólo será posible si el
 
 Como esta es una acción poco probable (nadie borra un paste, a menos que se de cuenta que metió info muy sensible o demasiado privada), la idea es que sólo se pueda hacer desde la página de perfil del usuario, para no ensuciar la interfaz de uso "normal".
 
-<strong>Herramientas</strong>
 
-Hay que tener una colección de herramientas, entre ellas:</p>
-<ul>
-<li>plugin para editores (seleccioná el texto &rarr; kilink, salta a la pag web con el kilink ya creado)
+Herramientas
+------------
 
-<li>plugin para navegador (seleccioná el texto &rarr; kilink, idem)
+Hay que tener una colección de herramientas, entre ellas:
 
-<li>linea de comando ("grep ERROR *.log | kilink" y este escupe la url de un kilink nuevo)
+- plugin para editores (seleccioná el texto &rarr; kilink, salta a la pag web con el kilink ya creado)
 
-<li>applet que permita meter una "ventanita para rápidamente crear kilinks" en cualquier lado
+- plugin para navegador (seleccioná el texto &rarr; kilink, idem)
 
-<li>applet que permita meter un "visualizador de un kilink particular" en cualquier lado
+- linea de comando ("grep ERROR *.log | kilink" y este escupe la url de un kilink nuevo)
 
-<li>applet que permita meter "mis últimos kilinks" en cualquier lado
+- applet que permita meter una "ventanita para rápidamente crear kilinks" en cualquier lado
 
-</ul>
-<p>
-<strong>Tags</strong>
+- applet que permita meter un "visualizador de un kilink particular" en cualquier lado
+
+- applet que permita meter "mis últimos kilinks" en cualquier lado
+
+
+Tags
+----
 
 Los kilinks tendrán tags asociados, los cuales se crearán de forma semimanual, y servirán como filtros.
 
 Habrá un área cerca del texto donde haya una colección de tags. Al crear un kilink, al momento de pegar el texto, en esa zona aparecerán N tags sugeridos por el sistema (luego de analizar el texto), el usuario puede borrar alguno de esos tags, o agregar más.
 
-Mecanismos para autosugerir tags:</p>
-<ul>
-<li>lenguaje de programación usado (if any)
+Mecanismos para autosugerir tags:
 
-<li>bibliotecas específicas usadas en el código
+- lenguaje de programación usado (if any)
 
-</ul>
-<p>
-<strong>API</strong>
+- bibliotecas específicas usadas en el código
+
+
+API
+---
 
 Se debe implementar una API HTTP sobre la cual se podrá hacer todo lo que se pueda hacer, al punto que la interfaz web usará esa misma API para trabajar contra el backend.
 
@@ -153,4 +160,4 @@ La API tendrá dos modos: autenticado y público. Para el modo público no se ne
 
 Idea: Debemos revisar las APIs de pastebin, snip y tinypaste, que son las más piolas que vimos, para diseñar de entrada algo que tenga sentido. También hay que ver cómo autenticar.
 
-Idea: Ofrecer en el sitio bindings para distintos lenguajes de programación.</p> |
+Idea: Ofrecer en el sitio bindings para distintos lenguajes de programación.

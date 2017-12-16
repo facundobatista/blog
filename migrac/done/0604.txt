@@ -1,0 +1,11 @@
+2013-04-20 22:56:59
+Vela
+fotos, tibet
+
+Esta foto la saqué en un monasterio tibetano, en un viaje que hice con motivo de una capacitación de Python para `un programa que necesitaban para calcular un nombre <http://en.wikipedia.org/wiki/The_Nine_Billion_Names_of_God>`_.
+
+.. image:: http://www.taniquetil.com.ar/facundo/imgs/fotint-vela.jpeg
+    :alt: Vela
+    :link: http://www.flickr.com/photos/54757453@N00/8599458217/in/set-72157633118003618/
+
+O quizás la saqué en un patio de Paternal, en un cumpleaños. Ponele.
