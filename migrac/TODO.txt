@@ -3,3 +3,7 @@
 - que ningún párrafo tenga espacios antes o despues
 - que no hayan tags html que me olvidé: span, href, <p>, </p>, ni lineas con & y ; al mismo tiempo
 - asegurar que al final, en los tags, se incluyan las palabras del titulo (y que no haya "<tags>")
+- transformar lugar de imagenes:
+    http://www.taniquetil.com.ar/facundo/imgs/
+    post/images/   <--- relativo! funca?
+
