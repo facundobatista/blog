@@ -1,6 +1,6 @@
 2014-02-01 01:22:50
 Descansando
-<tags>
+vacaciones, paseo, familia, open door, chacra, mar, costa azul, chascomús, laguna
 
 Este enero con la familia nos tomamos unos días para pasear.
 
@@ -10,13 +10,15 @@ El primer viajecito fue bastante cerca: nos fuimos a una chacra en Open Door por
 
 Había una pileta que disfrutamos muchísimo, y actividades para los pequeños, que incluía darle de comer a animalitos, ordeñar una vaca, y varios etcéteras.
 
-<img src="http://www.taniquetil.com.ar/facundo/imgs/vacaciones201401-chacra.jpeg" alt="Viendo como se ordeñaba una vaca" height="366" width="600" />
+.. image:: http://www.taniquetil.com.ar/facundo/imgs/vacaciones201401-chacra.jpeg
+    :alt: Viendo como se ordeñaba una vaca
 
 El segundo viaje fue más lejos, e hicimos dos lugares en tándem. De casa fuimos para Costa Azul, a disfrutar de la playa y el mar.
 
 Me sorprendió por un lado todo lo que Felu disfrutó el mar, y las ganas con las que Malena le entraba a la playa y el mar.
 
-<img src="http://www.taniquetil.com.ar/facundo/imgs/vacaciones201401-costaazul.jpeg" alt="Malena y el mar" height="353" width="600" />
+.. image:: http://www.taniquetil.com.ar/facundo/imgs/vacaciones201401-costaazul.jpeg
+    :alt: Malena y el mar
 
 De la costa fuimos directamente para Chascomús, donde nos quedamos un par de días.
 
@@ -24,6 +26,7 @@ En el viaje nos agarró una tormenta como nunca había visto. En la vida había 
 
 El último día se acercaron mi vieja y Oscar y armamos un día de pesca en la laguna. Estaba fresco, pero soleado, y nos terminamos quemando un poco demasiado :/
 
-<img src="http://www.taniquetil.com.ar/facundo/imgs/vacaciones201401-chascomús.jpeg" alt="Felipe en la laguna" height="450" width="600" />
+.. image:: http://www.taniquetil.com.ar/facundo/imgs/vacaciones201401-chascomús.jpeg
+    :alt: Felipe en la laguna
 
-En fin, descansamos mucho, y comimos más (ya nos pusimos a dieta :p). Y los chicos la pasaron bárbaro.</p> |
+En fin, descansamos mucho, y comimos más (ya nos pusimos a dieta :p). Y los chicos la pasaron bárbaro.
