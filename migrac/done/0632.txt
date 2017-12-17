@@ -1,6 +1,6 @@
 2013-11-01 21:42:22
 PyCon Argentina 2013
-<tags>
+evento, conferencia, python
 
 Salimos el miércoles tarde (porque yo tenía el curso de Python en el centro), en auto, Julia, Marcos y yo. Llegamos a Rosario, al hostel, a la una y cuarto de la mañana, derechito a dormir. Esperábamos no molestar a Mariano y Claudio, con los que compartíamos habitación, y efectivamente fue así porque ellos todavía no se habían acostado :p.
 
@@ -10,18 +10,20 @@ Y finalmente arrancó la conferencia. El primer bloque de charlas me gustó ente
 
 Después salimos a almorzar, lo cual es siempre una aventura en este tipo de eventos (imagínense centenares de personas atacando de repente los locales cercanos). Pero teníamos una hora y media, así que no hubo mayor inconveniente que la quemazón generalizada de caras y brazos porque el sol estaba fuerte y nadie se avivó :/.
 
-A la tarde ví una charla que no me gustó tanto, y luego dí <a href="http://www.taniquetil.com.ar/homedevel/presents/pydetalles.odp">Bindings, default mutable arguments, y otros qu... detalles</a>. Luego de eso, algo de pasillo, las lightning talks (bien en general), y luego la plenaria.
+A la tarde ví una charla que no me gustó tanto, y luego dí `Bindings, default mutable arguments, y otros qu... detalles <http://www.taniquetil.com.ar/homedevel/presents/pydetalles.odp>`_. Luego de eso, algo de pasillo, las lightning talks (bien en general), y luego la plenaria.
 
 La charla plenaria la dió Robert Lefkowitz, sobre "Literacy, Programming, and Open Source", una de las mejores plenarias que vi en la vida. Estuvo genial, sinceramente, tengo ganas de que suban el video a algún lado y agregarle subtítulos en castellano, para que la pueda disfrutar más gente.
 
 Robert, al final de la charla, hizo una invitación general a ir a tomar algo. Pero Emiliano tenía pre-armado unos pescados a la parrilla, así que subimos la apuesta y armamos (previa recolección de dinero) un asado para treinta y pico en un club cercano. Fue una corrida ir a la carnicería, al supermercado por bebidas, pan y etcéteras, y por la casa de Emi para buscar algunos elementos generales, mientras Juan Pablo y Marcos arrancaban con el fuego en el club. Al final se asaron un dorado y un sábalo enormes ambos, más dos bondiolas de cerdo y un pedazote de bife de chorizo. Todo regado con fernet, cerveza, vino, y mucha, mucha charla copada.
 
-<a href="http://www.flickr.com/photos/70871182@N04/10516024666/in/set-72157637010046074"><img src="http://www.taniquetil.com.ar/facundo/imgs/pycon2013-grupal.jpg" alt="La foto grupal" height="213" width="800" /></a>
+.. image:: http://www.taniquetil.com.ar/facundo/imgs/pycon2013-grupal.jpg
+    :alt: La foto grupal
+    :link: http://www.flickr.com/photos/70871182@N04/10516024666/in/set-72157637010046074
 
-El viernes nos levantamos tarde, tanto que desayunamos en el hostel, y llegamos a la conferencia un rato antes que diera mi segunda charla, <a href="http://www.taniquetil.com.ar/homedevel/presents/perlas-py3.odp">Las perlas de Python 3</a> (¡un estreno!). Luego estuve en un par de charlas, pero la que más me gustó fue la de Alecu, "Juegos electromecánicos con Arduino", tengo muchas ganas de arrancar con algún proyecto de electrónica o electromecánica!
+El viernes nos levantamos tarde, tanto que desayunamos en el hostel, y llegamos a la conferencia un rato antes que diera mi segunda charla, `Las perlas de Python 3 <http://www.taniquetil.com.ar/homedevel/presents/perlas-py3.odp>`_ (¡un estreno!). Luego estuve en un par de charlas, pero la que más me gustó fue la de Alecu, "Juegos electromecánicos con Arduino", tengo muchas ganas de arrancar con algún proyecto de electrónica o electromecánica!
 
 Al final del día vinieron más lightning talks, y la plenaria de Claudo Freire sobre Paralelismo. Luego sorteos, palabras, saludos, y todos los etcéteras del cierre de la conferencia.
 
-Esa noche era la cena "de invitados", donde volvimos a repetir asado (pero esta vez en un restaurant muy bonito), y luego varios nos fuimos a reventar la noche (not really) a una fiesta del <a href="http://www.cecrosario.org.ar/">CEC</a>.
+Esa noche era la cena "de invitados", donde volvimos a repetir asado (pero esta vez en un restaurant muy bonito), y luego varios nos fuimos a reventar la noche (not really) a una fiesta del `CEC <http://www.cecrosario.org.ar/>`_.
 
-En fin, pasó otra PyCon Argentina, la cual me gustó mucho mucho. Felicitaciones a todos los que trabajaron para que salga tan lindo todo! Yo no llevé cámara, pero hay muchas fotos <a href="http://www.flickr.com/photos/96412866@N03/sets/72157637086696953/">acá</a>, <a href="http://www.flickr.com/photos/70871182@N04/sets/72157637010046074/">acá</a>, y <a href="https://plus.google.com/photos/108155033271790413956/albums/5939980470881806081">acá</a>.</p> |
+En fin, pasó otra PyCon Argentina, la cual me gustó mucho mucho. Felicitaciones a todos los que trabajaron para que salga tan lindo todo! Yo no llevé cámara, pero hay muchas fotos `acá <http://www.flickr.com/photos/96412866@N03/sets/72157637086696953/>`_, `acá <http://www.flickr.com/photos/70871182@N04/sets/72157637010046074/>`_, y `acá <https://plus.google.com/photos/108155033271790413956/albums/5939980470881806081>`_.
