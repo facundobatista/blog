@@ -6,11 +6,6 @@
     % for post in posts:
         <div class="post hfeed">
             <h2 class="entry-title"><a href="${post.permalink()}">${post.title()}</a></h2>
-            <a href="${post.permalink()}?style=printer_friendly">Imprimir</a>
-            <div class="entry-content">
-                ${post.text(lang,index_teasers)}
-            </div>
-
             <div class="entry-meta">
                 <span class="meta-sep">|</span>
                 <span class="entry-date">${messages("Posted:")} <time class="published" datetime="${post.date.isoformat()}">${post.formatted_date(date_format)}</time></span>
@@ -19,6 +14,15 @@
     		        ${comments.comment_link(post.permalink(), post.base_path)}
 	    	    % endif
             </div>
+            <div class="entry-content">
+                ${post.text(lang,index_teasers)}
+            </div>
+
+            <div class="entry-actions row fl-jus-end">
+                <a class="entry-actions-item" id="comments_link" href="#">Commentarios</a>
+                <a class="entry-actions-item" href="${post.permalink()}?style=printer_friendly">Imprimir</a>
+            </div>
+
         </div>
     % endfor
     ${helper.html_pager()}
