@@ -1,16 +1,18 @@
 2013-06-06 22:07:57
 Cenas de cumpleaños
-<tags>
+cumple, fiesta, reunión, comida, pizzas
 
 Moni hizo un par de cenas con motivo de su onomástico que sucediose el mes pasado, y yo, a modo de agasajo, cociné para todos algunas cosas que normalmente preparo.
 
 La primer cena armé unas bruschetas de entrada. Todas con una base de rodajas de pan de campo, tostadas luego de ponerles un poco de aceite de oliva. Hice de champignones y cebolla de verdeo, de sardinas sobre un colchón de tomate, y de jamón crudo y rúcula.
 
-<img src="http://www.taniquetil.com.ar/facundo/imgs/cenas-bruschetas.png" alt="Bruschetas" />
+.. image:: http://www.taniquetil.com.ar/facundo/imgs/cenas-bruschetas.png
+    :alt: Bruschetas
 
 Luego, para la cena, hice una tortilla española de 10 huevos (nunca había hecho una tortilla española, ni una tortilla taaaan grande, pero tenía ganas de estrenar mi sartén nuevo :p).
 
-<img src="http://www.taniquetil.com.ar/facundo/imgs/cenas-tortilla.png" alt="Tortilla" height="450" width="615" />
+.. image:: http://www.taniquetil.com.ar/facundo/imgs/cenas-tortilla.png
+    :alt: Tortilla
 
 La cena no era sólo eso: también había colita de cuadril al horno, con cebollas, morrón y tomates, lo cual fue lo más sencillo de preparar (lejos) de toda la noche.
 
@@ -18,20 +20,24 @@ Para la segunda cena amasé pizzas. Me encanta prepararlas con harina de trigo 0
 
 Hice pizzas de cuatro quesos: mozzarella, parmesano, queso azul, y queso fresco...
 
-<img src="http://www.taniquetil.com.ar/facundo/imgs/cenas-p-4quesos.png" alt="Pizza cuatro quesos" />
+.. image:: http://www.taniquetil.com.ar/facundo/imgs/cenas-p-4quesos.png
+    :alt: Pizza cuatro quesos
 
 , ...de berenjena rehogada con provenzal casero, con queso...
 
-<img src="http://www.taniquetil.com.ar/facundo/imgs/cenas-p-berenjenas.png" alt="Pizza de berenjenas" />
+.. image:: http://www.taniquetil.com.ar/facundo/imgs/cenas-p-berenjenas.png
+    :alt: Pizza de berenjenas
 
 , ...de panceta, tomate fresco y cebolla de verdeo...
 
-<img src="http://www.taniquetil.com.ar/facundo/imgs/cenas-p-panceta.png" alt="Pizza de panceta" />
+.. image:: http://www.taniquetil.com.ar/facundo/imgs/cenas-p-panceta.png
+    :alt: Pizza de panceta
 
 , ...y de rúcula y jamón crudo.
 
-<img src="http://www.taniquetil.com.ar/facundo/imgs/cenas-p-jcrudo.png" alt="Pizza de rúcula y jamón crudo" />
+.. image:: http://www.taniquetil.com.ar/facundo/imgs/cenas-p-jcrudo.png
+    :alt: Pizza de rúcula y jamón crudo
 
 Me encanta preparar cosas que no cocino siempre, especialmente cuando viene gente invitada, y tiene más adrenalina que prepararlo cuando estamos sólos en casa...
 
-Todas las fotos de estas comidas (y otras), <a href="http://www.flickr.com/photos/54757453@N00/sets/72157628170468097/with/6410109533/">acá</a>.</p> |
+Todas las fotos de estas comidas (y otras), `acá <http://www.flickr.com/photos/54757453@N00/sets/72157628170468097/with/6410109533/>`_.

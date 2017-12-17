@@ -1,6 +1,6 @@
 2013-07-11 03:15:45
 Mondongo
-<tags>
+comida, invitación, receta
 
 Para el día del padre pasado quería invitar a mi viejo a casa, pero no me decidía qué comida hacer; había pensado en algún pescado, pero no me convencía la idea. Y a mi viejo se le ocurrió la idea de hacer algún guiso, y enseguida me entusiasmé con hacer un mondongo.
 
@@ -28,6 +28,7 @@ Entre una cosa y la otra se hicieron las diez de la noche, así que dejé hervir
 
 Comimos a las dos de la tarde, estaba en su punto.
 
-<img src="http://www.taniquetil.com.ar/facundo/imgs/mondongo.jpg" alt="Mondongo" height="449" width="600" />
+.. image:: http://www.taniquetil.com.ar/facundo/imgs/mondongo.jpg
+    :alt: Mondongo
 
-Si lo hacen, me cuentan como les fue!</p> |
+Si lo hacen, me cuentan como les fue!
