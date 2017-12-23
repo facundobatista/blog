@@ -1,0 +1,34 @@
+2014-10-23 01:36:59
+Satélites, órbitas, y comunicaciones
+soberanía, planeta
+
+¿Qué es un satélite? Hay varias definiciones... para el propósito de este artículo, podemos decir que es un objeto que orbita alrededor de otro. Nuestro planeta tiene un satélite natural (la Luna) y muchos, muchísimos satélites artificiales.
+
+Crear un nuevo satélite artificial, es decir poner un aparato creado por los humanos a girar alrededor de la Tierra es bastante fácil. Es cuestión de subir el aparato lo suficientemente alto, es decir, ponerlo en órbita. Claro, crear un satélite artificial útil tampoco es moco de pavo, hay que ponerlo en una órbita más o menos controlada, y poder comunicarse con el aparato.
+
+Hay un detalle importante en la frase anterior. Estoy hablando de órbitas... una órbita terrestre es el camino que recorre el satélite cuando está girando por alrededor de la Tierra. Y claro, hay muchas, ¡infinidades! Agarren una pelota, por ejemplo, y van a ver que pueden trazar con una lapicera muchísimos recorridos distintos alrededor de ella, y a eso hay que sumarle que las órbitas pueden estar a distintas alturas (la altura del satélite afecta la velocidad a la que se desplaza, cuanto más abajo está más rápido tiene que ir para no "caerse", mientras que cuanto más alto está más lento tiene que ir para no "salir disparado" de la órbita terrestre).
+
+Órbitas hay un montón, pero no todas son útiles. Un ejemplo de una órbita útil es la llamada "órbita sincrónica al sol", que se logra combinando altitud e inclinación para lograr que el satélite pase sobre una determinada latitud terrestre a la misma hora del día. Esto es piola para aquellos satélites que tienen que sacar imágenes del suelo terrestre, porque quizás es suficiente con que pasen un par de veces al día por arriba del lugar que tienen que fotografiar. Es el caso de los `nanosatélites que estuvimos mandando estos años <http://www.taniquetil.com.ar/plog/post/1/650>`_.
+
+Hay, sin embargo, una órbita que es muy especial. Si al satélite lo ponemos justo sobre la linea del ecuador, y lo hacemos girar a una velocidad específica, en lugar de verlo pasar cada tanto, lo vamos a estar viendo siempre en el mismo punto en el cielo.
+
+Esta órbita se llama `geostacionaria <http://es.wikipedia.org/wiki/%C3%93rbita_geoestacionaria>`_. Para ponerlo en términos precisos, la órbita geoestacionaria es una órbita geosíncrona en el plano ecuatorial terrestre, con una excentricidad nula (órbita circular) y un movimiento de oeste a este.
+
+.. image:: http://www.taniquetil.com.ar/facundo/imgs/satelit-orbgeo.gif
+    :alt: &Oacute;rbita síncrona
+    :link: http://commons.wikimedia.org/wiki/File:Geostat.gif
+
+`Arthur C. Clarke <http://es.wikipedia.org/wiki/Arthur_C._Clarke>`_ popularizó la idea de utilizar la órbita geoestacionaria para poner allí satélites de comunicaciones (lo hizo en un paper en 1945, "Extra-Terrestrial Relays", por el cual ganó `el premio Marconi en 1982 <http://www.marconifoundation.org/index.html>`_).
+
+Un satélite en órbita geoestacionaria es muy importante para las comunicaciones, porque como siempre se lo ve en el mismo lugar, se puede apuntar una antena y dejarla fija en esa dirección, y tener un enlace permanente con el satélite. O sea que dos puntos en la tierra, apuntando al mismo satélite, pueden estar comunicados todo el tiempo. Este concepto es la base de las comunicaciones modernas en nuestra sociedad, afectando profundamente la forma en que vivimos.
+
+Las órbitas geoestacionarias sólo se pueden conseguir muy cerca de un anillo de 35.786 km sobre el ecuador. En la práctica, esto significa que todos los satélites geoestacionarios deben estar en este anillo, y sólo en ese anillo, por lo cual la cantidad de satélites que se puede poner ahí es limitada.
+
+Estarán de acuerdo conmigo que las comunicaciones son un factor clave en nuestra sociedad: es por eso muy importante quien tiene el poder sobre los satélites en esa órbita, quien los controla. La organización que está coordinando la asignación de estos espacios es la `Unión Internacional de Telecomunicaciones <http://www.itu.int/es/Pages/default.aspx>`_.
+
+Con el `ARSAT-1 <http://es.wikipedia.org/wiki/ARSAT-1>`_ (lanzado el pasado 16 de Octubre) Argentina vuelve a ocupar una posición orbital que tenía asignada (que estuvo ocupada hasta el 2010 por el `Nahuel 1A <http://es.wikipedia.org/wiki/Nahuel_1A>`_), y que corría el riesgo de perder luego de cuatro años de no utilizarla.
+
+.. image:: http://www.taniquetil.com.ar/facundo/imgs/satelit-arsat1.jpeg
+    :alt: ARSAT 1
+
+Es por eso que este satélite era tan importante. No sólo porque fue desarrollado, financiado y ensamblado acá (Argentina es ahora una de las pocas naciones que hacen sus propios satélites) sino porque es un factor clave en la soberanía del país, ya que permite tener control propio sobre un elemento clave para las comunicaciones.

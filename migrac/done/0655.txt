@@ -1,0 +1,58 @@
+2014-08-08 02:23:58
+Ciento catorce
+música, letra
+
+    Van
+    en ronda porfiada
+    ancianas de viento
+    de un frío que gasta
+    tacleando al olvido
+    yugando el dolor
+
+    Van
+    en ronda mareada
+    remando en silencio
+    a orillas de un tiempo
+    de grises, de ausencias
+    de niebla en la voz
+
+    Van de pie con las heridas altas
+    convidando memoria
+    y andarán contra mugre y perdón
+    aunque duren los cuervos
+    llueva este asco
+    y pesen los pies
+
+    Van
+    pañuelos curtidos
+    de llantos inmensos
+    de soles de inviernos
+    diciendo los gritos que nadie gritó
+
+    Van
+    en ronda acunada
+    tobillos cansados
+    y ovarios de hierro
+    pariendo el coraje que nadie parió
+
+    Van de pie con las heridas altas
+    convidando memoria
+    y andarán contra mugre y perdón
+    aunque duren los cuervos
+    llueva este asco
+    y pesen los pies
+
+    Aunque duren los cuervos
+    llueva este asco
+    y pesen los pies
+
+<object type="application/x-shockwave-flash" data="http://www.youtube.com/v/ogQni4pr038" class="ltVideoYouTube" height="355" width="425">
+<param name="movie" value="http://www.youtube.com/v/ogQni4pr038" />
+<param name="wmode" value="transparent" />
+<param name="allowScriptAccess" value="sameDomain" />
+<param name="quality" value="best" />
+<param name="bgcolor" value="#ffffff" />
+<param name="FlashVars" value="playerMode=embedded" />
+</object>
+
+Autores: Iván Noble y, Martín Mendez; Intérprete: Los Caballeros de la Quema
