@@ -1,0 +1,13 @@
+2015-03-06 02:11:17
+Novedades pythónicas: fades, CDPedia, Django y curso
+python, software, proyectos, fades, cdpedia, curso, tutorial, django
+
+Algunas, varias y sueltas.
+
+A nivel de proyectos, le estuvimos metiendo bastante con `Nico <http://gilgamezh.me/blog/>`_ a `fades <https://pypi.python.org/pypi/fades>`_. La verdad es que la versión 2 que sacamos la semana pasada está piolísima... si usás virtualenvs, no dejes de pegarle una mirada.
+
+Otro proyecto con el que estuve es CDPedia... la parte de internacionalización está bastante potable, y eso también me llevó a renovar la página principal que te muestra cuando la abrís, así que puse a tirar una nueva versión de la de español, y luego seguirá una de portugués (¡cada imagen tarda como una semana!).
+
+Hace un rato subí a la `página de tutoriales de Python Argentina <http://tutorial.python.org.ar/>`_ el Tutorial de Django en español (¡gracias Matías Bordese por el material!). Este tuto antes estaba en un dominio que ahora venció, y nos pareció interesante que esté todo en el mismo lugar, facilita que la gente lo encuentre.
+
+Finalmente, empecé a organizar mi Segundo Curso Abierto de Python. Esta vez lo quiero hacer por la zona de Palermo, o alrededores (la vez pasada fue en microcentro). Todavía no tengo reservado un lugar, y menos fechas establecidas, pero el formato va a ser similar al anterior. Con respecto al sitio, si alguien conoce un buen lugar para alquilar "aulas", me avisa, :)

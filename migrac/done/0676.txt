@@ -1,18 +1,17 @@
 2015-05-03 18:52:05
 Cambiando un poco la estrategia
-<tags>
-
-
+actividades, blog, dolina, proyectos, cdpedia, cumpleaños, fades, encuentro
 
 Me está costando ponerme a escribir algo en el blog. Más que nada porque no tengo mucho tiempo libre, y cuando lo tengo (y no lo aprovecho con la familia), me alejo un poco de la compu y veo series o pelis, o en la compu estoy sólo programando.
 
 Tampoco tengo nada puntual que escribir, entonces me da fiaca hacer una recopilación de cosas, o detalles que sucedieron, etc.
 
-Pero para ver si logramos vencer esta "inercia a arrancar", vamos a probar un nuevo esquema.  El otro día estaba escuchando una entrevista a Dolina, en el programa de Alivertii "Decime quien sos vos", y me enteré que a él le resulta más fácil, para escribir o producir textos, dictarlos. Entonces, la idea es dictarme yo mismo, grabando con el teléfono, y después voy a transcribir eso.
+Pero para ver si logramos vencer esta "inercia a arrancar", vamos a probar un nuevo esquema.  El otro día estaba escuchando una entrevista a Dolina, en el programa de Aliverti "Decime quien sos vos", y me enteré que a él le resulta más fácil, para escribir o producir textos, dictarlos. Entonces, la idea es dictarme yo mismo, grabando con el teléfono, y después voy a transcribir eso.
 
 Obviamente lo voy a editar bastante, lo voy a toquetear, pero la idea es a ver si se logra que fluya más las cosas para contar y no terminar con dos o tres descripciones parcas y nada más.
 
-<img src="http://taniquetil.com.ar/facundo/imgs/voice-recorder.jpeg" alt="Grabador de voz" height="380" width="380" />
+.. image:: http://taniquetil.com.ar/facundo/imgs/voice-recorder.jpeg
+    :alt: Grabador de voz
 
 En tren de contar algo de lo que fue sucediendo, el mes pasado hice el asado geek, que aunque es sólo un asado un domingo, realmente hay que ir a comprar un montón de cosas, y acomodar cosas en la casa, preparar todo, un largo etc. Después es un par de días de reorganizar todo de nuevo.
 
@@ -30,4 +29,4 @@ El otro programa en el que estoy metiendo tiempo, como decía, es Encuentro. Cua
 
 Eso ya lo arreglé, pero todavía no lo liberé. Mi idea era esperar a Humitos para ver si metemos lo de CDA, pero creo que no lo va a tener para las próximas semanas, así que voy a hacer un release estos días, no sólo con ese fix sino también con otras mejoras y pequeñas correcciones que fui haciendo.
 
-Finalmente, el otro fin de semana pasé un rato por <a href="http://flisol.usla.org.ar/sede/CABA/">FLISOL</a> y luego me fui para la casa de Gilgamezh donde le estuvimos metiendo tiempo a fades, porque queremos hacer un release pronto con algunos features realmente copados ahí. Ya tenemos planeado con qué queremos llegar a la v3, nos falta poco :) |
+Finalmente, el otro fin de semana pasé un rato por `FLISOL <http://flisol.usla.org.ar/sede/CABA/>`_ y luego me fui para la casa de Gilgamezh donde le estuvimos metiendo tiempo a fades, porque queremos hacer un release pronto con algunos features realmente copados ahí. Ya tenemos planeado con qué queremos llegar a la v3, nos falta poco :)

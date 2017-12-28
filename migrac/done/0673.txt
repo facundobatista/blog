@@ -1,0 +1,12 @@
+2015-04-08 21:58:15
+Hay días en el laburo...
+trabajo
+
+Hay días en el laburo donde tenés que hacer un trabajo, lo planeás, te juntás con gente, se decide que cosas se van a hacer, se separa todo en tres o cuatro partes, hacés cada una (con tests y todo), todo bien, te hacen los review, entra en trunk, va a producción, todo muy lindo, mirás las métricas, suben y bajan como corresponde, y sos feliz.
+
+Hay otros días en el laburo, donde empezás a ver algo y decís "esto no puede ser", empezás rastrear por qué está ese número ahí y te das cuenta que los logs tienen un problema, entonces lo querés contrastar con las métricas, y te das cuentas que en las métricas falta data, decidís cruzarlo con otro dato y te das cuenta que todavía no están sincronizados los archivos donde eso está, lo tenés que pedir y te tardan tres o cuatro horas en dártelo, y después cuando lo podés cruzar te das cuenta que deberías haber estado registrando algún otro número más, pero que no todo está perdido porque lo podés sacar de forma indirecta, hacés un script para parsear un quintillón de registros, te da un resultado más o menos coherente, pero todavía tenés que resolver como puede ser que el problema realmente esté sucediendo, mirás el código, te das cuenta que esa función está siendo llamada desde siete lados de los cuales solamente te acordabas tres, y de esos siete lados hay dos que no tenes datos de cómo están llamados...
+
+.. image:: http://taniquetil.com.ar/facundo/imgs/computer-explode.jpeg
+    :alt: Está todo roto
+
+En fin, la mayoría de las veces termina todo con un final feliz, pero realmente estás uno, dos o tres días rascándote grupalmente la cabeza con tus compañeros de trabajo hasta que se resuelve el acertijo.
