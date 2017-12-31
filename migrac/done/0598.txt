@@ -1,0 +1,27 @@
+2013-02-26 02:06:23
+El árbol fluorescente
+software, python, tree
+
+En otra edición de "cosas que hice hace tiempo y me resultaron útiles ahora", les presento un proyecto que nació hace cinco años y medio de una charla de PyAr.
+
+Como explico en `este post <http://www.taniquetil.com.ar/plog/post/1/310>`_, para jugar un rato con un amigo hice un árbol Trie, que luego de algunas optimizaciones degeneró en algo que llamé "Fucked Trie".
+
+Este árbol para guardar palabras y buscarlas por prefijo de forma muy muy rápida resultó ser lo que necesitaba en el laburo un par de semanas atrás, pero con un cambio: ahora cada palabra tenía que guardar cierta metadata (que luego se obtendría al buscar).
+
+Entonces, agarré el código original, lo modifiqué un poco, y armé este proyecto nuevo que se llama `Fluorescent Trie <http://launchpad.net/ftrie>`_ (porque Fucked quedaba muy fuerte para un proyecto, vissste).
+
+.. image:: http://www.taniquetil.com.ar/facundo/imgs/ftree.png
+    :alt: Fluorescent trie
+    :link: http://launchpad.net/ftrie
+
+Características de este árbol:
+
+- Está pensando para mantenerlo en memoria: ocupa poco, y carga rápido
+
+- Las búsquedas son por prefijo: O sea, entrando con "foo" encuentra "foo" y todo lo que empieza por "foo". No encuentra "grafoo".
+
+- Las búsquedas son extremadamente rápidas (en el orden de los 10⁻⁴  segundos).
+
+- Cada palabra tiene un payload que puede ser cualquier cosa.
+
+Si lo necesitan para algo, aprovechen.

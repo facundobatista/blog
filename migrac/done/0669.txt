@@ -1,0 +1,10 @@
+2015-02-20 19:28:37
+Cantando juntos
+música, foto, malena, felipe
+
+"Vení, cantemos algo a dúo."
+
+.. image:: http://taniquetil.com.ar/facundo/imgs/malefelu-duo.jpeg
+    :alt: Cantando a dúo
+
+¡Rocanrol!

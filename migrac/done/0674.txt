@@ -1,0 +1,24 @@
+2015-04-11 19:29:21
+Mis lugares favoritos en el mapa
+google maps, lugares, teléfono
+
+Hace algunos años me empezó a pasar que leía (o me pasaban) recomendaciones de lugares para comer, tomar algo, jugar al pool, etc, y luego cuando estaba en la calle, no las recordaba y terminaba yendo a cualquier lado al azar.
+
+Se me ocurrió empezar a registrar los lugares en un mapa. La solución que usé fue basada en Google Maps: en la interfaz web creé una capa mía, en la cual empecé a cargar todos esos lugares. Luego, en el teléfono, iba a Google Maps, le decía que me mostrara esa capa, y ahí tenía el mapa con muchas estrellitas (cada lugar que había cargado) y podía ver qué tenía cerca, o para donde iba, etc.
+
+Con el tiempo, se empezó a complicar.
+
+En un momento, Google decidió que la versión del teléfono de Maps no iba a mostrar más "custom layers" (o sea, las capas que creabas vos). En otras palabras, ¡no podía ver más mis datos! Esto lo solucioné instalando una versión vieja de Google Maps en el teléfono (lo cual no es sencillo de hacer, pero funcionaba). Más adelante, Google empezó a complicar el uso de las capas en la versión web también. Y hace algunos meses, dejó de servir esa información, con lo cual aunque en el teléfono tuviera una versión que pedía esas capas al servidor, el servidor no las contestaba.
+
+.. image:: http://taniquetil.com.ar/facundo/imgs/7jrsl-donde.jpg
+    :alt: Esta foto es vieja, pero me encanta
+
+En paralelo, hace un par de años largos que quiero empezar a irme en lo posible de los servicios de Google, y en función de eso en los últimos meses empecé a usar los mapas de `OpenStreetMap <http://www.openstreetmap.org>`_ ("OSM"), por recomendaciones de `Nico <http://gilgamezh.me/blog/>`_, `Humitos <http://elblogdehumitos.com.ar/>`_ y `Marcos Dione <http://www.grulic.org.ar/~mdione/glob/>`_. Desde mitad del año pasado también lo puse en el teléfono, mediante la gran aplicación `OsmAnd <http://osmand.net/>`_ primero, y desde hace un par de semanas con `MAPS.ME <http://maps.me/>`_ (que es bastante más rápida al mostrar los datos, y creo que es mejor decidiendo dónde mostrarte los nombres de las calles, lo cual es importante).
+
+La gran ventaja de OsmAnd y MAPS.ME es que usan los mapas de OpenStreetMap (que son mejores en su calidad que los de Google Maps, y además son abiertos y colaborativos), y que además lo usan de forma offline. O sea, te bajás los mapas que te interesan (por ejemplo, el de Argentina) cuando tenés una buena conexión de internet y luego el mapa está en tu teléfono, con lo cual no necesitás internet cuando estás en la calle para consultar estos datos.
+
+Pero, aunque estaba contento con la solución de "mapas" en su forma genérica, me faltaba esto de "anotar mis lugares". Hasta que Humitos me recomendó `umap <http://umap.openstreetmap.fr/es/>`_, donde podés justamente crear capas de lugares arriba de los mapas de OpenStreetMap (hay una gran cantidad de sitios que utilizan los datos de OSM y dan servicios arriba de ellos, ejemplos que me pasó Humitos: `su propio "puntos de interes" <http://pois.elblogdehumitos.com.ar/#14/-34.5158/-58.4874>`_, otro con `fotos de ciudades <http://www.mapillary.com>`_, y uno donde `la gente registra árboles frutales <http://arbolesciudad.com.ar/>`_).
+
+En ese sitio, entonces, creé `mi mapa de lugares para ir de parranda <http://umap.openstreetmap.fr/es/map/parranda_34973#13/-34.6093/-58.3984>`_ (no volví a armarlo de cero, sino que importé lo que exporté previamente de google maps). Para llevar estos datos a mi teléfono, exporté un KML, me lo mandé por mail, y en el teléfono le dije que lo abra con el MAPS.ME.
+
+Y listo, :)

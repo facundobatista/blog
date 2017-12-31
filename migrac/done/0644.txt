@@ -1,0 +1,69 @@
+2014-03-28 21:32:52
+PyCamp 2014
+viaje, python, software, proyectos, comunidad
+
+Se fue otro PyCamp. Como siempre, genial. Lo charlaba con Moni, es notable como el formato del evento no decae año a año, ¡siguen siendo bárbaros!
+
+Eso sí, voy a tratar de innovar en lo que es la descripción del mismo, escaparme de hacer una cronología, y orientar más el relato a las situaciones.
+
+
+Llegando y saliendo
+-------------------
+
+Los viajes bien. Como el año pasado, me quedé hasta "cerrar el evento", y también como el año pasado, luego de vaciar el lugar, entregar la llave y eso, nos quedamos algunos tomando unas cervezas en el bar del lugar, hasta que íbamos partiendo en función del horario de bondi de cada uno.
+
+La diferencia estuvo en la llegada, ya que este año no tuvimos al Joven Ocupado en la Accesibilidad y Conectividad (JOAC), así que tuvimos que armar toda la infraestructura de red sin saber demasiado. Viajé con Nico Demarchi, así que al llegar nos pusimos con eso... y aunque no es *rocket science*, tampoco es trivial, y estuvimos como tres horas para dejar todo lindo!
+
+.. image:: http://www.taniquetil.com.ar/facundo/imgs/pycamp14-red.jpeg
+    :alt: Una Antena Sable Laser
+
+
+Proyectos
+---------
+
+El proyecto mío en el que más trabajé fue `Encuentro <http://encuentro.taniquetil.com.ar/>`_, en parte en esta `biblioteca para parsear SWFs <https://github.com/facundobatista/yaswfp>`_ que vengo necesitando, pero también porque para este proyecto se anotaron varias personas... ¡y metieron un montón de laburo! Tres branches de Mica Bressan, dos de Nico y uno de Emiliano Dalla Verde Marcozzi, y creo que hay otro más dando vuelta por ahí.
+
+También trabajé en un proyecto nuevo, que arrancó en este PyCamp. Es `WeFree <http://wefree.usla.org.ar/>`_, un proyecto para almacenar colaborativamente claves de redes, de manera de hacer que tu computadora o teléfono se conecte automáticamente en todos los lados posibles. Participé todo el primer día, en el diseño general y luego armé la interfaz gráfica para la compu (no toda, pero sí la base, dejando algo usable).
+
+Algo en lo que también trabajé desde cero, pero que no sé si se puede calificar como proyecto, fue algo así como la "búsqueda del testrunner perfecto", que describí en `este post <http://www.taniquetil.com.ar/plog/post/1/642>`_. Con la ayuda de Martín Gaitán atacamos como base a `nose <https://nose.readthedocs.org/en/latest/>`_, y le fuimos agregando plugins y probándolos. El experimento fue un éxito, logramos todo lo que queríamos, ya voy a poner un post acá explicando bien el detalle.
+
+Hubo un proyecto que llevé pero en el que yo no trabajé, que fue `Linkode <http://linkode.org/>`_, pero Seba Alvarez estuvo haciendo cosas copadas con la interfaz, me tiene que mandar el código.
+
+Finalmente, arranqué ayudando a un par de chicos a migrar código a Python 3, pero no hicimos mucho de eso (aunque aprendimos algunos detalles interesantes).
+
+.. image:: http://www.taniquetil.com.ar/facundo/imgs/pycamp14-trabajando.jpeg
+    :alt: Laburando en Encuentro con Nico, Mica y Emi (que sacó la foto)
+
+
+Las noches
+----------
+
+Sólo tres, porque el último día uno viaja, pero las aprovechamos a full :)... la gente se va a dormir sorprendentemente tarde luego de lo arduo que son los días. Bah, más sorprendente es que muchos al otro día nos levantamos temprano :p
+
+La primer noche jugué a un juego que no conocía, el `Munchkin <http://en.wikipedia.org/wiki/Munchkin_%28card_game%29>`_, ¡y gané!. Está bueno el juego, pero es uno de esos que tenés que leer mil cartitas, entonces las primeras diez veces que jugás se hace un poco lento.
+
+El sábado fue la reunión de PyAr, y después charlé con gente y programé algo, no jugué a nada.
+
+La tercer noche fue doble... Munchkin primero (ganó Matías), y luego jugamos al Carrera de Mente. Hacía como 15 años que no jugaba un Carrera de Mente, no me acordaba que fuese tan divertido! Nos reimos mucho.
+
+.. image:: http://www.taniquetil.com.ar/facundo/imgs/pycamp14-jugando.jpeg
+    :alt: Carrera de Mente
+
+
+Notas de color
+--------------
+
+Este año Alecu no pudo venir... y Diego Sarmentero se le ocurrió la idea de nombrarlo Lider Inspiracional, y mandó a imprimir dos cuadros, uno para tenerlo `durante el día <http://www.flickr.com/photos/54757453@N00/13411587035/in/set-72157642919370713>`_, y otro para tenerlo `luego de las cenas <http://www.flickr.com/photos/54757453@N00/13412026314/in/set-72157642919370713>`_.
+
+A nivel de "actividades al aire libre", este año volvimos a repetir la caminata del año pasado hasta el río (fuimos un grupito de unos 10), y también hice paddle con Hugo Ruscitti, Emilio Ramirez y Hernán Lozano. ¡Jugamos un montón! Bah, menos de dos horas, pero nos arreglamos para meter dos partidos (cinco sets rápidos).
+
+También hicimos una `*key signing party* <http://es.wikipedia.org/wiki/Fiesta_de_firmado_de_claves>`_, y Juanjo Ciarlante nos charló un poco de seguridad y buenas costumbres.
+
+.. image:: http://www.taniquetil.com.ar/facundo/imgs/pycamp14-grupal.jpeg
+    :alt: Todos
+
+
+Conclusión
+----------
+
+Bien simple, lo afirmo una vez más: ¡PyCamp es el mejor evento del año! (todas las fotos `acá <http://python.org.ar/PyCamp/2014>`_).

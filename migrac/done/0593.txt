@@ -1,0 +1,29 @@
+2013-01-21 22:30:19
+CDPedia 0.8
+liberación, software
+
+Luego de bastante laburo las últimas semanas, estoy muy contento de anunciar (de mi parte y de Python Argentina) que está en la calle la versión 0.8 de CDPedia, un proyecto que permite acceder a la información de la Wikipedia en castellano sin necesidad de una conexión a Internet. Se puede descargar libremente de la red y grabar a CDs, DVDs o memorias USB para repartirla sin restricciones.
+
+La CDPedia funciona en cualquier computadora, ya sea que tenga Linux, MacOS o Windows como sistema operativo, y esta última versión incluye contenido de Wikipedia a Diciembre de 2012.
+
+Para mayor información e instrucciones para la descarga, visitar `la página del proyecto <http://cdpedia.python.org.ar/>`_.
+
+.. image:: http://www.taniquetil.com.ar/facundo/imgs/cdpedia.png
+    :alt: Logo
+    :link: http://cdpedia.python.org.ar/
+
+Esta versión trae las siguientes novedades:
+
+- Renovamos completamente la generación del ejecutable para Windows, se deberían tener muchísimos menos problemas para usar la CDPedia en ese entorno.
+
+- Al extraer las páginas de Wikipedia, se les hace un análisis para evitar los artículos vandalizados (en este caso, se baja una versión más antigua, pero correcta).
+
+- El servidor interno ahora es multiusuario, lo que simplifica enormemente instalar CDPedia en un servidor y que sea accedida desde distintos clientes.
+
+- Ahora se incluyen en los discos todas las páginas de las categorías, no sólo la primera.
+
+- Actualizamos el contenido a Diciembre 2012.
+
+- Varias mejoras a la hora de la generación de discos y tarballs, así como también en la calidad del código.
+
+Si tenés discos disponibles, hacé algunas copias de CDPedia para regalar a tus familiares y amigos, a la biblioteca de tu barrio, o a la escuela de tus hijos. **¡Difundí CDPedia!**

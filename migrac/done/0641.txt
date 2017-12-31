@@ -1,0 +1,28 @@
+2014-02-21 20:07:56
+Ma, cosa facciamo?
+actividades, encuentro, cdpedia, magicicada, linkode, proyectos, software
+
+En otras palabras, ¿qué ando haciendo? Como verán, escribiendo poco en el blog, :p
+
+En parte la culpa la tiene que en el laburo hay mucho ídem (la semana que viene es el Mobile World Congress y estuvimos terminando unas cositas de lujo que se usan desde el Ubuntu Phone). Pero no sólo laburo es el tema... estoy empujando varios proyectos en paralelo, y la familia estuvo de vacaciones.
+
+Bah, no toda la familia, Moni empezó a trabajar a principios de Febrero, Felu está en casa todo el día (al final este año no lo mandamos a colonia), y Male tuvo de vacaciones a la chica que la cuida a la mañana. Ergo, mis mañanas, durante un par de horas, eran complicadas. Esto en el trabajo lo compensaba trabajando más tiempo a la tarde, lo cual también me quitaba tiempo libre.
+
+.. image:: http://www.taniquetil.com.ar/facundo/imgs/malefelu-feb14.jpg
+    :alt: Male y Felu, jugando
+
+Pero bien. Ya casi estamos en ritmo para el resto del año, así que quería contarles un poquito algunos avances en varios proyectos, que aunque no cerré ninguno como para contarlo por separado, está bueno que se vea el progreso.
+
+Al que le metí más pata las últimas semanas es `Encuentro <http://encuentro.taniquetil.com.ar/>`_. Más allá de algunas correcciones menores, estuve laburando para meterle un feature interesante: un nuevo backend de datos (que no voy a comentar hasta estar seguro que funca bien). Pero para eso necesitaba una biblioteca para parsear SWFs. Lo que encontré por ahí estaba roto o incompleto, y con el código muy ofuscado como para toquetearlo (no los culpo, parsear estructuras binarias es un dolor de oido, y la de SWF en particular es recontracomplicada). En fin, el tema es que necesité hacer la biblioteca yo. Y la hice, ¡muy divertido! Pero mucho trabajo. Acá está, para que la aprovechen si necesitan: `Yet Another SWF Parser <https://github.com/facundobatista/yaswfp>`_.
+
+El otro proyecto de software que estuve empujando un poco es `CDPedia <http://python.org.ar/pyar/Proyectos/CDPedia>`_, en dos frentes muy relacionados. Por un lado, tener un único ejecutable al que uno llame con varios parámetros y haga "todo solo" (hoy en día la generación completa de la CDPedia implica muchos pasos manuales). Por otro lado, que la generación sea en otro idioma que el castellano. Ambos frentes se juntan en la idea de tener una máquina que vaya generando sola CDPedias de distintos idiomas. Ya llegaremos.
+
+También estuve un par de días agregándole un feature a `Magicicada <https://launchpad.net/magicicada>`_ (que se iconice) y corrigiéndole un bug molesto (cada vez que una transferencia terminaba había un efecto feo con el porcentaje de las otras). El único detalle que le quiero agregar para que me sirva en todo lo que lo uso es tener un botón de "publicar", que me deje elegir un archivo y lo publique (linkeándolo desde el directorio de Ubuntu One si fuese necesario).
+
+A `Linkode <http://linkode.org/>`_, lo tengo abandonadazo, pero ya lo voy a retomar. Y también le estoy tratando de meter algo de tiempo a `Preciosa <http://preciosdeargentina.com.ar/>`_, la aplicación de Martín para que no nos mientan con los precios y poder comprar más barato.
+
+Para complicarme la vida, se me pinchó un disco de la compu (un Western Digital Caviar Blue de 500GB). Empezó a hacer ruidito, y podía acceder a veces sin problemas, y a veces se turulaba. Julia me dió la idea de apagarlo por software (``hdparm -Y``) para que no se siga deteriorando mientras obtenía el reemplazo, así que aguantó varias semanas sin problema. Finalmente compré un Seagate de 3TB, y el otro día lo reemplacé sin mayor inconveniente, pudiendo rescatar todos los datos (con el detalle, ojo al piojo, de que hay que crearle una tabla de particiones tipo GPT, porque la común que usamos toda la vida solamente sirve hasta 2TB).
+
+Y en el medio de todo, cerrando el contrato con el hotel donde vamos a hacer el PyCamp este año. Es en Villa Giardino, como el año pasado, `¡y ya pueden anotarse! <http://python.org.ar/PyCamp/2014>`_ No dejen de venir, es el evento de programación más divertido y productivo del año, :)
+
+En fin. ¿Qué ando haciendo? Mil cosas :D

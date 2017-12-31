@@ -1,0 +1,31 @@
+2013-07-29 22:02:09
+Curso de Python abierto a la comunidad
+<tags>
+
+Finalmente me decidí, y armé un curso grupal para aquellos que quieren aprender Python, no como parte de un grupo cerrado para una empresa o institución, sino abierto al público en general.
+
+Será un **Curso Introductorio a Python**, apuntado a aquellos que no saben nada de este lenguaje, o saben algo pero quieren profundizar o formalizar conocimientos.
+
+El nivel es introductorio, lo que significa que se van a ver muchos conceptos del lenguaje de manera profunda, pero no se tocarán temas avanzados ni satélites a lo que es Python en sí, con la intención que el asistente gane sólidos conocimientos que luego le permitan explorar el resto a su gusto. Se necesita tener conocimientos previos de programación (pero no hace falta ser un programador avanzado). En detalle, el contenido del curso versará sobre los siguientes ítems:
+
+- Introducción: ¿Qué es Python?; Primeros pasos; Recursos
+
+- Tipos de Datos: Haciendo números, y más números; Cadenas de texto; Tuplas y listas; Conjuntos; Diccionarios
+
+- Controles de flujo: if/elif/else; loops while y for; Excepciones
+
+- Encapsulando código: Funciones; Clases; Módulos; Espacios de nombres
+
+- Otros temas: Archivos; Trabajando en Red; Conexión con Bases de Datos
+
+El formato del curso será presencial, en un ambiente "tipo aula" con pizarrón y proyector, pero no basado en filminas, sino totalmente dinámico y adaptativo. Se hace un foco especial en la interacción profesor-asistente, de forma de ir resolviendo las dudas de todos y lograr un aprendizaje más profundo en el mismo tiempo. En función de esto también se limita el cupo, con una cantidad máxima de asistentes de alrededor de diez personas.
+
+Como parte del curso se entregará un certificado de asistencia al mismo, basado en una evaluación sobre un proyecto personal o grupal, totalmente a decisión de el/la/los/las participante(s). Este proyecto se arranca durante el curso, pero puede continuar después del mismo, bajo mi supervisión/tutoría (sin costo extra). También se entregará documentación de forma digital. No se necesita asistir al curso con computadoras, pero pueden traer laptops/netbooks si lo desean (van a disponer de conexión a internet via wifi y conexión eléctrica).
+
+El curso es de 18 horas en total (tres horas por clase, un día a la semana, seis semanas), de 19 a 22. En esta primera oportunidad se hará el curso en `un lugar céntrico de la Ciudad de Buenos Aires <http://www.loquenecesitaba.com.ar/ubicacion-2/>`_, los días Miércoles 25 de Septiembre, 2 y 9 de Octubre, saltamos un miércoles, 23 y 30 de Octubre y 6 de Noviembre.
+
+El costo total del curso será de $920; es necesario abonar al menos el 50% para reservar la posición (recuerden que, como indicaba arriba, hay un máximo de lugares disponibles), abonando el saldo restante el primer día de clases. El curso comienza con un cupo mínimo de 4 alumnos, a confirmar como máximo los primeros días de Septiembre. En el caso de no formarse el grupo, se postergará el inicio o se reintegrará el dinero completo de la seña.
+
+Para reservar, entonces, deberán depositar o transferir el dinero a mi cuenta del banco, para lo cual coordinamos `por mail <mailto:facundo@taniquetil.com.ar>`_. Si se les complica esta manera de pago, lo charlamos.
+
+Bueno, creo que cubrí la mayoría de los puntos. Si tienen alguna duda, pueden preguntar por acá, o en privado al mail, sin ningún problema.

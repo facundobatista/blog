@@ -1,0 +1,9 @@
+2013-08-28 23:15:09
+Curso de Python confirmado
+<tags>
+
+Estoy muy contento porque el primer `Curso Abierto de Python <http://www.taniquetil.com.ar/facundo/cursosAbiertos.html>`_ que armé ya está 100% confirmado, :).
+
+El curso es de 18 horas en total, de 19 a 22, los días Miércoles 25 de Septiembre, 2 y 9 de Octubre, saltamos un miércoles, 23 y 30 de Octubre y 6 de Noviembre.
+
+Quedan sólo un par de plazas disponibles, si quieren anotarse tienen todos los datos en `la paginita que armé <http://www.taniquetil.com.ar/facundo/cursosAbiertos.html>`_. Una novedad es que ahora también se puede pagar por DineroMail: no me conviene demasiado, pero permite pagar con tarjeta de crédito, RapiPago, PagoFácil, etc., así que supongo que podría ser cómodo para alguien en algunos casos...

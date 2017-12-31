@@ -1,0 +1,20 @@
+2017-12-28 19:34:10
+A todo tren con la Asociación Civil
+reunión, agradecimiento, devecoop, gcoop, pycon, python
+
+Durante el año terminó de salir y empezamos a hacer girar la `Asociación Civil Python Argentina <http://ac.python.org.ar/>`_.
+
+Hay que hacer TANTAS cosas!! Mucho papel, mucha firma, mucho trámite por todos lados...
+
+Lo bueno es que ya la podemos disfrutar, ya la podemos aprovechar. La `PyCon del mes pasado <http://ar.pycon.org/>`_ se hizo "legalmente" dentro de la Asociación. O sea, aunque los organizadores fueron realmente `Tutuca <https://twitter.com/7u7uca>`_ y `Gaucho <https://twitter.com/emilioramirez>`_, a nivel legal/contabilidad la responsable es la asociación... `Leandro <https://twitter.com/LeCoVi>`_ y yo tuvimos que laburar un montón también, esperemos que cuando estén los mecanismos más afilados, sea menos carga.
+
+Es que muchas cosas que hicimos (para la PyCon o para la Asociación en general) eran "por primera vez", y eso nos tomó bastante trabajo a varios de la Comisión Directiva... definir cómo íbamos a manejar una caja chica con el Contador, estructurar los niveles de `socios beneficiarios <https://drive.google.com/open?id=0ByBMM-qX_hs1TlM5LTBMN19mUHc>`_ (para empresas o instituciones), ver cómo se iban a manejar las becas, analizar la mejor manera de reunir los datos legales de cada persona siendo lo más laxos posibles, hasta armar un circuito de registración que le permita `a la gente ser socios de PyAr <https://docs.google.com/forms/d/e/1FAIpQLSdUj4PuduQdQ27-s4aKnRQXkulkKnT1zNsauO6o-GMXCaeq9A/viewform>`_ con el menos laburo posible.
+
+Pero se fue haciendo. Noviembre estuvo cargadísimo por la PyCon en sí, y luego de la conferencia estuvimos a full procesando los formularios de socios que se llenaron esos días, más todo el laburo a nivel pagos y tesorería para terminar de cerrar todo. Pero tambien hicimos la asamblea de renovación de autoridades entre los que éramos socios en ese momento, y empezamos a comunicarnos por las redes (contando que `Onapsis <http://onapsis.com/>`_ era la primer socia benefactora, agradeciendo a `GCoop <http://gcoop.coop/>`_ por sacarnos y cuidarnos los dominios .org.ar para la comunidad, etc.)
+
+El broche de oro de diciembre fue el jueves pasado cuando nos juntamos los que pudimos de la Comisión Directiva en `Devecoop <http://devecoop.com/>`_, la cooperativa de desarrollo de software que gentilmente nos presta el lugar donde están ellos para tener la sede legal de la Asociación... nos caimos en su lugar de trabajo y les agradecimos de la mejor manera: con `comida y bebida <https://www.flickr.com/photos/54757453@N00/sets/72157691387889165>`_ :p
+
+.. image:: http://www.taniquetil.com.ar/facundo/imgs/agasajo-devecoop.jpg
+    :alt: La mejor manera de decir gracias :)
+
+Los próximos pasos son definir cómo vamos a manejar el dinero del `próximo PyCamp <http://www.python.org.ar/wiki/PyCamp/2018>`_, empezar a procesar los registros de la gente que llenó el `formulario online para hacerse socia/os <https://docs.google.com/forms/d/e/1FAIpQLSdUj4PuduQdQ27-s4aKnRQXkulkKnT1zNsauO6o-GMXCaeq9A/viewform>`_, y hacer una reunión de Comisión Directiva para incorporara la/os nueva/os socia/os que ya tenemos!

@@ -1,0 +1,61 @@
+2013-04-07 22:15:06
+Linux Containers
+máquinas virtuales, software, lxc, ubuntu, avahi, ssh
+
+A nivel de máquinas virtuales de uso genérico (por lo tanto descartando ScummVM o cosas similares) siempre me manejé con VirtualBox. Aunque ahora es de Oracle y no lo miro con buenos ojos, siempre funcionó bastante bien (sin pedirles cosas demasiado locas) y es una buena manera de tener un Windor corriendo aunque uno esté todo el día en Linux (por ejemplo, para poder hacer facturas en la AFIP, la puta que los parió).
+
+Incluso, cuando laburaba en Ericsson, que me obligaban a usar Windor, tenía un VMWare con un Ubuntu instalado (un Gutsy, o un Hardy, creo... cuanta agua bajo el puente!) que me servía para cuando tenía que hacer cosas serias a nivel de red, o para el caso cualquier cosa divertida.
+
+Pero nunca había encontrado una forma piola de tener máquinas virtuales de Linux bajo Linux. Y con "piola" me refiero a que funcione bien y que sea relativamente fácil de armar.
+
+Y acá entra LXC.
+
+.. image:: http://www.taniquetil.com.ar/facundo/imgs/lxc.png
+    :alt: Linux container
+
+Aunque LXC no es propiamente dicho una "máquina virtual" (es más bien un "entorno virtual"), igual permite la ejecución de un linux que no se mezcla a nivel de configuraciones ni de paquetes instalados ni de lo que uno puede romper del sistema con la máquina que uno tiene.
+
+¿Para qué se puede usar? En mi caso lo uso mucho en el laburo, ya que mi máquina de desarrollo es un Ubuntu Quantal, pero los sistemas que corren en los servers son bajo Precise o Lucid (entonces tengo un container para cada uno). Y también los tengo pensado usar para probar instalaciones desde cero (por ejemplo, al armar un .deb por primera vez, probar de instalarlo en una máquina limpia).
+
+¿Cómo se arma y usa un contenedor? Luego de instalar los paquetes necesarios (``sudo apt-get install lxc libvirt-bin``), la creación de un contenedor es bastaaaaante simple (de acá en adelante reemplazar en todos lados el "mi-lxc" por el nombre que ustedes quieran para el contenedor)::
+
+    sudo lxc-create -t ubuntu -n mi-lxc -- -r precise -a i386 -b $USER
+
+Desmenucemos. El ``-t`` es el template a tomar, y el ``-n`` es para el nombre que le vamos a dar. A partir de ahí vemos un ``--``, lo que significa que el resto son opciones para el template propiamente dicho. En este caso, que use el release Precise, la arquitectura i386, y mi mismo usuario.
+
+Lo maravilloso de esto es que el container, adentro, tiene mi usuario, porque el home es compartido! Y con esto todas las configuraciones de bash, vim, ssh, gnupg, etc, con lo cual "hacer cosas" adentro del lxc es directo, no hay que configurar todo (pero, al mismo tiempo, podemos "romper" el home desde adentro del container, ojo al piojo).
+
+Para arrancar el container podemos hacer::
+
+    sudo lxc-start -n mi-lxc
+
+Y esto nos va a dejar con el prompt listo para loguear, y acá alcanza con usar los propios usuario y password. Una vez adentro, usamos el container como si fuera una máquina nuevita.
+
+Todo muy lindo, pero igual me gustan hacerle algunas configuraciones que hacen el uso aún más directo y sencillo. Y estas configuraciones, a nivel de sistema, son básicamente para que podamos entrar al container más fácil, y usar desde adentro aplicaciones gráficas.
+
+Para entrar más fácil, tenemos que tener Avahi configurado. Más allá de instalarlo (``sudo apt-get update; sudo apt-get install avahi-daemon``), hay un detalle a toquetear. Adentro del lxc, abrir el archivo ``/etc/avahi/avahi-daemon.conf`` y aumentar bastante el ``rlimit-nproc`` (por ejemplo, de 3 a 300).
+
+Con esto ya estamos listos para entrar fácil al container. Lo podemos probar en otra terminal; hacer::
+
+    ssh mi-lxc.local
+
+Lindo, ¿no?. Pero también está bueno poder forwardear los eventos de X, así podemos levantar aplicaciones gráficas. Para eso tenemos que tocar lo siguiente en el host (o sea, no en el container sino en la máquina "real"): editar ``/var/lib/lxc/mi-lxc/fstab`` y agregarle la linea::
+
+    /tmp/.X11-unix tmp/.X11-unix none bind
+
+En el container, tenemos que estar seguros que ``/tmp/.X11-unix`` exista, y reiniciarlo luego de estas configuraciones.
+
+También necesitamos setear DISPLAY. Esto yo lo mezclé en el .bashrc, poniendo algo también para que cuando entro por ssh me cambie el color del prompt (incluso, poniendo distintos colores a distintos containers). Lo que estoy usando es::
+
+    if [ `hostname` = "mi-lxc" ]; then
+        export PS1='\[\e[1;34m\]\u@\h:\w${text}$\[\e[m\] ';
+        export DISPLAY=:0
+    fi
+
+Para terminar, entonces, les dejo los tres comandos que más uso en el día a día con los containers, más allá de la instalación en sí: levantar el container (fíjense el ``-d``, que lo levanta como un demonio, total nos conectamos por ssh); conectarnos (fíjense el ``-A``, para que forwardee la conexión del agente de autenticación); y finalmente apagar el container::
+
+    sudo lxc-start -n mi-lxc -d
+    ssh -A mi-lxc.local
+    sudo lxc-stop -n mi-lxc
+
+Que lo disfruten.

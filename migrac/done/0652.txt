@@ -1,0 +1,76 @@
+2014-07-11 19:19:15
+Películas, y más películas
+<tags>
+
+Algunas tardes de sábado libre, más un par de viajes, hicieron que no me quede atrás con las películas...
+
+- `A good old fashioned orgy <http://www.imdb.com/title/tt1231586/>`_: +0. De esas comedias livianas sobre la amistad y el amor. Divertida, no es gran cosa, pero está bien.
+
+- `Apollo 18 <http://www.imdb.com/title/tt1772240/>`_: -0. La idea general es interesante, pero ese querer simular una película con pedazos de filmaciones "reales" hace que todo sea muy forzado, especialmente cuando se nota lo "no real".
+
+- `Catch .44 <http://www.imdb.com/title/tt1886493/>`_: -0. Desordenada, aburrida, sin una historia que valga la pena.
+
+- `Jack Ryan: Shadow recruit <http://www.imdb.com/title/tt1205537/>`_: +0. Una de acción, bien hecha, pero no más que eso.
+
+- `Le noms des gens <http://www.imdb.com/title/tt1646974/>`_: +0. Una comedia simpática que plantea puntos interesantes sobre los franceses... y sobre el amor.
+
+- `Like crazy <http://www.imdb.com/title/tt1758692/>`_: -0. Una historia de amor, que muestra las dificultades de las distancias. Aunque tiene sus momentos, en general la peli es muy lenta, y no entusiasma.
+
+- `Prometheus <http://www.imdb.com/title/tt1446714/>`_: +0. Es una más de "alien", pero bien hecha, me gustó bastante, aunque al final no dejar de ser eso... una más de "alien" :)
+
+- `Sherlock Holmes: A game of shadows <http://www.imdb.com/title/tt1515091/>`_: +0. Está perdiendo un poco la gracia (y es la segunda!), pero las buenas actuaciones y una historia interesante la salvan.
+
+- `The darkest hour <http://www.imdb.com/title/tt1093357/>`_: -0. Un par de conceptos interesantes... pero no deja de ser una peli yanqui de adolescentes.
+
+- `The girl with the dragon tattoo <http://www.imdb.com/title/tt1568346/>`_: +1. Una gran película, muy densa en contenidos (deja entrever que el libro es mucho más sabroso) y que te tiene atrapado hasta el final. Eso sí, muy dura (es un warning, no le resta).
+
+- `The grey <http://www.imdb.com/title/tt1601913/>`_: +0. Fuerte, dura, pero bastante conceptual, con planteos que me gustaron. Estaría mejor si no estuviese bastante llena de golpes bajos al pedo (como ruidos que te quieren sorprender cuando lo único que sucedes es un cambio de encuadre que no tiene nada que ver).
+
+- `The monuments men <http://www.imdb.com/title/tt2177771/>`_: +0. Un punto de vista sobre la guerra como destructor de culturas que no había pensado antes. Bien armada, con actuaciones decentes.
+
+- `The rum diary <http://www.imdb.com/title/tt0376136/>`_: -0. Tiene un trasfondo interesante, pero la peli en general es aburrida, y no vale la pena.
+
+- `Underworld: Awakening <http://www.imdb.com/title/tt1496025/>`_: -0. Ni siquiera más de lo mismo, antes las "underworld" tenían conceptos o historias interesantes... está es una mezcla mala de resident evil y blade; no más underworld para mí, gracias.
+
+Pocas nuevas, eso sí, incluso metiendo una peli vieja en la lista...
+
+- `And So It Goes <http://www.imdb.com/title/tt2465146/>`_
+
+- `Birdman <http://www.imdb.com/title/tt2562232/>`_
+
+- `Dracula Untold <http://www.imdb.com/title/tt0829150/>`_
+
+- `Kingsman: The Secret Service <http://www.imdb.com/title/tt2802144/>`_
+
+- `Radio Free Albemuth <http://www.imdb.com/title/tt1129396/>`_
+
+- `Reservoir Dogs <http://www.imdb.com/title/tt0105236/>`_
+
+- `The Congress <http://www.imdb.com/title/tt1821641/>`_
+
+- `The Giver <http://www.imdb.com/title/tt0435651/>`_
+
+- `The Right Kind of Wrong <http://www.imdb.com/title/tt2286990/>`_
+
+- `The Signal <http://www.imdb.com/title/tt2910814/>`_
+
+Finalmente, el conteo de pendientes por fecha::
+
+    (Ene-2009)   12    1    1
+    (May-2009)   10    5
+    (Oct-2009)   15   14
+    (Mar-2010)   18   18   16    4
+    (Sep-2010)   18   18   18   18    9    2    1
+    (Dic-2010)   13   13   12   12   12    5    1
+    (Abr-2011)   23   23   23   23   23   22   17    4
+    (Ago-2011)   12   12   11   11   11   11   11   11    4
+    (Ene-2012)        21   21   18   17   17   17   17   11    3
+    (Jul-2012)             15   15   15   15   15   15   14   11
+    (Nov-2012)                  12   12   11   11   11   11   11
+    (Feb-2013)                       19   19   16   15   14   14
+    (Jun-2013)                            19   18   16   15   15
+    (Sep-2013)                                 18   18   18   18
+    (Dic-2013)                                      14   14   12
+    (Abr-2014)                                            9    9
+    (Jul-2014)                                                10
+    Total:      127  125  117  113  118  121  125  121  110  103
