@@ -1,27 +1,27 @@
 2015-11-24 02:48:39
 PyCon Ar 2015
-<tags>
-
-
+conferencia, mendoza, viaje, python
 
 La semana pasada se hizo la séptima conferencia nacional de Python en Argentina, la PyCon Ar 2015.
 
 Fue en Mendoza. Un poco lejos para ir en auto o en micro, así que decidí en ir en avión. A nivel de costo era lo mismo, y la ganancia en tiempo era notable. Me permitió viajar el jueves, y volver el domingo, sin perder completamente ambos días o más.
 
-Allá me quedé en un hostel, que siempre es más comunitario que un hotel, aunque menos privado. Pero bien. Fuí a <a href="http://www.casapueblohostel.com/">Casa Pueblo Hostel</a>, lindo y barato.
+Allá me quedé en un hostel, que siempre es más comunitario que un hotel, aunque menos privado. Pero bien. Fuí a `Casa Pueblo Hostel <http://www.casapueblohostel.com/>`_, lindo y barato.
 
-El evento se hizo en el <a href="http://cultura.mendoza.gov.ar/espacio-le-parc/">Espacio Cultural Julio Le Parc</a>, un lugar muy grande (que no estaba para nosotros sólos, obviamente). Tenía sus limitaciones (el viernes para el segundo track se hizo en un aula que siempre desbordaba) pero estuvo bien.
+El evento se hizo en el `Espacio Cultural Julio Le Parc <http://cultura.mendoza.gov.ar/espacio-le-parc/>`_, un lugar muy grande (que no estaba para nosotros sólos, obviamente). Tenía sus limitaciones (el viernes para el segundo track se hizo en un aula que siempre desbordaba) pero estuvo bien.
 
 Algo para destacar es que teníamos el almuerzo resuelto (una vianda fría, abundante) muy al estilo de las PyCon yanquies. Y como allá, se almuerza en rondas en el piso, en el parque, en cualquier lado, porque se desborda cualquier capacidad de "asientos para comer". Me gusta lo de proveer la solución para el almuerzo, se resuelven un par de problemas de un mismo golpe: la gente no tiene que salir masivamente a buscar qué come y dónde, y de yapa no se demora en llegar al bloque de la tarde.
 
-<img src="http://www.taniquetil.com.ar/facundo/imgs/pyconar2015-charla1.jpeg" alt="Dando la charla de Async en Py3" height="353" width="500" />
+.. image:: http://www.taniquetil.com.ar/facundo/imgs/pyconar2015-charla1.jpeg
+    :alt: Dando la charla de Async en Py3
 
 A nivel contenidos, la conferencia estuvo espectacular. Aproveché un montón de charlas: la de "Practical OpenCV" de Diego Ramirez estuvo interesante; "Encantando PythonES para masticar data" del gran Juanjo Ciarlante me enseñó un montón de cosas sobre map&amp;reduce; la de "socket a asyncio en 45 minutos" de Marcos Dione me pareció super valiosa para dar en dos horas, le explicaría mucho a mucha gente; David Weil con "Es posible detectar las excepciones de un código Python" siempre con análisis interesantes super prácticos y de bajo nivel; Sofía Martin con "Tu primera aplicación con Kivy para móviles" mostrando lo fácil y directo que es hoy día hacer Python para Android; y "Cacheando fuera de Django" de Guillermo Narvaja, con tips e info basada en experiencia real.
 
 Y estoy dejando afuera a las dos keynotes: Ashwini Oruganti hablando del futuro de Python y la PSF, y Simon Willison disertando sobre Microservicios. Bien, pero nada del otro mundo.
 
-A nivel personal, dí dos charlas, una sólo y otra acompañado. Por un lado "<a href="http://www.taniquetil.com.ar/homedevel/presents/async-py3/">Programación asincrónica en Python 3: el futuro ya llegó</a>", que no era la primera vez que la daba y encima me quedé sin tiempo y faltó explicar muchos ejemplos. Pero a la gente le gustó (o al menos eso me fueron comentando). Y además dimos con <a href="https://twitter.com/_joac">Joac</a> "<a href="https://docs.google.com/presentation/d/1O88eRdHdPhSsL849aNp1NHcCbnB8cam4bX16LgvYx1U">No es magia: descriptores al desnudo</a>", una charla sobre un tema tan complicado que creo que haberla dado en tiempo y mostrando todo lo que queríamos fue un éxito por si mismo. Y de nuevo, recibimos mucho feedback positivo.
+A nivel personal, dí dos charlas, una sólo y otra acompañado. Por un lado `Programación asincrónica en Python 3: el futuro ya llegó <http://www.taniquetil.com.ar/homedevel/presents/async-py3/>`_, que no era la primera vez que la daba y encima me quedé sin tiempo y faltó explicar muchos ejemplos. Pero a la gente le gustó (o al menos eso me fueron comentando). Y además dimos con `Joac <https://twitter.com/_joac>`_ `No es magia: descriptores al desnudo <https://docs.google.com/presentation/d/1O88eRdHdPhSsL849aNp1NHcCbnB8cam4bX16LgvYx1U>`_, una charla sobre un tema tan complicado que creo que haberla dado en tiempo y mostrando todo lo que queríamos fue un éxito por si mismo. Y de nuevo, recibimos mucho feedback positivo.
 
-<img src="http://www.taniquetil.com.ar/facundo/imgs/pyconar2015-charla2.jpeg" alt="Joac y myself dando la charla" height="285" width="600" />
+.. image:: http://www.taniquetil.com.ar/facundo/imgs/pyconar2015-charla2.jpeg
+    :alt: Joac y myself dando la charla
 
 El lado negativo de todo fue que fui a Mendoza, pero no paseé ni conocí nada. Ya volveré, claro que sí. |

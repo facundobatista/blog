@@ -1,0 +1,48 @@
+2015-12-01 01:11:41
+fades y un hito personal
+iberación, python, software, deb, debian
+
+¡¡Salió la versión 4 de `fades <https://pypi.python.org/pypi/fades>`_!!
+
+Mucho mucho laburo le pusimos con `Nico <https://twitter.com/gilgamezh>`_ a esta versión (y tuvimos bastante ayuda de otros colaboradores, en particular durante el último PyCamp).
+
+¿Pero qué es *fades*? Es un sistema que maneja automáticamente los virtualenvs de sistemas Python en los casos que uno normalmente encuentra al escribir scripts y programas pequeños, e incluso ayuda a administrar proyectos grandes.
+
+Crea automáticamente un nuevo virtualenv (o reusa uno creado previamente) instalando las dependencias necesarias, y ejecutando el script dentro de ese virtualenv.
+
+Todo lo que se necesita hacer es ejecutar el script con fades (en lugar de Python) y también marcar las dependencias necesarias. Más detalles en la `documentación <http://fades.rtfd.org/>`_ misma.
+
+.. image:: http://www.taniquetil.com.ar/facundo/imgs/fades-logo.png
+    :alt: fades
+
+¿Qué hay de nuevo en esta release?
+
+- Nueva opción para usar iPython en el interprete interactivo: ``--ipython`` (gracias Ariel Rossanigo)
+
+- Ahora es posible ejecutar un programa dentro del virtualenv con ``-x`` (gracias Ricardo Kirkner). Por ejemplo es posible crear un proyecto de django sin tener django instalado en tu sistema usando: ``fades -d django -x manage startproject foo``
+
+- Podés ejecutar fades como un módulo de Python. Simplemente hay que ejecutar ``python3 -m fades`` (gracias Javi Mansilla)
+
+- Soportamos Python 3.3 para ejecutar fades
+
+- Si sos un usuario especial y no te alcanzan las opciones que tenemos para el entorno virtual, tenemos cosas para vos!  Podes pasarle opciones a virtualenv con ``--virtualenv-options``, también a pip con ``--pip-options``, e incluso es posible eliminar un virtualenv con ``--rm <uuid>``
+
+- Tenemos un logo!! (el que se ve arriba, claro)
+
+- Los tests de fades se ejecutan con fades! No hay necesidad de instalar nada previamente
+
+- Se pueden crear virtualevs con ``--system-site-packages``
+
+- Varios bug fixeados y otros nuevos ;)
+
+Para instrucciones de cómo obtenerlo o instalarlo, miren en la `página del proyecto <https://github.com/PyAr/fades/>`_ o la de `PyPI <https://pypi.python.org/pypi/fades>`_.
+
+Por otro lado, con Nico habíamos decidido que era importante para *fades* que puede ser instalado con ``apt-get install`` en Debian y Ubuntu.
+
+Entonces, me puse con eso, pedí en el laburo si algún Debian Developer quería darme una mano para meter fades en Debian, y se copó uno de los mejores: `Barry Barsaw <http://barry.warsaw.us/>`_. Me estuvo ayudando un montón, contestándome preguntas simples y complicadas.
+
+Nosotros ya teníamos un .deb, pero no del todo bien armado. Al final, terminé dando vuelta completamente todo pero quedó todo más simple, más limpio, y con mejor forma. El .deb que generamos es un lujo, y además fades terminó entrando en Debian, en unstable al principio y luego en testing, :D. Es mi primer programa que entra en Debian, y para mí es todo un orgullo :).
+
+El camino natural es que entre en Xenial Xerus (Ubuntu 16.04), que es LTS, así que seguramente liberaremos la v5 la primer quincena de febrero.
+
+Rock.

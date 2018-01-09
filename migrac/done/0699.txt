@@ -1,0 +1,23 @@
+2016-01-05 20:02:18
+Regalo de año nuevo: Encuentro 4.0
+liberación, software, python
+
+Para arrancar el año pum para arriba, ¿qué mejor que una nueva versión de Encuentro?
+
+Lo más destacado de esta nueva versión es que hay dos backends nuevos!
+
+Por un lado, ahora se puede descargar de `Contenidos Digitales Abiertos <http://cda.gob.ar/>`_ (también conocido como CDA), con casi 4000 episodios de centenares de documentales y series para mirar.
+
+Por otro lado, trae más de 180 charlas TED del capítulo `TEDx de Buenos Aires <http://tedxriodelaplata.org/>`_ (que incluye TEDxBuenosAires, TEDxRíodelaPlata, TEDxJoven, y un par más).
+
+.. image:: http://encuentro.taniquetil.com.ar/imgs/title.png
+    :alt: Encuentro
+    :link: http://encuentro.taniquetil.com.ar/
+
+También tiene varias mejoras importantes, como que se limpian los nombres de archivos para que puedan ser grabados en cualquier lado (pen drives, fat32, etc), o que rearmé el esquema de downloads y ahora es mucho mucho más robusto que antes. E incluso estuve mejorando los scrappers para backends que ya estaban incluidos en versiones anteriores, pero ahora tendrán mejores títulos, nombres más prolijos, etc.
+
+Y claro, varias correcciones menores también, y seguramente algún par de bugs nuevos :p.
+
+Las instrucciones para bajar Encuentro en tu sistema (Debian, Ubuntu, Arch, Windows, o cualquier otro sistema), junto con el detalle de los cambios, instrucciones, y todo eso, en `la página del proyecto <http://encuentro.taniquetil.com.ar/>`_.
+
+¡Disfruten!

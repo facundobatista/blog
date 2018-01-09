@@ -1,10 +1,10 @@
 2015-12-18 18:50:00
 Todo lo que siempre quisieron saber de la CDPedia y nunca se atrevieron a preguntar
-<tags>
+historia, instrucciones, documentación
 
 
-
-<strong>¿Qué es?</strong>
+¿Qué es?
+--------
 
 La CDPedia es la Wikipedia Offline. O sea, la Wikipedia, lo más fiel posible a su formato y contenido original, pero armada (construida, compactada) de una manera que no se necesita nada de Internet para acceder a toda la info de la misma.
 
@@ -12,46 +12,54 @@ Se llama CDPedia porque la idea original era meterla en un CD. Hoy por hoy gener
 
 La CDPedia es multiplataforma: el mismo CD, DVD o archivo comprimido se puede usar en Linux, Windows, o Mac, sin necesitar nada instalado previamente por fuera de lo que cada sistema trae normalmente.
 
-<img src="http://www.taniquetil.com.ar/facundo/imgs/cdpedia.png" alt="CDPedia" height="300" width="300" />
+.. image:: http://www.taniquetil.com.ar/facundo/imgs/cdpedia.png
+    :alt: CDPedia
 
 
-<strong>¿Cómo se usa? ¿Cómo se ve?</strong>
+¿Cómo se usa? ¿Cómo se ve?
+--------------------------
 
-Para usarla, lo primero es descargarla. Pueden acceder a <a href="http://cdpedia.python.org.ar/">la página del proyecto</a> y ahí encontrarán info acerca de las cuatro versiones que tenemos actualmente, con el detalle de cuantas páginas y cuantas imágenes tiene cada una. Para bajarlo, necesitan un cliente de Torrent; para Linux a mí me gusta mucho el <a href="http://deluge-torrent.org/">Deluge</a>, que también puede usarse en Windows y Mac; otro cliente recomendado para las tres plataformas es <a href="http://www.qbittorrent.org/download.php">qBittorrent</a>.
+Para usarla, lo primero es descargarla. Pueden acceder a `la página del proyecto <http://cdpedia.python.org.ar/>`_ y ahí encontrarán info acerca de las cuatro versiones que tenemos actualmente, con el detalle de cuantas páginas y cuantas imágenes tiene cada una. Para bajarlo, necesitan un cliente de Torrent; para Linux a mí me gusta mucho el `Deluge <http://deluge-torrent.org/>`_, que también puede usarse en Windows y Mac; otro cliente recomendado para las tres plataformas es `qBittorrent <http://www.qbittorrent.org/download.php>`_.
 
-Si descargan la versión CD o DVD, lo primero que tienen que hacer es grabarlo a un disco virgen, para lo cual necesitan una grabadora y un software para grabar. Si usan Windows y no tienen ninguno instalado, les recomiendo <a href="http://infrarecorder.org/?page_id=5">InfraRecorder</a> que es software libre y muy fácil de usar. Pongan el disco generado en el equipo y ejecuten la CDPedia.
+Si descargan la versión CD o DVD, lo primero que tienen que hacer es grabarlo a un disco virgen, para lo cual necesitan una grabadora y un software para grabar. Si usan Windows y no tienen ninguno instalado, les recomiendo `InfraRecorder <http://infrarecorder.org/?page_id=5>`_ que es software libre y muy fácil de usar. Pongan el disco generado en el equipo y ejecuten la CDPedia.
 
 Si descargan las versión tarball, directamente descompriman los archivos en el disco rígido. Entren a la carpeta descomprimida y ejecuten la CDPedia.
 
-¿Cómo se ejecuta la CDPedia? Bueno, depende de cada sistema. En Windows con hacer doble click en <span style="font-family: courier new,courier;">cdpedia.exe</span>, alcanza. En Linux o Mac, si tienen bien configurado el navegador de archivos, debería funcionar haciendo doble click en <span style="font-family: courier new,courier;">cdpedia.py</span>, pero siempre pueden recurrir a abrir una terminal, ir hasta el directorio en cuestión, y hacer <span style="font-family: courier new,courier;">./cdpedia.py</span>.
+¿Cómo se ejecuta la CDPedia? Bueno, depende de cada sistema. En Windows con hacer doble click en ``cdpedia.exe``, alcanza. En Linux o Mac, si tienen bien configurado el navegador de archivos, debería funcionar haciendo doble click en ``cdpedia.py``, pero siempre pueden recurrir a abrir una terminal, ir hasta el directorio en cuestión, y hacer ``./cdpedia.py``.
 
 En cualquier caso al ejecutar ese archivo se va a levantar el Server de CDPedia, y al mismo tiempo se abrirá un navegador apuntando a ese Server local. Luego, es sólo usarla, ya que se explora y utiliza de la misma manera que la Wikipedia Online (con la excepción obvia que la CDPedia es de lectura solamente: no permite editar el contenido como sí lo hace la Wikipedia).
 
-<span style="font-size: x-small;"><em>(a este y otros screenshots, hagan click para verlos más grandes)</em></span>
+.. image:: http://www.taniquetil.com.ar/facundo/imgs/cdpedia-sshot-main.png
+    :alt: Cómo se ve la CDPedia
+    :link: http://www.taniquetil.com.ar/facundo/imgs/cdpedia-sshot-main.png
 
-<a href="http://www.taniquetil.com.ar/facundo/imgs/cdpedia-sshot-main.png"><img src="http://www.taniquetil.com.ar/facundo/imgs/cdpedia-sshot-main.png" alt="Cómo se ve la CDPedia" height="422" width="600" /></a>
+*(a este y otros screenshots, hagan click para verlos más grandes)*
 
 Una decisión estratégica de la CDPedia es tomar el HTML generado por los servers de Wikipedia y usarlos casi directamente (les recortamos unos headers, optimizamos algunas cositas). Exploramos en algún momento tomar la info de la base de datos directamente, pero no logramos generar una página web igual a la de Wikipedia online.
 
 Y eso es una fortaleza de la CDPedia: por la manera en que armamos las páginas, la forma de ver y usar las páginas, de explorar y acceder a la información, es igual a la Wikipedia online, de manera que el usuario no tiene un costo cognitivo en pasar de la versión online a offline. Es más, también se puede considerar a la CDPedia como el paso previo de consumo de contenido a la Wikipedia: una persona se puede acostumbrar a explorar las páginas, leer, cruzar y criticar la información, etc, y recién cuando tiene todo armado va a la Wikipedia Online y al resto de Internet para completar su investigación.
 
-Más allá de la página a nivel contenido, lo que sí modificamos mucho es la barra de la izquierda. No tiene la original de Wikipedia, porque no tiene sentido al ser todo offline, así que reemplazamos los botones y enlaces por otros: hay un botón para ver una página al azar, un campo de texto de búsqueda, el logo de CDPedia, el logo de <a href="http://python.org.ar/">PyAr</a>, enlace a una página de ayuda, etc...
+Más allá de la página a nivel contenido, lo que sí modificamos mucho es la barra de la izquierda. No tiene la original de Wikipedia, porque no tiene sentido al ser todo offline, así que reemplazamos los botones y enlaces por otros: hay un botón para ver una página al azar, un campo de texto de búsqueda, el logo de CDPedia, el logo de `PyAr <http://python.org.ar/>`_, enlace a una página de ayuda, etc...
 
 Algo que también modificamos bastante es como señalizamos los enlaces en la página misma, en el contenido de Wikipedia. Hay principalmente tres tipos, distinguibles en cómo decoramos el texto convertido en enlace:
-<ul>
-<li>Azul: un link normal, apunta a otra página de Wikipedia que se incluyó dentro de CDPedia.</li>
-<li>Rojo, subrayado con guiones: un enlace a otra página de Wikipedia pero que no fue incluida en CDPedia por razones de espacio.</li>
-<li>Azul, subrayado con guiones: un link que los sacaría de CDPedia, ya que apunta a recursos online (útiles solamente si tenés Internet, claramente).</li>
-</ul>
 
-<a href="http://www.taniquetil.com.ar/facundo/imgs/cdpedia-sshot-links.png"><img src="http://www.taniquetil.com.ar/facundo/imgs/cdpedia-sshot-links.png" alt="Muestra de enlaces" height="422" width="600" /></a>
+- Azul: un link normal, apunta a otra página de Wikipedia que se incluyó dentro de CDPedia.
+
+- Rojo, subrayado con guiones: un enlace a otra página de Wikipedia pero que no fue incluida en CDPedia por razones de espacio.
+
+- Azul, subrayado con guiones: un link que los sacaría de CDPedia, ya que apunta a recursos online (útiles solamente si tenés Internet, claramente).
+
+.. image:: http://www.taniquetil.com.ar/facundo/imgs/cdpedia-sshot-links.png
+    :alt: Muestra de enlaces
+    :link: http://www.taniquetil.com.ar/facundo/imgs/cdpedia-sshot-links.png
 
 Otra sección que modificamos es el pie de cada página: ponemos un enlace a la misma página pero online, en Wikipedia misma, por si el usuario necesita la información actualizada. También aquí incluimos el contenido original, ponemos algún disclaimer extra, mencionamos que CDPedia es un proyecto de Python Argentina (y apuntamos al tutorial de Python que está incluido en la CDPedia).
 
-Cabe mencionar que la CDPedia funciona también en Modo Servidor. De esta manera, se puede instalar la CDPedia en el servidor de una escuela, y que todas las computadoras del establecimiento puedan usar la información desde allí. Así logramos el efecto deseado de que los chicos puedan tener acceso al contenido de Wikipedia sin realmente tener Internet, pero sin la complicación o el incordio de tener que instalar CDPedia en cada una de las computadoras. Acá hay más instrucciones <a href="http://python.org.ar/pyar/Proyectos/CDPedia/ModoServidor">para configurarla de este modo</a>.
+Cabe mencionar que la CDPedia funciona también en Modo Servidor. De esta manera, se puede instalar la CDPedia en el servidor de una escuela, y que todas las computadoras del establecimiento puedan usar la información desde allí. Así logramos el efecto deseado de que los chicos puedan tener acceso al contenido de Wikipedia sin realmente tener Internet, pero sin la complicación o el incordio de tener que instalar CDPedia en cada una de las computadoras. Acá hay más instrucciones `para configurarla de este modo <http://python.org.ar/pyar/Proyectos/CDPedia/ModoServidor>`_.
 
 
-<strong>¿Qué contenido tiene?</strong>
+¿Qué contenido tiene?
+---------------------
 
 El contenido de la CDPedia está fuertemente determinado por dos características intrínsecas del proyecto: la CDPedia es estática y fácilmente distribuible en un disco o pendrive.
 
@@ -61,36 +69,43 @@ Cuando se comienza a generar una nueva versión de la CDPedia, se baja la versi�
 
 Es por esto que se trata de liberar una versión de CDPedia al menos una vez por año, para que contenga la información lo más actualizada posible.
 
-<a href="http://www.taniquetil.com.ar/facundo/imgs/cdpedia-sshot-artic.png"><img src="http://www.taniquetil.com.ar/facundo/imgs/cdpedia-sshot-artic.png" alt="Ejemplo de un artículo" height="422" width="600" /></a>
+.. image:: http://www.taniquetil.com.ar/facundo/imgs/cdpedia-sshot-artic.png
+    :alt: Ejemplo de un artículo
+    :link: http://www.taniquetil.com.ar/facundo/imgs/cdpedia-sshot-artic.png
 
 También digo que la CDPedia se puede distribuir fácilmente: sólo hace falta quemar un CD o DVD, o incluso pasarse los archivos mediante un pendrive. En casi todas las versiones (menos la más grande), por una cuestión de formato, no entra todo el contenido de la Wikipedia. Por ejemplo, para la versión 0.8.3, tenemos lo siguiente:
-<ul>
-<li>CD (693 MB): 54 mil páginas y 5% de las imágenes</li>
-<li>Tarball medio (3.6 GB): 400 mil páginas y 20% de las imágenes</li>
-<li>DVD (4.3 GB): Todas las páginas y 8% de las imágenes</li>
-<li>Tarball grande (8.7 GB): Todas las páginas y todas las imágenes</li>
-</ul>
+
+- CD (693 MB): 54 mil páginas y 5% de las imágenes
+
+- Tarball medio (3.6 GB): 400 mil páginas y 20% de las imágenes
+
+- DVD (4.3 GB): Todas las páginas y 8% de las imágenes
+
+- Tarball grande (8.7 GB): Todas las páginas y todas las imágenes
 
 Entonces, a menos que estemos armando el tarball grande, es evidente que tenemos que decidir cuáles páginas e imágenes van a entrar, y cuáles van a quedar afuera.
 
 Esa decisión se toma ordenando todas las páginas por un determinado puntaje (que explico abajo), y se eligen las primeras N páginas (para el ejemplo anterior, las primeras 54 mil para el CD, las primeras 400 mil para el tarball medio, etc). Esas páginas tienen a su vez imágenes, que naturalmente también quedan ordenadas por el puntaje de las páginas: se toma un primer porcentaje de imágenes que se incluyen al 100%, otro porcentaje de imágenes que se escalan al 75%, otro porcentaje de imágenes que se escalan al 50%, y el resto no se incluye.
 
-<img src="http://www.taniquetil.com.ar/facundo/imgs/cdpedia-analizando.png" alt="Analizando las páginas" height="366" width="300" />
+.. image:: http://www.taniquetil.com.ar/facundo/imgs/cdpedia-analizando.png
+    :alt: Analizando las páginas
 
 Como vieron, un tema clave en la selección es darle un puntaje a las páginas. Este puntaje está formado (hoy por hoy) en base a dos factores: levemente por el largo de la página (una página larga tiene más puntaje que una corta), y fuertemente por lo que llamamos "peishranc", que es la cantidad de otras páginas que enlazan a la que estamos evaluando. Entonces, si a una página se la menciona en otras mil páginas es mucho más importante que una página que casi no se la menciona en el resto de la Wikipedia.
 
 Otro gran detalle en lo que es "contenido" es qué hacemos para mitigar el problema de la vandalización. O sea, cómo evitamos en lo posible incluir páginas que fueron vandalizadas. Cuando comienza el proceso de generar una nueva versión de la CDPedia, como les comentaba antes, bajamos todas las páginas de Wikipedia, ¡pero no siempre bajamos la última versión! Lo que hacemos es revisar cuándo fue modificada y por quién: si fue modificada por un usuario normal, perfecto; pero si fue modificada por un usuario anónimo (como sucede en la mayoría de las vandalizaciones) nos fijamos cuando fue modificada: si fue hace más de varios días, la incluimos (asumimos que la gente de Wikipedia ya tuvo tiempo de verificar el cambio), pero si es muy reciente evitamos la última versión de la página, y agarramos la versión anterior (y aplicamos nuevamente todos estos mismos controles).
 
 
-<strong>¿Cómo surgió el proyecto?</strong>
+¿Cómo surgió el proyecto?
+-------------------------
 
-Cuenta la leyenda que el proyecto arrancó en el sprint posterior al <a href="http://www.taniquetil.com.ar/plog/post/1/185">primer PyDay de Santa Fé</a>, en Junio del 2006, con la idea base de poder distribuir la Wikipedia a aquellos lugares que no tenían o tienen acceso a Internet (en particular teníamos en mente a escuelas de frontera o de ciudades chicas, bibliotecas de barrio, centros culturales de pueblos pequeños, etc.).
+Cuenta la leyenda que el proyecto arrancó en el sprint posterior al `primer PyDay de Santa Fé <http://www.taniquetil.com.ar/plog/post/1/185>`_, en Junio del 2006, con la idea base de poder distribuir la Wikipedia a aquellos lugares que no tenían o tienen acceso a Internet (en particular teníamos en mente a escuelas de frontera o de ciudades chicas, bibliotecas de barrio, centros culturales de pueblos pequeños, etc.).
 
-El proyecto continuó, y aunque no siempre le pudimos dedicar tiempo, tampoco nos alejamos nunca demasiado. Las mejoras en el proyecto fueron muy por ráfagas. Quiero destacar que <a href="https://github.com/PyAr/CDPedia/blob/master/AUTHORS.txt">fuimos muchos los que colaboramos con el proyecto</a>, a lo largo de los años, ¡casi 30 personas!
+El proyecto continuó, y aunque no siempre le pudimos dedicar tiempo, tampoco nos alejamos nunca demasiado. Las mejoras en el proyecto fueron muy por ráfagas. Quiero destacar que `fuimos muchos los que colaboramos con el proyecto <https://github.com/PyAr/CDPedia/blob/master/AUTHORS.txt>`_, a lo largo de los años, ¡casi 30 personas!
 
 Se trabajó mucho en este proyecto durante los PyCamps (los dos en Los Cocos, el de Verónica, y el de La Falda), donde muchas personas le dedicaron un buen tiempo, y también se realizó bastante durante otras reuniones, especialmente durante el 2010 y 2011.
 
-<img src="http://www.taniquetil.com.ar/facundo/imgs/cdpedia-pycamp.jpg" alt="Trabajando en un PyCamp" height="375" width="500" />
+.. image:: http://www.taniquetil.com.ar/facundo/imgs/cdpedia-pycamp.jpg
+    :alt: Trabajando en un PyCamp
 
 A modo de ejemplo, dos sprints: uno fue en un incipiente hacklab, donde se experimentó mucho sobre el índice para las búsquedas, y también durante la fundación de Wikimedia Argentina, donde se presentó por primera vez el proyecto y se realizó un gran avance en la primera parte del procesamiento de datos.
 
@@ -99,40 +114,42 @@ En años más cercanos yo traté de involucrar colaboradores en algunos sprints 
 Una gran característica de la CDPedia, indiscutiblemente el proyecto más grande y más largo de Python Argentina, es que siempre se mantuvo orientado a los mismos objetivos: tener una Wikipedia offline con fines sociales (distribuir en escuelas sin conexión a Internet, que el conocimiento sea libre, etcétera), que sea divertido de hacer (es decir, hacerlo en Python), y mantenerlo libre (no sólo el producto final, que recomendamos copiarlo y repartirlo, sino el código en sí).
 
 
-<strong>¿Se logró cumplir el objetivo social?</strong>
+¿Se logró cumplir el objetivo social?
+-------------------------------------
 
 Como decía arriba, uno de los objetivos de la CDPedia es difundir el conocimiento, lograr que gente que no tenga acceso a Internet igual pueda acceder a la información de la Wikipedia, que es tan valiosa. Siendo PyAr una comunidad relativamente pequeña, era difícil escalar a tener un impacto nacional en el común de la gente.
 
 En su momento queríamos que se viralice persona a persona: que alguien la baje y haga un par de CDs y los reparta, que los que reciben cada CD hagan a su vez varias copias y las repartan a otras personas, a escuelas, bibliotecas de barrio, etc. Pero no tuvimos mucho éxito con esa movida.
 
-Pero resulta que Martín Varsavsky se casó, y <a href="https://es.Wikipedia.org/wiki/Jimmy_Wales">Jimmy Wales</a> <a href="http://spanish.martinvarsavsky.net/tecnologaa-e-Internet/el-regalo-de-boda-que-nos-hizo-jimmy-wales-lleva-Wikipedia-a-las-escuelas-que-no-tienen-acceso-a-Internet.html">le regaló para el casamiento</a> la posibilidad de que se distribuya una Wikipedia offline en Argentina. Preguntó cuáles habían, la CDPedia era la que mejor se ajustaba a lo que se necesitaba, y vino Jimmy a Buenos Aires, le mostramos la CDPedia, y luego hubo una reunión en Educ.ar para terminar de acordar esto (fueron Jimmy por <a href="https://www.wikimedia.org/">Wikimedia</a>, <a href="https://www.linkedin.com/in/enrique-chaparro-9b27744">Enrique Chaparro</a> por <a href="http://www.wikimedia.org.ar/">Wikimedia Argentina</a> y <a href="https://twitter.com/alecura">Alecu</a> por <a href="http://python.org.ar/">PyAr</a>).
+Pero resulta que Martín Varsavsky se casó, y `Jimmy Wales <https://es.Wikipedia.org/wiki/Jimmy_Wales>`_ `le regaló para el casamiento <http://spanish.martinvarsavsky.net/tecnologaa-e-Internet/el-regalo-de-boda-que-nos-hizo-jimmy-wales-lleva-Wikipedia-a-las-escuelas-que-no-tienen-acceso-a-Internet.html>`_ la posibilidad de que se distribuya una Wikipedia offline en Argentina. Preguntó cuáles habían, la CDPedia era la que mejor se ajustaba a lo que se necesitaba, y vino Jimmy a Buenos Aires, le mostramos la CDPedia, y luego hubo una reunión en Educ.ar para terminar de acordar esto (fueron Jimmy por `Wikimedia <https://www.wikimedia.org/>`_, `Enrique Chaparro <https://www.linkedin.com/in/enrique-chaparro-9b27744>`_ por `Wikimedia Argentina <http://www.wikimedia.org.ar/>`_ y `Alecu <https://twitter.com/alecura>`_ por `PyAr <http://python.org.ar/>`_).
 
-En gran parte porque <a href="http://www.educ.ar/">Educ.ar</a> quería meter la CDPedia en un disco de ellos (con carátula de ellos, algunas otras páginas, etc), se logró que dicha institución becara a dos chicos de PyAr, <a href="https://twitter.com/dmascialino">Diego Mascialino</a> y Hernán Olivera, para trabajar part time en esto.
+En gran parte porque `Educ.ar <http://www.educ.ar/>`_ quería meter la CDPedia en un disco de ellos (con carátula de ellos, algunas otras páginas, etc), se logró que dicha institución becara a dos chicos de PyAr, `Diego Mascialino <https://twitter.com/dmascialino>`_ y Hernán Olivera, para trabajar part time en esto.
 
-Así que agarraron la versión 0.6 que recién había salido (Alecu y yo nos habíamos apurado a cerrar muchos detalles para tener algo funcionando presentable a Jimmy Wales), y entraron a darle. Esto le dio bastante impulso al desarrollo del proyecto, sumado a que también aporté regularmente al proyecto, y a que luego de que se terminara la beca Diego siguió trabajando en CDPedia, y que se sumó como "laburante regular" <a href="https://twitter.com/spiccinini">Santiago Piccinini</a>.
+Así que agarraron la versión 0.6 que recién había salido (Alecu y yo nos habíamos apurado a cerrar muchos detalles para tener algo funcionando presentable a Jimmy Wales), y entraron a darle. Esto le dio bastante impulso al desarrollo del proyecto, sumado a que también aporté regularmente al proyecto, y a que luego de que se terminara la beca Diego siguió trabajando en CDPedia, y que se sumó como "laburante regular" `Santiago Piccinini <https://twitter.com/spiccinini>`_.
 
-Con todo este trabajo, y un nuevo empujón en el <a href="http://www.taniquetil.com.ar/plog/post/1/506">PyCamp del 2011</a>, pudimos terminar de cerrar la versión 0.7, que se entregó a Educ.ar y se distribuyó a todas las escuelas del pais.
+Con todo este trabajo, y un nuevo empujón en el `PyCamp del 2011 <http://www.taniquetil.com.ar/plog/post/1/506>`_, pudimos terminar de cerrar la versión 0.7, que se entregó a Educ.ar y se distribuyó a todas las escuelas del país.
 
-Sin embargo el mayor hito a nivel de distribución masiva de la CDPedia es que en algún momento fue incluida en las notebooks que el Estado argentino distribuye a los chicos de escuelas de todo el país como parte del programa <a href="http://www.conectarigualdad.gob.ar/">Conectar Igualdad</a>. Y también se la <a href="https://twitter.com/hectorksanchez/status/651951184555737089">muestran a alumnos y docentes en los talleres</a> que hacen como parte del programa.
+Sin embargo el mayor hito a nivel de distribución masiva de la CDPedia es que en algún momento fue incluida en las notebooks que el Estado argentino distribuye a los chicos de escuelas de todo el país como parte del programa `Conectar Igualdad <http://www.conectarigualdad.gob.ar/>`_. Y también se la `muestran a alumnos y docentes en los talleres <https://twitter.com/hectorksanchez/status/651951184555737089>`_ que hacen como parte del programa.
 
 
-<strong>¿Se puede espiar abajo del capot?</strong>
+¿Se puede espiar abajo del capot?
+---------------------------------
 
 ¿Cómo se arma la CDPedia? ¿Cómo se logra cumplir todo lo que expliqué arriba?
 
-Es bastante sencillo: hay que bajar el código con git desde <a href="https://github.com/PyAr/cdpedia">la página del proyecto en github</a>, y luego correr un script que hace todo solo: el <em>cdpetron</em>.
+Es bastante sencillo: hay que bajar el código con git desde `la página del proyecto en github <https://github.com/PyAr/cdpedia>`_, y luego correr un script que hace todo solo: el *cdpetron*.
 
 Este script tiene bastantes opciones (especialmente para no repetir partes del proceso: que no vuelva a listar todas las páginas, que no vuelva a bajarlas, que no limpie todo antes de comenzar, etc), pero lo básico es que se le especifica de dónde tomar el código, donde bajar y dejar páginas e imágenes, y en qué idioma trabajar.
 
-Incluso hay una manera de correrlo en modo test, para que haga solo una parte del trabajo y poder arrancar pronto a probar cosas, ideal para mezclarlo con la opción de generar una sola de las versiones:
+Incluso hay una manera de correrlo en modo test, para que haga solo una parte del trabajo y poder arrancar pronto a probar cosas, ideal para mezclarlo con la opción de generar una sola de las versiones::
 
-<span style="font-family: courier new,courier;">    $ utilities/cdpetron.py --test-mode --image-type=beta . /tmp/dumpcdpedia es</span>
+    $ utilities/cdpetron.py --test-mode --image-type=beta . /tmp/dumpcdpedia es
 
-El comando anterior tarda relativamente poco (menos de cinco minutos en una máquina normal y con buena conexión a Internet) y nos deja <a href="http://linkode.org/2EKfsPEVv80Dd4TV38uMq4">todo el proceso realizado</a>, pero con pocas páginas.
+El comando anterior tarda relativamente poco (menos de cinco minutos en una máquina normal y con buena conexión a Internet) y nos deja `todo el proceso realizado <http://linkode.org/2EKfsPEVv80Dd4TV38uMq4>`_, pero con pocas páginas.
 
-Ver lo que obtuvimos es sencillo, porque más allá de generarnos el tarball o el .iso correspondiente, podemos probar la CDPedia directamente del directorio donde realizamos el proceso, haciendo...
+Ver lo que obtuvimos es sencillo, porque más allá de generarnos el tarball o el .iso correspondiente, podemos probar la CDPedia directamente del directorio donde realizamos el proceso, haciendo::
 
-<span style="font-family: courier new,courier;">    ./cdpedia.py</span>
+    ./cdpedia.py
 
 ...lo cual levantará el server y nos abrirá el browser, tal cual si lo hiciéramos de la versión final (pero con la ventaja que podemos pararlo, cambiar el código para probar el algo, levantarlo de nuevo, ver los resultados, etc.)
 
@@ -140,7 +157,8 @@ Ver lo que obtuvimos es sencillo, porque más allá de generarnos el tarball o e
 
 Podemos delinear el proceso que se realiza en en el siguiente gráfico:
 
-<img src="http://www.taniquetil.com.ar/facundo/imgs/cdpedia-proceso.png" alt="Proceso de la CDPedia" height="530" width="704" />
+.. image:: http://www.taniquetil.com.ar/facundo/imgs/cdpedia-proceso.png
+    :alt: Proceso de la CDPedia
 
 El primer paso es bajar de la Wikipedia misma todas las páginas (lo que realmente tiene dos sub-pasos, un listado general de todas las páginas que nos interesan, y luego efectivamente bajarlas). Esas páginas son pasadas por diferentes preprocesadores que hacen distintos trabajos. Algunas las filtran y eliminan páginas que no queremos, otras les asignan puntajes, otras las modifican mejorándolas para nuestro objetivo, otras extraen información que va a ser útil luego.
 
@@ -157,25 +175,27 @@ A esta altura tengo que explicar qué son estos "bloques" de imágenes, artícul
 Finalmente, con estos bloques, más algunos recursos estáticos (imágenes, CSSs, algo de JSs, el tutorial de Python comprimido, etc.), más el código de Python propiamente dicho para servir la CDPedia, se arman los tarballs o .ISOs.
 
 
-<strong>¿En qué situación está el proyecto actualmente?</strong>
+¿En qué situación está el proyecto actualmente?
+-----------------------------------------------
 
 El proyecto avanza, pero lento.
 
-Hay varios <a href="https://github.com/PyAr/CDPedia/issues">bugs abiertos</a>, incluso algunos que son críticos porque se muestran un par de cosas feas luego de un cambio de formato de las páginas de Wikipedia, pero yo personalmente no estoy haciendo foco ahí, sino que estoy empujando un par de cambios más grandes.
+Hay varios `bugs abiertos <https://github.com/PyAr/CDPedia/issues>`_, incluso algunos que son críticos porque se muestran un par de cosas feas luego de un cambio de formato de las páginas de Wikipedia, pero yo personalmente no estoy haciendo foco ahí, sino que estoy empujando un par de cambios más grandes.
 
 Uno de ellos es lograr la internacionalización de la CDPedia. Cuando esté terminado, se van a poder crear CDPedias no sólo a partir de la Wikipedia en español, sino también de la Wikipedia en otros idiomas: portugués, aymara, guaraní, alemán, ruso, etc...
 
-El otro cambio es más bien la construcción de una infrastructura en particular. Mi idea es tener una generación continuas de CDPedias, que se arme la CDPedia en español, y automáticamente luego se arme la de otro idioma, y otro, y otro, y otro, y luego de varios meses, vuelva a arrancar con la de español.
+El otro cambio es más bien la construcción de una infraestructura en particular. Mi idea es tener una generación continuas de CDPedias, que se arme la CDPedia en español, y automáticamente luego se arme la de otro idioma, y otro, y otro, y otro, y luego de varios meses, vuelva a arrancar con la de español.
 
-<img src="http://www.taniquetil.com.ar/facundo/imgs/cdpedia-trabajando.png" alt="Trabajando" height="240" width="275" />
+.. image:: http://www.taniquetil.com.ar/facundo/imgs/cdpedia-trabajando.png
+    :alt: Trabajando
 
 Pero, como decía, hay mil cosas para hacer.
 
-Unos chicos en un PyCamp hicieron una app para Android que, luego de copiar los datos a mano, correría la <a href="http://python.org.ar/wiki/cdpedia-on-android/">CDPedia en cualquier teléfono o tablet</a> (yo traté recientemente de usarlo y tuve unos problemas y no lo pude hacer andar del todo).
+Unos chicos en un PyCamp hicieron una app para Android que, luego de copiar los datos a mano, correría la `CDPedia en cualquier teléfono o tablet <http://python.org.ar/wiki/cdpedia-on-android/>`_ (yo traté recientemente de usarlo y tuve unos problemas y no lo pude hacer andar del todo).
 
 Otro detalle que necesita trabajo es que el código en sí está bastante feo... mezcla inglés y castellano, no cumple PEP 8 ni PEP 257, tiene poco y nada de pruebas de unidad, etc.
 
-Si tienen ganas de participar de cualquier manera, lo principal es que se pongan en contacto con el grupo en general, a través de <a href="http://taniquetil.com.ar/cdn-cgi/l/email-protection#a18e8ec2c5d1c4c5c8c0e1c6cecec6cdc4c6d3ced4d1d28fc2cecc">la lista de correo</a> o del <a href="https://groups.google.com/forum/#!forum/cdpedia">foro asociado</a> (son espejo uno del otro, usen el
+Si tienen ganas de participar de cualquier manera, lo principal es que se pongan en contacto con el grupo en general, a través de `la lista de correo <http://taniquetil.com.ar/cdn-cgi/l/email-protection#a18e8ec2c5d1c4c5c8c0e1c6cecec6cdc4c6d3ced4d1d28fc2cecc>`_ o del `foro asociado <https://groups.google.com/forum/#!forum/cdpedia>`_ (son espejo uno del otro, usen el
 que sientan más cómodo). Lo mismo si desean hacer cualquier consulta, o ponerse en contacto para cualquier inquietud.
 
-CDPedia necesita amor. Programadores con ganas de trabajar y aprender, tiempo de programador para continuar llevando este proyecto tan interesante y valioso por buen camino. |
+CDPedia necesita amor. Programadores con ganas de trabajar y aprender, tiempo de programador para continuar llevando este proyecto tan interesante y valioso por buen camino.
