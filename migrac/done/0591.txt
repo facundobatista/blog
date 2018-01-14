@@ -1,0 +1,23 @@
+2013-01-08 01:54:12
+Tratando de colaborar
+software libre
+
+Hace alguna semanas ví un tuit sobre la posibilidad de ayudar con la revista on line `Hackers & Developers <http://www.hdmagazine.org/>`_, un magazine digital de distribución mensual sobre Software Libre, Hacking y Programación.
+
+La revista está interesante, y se nota que le ponen un montón de laburo atrás. Entonces, me pareció copado ayudar. Lamentablemente no tengo tiempo para ponerme a escribir artículos desde cero (habrán notado cuanto participé en otras iniciativas como `PET, la revista de Python Argentina. <http://revista.python.org.ar/>`_.. más allá de algo puntual, no tuve tiempo tampoco de escribir nada nuevo).
+
+Pero, hay algo que sí me da el tiempo y es revisar algún que otro artículo. O sea, agarrar un artículo de Python y asegurarme que esté (a nivel de Python, no de castellano) correcto.
+
+Entones mandé un mail a la cuenta a la que uno se podía postular: "(...) Me gustaría ser *revisor* de cualquier artículo que tenga que ver con Python.".
+
+Me contestaron que gracias por mi contacto, que "... estamos buscando profesionales que deseen incorporarse al Staff permanente de HDMagazine, como columnistas/redactores. Si estás interesado en sumarte como redactor, por favor, no dudes en hacérnoslo saber."
+
+O sea, no les gustó mi propuesta. Quise ser revisor, me dijeron que no, que estaban buscando otra cosa.
+
+Todo bien.
+
+Hoy me acordé de eso y tuiteé que `me había postulado como revisor y me habían rechazado <https://twitter.com/facundobatista/status/288422549270958080>`_.
+
+Me contestaron desde que la revista "no es un grupo de satisfacción de deseos personales" (públicamente) y hasta me trataron de mentiroso y malintencionado (en privado), lo cual más allá de que uno lo relativice, no deja de doler.
+
+En fin. Mejor enfocar energías en quienes lo merecen.

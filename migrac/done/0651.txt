@@ -1,0 +1,28 @@
+2014-07-08 23:14:54
+¿Dónde estaba Dios?
+filosofía, tango, feinmann, laborde
+
+Hay un micro de la segunda temporada del genial programa "Filosofía aquí y ahora", de `José Pablo Feinmann <http://es.wikipedia.org/wiki/Jos%C3%A9_Pablo_Feinmann>`_, que se llama ¿Dónde estaba Dios?. Lo pueden ver `acá <http://www.conectate.gob.ar/sitios/conectate/busqueda/buscar?rec_id=112015>`_, pero les transcribo el texto, que es cortito...
+
+    En el tema de `Auschwitz <http://es.wikipedia.org/wiki/Auschwitz>`_ está el tema de Dios.
+
+    Es un tema muy muy complejo, y más de un teólogo se pone de muy mal humor cuando se menciona el tema de Dios con respecto a Auschwitz, pero más de un filósofo ha preguntado ¿dónde estaba Dios en Auschwitz?
+
+    E incluso `Primo Levi <http://es.wikipedia.org/wiki/Primo_levi>`_, que es el gran escritor judío, que escribe "Si esto es un hombre", "Los hundidos y los salvados"... dice "Existe Auschwitz, no existe Dios".
+
+    Y `Karl Löwith <http://es.wikipedia.org/wiki/Karl_L%C3%B6with>`_, que también es un gran pensador judío, discípulo de `Heidegger <http://es.wikipedia.org/wiki/Heidegger>`_, dice "Luego de Auschwitz es imposible pensar un Dios totalmente bueno".
+
+    Es muy contundente, todo esto. Hay un tango, incluso, genial, que dice "¿dónde estaba Dios cuando te fuiste?". O sea, nuestra tanguística es tan excepcional que puede ser comparada con los grandes filósofos del siglo XX.
+
+    Es lo mismo, ¿dónde estaba Dios cuando te fuiste?.
+
+Y como cierre, tenemos al `Chino Laborde <http://tangodemiarrabal.blogspot.com/2011/07/walter-chino-laborde.html>`_, invitado de `Demoliendo Tangos <http://www.taniquetil.com.ar/plog/post/1/276>`_, interpretando, justamente, "Canción desesperada", de Enrique Santos Discépolo.
+
+<object type="application/x-shockwave-flash" data="http://www.youtube.com/v/AKn0oxdxi54" class="ltVideoYouTube" height="355" width="425">
+<param name="movie" value="http://www.youtube.com/v/AKn0oxdxi54" />
+<param name="wmode" value="transparent" />
+<param name="allowScriptAccess" value="sameDomain" />
+<param name="quality" value="best" />
+<param name="bgcolor" value="#ffffff" />
+<param name="FlashVars" value="playerMode=embedded" />
+</object>

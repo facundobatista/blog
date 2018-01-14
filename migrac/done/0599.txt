@@ -1,0 +1,13 @@
+2013-03-02 13:56:33
+El tutorial de Python 3 en español
+documentación
+
+Finalmente terminé de armar todo para liberar al mundo la versión traducida al español del tutorial de Python 3.
+
+Realmente había terminado de traducirlo hace un par de semanas. Pero (aunque la generación del HTML fue bastante directo), generar el PDF me trajo bastante problemas.
+
+Por un lado, el PDF generado por ``inkscape`` para los headers bonitos que tenemos es incorrecto en algunos detalles, así que tuve que meter un hack en el proyecto ``pdfrw`` para evitar que explote con ese problema. Luego habían problemas con páginas en blanco al final de capítulos que tuvieran footnotes, así que metí un workaround en ``rst2pdf`` para que ``reportlab`` no la cague al generar el PDF. Y dos o tres detalles más, pero menores (gracias Roberto Alsina por toda la ayuda en este bardo). Todos los parches (para poder reproducir la generación de algo copado) están en el README del proyecto.
+
+También tuve que renovar el cómo presentábamos el tutorial, porque ahora tenemos el mismo para las versiones 2 y 3 de Python. Entonces ahora puse que la `URL principal del tutorial <http://tutorialpython.com.ar/>`_ apunte a un HTML muy bonito (gracias Rodrigo Bistolfi) que te deja elegir si querés ir qué versión del tutorial, tanto en Python 2 o 3, como en su formato: HTML o PDF. También reformulé la página del tutorial `dentro del sitio de PyAr <http://python.org.ar/pyar/Tutorial>`_.
+
+En fin. Disfruten y pásenlo.

@@ -1,0 +1,95 @@
+2013-06-19 03:48:00
+Vamos con las pelis
+películas
+
+Varias vistas, pero no tantas, :/. Vamos a ver si le podemos poner ritmo...
+
+- `Battle LA <http://www.imdb.com/title/tt1217613/>`_: -0. Una peli de acción pasable, pero ya no me banco más al concepto de "hay que mantener militares yanquis porque van a salvar al mundo algún día".
+
+- `Casino Jack <http://www.imdb.com/title/tt1194417/>`_: -0. Aristas interesantes, muestra un poco lo que es el juego del "lobby" en EEUU, pero después no tiene mucho.
+
+- `Fair game <http://www.imdb.com/title/tt0977855/>`_: +1. Muy buena película sobre construcción de la verdad desde el gobierno sobre la misma gente...
+
+- `Freakonomics <http://www.imdb.com/title/tt1152822/>`_: -0. Conceptualmente interesante, pasa mucho tiempo con boludeces; no vale la pena.
+
+- `Les misérables <http://www.imdb.com/title/tt1707386/>`_: +1. Nunca pensé que un musical me fuera a gustar tanto. Los actores están bárbaros, la música perfecta... la historia es conocida, pero igual no le resta.
+
+- `Malice in Wonderland <http://www.imdb.com/title/tt0374853/>`_: -1. Demasiado loca y volada, no me gustó.
+
+- `Middle men <http://www.imdb.com/title/tt1251757/>`_: +0. Más allá del nudo de la historia, que es interesante, se mezcla todo y se desenlaza todo de una forma interesante. Las actuaciones podrían ser mejores, pero está bien (o quizás es que Luke Wilson no me gusta nada nada).
+
+- `Resident evil: After life <http://www.imdb.com/title/tt1220634/>`_: -0. Estúpida y sensual Milla Jovovich. Pero ya está, no veo ni una más.
+
+- `Seres: genesis <http://www.imdb.com/title/tt1114731/>`_: ??. No la pude ver... no la conseguí bajar por ningún lado, :/
+
+- `South of the border <http://www.imdb.com/title/tt1337137/>`_: +1. Genial serie de entrevistas de Oliver Stone a presidentes latinoamericanos, dejándolos hablar pero también repreguntando, todo mezclado con el punto de vista de USA sobre estos mandatarios, con lo que se generan opiniones y puntos de vista que normalmente no se conocen.
+
+- `Super 8 <http://www.imdb.com/title/tt1650062/>`_: +0. Un tanto trillada y "peli de adolescentes", pero más allá de eso, muy buena peli.
+
+- `The freebie <http://www.imdb.com/title/tt1474889/>`_: +0. Muy interesante como plantean el tema y cómo lo desarrollan, especialmente al momento de hilvanar la historia. Pero tampoco es nada del otro mundo. Y no conseguí subtítulos en castellano.
+
+- `The good heart <http://www.imdb.com/title/tt0808285/>`_: +0. Muy buena visión sobre dos personalidades complejas y atípicas; hay un concepto para desarrollar y está muy bien, pero la peli es oscura, enrevesada, y el punto álgido muy previsible...
+
+- `The tourist <http://www.imdb.com/title/tt1243957/>`_: +1. Acción, misterio, Johnny Depp y Angelina Jolie. Say no more.
+
+- `Transformers: Dark of the moon <http://www.imdb.com/title/tt1399103/>`_: -1. Mucha acción, no te aburrís, pero que película de mierda, toda una propaganda de los milicos yanquis. Es para perderle el respeto a Spielberg por ser productor ejecutivo de esta cagada.
+
+- `Unknown <http://www.imdb.com/title/tt1401152/>`_: -0. Muy buen giro, pero no llega a hacer valer la peli.
+
+Y todas estas nuevas. Me estoy quedando atrás...
+
+- `2 guns <http://www.imdb.com/title/tt1272878/>`_
+
+- `After Earth <http://www.imdb.com/title/tt1815862/>`_
+
+- `Before midnight <http://www.imdb.com/title/tt2209418/>`_
+
+- `Despicable me 2 <http://www.imdb.com/title/tt1690953/>`_
+
+- `Elefante blanco <http://www.imdb.com/title/tt2132324/>`_
+
+- `Elysium <http://www.imdb.com/title/tt1535108/>`_
+
+- `Generation um <http://www.imdb.com/title/tt1718158/>`_
+
+- `Internship <http://www.imdb.com/title/tt2234155/>`_
+
+- `It's a disaster <http://www.imdb.com/title/tt1995341/>`_
+
+- `La reconstrucción <http://www.imdb.com/title/tt2718462/>`_
+
+- `Pandora's promise <http://www.imdb.com/title/tt1992193/>`_
+
+- `Rush <http://www.imdb.com/title/tt1979320/>`_
+
+- `The family <http://www.imdb.com/title/tt2404311/>`_
+
+- `The kitchen <http://www.imdb.com/title/tt2011300/>`_
+
+- `The numbers station <http://www.imdb.com/title/tt1659338/>`_
+
+- `The wolverine <http://www.imdb.com/title/tt1430132/>`_
+
+- `This is 40 <http://www.imdb.com/title/tt1758830/>`_
+
+- `Trance <http://www.imdb.com/title/tt1924429/>`_
+
+- `World war Z <http://www.imdb.com/title/tt0816711/>`_
+
+Finalmente, el conteo de pendientes por fecha::
+
+    (24-Sep-2008)   15
+    (21-Ene-2009)   18   18   12    1    1
+    (09-May-2009)   13   11   10    5
+    (15-Oct-2009)   17   16   15   14
+    (01-Mar-2010)   18   18   18   18   16    4
+    (12-Sep-2010)   19   18   18   18   18   18    9    2
+    (14-Dic-2010)   13   13   13   13   12   12   12    5
+    (13-Abr-2011)        23   23   23   23   23   23   22
+    (09-Ago-2011)             12   12   11   11   11   11
+    (06-Ene-2012)                  21   21   18   17   17
+    (27-Jul-2012)                       15   15   15   15
+    (26-Nov-2012)                            12   12   11
+    (09-Feb-2013)                                 19   19
+    (19-Jun-2013)                                      19
+    Total:         113  123  121  125  117  113  118  121

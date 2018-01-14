@@ -1,0 +1,31 @@
+2014-05-04 00:30:30
+Encuentro 2.0
+liberación, software, python
+
+Como varias veces ya les conté, Encuentro es un simple programa que permite buscar, descargar y ver contenido del Canal Encuentro, Paka Paka, BACUA, Educ.ar y otros.
+
+Hoy estoy liberando la versión 2.0, una versión importante ya que hace que todo vuelva a funcionar correctamente, luego que Encuentro y Conectate reconfiguraran sus portales. En otras palabras... actualizá, sí o sí.
+
+.. image:: http://encuentro.taniquetil.com.ar/imgs/title.png
+    :alt: Encuentro
+    :link: http://encuentro.taniquetil.com.ar/
+
+La versión 2.0 trae los siguientes cambios con respecto a la versión anterior:
+
+- **Vuelve a funcionar** luego de los cambios de backend de Encuentro y Conectate
+
+- **Maneja las temporadas de los programas**; no se repiten nombres y graba agrupado a disco
+
+- Sólo anota (y **no requiere aprobación del usuario**) al tener errores en la descarga
+
+- **Mejor manejo de las imágenes** de los episodios, con lo cual ahora se ven las de Bacua
+
+- Actualiza **automáticamente** la metadata si se la encuentra demasiado desactualizada
+
+- El proyecto tiene **menos dependencias**, es más simple hacerlo funcionar en más sistemas
+
+- Soporta ser ejecutado en un **virtualenv**
+
+- Varias correcciones y detalles para hacerlo **más usable y robusto**
+
+Hay muchas formas de instalarlo, todo bien explicadito en la `página oficial <http://encuentro.taniquetil.com.ar/>`_. ¡Que lo disfruten!

@@ -1,0 +1,94 @@
+2013-09-21 15:00:41
+Películas, edición primaveral
+<tags>
+
+Bastante películas vistas, pero aún más anotadas para ver! Estoy perdiendo el ritmo con verlas, en parte se debe a que fueron los primeros meses de Malena, en parte porque avancé con algunas series.
+
+Oh, día, ¿por qué no tienes 30 horas? :p
+
+Por otro lado, mirando las fechas, me doy cuenta que la última revisión de películas fue a mediados de Junio... entonces, otro punto de vista sería que ví una buena cantidad de pelis (14, en tres meses), pero que salieron notablemente muchas justo en este período.</p>
+
+- `Barney's version <http://www.imdb.com/title/tt1423894/>`_: +1. Maravillosa historia sobre la vida de un tipo (Barney, obvio), su relación con sus amores, sus hijos, sus amigos. Las actuaciones, bárbaras, y la forma de contar la historia, también.
+
+- `Cowboys & aliens <http://www.imdb.com/title/tt0409847/>`_: +0. No es demasiado, pero ya la mezcla de viejo oeste y que tengan que lidiar con extraterrestres, está bueno. Está buena, pero no es un peliculón.
+
+- `Despicable me 2 <http://www.imdb.com/title/tt1690953/>`_: +0. Un poco más de lo mismo, y los minions tienen demasiada relevancia en la peli, pero igual es muy divertida.
+
+- `I am number four <http://www.imdb.com/title/tt1464540/>`_: -0. Algunos conceptos copados, y en sí la historia no está mal, pero es demasiado "héroe adolescente con problemática yanqui".
+
+- `Man of steel <http://www.imdb.com/title/tt0770828/>`_: +0. Para ser una "peli de superman", está muy bien. Pero tiene demasiada acción, demasiada peleas, demasiado. Y es interesante en puntos de la historia.
+
+- `Pacific rim <http://www.imdb.com/title/tt1663662/>`_: +0. Si querés ver monstruos gigantes alienígenas peleando con robots de cincuenta metros de altura, esta película es para vos. Si no, ni te acerques.
+
+- `Pirates of the caribbean: On stranger tides <http://www.imdb.com/title/tt1298650/>`_: -0. Está Depp. Y está Penélope Cruz. Pero la peli nunca termina de aparecer. Es más de lo mismo, y sólo eso.
+
+- `Source code <http://www.imdb.com/title/tt0945513/>`_: +1. La historia es interesante, pero lo que más me gusta es cómo está expuesto el tema de las realidades paralelas, y cómo se pueden aprovechar.
+
+- `Star trek into darkness <http://www.imdb.com/title/tt1408101/>`_: +1. Impecable, tanto a nivel de película como de historia de Star Trek. Imperdible.
+
+- `Stone <http://www.imdb.com/title/tt1423995/>`_: -0. Me sorprendió que me gustara tan poco, especialmente teniendo en cuenta que hay buenas actuaciones, juegos mentales, intriga... No sé, quizás como estaba la historia contada...
+
+- `Sucker punch <http://www.imdb.com/title/tt0978764/>`_: -0. Una película mezclada, traida de los pelos. En algún punto está buena, pero no vale la pena todo el odio que muestra, no la llega a levantar; mucha violencia al pedo, gráfica y conceptual.
+
+- `The kids are all right <http://www.imdb.com/title/tt0842926/>`_: -0. Interesante planteo, las actuaciones muy bien, pero la historia se queda muy corta.
+
+- `The way back <http://www.imdb.com/title/tt1023114/>`_: +0. Un poco lenta en varios puntos, pero una historia muy buena, y con actuaciones copadas.
+
+- `Thor <http://www.imdb.com/title/tt0800369/>`_: -0. Natalie Portman y Anthony Hopkins impecables como siempre, pero el resto de la película no lo vale.
+
+Estas son las nuevas:
+
+- `Beginners <http://www.imdb.com/title/tt1532503/>`_
+
+- `Drinking buddies <http://www.imdb.com/title/tt2265398/>`_
+
+- `Europa report <http://www.imdb.com/title/tt2051879/>`_
+
+- `Gravity <http://www.imdb.com/title/tt1454468/>`_
+
+- `Hable con ella <http://www.imdb.com/title/tt0287467/>`_
+
+- `Her <http://www.imdb.com/title/tt1798709/>`_
+
+- `I give it a year <http://www.imdb.com/title/tt2244901/>`_
+
+- `In a world <http://www.imdb.com/title/tt2294677/>`_
+
+- `Machete kills <http://www.imdb.com/title/tt2002718/>`_
+
+- `Muppets most wanted <http://www.imdb.com/title/tt2281587/>`_
+
+- `Out of the furnace <http://www.imdb.com/title/tt1206543/>`_
+
+- `Paranoia <http://www.imdb.com/title/tt1413495/>`_
+
+- `Passion <http://www.imdb.com/title/tt1829012/>`_
+
+- `Riddick <http://www.imdb.com/title/tt1411250/>`_
+
+- `Seventh son <http://www.imdb.com/title/tt1121096/>`_
+
+- `The counselor <http://www.imdb.com/title/tt2193215/>`_
+
+- `The last days on Mars <http://www.imdb.com/title/tt1709143/>`_
+
+- `The lifeguard <http://www.imdb.com/title/tt2265534/>`_
+
+Finalmente, el conteo de pendientes por fecha::
+
+    (24-Sep-2008)   15
+    (21-Ene-2009)   18   18   12    1    1
+    (09-May-2009)   13   11   10    5
+    (15-Oct-2009)   17   16   15   14
+    (01-Mar-2010)   18   18   18   18   16    4
+    (12-Sep-2010)   19   18   18   18   18   18    9    2    1
+    (14-Dic-2010)   13   13   13   13   12   12   12    5    1
+    (13-Abr-2011)        23   23   23   23   23   23   22   17
+    (09-Ago-2011)             12   12   11   11   11   11   11
+    (06-Ene-2012)                  21   21   18   17   17   17
+    (27-Jul-2012)                       15   15   15   15   15
+    (26-Nov-2012)                            12   12   11   11
+    (09-Feb-2013)                                 19   19   16
+    (19-Jun-2013)                                      19   18
+    (21-Sep-2013)                                           18
+    Total:         113  123  121  125  117  113  118  121  125

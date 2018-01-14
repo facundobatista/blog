@@ -1,0 +1,30 @@
+2011-04-06 15:45:36
+Adopte un newbie
+proyectos, mentor, newbie, participar
+
+En el último PyCamp Pablo Mouzo tiró la maravillosa idea de que aquellos con mucha experiencia dando charlas podíamos ser mentores de gente que se iniciaba por ese camino, para dar consejos, transmitir experiencia, etc. Yo me propuse como mentor para aquel que quisiera proponer una charla en cualquiera de los eventos de PyAr.
+
+Pero a ese concepto Mariano Guerra se le dió otra vuelta de rosca, y armó una `página <http://python.org.ar/pyar/AdoptaUnNewbie>`_ en la que personas con buena experiencia en PyAr o Python se proponen como mentores, los newbies se proponen como mentados, en función de los perfiles de los tutores, y luego los mentores aceptan dedicar una cantidad de tiempo semanal a las consultas del mentado (por mail, IM, en persona o lo que se decida), el mentado acepta documentar sus pasos de aprendizaje en un blog y a dar una charla en el evento en el que se considere que entraron en la "adultez pythonistica".
+
+.. image:: http://www.taniquetil.com.ar/facundo/imgs/mentor.png
+    :alt: Mentor
+
+Ahí es donde me puse a pensar que en mi (poco) tiempo libre empujo (o trato de empujar) algunos proyectos que son bastantes variados entre sí, y que pueden ofrecer una buena oportunidad para que alguien arranque y se ponga a aprender, no tanto Python, sino como trabajar en un proyecto.
+
+Como verán abajo, hay uno que está en castellano y el resto en inglés. Uno hosteado en Google Code, uno en Trac, el resto en Launchpad. Algunos con lista propia, otros no. Algunos con más tests, otros con menos. Diverso.
+
+Y creo que los proyectos son lo suficientemente variados como para que sea más fácil elegir :).
+
+- `CDPedia <http://python.org.ar/pyar/Proyectos/CDPedia>`_: Es un proyecto de Python Argentina para tener la información de la Wikipedia en castellano accesible aunque no tengas una conexión a Internet.
+
+- `Lalita <https://launchpad.net/lalita>`_: Yet another IRC bot, one where new functionality is simple to create by just adding easy-to-write plugins.
+
+- `Enjuewemela <http://launchpad.net/enjuewemela>`_: Crazy game with a lot of gems that tend to disappear strangely following user actions
+
+- `Magicicada <http://launchpad.net/magicicada>`_: A GTK+ frontend for the "Chicharra" part of Ubuntu One client.
+
+- `Python <http://python.org/>`_: Acá la idea es trabajar en el proyecto Python mismo (lo que puede ser código Python o C, o incluso no código sino documentación, etc.), no hacer cosas con Python.
+
+- Twisted a Python 3: Estoy empujando el migrar `Twisted <http://twistedmatrix.com/>`_ (an event-driven networking engine) a Python 3. Esto no es un proyecto en sí, sino que está en el marco de Twisted mismo.
+
+Así que ya saben, si les interesa meterse en alguno, me avisan. En general la coordinación sería remota (IRC, IM), así que no necesitan estar en Buenos Aires...

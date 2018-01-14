@@ -1,0 +1,115 @@
+2015-03-12 03:24:58
+Metaclasses in Python, the easy way (a real life example)
+decorator, tests
+
+They say that metaclasses make your head explode. They also say that if you're not absolutely sure what metaclasses are, then you don't need them.
+
+And there you go, happily coding through life, jumping and singing in the meadow, until suddenly you get into a dark forest and find the most feared enemy: you realize that some magic needs to be done.
+
+
+The necessity
+-------------
+
+Why you may need metaclasses? Let's see this specific case, my particular (real life) experience.
+
+It happened that at work I have a script that verifies the `remote scopes service <https://developer.ubuntu.com/en/scopes/>`_ for the Ubuntu Phone, checking that all is nice and crispy.
+
+The test itself is simple, I won't put it here because it's not the point, but it's isolated in a method named ``_check``, that receives the scope name and returns True if all is fine.
+
+So, the first script version did (removed comments and docstrings, for brevity)::
+
+    class SuperTestCase(unittest.TestCase):
+
+        def test_all_scopes(self):
+            for scope in self._all_scopes:
+                resp = self._check(scope)
+                self.assertTrue(resp)
+
+The problem with this approach is that all the checks are inside the same test. If one check fails, the rest is not executed (because the test is interrupted there, and fails).
+
+Here I found something very interesting, the (new in Python 3) ``subTest`` call::
+
+    class SuperTestCase(unittest.TestCase):
+
+        def test_all_scopes(self):
+            for scope in self._all_scopes:
+                with self.subTest(scope=scope):
+                    resp = self._check(scope)
+                    self.assertTrue(resp)
+
+Now, each "sub test" internally is executed independently of the other. So, they all are executed (all checks are done) no matter if one or more fail.
+
+Awesome, right? Well, no.
+
+Why not? Because even if internally everything is handled as independent subtest, from the outside point of view it still is one single test.
+
+This has several consequences. One of those is that the all-inside test takes too long, and you can't know what was going on (note that each of these checks hit the network!), as the test runner just show progress per test (not subtest).
+
+The other inconvenient is that there is not a way to call the script to run only one of those subtests... I can tell it to execute only the all-inside test, but that would mean to execute all the subtests... which, again, takes a lot of time.
+
+So, what I really needed? Something that allows me to express the assertion in one test, but that in reality it were several methods. So, I needed something that, from a single method, reproduce them so the class actually had several ones. This is, write code for a class that Python would find different. This is, metaclasses.
+
+
+Metaclasses, but easy
+---------------------
+
+Luckily, since a couple of years ago (or more), Python provides a simpler way to achieve the same that could be done with metaclasses. This is: *class decorators*.
+
+Class decorators, very similar to method decorators, receive the class that is defined below itself, and its response is considered by Python the real definition of the class. If you don't have the concept, you may read a little `here <https://realpython.com/blog/python/primer-on-python-decorators/>`_ about decorators, and a more deep article about decorators and metaclasses `here <http://lgiordani.com/blog/2014/10/14/decorators-and-metaclasses/>`_, but it's not mandatory.
+
+So, I wrote the following class decorator (explained below)::
+
+    def test_multiplier(klass):
+        """Multiply those multipliable tests."""
+        for meth_name in (x for x in dir(klass) if x.startswith("test_")):
+            meth = getattr(klass, meth_name)
+            argspec = inspect.getfullargspec(meth)
+
+            # only get those methods that are to be multiplied
+            if len(argspec.args) == 2 and len(argspec.defaults) == 1:
+                param_name = argspec.args[1]
+                mult_values = argspec.defaults[0]
+
+                # "move" the useful method to something not automatically executable
+                delattr(klass, meth_name)
+                new_meth_name = "_multiplied_" + meth_name
+                assert not hasattr(klass, new_meth_name)
+                setattr(klass, new_meth_name, meth)
+                new_meth = getattr(klass, new_meth_name)
+
+                # for each of the given values, create a new method which will call the given method
+                # with only a value at the time
+                for multv in mult_values:
+                    def f(self, multv=multv):
+                        return new_meth(self, **{param_name: multv})
+
+                    meth_mult_name = meth_name + "_" + multv.replace(" ", "_")[:30]
+                    assert not hasattr(klass, meth_mult_name)
+                    setattr(klass, meth_mult_name, f)
+
+        return klass
+
+The basics are: it receives a class, it returns a slightly modified class ;). For each of the methods that starts with "test_", I checked those that had two args (not only 'self'), and that the second argument were named.
+
+So, it would actually get the method defined in the following structure and leave the rest alone::
+
+    @test_multiplier
+    class SuperTestCase(unittest.TestCase):
+
+        def test_all_scopes(self, scope=_all_scopes):
+            resp = self.checker.hit_search(scope, '')
+            self.assertTrue(resp)
+
+For that kind of method, the decorator will move it to something not named "test_*" (so we can call it but it won't be called by automatic test infrastructure), and then create, for each value in the "_scopes" there, a method (with a particular name which doesn't really matter, but needs to be different and is nice to be informative to the user) that calls the original method, passing "scope" with the particular value.
+
+So, for example, let's say that ``_all_scopes`` is ``['foo', 'bar']``. Then, the decorator will rename ``test_all_scopes`` to ``_multiplied_test_all_scopes``, and then create two new methods like this::
+
+    def test_all_scopes_foo(self, multv='foo'):
+        return self._multiplied_test_all_scopes(scope=multv)
+
+    def test_all_scopes_bar(self, multv='bar'):
+        return self._multiplied_test_all_scopes(scope=multv)
+
+The final effect is that the test infrastructure (internally and externally) finds those two methods (not the original one), and calls them. Each one individually, informing progress individually, the user being able to execute them individually, etc.
+
+So, at the end, all gain, no loss, and a fun little piece of Python code :)

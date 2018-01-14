@@ -1,0 +1,45 @@
+2015-06-19 13:57:55
+Releases por dos: Encuentro y fades
+software, liberación
+
+Estos últimos días se liberaron nuevas versiones de dos proyectos en los que estoy involucrado activamente.
+
+A principio de mes lancé Encuentro 3.1 (como ya sabrán, este programa permite buscar, descargar y ver contenido del Canal Encuentro, Paka Paka, BACUA, Educ.ar y otros).
+
+La versión 3.1 trae los siguientes cambios con respecto a la versión anterior:
+
+- Vuelve a funcionar luego de los cambios de backend de Encuentro y Conectate
+
+- Ahora con CTRL-F se va directamente al campo de filtro (gracias `Emiliano <https://twitter.com/emilianohf>`_)
+
+- Se rehizo el manejo de la lista de episodios: ahora verlos y filtrarlos es muchísimo más rápido
+
+- Mejoras en el empaquetado, debería funcionar para muchas (todas?) las versiones de Debian/Ubuntu (gracias `Adrián Alves <https://twitter.com/alvesadrian>`_).
+
+- Varias mejoras al encontrar nuevos episodios de los distintos backends, y correcciones en general.
+
+Más info y cómo descargarlo, instalarlo, etc, en la `página oficial <http://encuentro.taniquetil.com.ar/>`_.
+
+Por otro lado, ayer se lanzó fades 3 (un proyecto orientado a desarrolladores Python, en contraposición a Encuentro que está pensado para el usuario final), que desarrollamos principalmente `Nico Demarchi <https://twitter.com/gilgamezh>`_ y yo.
+
+fades (en inglés: FAst DEpendencies for Scripts) es un sistema que maneja automáticamente los virtualenvs en los casos simples que uno normalmente encuentra al escribir scripts o programas pequeños.  Crea automáticamente un nuevo virtualenv (o reusa uno creado previamente) instalando las dependencias necesarias, y ejecutando el script dentro de ese virtualenv.
+
+¿Qué hay de nuevo en esta release?
+
+- Podés usar diferentes versiones del intérprete: simplemente pasá ``--python=python2`` o lo que te convenga.
+
+- Las dependencias pueden especificarse en la linea de comando: no hay necesidad de cambiar el script para una prueba rápida, simplemente especificá la dependencia necesaria con ``--dependency``.
+
+- Modo interactivo: es la manera más rápida de probar una nueva biblioteca. Sólo hacé ``fades -d <dependencia>`` y te abrirá un intérprete interactivo dentro de un venv con esa dependencia.
+
+- Soporta tomar argumentos desde el shellbang. De esta manera podés crear un script y poner al principio del mismo algo como: ``#!/usr/bin/env fades -d <dependencia> --python=python2.7``
+
+- Puede parsear requerimientos desde un archivo. No hay necesidad de ningún cambio si ya tenés un archivo requirements.txt: simplemente indicalo con ``--requirement``.
+
+- Si no se especifica el repo, toma PyPI por defecto, lo que resulta en código más limpio y simple.
+
+- Tiene una base de datos integrada para conversiones típicas de nombres: de esta manera se puede marcar con fades un "import bs4" incluso si ese no es el nombre del paquete en PyPI.
+
+- Otros cambios y correcciones menores.
+
+Toda la info, en la `página de PyPI del proyecto <https://pypi.python.org/pypi/fades>`_.
