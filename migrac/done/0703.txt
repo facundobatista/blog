@@ -1,14 +1,14 @@
 2016-04-13 01:59:04
 Ordenando fotos
-<tags>
-
+script, python, cámara, celular
 
 
 Hace un par de semanas sucediose el PyCamp. En este tipo de eventos, como en tantos otros, o paseos, o reuniones, o lo que sea, pasa que uno lleva "la cámara", pero no la usa todo el tiempo.
 
 Con "la cámara" me refiero al dispositivo para sacar fotos de mejor calidad que uno tiene. Puede ser una reflex toda pipona, o una point and shoot berretona, o algo intermedio (o "bridge") como la que tengo yo (una Canon G15).
 
-<img src="http://www.taniquetil.com.ar/facundo/imgs/canon-g15-back.jpeg" alt="Canon G15" height="274" width="450" />
+.. image:: http://www.taniquetil.com.ar/facundo/imgs/canon-g15-back.jpeg
+    :alt: Canon G15
 
 Y uno no la usa todo el tiempo por dos razones. La primera es que en general, a menos que sea una point and shoot finiiiiita, molesta un poco llevarla: te ocupa al menos una mano, o rellena bastante un bolsillo, o hay que llevarla al cuello, o hay que llevar todo un bolso al hombro.
 
@@ -20,13 +20,14 @@ Entonces, esta combinación de factores hizo que, en los últimos tiempos, termi
 
 Yo miro/edito las fotos con distintas herramientas. Pero en general, las veo ordenadas por el nombre del archivo. Entonces, tener dos series de fotos separadas me jodía bastante.
 
-Es por eso que me armé <a href="http://www.taniquetil.com.ar/homedevel/utils/rename_dated_photos.py">un pequeño script</a> que agarra todas las fotos de un directorio y las renombra en función de la fecha/hora que tiene guardada la foto, quedando ambas series efectivamente mezcladas de forma cronológica al ordenarlas por el nombre del archivo.
+Es por eso que me armé `un pequeño script <http://www.taniquetil.com.ar/homedevel/utils/rename_dated_photos.py>`_ que agarra todas las fotos de un directorio y las renombra en función de la fecha/hora que tiene guardada la foto, quedando ambas series efectivamente mezcladas de forma cronológica al ordenarlas por el nombre del archivo.
 
 Un par de detalles con respecto al script.
-<ul>
-<li>Todavía está en desarrollo, pero está bastante estable y las últimas veces que lo usé anduvo 100% ok</li>
-<li>Asume que las fotos de "la cámara" tienen el formato <span style="font-family: courier new,courier;">IMG99999.JPG</span>, siendo los <span style="font-family: courier new,courier;">99999</span> cinco dígitos cualesquiera. Si este no es tu caso, vas a tener que pedirme una mejora, o toquetear vos misma/o el código.</li>
-<li>Tenés que tener <a href="https://fades.readthedocs.org/en/release-5/">fades</a> instalado, para que te maneje automágicamente las dependencias (<a href="http://www.taniquetil.com.ar/plog/post/1/700">acá</a> tenés una explicación al respecto). Si no querés instalar fades, arreglate.</li>
-</ul>
 
-Enjoy. |
+- Todavía está en desarrollo, pero está bastante estable y las últimas veces que lo usé anduvo 100% ok
+
+- Asume que las fotos de "la cámara" tienen el formato ``IMG99999.JPG``, siendo los ``99999`` cinco dígitos cualesquiera. Si este no es tu caso, vas a tener que pedirme una mejora, o toquetear vos misma/o el código.
+
+- Tenés que tener `fades <https://fades.readthedocs.org/en/release-5/>`_ instalado, para que te maneje automágicamente las dependencias (`acá <http://www.taniquetil.com.ar/plog/post/1/700>`_ tenés una explicación al respecto). Si no querés instalar fades, arreglate.
+
+Enjoy.

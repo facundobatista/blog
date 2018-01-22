@@ -1,0 +1,43 @@
+2016-03-31 20:03:46
+PyCamp 2016
+python, evento
+
+Durante este finde largo de semana santa hicimos la `edición 2016 del PyCamp <http://python.org.ar/wiki/PyCamp/2016/>`_, el que para mí es el mejor evento del año.
+
+Se realizó nuevamente en La Serranita, un lugar muy lindo y muy cómodo, el Complejo Soles Blancos. A diferencia del año pasado, que fue en Agosto, esta vez a la noche sólo estuvo bastante fresco, :). Las tardes eran con un lindo calorcito, y las noches y madrugadas estaban fresconas, ideal para pasear por la calle o dormir!
+
+Como la vez pasada, hice Buenos Aires - Córdoba (Capital) en micro, y de ahí a La Serranita en auto (a la vuelta lo mismo). Es más, el trayecto de ida lo manejé yo (porque Pancho estaba rotazo), y la vuelta la hizo él, con lo que pude disfrutar más del paisaje.
+
+.. image:: http://www.taniquetil.com.ar/facundo/imgs/pycamp2016-vista.jpeg
+    :alt: Alta vista
+
+Como todos los PyCamps, este se dividió mucho entre lo que es Python propiamente dicho, y lo que son otras actividades. Arranquemos con lo que es programación propiamente dicho.
+
+El proyecto más largo en el que participé fue un `Tower Defense <https://github.com/PyAr/towerdefense-pycamp16>`_: el típico jueguito donde uno ubica torres que atacan un flujo de enemigos que se vienen encima, y en función de la habilidad de colocar qué torres y dónde, uno se defiende mejor o peor. La idea era no sólo diseñar y armar el juego, sino también crear una inteligencia artificial que aprendiera a ubicar las torres.
+
+En esto se anotaron casi todos, así que fue con lo primero que arrancamos. Lo más interesante fue la organización. En seguida separamos lo que es "core" de la "ai", y un grupo se quedó arriba y otro nos fuimos para la sala de abajo. No sé bien qué hicieron los de AI, arriba, pero abajo armamos entre todos la estructura básica del core, nos separamos en pequeños grupos, y atacamos todo el código en paralelo, charlando las interfaces/APIs a medida que íbamos agregando o solucionando cosas.
+
+Fue genial. El primer día ya teníamos como un 80% de lo que logramos finalmente, y luego seguimos trabajando. El producto fue un core a todo lujo, con gráficos y todo (usamos pyglet), más una inteligencia artificial que aprendía eficientemente a ubicar las torres. Impecable.
+
+.. image:: http://www.taniquetil.com.ar/facundo/imgs/pycamp2016-td.png
+    :alt: Screenshot del TD
+
+De los proyectos que llevaba yo, en el que más se enganchó la gente fue `fades <http://fades.readthedocs.org/>`_. Como con `Nico <https://twitter.com/gilgamezh>`_ tenemos los issues bien claritos y clasificados, los chicos encontraban enseguida algo para hacer. Metimos varios fixes y cerramos muchos issues, se avanzó bastante. También se anotaron varios para trabajar en la web de PyAr, se avanzó un poco, sobre problemas de formateo y links rotos (porque no existen, pero también porque apuntan mal internamente en el wiki). No hicimos tanto, quedó pendiente para seguir en otro momento. También otro grupo (principalmente `Matu Varela <https://twitter.com/matuvarela>`_, `Mati Barrientos <https://twitter.com/BarrientoMatias>`_ y `Toni <https://www.linkedin.com/in/ingjcabdala>`_) estuvieron con la integración del sitio de PyAr y unos bots de Telegram, que originalmente estaban planeados para desparramar info, pero sobre los cuales luego armaron esquemas de moderación de noticias, eventos y trabajos postulados.
+
+Con otros proyectos estuve también bastante tiempo, pero con menos gente. Para `Linkode <http://linkode.org/>`_ estuvimos charlando mucho con Mati Barrientos y `Pablo Celayes <https://twitter.com/PCelayes>`_, sobre los próximos planes a nivel de interfaz. Decidimos ir a algo como una "single page application" pero que apenas es tal, porque la interfaz de linkode es muy sencilla. Así y todo, la idea es que el "cliente web" use la API de linkode como cualquier otro cliente. Más allá de toda la charla y la decisión de cómo seguir para adelante, Matías va a estar liderando todo el lado "javascript" de linkode, metiendo código él y revisando/empujando el de otros.
+
+.. image:: http://www.taniquetil.com.ar/facundo/imgs/pycamp2016-trabajando.jpeg
+    :alt: Gente trabajando
+
+Para cerrar todo lo hecho, y el PyCamp en sí, hicimos un video! Jose Luis Zanotti tiene pendiente de editarlo y armarlo, así mostramos todo lo que hicimos en un par de días...
+
+Y por otro lado, hubieron varias actividades no relacionadas directamente con programar en Python.
+
+El más centralizadamente coordinado fue un torneo de `Tron <https://es.wikipedia.org/wiki/Armagetron_Advanced>`_, que ganó Jose Luis Zanotti Ya habíamos hecho algo parecido en el PyCamp de La Falda, hace varios años, y es notable como uno se engancha mirando a las personas que compiten y cómo juegan. También hubieron clases de sable, una tarde, y noches de juegos de mesa. Yo jugué dos veces al `Resistance <https://en.wikipedia.org/wiki/The_Resistance_%28game%29>`_, un juego donde (aunque tiene soporte de fichas y tarjetitas) lo importante es la interacción entre las personas y como todos se tratan de convencer entre todos de que no son nazis.
+
+La estrella de las actividades de "no programación" fue `la reunión de PyAr <http://www.python.org.ar/wiki/Eventos/Reuniones/2016/Reunion66>`_ (gracias Ariel por armar la minuta). Estuvo buenísima, por cuanto y cómo participaron todos. Charlamos de la próxima PyCon, de cómo venía el tema de la creación de la Asociación Civil, y también del PyCamp actual, y cosas que deberíamos mantener o mejorar. Luego de la reunión, un asadazo, que lo preparó (muy bien, como siempre), el anfitrión del complejo, Leandro.
+
+.. image:: http://www.taniquetil.com.ar/facundo/imgs/pycamp2016-reunión.jpeg
+    :alt: En la reunión
+
+Todas las fotos que saqué yo, `acá <https://www.flickr.com/photos/54757453@N00/albums/72157666336865262>`_.
