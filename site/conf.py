@@ -17,7 +17,7 @@ import time
 
 # Data about this site
 BLOG_AUTHOR = "Facundo Batista"  # (translatable)
-BLOG_TITLE = "Bitácora de vuelo"  # (translatable)
+BLOG_TITLE = "Bitácora de Vuelo"  # (translatable)
 # This is the main URL for your site. It will be used
 # in a prominent link. Don't forget the protocol (http/https)!
 SITE_URL = "http://beta.taniquetil.com.ar/"
@@ -1191,7 +1191,7 @@ SEARCH_FORM = """
     <input type="hidden" name="kt" value="h">
     <input type="text" name="q" maxlength="255"
     placeholder="Search&hellip;" class="span2" style="margin-top: 4px;">
-    <input type="submit" value="DuckDuckGo Search" style="visibility: hidden;">
+    <input type="submit" value="DuckDuckGo Search" style="display: none;">
 </form>
 <!-- End of custom search -->
  """ % SITE_URL
