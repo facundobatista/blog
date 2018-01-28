@@ -14,6 +14,7 @@ ${helper.twitter_card_information(post)}
         <h2 class="entry-title"><a href='${permalink}'>${title}</a></h2>
         
         <div class="archive-meta">
+            <span class="meta-sep">|</span>
             ${messages("Posted:")} <time class="published" datetime="${post.date.isoformat()}">${post.formatted_date(date_format)}</time>
             <span class="meta-sep">|</span>
             ${pheader.html_translations(post)}
@@ -30,8 +31,12 @@ ${helper.twitter_card_information(post)}
             ${post.text()}
         </div>
         <div class="entry-actions row fl-jus-end">
-            <a id="comments_link" href="#">Comments</a>
-            <a id="printer_friendly_link" href="#" onclick="switch_printer_friendly( false ); return false;">Print this page</a>
+            <a class="entry-actions-item" id="comments_link" href="#" title="Comentarios">
+                <img class="theme-icon" src="/assets/images/comment-icon.png" alt="Comentarios" />
+            </a>
+            <a class="entry-actions-item" id="printer_friendly_link" href="#" onclick="switch_printer_friendly( false ); return false;" title="Imprimir">
+                <img class="theme-icon" src="/assets/images/print-icon.png" alt="Imprimir" />
+            </a>
         </div>
     </div>
     ${helper.html_pager(post)}
