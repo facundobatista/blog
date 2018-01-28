@@ -1,0 +1,19 @@
+2016-07-13 01:03:06
+Europython, otra vez
+Python, viaje, conferencia, Bilbao
+
+La semana que viene se hace la mayor conferencia de Python de Europa, la Europython. Esta vez es en Bilbao.
+
+Es larga. El domingo hay un día de tutoriales y cursos para principiantes. La conferencia en sí es de lunes a viernes. Y sábado y domingo de la otra semana hay sprints. Pueden ver el `schedule online <https://ep2016.europython.eu/p3/schedule/ep2016/>`_.
+
+.. image:: http://www.taniquetil.com.ar/facundo/imgs/europython-2016-logo.png
+
+Lo que más me entusiasma de esta edición de la conferencia es que voy a ir, :). No es la primera vez que voy, sin embargo; vuelvo luego de once (sí, 11) años de ausencia!!
+
+No sé si me sorprende más eso o que mi blog ya es tan viejo que tengo registro de eso que pasó hace tanto: `en <http://www.taniquetil.com.ar/plog/post/1/55>`_ `estos <http://www.taniquetil.com.ar/plog/post/1/56>`_ `cuatro <http://www.taniquetil.com.ar/plog/post/1/58>`_ `posts <http://www.taniquetil.com.ar/plog/post/1/60>`_.
+
+Ahora que lo pienso, hace *años* que tampoco voy a una PyCon US (la default, digamos)...
+
+La frutilla del postre es que esta vez voy a presentar dos charlas, en dos idiomas. En castellano va mi repetidísima `Entendiendo Unicode <http://www.taniquetil.com.ar/homedevel/presents/unicode.odp>`_ (el público se renueva, me dicen algunos; dejá de robar, me dicen otros). Y en inglés la versión anglosajona de la charla que preparamos con `Joac <https://twitter.com/_joac>`_ para la PyCon pasada: `No es magia: Descriptores al desnudo <https://docs.google.com/presentation/d/1cSSwG_kpfg7DsvytUkhs_NPzcFZfOJ4Cj49LTKkKELM>`_.
+
+Ya les iré reportando como va todo :)
