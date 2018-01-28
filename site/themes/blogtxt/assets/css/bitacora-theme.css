@@ -73,7 +73,11 @@ div#footer .container {
   color: #b7b6b3;
 }
 div#footer .container #footer-title {
-  margin-top: 6px;}
+  margin-top: 6px;
+  display: flex;
+  align-items: center; 
+  justify-content: center; 
+}
 div#footer .container #footer-title a {
   color: #b7b6b3;
   border: none;}
@@ -81,13 +85,23 @@ div#footer .container #footer-title a {
   color: #a2a19e;
   border: none;}
 
+div#footer .container #footer-body {
+  padding-top: 1em;
+  justify-content: space-between;
+}
+
+div#footer #license-img {
+  height: 24px;
+  opacity: 0.8;
+}
+
 input[type="text"] {
   margin-top: 4px;
   border: 0;
   border-bottom: 1px solid #333333;
   font-family: "BitstreamCharter", serif;
   font-size: 18px;
-  color: #fdfdfd; }
+  color: #333333; }
   input[type="text"]:focus {
     outline: none !important;
     border-bottom: 1px solid #cf4a59; }
@@ -102,6 +116,22 @@ div#header {
   border-bottom: 1px solid #ebeae7;
   padding-top: 2em;
   padding-bottom: 1em; }
+@media (max-width: 768px) {
+  div#header {
+    padding: 1em;
+  }
+  #search-form {
+    margin-top: 1em;
+  }
+}
+
+#search-form {
+  align-items: center;
+}
+.search-icon {
+  height: fit-content;
+  margin-right: 5px;
+}
 
 div#header h1#blog-title {
   border: none;
@@ -122,6 +152,12 @@ div.theme_sidebar ul li h3 {
   margin-top: 0.5em;
   margin-bottom: 0;
   padding-left: 2px; }
+
+@media (max-width: 768px) {
+  div.hfeed {
+    margin: 0;
+  }
+}
 
 div.hfeed .entry-title,
 div.hfeed .page-title,
@@ -160,13 +196,17 @@ div.post:after {
   padding-top: 3em;
 }
 
-div.entry-meta {
+div.entry-meta, div.archive-meta {
   color: #cf4a59;
   font-size: 0.8em; }
 
 .entry-actions-item {
   margin: 0 8px;
   border: none !important;}
+.entry-actions-item img {
+  height: 24px;  
+  width: 24px;  
+}
 
 .tag-link {
   border-bottom: 1px solid #cf4a59;
@@ -220,6 +260,17 @@ div.theme_sidebar a:link {
 
 div.theme_sidebar a[id*="prop"] {
   border: none; }
+
+/* MODEL FOR TAB ACCORDION */
+/* <div class="tab">
+    <input id="aLink" class="tab-input" type="checkbox" name="tabs">
+    <label for="aLink" class="tab-label">
+        Label One
+    </label>
+    <div class="tab-content">
+        <p>Lorem ipsum dolor sit amet</p>
+    </div>
+</div> */
 
 .tab {
   position: relative;
@@ -288,3 +339,56 @@ input[type="checkbox"]:checked + label::before {
   color: #cf4a59; }
   .page-link.active:hover {
     color: #b6303f; }
+
+.pager {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.pager a{
+  font-weight: bold;
+  color: #cf4a59 !important;
+  border-bottom: none !important;
+  cursor: pointer;
+}
+.pager .previous a[rel="prev"]::before {
+  content: '〈 ';
+  color: #cf4a59;
+}
+.pager .next a[rel="next"]::after {
+  content: ' 〉';
+  color: #cf4a59;
+}
+
+@media (max-width: 768px) {
+  .pager .previous, .pager .next {
+    margin-bottom: 10px;
+  }
+  .pager .next {
+    width: 100%;
+    text-align: right;
+  }
+}
+
+ul.tags {
+  list-style: none;
+  color: #cf4a59;
+  font-size: 1em;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;}
+
+ul.tags li a {
+  font-size: 1em;
+  display: inline-block;
+  margin-right: 5px;}
+
+.tag.p-category{
+  border-bottom: none !important;
+  color: white !important;
+  background-color: #cf4a59;
+  padding: 0 0.5em;
+  border-radius: 0.5em;
+}

@@ -24,7 +24,8 @@ ${template_hooks['extra_head']()}
                 <h3 id="blog-author">
                     ${blog_author}
                 </h3>
-                <div id="search-form" class="pull-right">
+                <div id="search-form" class="row pull-right">
+                    <img class="search-icon" src="/assets/images/search-icon.png" alt="Search" />
                     ${search_form}
                 </div>
             </div>
@@ -79,12 +80,18 @@ ${template_hooks['extra_head']()}
     <div id="footer">
         <div class="container">
             <h3 id="footer-title">
-                <a href="rss.xml" title="Canal RSS">${blog_title}</a>
+                <a href="rss.xml" title="Canal RSS">
+                    ${blog_title} 
+                    <img class="theme-icon" src="/assets/images/rss-icon.png" />
+                </a>
             </h3>
-            <span id="theme-link"><a href="http://www.plaintxt.org/themes/blogtxt/" title="blog.txt theme for WordPress" rel="follow designer">blog.txt</a> 'theme by <span class="vcard"><a class="url fn n" href="http://scottwallick.com/" title="scottwallick.com" rel="follow designer"><span class="given-name">Scott</span><span class="additional-name"> Allan</span><span class="family-name"> Wallick</span></a></span></span>
-            <small>${content_footer}
-                    ${template_hooks['page_footer']()}
-            </small>
+
+            <div id="footer-body" class="row">
+                <img id="license-img" src="/assets/images/license.png" />
+                <img id="contact-img" src="/assets/images/contact.png" />
+                <p>Archivo</p>
+            </div>
+
         </div>
     </div><!-- #footer -->
 
