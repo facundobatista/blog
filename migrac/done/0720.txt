@@ -1,0 +1,35 @@
+2016-11-16 21:49:03
+Intenso fin de año (como siempre)
+actividades, cumpleaños, Felipe, Magicicada, PyCon, WDTV, vuelo, avioneta
+
+¿Cómo? ¿Qué el año no está terminando todavía? Bueno... el año termina durante octubre y noviembre, diciembre siempre está perdido (?).
+
+Las últimas semanas fueron intensas, lo cual se traduce en tener mil cosas atrasadas, incluyendo este blog.
+
+Pasaron varias cosas que ameritan un par de lineas.
+
+A principios de octubre fue el cumple de Felu, y siendo el primero con él en la primaria, cambió un poco la dinámica de siempre. Hicimos un salón compartido con otro compañero suyo que cumplía esos días, y obviamente fueron todos los compañeros de grado (y algunos de otros grados!). Luego, hicimos un asado en casa para toda la familia y amigos con niños más grandes.
+
+.. image:: http://taniquetil.com.ar/facundo/imgs/intenso2016q4-cumplefelu.jpeg
+    :alt: Siete
+
+A mitad de octubre tuve un viaje de laburo, pero este fue más largo que la típica semana de siempre. Fue de una semana y media, no es tanto, pero se nota al extrañar a la familia. Por suerte los chicos ya están más grandes y se bancan mejor mi ausencia, pero igual sufren un poquito :/. La vez anterior que tuve un viaje de más de una semana fue `hace mucho, mucho tiempo <http://www.taniquetil.com.ar/plog/post/1/412>`_. Fue en Holanda, que yo `ya conocía <http://www.taniquetil.com.ar/plog/post/1/29>`_... pero fue en La Haya, a donde nunca había ido :). `Fotos <https://www.flickr.com/photos/54757453@N00/albums/72157675866525135>`_.
+
+.. image:: http://taniquetil.com.ar/facundo/imgs/intenso2016q4-lahaya.jpeg
+    :alt: Típica callecita de La Haya
+
+.. image:: http://taniquetil.com.ar/facundo/imgs/intenso2016q4-amsterdam.jpeg
+    :alt: Casita en un canal de Amsterdam
+
+Otro tema que me tuvo bastante ocupado hace unas semanas, pero que voy a dedicar otro post, es que armé "una nube en casa". O sea, compré un hardware, le instalé `Magicicada <https://launchpad.net/magicicada>`_, y tengo mi propio server de sincronización de archivos :)
+
+Noviembre viene movidito, también. En un par de semanas está la `PyCon Argentina, esta vez en Bahía Blanca <http://ar.pycon.org/>`_. Ya reportaré sobre eso.
+
+Tengo que terminar de armar el reemplazo de mi muy usufructuado `WDTV <https://en.wikipedia.org/wiki/WD_TV>`_. Me compré una `Raspi 3 <https://es.wikipedia.org/wiki/Raspberry_Pi>`_ y le voy a poner `Kodi <https://kodi.tv/about/>`_.
+
+También estos días le regalé a mi viejo el regalo de los 70 (que cumplió hace un par de años ya), un vuelo "de bautismo" en una `avioneta <https://es.wikipedia.org/wiki/Piper_PA-28_Cherokee>`_, que era algo que él siempre quiso hacer. Lo disfrutó un montón, y yo también. Felipe, el tercer pasajero, disfrutó bastante el despegue, el paseo inicial, y el aterrizaje... en el medio se clavó una siesta, el atorrante.
+
+.. image:: http://taniquetil.com.ar/facundo/imgs/intenso2016q4-avionetando.jpeg
+    :alt: Antes de salir a volar
+
+En fin, pequeñas cosas, grandes cosas, muchas. El día tendría que tener 36 horas (e igual no alcanzaría :/ ).
