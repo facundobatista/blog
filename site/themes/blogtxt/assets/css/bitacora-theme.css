@@ -267,6 +267,15 @@ input[type="checkbox"] + label::before {
 input[type="checkbox"]:checked + label::before {
   transform: rotate(90deg); }
 
+/* MODEL PAGINATOR */
+/* <ul class="pagination">
+  <li class="page-link"> < </li>
+  <li class="page-link active"> 1 </li>
+  <li class="page-link"> 3 </li>
+  <li class="page-link"> ... </li>
+  <li class="page-link"> > </li>
+</ul> */
+
 .pagination {
   display: flex;
   padding-left: 0;
