@@ -1,26 +1,16 @@
-# -*- coding: utf-8 -*-
+#!/usr/bin/env fades
 
-# Blogger's backup file to WordPress' WXR converter for Disqus.
-#
-# Original script: https://gist.github.com/fajran/5659455
-#
-# Only tested with posts and comments, and NOT with pages.
-# May not be efficient for huge blogs since the script keeps
-# all content in the memory during conversion.
-#
-# Released as public domain.
-#
-# Required library: dateutil - https://labix.org/python-dateutil
-#
-# Usage: python blogger-to-disqus.py blogger.xml > output.xml
+"""
+To convert pickled comments from old version blog
+to a WXR format specify by Disqus service to import
+them into new version blog.
+"""
+
 
 import pickle
 import html
 from slugify import slugify   # fades python-slugify
 from html.parser import HTMLParser
-
-def d(*msg):
-    print(' '.join(map(str, msg)))
 
 class Blog(object):
     comments = 0
@@ -229,8 +219,7 @@ class WXRWriter(object):
 
 p = Parser("comments/comments-2.pkl")
 blog = p.parse()
-print("Encontrados: %d posts y %d comentarios"%(len(blog.posts), blog.comments))
-blog.print_authors()
+print("Converted: %d authors, %d posts y %d comments" % (len(blog.authors), len(blog.posts), blog.comments))
 
 writer = WXRWriter(blog)
 xml = writer.write()
