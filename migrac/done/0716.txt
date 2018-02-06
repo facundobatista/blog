@@ -1,45 +1,50 @@
 2016-08-18 15:07:19
 Terminator moralinesco
-<tags>
+películas, moral
 
 
-
-<em><strong>AVISO</strong>: el siguiente texto puede tener spoilers sobre las pelis de Terminator. Yo te avisé.</em>
+**AVISO**: *el siguiente texto puede tener spoilers sobre las pelis de Terminator. Yo te avisé.*
 
 No voy a entender nunca como en una película permiten violencia, violencia, violencia, violencia, violencia, y no un desnudo.
 
 Y no estoy hablando de sexo, estoy hablando de cuerpos desnudos. Y ni siquiera estoy hablando de una película para niños (que lo podríamos charlar), sino para adultos (toda esa violencia es inaceptable para niños).
 
-El caso puntual es <a href="http://www.imdb.com/title/tt1340138/">Terminator: Genisys</a>.
+El caso puntual es `Terminator: Genisys <http://www.imdb.com/title/tt1340138/>`_.
 
 Hay varias situaciones, varias, donde el desnudo sería natural. Me refiero a que no es como se ve mucho en esas pelis clase B donde el asesino en vez de matar a la chica durmiendo la mata en la ducha y aprovechan para mostrarla en tetas.
 
 No. En el caso de Terminator, el aparato que usan para moverse en el tiempo sólo lleva cosas cubiertas de material biológico (sí, la base científica de esto es discutible, pero ese es otro tema). Entonces, los humanos (todo biológicos) y robots (estructura artificial pero todos cubiertos de piel "viva") tienen que viajar desnudos.
 
-Por dicha razón, sucede que en <a href="http://www.imdb.com/title/tt0088247/">la Terminator original</a> sí se ve algo: por ejemplo el culo del terminator...
+Por dicha razón, sucede que en `la Terminator original <http://www.imdb.com/title/tt0088247/>`_ sí se ve algo: por ejemplo el culo del terminator...
 
-<img src="http://www.taniquetil.com.ar/facundo/imgs/t-orig-terminator.jpeg" alt="El terminator de 1984, desde atrás" height="271" width="500" />
+.. image:: http://www.taniquetil.com.ar/facundo/imgs/t-orig-terminator.jpeg
+    :alt: El terminator de 1984, desde atrás
 
 Pero vemos que en la nueva, que reproduce lo que pasó en la primera (con los cambios necesarios acorde a la vuelta de tuerca del guión), en la misma escena, ¡no muestra nada!
 
-<img src="http://www.taniquetil.com.ar/facundo/imgs/t-nueva-terminator.jpeg" alt="El terminator nuevo, desde atrás" height="253" width="600" />
+.. image:: http://www.taniquetil.com.ar/facundo/imgs/t-nueva-terminator.jpeg
+    :alt: El terminator nuevo, desde atrás
 
 También, en la original Kyle y Sarah se enamoran y tienen sexo (escenas muy ochentosas, pero con desnudos frontales de ambos). En la última los dos personajes se mantienen coqueteando pero sin concretar, prolijamente castos.
 
-<img src="http://www.taniquetil.com.ar/facundo/imgs/t-orig-sarah.jpeg" alt="Los Kyle y Sarah originales" height="271" width="500" />
+.. image:: http://www.taniquetil.com.ar/facundo/imgs/t-orig-sarah.jpeg
+    :alt: Los Kyle y Sarah originales
 
-En la última hay una chica con papel protagónico que viaja en el tiempo. Acá tenemos una situación donde un desnudo sería totalmente natural, y la cámara está "forzadamente alta".
+En la última hay una chica con papel protagónico que viaja en el tiempo. Acá tenemos una situación donde un desnudo sería totalmente natural, y la cámara está "forzadamente baja".
 
-<img src="http://www.taniquetil.com.ar/facundo/imgs/t-nueva-maquina.jpeg" alt="Cuidando la altura de la cámara" height="253" width="600" />
+.. image:: http://www.taniquetil.com.ar/facundo/imgs/t-nueva-maquina.jpeg
+    :alt: Cuidando la altura de la cámara
 
 Incluso, cuando termina ese viaje en el tiempo, al "llegar al futuro", aparecen en una autopista y casi los pasan por arriba, pero sí: el foco está en taparse, no vaya a ser cosa.
 
-<img src="http://www.taniquetil.com.ar/facundo/imgs/t-nueva-autopista.jpeg" alt="Apareciendo en la autopista" height="253" width="600" />
+.. image:: http://www.taniquetil.com.ar/facundo/imgs/t-nueva-autopista.jpeg
+    :alt: Apareciendo en la autopista
 
-Como vuelta de tuerca, ¿se podría argumentar que a <a href="http://www.imdb.com/name/nm3592338/">Emilia Clarke</a> le cueste o no quiera aparecer desnuda? No creo, muestra mucho más como <a href="http://www.imdb.com/character/ch0158597/">Daenerys Targaryen</a> en <a href="http://www.imdb.com/title/tt0944947/">Game of Thrones</a>.
+Como vuelta de tuerca, ¿se podría argumentar que a `Emilia Clarke <http://www.imdb.com/name/nm3592338/>`_ le cueste o no quiera aparecer desnuda? No creo, muestra mucho más como `Daenerys Targaryen <http://www.imdb.com/character/ch0158597/>`_ en `Game of Thrones <http://www.imdb.com/title/tt0944947/>`_.
 
 También podemos pensar que a una película le resulte más complicado distribuirse y hacerse disponible en muchos paises o lugares en función de si muestran una teta o no. Puede ser. Ahí volvemos a que "asusta" o "indigna" más una teta o un culo que gente matándose entre ellos. Y ni hablar de un pene o una vulva... la escena siguiente es de la peli nueva, pero en la vieja es igual...
 
-<img src="http://www.taniquetil.com.ar/facundo/imgs/t-nueva-frontal.jpeg" alt="El terminator, desde adelante" height="253" width="600" />
+.. image:: http://www.taniquetil.com.ar/facundo/imgs/t-nueva-frontal.jpeg
+    :alt: El terminator, desde adelante
 
-En fin, no entiendo. |
+En fin, no entiendo.

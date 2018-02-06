@@ -1,0 +1,54 @@
+2016-07-19 08:32:28
+Europython 2016, Bilbao
+viaje, conferencia, Python
+
+
+Aeropuertos
+-----------
+
+Estuve cinco horas en el aeropuerto de Río de Janeiro. La comida más elaborada que encontré en las dos terminales fueron sánguches de Subway y panchos. No, gracias.
+
+El aeropuerto de Lisboa, por otro lado, era inmenso y tenía mil locales de comida. Eso sí, ni un cartel de "Bienvenido a Portugal" o similar, que busqué para mandarle foto a los peques...
+
+El único aeropuerto con wifi libre era Aeroparque, en Argentina. El de Río y Lisboa tenían redes que podías usar si tenías contratos con empresas de ahí. En el de Bilbao también pude conseguir internet, luego de registrarme en una página que le fallaba el certificado SSL :/; pero bueno, me sirvió para avisarle a Moni que había llegado bien.
+
+
+Bilbao
+------
+
+Luego de llegar a donde me hospedé, me pegué un baño y salí a pegar una vuelta (eran las siete y media de la tarde, así que tenía todavía más de dos horas de luz). Algo que me llamó la atención es que la gente, en los barcitos, agarran su cerveza o vino y salen a tomarlo a la calle (el clima estaba hermoso), así que veías un montón de gente súper empilchada, con sus copas de tinto o blanco, sentados en los muchos banquitos que hay por todos lados...
+
+Yo me metí un un bar que pintaba lindo, me tomé un par de cervezas con un par de pinchos, y luego arranqué la vuelta. No me fui a dormir demasiado tarde (antes de las doce y media), y habiendo dormido un poco en los dos vuelos cortos, y casi cinco horas en el vuelo largo, no esperaba dormir tanto: me levanté a la una y pico de la tarde!! Parece que el truco de no poner despertador, un oscuro casi absoluto, y no estar pendiente de niños, le aportaron mucho a lo cansadísimo que había llegado al fin de semana...
+
+.. image:: http://www.taniquetil.com.ar/facundo/imgs/ep2016-guggenheim-puppy.jpeg
+    :alt: Parte del Guggenheim a la izquierda, el Puppy a la derecha
+
+Así que me levanté, desayuné y salí a pasear. Me tomé el metro y me fui para el casco viejo, hice un par de recorridos, saqué un par de fotos, y un par de horas después encaré para uno de los edificios de la conferencia donde se hacía el Django Girls, a saludar conocidos.
+
+Al rato me fui para el edificio principal de la conferencia, donde desde media tarde ya uno se podía registrar, así hacía el trámite el domingo, y de paso encontraba bien el edificio, sabía por donde entrar, etc.
+
+Ahí me encontré con gente que no conocía personalmente pero sí de redes sociales virtuales, estuvimos charlando un rato y después con `Juan Luis Cano <https://twitter.com/astrojuanlu>`_, `Yamila Moreno <https://twitter.com/yamila_moreno>`_ y otra gente fuimos caminando hasta un funicular, con el que subimos una montaña para mirar la ciudad de arriba.
+
+.. image:: http://www.taniquetil.com.ar/facundo/imgs/ep2016-bilbaoaltura.jpeg
+    :alt: Desde lo alto
+
+Después nos fuimos a cenar con otra gente a un restaurant bastante piola, comimos rico. Y ya se hicieron las doce, así que volví a donde me hospedé, revisé un rato la charla del lunes, y a dormir!
+
+
+Primer día de conferencia
+-------------------------
+
+Es el día que más charlas tenía marcada. Hubo una plenaria apenas interesante sobre la base de "podés ganar plata haciendo lo que quieras, no tengas miedo de probar", y luego me fuí a una charla de Efficient Django, de la cual me anoté algunos puntos a investigar. Después fui a una charla que mostraba como realmente funciona mezclar AsyncIO y Cython, logrando código asincrónico rapidísimo, y después me tocó a mí.
+
+Yo dí `It's not magic: descriptors exposed <https://docs.google.com/presentation/d/1cSSwG_kpfg7DsvytUkhs_NPzcFZfOJ4Cj49LTKkKELM/edit?usp=sharing>`_, la que preparamos con Joac y dimos en la PyCon de Mendoza, pero en inglés. Es una charla difícil, pero creo que la gente se va con info nueva. Hubieron varias preguntas, y luego se me acercaron en los pasillos para seguir charlando del tema, y también me saludaron un par de veces para decirme que la charla les había gustado, así que estoy contento con como salió.
+
+A la tarde estuvo más tranquilo. Una charla que me gustó bastante fue la The Report of Twisted's Death, dada por `Amber Brown <https://github.com/hawkowl>`_, una Twisted core developer (y también release manager) que contó en qué estaban, los planes con respecto a asyncio, qué pasaba con Tornado, etc.
+
+.. image:: http://www.taniquetil.com.ar/facundo/imgs/ep2016-general.jpeg
+    :alt: An open space in the conference
+
+También me enganché con unos acertijos que te daban en una empresa, algo estilo el `pythonchallenge <http://www.pythonchallenge.com/>`_, donde resolver un problema te da la info para encontrar el próximo, y así. La realidad es que era medio buggy, en el segundo acertijo al flaco le marqué dos bugs, y en el último caso le dije que no se podía resolver, y lo hostigué hasta que me pasó la solución y le mostré como no había forma de llegar, :). Así que me gané el premio (una boludez, un hub usb), más que nada por mostrarles a ellos dónde tenían el problema :p.
+
+Como frutilla del postre de la tarde, nos regalaron a todos los asistentes una `micro:bit <https://www.microbit.co.uk/>`_!!! Si no la conocen, una micro:bit es una pequeñísimo hardware que corre Python, que la BBC le regaló a todos los estudiantes de 7 años en el Reino Unido para que jueguen y aprendan. Ahora tengo que ver qué cosas se puede hacer para ponernos con Felipe :D (aunque creo que es un poco más para el año que viene...).
+
+Luego vinieron las lightning talks, y ya se terminó el día!
