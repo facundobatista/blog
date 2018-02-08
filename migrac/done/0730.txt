@@ -1,0 +1,74 @@
+2017-04-05 16:57:03
+PyCamp 2017, en Baradero
+Python, evento, jazz, proyectos
+
+
+¡Otra vez un PyCamp relativamente cerca de casa! Eso me permitió ir en auto. Bah, fuimos en auto, Diego, Nico, Edu y yo. Salimos tempranito y a eso de las nueve ya estábamos ahí.
+
+Las primeras dos horas las pasamos armando toda la infraestructura: fue colgar la bandera, poner las Antenas Sable Láser, configurar la red con el router nuevo, preparar los badges y otros pequeños souvenirs, hacer mate, etc, etc.
+
+A las once y media arrancamos la gran charla introductoria, que era muy necesaria porque este Pycamp era el primero para un montón de los asistentes. Y a continuación de la misma presentamos todos los proyectos que llevamos y votamos más o menos en cuales nos gustaría participar.
+
+Luego el primer almuerzo, y ya arrancamos el PyCamp a todo motor.
+
+.. image:: http://www.taniquetil.com.ar/facundo/imgs/pycamp17-trabajando1.jpeg
+    :alt: Algunos trabajando, otros en un curso superbásico inicial
+
+.. image:: http://www.taniquetil.com.ar/facundo/imgs/pycamp17-trabajando2.jpeg
+    :alt: Trabajando a la sombrita
+
+Yo participé en varios proyectos, pero el fuerte del tiempo lo puse en estos tres:
+
+- `Linkode <http://linkode.org/>`_: aprovechando que estábamos cara a cara, estuvimos pensando con Mati Barriento mucho en un cambio muy grande que estamos haciendo, lo que nos llevó a un refactor de la base de datos, con migración de información que la hicimos el último día en producción. Mucho laburo puesto en esto, que nos dejó un modelo más simple y el código listo para la próxima gran mejora, que es la renovación de como manejamos el lado del cliente.
+
+- `Fades <http://fades.readthedocs.io/>`_: Gilgamezh y yo laburamos bastante también acá. Él estuvo principalmente con el video instructivo que armamos el año pasado y necesitaba mucha edición, y con mucha ayuda de Marian lograron un resultado bárbaro, que `pueden ver acá <https://www.youtube.com/watch?v=BCTd_TyCm98>`_. En el proyecto en sí yo metí dos fixes pequeñitos, y estuve ayudando y haciendo reviews a dos branches de Juan y Facundo (otro, no yo).
+
+- `Recordium <https://github.com/facundobatista/recordium>`_: acá no hicimos mucho, pero conté de qué iba el proyecto y ahí surgieron varias pequeñas mejoras para hacer, incluso para la GUI final a la que apuntar. Y también tocamos un tema de seguridad, donde Matías nos contó qué detalle habría que mejorar para que no nos puedan "inyectar" mensajes.
+
+.. image:: http://www.taniquetil.com.ar/facundo/imgs/pycamp17-trabajando3.jpeg
+    :alt: Laburanding
+
+.. image:: http://www.taniquetil.com.ar/facundo/imgs/pycamp17-exterior1.jpeg
+    :alt: Charlando diseño y aprendiendo malabares
+
+Pero aparte de los proyectos en sí, también tuvimos un campeonato de ping pong (pasé la primera ronda, pero luego perdí un partido de la segunda ronda y quedé afuera), pileta (me metí y todo), hicimos la foto grupal de siempre, un partidito de fútbol (sobre pasto, ¡en patas!), un asado, la típica reunión de PyAr integrada al Pycamp, y mucha, mucha charla con diferentes grupos, viendo qué hacían, tratando de tirar alguna idea o aplicar alguna experiencia.
+
+.. image:: http://www.taniquetil.com.ar/facundo/imgs/pycamp17-grupal.jpeg
+    :alt: La grupal
+
+Como actividades fuera del predio, tuvimos un paseo guiado una mañana (con guia y todo, que nos contó muchísimo del pasado y presente de Baradero y alrededores), y un festival de jazz una noche (muy lindo, y la gente de donde nos hospedábamos se copó y nos armó una vianda así los que íbamos al festival cenábamos allá).
+
+El último día también hicimos (como queremos que se haga costumbre) un video donde todos los que empujamos algún proyecto pasamos y contamos qué se hizo. Está muy bueno a nivel resumen para los que estuvimos ahí y como registro para los que no pudieron ir (y que quede a futuro). Mil gracias a José Luis que siempre se copa con la edición del video final.
+
+.. image:: http://www.taniquetil.com.ar/facundo/imgs/pycamp17-paseo1.jpeg
+    :alt: Caminando por Baradero
+
+.. image:: http://www.taniquetil.com.ar/facundo/imgs/pycamp17-paseo2.jpeg
+    :alt: Festival de Jazz
+
+Un punto aparte para lo que fue el "lugar" del PyCamp. Mucho verde a metros nomás de donde estábamos trabajando, que era un salón grandote donde entrábamos relativamente cómodos (aunque en el día a día siempre había grupos laburando en lo que era el comedor y/o al aire libre). Las habitaciones estaban bien (considerando que eran grupales) y los baños limpios. La comida bárbara, incluyendo el asado, y un lujo todas las preparaciones especiales para gente vegetariana, con dietas raras, alergias, etc (les estuve preguntando a varios y todos comentaron que estuvo perfecto). Hasta la internet, anduvo...
+
+En fin, pasó otro PyCamp. Yo siempre digo que es el mejor evento del año, y este no fue la excepción. Es más, esta edición, la 10°, fue uno de los mejores PyCamps!
+
+.. image:: http://www.taniquetil.com.ar/facundo/imgs/pycamp17-exterior2.jpeg
+    :alt: Clases de espadas
+
+.. image:: http://www.taniquetil.com.ar/facundo/imgs/pycamp17-exterior3.jpeg
+    :alt: El parque y la pileta
+
+PD: charlando sobre que era la décima edición, nos anotamos cuales habían sido hasta ahora, lo dejo acá como registro...
+
+::
+
+    2008  Los Cocos, Córdoba
+    2009  Los Cocos, Córdoba
+    2010  Verónica, Buenos Aires
+    2011  La Falda, Córdoba
+    2012  Verónica, Buenos Aires
+    2013  Villa Giardino, Córdoba
+    2014  Villa Giardino, Córdoba
+    2015  La Serranita, Córdoba
+    2016  La Serranita, Córdoba
+    2017  Baradero, Buenos Aires
+
+PD2: fotos! `las mías <https://www.flickr.com/photos/54757453@N00/albums/72157680208454491>`_ y `las que sacó Yami <https://www.flickr.com/photos/70871182@N04/sets/72157682222485075>`_ (casi fotógrafa oficial del evento).
