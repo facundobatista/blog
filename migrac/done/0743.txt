@@ -1,20 +1,19 @@
 2017-08-16 01:28:04
 Dos experiencias nuevas
-<tags>
-
-
+Consultorio, Python, Onapsis, elecciones
 
 Por un lado, el miércoles 9 pasado hicimos un evento de PyAr (en oficinas de Onapsis) que nunca habíamos hecho antes: un Consultorio Python.
 
-Coorganizado por <a href="https://twitter.com/gilgamezh">Nico</a> y yo, la idea era replicar de forma personal un poco lo que sucede en el canal de IRC día a día: que alguien venga con una duda o consulta y que algunos que saben más o tienen más experiencia piensen un rato para resolver la inquietud.
+Coorganizado por `Nico <https://twitter.com/gilgamezh>`_ y yo, la idea era replicar de forma personal un poco lo que sucede en el canal de IRC día a día: que alguien venga con una duda o consulta y que algunos que saben más o tienen más experiencia piensen un rato para resolver la inquietud.
 
 Parte de la gracia era no sólo solucionar el problema, sino también que gente más nueva vea que hacerlo "no es magia", sino que todos buscamos en internet, todos hacemos razonamientos esquivos, todos vamos elaborando la respuesta, y así...
 
 Estuvo muy bueno. La gente se animó a participar, fuimos pensando distintos problemas que nada que ver entre uno y otro, etc. Y todo mientras comíamos sanguchitos y tomábamos unas cervezas, cortesía de Onapsis (¡gracias!). Fue divertido, y el feedback de la gente también estuvo bien, les gustó.
 
-Fotito que <a href="https://twitter.com/chechuriva/status/895420663481065472">tuiteó Chechu</a>:
+Fotito que `tuiteó Chechu <https://twitter.com/chechuriva/status/895420663481065472>`_:
 
-<img src="http://www.taniquetil.com.ar/facundo/imgs/dosexp-consultoriopython.jpg" alt="Consultorio Python" width="600" height="600" />
+.. image:: http://www.taniquetil.com.ar/facundo/imgs/dosexp-consultoriopython.jpg
+    :alt: Consultorio Python
 
 Por otro lado, el domingo pasado en las PASO fui por primera vez autoridad de mesa en una elección. Presidente de mesa, incluso.
 
@@ -26,7 +25,8 @@ Abrí la urna, que contenía una caja con útiles y planillas varias. Preparé e
 
 Luego preparé el padrón principal, más otro para control, y le dí uno de control a la fiscal. Hice el acta de apertura a las ocho de la mañana, y voté :). Fue muy loco, me firmé mi propio comprobante :p.
 
-<img src="http://www.taniquetil.com.ar/facundo/imgs/dosexp-comprobante.jpg" alt="Mi comprobante de que voté, firmado por mí :p" width="600" height="267" />
+.. image:: http://www.taniquetil.com.ar/facundo/imgs/dosexp-comprobante.jpg
+    :alt: Mi comprobante de que voté, firmado por mí :p
 
 Luego, empezó a venir la gente, de forma lenta. Pero a eso de las nueve empezaron a venir más. Y ahí nomás ya nos saturamos: desde la 9:30 a las 15hs no paramos nunca. Por suerte con la fiscal (y con otro que la vino a reemplazar una media hora mientras ella iba a votar a otro lado) tuvimos una buena dinámica y no teníamos tiempos muertos (las esperas eran en gran parte por los que tardaban adentro del cuarto oscuro).
 
@@ -42,7 +42,8 @@ Ya con todos los sobres abiertos, empecé a contar lista por lista todas las bol
 
 Para terminar sumamos todo, casillero por casillero (un fiscal con calculadora, pero yo terminaba antes mentalmente y veía que estuviera bien). Y sumamos todas las columnas. Y nos dio redondito redondito :D.
 
-<img src="http://www.taniquetil.com.ar/facundo/imgs/dosexp-votos.jpg" alt="Planilla con los totales de votos" width="600" height="450" />
+.. image:: http://www.taniquetil.com.ar/facundo/imgs/dosexp-votos.jpg
+    :alt: Planilla con los totales de votos
 
 Ahí empezaron todos a llenar sus planillas. Y yo también: el acta de escrutinio, el certificado de escrutinio, y el telegrama. Y empezar a acomodar todas las cosas (que se entregan al correo de forma muy predeterminada). Luego firmas por todos lados (yo como presidente de mesa a todo lo que hice yo e hicieron los fiscales, y ellos también entre sí y a lo que llené yo), y terminar de irnos.
 
@@ -50,4 +51,4 @@ Salí de la esuela a las nueve de la noche. Muerto de cansancio, pero contento, 
 
 Debo admitir que no vi ni una actitud sospechosa de parte de los fiscales, en ningún momento. Eso sí, siempre los mantuve "a raya" y no dejaba que se metieran en cosas que me parecían que tenía que resolver yo y sobre las que tenía que confiar yo en el resultado. Aunque tardáramos (especialmente en el recuento de votos).
 
-En Octubre repito, ya en la elección "real", aprovechando toda la experiencia que gané :D |
+En Octubre repito, ya en la elección "real", aprovechando toda la experiencia que gané :D
