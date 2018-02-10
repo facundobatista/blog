@@ -16,6 +16,7 @@ nikola/
 site/output/
 site/cache/
 site/.doit.db
+*.wxr 
 *.egg-info/
 .installed.cfg
 *.egg
