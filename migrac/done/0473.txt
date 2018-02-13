@@ -30,7 +30,7 @@ Obviamente no iba a ejecutar esos dos comandos uno por uno para cada imagen, as�
     for foto in `find -name "????.jpg"`; do
        echo $foto;
        convert $foto -thumbnail '200x200>' -unsharp 0x.5 $foto.thumb;
-       exiftool '-ThumbnailImage&lt;='$foto.thumb $foto;
+       exiftool '-ThumbnailImage<='$foto.thumb $foto;
     done;
 
 Basicamente, un loop sobre todas los archivos, haciendo un ``echo`` para ver qué procesaba, más los dos comandos anteriores.

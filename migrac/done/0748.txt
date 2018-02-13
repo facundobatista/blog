@@ -41,10 +41,10 @@ El cuerpo de la función es sencillo también. Primero definimos 'source' (el st
         char * source;
         long res;
 
-        if (!PyArg_ParseTuple(args, "s", &amp;source))
+        if (!PyArg_ParseTuple(args, "s", &source))
             return NULL;
 
-Finalmente llamamos a <span style="font-family: courier new,courier;">IsValid</span> (la función en Go), y a ese resultado lo convertimos en un objeto de Python tipo <span style="font-family: courier new,courier;">bool</span>, que es lo que realmente devolvemos::
+Finalmente llamamos a ``IsValid`` (la función en Go), y a ese resultado lo convertimos en un objeto de Python tipo ``bool``, que es lo que realmente devolvemos::
 
         res = IsValid(source);
         return PyBool_FromLong(res);

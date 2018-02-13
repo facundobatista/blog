@@ -6,7 +6,7 @@ Siempre que hablamos de diversidad sale el tema de ayudar a principiantes, de ba
 
 PyCamp es uno de esos eventos en los que un principiante puede tomar velocidad y salir, en cuatro días, con una experiencia grosa, habiendo trabajado codo a codo con desarrolladores "seniors", y todo en un ambiente divertido. Más info sobre el PyCamp 2012 `acá <http://python.org.ar/pyar/PyCamp/2012>`_.
 
-Pero hay que animarse a venir al PyCamp. Y se escucha muchas veces razones como las siguientes...</p>
+Pero hay que animarse a venir al PyCamp. Y se escucha muchas veces razones como las siguientes...
 
 - "Pero yo sé muy poco de Python, apenas estoy empezando"
 

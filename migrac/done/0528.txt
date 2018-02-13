@@ -89,7 +89,7 @@ Presten atención a los comandos que ejecutan, especialmente a los cambios de ".
 
 - Actualizar el ``PPA`` (se puede crear el ``PPA`` desde tu página personal de Launchpad)::
 
-    dput ppa:&lt;nombre_de_ppa_que_corresponda> tuproyecto_X.Y.Z-0ubuntu1_source.changes
+    dput ppa:<nombre_de_ppa_que_corresponda> tuproyecto_X.Y.Z-0ubuntu1_source.changes
 
 - Luego de unos minutos, debería aparecer acá::
 

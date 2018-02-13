@@ -22,6 +22,6 @@ Bajé las fuentes limpias del paquete (``apt-get source python-fuse``). Hice est
 
 Ya con las fuentes modificadas, armé los archivos de control y paquete como para subir, lo que se hace con la orden ``debuild --no-tgz-check -S``. Para saber que está todo bien, y que todo lo que armé se va a instalar bien, fui al directorio superior (donde antes tenía las fuentes, y ahora dejados por la orden anterior, nuevos archivos de control), y usamos un programita que arma un root falso e instala todo lo que tiene que instalar para ver que nuestro paquete se acopla bien al resto del sistema: ``sudo pbuilder --build *.dsc``.
 
-Finalmente, para subir el paquete al Launchpad: ``dput -f &lt;host> *.changes``.
+Finalmente, para subir el paquete al Launchpad: ``dput -f <host> *.changes``.
 
 Luego, lo dejé reposar algunas horas a fuego lento, y al rato Ubuntu nos indica que hay una actualización disponible, y es efectivamente este paquete, :)

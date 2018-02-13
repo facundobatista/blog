@@ -40,7 +40,7 @@ Vistas:
 Se me ocurrió fijarme no sólo cuantas películas tenía pendientes, sino la distribución en función de *cuándo* las anoté para verlas. Me quedó un ejemplo tan útil de lo sencillo que es Python para tirar esas 10 lineas que le permiten a uno encontrar lo que está buscando sin tener que complicarse la vida. ¡Ni siquiera tuve que hacer un programa! Directamente use el intérprete interactivo, abrí el archivo mío de películas, con una expresión regular saqué ese cuando de cada linea que correspondía, y los conté usando un diccionario::
 
     >>> import re
-    >>> coinc = re.compile(".*&lt;i>((.*))&lt;/i>.*")
+    >>> coinc = re.compile(".*<i>((.*))</i>.*")
     >>> resum = {}
     >>> for linea in open("peliculas.html"):
     ...     m = coinc.match(linea)
