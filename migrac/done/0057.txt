@@ -2,10 +2,9 @@
 Películas y configuración
 películas, vim, configuración
 
-  Batman begins: +1
-  Be cool: +0
+- Batman begins: +1
 
---------------
+- Be cool: +0
 
 Me cansé de medio configurar **vim** cada vez que estoy en una máquina diferente, así que preparé la configuración que me gusta, la copio acá, y luego ya la tengo. Lo siguiente va en el archivo de configuración local de **vim** (en Ubuntu es el ``/etc/vim/vimrc.local``).::
 

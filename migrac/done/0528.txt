@@ -19,11 +19,11 @@ Quizás necesiten instalar algunas dependencias (por ejemplo: ``bzr``, ``bzrtool
 
 - Tener un entorno pbuilder configurado /para cada distro/ a la que quieran apuntar (en este ejemplo, usé 'maverick', reemplacen apropiadamente):
 
-   - crear un symlink en algún lado de vuestro PATH llamado ``pbuilder-maverick``, apuntando a ``/usr/bin/pbuilder-dist``
+    - crear un symlink en algún lado de vuestro PATH llamado ``pbuilder-maverick``, apuntando a ``/usr/bin/pbuilder-dist``
 
-   - en algún lado dentro del home (por ejemplo, en un directorio ``~/pbuilder``), ejecuten: ``pbuilder-maverick create``
+    - en algún lado dentro del home (por ejemplo, en un directorio ``~/pbuilder``), ejecuten: ``pbuilder-maverick create``
 
-   - regularmente (o antes de armar un paquete), actualicen el entorno de pbuilder con: ``pbuilder-maverick update``
+    - regularmente (o antes de armar un paquete), actualicen el entorno de pbuilder con: ``pbuilder-maverick update``
 
 Por último: sí, estos pasos están fuertemente orientados a usar `bazaar <http://bazaar.canonical.com/en/>`_ en todo el proceso. Es lo que hay :)
 
@@ -62,21 +62,21 @@ Presten atención a los comandos que ejecutan, especialmente a los cambios de ".
 
 - Editar el changelog con: ``EDITOR=vim dch`` (yo tiendo a poner las release notes aquí)
 
-  - Agregar lineas de changelog
+    - Agregar lineas de changelog
 
-  - Agregar un ``-0ubuntu1`` al nro de versión entre paréntesis
+    - Agregar un ``-0ubuntu1`` al nro de versión entre paréntesis
 
 - Archivos necesarios para Debian (tocar como dice acá o traer intactos de otro packaging que se haya hecho antes):
 
-  - agregar un directorio ``source`` adentro del dir ``debian``, y poner en ese nuevo directorio un archivo ``format`` con el siguiente contenido::
+    - agregar un directorio ``source`` adentro del dir ``debian``, y poner en ese nuevo directorio un archivo ``format`` con el siguiente contenido::
 
         3.0 (quilt)\n
 
-  - confirmar que las dependencias sean las correctas en el archivo ``debian/control``
+    - confirmar que las dependencias sean las correctas en el archivo ``debian/control``
 
-  - modificar ``debian/copyright`` como corresponda
+    - modificar ``debian/copyright`` como corresponda
 
-  - crear un archivo ``debian/watch`` con el siguiente contenido::
+    - crear un archivo ``debian/watch`` con el siguiente contenido::
 
         version=3
         http://launchpad.net/tuproyecto/+download .*/tuproyecto-([\d.]+)\.tar\.gz
