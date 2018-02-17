@@ -45,19 +45,19 @@ class StaticLinks(Task):
         with open(config["input_file"], "r") as fb:
             data = yaml.load(fb.read())
 
-        html_out = [config["first_line"]]
+        html_out = []
 
         for el in data:
-
-            category = el[0]
             items = sorted(el[1], key=lambda links: links["data"])
-            html_out.append(config["template_category"].format(category))
+            html_content = []
             for item in items:
-                html_out.append(config["template_item"].format(**item))
-        html_out.append(config["last_line"])
+                html_content.append(config["template_item"].format(**item))
+            html_out.append(config["template_category"].format(
+                title=el[0],
+                content="\n".join(html_content)))
 
         with open(destination, "wt", encoding="utf8") as destination_file:
-            destination_file.write("\n".join(html_out))
+            destination_file.write(config["template"].format("\n".join(html_out)))
 
     def _gen_html_task(self, config):
         """Generate task to generate html."""

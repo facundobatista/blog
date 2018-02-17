@@ -1438,8 +1438,7 @@ PROPAGANDA = {
 STATIC_LINKS = {
     "input_file": "links.yml",
     "output_file": "static_links.html",
-    "first_line": "<div>",
-    "last_line": "</div>",
-    "template_category": "<h2>{}</h2>",
-    "template_item": '<a href="{href}" title="{title}">{data}</a>'
+    "template": "<div>{}<div>",
+    "template_category": "<h2>{title}</h2><ul>{content}</ul>",
+    "template_item": '<li><a href="{href}" title="{title}">{data}</a></li>'
 }
