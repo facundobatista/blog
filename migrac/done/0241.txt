@@ -2,7 +2,7 @@
 San Pablo
 viaje, brasil, aeropuerto, wifi, espera
 
-O, cómo lo escribirían aquí, <a href="http://es.wikipedia.org/wiki/S%C3%A3o_Paulo">São Paulo</a>.
+O, cómo lo escribirían aquí, `São Paulo <http://es.wikipedia.org/wiki/S%C3%A3o_Paulo>`_.
 
 Estoy en Brasil esta semana, sí. Por trabajo. Salí de casa el lunes a la mañana, el viernes a la noche estoy en casa nuevamente.
 

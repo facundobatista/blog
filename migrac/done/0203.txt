@@ -2,7 +2,7 @@
 Lo de Cuba es cosa nuestra
 cuba, artículo, aliverti
 
-*Este artículo de **Eduardo Aliverti** fue <a href="http://www.pagina12.com.ar/diario/elmundo/subnotas/71090-23091-2006-08-07.html">publicado</a> por Página 12 el 7 de Agosto. Cuando lo leí, me asombró que el artículo me despejara tan específicamente algunas dudas que tenía. Entonces, con permiso del autor (¡gracias!), lo reproduzco acá.*
+*Este artículo de **Eduardo Aliverti** fue `publicado <http://www.pagina12.com.ar/diario/elmundo/subnotas/71090-23091-2006-08-07.html>`_ por Página 12 el 7 de Agosto. Cuando lo leí, me asombró que el artículo me despejara tan específicamente algunas dudas que tenía. Entonces, con permiso del autor (¡gracias!), lo reproduzco acá.*
 
 El periodista piensa, sólo, en esa gente (la mayoría, es probable) que no termina de desentrañar de qué lado ponerse.
 

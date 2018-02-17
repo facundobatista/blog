@@ -1,0 +1,131 @@
+2017-10-09 18:20:23
+Usando Go desde Python
+compilar, módulo
+
+¿Alguna vez necesitaron usar un código de `Go <https://golang.org/>`_ desde `Python <http://python.org/>`_? Yo sí, y acá cuento qué hice.
+
+Antes que nada, un poco de background, para que el ejercicio no sea demasiado teórico: en el laburo tenemos que validar las licencias que se incluyen en el `.snap <https://en.wikipedia.org/wiki/Snappy_(package_manager)>`_, y aunque el formato en que están sería estándar (`SPDX <https://spdx.org/licenses/>`_), una condición de contorno es usar el mismo parser/validador que se usa en snapd, para estar 107% seguros que el comportamiento va a ser el mismo hasta en los corner cases o bugs.
+
+El detalle es que `snapd <https://github.com/snapcore/snapd>`_ está escrito en Go, y el `server <https://launchpad.net/software-center-agent>`_ está escrito en Python. Entonces tengo que compilar ese código en Go y usarlo desde Python... de allí este post, claro.
+
+Es más fácil de lo que parece, ya que el compilador de Go tiene la capacidad de buildear a "biblioteca compartida", y de ahí usarlo desde Python es casi trivial ("casi", porque tenemos que poner algo de código en C).
+
+Para ser más claro, si queremos ejecutar "la lib de SPDX hecha en Go" desde nuestro Python, tenemos que poner dos componentes, que funcionan casi de adaptadores:
+
+- Un pequeño código en C para armar "como módulo" una funcioncita que recibe y entrega objetos Python, y hace la traducción al "mundo C" y llama a otra función en Go.
+
+- Un pequeño código en Go que traduce los parámetros desde C y llama a la biblioteca SPDX correspondiente.
+
+
+Adaptador de Python a C
+-----------------------
+
+El archivo completo es `spdx.c <http://www.taniquetil.com.ar/facundo/pygo/spdx.c>`_, paso a explicarlo haciendo antes la aclaración que es para Python 2 (que es lo que tenemos hoy en ese servicio), pero si fuera para Python 3 sería muy parecido (la idea es la misma, cambian algunos nombres, `revisen acá <https://docs.python.org/3/extending/extending.html>`_).
+
+Antes que nada, incluir la lib de Python::
+
+    #include <Python.h>
+
+Vamos a llamar a una función de Go, necesitamos explicitar lo que va recibir (una cadena de bytes, que a nivel de C es un puntero a chars)  y lo que nos devuelve (un número, que interpretaremos como bool)::
+
+    long IsValid(char *);
+
+Definimos la función que vamos a llamar desde Python... es sencilla porque es genérica, recibe self y argumentos, devuelve un objeto Python::
+
+    static PyObject *
+    is_valid(PyObject *self, PyObject *args)
+
+El cuerpo de la función es sencillo también. Primero definimos 'source' (el string con la licencia a validar) y 'res' (el resultado), luego llamamos a ``PyArg_ParseTuple`` que nos va a parsear 'args', buscando una cadena ('s') la cual va a poner en 'source' (y si algo sale mal nos vamos enseguida, para eso está el 'if' alrededor)::
+
+    {
+        char * source;
+        long res;
+
+        if (!PyArg_ParseTuple(args, "s", &source))
+            return NULL;
+
+Finalmente llamamos a ``IsValid`` (la función en Go), y a ese resultado lo convertimos en un objeto de Python tipo ``bool``, que es lo que realmente devolvemos::
+
+        res = IsValid(source);
+        return PyBool_FromLong(res);
+    }
+
+Ahora que tenemos nuestra función útil, debemos meterla en un módulo, para lo cual tenemos que definir qué cosas van a haber en dicho módulo. Entonces, armamos la siguiente estructura, con dos lineas; la primera habla sobre nuestra función, la última es una marca en la estructura para que sepa que es el final::
+
+    static PyMethodDef SPDXMethods[] = {
+        {"is_valid", is_valid, METH_VARARGS, "Check if the given license is valid."},
+        {NULL, NULL, 0, NULL}
+    };
+
+En la linea útil tenemos:
+
+- "is_valid": es el nombre de la función que vamos a usar desde afuera del módulo
+
+- is_valid: es una referencia a la función que tenemos definida arriba (para que sepa qué ejecutar cuando llamamos a "is_valid" desde afuera del módulo.
+
+- METH_VARARGS: la forma en que recibe los argumentos (fuertemente atado a como luego los parseamos con PyArg_ParseTuple arriba.
+
+- "Check ...": el docstring de la función.
+
+Para terminar con este código, va el inicializador del módulo, con un nombre predeterminado ("init" + nombre del módulo), y la inicialización propiamente dicha, pasando el nombre del módulo y la estructura que acabamos de definir arriba::
+
+    PyMODINIT_FUNC
+    initspdx(void)
+    {
+        (void) Py_InitModule("spdx", SPDXMethods);
+    }
+
+
+Adaptador de C a Go
+-------------------
+
+El archivo completo es `spdxlib.go <http://www.taniquetil.com.ar/facundo/pygo/spdxlib.go>`_.
+
+Tenemos que meter el código en un paquete 'main'::
+
+    package main
+
+Importamos el código para SPDX de snapd (tienen que bajarlo antes con ``go get github.com/snapcore/snapd/spdx``)::
+
+    import "github.com/snapcore/snapd/spdx"
+
+Importamos adaptadores desde/a C, indicando que cuando buildeemos vamos a usarlo desde Python 2::
+
+    // #cgo pkg-config: python2
+    import "C"
+
+La función propiamente dicha, donde indicamos que recibimos un puntero a char de C y vamos a devolver un bool::
+
+    //export IsValid
+    func IsValid(license *C.char) bool {
+
+El cuerpo es nuevamente sencillo: llamamos al ValidateLicense de SPDX (convirtiendo primero la cadena a Go), y luego comparamos el resultado para saber si la licencia es válida o no::
+
+        res := spdx.ValidateLicense(C.GoString(license))
+        if res == nil {
+            return true
+        } else {
+            return false
+        }
+    }
+
+Cerramos con la definición obligatoria de main::
+
+    func main() {}
+
+
+Lo usamos
+---------
+
+Primer paso, buildear (yo tengo Go 1.6, creo que necesitan 1.5 o superior para poder armar directamente la biblioteca compartida de C, pero no estoy seguro)::
+
+    go build -buildmode=c-shared -o spdx.so
+
+Segundo paso, profit!
+
+::
+
+    $ python2
+    >>> import spdx
+    >>> spdx.is_valid("GPL-3.0")
+    True

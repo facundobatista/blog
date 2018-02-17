@@ -1,0 +1,65 @@
+2017-07-26 21:23:00
+En tu cara, planeta redondo
+timezones, Python, zonas horarias
+
+Ejercicio de Python. El objetivo es tener una serie de timestamps, en función de un registro "tipo cron" que indique periodicidad, desde un punto de partida, hasta "ahora".
+
+El problema es que el "ahora" es de Buenos Aires, mientras que el servidor está en Holanda (o podría estar en cualquier lado).
+
+Lo resolvemos con `pytz <https://pypi.python.org/pypi/pytz>`_ y `croniter <https://pypi.python.org/pypi/croniter>`_. Veamos...
+
+Arranquemos un intérprete interactivo dentro de un virtualenv con las dos libs que acabo de mencionar (y las importamos, además de datetime)::
+
+        $ fades -d pytz -d croniter
+        *** fades ***  2017-07-26 18:27:20,009  INFO     Hi! This is fades 6.0, automatically managing your dependencies
+        *** fades ***  2017-07-26 18:27:20,009  INFO     Need to install a dependency with pip, but no builtin, doing it manually...
+        *** fades ***  2017-07-26 18:27:22,979  INFO     Installing dependency: 'pytz'
+        *** fades ***  2017-07-26 18:27:24,431  INFO     Installing dependency: 'croniter'
+        Python 3.5.2 (default, Nov 17 2016, 17:05:23)
+        [GCC 5.4.0 20160609] on linux
+        Type "help", "copyright", "credits" or "license" for more information.
+        >>> import croniter
+        >>> import pytz
+        >>> import datetime
+
+Veamos que el server tiene horarios "complicados" (en el momento de hacer esto, acá en Buenos Aires son las 18:09)::
+
+        >>> datetime.datetime.now()
+        datetime.datetime(2017, 7, 26, 23, 9, 51, 476140)
+        >>> datetime.datetime.utcnow()
+        datetime.datetime(2017, 7, 26, 21, 9, 56, 707279)
+
+Instanciemos croniter, indicando repeticiones todas las horas a las 20 (a propósito, de manera que cuando iteremos desde hace una semana hasta "ahora", debería llegar hasta ayer, porque ahora son las 18 y pico acá, pero justo UTC o la hora del server son más que las 20...)::
+
+        >>> cron = croniter.croniter("0 20 * * * ", datetime.datetime(year=2017, month=7, day=20))
+
+Pidamos la hora UTC actual, agregándole metadata de que es UTC, justamente::
+
+        >>> utc_now = pytz.utc.localize(datetime.datetime.utcnow())
+        >>> utc_now
+        datetime.datetime(2017, 7, 26, 21, 15, 27, 508732, tzinfo=<UTC>)
+
+Pidamos un timezone para Buenos Aires, y el "ahora" de antes pero calculado para esta parte del planeta::
+
+        >>> bsas_tz = pytz.timezone("America/Buenos_Aires")
+        >>> bsas_now = utc_now.astimezone(bsas_tz)
+        >>> bsas_now
+        datetime.datetime(2017, 7, 26, 18, 15, 27, 508732, tzinfo=<DstTzInfo 'America/Buenos_Aires' -03-1 day, 21:00:00 STD>)
+
+Ahora hagamos un loop, pidiendo las fechas a *cron* y mostrándola, mientras que no sea más que ahora (notar que para compararla, hay que localizarla con el mismo timezone)::
+
+        >>> while True:
+        ...     next_ts = cron.get_next(datetime.datetime)
+        ...     bsas_next_ts = bsas_tz.localize(next_ts)
+        ...     if bsas_next_ts > bsas_now:
+        ...         break
+        ...     print(bsas_next_ts)
+        ...
+        2017-07-20 20:00:00-03:00
+        2017-07-21 20:00:00-03:00
+        2017-07-22 20:00:00-03:00
+        2017-07-23 20:00:00-03:00
+        2017-07-24 20:00:00-03:00
+        2017-07-25 20:00:00-03:00
+
+Vemos que tuvimos fechas arrancando el 20 de julio, y tenemos "varios días a las 20hs" hasta ayer, porque todavía no es "hoy a las 20hs". ¡Listo!

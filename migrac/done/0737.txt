@@ -1,0 +1,36 @@
+2017-06-26 00:12:33
+La nube en casa
+gigabyte, magicicada, cdpedia
+
+
+Ya tengo andando un proyecto que arrancó hace tiempo pero se fue consolidando por partes, de forma bastante demorada. Así y todo, todavía no está 100% terminado, pero tampoco falta tanto.
+
+¿Leyeron alguna vez la frase "there is no cloud, it's just someone else's computer" (*no existe la "nube", es sólo la computadora de alguien más*)? Bueno, este proyecto se basaba en comprar alguna computadorita y meterla en casa, :)
+
+.. image:: http://taniquetil.com.ar/facundo/imgs/nubeencasa-nube.png
+    :alt: La nube
+
+¿Para qué? Básicamente para correr dos tareas...
+
+Una es `Magicicada (la parte del server) <https://launchpad.net/magicicada-server>`_, que es el servicio de sincronización de archivos `renacido de las cenizas de Ubuntu One <http://www.taniquetil.com.ar/plog/post/1/687>`_. Entonces tengo tanto la computadora de escritorio como la laptop con un par de directorios sincronizados entre ellas, tanto si estoy en casa como si estoy afuera, lo cual me es muy útil. Y además me sirve de backup de tantísimos archivos (aunque no los sincronice a la laptop, como fotos y videos).
+
+El otro laburo que puse a correr en mi "nube personal" es el *cdpetron*, que es el generador automático de `CDPedias <http://www.taniquetil.com.ar/plog/post/1/697>`_. Es un proceso que tarda muchos días en terminar, y además hace un uso bastante intensivo de disco, entonces es algo que tener corriendo en mi desktop es bastante molesto.
+
+¿En qué hardware puse a andar todo esto? Si están imaginando un datacenter, nada más lejos. En una minicomputadora: la Gigabyte Brix GB-BXBT-1900.
+
+.. image:: http://taniquetil.com.ar/facundo/imgs/nubeencasa-minicompu.jpg
+    :alt: Mini-compu
+
+Como pueden ver en `las especificaciones <http://www.gigabyte.com/Mini-PcBarebone/GB-BXBT-1900-rev-10#ov>`_ es bastante modesta: un Celeron, espacio para un DIMM de memoria y un disco de 2.5" (que no vienen incluidos), y algunos puertos de salida, como Ethernet (que lo uso obviamente todo el tiempo), HDMI o USB (que usé sólo durante la instalación) y un par más que no utilicé para nada.
+
+A esta maquinita le puse 8GB de RAM (que va bien incluso cuando tengo todo corriendo en simultaneo) y un disco rígido (de los clásicos, de "platos que giran") de 750GB, que debería darme espacio para laburar durante un buen tiempo.
+
+¿Por qué en casa y no en un server remoto o algo más "nuboso"? Por el costo, básicamente.
+
+Alquilar un VPS es relativamente barato, con disco decente, uno o dos cores y buena memoria. Así tengo mi blog, el servidor de linkode, y otras cosas por ahí. Pero si empezás a crecer en disco, se vuelve muy caro. En algún momento estuve alquilando un VPS con disco como para hacer la CDPedia ahí, pero me salía mucha plata, y en el momento en que ese disco también me quedó corto, lo dí de baja. Y a esto sumémosle los archivos sincronizados y de backup que tengo en Magicicada, que son más de 200GB.
+
+La cuenta es fácil: todo el hardware que compré (computadorita, disco, memoria, un par de cables) me salió menos que pagar un año el "pedazo de nube" que necesitaría...
+
+¿Tiene algunas desventajas tener esto en casa? Ocupa algo de espacio y consume electricidad, pero es chiquita, y como no tiene ventiladores no hace ruido.
+
+Pero hay un factor que sí es claramente una desventaja: no me sirve de "backup offsite". O sea, si pasa algo que me afecta a todas las computadoras de casa (incendio, un rayo, me entran a robar, lo que sea), este backup también se ve afectado. Para mitigar este problema estoy pensando `congelar <https://aws.amazon.com/glacier/>`_ backups periódicos.

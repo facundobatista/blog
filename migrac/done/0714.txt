@@ -17,7 +17,7 @@ Por lejos, la mejor Keynote fue la de Jameson Rollins, `LIGO: The Dawn of Gravit
 .. image:: http://www.taniquetil.com.ar/facundo/imgs/ep2016-ligo.jpeg
     :alt: LIGO is a...
 
-Otras charlas que me gustaron fueron "High Performance Networking in Python" de Yury Selivanov, "Build your first OpenStack application with OpenStack PythonSDK" por Victoria Martinez de la Cruz, "Implementación de un Identificador de Sonido en Python" por Cameron Macleod, "FAT Python: a new static optimizer for Python 3.6" de Victor Stinner, "CFFI: calling C from Python" de Armin Rigo, "The Gilectomy" de Larry Hastings, "A Gentle Introduction to Neural Networks (with Python)" de Tariq Rashid, y "<a href="https://t.co/XPt3boGuHQ">Music transcription with Python</a>" de Anna Wszeborowska.
+Otras charlas que me gustaron fueron "High Performance Networking in Python" de Yury Selivanov, "Build your first OpenStack application with OpenStack PythonSDK" por Victoria Martinez de la Cruz, "Implementación de un Identificador de Sonido en Python" por Cameron Macleod, "FAT Python: a new static optimizer for Python 3.6" de Victor Stinner, "CFFI: calling C from Python" de Armin Rigo, "The Gilectomy" de Larry Hastings, "A Gentle Introduction to Neural Networks (with Python)" de Tariq Rashid, y `Music transcription with Python <https://t.co/XPt3boGuHQ>`_ de Anna Wszeborowska.
 
 De esta última charla me quedé con el proyecto a futuro (ya lo anoté, está en la posición 1783461° entre otros proyectos) de mostrar en tiempo real, usando Bokeh, la info que levanta y las transformaciones que va haciendo.
 

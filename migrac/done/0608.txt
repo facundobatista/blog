@@ -124,9 +124,9 @@ Herramientas
 
 Hay que tener una colección de herramientas, entre ellas:
 
-- plugin para editores (seleccioná el texto &rarr; kilink, salta a la pag web con el kilink ya creado)
+- plugin para editores (seleccioná el texto → kilink, salta a la pag web con el kilink ya creado)
 
-- plugin para navegador (seleccioná el texto &rarr; kilink, idem)
+- plugin para navegador (seleccioná el texto → kilink, idem)
 
 - linea de comando ("grep ERROR *.log | kilink" y este escupe la url de un kilink nuevo)
 

@@ -36,7 +36,7 @@ Es mejor mostrar ventajas sobre algo a la gente que forzarlos a usarlo. Hay un p
 
 - Te ayudan a mantener una velocidad consistente. Es mucho menos probable que encuentres un problema que te haga perder dos días revisando y corrigiendo cuanto tenés buenas pruebas.
 
-- Te permiten optimizar la implementación con la confianza de que no rompiste ninguna <a href="http://es.wikipedia.org/wiki/Interfaz_de_programaci%C3%B3n_de_aplicaciones">API</a>. "Primero hacelo bien, luego hacelo rápido" es bastante duro, y lo es aún más sin buenas pruebas.
+- Te permiten optimizar la implementación con la confianza de que no rompiste ninguna `API <http://es.wikipedia.org/wiki/Interfaz_de_programaci%C3%B3n_de_aplicaciones>`_. "Primero hacelo bien, luego hacelo rápido" es bastante duro, y lo es aún más sin buenas pruebas.
 
 - Por definición, hacen que tu implementación se pueda probar. Te ayudan a entender cuando amontonaste demasiados detalles y te llevan a un mejor diseño.
 

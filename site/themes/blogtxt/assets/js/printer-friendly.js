@@ -3,34 +3,37 @@
 
 var locate = window.location.search;
 
-function argv(str) {
+function get_printer_friendly(str) {
     point = str.lastIndexOf("=");
-    return(str.substring(point+1,str.length-1));
+    argv = str.substring(point+1,str.length);
+    idx = argv.indexOf("printer_friendly");
+    return(idx >= 0);
 }
 
-$( document ).ready(switch_printer_friendly ( (argv(locate) != "printer_friendly")) );
+$( document ).ready(switch_printer_friendly ( get_printer_friendly(locate)));
 
-function switch_printer_friendly ( disable_printer_friendly ) {
-   var i, a;
+function switch_printer_friendly ( show_printer_friendly ) {
+    var i, a, x;
 
-   for(i=0; (a = document.getElementsByTagName("link")[i]); i++) {
-     if(a.getAttribute("rel").indexOf("style") != -1
+    //Enable or disable printer_friendly css style sheet
+    for(i=0; (a = document.getElementsByTagName("link")[i]); i++) {
+        if(a.getAttribute("rel").indexOf("style") != -1
         && a.getAttribute("title")) {
-       if(a.getAttribute("title") == "printer-friendly") {
-           a.disabled = disable_printer_friendly;
+            if(a.getAttribute("title") == "printer-friendly")
+               a.disabled = !show_printer_friendly;
+        }
+    }
 
-           // Change link to enable/disable printer friendly
-           x = document.getElementById("printer_friendly_link");
-           if (disable_printer_friendly) {
-              x.setAttribute('onclick','switch_printer_friendly( false ); return false;');
-              x.innerHTML = `<img class="theme-icon" src="/assets/images/print-icon.png" alt="Imprimir" />`;
-           } else {
-              x.setAttribute('onclick','switch_printer_friendly( true ); return false;');
-              x.setAttribute("title", "Vista Normal");
-              x.innerHTML = `<img class="theme-icon" src="/assets/images/normal-view-icon.png" alt="Vista Normal" />`;
-           }
-
-       }
-     }
+   // Change link to enable/disable printer friendly
+   x = document.getElementById("printer_friendly_link");
+   if (show_printer_friendly) {
+      x.setAttribute('onclick','window.location = window.location.pathname;');
+      x.setAttribute("title", "Vista Normal");
+      x.innerHTML = `<img class="theme-icon" src="/assets/images/normal-view-icon.png" alt="Vista Normal" />`;
+   } else {
+      x.setAttribute('onclick','window.location = window.location.pathname + "?style=printer_friendly";');
+      x.setAttribute("title", "Imprimir");
+      x.innerHTML = `<img class="theme-icon" src="/assets/images/print-icon.png" alt="Imprimir" />`;
    }
+
 }
