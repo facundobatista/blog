@@ -1,0 +1,13 @@
+[Core]
+Name = static_links
+Module = static_links
+
+[Documentation]
+Author = Maria Andrea Vignau
+Version = 1.0
+Website = https://github.com/marian-vignau
+Description = Create a static links html from yaml config file
+
+[Nikola]
+PluginCategory = Task
+MinVersion = 7.8.2

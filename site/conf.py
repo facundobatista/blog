@@ -139,6 +139,7 @@ NAVIGATION_LINKS = {
     ),
 }
 
+
 # Name of the theme to use.
 THEME = 'blogtxt'
 # THEME = 'hpstr'
@@ -1432,4 +1433,13 @@ PROPAGANDA = {
             "generated_at": "propaganda_r.html",
         }
     }
+}
+
+STATIC_LINKS = {
+    "input_file": "links.yml",
+    "output_file": "static_links.html",
+    "first_line": "<div>",
+    "last_line": "</div>",
+    "template_category": "<h2>{}</h2>",
+    "template_item": '<a href="{href}" title="{title}">{data}</a>'
 }
