@@ -29,12 +29,11 @@
 from nikola.plugin_categories import Task
 from nikola import utils
 
-import natsort
 import os
 import os.path
 import datetime
 
-_LOGGER = utils.get_logger('render_sidebar', utils.STDERR_HANDLER)
+_LOGGER = utils.get_logger('render_archive_bar', utils.STDERR_HANDLER)
 class Month_Page(object):
     '''Define a month page'''
     def __init__(self, friendly_name, item):

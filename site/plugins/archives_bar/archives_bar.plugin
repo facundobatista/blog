@@ -6,7 +6,7 @@ Module = archives_bar
 Author = Maria Andrea Vignau
 Version = 1.0
 Website = https://github.com/marian-vignau
-Description = archives_bar include renderer.
+Description = Renders one list of months indexes and a link to a post sended a year ago.
 
 [Nikola]
 PluginCategory = Task
