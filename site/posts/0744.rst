@@ -6,7 +6,7 @@ Tengo el agrado de anunciar, luego de mucho (demasiado) tiempo, una nueva libera
 
 .. image:: http://www.taniquetil.com.ar/facundo/imgs/encuentro-logonuevo.png
     :alt: Encuentro (¡nuevo logo y tipografía!)
-    :link: http://encuentro.taniquetil.com.ar/
+    :target: http://encuentro.taniquetil.com.ar/
 
 Esta nueva liberación se justifica principalmente por dos motivos: renovación, y cambio estético.
 

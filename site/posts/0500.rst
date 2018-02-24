@@ -8,4 +8,4 @@ La foto la saqué con mi cámara vieja, jugando con macro, iluminación, etc. Es
 
 .. image:: http://www.taniquetil.com.ar/facundo/imgs/fotint-margarita.jpeg
     :alt: Margarita
-    :link: http://www.flickr.com/photos/54757453@N00/2248678448/
+    :target: http://www.flickr.com/photos/54757453@N00/2248678448/

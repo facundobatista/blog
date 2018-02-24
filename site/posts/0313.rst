@@ -28,7 +28,7 @@ Python en XKCD
 `XKCD <http://xkcd.com/>`_ es una especie de historieta geek que me encanta. Reproduzco aquí la edición de hoy:
 
 .. image:: http://imgs.xkcd.com/comics/python.png
-    :link: http://xkcd.com/353/
+    :target: http://xkcd.com/353/
 
 
 Facundario

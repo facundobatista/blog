@@ -10,7 +10,7 @@ Y, si luego agarrás eso datos y tirás una curva, es que ya sos medio enfermito
 
 .. image:: http://www.taniquetil.com.ar/facundo/imgs/curva-peso-2010-th.png
     :alt: Curva de peso para el 2010
-    :link: http://www.taniquetil.com.ar/facundo/imgs/curva-peso-2010.png
+    :target: http://www.taniquetil.com.ar/facundo/imgs/curva-peso-2010.png
 
 *(click en la imagen para verla más grande)*
 

@@ -16,7 +16,7 @@ Durante el PyCamp tuve bastante ayuda también (Diego, Humitos, Martín) y pulim
 
 .. image:: http://encuentro.taniquetil.com.ar/imgs/title.png
     :alt: Logo
-    :link: http://encuentro.taniquetil.com.ar/
+    :target: http://encuentro.taniquetil.com.ar/
 
 Durante los días posteriores al PyCamp yo pulí algunos detalles más y generé una pre-release para que se vayan armando los otros instaladores, y finalemente estos últimos días preparé el .deb, actualicé el PPA, y anuncié por todos lados.
 

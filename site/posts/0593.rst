@@ -10,7 +10,7 @@ Para mayor información e instrucciones para la descarga, visitar `la página de
 
 .. image:: http://www.taniquetil.com.ar/facundo/imgs/cdpedia.png
     :alt: Logo
-    :link: http://cdpedia.python.org.ar/
+    :target: http://cdpedia.python.org.ar/
 
 Esta versión trae las siguientes novedades:
 

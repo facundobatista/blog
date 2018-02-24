@@ -20,4 +20,4 @@ Yo me permití hacer una `recopilación <https://youtu.be/CNOnAVAHpUk>`_ (con vi
 
 .. image:: http://www.taniquetil.com.ar/facundo/imgs/eddie_moneypenny.jpeg
     :alt: Eddie y la señorita Moneypenny
-    :link: https://youtu.be/CNOnAVAHpUk
+    :target: https://youtu.be/CNOnAVAHpUk

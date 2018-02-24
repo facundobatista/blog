@@ -18,7 +18,7 @@ Robert, al final de la charla, hizo una invitación general a ir a tomar algo. P
 
 .. image:: http://www.taniquetil.com.ar/facundo/imgs/pycon2013-grupal.jpg
     :alt: La foto grupal
-    :link: http://www.flickr.com/photos/70871182@N04/10516024666/in/set-72157637010046074
+    :target: http://www.flickr.com/photos/70871182@N04/10516024666/in/set-72157637010046074
 
 El viernes nos levantamos tarde, tanto que desayunamos en el hostel, y llegamos a la conferencia un rato antes que diera mi segunda charla, `Las perlas de Python 3 <http://www.taniquetil.com.ar/homedevel/presents/perlas-py3.odp>`_ (¡un estreno!). Luego estuve en un par de charlas, pero la que más me gustó fue la de Alecu, "Juegos electromecánicos con Arduino", tengo muchas ganas de arrancar con algún proyecto de electrónica o electromecánica!
 

@@ -8,7 +8,7 @@ Arrancó PyWeek, y estamos haciendo un juego en una semana. Y vos podés partici
 
 .. image:: http://www.taniquetil.com.ar/facundo/imgs/worldst.png
     :alt: Worldst!
-    :link: http://the.most.biggest.gamest.in.the.worldst.com.ar/
+    :target: http://the.most.biggest.gamest.in.the.worldst.com.ar/
 
 `Entrá acá <http://the.most.biggest.gamest.in.the.worldst.com.ar/>`_, registrate (tu nombre va a los créditos del juego, y el mail es por si te olvidás la clave), y empezá agregando niveles!
 

@@ -5,6 +5,6 @@
 Dos momentos de Felu de este Diciembre 2010, que por un lado muestran lo grande que está, y por otro que los genes están ahí, :p.
 
 .. image:: http://www.taniquetil.com.ar/facundo/imgs/feluleyendoenauto.jpg
-    :link: http://www.taniquetil.com.ar/facundo/Felipe-Dic2010.ogv
+    :target: http://www.taniquetil.com.ar/facundo/Felipe-Dic2010.ogv
 
 Hagan click en la foto para ver el video!

@@ -17,6 +17,6 @@ También es piola verlo con los símbolos de las manos:
 
 .. image:: http://www.taniquetil.com.ar/facundo/imgs/psplt-manos.png
     :alt: PSPLT con las manos
-    :link: https://en.wikipedia.org/wiki/File:Pierre_ciseaux_feuille_l%C3%A9zard_spock_aligned.svg
+    :target: https://en.wikipedia.org/wiki/File:Pierre_ciseaux_feuille_l%C3%A9zard_spock_aligned.svg
 
 Listo, ya no tienen excusas para horas interminables de fascinante diversión.

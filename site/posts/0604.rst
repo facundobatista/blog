@@ -6,6 +6,6 @@ Esta foto la saqué en un monasterio tibetano, en un viaje que hice con motivo d
 
 .. image:: http://www.taniquetil.com.ar/facundo/imgs/fotint-vela.jpeg
     :alt: Vela
-    :link: http://www.flickr.com/photos/54757453@N00/8599458217/in/set-72157633118003618/
+    :target: http://www.flickr.com/photos/54757453@N00/8599458217/in/set-72157633118003618/
 
 O quizás la saqué en un patio de Paternal, en un cumpleaños. Ponele.

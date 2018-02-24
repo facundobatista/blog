@@ -24,6 +24,6 @@ Arrancamos con una que fue complicada:
 
 .. image:: http://www.taniquetil.com.ar/facundo/imgs/fotint-luislonghi.jpeg
     :alt: Luis Longhi y su bandoneón
-    :link: http://www.flickr.com/photos/54757453@N00/3500094190/sizes/l/in/set-72157624548630453/
+    :target: http://www.flickr.com/photos/54757453@N00/3500094190/sizes/l/in/set-72157624548630453/
 
 El de la foto es Luis Longhi, de Demoliendo Tangos, cuando festejaron su décimo aniversario en el Teatro Moliere. Fue complicada porque obviamente él se estaba moviendo todo el tiempo, y la iluminación era poca y difusa, así que tuve que jugar un rato para encontrar algo interesante.

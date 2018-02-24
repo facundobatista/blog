@@ -16,7 +16,7 @@ Esta órbita se llama `geostacionaria <http://es.wikipedia.org/wiki/%C3%93rbita_
 
 .. image:: http://www.taniquetil.com.ar/facundo/imgs/satelit-orbgeo.gif
     :alt: Órbita síncrona
-    :link: http://commons.wikimedia.org/wiki/File:Geostat.gif
+    :target: http://commons.wikimedia.org/wiki/File:Geostat.gif
 
 `Arthur C. Clarke <http://es.wikipedia.org/wiki/Arthur_C._Clarke>`_ popularizó la idea de utilizar la órbita geoestacionaria para poner allí satélites de comunicaciones (lo hizo en un paper en 1945, "Extra-Terrestrial Relays", por el cual ganó `el premio Marconi en 1982 <http://www.marconifoundation.org/index.html>`_).
 

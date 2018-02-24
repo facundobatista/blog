@@ -8,7 +8,7 @@ Hoy estoy liberando la versión 2.0, una versión importante ya que hace que tod
 
 .. image:: http://encuentro.taniquetil.com.ar/imgs/title.png
     :alt: Encuentro
-    :link: http://encuentro.taniquetil.com.ar/
+    :target: http://encuentro.taniquetil.com.ar/
 
 La versión 2.0 trae los siguientes cambios con respecto a la versión anterior:
 

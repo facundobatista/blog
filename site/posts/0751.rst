@@ -8,7 +8,7 @@ Yo di dos charlas "formales"... bah, una charla (`Emulando paralelismo de forma 
 
 .. image:: http://www.taniquetil.com.ar/facundo/imgs/pyconar2017-grupal.jpeg
     :alt: Grupal
-    :link: https://www.flickr.com/photos/70871182@N04/37720393655/in/album-72157662945453988/
+    :target: https://www.flickr.com/photos/70871182@N04/37720393655/in/album-72157662945453988/
 
 Hubieron un montón de charlas interesantes! Estas son las que más me gustaron:
 
@@ -32,6 +32,6 @@ A nivel social, la comunidad de Python Argentina sigue mostrándose ejemplar. No
 
 .. image:: http://www.taniquetil.com.ar/facundo/imgs/pyconar2017-inclusión.png
     :alt: Inclusión
-    :link: https://twitter.com/EliTnk/status/932714350112116739
+    :target: https://twitter.com/EliTnk/status/932714350112116739
 
 Hasta donde sé se grabaron todas las charlas, así que avisaré cuando estén subidas. Y acá tienen `fotos mías <https://www.flickr.com/photos/54757453@N00/albums/72157688884589701>`_ y `las que sacó Yami <https://www.flickr.com/photos/70871182@N04/sets/72157662945453988>`_ (incluyendo la grupal que reproduzco arriba).

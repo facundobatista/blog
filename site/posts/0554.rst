@@ -6,7 +6,7 @@
 
 .. image:: http://www.taniquetil.com.ar/facundo/imgs/fotint-fontanaditrevi.jpeg
     :alt: Fontana di Trevi
-    :link: http://www.flickr.com/photos/54757453@N00/3070198650/
+    :target: http://www.flickr.com/photos/54757453@N00/3070198650/
 
 Me encanta acá la combinación de la piedra, el agua, y las luces.
 

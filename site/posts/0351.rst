@@ -10,6 +10,6 @@ En función del incremento de tráfico que tuvo la lista de Python Argentina en 
 
 .. image:: http://www.taniquetil.com.ar/facundo/imgs/gmane-ult200d.png
     :alt: Ambas listas comparadas
-    :link: http://www.taniquetil.com.ar/facundo/imgs/gmane-ult200d.png
+    :target: http://www.taniquetil.com.ar/facundo/imgs/gmane-ult200d.png
 
 Por último, ¡hoy hay `reunión de PyAr <http://www.python.com.ar/moin/Eventos/Reuniones/ProximaReunion>`_! ¡Fiesta! :)

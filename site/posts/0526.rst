@@ -21,7 +21,7 @@ Hasta el 2009, los avances fueron como conté, esporádicos. Pero resulta que `M
 
 .. image:: http://www.taniquetil.com.ar/facundo/imgs/cdpedia_hist_pycamp.jpg
     :alt: Trabajando en el PyCamp
-    :link: http://www.flickr.com/photos/54757453@N00/2276684469/
+    :target: http://www.flickr.com/photos/54757453@N00/2276684469/
 
 *(hagan click en la imagen para ver la foto original, si están curiosos con lo que dice el pizarrón)*
 

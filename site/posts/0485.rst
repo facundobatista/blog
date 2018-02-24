@@ -6,4 +6,4 @@ Vitral en `La Sagrada Familia <http://es.wikipedia.org/wiki/Templo_Expiatorio_de
 
 .. image:: http://www.taniquetil.com.ar/facundo/imgs/fotint-vitralazul.jpeg
     :alt: Vitral azul
-    :link: http://www.flickr.com/photos/54757453@N00/3615414569/sizes/l/in/set-72157624548630453/
+    :target: http://www.flickr.com/photos/54757453@N00/3615414569/sizes/l/in/set-72157624548630453/

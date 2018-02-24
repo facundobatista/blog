@@ -8,6 +8,6 @@ Pero más que eso, me encantó el paseo que hicimos... eso es en el laberinto de
 
 .. image:: http://www.taniquetil.com.ar/facundo/imgs/fotint-estatuallovida.jpg
     :alt: Estatua en la fuente
-    :link: http://www.flickr.com/photos/54757453@N00/3407113649/
+    :target: http://www.flickr.com/photos/54757453@N00/3407113649/
 
 Me dan ganas de salir a pasear y tomar fotos con gente que también saque fotos, creo que se aprende un montón en esas situaciones.

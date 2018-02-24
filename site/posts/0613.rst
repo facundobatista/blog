@@ -8,7 +8,7 @@ El once de Mayo pasado salió al aire por CN23 la emisión de `Geekye <http://ge
 
 .. image:: http://www.taniquetil.com.ar/facundo/imgs/geekye-cdpedia.png
     :alt: CDPedia en Geekye
-    :link: http://www.youtube.com/watch?feature=player_detailpage&v=a7M4QG7Kvq0#t=165
+    :target: http://www.youtube.com/watch?feature=player_detailpage&v=a7M4QG7Kvq0#t=165
 
 Además, el martes que viene, a la mañana, es la presentación de Huayra Linux, el sistema operativo libre del Programa Conectar Igualdad (el logo y el motto es genial, "el día en el que las vacas vuelan ha llegado", :p). Esto es relevante acá porque Huayra sale de entrada con CDPedia instalada... o sea que todos los chicos que reciban una compu de Conectar Igualdad van a usar y disfrutar CDPedia! Están todos invitados al acto, es en Tecnópolis, 10:30hs.
 

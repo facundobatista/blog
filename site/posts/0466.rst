@@ -54,7 +54,7 @@ En esta etapa, el tener un equipo altamente acoplado funcionó muy, muy bien. La
 
 .. image:: http://www.taniquetil.com.ar/facundo/imgs/states-analisis-th.jpg"
     :alt: (click para ver la imagen en una resolución entendible)
-    :link: http://www.taniquetil.com.ar/facundo/bdvfiles/states-analisis.jpg
+    :target: http://www.taniquetil.com.ar/facundo/bdvfiles/states-analisis.jpg
 
 **Diseño:** También durante el sprint diseñamos un nuevo modelo para la bestia, tratamos de simplificar y generalizarlo, y discutimos todo esto con los autor(es) anterior(es) del módulo.
 
@@ -66,7 +66,7 @@ En esta etapa también notamos que el equipo tenía el tamaño ideal: un sólo p
 
 .. image:: http://www.taniquetil.com.ar/facundo/imgs/states-nuevo-th.png"
     :alt: (click para descargar los tres .SVG actualizados del diseño)
-    :link: http://www.taniquetil.com.ar/facundo/bdvfiles/states-nuevo.zip
+    :target: http://www.taniquetil.com.ar/facundo/bdvfiles/states-nuevo.zip
 
 **Puesta en funcionamiento:** realmente no fue un paso, ya que no hubo ningún problema... fue sólo un tema de hacer el commit a trunk, y hacer un seguimiento los próximos días.
 

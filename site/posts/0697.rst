@@ -30,7 +30,7 @@ En cualquier caso al ejecutar ese archivo se va a levantar el Server de CDPedia,
 
 .. image:: http://www.taniquetil.com.ar/facundo/imgs/cdpedia-sshot-main.png
     :alt: Cómo se ve la CDPedia
-    :link: http://www.taniquetil.com.ar/facundo/imgs/cdpedia-sshot-main.png
+    :target: http://www.taniquetil.com.ar/facundo/imgs/cdpedia-sshot-main.png
 
 *(a este y otros screenshots, hagan click para verlos más grandes)*
 
@@ -50,7 +50,7 @@ Algo que también modificamos bastante es como señalizamos los enlaces en la p�
 
 .. image:: http://www.taniquetil.com.ar/facundo/imgs/cdpedia-sshot-links.png
     :alt: Muestra de enlaces
-    :link: http://www.taniquetil.com.ar/facundo/imgs/cdpedia-sshot-links.png
+    :target: http://www.taniquetil.com.ar/facundo/imgs/cdpedia-sshot-links.png
 
 Otra sección que modificamos es el pie de cada página: ponemos un enlace a la misma página pero online, en Wikipedia misma, por si el usuario necesita la información actualizada. También aquí incluimos el contenido original, ponemos algún disclaimer extra, mencionamos que CDPedia es un proyecto de Python Argentina (y apuntamos al tutorial de Python que está incluido en la CDPedia).
 
@@ -70,7 +70,7 @@ Es por esto que se trata de liberar una versión de CDPedia al menos una vez por
 
 .. image:: http://www.taniquetil.com.ar/facundo/imgs/cdpedia-sshot-artic.png
     :alt: Ejemplo de un artículo
-    :link: http://www.taniquetil.com.ar/facundo/imgs/cdpedia-sshot-artic.png
+    :target: http://www.taniquetil.com.ar/facundo/imgs/cdpedia-sshot-artic.png
 
 También digo que la CDPedia se puede distribuir fácilmente: sólo hace falta quemar un CD o DVD, o incluso pasarse los archivos mediante un pendrive. En casi todas las versiones (menos la más grande), por una cuestión de formato, no entra todo el contenido de la Wikipedia. Por ejemplo, para la versión 0.8.3, tenemos lo siguiente:
 

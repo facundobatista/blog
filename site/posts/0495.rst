@@ -15,7 +15,7 @@ Más allá de eso llegamos perfecto, y tempranito. Buscamos un camping, elegimos
 El primer encuentro de Felu con el mar no fue el más auspicioso: le hablaba pero estando arriba mío, no le gustaba mucho tocar el agua con los pies, y evitaba totalmente (haciendo unas contorsiones raras con el cuerpo) el tocar la arena: ¡no quería saber nada!
 
 .. image:: http://www.taniquetil.com.ar/facundo/imgs/feluplaya-d1.jpg
-    :link: http://www.taniquetil.com.ar/facundo/feluplaya-d1.ogv
+    :target: http://www.taniquetil.com.ar/facundo/feluplaya-d1.ogv
 
 *(click en la foto para ver un video)*
 
@@ -30,7 +30,7 @@ Se metió mejor en el mar, y en un punto hizo un click: encontró un palito y us
 Incluso no le molestaba demasiado el caerse sentado, y se volvía a parar solo.
 
 .. image:: http://www.taniquetil.com.ar/facundo/imgs/feluplaya-d2.jpg
-    :link: http://www.taniquetil.com.ar/facundo/feluplaya-d2.ogv
+    :target: http://www.taniquetil.com.ar/facundo/feluplaya-d2.ogv
 
 *(click en la foto para ver un video)*
 
@@ -39,7 +39,7 @@ El tercer día amaneció bastante fresco, así que fuimos a pasear por Mar de La
 También compramos algunas vituallas, y entre una cosa y la otra, no arrancamos a la playa hasta la tardecita. Pero Felipe lo disfrutó a full, metiendo bien las patas en el mar, e incluso jugando como loco en la arena. Ya no le tenía asco a nada.
 
 .. image:: http://www.taniquetil.com.ar/facundo/imgs/feluplaya-d3.jpg
-    :link: http://www.taniquetil.com.ar/facundo/feluplaya-d3.ogv
+    :target: http://www.taniquetil.com.ar/facundo/feluplaya-d3.ogv
 
 *(click en la foto para ver un video)*
 

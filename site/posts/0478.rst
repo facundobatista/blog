@@ -6,6 +6,6 @@ Como dice el título, Chicago. Marzo del 2008, un frio de cagarrrrrrrrse, espera
 
 .. image:: http://www.taniquetil.com.ar/facundo/imgs/fotint-chicagoluz.jpeg
     :alt: Chicago luz
-    :link: http://www.flickr.com/photos/54757453@N00/2362286062/sizes/l/in/set-72157624548630453/
+    :target: http://www.flickr.com/photos/54757453@N00/2362286062/sizes/l/in/set-72157624548630453/
 
 Las otras fotos interesantes hasta ahora, `acá <http://www.flickr.com/photos/54757453@N00/sets/72157624548630453/with/2362286062/>`_.                                                                                          |

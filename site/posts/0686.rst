@@ -6,7 +6,7 @@ Entre las fotos que saqué del PyCamp de hace un par de semanas está esta, que 
 
 .. image:: http://taniquetil.com.ar/facundo/imgs/fotint-pycamp15-hosteria.jpeg
     :alt: Hostería sede del PyCamp 2015 en La Serranita
-    :link: https://www.flickr.com/photos/54757453@N00/20140282673/in/album-72157657496200946/
+    :target: https://www.flickr.com/photos/54757453@N00/20140282673/in/album-72157657496200946/
 
 Es la hostería donde fue sede el evento (donde dormíamos y trabajábamos... las comidas fueron en otro lugar). Una construcción en múltiples niveles muy muy linda.
 

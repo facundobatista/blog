@@ -10,7 +10,7 @@ Con espacios para charlar, para crear arte en el lugar, para conocer gente, para
 
 .. image:: http://www.taniquetil.com.ar/facundo/imgs/fabricadefallas.png
     :alt: Fábrica de Fallas
-    :link: http://www.youtube.com/watch?v=lu9Rhn8gC0c
+    :target: http://www.youtube.com/watch?v=lu9Rhn8gC0c
 
 *(hagan click en la imagen para ver un video copado)*
 

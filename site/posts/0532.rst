@@ -38,7 +38,7 @@ Anyway, luego del pool, ya siendo como las dos de la mañana, cruzamos la calle 
 
 .. image:: http://www.taniquetil.com.ar/facundo/imgs/pycon11-todos-th.jpg
     :alt: Foto grupal
-    :link: http://www.taniquetil.com.ar/facundo/imgs/pycon11-todos.jpg
+    :target: http://www.taniquetil.com.ar/facundo/imgs/pycon11-todos.jpg
 
 *(hagan click en la foto para verla grande)*
 

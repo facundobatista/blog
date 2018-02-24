@@ -37,7 +37,7 @@ De `Fades <http://fades.readthedocs.io/>`_ les cuento que con `Nicolás Demarchi
 
 .. image:: http://www.taniquetil.com.ar/facundo/imgs/avances-quesos.jpeg
     :alt: Quesos (por el logo de fades, larga historia)
-    :link: https://www.flickr.com/photos/77856868@N04/8647936703/
+    :target: https://www.flickr.com/photos/77856868@N04/8647936703/
 
 Finalmente, con respecto a `CDPedia <http://cdpedia.python.org.ar/>`_ les cuento que también avancé en este proyecto. Estoy planeando hacer una release completa estas semanas, y para ello `armé una versión beta <http://cdpedia.python.org.ar/images/es/20170627/>`_ (luego de corregir varias cosas las últimas semanas/meses para adecuarla a cambios en Wikipedia), así que les pido por favor que la bajen, revisen y si encuentran *cualquier* cosa me avisen.
 

@@ -6,6 +6,6 @@
 
 .. image:: http://www.taniquetil.com.ar/facundo/imgs/felu-pirata.jpg
     :alt: Felu disfrazado de pirata
-    :link: http://www.taniquetil.com.ar/facundo/felu-humo.ogv
+    :target: http://www.taniquetil.com.ar/facundo/felu-humo.ogv
 
 Bonus track: hagan click en la imagen y verán un video de Felu tratando de tocar *Humo sobre el agua* con la guitarra...

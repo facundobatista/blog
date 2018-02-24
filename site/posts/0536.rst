@@ -8,4 +8,4 @@ Me encanta el contraste de colores... el blanco de la piedra, el verde de todo a
 
 .. image:: http://www.taniquetil.com.ar/facundo/imgs/fotint-plazairlanda.jpeg
     :alt: Plaza en Irlanda
-    :link: http://www.flickr.com/photos/54757453@N00/1464280913/
+    :target: http://www.flickr.com/photos/54757453@N00/1464280913/

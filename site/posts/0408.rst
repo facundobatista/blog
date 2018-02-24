@@ -22,6 +22,6 @@ si vos ya estás acá?
 
 .. image:: http://www.taniquetil.com.ar/facundo/imgs/felipe18semanas.jpeg
     :alt: Moni con Felipe de 18 semanas
-    :link: http://www.flickr.com/photos/54757453@N00/3505633413
+    :target: http://www.flickr.com/photos/54757453@N00/3505633413
 
 (click en la foto para una *mirada más interior*)

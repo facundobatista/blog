@@ -14,7 +14,7 @@ Les quiero dejar, como ejemplo de lo que van a encontrar muchas veces en Cosmos,
 
 .. image:: http://www.taniquetil.com.ar/facundo/imgs/nasa-bluepaledot.jpg
     :alt: Un pálido punto azul
-    :link: http://es.wikipedia.org/wiki/Archivo:PaleBlueDot.jpg
+    :target: http://es.wikipedia.org/wiki/Archivo:PaleBlueDot.jpg
 
     Mira ese punto. Eso es aquí. Eso es casa. Eso es nosotros. En él se encuentra todo aquello que amas, todo aquello que conoces, todo aquello del que has oído hablar, cada ser humano que existió, vivió sus vidas. La suma de nuestra alegría y sufrimiento, miles de confiadas religiones, ideologías y doctrinas económicas, cada cazador y recolector, cada héroe y cobarde, cada creador y destructor de la civilización, cada rey y cada campesino, cada joven pareja enamorada, cada madre y padre, cada esperanzado niño, inventor y explorador, cada maestro de moral, cada político corrupto, cada "superestrella", cada "líder supremo", cada santo y pecador en la historia de nuestra especie vivió ahí – en una mota de polvo suspendida en un rayo de luz del sol.
 

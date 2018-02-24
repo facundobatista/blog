@@ -12,7 +12,7 @@ Entonces, agarré el código original, lo modifiqué un poco, y armé este proye
 
 .. image:: http://www.taniquetil.com.ar/facundo/imgs/ftree.png
     :alt: Fluorescent trie
-    :link: http://launchpad.net/ftrie
+    :target: http://launchpad.net/ftrie
 
 Características de este árbol:
 

@@ -18,7 +18,7 @@ Error. Grosero error.
 
 .. image:: http://www.taniquetil.com.ar/facundo/imgs/aerolineas-error.jpeg
     :alt: Error
-    :link: http://www.flickr.com/photos/elycefeliz/4448688868/
+    :target: http://www.flickr.com/photos/elycefeliz/4448688868/
 
 El viernes fuimos a comer a lo de mi viejo, y tipo dos y media de la mañana partimos para el aeropuerto. Ni bien llegamos, empecé a moverme para asegurarme que Moni y Felipe pudieran viajar bien (como salían tres horas después que yo no era cuestión que tuvieran algún drama, yo iba a estar volando). Estaba todo bien mientras pasáramos por migraciones los tres al mismo tiempo. Fuimos a LAN, que es por donde viajaban ellos, y sin problemas aceptaron hacerle el check-in antes de que lo abran oficialmente, entonces si yo despachaba todo lo mío (yo viajaba por TAM), luego despachábamos lo de ellos, y hacíamos el resto de los trámites juntos (control de seguridad, migraciones), y yo ya los dejaba "del lado de adentro", me tomaba mi avión, y listo.
 
@@ -40,7 +40,7 @@ Anyway. Le pedí a la panameña que por favor lo cambien, y me contestó que ell
 
 .. image:: http://www.taniquetil.com.ar/facundo/imgs/aerolineas-resig.jpeg
     :alt: Resignación
-    :link: http://www.flickr.com/photos/leo-gruebler/6750771599/
+    :target: http://www.flickr.com/photos/leo-gruebler/6750771599/
 
 La coordinadora de TAM me dijo que ella iba a averiguar un número de Despegar y que iba a intentar llamar (¿les dije que tenía la mejor onda?), y mientras tanto yo llamé a Israel, a ver si todavía estaba despierto. Por suerte lo encontré, le expliqué el tema, y le pedí que por favor se pusiera en contacto con la gente allá para que hablaran con Despegar y arreglaran todo.
 

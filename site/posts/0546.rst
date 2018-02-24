@@ -12,6 +12,6 @@ Meter un rato al horno. Luego agregarle queso rallado por arriba, y orégano. M�
 
 .. image:: http://www.taniquetil.com.ar/facundo/imgs/pastel-berenjena.jpg
     :alt: Pastel de berenjenas
-    :link: http://www.flickr.com/photos/54757453@N00/sets/72157628170468097/
+    :target: http://www.flickr.com/photos/54757453@N00/sets/72157628170468097/
 
 **Comer y disfrutar.** Click en la foto para verla en mejor resolución.
