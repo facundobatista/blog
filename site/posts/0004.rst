@@ -1,11 +1,6 @@
 .. title: Instalando software en Linux
-.. slug: Instalando-software-en-Linux
-.. date: 2004-08-27 10:59:53 UTC
-.. tags: linux, instalación, software, fedora
-.. link:
-.. description:
-.. type: text
-
+.. date: 2004-08-27 10:59:53
+.. tags: Linux, instalación, software, Fedora
 
 Hay un excelente artículo sobre como afinar las capacidades Multimedia de Fedora (está en los enlaces, a la derecha de la página, en la categoría de Linux). Su autor es Eric S. Raymond.
 

@@ -1,11 +1,6 @@
 .. title: Por el bulevar de los sueños rotos
-.. slug: Por-el-bulevar-de-los-suenos-rotos
-.. date: 2004-09-02 15:54:08 UTC
-.. tags: bulevar, sueños, rotos, joaquín, sabina, rivera, frida, kahlo, chavela, vargas, música, letra, alfredo, lara
-.. link:
-.. description:
-.. type: text
-
+.. date: 2004-09-02 15:54:08
+.. tags: bulevar, sueños, rotos, Joaquín, Sabina, Rivera, Frida, Kahlo, Chavela, Vargas, música, letra, Alfredo, lara
 
 En el bulevar de los sueños rotos
 Vive una dama de poncho rojo
@@ -61,4 +56,3 @@ Quién supiera reir
 Como llora Chavela
 
 Por el bulevar de los sueños rotos (`Joaquín Sabina <http://www.fut.es/~gbc/biog.htm>`_)
-

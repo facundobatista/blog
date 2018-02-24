@@ -1,7 +1,6 @@
-.. date:  2005-05-24 19:49:49
 .. title: Canción y película
-.. tags:  canción, película
-
+.. date: 2005-05-24 19:49:49
+.. tags: canción, película
 
 Prócer el que mata
 Santo el que no goza

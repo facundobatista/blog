@@ -1,6 +1,6 @@
 2007-08-29 11:15:34
 Pa' Chile me voy
-viaje, chile, decimal
+viaje, chile, Decimal
 
 Salgo en un par de horas para el hermano país, de curso hasta el viernes.
 
