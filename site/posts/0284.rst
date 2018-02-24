@@ -1,0 +1,11 @@
+.. title: Pa' Chile me voy
+.. date: 2007-08-29 11:15:34
+.. tags: viaje, Chile, decimal
+
+Salgo en un par de horas para el hermano país, de curso hasta el viernes.
+
+Espero tener internet en el hotel, así puedo contarles algo, pero no esperen demasiado: voy de curso, a internarme 9 horas en una sala de reuniones, así que no voy a andar paseando ni nada.
+
+En Santiago `ya estuve <http://www.taniquetil.com.ar/plog/post/1/72>`_, y no me gustó, así que tampoco voy a salir a recorrer demasiado.
+
+Si tengo internet, seguro voy a estar trabajando en el gran update a Decimal que estoy preparando. Y si no, en una especie de jueguito de simulación que estoy armando para probar que `este enfoque <http://www.cs.colorado.edu/~ralex/papers/PDF/OOPSLA06antiobjects.pdf>`_ sirve.

@@ -1,0 +1,7 @@
+.. title: Video/fotos de Felipe
+.. date: 2009-10-17 19:17:46
+.. tags: video, Felipe, fotos
+
+Con Moni armamos un videito con las primeras fotos de Felipe... ella eligió las fotos y armó el audio (sí, la compaginación del llanto con la canción, usando el Audacity, lo hizo ella), y yo armé el video y carátula con un `par de programitas <http://www.taniquetil.com.ar/homedevel/videofotos/>`_ que ya tenía armados para videos similares que hicimos para los jardines.
+
+Lo pueden ver directamente `desde YouTube <http://www.youtube.com/watch?v=zC82zbhLvjU>`_, o pueden bajar `esta versión que es de mejor calidad <http://www.taniquetil.com.ar/facundo/NacioFelipe.avi>`_ y verlo localmente en sus computadoras.

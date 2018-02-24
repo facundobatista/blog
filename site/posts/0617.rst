@@ -1,0 +1,14 @@
+.. title: Enjuewemela modo PyAr
+.. date: 2013-07-03 16:22:37
+.. tags: juego, software, liberación
+
+No es la primera vez que les comento algo sobre `Enjuewemela <http://enjuewemela.taniquetil.com.ar/>`_, mi jueguito similar a los populares Bejeweled o Diamond Mine, que se basa en alinear 3 o más gemas, tanto verticalmente como horizontalmente, intercambiando gemas adyacentes.
+
+Pero quizás este post sea el último que hago sobre el juego. Y es que me aburrí de pulirle detalles, tratar de hacerlo lindo, jugable, divertido... son cosas que llevan mucho tiempo, no tan evidentes al usarlo... y nada, me aburrió.
+
+Para "despedirme", le implementé algo que tenía en mente hace rato y que quería que esté: un "modo Python Argentina", donde en vez de las piezas usuales, hay personajes de juegos hechos por el grupo.
+
+.. image:: http://www.taniquetil.com.ar/facundo/imgs/enjuewemela-pyar.png
+    :alt: Enjuewemela modo PyAr
+
+Lo consiguen en `el lugar de siempre <http://enjuewemela.taniquetil.com.ar/>`_ :)

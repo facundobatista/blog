@@ -1,0 +1,73 @@
+.. title: Causa y consecuencia, consecuencia y causa, quizás
+.. date: 2014-09-14 15:37:43
+.. tags: física, explicación
+
+¿Cómo es que llegaste a leer esto? En algún momento apretaste un botón y la computadora se prendió. Luego hiciste un click y se abrió el navegador. Hiciste otro click o escribiste algo, y entraste a mi blog.
+
+Esos son ejemplos de causas y consecuencias. Estamos muy acostumbrados a vivir en un mundo donde las causas y las consecuencias están firmemente atadas. Lo vemos todo así, aunque no estemos todo el tiempo razonándolo. Ejemplo: vemos una hoja en el piso. Sabemos que la hoja vino de un árbol, aunque no razonamos toda la secuencia: la hoja estaba en el árbol, la hoja se desprendió, fue cayendo y desplazándose por efecto de la gravedad y el aire, hasta que cayó donde la vemos.
+
+Incluso, podríamos hacer el razonamiento al revés: vemos la hoja, está ahí porque cayó del árbol, cayó porque se desprendió, etc. En general, sin embargo no hacemos estos razonamientos de forma consciente.
+
+Todo esto es común para vos, y no presenta mayor sorpresa, ¿cierto? Eso es porque estamos *acostumbrados* a la causa y consecuencia, forma parte de nuestra *experiencia* como humanos, es la forma en que nuestro *cerebro interpreta* todo lo que nos pasa. Desde que nacemos estamos expuestos a lo que nuestros sensores capturan (ojos, oídos, piel, etc), y formamos una imagen de la realidad en base a esa información.
+
+Pero esa realidad que nosotros percibimos, y que nos es *común* (en el sentido en que la vivimos siempre, y en que es la misma que viven el resto de los humanos), es sólo parte de todo lo que realmente existe. Es decir, sólo interpretamos parte de la realidad, *sentimos* sólo una parte de lo que realmente existe. Y todo aquello que está fuera de nuestra experiencia es muy difícil de entender, porque nuestro cerebro no está acostumbrado a procesarlo.
+
+Una de esas cosas es el tiempo. Y no estoy hablando de si llueve o mañana va a ser un día soleado (o sea, el clima) sino el tiempo como lo que pasa entre el "antes", el "ahora" y el "después". Nosotros creemos que entendemos qué pasa con el tiempo, porque en general estamos expuestos a siempre lo mismo con respecto a esa variable física. Siempre *sentimos* parte de la realidad, aquella en la que la flecha del tiempo es *reversible*. Por eso a partir de la situación del *ahora* se puede deducir la situación del *después*. O incluso sabiendo el estado *actual* podemos saber como estaba el sistema *antes*.
+
+Pongamos un ejemplo para entenderlo mejor: soltemos una pelota en el aire...
+
+.. image:: http://www.taniquetil.com.ar/facundo/imgs/causaconsec-pelota1.png
+    :alt: La pelota, antes de soltarla
+
+En el momento de soltar la pelota, la misma está quieta y a una altura determinada. Si yo te pregunto, qué pasa luego de soltar la pelota, me contestarías fácilmente. Obviamente, momentos después, la pelota está más abajo, y cayendo a una velocidad determinada...
+
+.. image:: http://www.taniquetil.com.ar/facundo/imgs/causaconsec-pelota2.png
+    :alt: La pelota, un rato después
+
+También, si en lugar de mostrarte las dos imágenes al mismo tiempo, te muestro la segunda, te podés imaginar la primera. Es como en el caso de ver la hoja del árbol en el piso, sabés que antes estaba en una rama.
+
+Implícito en todo esto está la reversibilidad del tiempo. Viendo la primera imagen (que está sacada en "tiempo cero") podemos imaginar el avance del tiempo y predecir que va a pasar después (con tiempo t₂, obviamente mayor que cero) , o viendo la segunda imagen podemos predecir que pasaría si el tiempo retrocediese e imaginar la primera imagen.
+
+Lo vemos incluso en las ecuaciones que describen este modelo simple. Vayamos por ejemplo a las posiciones... la ecuación para esto es::
+
+     e = ½.a.t²
+
+Eso es: el espacio recorrido (``h₂ - h₁``, en el dibujo) es la mitad de la aceleración multiplicada por el tiempo que pasó al cuadrado. Si entre la primera y segunda imagen pasaron 2 segundos, siendo la aceleración 9.81m/s² (más o menos, acá en la Tierra), tenemos que el espacio es 19.62m. O sea, viendo la primera imagen podemos deducir que 2 segundos después la pelota va a estar casi 20 metros más abajo... y si vemos la segunda imagen, podemos deducir que 2 segundos antes (o sea, usando t=-2s en la ecuación) la pelota estaba esa distancia más arriba (el espacio lo recorremos en la dirección contraria, porque el resultado de la ecuación nos dio negativo).
+
+Más allá de la complejidad matemática (?) todo esto que te estoy contando no te parece muy loco, ¿no? No. Pero ojo... no todo es tan simple en esta vida (bah, en este Universo).
+
+Y no es tan simple, porque esto de poder ir para adelante y para atrás en el tiempo, en nuestra mente, en nuestros razonamientos, ¡sorpresivamente no siempre se cumple!
+
+Vayamos con otro ejemplo sencillo (aunque un poco más difícil de construir)... mirá el siguiente dibujo.
+
+.. image:: http://www.taniquetil.com.ar/facundo/imgs/causaconsec-foton1.png
+    :alt: Fotón loco, viaje de ida
+
+Eso es una lamparita que tira de a un fotón (la mínima unidad de luz, su partícula elemental), una superficie semiespejada (la explico abajo), y un detector de fotones (que nos va a decir si el fotón llegó ahí).
+
+La `superficie semiespejada <http://es.wikipedia.org/wiki/Divisor_de_haz>`_ es un instrumento óptico que tiene el siguiente efecto: deja pasar la mitad de la luz, y la otra mitad la refleja. O sea, si lo iluminamos con un millón de fotones, la mitad sigue derecho, y la otra mitad rebota. En el caso de nuestro experimento, que le tiramos de a un sólo fotón, podemos decir que ese fotón tiene la mitad de chance de ser reflejado, y la mitad de chance de seguir derecho. [0]
+
+Entonces, veamos qué pasa cuando la lamparita emite un fotón. Este va derechito hasta el espejo (recorrido A-B), y como dijimos puede seguir su camino o reflejarse e irse para la pared. Podemos decir que el recorrido A-B-C tiene un 50% de probabilidad de que suceda, y el recorrido A-B-D tiene la otra mitad. Piénsenlo como las dos fases del ejemplo anterior, el de la pelota: viendo el fotón saliendo de la lamparita como estado inicial, se pueden imaginar que va a pasar *después* (o sea, avanzando en el tiempo): que el fotón pegue en el detector, o que pegue en la pared.
+
+Pero ahora hagamos la pregunta inversa: arranquemos de la segunda imagen, y tratemos de deducir la primera. O sea, tratemos de imaginar qué pasó *antes* (retrocediendo en el tiempo), arrancando nuestra visualización desde el fotón impactando en el detector. Para eso voy dibujo el mismo experimento, pero con otros recorridos...
+
+.. image:: http://www.taniquetil.com.ar/facundo/imgs/causaconsec-foton2.png
+    :alt: Fotón loco, viaje de vuelta
+
+¿Cómo se entiende este nuevo dibujo? Como decía, tenemos que pensar para atrás. Si nosotros sabemos que el detector recibió un fotón, la trayectoria B-C seguro se cumplió; entonces, al punto B del semiespejo el fotón llego de uno de dos lados posibles: o de la lamparita en A (atravesando el semiespejo), o desde un nuevo punto E (reflejándose en el semiespejo).
+
+Acá me dirás que le estoy pifiando conceptualmente... ¿cómo puede ser que el fotón salga desde el punto E, que arranque desde una pared? Pues claro, ¡el fotón no puede venir nunca de ahí! Eso hace que la trayectoria E-B-C no sea realmente posible. En otras palabras, el fotón salió sí o sí de la lamparita: la trayectoria A-B-C se recorrió seguro (un 100% de probabilidad).
+
+No te sientas frustrada/o si tenés que leer dos o tres veces la explicación para entender que pasa, es bastante avanzado a nivel de física. Yo, la primera vez, lo tuve que leer como cinco veces ;). Una de las razones por la que cuesta entenderlo, y hasta *aceptarlo* es que, justamente, todo eso está por afuera de lo que nosotros *sentimos* del universo, no forma parte de nuestra *experiencia*.
+
+En fin, resumiendo los dos análisis: si hacemos que el tiempo se desarrolle para adelante, arrancando con el fotón desde A, vemos que puede recorrer dos trayectorias, A-B-C o A-B-D, con un 50% de chances cada una. Pero si hacemos que el tiempo se desarrolle para atrás, arrancando con el fotón desde C, tenemos que sólo pudo recorrer un camino: A-B-C.
+
+¡Esta es una muestra de que el fotón atravesando el semiespejo no se comporta de una forma reversible en el tiempo! El tener dos posibles recorridos cuando hacemos correr el tiempo para adelante, y uno solo cuando lo hacemos recorrer para atrás, es totalmente distinto a lo que veíamos en el primer experimento, y totalmente distinto a la forma en que vemos normalmente a nuestro entorno, a la forma en que experimentamos el Universo.
+
+La razón de este comportamiento se explica en las bases de la mecánica cuántica, donde se ve y entiende que hay todo un modelo que explica nuestro Universo con el tiempo reversible, pero hay toda una parte donde el tiempo no lo es. O sea, hay toda una rama de la física donde en las ecuaciones no podemos cambiarle alegremente el signo a ``t``.
+
+Respirá aliviada/o, no voy a meterme en toda esa explicación ;) [1]. Pero lo que te quería mostrar es que ahí afuera, aunque no lo veamos, aunque no forme parte de nuestra experiencia como humanos, hay todo un Universo al que sólo podemos acceder con el poder de nuestros cerebros y su capacidad de pensamiento abstracto. Es una herramienta maravillosa, ¡la tenemos que entrenar más y mejor!
+
+*[0] Para usar terminología adecuada, tenemos que decir que hay una amplitud de uno sobre raíz cuadrada de dos de que el fotón esté en un lado y la misma amplitud de que esté en el otro... eso es hablando de distribución de amplitudes con respecto a las posiciones... el módulo del cuadrado de eso nos da la probabilidad de que el fotón esté en un punto o el otro, que es .5 en cada caso.*
+
+*[1] Pero si te interesa, hay un libro que es GENIAL y que habla de esto en tres o cuatro páginas del medio millar que tiene: `The Emperor's New Mind <http://es.wikipedia.org/wiki/La_nueva_mente_del_emperador>`_, de Roger Penrose*

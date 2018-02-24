@@ -1,0 +1,22 @@
+.. title: Piedra, Spock, papel, lagarto, tijera
+.. date: 2013-10-22 22:25:40
+.. tags: juego
+
+Es muy conocido el juego "piedra, papel y tijera", un juego que disfrutamos desde chicos porque no se necesita más que las manos para jugar, las reglas son sencillas, y es dentro de todo divertido.
+
+Hay una variación que incluye dos elementos nuevos ("Spock" y "lagarto") a los tres tan conocidos ("piedra", "papel", etc.), haciendo que las oportunidades de empate sean bastante menores. Esta versión no fue inventada por la serie `The Big Bang Theory <https://es.wikipedia.org/wiki/The_Big_Bang_Theory>`_, sino por `otra gente <http://www.samkass.com/theories/RPSSL.html>`_.
+
+En el juego original, cada elemento era vencido por un otro, y vencía a un tercero. En esta variación, cada elemento es vencido por dos otros, y vence a otros dos. La forma más fácil de recordarlo es mencionar los elementos como en el título de este post, donde cada elemento vence a los dos anteriores y es vencido por los dos siguientes.
+
+Es más fácil verlo en el siguiente gráfico, con las razones "oficiales" y todo:
+
+.. image:: http://www.taniquetil.com.ar/facundo/imgs/psplt-razones.png
+    :alt: Razones del PSPLT
+
+También es piola verlo con los símbolos de las manos:
+
+.. image:: http://www.taniquetil.com.ar/facundo/imgs/psplt-manos.png
+    :alt: PSPLT con las manos
+    :link: https://en.wikipedia.org/wiki/File:Pierre_ciseaux_feuille_l%C3%A9zard_spock_aligned.svg
+
+Listo, ya no tienen excusas para horas interminables de fascinante diversión.

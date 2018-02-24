@@ -1,0 +1,33 @@
+.. title: Actualizaciones
+.. date: 2013-04-23 14:37:34
+.. tags: software, liberaciones, LauncherPosta, Enjuewemela
+
+Estos días hice dos releases rápidos.
+
+El primero fue de `LauncherPosta <http://launcherposta.taniquetil.com.ar/>`_, porque resulta que en Ubuntu Raring crasheaba mal. O sea, no tiraba un traceback: crasheaba.
+
+¿Lo peor? Es un problema de la librería PyGtk, de cómo está implementado para Gtk 3. ¿Lo peor más peor de todos los peores? Es por diseño, y les parece bien que crashee a la mierda en lugar de tirar un traceback decente (miren `el bug que abrí y lo que me respondieron <https://bugs.launchpad.net/ubuntu/+source/pygobject/+bug/1170929>`_).
+
+En fin, esto refuerza `lo que les decía <http://www.taniquetil.com.ar/plog/post/1/603>`_ que Gtk3 me gustaba menos y menos y me estoy pasando a Qt.
+
+BTW, de LauncherPosta liberé la versión 1.0, con el casi único cambio de soportar mejor el toqueteo de la configuración del systray bajo Unity (un pedazo de código que luego les compartiré más separadamente).
+
+El segundo release fue de `Enjuewemela <http://enjuewemela.taniquetil.com.ar/>`_.
+
+Hace rato que no sacaba una versión del jueguito. Es que aunque le había hecho un montón de correcciones, había un gran feature que estaba esperando: el replayer.
+
+¿Qué es el replayer? Es un modo de ejecución de Enjuewemela que le decís que te reproduzca un juego anterior (le tenés que pasar el log que generó la jugada), y podés ir viendo exactamente el juego que hiciste, avanzando y retrocediendo con las flechas. Esto más que nada lo hice porque era necesario para poder detectar algunos crashes raros, y porque era divertido de hacer, :)
+
+Los cambios más interesantes para esta versión 0.5, aparte de la habilidad de "re-jugar un log", son:
+
+- Alienta cuando hay múltiples coincidencias
+- Cambia el tablero cuando cambia de nivel
+- Múltiple fondos
+- Correcto manejo de los highscores
+- Otras pequeñas mejoras y un montón de correcciones.
+
+La verdad es que estoy un poco harto de Enjuewemela. Hay que ponerle un montón de laburo para "hacerlo más lindo" al juego, y la verdad es que "hacerlo lindo" no es algo que me divierta.
+
+Así que creo que sacaré un gran último feature, y luego creo que lo paso a mantenimiento, porque tengo otros proyectos bastante más interesantes para empujar.
+
+Ya los comentaré por este mismo canal. Stay tuned.

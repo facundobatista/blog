@@ -1,0 +1,57 @@
+.. title: Curso, videos, sketch y citas
+.. date: 2005-10-07 19:08:49
+.. tags: curso, Python, video, Toledo, sketch, Les Luthiers, citas, Python
+
+Curso
+-----
+
+Ayer comencé un curso sobre `Python <http://www.python.org/>`_ en el colegio *Las Nieves*, un terciario de Liniers donde enseña mi tío Norberto (que de paso, fue el que me hizo el contacto, ¡gracias!). Pensado como cinco clases de una hora y media, el alcance será limitado pero confío en que van a salir sabiendo qué es Python y todo lo que se puede hacer con él.
+
+La verdad es que la primer clase salió bien. Es la cuarta vez que doy un curso de Python, y esto se nota. Tanto los alumnos del terciario como los profesores se fueron interesados en el tema. Creo que se van a enganchar.
+
+
+Videos
+------
+
+Luego de mil idas y venidas, terminé publicando los videos del curso de Toledo:
+
+
+- `Shakira en Madrid <http://video.google.com/videoplay?docid=2495478891080300588&q=%22Shakira+en+Madrid%22+playable%3Atrue>`_
+
+- `Viaje a Toledo <http://video.google.com/videoplay?docid=7688810401974170405&q=%22Viaje+a+Toledo%22+playable%3Atrue>`_
+
+- `Bajando al pueblo <http://video.google.com/videoplay?docid=-5238240749832329092&q=%22Bajando+al+pueblo%22+playable%3Atrue>`_
+
+- `Trabajando en el curso <http://video.google.com/videoplay?docid=-3507688676764166579&q=%22Trabajando+en+el+curso%22+playable%3Atrue>`_
+
+- `Visita guiada <http://video.google.com/videoplay?docid=3098185301120004539&q=%22Visita+guiada%22+playable%3Atrue>`_
+
+- `Cena con todos <http://video.google.com/videoplay?docid=1606998474260530062&q=%22Cena+con+todos%22+playable%3Atrue%20>`_
+
+
+Sketch
+------
+
+Lo siguiente es parte de un comentario que hice en el `blog de Laura <http://lalyum.blogspot.com/>`_, hablando sobre uno de los sketchs del último espectáculo de *Les Luthiers* (vayan al blog y van a saber de que hablo). Lo escribí así rapidito y me gustó como quedó, así que lo copio acá:
+
+    Este esquech es espectac... esquetch...  es quechua... en quechua sketch
+    es esquech... esquech es quechua, sketch no, sketch es inglés... ingles
+    no es inglés, es castellano...  ingles en quechua no sé cómo es...
+    ingles en castellano no es como en inglés... en quechua inglés no es
+    ingles... todo inglés no habla quechua, pero todo inglés tiene ingles...
+    todo quechua hace esquechs, todo inglés hace sketchs... todo esquech es
+    todo sketch... todo...  todo... ¡esto es todo!
+
+
+Citas
+-----
+
+    ... let me just say that my least-favourite Python error message is
+    "SyntaxError: invalid syntax", which somehow manages to be both
+    overly terse and redundant at the same time.
+    *Greg Ward, 15 Feb 2000*
+
+    "Complexity" seems to be a lot like "energy": you can transfer it
+    from the end user to one/some of the other players, but the total a
+    mount seems to remain pretty much constant for a given task.
+    *Ran, 5 Mar 2000*

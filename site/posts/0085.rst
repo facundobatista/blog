@@ -1,0 +1,22 @@
+.. title: Sin humo y mapas
+.. date: 2005-09-23 12:13:14
+.. tags: oficina, humo, Unifón, fumar, Movistar, mapa
+
+Oficinas libres de humo
+-----------------------
+
+Cuando yo entré en Unifón, se podía fumar en los escritorios. Algunos fumaban, otros no. Yo fumaba en mi escritorio, pero poco.
+
+Un buen día hicieron una encuesta de si los mismos empleados querían que se pueda fumar en las oficinas o no. Yo voté que no. Y al tiempito lo declararon prohibido (creo que el resultado de la encuesta fue tipo 70% a que no se pueda, pero no me acuerdo). Fue una decisión acertada, porque se labura mejor sin gente que fume, y si uno tiene ganas de fumar siempre se podía salir al pasillo, o a las escaleras, lo cual también servía para cortar un poquito con el trabajo, tomarse un café, etc...
+
+El miércoles pasado, aprovechando el día de la primavera, Movistar se declaró con "Oficinas libres de humo", y ahora no se puede fumar en ningún lado del edificio. En otras dependencias, la gente tiene que bajar y salir a la calle para fumar. Acá, en el edificio de Corrientes, como salir a la calle es muy complicado, habilitaron una terraza en el octavo piso, con sillas y mesitas. Falta música y cerveza...
+
+.. image:: http://farm2.static.flickr.com/1025/530139846_ddec92cbfe_o.jpg
+
+
+Mapas de la ciudad
+------------------
+
+El gobierno de la Ciudad de Buenos Aires habilitó un `servicio <http://mapa.buenosaires.gov.ar/>`_ que permite ver la ciudad mediante fotos satelitales, con nombres de calles, subtes, etc. Y tiene la yapa de que marca todas las parcelas en que está dividida cada manzana, e incluso se pueden ver fotos de los frentes de cada casa/edificio.
+
+Realmente interesante, porque muestra como utilizando la tecnología correcta, el estado puede darnos acceso a la información, que en última instancia, es de todos.

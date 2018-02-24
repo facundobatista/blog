@@ -1,0 +1,11 @@
+.. title: Este paquete tiene dueño
+.. date: 2006-08-09 14:05:01
+.. tags: brujo, hada, foto
+
+Es una foto tan linda que no quise dejar de ponerla.
+
+Y de paso me sirve como respuesta a la primer pregunta de `este post <http://www.taniquetil.com.ar/plog/post/1/192>`_. No, no estoy incluido en el paquete.
+
+.. image:: http://farm2.static.flickr.com/1362/533315724_05deaf1a07_o.jpg
+
+El brujo tiene dueño: es un hada. Y la amo.

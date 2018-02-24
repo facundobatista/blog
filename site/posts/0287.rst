@@ -1,0 +1,17 @@
+.. title: Chile, wikimedia y juego
+.. date: 2007-09-04 10:21:22
+.. tags: Wikimedia, fundación, PyWeek, CDPedia, viaje
+
+El viernes pasado volví de Chile, cansado, pero fuimos a comer afuera con Moni (¡era como la una de la mañana!). Al otro día nos levantamos medianamente temprano, pero nos quedamos en casa hasta que salimos uno para cada lado.
+
+Ella fue a visitar amigos, y yo, luego de una breve visita a Mariano, el hermano de Mónica, me fui para el centro.
+
+Resulta que era la reunión fundacional de `Wikimedia Argentina <http://www.wikimedia.org.ar/wiki/Portada>`_, en las que se hablaron varios temas, siendo el que me incumbía la posibilidad de hacer un CD con la Wikipedia, de manera de que se pueda acceder a este contenido sin estar conectado a internet. Este es un `proyecto de PyAr <http://www.python.com.ar/moin/Proyectos>`_, que todavía no terminamos porque nos pusimos metas demasiado altas (*tenemos* que continuarlo en algún momento...).
+
+De ahí me fui a las oficinas de Lucio, donde nos encontrábamos todos porque largaba la `quinta edición de PyWeek <http://www.pyweek.org/5/>`_. El tema que salió fue Twisted (enroscado, retorcido). Nosotros habíamos barajado varias opciones de juegos para cada tema, así que en dos o tres horas ya teníamos el juego definido.
+
+La gente se fue yendo y viniendo, entraban y salían colaboradores, y así fuimos trabajando en el juego. Yo dormí media hora como a la una de la tarde, y fuimos varios los que le pegamos hasta las seis de la tarde, que nos separamos.
+
+Yo no estoy pudiendo tocar código en la semana, sólo participando en la lista de correo, hasta el jueves, aproximadamente. Es que en un par de horas me voy nuevamente a Chile, y vuelvo el jueves, justamente.
+
+El viernes nos volvemos a juntar, tenemos tiempo hasta el sábado a la noche para entregar el juego, :)

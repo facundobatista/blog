@@ -1,0 +1,73 @@
+.. title: Más pelis
+.. date: 2011-08-09 16:16:19
+.. tags: películas
+
+Buen ritmo de películas vistas en los últimos meses!
+
+- `9 <http://www.imdb.com/title/tt0472033/>`_: +0. Increíble el "escenario" donde se desarrolla todo, muy bien armado el mundo mostrado, pero la historia... hasta ahí. La animación está muy buena, sí, pero a esta altura es lo que uno espera.
+
+- `Doubt <http://www.imdb.com/title/tt0918927/>`_: +1. Muy buen tema, fantásticas actuaciones de Philip Seymour Hoffman y Meryl Streep; no es tan dramática como pensé que iba a ser, pero sí es intensa.
+
+- `Elegy <http://www.imdb.com/title/tt0974554/>`_: +0. Interesante, buena historia, pero no es gran cosa.
+
+- `Good Dick <http://www.imdb.com/title/tt0944101/>`_: +0. Una película muy muy rara, que no le pongo +1 porque es en cierto punto "demasiado fuera de ritmo", pero que está más buena de lo que uno supone luego de verla diez minutos.
+
+- `Gran Torino <http://www.imdb.com/title/tt1205489/>`_: +1. Genial representación de cómo las personas pueden importar mucho más de lo que las apariencias o las etiquetas a priori indican.
+
+- `Harry Potter and the half-blood Prince <http://www.imdb.com/title/tt0417741/>`_: -0. Una más del niño este. No vale la pena a menos que sigas la historia global.
+
+- `Lluvia <http://www.imdb.com/title/tt1194615/>`_: +1. Una historia muy bien contada, con fragmentos de tiempos que van pintando el cuadro general. Me gustó también las actuaciones, y lo que cuenta.
+
+- `Pandorum <http://www.imdb.com/title/tt1188729/>`_: +0. Nunca una peli tipo "medio perdidos, en una nave espacial, con algo raro adentro y bichos feos" podrá ser la mejor luego de Alien, pero esta vale la pena verla.
+
+- `Religulous <http://www.imdb.com/title/tt0815241/>`_: +1. Ver `acá <http://www.taniquetil.com.ar/plog/post/1/513>`_ por un comentario.
+
+- `Surrogates <http://www.imdb.com/title/tt0986263/>`_: +0. Buena idea, bien explorada... la historia en sí podría ser mejor, no deja de ser un policial más, pero ese no es el valor principal de la película.
+
+- `The International <http://www.imdb.com/title/tt0963178/>`_: +1. Muy buena acción, las actuaciones no están nada mal, y una trama de lujo.
+
+- `The burning plain <http://www.imdb.com/title/tt1068641/>`_: +1. Muy buena historia, muy bien contada. Es un drama bastante fuerte, pero interesante por lo que muestra y transmite.
+
+- `The soloist <http://www.imdb.com/title/tt0821642/>`_: +1. Me encanta como muestra la relación entre los dos personajes principales. Me estoy haciendo fan de Robert Downey Jr., pero la actuación de Jamie Foxx está muy bien también.
+
+- `The unborn <http://www.imdb.com/title/tt1139668/>`_: +1. Hacía rato que una película de terror no me dejaba un par de horas "rumiando" la historia. Recomendada si tenés hijos, pero no si sos sensible.
+
+Por otro lado, aparecieron casi la misma cantidad para ver...
+
+- `A good old fashioned orgy <http://www.imdb.com/title/tt1231586/>`_
+
+- `Apollo 18 <http://www.imdb.com/title/tt1772240/>`_
+
+- `Contagion <http://www.imdb.com/title/tt1598778/>`_
+
+- `Dream house <http://www.imdb.com/title/tt1462041/>`_
+
+- `Killer elite <http://www.imdb.com/title/tt1448755/>`_
+
+- `Le nom des gens <http://www.imdb.com/title/tt1646974/>`_
+
+- `Mission: Impossible - Ghost protocol <http://www.imdb.com/title/tt1229238/>`_
+
+- `The King's speech <http://www.imdb.com/title/tt1504320/>`_
+
+- `The Muppets <http://www.imdb.com/title/tt1204342/>`_
+
+- `The girl with the Dragon tatoo <http://www.imdb.com/title/tt1568346/>`_
+
+- `The ledge <http://www.imdb.com/title/tt1535970/>`_
+
+- `The thing <http://www.imdb.com/title/tt0905372/>`_
+
+Finalmente, el resumen según cuando las anoté::
+
+    (23-May-2008)    4    4
+    (24-Sep-2008)   29   21   15    6
+    (21-Ene-2009)   19   18   18   18   12
+    (09-May-2009)   14   14   13   11   10
+    (15-Oct-2009)   20   17   17   16   15
+    (01-Mar-2010)   19   18   18   18   18
+    (12-Sep-2010)        19   19   18   18
+    (14-Dic-2010)             13   13   13
+    (13-Abr-2011)                  23   23
+    (09-Ago-2011)                       12
+    Total:         105  111  113  123  121

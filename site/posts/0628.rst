@@ -1,0 +1,11 @@
+.. title: Fábrica de mundos
+.. date: 2013-09-27 16:53:58
+.. tags: foto
+
+Mundos, luego de fabricados, esperando el momento del deployment.
+
+.. image:: http://www.taniquetil.com.ar/facundo/imgs/fotint-mundos.jpeg
+    :alt: Mundos
+    :link: http://www.flickr.com/photos/54757453@N00/8075540583/
+
+`Más fotos <http://www.flickr.com/photos/54757453@N00/sets/72157631740983604/with/8075542465/>`_ similares y todas las de un paseo por Artigas (Uruguay) el año pasado.

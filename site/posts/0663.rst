@@ -1,0 +1,25 @@
+.. title: Decime quien sos vos
+.. date: 2014-11-26 02:07:07
+.. tags: Encuentro, software, radio, entrevistas, Aliverti
+
+El título de este post es robado a un `maravilloso programa de Eduardo Aliverti <http://www.decimequiensosvos.com.ar/>`_.
+
+Es un programa de radio que sale desde hace años por Radio Nacional los domingos a las 10hs. Se basa en una entrevista de Aliverti a alguna personalidad, armando un diálogo tranquilo, profundo, inteligente.
+
+La dinámica es bastante minimalista: sólo Aliverti charlando con el entrevistado. Nada más. La producción es de Roxana Russo, de extensísima carrera, y directora de la carrera de Periodismo en `ETER <http://eter.com.ar/>`_ (escuela donde terminé el curso de Locución y Técnicas Vocales hace un par de meses, :) ).
+
+En palabras de ellos mismos:
+
+    "Decime quién sos vos" es un programa de entrevistas tan distendidas como agudas e intimistas donde convergen personalidades emblemáticas del pensamiento, la cultura, el arte, el espectáculo, el deporte.
+
+¿Por qué les cuento esto? En parte porque el programa se merece ampliamente una recomendación: es uno de los (casi ningún) programas de radio y televisión que escucho religiosamente.
+
+Pero también porque van a poder bajarlo de forma fácil usando `Encuentro <http://encuentro.taniquetil.com.ar/>`_, a partir de la versión 2.1 que acabo de liberar.
+
+Meter "Decime quien sos vos" en `Encuentro <http://encuentro.taniquetil.com.ar/>`_ me llevó *muchísimo* trabajo (incluso tuve que hacer una `biblioteca para parsear SWFs en Python <https://github.com/facundobatista/yaswfp>`_), pero la posibilidad de buscar fácilmente entrevistados para poder bajar el programa lo valía.
+
+Entonces, ahora es muy fácil escuchar entrevistas de calidad a (entre otros) Pepe Soriano, Hector Larrea, Teresa Parodi, Carlos Ulanosvsky, Horacio Fontova, Lalo Mir, Horacio Verbitsky, Lito Vitale, Adrián Paenza, Walter Malosetti, Luis Salinas, Roberto Perfumo, Abelardo Castillo, Gonzalo Bonadeo, Luis María Pescetti, Alejandro Dolina, Lito Cruz, etcétera, etcétera, y recontra etcétera.
+
+Bajen/instalen el nuevo `Encuentro <http://encuentro.taniquetil.com.ar/>`_, refresquen la metadata, y además de todo lo que pueden encontrar ahí, filtren u ordenen por este nuevo programa, y van a ver que el contenido es invaluable.
+
+Que lo disfruten, :)

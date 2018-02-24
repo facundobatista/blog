@@ -1,0 +1,94 @@
+.. title: Analizando la memoria en Python
+.. date: 2010-08-20 16:32:21
+.. tags: Python, memoria, Heapy, análisis, ubuntu one
+
+Estoy haciendo un análisis de la memoria del `cliente de Ubuntu One <http://launchpad.net/ubuntuone-client>`_ (particularmente unos módulos que conforman el SyncDaemon propiamente dicho), y me pareció tan copado que muestro acá parte de eso (aprendí el 99% de esto gracias a `Guillo <http://launchpad.net/~verterok>`_).
+
+El análisis se basa en usar `Heapy <http://guppy-pe.sourceforge.net/>`_. Si a ubuntuone-client se lo levanta con ``--debug-heapy_monitor``, el mismo hace (sacando el manejo de error)::
+
+	import guppy.heapy.RM
+	guppy.heapy.RM.on()
+
+Nada más. Entonces, lo ejecuté, y lo llevé a un estado en donde quería probar un par de cosas.
+
+En otra terminal, ejecuté::
+
+	python -c "from guppy import hpy; hpy().monitor()"
+
+Y eso me abrió una linea de comandos a través de la cual me conecté a mi programa Python que estaba ejecutando en la otra ventana (sí, a SyncDaemon)::
+
+	<Monitor>
+	*** Connection 1 opened ***
+	<Monitor> lc
+	CID PID ARGV
+	 1 4451 ['bin/ubuntuone-syncdaemon', '--debug-heapy_monitor']
+	<Monitor> sc 1
+	Remote connection 1. To return to Monitor, type <Ctrl-C> or .<RETURN>
+	<Annex> h
+	
+	Documented commands (type help <topic>):
+	========================================
+	close h help int isolatest q reset stat
+	
+	<Annex> stat
+	Target overview
+	------------------------------------
+	target.sys.executable = /usr/bin/python
+	target.wd             = /home/facundo/canonical/u1-client/aq-memory-improvements
+	target.pid            = 4451
+	------------------------------------
+
+Abrí una consola interactiva, y le dije que me tomara un snapshot del ``heap``::
+
+	<Annex> int
+	Remote interactive console. To return to Annex, type '-'.
+	>>> h1 = hp.heap()
+
+Luego tiré un archivo con contenido a Ubuntu One, volví a pedir el ``heap``. Y miré las diferencias::
+
+	>>> h2 = hp.heap()
+	>>> h2.diff(h1)
+	Summary of difference operation (A-B).
+	      Count   Size
+	 A  204310 17394824
+	 B  204296 17393604
+	 A-B    14   1220 = 0.00701 % of B
+	
+	Differences by kind, largest absolute size diffs first.
+	 Index Count   Size Cumulative % of B Kind (class / dict of class)
+	   0    3    468     468 0.00269 str
+	   1    2    272     740 0.00425 dict (no owner)
+	   2    2    152     892 0.00513 ubuntuone.syncdaemon.marker.MDMarker
+	   3    1     92     984 0.00566 ubuntuone.syncdaemon.action_queue.Upload
+	   4    1     56    1040 0.00598 unicode
+	   5    2     56    1096  0.0063 ubuntuone.syncdaemon.logger.mklog
+	   6    1     52    1148  0.0066 ubuntuone.syncdaemon.action_queue.MakeFile
+	   7    1     36    1184 0.00681 types.MethodType
+	   8    1     36    1220 0.00701 ubuntuone.syncdaemon.sync.FSKey
+	   9    0      0    1220 0.00701 dict of ubuntuone.syncdaemon.event_queue.MyReader
+	  10    0      0    1220 0.00701 ubuntuone.syncdaemon.event_queue.MyReader
+
+Seguí haciendo unos experimentos, y llegó un punto en que ciertos elementos no deberían estar más en memoria, pero estaban. Lo más piola es que pude ver *dónde*::
+
+	>>> markers = h5[39]
+	>>> markers
+	Partition of a set of 241 objects. Total size = 18316 bytes.
+	 Index Count %   Size % Cumulative % Kind (class / dict of class)
+	   0  241 100  18316 100   18316 100 ubuntuone.syncdaemon.marker.MDMarker
+	>>> markers.referrers
+	Partition of a set of 2 objects. Total size = 6332 bytes.
+	 Index Count %   Size % Cumulative % Kind (class / dict of class)
+	   0    1 50   6280 99    6280 99 dict (no owner)
+	   1    1 50     52 1    6332 100 collections.deque
+	>>> markers.referrers[0].referrers
+	Partition of a set of 1 object. Total size = 136 bytes.
+	 Index Count %   Size % Cumulative % Kind (class / dict of class)
+	   0    1 100    136 100     136 100 dict of ubuntuone.syncdaemon.action_queue.DeferredMap
+	>>> markers.referrers[1].referrers
+	Partition of a set of 1 object. Total size = 520 bytes.
+	 Index Count %   Size % Cumulative % Kind (class / dict of class)
+	   0    1 100    520 100     520 100 dict of ubuntuone.syncdaemon.file_shelf.LRUCache
+
+El segundo es un caché, y está todo bien, está acotado y cuando se suelte, se volarán. Pero el primer es un leak (del código nuestro, no de Python), y me confirmó lo que yo había visto por inspección del código.
+
+Buenísimo el Heapy, :D

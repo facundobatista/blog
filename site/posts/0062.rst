@@ -1,0 +1,35 @@
+.. title: Firefox, películas y citas.Python
+.. date: 2005-07-15 15:12:07
+.. tags: Firefox, películas, citas, Python, donald knuth, tim peters
+
+Firefox
+-------
+
+En Julio alcanzó los **70 millones** de downloads, ¡otro gran número!, :). Y está cuarto en el `top ten de downloads <http://www.cnet.com/4520-11136_1-6257577-1.html>`_ de los últimos diez años de CNET , sólo superado por ICQ, Winamp, y Napster.
+
+
+Películas
+---------
+
+Agregué varias a la lista de pendientes (`The final cut <http://www.imdb.com/title/tt0364343/>`_, `King Kong <http://www.imdb.com/title/tt0360717/>`_, `Madagascar <http://www.imdb.com/title/tt0351283/>`_, `The Chronicles of Narnia: The Lion, the Witch and the Wardrobe <http://www.imdb.com/title/tt0363771/>`_, `Fantastic four <http://www.imdb.com/title/tt0120667/>`_, `Hostage <http://www.imdb.com/title/tt0340163/>`_), y vi dos:
+
+- Girl with a pearl earring: -0
+
+- War of the worlds: +1
+
+
+citas.Python
+------------
+
+Inauguro una especie de nueva sección, o mejor dicho una nueva costumbre: cada tanto, en los posts más generales (como este), voy a incluir citas relacionadas de alguna u otra manera con Python. Serán
+más o menos *aprovechables *en función de cuanto sepan de Python o lenguajes/informática en general, y estarán en inglés, espero las puedan disfrutar.
+
+    We will perhaps eventually be writing only small modules which are
+    identified by name as they are used to build larger ones, so that
+    devices like indentation, rather than delimiters, might become feasible
+    for expressing local structure in the source language.
+    *Donald E. Knuth, "Structured Programming with goto Statements",
+    Computing Surveys, Vol 6 No 4, Dec. 1974*
+
+    Ha -- you have done me the favor of underestimating my ignorance <smile>.
+    *Tim Peters, 30 Dec 1991*

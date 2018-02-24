@@ -1,0 +1,64 @@
+.. title: Encapsulando Python en un binario
+.. date: 2011-09-24 20:00:25
+.. tags: hack, binario, freeze
+
+Este es un lindo truquito que no es de mi autoría, sino que es de John Lenton (él lo mostró en una reunión del laburo), pero como yo ya lo mostré en PyCon Brasil el año pasado, y en PyCon Argentina ayer, lo pongo acá para el que lo quiera mirar...
+
+Arrancamos con nuestro programa o proyecto Python que queremos meter adentro del binario... para nuestro ejemplo acá, crearemos un directorio, lo hacemos paquete de Python, y adentro creamos lo que sería el programa principal de nuestro sistema, con una función adentro que es la que arrancaría todo::
+
+    facundo@exopus:~/prueba$ mkdir proyecto
+    facundo@exopus:~/prueba$ cd proyecto/
+    facundo@exopus:~/prueba/proyecto$ touch __init__.py
+    facundo@exopus:~/prueba/proyecto$ cat principal.py
+    def run():
+        print "Arrancamos!"
+    facundo@exopus:~/prueba/proyecto$ cd ..
+    facundo@exopus:~/prueba$
+
+Tenemos que probar que podamos arrancar nuestro sistema desde el directorio padre... a veces no es tan fácil, hay que jugar un poquito con los paths de dónde importamos cosas, pero en este ejemplo es sencillo. Pero podemos probarlo facilmente::
+
+    facundo@exopus:~/prueba$ python
+    Python 2.7.1+ (r271:86832, Apr 11 2011, 18:05:24)
+    ...
+    >>> import proyecto.principal
+    >>> proyecto.principal.run()
+    Arrancamos!
+    >>>
+
+Una vez que lo logremos ejecutar así, tenemos que poner ese mismo código en un archivo con nombre ``__main__.py`` en el directorio padre de nuestro proyecto::
+
+    facundo@exopus:~/prueba$ cat __main__.py
+    import proyecto.principal
+    proyecto.principal.run()
+
+Volvemos a probar que nuestro sistema funciona correctamente::
+
+    facundo@exopus:~/prueba$ python __main__.py
+    Arrancamos!
+
+El próximo paso es meter todo adentro de un archivo ZIP, aprovechando que Python es capaz de interpretar directamente este tipo de archivos comprimidos (por eso el nombre especial de antes, para que Python lo reconozca)::
+
+    facundo@exopus:~/prueba$ zip -r proyecto.zip __main__.py proyecto/
+     adding: __main__.py (deflated 27%)
+     adding: proyecto/ (stored 0%)
+     adding: proyecto/__init__.py (stored 0%)
+     adding: proyecto/principal.pyc (deflated 45%)
+     adding: proyecto/__init__.pyc (deflated 30%)
+     adding: proyecto/principal.py (stored 0%)
+
+Probamos nuevamente que, hasta acá, funcione todo correctamente::
+
+    facundo@exopus:~/prueba$ python proyecto.zip
+    Arrancamos!
+
+Finalmente, metemos todo eso adentro de un binario, indicando que se va a interpretar con Python, y haciéndolo ejecutable::
+
+    facundo@exopus:~/prueba$ ( echo '#!/usr/bin/env python'; cat proyecto.zip ) > miproyecto
+    facundo@exopus:~/prueba$ chmod +x miproyecto
+
+¡Ya está! Ahora podemos ejecutar ese binario, como cualquier otro binario, y realmente estaremos ejecutando nuestro proyecto Python::
+
+    facundo@exopus:~/prueba$ ./miproyecto
+    Arrancamos!
+
+Genial, :)

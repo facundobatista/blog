@@ -1,0 +1,24 @@
+.. title: Foto, pelis y citas
+.. date: 2005-08-12 11:06:25
+.. tags: Nieves, películas, citas, Python
+
+Foto *en blú* con Nivi!
+
+.. image:: http://farm2.static.flickr.com/1375/530138712_edd3d4e8c1_o.jpg
+
+----------------
+
+Agregué dos películas a la lista: `Tiempo de valientes <http://www.imdb.com/title/tt0462570/>`_  y `Wedding crashers <http://www.imdb.com/title/tt0396269/>`_. Se van acumulando, ya son 69...
+
+----------------
+
+Citas:
+
+    The problem I have with "SETL sets" in Python is the same I have with every other language's "killer core" in Python: SETL is much more than just "a set type", Eiffel is much more than just fancy pre- and post- conditions, Perl's approach to regexps is much more than just its isolated regexp syntax, Scheme is much more than just first-class functions & lexical closures, and so on. Good languages aren't random collections of interchangeable features: they have a philosophy and internal coherence that's never profitably confused with their surface features.
+    *Tim Peters, 10 Jul 1998*
+
+    I don't know what "invert the control structure" means -- but if it's anything like turning a hamster inside-out, I would expect it to be messy <wink>.
+    *Tim Peters, 25 Jul 1998*
+
+    There are also some surprises [in the late Miocene Australia] some small mammals totally unknown and not obviously related to any known marsupial (appropriately awarded names such as Thingodonta and Weirdodonta) and a giant python immortalized as Montypythonoides.
+    *The Book of Life, found by Aaron Watters*

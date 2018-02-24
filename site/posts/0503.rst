@@ -1,0 +1,85 @@
+.. title: PyCon Atlanta 2011, la conferencia
+.. date: 2011-03-14 02:12:10
+.. tags: PyCon, Python, viaje, charlas, conferencia
+
+El formato de PyCon USA este año fue de dos días de tutoriales, tres días de conferencia (dos y tres cuartos, realmente), y cuatro días de sprints.
+
+A los tutoriales no fui, pero sí a la conferencia y los sprints. Este post es sobre esos tres días de conferencia.
+
+
+Primer día
+----------
+
+Luego de la presentación y apertura del evento, tuvimos en la primera charla plenaria a `Hilary Mason <http://www.hilarymason.com/>`_ hablando de programación, análisis de datos, y varias cosas diversas... nada específico, pero entretenido.
+
+Tuvimos un pequeño break y arrancó la primer sesión de charlas propiamente dichas. La primera fue "Distributed Tasks with `Celery <http://celeryproject.org/>`_", por Ryan Petrello. Creo que la idea está buena, claramente resuelve casos de uso que se me presentaron y con los que estuve jugando... pero el diablo está en los detalles, dicen, hay que ver cómo es usar esto IRL.
+
+"Getting more contributors (and diversity) through outreach" por Asheesh Laroia. Estuvo bien, aunque se focalizó más en "more contributors" que en "diversity", que era mi interés. Una idea para diversidad: hacer un evento especial para mujeres... hombres pueden ir, pero tenés que ir invitado por una mujer que vaya. Esto es algo que se inventó y probó en la comunidad de Ruby on Rails y que ha tenido bastante éxito... ya mandé un mail a la lista de correo de PyAr, veremos qué se opina por ahí.
+
+Para dejar clara mi posición al respecto, lo que a mi me interesa es derribar las barreras actuales que evitan que las mujeres tengan las mismas oportunidades que los hombres en todo lo relacionado con tecnología.
+
+La última charla de la mañana estuvo relacionada con la anterior, "Diversity in Tech: Improving our Toolset", por Jennifer Leech. Interesante aspecto relacionado con las expectativas y como estas afectan los comportamientos: "Si vos le decís a una persona cómo esperás que cumpla con una tarea en particular *afecta profundamente* cómo esa persona cumplirá con la tarea".
+
+Luego el almuerzo, que fue durante la reunión de la Python Software Foundation, y las charlas de la tarde. Me quedé para dos relacionadas con Python 3: "Status of Unicode in Python 3" por Victor Stinner, y "Porting to Python 3", por Lennart Regebro.
+
+Un break, una charla que no me gustó, y luego "Why is Python slow and how PyPy can help?", que no era lo que esperaba pero no estuvo tan mal (se dedicaron a hablar de que PyPy es más rápido que CPython y algunas cosas que hacen a nivel del JIT, pero nada más).
+
+.. image:: http://www.taniquetil.com.ar/facundo/imgs/pycon2011-plenaria.jpeg
+    :alt: Sala de la plenaria
+
+De cierre, las lightning talks. Alguna te puede gustar, otra no, pero el formato está buenísimo (justamente porque de las que te gustaron luego seguís investigando, y de las que no... bueno, no perdiste más de cinco minutos).
+
+Al rato nos fuimos a cenar Dani Moisset, Armin Rigo (core developer de `PyPy <http://pypy.org/>`_), Reid Kleckner que laburaba en Unsladen Swallow mientras el proyecto estaba activo, y yo. Comimos en un restaurant chino que estaba cerquita.
+
+Al volver me puse a laburar en un fix a Twisted, y al sobre.
+
+
+Segundo día
+-----------
+
+Al otro día, arrancamos con lightning talks de nuevo. Estuvo buena la de `python-on-a-chip <http://code.google.com/p/python-on-a-chip/>`_, que es una colección de ports de Python a algunos microcontroladores... me llamó la atención particularmente el port a DryOS, que es el sistema operativo de muchas Canon, incluída `la que tengo <http://en.wikipedia.org/wiki/Canon_PowerShot_G10>`_.
+
+También estuvo piola la de Brett Cannon contando que había hecho `la nueva guía para desarrollar Python <http://docs.python.org/devguide/>`_ (Python, no en Python), y otro documento sobre `cómo portar proyectos a Python 3 <http://docs.python.org/py3k/howto/pyporting.html>`_.
+
+Luego vino una plenaria sobre "How Dropbox did it and how Python helped", la cual estuvo pésima. Habló un poco de Dropbox, habló mucho de él y sus amigos... como charla normal, hubiese estado de medio pelo para abajo, y para una plenaria uno espera más. El flaco, como disertante, pésimo... creo que miró a la audiencia dos o tres veces, el resto leía de la laptop... mal.
+
+Para cerrar el bloque, una entrevista relajada a Guido: básicamente una serie de preguntas que la gente fue mandando y votando a través de una página web. Habló de varias cosas, pero una frase que me encantó fue "The biggest innovation in Python is Community" ("la mayor innovación en Python es la Comunidad").
+
+Luego de un break, comenzó la primer sesión de charlas. Me enteré de detalles históricos en "Ten years of `Twisted <http://twistedmatrix.com/trac/>`_", por Glyph Lefkowitz, y luego algunas ideas sobre documentación en "Writing great documentation", por Jacob Kaplan-Moss. Antes de comer, una interesante charla de Alex Martelli, "API Design anti-patterns".
+
+La sesión de la tarde, después del almuerzo, arrancó con una charla de programación genética usando `PyEvolve <http://pyevolve.sourceforge.net/>`_, y luego una charla sobre memoria: interesante, pero me hubiese gustado algo más de detalle en los internals y menos en lo que hace la biblioteca de este muchacho, `gdb-heap <https://fedorahosted.org/gdb-heap/>`_. Antes del break cerramos con una charla sobre `ZeroMQ <http://www.zeromq.org/>`_... la biblioteca está interesante (una especie de socket mágico que puede ser 1:1 o 1:N, N:1, N:M, y con distintas semánticas con respecto a la respuesta), pero el flaco se la pasó cambiando ventanas, yendo para atrás y para adelante en la presentación a toda velocidad, y la verdad que se hubiese entendido más si hubiese mostrado todo mejor (no más, sólo mejor).
+
+En el último bloque sólo ví una charla sobre AST, que estuvo un poco densa pero me dió más info para algo que tenía en la cabeza... de esos proyectos que uno patea para adelante y realmente nunca empieza, je, maldito día de sólo veinticuatro horas.
+
+Y para cerrar, lightning talks de nuevo! Se habló de `Read the docs <http://readthedocs.org/>`_, un sitio web que reúne documentación de forma muy piola: basicamente lo apuntás a tu proyecto, y te arma toda la documentación a partir de tus .rst, los sirve, búsquedas completas, descarga como PDF, etc; muy interesante. Barry Warsaw habló sobre `flufl.i18n <http://pypi.python.org/pypi/flufl.i18n>`_ una herramientra de internacionalización de más alto nivel que la clásica gettext.
+
+A la noche cena con Nati Bidart, Dani Moisset y Juan Pablo (un chico de Buenos Aires que no conocíamos... bah, nos vimos un par de veces en algún PyDay) a un mexicano cerca que no estuvo muy bueno.
+
+
+Tercer día
+----------
+
+Nuevamente arrancamos con lightning talks, en las que yo di una charlita sobre PyAr, básicamente hablando de las Charlas Abiertas de Python en La Tribu, y de la CDPedia.
+
+Luego hubieron tres plenarias dadas por sponsors: `Threadless <http://www.threadless.com/>`_, `Disqus <http://disqus.com/>`_ y `OpenStack <http://www.openstack.org/>`_. La de Threadless estuvo super divertida, y la de Disqus fue interesante del lado técnico, pero nada más.
+
+.. image:: http://www.taniquetil.com.ar/facundo/imgs/pycon2011-torta.jpeg
+    :alt: Torta  de los 20 años
+
+Luego de un break bastante largo (porque estaba la "poster session"... eso de los posters no me llama mucho la atención) fui a la charla de Raymond Hettinger "Fun with Python's Newer Tools", donde habló sobre Counter, namedtuples, lru_cache y .format. Estuvo muy buena!
+
+A la tarde asistí a una charla sobre cómo habían escalado el nuevo frontend de SourceForge, y a una en que Doug Hellmann contaba sobre "tesoros escondidos" de la biblioteca estándar (no estuvo mal, pero ya conocía todos los módulos que comentó).
+
+Para cerrar el evento, más lightning talks y mucha gente desfilando diciendo qué sprint va a liderar, a ver si consigue gente. Yo ya lo tengo decidido antes de venir, voy a empezar a portar Twisted a Python 3.
+
+
+Conclusión
+----------
+
+La conferencia, a nivel charlas, estuvo bien. No hubieron demasiadas cosas que me volaran la cabeza, pero estuvo interesante. Creo que vale la pena venirse hasta acá (aunque quizás no todos los años, por el costo que implica).
+
+Hubo una sorprendente cantidad de "ruido" alrededor de PyPy (el intérprete de Python escrito en Python), porque que alcanzaron un punto de madurez en el que cumplen 99.99% de Python2.6, y es `más rápido que CPython <http://speed.pypy.org/>`_ (el intérprete de Python hecho en C).
+
+También se habló mucho alrededor de Python 3 siendo el futuro evidente... ya nadie se pregunta "cómo" ni "si pasará", sino "cuando se hará el click" y "quienes se están quedando atrás".
+
+Python cumplió veinte años, y está más vivo que nunca.

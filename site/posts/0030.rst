@@ -1,0 +1,11 @@
+.. title: On fire
+.. date: 2005-02-17 06:42:34
+.. tags: Firefox, IE, Explorer, Microsoft, porcentaje de mercado
+
+`Firefox <http://www.spreadfirefox.com/?q=affiliates&amp;id=30445&amp;t=64>`_ acaba de superar la marca de `25 millones <http://www.spreadfirefox.com/?q=node/view/11681>`_ de descargas. 25 millones.
+
+.. image:: http://farm2.static.flickr.com/1231/527834620_fb87fd02df_o.png
+
+El promedio es de un cuarto de millón por día, pero lo más interesante es que no tiende a bajar la cantidad diaria. Se mantiene. Y de a poquito vamos erosionando el porcentaje de mercado del Internet Explorer.
+
+Tengan en cuenta que el objetivo de Firefox no es desbancar al IE, sino "reconquistar la web". Pero que el IE deje de tener la mayor parte del mercado sería un efecto colateral hermoso, ya que representa vivamente las malas intenciones de Microsoft ejercidas a través del mal uso del monopolio que posee dentro de los sistemas operativos de escritorio.

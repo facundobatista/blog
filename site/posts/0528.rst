@@ -1,0 +1,100 @@
+.. title: Empaquetando un programa hecho en Python
+.. date: 2011-09-05 20:17:50
+.. tags: Debian, packaging, bzrtools, PPA
+
+Estos son los pasos genéricos para, desde un proyecto que tiene el ``setup.py`` funcionando (ver `este post <http://www.taniquetil.com.ar/plog/post/1/518>`_ para ayuda con eso), armar un paquete ``.deb`` y publicarlo en un ``PPA``. El ``.deb`` es un archivo *instalable* en Debian o Ubuntu, y el ``PPA`` es una forma de registrarse para que el programa se actualice automáticamente cuando hay nuevas versiones (obvio, preguntándole al usuario, como el resto del sistema).
+
+Traté de ser conciso para que no se pierdan los pasos en un mar de palabras, pero explicar alguito de cada punto, y dar alguna referencia para seguir investigando. Esta guía está casi copiada de una menos genérica y en inglés que había preparado Naty Bidart en el laburo... la idea es que quede aquí en castellano y más explicada...
+
+Quizás necesiten instalar algunas dependencias (por ejemplo: ``bzr``, ``bzrtools``, ``bzr-builddeb``, ``ubuntu-dev-tools``, ``libcrypt-ssleay-perl``), y configurar algunas cosas:
+
+- En el archivo .bashrc configurar nombre y mail para lo que son los .deb::
+
+    export DEBFULLNAME="Nombre Completo"
+    export DEBEMAIL="mail@algun.lado"
+
+- Crear en el home un archivo .devscripts con este contenido::
+
+    DEBUILD_DPKG_BUILDPACKAGE_OPTS='-i -I'
+
+- Tener un entorno pbuilder configurado /para cada distro/ a la que quieran apuntar (en este ejemplo, usé 'maverick', reemplacen apropiadamente):
+
+    - crear un symlink en algún lado de vuestro PATH llamado ``pbuilder-maverick``, apuntando a ``/usr/bin/pbuilder-dist``
+
+    - en algún lado dentro del home (por ejemplo, en un directorio ``~/pbuilder``), ejecuten: ``pbuilder-maverick create``
+
+    - regularmente (o antes de armar un paquete), actualicen el entorno de pbuilder con: ``pbuilder-maverick update``
+
+Por último: sí, estos pasos están fuertemente orientados a usar `bazaar <http://bazaar.canonical.com/en/>`_ en todo el proceso. Es lo que hay :)
+
+Presten atención a los comandos que ejecutan, especialmente a los cambios de "." y "-" por "_", y a todo lo que use 'tuproyecto'. Cualquier duda, pregunten.
+
+- Arrancamos trabajando con *trunk*.
+
+- Revisar que el *setup.py* funcione correctamente (que arme, instalarlo, y generar un tarball). Luego de instalarlo en ``/tmp/test`` ir allí y ver que funcione correctamente. Luego de generar el *tarball*, ir a otro directorio que no tenga nada que ver, desarmarlo y ver qué esté todo bien::
+
+    ./setup.py clean build
+    ./setup.py clean install --prefix=/tmp/test
+    ./setup.py clean sdist
+
+- Cambiar la versión en setup.py a la nueva (en este ejemplo, sería ``X.Y.Z``). Marcar a nivel *bazaar* un nuevo release::
+
+    bzr commit -m "[release] vX.Y.Z"
+    bzr tag release_X_Y_Z
+    bzr push
+
+- Hacer un "bzr log" y preparar el *changelog* y las *release notes*. El changelog es una lista exhaustiva de todos los cambios, y las release notes es un subconjunto de eso, normalmente lo que es más relevante, interesante, o útil a la persona que quiere saber qué tenemos de nuevo en esta versión de nuestro programa.
+
+- Generar y subir el tarball a Launchpad. El último paso setea EDITOR porque ``lp-project-upload`` va a abrir dos archivos para que escribamos el changelog y las release notes que preparamos antes (pueden usar el editor que más les guste)::
+
+    ./setup.py clean sdist
+    cd dist
+    EDITOR=vim lp-project-upload tuproyecto X.Y.Z tuproyecto-X.Y.Z.tar.gz
+
+- Copiar el tarball (con un nuevo nombre) y preparar un nuevo branch para empezar a empaquetar::
+
+    cp dist/tuproyecto-X.Y.Z.tar.gz ../tuproyecto_X.Y.Z.orig.tar.gz
+    cd ..
+    bzr branch trunk/ tuproyecto-X.Y.Z
+    cd tuproyecto-X.Y.Z/
+    bzr dh-make --bzr-only tuproyecto X.Y.Z ../tuproyecto_X.Y.Z.orig.tar.gz
+    python-mkdebian
+
+- Editar el changelog con: ``EDITOR=vim dch`` (yo tiendo a poner las release notes aquí)
+
+    - Agregar lineas de changelog
+
+    - Agregar un ``-0ubuntu1`` al nro de versión entre paréntesis
+
+- Archivos necesarios para Debian (tocar como dice acá o traer intactos de otro packaging que se haya hecho antes):
+
+    - agregar un directorio ``source`` adentro del dir ``debian``, y poner en ese nuevo directorio un archivo ``format`` con el siguiente contenido::
+
+        3.0 (quilt)\n
+
+    - confirmar que las dependencias sean las correctas en el archivo ``debian/control``
+
+    - modificar ``debian/copyright`` como corresponda
+
+    - crear un archivo ``debian/watch`` con el siguiente contenido::
+
+        version=3
+        http://launchpad.net/tuproyecto/+download .*/tuproyecto-([\d.]+)\.tar\.gz
+
+- Armar el paquete en si, y luego del tercer paso probar el ``.deb`` que quedó en ``~/pbuilder/maverick_result`` (o en el directorio donde hayan puesto pbuilder ustedes)::
+
+    debuild -S -sa
+    bzr add debian
+    pbuilder-maverick build ../tuproyecto_X.Y.Z-0ubuntu1.dsc
+
+- Actualizar el ``PPA`` (se puede crear el ``PPA`` desde tu página personal de Launchpad)::
+
+    dput ppa:<nombre_de_ppa_que_corresponda> tuproyecto_X.Y.Z-0ubuntu1_source.changes
+
+- Luego de unos minutos, debería aparecer acá::
+
+    https://launchpad.net/~tunombre/+archive/tuproyecto/
+
+- Esperar que se buildee la versión que subieron (puede tardar algunas horas, un par de días, normalmente no más), y luego si quieren publicar lo mismo para otras versiones de Ubuntu sólo alcanza con copiar los fuentes a la versión que corresponda, desde la siguiente página:
+
+    https://launchpad.net/~tunombre/+archive/tuproyecto/+copy-packages

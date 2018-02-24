@@ -1,0 +1,29 @@
+.. title: Por tres
+.. date: 2006-01-23 15:15:26
+.. tags: Python, Apache, GPRS, celulares, remeras, PyAr, conferencia, PyCon, decimal
+
+Solo cliente no more
+--------------------
+
+Hasta ahora, los teléfonos celulares siempre trabajaron como clientes en lo que a interacción con la web se refiere. Pero hay unos pibes que dijeron basta, y portaron Apache a un Nokia serie 60. Por supuesto, con mod_python, usando tanto programas de Python como PSP (Python Server Pages).
+
+Así que ahora podemos servir nuestro sitio directamente desde nuestro celular. ¿El costo del GPRS? Bien, gracias.
+
+
+Remeras
+-------
+
+Finalmente se vienen las remeras de Python Argentina. Luego de varios fallidos intentos, esta vez lo tomé como algo personal y me puse a empujarlo. Las voy a hacer, sí sí sí.
+
+.. image:: http://farm2.static.flickr.com/1068/530207348_73e9f7d064_o.png
+
+
+¿Quieren alguna? No tienen más que pedírmelas directamente a mí, o a través de la lista de PyAr.
+
+
+Conferencia
+-----------
+
+La `PSF <http://www.python.org/psf/>`_ este año tambien me paga los gastos principales (avión, hotel, registración en la conferencia), así que me voy a `PyCon 2006 <http://us.pycon.org/TX2006/HomePage>`_, la conferencia mundial de Python, que este año se realiza en Addison, Texas (cerca de Dallas).
+
+Yo expongo el `primer día <http://www.python.org/pycon/2006/schedule.html>`_, *Decimal para principiantes*, una charla que `ya había dado <http://www.taniquetil.com.ar/plog/post/1/55>`_ en EuroPython 2005, así que ni siquiera tengo que hacerla, jejeje.

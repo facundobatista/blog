@@ -1,0 +1,28 @@
+.. title: Enjuewemela 0.4.1
+.. date: 2011-08-24 22:29:10
+.. tags: liberación, juego, Python
+
+Enjuewemela es otro juego más similar a los populares "Bejeweled" o "Diamond Mine". El juego se basa en alinear 3 o más gemas, tanto verticalmente como horizontalmente, intercambiando gemas adyacentes. Está (por supuesto) escrito en Python, usando el framework para juegos cocos2d.
+
+.. image:: http://www.taniquetil.com.ar/facundo/imgs/enjuewemela-logo.png
+    :alt: Logo
+
+La versión 0.4.1 trae un montón de nuevas características, y muchos bugs corregidos. Lo más relevante es:
+
+- Hay un nuevo estilo de juego! Se llama Maluco! No dejen de probarlo.
+
+- Tenemos un sitio web 3.0! `Pasen y vean <http://enjuewemela.taniquetil.com.ar/>`_ (con botón de Dnoaciones y todo)
+
+- Rehice la parte de audio del juego, ahora es más portable, rápida, y debería funcionar sin que tengan que saber nada sobre eso.
+
+- Ahora se instala de forma que pueden ejecutar el juego desde el menu de Aplicaciones.
+
+- Puse un botón de Donaciones en la página web.
+
+La forma más fácil de instalarlo, si tienen un Debian o Ubuntu, es usando `este instalador <http://launchpad.net/enjuewemela/trunk/0.4.1/+download/enjuewemela-0.4.1.deb>`_. Si quieren obtener automaticamente las nuevas actualizaciones, pueden suscribirse al PPA; en una linea de comandos hagan::
+
+    sudo add-apt-repository ppa:facundo/enjuewemela
+
+En cualquier otro caso, `pueden usar el tarball <http://launchpad.net/enjuewemela/trunk/0.4.1/+download/enjuewemela-0.4.1.tar.gz>`_ para instalarlo.
+
+¡Que lo disfruten!

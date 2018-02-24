@@ -1,0 +1,10 @@
+.. title: Jardinera
+.. date: 2014-08-22 20:35:34
+.. tags: foto, Malena
+
+Sí, ya sé que estoy denso con las fotitos de Malena... ¿¿¿pero qué quieren que haga???
+
+``<baba>``
+.. image:: http://www.taniquetil.com.ar/facundo/imgs/malena-jardinera.jpeg
+    :alt: Malena jardinera
+``</baba>``

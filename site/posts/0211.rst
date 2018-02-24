@@ -1,0 +1,19 @@
+.. title: Segunda etapa
+.. date: 2006-10-18 21:38:01
+.. tags: blog, LifeType, infraestructura
+
+Bueno, arranca una nueva etapa del blog.
+
+Esta nueva etapa no gira en su contenido, frecuencia de posts, estética. No. Gira sobre la estabilidad.
+
+¿Por qué estabilidad? Porque finalmente me fui de Dattatec, que tenía un servicio de mierda. Pésimo. Nunca lo consideren como una opción válida.
+
+Y si ustedes están en Dattatec, aprovechen para cambiar. Según mi experiencia y la del Chaghi, todo depende de qué servidor les tocó en suerte. Pero tarde o temprano, les llegará.
+
+Hoy por hoy, estoy en Hoztear. Espero tener mejor suerte. Como yapa, migré a LifeType 1.1 (LifeType es el software que me da la función de blog sin tener que editar un montón de páginas a mano).
+
+Por lo pronto, todo funciona bastante bien. Les pido por favor que cualquier funcionalidad que vean con algún inconveniente, lo que sea que todavía no esté trabajando al 100%, el menor inconveniente, me avisen.
+
+Ahora que tengo estable el sitio, es hora de corregir esos detalles.
+
+Mil gracias, y bienvenidos de nuevo, :D

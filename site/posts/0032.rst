@@ -1,0 +1,53 @@
+.. title: Nueva versión de SiGeFi
+.. date: 2005-02-24 12:10:24
+.. tags: SiGeFi, gestión, financiera, Python, programación, contabilidad, epydoc
+
+Salió `SiGeFi <http://sourceforge.net/projects/sigefi>`_ 0.3, luego de recorrer un largo camino, pero con el alto nivel de calidad de siempre.
+
+
+¿Qué es SiGeFi?
+---------------
+
+SiGeFi es un Sistema de Gestión Financiera pensado principalmente para el hogar y las finanzas personales.
+
+Siempre manteniendo la simpleza de uso y de conceptos, SiGeFi posee características de un Sistema de Gestión complejo:
+
+- Cumple con los conceptos de Contabilidad por Partida Doble
+
+- Posee un esquema de Distribución en base a Presupuestos
+
+- Permite realizar Préstamos entre cuentas (con costos financieros asociados)
+
+Y por supuesto, está completamente escrito en Python; todavía no nos decidimos por la GUI.
+
+
+¿Qué hay en esta versión?
+-------------------------
+
+Cambio de funcionalidad:
+
+- Incorporamos un LoanChecker, una alerta asincrónica programable que verifica el vencimiento de los préstamos.
+
+Cambios internos:
+
+- Finalizamos todos los docstrings, y generamos la documentación de las clases usando epydoc (próximamente será publicada en la web como parte del contenido de la misma).
+
+- Tradujimos todos los textos al inglés, y realizamos la integración con gettext, con lo que desde ahora SiGeFi es multilenguaje (por ahora tenemos inglés y castellano solamente).
+
+- Corrección de errores varios.
+
+Especificamos la interfaz gráfica de SiGeFi. En el documento manual-gui.html indicamos la funcionalidad de cada ventana, y también agregamos una imagen preview de la misma, por lo que si querés tener un anticipo de como lucirá la GUI, allí lo tenés).
+
+
+¿Qué puedo esperar para la próxima versión?
+-------------------------------------------
+
+Que terminemos la GUI (con todo lo que ello implica) y algunas otras mejoras:
+
+- Ver si podemos reemplazar PersitentDict con un shelve.
+
+- Estudiar los controles de consistencia del Pickle, e implementar algunos si es necesario.
+
+- Definir el procedimiento de arranque y codearlo en config.py.
+
+- Armar la página Web.

@@ -1,0 +1,17 @@
+.. title: Entramos en beta con Encuentro
+.. date: 2012-03-20 14:06:04
+.. tags: liberación, software
+
+Ya lo dije varias veces, pero siempre hay algún despistado... Encuentro es un simple programa que permite buscar, descargar y ver contenido del Canal Encuentro.
+
+La versión 0.5 trae los siguientes cambios con respecto a la versión anterior:
+
+- Se puede autorefrescar la lista de episodios al inicio (si lo dice la config)
+
+- El filtro ahora funciona también sobre la columna de Sección
+
+- Soporta mejor los episodios que fueron borrados del disco
+
+- También hay algunas pequeñas mejoras y otros detalles corregidos
+
+Más info (cómo instalarlo, etc), en la `página oficial <http://encuentro.taniquetil.com.ar/>`_. ¡Que lo disfruten!

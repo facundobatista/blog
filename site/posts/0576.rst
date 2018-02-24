@@ -1,0 +1,38 @@
+.. title: Un lanzador, posta
+.. date: 2012-08-21 23:12:32
+.. tags: software, liberación
+
+Una de las primeras cosas que extrañé fuertemente cuando empecé a laburar 100% en unity2d (con Precise) fue la posibilidad de poner iconitos con lanzadores en la misma barra que estaba el systray, el reloj, calendario, etc.
+
+Yo ahí tenía un lanzador para editar el .txt con anotaciones de Canonical, otro con anotaciones para mi blog, para abrir con openoffice mi planilla de gastos, para ejecutar el mumble o el controlador de pulseaudio, etc, etc.
+
+Claro, en unity2d el "launcher" es la barra vertical de la izquierda, pero por diseño tiene funcionalidades opuestas a lo que necesito. La más evidente es que abre "programas"... y si yo quiero abrir mi archivo de anotaciones del blog, para el launcher es abrir un gvim, y como tengo otros gvim abiertos para otras cosas, se confunde.
+
+También se pueden abrir o lanzar cosas desde el "dash" (eso que aparece cuando uno hace click en la tecla que está entre el el *control* y el *alt*). Pero no funciona del todo bien si uno quiere abrir archivos (antes me los mostraba, ahora no... e incluso cuando me los mostraba, si tenía dos con el mismo nombre me mostraba ambos, y no sabía cual era cual). En el mejor de los casos, hay que apretar una tecla, escribir parte de lo que queremos ejecutar, esperar a que se refresque, ubicar visualmente lo que uno quiere, hacer click... lentísimo.
+
+En fin. Había perdido la posibilidad de "facilmente lanzar programas o abrir archivos", y decidí hacer algo yo para reemplazarlo. Lo tomé también como excusa para jugar con Gtk3 (obviamente desde Python), ya que cambia mucho con respecto a Gtk2 y todavía no lo había usado para nada. El resultado: **LauncherPosta**.
+
+LauncherPosta es un lanzador. Realmente un lanzador. Uno que te deja ejecutar programas, o abrir archivos fácilmente, :D.
+
+.. image:: http://www.taniquetil.com.ar/facundo/imgs/launcherposta-logo.png
+    :alt: LauncherPosta
+
+Al ejecutar el programa lo que sucede es que aparece un iconito en el systray, el cual es la principal interfaz con el programa. Allí estarán las opciones que carguemos para ejecutar aplicaciones o abrir archivos.
+
+También tenemos las opciones de Edit (para editar justamente el menú), para ver datos del programa, y para salir.
+
+El detalle es (para la versión que acabo de liberar, ya con la funcionalidad básica):
+
+- Pone un ícono en el systray, para ser usado como interfaz principal
+
+- Automáticamente corrige la configuración de unity para hacer que permita poner el ícono en el systray
+
+- Haciendo click en el ícono te muestra Editar, Acerca de, y Salir
+
+- "Editar" permite agregar, borrar, o cambiar las opciones del menú, e incluso reordenarlas
+
+- Las opciones se componen por un ícono (opcional), una descripción, y el comando a ejecutarse
+
+- Haciendo click en esas opciones del menú ejecutará el comando configurado
+
+En fin, más info y cómo instalarlo, en `la página oficial <http://launcherposta.taniquetil.com.ar/>`_. ¡Que lo disfruten!

@@ -1,0 +1,48 @@
+.. title: CaFeConf 2007
+.. date: 2007-10-07 23:06:09
+.. tags: conferencia, reunión, software libre, PyAr, Python, charlas, cierre, fiesta
+
+Día 1
+-----
+
+La edición 2007 de CaFeConf arrancó al mediodía, pero muchas personas llegaron antes: no sólo los organizadores, sino también aquellos que teniamos que armar los stands. `Python Argentina <http://www.python.com.ar/moin>`_ tenía uno, y este año aparte de colgar nuestra querida bandera teníamos también una `cartelera de trabajo <http://www.python.com.ar/trabajos>`_ que presentar.
+
+.. image:: http://farm4.static.flickr.com/3421/3257982838_ea8d3929c7_o.jpg
+
+Cuando tuvimos el stand "funcionando" como queríamos, nos relajamos y empezamos a atender a la gente que empezó a agruparse alrededor ni bien mostramos las OLPCs.
+
+Al rato se hicieron las doce menos cuarto y partí a mi charla en el Auditorio, `Introducción a Python <http://www.taniquetil.com.ar/homedevel/presents/intropython.odp>`_, a la que asistieron alrededor de 100 personas. Salió muy bien, casi perfecta, más que nada por la cantidad de veces que ya la di. Sin embargo siempre encuentro pequeños ajustes para realizarle.
+
+Luego nos fuimos a comer, y por eso nos perdimos la charla siguiente. La otra realmente no me interesaba, y luego el día (cortito) cerraba con la keynote de Enrique Chaparro. Enrique es un especialista en seguridad de los sistemas de información, devenido propagandista del software libre. Ha participado en proyectos significativos de implantación de software libre en los sectores público y privado, y ha colaborado con proyectos legislativos sobre uso de software libre en el Estado en Argentina, Colombia y Perú.
+
+La charla estuvo muy buena (aunque lenta por momentos), y utilizaba el cuento de Caperucita Roja como metáfora sobre en dónde estamos con el Software Libre, cómo estamos, qué alternativas tenemos, qué cursos de acción, etc. Como muestra, una de las filminas decía *"Caperucita en el bosque: Cómo llegamos aquí, cómo lidiar con el Lobo Feroz usando software libre... si nos dejan; y por qué y a quiénes les interesa no permitírnoslo"*.
+
+Al terminar, partimos un grupo relacionado con Python Argentina a tomar unas cervezas. El lugar al que fuimos no nos convenció para quedarnos a comer, así que terminamos en una pizzería cercana en la que comimos muy bien, no salió caro, y fuimos bien recibidos aunque éramos más de 20.
+
+
+Día 2
+-----
+
+Las dos charlas que había antes del mediodía o no me interesaban tanto, o ya las había visto. Entonces me quedé en el stand hasta que se hicieron las doce y arrancó la charla que dimos con Lucio, "Python más rápido que C".
+
+Esta charla era bastante esperada, porque desde hace un mes o mes y medio que venimos diciendo que vamos a darla, y aunque  mucha gente se mostró interesada, nosotros no dimos ninguna pista del trabajo. Sin embargo, nos sorprendió la cantidad de gente: alrededor de 80 personas se amontonaron en el aula, no sólo ocupando todas las sillas, sino también los pisos atrás, adelante, y en los pasillos.
+
+.. image:: http://farm4.static.flickr.com/3306/3257153567_dc3336f53d_o.jpg
+
+La charla salió muy bien, y una prueba de ello es que las preguntas luego de la charla no atacaron los resultados ni conclusiones: estuvo todo muy bien justificado y probado, y la concepción de que *"si en lugar de programar en Python, escribís en C, muchas veces (no siempre, pero muchas), estás haciendo optimización prematura"* fue una conclusión aceptada. La charla, junto con los programas que hicimos, `aquí <http://www.taniquetil.com.ar/homedevel/presents/pyrapidc/>`_.
+
+Luego, a comer. Al volver, estuve un rato en el stand de PyAr y marché a un muy buen taller de `Federico Heinz <http://federratas.codigolibre.net/>`_ sobre Activismo. Se hablaron de muchas cosas interesantes, como cultura, política, software como construcción de la identidad de grupos, cómo llegar a que el estado no nos coarte libertades, etc...
+
+Salimos unos minutos tarde del lugar, y con Moni decidimos ir a tomar un café. Ya cerca de las seis bajamos y nos aprontamos para el Cierre, que estaba a punto de comenzar en el Aula Magna.
+
+El cierre estuvo muy bien, aunque nunca esperamos a ver que el hasta ahora conocido como "Teletubi naranja", también podía ser el "hombre Tux":
+
+.. image:: http://farm4.static.flickr.com/3131/3257982982_61a47debd8_o.jpg
+
+Luego de los pequeños discursitos y sorteos de rigor, nos desconcentramos todos. Terminamos de desarmar el stand de PyAr, saludos, abrazos, etc.
+
+Con Moni volvimos a casa, dormimos una pequeña siesta, y partimos a eso de las 11 de la noche hacia Palermo, donde era la fiesta cierre del evento, en PK2. Al principio eramos poquitos, pero luego fue cayendo la gente y se armó la joda grande.
+
+.. image:: http://farm4.static.flickr.com/3414/3257153691_8c5c1d0ca7_o.jpg
+
+Como conclusión, otro CaFeConf, otros dos días espectaculares. Python tuvo nuevamente un papel preponderante en las conferencias. Y yo cada vez estoy más inmiscuido en la comunidad, lo cual me alegra y al mismo tiempo me motiva para seguir participando. Todas las fotos `acá <http://www.flickr.com/photos/54757453@N00/sets/72157602300461920/>`_.

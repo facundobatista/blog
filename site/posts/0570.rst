@@ -1,0 +1,25 @@
+.. title: Salió Encuentro 0.7
+.. date: 2012-07-18 14:23:07
+.. tags: liberación, software
+
+Encuentro es un simple programa que permite... blah blah blah, ya les dije esto varias veces, ¿no? Bueno, lo que pasa es que ahora cambió.
+
+Y cambió un poquito a la fuerza.
+
+Resulta que un día me avisan que el programa no estaba funcando bien, que daba error al bajar los videos. "Debe ser un problema transitorio de los servers", pensé. Pero luego me avisó otra persona lo mismo. Entonces me puse a revisar.
+
+Y resulta que el problema era que los servers de donde el programa bajaba los episodios no estaba más! El Canal Encuentro había pasado a hostear todo su contenido en el portal Conectate, que servía lo de Encuentro y de otros canales también.
+
+El problema, de mi lado, es que esto me cambiaba todo el escenario. Pero bueno, le puse mucha más prioridad al proyecto, cancelé una versión 0.6 que estaba por salir (no tenía sentido, iba a estar rota), e hice algunos sprints efímeros (el primero con Diego Mascialino, que me ayudó muchísimo a la hora de descular cómo loguearse en Conectate para descargar los episodios), al punto que llegué al PyCamp de hace unos días con una versión funcional.
+
+Durante el PyCamp tuve bastante ayuda también (Diego, Humitos, Martín) y pulimos muchos detalles, y dejamos todo casi listo para una nueva release.
+
+.. image:: http://encuentro.taniquetil.com.ar/imgs/title.png
+    :alt: Logo
+    :link: http://encuentro.taniquetil.com.ar/
+
+Durante los días posteriores al PyCamp yo pulí algunos detalles más y generé una pre-release para que se vayan armando los otros instaladores, y finalemente estos últimos días preparé el .deb, actualicé el PPA, y anuncié por todos lados.
+
+Para ver los últimos cambios y distintas formas de instalarlo, pueden visitar `la página oficial del proyecto <http://encuentro.taniquetil.com.ar/>`_.
+
+Ojalá disfruten el programita, cualquier cosa me avisan, ¡y corran la voz! (¡gracias!).

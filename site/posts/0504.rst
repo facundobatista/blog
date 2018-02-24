@@ -1,0 +1,52 @@
+.. title: PyCon Atlanta 2011,  los Sprints
+.. date: 2011-03-20 21:31:42
+.. tags: viaje, PyCon, Python, sprints, python3, Twisted, trial, tests, zope
+
+Cuando me puse a pensar qué podía hacer durante los cuatro días de sprints, al principio no me llamó nada la atención. Pero luego se me ocurrió que podía (empezar a) portar Twisted a Python 3, que era algo que tenía una mezcla de dos cosas en la que me quería meter: más adentro de Twisted que lo que te da el uso diario, y en Python 3 usándolo en casos no triviales.
+
+Más puntualmente, mis objetivos para los sprints eran:
+
+- Meterme adentro del código de twisted: Conocer la estructura del proyecto, detalles del código, etc.
+
+- Conocer más sobre el projecto de Twisted en sí: conocer más y charlar con los desarrolladores, meterme en el proceso de desarrollo que ellos tienen montado alrededor del proyecto, etc.
+
+- Tener problemas reales (más allá de la teoría) al portar a Python 3, enfrentándome a casos complicados que no aparecen cuando uno estudia la documentación.
+
+- Lograr que al menos un test corra OK en Python 3 (lo que implica que toda la infraestructura de pruebas funcione en la nueva versión, lo cual está lejos de ser sencillo porque esa infraestructura misma es provista por twisted).
+
+En los días anteriores había bajado el trunk del proyecto, para irme familiarizando, y al correr los tests encontré que me fallaban algunos; luego de analizar y ver qué pasaba terminé descubriendo que era por un problema del código que dependía del locale de la máquina (y como yo la tengo en castellano, explotaba ahí). Decidí que esa iba a ser mi primer contribución al proyecto, y armé un parche y lo propuse.
+
+No fue tan directo, ya que realmente los tests no fallaban a menos que la máquina estuviese no en inglés, así que luego de charlarlo un rato decidimos que tenía que ponerle unos casos de prueba condicionales, y eso hice. Tampoco entró tan fácil esto, porque faltaban un par de cosas de estética en las que yo no estaba de acuerdo con los desarrolladores de Twisted.
+
+Y es que Twisted es un proyecto muy viejo, y estandarizó algunas cosas que son contradictorias con lo que *después* se definió como mejores prácticas dentro del mundo Python. Entonces ahí tuvimos algunas idas y vueltas, y al final yo mandé un mail a la lista de Twisted para empezar un cambio, y metieron mi parche en trunk, corrigiendo el problema.
+
+Aunque todo esto llevó bastante tiempo, me sirvió mucho para irme familiarizando con el proceso, cómo manejan los tickets, qué significa cada cosa, etc.; en definitiva, cual es el workflow de los bugs y parches.
+
+.. image:: http://www.taniquetil.com.ar/facundo/imgs/pycon2011-sprints.jpeg
+    :alt: Sprinting
+
+Volviendo a los casos de prueba, luego de ejecutar algunos tests en Python 2.6 con el flag ``-3`` detecté algunas cosas que podía empezar a cambiar masivamente, y al mismo tiempo meterlo en el código actual. En otras palabras, cambios que pegaban en todo el proyecto, y que hacía que esas partes estuviesen mejor preparadas para la migración a Python 3. Uno de estos cambios fue dejar de usar el módulo ``new`` y comenzar a usar ``types``, el otro fue dejar de usar ``cmp`` (tanto ``__cmp__``, como el builtin, como el parámetro de sort/sorted) y empezar a usar lo que se llama *rich comparisons*. El primer cambio era bastante directo (propuse un branch, aunque me dijeron que había tocado un par de cosas que no tiene pruebas y tenía que hacer los test), pero el segundo cambio es un quilombo (no llegué a terminar el branch) porque la funcionalidad no es directamente equivalente, sino que depende de qué tipo de comparaciones se quieren realizar.
+
+El tercer día decidí cambiar el enfoque. Lo que estaba haciendo no estaba equivocado, pero daba para mucho más que los dos días que quedaban, y la idea era probar distintas cosas ahí, antes que termine el sprint, aprovechando que estaban los *viejos* del proyecto cerca.
+
+Así que decidí arrancar con la migración propiamente dicha, postergando las correcciones a lo que ya había hecho. Le corrí ``2to3`` a todo el proyecto, lo cual me corrigió una gran cantidad de cosas triviales en muchos archivos, dejó intacto muy pocos, y me avisó de cosas que no pudo cambiar que debería tocar a mano (esto quizás se pueda meter en otro branch que funcione también en Python 2).
+
+Finalmente, traté de correr *un* test con Python 3. Acá empezaron a saltar muchos, muchos detalles. Algunos triviales, y otros bastante espesos.
+
+El primero complicado fue que Twisted depende de ``zope.interface``. Por suerte este ya estaba migrado a Python 3, el tema era hacerlo andar con el Python 3.2 que tenía instalado (Ubuntu Maverick trae 3.1). Al principio quise usar ``virtualenv`` pero no había una versión empaquetada para Python 3, así que traté de compilarlo, lo que me llevó a darme cuenta que necesitaba tener ``setuptools3``... en fin, terminé teniendo lo que necesitaba en 3.1, pero no en 3.2. Acá cambié el approach... bajé las fuentes de un ``virtualenv`` para Python 3, lo compilé e instalé usando Python 3.2, y ya adentro del ``virtualenv`` instalé con ``easy_install`` a ``setuptools3`` y ``zope.interface``... y acá quedó andando lindo: Python 3.2, con todo lo necesario. (muchas gracias a Nati y Darni por la ayuda en toda esta gran configuración).
+
+Igual, no terminaba ahí, porque tuve que tocar bastante código ya que cambió la forma de usar ``zope.interface``: antes se hacía ``implements(IAlgo)`` en el scope de la clase, y ahora hay que decorar la clase con ``@implementor(IAlgo)``.
+
+Otra cosa que me mordió feo es que el método de una clase no es más un ``unbound method``, sino una función pelada que no sabe en qué clase está (obviamente en ambos casos al instanciar la clase, la función se convierte en un ``bound method``). Esto rompe el cómo ``trial`` busca los test cases que uno indicó por linea de comandos.
+
+Cuando les comenté este problema a los desarrolladores, empezó toda una discusión de qué podíamos hacer porque corregir esto no es trivial, y va a pegar bastante en todo el código. Finalmente decidí arreglarlo de forma medio sucia... no es la forma final, pero me permitió seguir con lo que yo estaba haciendo. Otro chico se quedó con la tarea de ver de normalizar eso.
+
+Igual, más allá de esos dos problemas grandes, tuve que ir corrigiendo muchos pequeños detalles (hay que tener en cuenta que Twisted es uno de los pocos proyectos que sigue hoy en día habiendo arrancado en Python 1).
+
+Pero finalmente, varias horas después, terminé de corregir todo lo necesario, y pude ver mi primer test que corría OK con Python 3, :D
+
+La verdad es que estaba muy contento, y no sólo yo: los otros desarrolladores también, porque yo no era el primero que decía que se tenía que migrar el proyecto a Python 3, pero sí el primero que se arremangaba y obtenía resultados.
+
+Y hasta acá llegó el sprint... realmente no hice mucho más, excepto ver todos los cambios que había metido y hacer una especie de listita con todo lo que hay que ir sacando de ahí e ir pasando en limpio para mandar al proyecto. Encima a las tres de la tarde del último día nos cortaban internet, así que básicamente después de almorzar ya estaba con la persiana baja.
+
+Así que me quedé un rato, saludé, me fui para el lobby a usar la internet del hotel para terminar algunas otras cosas, y un par de horas después emprendí el camino de regreso a casa.

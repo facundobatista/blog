@@ -1,0 +1,48 @@
+.. title: Estructura de costos de tener un auto
+.. date: 2013-05-02 01:09:03
+.. tags: planilla, análisis
+
+El siguiente es el análisis de todos los gastos durante el primer año al auto que compramos con Moni el año pasado, un `Sandero Stepway 1.6 <http://www.renault.com.ar/automoviles/nuevostepway>`_.
+
+La idea es poder ver cuanto cuesta tener y mantener un auto mediano, y cuales son los rubros que más impactan en ese valor.
+
+Los gastos están separados en distintos rubros, algunos fijos y otros variables (en función del kilometraje). Estos rubros son los que yo uso para llevar mi contabilidad casera, por eso los tengo separado así.
+
+Los rubros son:
+
+- Estacionamiento: no pago cochera fija por mes (ni en casa (y yo laburo en casa), ni cuando Moni va a trabajar), así que este gasto es el estacionamiento cada vez que voy a Capital o parecido, más alguna que otra fichita de parquímetro.
+
+- Seguro: el auto tiene seguro contra terceros completo en La Caja a través del Automóvil Club Argentino (ACA), pero aparte de ese costo, acá incluyo el mismo valor que yo guardo como "autoaseguro" (que es un yeite que me rinde más que pagar directamente un seguro más caro). En otras palabras, el valor este es mitad para "el seguro", mitad para un "sobre" en el que guardo plata para gastos que el seguro cubriría si fuese más alto.
+
+- Patente: eso, la patente, tener en cuenta que el auto está anotado en Provincia de Bs As.
+
+- Mantenimiento: principalmente el ACA por mes y algún que otro lavado del auto, ya que como el auto es nuevo y está en garantía no tengo gastos de mecánico (pero justamente por esto, acá están incluidos los gastos de los dos servicios, de 10 y 20 mil kilómetros); un detalle es que los primeros tres meses del auto no pagué el servicio ACA porque me los bonificaron al tomar el seguro.
+
+- Nafta: más claro echale nafta: los gastos de ídem; ojo con sacar algún rendimiento a partir de este valor, ya que el gasto de nafta está afectado muchas veces por el descuento del ACA o de pagar con la tarjeta el domingo.
+
+- Peajes: los gastos de peajes automáticos en Capital y Gran Buenos Aires, pero no los correspondientes a los peajes en ruta (porque esos los pago en efectivo y los considero como gastos de los viajes mismos, casi siempre vacaciones).
+
+.. image:: http://www.taniquetil.com.ar/facundo/imgs/sanderostepway.jpeg
+    :alt: Autito
+
+A esos rubros, le agrego lo que es la amortización de la compra del auto en sí, considerando el valor que pagué en su momento, y que el auto se amortizaría en cinco años (teniendo en cuenta un valor residual chico).
+
+En este año, que al auto le hicimos 23742 km, los gastos fueron::
+
+     Estacionamiento: $ 3761.25
+     Seguro:          $ 4457.00
+     Patente:         $ 2545.20
+     Mantenimiento:   $ 3539.00
+     Nafta:           $11641.92
+     Peajes:          $ 1281.69
+     Amortización:    $14300.00
+
+El gasto total en este año (considerando gastos fijos y variables) es de $41526, lo cual da $3461 por mes: $2070 de gastos fijos ($878 sin contar la amortización), y $1390 de gastos variables.
+
+El costo total por kilómetro es de $1.76. Este valor es interesante porque toma en cuenta todos los gastos fijos, más variables, más el costo de comprar el auto (teniéndolo cinco años y luego vendiéndolo), y me da la pauta que (en mi caso!) conviene tener auto que moverme en remis.
+
+Otra conclusión interesante es que la nafta representa el 28% del costo total total del auto, ¡nada despreciable!
+
+Pueden ver los cálculos en `este PDF <http://www.taniquetil.com.ar/facundo/costoauto1.pdf>`_, pero si quieren les dejo el `notebook ipython que armé <http://www.taniquetil.com.ar/facundo/costoauto1.ipynb>`_, para que jueguen con él (lo bajan y hacen ``ipython notebook costoauto1.ipynb``).
+
+Es interesante por si quieren ver por ejemplo el costo total por kilómetro si le hacen mucho menos recorrido (por ejemplo, porque viven en Capital y se moverían en subte), y de ahí comparar si les conviene tener el auto o usar remises; o agarrar las cuentas y sumarle un valor de estacionamiento fijo, etc. Y obvio, para actualizar el precio de compra que hoy es más que el año pasado...

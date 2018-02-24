@@ -1,0 +1,43 @@
+.. title: Cacheando DNS
+.. date: 2012-05-04 18:24:51
+.. tags: DNS, cache, configuración, networkmanager dnsmasq, dig
+
+*(para los que no están al tanto qué es el DNS, una explicación rápida es que es un servicio que transforma los nombres que usamos los humanos para direcciones de servers (www.google.com, taringa.net, etc), a direcciones IP que la computadora necesita para acceder a dichos servers (173.194.42.17, 108.59.9.83, etc))*
+
+Dependiendo de los servidores DNS que utilicen, un query a los mismos puede tardar entre algunos milisegundos, hasta decenas o centenares de milisegundos.
+
+Como un query DNS se ejecuta cada vez que algún programa tiene que convertir un nombre a una IP, esto puede hacer bastante lenta la navegación u otros programas que accedan a la red. Acelerar esto al máximo es siempre una buena idea. Y una forma fácil de acelerarlo es instalar localmente un "caché de DNS"... entonces si hay que resolver una dirección por primera vez, se tardará lo que se tarde en traer la IP desde el mundo exterior, pero las sucesivas veces el tiempo será virtualmente cero).
+
+Lástima que en Ubuntu Precise, NetworkManager levanta el dnsmasq (que cachea DNS y hace otras cosas copadas) con la opción ``--cache-size=0``, que efectivamente le dice que no cachee nada. Un estúpido. Encima, tiene esa opción hardcodeada en código (una mierda, ver `bug #903854 <https://bugs.launchpad.net/ubuntu/+source/network-manager/+bug/903854>`_).
+
+Los siguientes son los pasos para solucionar esto....
+
+Editen el archivo de config de NetworkManager y borren la linea que dice ``dnsmasq``::
+
+    sudo gedit /etc/NetworkManager/NetworkManager.conf
+
+Instalen dnsmasq (les va a dar error al tratar de arrancar porque hay otro proceso tomando el puerto, no se preocupen)::
+
+    sudo apt-get install dnsmasq
+
+Maten todas las instancias de dnsmasq que encuentren::
+
+    ps -eaf | grep dnsmasq
+    sudo kill ...
+
+Editen el archivo de configuración::
+
+    sudo gedit /etc/dnsmasq.conf
+
+Descomenten las lineas de no-resolv y no-poll, y agreguen servers externos a mano, esas lineas quedarían::
+
+    no-resolv
+    no-poll
+    server=8.8.8.8
+    server=8.8.4.4
+
+No las pongan en cualquier lado, funciona, pero les queda desordenado. Fíjense que el archivo de config las tiene por ahí. Finalmente, reinicien dnsmasq:
+
+    sudo service dnsmasq restart
+
+Para verificar que funciona lindo, pueden usar el comando ``dig``, que resuelve nombres, y les dice cuanto tardó. Entonces hagan ``dig unadireccionquenohayanusado.com`` dos veces, y vean la diferencia entre ambos tiempos (pista: el segundo tiempo debería ser cero o casi cero).

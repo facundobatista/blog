@@ -1,0 +1,13 @@
+.. title: Conferencias por dos
+.. date: 2012-06-12 21:52:20
+.. tags: Ubuntu, software libre, Centro Cultural de la Cooperación
+
+El sábado pasado fuí a la UbuConLA, la conferencia de Ubuntu organizada conjuntamente por Argentina y Uruguay.
+
+La conferencia era dos días, el viernes más orientado a empresas, el sábado a usuarios finales. Yo fuí solamente el sábado, y di la charla "El futuro de Python en Ubuntu", una presentación que preparé puntualmente para ese evento.
+
+Estuvo todo muy bien, aunque yo creí que iba a ir más gente. Hubieron un par de charlas bien interesantes... me gustó la de Anthony Lenton hablando del Ubuntu Software Center, la de Diego Sarmentero sobre Unity Lens, y la de Martín Eschoyez, sobre animaciones hechas con Blender (en particular, no dejen de ver `la animación de apertura del evento <http://www.youtube.com/watch?v=OyASCHqL9TU>`_, hecha por este muchacho).
+
+Luego de que terminaron las charlas, y de las palabras y sorteos de rigor, nos fuimos todos a por pizza y cerveza al Orsai bar (ya a esta altura confirmo: lo único bueno del lugar es que tienen cerveza decente, y la onda... las pizzas son medio pelo).
+
+Por otro lado, mañana miércoles participo del panel "¿Por qué programar libre?" (junto a Juan Manuel Schillaci y Álvaro Soliverez) en el `3er. Evento de Software Libre y Economía Social <http://www.gcoop.coop/sles-2012>`_, en el Centro Cultural de la Cooperación. Va a estar bueno.

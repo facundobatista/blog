@@ -1,0 +1,16 @@
+.. title: ¡Se vienen las conferencias Python del Cono Sur!
+.. date: 2010-10-14 18:03:20
+.. tags: Python, PyCon, conferencia
+
+Mañana y pasado, en Córdoba, tenemos la segunda edición de PyCon Argentina, con `un montón de charlas buenísimas <http://ar.pycon.org/2010/conference/schedule/>`_.
+
+Yo doy `Python más rápido que C <http://www.taniquetil.com.ar/homedevel/presents/pyrapidc/>`_ (con Lucio), y `Entendiendo Unicode <http://www.taniquetil.com.ar/homedevel/presents/unicode.odp>`_.
+
+Las dos charlas plenarias, con invitados internacionales, son de `Leah Culver <http://leahculver.com/>`_ y `Christiano Anderson <http://christiano.me/>`_:
+
+.. image:: http://www.taniquetil.com.ar/facundo/imgs/leah-christiano.jpg
+    :alt: Leah y Christiano
+
+La semana que viene, es PyCon Brasil! Resulta que uno de los keynotes que iba a venir a PyCon Ar y Br (Ian Bicking) canceló a último momento porque falleció un familiar suyo. Entonces, en PyCon Ar lo reemplazamos con Christiano, y a PyCon Br a dar la keynote voy yo! :D
+
+Todavía no tengo la charla terminada, pero voy a hablar de "Comunidad, anarquía y subversión". Creo que va a quedar interesante.

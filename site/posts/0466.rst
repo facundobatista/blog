@@ -1,0 +1,83 @@
+.. title: Experimento Cirujano-Copiloto
+.. date: 2010-06-04 23:15:32
+.. tags: experimento, programación, cirujano, mythical man-month, ubuntu one, Syncdaemon, States
+
+*(Note: There's an English version of this article `here <http://www.taniquetil.com.ar/facundo/surgeon-copilot.txt>`_)*
+
+Los últimos meses en el equipo Ubuntu One Foundations, en Canonical, estuvimos experimentando con la metodología cirujano-copiloto.
+
+¿Qué es eso de cirujano-copiloto? El concepto viene de un libro de los setentas, `The Mythical Man Month <http://es.wikipedia.org/wiki/The_Mythical_Man-Month>`_, donde Frederick Brooks describe un provocativo esquema (propuesto primero por Harlan Mills) para un equipo de desarrollo de diez personas. En el libro, Brooks intenta manejar el hecho de que proyectos grandes de software no pueden ser escritos por una persona, o por un equipo chico, por lo que propone partir el proyecto en partes más pequeñas, prestando especial atención a la optimización de las comunicaciones dentro y entre los equipos.
+
+En el libro, la organización propuesta es poner a un desarrollador Cirujano rodeado de un gran equipo de ayudantes. Hoy en día el entorno de desarrollo es otro; tenemos herramientas como lenguajes de alto nivel, y repositorios de software, y versionado de código, etc. Seguramente no necesitamos a alguien para que nos clasifique las tarjetas perforadas, :)
+
+Sin embargo, este es un concepto que podemos usar hoy, pero achicando el equipo a sólo dos personas: el cirujano, y el copiloto. Traducido del libro...
+
+	(el copiloto) es el *alter ego* del cirujano, capaz de hacer cualquier parte del trabajo, pero menos experimentado. Su función principal es compartir la etapa de diseño, pensando y discutiendo, y evaluando. El cirujano intenta ideas con él, pero no está atado a sus recomendaciones. El copiloto frecuentemente representa a su equipo en discusiones con otros equipos sobre funcionalidades e interfaces. Conoce todo el código íntimamente. Investiga estrategias alternativas de diseño.
+
+
+Nuestra experiencia
+-------------------
+
+Este experimento fue valioso para nosotros, ya que generó un equipo de dos que al ejecutar el experimento probó ser más eficiente que las dos personas por separado.
+
+Alguno de los casos donde esto fue evidente durante el experimento fue que al discutir problemas o nuevas características, el cirujano (teniendo un conocimiento más profundo del sistema) podía prever fácilmente situaciones, cómo podría diseñarse la característica, resolverse el problema, etc. Entonces el cirujano discutía eso con el copiloto, necesitando explicar el razonamiento lo suficiente como para que se entienda (pero a alguien con experiencia en el sistema), lo que provocaba algunos buenos efectos secundarios:
+
+- Tener que poner el razonamiento en palabras lo hace más claro tanto para el cirujano como para el copiloto; sin embargo esto no es un gasto notable, ya que ambos conocen el sistema, lo que hace más sencillo la transferencia de conocimientos.
+
+- Se descubren temprano posibles fallas en el razonamiento, y también se pueden incorporar en este momento ideas frescas del copiloto.
+
+- Luego que el copiloto entendió la idea, él o ella pueden ayudar al cirujano a implementarla (o directamente hacerlo todo, liberando al cirujano para otras tareas).
+
+Quiero dejar en claro que esto no implica que el copiloto dependa siempre del cirujano para el trabajo diario. Normalmente el copiloto trabaja creativamente y trae nuevas ideas y conocimiento al equipo; sin embargo discutir esta nueva información con el cirujano, de manera de integrarla mejor al sistema actual, hace más eficientes estas contribuciones.
+
+Esto está muy relacionado con otro beneficio interesante del dúo dinámico cirujano/copiloto: entrenamiento. Cuando el copiloto es nuevo al equipo y al sistema, tener a alguien que sabe exactamente los avances que está haciendo al ganar velocidad, revisando y guiando el trabajo, hace más fácil y disfrutable esta etapa inicial (lo que se traduce a una mayor eficiencia y mejores resultados).
+
+Más aún, este equipo altamente acoplado es especialmente bueno para atacar problemas complejos. Esto se debe principalmente a tener cuatro ojos en lugar de dos, pero con la ventaja que ambas personas tienen baja impedancia entre ellas. Sin embargo, ser explícitos sobre quien es responsable de tomar las decisiones es algo muy bueno en la interacción entre el equipo y otros jugadores externos (jefes, líderes técnicos, usuarios): queda claro que el cirujano es responsable por las decisiones tomadas, de una manera u otra.
+
+Una ventaja adicional de formar el par cirujano/copiloto es que si el equipo prueba ser exitoso (lo cual depende de muchos otros factores más allá de esta configuración en particular, somos mayormente humanos) se puede mantener a futuro, sabiendo que esas dos personas trabajando juntas son buenas para determinadas tareas, y usarse de esa manera (lo cual concuerda con el concepto de desarrollo ágil de asignar trabajo a equipos, no personas a tareas).
+
+
+Un caso real
+------------
+
+Quiero explicar uno de los casos donde trabajamos como cirujano/copiloto durante estos meses, sólo como una muestra que quizás ayude a entender mejor los conceptos anteriores.
+
+Este fue uno de los problemas más grandes encontrados en el Ubuntu One Syncdaemon luego de la liberación de Karmic, generando de los usuarios un quintillón de reportes de bugs: el States de Syncdaemon. Era un pedazo de código que arrancó chico y creció orgánicamente mientras aprendíamos qué debía hacer para manejar todas las complejidades de Syncdaemon. Al final, era un módulo grande, construido de una manera que no permitía realmente ser probado, y difícil de leer y entender, que generó un montón de problemas muy visibles (normalmente, hacía que Syncdaemon se trabara y no trabajara más hasta que se lo reiniciase).
+
+El objetivo para el equipo era simplemente "arreglarlo". Sin embargo, un análisis simple probó que se necesitaba reescribir desde cero, y el reemplazo debía estar literalmente libre de problemas (no podíamos darnos el lujo de perder dos meses encontrando detalles en el nuevo código estando tan cerca de Lucid).
+
+Ejecutamos el proceso de "arreglar States" en varios pasos bien definidos:
+
+**Análisis:** Acá estudiamos el código anterior, encontrando los casos explícitos e implícitos que manejaba. Definimos qué necesitábamos cambiar, y qué necesitábamos escribir de nuevo (notablemente, encontramos acá algo inesperado: debíamos rehacer el cómo Syncdaemon manejaba las conexiones de red a través de Twisted).
+
+En esta etapa, el tener un equipo altamente acoplado funcionó muy, muy bien. La misma tarea no podría haber sido ejecutada tan eficientemente si la hacía una sola persona, o si un equipo se involucraba en profundas discusiones. Debo mencionar que este trabajo se hizo cara a cara durante un sprint (difícilmente se podría haber hecho remotamente y tener el mismo resultado).
+
+.. image:: http://www.taniquetil.com.ar/facundo/imgs/states-analisis-th.jpg"
+    :alt: (click para ver la imagen en una resolución entendible)
+    :link: http://www.taniquetil.com.ar/facundo/bdvfiles/states-analisis.jpg
+
+**Diseño:** También durante el sprint diseñamos un nuevo modelo para la bestia, tratamos de simplificar y generalizarlo, y discutimos todo esto con los autor(es) anterior(es) del módulo.
+
+El tener un cirujano con más experiencia en esta fase, mezclado con las nuevas ideas del copiloto, provocaron un buen diseño, simple y poderoso. Una sola persona o dos trabajando por separado no podrían haber diseñado el nuevo States de forma tan limpia como sucedió en este caso.
+
+**Implementación:** esto se hizo completamente en paralelo y remotamente, en las semanas siguientes al sprint. Sin embargo también incluyeron largas conversaciones por teléfono donde se discutieron detalles específicos o nuevas ideas.
+
+En esta etapa también notamos que el equipo tenía el tamaño ideal: un sólo par de ojos seguramente no habrían visto los detalles más complicados, y más gente no podría haber trabajado en paralelo en la misma implementación como lo hicieron dos personas.
+
+.. image:: http://www.taniquetil.com.ar/facundo/imgs/states-nuevo-th.png"
+    :alt: (click para descargar los tres .SVG actualizados del diseño)
+    :link: http://www.taniquetil.com.ar/facundo/bdvfiles/states-nuevo.zip
+
+**Puesta en funcionamiento:** realmente no fue un paso, ya que no hubo ningún problema... fue sólo un tema de hacer el commit a trunk, y hacer un seguimiento los próximos días.
+
+El resultado de esta experiencia fue muy satisfactorio: reemplazamos algo que era muy doloroso para usuarios y desarrolladores en favor de algo que fue invisible luego de la instalación: funcionó tan bien que nadie lo notó más.
+
+
+Conclusiones
+------------
+
+Estoy muy contento con el resultado de este experimento, y con los objetivos que logramos mientras lo hacíamos. El trabajo producido durante esos meses fue muy bueno, considerando especialmente que venía Lucid.
+
+Sin embargo, es mucho más valioso encontrar dos personas que trabajen tan bien juntos, incluso si no hay una diferencia de experiencia entre ellos para que califique dentro de la estructura cirujano/copiloto. No siempre se tiene que un equipo de dos desarrolladores produce más que los dos desarrolladores por separado... entonces cuando se encuentra, es buena idea mantenerlo.
+
+Recomiendo hacer experimentos similares en Canonical, especialmente como una oportunidad de aprendizaje para personas que recién entraron en la compañía, o al hacer rotaciones entre equipos. En estos casos, el tener un entrenador que tiene más experiencia al menos en lo que está haciendo el departamento, ayuda mucho al desarrollador nuevo, y al final mejora el rendimiento de todo el equipo.

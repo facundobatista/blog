@@ -1,0 +1,13 @@
+.. title: El movimiento se demuestra andando
+.. date: 2007-09-20 16:43:05
+.. tags: tenis, charla, reunión, sponsor
+
+La semana, finalmente, arrancó con todo, aunque el lunes no haya podido jugar al tenis (fuí, me cambié, y peloteé unos 20 minutos bajo una creciente lluvia, hasta que se puso peligroso el piso por lo resbaladizo...).
+
+Antes de ayer me junté con Lucio, finalmente, por la charla para CaFeConf, *Python más rápido que C*. Los primeros resultados fueron sorprendentes (no voy a decir mucho más que esto antes de la charla misma). El laburo estuvo divertido, aunque se nos complicó bastante en el diseño de los ejercicios. Le pegamos hasta las dos de la mañana, y todavía nos falta reunir info...
+
+Ayer fue la reunión de `PyAr <http://www.python.com.ar/moin>`_ número 24, en el bar de siempre (Hip Bar, esperemos que sea la última vez que vamos allí: no nos dieron el lugar más cómodo que tienen, y se les acabó nuevamente la cerveza tirada!!). A ese respecto surgieron dos propuestas firmes, espero que se desarrollen como corresponde a futuro.
+
+Más allá de eso la reunión estuvo interesante. Como siempre, se habla hasta de la muerte del cangrejo, pero fuimos más o menos tocando los temas que teníamos pensado tratar. Anyway, espero que el escriba de turno `(Chaghi) <http://www.chaghi.com.ar/blog/index.php>`_ nos deleite con la minuta del evento.
+
+Para cerrar lo bien que viene la semana, hoy terminé de conseguir algo sobre lo que estaba trabajando: `Google <http://www.google.com.ar/>`_ me confirmó que va a ser sponsor de la próxima `CaFeConf <http://www.cafeconf.org/2007/modules/edito/content.php?id=4>`_ (y encima tipo *kernel*, la más alta categoría, :D).

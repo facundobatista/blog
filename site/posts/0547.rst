@@ -1,0 +1,13 @@
+.. title: Estatua en una fuente
+.. date: 2012-01-27 21:06:32
+.. tags: foto
+
+Esta foto me gusta por el contraste entre lo estático de la estatuita, y lo dinámico del agua cayendo sobre ella.
+
+Pero más que eso, me encantó el paseo que hicimos... eso es en el laberinto de Los Cocos, en una salida durante el PyCamp 2009, en la que sacamos un montón de fotos, y charlamos mucho con Dave sobre cómo sacarlas...
+
+.. image:: http://www.taniquetil.com.ar/facundo/imgs/fotint-estatuallovida.jpg
+    :alt: Estatua en la fuente
+    :link: http://www.flickr.com/photos/54757453@N00/3407113649/
+
+Me dan ganas de salir a pasear y tomar fotos con gente que también saque fotos, creo que se aprende un montón en esas situaciones.

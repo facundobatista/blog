@@ -1,0 +1,14 @@
+.. title: Firefox sigue ganando terreno
+.. date: 2004-12-13 10:37:23
+.. tags: Firefox, instalaciones, Thunderbird, spread, mail
+
+Otra marca importante para Firefox: en menos de 32 días fueron bajado 10 millones de instaladores.
+
+.. image:: http://farm1.static.flickr.com/246/527923199_883aa3a97b_o.png
+    :alt: Firefox
+
+Todavía no encontré un lugar confiable como para revisar periódicamente figuras de porción de mercado entre todos los navegadores, pero es obvio que Firefox va erosionando despacio pero constantemente la base de usuarios de Internet Explorer.
+
+Esto se logró, más allá de la soberbia calidad y funcionalidad del producto, por campañas masivas de marketing a través de la ayuda gratuita de colaboradores y amigos de Firefox, que como yo, le taladran la cabeza con que usen Firefox al primero que se cruce, :). Estas campañas se centran y coordinan en `SpreadFirefox <http://www.spreadfirefox.com/?q=affiliates&amp;id=30445&amp;t=64>`_.
+
+Otro producto que por ahora no tiene tanta publicidad, pero que seguramente le llegará por haber llegado a su versión 1.0, es `Thunderbird <http://www.mozilla-europe.org/es/products/thunderbird/>`_, un lector de correo/noticias de muy buena calidad, con características como: soporte IMAP/POP, correo HTML, etiquetas, búsqueda rápida, libreta de direcciones inteligente, acuses de recibo, filtrado avanzado de mensajes, completado de direcciones LDAP, herramientas de importación, potencia en búsquedas y, además, la capacidad de manejar múltiples cuentas de correo electrónico y noticias.

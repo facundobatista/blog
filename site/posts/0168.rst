@@ -1,0 +1,13 @@
+.. title: Se terminó PyCon 2006
+.. date: 2006-02-28 14:38:56
+.. tags: PyCon, conferencia, viaje, Docutils, remeras
+
+Ya dentro de un rato me pasa a buscar la camioneta de SuperShuttle que me lleva al aeropuerto. Dos aviones y mil controles más tarde estaré llegando a Argentina, tipo mañana a la mañana.
+
+Ayer y hoy medio día estuve trabajando en Docutils. Como resultado del día y medio de trabajo, Docutils tiene ahora una interfaz gráfica que te permite abrir un archivo y procesarlo (traduciéndolo) a HTML, LaTeX o XML.
+
+Le falta mucho laburo, pero la base está. La idea era sacarlo rápido, y ahora discutir sobre esa base lo que le queremos agregar o modificar. Estuvo bueno.
+
+Además aprendí a usar un widget que muestra HTML, así que ya tenemos la mitad de la Ayuda de SiGeFi hecha, :p. Y también resolví unos warnings que nos afeaban el proceso de generar automáticamente la documentación de las clases.
+
+Con respecto a las remeras, hoy vendí un montón más (unas 8). En total vendimos unas 17, estaban todos muy copados por el diseño, y hasta me lo pidieron para ver si lo usaban en las remeras de la conferencia del año que viene!! :)

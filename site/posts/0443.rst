@@ -1,0 +1,132 @@
+.. title: Copias de resguardo
+.. date: 2010-01-05 19:47:25
+.. tags: backup, problema, constancia, RAID
+
+Siempre, siempre, siempre, ante un problema con el disco rígido de una computadora, la palabra "backup" es la más mencionada y maldita por los usuarios.
+
+Todos sabemos que tenemos que hacer backup. Pero muy pocos lo hacen. Y todos nos acordamos nuevamente del mismo cuando la máquina de repente no arranca, o arranca por la mitad, o se apaga de repente con un ruido raro.
+
+El problema de hacer backup es la constancia. Lo hacemos una vez... quizás lo repetimos una vez más... y nos volvemos acordar cuando el problema nos muestra sus dientes gritando "¡tus datos están perdidos!".
+
+Y no importa si sos un principiante en el mundo de la informática, o un avezado experto: hacer backups con constancia es complicado... no por el conocimiento técnico involucrado, sino porque uno no es constante.
+
+Hasta hace una semana atrás yo tenía backups de pocas cosas:
+
+- Todas las fotos que fui sacando las tengo en el disco rígido y en DVD, pero también las subo a `Flickr <http://www.flickr.com/photos/54757453@N00/sets/>`_, en tamaño original. Esto no es gratis, ya que el servicio de Flickr sin costo no permite tanto almacenamiento, pero creo que vale los 25 dólares que pago por año.
+
+- Este blog y los archivos aledaños se copian cada tres días al disco rígido de mi computadora. Entonces, si algo le pasa al server, sé que la info la tengo en otro lado.
+
+- La música que tengo en mp3 está en mi computadora de escritorio y en la laptop, más una copia de backup en DVD.
+
+Ahora, finalmente, armé una solución para proteger de incidentes mis datos diarios, que son los más complicados de todos.
+
+¿Por qué son complicados? Porque cambian todo el tiempo, y si uno pasa cinco meses sin hacer backup, los cambios son muchos y están todos desparramados... ver qué cambió y hacer un backup parcial es complicado, y hacer backup de todo de nuevo es una putada. Se podrían hacer backups parciales y diferenciales, pero la info no son dos gigas, y armar algo en múltiples DVDs es más complicado de lo que parece.
+
+
+La solución
+-----------
+
+Lo que armé es básicamente una solución RAID, en configuración *espejo*, que se ve como un directorio normal pero que realmente duplica los datos en dos discos físicamente separados, de manera que si se rompe uno toda la info está a salvo en el otro.
+
+Además, armé un crontab para que me haga copias de determinados directorios cada tanto y de forma diferencial, lo cual es bastante eficiente.
+
+¿Cómo armé esto? Así...
+
+Un par de semanas atrás compré un segundo disco rígido, al que le instalé Karmic Koala desde cero, luego de particionarlo.
+
+No voy a entrar en detalles de cómo particioné el disco nuevo y qué usé del viejo, sólo es importante que dejé una partición vieja del disco anterior y una del disco nuevo del mismo tamaño, como podemos ver en el siguiente reporte::
+
+    $ df -m
+    S.ficheros       Bloques de 1M Usado  Dispon Uso% Montado en
+    /dev/sdb5              93872     188   88916 1% /backup
+    ...
+    /dev/sda1              93872     188   88916 1% /mnt/old-barra</span>
+
+La partición nueva es ``/backup`` y la vieja es ``/mnt/old-barra``. Se puede ver que son dos discos físicos distintos porque uno es ``sda`` y el otro es ``sdb``. Ambas particiones están montadas porque las dejó así el instalador del Ubuntu (y además yo necesitaba rescatar info de la partición vieja).
+
+El primer paso para armar el RAID usando estas particiones es desmontarlas::
+
+    $ sudo umount /backup
+    $ sudo umount /mnt/old-barra/
+
+Luego, creamos el dispositivo que será el que utilicemos como entrada/salida::
+
+    $ sudo mknod /dev/md0 b 9 0
+
+Luego le indicamos a `mdadm <http://en.wikipedia.org/wiki/Mdadm>`_ (el programa que nos arma el RAID) que queremos hacer sobre el dispositivo que recién creamos un RAID tipo *mirror* utilizando las dos particiones antes mencionadas. El programita nos va a dar información de las particiones, preguntar si estamos seguros, y hacer el laburo::
+
+    $ sudo mdadm --create /dev/md0 --level=mirror --raid-devices=2 /dev/sda1 /dev/sdb5
+    mdadm: /dev/sda1 appears to contain an ext2fs file system
+      size=97659100K mtime=Mon Dec 21 23:26:54 2009
+    mdadm: /dev/sdb5 appears to contain an ext2fs file system
+      size=97659100K mtime=Mon Dec 21 20:18:02 2009
+    Continue creating array? yes
+    mdadm: array /dev/md0 started.
+
+Podemos ver la info de RAID que tenemos armada mirando el contenido de un archivo en ``/proc``::
+
+    $ cat /proc/mdstat
+    Personalities : [raid1]
+    md0 : active raid1 sdb5[1] sda1[0]
+        97659008 blocks [2/2] [UU]
+        [>....................] resync = 1.0% (1036096/97659008) finish=26.4min speed=60946K/sec
+    unused devices: <none>
+
+Luego, para hacer utilizable la partición, tenemos que crear el sistema de archivos en el disco RAID... y aquí vemos como ya no usamos las particiones de los discos físicos, sino el dispositivo especial que creamos::
+
+    $ sudo mkfs.ext4 /dev/md0
+    mke2fs 1.41.9 (22-Aug-2009)
+    Etiqueta del sistema de ficheros=
+    Tipo de SO: Linux
+    Tamaño del bloque=4096 (bitácora=2)
+    Tamaño del fragmento=4096 (bitácora=2)
+    6111232 nodos-i, 24414752 bloques
+    1220737 bloques (5.00%) reservados para el superusuario
+    Primer bloque de datos=0
+    Número máximo de bloques del sistema de ficheros=0
+    746 bloque de grupos
+    32768 bloques por grupo, 32768 fragmentos por grupo
+    8192 nodos-i por grupo
+    Respaldo del superbloque guardado en los bloques:
+      32768, 98304, 163840, 229376, 294912, 819200, 884736, 1605632, 2654208,
+      4096000, 7962624, 11239424, 20480000, 23887872
+    Escribiendo las tablas de nodos-i: hecho
+    Creating journal (32768 blocks): hecho
+    Escribiendo superbloques y la información contable del sistema de ficheros: hecho
+
+Para que esta partición esté montada siempre, agregamos al archivo ``/etc/fstab`` la siguiente linea::
+
+    /dev/md0  /backup ext4  defaults,user 0 0
+
+Y la montamos al directorio donde la queremos usar (como tenemos la info en el ``fstab`` no hace falta especificarla aquí de nuevo)::
+
+    $ sudo mount /backup
+
+Se puede ver entonces que el dispositivo que habíamos creado originalmente está montado en el directorio indicado, listo para usar::
+
+    $ df -m
+    S.ficheros       Bloques de 1M Usado  Dispon Uso% Montado en
+    ...
+    /dev/md0               93872     188   88916 1% /backup</span>
+
+Lo podemos usar sin problema... pero luego de reiniciar la máquina, vi que no tenía el RAID funcionando! Luego de buscar un poco en la web, entendí que mi archivo de configuración no tenía la info necesaria, vaya uno a saber por qué.
+
+Así que le dije al programita que administra el RAID que busque en lo que tiene armado y agregue la configuración actual al archivo::
+
+    sudo mdadm --examine --scan >> /etc/mdadm/mdadm.conf
+
+Una vez hecho esto, reinicié y encontré todo fantásticamente bien.
+
+Ahora que tenemos una partición "a prueba de roturas de un disco", tenemos que hacer backup regularmente ahí. Lo mejor que encontré para esto es el programita `rdiff-backup <http://rdiff-backup.nongnu.org/>`_ (gracias Chaghi), que backupea un directorio en otro (el directorio destino termina con una copia del directorio fuente, pero se guardan diffs extras en un directorio especial de manera que se puede recuperar no sólo la última versión sino también anteriores).
+
+Entonces, todo lo que hice fue poner unas llamadas a este programita en mi crontab, para que se ejecute cada tres días a la madrugada y me haga el backup de algunos directorios específicos en la nueva partición RAID::
+
+     0 4 */3 * * rdiff-backup /home/facundo/dir1 /backup/dir1
+    30 4 */3 * * rdiff-backup /home/facundo/dir2 /backup/dir2
+     0 5 */3 * * rdiff-backup /home/facundo/dir3 /backup/dir3
+
+¡Y listo! La solución funciona, es eficiente, y no tengo que hacer nada de forma manual, :)
+
+**Bonus track:** rdiff-backup funciona también a través de la red, lo cual es útil para hacer backup desde o en otras máquinas a las que tengamos accesso SSH. Hay un sólo detalle, y es el tema de que nos pida clave para entrar en la máquina remota: el ssh-agent nos va esconder este paso cuando lo probamos a mano, pero va a fallar cuando lo pongamos en el crontab. Para solucionar esto, encontré que se puede hacer lo siguiente::
+
+    0 3 * * * SSH_AUTH_SOCK=$(find /tmp -name 'socket.ssh' -user $USER 2>/dev/null); export SSH_AUTH_SOCK; rdiff-backup ...

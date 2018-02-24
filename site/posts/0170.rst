@@ -1,0 +1,21 @@
+.. title: Un desastre
+.. date: 2006-03-10 23:17:12
+.. tags: trabajo, cierre, Movistar, Dattatec, hosting, servicio
+
+Hace rato que no posteo. Es verdad, les debo el post sobre mi cambio de trabajo. O mejor dicho, sobre el cierre de mi etapa en Movistar.
+
+Pero el problema es que desde hace una semana que Taniquetil está funcionando a media máquina.
+
+Antes no andaba. Tuve que tocar los permisos de un archivo para que el sitio al menos se vea, y cambiar el formato de los enlaces a los artículos para que se puedan dejar comentarios y eso.
+
+Pero toooooodos los enlaces que alguna vez mandé, y tooooooodos los enlaces que aparecen en los buscadores, no andan.
+
+Esto se debe a que los señores de Dattatec, lugar que me da el "servicio" (si, entre comillas) de hostearme el sitio, instalaron un producto que afecta directamente los permisos de PHP.
+
+Un día de semana.
+
+Sin avisar.
+
+Y rompieron todo, y hace **más de una semana** que está roto y no lo arreglan.
+
+Bu, :(.

@@ -1,0 +1,11 @@
+.. title: ¡Vamos todos a PyCon Argentina!
+.. date: 2009-08-14 21:40:04
+.. tags: PyCon, inscripción, Python
+
+Está abierta la inscripción para participar de PyCon Argentina 2009, la primera conferencia en castellano sobre el lenguaje de programación Python, a realizarse los días 4 y 5 de septiembre en la sede de la Universidad de Belgrano, Zabala 1837, en la Ciudad de Buenos Aires.
+
+En esta primera edición contaremos con la participación de Jacob Kaplan-Moss (creador de Django) y Collin Winter (core developer de Python) como invitados especiales del evento, y con más de 30 charlas sobre Python y temas relacionados, desde tutoriales para principiantes hasta charlas de nivel avanzado. Miren el `cronograma de charlas <http://ar.pycon.org/2009/conference/schedule/>`_, ¡está buenísimo!
+
+La entrada es libre y gratuita. Para evitar contratiempos, confirmar su asistencia y recibir credencial y demás materiales de la conferencia, se recomienda realizar `inscripción previa en el sitio web <http://ar.pycon.org/2009/registration/>`_.
+
+Va a estar **genial**.

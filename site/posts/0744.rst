@@ -1,0 +1,21 @@
+.. title: Encuentro 5.0
+.. date: 2017-08-24 01:48:02
+.. tags: liberación, software, Python
+
+Tengo el agrado de anunciar, luego de mucho (demasiado) tiempo, una nueva liberación de `Encuentro <http://encuentro.taniquetil.com.ar/>`_ (que es, como ya sabrán, un programejo que permite buscar, descargar y ver contenido del Canal Encuentro, Paka Paka, BACUA, Educ.ar, Decime quien sos vos, TED y otros).
+
+.. image:: http://www.taniquetil.com.ar/facundo/imgs/encuentro-logonuevo.png
+    :alt: Encuentro (¡nuevo logo y tipografía!)
+    :link: http://encuentro.taniquetil.com.ar/
+
+Esta nueva liberación se justifica principalmente por dos motivos: renovación, y cambio estético.
+
+La renovación es porque tuvimos (junto a `Diego Mascialino <https://twitter.com/dmascialino>`_, que me ayudó un montón) que renovar la mitad de los backends, ya que algunos habían cambiado tanto que no andaban más y tuvimos que meterle bastante laburo para sacarlos adelante.
+
+El cambio estético viene de la mano de `Cecilia Schiebel <https://ceciliaschiebel.github.io/>`_, quien de onda (o sea, porque tuvo la idea y se ofreció ella, y además no me quiso cobrar ni un peso) renovó la estética del sitio web, y armó un nuevo ícono e imágenes para el programa.
+
+También hay un par más de correcciones o mejoras, pero nada demasiado importante.
+
+El detalle de la nueva versión, instaladores, etc, en `la página oficial <http://encuentro.taniquetil.com.ar/>`_.
+
+¡Que lo disfruten!

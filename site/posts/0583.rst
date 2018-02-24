@@ -1,0 +1,63 @@
+.. title: Aerolineas
+.. date: 2012-10-28 01:38:16
+.. tags: PyCon, conferencia, vuelo, viaje, nombres, despegar, servicio, aeropuerto
+
+En unos días más se realiza PyCon Venezuela, un evento al que fui invitado a dar un charla. La invitación era a todo trapo: me pagaban el viaje y el hotel, lo cual estaba buenísimo (gracias Israel Fermín!).
+
+Con la familia hace rato que no nos tomábamos vacaciones, entonces me pareció interesante que me acompañen. Hice que los organizadores saquen mi vuelo como para llegar algunos días antes de la conferencia, y ni bien tuve el ticket electrónico de cuando viajaba, les compré pasajes a Moni y Felu. No conseguí en el mismo avión, sino que ellos salían tres horas más tarde (igual llegábamos a Caracas con 20 minutos de diferencia); la vuelta son totalmente distintas, ya que luego de unos días de paseo, ellos se vuelven y yo me quedo a la conferencia en sí.
+
+Bueno, les decía que me había llegado el ticket electrónico del pasaje que me compraron los organizadores. Salía en un horario complicado (sábado a las 5:30 de la madrugada, el embarque es 4:30, hay que estar 3:30, etc). Encima, como los otros pasajes los compré con mi tarjeta (ya tuve mucho bardo con esto hace tres años y medio), y además también sale Felu del país, yo quería llegar al aeropuerto aún más temprano, para ver que estuviera todo bien.
+
+Pero bueno, más allá del horario difícil el ticket electrónico estaba bien: tenía ida y vuelta en las fechas correspondientes, estaba a mi nombre (dice "HORACIO FACUNDO BATISTA"), y el resto era normal.
+
+Pasaron un par de meses, se hizo el día del viaje.
+
+El viernes al mediodía hice los checkins de todos los vuelos. Primero el de Moni y Felu, obviamente los senté juntos, todo bien. Cuando fui a hacer el mío, noto que el papel de web check-in que me emite es a nombre de "Facundobatista/Horacio". Ahí me contacté con Israel, le dije que eso estaba feo, que el resto estaba bien en todos lados, así que creía que no iba a tener problemas.
+
+Error. Grosero error.
+
+.. image:: http://www.taniquetil.com.ar/facundo/imgs/aerolineas-error.jpeg
+    :alt: Error
+    :link: http://www.flickr.com/photos/elycefeliz/4448688868/
+
+El viernes fuimos a comer a lo de mi viejo, y tipo dos y media de la mañana partimos para el aeropuerto. Ni bien llegamos, empecé a moverme para asegurarme que Moni y Felipe pudieran viajar bien (como salían tres horas después que yo no era cuestión que tuvieran algún drama, yo iba a estar volando). Estaba todo bien mientras pasáramos por migraciones los tres al mismo tiempo. Fuimos a LAN, que es por donde viajaban ellos, y sin problemas aceptaron hacerle el check-in antes de que lo abran oficialmente, entonces si yo despachaba todo lo mío (yo viajaba por TAM), luego despachábamos lo de ellos, y hacíamos el resto de los trámites juntos (control de seguridad, migraciones), y yo ya los dejaba "del lado de adentro", me tomaba mi avión, y listo.
+
+Cuando fui a hacer mi check-in empezó el drama.
+
+La persona que hacía el primer control ya detectó el problema con el nombre, así que directamente fuimos ambos a la mesa de check-in para ver qué pasaba. Ahí estaban tres chicas, incluída una supervisora. Lo miraron, lo pensaron, lo charlaron, y me dijeron que no podía viajar, porque el nombre estaba mal, que tenían que averiguar si ellas podían cambiar el nombre, y si ese cambio tenía un costo.
+
+Se va la supervisora, vuelve a los cinco minutos, y me cuenta que ellos no pueden hacer el cambio de ninguna manera, porque aunque el vuelo es de TAM, el ticket está emitido por Copa. Que me vaya veinte mostradores más allá y que hable con la gente de Copa y les explique el problema, y les pida que me cambien el nombre.
+
+Fui. Estaba lleno de gente pero a esta altura yo ya esquivaba cualquier cola y hablaba con el que me pareciera de rango más superior. Le expliqué el problema, le mostré que yo tenía mi embarque en treinta minutos, que me tenían que cambiar el nombre o no iba a poder viajar. La chica agarró su handy y empezó a hablar con otra persona, y me terminó diciendo que ellos en el aeropuerto no podían hacer ese cambio. Que tenía que ir a una oficina (en el centro, abrían 8:30!), o que llame al call center, y que les diga que lo cambien ahí.
+
+Me da el número del call center (un 0810 algo), marco cinco veces desde mi celular, pero la llamada no entraba (se cortaba sin decir nada). Mi viejo tenía monedas, así que fui a un teléfono público, y probé llamar. Ahí me dijo que la característica era incorrecta. Puteando, volví a los mostradores de Copa y le pregunté a otra persona por el número, me dijeron que me lo habían anotado mal (boludos!), y me lo corrigió.
+
+Llamé, me atendió una chica con acento raro, bien podría ser panameña. Le expliqué mi problema, y me dijo que no podía ser, que "los sistemas de Copa no manejan espacios". What? Me preguntó por dónde era el vuelo, le dije que por TAM, me dijo que TAM tampoco maneja espacios. Yo no entendía nada.
+
+A esta altura ya había vuelto al mostrador de TAM, y mientras hablaba con la panameña le iba contando a la supervisora de TAM (que tenía la mejor onda) lo que me iban diciendo. Al final, entre los tres desculamos cual era el drama: Habían separado mal lo que eran nombres y apellidos. O sea, del string que yo había visto en el ticket electrónico que dice "HORACIO FACUNDO BATISTA", solamente la primer palabra correspondía a nombre, mientras que las últimas dos correspondían a apellidos. Ergo, en el ticket real quedó armado "Facundobatista/Horacio".
+
+Anyway. Le pedí a la panameña que por favor lo cambien, y me contestó que ellos no podían hacer nada, porque el ticket fue emitido por Despegar.com, que tenía que hablar con ellos para que lo rectifiquen. A todo esto eran las cuatro y cuarto, mi embarque era en quince minutos, yo no tenía ningún número de Despegar, y en Venezuela ya era de noche.
+
+.. image:: http://www.taniquetil.com.ar/facundo/imgs/aerolineas-resig.jpeg
+    :alt: Resignación
+    :link: http://www.flickr.com/photos/leo-gruebler/6750771599/
+
+La coordinadora de TAM me dijo que ella iba a averiguar un número de Despegar y que iba a intentar llamar (¿les dije que tenía la mejor onda?), y mientras tanto yo llamé a Israel, a ver si todavía estaba despierto. Por suerte lo encontré, le expliqué el tema, y le pedí que por favor se pusiera en contacto con la gente allá para que hablaran con Despegar y arreglaran todo.
+
+A esa altura, las otras dos chicas del check-in estaban leyendo y releyendo el manual que reglamenta como tienen que estar los nombres en los tickets con respecto a los nombres reales de las personas, lo cual parece que es complicado, por todos los nombres y apellidos compuestos que hay. Vuelve la coordinadora, me dice que en Despegar atienden, que tenés que apretar 1 si estás en el aeropuerto, pero que luego ahí se quedaba siempre con musiquita y no pasaba nada más.
+
+Se puso con las otras chicas y el manual, y les explicaba que habían tres párrafos que podrían ser los que se aplicaran a mi situación, pero ninguno de ellos eran lo suficientemente específicos como para indicar que lo mío estaba ok, o que estaba directamente mal.
+
+Al final, la supervisora volvió a irse con **todos** mis papeles, volvió a los cinco minutos, y me dijo que el nombre estaba teóricamente mal, que a esta altura nadie lo iba a poder corregir, pero que ella me iba a liberar el ticket igual, así que yo iba a poder viajar. Y que el ticket en Rio de Janeiro (donde yo hacía escala) se liberaba al mismo tiempo, que ella estaba segura que no iba a tener problema, que a lo sumo después le llegaba un reclamo interno a ella. Yo no sabía como agradecerle, :p.
+
+Me hicieron los tickets, salimos corriendo a hacer el check-in de Moni y Felipe, y subimos. Arriba era todo un bardo de quintillones de personas, pero teníamos doble prioridad (por llevar un niño pequeño, y por estar embarazados), así que hicimos todo en tres minutos, y se terminó la odisea.
+
+Lecciones aprendidas: primero, si ven el ticket electrónico que está todo bien, puede no estarlo... no sé si hay forma de validarlo, pero al hacer el web check-in, si detectan cualquier anomalía, llamen al toque y empiecen a moverse para que lo corrijan lo antes posible. Segundo, si las personas que te atienden realmente le ponen ganas y quieren ayudarte (gracias Daiana!), la mayoría de los problemas se resuelven favorablemente.
+
+--
+
+Retomo este texto ya en Caracas. Yo llegué bien.
+
+¿Felu y Moni? Les cancelaron el segundo tramo del vuelo, están demorados en Perú. Ambos están bien (Felu con un poco de fiebre, bah), en el Sheraton de Lima, pero es un bajón. LAN me dice que la salida estimada es para las 7:50, o sea que estarían llegando acá pasado el mediodía.
+
+Ufa, :(.

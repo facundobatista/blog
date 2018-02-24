@@ -1,0 +1,17 @@
+.. title: Primer Seminario de Introducción a Python
+.. date: 2017-05-22 15:25:09
+.. tags: curso, Onapsis
+
+Al final salió una idea que venía dándome vuelta en la cabeza desde principios del año pasado, y que tardó sus meses en concretarse: voy a estar dando un Seminario de Introducción a Python junto a una empresa, con el objetivo de bajar el costo del curso a los asistentes (lo cubre en parte la empresa), y de esta manera poder hacer algo más largo y más masivo.
+
+La empresa con la cual voy a hacer este Seminario es Onapsis, bastante cercana a la comunidad de Python Argentina, ya que hace mucho que es sponsor de eventos, pone los famosos "pybus" para ir a las PyCones, hosteó un meetup, etc, etc.
+
+El Seminario es abierto al público en general, y será de 16 horas en total, cuatro sábados de Julio, durante la mañana, en CABA.
+
+El costo es súper accesible, $600, ya que parte lo cubre Onapsis, y la idea es hacerlo barato para que pueda venir la mayor cantidad de gente posible.  Así y todo los cupos son limitados (la oficina tiene un límite), por lo que cuanto antes consigan reserva la posición, mejor.
+
+Al final del Seminario entregaré un certificado de asistencia y la totalidad del curso en formato electrónico.
+
+Para realizar la reserva deben `enviarme un mail <mailto:facundo@taniquetil.com.ar?subject=Reserva%20para%20el%20Seminario%20de%20Python>`_ así les confirmo disponibilidad y les paso los datos necesarios para realizar el pago (que podrá ser por depósito, transferencia bancaria, tarjeta de crédito, débito, etc.).
+
+Acá están `todos los detalles del curso <http://www.taniquetil.com.ar/facundo/cursosAbiertos.html>`_.

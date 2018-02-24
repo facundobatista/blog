@@ -1,0 +1,29 @@
+.. title: Cosmos
+.. date: 2009-04-26 08:20:05
+.. tags: cosmos, series, Sagan, pálido punto azul
+
+En algún momento mencioné algunos libros que uno debería leer antes de morirse. Bueno, en este caso, más allá que tiene su par como libro, voy a recomendar una serie de televisión.
+
+Sí, sí, ya sé. Mezclar las palabras "televisión" y "recomendar profusamente" en la misma frase parece raro, pero esta serie es algo que todos deberíamos ver alguna vez en la vida.
+
+La obra en sí se llama *Cosmos: a personal voyage*, `Cosmos, un viaje personal <http://es.wikipedia.org/wiki/Cosmos,_un_viaje_personal>`_, y tanto en su versión para televisión como en libro, básicamente es de divulgación científica. Y uno de los logros es que sea entretenido, y se lo debemos al gran `Carl Sagan <http://es.wikipedia.org/wiki/Carl_Sagan>`_.
+
+Son trece capítulos de una hora de duración... les recomiendo que lo busquen por ahí, y los vean. Está online en varios lados (por ejemplo `acá <http://www.guba.com/general/search?query=cosmos&set=5&x=0&y=0>`_, o `acá <http://video.google.com/videoplay?docid=1175883507954918704&q=sagan>`_), pero también lo pueden encontrar en un torrente con subtítulos y todo (los trece capítulos pesan como 8 GB)... si no los pueden conseguir, avisen y vemos qué hacemos.
+
+Les quiero dejar, como ejemplo de lo que van a encontrar muchas veces en Cosmos, algo que no está en la serie: el comentario de Carl Sagan a una foto de nuestro planeta tomada por la nave espacial Voyager 1 a una distancia de 6.000 millones de kilómetros (`referencia <http://es.wikipedia.org/wiki/Un_punto_azul_p%C3%A1lido>`_), foto que acá reproduzco parcialmente (click en la misma para ver la original).
+
+.. image:: http://www.taniquetil.com.ar/facundo/imgs/nasa-bluepaledot.jpg
+    :alt: Un pálido punto azul
+    :link: http://es.wikipedia.org/wiki/Archivo:PaleBlueDot.jpg
+
+    Mira ese punto. Eso es aquí. Eso es casa. Eso es nosotros. En él se encuentra todo aquello que amas, todo aquello que conoces, todo aquello del que has oído hablar, cada ser humano que existió, vivió sus vidas. La suma de nuestra alegría y sufrimiento, miles de confiadas religiones, ideologías y doctrinas económicas, cada cazador y recolector, cada héroe y cobarde, cada creador y destructor de la civilización, cada rey y cada campesino, cada joven pareja enamorada, cada madre y padre, cada esperanzado niño, inventor y explorador, cada maestro de moral, cada político corrupto, cada "superestrella", cada "líder supremo", cada santo y pecador en la historia de nuestra especie vivió ahí – en una mota de polvo suspendida en un rayo de luz del sol.
+
+    La Tierra es un muy pequeño escenario en una vasta arena cósmica. Piensa en los ríos de sangre vertida por todos esos generales y emperadores, para que, en gloria y triunfo, pudieran convertirse en amos momentáneos de una fracción de un punto. Piensa en las interminables crueldades visitadas por los habitantes de una esquina de ese pixel para los apenas distinguibles habitantes de alguna otra esquina; lo frecuente de sus incomprensiones, lo ávidos de matarse unos a otros, lo ferviente de su odio. Nuestras posturas, nuestra imaginada auto-importancia, la ilusión de que tenemos una posición privilegiada en el Universo, son desafiadas por este punto de luz pálida.
+
+    Nuestro planeta es una mota solitaria de luz en la gran envolvente oscuridad cósmica. En nuestra oscuridad, en toda esta vastedad, no hay ni un indicio de que la ayuda llegará desde algún otro lugar para salvarnos de nosotros mismos.
+
+    La Tierra es el único mundo conocido hasta ahora que alberga vida. No hay ningún otro lugar, al menos en el futuro próximo, al cual nuestra especie pudiera migrar. Visitar, sí. Colonizar, aún no. Nos guste o no, en este momento la Tierra es donde tenemos que quedarnos.
+
+    Se ha dicho que la astronomía es una experiencia de humildad y construcción de carácter. Quizá no hay mejor demostración de la tontería de los prejuicios humanos que esta imagen distante de nuestro minúsculo mundo. Para mí, subraya nuestra responsabilidad de tratarnos los unos a los otros más amablemente, y de preservar el pálido punto azul, el único hogar que jamás hemos conocido.
+
+Que lo disfruten.

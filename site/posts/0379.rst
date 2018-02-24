@@ -1,0 +1,36 @@
+.. title: Scripteando la nave espacial con Python
+.. date: 2008-09-20 09:28:09
+.. tags: Python, decimal, nave espacial
+
+*Casi dos años atrás (14 de Noviembre del 2006), Nicolás Giorgetti comentaba en la lista de PyAr que iba a "...ver como paso las fórmulas (quiero calcular Pi desde varias fórmulas posibles) a python.... espero q me ande! (y no queme el micro en el proceso :P)".
+
+A ese mail, yo contesté con algo que titulé como está titulado este post, y quedó ahí. Hoy estuve viendo `este post <http://www.lucianobello.com.ar/post/asimov-leibniz-pi-python-floats-y-evadirse-de-la-realidad/>`_ de Luciano Bello, y tuve la idea de rescatar ese mail mio, y ponerlo acá. Va casi sin modificaciones, lo único que hice fue agregarle una parte en bastardilla que indica qué fórmula usé.
+
+Disfrútenlo, :)*
+
+Bueno, esto me gusto, :p
+
+Me puse a verlo, e hice el programita que adjunto, usando Decimal, ;)
+
+Si al programa le pasamos un parámetro, setea la precisión del contexto con ese número, si no le pasamos nada, deja el default.
+
+Lo interesante es que me puse a ver con qué precisión calculábamos el perímetro de la galaxia (sí, de la galaxia), teniendo el radio de la misma, en función de la precisión de Decimal usado. El radio de la galaxia es aproximadamente cien mil años luz (el año luz es la distancia que recorre la luz en un año; teniendo en cuenta que la luz hace casi trescientos mil kilómetros por segundo, un año luz es **mucho**).
+
+Busqué un `algoritmo <http://www.cs.uwaterloo.ca/~alopez-o/math-faq/node38.html>`_, `lo codeé <http://www.taniquetil.com.ar/facundo/pi.py>`_, *usando unas fórmulas derivadas de una teoría de multiplicaciones complejas de curvas elípticas descubiertas por `S. Ramanujan <http://es.wikipedia.org/wiki/Ramanujan>`_, aunque la fórmula usada en particular aquí fue descubierta por los `hermanos Chudnovsky <http://es.wikipedia.org/wiki/Chudnovsky_brothers/>`_*.
+
+El programa básicamente calcula pi *muchas veces*. Lo calcula con una pasada, lo calcula con dos, con tres, con N, hasta que al aumentar una pasada, para la precisión dada, no hay diferencia. Tener en cuenta de que esto lo puedo hacer porque tarda poco, :)
+
+De los tanto que probé, resultado interesante:
+
+- Precisión de Decimal: 100 (si, cien digitos de PI)
+
+- PI calculado:
+3.141592653589793238462643383230971619092801162306759501384170438505849206906727811645883901478701687
+
+- Error al calcular el perímetro de la galaxia: 4e-78 metros
+
+Teniendo en cuenta de que un electrón mide aprox 5e-11m, la precisión es considerable
+
+Y el tiempo de cálculo, para los 100 dígitos en la última pasada de N vueltas, es de 74 milisegundos. Eso es para los que dicen que Decimal es lento, :D
+
+Es por eso que digo que podemos scriptear la nave espacial para hacer los saltos en el espacio usando Python, y Decimal, :D.

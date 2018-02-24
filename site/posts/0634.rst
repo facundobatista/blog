@@ -1,0 +1,19 @@
+.. title: El Circo Errante de Python Argentina
+.. date: 2013-11-15 18:08:06
+.. tags: proyecto
+
+Charlando en el viaje a/desde la PyCon de Rosario, surgió la idea de armar un Circo Errante (*flying circus*, la referencia es obvia) con el objetivo de acercar PyAr a las Universidades de una forma distinta a las actuales.
+
+Hoy por hoy, el principal contacto de PyAr con las Universidades es de gente que arma PyDays en ese ámbito. Esto, normalmente, sucede en las Universidades con carreras afines a la programación. Y el contenido y dinámica de estos PyDays están pensados en función de ese público.
+
+La idea es cambiar eso. Y llegar desde PyAr a Universidades con las cuales normalmente no tenemos mucho contacto. Ejemplo de esto son las carreras de derecho, sociología, matemática, psicología, astronomía, ingenierías no informáticas, etc. Estas son carreras en las que los profesionales podrían hacer un buen uso de Python como herramienta, donde no les interesa tanto el razonamiento "quiero hacer un programa que haga algo", sino más bien "necesito hacer algo y un programa podría ser una herramienta, aparte del excel y la calculadora que es lo que estoy usando ahora".
+
+Más en detalle, lo que se nos ocurrió es armar una especie de presentación basada en ejemplos de distintas especialidades. O sea, cómo usar Python para solucionar tal problema en astronomía, cómo usarlo para encontrar tal resultado en sociología, o cómo aprovecharlo para mejorar un análisis en ingeniería en alimentos. Una presentación semigenérica, de 30-40 minutos, que sea como la punta de lanza: si les gusta la idea luego se puede mostrar Python más formalmente; en el peor de los casos se quedarán sólo con conocer la herramienta y tener idea de qué se trata, que no está tan mal. Obviamente, la idea es armar una presentación que todos podamos usar, no que cada uno arme la suya.
+
+Para organizar esto, armé `una página en el wiki <http://python.org.ar/CircoErrante>`_ con (por ahora) tres secciones: una de ejemplos, para ir juntando ejemplos piolas en los cuales basar la presentación, una de ideas para folletería/merchandising (ver más abajo) y otra de gente interesada en dar estas charlas y la "zona de cobertura".
+
+Luego, habría que ir buscando contactos en las Universidades, para poder charlar con alguien que nos dé un aula con un proyector y que organice internamente para que vaya gente a la presentación.
+
+Con respecto a la folletería/merchandising, tenemos que pensar en algo para llevar a estas reuniones: algo que les muestre el uso de la herramienta más allá del lenguaje (ejemplo: no mostrar como se escribe un for, sino lo fácil que es hacer una normalización de un conjunto de datos). Algo que se lleven los asistentes con ellos, para poder verlo más tarde, y tener el contacto con PyAr para poder venir por más info.
+
+¿Qué les parece?

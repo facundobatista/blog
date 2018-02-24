@@ -1,0 +1,18 @@
+.. title: Regalo de fin de año: Recordium
+.. date: 2016-12-30 15:04:33
+.. tags: software, liberación, Python
+
+En estas últimas semanas terminé de poner a punto un proyectito que había empezado durante el año. Aunque le faltan `algunos detalles <https://github.com/facundobatista/recordium/issues>`_, ya es funcional y útil.
+
+Se llama `Recordium <https://github.com/facundobatista/recordium/>`_. Es una aplicación sencillita que ayuda al vos-fuera-de-tu-compu a recordarle cosas a tu futuro vos-en-la-compu.
+
+.. image:: http://www.taniquetil.com.ar/facundo/imgs/recordium.png
+    :alt: Recordium
+
+La idea es que ejecutás Recordium en tu computadora, y se pone ahí como un iconito pequeñito.
+
+Después, en cualquier momento, estando en la calle, cortando el pasto, en la cola de la panadería, etc, cuando te acordás de algo que tenés que hacer, le mandás un texto o audio de Telegram a tu Bot de Recordium.
+
+Cuando volvés a tu computadora (donde tomás las acciones correspondientes sobre eso que te habías acordado), el iconito de Recordium va a estar iluminado, te va a decir que tenés un mensaje nuevo (o más), y ahí podés leer/escuchar lo que te habías acordado en otro momento.
+
+¿Se podría hacer algo similar utilizando herramientas más complejas? Sí. ¿O algún servicio de Google? También, pero no quiero meterle más *yo* a Google. Igual, lo más importante de Recordium es que me sirvió de proyecto juguete para (al mismo tiempo que lograba una funcionalidad que yo quería) tener algo hecho en Python 3 y PyQt 5.

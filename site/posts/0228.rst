@@ -1,0 +1,26 @@
+.. title: Auto upgrade
+.. date: 2006-12-18 20:49:03
+.. tags: upgrade, aeroventilas, chapa y pintura
+
+Descripción
+-----------
+
+Le hice el upgrade al auto. La versión 4.1 ya no tiene un bug conocido como *aeroventilas*.
+
+
+Screenshots
+-----------
+
+.. image:: http://farm2.static.flickr.com/1209/540696458_028af2b595_o.jpg
+
+.. image:: http://farm2.static.flickr.com/1035/540696610_fdea73dee1_o.jpg
+
+
+Changelog
+---------
+
+- Rellenado de agujero, interior y exterior, parante trasero. Pintado.
+
+- Rellenado de agujeros guardabarros delantero. Pintado.
+
+- Retoques guardabarro delantero derecho. Pintado.

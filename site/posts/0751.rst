@@ -1,0 +1,37 @@
+.. title: PyCon Argentina 2017
+.. date: 2017-11-27 17:02:55
+.. tags: Python, conferencia, viaje, Córdoba
+
+Este fin de semana se realizó una nueva PyCon en Argentina, esta vez (y es la primera vez que repetimos ciudad) en Córdoba.
+
+Yo di dos charlas "formales"... bah, una charla (`Emulando paralelismo de forma asincrónica <http://www.taniquetil.com.ar/homedevel/presents/concurrencia/>`_) y un taller ("Introducción a Python"). También di una mini-plenaria de 20 minutos donde hablé sobre la `Asociación Civil Python Argentina <http://ac.python.org.ar/>`_.
+
+.. image:: http://www.taniquetil.com.ar/facundo/imgs/pyconar2017-grupal.jpeg
+    :alt: Grupal
+    :link: https://www.flickr.com/photos/70871182@N04/37720393655/in/album-72157662945453988/
+
+Hubieron un montón de charlas interesantes! Estas son las que más me gustaron:
+
+- "Distribuyendo código de py a `PyPI <http://pypi.python.org/>`_", donde `Matías Bordese <https://twitter.com/mbordese>`_ nos contó todo el proceso de empaquetamiento y publicación de un programa o biblioteca en Python.
+
+- "Robótica educativa con software y hardware libre... y Python!", de Valentín Basel, que mostró cómo armaron el `proyecto Icaro <http://roboticaro.org/>`_ de forma que los niños puedan hacer cosas con componentes baratos o reciclado y aprender a programar en el camino.
+
+- "Magicicada: el fork open-source de Ubuntu One Filesync" donde Naty Bidart contó un poco la historia del servicio de sincronización de archivos en el que trabajamos en Canonical, su evolución luego de que fue liberado a `Magicicada <https://launchpad.net/magicicada>`_, y mostró la arquitectura del sistema y sus complejidades.
+
+- "Django Channeled", de Jonatas Baldin, que mostró como el concepto de "conexión permanente del cliente al servidor usado para que el servidor le pueda mandar mensajes al cliente en cualquier momento" se implementa en `Django <https://www.djangoproject.com/>`_ de manera elegante, integrándose correctamente con el resto del framework.
+
+- "Me están espiando! Cómo saber con Python si el imperialismo te persigue o te pasaste de Focusyn", de `Nicolás Demarchi <https://twitter.com/gilgamezh>`_, donde aprendimos cómo calcular la posición de todos los satélites alrededor de la tierra, y darnos cuenta que si en un momento en particular podemos ver a determinado satélite (lo cual significa que ese satélite también nos puede ver).
+
+- "De la Rabbit, Pascal y Stored Procedures a la Beaglebone Black, Flask y PyZMQ", de `Leandro Colombo Viña <https://twitter.com/LeCoVi>`_, la historia de la evolución de un hardware determinado, donde con conceptos modernos de comunicación y Python se lograron revolucionar las especificaciones del producto.
+
+- "Python en el browser, mil intentos y un invento", de `Roberto Alsina <https://twitter.com/ralsina>`_, que nos contó un poco de historia y un poco de realidad por si queremos programar "en el browser, del lado del cliente" en Python, y no en javascript.
+
+Las plenarias también estuvieron buenas. `Aleksandra Sendecka <https://twitter.com/asendecka>`_ nos contó en "Anatomy of a Code Review" el por qué y para qué de las revisiones de código por parte del equipo de trabajo, y especialmente el cómo, con un montón de consejos interesantes. Por otro lado `Lucio Torre <https://twitter.com/luciotorre>`_ en "No hay tal cosa como un almuerzo gratis en temas de software" nos habló sobre cómo en desarrollo siempre las acciones que nos dan algo de beneficio por un lado, nos traen algo de perjuicio por otro, y que muchas veces entender dónde uno está parado (y saber leer eso, especialmente cuando uno no tiene toda la información y se basa en prejuicios) es fundamental para la evolución del desarrollo del sistema.
+
+A nivel social, la comunidad de Python Argentina sigue mostrándose ejemplar. No sólo en lo personal (donde es una excusa para reencontrarse con amiga/os y charlar, charlar, charlar) sino también en la inclusión de nuevas personas en el grupo. El ejemplo que más me resuena a este respecto es esta serie de tuits:
+
+.. image:: http://www.taniquetil.com.ar/facundo/imgs/pyconar2017-inclusión.png
+    :alt: Inclusión
+    :link: https://twitter.com/EliTnk/status/932714350112116739
+
+Hasta donde sé se grabaron todas las charlas, así que avisaré cuando estén subidas. Y acá tienen `fotos mías <https://www.flickr.com/photos/54757453@N00/albums/72157688884589701>`_ y `las que sacó Yami <https://www.flickr.com/photos/70871182@N04/sets/72157662945453988>`_ (incluyendo la grupal que reproduzco arriba).

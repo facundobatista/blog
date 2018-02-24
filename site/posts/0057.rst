@@ -1,0 +1,27 @@
+.. title: Películas y configuración
+.. date: 2005-07-01 01:29:19
+.. tags: películas, vim, configuración
+
+- Batman begins: +1
+
+- Be cool: +0
+
+Me cansé de medio configurar **vim** cada vez que estoy en una máquina diferente, así que preparé la configuración que me gusta, la copio acá, y luego ya la tengo. Lo siguiente va en el archivo de configuración local de **vim** (en Ubuntu es el ``/etc/vim/vimrc.local``).::
+
+    " no pone tabs, sino 4 espacios
+    set expandtab
+    set tabstop=4
+
+    " hace backups antes de grabar en /tmp
+    set backup
+    set backupdir=/tmp
+
+    " prende el coloreado de sintáxis
+    syntax on
+
+    " va buscando mientras tecleamos, resalta lo que encuentra
+    set incsearch
+    set hlsearch
+
+    " cambiamos para que se vea mejor lo que busca
+    highlight Search ctermfg=black ctermbg=lightgreen

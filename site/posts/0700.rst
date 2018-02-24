@@ -1,0 +1,47 @@
+.. title: Python y el manejo de dependencias
+.. date: 2016-01-13 02:44:00
+.. tags: PyPI, fades, software
+
+*(there is an English version of this post, `here <https://github.com/PyAr/fades/blob/master/docs/pydepmanag.rst>`_)*
+
+Python tiene una biblioteca estándar muy extensa ("viene con las pilas incluidas"), pero es frecuente la necesidad de usar otros módulos que están afuera de la misma, casi siempre desde el Índice de Paquetes de Python (`PyPI <https://pypi.python.org/pypi>`_).
+
+La manera original de instalar esos módulos es a "nivel de sistema" (``sudo pip install foobar``), en el sistema operativo de forma general, habilitándolos para ser utilizados por cualquier programa que se ejecute.
+
+Más allá de necesitar permisos de root o administrador para instalar las dependencias de esta manera, el primer problema con el que nos encontramos es el de conflictos: el caso típico de dos programas que necesitan la misma dependencia pero en versiones distintas, lo cual no puede lograrse al instalar las dependencias en forma global.
+
+Por eso es que es tan normal en el mundo de Python usar "entornos virtuales". Se crea un entorno virtual para cada programa, se instala las dependencias necesarias para cada programa en cada entorno virtual, y como lo que instalamos en ese entorno es sólo accesible desde dentro del entorno, no hay más conflictos.
+
+En este punto, sin embargo, aparece el problema de la administración de los entornos virtuales: crearlos, instalarles cosas, activarlos para usarlos con cada programa y desactivarlos luego, recordar los nombres de cada entorno para cada programa, etc.
+
+Para automatizar esto nació `fades <https://fades.readthedocs.org/>`_.
+
+fades les permite utilizar todo el poder de los entornos virtuales sin tener que preocuparse por ellos.
+
+¿Quieren ejecutar un script que necesita la dependencia foobar?
+
+::
+
+    fades -d foobar script.py
+
+¿Quieren un intérprete interactivo teniendo foobar instalado como dependencia?
+
+::
+
+    fades -d foobar
+
+¿Necesitan ejecutar el script pero con varias dependencias, alguna en una versión específica?
+
+::
+
+    fades -d foo -d bar -d baz==1.1 script.py
+
+¿Tienen todas las dependencias en un archivo de requerimientos?
+
+::
+
+    fades -r requirements.txt script.py
+
+Esto es sólo lo más sencillo que podés hacer con *fades*. Los entornos virtuales son una herramienta poderosísima, y automatizar y simplificar su uso hace que *fades* tenga bastantes opciones, algunas que usarán todos los días, y otras que les van a resultar muy útiles en casos puntuales.
+
+Empiecen a usar *fades* de a poco (acá tienen `toda la documentación <https://fades.readthedocs.org/en/latest/readme.html>`_) y van a encontrar que van a tener resuelto el tema de la administración de dependencias en programas y scripts, usando entornos virtuales pero sin la complejidad de tener que hacerlo directamente y a mano.

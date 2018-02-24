@@ -1,0 +1,15 @@
+.. title: Arreglando varias cosas
+.. date: 2006-05-06 12:33:17
+.. tags: arreglando, computadora, SSH, Apache, blog, Dyndns
+
+Le dediqué finalmente un par de horas a la máquina de casa, y estuve arreglando varias cosas...
+
+Lo primero que ataqué fue `SSH <http://es.wikipedia.org/wiki/SSH>`_, ya que no estaba seguro de que se pudiese acceder por ese protocolo desde la internet pública (podía acceder desde intranet, pero no desde afuera). Con la ayuda de Dani, compañero de trabajo, pude probarlo, y mediante un traceo con el `Ethereal <http://www.ethereal.com/>`_, me aseguré de que se puede entrar.
+
+Como segundo paso, me fijé por qué el `ddclient <http://ddclient.wiki.sourceforge.net/>`_ no me estaba actualizando `Dyndns <http://www.dyndns.com/>`_. Luego de buscar y buscar, al final encontré el problema: se ve que al tener dos direcciones IP en mi máquina (una pública y una interna), el ddclient no se decidía cual actualizar. Solución: toqué el archivo de configuración y ahora funca bien, pudiendo llegar a mi máquina desde afuera usando el nombre taniquetil.homelinux.net.
+
+Ya que iba todo bien, fui a por lo más complicado: terminar de arreglar mi sitio (esto desde dónde ustedes están leyendo esto). El sitio andaba, pero con unas direcciones feas, y si configuraba para usar las direcciones lindas se rompía todo.
+
+Me puse a leer con cuidado unos mails de `Mariano <http://chaghi.com.ar/blog/index.php>`_, donde proponía tres soluciones, y me tiré a corregir el sitio usando la que era más elegante, pero en la que me metía con algo que nunca había hecho: reglas de conversión de direcciones de `Apache <http://httpd.apache.org/>`_.
+
+Luego de jugar como una hora, terminé dejando todo lindo y pulidito. Puede ser que ahora haya algo que no ande, quizás debería tocar alguna configuración más. Si encuentran algo, por favor avisen.

@@ -1,0 +1,20 @@
+.. title: Remeras PyAr, segunda versión, arrancamos
+.. date: 2008-07-03 12:14:11
+.. tags: remera, Python Argentina
+
+Empecé a empujar en Python Argentina el proceso de creación de las Remeras 2.0.
+
+Vamos a seguir un esquema parecido al que se usó en el diseño de la bandera, que fue por votación. En este caso, sin embargo, vamos a hacer que cada persona que proponga un diseño cree una página en el sitio de PyAr, ponga allí una imagen con el frente y el reverso de la remera, y adjunte en la misma página (para bajarlo, pero que no se muestre), el diseño original.
+
+El resto de la gente podrá visitar esas páginas, y agregar comentarios abajo de los diseños, de manera que el autor pueda mejorar (si quiere) su diseño. La gente, también, podrá usar esos diseños como base para propuestas propias. En general, los diseños subidos serán de dominio público.
+
+Luego de un tiempo, se congelarán los diseños, y se someterán los mismos a votación. El que gane tendrá el honor de recibir una remera gratis, o pagar una vuelta de cerveza a todos en la próxima reunión de PyAr, según elija, :)
+
+La fecha límite para proponer diseños es el 11 de Julio... aunque arrancó lento, espero que la gente proponga ideas. Por lo pronto, yo acabo de subir tres diseños, que nos los pongo porque quedarían chicos acá, pero los pueden ver en sus respectivas páginas `[-] <http://www.python.com.ar/moin/RemerasV2/FacundoBatista1>`_ `[-] <http://www.python.com.ar/moin/RemerasV2/FacundoBatista2>`_ `[-] <http://www.python.com.ar/moin/RemerasV2/FacundoBatista3>`_. El que reproduzco aquí es el diseño de la cuarta remera, que es muy difícil de hacer por los colores y resoluciones que implicaría... pero que me gustó mucho:
+
+.. image:: http://www.taniquetil.com.ar/facundo/imgs/remeras2-04.png
+    :alt: Los juegos de PyAr
+
+Pueden ver otros diseños, más las condiciones completas del concurso, en la `página principal <http://www.python.com.ar/moin/RemerasV2/>`_.
+
+¡A crear!

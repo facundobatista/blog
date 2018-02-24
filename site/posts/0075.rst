@@ -1,0 +1,28 @@
+.. title: Más películas y más citas
+.. date: 2005-08-24 13:26:18
+.. tags: películas, citas, johnny depp, actors studio
+
+El viernes vi `The island <http://www.imdb.com/title/tt0399201/>`_: +0
+
+------------
+
+Agregué para ver a `Corpse bride <http://www.imdb.com/title/tt0121164/>`_, que es nueva, y algunas viejas que no había visto (en la linea de seguir a Depp): `Sleepy hollow <http://www.imdb.com/title/tt0162661/>`_ (dirigida por Tim Burton y coprotagonizada por Christina Ricci), `The ninth gate <http://www.imdb.com/title/tt0142688/>`_ (dirigida por Roman Polanski) y `Donnie Brasco <http://www.imdb.com/title/tt0119008/>`_ (¿habían oido hablar de esta? ¡están Depp y Pacino!).
+
+¿Por qué me acordé de revisar la filmografía de Johnny Depp y rescatar estas joyas? El otro día, en Chile, agarré en la tele al programa `Actors Studio <http://www.bravotv.com/Inside_the_Actors_Studio/guests/Johnny_Depp.shtml>`_, donde lo entrevistaban. Espectacular.
+
+------------
+
+Y vamos con más citas...
+
+    Perl is worse than Python because people wanted it worse.
+    *Larry Wall*
+
+    Not at all, although I agree here too <wink>. It's like saying a
+    fork is broken just because it's not that handy for jacking up a car.
+    That is, Guido implemented the syntax to support default arguments, and
+    it works great for that purpose! Using it to fake closures is a hack,
+    and the "hey, this is cool!" / "hey, this really sucks!" mixed reaction
+    thus follows, much as pain follows a car falling on your skull. Stick
+    to stabbing peas, or even teensy pea-sized closures, and a fork serves
+    very well.
+    *Tim Peters, 31 Oct 1998*

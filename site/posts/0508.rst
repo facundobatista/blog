@@ -1,0 +1,91 @@
+.. title: Lento verano a nivel películas
+.. date: 2011-04-13 11:27:47
+.. tags: películas
+
+- `Bolt <http://www.imdb.com/title/tt0397892/>`_: +0. Otra peli para chicos, pero con giros interesantes. Muy bien hecha.
+
+- `Choke <http://www.imdb.com/title/tt1024715/>`_: -1. Divertida por momentos, una historia curiosa, pero no vale la pena.
+
+- `City of Ember <http://www.imdb.com/title/tt0970411/>`_: +1. Muy buena imaginaria; la historia está muy bien, y las actuaciones no desentonan. Para los que disfrutan de fantasía bien armada.
+
+- `Coraline <http://www.imdb.com/title/tt0327597/>`_: +0. Interesante, pero nada del otro mundo. Quizás es un poco para chicos, y yo esperaba algo más complejo.
+
+- `District 9 <http://www.imdb.com/title/tt1136608/>`_: +1. Película muy bien armada. Sí, es de extraterrestres, pero importa más el conflicto social y la relación entre razas que si el extraterrestre tiene antenas o no.
+
+- `Ice Age 3 <http://www.imdb.com/title/tt1080016/>`_: +0. Me gustó, pero es más de lo mismo.
+
+- `Igor <http://www.imdb.com/title/tt0465502/>`_: +1. Muy divertida, muy bien hecha. A diferencia de lo que sentí con "Coraline", esta es una película "multiedad".
+
+- `La fille coupée en deux <http://www.imdb.com/title/tt0901485/>`_: -0. Alguna que otra buena actuación, la historia casi bien, la dirección mala... no es que sea lenta (que lo es), sino que no tiene ritmo, no tiene contenido por partes... aburre.
+
+- `RED <http://www.imdb.com/title/tt1245526/>`_: +1 Típica película de acción y humor. La ví en el avión cuando fui a Atlanta, y me debo verla en mayor resolución.
+
+- `Vier minuten <http://www.imdb.com/title/tt0461694/>`_: +1. Fantástica historia entre una maestra de piano y su alumna, en un contexto atípico. No dejes de verla si te interesa un poquito el piano.
+
+- `Watchmen <http://www.imdb.com/title/tt0409459/>`_: +1. Me gustó mucho esta película... violenta pero con estilo, bien dirigida, fantástica música. Tengo planeada verla de nuevo...
+
+- `What just happened <http://www.imdb.com/title/tt0486674/>`_: -0. Sin ritmo, la historia más o menos interesante pero nada realmente que valga la pena.
+
+- `Yes man <http://www.imdb.com/title/tt1068680/>`_: +0. Es Jim Carrey, pero en un papel que le va bien. La historia de la película es filosóficamente muy interesante, más allá que esté tratado desde una comedia. Y trabaja Zooey Deschanel, ;)
+
+Eso sí, hay un montonazazo de nuevas planeadas para ver:
+
+- `Carancho <http://www.imdb.com/title/tt1542852/>`_
+
+- `Carbon nation <http://www.imdb.com/title/tt1482991/>`_
+
+- `Crazy, stupid, love <http://www.imdb.com/title/tt1570728/>`_
+
+- `El hombre de al lado <http://www.imdb.com/title/tt1529252/>`_
+
+- `Elektra Luxx <http://www.imdb.com/title/tt1340773/>`_
+
+- `Friend with benefits <http://www.imdb.com/title/tt1632708/>`_
+
+- `Habitación en Roma <http://www.imdb.com/title/tt1263750/>`_
+
+- `High fidelity <http://www.imdb.com/title/tt0146882/>`_
+
+- `I am number four <http://www.imdb.com/title/tt1464540/>`_
+
+- `Limitless <http://www.imdb.com/title/tt1219289/>`_
+
+- `No strings attached <http://www.imdb.com/title/tt1411238/>`_
+
+- `Paul <http://www.imdb.com/title/tt1092026/>`_
+
+- `Pirates of the caribbean: On stranger tides <http://www.imdb.com/title/tt1298650/>`_
+
+- `Powder <http://www.imdb.com/title/tt0114168/>`_
+
+- `Sucker punch <http://www.imdb.com/title/tt0978764/>`_
+
+- `The Lincoln lawyer <http://www.imdb.com/title/tt1189340/>`_
+
+- `The man from earth <http://www.imdb.com/title/tt0756683/>`_
+
+- `The resident <http://www.imdb.com/title/tt1334102/>`_
+
+- `The rite <http://www.imdb.com/title/tt1161864/>`_
+
+- `The way back <http://www.imdb.com/title/tt1023114/>`_
+
+- `Thor <http://www.imdb.com/title/tt0800369/>`_
+
+- `Transformers: Dark of the moon <http://www.imdb.com/title/tt1399103/>`_
+
+- `Your highness <http://www.imdb.com/title/tt1240982/>`_
+
+Finalmente, el resumen según cuando las anoté:
+
+    (19-Nov-2007)    3
+    (23-May-2008)   21    4    4
+    (24-Sep-2008)   31   29   21   15    6
+    (21-Ene-2009)   19   19   18   18   18
+    (09-May-2009)   16   14   14   13   11
+    (15-Oct-2009)   21   20   17   17   16
+    (01-Mar-2010)        19   18   18   18
+    (12-Sep-2010)             19   19   18
+    (14-Dic-2010)                  13   13
+    (13-Abr-2011)                       23
+    Total:         111  105  111  113  123

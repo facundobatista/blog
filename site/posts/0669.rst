@@ -1,0 +1,10 @@
+.. title: Cantando juntos
+.. date: 2015-02-20 19:28:37
+.. tags: música, foto, Malena, Felipe
+
+"Vení, cantemos algo a dúo."
+
+.. image:: http://taniquetil.com.ar/facundo/imgs/malefelu-duo.jpeg
+    :alt: Cantando a dúo
+
+¡Rocanrol!
