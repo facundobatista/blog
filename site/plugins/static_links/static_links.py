@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-# Copyright © 2014-2017 Felix Fontein
+# Copyright María Andrea Vignau
 #
 # Permission is hereby granted, free of charge, to any
 # person obtaining a copy of this software and associated
