@@ -5,3 +5,16 @@ body{ background-color:#FFFFFF; background-image:none; color:#000000 }
 .pager{ display:none;}
 .archive-meta{ display:none;}
 #img_prop_r{ display:none;}
+div#search-form {display: none}
+div#sidebar_outer {display: none}
+div#layout {display: none}
+div#propaganda_r {display: none}
+div#footer {display: none}
+
+@media print
+{    
+    .hidden-print, .hidden-print *
+    {
+        display: none !important;
+    }
+}
