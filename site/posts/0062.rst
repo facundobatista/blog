@@ -22,7 +22,7 @@ citas.Python
 ------------
 
 Inauguro una especie de nueva sección, o mejor dicho una nueva costumbre: cada tanto, en los posts más generales (como este), voy a incluir citas relacionadas de alguna u otra manera con Python. Serán
-más o menos *aprovechables *en función de cuanto sepan de Python o lenguajes/informática en general, y estarán en inglés, espero las puedan disfrutar.
+más o menos *aprovechables* en función de cuanto sepan de Python o lenguajes/informática en general, y estarán en inglés, espero las puedan disfrutar.
 
     We will perhaps eventually be writing only small modules which are
     identified by name as they are used to build larger ones, so that

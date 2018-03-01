@@ -128,7 +128,7 @@ Hay que tener una colección de herramientas, entre ellas:
 
 - plugin para navegador (seleccioná el texto → kilink, idem)
 
-- linea de comando ("grep ERROR *.log | kilink" y este escupe la url de un kilink nuevo)
+- linea de comando (``grep ERROR *.log | kilink`` y este escupe la url de un kilink nuevo)
 
 - applet que permita meter una "ventanita para rápidamente crear kilinks" en cualquier lado
 

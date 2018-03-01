@@ -9,6 +9,8 @@ Y el otro día justo estaba viendo un programa sobre Atahualpa Yupanqui con Feli
 .. image:: http://www.taniquetil.com.ar/facundo/imgs/atahualpa.png
     :alt: Atahualpa Yupanqui
 
+..
+
     Ahora tenemos la televisión, la radio; ahora nos traen una noticia rápidamente, lo que está pasando en Oriente, lo que está pasando en todo el mundo. Al segundo lo sabemos, al minuto lo sabemos.
 
     Lo que no sabemos es cuantos poetas escribieron un poema, ayer y antes de ayer, y el domingo antes de la tormenta, o el viernes después que anocheció.

@@ -42,6 +42,6 @@ Siiiii, salimos primeros en la competencia por equipos, :D. Como pueden ver en l
 
 Y el equipo de Python de Córdoba salió tercero, ¡felicitaciones para ellos también! Realmente demostramos que PyAr está para cosas grandes, :D
 
-Pueden bajar el juego de `acá <http://media.pyweek.org/dl/3/PyAr2/typuspocus-v1.tar.gz>`_. Para probarlo, tienen que tener Python instalado (lo pueden bajar de `acá <http://www.python.org/download/releases/2.5/>`_) y PyGame (de `acá <http://www.pygame.org/download.shtml>`_).
+Pueden bajar el juego de `acá <http://media.pyweek.org/dl/3/PyAr2/typuspocus-v1.tar.gz>`__. Para probarlo, tienen que tener Python instalado (lo pueden bajar de `acá <http://www.python.org/download/releases/2.5/>`__) y PyGame (de `acá <http://www.pygame.org/download.shtml>`__).
 
 Juéguenlo y me cuentan, :)

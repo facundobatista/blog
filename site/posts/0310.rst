@@ -6,7 +6,7 @@ O árboles y humitos: Este post es el par de mi lado del post `Python más rápi
 
 Arranquemos desde el principio... una mañana en la que entra Humitos al canal IRC de Python Argentina (`#pyar` en `irc.freenode.net`), y plantea el problema de cual es la mejor estructura de datos para armar un autocompletador de palabras. Esto es, a partir de un diccionario de palabras, que estructura las guarda mejor para que cuando uno ponga *joye*, el sistema sugiera *joyel*, *joyelero*, *joyero* y *joyer*.
 
-Yo pensé en un árbol con una letra por nodo. Al toque, le sugirieron que usase un árbol Trie. Yo, que como no soy informático no conozco muchos nombres, fui a revisar qué era un árbol Trie (`acá <http://es.geocities.com/lenguajenatural/indexacion.htm>`_ hay una explicación piola, `acá <http://es.wikipedia.org/wiki/Trie>`_ una más formal).
+Yo pensé en un árbol con una letra por nodo. Al toque, le sugirieron que usase un árbol Trie. Yo, que como no soy informático no conozco muchos nombres, fui a revisar qué era un árbol Trie (`acá <http://es.geocities.com/lenguajenatural/indexacion.htm>`__ hay una explicación piola, `acá <http://es.wikipedia.org/wiki/Trie>`__ una más formal).
 
 La cuestión es que un árbol Trie era lo que yo pensaba que era: un árbol con una letra por nodo. Por ejemplo, para las palabras que usé antes:
 

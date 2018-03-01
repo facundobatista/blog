@@ -96,7 +96,7 @@ Comentarios
 
 Por último, quiero dejarles la otra cara de la moneda: muchos comentarios que fui levantando por ahí de **asistentes** a la conferencia:
 
-`chaghi <http://chaghi.com.ar/blog/post/2009/09/06/pycon_argentina_2009>`_: La conferencia estuvo EXCELENTE, empezando por el material de registración, siguiendo por la organización general, el lugar, la coordinación, las charlas, la versión impresa del tutorial en español, las keynotes de Jacob Kaplan-Moss y Collin Winter, y toda la cosa social que hubo alrededor.
+`chaghi <http://chaghi.com.ar/blog/post/2009/09/06/pycon_argentina_2009>`__: La conferencia estuvo EXCELENTE, empezando por el material de registración, siguiendo por la organización general, el lugar, la coordinación, las charlas, la versión impresa del tutorial en español, las keynotes de Jacob Kaplan-Moss y Collin Winter, y toda la cosa social que hubo alrededor.
 
 `xavierlesa <http://twitter.com/xavierlesa/statuses/3800597144>`_: muy buenas las charlas del #pyconar09, el que se la perdió se jodió!
 
@@ -108,7 +108,7 @@ Por último, quiero dejarles la otra cara de la moneda: muchos comentarios que f
 
 `rhfixer <http://twitter.com/rhfixer/statuses/3787345646>`_: Muy buena la #pyconar09, mis felicitaciones a los organizadores y disertantes. ¡Un honor haber asistido!
 
-`chaghi <http://twitter.com/chaghi/statuses/3788467681>`_: Excelente segundo día de #pyconar09. Muy buenas charlas, lightning talks, plenaria, sorteo, y cierre emotivo. Un lujo.
+`chaghi <http://twitter.com/chaghi/statuses/3788467681>`__: Excelente segundo día de #pyconar09. Muy buenas charlas, lightning talks, plenaria, sorteo, y cierre emotivo. Un lujo.
 
 `michelpeterson <http://twitter.com/michelpeterson/statuses/3786073277>`_: #pyconar09 has come to an end and let me say that it exceeded my expectations. Congrats to everyone involved!
 
@@ -118,7 +118,7 @@ Por último, quiero dejarles la otra cara de la moneda: muchos comentarios que f
 
 `technophilic <http://www.santiagorojo.com.ar/2009/09/pycon-argentina-2009/>`_: ...pero en realidad lo que quiero destacar de la conferencia, es que fue completamente gratuita, y el nivel estuvo a la altura de cualquier otra en la que haya que pagar un entrada para poder participar.
 
-Ah! Y `fotos <http://www.flickr.com/photos/54757453@N00/sets/72157622207921223/>`_, `fotos <http://www.flickr.com/photos/blmurch/>`_, `fotos <http://gallery.atpic.com/30241>`_, `fotos <http://www.flickr.com/photos/tags/pyconar09/>`_, `fotos <http://picasaweb.google.com/frapell/PyConArgentina2009#>`_.
+Ah! Y `fotos <http://www.flickr.com/photos/54757453@N00/sets/72157622207921223/>`__, `fotos <http://www.flickr.com/photos/blmurch/>`__, `fotos <http://gallery.atpic.com/30241>`__, `fotos <http://www.flickr.com/photos/tags/pyconar09/>`__, `fotos <http://picasaweb.google.com/frapell/PyConArgentina2009#>`__.
 
 .. image:: http://www.taniquetil.com.ar/facundo/imgs/pyconar09-felices5.png
     :alt: El Gran Grossini nos saluda!

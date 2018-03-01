@@ -13,4 +13,4 @@ Bueno, todos los saben, porque no sólo tenemos una página de los `proyectos qu
 <param name="FlashVars" value="playerMode=embedded" />
 </object>
 
-Para completar el ciclo, pueden ver fotos del evento `acá <https://plus.google.com/u/0/111398431688082395808/posts/gKz4sqvw47D>`_, `acá <http://www.flickr.com/photos/95013334@N05/sets/72157634322797888/>`_, `acá <http://www.flickr.com/photos/54757453@N00/sets/72157634344486118/>`_ y `acá <http://www.flickr.com/photos/97990478@N03/sets/72157634363405829/>`_.
+Para completar el ciclo, pueden ver fotos del evento `acá <https://plus.google.com/u/0/111398431688082395808/posts/gKz4sqvw47D>`__, `acá <http://www.flickr.com/photos/95013334@N05/sets/72157634322797888/>`__, `acá <http://www.flickr.com/photos/54757453@N00/sets/72157634344486118/>`__ y `acá <http://www.flickr.com/photos/97990478@N03/sets/72157634363405829/>`__.

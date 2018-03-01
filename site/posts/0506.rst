@@ -4,7 +4,7 @@
 
 El fin de semana pasado, que era largo (¡cuatro días!), lo pasé en La Falda, Córdoba, junto con un montón de gente copada, disfrutando del cuarto PyCamp de Python Argentina.
 
-No voy a explicar de nuevo que es un PyCamp, pero pueden ver mis posts de las ediciones anteriores(`acá <http://www.taniquetil.com.ar/plog/post/1/329>`_, `acá <http://www.taniquetil.com.ar/plog/post/1/404>`_, y `acá <http://www.taniquetil.com.ar/plog/post/1/452>`_).
+No voy a explicar de nuevo que es un PyCamp, pero pueden ver mis posts de las ediciones anteriores(`acá <http://www.taniquetil.com.ar/plog/post/1/329>`__, `acá <http://www.taniquetil.com.ar/plog/post/1/404>`__, y `acá <http://www.taniquetil.com.ar/plog/post/1/452>`__).
 
 Viajé en micro durante la noche, así que tempranito ya estaba allá... es más, fui el primero en llegar. Luego fueron cayendo un par más, pero había mucha gente varada en Córdoba Capital por un paro de transporte (gente de Córdoba mismo, y gente de otros lados que cambiaban de micro allá).
 

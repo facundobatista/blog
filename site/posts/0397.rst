@@ -23,7 +23,7 @@ Estuve leyendo algo de Desnormalización de Unicode (`acá <http://unicode.org/r
 
 Buscando y buscando, me di cuenta que si puedo acceder a cierta info de la `Tabla de Unicode <http://www.unicode.org/Public/UNIDATA/UnicodeData.txt>`_ sin entrar en una Normalización formal, podía tener lo que quería. El acceso a esta información desde Python es con la función `decomposition() <http://docs.python.org/library/unicodedata.html#unicodedata.decomposition>`_, y la regla es la siguiente: si la decomposición indica que es por compatibilidad, incluir los caracteres devueltos, pero si solamente nos está separando el grafo principal de los accesorios, quedarnos con el principal.
 
-Lo siguiente es el código, con las pruebas para los ejemplos anteriores::
+Lo siguiente es el código, con las pruebas para los ejemplos anteriores:
 
 .. code::
 

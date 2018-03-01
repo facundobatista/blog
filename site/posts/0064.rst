@@ -13,11 +13,11 @@ Personalidad
 
 Sé cómo me calificaría si me dan a elegir entre las siguientes opciones:
 
-- Geek (`wikipedia <http://en.wikipedia.org/wiki/Geek>`_, `jargon file <http://www.catb.org/jargon/html/G/geek.html>`_)
+- Geek (`wikipedia <http://en.wikipedia.org/wiki/Geek>`__, `jargon file <http://www.catb.org/jargon/html/G/geek.html>`__)
 
-- Nerd (`wikipedia <http://en.wikipedia.org/wiki/Nerd>`_, `jargon file <http://www.catb.org/jargon/html/N/nerd.html>`_)
+- Nerd (`wikipedia <http://en.wikipedia.org/wiki/Nerd>`__, `jargon file <http://www.catb.org/jargon/html/N/nerd.html>`__)
 
-- Techie (`wikipedia <http://en.wikipedia.org/wiki/Techie>`_)
+- Techie (`wikipedia <http://en.wikipedia.org/wiki/Techie>`__)
 
 ¿Ustedes? ¿Entran en alguna de esas categorías o son seres humanos normales? :p
 

@@ -82,7 +82,7 @@ Distribuyendo programas
 
 En realidad, la respuesta no es tan complicada una vez que está resuelto (como tantas cosas en la vida).
 
-Para incluir todos los archivos, en el ``setup.py``, en la llamada a ``setup()`` hay que poner:
+Para incluir todos los archivos, en el ``setup.py``, en la llamada a ``setup()`` hay que poner::
 
     packages = ["encuentro"],
     package_data = {"encuentro": ["ui/*.glade"]},

@@ -14,6 +14,6 @@ Siguiendo con las Regionales, yo tengo confirmadas dos charlas: "Introducción a
 
 La segunda charla muestra de forma teórica/práctica qué son Unicode, las planillas de códigos, los caracteres, y las codificaciones. Entra en detalle en los distintos encodings, para saber cómo usarlos, ejemplifica las reglas de oro para utilizar Unicode en nuestros programa, y termina mostrando algunas funciones útiles para el manejo de esa tecnología.
 
-Este año Python Argentina, con apoyo de la Python Software Foundation, se enorgullece en presentar a Raymond Hettinger, que va a dar tres charlas en las Regionales: "Python 3000", "Descriptor tutorial", y la que vimos en Chicago y que nos encantó: "Core containers - Under the hood". `Acá <http://jornadas.cafelug.org.ar/8/programa/modules/myconference/program.php >`_ tienen todas las charlas del evento.
+Este año Python Argentina, con apoyo de la Python Software Foundation, se enorgullece en presentar a Raymond Hettinger, que va a dar tres charlas en las Regionales: "Python 3000", "Descriptor tutorial", y la que vimos en Chicago y que nos encantó: "Core containers - Under the hood". `Acá <http://jornadas.cafelug.org.ar/8/programa/modules/myconference/program.php>`_ tienen todas las charlas del evento.
 
 Bueno, ahí ya tiré algunos puntos con los cuales estuve bastante ocupado los últimos días. El resto de la semana viene a full también, y la semana que viene tampoco tengo ni un día libre... pero bueno, calavera no chilla, ;)

@@ -48,7 +48,7 @@ Exactamente lo mismo, pero para la AMR Wide Band::
 
 Dos detalles.
 
-- En ambos ``make``s, el tipo baja un pequeño archivo de algún lado, así que tienen que estar conectados a internet.
+- En ambos ``make``, el tipo baja un pequeño archivo de algún lado, así que tienen que estar conectados a internet.
 
 - Fíjense que el ``make install`` tiene un "sudo" adelante; esto es porque necesitan permisos de root para instalar la biblioteca.
 
