@@ -1,0 +1,13 @@
+[Core]
+Name = archives_bar
+Module = archives_bar
+
+[Documentation]
+Author = Maria Andrea Vignau
+Version = 1.0
+Website = https://github.com/marian-vignau
+Description = Renders one list of months indexes and a link to a post sended a year ago.
+
+[Nikola]
+PluginCategory = Task
+MinVersion = 7.8.2

@@ -1,0 +1,22 @@
+## -*- coding: utf-8 -*-
+
+<%def name="list_months(month_list)">
+  <div id="archive_month_list">
+    <select id="archive">
+      <option value="">Elija un mes ..</option>
+      % for month in month_list:
+      <option
+        value="${'/{}/{}'.format(month.year,month.month)}" class="listtitle">
+        ${ month.friendly_name }
+      </option>
+      % endfor
+    </select>
+   </div>
+</%def>
+
+<%def name="time_ago(year_ago_post)">
+  <div id="year_ago_post">
+      <a href="link://${ year_ago_post.permalink() }" class="listtitle">${ year_ago_post.title(lang) }</a>
+   </div>
+</%def>
+

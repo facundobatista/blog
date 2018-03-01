@@ -1,1 +1,2 @@
 Nikola==7.8.11
+pyyaml

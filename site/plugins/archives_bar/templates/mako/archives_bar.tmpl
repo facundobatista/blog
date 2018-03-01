@@ -1,0 +1,22 @@
+## -*- coding: utf-8 -*-
+<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+<script>
+    document.getElementById("archive").onchange = function() {
+        if (this.selectedIndex!==0) {
+            window.location.href = this.value;
+        }
+    };
+</script>
+
+<%namespace name="helper" file="archives_bar-helper.tmpl"/>
+<div>
+  <h2>
+    Un año atrás
+  </h2>
+  ${ helper.time_ago(year_ago_post) }
+</div>
+
+<h2>
+Archivo
+</h2>
+${ helper.list_months(month_list) }
