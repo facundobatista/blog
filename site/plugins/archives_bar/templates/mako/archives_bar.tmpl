@@ -8,15 +8,14 @@
     };
 </script>
 
-<%namespace name="helper" file="archives_bar-helper.tmpl"/>
-<div>
-  <h2>
-    Un año atrás
-  </h2>
-  ${ helper.time_ago(year_ago_post) }
-</div>
-
-<h2>
-Archivo
-</h2>
-${ helper.list_months(month_list) }
+<div id="archive_month_list">
+  <select id="archive">
+    <option value="">Elija un mes ..</option>
+    % for month in month_list:
+    <option
+      value="${'/{}/{}'.format(month.year,month.month)}" class="listtitle">
+      ${ month.friendly_name }
+    </option>
+    % endfor
+  </select>
+ </div>

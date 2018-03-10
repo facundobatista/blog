@@ -8,12 +8,12 @@ Cerramos la semana con las últimas tres citas de una serie que comencé hace me
     know what you're doing when floating point is involved, you're either
     Tim Peters, or the world champ of hubris."
     "I find it's possible to be both <wink>."
-    *Alex Martelli and Tim Peters, 20 May 2001 *
+    *Alex Martelli and Tim Peters, 20 May 2001*
 
     The joy of coding Python should be in seeing short, concise, readable
     classes that express a lot of action in a small amount of clear code
     -- not in reams of trivial code that bores the reader to death.
-    *GvR, 20 Mar 2002 *
+    *GvR, 20 Mar 2002*
 
     Here's another technique that is faster and more obvious but that is
     often avoided by those who mistakenly believe that writing two lines

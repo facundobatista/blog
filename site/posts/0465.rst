@@ -12,4 +12,4 @@ Venimos atrasados con el procesamiento de fotos, pero acá ya tenemos los videos
     :alt: Fotos del quinto mes
     :target: http://www.youtube.com/watch?v=OkWbu2BgJbM
 
-Si quieren, pueden bajarlos de `acá <http://www.taniquetil.com.ar/facundo/FelipeCuartoMes.avi>`_ y `acá <http://www.taniquetil.com.ar/facundo/FelipeQuintoMes.avi>`_ con más resolución.
+Si quieren, pueden bajarlos de `acá <http://www.taniquetil.com.ar/facundo/FelipeCuartoMes.avi>`__ y `acá <http://www.taniquetil.com.ar/facundo/FelipeQuintoMes.avi>`__ con más resolución.

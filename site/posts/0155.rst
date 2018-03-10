@@ -6,7 +6,7 @@ En el laburo me dan parte de mi sueldo como Ticket Restaurant.
 
 Antes cobraba de 3 y 4 pesos, o 3, 4 y 6 pesos, pero en los últimos meses, venía cobrando en tickets de 4 y 6 pesos. La complicación de cobrar en esas denominaciones es que nunca se puede sumar una cifra impar.
 
-`Mariano <http://www.chaghi.com.ar/blog/>`_ ya había averiguado de que no es imposible que la empresa que emite los tickets, Accor, cambie la denominación en las que te lo entrega. La cuestión es que ayer me terminé hinchando las pelotas (perdón, molestando sobremanera), y llamé al *612, que es un número de "atención al cliente interno" que tenemos acá en Movistar.
+`Mariano <http://www.chaghi.com.ar/blog/>`_ ya había averiguado de que no es imposible que la empresa que emite los tickets, Accor, cambie la denominación en las que te lo entrega. La cuestión es que ayer me terminé hinchando las pelotas (perdón, molestando sobremanera), y llamé al \*612, que es un número de "atención al cliente interno" que tenemos acá en Movistar.
 
 Me atendió una persona al que le planteé el problema, y me dijo...
 
@@ -34,7 +34,7 @@ Acto seguido, escribí un mail a Recursos Humanos con copia a mi jefe...
     Buenas tardes.
 
     Quería quejarme formalmente porque pedí que me cambien la denominación en
-    que recibo los tickets restaurant, al *612 (me atendió un tal Diego), y me
+    que recibo los tickets restaurant, al \*612 (me atendió un tal Diego), y me
     indicaron que esto no es posible.
 
     Quiero cambiar la denominación porque hoy en día recibo tickets de 4 y de

@@ -6,8 +6,8 @@ PyAr, el grupo de usuarios de Python de Argentina invita a toda la comunidad de 
 
 En este evento nos juntaremos desarrolladores y programadores tanto principiantes como avanzados; bloggers, autores y diseñadores web; gerentes, administradores y emprendedores; científicos, ingenieros, curiosos y todo aquel que tenga ganas de acercarse a la comunidad Python en Argentina.
 
-Agradecemos la contribución de todos en la difusión de este llamado y del evento en si mediante los banners diseñados para tal fin y que se encuentran `aquí <http://ar.pycon.org/2009/helping/publicize/>`_.
+Agradecemos la contribución de todos en la difusión de este llamado y del evento en si mediante los banners diseñados para tal fin y que se encuentran `aquí <http://ar.pycon.org/2009/helping/publicize/>`__.
 
-Las charlas deben ser ingresadas para su aprobación `aquí <http://ar.pycon.org/2009/conference/proposals/submit/>`_. La fecha límite de envío de charlas es el Lunes 29 de Junio inclusive. En caso de consultas o inconvenientes, `envianos un mail <mailto:charlas@python.org.ar>`_.
+Las charlas deben ser ingresadas para su aprobación `aquí <http://ar.pycon.org/2009/conference/proposals/submit/>`__. La fecha límite de envío de charlas es el Lunes 29 de Junio inclusive. En caso de consultas o inconvenientes, `envianos un mail <mailto:charlas@python.org.ar>`_.
 
 Más info, `acá <http://ar.pycon.org/2009/conference/proposals/>`_.

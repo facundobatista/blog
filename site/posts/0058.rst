@@ -2,7 +2,7 @@
 .. date: 2005-07-01 01:44:29
 .. tags: EuroPython, conferencia, PyMoney
 
-El día comenzó bien, con una charla de Gustavo Niemeyer sobre un `administrador de paquetes <http://smartpm.org/>`_ para Linux que él desarrolló como parte de su trabajo en `Mandriva  <http://www.mandrivalinux.com/es-ar/>`_(fusión de Conectiva y Mandrake).
+El día comenzó bien, con una charla de Gustavo Niemeyer sobre un `administrador de paquetes <http://smartpm.org/>`_ para Linux que él desarrolló como parte de su trabajo en `Mandriva <http://www.mandrivalinux.com/es-ar/>`_ (fusión de Conectiva y Mandrake).
 
 Luego del café, en el segundo bloque, participé en la charla que tenía preparada John Pinner, en la que trató de generar un feedback del público sobre `PyMoney <http://sf.net/projects/pymoney>`_ (un proyecto mío para que Python tenga un módulo Money). John presentó unos slides en 10 minutos, y luego me largó para que trate de sacarle algo al público. No salió muy bien, ya que no estaban muy preparados para participar, los agarró de sorpresa. La charla siguiente, donde yo `mostré <http://www.taniquetil.com.ar/homedevel/presents/money.sxi>`_ en que estado de desarrollo estaba el módulo, fue mejor recibida.
 

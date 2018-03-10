@@ -1,0 +1,103 @@
+.. title: Vacaciones en familia, playa y sierras
+.. date: 2018-02-24 23:15:00
+.. tags: vacaciones familia playa sierras Córdoba Mar Azul
+
+Durante el veranito nos tomamos unos días con la familia para pasear por distintos lados.
+
+Sí, hace un montón. Es que nos tardamos en procesar las fotos... no escala; para las próximas vacaciones largas, creo que voy a poner a la familia a revisar fotos durante las vacaciones mismas, sino llegamos y tenemos 1238941 fotos, y revisando un cachito durante la cena en los sucesivos días, no terminamos más... al punto incluso que *todavía* no están listas!
+
+
+Playa
+-----
+
+Entre Navidad y Año Nuevo nos fuimos en carpa a Mar Azul. Apuntábamos al camping `al que habíamos ido cuando Felipe era pequeño <http://www.taniquetil.com.ar/plog/post/1/495>`_, pero ese ya no existe más y el único que quedó es el Camping de Los Ingenieros, que estuvo bastante bien (aunque el baño que teníamos cerca nunca tuvo agua caliente, y en general le faltan mesas).
+
+La pasamos muy bien, aunque hizo mucho calor y en algunos momentos era agobiante (apenas sobrevivíamos bajo unas sombritas poco densas). Claro, está el mar para meterse, pero hay toda una franja horaria en la que no íbamos a llevar a los chicos a la playa para que se calcinen bajo el sol.
+
+.. image:: http://www.taniquetil.com.ar/facundo/imgs/vacas18-marazul-protector.jpeg
+    :alt: Preparándonos para ir a la playa
+
+.. image:: http://www.taniquetil.com.ar/facundo/imgs/vacas18-marazul-camping.jpeg
+    :alt: Almorzando en el camping
+
+Obviamente fuimos en carpa, y nos dimos cuenta que ya es un poco chica para los cuatro. Eso, sumado a que se quebró una vara de la estructura y rasgó el techo, nos estaría forzando a comprar una carpa nueva más grande, tenemos que ver qué hay...
+
+La playa de Mar Azul es muy linda, bastante ancha, y aunque en algunos momentos había bastante gente, nunca estuvimos amuchados (pero a veces se complicaba armar una cancha de tejo grande...).
+
+.. image:: http://www.taniquetil.com.ar/facundo/imgs/vacas18-marazul-atardecer.jpeg
+    :alt: Atardecer en la playa, el día que llegamos
+
+.. image:: http://www.taniquetil.com.ar/facundo/imgs/vacas18-marazul-tejo.jpeg
+    :alt: Jugando al tejo con Felipe
+
+
+Al Este de las Sierras
+----------------------
+
+En Enero nos fuimos a Córdoba un par de semanas (bien en contra mano de "findes de semana" o "quincenas", para no desquiciarnos al viajar). Estuvimos unos días en `El Espinillo <https://www.openstreetmap.org/#map=16/-31.8292/-64.5555>`_, y después cruzamos las sierras y nos quedamos otros días en `La Población <https://www.openstreetmap.org/#map=17/-32.06589/-65.02300>`_.
+
+.. image:: http://www.taniquetil.com.ar/facundo/imgs/vacas18-sierras-este-descansando.jpeg
+    :alt: Un minuto de tranquilidad :)
+
+El primer lugar, en El Espinillo, era en un complejo de tres cabañas con una pileta compartida. La pileta estuvo muy bien, ya que esos días hizo mucho calor entonces los chicos se metieron varias veces y la disfrutaron un montón. Con Moni no nos metimos tanto pero aprovechamos para tomar sol. Incluso, como a veces la gente de las otras cabañas se iban temprano, tuve un par de días en los que pude tomar sol en bolas lo más tranquilo.
+
+Además de la pileta, también hicimos "agua" en varios ríos cercanos (Del Espinillo, Del Medio, y Los Reartes)... algunos con más sombra, otros con más pastito alrededor, algunos con el piso de piedra, en otros teníamos playita de arena... muchas combinaciones, lo importante era que nos podíamos meter un rato al agua, tomar sol, disfrutar el verde, pasarla bien.
+
+.. image:: http://www.taniquetil.com.ar/facundo/imgs/vacas18-sierras-este-pileta.jpeg
+    :alt: Los chicos disfrutando la pileta a full
+
+.. image:: http://www.taniquetil.com.ar/facundo/imgs/vacas18-sierras-este-arroyo.jpeg
+    :alt: En un arroyo de por ahí
+
+Uno de los días fuimos a visitar la Villa General Belgrano. Estuvo bueno porque visitamos el Museo Politemático Castillo Romano y paseamos un rato, pero el restaurant al qué íbamos siempre ya no es lo que era (la cerveza artesanal como aguada, la comida meh, la atención dejó que desear) y en general es una ciudad "demasiado turística" a la que no llegamos a disfrutar.
+
+Un paseo que sí nos encantó de esos días fue el del `Parque Recreativo de La Serranita <http://parquelaserranita.com.ar/>`_, un lugar bárbaro con mil juegos y actividades. Hicimos minigolf, arquería, futpool, jugamos al tejo, carrera de bolitas, nos tiramos por un tobogán gigante, recorrimos un laberinto, hicimos actividades de treparse y equilibrio, adivinanzas y un montón de actividades más... estuvimos como seis horas ahí adentro (sin contar el almuerzo), súper recomendado para ir con la familia!
+
+.. image:: http://www.taniquetil.com.ar/facundo/imgs/vacas18-sierras-este-parquejuegos.jpeg
+    :alt: Practicando el mini-golf
+
+.. image:: http://www.taniquetil.com.ar/facundo/imgs/vacas18-sierras-este-felu.jpeg
+    :alt: Felipe atacando un helado con ganas
+
+Otra visita que disfrutamos fue a Nico y Jesi en La Quintana, donde pasamos una tarde bárbara charlando y tomando mate. Estuvo complicado llegar porque ya en viaje nos agarró una lluvia torrencial, y cuando llegamos a La Quintana los caminos estaban complicados... no sólo por el barro, sino también porque la lluvia había sido tanta que cada calle era un pequeño arroyo.
+
+Encima tuve la suerte de presenciar (y casi participar!) en la instalación del primer prototipo funcional del `LibreRouter <https://librerouter.org/>`_ en su antena, :D
+
+.. image:: http://www.taniquetil.com.ar/facundo/imgs/vacas18-sierras-este-nicojesi.jpeg
+    :alt: Visitando La Quintana
+
+.. image:: http://www.taniquetil.com.ar/facundo/imgs/vacas18-sierras-este-mercedes.jpeg
+    :alt: En el monumento a Mercedes Sosa
+
+
+Las Sierras, lado Oeste
+-----------------------
+
+A mitad de las vacaciones cambiamos de lugar. Hicimos un pequeño viaje cruzando las sierras y nos fuimos hasta el segundo lugar que teníamos alquilado.
+
+Era una casita mediana, súper equipada, en el medio de un inmenso terreno, cerca de una casa bien grande que era donde vivía la dueña. El paisaje era muy lindo, la verdad, todo muy cuidado, verde por doquier, hermoso.
+
+.. image:: http://www.taniquetil.com.ar/facundo/imgs/vacas18-sierras-oeste-villaniños.jpeg
+    :alt: Los peques, contemplando el paisaje
+
+.. image:: http://www.taniquetil.com.ar/facundo/imgs/vacas18-sierras-oeste-villatodos.jpeg
+    :alt: Foto grupal en una de las construcciones de la Villa
+
+Los días de la segunda fase estuvieron en general más frescos, lo que nos llevó a realizar menos actividades "acuáticas", pero no por eso aprovechamos menos las vacaciones: además de un par de veces en la pileta, y algunas en ríos/arroyos, "pancheamos" a full y paseamos algo.
+
+A nivel de chapoteo, nos fuimos una vez a un Balneario en Paso de las Tropas, cerca de Nono, con la idea de almorzar, pasar la tarde, y luego apuntar para el Museo Rocsen, pero se nos fueron pasando las horas y después ya estábamos muy cansados, así que nos volvimos, dejamos el museo para la próxima. También encontramos una zona linda para aprovechar un arroyo cerca de donde nos hospedábamos (recorrimos un caminito con el auto hasta que no se pudo más, y luego un tramo a pie siguiendo el arroyo, hasta llegar a una linda zona para pasar la tarde). La verdad es que la primera vez nos quedamos en un punto con una pequeña cascadita, pero la segunda vez como cuando llegamos ya había gente, seguimos caminando un poco más y encontramos un lugar mejor :)
+
+.. image:: http://www.taniquetil.com.ar/facundo/imgs/vacas18-sierras-oeste-arroyo.jpeg
+    :alt: En un arroyito con unas cascadas hermosas
+
+.. image:: http://www.taniquetil.com.ar/facundo/imgs/vacas18-sierras-oeste-almuerzo.jpeg
+    :alt: Preparando el almuerzo al costado del agua
+
+Con respecto a los paseos, fuimos varias veces a la `Plaza de San Javier <https://www.openstreetmap.org/#map=19/-32.02648/-65.03023>`_, unos kilómetros al norte. No sólo para las compras de supermercado y eso, sino porque había feria artesanal todos los días, entonces visitamos varias veces, e incluso caimos de casualidad en una obra de títeres que estuvo muy buena. Encima era una zona donde había varios lugares lindos para comer, e incluso un pequeño parque cervecero/heladería, al cual fuimos más de una vez :)
+
+También hicimos varios kilómetros para el sur y visitamos la `fábrica de aceite de oliva Sierra Pura <http://www.sierrapura.com.ar/>`_. Nos encantó. Te reciben, te muestran los árboles contándote las diferencias entre los tipos de olivo que hay, luego te muestran las máquinas con las que producen, y te explican todo el proceso, contestándote las preguntas que se te ocurran. Como no hay turnos ni horarios, llegás, y al rato ya te hacen el paseo, sean 3, 7, o 15 personas. Al final, hay una degustación de todos los aceites que hacen (tres blends, tres varietales, y muchos saborizados), y obvio uno puede comprar ahí con algún descuento :)
+
+.. image:: http://www.taniquetil.com.ar/facundo/imgs/vacas18-sierras-oeste-male.jpeg
+    :alt: Malena, disfrutando del aire libre
+
+En fin. Vacaciones, paseo, descanso. Ahora de nuevo en la jungla, desde hace rato...

@@ -2,9 +2,9 @@
 .. date: 2007-09-10 15:16:14
 .. tags: Python, tickets, reporte, migración
 
-En Python decidimos hace tiempo irnos de `SourceForge <http://sf.net/>`_. El primer paso fue migrar el repositorio de código, desde ahí a `nuestro server <http://svn.python.org/view/>`_. Y hace algunos días, terminamos migrando el tracker.
+En Python decidimos hace tiempo irnos de `SourceForge <http://sf.net/>`_. El primer paso fue migrar el repositorio de código, desde ahí a `nuestro server <http://svn.python.org/view/>`__. Y hace algunos días, terminamos migrando el tracker.
 
-O sea, sacamos toda la administración de bugs y parches y los pusimos en `nuestro server <http://bugs.python.org/>`_, manejándolos con `Roundup <http://roundup.sourceforge.net/>`_ (adivinen con qué está hecha este administrador, ;).
+O sea, sacamos toda la administración de bugs y parches y los pusimos en `nuestro server <http://bugs.python.org/>`__, manejándolos con `Roundup <http://roundup.sourceforge.net/>`_ (adivinen con qué está hecha este administrador, ;).
 
 Yo tenía una herramienta que iba a SourceForge y hacía un resumen de los tickets (había hablado de eso `acá <http://www.taniquetil.com.ar/plog/post/1/246>`_). Obviamente la tuve que cambiar, y acabo de terminar de hacerlo.
 

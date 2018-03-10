@@ -5,6 +5,8 @@
 Sí, ya sé que estoy denso con las fotitos de Malena... ¿¿¿pero qué quieren que haga???
 
 ``<baba>``
+
 .. image:: http://www.taniquetil.com.ar/facundo/imgs/malena-jardinera.jpeg
     :alt: Malena jardinera
+
 ``</baba>``
