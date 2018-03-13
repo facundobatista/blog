@@ -58,8 +58,12 @@ div.theme_sidebar {
   margin-right: 0;
   width: 250px;
   margin-left: 2em;
-  padding-left: 1em;
-  border: none; }
+  padding: 1em;
+  border: none;
+  background-color: #fafafa;
+  height: fit-content;
+  margin-top: 1em; 
+  text-align: center;}
 
 div#footer {
   padding: 3em 0;
@@ -235,7 +239,7 @@ div#tag_cloud [class^="tcs-es"] {
   color: #faebed !important; }
 
 div#sidebar_outer {
-  padding-top: 1em; }
+  padding-top: 0; }
 
 div#sidebar_outer h2 {
   text-align: center;
