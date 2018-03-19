@@ -20,7 +20,3 @@ site/.doit.db
 *.egg-info/
 .installed.cfg
 *.egg
-
-
-/site/.doit.db
-

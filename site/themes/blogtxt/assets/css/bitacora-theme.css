@@ -148,9 +148,19 @@ div#header h1#blog-title {
       color: #4c596d; }
 
 div#header h1#blog-title,
-div.theme_sidebar ul li h3 {
+div.theme_sidebar ul li {
   font-family: "BitstreamCharter", serif;
-  text-transform: none; }
+  text-transform: none; 
+  margin: 0;
+  text-align: left;
+}
+div.theme_sidebar h3 {
+  font-size: 1em;
+  text-align: left;
+  margin: 0;
+  padding-top: 1em;
+  padding-bottom: 0em; 
+}
 
 #blog-author {
   margin-top: 0.5em;

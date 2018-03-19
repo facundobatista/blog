@@ -1439,6 +1439,6 @@ STATIC_LINKS = {
     "input_file": "links.yml",
     "output_file": "static_links.html",
     "template": "<div>{}<div>",
-    "template_category": "<h2>{title}</h2><ul>{content}</ul>",
+    "template_category": "<h3>{title}</h3><ul>{content}</ul>",
     "template_item": '<li><a href="{href}" title="{title}">{data}</a></li>'
 }
