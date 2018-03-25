@@ -21,6 +21,7 @@ site/.doit.db
 .installed.cfg
 *.egg
 
-
+# temporary databases
 /site/.doit.db
+*.sqlite
 
