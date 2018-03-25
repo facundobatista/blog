@@ -78,7 +78,7 @@ El segundo modelo también agranda o achica la cantidad de valores. Pero ahora, 
 
 El tercer modelo trata de tranquilizar el indicador de otro modo. Tomamos siempre la misma cantidad de valores, pero nos fijamos en cual fué la variación mayor en ese grupo, y cual es la variación entre el último y el nuevo valor. Si esta última variación es mayor a la que veníamos teniendo, tomamos eso como símbolo de nerviosismo y no usamos el último valor para el promedio, sino uno recortado.
 
-El siguiente es un ejemplo de los tres modelos para el mismo conjunto de valores simulados (primero a tercer de arriba para abajo). Tienen más ejemplos `aquí <http://www.taniquetil.com.ar/facundo/bdvfiles/code/eta/eta-ejA2.png>`_ y `aquí <http://www.taniquetil.com.ar/facundo/bdvfiles/code/eta/eta-ejA3.png>`_, y el código que genera todo `aquí <http://www.taniquetil.com.ar/facundo/bdvfiles/code/eta/simuladorA.py>`_.
+El siguiente es un ejemplo de los tres modelos para el mismo conjunto de valores simulados (primero a tercer de arriba para abajo). Tienen más ejemplos `aquí <http://www.taniquetil.com.ar/facundo/bdvfiles/code/eta/eta-ejA2.png>`__ y `aquí <http://www.taniquetil.com.ar/facundo/bdvfiles/code/eta/eta-ejA3.png>`__, y el código que genera todo `aquí <http://www.taniquetil.com.ar/facundo/bdvfiles/code/eta/simuladorA.py>`__.
 
 .. image:: http://www.taniquetil.com.ar/facundo/bdvfiles/code/eta/eta-ejA1.png
 
@@ -104,7 +104,7 @@ En la curva de arriba pueden ver el comportamiento del modelo C de la etapa ante
 
 Fíjense que en este nuevo modelo no estamos generando la misma cantidad de puntos siempre para la simulación, sino que arrancamos con una determinada cantidad para descargar, y seguimos hasta que se descargue todo (por eso el ancho de los ejemplos es variable). Noten también que recorté en un máximo la indicación del usuario, para que el detalle inferior se vea mejor.
 
-Tienen dos ejemplos más `acá <http://www.taniquetil.com.ar/facundo/bdvfiles/code/eta/eta-ejB2.png>`_ y `acá <http://www.taniquetil.com.ar/facundo/bdvfiles/code/eta/eta-ejB3.png>`_, pueden generar más con `este <http://www.taniquetil.com.ar/facundo/bdvfiles/code/eta/simuladorB.py>`_ programa.
+Tienen dos ejemplos más `acá <http://www.taniquetil.com.ar/facundo/bdvfiles/code/eta/eta-ejB2.png>`__ y `acá <http://www.taniquetil.com.ar/facundo/bdvfiles/code/eta/eta-ejB3.png>`__, pueden generar más con `este <http://www.taniquetil.com.ar/facundo/bdvfiles/code/eta/simuladorB.py>`_ programa.
 
 
 Conclusiones

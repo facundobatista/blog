@@ -2,11 +2,11 @@
 .. date: 2008-09-20 09:28:09
 .. tags: Python, decimal, nave espacial
 
-*Casi dos años atrás (14 de Noviembre del 2006), Nicolás Giorgetti comentaba en la lista de PyAr que iba a "...ver como paso las fórmulas (quiero calcular Pi desde varias fórmulas posibles) a python.... espero q me ande! (y no queme el micro en el proceso :P)".
+*Casi dos años atrás (14 de Noviembre del 2006), Nicolás Giorgetti comentaba en la lista de PyAr que iba a "...ver como paso las fórmulas (quiero calcular Pi desde varias fórmulas posibles) a python.... espero q me ande! (y no queme el micro en el proceso :P)".*
 
-A ese mail, yo contesté con algo que titulé como está titulado este post, y quedó ahí. Hoy estuve viendo `este post <http://www.lucianobello.com.ar/post/asimov-leibniz-pi-python-floats-y-evadirse-de-la-realidad/>`_ de Luciano Bello, y tuve la idea de rescatar ese mail mio, y ponerlo acá. Va casi sin modificaciones, lo único que hice fue agregarle una parte en bastardilla que indica qué fórmula usé.
+*A ese mail, yo contesté con algo que titulé como está titulado este post, y quedó ahí. Hoy estuve viendo `este post <http://www.lucianobello.com.ar/post/asimov-leibniz-pi-python-floats-y-evadirse-de-la-realidad/>`_ de Luciano Bello, y tuve la idea de rescatar ese mail mio, y ponerlo acá. Va casi sin modificaciones, lo único que hice fue agregarle una parte en bastardilla que indica qué fórmula usé.*
 
-Disfrútenlo, :)*
+*Disfrútenlo, :)*
 
 Bueno, esto me gusto, :p
 
@@ -24,8 +24,7 @@ De los tanto que probé, resultado interesante:
 
 - Precisión de Decimal: 100 (si, cien digitos de PI)
 
-- PI calculado:
-3.141592653589793238462643383230971619092801162306759501384170438505849206906727811645883901478701687
+- PI calculado: 3.141592653589793238462643383230971619092801162306759501384170438505849206906727811645883901478701687
 
 - Error al calcular el perímetro de la galaxia: 4e-78 metros
 

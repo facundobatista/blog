@@ -34,7 +34,7 @@ Tenemos dos archivos y varios directorios...
 
 - ``encuentro/logos/``: También imágenes, pero que se usan como identificación del programa en sí. Aunque algunas se usan en la parte de UI, están todas acá porque también se usan en otros contextos (por ejemplo, en la instalación del paquete).
 
-- ``tests/``: Los tests de unidad del proyecto, normalmente un montón de archivos cuyo nombre arranca con "test_" pero también pueden haber otros (módulos o no) para dar soporte a las pruebas.
+- ``tests/``: Los tests de unidad del proyecto, normalmente un montón de archivos cuyo nombre arranca con ``test_`` pero también pueden haber otros (módulos o no) para dar soporte a las pruebas.
 
 
 Otros directorios

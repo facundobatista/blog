@@ -1,12 +1,12 @@
 [Core]
-Name = archives_bar
-Module = archives_bar
+Name = timeago
+Module = timeago
 
 [Documentation]
 Author = Maria Andrea Vignau
 Version = 1.0
 Website = https://github.com/marian-vignau
-Description = Renders one list of months indexes.
+Description = Renders a link to a post sended a year ago.
 
 [Nikola]
 PluginCategory = Task

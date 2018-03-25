@@ -55,7 +55,7 @@ Metaclasses, but easy
 
 Luckily, since a couple of years ago (or more), Python provides a simpler way to achieve the same that could be done with metaclasses. This is: *class decorators*.
 
-Class decorators, very similar to method decorators, receive the class that is defined below itself, and its response is considered by Python the real definition of the class. If you don't have the concept, you may read a little `here <https://realpython.com/blog/python/primer-on-python-decorators/>`_ about decorators, and a more deep article about decorators and metaclasses `here <http://lgiordani.com/blog/2014/10/14/decorators-and-metaclasses/>`_, but it's not mandatory.
+Class decorators, very similar to method decorators, receive the class that is defined below itself, and its response is considered by Python the real definition of the class. If you don't have the concept, you may read a little `here <https://realpython.com/blog/python/primer-on-python-decorators/>`__ about decorators, and a more deep article about decorators and metaclasses `here <http://lgiordani.com/blog/2014/10/14/decorators-and-metaclasses/>`__, but it's not mandatory.
 
 So, I wrote the following class decorator (explained below)::
 
@@ -89,7 +89,7 @@ So, I wrote the following class decorator (explained below)::
 
         return klass
 
-The basics are: it receives a class, it returns a slightly modified class ;). For each of the methods that starts with "test_", I checked those that had two args (not only 'self'), and that the second argument were named.
+The basics are: it receives a class, it returns a slightly modified class ;). For each of the methods that starts with ``test_``, I checked those that had two args (not only 'self'), and that the second argument were named.
 
 So, it would actually get the method defined in the following structure and leave the rest alone::
 

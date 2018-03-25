@@ -50,7 +50,7 @@ El paseo había arrancado en `La Chascona <https://es.wikipedia.org/wiki/La_Chas
 .. image:: http://www.taniquetil.com.ar/facundo/imgs/chile07-lachascona.jpeg
     :alt: Detalles de La Chascona
 
-Si tengo que resaltar algo feo de Santiago/Valparaíso, además que la primera es una "ciudad grande" que a priori no me gustan, es que el cablerío que se ve en los postes en la calle es sorprendente, no se entiende como puede ser que hayan tantos cables ni para qué están. `Parece <https://twitter.com/roramirez/status/909520338941177857>`_ ser que es porque los ponen y luego cuando los dejan de usar no los sacan, también `parece <http://www.lasegunda.com/Noticias/Nacional/2012/08/771713/santiago-tapado-por-cables-debuta-primera-norma-para-sacar-los-que-no-funcionan>`_ que se va a solucionar eventualmente.
+Si tengo que resaltar algo feo de Santiago/Valparaíso, además que la primera es una "ciudad grande" que a priori no me gustan, es que el cablerío que se ve en los postes en la calle es sorprendente, no se entiende como puede ser que hayan tantos cables ni para qué están. `Parece <https://twitter.com/roramirez/status/909520338941177857>`__ ser que es porque los ponen y luego cuando los dejan de usar no los sacan, también `parece <http://www.lasegunda.com/Noticias/Nacional/2012/08/771713/santiago-tapado-por-cables-debuta-primera-norma-para-sacar-los-que-no-funcionan>`__ que se va a solucionar eventualmente.
 
 Lo otro que noté es que todo está pintarrajeado, a nivel grafiti/vandalismo. Pero no sólo paredes. Todo. Colectivos, ventanas de casas particulares, negocios pequeños y grandes. Todo.
 

@@ -86,12 +86,12 @@ Y todo esto es lo que vi en este período, junto con un pequeño comentario así
 
 Como resultado de tamaño update, la relación entre las fechas en que anoté cada peli para ver quedó así::
 
-Total:         59
-(anterior)     17
-(02-Dic-2006)  11
-(26-Jan-2007)   4
-(26-Mar-2007)   8
-(15-Jun-2007)   4
-(19-Nov-2007)  15
+    Total:         59
+    (anterior)     17
+    (02-Dic-2006)  11
+    (26-Jan-2007)   4
+    (26-Mar-2007)   8
+    (15-Jun-2007)   4
+    (19-Nov-2007)  15
 
 Finalmente nos vamos quedando principalmente con cosas nuevas para ver...

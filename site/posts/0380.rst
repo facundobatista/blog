@@ -26,81 +26,81 @@ En este caso, vi algunas....
 
 ... pero las nuevas que anoté fueron <strong>muchas más</strong>, definitivamente no me voy a quedar sin nada para ver en el corto plazo...:
 
-- `Appaloosa <http://www.imdb.com/title/tt0800308/ >`_
+- `Appaloosa <http://www.imdb.com/title/tt0800308/>`_
 
-- `Babylon A.D. <http://www.imdb.com/title/tt0364970/ >`_
+- `Babylon A.D. <http://www.imdb.com/title/tt0364970/>`_
 
-- `Blindness <http://www.imdb.com/title/tt0861689/ >`_
+- `Blindness <http://www.imdb.com/title/tt0861689/>`_
 
-- `Body of lies <http://www.imdb.com/title/tt0758774/ >`_
+- `Body of lies <http://www.imdb.com/title/tt0758774/>`_
 
-- `Bolt <http://www.imdb.com/title/tt0397892/ >`_
+- `Bolt <http://www.imdb.com/title/tt0397892/>`_
 
-- `Burn after reading <http://www.imdb.com/title/tt0887883/ >`_
+- `Burn after reading <http://www.imdb.com/title/tt0887883/>`_
 
-- `Choke <http://www.imdb.com/title/tt1024715/ >`_
+- `Choke <http://www.imdb.com/title/tt1024715/>`_
 
-- `City of Ember <http://www.imdb.com/title/tt0970411/ >`_
+- `City of Ember <http://www.imdb.com/title/tt0970411/>`_
 
-- `Doubt <http://www.imdb.com/title/tt0918927/ >`_
+- `Doubt <http://www.imdb.com/title/tt0918927/>`_
 
-- `Eagle eye <http://www.imdb.com/title/tt1059786/ >`_
+- `Eagle eye <http://www.imdb.com/title/tt1059786/>`_
 
-- `Earth stood still <http://www.imdb.com/title/tt0970416/ >`_
+- `Earth stood still <http://www.imdb.com/title/tt0970416/>`_
 
-- `Elegy <http://www.imdb.com/title/tt0974554/ >`_
+- `Elegy <http://www.imdb.com/title/tt0974554/>`_
 
-- `Harry Potter and the half-blood Prince <http://www.imdb.com/title/tt0417741/ >`_
+- `Harry Potter and the half-blood Prince <http://www.imdb.com/title/tt0417741/>`_
 
-- `Hellboy I <http://www.imdb.com/title/tt0167190/ >`_
+- `Hellboy I <http://www.imdb.com/title/tt0167190/>`_
 
-- `Hellboy II <http://www.imdb.com/title/tt0411477/ >`_ (dependencia: Hellboy I)
+- `Hellboy II <http://www.imdb.com/title/tt0411477/>`_ (dependencia: Hellboy I)
 
-- `Ice Age III <http://www.imdb.com/title/tt1080016/ >`_
+- `Ice Age III <http://www.imdb.com/title/tt1080016/>`_
 
 - `Igor <http://www.imdb.com/title/tt0465502/>`_
 
-- `Knowing <http://www.imdb.com/title/tt0448011/ >`_
+- `Knowing <http://www.imdb.com/title/tt0448011/>`_
 
-- `La fille coupée en deux <http://www.imdb.com/title/tt0901485/ >`_
+- `La fille coupée en deux <http://www.imdb.com/title/tt0901485/>`_
 
-- `Mongol <http://www.imdb.com/title/tt0416044/ >`_
+- `Mongol <http://www.imdb.com/title/tt0416044/>`_
 
-- `Quantum of Solace <http://www.imdb.com/title/tt0830515/ >`_
+- `Quantum of Solace <http://www.imdb.com/title/tt0830515/>`_
 
-- `Religulous <http://www.imdb.com/title/tt0815241/ >`_
+- `Religulous <http://www.imdb.com/title/tt0815241/>`_
 
-- `Righteous kill <http://www.imdb.com/title/tt1034331/ >`_
+- `Righteous kill <http://www.imdb.com/title/tt1034331/>`_
 
-- `Sex drive <http://www.imdb.com/title/tt1135985/ >`_
+- `Sex drive <http://www.imdb.com/title/tt1135985/>`_
 
-- `Terminator salvation <http://www.imdb.com/title/tt0438488/ >`_
+- `Terminator salvation <http://www.imdb.com/title/tt0438488/>`_
 
-- `The International <http://www.imdb.com/title/tt0963178/ >`_
+- `The International <http://www.imdb.com/title/tt0963178/>`_
 
-- `The X files: I want to believe <http://www.imdb.com/title/tt0443701/ >`_
+- `The X files: I want to believe <http://www.imdb.com/title/tt0443701/>`_
 
-- `The brothers Bloom <http://www.imdb.com/title/tt0844286/ >`_
+- `The brothers Bloom <http://www.imdb.com/title/tt0844286/>`_
 
-- `The incredible hulk <http://www.imdb.com/title/tt0800080/ >`_
+- `The incredible hulk <http://www.imdb.com/title/tt0800080/>`_
 
-- `The mummy III <http://www.imdb.com/title/tt0859163/ >`_
+- `The mummy III <http://www.imdb.com/title/tt0859163/>`_
 
-- `The soloist <http://www.imdb.com/title/tt0821642/ >`_
+- `The soloist <http://www.imdb.com/title/tt0821642/>`_
 
-- `The strangers <http://www.imdb.com/title/tt0482606/ >`_
+- `The strangers <http://www.imdb.com/title/tt0482606/>`_
 
-- `Transsiberian <http://www.imdb.com/title/tt0800241/ >`_
+- `Transsiberian <http://www.imdb.com/title/tt0800241/>`_
 
-- `Vicky Cristina Barcelona <http://www.imdb.com/title/tt0497465/ >`_
+- `Vicky Cristina Barcelona <http://www.imdb.com/title/tt0497465/>`_
 
-- `Vier minuten <http://www.imdb.com/title/tt0461694/ >`_
+- `Vier minuten <http://www.imdb.com/title/tt0461694/>`_
 
-- `What just happened? <http://www.imdb.com/title/tt0486674/ >`_
+- `What just happened? <http://www.imdb.com/title/tt0486674/>`_
 
-- `Yes man <http://www.imdb.com/title/tt1068680/ >`_
+- `Yes man <http://www.imdb.com/title/tt1068680/>`_
 
-- `eXistenZ <http://www.imdb.com/title/tt0120907/ >`_
+- `eXistenZ <http://www.imdb.com/title/tt0120907/>`_
 
 La relación quedó así:
 

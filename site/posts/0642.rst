@@ -14,58 +14,58 @@ Acá está la listita de las cosas que cumpliría mi *test runner* soñado. Prop
 
 Le puse un número a cada ítem para que sea más fácil referenciar en cualquier discusión:
 
-01. Debería soportar que le pase un directorio (default a '.') y que descubra todo ahí y para abajo:
+01. Debería soportar que le pase un directorio (default a '.') y que descubra todo ahí y para abajo::
 
     $ <testrunner> project/tests/
     $ <testrunner>
 
-02. Debería soportar que le pase un archivo, y que corra sólo los tests de ese archivo:
+02. Debería soportar que le pase un archivo, y que corra sólo los tests de ese archivo::
 
     $ <testrunner> project/tests/test_stuff.py
 
-03. Debería soportar que le pase "paths de import de Python", y que corra sólo tests de ese paquete, módulo, clase, o lo que corresponda:
+03. Debería soportar que le pase "paths de import de Python", y que corra sólo tests de ese paquete, módulo, clase, o lo que corresponda::
 
     $ <testrunner> project.tests
     $ <testrunner> project.tests.test_stuff
     $ <testrunner> project.tests.test_stuff.StuffTestCase
     $ <testrunner> project.tests.test_stuff.StuffTestCase.test_feature
 
-04. Debería poder pasarle una regex para que corra sólo lo que re.search() encuentra en el path completo del método:
+04. Debería poder pasarle una regex para que corra sólo lo que re.search() encuentra en el path completo del método::
 
-    $ <testrunner> project/tests/ --search feature
-        correría:
-            test_feature
-            test_feature_1
-            test_feature_2
-        no correría:
-            test_crash
+        $ <testrunner> project/tests/ --search feature
+            correría:
+                test_feature
+                test_feature_1
+                test_feature_2
+            no correría:
+                test_crash
 
-    $ <testrunner> project/tests/ --search feature$
-        correría:
-            test_feature
-        no correría:
-            test_feature_1
-            test_feature_2
-            test_crash
+        $ <testrunner> project/tests/ --search feature$
+            correría:
+                test_feature
+            no correría:
+                test_feature_1
+                test_feature_2
+                test_crash
 
 05. Debería poder decirle que pare de correr los tests al encontrar el primer error o falla.
 
 06. Debería poder indicarle que mida los tiempos de cada test (y al final que presente un reporte con los N tests que más tardaron).
 
-07. Debería mostrar los resultados usando los nombres de paquete/módulo/clase/método, en una jerarquía de árbol o en la misma linea:
+07. Debería mostrar los resultados usando los nombres de paquete/módulo/clase/método, en una jerarquía de árbol o en la misma linea::
 
-    $ <testrunner> project/tests/test_stuff.py
-    project.tests.test_stuff
-      StuffTestCase
-        test_feature_1                      OK
-        test_feature_2                    FAIL
-      OtherStuffTestCase
-        test_feature_A                      OK
+        $ <testrunner> project/tests/test_stuff.py
+        project.tests.test_stuff
+          StuffTestCase
+            test_feature_1                      OK
+            test_feature_2                    FAIL
+          OtherStuffTestCase
+            test_feature_A                      OK
 
-    $ <testrunner> project/tests/test_stuff.py
-    OK  project.tests.test_stuff.StuffTestCase.test_feature_1
-    FAIL project.tests.test_stuff.StuffTestCase.test_feature_2
-    OK  project.tests.test_stuff.OtherStuffTestCase.test_feature_A
+        $ <testrunner> project/tests/test_stuff.py
+        OK  project.tests.test_stuff.StuffTestCase.test_feature_1
+        FAIL project.tests.test_stuff.StuffTestCase.test_feature_2
+        OK  project.tests.test_stuff.OtherStuffTestCase.test_feature_A
 
     De cualquier manera, esto no afecta el órden de ejecución de las pruebas (secuencial, aleatoria, etc), sólo es cómo mostrar los resultados.
 

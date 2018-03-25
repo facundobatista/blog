@@ -1,0 +1,15 @@
+.. title: Eventos, eventos! Python en el primer semestre
+.. date: 2018-03-14 11:03:00
+.. tags: Python Argentina Asociación Civil PyCamp PyDay PyCon meetup
+
+Tenemos algunos eventos de Python Argentina en el primer semestre del año. Vayamos cronológicamente.
+
+El miércoles 4 de Abril, 19hs,  hacemos un meetup de Python Argentina en Devecoop. Tendremos un par de charlas técnicas, quizás hagamos un "Consultorio Python", veremos cómo lo armamos. Si no están anotados en el `meetup de Python Buenos Aires <https://www.meetup.com/es-ES/Buenos-Aires-Python-Meetup/>`_, regístrense así reciben las noticias de estos meetups y se anotan fácil y etc.
+
+Del 28 de Abril al 1 de Mayo tenemos una nueva edición del PyCamp, nuevamente en Baradero. Ya está abierta la inscripción, considerando incluso descuentos para socios de Python Argentina. Pueden buscar toda la info en `la página del evento <http://www.python.org.ar/wiki/PyCamp/2018>`_.
+
+También tenemos dos PyDays, ambos en Mayo. Sí, dos, por ahora... habrán más en el año. El primero en La Plata, todavía pendiente de definir cual sábado, y el segundo en Corrientes, el sábado 19. Ya les traeré más noticias cuando nos acerquemos a las fechas.
+
+Por otro lado, estamos armando la PyCon Argentina de este año en Buenos Aires. Fecha todavía no tenemos (estamos buscando el lugar, todavía) pero será Septiembre, Octubre o Noviembre.
+
+Todo esto es en parte gracias a la Asociación Civil de Python Argentina, que nos permite tener un marco estructural con el cual movernos y que no nos venga la AFIP a meter en cana por mover guita por ahí... así que si querés apoyarnos en general considerá `hacerte socia/o vos <http://bit.ly/socio-pyar>`_ o ayudanos pasando `este folleto <https://drive.google.com/file/d/0ByBMM-qX_hs1TlM5LTBMN19mUHc/view>`_ en donde trabajes para que esa empresa/cooperativa lo considere también. Gracias!

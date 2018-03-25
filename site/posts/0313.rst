@@ -15,11 +15,11 @@ Ya que estamos, felicito a Roberto por `entrar a la Plone Foundation <http://rob
 Haciendo que los chicos programen abierto
 -----------------------------------------
 
-He hablado varias veces del Google Summer of Code (`acá <http://www.taniquetil.com.ar/plog/post/1/176>`_, `acá <http://www.taniquetil.com.ar/plog/post/1/178>`_ y `acá <http://www.taniquetil.com.ar/plog/post/1/252>`_); una de las limitantes de este proyecto es que está apuntado a estudiantes universitarios, para que en sus vacaciones de verano trabajen en algún proyecto en particular.
+He hablado varias veces del Google Summer of Code (`acá <http://www.taniquetil.com.ar/plog/post/1/176>`__, `acá <http://www.taniquetil.com.ar/plog/post/1/178>`__ y `acá <http://www.taniquetil.com.ar/plog/post/1/252>`__); una de las limitantes de este proyecto es que está apuntado a estudiantes universitarios, para que en sus vacaciones de verano trabajen en algún proyecto en particular.
 
 Ahora Google se despacha con un nuevo programa: el Concurso de Participación Altamente Abierta (Highly Open Participation Contest). El mismo es un esfuerzo para atraer estudiantes pre-universitarios al desarrollo open source. Como se trata de menores, no habrán pagos puntuales por proyectos grandes, sino que ahora hay una lista de tareas: si los chicos completan esas tareas participan por premios y recompensas de Google.
 
-Más info del concurso, `acá <http://code.google.com/opensource/ghop/2007-8/>`_. La Python Software Foundation está en este programa, con esta `lista de tareas <http://code.google.com/p/google-highly-open-participation-psf/issues/list>`_ para Python.
+Más info del concurso, `acá <http://code.google.com/opensource/ghop/2007-8/>`__. La Python Software Foundation está en este programa, con esta `lista de tareas <http://code.google.com/p/google-highly-open-participation-psf/issues/list>`_ para Python.
 
 
 Python en XKCD

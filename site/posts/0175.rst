@@ -19,7 +19,7 @@ El blog que uso, LifeType, tiene control bayesiano de spam. Esto quiere decir qu
 
 - Una vez más viene el programa y comenta con "Porno www.cuidatequerete.com".
 
-- Automáticamente, el sistema antispam (que mediante estadística *aprende *a detectar el spam), lo marca de esta manera y ya no me jode más.
+- Automáticamente, el sistema antispam (que mediante estadística *aprende* a detectar el spam), lo marca de esta manera y ya no me jode más.
 
 El problema es que de unas semanas para acá, me están metiendo un tipo de spam que cambia mucho entre vuelta y vuelta. Y por cada "golpe", recibo unos cinco comentarios en unos siete artículos. Resultado: tengo que marcar muchísimos artículos como spam. Y como va cambiando mucho, el sistema no aprende.
 
