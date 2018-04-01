@@ -1,0 +1,77 @@
+.. title: Actualización y nuevo proyecto
+.. date: 2018-03-19 18:01:00
+.. tags: fades software Python infoauth
+
+
+fades
+-----
+
+Después de casi un año, con `Nico <https://twitter.com/gilgamezh>`_ liberamos una `nueva versión de fades <https://fades.readthedocs.io/en/release-7-0/>`_.
+
+¿Qué hay de nuevo en esta release?
+
+- Revisar si todo lo pedido está realmente disponible en PyPI antes de comenzar a instalarlo
+
+- Ignora dependencias duplicadas
+
+- Varias mejoras y correcciones en los mensajes que `fades` muestra en modo verbose
+
+- Prohibimos el mal uso de `fades`: instalarlo en legacy Python y ejecutarlo desde adentro de otro virtualenv
+
+- Un montón de mejoras relacionadas al proyecto en sí (pero no directamente visibles para el usuario final) y algunas pequeñas otras correcciones
+
+`Pruébenlo <https://fades.readthedocs.io/en/release-7-0/readme.html#how-to-install-it>`_.
+
+.. image:: http://www.taniquetil.com.ar/facundo/imgs/fades-logo.png
+    :alt: Loguito de fades :)
+
+
+infoauth
+--------
+
+`infoauth` es un un pequeño pero práctico módulo de Python y script para grabar/cargar tokens a/desde disco.
+
+Esto es lo que hace:
+
+- graba tokens en un archivo en disco, pickleado y zippeado
+
+- cambia el archivo a sólo lectura, y sólo legible por vos
+
+- carga los tokens de ese archivo en disco
+
+En qué casos este módulo es útil? Digamos que tenés un script o programa que necesita algunos tokens secretos (autenticación de mail, tokens de Twitter, la info para conectarse a una base de datos, etc...), pero no querés incluir estos tokens en el código, porque el mismo es público, entonces con este módulo harías::
+
+    tokens = infoauth.load(os.path.expanduser("~/.my-tokens"))
+
+Fijate que el archivo va a quedar legible sólo por vos y no en el directorio del proyecto (así no tenés el riesgo de compartirlo por accidente).
+
+*CUIDADO*: `infoauth` NO protege tus secretos con una clave o algo así, este módulo NO asegura tus secretos de ninguna manera. Sí, los tokens están enmarañados (porque se picklean y comprimen) y otra gente quizás no pueda accederlos fácilmente (legible sólo por vos), pero no hay más protección que esa. Usalo bajo tu propio riesgo.
+
+Entonces, ¿cómo usarlo desde un programa en Python? Es fácil, para cargar la data::
+
+    import infoauth
+    auth = infoauth.load(os.path.expanduser("~/.my-mail-auth"))
+    # ...
+    mail.auth(auth['user'], auth['password'])
+
+Para grabarla::
+
+    import infoauth
+    secrets = {'some-stuff': 'foo', 'code': 67}
+    infoauth.dump(secrets, os.path.expanduser("~/.secrets"))
+
+Fijate que como grabar los tokens es algo que normalmente se hace una sola vez, seguro es más práctico hacerlo desde la linea de comandos, como se muestra a continuación...
+
+Por eso, ¿cómo usarlo desde la linea de comandos? Para mostrar la info::
+
+    $ infoauth show ~/.my-mail-auth
+    password: ...
+    user: ...
+
+Y para grabar un archivo con los datos::
+
+    $ infoauth create ~/.secrets some-stuff=foo code=67
+
+Fijate que al crear el archivo desde la linea de comandos tenemos la limitación de que todos los valores almacenados van a ser cadenas de texto; si querés grabar otros tipos de datos, como enteros, listas, o lo que quieras, tendrías que usar la forma programática que se muestra arriba.
+
+Esta es la `página del proyecto <https://github.com/facundobatista/infoauth>`_, y claro que `está en PyPI <https://pypi.python.org/pypi/infoauth/>`_ así que se puede usar sin problema desde `fades` (guiño, guiño).
