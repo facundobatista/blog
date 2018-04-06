@@ -20,3 +20,8 @@ site/.doit.db
 *.egg-info/
 .installed.cfg
 *.egg
+
+# temporary databases
+/site/.doit.db
+*.sqlite
+
