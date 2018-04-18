@@ -133,7 +133,6 @@ TRANSLATIONS_PATTERN = "{path}.{lang}.{ext}"
 
 NAVIGATION_LINKS = {
     DEFAULT_LANG: (
-        #("/archive.html", "Archivo"),
         ("/categories/", "Etiquetas"),
         ("/rss.xml", "Canal RSS"),
     ),
@@ -184,9 +183,6 @@ THEME_COLOR = '#5670d4'
 
 POSTS = (
     ("posts/*.rst", "posts", "post.tmpl"),
-    ("posts/*.md", "posts", "post.tmpl"),
-    ("posts/*.txt", "posts", "post.tmpl"),
-    ("posts/*.html", "posts", "post.tmpl"),
 )
 PAGES = (
     ("pages/*.rst", "pages", "page.tmpl"),
@@ -331,7 +327,7 @@ POSTS_SECTIONS = True
 # POSTS_SECTIONS_ARE_INDEXES = True
 
 # Final locations are:
-# output / TRANSLATION[lang] / SECTION_PATH / SECTION_NAME / index.html (list of posts for a section)
+# output / TRANSLATION[lang] / SECTION_PATH / SECTION_NAME / index.html (list of posts for a section)  # noqa
 # output / TRANSLATION[lang] / SECTION_PATH / SECTION_NAME / rss.xml (RSS feed for a section)
 # (translatable)
 # SECTION_PATH = ""
@@ -420,7 +416,7 @@ POSTS_SECTIONS = True
 # TAG_PAGES_DESCRIPTIONS = {
 #    DEFAULT_LANG: {
 #        "blogging": "Meta-blog posts about blogging about blogging.",
-#        "open source": "My contributions to my many, varied, ever-changing, and eternal libre software projects."
+#        "open source": "My contributions to my many, varied, and eternal libre software projects."
 #    },
 # }
 
@@ -455,8 +451,8 @@ HIDDEN_TAGS = ['mathjax']
 
 # Final locations are:
 # output / TRANSLATION[lang] / CATEGORY_PATH / index.html (list of categories)
-# output / TRANSLATION[lang] / CATEGORY_PATH / CATEGORY_PREFIX category.html (list of posts for a category)
-# output / TRANSLATION[lang] / CATEGORY_PATH / CATEGORY_PREFIX category.xml (RSS feed for a category)
+# output / TRANSLATION[lang] / CATEGORY_PATH / CATEGORY_PREFIX category.html (list of posts for a category)  # noqa
+# output / TRANSLATION[lang] / CATEGORY_PATH / CATEGORY_PREFIX category.xml (RSS feed for a category)  # noqa
 # (translatable)
 # CATEGORY_PATH = "categories"
 # CATEGORY_PREFIX = "cat_"
@@ -489,7 +485,7 @@ CATEGORY_OUTPUT_FLAT_HIERARCHY = False
 # CATEGORY_PAGES_DESCRIPTIONS = {
 #    DEFAULT_LANG: {
 #        "blogging": "Meta-blog posts about blogging about blogging.",
-#        "open source": "My contributions to my many, varied, ever-changing, and eternal libre software projects."
+#        "open source": "My contributions to my many, varied and eternal libre software projects."
 #    },
 # }
 
@@ -906,8 +902,8 @@ IMAGE_FOLDERS = {'images': 'images'}
 # {link}                        A link to the full post page.
 # {read_more}                   The string “Read more” in the current language.
 # {reading_time}                An estimate of how long it will take to read the post.
-# {remaining_reading_time}      An estimate of how long it will take to read the post, sans the teaser.
-# {min_remaining_read}          The string “{remaining_reading_time} min remaining to read” in the current language.
+# {remaining_reading_time}      An estimate of how long it will take to read the post, sans the teaser.  # noqa
+# {min_remaining_read}          The string “{remaining_reading_time} min remaining to read” in the current language.  # noqa
 # {paragraph_count}             The amount of paragraphs in the post.
 # {remaining_paragraph_count}   The amount of paragraphs in the post, sans the teaser.
 # {post_title}                  The title of the post.
@@ -942,7 +938,7 @@ LICENSE = "CC BY-NC-SA"
 
 # A small copyright notice for the page footer (in HTML).
 # (translatable)
-CONTENT_FOOTER = 'Contents &copy; {date}         <a href="mailto:{email}">{author}</a> - Powered by         <a href="https://getnikola.com" rel="nofollow">Nikola</a>         {license}'
+CONTENT_FOOTER = 'Contents &copy; {date}         <a href="mailto:{email}">{author}</a> - Powered by         <a href="https://getnikola.com" rel="nofollow">Nikola</a>         {license}'  # noqa
 
 # Things that will be passed to CONTENT_FOOTER.format().  This is done
 # for translatability, as dicts are not formattable.  Nikola will
@@ -1102,7 +1098,11 @@ PRETTY_URLS = True
 # Note: most Nikola-specific extensions are done via the Nikola plugin system,
 #       with the MarkdownExtension class and should not be added here.
 # The default is ['fenced_code', 'codehilite']
-MARKDOWN_EXTENSIONS = ['markdown.extensions.fenced_code', 'markdown.extensions.codehilite', 'markdown.extensions.extra']
+MARKDOWN_EXTENSIONS = [
+    'markdown.extensions.fenced_code',
+    'markdown.extensions.codehilite',
+    'markdown.extensions.extra',
+]
 
 # Extra options to pass to the pandoc command.
 # by default, it's empty, is a list of strings, for example
@@ -1117,7 +1117,8 @@ MARKDOWN_EXTENSIONS = ['markdown.extensions.fenced_code', 'markdown.extensions.c
 # (translatable)
 # SOCIAL_BUTTONS_CODE = """
 # <!-- Social buttons -->
-# <div id="addthisbox" class="addthis_toolbox addthis_peekaboo_style addthis_default_style addthis_label_style addthis_32x32_style">
+# <div id="addthisbox" class="addthis_toolbox
+#           addthis_peekaboo_style addthis_default_style addthis_label_style addthis_32x32_style">
 # <a class="addthis_button_more">Share</a>
 # <ul><li><a class="addthis_button_facebook"></a>
 # <li><a class="addthis_button_google_plusone_share"></a>
@@ -1197,21 +1198,6 @@ SEARCH_FORM = """
 </form>
 <!-- End of custom search -->
  """ % SITE_URL
-#
-# If you prefer a Google search form, here's an example that should just work:
-# SEARCH_FORM = """
-# <!-- Google custom search -->
-# <form method="get" action="https://www.google.com/search" class="navbar-form navbar-right" role="search">
-# <div class="form-group">
-# <input type="text" name="q" class="form-control" placeholder="Search">
-# </div>
-# <button type="submit" class="btn btn-primary">
-# 	<span class="glyphicon glyphicon-search"></span>
-# </button>
-# <input type="hidden" name="sitesearch" value="%s">
-# </form>
-# <!-- End of custom search -->
-# """ % SITE_URL
 
 # Use content distribution networks for jQuery, twitter-bootstrap css and js,
 # and html5shiv (for older versions of Internet Explorer)
@@ -1398,7 +1384,7 @@ RENDER_STATIC_TAG_CLOUDS = {
         # Colors defining a gradient out of which the tag font colors
         # are taken. The colors are specified as RGP triples with each
         # component being a floating point number between 0.0 and 1.0.
-        'colors': ((0.6,0.6,0.6), (1.0,1.0,1.0)),
+        'colors': ((0.6, 0.6, 0.6), (1.0, 1.0, 1.0)),
 
         # Colors defining a gradient out of which the tag background
         # colors are taken.
