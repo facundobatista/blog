@@ -28,6 +28,8 @@ En fin. Bienvenidos al futuro (?).
 .. image:: /images/bienvenidoalfuturo.jpeg
     :alt: Nos prometieron autos voladores y todo lo que tenemos son generadores de sitios estáticos
 
+La estructura del sitio en sí tampoco cambió tanto. Seguimos teniendo el texto en el centro, con la barra de la derecha, aunque dejé ahí sólo lo que corresponde a contenido y moví otras cosas (licencia, rss, archivos, etc.) al footer. La búsqueda la provee Duck Duck Go (aunque le cambié recién el dominio de *beta* a *final* y está un poco confundido, vamos a darle unos días). Y en general debería verse bien más allá del tamaño de pantalla.
+
 Obvio, me `falta corregir un montón de cosas <https://github.com/facundobatista/blog/issues>`_, algunas visibles y otras no, pero ya quería hacer la migración y anunciar esto (los últimos ~5 posts los tuve que hacer en los dos sistemas, encima que tengo poco tiempo, laburar duplicado no escala).
 
 Cualquier detalle que encuentren o lo que sospechen que está roto, `chiflen <https://github.com/facundobatista/blog/issues/new>`_.
