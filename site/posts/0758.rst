@@ -1,0 +1,33 @@
+.. title: Relanzamiento del Blog
+.. date: 2018-04-22 15:47:00
+.. tags: blog diseño lifetype plog nikola futuro
+
+Entramos en la tercer etapa de mi blog.
+
+La primera habían sido `esos textos <http://www.taniquetil.com.ar/facundo/bdvfiles/bdv-anterior.html>`_ que había escrito mientras estaba en Italia haciendo el Máster en el segundo semestre del 2002, y que colgaba de un sitio armado muy a mano.
+
+La segunda, desde el 2004 hasta ahora, con forma propiamente de "blog", soportado por un software hecho en PHP que primero se llamó "pLog", pero que luego se renombró a "LifeType", que luego de irse quedando cada vez más y más, se murió algo así como hace 5 años.
+
+Llegó el momento de cambiarlo por algo moderno, vivo, y mantenible. Y en lo posible, lindo.
+
+.. image:: /images/elreyhamuerto.jpeg
+    :alt: El ciclo de la vida es renovarse
+
+No tenía demasiados requerimientos para el nuevo sistema, pero tenía que ser en Python, liviano, y que me dejara tener toda la estructura (especialmente los textos) en algún repositorio, y con un markup decente. Elegí `Nikola <https://getnikola.com/>`_, un generador de sitios estáticos que cumple con todos esos requisitos, y encima fue creado por `un amigo <https://twitter.com/ralsina>`_.
+
+El tema de mantener los textos de forma estándar era un tema: en LifeType se editaban los posts directamente desde la web, y como el editor fue cambiando durante sus años de vida, los formatos de los textos (el markup HTML que tenían alrededor) eran todos diferentes. Eso, sumado a que ya que migraba quería asegurarme de no dejar basura escondida, hizo que me dedicara los últimos dos años (poquito a poquito, sin que me tome demasiado tiempo, y por eso es que tardó mucho) a ir convirtiendo a mano los más de 700 posts al `nuevo formato <https://es.wikipedia.org/wiki/ReStructuredText>`_.
+
+Como ya tenía demasiado trabajo con la migración de estos textos, y empecé a estar presionado con la migración a un nuevo sistema (porque tanto LifeType como el server donde tenía todo montado no tenían parches de seguridad hace rato) decidí tercerizar la construcción del nuevo sitio en Nikola. Así que todo esto que ven acá fue realmente construido en su mayoría por `Marian Vignau <https://github.com/marian-vignau>`_ del lado estructural del blog (todo lo que tiene que ver con Nikola, mostrar las propaganditas, meter el widget de twitter, etc, etc, etc) y por `Cecilia Schiebel <https://github.com/ceciliaschiebel>`_ en lo que respecta a diseño y estética.
+
+Uno de los puntos débiles de los sitios estáticos es el sistema de comentarios. Para esto traté de ir a "lo más usado", a una especie de "default en la industria" que es Disqus. Algunas desventajas tenía, como que es medio pesado, y dicen por ahí que hace mucho tracking de la gente que lo usa. Pero no tenía ganas de invertir demasiado tiempo en eso (todavía no estoy seguro de que valga la pena mantener un sistema de comentarios! ¿pensás distinto? demostralo haciendo un comentario :p ), así que intenté ir por ahí. Es más, Marian lo integró al sitio y todo, pero después me di cuenta que los nombres de los autores originales, cuando no eran 100% ASCII, estaban rotos. Y `charlando con gente de Disqus <https://twitter.com/facundobatista/status/971288632047865856>`_ me reconocieron que es un bug, y andá a saber cuando lo van a arreglar.
+
+Así que fui por otro lado. `Isso <https://posativ.org/isso/>`_. Tiene la "desventaja" de que hay que hostearlo uno mismo, pero es simple, y me saco de encima tener que suscribirme a un servicio de terceros, que trackeen mis lectores, etc. No tenía una forma de importar comentarios que no sea de Disqus o Wordpress, pero como está hecho en Python, lo hice yo mismo (y `lo propuse <https://github.com/posativ/isso/pull/415>`_ para que lo integren al sistema).
+
+En fin. Bienvenidos al futuro (?).
+
+.. image:: /images/bienvenidoalfuturo.jpeg
+    :alt: Nos prometieron autos voladores y todo lo que tenemos son generadores de sitios estáticos
+
+Obvio, me `falta corregir un montón de cosas <https://github.com/facundobatista/blog/issues>`_, algunas visibles y otras no, pero ya quería hacer la migración y anunciar esto (los últimos ~5 posts los tuve que hacer en los dos sistemas, encima que tengo poco tiempo, laburar duplicado no escala).
+
+Cualquier detalle que encuentren o lo que sospechen que está roto, `chiflen <https://github.com/facundobatista/blog/issues/new>`_.
