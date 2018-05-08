@@ -5,6 +5,6 @@
 Texto texto.
 
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/budapest-frio1.jpeg
+.. image:: /images/budapest-frio1.jpeg
     :alt: El auto tapado de hielo, ese frío hacía
-
+    :target: url!!
