@@ -979,7 +979,7 @@ COMMENT_SYSTEM = "isso"
 # depends on what comment system you use. The default is
 # "nikolademo" which is a test account for Disqus. More information
 # is in the manual.
-COMMENT_SYSTEM_ID = "http://comentarios.taniquetil.com.ar/"
+COMMENT_SYSTEM_ID = "https://comentarios.taniquetil.com.ar/"
 
 
 # Enable annotations using annotateit.org?
