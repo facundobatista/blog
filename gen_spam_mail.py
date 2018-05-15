@@ -101,6 +101,7 @@ def main(filter_ym):
             assert fh.readline().startswith(".. tags:")
 
             text = clean(fh.read())
+            FIXME: guardar el post number, no el post path
             content.append((post, title, text))
 
     content = reversed(content)
