@@ -1,0 +1,26 @@
+.. title: Pasaron los PyDays de Mayo
+.. date: 2018-05-21 09:40:00
+.. tags: PyDay PyAy Python
+
+Dos PyDays teníamos planeados para este mes, el de La Plata y el del NEA.
+
+Fui a ambos, salieron los dos muy bien.
+
+El `de La Plata <http://pydaylp.python.org.ar/>`_ fue el primero que se hacía en dicha ciudad. Organizado por `Sofia <https://twitter.com/entrerrianas/>`_ y un par de secuaces, se realizó en la Facultad De Informática de la UNLP y contó con tres tracks en paralelo, un hall con varios stands, charlas de todo tipo (incluyendo lightning talks) y hasta un cierre con banda de rock.
+
+Incluso tuvimos una charla debate sobre diversidad donde charlamos sobre el problema que tenemos en las comunidades de informática en donde los hombres estamos sobrerrepresentados y varios temitas más. Salió muy bien, y llegamos a la conclusión de que debemos hacer más de estos debates (aunque con un moderador que sepa moderar :p ).
+
+.. image:: /images/pydaysmayo-laplata.jpeg
+    :alt: En la charla debate sobre diversidad
+    :target: https://twitter.com/yamilacuestas/status/995336425439682560
+
+El `del NEA <https://pydaynea.python.org.ar/>`_ se hizo en Corrientes, en el `Club de Emprendedores <https://twitter.com/ClubCorrientes>`_. Lo organizaron `Sergio <https://twitter.com/slapertosa>`_ y `Marian <https://twitter.com/mavignau>`_, y también salió bárbaro. Vino mucha más gente de lo que esperábamos, saturamos completamente las instalaciones... pusimos sillas en la parte de atrás de la sala, afuera, y hasta en el patio, y al final de todo eso había gente parada!
+
+El próximo se va a tener que hacer en un lugar más grande! :D
+
+.. image:: /images/pydaysmayo-nea.jpeg
+    :alt: Mucha gente
+
+`Acá <https://www.flickr.com/photos/152930222@N04/sets/72157695326060681>`_ hay algunas fotos que sacó Marian.
+
+En el segundo semestre vamos por más: ya estamos esperando el PyDay de Luján, fecha a confirmar :). Mientras, para que no decaiga, iremos armando algunos meetups... este miércoles vamos invitados a `este <https://www.meetup.com/es-ES/GDG-WTM/events/250751172/>`_.
