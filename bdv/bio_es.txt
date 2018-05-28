@@ -1,15 +1,13 @@
 Facundo Batista es Ingeniero Electrónica de la Universidad Nacional de La Matanza, con un Master en Ingeniería de la Innovación en la Universidad de Bologna, Italia.
 
-Trabajó en Movistar (antes Unifón) durante seis años, en el área de Administración de Redes Celulares, luego fué Jefe de Desarrollo en CycleLogic por un año y medio, Arquitecto de Soluciones en Ericsson Argentina, en la parte Multimedia, y ahora es Technical Leader en Canonical, programando Python en el equipo de Ubuntu Engineering.
+Trabajó en Movistar (antes Unifón) durante seis años, en el área de Administración de Redes Celulares, luego fué Jefe de Desarrollo en CycleLogic por un año y medio, Arquitecto de Soluciones en Ericsson Argentina, en la parte Multimedia, y ahora hace Python en Canonical, en el equipo de Online Services desde hace más de 10 años.
 
 Fue profesor en la Universidad de La Matanza y en diversas instituciones secundarias y terciarias. También posee una amplia experiencia como analista de sistemas y programador, tanto freelance como bajo contrato, en diversos sistemas en múltiples plataformas y lenguajes.
 
 Siguiendo en el ámbito de la programación, ama Python, habiéndose convertido en Desarrollador Oficial del lenguaje y miembro de la Python Software Foundation, fundando luego Python Argentina. Fue invitado como expositor a numerosas conferencias nacionales e internacionales y dictó cursos de Python en Universidades, ámbitos terciarios, y para particulares y empresas (más info: http://www.taniquetil.com.ar/facundo/cursoPython.html).
 
-También participa en cantidad de proyectos libres, entre los que se encuentran CDPedia, Encuentro, Fades, Lalita, Magicicada, Ubuntu One Client, Launcherposta, Enjuewemela, Kilink, y más.
+También participa en cantidad de proyectos libres, entre los que se encuentran CDPedia, Encuentro, Fades, Lalita, Magicicada, Launcherposta, Enjuewemela, Linkode, y más.
 
 --
 
 Ingeniero en Electrónica. Programador Python. Docente. Tenista.
-
-
