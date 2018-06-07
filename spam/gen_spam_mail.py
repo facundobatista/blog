@@ -71,18 +71,19 @@ def build_paragrap(txt, pref, maxwidth, maxlines):
 
 
 def main(filter_ym):
-    posts = glob.glob("site/posts/????.rst")
+    posts = glob.glob("../site/posts/????.rst")
 
     inmonth = False
     content = []
-    for post in sorted(posts, reverse=True):
-        with open(post, "rt", encoding="utf8") as fh:
+    for post_path in sorted(posts, reverse=True):
+        with open(post_path, "rt", encoding="utf8") as fh:
             title_raw = fh.readline()
             date_raw = fh.readline()
             assert date_raw.startswith(".. date:")
             y_m_d = date_raw.split()[2]
             post_ym = y_m_d[:4] + y_m_d[5:7]
-            print("========== post date", post, post_ym)
+            post_number = post_path.split('/')[-1].split('.')[0]
+            print("========== post date", post_number, post_ym)
             if post_ym != filter_ym:
                 if inmonth:
                     # already processed the filtered that we wanted
@@ -101,8 +102,7 @@ def main(filter_ym):
             assert fh.readline().startswith(".. tags:")
 
             text = clean(fh.read())
-            FIXME: guardar el post number, no el post path
-            content.append((post, title, text))
+            content.append((post_number, title, text))
 
     content = reversed(content)
 

@@ -25,3 +25,4 @@ site/.doit.db
 /site/.doit.db
 *.sqlite
 
+spam/mail.txt
