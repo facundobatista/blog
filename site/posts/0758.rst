@@ -1,6 +1,6 @@
 .. title: Relanzamiento del Blog
 .. date: 2018-04-22 15:47:00
-.. tags: blog diseño lifetype plog nikola futuro
+.. tags: blog, diseño, lifetype, plog, nikola, futuro
 
 Entramos en la tercer etapa de mi blog.
 

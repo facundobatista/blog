@@ -1,6 +1,6 @@
 .. title: De trabajo en Hungría
 .. date: 2018-03-19 18:01:00
-.. tags: viaje sprint trabajo Hungría Budapest
+.. tags: viaje, sprint, trabajo, Hungría, Budapest
 
 Estuve una semana en Budapest, trabajando en un sprint con otros compañeros de equipo y de otros equipos, en general.
 

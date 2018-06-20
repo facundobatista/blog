@@ -1,6 +1,6 @@
 .. title: PyCamp 2018
 .. date: 2018-05-07 16:46:00
-.. tags: pycamp python baradero comunidad pyar
+.. tags: PyCamp, Python, Baradero, comunidad, PyAr
 
 Pasó una nueva edición del mejor evento del año, el PyCamp!
 

@@ -1,6 +1,6 @@
 .. title: Pasaron los PyDays de Mayo
 .. date: 2018-05-21 09:40:00
-.. tags: PyDay PyAy Python
+.. tags: PyDay, PyAr, Python
 
 Dos PyDays teníamos planeados para este mes, el de La Plata y el del NEA.
 

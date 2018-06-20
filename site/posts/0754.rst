@@ -1,6 +1,6 @@
 .. title: Vacaciones en familia, playa y sierras
 .. date: 2018-02-24 23:15:00
-.. tags: vacaciones familia playa sierras Córdoba Mar Azul
+.. tags: vacaciones, familia, playa, sierras, Córdoba, Mar Azul
 
 Durante el veranito nos tomamos unos días con la familia para pasear por distintos lados.
 

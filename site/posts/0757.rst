@@ -1,6 +1,6 @@
 .. title: Actualización y nuevo proyecto
 .. date: 2018-03-19 18:01:00
-.. tags: fades software Python infoauth
+.. tags: fades, software, Python, infoauth
 
 
 fades

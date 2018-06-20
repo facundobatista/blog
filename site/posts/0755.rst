@@ -1,6 +1,6 @@
 .. title: Eventos, eventos! Python en el primer semestre
 .. date: 2018-03-14 11:03:00
-.. tags: Python Argentina Asociación Civil PyCamp PyDay PyCon meetup
+.. tags: Python Argentina, Asociación Civil, PyCamp, PyDay, PyCon, meetup, Python
 
 Tenemos algunos eventos de Python Argentina en el primer semestre del año. Vayamos cronológicamente.
 
