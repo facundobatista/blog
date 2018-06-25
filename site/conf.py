@@ -1187,16 +1187,19 @@ INDEX_DISPLAY_POST_COUNT = 5
 SEARCH_FORM = """
 <!-- DuckDuckGo custom search -->
 <form method="get" id="search" action="https://duckduckgo.com/" class="navbar-form pull-left">
-    <input type="hidden" name="sites" value="%s">
+    <input type="hidden" name="sites" value="blog.taniquetil.com.ar/posts/">
     <input type="hidden" name="k8" value="#444444">
     <input type="hidden" name="k9" value="#D51920">
     <input type="hidden" name="kt" value="h">
+    <input type="hidden" name="kl" value="ar-es">
+    <input type="hidden" name="kp" value="-2">
+    <input type="hidden" name="kaj" value="m">
     <input type="text" name="q" maxlength="255"
-    placeholder="Search&hellip;" class="span2" style="margin-top: 4px;">
+    placeholder="Buscar&hellip;" class="span2" style="margin-top: 4px;">
     <input type="submit" value="DuckDuckGo Search" style="display: none;">
 </form>
 <!-- End of custom search -->
- """ % SITE_URL
+ """
 
 # Use content distribution networks for jQuery, twitter-bootstrap css and js,
 # and html5shiv (for older versions of Internet Explorer)
