@@ -83,7 +83,6 @@ def main(filter_ym):
             y_m_d = date_raw.split()[2]
             post_ym = y_m_d[:4] + y_m_d[5:7]
             post_number = post_path.split('/')[-1].split('.')[0]
-            print("========== post date", post_number, post_ym)
             if post_ym != filter_ym:
                 if inmonth:
                     # already processed the filtered that we wanted
@@ -92,7 +91,6 @@ def main(filter_ym):
                     # didn't get to the month we want yet
                     continue
 
-            print("======= useful!")
             inmonth = True
 
             assert title_raw.startswith(".. title:")
@@ -103,6 +101,10 @@ def main(filter_ym):
 
             text = clean(fh.read())
             content.append((post_number, title, text))
+
+    if not content:
+        print("Nothing found!")
+        sys.exit()
 
     content = reversed(content)
 
