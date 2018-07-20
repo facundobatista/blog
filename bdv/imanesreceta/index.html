@@ -1,0 +1,104 @@
+<html><head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<title>Imanes Receta</title>
+
+
+<script language="JavaScript">
+
+var num=1
+img1 = new Image()
+img1.src = "imanesreceta-felipe1.jpeg"
+img2 = new Image()
+img2.src = "imanesreceta-felipe2.jpeg"
+img3 = new Image()
+img3.src = "imanesreceta-felipe3.jpeg"
+img4 = new Image()
+img4.src = "imanesreceta-felipe4.jpeg"
+img5 = new Image()
+img5.src = "imanesreceta-malena1.jpeg"
+img6 = new Image()
+img6.src = "imanesreceta-felipe5.jpeg"
+img7 = new Image()
+img7.src = "imanesreceta-malena2.jpeg"
+img8 = new Image()
+img8.src = "imanesreceta-malena3.jpeg"
+img9 = new Image()
+img9.src = "imanesreceta-malena4.jpeg"
+img10 = new Image()
+img10.src = "imanesreceta-malena5.jpeg"
+
+function resize() {
+    var window_width = window.innerWidth||document.documentElement.clientWidth||document.body.clientWidth||document.body.offsetWidth||window.screen.availWidth;
+    var window_height = window.innerHeight||document.documentElement.clientHeight||document.body.clientHeight||document.body.offsetHeight||window.screen.availHeight;
+console.log("window", window_width, window_height)
+
+    image = document.getElementsByClassName('scale')[0];
+    var image_width = image.naturalWidth;
+    var image_height = image.naturalHeight;
+    console.log("image orig", image_width, image_height);
+
+    var max_width = window_width * 0.9;
+    if (image_width > max_width) {
+        image_height *= max_width / image_width;
+        image_width = max_width;
+    }
+    console.log("image after W", image_width, image_height);
+
+    var max_height = window_height * 0.7;
+    if (image_height > max_height) {
+        image_width *= max_height / image_height;
+        image_height = max_height;
+    }
+    console.log("image after H", image_width, image_height);
+
+    image.style.height = image_height + 'px';
+    image.style.width = image_width + 'px';
+    console.log("image final", image.offsetWidth, image.offsetHeight);
+}
+
+function slideshowUp()
+{
+num=num+1
+if (num==11)
+    {num=10}
+document.mypic.src=eval("img"+num+".src")
+resize()
+}
+
+function slideshowBack()
+{
+num=num-1
+if (num==0)
+    {num=1}
+document.mypic.src=eval("img"+num+".src")
+resize()
+}
+
+</script>
+
+
+
+</head><body onload="resize()" onresize="resize()">
+
+<center>
+<img src="imanesreceta-felipe1.jpeg" name="mypic" class="scale" />
+<br />
+<br />
+
+<a href="JavaScript:slideshowBack()">Anterior</a>
+
+<a href="JavaScript:slideshowUp()">Siguiente</a> 
+
+
+<br />
+<br />
+<br />
+<small>
+Copyright 2018 - Facundo Batista<br>
+<a href="https://twitter.com/facundobatista">Twitter</a> - <a href="https://www.taniquetil.com.ar/facundo/bdvfiles/facumail.png">Mail</a> - <a href="https:/blog.taniquetil.com.ar/">Blog</a>
+</small>
+</center>
+  
+
+</body></html>
