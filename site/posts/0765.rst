@@ -1,0 +1,17 @@
+.. title: Los 100 de Narda
+.. date: 2018-03-19 18:01:00
+.. tags: Narda Lepes, cocina, consejos, receta, Python, Twitter
+
+Hace un par de semanas `Narda Lepes <https://twitter.com/NardaLepes>`_ se puso a tirar tuits en su cuenta de Twitter.
+
+Empezó con la idea de tirar 10, pero parece que se entusiasmó y nos regaló más de 100 consejos sobre cocina, comida, etc.
+
+Están tan buenos que decidí juntarlos para pasárselos a gente que no use Twitter, y ahí me di cuenta que mejor si los colgaba acá así quedaban "para la posteridad", ordenaditos y de fácil revisión/impresión, o para buscar alguna cosa puntual cuando querramos refrescar algún concepto.
+
+Así que armé `esta página <http://www.taniquetil.com.ar/facundo/bdvfiles/los100deNarda.html>`_, pasen y vean.
+
+Claro que no los fui copiando uno por uno, sino que me hice un pequeñito `script de Python <http://www.taniquetil.com.ar/homedevel/devel/twitter_retrieve.py>`_ (adaptado de otro similar que ya tenía) que me baja todos los tweets de una persona (hasta una determinada cantidad y/o un determinado tweet), con timestamp, link al tweet original, etc.
+
+Obvio que todos los textos son de ella (aunque fui haciendo pequeñas correcciones de tildes, espacios, mayúsculas), y para que puedan comentarle algo o preguntar algún detalle hice que cada número en los consejos sea un enlace al tweet original.
+
+Disfruten y pásenlo...
