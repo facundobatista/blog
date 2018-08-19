@@ -36,7 +36,6 @@ import yaml  # depends on pyyaml
 _LOGGER = utils.get_logger('render_static_links', utils.STDERR_HANDLER)
 
 
-
 class StaticLinks(Task):
     """To render a static links html ."""
 
@@ -62,17 +61,16 @@ class StaticLinks(Task):
     def _gen_html_task(self, config):
         """Generate task to generate html."""
         destination = os.path.join(self.site.config['OUTPUT_FOLDER'], config["output_file"])
+        changed = utils.config_changed(config, 'nikola.plugins.task.static_links')
         task = {
             'basename': self.name,
             'name': destination,
             'targets': [destination],
             'actions': [(self._gen_html, [config, destination])],
             'clean': True,
-            'uptodate': [utils.config_changed(config, 'nikola.plugins.task.static_links'), destination]
+            'uptodate': [changed, destination]
         }
         return task
-
-
 
     def gen_tasks(self):
         """Generate task."""
@@ -85,5 +83,3 @@ class StaticLinks(Task):
         task = self._gen_html_task(config)
         task['uptodate'] = [utils.config_changed(config, 'nikola.plugins.task.static_links')]
         yield utils.apply_filters(task, filters)
-
-

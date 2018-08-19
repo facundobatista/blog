@@ -1,5 +1,5 @@
 .. title: Los 100 de Narda
-.. date: 2018-03-19 18:01:00
+.. date: 2018-08-19 10:28:00
 .. tags: Narda Lepes, cocina, consejos, receta, Python, Twitter
 
 Hace un par de semanas `Narda Lepes <https://twitter.com/NardaLepes>`_ se puso a tirar tuits en su cuenta de Twitter.
