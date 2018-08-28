@@ -10,7 +10,7 @@ A nivel Python, estuve laburando en `fades <http://fades.readthedocs.io/>`_ un p
 
 También estuve en largas charlas sobre cual va a ser el futuro de la lista de correo de PyAr (estuvimos analizando opciones), y el diseño del sitio web de gestión para la `Asociación Civil Python Argentina <http://ac.python.org.ar/>`_. Y después yendo y viniendo por ahí, ayudando a gente en cosas puntuales que necesitaban, charlando, aprendiendo, disfrutando.
 
-.. image:: /images/pycamp18-grupal.jpeg
+.. image:: /images/pycamp18/grupal.jpeg
     :alt: La típica grupal
     :target: https://www.flickr.com/photos/70871182@N04/41854648842/in/album-72157666571520997/
 
@@ -20,30 +20,30 @@ El primer juego de mesa al que jugué, valga la cacofonía, fue el `Belfort <htt
 
 Actividades sociales por fuera de los juegos de mesa también hubieron un montón. Aprendí a hacer malabares rebotando pelotitas contra el piso (sólo, con dos y tres pelotitas, y grupal, de a 3, 4 o 5 personas, haciendo combinaciones superlocas, armando y desarmando coreografías, fue muy divertido). Aprendí arquería con arcos de verdad (gracias `Joaco <https://twitter.com/xcancerberox>`_ por las clases). Jugué al basquet (y me raspé una rodilla y rompí una zapatilla). Armé un campeonato de ping-pong, pero perdí en la segunda ronda, 18-21 en el tercer partido, contra el que finalmente ganó el torneo. Hicimos música a cuatro manos en un piano. Montonazazazo de actividades.
 
-.. image:: /images/pycamp18-trabajando.jpeg
+.. image:: /images/pycamp18/trabajando.jpeg
     :alt: Nos agarraste trabajando
 
-.. image:: /images/pycamp18-música.jpeg
+.. image:: /images/pycamp18/música.jpeg
     :alt: Haciendo música
 
 Obviamente, como en todo PyCamp, también hicimos `una reunión de PyAr <http://www.python.org.ar/wiki/Eventos/Reuniones/Reuniones/2018/Reunion70>`_. Charlamos sobre los próximos eventos, algunos anuncios operativos de esos días, y algunos detalles más, pero lo principal fue el balance del PyCamp: qué estuvo bueno, qué estuvo fantástico, en qué cosas debemos mejorar. Nos llevamos un par de ideas para el PyCamp del año que viene, tanto en la preparatoria de las semanas anteriores, como mejoras a hacerle al `bot del PyCamp <https://github.com/PyAr/votcamp>`_.
 
 Como nota de color, una tarde fuimos a buscar a unos chicos que llegaban a la terminal de Baradero, y al volver nos quedamos en el barro. Estuve 25 minutos tratando de sacar el auto de donde se había empantanado (en dos lugares distintos, imposibles), y al final salí victorioso. Pero me tembló hasta el culo por un par de horas....
 
-.. image:: /images/pycamp18-losmagos.jpeg
+.. image:: /images/pycamp18/losmagos.jpeg
     :alt: Los que fueron magos en algún punto del evento
 
-.. image:: /images/pycamp18-alecuventilagón.jpeg
+.. image:: /images/pycamp18/alecuventilagón.jpeg
     :alt: Alecu y el ventilagón, que fue uno de los proyectos
 
 También, pero más importante, quiero destacar que brillamos en nuestras métricas de diversidad (gracias `PSF <https://www.python.org/psf/>`_ por las becas para esto): fuimos un 25% de mujeres, y 50% de gente que era su primer PyCamp. Un éxito.
 
 Pero no todo es brillar, especialmente cuando se corta la luz en todo el barrio! Fueron un par de horas, cuando anochecía, pero no nos amedrentamos y seguimos pycampeando casi como si nada hubiera pasado...
 
-.. image:: /images/pycamp18-sinluz.jpeg
+.. image:: /images/pycamp18/sinluz.jpeg
     :alt: Se nos cortó la luz
 
-.. image:: /images/pycamp18-arquería.jpeg
+.. image:: /images/pycamp18/arquería.jpeg
     :alt: Hicimos basquet, malabares, pingpong, espadas... y arquería
 
 Para cerrar, les dejo `las fotos <https://www.flickr.com/photos/54757453@N00/albums/72157668724678958>`_ mías (más algunas que saqué del grupo de Telegram), `las de Yami <https://www.flickr.com/photos/70871182@N04/sets/72157666571520997/>`_ (fotógrafa oficial), y les prometo el video presentación de todo lo que hicimos (cuando José Luis lo procese, digamos todos "gracias José Luis").
