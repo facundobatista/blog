@@ -6,12 +6,12 @@ Moni hizo un par de cenas con motivo de su onomástico que sucediose el mes pasa
 
 La primer cena armé unas bruschetas de entrada. Todas con una base de rodajas de pan de campo, tostadas luego de ponerles un poco de aceite de oliva. Hice de champignones y cebolla de verdeo, de sardinas sobre un colchón de tomate, y de jamón crudo y rúcula.
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/cenas-bruschetas.png
+.. image:: /images/cenas/bruschetas.png
     :alt: Bruschetas
 
 Luego, para la cena, hice una tortilla española de 10 huevos (nunca había hecho una tortilla española, ni una tortilla taaaan grande, pero tenía ganas de estrenar mi sartén nuevo :p).
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/cenas-tortilla.png
+.. image:: /images/cenas/tortilla.png
     :alt: Tortilla
 
 La cena no era sólo eso: también había colita de cuadril al horno, con cebollas, morrón y tomates, lo cual fue lo más sencillo de preparar (lejos) de toda la noche.
@@ -20,22 +20,22 @@ Para la segunda cena amasé pizzas. Me encanta prepararlas con harina de trigo 0
 
 Hice pizzas de cuatro quesos: mozzarella, parmesano, queso azul, y queso fresco...
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/cenas-p-4quesos.png
+.. image:: /images/cenas/pizza-4quesos.png
     :alt: Pizza cuatro quesos
 
 , ...de berenjena rehogada con provenzal casero, con queso...
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/cenas-p-berenjenas.png
+.. image:: /images/cenas/pizza-berenjenas.png
     :alt: Pizza de berenjenas
 
 , ...de panceta, tomate fresco y cebolla de verdeo...
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/cenas-p-panceta.png
+.. image:: /images/cenas/pizza-panceta.png
     :alt: Pizza de panceta
 
 , ...y de rúcula y jamón crudo.
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/cenas-p-jcrudo.png
+.. image:: /images/cenas/pizza-jcrudo.png
     :alt: Pizza de rúcula y jamón crudo
 
 Me encanta preparar cosas que no cocino siempre, especialmente cuando viene gente invitada, y tiene más adrenalina que prepararlo cuando estamos sólos en casa...

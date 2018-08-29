@@ -40,7 +40,7 @@ Ojo, también algunas de estas las vi con la familia, :). Y una en el cine (es o
 
 - `World War Z <http://www.imdb.com/title/tt0816711/>`_: +0. Bastante buena para ser una película de zombies...
 
-.. image:: http://taniquetil.com.ar/facundo/imgs/moviess-elysium.png
+.. image:: /images/pelis/elysium.png
     :alt: Escena de Elysium
 
 No hay tantas nuevas anotadas. Había más, realmente, producto de ir viendo trailers, pero al preparar este post me di cuenta que cuatro ya las había anotado antes :)
@@ -71,7 +71,7 @@ No hay tantas nuevas anotadas. Había más, realmente, producto de ir viendo tra
 
 - `Terminator Genisys <http://www.imdb.com/title/tt1340138/>`_ (2015; Action, Adventure, Sci-Fi, Thriller) After finding himself in a new time-line, Kyle Reese teams up with John Connor's mother Sarah and an aging terminator to try and stop the one thing that the future fears, "Judgement Day". [D: Alan Taylor; A: Emilia Clarke, J.K. Simmons, Arnold Schwarzenegger]
 
-.. image:: http://taniquetil.com.ar/facundo/imgs/moviess-exmachina.png
+.. image:: /images/pelis/exmachina.png
     :alt: Escena del trailer de Ex Machina
 
 Finalmente, el conteo de pendientes por fecha::
