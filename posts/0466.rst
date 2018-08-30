@@ -52,7 +52,7 @@ Ejecutamos el proceso de "arreglar States" en varios pasos bien definidos:
 
 En esta etapa, el tener un equipo altamente acoplado funcionó muy, muy bien. La misma tarea no podría haber sido ejecutada tan eficientemente si la hacía una sola persona, o si un equipo se involucraba en profundas discusiones. Debo mencionar que este trabajo se hizo cara a cara durante un sprint (difícilmente se podría haber hecho remotamente y tener el mismo resultado).
 
-.. image:: /images/states-analisis-th.jpg"
+.. image:: /images/states-analisis-th.jpg
     :alt: (click para ver la imagen en una resolución entendible)
     :target: http://www.taniquetil.com.ar/facundo/bdvfiles/states-analisis.jpg
 
@@ -64,7 +64,7 @@ El tener un cirujano con más experiencia en esta fase, mezclado con las nuevas 
 
 En esta etapa también notamos que el equipo tenía el tamaño ideal: un sólo par de ojos seguramente no habrían visto los detalles más complicados, y más gente no podría haber trabajado en paralelo en la misma implementación como lo hicieron dos personas.
 
-.. image:: /images/states-nuevo-th.png"
+.. image:: /images/states-nuevo-th.png
     :alt: (click para descargar los tres .SVG actualizados del diseño)
     :target: http://www.taniquetil.com.ar/facundo/bdvfiles/states-nuevo.zip
 
