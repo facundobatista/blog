@@ -14,7 +14,7 @@ Ayer a la noche, por motivos que no vienen al caso, me junté con Lucio para com
 
 Incluso terminamos haciendo lo siguiente, en uno de los intercambios de conocimientos (y bueno, necesitábamos dibujarlo):
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/servilleta.jpeg
+.. image:: /images/servilleta.jpeg
     :alt: Servilleta con algunas cuentas
 
 Que grande Lucio. La pasé muy bien.

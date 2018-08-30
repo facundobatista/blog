@@ -4,7 +4,7 @@
 
 *Lo siguiente lo rescaté del disco de `Clemente <http://es.wikipedia.org/wiki/Clemente_%28historieta%29>`_... ah, ¿qué?... ¿no sabían que Clemente tenía un disco? Anyway... siempre que lo escucho me causa tanta gracia, que lo quise transcribir acá... (nota: los errores ortográficos son del audio original)*
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/clementeysushinchadas.jpg
+.. image:: /images/clementeysushinchadas.jpg
     :alt: La tapa del casete
 
 En una concentración, hay muchas cosas importantes; no sólo correr y jugar al fúlbo.

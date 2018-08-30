@@ -10,12 +10,12 @@ En el juego original, cada elemento era vencido por un otro, y vencía a un terc
 
 Es más fácil verlo en el siguiente gráfico, con las razones "oficiales" y todo:
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/psplt-razones.png
+.. image:: /images/psplt-razones.png
     :alt: Razones del PSPLT
 
 También es piola verlo con los símbolos de las manos:
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/psplt-manos.png
+.. image:: /images/psplt-manos.png
     :alt: PSPLT con las manos
     :target: https://en.wikipedia.org/wiki/File:Pierre_ciseaux_feuille_l%C3%A9zard_spock_aligned.svg
 

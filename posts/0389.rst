@@ -7,7 +7,7 @@ Cultura libre
 
 Mañana y pasado tenemos un programa buenísimo: El 1er Festival de Cultura Libre y Copyleft, ambos días de 14 a 21 hs, en La Tribu (Lambaré 873, Capital Federal). La entrada es libre y gratuita.
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/festivalculturalibre08.jpg
+.. image:: /images/festivalculturalibre08.jpg
 
 ..
 

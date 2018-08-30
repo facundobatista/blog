@@ -14,7 +14,7 @@ Pero lo que quiero resaltar es una característica pequeña pero que me fue muy 
 
 La cámara de fotos estaba abajo, así que agarré el teléfono y le saqué una fotito a un posavasos que tenía a mano. Al toque, el cliente de sincronización de archivos de Ubuntu One empezó a subir la foto "a la nube" y bajó en la compu de escritorio, ví la notificación que había descargado un nuevo archivo, fuí a la carpeta, botón derecho sobre el archivo, "Publicar", lo cual me entregó `esta dirección pública <http://ubuntuone.com/p/14Pt>`_. Usé esa URL para mandar por mail a los asistentes del PyCamp (y de pasó `la tuité <https://twitter.com/#%21/facundobatista/status/91465190293504000>`_). Ya que estamos, el posavasos es:
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/posavasos-pyar.jpg
+.. image:: /images/posavasos-pyar.jpg
     :alt: Posavasos PyAr
 
 Esta suma de pequeñas características es lo que le terminan dando un valor interesante a un servicio, lo que hace que valga la pena y marque una diferencia a nivel de productividad cuando estás acostumbrado a usarlos.

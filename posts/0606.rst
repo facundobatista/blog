@@ -30,7 +30,7 @@ Entonces vienen los "pares" y revisan el código, a veces sugieren mejoras (a ve
 
 Ahora, imagínense que uno, como desarrollador del proyecto, pudiera decir "este branch está aprobado, está listo para entrar en trunk", y viniera un bot al ratito, y ejecutase todos esos pasos que indiqué yo antes.
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/locolander.png
+.. image:: /images/locolander.png
     :alt: LocoLander
 
 

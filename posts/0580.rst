@@ -14,7 +14,7 @@ Yo di una `versión "light" de Introducción a Python <http://www.taniquetil.com
 
 La charla, a nivel Python, resultó (aún luego de los recortes) un poco avanzada para la audiencia, pero se quedaron bastante enganchados con Pilas; estuvo bueno. El resto de la conferencia no me interesó demasiado, aunque hubieron algunas cosas piolas. Igual me dediqué un poco a pasear con la familia, y conocer el lugar. Como parte del evento (y también con la familia) fuimos a un paseo el domingo a un lugar donde procesaban unas piedras fantásticas que son de la zona. `Fotos <http://www.flickr.com/photos/54757453@N00/sets/72157631740983604/>`_.
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/voragine-artigas.jpeg
+.. image:: /images/voragine-artigas.jpeg
     :alt: Con las piedras de Artigas
 
 Ese mismo domingo emprendimos el regreso, pero nos quedamos un día en Concordia, con la familia de Moni, y a casa realmente llegamos el lunes a la noche. Y esa misma semana, Junín.
@@ -23,7 +23,7 @@ La ventaja del evento en Junín (Séptimas Jornadas de Software Libre) es que el
 
 El evento en sí estuvo lindo, algunas charlas interesantes, y mucho hacer sociales. No sólo porque viernes y sábado hubo cena grupal, sino porque el tener un pool al lado del hotel hizo que ambos días continuemos la joda ahí :p. ¡Hasta deporte hice! Invitados por Gastón y Cecilia, el sábado a la tarde jugamos un rato al tenis, y un rato al paddle. Y hasta me dieron las horas para un pequeño tallercito de Python y los frameworks más usados para hacer juegos, que dí en un bar para unos seis o siete chicos. Un lujo (dejo un `par de fotos <http://www.flickr.com/photos/54757453@N00/sets/72157631740904778/>`_).
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/voragine-junin.jpeg
+.. image:: /images/voragine-junin.jpeg
     :alt: Plaza
 
 No tuve más eventos que esos, pero el resto de los días tenía que trabajar, hacer cosas en la casa, y actividades como llevar a Felu a natación, o tomar clases de tenis (con las que venimos atrasados!). Encima, estamos preparando todo para el cumpleaños de Felipe, y no es menor la cantidad de horas que eso lleva.

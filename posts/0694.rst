@@ -12,7 +12,7 @@ Crea automáticamente un nuevo virtualenv (o reusa uno creado previamente) insta
 
 Todo lo que se necesita hacer es ejecutar el script con fades (en lugar de Python) y también marcar las dependencias necesarias. Más detalles en la `documentación <http://fades.rtfd.org/>`_ misma.
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/fades-logo.png
+.. image:: /images/fades-logo.png
     :alt: fades
 
 ¿Qué hay de nuevo en esta release?

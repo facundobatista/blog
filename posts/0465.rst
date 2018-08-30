@@ -4,11 +4,11 @@
 
 Venimos atrasados con el procesamiento de fotos, pero acá ya tenemos los videos del cuarto y quinto mes de Felipe (click en la foto para verlos en YouTube).
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/felipe4mes.jpg
+.. image:: /images/felipe4mes.jpg
     :alt: Fotos del cuarto mes
     :target: http://www.youtube.com/watch?v=yBoBxK8rVxA
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/felipe5mes.jpg
+.. image:: /images/felipe5mes.jpg
     :alt: Fotos del quinto mes
     :target: http://www.youtube.com/watch?v=OkWbu2BgJbM
 

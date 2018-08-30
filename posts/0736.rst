@@ -4,7 +4,7 @@
 
 Hace un par de semanas finalmente salió el trámite de la Inspección General de Justicia sin nada para revisar o modificar... ¡está formada legalmente la Asociación Civil Python Argentina!
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/pyar-ac-sellos.png
+.. image:: /images/pyar-ac-sellos.png
     :alt: Estatuto todo sellado
 
 Ahora estamos trabajando a full para sacar el CUIT en la AFIP, lo que nos va a permitir abrir una cuenta en el banco. De esta manera los chicos que están organizando la PyCon ya van a poder darle luz verde a los sponsors para que pongan plata.

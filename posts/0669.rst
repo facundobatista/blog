@@ -4,7 +4,7 @@
 
 "Vení, cantemos algo a dúo."
 
-.. image:: http://taniquetil.com.ar/facundo/imgs/malefelu-duo.jpeg
+.. image:: /images/malefelu-duo.jpeg
     :alt: Cantando a dúo
 
 ¡Rocanrol!

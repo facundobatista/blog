@@ -2,5 +2,5 @@
 .. date: 2010-04-24 03:41:15
 .. tags: Felipe, foto
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/enojado.png
+.. image:: /images/enojado.png
     :alt: Felipe enojado

@@ -12,7 +12,7 @@ El viernes a la noche vinieron Adri, Ana y Tomasito a casa, que todavía no la c
 
 Este sábado fue el cumpleaños de Luca. Los chicos tuvieron la muy buena idea de ir luego a pasear al `Jardín Japonés <http://www.jardinjapones.org.ar/portada.htm>`_, así que estuvimos paseando mucho (y jugando, ejem) con Jose, Sofía y Luca. Aproveché y saqué una foto panorámica con mi teléfono, probando un feature que había descubierto el viernes (sale bien, pero hay contrastes y diferencias de color... fíjense especialmente que parecen dos fotos pegadas en la separación de la bandera).
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/jardinjapones.jpeg
+.. image:: /images/jardinjapones.jpeg
     :alt: Panorámica del Jardín Japonés
 
 Cuando el frío comenzó a arreciar, nos separamos. Con Moni íbamos a ir a casa para luego salir a la noche a comer afuera, pero luego me acordé que tenía un par de direcciones de lugares que queríamos conocer, así que luego de pegar un par de vueltas nos acercamos hasta `Dale perejil al toro <http://www.daleperejil.com.ar>`_, "una parrillita porteña con una tuerca de vuelta": un poco cara, pero muy muy buena la atención, y cosas muy ricas.

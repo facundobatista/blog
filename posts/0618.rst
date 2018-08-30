@@ -28,7 +28,7 @@ Entre una cosa y la otra se hicieron las diez de la noche, así que dejé hervir
 
 Comimos a las dos de la tarde, estaba en su punto.
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/mondongo.jpg
+.. image:: /images/mondongo.jpg
     :alt: Mondongo
 
 Si lo hacen, me cuentan como les fue!

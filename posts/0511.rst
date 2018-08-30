@@ -10,7 +10,7 @@ El sábado nos levantamos tempranito y fuimos hasta la UTN con Matías (Naty ven
 
 Las charlas del PyDay estaban separadas en dos tracks, principiante y avanzado. Así que al rato me metí en la sala donde eran las avanzadas y me quedé ahí hasta el mediodía.
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/pyday-abr11.jpeg
+.. image:: /images/pyday-abr11.jpeg
     :alt: Instrucciones y programa
 
 Algunas charlas que me interesaron: sobre `NLTK <http://www.nltk.org/>`_ y procesamiento de lenguaje natural, por Pablo Duboue y Rafael Carrascosa, realmente muy interesante todo lo que se puede hacer; una sobre Python, `Sugar <http://wiki.laptop.org/go/OLPC_Python_Environment>`_ y robótica, por Valentín Basel, muy groso controlar un robot físico con lo que es la evolución del `Logo <http://es.wikipedia.org/wiki/Logo_%28lenguaje_de_programaci%C3%B3n%29>`_; una sobre `MyHDL <http://www.myhdl.org/doku.php>`_ por Martín Gaitán, donde vimos como diseñar silicio usando Python; y una sobre `DBus <http://es.wikipedia.org/wiki/D-Bus>`_ por Alecu, un tema que más o menos ya sabía pero siempre se aprende algún detalle.

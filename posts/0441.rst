@@ -6,7 +6,7 @@ En Argentina no está contemplada como tal, por eso el Programa Médico Obligato
 
 Muchas parejas quieren tener hijos y no pueden. Y se quedan afuera de estos tratamientos.
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/sumateadarvida.jpg" />
+.. image:: /images/sumateadarvida.jpg
     :target: http://www.sumateadarvida.com.ar/web/index.php
 
 La gente de `Sumate a Dar Vida <http://www.sumateadarvida.com.ar/web/index.php>`_ están empujando una iniciativa popular, tratando de juntar 300 mil firmas para que el Congreso trate la Ley de Reproducción Humana Asistida.

@@ -6,7 +6,7 @@ Este fin de semana se realizó una nueva PyCon en Argentina, esta vez (y es la p
 
 Yo di dos charlas "formales"... bah, una charla (`Emulando paralelismo de forma asincrónica <http://www.taniquetil.com.ar/homedevel/presents/concurrencia/>`_) y un taller ("Introducción a Python"). También di una mini-plenaria de 20 minutos donde hablé sobre la `Asociación Civil Python Argentina <http://ac.python.org.ar/>`_.
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/pyconar2017-grupal.jpeg
+.. image:: /images/pyconar2017-grupal.jpeg
     :alt: Grupal
     :target: https://www.flickr.com/photos/70871182@N04/37720393655/in/album-72157662945453988/
 
@@ -30,7 +30,7 @@ Las plenarias también estuvieron buenas. `Aleksandra Sendecka <https://twitter.
 
 A nivel social, la comunidad de Python Argentina sigue mostrándose ejemplar. No sólo en lo personal (donde es una excusa para reencontrarse con amiga/os y charlar, charlar, charlar) sino también en la inclusión de nuevas personas en el grupo. El ejemplo que más me resuena a este respecto es esta serie de tuits:
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/pyconar2017-inclusión.png
+.. image:: /images/pyconar2017-inclusión.png
     :alt: Inclusión
     :target: https://twitter.com/EliTnk/status/932714350112116739
 

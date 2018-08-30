@@ -6,7 +6,7 @@ Este fin de semana se sucedió otro evento en Junín. Organizado por Juan Rodrig
 
 No estuve en todas las charlas, pero fui a varias; las que más me gustaron fueron la de Alecu "Controlando Python desde Arduino", la de Juanjo Ciarlante "Software Libre en las nubes", y la de Daniel Coletti "Ser emprendedor con Software Libre".
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/alecu-arduino.jpg
+.. image:: /images/alecu-arduino.jpg
     :alt: Alecu en su charla
 
 Yo dí una charla nueva, `Emulando paralelismo de forma asincrónica <http://www.taniquetil.com.ar/homedevel/presents/concurrencia/>`_, una charla bastante complicada pero que salió bastante bien. Eso sí, tardé una hora en darla, así que le tengo que pegar una revisada para ajustarla y simplificarla un poco.

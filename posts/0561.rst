@@ -10,7 +10,7 @@ Parte de la complejidad, justamente, es no tener un lugar definitivo. Entonces, 
 
 Así que diseñé algo, compré una placa de madera en el Sodimac (indicando que la corten, obvio), ajusté, atornillé, emprolijé, pinté... y acá tienen:
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/bibliotequitas.jpeg
+.. image:: /images/bibliotequitas.jpeg
     :alt: Las bibliotequitas :)
 
 Están lindas, ¿no?

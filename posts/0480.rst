@@ -6,6 +6,6 @@ Con fotos del sexto mes (sí, venimos un poco atrasados...).
 
 Es cortito, pero interesante, hagan click en la foto.
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/felipemes6.jpeg
+.. image:: /images/felipemes6.jpeg
     :alt: Click para ver el video
     :target: http://www.taniquetil.com.ar/facundo/FelipeSextoMes.ogv

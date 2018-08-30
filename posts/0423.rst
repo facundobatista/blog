@@ -6,7 +6,7 @@ Sé que estoy escribiendo poco acá, pero es que no solo estoy armando una `conf
 
 Ya estamos arrancando la semana 35, y queda un mes y pico de espera...
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/moni-34s.jpg
+.. image:: /images/moni-34s.jpg
     :alt: Moni y la panza
 
 Ya estamos con casi todo listo. Y muy ansiosos...

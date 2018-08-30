@@ -8,7 +8,7 @@ Soy un firme creyente que una de las claves para controlar tu peso, es pesarte. 
 
 Y, si luego agarrás eso datos y tirás una curva, es que ya sos medio enfermito. Por eso:
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/curva-peso-2010-th.png
+.. image:: /images/curva-peso-2010-th.png
     :alt: Curva de peso para el 2010
     :target: http://www.taniquetil.com.ar/facundo/imgs/curva-peso-2010.png
 

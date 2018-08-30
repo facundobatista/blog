@@ -6,7 +6,7 @@ En estas últimas semanas terminé de poner a punto un proyectito que había emp
 
 Se llama `Recordium <https://github.com/facundobatista/recordium/>`_. Es una aplicación sencillita que ayuda al vos-fuera-de-tu-compu a recordarle cosas a tu futuro vos-en-la-compu.
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/recordium.png
+.. image:: /images/recordium.png
     :alt: Recordium
 
 La idea es que ejecutás Recordium en tu computadora, y se pone ahí como un iconito pequeñito.

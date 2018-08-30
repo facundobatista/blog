@@ -10,7 +10,7 @@ El lunes a la noche, llegamos de la oficina al hotel y al toque nos fuimos a com
 
 De más está decir que no se conectó, sino no estaría escribiendo esto. Como estaba seguro de la clave, empecé a probar, en el NetworkManager, distintos tipos de clave, pero nada. Luego de dos o tres combinaciones (en cada una tenés que esperar a que no se conecte, lo cual tarda un par de minutos), tuve que bajar porque era la hora acordada para ir a comer.
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/uruguay01.jpeg
+.. image:: /images/uruguay01.jpeg
     :alt: Casi amaneciendo
 
 Ya habían bajado algunos compañeros de trabajo, y les comenté que no me había podido conectar. Ellos me dijeron que sí habían podido, les pregunté el tipo de clave que habían usado, y no lo sabían (la interfaz no se lo había preguntado). En Windows, las máquinas de Ericsson tienen instalado el Intel Pro Wireless, un cliente de conexiones que anda muy bien, así que le eché la culpa al maldito de siempre, el NetworkManager de Ubuntu (pero, por otro lado, como no sé conectarme a mano utilizando los distintos tipos de claves, tuve que caer en él).
@@ -19,7 +19,7 @@ Fui a recepción, entonces, y le pregunté qué tipo de clave usaban. El flaco m
 
 Al volver, pensé en probar en Windows, a ver que pasaba. Ahí me dijo que la red era tipo "WPA Personal", pero igual no funcaba. Luego de probar distintas combinaciones, se conectó con la clave toda en minúsculas. Volví al Linux. Elegí esa clave, puse todo en minúsculas, y anduvo. Fui a linea de comando, tiré un "iwlist scan", y me encontraba la red en cuestión, indicando que era "WPA tipo 1" (o algo así).
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/uruguay02.jpeg
+.. image:: /images/uruguay02.jpeg
     :alt: Con sol
 
 Como conclusión de todo este proceso, tengo dos detalles que quiero compartirles.

@@ -8,7 +8,7 @@ Con "apropiadamente coloreado" no me refiero a pintarrajeado como adolescente qu
 
 No voy a entrar en detalle sobre qué es ese coloreado (que en inglés llamamos "syntax highlighting"), pero les muestro un ejemplo:
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/codcolor.png
+.. image:: /images/codcolor.png
     :alt: Ejemplo de código coloreado
 
 En fin, volviendo a meter código coloreado en LibreOffice. Lo charlé bastante en su momento con varias personas, lo mejor parecía capturar una imagen del código y meter eso, pero es una porquería porque no queda bien ante el menor cambio de tamaño, y si encima hay que tocar cualquier cosa de ese texto es imposible.

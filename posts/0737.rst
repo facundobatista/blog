@@ -6,7 +6,7 @@ Ya tengo andando un proyecto que arrancó hace tiempo pero se fue consolidando p
 
 ¿Leyeron alguna vez la frase "there is no cloud, it's just someone else's computer" (*no existe la "nube", es sólo la computadora de alguien más*)? Bueno, este proyecto se basaba en comprar alguna computadorita y meterla en casa, :)
 
-.. image:: http://taniquetil.com.ar/facundo/imgs/nubeencasa-nube.png
+.. image:: /images/nubeencasa-nube.png
     :alt: La nube
 
 ¿Para qué? Básicamente para correr dos tareas...
@@ -17,7 +17,7 @@ El otro laburo que puse a correr en mi "nube personal" es el *cdpetron*, que es 
 
 ¿En qué hardware puse a andar todo esto? Si están imaginando un datacenter, nada más lejos. En una minicomputadora: la Gigabyte Brix GB-BXBT-1900.
 
-.. image:: http://taniquetil.com.ar/facundo/imgs/nubeencasa-minicompu.jpg
+.. image:: /images/nubeencasa-minicompu.jpg
     :alt: Mini-compu
 
 Como pueden ver en `las especificaciones <http://www.gigabyte.com/Mini-PcBarebone/GB-BXBT-1900-rev-10#ov>`_ es bastante modesta: un Celeron, espacio para un DIMM de memoria y un disco de 2.5" (que no vienen incluidos), y algunos puertos de salida, como Ethernet (que lo uso obviamente todo el tiempo), HDMI o USB (que usé sólo durante la instalación) y un par más que no utilicé para nada.

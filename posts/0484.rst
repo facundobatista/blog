@@ -8,7 +8,7 @@ Yo doy `Python más rápido que C <http://www.taniquetil.com.ar/homedevel/presen
 
 Las dos charlas plenarias, con invitados internacionales, son de `Leah Culver <http://leahculver.com/>`_ y `Christiano Anderson <http://christiano.me/>`_:
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/leah-christiano.jpg
+.. image:: /images/leah-christiano.jpg
     :alt: Leah y Christiano
 
 La semana que viene, es PyCon Brasil! Resulta que uno de los keynotes que iba a venir a PyCon Ar y Br (Ian Bicking) canceló a último momento porque falleció un familiar suyo. Entonces, en PyCon Ar lo reemplazamos con Christiano, y a PyCon Br a dar la keynote voy yo! :D

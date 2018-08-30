@@ -10,7 +10,7 @@ En una fuente, alternar capas de rodajas de berenjenas y lo que preparamos en la
 
 Meter un rato al horno. Luego agregarle queso rallado por arriba, y orégano. Más horno.
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/pastel-berenjena.jpg
+.. image:: /images/pastel-berenjena.jpg
     :alt: Pastel de berenjenas
     :target: http://www.flickr.com/photos/54757453@N00/sets/72157628170468097/
 

@@ -18,7 +18,7 @@ Ahora, ¿tiene sentido ir a buscar la carne hasta allá? De Olivos a Mataderos h
 
 En fin. El punto es que hace mucho tiempo que compro en Chalín, para el consumo de la casa, para cuando hago asados por un cumpleaños, o mis asados geek. Incluso tengo el historial de precios, desde hace cuatro años y medio, que `les comparto acá <https://spideroak.com/share/MZRHG4DPMFVQ/share/home/facundo/SpiderOak%20Hive/share/carne.ods>`_.
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/carne.jpeg
+.. image:: /images/carne.jpeg
     :alt: Carne
 
 No dejo de buscar alternativas, sin embargo, por si deja de ser la mejor opción. El otro día un `conocido que respeto mucho culinariamente <https://twitter.com/runixo>`_ me recomendó el Frigorífico Las Heras, que tienen delivery, y decidí probarlos.

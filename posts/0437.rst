@@ -4,7 +4,7 @@
 
 Les dejo un `video <http://www.youtube.com/watch?v=GoK238qW_G8>`_ de fotos compaginadas del primer mes de Feli (`acá <http://www.taniquetil.com.ar/facundo/FelipePrimerMes.avi>`_ tienen una versión con más calidad que pueden descargar fácil).
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/felimes1.jpg
+.. image:: /images/felimes1.jpg
     :alt: Felipe
     :target: http://www.youtube.com/watch?v=GoK238qW_G8
 

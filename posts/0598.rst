@@ -10,7 +10,7 @@ Este árbol para guardar palabras y buscarlas por prefijo de forma muy muy rápi
 
 Entonces, agarré el código original, lo modifiqué un poco, y armé este proyecto nuevo que se llama `Fluorescent Trie <http://launchpad.net/ftrie>`_ (porque Fucked quedaba muy fuerte para un proyecto, vissste).
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/ftree.png
+.. image:: /images/ftree.png
     :alt: Fluorescent trie
     :target: http://launchpad.net/ftrie
 

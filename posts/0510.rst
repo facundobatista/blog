@@ -14,7 +14,7 @@ Ese día para cenar hicimos un arroz con verduras y caballa, que no nos llegó a
 
 Al otro día, luego de desayunar salimos a pegar una vuelta por la ciudad. Por suerte, a pesar de ser viernes santo, encontramos un supermercado abierto y pudimos comprar carne, carbón, verduras, etc.
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/tapalque-plaza.jpeg
+.. image:: /images/tapalque-plaza.jpeg
     :alt: Familia en la plaza
 
 El centro está lindo, una plaza muy cuidada (aunque con la fuente apagada), las calles pintorescas, una plaza seca de juegos para chicos, bien. Lo que no nos gustó fue un monumento que había en la plaza, que resalta con orgullo que la ciudad fue una avanzada en la matanza de los indígenas que se realizó bajo el gobierno de Rosas.
@@ -27,7 +27,7 @@ De nuevo estuvo complicado descansar, por el frío, así que con Moni terminamos
 
 El sábado hizo mucho sol, pero no llegaba a calentar demasiado en el camping abajo de los árboles. Por eso es que nos fuimos de picnic a unos cien metros de la carpa donde el sol pegaba lindo, y así pasamos la mañana calentitos.
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/tapalque-feluhojas.jpeg
+.. image:: /images/tapalque-feluhojas.jpeg
     :alt: Felipe jugando con las hojas
 
 La tarde se fue pasando entre comida, charlas, un paseo que hicimos caminando por los alrededores del camping, y el desarmado de la carpa y armado de todo adentro del auto, y a la tardecita emprendimos el regreso. Nuevamente manejó la mitad Moni, y llegamos bien entrada la noche, pero no tan tarde, con tiempo para incluso acomodar muchas de las cosas antes de irnos a dormir.

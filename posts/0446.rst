@@ -6,7 +6,7 @@ Les dejo dos videos en YouTube, recopilaciones de fotos de Felipe, de sus `dos <
 
 Si quieren, pueden descargarse versiones de mayor resolución `aquí <http://www.taniquetil.com.ar/facundo/FelipeSegundoMes.avi>`__ y `aquí <http://www.taniquetil.com.ar/facundo/FelipeTercerMes.avi>`__ respectivamente.
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/felipetresmeses.jpg
+.. image:: /images/felipetresmeses.jpg
     :alt: Felipe tres meses
 
 Como es costumbre, les dejo en Flickr todas las fotos de esos `dos <http://www.flickr.com/photos/54757453@N00/sets/72157623094657585/>`__ y `tres <http://www.flickr.com/photos/54757453@N00/sets/72157623127983737/>`__ meses.

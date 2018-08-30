@@ -34,7 +34,7 @@ La última escala del paseo la hice por un local de Samsung muy muy cheto, en el
 
 En fin. No quería gastar tanta plata, así que me decidí por la Samsung Ultrabook NP530U3C-A01AR.
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/newlap_lamisma.png
+.. image:: /images/newlap_lamisma.png
     :alt: Samsung Ultrabook
 
 Como la gran mayoría, viene con 4GB de RAM, pero en el local me la subían a 8GB. Precio final (IVA incluído): $7000 (en `Previus <http://www.previus.com.ar/>`_).
@@ -45,7 +45,7 @@ Así que sin haber booteado nunca en el windor (por cábala, viste) me puse a in
 
 Dudé qué instalar dónde, busqué un poco y `esto que encontré <http://schoolsplay.wordpress.com/2012/11/22/install-ubuntu-linux-on-a-samsung-series-5-ultrabook-with-ssd/>`_ me pareció bien. Basicamente: "/" en el SSD entero, y en el disco de platos un swap de 6GB, "/var" con 20GB, y el resto para "/home".
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/newlap_instalac.png
+.. image:: /images/newlap_instalac.png
     :alt: Particionado durante la instalación
 
 Si miran con cuidado van a ver que le pifié a las cantidades: puse los valores en MB en lugar de GB... por suerte el particionador se avivó y me dijo que necesitaba más espacio en "/var" que lo que estaba poniendo, así que me di cuenta del error y lo corregí.

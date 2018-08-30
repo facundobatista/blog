@@ -6,7 +6,7 @@ El otro día estaba en un bar, durante la PyCon Argentina, la tele decía algo d
 
 Y el otro día justo estaba viendo un programa sobre Atahualpa Yupanqui con Felipe (en Encuentro, "El filósofo") y Don Atahualpa se manda la siguiente frase, tan linda y tan a tono, que osé transcribirla acá.
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/atahualpa.png
+.. image:: /images/atahualpa.png
     :alt: Atahualpa Yupanqui
 
 ..

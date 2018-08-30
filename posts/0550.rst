@@ -12,7 +12,7 @@ Primero pasaron Ermitaños, que no me gustó ni un poquito, especialmente esa ac
 
 A esa altura ya me preguntaba si no era yo que estaba viejo la razón por la cual me parecían ridículas las puestas en escena. Me quedé con esa duda hasta que arrancó el tercer show de la noche, Eruca Sativa, que dió un espectáculo de puta madre.
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/erucasativa-elteatro.jpg
+.. image:: /images/erucasativa-elteatro.jpg
     :alt: Eruca Sativa, en El Teatro
 
 Increíble lo bien que suenan en vivo, la potencia que desarrollan en el escenario, y lo bien que llevan el show. No esperaba que estén tan bien, la verdad, una gran sorpresa positiva. Tengo muchas ganas de volverlos a ver, la buena noticia es que tocan el 10 de Marzo en Ramos Mejía...

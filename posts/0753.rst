@@ -14,7 +14,7 @@ Pero se fue haciendo. Noviembre estuvo cargadísimo por la PyCon en sí, y luego
 
 El broche de oro de diciembre fue el jueves pasado cuando nos juntamos los que pudimos de la Comisión Directiva en `Devecoop <http://devecoop.com/>`_, la cooperativa de desarrollo de software que gentilmente nos presta el lugar donde están ellos para tener la sede legal de la Asociación... nos caimos en su lugar de trabajo y les agradecimos de la mejor manera: con `comida y bebida <https://www.flickr.com/photos/54757453@N00/sets/72157691387889165>`_ :p
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/agasajo-devecoop.jpg
+.. image:: /images/agasajo-devecoop.jpg
     :alt: La mejor manera de decir gracias :)
 
 Los próximos pasos son definir cómo vamos a manejar el dinero del `próximo PyCamp <http://www.python.org.ar/wiki/PyCamp/2018>`_, empezar a procesar los registros de la gente que llenó el `formulario online para hacerse socia/os <https://docs.google.com/forms/d/e/1FAIpQLSdUj4PuduQdQ27-s4aKnRQXkulkKnT1zNsauO6o-GMXCaeq9A/viewform>`_, y hacer una reunión de Comisión Directiva para incorporara la/os nueva/os socia/os que ya tenemos!

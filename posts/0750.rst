@@ -18,6 +18,6 @@ En `esta lista de YouTube <https://www.youtube.com/playlist?list=PLD77B05EDFD022
 
 Yo me permití hacer una `recopilación <https://youtu.be/CNOnAVAHpUk>`_ (con video de mejor calidad), y más enfocada en lo que quería mostrar (e incluso dejé en la secuencia la parte correspondiente al capítulo donde esta interacción rara NO pasa, ya que en ese capítulo todo sale al revés).
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/eddie_moneypenny.jpeg
+.. image:: /images/eddie_moneypenny.jpeg
     :alt: Eddie y la señorita Moneypenny
     :target: https://youtu.be/CNOnAVAHpUk

@@ -12,7 +12,7 @@ Son trece capítulos de una hora de duración... les recomiendo que lo busquen p
 
 Les quiero dejar, como ejemplo de lo que van a encontrar muchas veces en Cosmos, algo que no está en la serie: el comentario de Carl Sagan a una foto de nuestro planeta tomada por la nave espacial Voyager 1 a una distancia de 6.000 millones de kilómetros (`referencia <http://es.wikipedia.org/wiki/Un_punto_azul_p%C3%A1lido>`_), foto que acá reproduzco parcialmente (click en la misma para ver la original).
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/nasa-bluepaledot.jpg
+.. image:: /images/nasa-bluepaledot.jpg
     :alt: Un pálido punto azul
     :target: http://es.wikipedia.org/wiki/Archivo:PaleBlueDot.jpg
 

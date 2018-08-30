@@ -4,7 +4,7 @@
 
 Enjuewemela es otro juego más similar a los populares "Bejeweled" o "Diamond Mine". El juego se basa en alinear 3 o más gemas, tanto verticalmente como horizontalmente, intercambiando gemas adyacentes. Está (por supuesto) escrito en Python, usando el framework para juegos cocos2d.
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/enjuewemela-logo.png
+.. image:: /images/enjuewemela-logo.png
     :alt: Logo
 
 La versión 0.4.1 trae un montón de nuevas características, y muchos bugs corregidos. Lo más relevante es:

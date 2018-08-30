@@ -8,7 +8,7 @@ Salí de Argentina el Sábado a la una de la tarde, en un vuelo a Madrid sin may
 
 La escala fue en Madrid a la madrugada, y al mediodía ya estaba en Bélgica. Del aeropuerto me tomé un tren por una estación, y de allí otro por un buen rato hasta la ciudad donde estaba el hotel (de la estación al hotel mismo había un micro que iba y venía).
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/udsm-estactren.jpg
+.. image:: /images/udsm-estactren.jpg
     :alt: Estación de tren en Bélgica
 
 Llegué a la habitación (que comparto con `John <http://pyvore.com/>`_, pero él ya estaba desde la semana pasada), desensillé, nos comimos una ensalada, y descansé un rato hasta la reunión al atardecer.
@@ -17,5 +17,5 @@ Allí nos contaron algunas cosas en las que Canonical se enfocará para el próx
 
 Luego, una cena con mucha charla, ya que fui encontrando gente que no veía hace rato, nos tomamos una cerveza con John, más charla, y al sobre!
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/udsm-cerveza.jpg
+.. image:: /images/udsm-cerveza.jpg
     :alt: Cerveza!

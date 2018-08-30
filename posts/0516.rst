@@ -6,7 +6,7 @@ Dos datos con respecto a la inflación en Argentina.
 
 El primero es sencillo: lo que me cobra el `Automovil Club Argentino <http://www.aca.org.ar/>`_ por mes por la cobertura para auxilios mecánicos y etcéteras, desde octubre 2005 hasta la fecha (mismo servicio sobre el mismo auto):
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/inflac2.png
+.. image:: /images/inflac2.png
     :alt: Curva ACA
 
 El segundo es más complicado. Desde hace un tiempo que compro carne y derivados en la misma carnicería (`Chalin <http://www.chalincarnespremium.com.ar/>`_, en Mataderos: es buena carne, relativamente barata, y me la mandan a casa). Desde hace poco más de un año guardo los tickets que te dan al comprar (donde indican el corte, el precio y el peso, todo muy transparente).
@@ -15,7 +15,7 @@ Con esta info quise hacer también algo que indique los "aumentos de la carne", 
 
 El resultado es el gráfico siguiente, donde se ve el aumento sufrido con respecto a la compra anterior:
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/inflac1.png
+.. image:: /images/inflac1.png
     :alt: Aumento carne
 
 Todos los números crudos en `esta planilla de cálculos <http://ubuntuone.com/p/xEy/>`_.

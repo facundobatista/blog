@@ -14,7 +14,7 @@ Así nació **certg**, un generador de certificados, que a la vez es simple, ver
 
 La verdad, quedó piola: no es dificil de usar, y es lo suficientemente flexible para las distintas necesidades que tuve. Este es como quedó mi certificado de la PyCon:
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/certif-pycon.png
+.. image:: /images/certif-pycon.png
     :alt: Fuí a la PyCon!
 
 El proyecto, con ejemplos y todo, `acá <https://github.com/facundobatista/certg>`_.

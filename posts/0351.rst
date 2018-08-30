@@ -8,7 +8,7 @@ Este sábado y domingo se hace un `Global Python Sprint Weekend <http://wiki.pyt
 
 En función del incremento de tráfico que tuvo la lista de Python Argentina en los últimos meses, y que tenemos lectores de muchas partes del mundo hispanoparlante, quise hacer una estadística comparativa con la otra gran lista en español del planeta. Para ello recurrí a `Gmane <http://gmane.org/>`_, que es el puente usado por ambas listas para tener un espejo en forma de News. Luego de pelearme durante media hora con esos números (que tienen agujeros, y están actualizados sólo hasta hace seis meses), saqué un grafiquito:
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/gmane-ult200d.png
+.. image:: /images/gmane-ult200d.png
     :alt: Ambas listas comparadas
 
 Por último, ¡hoy hay `reunión de PyAr <http://www.python.com.ar/moin/Eventos/Reuniones/ProximaReunion>`_! ¡Fiesta! :)

@@ -10,7 +10,7 @@ Pero para ver si logramos vencer esta "inercia a arrancar", vamos a probar un nu
 
 Obviamente lo voy a editar bastante, lo voy a toquetear, pero la idea es a ver si se logra que fluya más las cosas para contar y no terminar con dos o tres descripciones parcas y nada más.
 
-.. image:: http://taniquetil.com.ar/facundo/imgs/voice-recorder.jpeg
+.. image:: /images/voice-recorder.jpeg
     :alt: Grabador de voz
 
 En tren de contar algo de lo que fue sucediendo, el mes pasado hice el asado geek, que aunque es sólo un asado un domingo, realmente hay que ir a comprar un montón de cosas, y acomodar cosas en la casa, preparar todo, un largo etc. Después es un par de días de reorganizar todo de nuevo.

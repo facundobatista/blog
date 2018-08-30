@@ -6,7 +6,7 @@ El domingo pasado fuimos a Plaza Francia a buscar alguna cosita puntual que no p
 
 Un bardo para estacionar, más que nada porque los carteles son confusos, pero llegamos, Felipe jugó un buen rato en un árbol que es increíble de grande, y paseamos por la feria un rato.
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/monifeluarbol.jpeg
+.. image:: /images/monifeluarbol.jpeg
     :alt: Moni y Felu en el árbol
 
 Bueno, no paseamos tanto porque a los diez minutos de caminar encontramos el mismo puesto al que otros años le compramos cosas similares, estuvimos un rato ahí eligiendo, y nos volvimos.

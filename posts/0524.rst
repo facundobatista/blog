@@ -10,7 +10,7 @@ Para terminar de cerrar la noche, decidimos tirar unas lineas al bowling. La ver
 
 Hacía mil que ninguno de los dos jugaba al bowling, pero ambos hicimos una muy buena cantidad de puntos. Es más, en la segunda linea yo hice tantos puntos que ahora es mi record personal... y le sacamos una foto, para la posteridad.
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/recordbowling.jpeg
+.. image:: /images/recordbowling.jpeg
     :alt: Record bowling
 
 Un lujo. Hay que repetir esos encuentros.

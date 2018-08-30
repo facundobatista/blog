@@ -6,7 +6,7 @@ La semana que viene se hace la mayor conferencia de Python de Europa, la Europyt
 
 Es larga. El domingo hay un día de tutoriales y cursos para principiantes. La conferencia en sí es de lunes a viernes. Y sábado y domingo de la otra semana hay sprints. Pueden ver el `schedule online <https://ep2016.europython.eu/p3/schedule/ep2016/>`_.
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/europython-2016-logo.png
+.. image:: /images/europython-2016-logo.png
 
 Lo que más me entusiasma de esta edición de la conferencia es que voy a ir, :). No es la primera vez que voy, sin embargo; vuelvo luego de once (sí, 11) años de ausencia!!
 

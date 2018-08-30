@@ -4,6 +4,6 @@
 
 Un momento con el hijo, que me encantó (click en la foto para ver el video).
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/comiendo_zapallo.png
+.. image:: /images/comiendo_zapallo.png
     :alt: Comiendo zapallo con el hijo
     :target: http://www.flickr.com/photos/54757453@N00/4704935614/

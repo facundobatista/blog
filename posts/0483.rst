@@ -4,7 +4,7 @@
 
 Nos estamos acercando al año... este es el de los siete meses, ¡un espectáculo! :)
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/felipemes7.jpeg
+.. image:: /images/felipemes7.jpeg
     :alt: Felu 7 meses
     :target: http://www.taniquetil.com.ar/facundo/FelipeS%C3%A9ptimoMes.ogv
 

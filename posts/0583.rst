@@ -16,7 +16,7 @@ El viernes al mediodía hice los checkins de todos los vuelos. Primero el de Mon
 
 Error. Grosero error.
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/aerolineas-error.jpeg
+.. image:: /images/aerolineas-error.jpeg
     :alt: Error
     :target: http://www.flickr.com/photos/elycefeliz/4448688868/
 
@@ -38,7 +38,7 @@ A esta altura ya había vuelto al mostrador de TAM, y mientras hablaba con la pa
 
 Anyway. Le pedí a la panameña que por favor lo cambien, y me contestó que ellos no podían hacer nada, porque el ticket fue emitido por Despegar.com, que tenía que hablar con ellos para que lo rectifiquen. A todo esto eran las cuatro y cuarto, mi embarque era en quince minutos, yo no tenía ningún número de Despegar, y en Venezuela ya era de noche.
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/aerolineas-resig.jpeg
+.. image:: /images/aerolineas-resig.jpeg
     :alt: Resignación
     :target: http://www.flickr.com/photos/leo-gruebler/6750771599/
 

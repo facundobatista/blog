@@ -32,7 +32,7 @@ Notablemente el modelo de "consultorio Python" fue el que menos votos recibió, 
 
 El siguiente gráfico es el que me da el form para ver los resultados, está recortado excluyendo opciones que no estaban en la encuesta original (de cualquier manera `acá está la planilla con toda la data <https://docs.google.com/spreadsheets/d/1cFTN2MJB08myeD_42zcgzOpMID5ZqWaHa0L7nUMS_Yw>`_)
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/cualevento.png
+.. image:: /images/cualevento.png
     :alt: Cual evento
 
 La distribución de votantes es la esperable en función de la (lamentable) centralización de nuestro pais: muchos de CABA y Buenos Aires, bastantes de otras ciudades grandes (Córdoba, Rosario, Santa Fe, La Plata), algunos de otros lados. En general la gente está dispuesta a viajar para los eventos.

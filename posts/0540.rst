@@ -8,7 +8,7 @@ Y no, no es que Cablevisión decidió incorporar la señal a su grilla (hijos de
 
 Ya me había comprado una tele con sintonizador para la misma, pero hace casi un mes decidí terminar de instalar todo, compré cable, conectores, la antena, y prepraré la entrada de la casa para pasar el cable... y esperé a ver quién me podía ayudar. Un finde vinieron Di y Gus a casa, y aprovechando que Gus es flaquito (un gustavo son dos tercios de facundo) se subió él a instalar la antena.
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/gustavoantena.jpg
+.. image:: /images/gustavoantena.jpg
     :alt: Gustavo instalando la antena
 
 ¿El resultado? Espectacular, la TV digital está buena, y que Felu pueda disfrutar Paka paka, mejor.
@@ -19,7 +19,7 @@ Obviamente, se terminó cayendo, y de cabeza. Yo reaccioné tan rápido que me t
 
 Eso sí, reaccioné rápido para sacar a Felu del agua, pero no para sacar mi teléfono del bolsillo... cuando salí yo del agua le dí el fono a Diegote para que le saque la batería. Al final del día me lo llevé a casa, lo desarmé completamente, y lo metí en un bol con arroz.
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/fonodespanzurrado.jpg
+.. image:: /images/fonodespanzurrado.jpg
     :alt: Fono despanzurrado
 
 Un día y medio después, lo armé, ¡y anduvo! Al principio tenía como unas manchas de humedad en la pantalla, pero al pasar el tiempo (y fuertemente condicionadas por la temperatura interna del aparato) esas manchas se fueron yendo.

@@ -10,7 +10,7 @@ Pero bueno, decidí ponerme objetivos a corto plazo, e irlos tuiteando tanto al 
 
 ¡Y funcionó! Esta es la curva de mi peso desde ese día hasta fin de año, con recta de tendencia y todo :)
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/dieta-final2011.png
+.. image:: /images/dieta-final2011.png
     :alt: Curva de peso de la dieta
     :target: http://www.taniquetil.com.ar/facundo/imgs/dieta-2009-2011.png
 

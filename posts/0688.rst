@@ -14,7 +14,7 @@ Pasó la charla que doy siempre en el postgrado para científicos en La Plata (d
 
 Y el fin de semana pasado fue el cumpleaños de Felipe, que no sólo es que el sábado sea movidito (almuerzo con mi vieja, salón a la tarde para toda la familia y amigos con niños, más compañeritos del jardín, y cena con el resto de la familia), sino que hay mucha preparación los días anteriores.
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/cumple6felu.jpeg
+.. image:: /images/cumple6felu.jpeg
     :alt: Cumple 6 de Felu
 
 Además, estuve corriendo para renovar la visa de USA, que me había expirado, y de repente pasé a necesitarla.

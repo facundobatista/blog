@@ -21,7 +21,7 @@ Empecé a investigar qué era, y me di cuenta que Exaile no tenía más el plugi
 
 Buscando (en el proyecto mismo) en qué momento eso desapareció encontré un *commit* que hacía referencia a `mpris2 <https://specifications.freedesktop.org/mpris-spec/latest/>`_, que resulta que es una interfaz de D-Bus para controlar reproductores de sonido/video.
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/caution-geek.png
+.. image:: /images/caution-geek.png
     :alt: Caution, geek
 
 Aprendiendo sobre esta tecnología encontré que había un cliente de mpris de linea de comandos, así que lo instalé (``sudo apt-get install mpris-remote``) y configuré en el sistema para que *ctrl-shift-espacio* sea ``mpris-remote pause``.

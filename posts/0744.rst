@@ -4,7 +4,7 @@
 
 Tengo el agrado de anunciar, luego de mucho (demasiado) tiempo, una nueva liberación de `Encuentro <http://encuentro.taniquetil.com.ar/>`_ (que es, como ya sabrán, un programejo que permite buscar, descargar y ver contenido del Canal Encuentro, Paka Paka, BACUA, Educ.ar, Decime quien sos vos, TED y otros).
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/encuentro-logonuevo.png
+.. image:: /images/encuentro-logonuevo.png
     :alt: Encuentro (¡nuevo logo y tipografía!)
     :target: http://encuentro.taniquetil.com.ar/
 

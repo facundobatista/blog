@@ -4,12 +4,12 @@
 
 Los días año2008[Navidad:] (ok, la semana entre Navidad y Año Nuevo, pero este es un post de Python, así que deberían entender lo otro, ;), nos fuimos con Moni a `Villa Ventana <http://es.wikipedia.org/wiki/Villa_Ventana>`_, un pueblito a kilómetros de Sierra de la Ventana.
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/villaventana_facupileta.jpeg
+.. image:: /images/villaventana_facupileta.jpeg
     :alt: Disfrutando del sol en la pileta del lugar
 
 Pero ojo, que no se confundan por estas imágenes, no todo fue descanso y relajo. También vimos algunas películas, hicimos un asadito, paseamos, y varios etcéteras.
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/villaventana_monicerro.jpeg
+.. image:: /images/villaventana_monicerro.jpeg
     :alt: Subimos al Cerro Bahía Blanca
 
 Y también trabajé en la `CDPedia <http://code.google.com/p/cdpedia/>`_, un proyecto de `PyAr <http://www.python.com.ar/moin>`_ que teníamos bastante abandonado, pero que quiero empujar para que salga este nuevo año.

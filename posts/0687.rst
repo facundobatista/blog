@@ -44,7 +44,7 @@ So, the whole solution stack currently is:
 
 - `Magicicada GUI <https://launchpad.net/magicicada-gui>`_: a small graphical utility that lets you interact and supervise what the client is doing in your computer.
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/magicicada-logo.png
+.. image:: /images/magicicada-logo.png
     :alt: Magicicada
 
 All further work will be done in those projects. If you want to participate please `suscribe to the mailing list <mailto:magicicada-hackers@lists.launchpad.net>`_ or say hi in the IRC channel (#magicicada in Freenode). Also, you can `file issues <https://bugs.launchpad.net/magicicada/+filebug>`_ for any bug you find or new features/changes you want (be sure to choose the right project: server, client, protocol or gui).

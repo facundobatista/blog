@@ -10,7 +10,7 @@ Pero nunca había encontrado una forma piola de tener máquinas virtuales de Lin
 
 Y acá entra LXC.
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/lxc.png
+.. image:: /images/lxc.png
     :alt: Linux container
 
 Aunque LXC no es propiamente dicho una "máquina virtual" (es más bien un "entorno virtual"), igual permite la ejecución de un linux que no se mezcla a nivel de configuraciones ni de paquetes instalados ni de lo que uno puede romper del sistema con la máquina que uno tiene.

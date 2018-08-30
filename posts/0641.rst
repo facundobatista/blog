@@ -8,7 +8,7 @@ En parte la culpa la tiene que en el laburo hay mucho ídem (la semana que viene
 
 Bah, no toda la familia, Moni empezó a trabajar a principios de Febrero, Felu está en casa todo el día (al final este año no lo mandamos a colonia), y Male tuvo de vacaciones a la chica que la cuida a la mañana. Ergo, mis mañanas, durante un par de horas, eran complicadas. Esto en el trabajo lo compensaba trabajando más tiempo a la tarde, lo cual también me quitaba tiempo libre.
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/malefelu-feb14.jpg
+.. image:: /images/malefelu-feb14.jpg
     :alt: Male y Felu, jugando
 
 Pero bien. Ya casi estamos en ritmo para el resto del año, así que quería contarles un poquito algunos avances en varios proyectos, que aunque no cerré ninguno como para contarlo por separado, está bueno que se vea el progreso.

@@ -8,7 +8,7 @@ Tener una canción copada como ringtone, nada.
 
 Ver que tu hijo se pone por motus propio a bailar Los Ramones, no tiene precio, :D
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/feliperamon.png
+.. image:: /images/feliperamon.png
     :alt: Click para ver el video
     :target: http://www.taniquetil.com.ar/facundo/vids/FeluRamones.ogv
 

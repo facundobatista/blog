@@ -10,7 +10,7 @@ Algo en lo que no nos metimos mucho es la integración de nosetests con framewor
 
 Entonces, vayamos a los bifes... ¿qué necesitamos para tener el testrunner ideal?
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/keeptesting.png
+.. image:: /images/keeptesting.png
     :alt: Keep testing
 
 

@@ -22,7 +22,7 @@ Los rubros son:
 
 - Peajes: los gastos de peajes automáticos en Capital y Gran Buenos Aires, pero no los correspondientes a los peajes en ruta (porque esos los pago en efectivo y los considero como gastos de los viajes mismos, casi siempre vacaciones).
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/sanderostepway.jpeg
+.. image:: /images/sanderostepway.jpeg
     :alt: Autito
 
 A esos rubros, le agrego lo que es la amortización de la compra del auto en sí, considerando el valor que pagué en su momento, y que el auto se amortizaría en cinco años (teniendo en cuenta un valor residual chico).

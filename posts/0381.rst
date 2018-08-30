@@ -25,7 +25,7 @@ Demasiada casualidad que mientras escribo esto se cruza Alberto Cortez por mis a
     Y la luna y la vida
     Con el verbo... "amar"
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/carasmoni.png
+.. image:: /images/carasmoni.png
     :alt: El Hada
 
 Te amo, ¡pared!

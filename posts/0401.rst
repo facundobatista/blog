@@ -15,7 +15,7 @@ La pasamos así de mal mientras estábamos diseñando...
 
 ...o ya programando...
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/sprintcor_codeando.jpeg
+.. image:: /images/sprintcor_codeando.jpeg
     :alt: Codeando
 
 No se quejen, que no les muestro las fotos de cuando estábamos en la pile. Y como si fuera poco, tuvimos visitas (como Perrito, o Fede), y hasta nos juntamos con los chicos de Córdoba a tomar algo (fuimos a reuniones del GrULiC y todo!).

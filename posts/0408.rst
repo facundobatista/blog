@@ -20,7 +20,7 @@ si vos ya estás acá?
 
 *Cuando estés acá (La Renga)*
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/felipe18semanas.jpeg
+.. image:: /images/felipe18semanas.jpeg
     :alt: Moni con Felipe de 18 semanas
     :target: http://www.flickr.com/photos/54757453@N00/3505633413
 

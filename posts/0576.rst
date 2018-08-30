@@ -14,7 +14,7 @@ En fin. Había perdido la posibilidad de "facilmente lanzar programas o abrir ar
 
 LauncherPosta es un lanzador. Realmente un lanzador. Uno que te deja ejecutar programas, o abrir archivos fácilmente, :D.
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/launcherposta-logo.png
+.. image:: /images/launcherposta-logo.png
     :alt: LauncherPosta
 
 Al ejecutar el programa lo que sucede es que aparece un iconito en el systray, el cual es la principal interfaz con el programa. Allí estarán las opciones que carguemos para ejecutar aplicaciones o abrir archivos.

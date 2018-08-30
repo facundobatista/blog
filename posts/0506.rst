@@ -12,7 +12,7 @@ Pero más tarde terminaron llegando, y entre una cosa y la otra nos fuimos termi
 
 Después de comer arrancamos varias personas laburando en la `CDPedia <http://python.org.ar/pyar/Proyectos/CDPedia>`_, un proyecto al que le dedicamos buena parte de los cuatro días. La verdad es que tantas horas invertidas tuvo un resultado bárbaro: corregimos varios problemas, le agregamos muchas características, e incluso terminamos todo lo necesario para sacar la versión 0.7; sólo nos queda limar algunos detalles y ya estaríamos sacando la versión final para distribuir y ver si todavía estamos a tiempo de que Educ.ar las distribuya este año.
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/pycamp11-trabajando.jpeg
+.. image:: /images/pycamp11-trabajando.jpeg
     :alt: Trabajando
 
 El viernes arrancó el día conmigo dando una charla de Twisted que no era mía. Había mucha gente que quería aprender algo de Twisted, y se iba a utilizar en varios proyectos, entonces se me ocurrió, aprovechando que teníamos un microproyector que había traído Achuni, dar `la charla que Lucio preparó <http://python.org.ar/pyar/CharlasAbiertas2010/Twisted>`_ para las Charlas Abiertas de La Tribu.
@@ -25,7 +25,7 @@ El sábado se hizo un bug day doble, de `Python <http://python.org/>`_ y `Django
 
 A la tardecita hicimos un paseo entre todos: nos fuimos caminando hasta *el* punto turístico de La Falda: el `Hotel El Edén <http://es.wikipedia.org/wiki/Eden_Hotel>`_, donde vimos un video con la historia del lugar, tuvimos un paseo guiado, y hasta una ínfima degustación de vino y queso (muy ínfima). No estuvo para nada mal el paseo.
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/pycamp11-paseo.jpeg
+.. image:: /images/pycamp11-paseo.jpeg
     :alt: Hotel El Edén
 
 Durante la vuelta, picamos en punta con Perrito y Pablo Mouzo y pasamos por un supermercado para comprar unos vinos, porque esa noche cenábamos en el salón donde trabajábamos (nos traían las pizzas hasta ahí), ya que durante la cena tuvimos la `reunión de PyAr número 48 <http://python.org.ar/pyar/Eventos/Reuniones/2011/Reunion48>`_. Tratamos varios temas, y la discusión estuvo muy buena, fue una fantástica reunión.

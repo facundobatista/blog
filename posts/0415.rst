@@ -16,7 +16,7 @@ El miércoles aproveché para ir a cenar con Tere, Santi y Rosa Mari. Caminamos 
 
 Al otro día dijimos con Lucio que nos íbamos a quedar en el hotel, pero Martín nos dijo de ir a cenar, así que aprovechamos y fuimos a pasear por el `Park Güell <http://es.wikipedia.org/wiki/Parque_G%C3%BCell>`_ un rato, hasta que cayó bastante la luz, cenamos por ahí, y volvimos.
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/parkguell.jpeg
+.. image:: /images/parkguell.jpeg
     :alt: Park Güell
 
 El viernes había un karaoke organizado por la empresa a la noche, así que dormí un par de horas de siesta, me levanté y fuí al bar que se había reservado todo para nosotros. Comí algo, tomé algo, escuché a algunos hacer que cantaban, y cuando me aburrí (bastante pronto), me volví al hotel.

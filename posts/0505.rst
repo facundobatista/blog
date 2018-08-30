@@ -8,7 +8,7 @@ Pero bazar de los modernosos modernosos, donde hay muchas cosas para la cocina, 
 
 Mirando y paseando, debo decir que me sorprendí mucho cuando en uno de los estantes, ¡encontré un sifón!
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/sifonmoderno.jpeg
+.. image:: /images/sifonmoderno.jpeg
     :alt: Sifón modernoso
 
 Como pueden ver, es un sifón recargable, para preparar soda a mano, con la típica garrafita... ¿será el futuro que se viene?

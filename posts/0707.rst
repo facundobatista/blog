@@ -8,7 +8,7 @@ Lo que no es tan fácil o automático es cómo guardar las fotos, cómo salvarla
 
 Yo tengo algo armado que me soluciona esto, hace rato, y me está funcionando tan bien que pensé en compartirlo. ¿Es trivial de montarlo para que funcione? No. Pero una vez armado todo, anda pipí cucú. Y gratis :D
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/smiley-ok.png
+.. image:: /images/smiley-ok.png
     :alt: Yes!
 
 El setup o configuración tiene tres partes: un servicio online, el teléfono, y la compu o laptop donde trabajes normalmente.

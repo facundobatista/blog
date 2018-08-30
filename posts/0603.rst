@@ -12,7 +12,7 @@ Son varias las razones... pero principalmente porque empaquetar PyGtk en un .exe
 
 Otras razón de menor importancia es que no me gustó como Gtk evoluciona. El *futuro* del framework es Gtk3, y ya estuve `tirando código para usarlo <http://launcherposta.taniquetil.com.ar/>`_, y lo que usé me gustó menos que Gtk2, así que me pareció un buen momento de cambiar. Finalmente, es una buena excusa para aprender Qt, ;)
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/qt.png
+.. image:: /images/qt.png
     :alt: Qt
 
 En fin. La migración ya está terminada, pude hacer en Qt todo lo que tenía que hacer en función de la interfaz de Encuentro. ¿Qué me pareció? Bueno, las sensaciones son varias.

@@ -8,7 +8,7 @@ Pero quizás este post sea el último que hago sobre el juego. Y es que me aburr
 
 Para "despedirme", le implementé algo que tenía en mente hace rato y que quería que esté: un "modo Python Argentina", donde en vez de las piezas usuales, hay personajes de juegos hechos por el grupo.
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/enjuewemela-pyar.png
+.. image:: /images/enjuewemela-pyar.png
     :alt: Enjuewemela modo PyAr
 
 Lo consiguen en `el lugar de siempre <http://enjuewemela.taniquetil.com.ar/>`_ :)

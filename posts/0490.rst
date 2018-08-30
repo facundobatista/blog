@@ -6,7 +6,7 @@ Con Guillo y Alecu empezamos a charlar sobre si, en un módulo que estaba hacien
 
 Como no nos decidíamos, decidí medirlo.
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/medir.jpg
+.. image:: /images/medir.jpg
     :alt: Medimos!
     :target: http://www.flickr.com/photos/61863636@N00/1533299418/
 

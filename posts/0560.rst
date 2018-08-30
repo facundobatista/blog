@@ -10,7 +10,7 @@ El almuerzo estuvo muy bien resuelto (con excepción del catering pre-armado, la
 
 Ah, y también tuvimos tiempo para sacarnos una foto grupal:
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/pyday-lujan.jpeg
+.. image:: /images/pyday-lujan.jpeg
     :alt: Todos
 
 La tarde siguió tranquila, con charlas copadas y algunos talleres o sesiones interesantes. Yo volví a dar "Python más rápido que C".

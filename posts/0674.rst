@@ -10,7 +10,7 @@ Con el tiempo, se empezó a complicar.
 
 En un momento, Google decidió que la versión del teléfono de Maps no iba a mostrar más "custom layers" (o sea, las capas que creabas vos). En otras palabras, ¡no podía ver más mis datos! Esto lo solucioné instalando una versión vieja de Google Maps en el teléfono (lo cual no es sencillo de hacer, pero funcionaba). Más adelante, Google empezó a complicar el uso de las capas en la versión web también. Y hace algunos meses, dejó de servir esa información, con lo cual aunque en el teléfono tuviera una versión que pedía esas capas al servidor, el servidor no las contestaba.
 
-.. image:: http://taniquetil.com.ar/facundo/imgs/7jrsl-donde.jpg
+.. image:: /images/7jrsl-donde.jpg
     :alt: Esta foto es vieja, pero me encanta
 
 En paralelo, hace un par de años largos que quiero empezar a irme en lo posible de los servicios de Google, y en función de eso en los últimos meses empecé a usar los mapas de `OpenStreetMap <http://www.openstreetmap.org>`_ ("OSM"), por recomendaciones de `Nico <http://gilgamezh.me/blog/>`_, `Humitos <http://elblogdehumitos.com.ar/>`_ y `Marcos Dione <http://www.grulic.org.ar/~mdione/glob/>`_. Desde mitad del año pasado también lo puse en el teléfono, mediante la gran aplicación `OsmAnd <http://osmand.net/>`_ primero, y desde hace un par de semanas con `MAPS.ME <http://maps.me/>`_ (que es bastante más rápida al mostrar los datos, y creo que es mejor decidiendo dónde mostrarte los nombres de las calles, lo cual es importante).

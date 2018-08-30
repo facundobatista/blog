@@ -10,14 +10,14 @@ Yo tenía que llegar el miércoles a la noche porque el jueves abría el día de
 
 Mis charlas salieron bien, aunque la de debugging no me gustó del todo como la había dado (pero luego recibí buen feedback). Para el taller de Intro a Python usé por primera vez a `Pysenteishon <http://edvm.github.io/pysenteishon/>`_, un software muy copado y piola para ir pasando los slides desde el teléfono (¡gracias `Emiliano <https://twitter.com/edvm>`_ por hacerlo!). Y para las charlas del jueves estuve por primera vez descalzo dando la presentación (era algo que quería probar desde hace rato, y aproveché que el escenario del auditorio tenía piso de madera).
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/pycon14-enpatas.jpeg
+.. image:: /images/pycon14-enpatas.jpeg
     :alt: Dando la charla en patas
 
 También fuí a muchas charlas, había muchas cosas copadas para ver, y creo que me salté uno o dos timeslots nada más en toda la conferencia. Las keynotes estuvieron bien, pero no me entusiasmaron particularmente. Y todo lo fue lugar y organización estuvo genial, la verdad que se pasaron. Lo mismo con la gente con la que me (re)encontré: es un placer ser parte de una comunidad así.
 
 Yo llevé la cámara... pero la verdad es que colgué sacando fotos. Pero la grosa de `Yami <https://twitter.com/yamilacuestas>`_ sacó un montón, `están todas acá <https://www.flickr.com/photos/70871182@N04>`_. Y una de las últimas que sacó es justamente la grupal, esta que muestro acá:
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/pycon14-grupal.jpeg
+.. image:: /images/pycon14-grupal.jpeg
     :alt: Foto grupal
 
 Y como siempre que uno no viaja durmiendo o solo, está el efecto de "PyCon extendida". Es que uno viene charlando de mil cosas, de lo más variado, pero también de proyectos, ideas, etc. Con Nico nos venía rondando en la cabeza una idea para facilitar el uso de dependencias en programas Python, estuvimos charlando con gente en la conferencia, nos dieron feedback, la idea fue mutando... y en el viaje de vuelta se nos terminó de ocurrir algo piola, que no debería ser demasiado loco de implementar; ya les traeré la novedad.

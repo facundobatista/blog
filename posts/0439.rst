@@ -8,7 +8,7 @@ El término *bug* o *bicho* viene de cuando se encontró una falla en la ejecuci
 
 El motivo de este post es que hoy me encontré con esta imagen:
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/bugreal.jpg
+.. image:: /images/bugreal.jpg
     :alt: El bicho original
 
 Es un recorte de `la imagen original <http://upload.wikimedia.org/wikipedia/commons/8/8a/H96566k.jpg>`_, que como dice `acá <http://es.wikipedia.org/wiki/Archivo:H96566k.jpg>`_ es el primer *bug* de una computadora, que se encontró atrapada en el relé #70 del panel F de la Mark II mientras se estaba probando en la Universidad de Harvard en Septiembre de 1945.

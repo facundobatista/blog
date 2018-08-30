@@ -6,7 +6,7 @@ Hace un par de semanas sucediose el PyCamp. En este tipo de eventos, como en tan
 
 Con "la cámara" me refiero al dispositivo para sacar fotos de mejor calidad que uno tiene. Puede ser una reflex toda pipona, o una point and shoot berretona, o algo intermedio (o "bridge") como la que tengo yo (una Canon G15).
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/canon-g15-back.jpeg
+.. image:: /images/canon-g15-back.jpeg
     :alt: Canon G15
 
 Y uno no la usa todo el tiempo por dos razones. La primera es que en general, a menos que sea una point and shoot finiiiiita, molesta un poco llevarla: te ocupa al menos una mano, o rellena bastante un bolsillo, o hay que llevarla al cuello, o hay que llevar todo un bolso al hombro.

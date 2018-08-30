@@ -6,7 +6,7 @@ En el último PyCamp Pablo Mouzo tiró la maravillosa idea de que aquellos con m
 
 Pero a ese concepto Mariano Guerra se le dió otra vuelta de rosca, y armó una `página <http://python.org.ar/pyar/AdoptaUnNewbie>`_ en la que personas con buena experiencia en PyAr o Python se proponen como mentores, los newbies se proponen como mentados, en función de los perfiles de los tutores, y luego los mentores aceptan dedicar una cantidad de tiempo semanal a las consultas del mentado (por mail, IM, en persona o lo que se decida), el mentado acepta documentar sus pasos de aprendizaje en un blog y a dar una charla en el evento en el que se considere que entraron en la "adultez pythonistica".
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/mentor.png
+.. image:: /images/mentor.png
     :alt: Mentor
 
 Ahí es donde me puse a pensar que en mi (poco) tiempo libre empujo (o trato de empujar) algunos proyectos que son bastantes variados entre sí, y que pueden ofrecer una buena oportunidad para que alguien arranque y se ponga a aprender, no tanto Python, sino como trabajar en un proyecto.

@@ -6,7 +6,7 @@ Dos cosas que terminamos en los últimos días antes de `PyCon <http://www.taniq
 
 El tutorial no es más ni menos que la traducción completa al castellano del Tutorial de Python (el oficial), que `servimos en HTML <http://docs.python.org.ar/tutorial/contenido.html>`_, y que también se puede `descargar en PDF <http://python.org.ar/pyar/Tutorial>`_. Este PDF lo generamos con `rst2pdf <http://code.google.com/p/rst2pdf/>`_, y la verdad que queda bárbaro... lo tuve que tocar un poco a mano, pero fueron en detalles que importaban en la impresión, no en la distribución en PDF...
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/tutorialimpreso.jpg
+.. image:: /images/tutorialimpreso.jpg
     :alt: El Tutorial, impreso
 
 La CDPedia es la Wikipedia en un CD. Bueno, la verdad es que también la generamos en un DVD, pero el nombre ya quedó ese, que se le va a hacer. En la versión CD entraron más de 80 mil artículos, la mayoría con imágenes. Y en la versión DVD entraron todos, y casi todos con sus respectivas imágenes. Obvio, es un trabajo en progreso (esta es la versión 0.5, y hay cosas para hacerle), pero así como está es usable.

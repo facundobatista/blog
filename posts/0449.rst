@@ -14,7 +14,7 @@ No saben lo lindo que es tener un hijo. Aunque a veces llore y no entiendas qué
 
 Ver como sonríe, como mira, como va entendiendo todo, sentir que te agarra un dedo, que se apoya en vos, encontrar que crece todos los días de maneras distintas, verlo dormir, etc...
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/felipesillon.jpg
+.. image:: /images/felipesillon.jpg
     :alt: Felipe en el sillón rojo
 
 No saben lo lindo que es tener un hijo.

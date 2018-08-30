@@ -12,7 +12,7 @@ Luego de un tiempo, se congelarán los diseños, y se someterán los mismos a vo
 
 La fecha límite para proponer diseños es el 11 de Julio... aunque arrancó lento, espero que la gente proponga ideas. Por lo pronto, yo acabo de subir tres diseños, que nos los pongo porque quedarían chicos acá, pero los pueden ver en sus respectivas páginas `[-] <http://www.python.com.ar/moin/RemerasV2/FacundoBatista1>`__ `[-] <http://www.python.com.ar/moin/RemerasV2/FacundoBatista2>`__ `[-] <http://www.python.com.ar/moin/RemerasV2/FacundoBatista3>`__. El que reproduzco aquí es el diseño de la cuarta remera, que es muy difícil de hacer por los colores y resoluciones que implicaría... pero que me gustó mucho:
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/remeras2-04.png
+.. image:: /images/remeras2-04.png
     :alt: Los juegos de PyAr
 
 Pueden ver otros diseños, más las condiciones completas del concurso, en la `página principal <http://www.python.com.ar/moin/RemerasV2/>`_.

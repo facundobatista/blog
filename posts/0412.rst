@@ -12,7 +12,7 @@ Como ejemplo de esto, el martes a la tarde hubo una cena que daba comienzo al ev
 
 Quiero aprovechar la ocasión para mostrarles la siguiente foto, ya que el otro día me preguntaban cómo era trabajar con un jefe que vive en Holanda cuando uno trabaja en Buenos Aires, y sí todos somos medio raros o hay gente más normal...
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/buffetapertura.jpeg
+.. image:: /images/buffetapertura.jpeg
     :alt: Mi jefe y la jefa de mi jefe
 
 El `hotel La Mola <http://maps.google.com/maps?f=q&source=s_q&hl=es&geocode=&q=hotel+la+mola+barcelona&ie=UTF8&ll=41.575268,2.060966&spn=0.001553,0.004828&t=h&z=18>`_, en el que estuvimos, estuvo muy bueno en muchos sentidos, pero todavía no puedo creer lo mal que estaba diseñado el baño: había un inodoro en un cuartito totalmente cerrado, con el ancho del inodoro mismo, que no recomendaría a un claustrofóbico, una ducha en una caja de vidrios verdes casi opacos, y una pileta en el medio. Las dos "cajas" tenían su correspondiente puerta, pero no el baño en general. Encima, la puerta de la ducha estaba en linea con la puerta de la habitación... o sea que si vos te estás bañando, te das cuenta que te dejaste el shampoo afuera, abris la puerta de la ducha y justo tu compañero entra a la habitación, te puede suceder que la gente que pasa por el pasillo te salude alegremente, :p
@@ -23,7 +23,7 @@ También, al ser una reunión de toda la empresa, los directores de las distinta
 
 Luego, la cena, y el Canonical Jam, donde mis compañeritos de empresa hacen música entre todos, alternando los intérpretes de los instrumentos, tocando clásicos para que la gente cante, todo muy groso (¡vean las `fotos <http://www.flickr.com/photos/54757453@N00/sets/72157618677314830/>`_!).
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/allhandsrocanrol.jpeg
+.. image:: /images/allhandsrocanrol.jpeg
     :alt: Rocanrol
 
 Ahora, el fin de semana, a pasear y descansar un poco, antes de otra semana de duro trabajo!
