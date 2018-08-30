@@ -41,7 +41,7 @@ Por otro lado, ayer se cumplieron los seis meses de Malena. ¡Medio año ya! Com
 
 Les dejo una foto de Male que la muestra saboreando un hueso de asado, con indicios de una *feroz omnivoracidad* como el hermano...
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/male-omn%C3%ADvora.jpeg
+.. image:: /images/male-omnívora.jpeg
     :alt: Con el hueso
 
 ..., y dos videos: uno cortito de `ella charlando <http://ubuntuone.com/3XCxJoxhiTBYMH7OoF7dzO>`_ (está que charla, charla, charla, charla...), y otro un poco más largo (de casi dos minutos) mostrando `como se mueve ya <http://ubuntuone.com/1yxzmRiDWEGE1MX2Uuz2j3>`_.

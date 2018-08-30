@@ -10,7 +10,7 @@ En primer año, también, había una actividad opcional, que era "taller". Obvia
 
 Estaba bueno, por lo que recuerdo. Era más que nada práctica: cómo soldar, etc. Hacer cosas. Y una de las cosas que hicimos, como proyecto en el segundo semestre, fue "la valija de electrónica".
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/valijaelectr%C3%B3nica.jpg
+.. image:: /images/valijaelectrónica.jpg
     :alt: La valija
 
 El diseño era del profesor y/o el ayudante, y lo que hicimos fue comprar (entre todos, para que salga más barato) todo los componentes. No sólo los electrónicos, sino también el transformador, y la valija en sí, y además mandamos a hacer las placas, los acrílicos de arriba, etc.

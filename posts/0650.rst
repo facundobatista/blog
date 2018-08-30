@@ -6,7 +6,7 @@ Estos días fue lanzado exitosamente el tercer nanosatélite argentino, "Tita" (
 
 Se llaman "nanosatélites" porque, justamente, son mucho más chicos (y baratos) que los satélites "tradicionales". En particular, Tita pesa unos 25 kilos, está equipado con tres antenas y lleva una cámara para tomar fotos y videos en alta definición.
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/sat%C3%A9lite-tita.jpeg
+.. image:: /images/satélite-tita.jpeg
     :alt: El satélite Tita, siendo instalado en el lanzador
 
 Lo desarrolló la empresa argentina Satellogic, pero no lo lanzamos nosotros al espacio (todavía no tenemos esa capacidad), sino que fue lanzado desde la ciudad rusa de Yasny. Su objetivo es tomar imágenes durante tres años, en colaboración con otros nanosatélites, los ya lanzados `Capitán Beto <http://es.wikipedia.org/wiki/Capit%C3%A1n_Beto_%28nanosat%C3%A9lite%29>`_ (llamado así obviamente en referencia a la canción de Spinetta) y `Manolito <http://2.cubebug.org/>`_ (por el personaje de Mafalda), y a otros 15 satélites que Satellogic planea lanzar durante el próximo año.
