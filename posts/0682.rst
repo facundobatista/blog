@@ -6,7 +6,7 @@ El sábado a la noche hice en casa la "Cena Gurmé", una cena más elaborada de 
 
 Esta es la invitación que les mandé a los pocos que tuvieron la oportunidad de venir:
 
-.. image:: http://taniquetil.com.ar/facundo/imgs/cenagurmé-invit.png
+.. image:: /images/cenagurmé/invit.png
     :alt: Invitación a la Cena Gurmé
 
 La idea de este post no es sólo contar que salió todo bien, que la pasamos bárbaro, que terminamos con la panza bien llena y agradecerle a Moni por toda la ayuda, sino pasar las recetas de cada plato.
@@ -25,7 +25,7 @@ Para la primeras bruschetas armar una pasta con queso crema, jugo de limón, y r
 
 Entonces, untar generosamente las bruschetas con esta pasta, y luego acomodar una buena porción de salmón rosado crudo. Completar con un poco de jugo de limón.
 
-.. image:: http://taniquetil.com.ar/facundo/imgs/cenagurmé-brusch-salmón.jpeg
+.. image:: /images/cenagurmé/brusch-salmón.jpeg
     :alt: Bruschetas de salmón sobre crema alimonada
 
 La salsa de las segundas bruschetas implica tener preparada de antes una provenzal casera, al menos con tres o cuatro días de anticipación para que sea sabrosa. Mezclarla con mayonesa y queso crema.
@@ -34,14 +34,14 @@ En el momento, saltear en aceite de oliva langostinos pelados, hasta empezar a d
 
 El armado es sencillo: una buena ración de la crema a la provenzal, dos o tres langostinos (en función del tamaño de los mismos y la tostada), y completar con algunas gotas de jugo de limón y un poco de perejil fresco picado en el momento.
 
-.. image:: http://taniquetil.com.ar/facundo/imgs/cenagurmé-brusch-langostinos.jpeg
+.. image:: /images/cenagurmé/brusch-langostinos.jpeg
     :alt: Bruschetas de langostinos saltados sobre crema a la provenzal
 
 La tercer tanda termina de subir en sabor, e incluso es caliente. El pescado en este caso son sardinas naturales (¡no en latas); yo conseguí unas portuguesas que vienen congeladas, en el Mercado Central... no sé en qué otro lado conseguirlas, mi segunda opción sería "la pescadería del supermercado" del barrio chino, en Capital (si conocés el barrio chino, sabés de qué estoy hablando ;). Y las conseguí enteras, así que las limpié (cabeza, cola, tripas), desespiné, y dejé listos por cada sardinas dos filetes.
 
 Para poner sobre el pan, rehogar bien chiquito cebolla, ajo, y tomate. Los filetitos de sardinas también rehogarlos, que queden cocinados y calentitos, y armar así la bruscheta. Terminar rociándolas con aceite de oliva y un poco de perejil fresco.
 
-.. image:: http://taniquetil.com.ar/facundo/imgs/cenagurmé-brusch-sardinas.jpeg
+.. image:: /images/cenagurmé/brusch-sardinas.jpeg
     :alt: Bruschetas de sardinas portuguesas naturales sobre colchón de rehogado de cebolla, tomate y ajo
 
 
@@ -64,7 +64,7 @@ Meter los cacharritos en el horno, y dejar un rato, unos 15 o 20 minutos. Un rat
 
 Sacar y servir caliente. ¡Guarda que quema!
 
-.. image:: http://taniquetil.com.ar/facundo/imgs/cenagurmé-bondiola.jpeg
+.. image:: /images/cenagurmé/bondiola.jpeg
     :alt: Bondiolita macerada con batata y ciruela, terminada al horno en cazuela cerrada
 
 
@@ -75,7 +75,7 @@ Acá no hay muchos secretos, pero la clave está en hacer un buen flan. Con huev
 
 Servirlo con tu dulce de leche preferido, y crema chantilly de verdad (de nuevo, nada de porquerías de tubito en aerosol), batida un rato antes para que tenga heladera y quede en su punto justo (a mí me salió un poco chirla, debo reconocer).
 
-.. image:: http://taniquetil.com.ar/facundo/imgs/cenagurmé-flan.jpeg
+.. image:: /images/cenagurmé/flan.jpeg
     :alt: Flan casero casero con dulce de leche regalado por hermana y crema Chantilly
 
 

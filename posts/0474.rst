@@ -22,7 +22,7 @@ Cabe acotar que estas fotos NO están postprocesadas de ninguna manera, más all
 
 Arrancamos con una que fue complicada:
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/fotint-luislonghi.jpeg
+.. image:: /images/fotint/luislonghi.jpeg
     :alt: Luis Longhi y su bandoneón
     :target: http://www.flickr.com/photos/54757453@N00/3500094190/sizes/l/in/set-72157624548630453/
 

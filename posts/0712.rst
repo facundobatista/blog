@@ -19,7 +19,7 @@ Luego de llegar a donde me hospedé, me pegué un baño y salí a pegar una vuel
 
 Yo me metí un un bar que pintaba lindo, me tomé un par de cervezas con un par de pinchos, y luego arranqué la vuelta. No me fui a dormir demasiado tarde (antes de las doce y media), y habiendo dormido un poco en los dos vuelos cortos, y casi cinco horas en el vuelo largo, no esperaba dormir tanto: me levanté a la una y pico de la tarde!! Parece que el truco de no poner despertador, un oscuro casi absoluto, y no estar pendiente de niños, le aportaron mucho a lo cansadísimo que había llegado al fin de semana...
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/ep2016-guggenheim-puppy.jpeg
+.. image:: /images/ep2016/guggenheim-puppy.jpeg
     :alt: Parte del Guggenheim a la izquierda, el Puppy a la derecha
 
 Así que me levanté, desayuné y salí a pasear. Me tomé el metro y me fui para el casco viejo, hice un par de recorridos, saqué un par de fotos, y un par de horas después encaré para uno de los edificios de la conferencia donde se hacía el Django Girls, a saludar conocidos.
@@ -28,7 +28,7 @@ Al rato me fui para el edificio principal de la conferencia, donde desde media t
 
 Ahí me encontré con gente que no conocía personalmente pero sí de redes sociales virtuales, estuvimos charlando un rato y después con `Juan Luis Cano <https://twitter.com/astrojuanlu>`_, `Yamila Moreno <https://twitter.com/yamila_moreno>`_ y otra gente fuimos caminando hasta un funicular, con el que subimos una montaña para mirar la ciudad de arriba.
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/ep2016-bilbaoaltura.jpeg
+.. image:: /images/ep2016/bilbaoaltura.jpeg
     :alt: Desde lo alto
 
 Después nos fuimos a cenar con otra gente a un restaurant bastante piola, comimos rico. Y ya se hicieron las doce, así que volví a donde me hospedé, revisé un rato la charla del lunes, y a dormir!
@@ -43,7 +43,7 @@ Yo dí `It's not magic: descriptors exposed <https://docs.google.com/presentatio
 
 A la tarde estuvo más tranquilo. Una charla que me gustó bastante fue la The Report of Twisted's Death, dada por `Amber Brown <https://github.com/hawkowl>`_, una Twisted core developer (y también release manager) que contó en qué estaban, los planes con respecto a asyncio, qué pasaba con Tornado, etc.
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/ep2016-general.jpeg
+.. image:: /images/ep2016/general.jpeg
     :alt: An open space in the conference
 
 También me enganché con unos acertijos que te daban en una empresa, algo estilo el `pythonchallenge <http://www.pythonchallenge.com/>`_, donde resolver un problema te da la info para encontrar el próximo, y así. La realidad es que era medio buggy, en el segundo acertijo al flaco le marqué dos bugs, y en el último caso le dije que no se podía resolver, y lo hostigué hasta que me pasó la solución y le mostré como no había forma de llegar, :). Así que me gané el premio (una boludez, un hub usb), más que nada por mostrarles a ellos dónde tenían el problema :p.

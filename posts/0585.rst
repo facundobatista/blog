@@ -8,14 +8,14 @@ A fines de Octubre me fui para Venezuela con la familia. ¿La excusa? Fui invita
 
 La verdad es que estuvo todo muy lindo (más allá de los viajes, como ya comenté por acá). Llegamos a Caracas, y al toque nos fuimos para Mérida, donde fuimos recibidos por Francisco Palm (organizador de la jornada allí, donde di "Python en el mundo real") quien nos alojó en su casa.
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/voragine2-facufrancisco.jpeg
+.. image:: /images/voragine2/facufrancisco.jpeg
     :alt: Francisco y yo
 
 Estuvimos allí un par de días, y la verdad que la pasamos genial. La familia de Francisco nos hizo sentir muy bienvenidos, y la hijita menor (Abril, cuatro años) se llevó muy bien con Felipe así que nos divertimos bastante, y descansamos un montón. `Aquí hay algunas fotos <http://www.flickr.com/photos/54757453@N00/sets/72157632054379300/>`_ de esos días.
 
 Luego volvimos a Caracas. El primer día de la conferencia decidí no asistir y con la familia hicimos un paseo muy interesante subiendo a un teleférico y visitando un pueblito de montaña. Al otro día sí fui a la conferencia a la mañana, donde di la charla de "Python más rápido que C". Por la tarde me volví a escapar, ya que acompañé a Moni y a Felu al aeropuerto, que ya se volvían para casa.
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/voragine2-familia.jpeg
+.. image:: /images/voragine2/familia.jpeg
     :alt: Esperando para subir al teleférico
 
 El sábado fue el día más fuerte mío en la conferencia, ya que abrí y cerré el día. No era la idea, tampoco, pero faltó un disertante a la mañana, y ya había gente, así que aproveché y pre-estrené (juiiira de programa!) mi charla que ya tenía preparada para PyCon Argentina. El cierre fue con la clásica "Entendiendo Unicode", :)
@@ -26,7 +26,7 @@ Yo llegué a Argentina el lunes a la mañana, con la mala noticia de que me hab�
 
 Y fue todo así como muy ocupado porque el sábado al mediodía ya me rajé de nuevo... esta vez sólo, y por laburo, ya que había reunión general de Onlines Services en Londres. La verdad es que entre el trabajo y algunas salidas a la noche, la semana se me pasó volando. Fui un par de veces a comprar ropa, un par a cenar con compañeros, y la salida formal de todo el equipo, que fue en `Venturi's Table <http://www.venturis-table.com/>`_ donde volvimos a cocinar entre todos (esta vez no pizza, sino platos elaborados!). Obviamente, siempre que paseábamos por ahí, no perdíamos oportunidad de tomarnos alguna cervecita en un pub londinense...
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/voragine2-pub.jpeg
+.. image:: /images/voragine2/pub.jpeg
     :alt: Pub
 
 La salida más atípica fue claramente cuando fuimos una noche a un lugar donde cenamos completamente a oscuras! Esto fue en `Dans Le Noir <http://london.danslenoir.com/>`_, un lugar totalmente dedicado a que te den de morfar sin que veas ni la punta de tu nariz. Fuimos varios, todos de confianza y hablando castellano, y nos reímos muchísimo, la pasamos muy bien. La experiencia de estar 100% a oscuras ya es interesante per se, pero si a eso le agregás tener que comer (¡y podés pedir platos sorpresa, así que no sabés qué te van a traer!) y beber, es recomendable.
@@ -35,7 +35,7 @@ Quizás la semana se hizo corta también porque el viernes a la tarde ya estaba 
 
 El apuro era porque se estaba desarrollando la PyCon Argentina 2012, a la cual no pude asistir completamente por obvias razones, :(. Pero tenía que dar dos charlas, así que era ir o ir. Llegué, di mi charla estreno de "Bindings, mutable default arguments, y otros quilom... detalles", luego me metí en la charla de Brett Cannon sobre cómo funciona el ``import`` de Python, al toque di yo otra charla (nuevamente "Entendiendo Unicode"), y luego asistí a "Inferencias de tipos en Python", de Claudio Freire.
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/voragine2-import.jpeg
+.. image:: /images/voragine2/import.jpeg
     :alt: Import Python
 
 La verdad, sólo estuve una tarde en la conferencia, pero la aproveché al máximo. Luego de un break vinieron las lightning talks, y finalmente la charla de cierre del evento, a cargo de Roberto Alsina: "Python 2 debe morir". Luego fotos, sorteo, y huida al parque cervecero de Quilmes a cerrar el día haciendo sociales.

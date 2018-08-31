@@ -8,14 +8,14 @@ Moni llegó el sábado a la tarde, pero no hicimos nada en particular, ya que el
 
 Al otro día salimos temprano, pasamos por el Arco del Triunfo, un parque con un lindo monumento azulejado, y luego encaramos para el Parc de la Ciutadella. La idea era recorrer una feria que había visto el domingo anterior, pero esta vez no había nada por el estilo. Moni no se sentía del todo bien, así que volvimos al hotel a media tarde, y ya nos quedamos allí.
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/barcelona09-piramideazulejos.jpeg
+.. image:: /images/barcelona09/piramideazulejos.jpeg
     :alt: Parque azulejado
 
 El lunes arrancamos tarde porque Moni tenía que terminar unos informes de un curso que está haciendo. Arrancamos la mañana visitando La Sagrada Familia, uno de los monumentos arquitectónicos de Gaudí (que lástima que sea una iglesia...). Luego fuimos a la Barceloneta, justo para comer en un lugar que estuvo bárbaro (el truco de preguntarle a algún local). Luego del almuerzo seguimos paseando cerca del mar, especialmente por las playas. Es rara la combinación de playa cerca del centro de la ciudad... uno está acostumbrado a la ciudad grande sin mar, y a la playa en ciudades pequeñas. Las playas mismas también eran raras: no sólo por la arena mucho más gruesa que las de Argentina, sino también por el topless de buena parte de las féminas.
 
 Al volver de las playas, atravesamos la zona de edificios de la Barceloneta, y con agrado nos encontramos la sorpresa de que había varias comparsas desfilando por las callecitas. Nos las quedamos viendo un rato, pero luego ya volvimos al hotel, porque al otro día había que levantarse temprano.
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/barcelona09-playa.jpeg
+.. image:: /images/barcelona09/playa.jpeg
     :alt: Playa!
 
 El martes fuimos a una pequeña ciudad a menos de una hora de viaje: Badalona. Entre que no salimos tan temprano, que le pifiamos a un tren, y que paseamos un poco al llegar, se hizo la hora de almorzar. Elegimos un barcito muy chiquito, muy de pueblo, en el cual nos atendieron muy bien.
@@ -24,7 +24,7 @@ Luego fuimos a la playa (muy similar a la anterior), donde nos quedamos bastante
 
 Al otro día, luego de pasar por unos negocios de computación averiguando algunos precios y comprando un *pen drive*, fuimos al parque de Joan Miró. Lástima que la biblioteca estaba cerrada, pero el resto del parque estaba muy bien... pasamos por los juegos, toda una zona muy linda de plantas, y terminamos en la obra de arte principal:
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/barcelona09-miro.jpeg
+.. image:: /images/barcelona09/miro.jpeg
     :alt: Monumento en el Parque Miró
 
 Luego almorzamos en un barzucho de por ahí, y emprendimos la subida a Montjüic. Caminamos un rato por los caminitos internos, hasta que llegamos a la Fundación Miró, a la que Moni tenía ganas de ir. La verdad que no estuvo muy bueno... tenían tres o cuatro cosas interesantes de Miró, y terminamos pasando más tiempo en la biblioteca del lugar (exclusivamente dedicada al pintor/escultor) que en otro lado.
@@ -35,7 +35,7 @@ Es que al otro día nos fuimos a Tarragona, donde Tere nos recibió y ayudó dur
 
 De la estación de tren nos llevó a la playa Sovinosa, en la que nos quedamos toda la mañana, hasta pasado el mediodía. La playa era muy linda, formada por una pequeña bahía, con arena muy muy fina. Además, era mitad playa normal y mitad playa nudista, así que aproveché para tomar sol completito, :)
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/barcelona09-mediterraneo.jpeg
+.. image:: /images/barcelona09/mediterraneo.jpeg
     :alt: Desnudo en el Mediterráneo
 
 Tere nos pasó a buscar cerca de la playa, y nos llevó a su casa, donde nos pegamos un buen baño, y comimos una picadita muy rica mientras charlábamos. Cuando ya estábamos sin arena y listos para encarar el resto del día, nos llevó a pasear un rato por Tarragona, terminando en un restaurant muy lindo donde comimos una paella de mariscos que estaba genial.
@@ -46,7 +46,7 @@ El viernes el día arrancó gris, amagando lluvia. Fuimos caminando hasta La Ped
 
 Nota aparte sobre Gaudí... me encanta el arte que tiene, y la ingeniería con que arma sus obras arquitectónicas. Pero me entristece como durante su vida pasó del cooperativismo a la burguesía, convirtiéndose también al catolicismo. Esto se ve en la evolución de sus obras, pero yo lo repito acá con la autoridad de haberlo leído en una de las infografías del museo dentro de La Pedrera.
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/barcelona09-pedrera.jpeg
+.. image:: /images/barcelona09/pedrera.jpeg
     :alt: Los tres en la terraza de La Pedrera
 
 Al atardecer salimos a pasear más por el centro. Encontramos un mercado muy bueno, el Mercat St. Josep, con mucha variedad de frutas, verduras, carnes, pescados, mariscos, dulces, embutidos, de todo. No compramos nada, porque ya se nos acababa la estadía... ¡lástima que no lo descubrimos antes!

@@ -8,37 +8,37 @@ Es el primer viaje que hacemos sin niños después de `esta semana <http://www.t
 
 La gran ventaja de ir sin niños es que básicamente no teníamos que ocuparnos de nadie más que de nosotros :D. Íbamos a donde queríamos, comíamos a la hora que queríamos, nos levantábamos o acostábamos a la hora que queríamos, etc. Lo que hace una pareja sin hijos, bah...
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/chile07-paseandosolos.jpeg
+.. image:: /images/chile07/paseandosolos.jpeg
     :alt: Solos, en la escalera-piano
 
 Paseamos a morir. Hicimos base en `Santiago <https://es.wikipedia.org/wiki/Santiago_de_Chile>`_, pero todo un día lo pasamos en `Valparaíso <https://es.wikipedia.org/wiki/Valpara%C3%ADso>`_.
 
 A Valparaíso fuimos y volvimos en micro. Cuando llegamos, lo primero que hicimos fue tomarnos un bondi hasta `La Sebastiana <https://es.wikipedia.org/wiki/La_Sebastiana>`_, la casa que tenía `Neruda <https://es.wikipedia.org/wiki/Pablo_Neruda>`_ en esa ciudad. La recorrimos con ayuda de una audioguía, ¡buenísimo! Nos encantó.
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/chile07-lasebastiana.jpeg
+.. image:: /images/chile07/lasebastiana.jpeg
     :alt: La Sebastiana vista desde afuera
 
 Despues salimos y caminamos un montón, paseando, parando para almorzar, y seguimos caminando, recorriendo los cerros, subiendo por un `funicular <https://es.wikipedia.org/wiki/Funicular>`_... en general muchas escaleras, muchas subidas y bajadas, ASÍ teníamos las pantorrillas...
 
 Terminamos llegando al puerto, donde paseamos un poco por una feria e hicimos la merienda. Luego un trole hasta el centro de la ciudad, y el micro de vuelta a Santiago.
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/chile07-valparaiso1.jpeg
+.. image:: /images/chile07/valparaiso1.jpeg
     :alt: Esquina random de Valparaíso
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/chile07-valparaiso2.jpeg
+.. image:: /images/chile07/valparaiso2.jpeg
     :alt: La escalera del zapato, con una gran frase
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/chile07-valparaiso3.jpeg
+.. image:: /images/chile07/valparaiso3.jpeg
     :alt: Valparaíso vista desde arriba
 
 Los otros tres días los pasamos en Santiago, aunque no fueron enteros por los viajes para llegar e irnos de Chile.
 
 Paseamos bastante también, y no solamente por shoppings como parece ser costumbre de los argentinos que están por allá (?). Estaba toda la ciudad muy influenciada por las `Fiestas Patrias <https://es.wikipedia.org/wiki/Fiestas_Patrias_en_Chile>`_, que es algo que allá es muy importante.
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/chile07-santiago1.jpeg
+.. image:: /images/chile07/santiago1.jpeg
     :alt: La cordillera siempre presente
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/chile07-santiago2.jpeg
+.. image:: /images/chile07/santiago2.jpeg
     :alt: Mural al lado de La Piojera
 
 Paseamos un rato por el centro, pero justo el sábado y estaba todo bastante cerrado. Fuimos al Mercado Central también, en donde comimos ricas comidas basadas en pescados y mariscos.
@@ -47,7 +47,7 @@ También subimos al Cerro Santa Lucía, un lindo paseo que no completamos del to
 
 El paseo había arrancado en `La Chascona <https://es.wikipedia.org/wiki/La_Chascona>`_, la casa de Neruda en Santiago. La visita (y recorrida con la audioguía) es algo que también aquí vale mucho la pena. Esta casa, como la que mencioné antes, y la de Isla Negra que nos debemos, son mantenidas y expuestas por la `Fundación Neruda <https://fundacionneruda.org/>`_, y hacen un excelente trabajo.
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/chile07-lachascona.jpeg
+.. image:: /images/chile07/lachascona.jpeg
     :alt: Detalles de La Chascona
 
 Si tengo que resaltar algo feo de Santiago/Valparaíso, además que la primera es una "ciudad grande" que a priori no me gustan, es que el cablerío que se ve en los postes en la calle es sorprendente, no se entiende como puede ser que hayan tantos cables ni para qué están. `Parece <https://twitter.com/roramirez/status/909520338941177857>`__ ser que es porque los ponen y luego cuando los dejan de usar no los sacan, también `parece <http://www.lasegunda.com/Noticias/Nacional/2012/08/771713/santiago-tapado-por-cables-debuta-primera-norma-para-sacar-los-que-no-funcionan>`__ que se va a solucionar eventualmente.

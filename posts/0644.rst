@@ -14,7 +14,7 @@ Los viajes bien. Como el año pasado, me quedé hasta "cerrar el evento", y tamb
 
 La diferencia estuvo en la llegada, ya que este año no tuvimos al Joven Ocupado en la Accesibilidad y Conectividad (JOAC), así que tuvimos que armar toda la infraestructura de red sin saber demasiado. Viajé con Nico Demarchi, así que al llegar nos pusimos con eso... y aunque no es *rocket science*, tampoco es trivial, y estuvimos como tres horas para dejar todo lindo!
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/pycamp14-red.jpeg
+.. image:: /images/pycamp14/red.jpeg
     :alt: Una Antena Sable Laser
 
 
@@ -31,7 +31,7 @@ Hubo un proyecto que llevé pero en el que yo no trabajé, que fue `Linkode <htt
 
 Finalmente, arranqué ayudando a un par de chicos a migrar código a Python 3, pero no hicimos mucho de eso (aunque aprendimos algunos detalles interesantes).
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/pycamp14-trabajando.jpeg
+.. image:: /images/pycamp14/trabajando.jpeg
     :alt: Laburando en Encuentro con Nico, Mica y Emi (que sacó la foto)
 
 
@@ -46,7 +46,7 @@ El sábado fue la reunión de PyAr, y después charlé con gente y programé alg
 
 La tercer noche fue doble... Munchkin primero (ganó Matías), y luego jugamos al Carrera de Mente. Hacía como 15 años que no jugaba un Carrera de Mente, no me acordaba que fuese tan divertido! Nos reimos mucho.
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/pycamp14-jugando.jpeg
+.. image:: /images/pycamp14/jugando.jpeg
     :alt: Carrera de Mente
 
 
@@ -59,7 +59,7 @@ A nivel de "actividades al aire libre", este año volvimos a repetir la caminata
 
 También hicimos una `*key signing party* <http://es.wikipedia.org/wiki/Fiesta_de_firmado_de_claves>`_, y Juanjo Ciarlante nos charló un poco de seguridad y buenas costumbres.
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/pycamp14-grupal.jpeg
+.. image:: /images/pycamp14/grupal.jpeg
     :alt: Todos
 
 

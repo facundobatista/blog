@@ -6,24 +6,24 @@ El fin de semana pasado fue la octava edición de la conferencia nacional de Pyt
 
 Yo dí una charla, `Bindings, mutable default arguments, y otros quilom... detalles <http://www.taniquetil.com.ar/homedevel/presents/pydetalles.odp>`_, y asistí a otras; las que más me gustaron fueron "Poniéndonos un poco más serios con Kivy" por Sofía Martin y alguien más que no recuerdo, "Compartiendo memoria eficientemente con proxies" por Claudio Freire, "Argentina en Python: comunidad, sueños, viajes y aprendizaje" por Humitos, "MicroPython en EDU-CIAA" por Martín Ribelotta, "Redes neuronales con Python utilizando Keras" por Fisa, "Deep learning: aprendiendo con la escafandra" por Javi Mansilla, e "Introducción a programación paralela con PyOpenCL" por Celia Cintas.
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/pyconar16-pydetalles.jpeg
+.. image:: /images/pyconar16/pydetalles.jpeg
     :alt: Mi charla, renovada
 
 Las keynotes estuvieron muy bien, también. `Fernando Schapachnik <http://lafhis.dc.uba.ar/en/~fpscha>`_, de la `Fundación Sadosky <http://www.fundacionsadosky.org.ar/>`_ nos habló del problema de género en las comunidades informáticas (con datos, análisis, y una arenga política al final que estuvo bárbara). `Ángel Medinilla <http://www.proyectalis.com/angelmedinilla/>`_ nos dio una charla-show-standup sobre metodologías ágiles (excelente presentación). Y la última fue de `Victoria Martínez de la Cruz <https://twitter.com/vkmc>`_, contando las ventajas y desventajas de trabajar de forma remota (algo que se está imponiendo más y más en las comunidades de software y que está lleno de mitos, así que era muy necesaria).
 
 La organización del evento también estuvo impecable. Se nota que laburaron un montón y salió todo muy bien.
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/pyconar16-plenaria.jpeg
+.. image:: /images/pyconar16/plenaria.jpeg
     :alt: Los asistentes a punto de escuchar una plenaria
 
 Más allá del costado técnico, y de lo que sucede en estos eventos de charlas que se generan, reencuentros, etc, tanto en pasillos como luego de la conferencia en bares o por ahí, quiero destacar el lado "humano"que tuvo esta conferencia.
 
 No sólo las keynotes hablaron de las personas o sus grupos de trabajo, sino que también tuvimos charlas que hicieron lagrimear a varios, como la de Humitos que mencioné arriba o la de Roberto Alsina ("Cómo desarrollar software libre (o no) y no morir en el intento (o no)", que no pude ver pero me contaron). Pero había algo más en el ambiente. Gente comentando lo copada que son organizadores y asistentes en este evento, que cómo te ayudan con todo, que se preocupan, etc. Había muy buena onda por todos lados.
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/pyconar16-relajando.jpeg
+.. image:: /images/pyconar16/relajando.jpeg
     :alt: Relajando un poco, en el almuerzo del primer día
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/pyconar16-workspace.jpeg
+.. image:: /images/pyconar16/workspace.jpeg
     :alt: Trabajando en uno de los espacios abiertos que había
 
 Hubo una anécdota interesante, también. Resulta que una señora vio en un kiosco a unos asistentes a la conferencia que tenían algo de Python encima. Entonces fue a la escuela de su hijo mayor, de 13 años, lo sacó antes de hora y volvieron a la zona del kiosco (que obviamente, era muy cerca del edificio de la conferencia). Justo pasábamos otros chicos y yo, vieron un pin de Python que llevo en la mochila, y nos preguntaron qué onda. Les contamos de la conferencia, Diego M. les regaló el librito del evento, y listo.
@@ -32,7 +32,7 @@ Nosotros pensábamos que terminaba ahí. Nada más lejos.
 
 Al rato volvemos al edificio donde se desarrollaba el evento y vemos que sube a la zona de la conferencia la madre y los dos niños. El pibe de 13 se colgó todo el día yendo de charla en charla, mientras la mamá le hacía el aguante en una zona con sillones. No sólo eso, sino que fueron el sábado y el domingo a la conferencia, y se pasaron todo el finde allí. Notable.
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/pyconar16-grupal.jpeg
+.. image:: /images/pyconar16/grupal.jpeg
     :alt: Todas las manos todas
 
 Para cerrar les dejo `las fotos que saqué <https://www.flickr.com/photos/54757453@N00/sets/72157677214104546>`_, más esta `búsqueda de tuiter <https://twitter.com/search?f=tweets&amp;vertical=default&amp;q=%23pyconar2016&amp;src=typd>`_ que está buena.

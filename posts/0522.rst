@@ -12,18 +12,18 @@ Pero lo más *distinto* del evento es la disposición física interna y su diná
 
 Armado adentro de un gran lugar sin separaciones (un pabellón entero de un centro de exposiciones, como acá puede ser el Centro Municipal de Exposicione, o Costa Salgureo), tiene la siguiente disposición: espacios de conferencia contra las paredes, y mesas, mesas y mesas en el centro.
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/campusparty11a.jpeg
+.. image:: /images/campusparty11/img1.jpeg
 
 Los espacios de conferencia de alrededor es nada más que una pantalla contra la pared, un proyector, sillas/sillones/pufs para que la gente se acomode, y parlantes apuntando para *el adentro* de cada espacio. Es muy loco, porque no hay nada que separe los distintos espacios de conferencia, sino que se logra la separación de uno y el otro sólo con el audio: si estás adentro de uno de los espacios, sólo vas a escuchar los parlantes de ese espacio, y listo.
 
 En todo lo que no es contra la pared, y dejando pasillos pra pasar, hay un centenar de mesas largas, sólo con cables de red y cables de energía eléctrica. Allí la gente se instala con laptops, con computadoras de escritorio, teles de cualquier tamaño (había una de 52"!), equipos de pintura, de soldadura, etc. Todo lo que se les ocurra.
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/campusparty11b.jpeg
+.. image:: /images/campusparty11/img2.jpeg
 
 Se puede llevar cualquier cosa al evento, porque las actividades eran muy variadas, y en general se las podía dejar semiabandonadas, porque la seguridad para entrar y salir del pabellón eran muy estrictas. Hay que pensar que al evento asisten 4500 personas, y es algo que dura 7 días las 24 horas. Hay una zona de carpas y lockers ofrecidos por la organización, y hay centenares de personas que no abandonan el predio en toda la semana (obviamente, también hay servicios como duchas, lugares para comer, etc).
 
 A nivel de organización también es muy distinto. El evento es fuertemente patrocinado por empresas, y organizado por Futura Networks una empresa de Telefónica que lo único que hace son estos eventos (no sólo en Colombia, sino también en los otros países donde se hace: México, España y Brasil). Yo fuí invitado a dar dos charlas, *Python más rápido que C* y *Comunidad, Anarquía y Subversión*.
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/campusparty11c.jpeg
+.. image:: /images/campusparty11/img3.jpeg
 
 Bueno, no quería terminar el post sin agradecer también la hospitalidad brindada por Manuel Cerón (el Coordinador del área de Software Libre), y varias personas (Antonio, Luis, Natalia, otro Manuel, Luisa), que hicieron que me sienta muy cómodo los días que estuve allí.

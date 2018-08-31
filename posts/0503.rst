@@ -24,7 +24,7 @@ Luego el almuerzo, que fue durante la reunión de la Python Software Foundation,
 
 Un break, una charla que no me gustó, y luego "Why is Python slow and how PyPy can help?", que no era lo que esperaba pero no estuvo tan mal (se dedicaron a hablar de que PyPy es más rápido que CPython y algunas cosas que hacen a nivel del JIT, pero nada más).
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/pycon2011-plenaria.jpeg
+.. image:: /images/pycon2011/plenaria.jpeg
     :alt: Sala de la plenaria
 
 De cierre, las lightning talks. Alguna te puede gustar, otra no, pero el formato está buenísimo (justamente porque de las que te gustaron luego seguís investigando, y de las que no... bueno, no perdiste más de cinco minutos).
@@ -63,7 +63,7 @@ Nuevamente arrancamos con lightning talks, en las que yo di una charlita sobre P
 
 Luego hubieron tres plenarias dadas por sponsors: `Threadless <http://www.threadless.com/>`_, `Disqus <http://disqus.com/>`_ y `OpenStack <http://www.openstack.org/>`_. La de Threadless estuvo super divertida, y la de Disqus fue interesante del lado técnico, pero nada más.
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/pycon2011-torta.jpeg
+.. image:: /images/pycon2011/torta.jpeg
     :alt: Torta  de los 20 años
 
 Luego de un break bastante largo (porque estaba la "poster session"... eso de los posters no me llama mucho la atención) fui a la charla de Raymond Hettinger "Fun with Python's Newer Tools", donde habló sobre Counter, namedtuples, lru_cache y .format. Estuvo muy buena!

@@ -24,7 +24,7 @@ Cuando Agata salió de trabajar nos fuimos a comer a un restaurant que estaba li
 
 Al otro día, desayunamos con los chicos y con Moni agarramos el auto y nos fuimos a Eslovenia, a las grutas de `Postojna <http://es.wikipedia.org/wiki/Postojna>`_. ¡Impresionantes! Con sólo decirles que para entrar uno se toma un tren que recorre dos kilómetros y recién uno se baja y empieza a caminar, se dan una idea de sus dimensiones.
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/lunamiel-grutaspostojna.jpeg
+.. image:: /images/lunamiel/grutaspostojna.jpeg
     :alt: Las grutas, en Eslovenia
 
 Luego comimos en un barcito del complejo mismo, y terminamos la tarde viendo algo de fauna autóctona de las grutas, en un museo/vivero que había. Lo más interesante del mismo es el `Proteus anguinus <http://en.wikipedia.org/wiki/Olm>`_, una especie de rara salamandra que sólo se encuentra en cuevas de esa zona, y que por la forma y características se lo llama Pez Humano, y hasta se creía en un momento que eran crías de dragones... y todavía no estoy seguro que no lo sean, ;)
@@ -39,7 +39,7 @@ Agarramos la autopista y nuestra primer parada era Padova. Luego de muchas vuelt
 
 Cuando llegamos al `Lago di Garda <http://es.wikipedia.org/wiki/Lago_de_Garda>`_, más específicamente a Sirmione, una pequeña ciudad en la punta de una península que entra en el lago. Hermoso, tanto la vista como el castillo. Paseamos bastante aquí también, incluso bajo la llovizna, y recién nos fuimos cuando empezó a anochecer, que todavía nos quedaba bastante viaje.
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/lunamiel-sirmione.jpeg
+.. image:: /images/lunamiel/sirmione.jpeg
     :alt: Sirmione, en el Lago di Garda
 
 Esa noche la pasábamos en Parma, y aunque salimos de Sirmione con la tarde ya ida, llegamos al hotel a eso de las ocho, ocho y media de la noche (y eso que pegamos un par de vueltas para encontrarlo...). Hicimos el check-in, y salimos a pegar un par de vueltas al centro de la ciudad.
@@ -50,7 +50,7 @@ Al otro día desayunamos en el hotel y partimos para la costa del Mediterráneo.
 
 Pero llegamos sin problemas a la zona de `Cinque Terre <http://es.wikipedia.org/wiki/Cinque_Terre>`_. Como bien lo dice el nombre, son cinco tierras, pero nosotros por tiempo sólo pudimos visitar una ciudad, Riomaggiore.
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/lunamiel-riomaggiore.jpeg
+.. image:: /images/lunamiel/riomaggiore.jpeg
     :alt: Riomaggiore, una de las ciudades de Cinque Terre
 
 Yo ya la conocía, pero no por eso dejé de maravillarme de lo linda que es. Además, yo en su momento había llegado medio de noche, y los paisajes son realmente impresionantes. Más aún, el mar estaba furioso, lo cual le da mucha belleza a una ciudad con lindas escolleras.
@@ -61,7 +61,7 @@ Luego de tomarnos un café para el frío, arrancamos para el próximo destino: V
 
 Cuando llegamos a Pisa lloviznaba. Dejamos el auto a un par de cuadras de la Plaza de los Milagros (que es donde se encuentra la famosa torre, la catedral, el baptisterio, un par de museos, y cuatrocientos puestos de venta ambulante). Llegamos a dicha plaza en un momento lumínico muy particular: el sol se estaba poniendo, y el muro que separa la plaza de la ciudad echaba sombra sobre todo el parque, pero el sol pegaba directamente en los edificios:
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/lunamiel-torrepisa.jpeg
+.. image:: /images/lunamiel/torrepisa.jpeg
     :alt: La torre de Pisa
 
 Paseamos, sacamos fotitos, y a diferencia de mi última visita en el lugar, entramos a los edificios. Subir a la torre en sí es todo un experimento que no preví, ya que la inclinación a la que uno se somete va cambiando al recorrer la escalera en espiral, y es interesante experimentar este fenómeno. La vista de la plaza y de toda la ciudad, desde arriba de todo, también está buena (y eso que la torre no es muy alta...).
@@ -72,7 +72,7 @@ Salimos ya de noche, y con bastante lluvia. Cuando llegamos al auto estábamos b
 
 Al otro día nos levantamos tempranito, desayunamos profusamente, y salimos derechito para Firenze. Llegamos entrada la mañana y estuvimos un buen rato hasta que pudimos estacionar. Encima andábamos cortos de monedas, así que pudimos poner el parquímetro en sólo 2 horas. Empezamos a caminar entonces la ciudad, pegando toda una vuelta por un sector y volviendo al auto justo cuando vencía la hora. Pusimos tres horas más y volvimos a pegar toda una gran vuelta, llegando ya al auto al atardecer.
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/lunamiel-pontevecchio.jpeg
+.. image:: /images/lunamiel/pontevecchio.jpeg
     :alt: El puente viejo de Firenze
 
 Los dos paseos por la ciudad estuvieron muy bien. Nos metimos por todas las callecitas, siguiendo un mapa que nos mostraba qué había piola para ver, y caminamos bastante. Lo mejor fue Ponte Vecchio, y la ribera del Arno en general.
@@ -83,7 +83,7 @@ Hicimos el check-in, y salimos a caminar un rato... terminamos comprando algo en
 
 Al otro día, luego de desayunar, salimos a pasear, a recorrer un poco más la zona. La idea era también entrar a la `Galería Uffizi <http://es.wikipedia.org/wiki/Galer%C3%ADa_Uffizi>`_, pero las demoras en la cola para comprar el ticket y luego para entrar nos impidieron hacerlo: no íbamos a perder tres horas solamente esperando.
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/lunamiel-esquinaflorencia.jpeg
+.. image:: /images/lunamiel/esquinaflorencia.jpeg
     :alt: Una esquina de Florencia
 
 Así que volvimos al hotel, agarramos las cosas, y emprendimos viaje de regreso. Entramos en Bologna, donde pegamos una vuelta con el auto por los alrededores, mientra yo le contaba a Moni algunas de las cosas que había conocido por allí, y luego ya agarramos la autopista hacia Gorizia nuevamente. Aunque no era tan tarde, terminamos llegando bien entrada la noche (que no era la idea), pero alcanzamos a comer con los chicos: luego de poner un lavarropas nos fuimos a Basket, un restaurante donde hacen pizzas que no estaban nada mal (no le tengo mucha estima a las pizzas de Italia, pero estas estaban ricas, quizás por eso los chicos nos llevaron ahí).
@@ -96,7 +96,7 @@ Al otro día, domingo, fuimos los cuatro a visitar Venezia. Al fin podíamos via
 
 Yo no conocía Venezia, y me encantó, incluso aunque estaba con mucha mucha neblina (lo que por otro lado le daba un encanto raro).
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/lunamiel-venezia.jpeg
+.. image:: /images/lunamiel/venezia.jpeg
     :alt: Venezia
 
 Estuvimos todo el día paseando, subiendo, bajando, recorriendo, sacando fotos. Finalmente decidimos volver, e intentamos tomar el tren de las 16:05. Empezamos a caminar de regreso, luego a caminar un poco más rápido, y finalmente terminamos corriendo las últimas cuadras. Pero no llegamos, por dos o tres minutos, :s.
@@ -109,7 +109,7 @@ Al mediodía volvimos a casa, donde Edu nos hizo unos fideos a la carbonara que 
 
 Los tíos de Agata no sólo venían a comer, sino que nos traían la comida: habían preparado comida típica de la región (la región se llama `Friuli <http://es.wikipedia.org/wiki/Friuli>`_) para agasajarnos a nosotros, :D. Primero comimos Iota, que es una especie de sopa o guiso con papa, porotos, cebollas, chorizo y una especie de nabo rallado (nabo que se deja embeber primero en el mosto que queda al procesar las uvas para vinos), y luego degustamos el Frico, una especie de tortilla hecha con cebolla, dos o tres tipos de quesos, y papas... ¡pero sin huevos!. Y como si esto fuera poco, cuando se estaban yendo nos regalaron una Gubana (que es una torta dulce con pasas de uva), para que nos trajéramos a Argentina. ¡Qué bárbaro como charlamos y comimos esa noche! :)
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/lunamiel-comidafriulana.jpeg
+.. image:: /images/lunamiel/comidafriulana.jpeg
     :alt: Comimos como cerdos, :)
 
 El martes nos volvimos a levantar tempranito y partimos para Austria. La idea era conocer un pueblito super pintoresco, Velden, pero fuimos en un mal momento, porque ya había terminado la temporada de verano, y todavía no había comenzado la temporada de invierno... ¡estaba todo cerrado!
@@ -122,7 +122,7 @@ Esa noche partíamos a Roma, con un tren que salía desde Monfalcone, así que c
 
 El día siguiente lo teníamos "gratis", porque no habíamos planeado nada, así que aprovechamos que estaba soleado y fuimos a visitar el castillo de Gorizia, que le teníamos ganas. Fuimos con el auto, temprano, pero el castillo estaba tan bueno que se nos pasó volando la mañana y nos quedaba todavía la mitad! Moni tenía ganas de cocinarle a Agata (Edu estaba laburando), así que pasamos por un supermercado, compramos algunas cositas, la pasamos a buscar a Agata por el laburo y nos fuimos a casa, a almorzar.
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/lunamiel-castillogorizia.jpeg
+.. image:: /images/lunamiel/castillogorizia.jpeg
     :alt: Recorriendo el castillo
 
 A la tarde volvimos a ir al castillo, pero ahora fuimos en bicicleta, así que el paseo en sí estuvo buenísimo. Volvimos a tiempo para tomarnos unos mates con Edu, y luego pasamos a buscar a Agata por el laburo, y fuimos todos al cumpleaños de la jefa y comadre de Agata, en un pub cerquita. Pero no nos quedamos demasiado, porque salimos (ahora con tiempo) para Monfalcone, a tomarnos finalmente el tren.
@@ -141,7 +141,7 @@ Roma es un quilombo, como toda gran ciudad: tránsito de locos, mucha gente, tod
 
 Luego de desayunar en el hotel, salimos a pasear. Fuimos siempre caminando, visitando distintos puntos de interés, hasta que llegamos al Coliseo, ¡imponente! Aquí decidimos aprovechar el consejo de Agata, y entramos a conocerlo por dentro. Alquilamos una audioguía (un dispositivo electrónico con grabaciones, que te va contando las distintas partes del paseo), la verdad es que estuvo buenísimo.
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/lunamiel-ruinasroma.jpeg
+.. image:: /images/lunamiel/ruinasroma.jpeg
     :alt: Ruinas en Roma
 
 Salimos del Coliseo ya con poco tiempo antes del atardecer, así que caminamos rápido a otros dos puntos que queríamos visitar: la Fontana di Trevi, y Piazza Spagna. No nos impresionó demasiado, quizás porque ambos lugares estaban saturados de gente, y no se podían apreciar tranquilos. Esa noche volvimos al hotel, y luego sólo salimos a comer, porque estábamos muy cansados.
@@ -152,7 +152,7 @@ Seguimos paseando y caminando, pero ya nos habíamos cansado de tanta gente y es
 
 Pero ya atardecía, así que decidimos volver al hotel, a dormir una pequeña siesta para poder salir a la noche. Es que nos habían recomendado no dejar de visitar el Coliseo y la Fontana de Trevi con su iluminación nocturna, y la verdad es que es hermoso.
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/lunamiel-coliseo.jpeg
+.. image:: /images/lunamiel/coliseo.jpeg
     :alt: El Coliseo, de noche
 
 Comimos y volvimos al hotel, bastante cansados. Al otro día nos levantamos, desayunamos, preparamos todas las valijas, e hicimos el checkout pero dejamos todo en el hotel y salimos a pegar unas últimas vueltas.

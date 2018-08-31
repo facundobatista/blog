@@ -6,24 +6,24 @@ La luna estaba muy linda en el sur.
 
 No sólo de noche, sobre el cerro...
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/luna-nochecerro.jpeg
+.. image:: /images/luna/nochecerro.jpeg
     :alt: Luna sobre el cerro
 
 ...o solita, dueña de todo el cielo...
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/luna-nochesola.jpeg
+.. image:: /images/luna/nochesola.jpeg
     :alt: Luna sola en la noche
     :target: http://www.flickr.com/photos/54757453@N00/5417606076/in/set-72157625846755839/
 
 ... sino también de día, :)
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/luna-dia.jpeg
+.. image:: /images/luna/dia.jpeg
     :alt: Luna de día
     :target: http://www.flickr.com/photos/54757453@N00/5417173487/in/set-72157625846755839/
 
 De yapa, una foto del cielo nocturno:
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/luna-cielo.jpeg
+.. image:: /images/luna/cielo.jpeg
     :alt: Cielo nocturno
     :target: http://www.flickr.com/photos/54757453@N00/5417624526/in/set-72157625846755839/
 

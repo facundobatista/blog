@@ -22,7 +22,7 @@ Y es que Twisted es un proyecto muy viejo, y estandarizó algunas cosas que son 
 
 Aunque todo esto llevó bastante tiempo, me sirvió mucho para irme familiarizando con el proceso, cómo manejan los tickets, qué significa cada cosa, etc.; en definitiva, cual es el workflow de los bugs y parches.
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/pycon2011-sprints.jpeg
+.. image:: /images/pycon2011/sprints.jpeg
     :alt: Sprinting
 
 Volviendo a los casos de prueba, luego de ejecutar algunos tests en Python 2.6 con el flag ``-3`` detecté algunas cosas que podía empezar a cambiar masivamente, y al mismo tiempo meterlo en el código actual. En otras palabras, cambios que pegaban en todo el proyecto, y que hacía que esas partes estuviesen mejor preparadas para la migración a Python 3. Uno de estos cambios fue dejar de usar el módulo ``new`` y comenzar a usar ``types``, el otro fue dejar de usar ``cmp`` (tanto ``__cmp__``, como el builtin, como el parámetro de sort/sorted) y empezar a usar lo que se llama *rich comparisons*. El primer cambio era bastante directo (propuse un branch, aunque me dijeron que había tocado un par de cosas que no tiene pruebas y tenía que hacer los test), pero el segundo cambio es un quilombo (no llegué a terminar el branch) porque la funcionalidad no es directamente equivalente, sino que depende de qué tipo de comparaciones se quieren realizar.

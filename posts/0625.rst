@@ -4,14 +4,14 @@
 
 Creo que la primer película que vi en **3D** fue `Beowulf <http://www.imdb.com/title/tt0442933/>`_, o quizás la segunda. Pensándolo bien, puedo haber visto alguna cuando era muy chico, pero no recuerdo si fue el caso.
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/pelis3d-beowulf.jpg
+.. image:: /images/pelis3d/beowulf.jpg
     :alt: Beowulf
 
 No ví muchas más, la verdad. En algunos casos, como `la primera de Transformers <http://www.imdb.com/title/tt0418279/>`_, incluso fuí a verla en 3D porque fuí al IMAX, donde la pantalla es más grande, y varias secuencias estaban filmadas en "tamaño extra", aprovechando ese detalle.
 
 El quiebre vino con `Avatar <http://www.imdb.com/title/tt0499549/>`_. Más allá de si la peli es buena o no, creo que es innegable que tiene una "fotografía" extraordinaria. Y es donde por primera vez me pasó que en momentos de la película me interesaba más mirar detalles de fondo o de adelante en la escenografía, y no se puede!!
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/pelis3d-avatar.jpg
+.. image:: /images/pelis3d/avatar.jpg
     :alt: Avatar
 
 Es que parte del efecto de 3D te lo dan sacando de foco las cosas que no están en el/los plano/s principal/es. Y es una mierda, porque si yo tengo ganas de ver una esquina de la pantalla, no poder hacerlo es un bajón. Especialmente teniendo en cuenta que alguien se tomó todo el trabajo de poner esa imagen ahí (porque en la versión 2D se ve perfecto).
@@ -22,7 +22,7 @@ Entonces, especialmente a partir de esa peli, tomé la decisión de no ir más a
 
 El mes pasado, sin embargo, con Javi y Mariano fuimos a ver `Pacific Rim <http://www.imdb.com/title/tt1663662/>`_. Y por primera vez nos pasó algo feo: en la oferta argentina de cines había sólo dos opciones: en 3D subtitulada, o en 2D doblada.
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/pelis3d-pacificrim.jpg
+.. image:: /images/pelis3d/pacificrim.jpg
     :alt: Pacific Rim
 
 Ni en pedo voy a ver una película no-de-niños doblada, así que terminamos eligiendo la versión 3D (y protestando por ella). No me calentó demasiado, porque tampoco era la película del año, y además quería darle una última oportunidad al 3D, confirmando luego que prefiero las pelis en dos dimensiones.
@@ -33,7 +33,7 @@ El otro día, con Mariano fuimos a ver `Star Trek <http://www.imdb.com/title/tt1
 
 La película está genial, y no da por perderse partes por un efecto de mierda.
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/pelis3d-startrek.jpg
+.. image:: /images/pelis3d/startrek.jpg
     :alt: Start Trek
 
 Me enojé tanto que tomé una decisión: o me ponen la película en 2D, o no voy ni mierda al cine. Nunca más. Bueno, o hasta que el 3D sea 3D de verdad (a lo que seguro los de márquetin llamaran "Full 3D").

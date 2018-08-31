@@ -8,7 +8,7 @@ La idea era, obviamente hacer entre todos mil grullas, en función de `la leyend
 
 No sé cuantas se hicieron, pero al menos yo aprendí a hacerlas :)
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/fotint-grullas.jpeg
+.. image:: /images/fotint/grullas.jpeg
     :alt: Grullas
     :target: http://www.flickr.com/photos/54757453@N00/9323395980/in/set-72157634710391218
 

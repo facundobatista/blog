@@ -19,7 +19,7 @@ Cuando fue el minuto indicado, nos hicieron pasar primero a los novios, luego a 
 
 El juez habló un rato, leyeron un par de leyes, le preguntaron un par de cosas a Moni, pedimos un aplauso para Kike (porque por él y Fabi nos conocimos), firmamos los documentos, firmaron las testigos, fotos fotos fotos, abrazos besos abrazos, arroz arroz arroz, más abrazos y fotos, etc.
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/casamiento-civil.jpeg
+.. image:: /images/casamiento/civil.jpeg
     :alt: Saliendo a la calle después de casarnos
 
 Luego, los que podían por el laburo nos acompañaron a casa, donde almorzamos las cositas que habíamos comprado, más algo que cocinamos nosotros, un matambre espectacular que hizo mi vieja, y un flan autoría de la mamá de Moni.
@@ -36,7 +36,7 @@ Finalmente pudimos arrancar. Lá (la maestra de ceremonias) y yo nos subimos al 
 
 La ceremonia fue muy personal, muy nuestra, tal como Lá comenzó diciendo en sus palabras iniciales. Pensamos nosotros las partes, pero dejamos a cargo de ella los ritmos y agregados que quisiera hacerle.
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/casamiento-ceremonia1.jpeg
+.. image:: /images/casamiento/ceremonia1.jpeg
     :alt: Arriba del carretón
 
 Luego de esas palabras iniciales de la maestra de ceremonias, pasaron a decirnos unas palabras Kike y Fabi, que como dije antes, eran los responsables de que nos hayamos conocido. Luego volvió a hablar Lá, contando muy bien que una de nuestras ideas era incluir a la naturaleza en nuestra ceremonia, plantando un árbol. Acto seguido bajamos del *escenario*, y nos acercamos hasta un níspero (gracias tía Vivi por conseguirlo), y lo plantamos en un pocito que yo había hecho temprano esa mañana.
@@ -45,7 +45,7 @@ Si la ceremonia parecía ordenada hasta ese momento, ahí dejó de estarlo, ya q
 
 Para recomendación de Lá, expliqué a todos la alianza que habíamos diseñado con Moni... en el marco de un escudito pusimos cuatro símbolos: una varita de hada (referencia clara a Moni); un camino, que siempre le gustaron a ella y que es anagrama de su nombre; un bastón de brujo (referencia esta vez a mí), y la letra griega pi, que representa mi gusto por la matemática y todo lo científico, y que es cacofónico a *.py* (sí, de Python...).
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/casamiento-ceremonia2.jpeg
+.. image:: /images/casamiento/ceremonia2.jpeg
     :alt: El Hada y el Brujo
 
 Como parte de ese momento, y en función del por qué de toda la fiesta y el compromiso que estábamos contrayendo, Moni y yo a continuación nos dijimos unas palabras, y dejamos paso al próximo momento de la ceremonia, donde Pablo y Claudio, en guitarra y voz respectivamente, nos agasajaron con una canción que habíamos elegido nosotros: *La razón que te demora*, de La Renga.
@@ -67,7 +67,7 @@ La fiesta
 
 Cuando llegamos a la parrilla pasamos directamente al parque que está atrás del salón, donde nos esperaba una regia picada bajo la sombra de los árboles... salamines, quesos varios, jamón crudo, panes saborizados, aceitunas, y varios etcéteras más. Comimos, bebimos, charlamos, y nos distendimos...
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/casamiento-picada.jpeg
+.. image:: /images/casamiento/picada.jpeg
     :alt: Picada bajo los árboles
 
 Mientras los invitados disfrutaban, con Moni nos escapamos unos quince minutos a otros rincones del parque a sacarnos algunas fotos "armadas" por el fotógrafo. Pero volvimos rápidamente, porque la verdad que ese tipo de fotos no es lo nuestro, pero ese era el momento de hacer algunas...
@@ -80,7 +80,7 @@ Cuando la energía de la gente fue amainando, volvimos todos a sentarnos para se
 
 El próximo momento planeado de la fiesta era arrancar con los juegos: como nosotros no nos gustaba la secuencia típica de comer/bailar alternados, decidimos que luego del postre arrancaríamos con juegos de mesa de todo tipo, nuevamente al aire libre. Así que mientras Moni armaba la mesa especial para niños, Alecu y yo armábamos el resto de las mesas y distribuíamos todos los juegos. ¡Gracias Alecu por coordinar esta fase!
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/casamiento-juegos.jpeg
+.. image:: /images/casamiento/juegos.jpeg
     :alt: Juegos, juegos, juegos
 
 La verdad que esto de los juegos gustó bastante... aunque el DJ quiso armar distintos bailes, la gente estaba enganchada jugando en distintos grupos, a distintas cosas.

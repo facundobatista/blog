@@ -6,6 +6,6 @@ Esta foto la saqué en uno de las dos caminatas que hice por Irlanda, en una pla
 
 Me encanta el contraste de colores... el blanco de la piedra, el verde de todo alrededor, y el azul del farol.
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/fotint-plazairlanda.jpeg
+.. image:: /images/fotint/plazairlanda.jpeg
     :alt: Plaza en Irlanda
     :target: http://www.flickr.com/photos/54757453@N00/1464280913/

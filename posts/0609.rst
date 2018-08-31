@@ -6,20 +6,20 @@ Hoy Male cumpre un mes, y para festejar (?!) subo cuatro fotitos de la pequeña 
 
 La primera es con Felipe, en un momento de cariño:
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/male1mes-confelu.jpeg
+.. image:: /images/male1mes/confelu.jpeg
     :alt: Malena y Felipe
 
 Acá están en pleno baño, con cara de circunstancias:
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/male1mes-baño.jpeg
+.. image:: /images/male1mes/baño.jpeg
     :alt: Malena en pleno baño
 
 Al final de dicho baño, con Moni:
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/male1mes-conmoni.jpg
+.. image:: /images/male1mes/conmoni.jpg
     :alt: Luego del baño reparador (?)
 
 Y apoliyando, que de eso sabe un montón...
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/male1mes-durmiendo.jpeg
+.. image:: /images/male1mes/durmiendo.jpeg
     :alt: Durmiendo

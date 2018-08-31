@@ -8,7 +8,7 @@ Bueno, luego de tanto juego previo y expectativas, finalmente tuvimos PyCon Arge
 
 Mi idea acá no es comentarles cómo la pasé durante el evento, sino más bien tratar de transmitirles sensaciones, ideas y pensamientos sobre el lado organizativo/ejecutivo del asunto.
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/pyconar09-cierre.jpg
+.. image:: /images/pyconar09/cierre.jpg
     :alt: Vuestro servidor, en la ceremonia de cierre
 
 
@@ -23,7 +23,7 @@ Lightning Talks: Son charlas de cinco minutos. Cualquiera puede dar una de estas
 
 Plenarias: Tuvimos dos charlas plenarias (charlas de 45 minutos en el auditorio principal, con todo el público asistente), que fueron dadas por dos invitados internacionales: Jacob Kaplan-Moss (creador de `Django <http://www.djangoproject.com/>`_, uno de los frameworks web más usados en el mundo), y Collin Winter (desarrollador de `Unladen Swallow <http://code.google.com/p/unladen-swallow/>`_, un proyecto de Google que promete un Python 5 veces más rápido que el actual). Estas charlas fueron en inglés, pero en una de ellas se repartieron folletos en castellano, y en la otra se proyectó simultáneamente la misma presentación en castellano.
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/pyconar09-muchagente.jpg
+.. image:: /images/pyconar09/muchagente.jpg
     :alt: Mucha gente en las plenarias
 
 
@@ -38,7 +38,7 @@ El requerimiento más importante para una participación exitosa en la organizac
 
 Hay que separar bien el tipo de trabajo que se realiza durante el año, contra el que se tiene en los días del evento. Durante el año los tiempos de respuesta son muchos más bajos, hay que tomar decisiones que influyen a largo plazo pero se pueden discutir y charlar en varias reuniones, etc. Durante los dos días, las decisiones se toman y ejecutan en el momento, y no hay demasiado tiempo para dudar. En general, cuanto más firme y mejor preparado haya estado el trabajo durante el año, en los días del evento todo será más suave, con menos sorpresas.
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/pyconar09-azules.jpg
+.. image:: /images/pyconar09/azules.jpg
     :alt: Equipo organizativo
 
 
@@ -61,7 +61,7 @@ En general, se recomienda hacer lo que uno sabe hacer y pedir ayuda a especialis
 
 Por otro lado, hay imponderables: el primer día de la conferencia se cortó la luz en todo el barrio. Por suerte, fue en el último track antes del almuerzo, algunas charlas estuvieron un rato a oscuras, y luego la energía volvió dos minutos antes de que empiece la tarde. En este caso, no podíamos hacer nada para prever ni mitigar el problema.
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/pyconar09-remera.jpg
+.. image:: /images/pyconar09/remera.jpg
     :alt: Remera de staff
 
 
@@ -74,7 +74,7 @@ En el caso de las plenarias de los invitados internacionales, normalmente se eli
 
 En cambio, para las charlas normales se hace un *call for charlas* unos meses antes, y luego de la fecha límite para presentar las propuestas, un comité se reúne y determina qué charlas se van a elegir para el evento. Esta elección se basa en la calidad de las ponencias, y en los temas que se quieren representar durante la conferencia.
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/pyconar09-collinwinter.jpg
+.. image:: /images/pyconar09/collinwinter.jpg
     :alt: Collin Winter usando la presentación traducida
 
 
@@ -87,7 +87,7 @@ Las tardes/noches luego de que termina la conferencia cada día es una buena opo
 
 En nuestro caso, quisimos profundizar esto realizando un asado el domingo, al que estaban invitados todos los disertantes y organizadores, más las respectivas familias. El objetivo era disfrutar de un día distendido, comer carne rica (¡o vegetales!), tomarse un vino, charlar, jugar a algo, etc., de manera de que la gente se conozca más y mejor.
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/pyconar09-asado.jpg
+.. image:: /images/pyconar09/asado.jpg
     :alt: Jacob Kaplan-Moss y otros jugando a las cartas
 
 
@@ -120,5 +120,5 @@ Por último, quiero dejarles la otra cara de la moneda: muchos comentarios que f
 
 Ah! Y `fotos <http://www.flickr.com/photos/54757453@N00/sets/72157622207921223/>`__, `fotos <http://www.flickr.com/photos/blmurch/>`__, `fotos <http://gallery.atpic.com/30241>`__, `fotos <http://www.flickr.com/photos/tags/pyconar09/>`__, `fotos <http://picasaweb.google.com/frapell/PyConArgentina2009#>`__.
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/pyconar09-felices5.png
+.. image:: /images/pyconar09/felices5.png
     :alt: El Gran Grossini nos saluda!

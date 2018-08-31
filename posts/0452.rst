@@ -11,7 +11,7 @@ El plan estuvo muy bien, nos levantamos casi a las ocho, desayunamos, y empezamo
 
 La mañana estuvo tranquila, charlando de cosas varias mientras iban llegando los participantes, y recién luego de comer arrancamos con la organización del schedule para todos los días:
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/pycamp10-schedule.jpg
+.. image:: /images/pycamp10/schedule.jpg
     :alt: Schedule de PyCamp 2010
 
 El primer tema me interesaba (`tower defense <http://es.wikipedia.org/wiki/Tower_defense>`_); no para programarlo, sino para participar en la charla inicial. Las ideas estuvieron muy bien, veamos como evoluciona.
@@ -32,7 +32,7 @@ Durante la mañana no hice nada específico, más que nada charlas, cargué much
 
 A las 13 almorzamos, y luego jugamos a la pelota como media hora (sí, ¡deporte!). Cortamos a las 14 porque arrancaba la sesión de `Lalita <https://edge.launchpad.net/lalita>`_. Nos juntamos obviamente al aire libre (estabamos la mitad transpirados por el fúbol), y charlamos cosas para hacerle. Me anoté un bug doble (o dos bugs muy parecidos, como quieran), pero antes de empezar a hacer eso me fui a bañar.
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/pycamp10-familia.jpg
+.. image:: /images/pycamp10/familia.jpg
     :alt: Familia en PyCamp
 
 Cuando salí encontré que ya había empezado la charla de `cocos2d <http://cocos2d.org/>`_, y me metí para la charla/discusión sobre qué era y cual es el futuro (llegamos a la conclusión de que lo que habría que hacerle a la biblioteca es: mejor manejo de sonido, implementar colisiones, mejor documentación, y bugfixing en general).
@@ -53,7 +53,7 @@ Luego se hizo un pequeño Bug Day de Python, en la cual muchos chicos aprendiero
 
 Durante la tarde, también, se realizó el primer Torneo Universal de Ping Pong Durante Un PyCamp (o más fácil: TUPPDUPC). Yo perdí en cuartos a manos de (o "a paletas de") el que sería el campeón, Nico Echaniz:
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/pycamp10-pingpong.jpg
+.. image:: /images/pycamp10/pingpong.jpg
     :alt: Torneo de ping pong
 
 Estuvimos también charlando un rato largo sobre el modelo del juego que construiremos durante el próximo PyWeek (`el juego más grande del mundo <http://the.most.biggest.gamest.in.the.worldst.com.ar/>`_, ¡ya les contaré cómo participar!).
@@ -72,7 +72,7 @@ Luego de esta charla seguí trabajando en Enjuewemela, hasta que se acabó el ti
 
 Ahí empecé a ordenar todo lo mío y a limpiar un poco los lugares donde habíamos trabajado, armé el auto, y emprendimos el regreso.
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/pycamp10-gente.jpg
+.. image:: /images/pycamp10/gente.jpg
     :alt: Trabajando
 
 Así terminó el tercer PyCamp en Argentina, uno de los eventos de programación más interesantes que conozco, y uno de los que más cumplen a la hora de aprender y divertirse. Todas las fotos, `aquí <http://www.flickr.com/photos/54757453@N00/sets/72157623601554224/>`_.

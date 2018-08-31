@@ -22,7 +22,7 @@ Sí, es un poco más caro si consideramos la relación dinero/kg, pero el carbó
 
 Por último, ¿por qué no leña? Porque siempre mi viejo hizo asado con carbón, así que esta técnica usa carbón, :)
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/pasosasado1.jpeg
+.. image:: /images/pasosasado/img1.jpeg
     :alt: Carbón
 
 
@@ -41,7 +41,7 @@ Todo este proceso de armado lleva un rato, sí, pero luego funca solo. Por otro 
 
 Cuando está todo listo, le acercás un fósforo prendido a la/s mecha/s que hayas dejado sobresaliendo. Y disfrutás el proceso, viendo como el fuego entra al cono y se va consumiendo todos los materiales de adentro para afuera.
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/pasosasado2.jpeg
+.. image:: /images/pasosasado/img2.jpeg
     :alt: El cono
 
 
@@ -52,7 +52,7 @@ Una vez prendido el fuego, dejás que se vayan quemando las distintas capas (de 
 
 En el momento en que la estructura se desmorona, hay que reacomodarlo. Es sencillo, sólo hay que agarrar los carbones más grandes, los que habías dejado como última capa, y ponerlos nuevamente en el medio del fuego, con lo apagado para adentro, de manera de prenderlos por ese lado.
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/pasosasado3.jpeg
+.. image:: /images/pasosasado/img3.jpeg
     :alt: Rearmando el fuego
 
 En este momento también tapás todo con más carbón, poniendo ahora sí todo el que se va a usar durante el asado. Hay que tener en cuenta de poner carbones chicos, para que se termine de prender todo más o menos al mismo tiempo.
@@ -61,7 +61,7 @@ Como a veces ponemos demasiado carbón, o le ponemos restitos que por ahí tiene
 
 Se puede acomodar toda la estructura un par de veces, hasta que todo esté bien prendido, la idea acá es redistribuir todo apuntando a lograr brasas hechas parejas. Durante el rato que todo se está terminando de hacer es buena idea aprovechar ese calor para limpiar bien la parrilla, :)
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/pasosasado4.jpeg
+.. image:: /images/pasosasado/img4.jpeg
     :alt: Brasas casi listas
 
 
@@ -74,7 +74,7 @@ Luego cubrís ese colchón de brasas con ceniza que nos quedaron de fuegos anter
 
 Es que la ceniza tiene dos funciones principales. La primera es regular el calor, entonces no nos va a pasar que se nos queme por calor excesivo al principio, ni quedarnos sin calor al final, para los cortes gruesos (vacío, bondiola, etc.). La otra función es cortar la combustión de las brasas, porque llevamos a un mínimo la entrada de aire.
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/pasosasado5.jpeg
+.. image:: /images/pasosasado/img5.jpeg
     :alt: Colchón de brasas
 
 Obviamente, el juego con las cenizas es dinámico. Se arranca con la cantidad de ceniza que antes mencionaba, y se pone la parrilla medianamente baja. Y se ubica todo lo que se tenga que poner en la parrilla. Luego, más allá si a los comestibles los dás vuelta o no (yo doy mucho más vuelta el pollo, o el matambre, por ejemplo, que el asado), o si los sacás para los costados para que alguno que otro reciba menos calor (como las morcillas), con las brasas la atención la tenés que poner en el calor que generan.
@@ -93,7 +93,7 @@ Es buenísimo cubrir los comestibles con un papel grueso de esos tipo encerado (
 
 También, si hay mucho viento, es una buena idea ponerle una protección en los costados de la parrilla (obviamente ya no cartón, porque está en contacto con el borde de las brasas, una chapa finita te va a servir perfecto).
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/pasosasado6.jpeg
+.. image:: /images/pasosasado/img6.jpeg
     :alt: Carne
 
 

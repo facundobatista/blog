@@ -6,6 +6,6 @@ Naturaleza no muerta, en las alturas cordobesas, de mis vacaciones hace cuatro a
 
 La foto la saqué con mi cámara vieja, jugando con macro, iluminación, etc. Esta foto salió linda, pero en general esa cámara quedaba un poco corta para "jugar en serio".
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/fotint-margarita.jpeg
+.. image:: /images/fotint/margarita.jpeg
     :alt: Margarita
     :target: http://www.flickr.com/photos/54757453@N00/2248678448/

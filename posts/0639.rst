@@ -6,6 +6,6 @@ En Londres estuvimos (con Guillo y Lucio) sacando varias fotos "pensadas"... o s
 
 Esta foto, sin embargo, fue sacada así de primera (pero no en modo automático, sino jugando con el tiempo de exposición), en el restaurant coreano al que fuimos a cenar una noche.
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/fotint-decocoreana.jpeg
+.. image:: /images/fotint/decocoreana.jpeg
     :alt: Decoración coreana
     :target: http://www.flickr.com/photos/54757453@N00/11355153996/in/set-72157638639073636

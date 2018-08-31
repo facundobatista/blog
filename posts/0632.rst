@@ -16,7 +16,7 @@ La charla plenaria la dió Robert Lefkowitz, sobre "Literacy, Programming, and O
 
 Robert, al final de la charla, hizo una invitación general a ir a tomar algo. Pero Emiliano tenía pre-armado unos pescados a la parrilla, así que subimos la apuesta y armamos (previa recolección de dinero) un asado para treinta y pico en un club cercano. Fue una corrida ir a la carnicería, al supermercado por bebidas, pan y etcéteras, y por la casa de Emi para buscar algunos elementos generales, mientras Juan Pablo y Marcos arrancaban con el fuego en el club. Al final se asaron un dorado y un sábalo enormes ambos, más dos bondiolas de cerdo y un pedazote de bife de chorizo. Todo regado con fernet, cerveza, vino, y mucha, mucha charla copada.
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/pycon2013-grupal.jpg
+.. image:: /images/pycon2013/grupal.jpg
     :alt: La foto grupal
     :target: http://www.flickr.com/photos/70871182@N04/10516024666/in/set-72157637010046074
 

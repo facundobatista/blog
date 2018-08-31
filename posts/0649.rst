@@ -4,7 +4,7 @@
 
 La semana pasada estuve de sprint, esta vez en un destino al que no había ido nunca. Malta. Siempre que lo menciono, todo me preguntan donde está Malta (yo tampoco sabía)... bueno, está acá:
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/malta-mapa.png
+.. image:: /images/malta/mapa.png
     :alt: Mapa de Malta
 
 Es una isla principal, con un par de islas pequeñas alrededor... parece chica, pero tiene casi medio millón de habitantes, y sorprendentemente la más alta densidad de población de Europa `[-] <http://es.wikipedia.org/wiki/Malta>`_.
@@ -13,12 +13,12 @@ No pude pasear demasiado y conocer, lamentablemente, porque el domingo llegué t
 
 La ciudad es rara. Tiene algo de pintoresco, pero también de decadente. Hay edificios muy lindos, y hay otros que son directamente feos. Que el 90% de las construcciones estén hechas con la misma piedra local le da a todo un tono peculiar.
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/malta-edificios.jpeg
+.. image:: /images/malta/edificios.jpeg
     :alt: Edificios
 
 Aunque es una isla, y algunas playitas de arena tiene, la mayoría de la costa es rocosa. Obvio, igual la gente toma sol, nada, disfruta del mar, etc. Algo que nos llamó mucho la atención fueron unas piletas cavadas en las rocas de la playa... algo así como saunas naturales...
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/malta-piletascosta.jpeg
+.. image:: /images/malta/piletascosta.jpeg
     :alt: Piletas en la costa
 
 Todas las fotos `acá <https://www.flickr.com/photos/54757453@N00/sets/72157644575257090>`_.

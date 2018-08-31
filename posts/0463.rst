@@ -4,20 +4,20 @@
 
 Es que estuvimos programando...
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/activ-program.jpg
+.. image:: /images/activ/program.jpg
     :alt: Programando
 
 ... y luego me plantearon un desafío:
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/activ-desafio.jpg
+.. image:: /images/activ/desafio.jpg
     :alt: Desafío
 
 Más tarde nos relajamos leyendo...
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/activ-leyendo.jpg
+.. image:: /images/activ/leyendo.jpg
     :alt: Leyendo
 
 ... hasta que caímos exhaustos!
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/activ-durmiendo.jpg
+.. image:: /images/activ/durmiendo.jpg
     :alt: Exhaustos

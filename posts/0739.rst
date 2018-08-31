@@ -6,10 +6,10 @@ Las últimas semanas mostraron claros avances en cinco frentes totalmente disím
 
 El más ajustado al tiempo es el `Seminario de Python <http://www.taniquetil.com.ar/facundo/cursosAbiertos.html>`_. Claro, llegó Julio y arrancó el seminario, que no es más que un curso con mucha gente :)
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/avances-seminario1.jpeg
+.. image:: /images/avances/seminario1.jpeg
     :alt: Público, primer día
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/avances-seminario2.jpeg
+.. image:: /images/avances/seminario2.jpeg
     :alt: Mostrando cosas en la pantalla, segundo día
 
 Estuvo muy bien. Vinieron casi todos, las preguntas fueron interesantes, el tiempo me alcanzó como había planeado. Y además el hacerlo en oficinas de `Onapsis <https://www.onapsis.com/>`_ fue un éxito: desayunamos rico, y estuvimos muy cómodos (¡gracias!).
@@ -24,7 +24,7 @@ El otro día agarré mi viejita Dell XPS 1330, que vino usando Moni los últimos
 
 Entonces abrí toda la máquina. La despanzurré, hasta que saqué la compactera, la cual también desarmé para sacar el DVD, todo bien. Después volví a armar la máquina. Al final, me seguía dando el mismo código de error. Si saco las dos memorias me tira "No SODIMM installed", y si pongo una de los das en cualquiera de los dos slots me tira "SPD data reports all SODIMMS are unusable".
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/avances-despanzurrada.jpeg
+.. image:: /images/avances/despanzurrada.jpeg
     :alt: La laptop toda abierta
 
 Lo mejor que puedo determinar es que se le jodió algo de la mother relacionado con la memoria. Caput. Una lástima que se haya muerto esta máquina, pero la verdad es que se la bancó: la tengo desde hace 8.5 años, cuando entré en Canonical, y cuando la dejé de usar yo la empezó a usar Moni. Nota de color: este es uno de los casos en que realmente `un video <https://www.youtube.com/watch?v=YAo0NbL1Czw>`_ es mejor que un documento de texto.
@@ -35,7 +35,7 @@ Con respecto a `Encuentro <http://encuentro.taniquetil.com.ar/>`_, la mejor de l
 
 De `Fades <http://fades.readthedocs.io/>`_ les cuento que con `Nicolás Demarchi <https://twitter.com/gilgamezh>`_ le estuvimos poniendo algo de ganas luego del `release <http://www.taniquetil.com.ar/plog/post/1/734>`_, y empezamos el (esperemos corto) camino para la versión 7. La mayor noticia en este frente es que `Michael Kennedy <https://twitter.com/mkennedy>`_ y `Brian Okken <https://twitter.com/brianokken>`_ charlaron sobre este proyecto en `este episodio del podcast Python Bytes <https://pythonbytes.fm/episodes/show/33/you-should-build-an-alexa-skill>`_ (que tanto Nico como yo escuchamos todas las semanas); estamos muy contentos.
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/avances-quesos.jpeg
+.. image:: /images/avances/quesos.jpeg
     :alt: Quesos (por el logo de fades, larga historia)
     :target: https://www.flickr.com/photos/77856868@N04/8647936703/
 

@@ -7,24 +7,24 @@ Cuatro años
 
 El finde pasado festejamos los cuatro años de Felipe, en el `Taller de la Ribera <http://www.tallerdelaribera.com.ar/home.php>`_.
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/felu4años-festejo.jpeg
+.. image:: /images/felu4años/festejo.jpeg
     :alt: Castillos
 
 La temática del cumpleaños fue de "caballeros", que es algo con lo que Felu estuvo enganchado mucho este año. Como muestra, vale un botón... ¡tiembla Aragorn!
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/felu4años-caballero.jpeg
+.. image:: /images/felu4años/caballero.jpeg
     :alt: Caballero
 
 Salió todo muy lindo, los chicos se divirtieron, hicieron arte, jugaron, comieron. Los grandes similar, excepto la parte de arte que era exclusiva para los pequeños, y quizás charlaron más :p.
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/felu4años-risueño.jpeg
+.. image:: /images/felu4años/risueño.jpeg
     :alt: Risueño
 
 Vino mucha gente, en el orden de las sesenta personas (incluyendo niños y adultos). Y faltaron como veinte, la mayoría con previo aviso. Y si contamos los que fueron a casa el jueves, porque el sábado no podían, la suma nos da un número redondo: *un montón*.
 
 Y hacer que todo funcione correctamente, todos coman, beban y se sientan cómodos, para *un montón* de gente, es mucho trabajo. Al punto que aunque disfruté mucho, estuve corriendo de un lado para el otro y casi no pude charlar con nadie.
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/felu4años-ambiente.jpeg
+.. image:: /images/felu4años/ambiente.jpeg
     :alt: Ambiente
 
 Veremos si el año que viene cambiamos la dinámica, porque esto ya no escala.

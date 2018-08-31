@@ -4,7 +4,7 @@
 
 Mundos, luego de fabricados, esperando el momento del deployment.
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/fotint-mundos.jpeg
+.. image:: /images/fotint/mundos.jpeg
     :alt: Mundos
     :target: http://www.flickr.com/photos/54757453@N00/8075540583/
 

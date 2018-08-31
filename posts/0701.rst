@@ -8,35 +8,35 @@ Aprovechamos Enero porque los chicos están de vacaciones en la escuela, y cómo
 
 Estuvimos unos días en `Santa Marta <https://es.wikipedia.org/wiki/Santa_Marta_%28Colombia%29>`_, unos días en `Cartagena <https://es.wikipedia.org/wiki/Cartagena_de_Indias>`_, y luego volvimos a Santa Marta (esta última etapa es la que yo trabajé de lunes a viernes, mientras que la familia seguía de "vacaciones" :p).
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/vacacionescolombia1.jpeg
+.. image:: /images/vacacionescolombia/img1.jpeg
     :alt: Paseando por Cartagena
 
 Obviamente no voy a relatar día por día las vacaciones, pero sí voy a comentar algunas impresiones de Colombia en general, o las ciudades, o de los paseos.
 
 Una de las cosas que más le tenía "miedo" era el viaje en sí. Es que para llegar a Santa Marta nos teníamos que tomar tres aviones (en la ida las escalan fueron San Pablo y Bogotá, a la vuelta fueron Bogotá y Lima), y entre los vuelos y las esperas intermedias fue mucho tiempo. Mi "miedo" era en función de los pequeños, de cuanto se iban a bancar todo el baile y cuanto nos iban a complicar la existencia a Moni y a mi :).
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/vacacionescolombia2.jpeg
+.. image:: /images/vacacionescolombia/img2.jpeg
     :alt: Peques en la pile
 
 La verdad, se portaron genial. Estaban excitados por la movida, pero no tanto como para descontrolarse. En los aeropuertos se portaron muy bien, y arriba de los aviones también :). Durmieron bastante, teniendo en cuenta que a la ida viajamos de día. Incluso, Malena se quedó dormida al toque de subirse al primer avión, y se despertó cuando ya había aterrizado... se desperezó y preguntó "¿Ya subió el avión?". Muy gracioso.
 
 Al llegar a Colombia, la primera impresión fue sobre como manejan. El taxista que nos llevó del aeropuerto al primer departamento que habíamos alquilado iba muy rápido, tomando las curvas cerradas, tocando bocina por doquier, y en general con una forma de manejo peligrosa. Con el transcurso de los días nos fuimos dando cuenta que es la forma normal de manejar de los colombianos, al menos en Santa Marta y en Cartagena. Es raro que los taxis tengan cinturón de seguridad. Y las bocinas son insoportables, incluso cuando uno va caminando por la calle. Están todo el tiempo tocando bocina, ¡todo el tiempo!
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/vacacionescolombia3.jpeg
+.. image:: /images/vacacionescolombia/img3.jpeg
     :alt: Familia en la playa
 
 Con los taxis nos dimos cuenta también que la economía es bastante informal: no tienen reloj, sino que hay que preguntar (negociar) antes de subirte cuanto va a salir el viaje en función de a donde uno va. Incluso nos ha pasado que a mitad del viaje nos quisieron cambiar el monto pactado :/. Pero no sólo en los taxis se ve la ausencia de precios regulados: excepto en los supermercados grandes, las cosas no tienen nunca precio, todo hay que preguntarlo, negociarlo, y jugarte a que no te hayan visto demasiado la cara de extranjero.
 
 A nivel dinero, el cambio era alrededor de 1000 pesos colombianos igual a 4.50 argentinos. Más allá que las cosas estaban un poco más baratas que en casa, te manejás con números grandes (algo a lo que mi generación no está acostumbrada, teniendo el Peso desde principio de los noventa). Una buena: en todos lados tienen los postnet inalámbricos, y se puede pagar con tarjeta. Una mala: redondean para arriba, como en Argentina (o sea, gastaste 17380 pesos y te cobran 17400, o 17500...). Lo que me llamó mucho la atención es que conviven monedas distintas para la misma denominación, tuve en mis manos dos monedas `válidas pero totalmente distintas de $200 <https://www.flickr.com/photos/54757453@N00/25196379853/in/album-72157665828610001/>`_.
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/vacacionescolombia4.jpeg
+.. image:: /images/vacacionescolombia/img4.jpeg
     :alt: Hicimos un castillo de arena :)
 
 Otra cosa que aprendimos al pasear en taxi, micro, o caminando, es cómo es el esquema de direcciones. Se basan en "carreras" (que son las calles paralelas a la costa) y "calles" que son las perpendiculares. Eso es simple, el resto es un bardo. Es que claro, las calles no tienen un trazado cuadriculado perfecto, entonces empezás con esquinas como carrera 1A y calle 7B, y cosas así. Por otro lado, se guían mucho por los nombres de los edificios (todos tienen nombre!), y al taxista quizás le das la esquina exacta y no se ubican, pero le mencionás el nombre del edificio y saben al toque a donde ir.
 
 Un detalle de color: en el centro histórico de Cartagena (el "casco viejo", lo que está dentro de la muralla original, digamos) cada cuadra tiene su nombre. O sea, uno va caminando por una calle, y en cada esquina, aunque uno siga derecho, cambia el nombre :)
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/vacacionescolombia5.jpeg
+.. image:: /images/vacacionescolombia/img5.jpeg
     :alt: Cartagena de Indias
 
 Cuando planeamos las vacaciones, una de los puntos críticos que decidimos fue no ir a "hoteles". Queríamos, al menos, que sean apart-hotel, para tener la comodidad de tener cocina, heladera, etc, de manera de poder hacer comida piola para los chicos (ni comer porquerías ni tener que salir a comer todos los días afuera) o prepararles el desayuno y la merienda, etc. Finalmente, optamos por alquilar departamentos vía `Airbnb <https://www.airbnb.com.ar/>`_ y `TripAdvisor <https://www.tripadvisor.com.ar/>`_.
@@ -45,21 +45,21 @@ Ambos servicios son similares. Usamos ambos, sólo en función de los lugares qu
 
 Y la verdad es que alquilar un departamento es muuuuucho más ventajoso que un apart hotel. O sea, es una casa, no un lugar "temporario", las instalaciones son distintas. Un ejemplo sencillo: tenés lavarropas (no en todos lados, OK, pero si el departamento está más o menos bien puesto, sí). Y termina resultando más barato.
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/vacacionescolombia6.jpeg
+.. image:: /images/vacacionescolombia/img6.jpeg
     :alt: Hicimos galletitas
 
 Lo que vimos que todos tienen es ventiladores y aire acondicionado (y eso que la electricidad es bastante cara), pero evidentemente son necesarios en función del calor intenso. Como ejemplo, vale que nosotros usamos aire acondicionado casi todos los días, ¡y estábamos en invierno! Y eso que no nos gusta demasiado el tema del aire, eh. Es más, yo terminé confirmando que prefiero otras soluciones. Es que al final estábamos todo el tiempo apagando y prendiendo el aire, a veces terminábamos con mucho calor, a veces terminábamos con dolor de garganta por el frío, etc.
 
 Un detalle con respecto a eso de que estábamos en invierno: nos comentaron que allá le dicen "invierno" a los días que llueve, y "verano" al resto de los días. Claro, por la latitud en que se encuentran, tienen un clima parecido todo el año. Por otro lado, el clima les estuvo cambiando los últimos años. El fenómeno de El Niño les pegó fuerte, y están sufriendo sequía tras sequía. Ríos enteros que ya casi no existen. Y en Santa Marta no llovía desde hace cuatro meses! Mientras estuvimos nosotros, un día se nubló bastante, ¡nada más!
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/vacacionescolombia7.jpeg
+.. image:: /images/vacacionescolombia/img7.jpeg
     :alt: Atardecer
 
 El lado positivo es que pudimos disfrutar todos los días. Fuimos muchísimas veces a la playa, como imaginarán, y los cuatro la pasamos bárbaro jugando en el mar y la arena. Además de ir a la playa que teníamos cerca hicimos excursiones a playas lejanas, paseamos varias veces por el `Parque Nacional Tayrona <http://es.wikipedia.org/wiki/Parque_nacional_natural_Tayrona>`_ (fuimos a Bahía Concha a hacer playa, a Playa del Muerto (o Playa Cristal), donde también hicimos "careteo" (te llevan flotando boca abajo, con un snorkel, mirando los corales y miles de peces de colores), a Playa Blanca, en Santa Marta, y varios lugares más. A nivel excursiones y paseos también fuimos al `Museo del Oro de Cartagena <http://www.cartagenacaribe.com/dondeir/sitiosdeinteres/museodeloro.htm>`_, a recorrer el `Castillo de San Felipe <http://es.wikipedia.org/wiki/Castillo_San_Felipe_de_Barajas>`_, y recorrimos en general las ciudades por todos lados :)
 
 Un punto aparte fue como se portaron los niños con el agua. Empezaron bastante tímidos (tanto en el mar como en la pileta que disfrutamos en nuestra segunda estadía en Santa Marta), pero se fueron soltando. Al final, Malena y Felipe se metían hasta el cuello en el mar (siempre con Moni o conmigo al lado), y en la pileta Malena iba sola por todos lados con los bracitos inflables, y Felipe nadaba solo, sin hacer pie, de un lado para el otro.
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/vacacionescolombia8.jpeg
+.. image:: /images/vacacionescolombia/img8.jpeg
     :alt: Familia en la pileta
 
 Unas vacaciones inolvidables, que disfrutamos tantísimo, pero que también cerramos con ganas de volver a casa, que extrañamos bastante :)

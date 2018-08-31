@@ -6,26 +6,26 @@ Cuando estuve `planificando el segundo semestre de este año <http://www.tanique
 
 Lo primero grande que me llevó mucho tiempo fue el cumpleaños de Felipe. Este año hicimos algo en un saloncito (el mismo donde le festejamos el primer cumple) para los amiguitos del jardín y todos nuestros familiares/amigos que tienen niños, el mismo viernes que Felipe cumplía. Y luego un asado en casa para todo el resto de amigos y familiares, el domingo siguiente.
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/oct14-cumplefelu1.jpg
+.. image:: /images/oct14/cumplefelu1.jpg
     :alt: Felu soplando la velita
 
 Salió todo muy bien, pero organizar todo lleva varios, varios días y terminás exhausto :p. Igual, la que más labura en estos casos es Moni, desde muchas semanas antes... haciendo decoraciones, los souvenirs, escenografías, y mil cosas más. Yo me ocupo de muchas cosas que tienen que ser los últimos días, así que lo mío es más corto, pero intensivo.
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/oct14-cumplefelu2.jpg
+.. image:: /images/oct14/cumplefelu2.jpg
     :alt: Felipe 5
 
 Algo que no tenía planeado al armar el segundo semestre era una semana de laburo en Washington. Claro, es una semana hábil más el viaje durante el finde, así que ocupa bastante tiempo.
 
 Yo ya conocía Washington (ver `este post y siguientes <http://www.taniquetil.com.ar/plog/post/1/37>`_), así que no me hice mucha malasangre porque no tenía tiempo de pasear por los alrededores y el centro. Igual algo caminamos, especialmente una noche que hicimos la cena de equipo, y nos fuimos a una ciudad costera cercana, a comer "bien local" (`estuvo buenísimo <https://twitter.com/n01s3/status/525450978498461696>`_). Y siempre es una excusa para volver a reencontrarse con gente, romper la rutina, jugar algunos juegos de mesa, etc... ¡ah! y trabajar en equipo, claro, :p
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/oct14-hot.jpg
+.. image:: /images/oct14/hot.jpg
     :alt: Salsa
 
 Y para cerrar el mes, justo la semana posterior al viaje, asistí a mi primera Ekoparty (la conferencia seguridad más grande de latinoamérica). Esto lo estoy escribiendo el jueves a la mañana, así que todavía me resta asistir a dos tercios de la misma, y el primer día estuve a full en el stand de PyAr.
 
 Bueno, "estuve", ¡estuvimos! Con Gabriel, Osiris, Nico y Julián, armando todo lo que es la competencia de Python Argentina, que armamos especialmente para Ekoparty. Lo que armamos fue un `TypusPocus <http://python.org.ar/juegos/TypusPocus>`_ toqueteado especialmente para el evento; lo hacemos correr en una `RasPi <http://www.raspberrypi.org/>`_ en modo "kiosco" para que la gente juegue, y sincronicamos los highscores a otra RasPi donde también corre TypusPocus, en modo "showcase" (mostrando highscores y propagandas de PyAr, la próxima PyConAr, y cosas del mismo juego).
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/oct14-ekoparty.jpg
+.. image:: /images/oct14/ekoparty.jpg
     :alt: Stand de PyAr en la Ekoparty
 
 El stand va siendo un éxito. Ayer volaron los 100 microtutoriales que llevé, y la gente viene y va todo el tiempo. El jueves (hoy!) voy medio día, y mañana ya voy desde temprano y me quedo hasta bien el final. Y como ya tenemos 98% de todo listo, seguro que voy a ir a varias charlas de la conferencia misma, que hay algunas muy copadas.

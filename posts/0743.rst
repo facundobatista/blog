@@ -12,7 +12,7 @@ Estuvo muy bueno. La gente se animó a participar, fuimos pensando distintos pro
 
 Fotito que `tuiteó Chechu <https://twitter.com/chechuriva/status/895420663481065472>`_:
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/dosexp-consultoriopython.jpg
+.. image:: /images/dosexp/consultoriopython.jpg
     :alt: Consultorio Python
 
 Por otro lado, el domingo pasado en las PASO fui por primera vez autoridad de mesa en una elección. Presidente de mesa, incluso.
@@ -25,7 +25,7 @@ Abrí la urna, que contenía una caja con útiles y planillas varias. Preparé e
 
 Luego preparé el padrón principal, más otro para control, y le dí uno de control a la fiscal. Hice el acta de apertura a las ocho de la mañana, y voté :). Fue muy loco, me firmé mi propio comprobante :p.
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/dosexp-comprobante.jpg
+.. image:: /images/dosexp/comprobante.jpg
     :alt: Mi comprobante de que voté, firmado por mí :p
 
 Luego, empezó a venir la gente, de forma lenta. Pero a eso de las nueve empezaron a venir más. Y ahí nomás ya nos saturamos: desde la 9:30 a las 15hs no paramos nunca. Por suerte con la fiscal (y con otro que la vino a reemplazar una media hora mientras ella iba a votar a otro lado) tuvimos una buena dinámica y no teníamos tiempos muertos (las esperas eran en gran parte por los que tardaban adentro del cuarto oscuro).
@@ -42,7 +42,7 @@ Ya con todos los sobres abiertos, empecé a contar lista por lista todas las bol
 
 Para terminar sumamos todo, casillero por casillero (un fiscal con calculadora, pero yo terminaba antes mentalmente y veía que estuviera bien). Y sumamos todas las columnas. Y nos dio redondito redondito :D.
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/dosexp-votos.jpg
+.. image:: /images/dosexp/votos.jpg
     :alt: Planilla con los totales de votos
 
 Ahí empezaron todos a llenar sus planillas. Y yo también: el acta de escrutinio, el certificado de escrutinio, y el telegrama. Y empezar a acomodar todas las cosas (que se entregan al correo de forma muy predeterminada). Luego firmas por todos lados (yo como presidente de mesa a todo lo que hice yo e hicieron los fiscales, y ellos también entre sí y a lo que llené yo), y terminar de irnos.

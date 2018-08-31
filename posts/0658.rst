@@ -16,12 +16,12 @@ Una de esas cosas es el tiempo. Y no estoy hablando de si llueve o mañana va a 
 
 Pongamos un ejemplo para entenderlo mejor: soltemos una pelota en el aire...
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/causaconsec-pelota1.png
+.. image:: /images/causaconsec/pelota1.png
     :alt: La pelota, antes de soltarla
 
 En el momento de soltar la pelota, la misma está quieta y a una altura determinada. Si yo te pregunto, qué pasa luego de soltar la pelota, me contestarías fácilmente. Obviamente, momentos después, la pelota está más abajo, y cayendo a una velocidad determinada...
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/causaconsec-pelota2.png
+.. image:: /images/causaconsec/pelota2.png
     :alt: La pelota, un rato después
 
 También, si en lugar de mostrarte las dos imágenes al mismo tiempo, te muestro la segunda, te podés imaginar la primera. Es como en el caso de ver la hoja del árbol en el piso, sabés que antes estaba en una rama.
@@ -40,7 +40,7 @@ Y no es tan simple, porque esto de poder ir para adelante y para atrás en el ti
 
 Vayamos con otro ejemplo sencillo (aunque un poco más difícil de construir)... mirá el siguiente dibujo.
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/causaconsec-foton1.png
+.. image:: /images/causaconsec/foton1.png
     :alt: Fotón loco, viaje de ida
 
 Eso es una lamparita que tira de a un fotón (la mínima unidad de luz, su partícula elemental), una superficie semiespejada (la explico abajo), y un detector de fotones (que nos va a decir si el fotón llegó ahí).
@@ -51,7 +51,7 @@ Entonces, veamos qué pasa cuando la lamparita emite un fotón. Este va derechit
 
 Pero ahora hagamos la pregunta inversa: arranquemos de la segunda imagen, y tratemos de deducir la primera. O sea, tratemos de imaginar qué pasó *antes* (retrocediendo en el tiempo), arrancando nuestra visualización desde el fotón impactando en el detector. Para eso voy dibujo el mismo experimento, pero con otros recorridos...
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/causaconsec-foton2.png
+.. image:: /images/causaconsec/foton2.png
     :alt: Fotón loco, viaje de vuelta
 
 ¿Cómo se entiende este nuevo dibujo? Como decía, tenemos que pensar para atrás. Si nosotros sabemos que el detector recibió un fotón, la trayectoria B-C seguro se cumplió; entonces, al punto B del semiespejo el fotón llego de uno de dos lados posibles: o de la lamparita en A (atravesando el semiespejo), o desde un nuevo punto E (reflejándose en el semiespejo).

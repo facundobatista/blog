@@ -6,20 +6,20 @@ Como casi siempre a Córdoba, fuí y volví en micro (porque en el colectivo en 
 
 El viernes a la mañana hicimos el viaje hasta La Serranita con los chicos. Llegamos a media mañana, y ahí se dió la situación de siempre, que es muchas veces esperada: saludar y abrazar a viejos amigos que uno no puede ver tan seguido (y a cuatro o cinco nuevos que uno todavía no conoce :) ).
 
-.. image:: http://taniquetil.com.ar/facundo/imgs/pycamp15-grupo.jpeg
+.. image:: /images/pycamp15/grupo.jpeg
     :alt: El grupo recién reunido, charlando sobre las propuestas
 
-.. image:: http://taniquetil.com.ar/facundo/imgs/pycamp15-temas.jpeg
+.. image:: /images/pycamp15/temas.jpeg
     :alt: Como quedaron planeadas las actividades
 
 El lugar estuvo muy bueno. Quizás me podría quejar que el salón principal era demasiado ajustado, y que las comidas eran en una hostería a cuatro cuadras de distancia, pero el resto estuvo más que bien. No sólo las instalaciones (habitaciones, parque, quincho, etc, etc), sino la atención humana. Un lujo.
 
 Hasta buena internet tuvimos en este PyCamp, ya que estábamos en la red vecinal abierta que Nico Echaniz y amigos montaron en La Quintana y ciudades aledañas. Eso sí, notamos que cuando teníamos problemas con lo que era comunicaciones el tema estaba en el router que estábamos usando (y eso que terminamos poniendo uno muy bueno). Decidimos que había que invertir en hardware un poco más pro (no algo "de uso hogareño bueno" sino algo "profesional")... veremos cuanto cuesta, pero creo que vamos a gastar unos mangos ahí, ya que nos queda no sólo para el PyCamp sino para otros eventos.
 
-.. image:: http://taniquetil.com.ar/facundo/imgs/pycamp15-terraza.jpeg
+.. image:: /images/pycamp15/terraza.jpeg
     :alt: Una terraza dos niveles más arriba que la sala de laburo
 
-.. image:: http://taniquetil.com.ar/facundo/imgs/pycamp15-parquecito.jpeg
+.. image:: /images/pycamp15/parquecito.jpeg
     :alt: Pequeño parque en uno de los niveles
 
 A nivel proyectos y Python: lo de siempre... se hacen mil cosas, desde laburar en proyectos estables hasta delirar con cosas nuevas, se mejoran cosas arrancadas de antes, se agregan funcionalidades, se empiezan proyectos que se terminan en esos cuatro días, se arrancan cosas que luego duran mucho tiempo, etc... pero lo más importante no pasa por ahí.
@@ -28,10 +28,10 @@ El núcleo del evento es humano. Charlar con gente que conocés de siempre, y po
 
 El programar Python es casi una excusa para que todo lo otro suceda. Y digo "casi" porque sí, claro, lo que se programa y hace está buenísimo también :D
 
-.. image:: http://taniquetil.com.ar/facundo/imgs/pycamp15-comiendo.jpeg
+.. image:: /images/pycamp15/comiendo.jpeg
     :alt: En el comedor, almorzando
 
-.. image:: http://taniquetil.com.ar/facundo/imgs/pycamp15-trabajando.jpeg
+.. image:: /images/pycamp15/trabajando.jpeg
     :alt: En la sala principal de laburo (no era grande, pero no era la única)
 
 En ese aspecto, yo estuve principalmente con dos proyectos. Por un lado `filesync server <https://launchpad.net/magicicada-server>`_, recientemente `liberado open source <http://insights.ubuntu.com/2015/08/10/ubuntu-one-file-syncing-code-open-sourced/>`_, con un cambio muy grande que empecé el jueves mismo estando en la casa de Nati y continué intermitentemente durante los cuatro días de PyCamp.
@@ -40,13 +40,13 @@ El otro proyecto en el que invertí mucho tiempo es `fades <http://fades.readthe
 
 Pero no sólo trabajé en eso. También porté `Tritcask <https://pypi.python.org/pypi/Tritcask>`_ a que trabaje simultaneamente con Python 2 y Python 3 (arranqué sólo con esto, pero el 70% del laburo lo hicimos juntos con `SAn <https://twitter.com/spiccinini>`_). Y estuvimos buscando cómo hacer para detectar cuanto de un subtítulo matchea con las voces de un video, de manera de poder determinar si está bien sincronizado o no. Y estuve haciendo algo de código asincrónico usando `asyncio <https://docs.python.org/3/library/asyncio.html>`_. Y estuve charlando con SAn, `DiegoM <https://twitter.com/dmascialino>`_, Bruno y `Nico Echaniz <https://twitter.com/nicoechaniz>`_ sobre una especie de Repositorio Federado de Contenido Educativo. Y estuve ayudando a gente a trabajar en Python mismo durante un cortito Python Bug Day (`Jairo <https://twitter.com/JairoTrad>`_ solucionó un issue y medio!!).
 
-.. image:: http://taniquetil.com.ar/facundo/imgs/pycamp15-selva.jpeg
+.. image:: /images/pycamp15/selva.jpeg
     :alt: Camino al río
 
-.. image:: http://taniquetil.com.ar/facundo/imgs/pycamp15-piedrasrio.jpeg
+.. image:: /images/pycamp15/piedrasrio.jpeg
     :alt: Recorriendo la vera del río, saltando de piedra en piedra
 
-.. image:: http://taniquetil.com.ar/facundo/imgs/pycamp15-asadazo.jpeg
+.. image:: /images/pycamp15/asadazo.jpeg
     :alt: El mejor asado de un PyCamp, ever
 
 Y tomé sol. Y tuve en mis manos una espada de verdad por primera vez. Y caminé por el costado del río saltando de piedra en piedra. Y comí un asadazo (entre el centenar de kilos de comida que ingeríamos por día por persona). Y conocí La Serranita. Y charlé mil. Y usé un sistema de realidad virtual. Y jugué a muchos juegos de mesa.

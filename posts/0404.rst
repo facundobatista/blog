@@ -16,7 +16,7 @@ A la tarde arrancamos con el proyecto que más me interesaba: la `CDPedia <http:
 
 Luego de cenar llegó la parte más lúdica del campamento: aquí la mayoría dejamos de programar y nos ponemos a jugar a cualquier cosa: juegos de cartas, de mesa, por computadora, etc. Yo tenía muchas ganas de jugar al Virtua Tennis, un muy buen juego de tenis, pero que sólo corre sobre Windows. Con Perrito lo intentamos correr en una máquina virtual, pero no tuvimos demasiado éxito. Luego lo instalamos en el Linux mismo, usando Wine, y aunque era jugable (tenía el problema que no le funcaba el sonido), no nos sirvió para nada porque explotaba cuando queríamos armar un partido entre dos computadoras a través de la red. Y, como la idea era jugar en grupo, decidimos buscar otra cosa.
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/pycamp09-gentejugando.jpg
+.. image:: /images/pycamp09/gentejugando.jpg
     :alt: Jugando al Catán
 
 Saqué el Catán, un juego de mesa muy copado del que ya hablé acá, y lo disfrutamos un par de horas. Como nota de color, fue la primera vez que compartimos un Legui con Perrito (siempre hablamos de esto en el canal de PyAr). Nos quedamos como hasta las dos de la mañana, y disfrutamos mucho la partida.
@@ -31,7 +31,7 @@ A la tarde arrancamos con el diseño del reemplazo de naushika (el bot que estam
 
 Bastantes estábamos interesados en este proyecto, así que usamos un pizarrón para discutir el diseño. Lo sacamos hasta abajo de un árbol, y nos pasamos la tarde armando esto, hasta que finalmente comenzamos a programarlo (para los más técnicos: usamos Twisted, que ya nos da un cliente de IRC, y armamos algo genérico con un sistema de plugins autoinstalables que se registran en un dispatcher y reciben los mensajes que quieren, contestando lo que se enviará al server).
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/pycamp09-pensandolalita.jpg
+.. image:: /images/pycamp09/pensandolalita.jpg
     :alt: Diseñando lalita
 
 En todo el diseño, perdimos una buena parte de tiempo eligiendo el nombre del nuevo bicho, ya que como iba a recibir una reescritura de cero no nos parecía que siga con el mismo nombre que antes. Queríamos que el nombre pareciera de mujer (porque es más simpático, porque tenemos pocas mujeres en el canal, y es muy divertido cuando la gente le quiere hablar sin saber que es un robot), pero también queríamos que tenga algún sentido geek. Luego de pasar por numerosas propuestas de nombres de víboras, terminamos yéndonos para el lado de una serie de televisión que nos gusta mucho: `The Big Bang Theory <http://es.wikipedia.org/wiki/The_Big_Bang_Theory>`_. En esta serie, uno de los personajes presenta a la que es su predestinada futura esposa, que se llama `Lalita Gupta <http://www.imdb.com/character/ch0116779/>`_. Así que le pusimos *lalita*.
@@ -46,7 +46,7 @@ El día amaneció seco, pero bastante fresco, al punto que yo, que estaba de ber
 
 Justo antes de comer hicimos la foto grupal del evento. Este año pudimos hacerla al aire libre, ya que aparte de la bandera que colgamos en la pared teníamos un cartel que podíamos mover de un lado para el otro.
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/pycamp09-somostodoslosmonos.jpg
+.. image:: /images/pycamp09/somostodoslosmonos.jpg
     :alt: Foto grupal
 
 El resto del día lo pasé programando a lalita, y jugando bastante ping pong (de a ratos, armábamos dos o tres partidos, parábamos, luego volvíamos a jugar un par más;, y así). También tuve algunas conversaciones de diseño con otros chicos que seguían laburando con la CDPedia.
@@ -61,7 +61,7 @@ El martes me levanté más tarde, me pegué un baño tranquilo, y al poco de pon
 
 Volvimos justo para almorzar, y luego seguí trabajando con lalita hasta que nos pusimos a trabajar en una idea muy loca que tuvo Perrito: la de sacarnos una foto simulando La Ultima Cena, de Da Vinci. El resultado estuvo muy bueno, como podemos ver aquí, pero tengo que destacar que cuando al grupo se le pone una idea en la cabeza, ciertamente encuentra los medios para resolverlo.
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/pycamp09-davinciserevuelcaenlatumba.png
+.. image:: /images/pycamp09/davinciserevuelcaenlatumba.png
     :alt: La última cena... Da Vinci, dejá de copiarnos
 
 Luego me fuí a acomodar la valija, para tener todo listo y medio cerrado, y seguimos laburando con lalita hasta que se hizo el momento de partir. Terminamos de armar todo, saludamos, y caminamos las cuadras hasta la parada del micro, y ya volvimos a Buenos Aires.

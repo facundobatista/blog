@@ -4,7 +4,7 @@
 
 Le saco muchas fotos al fuego, pero esta me gusta particularmente por la forma y *consistencia* de las llamas.
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/fotint-fuego.jpeg
+.. image:: /images/fotint/fuego.jpeg
     :alt: Fuego
     :target: http://www.flickr.com/photos/54757453@N00/3240530167/
 
