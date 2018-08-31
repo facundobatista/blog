@@ -8,7 +8,7 @@ La CDPedia funciona en cualquier computadora, ya sea que tenga Linux, MacOS o Wi
 
 Para mayor información e instrucciones para la descarga, visitar `la página del proyecto <http://cdpedia.python.org.ar/>`_.
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/cdpedia.png
+.. image:: /images/cdpedia/logo.png
     :alt: Logo
     :target: http://cdpedia.python.org.ar/
 

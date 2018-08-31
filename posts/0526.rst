@@ -6,7 +6,7 @@ Con motivo de la reciente `liberación de la versión 0.7 <http://www.taniquetil
 
 Cuenta la leyenda (?) que todo arrancó en el sprint posterior al `primer PyDay de Santa Fé <http://www.taniquetil.com.ar/plog/post/1/185>`_; la idea la trajo el omnipresente Leito Monk, pero parece que había surgido del Gran Nico César. No sé, ustedes vieron como son los mitos.
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/cdpedia_hist_bar.jpg
+.. image:: /images/cdpedia/hist-bar.jpg
     :alt: Sprinteando en un bar
 
 *(éramos tan jovenes...)*
@@ -19,7 +19,7 @@ Una gran característica de la CDPedia, indiscutiblemente el proyecto más grand
 
 Hasta el 2009, los avances fueron como conté, esporádicos. Pero resulta que `Martín Varsavsky <http://spanish.martinvarsavsky.net/>`_ se casó, y `Jimmy Wales <http://es.wikipedia.org/wiki/Jimmy_Wales>`_ le `regaló para el casamiento la posibilidad de que se distribuya una wikipedia offline en Argentina <http://spanish.martinvarsavsky.net/tecnologaa-e-internet/el-regalo-de-boda-que-nos-hizo-jimmy-wales-lleva-wikipedia-a-las-escuelas-que-no-tienen-acceso-a-internet.html>`_. Preguntó cuales habían, la CDPedia era la que se mejor ajustaba a lo que se necesitaba, y vino Jimmy a Buenos Aires, le mostramos la CDPedia, y luego hubo una reunión en Educ.ar para terminar de acordar esto (fueron Jimmy por Wikimedia, Enrique Chaparro por Wikimedia Argentina y Alecu por PyAr).
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/cdpedia_hist_pycamp.jpg
+.. image:: /images/cdpedia/hist-pycamp.jpg
     :alt: Trabajando en el PyCamp
     :target: http://www.flickr.com/photos/54757453@N00/2276684469/
 

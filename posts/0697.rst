@@ -11,7 +11,7 @@ Se llama CDPedia porque la idea original era meterla en un CD. Hoy por hoy gener
 
 La CDPedia es multiplataforma: el mismo CD, DVD o archivo comprimido se puede usar en Linux, Windows, o Mac, sin necesitar nada instalado previamente por fuera de lo que cada sistema trae normalmente.
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/cdpedia.png
+.. image:: /images/cdpedia/logo.png
     :alt: CDPedia
 
 
@@ -28,7 +28,7 @@ Si descargan las versión tarball, directamente descompriman los archivos en el 
 
 En cualquier caso al ejecutar ese archivo se va a levantar el Server de CDPedia, y al mismo tiempo se abrirá un navegador apuntando a ese Server local. Luego, es sólo usarla, ya que se explora y utiliza de la misma manera que la Wikipedia Online (con la excepción obvia que la CDPedia es de lectura solamente: no permite editar el contenido como sí lo hace la Wikipedia).
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/cdpedia-sshot-main.png
+.. image:: /images/cdpedia/sshot-main.png
     :alt: Cómo se ve la CDPedia
 
 *(a este y otros screenshots, hagan click para verlos más grandes)*
@@ -47,7 +47,7 @@ Algo que también modificamos bastante es como señalizamos los enlaces en la p�
 
 - Azul, subrayado con guiones: un link que los sacaría de CDPedia, ya que apunta a recursos online (útiles solamente si tenés Internet, claramente).
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/cdpedia-sshot-links.png
+.. image:: /images/cdpedia/sshot-links.png
     :alt: Muestra de enlaces
 
 Otra sección que modificamos es el pie de cada página: ponemos un enlace a la misma página pero online, en Wikipedia misma, por si el usuario necesita la información actualizada. También aquí incluimos el contenido original, ponemos algún disclaimer extra, mencionamos que CDPedia es un proyecto de Python Argentina (y apuntamos al tutorial de Python que está incluido en la CDPedia).
@@ -66,7 +66,7 @@ Cuando se comienza a generar una nueva versión de la CDPedia, se baja la versi�
 
 Es por esto que se trata de liberar una versión de CDPedia al menos una vez por año, para que contenga la información lo más actualizada posible.
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/cdpedia-sshot-artic.png
+.. image:: /images/cdpedia/sshot-artic.png
     :alt: Ejemplo de un artículo
 
 También digo que la CDPedia se puede distribuir fácilmente: sólo hace falta quemar un CD o DVD, o incluso pasarse los archivos mediante un pendrive. En casi todas las versiones (menos la más grande), por una cuestión de formato, no entra todo el contenido de la Wikipedia. Por ejemplo, para la versión 0.8.3, tenemos lo siguiente:
@@ -83,7 +83,7 @@ Entonces, a menos que estemos armando el tarball grande, es evidente que tenemos
 
 Esa decisión se toma ordenando todas las páginas por un determinado puntaje (que explico abajo), y se eligen las primeras N páginas (para el ejemplo anterior, las primeras 54 mil para el CD, las primeras 400 mil para el tarball medio, etc). Esas páginas tienen a su vez imágenes, que naturalmente también quedan ordenadas por el puntaje de las páginas: se toma un primer porcentaje de imágenes que se incluyen al 100%, otro porcentaje de imágenes que se escalan al 75%, otro porcentaje de imágenes que se escalan al 50%, y el resto no se incluye.
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/cdpedia-analizando.png
+.. image:: /images/cdpedia/analizando.png
     :alt: Analizando las páginas
 
 Como vieron, un tema clave en la selección es darle un puntaje a las páginas. Este puntaje está formado (hoy por hoy) en base a dos factores: levemente por el largo de la página (una página larga tiene más puntaje que una corta), y fuertemente por lo que llamamos "peishranc", que es la cantidad de otras páginas que enlazan a la que estamos evaluando. Entonces, si a una página se la menciona en otras mil páginas es mucho más importante que una página que casi no se la menciona en el resto de la Wikipedia.
@@ -100,7 +100,7 @@ El proyecto continuó, y aunque no siempre le pudimos dedicar tiempo, tampoco no
 
 Se trabajó mucho en este proyecto durante los PyCamps (los dos en Los Cocos, el de Verónica, y el de La Falda), donde muchas personas le dedicaron un buen tiempo, y también se realizó bastante durante otras reuniones, especialmente durante el 2010 y 2011.
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/cdpedia-pycamp.jpg
+.. image:: /images/cdpedia/pycamp.jpg
     :alt: Trabajando en un PyCamp
 
 A modo de ejemplo, dos sprints: uno fue en un incipiente hacklab, donde se experimentó mucho sobre el índice para las búsquedas, y también durante la fundación de Wikimedia Argentina, donde se presentó por primera vez el proyecto y se realizó un gran avance en la primera parte del procesamiento de datos.
@@ -153,7 +153,7 @@ Ver lo que obtuvimos es sencillo, porque más allá de generarnos el tarball o e
 
 Podemos delinear el proceso que se realiza en en el siguiente gráfico:
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/cdpedia-proceso.png
+.. image:: /images/cdpedia/proceso.png
     :alt: Proceso de la CDPedia
 
 El primer paso es bajar de la Wikipedia misma todas las páginas (lo que realmente tiene dos sub-pasos, un listado general de todas las páginas que nos interesan, y luego efectivamente bajarlas). Esas páginas son pasadas por diferentes preprocesadores que hacen distintos trabajos. Algunas las filtran y eliminan páginas que no queremos, otras les asignan puntajes, otras las modifican mejorándolas para nuestro objetivo, otras extraen información que va a ser útil luego.
@@ -182,7 +182,7 @@ Uno de ellos es lograr la internacionalización de la CDPedia. Cuando esté term
 
 El otro cambio es más bien la construcción de una infraestructura en particular. Mi idea es tener una generación continuas de CDPedias, que se arme la CDPedia en español, y automáticamente luego se arme la de otro idioma, y otro, y otro, y otro, y luego de varios meses, vuelva a arrancar con la de español.
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/cdpedia-trabajando.png
+.. image:: /images/cdpedia/trabajando.png
     :alt: Trabajando
 
 Pero, como decía, hay mil cosas para hacer.
