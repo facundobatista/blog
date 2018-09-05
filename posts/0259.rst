@@ -58,26 +58,26 @@ Los animales y las versiones son:
 
 *Warthog* es una especie de chancho salvaje. En castellano, se llama *facóquero común*. Es una de las dos especies de facóquero que existen, ésta es la más numerosa en las sabanas de África.
 
-.. image:: http://farm4.static.flickr.com/3320/3257980650_ba45f023a7_o.jpg
+.. image:: /images/ubuntu/warthog.jpg
 
 Un *Hedgehog* es un pequeño mamífero espinudo (no encontré el nombre en castellano, pero si les sirve, es de la subfamilia Erinaceinae, del órden Erinaceomorpha). Hay 16 especies distintas, habitando partes de Europa, Asia, Africa y Nueva Zelanda.
 
-.. image:: http://farm4.static.flickr.com/3301/3257151291_2b69651638_o.jpg
+.. image:: /images/ubuntu/hedgehog.jpg
 
 Un *Badger* es un tejón, un carnívoro de tamaño medio, que puede llegar a pesar unos 15 kg, con cabeza alargada y triangular, con el cuerpo también alargado de hasta 90 cm de longitud de la que solo 15 cm corresponden a la cola. Las patas son muy cortas, aunque fuertes, con mayor desarrollo muscular en las anteriores.
 
-.. image:: http://farm4.static.flickr.com/3317/3257980746_2f1f4c49f3_o.jpg
+.. image:: /images/ubuntu/badger.jpg
 
 *Drake*, en inglés, es el masculino de *Duck*, nuestro Pato. Pato es el nombre común para ciertos tipos de aves en la familia de las anátidas. En su mayoría los Patos son aves acuáticas, menores en tamaño que sus parientes los cisnes, ochandos y gansos, encontrados en agua dulce y salada. Se alimentan de una variedad de fuentes como hierbas, granos, plantas acuáticas, peces, insectos y demás.
 
-.. image:: http://farm4.static.flickr.com/3363/3257151393_605d9b6370_o.jpg
+.. image:: /images/ubuntu/duck_drake.jpg
 
 *Efts* se llaman a las *Newts* en su fase de metamorfósis, justo luego de cambiar de piel. Las *Newts* son unas pequeñas salamandras semiacuáticas, normalmente de colores brillantes, que habitan en América del Norte, Europa y Asia. Se distinguen de otras salamandras por la ausencia de costillas en los costados del cuerpo.
 
-.. image:: http://farm4.static.flickr.com/3315/3257151443_96b722d5e7_o.jpg
+.. image:: /images/ubuntu/eft.jpg
 
 Un *Fawn* es un ciervo jóven. Un ciervo, también conocido como venado, es un mamífero rumiante de la familia Cervidae. Tienen patas delgadas, pezuñas partidas en dos y largos cuellos.
 
-.. image:: http://farm4.static.flickr.com/3091/3257980964_36844f8c10_o.jpg
+.. image:: /images/ubuntu/fawn.jpg
 
 **Nota:** Todas las imágenes e info fueron tomadas de la `Wikipedia <http://www.wikipedia.org>`_.

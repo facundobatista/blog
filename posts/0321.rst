@@ -6,7 +6,7 @@ Como les había comentado, ayer tuvimos esta actividad en la que muchos desarrol
 
 Bueno, no explicitamente aplastar cucarachas, pero sí matar bichos. ¿Eh? Bueno, trabajar con los `bugs <http://es.wikipedia.org/wiki/Error_de_software>`_ de Python, :)
 
-.. image:: http://farm4.static.flickr.com/3477/3258006116_9c3f22a9fb_o.jpg
+.. image:: /images/bug.jpg
     :alt: Bug!
 
 Algunos desarrolladores, los días anteriores se habían tomado el trabajo de marcar algunos bugs como `fáciles <http://www.taniquetil.com.ar/cgi-bin/pytickets.py?nropag=0&priority=0&severity=0&component=0&version=0&keyword=6>`_, de manera de tener puntos accesibles por dónde empezar. Esto les permitió a varias personas que nunca habían trabajado con el código fuente de Python hacerlo por primera vez sin que se sintieran frustrados por la complejidad del mismo, ni estén dos semanas para terminar una corrección.

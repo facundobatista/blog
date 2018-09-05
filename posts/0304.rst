@@ -6,7 +6,7 @@ El viernes Lucio y yo tenemos una cita en el `ITBA <http://www.itba.edu.ar/index
 
 El sábado, sin embargo, ¡hay conferencia todo el día! Nos convoca el `Ciclo de Charlas Unlux 2007 <http://unlux.com.ar/index.php?option=com_content&task=view&id=11&Itemid=22>`_, "Conectando puntos", en la Universidad de Luján, auspiciado por Python Argentina, :)
 
-.. image:: http://farm4.static.flickr.com/3120/3257983146_2195f9c9f3_o.jpg
+.. image:: /images/unlux.jpg
 
 Es un día completo de charlas de todo tipo, donde Python tiene varios espacios asignados (miren el `cronograma <http://unlux.com.ar/index.php?option=com_content&task=view&id=14&Itemid=24>`_), como nos tienen bien acostumbradas las últimas conferencias de Software Libre.
 

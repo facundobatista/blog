@@ -6,17 +6,17 @@ Aunque ya pasó más de una semana del `PyCamp <http://www.taniquetil.com.ar/plo
 
 Como ya había comentado, en un esfuerzo sin precedentes PyAr se puso a caminar al mástil ese que veíamos desde lejos. Obviamente, llevamos la bandera y nos sacamos una muy linda foto (el de los pelos revueltos no es Slash, es Marcos Dione, ¡es que habia mucho viento!).
 
-.. image:: http://farm4.static.flickr.com/3367/3257176491_3f7eefbfab_o.jpg
+.. image:: /images/pycamp08/mastilcerca.jpeg
     :alt: Al infinito y más allá
 
 Y como si fuera poco, el esfuerzo no era sólo de nuestras piernas, sino también de producción. La siguiente es la misma foto, sólo que es desde donde estábamos parando:
 
-.. image:: http://farm4.static.flickr.com/3438/3257176585_faeb45d302_o.jpg
+.. image:: /images/pycamp08/mastillejos.jpeg
     :alt: Que bueno el zoom
 
 Y por último, no quería irme sin dejarles la foto del evento:
 
-.. image:: http://farm4.static.flickr.com/3530/3258006330_040710952a_o.jpg
+.. image:: /images/pycamp08/todosbandera.jpeg
     :alt: Todos los que fuimos
 
 Nos costó coordinar, pero ahí estuvimos todos los presentes, :)

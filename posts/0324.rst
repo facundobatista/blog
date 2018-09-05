@@ -6,7 +6,7 @@ Arrancamos el sábado 26, tempranito tempranito, ya que el viaje era bastante la
 
 Y, por supuesto, visitar el Monumento a la Bandera. Lamentablemente el tiempo no acompañó, y tuvimos que esperar un rato que baje un poco la lluvia para salir (de paso comimos en el auto, nos hicimos unos sanguchitos con cosas que habíamos llevado y otras que habíamos comprado ahí).
 
-.. image:: http://farm4.static.flickr.com/3352/3257175497_0ee07878e2_o.jpg
+.. image:: /images/crdba08/monumbandera.jpeg
     :alt: Monumento a la Bandera, en Rosario
 
 Luego seguimos viaje. Llegamos a la zona del Valle de Calamuchita bastante tarde, pero aún de día (gracias a la longitud en la que estábamos y a la hora adelantada). Pero desde la ruta a Villa Berna en sí el camino lleva tiempo, porque es un *mejorado* bastante complicado, y como era la primera vez que lo hacíamos tardamos bastante.
@@ -19,7 +19,7 @@ Al llegar, bajamos todas las cosas, comimos algo, y a dormir.
 
 Al otro día decidimos visitar La Cumbrecita. Nos fijamos en el mapa, y estábamos a unos 7 km. Le pregunté a Chaghi cual era la velocidad de caminata no forzada, y me dijo que unos 4 km/h (el viaje caminando serían menos de dos horas), así que decidimos ir a pata. Hicimos el viaje de ida en una hora y cuarenta, y el de vuelta en una hora y treinta y cinco minutos. Nada mal. El día estaba despejado, así que disfrutamos de unos paisajes bárbaros.
 
-.. image:: http://farm4.static.flickr.com/3370/3257175563_e8199f37df_o.jpg
+.. image:: /images/crdba08/vistaidacumb.jpeg
     :alt: Vista de las montañas
 
 Allá en La Cumbrecita no hicimos demasiado, porque mal que bien estábamos cansados. Así que pegamos una vuelta ínfima, almorzamos en un lindo restaurant suizo, y nada más. Luego de volver a casa, boludeamos un rato y nada más en el día.
@@ -34,7 +34,7 @@ El martes también amaneció lindo. Fuimos a pasear un rato por el río Intiyaco
 
 El miércoles amaneció feo, pero como ya le habíamos tomado el pulso al clima, decidimos ir a pasear igualmente. Esta vez fuimos a Embalse. El viaje de ida fue bajo una lluvia torrencial, pero ya llegando a Villa del Dique, el cielo estaba despejado. Caminamos un buen rato por el dique, subiendo, bajando a la central hidroeléctrica, etc.
 
-.. image:: http://farm4.static.flickr.com/3409/3258005292_634de45f13_o.jpg
+.. image:: /images/crdba08/embalse.jpeg
 
 Luego seguimos para Embalse y almorzamos tipo picnic en una especie de islita cerca de la orilla (pudimos entrar con el auto, pero si el agua hubiese subido 5cm, no salíamos...). Leímos, volvimos a pasear, hasta dormimos una siesta (bah, yo, Moni tomó sol, jeje).
 
@@ -50,7 +50,7 @@ Estacionamos el auto, lo apagamos, y decidimos esperar que la lluvia baje un poc
 
 Nos resignamos, y encaramos la vuelta a casa. El viaje de vuelta estaba complicado, porque había llovido demasiado. Pero nunca nos esperábamos lo que encontramos: ¡que uno de los ríos había incrementado tanto su caudal que no lo podíamos atravesar!
 
-.. image:: http://farm4.static.flickr.com/3470/3257175681_889ee9bef1_o.jpg
+.. image:: /images/crdba08/riocrecido.jpeg
     :alt: ¡Pucha che! El auto por acá no pasa...
 
 La verdad es que dudé si tirarme a pasarlo con el auto, pero no me animé. Esperamos, y esperamos, y se notaba como el caudal bajaba, ya que la lluvia había parado. A los 15 minutos pasó una camioneta grande, 4x4, y lo cruzó despacio. Del otro lado el tipo me avisó que esperara 15 minutos más y lo cruce.
@@ -70,7 +70,7 @@ Nosotros fuimos principalmente por dos actividades: una era arborismo y la otra 
 
 El arborismo estuvo bárbaro: luego de ponerte un equipo de seguridad te hacían recorrer unos puentes colgantes, aéreos, tendidos entre árboles. Los puentes iban desde uno bastante fácil hasta directamente no tener más que un cable de acero sobre el cual cruzar. Obviamente, por seguridad, siempre había otro cable de acero al cual uno iba enganchado, y del que te agarrabas para hacerla más fácil, :)
 
-.. image:: http://farm4.static.flickr.com/3458/3258005452_6e7b193762_o.jpg
+.. image:: /images/crdba08/arborismo.jpeg
     :alt: Colgados en el aire
 
 Duró unos 20 o 25 minutos, y aunque no parece demasiado complicado, uno termina transpirado como si hubiese corrido una maratón. Moni terminó que no quería saber más nada, pero al rato ya tenía ganas de hacerlo de nuevo, :)
@@ -81,7 +81,7 @@ Más allá de la historia, que estaba buena, y que era todo actuado por humanos 
 
 Entre que terminó todo y que volvimos a casa, el día ya había caducado. Empezamos a guardar todo, comimos algo, y nos fuimos a dormir. Es que el domingo nos levantamos a las cinco de la mañana, porque ese mismo día se festejaban los 90 años de mi abuela Cándida, así que salimos súper temprano de Córdoba y casi a las cuatro de la tarde ya estábamos en el cumpleaños.
 
-.. image:: http://farm4.static.flickr.com/3317/3257175829_34bc20be73_o.jpg
+.. image:: /images/cumpleabuela90.jpeg
 
 Lo hicieron en Namuncurá, cerca de Ciudad Evita. Comimos un muy rico asado hecho por Iván y el tío Enrique, y la verdad es que la pasamos muy bien. Todos, incluso la abuela, como correspondía, :).
 

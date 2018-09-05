@@ -6,7 +6,7 @@ Este año habíamos decidido con Mónica festejar nuestros cumpleaños en conjun
 
 El único problema era la relación entre la cantidad de gente que queríamos que venga y el tamaño del departamento que estamos alquilando: no entraban todos, :(. Aunque en mi caso había comenzado en eventos anteriores, `primero <http://www.taniquetil.com.ar/plog/post/1/256>`_ con gente de la Universidad, y `luego <http://www.taniquetil.com.ar/plog/post/1/258>`_ con la gente de Python, el total de personas sumaba demasiado.
 
-.. image:: http://farm4.static.flickr.com/3323/3257151757_c4af2b7473_o.jpg
+.. image:: /images/cumplefacumoni07.jpg
 
 Entonces decidimos partir el cumpleaños en tres partes, e hicimos jueves, viernes y sábado, dándole elegir a los invitados, a priori, qué día venir. Una gran parte eligió el viernes, y ahí tuvimos el pico de asistencia, pero igual estuvimos bien.
 

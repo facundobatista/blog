@@ -10,7 +10,7 @@ Pero luego salimos, nos tomamos el colectivo hasta el hotel (cortesía del mismo
 
 Luego de desenvalijarnos, arreglamos con el hotel que nos agreguen una tercer cama, y fuimos a comer algo. Dudábamos si irnos hasta el centro de Chicago a pasear un poco o quedarnos a ayudar. Finalmente decidimos quedarnos, y estuvimos doblando remeras, armando bolsitas, apilando papeles, saludando gente, etc.
 
-.. image:: http://farm4.static.flickr.com/3260/3258006400_5bb7e7feb7_o.jpg
+.. image:: /images/pycon08/embolsando.jpeg
     :alt: Cadena de producción agarrando cosas y metiéndolas en las bolsitas
 
 Luego de como tres horas ya habíamos terminado todo (nosotros y un montón de gente que también ayudó), y la gente que coordinaba compró unas pizzas y gaseosas, así que cenamos ahí.
