@@ -4,7 +4,7 @@
 
 Ya sé donde quiero irme de vacaciones. Muy posiblemente en Marzo me vaya para Traslasierra, en Córdoba. Ya había escuchado de ella, pero me terminaron de confirmar que es un lugar fantástico:
 
-.. image:: http://farm2.static.flickr.com/1161/530242611_483c35b56b_o.jpg
+.. image:: /images/uff/530242611_483c35b56b_o.jpg
 
 Gracias, Soledad, por la foto y los consejos.
 

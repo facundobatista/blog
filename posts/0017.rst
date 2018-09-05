@@ -4,7 +4,7 @@
 
 Otra marca importante para Firefox: en menos de 32 días fueron bajado 10 millones de instaladores.
 
-.. image:: http://farm1.static.flickr.com/246/527923199_883aa3a97b_o.png
+.. image:: /images/uff/527923199_883aa3a97b_o.png
     :alt: Firefox
 
 Todavía no encontré un lugar confiable como para revisar periódicamente figuras de porción de mercado entre todos los navegadores, pero es obvio que Firefox va erosionando despacio pero constantemente la base de usuarios de Internet Explorer.

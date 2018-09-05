@@ -15,9 +15,9 @@ Uno de los dos partidos que me ganó, encima, fue porque me vendí yo, ¡cuanto 
 
 Enfrente del Palacio de Justicia. Nunca me había fijado, pero son inmensos, monumentales.
 
-.. image:: http://farm2.static.flickr.com/1277/530241595_50794c9950_o.jpg
+.. image:: /images/uff/530241595_50794c9950_o.jpg
 
-.. image:: http://farm2.static.flickr.com/1121/530145060_280e4f8ddf_o.jpg
+.. image:: /images/uff/530145060_280e4f8ddf_o.jpg
 
 
 
@@ -28,7 +28,7 @@ El jueves despedimos el año con los ex-compañeros del Master, éramos diez. Co
 
 Realmente somos un grupo tan variado que uno nunca deja de divertirse. Y me encantó volver a ver a Ariana, Enrico, y Mateo (en orden en la foto).
 
-.. image:: http://farm2.static.flickr.com/1322/530145112_5b92067ab1_o.jpg
+.. image:: /images/uff/530145112_5b92067ab1_o.jpg
 
 
 Cine

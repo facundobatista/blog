@@ -6,7 +6,7 @@
 
 ¿Qué banda tiene creado un logo que dice *coexistan*, donde la C es la media luna musulmana, la X la estrella judía, y la T la cruz cristiana?
 
-.. image:: http://farm2.static.flickr.com/1420/530209414_6ef50b2965_o.gif
+.. image:: /images/uff/530209414_6ef50b2965_o.gif
 
 ¿Qué banda dice que aunque hayamos tenido un pasado dificil tendremos un futuro brillante si nos unimos todos y trabajamos como Uno (y acto seguido se empiezan a ver todas las banderas de latinoamérica en la pantalla grande mientras Bono dice los nombres de los países)?
 

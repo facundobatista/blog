@@ -4,7 +4,7 @@
 
 Enésima reunión de Python Argentina. No fuimos muchos, Monk, Lucio, Mariano, Martín y yo, en ese orden en la foto:
 
-.. image:: http://farm2.static.flickr.com/1234/530240123_bb2755302d_o.jpg
+.. image:: /images/uff/530240123_bb2755302d_o.jpg
 
 La charla estuvo superinteresante. Comenzamos hablando de Python y computadoras en general, pero terminamos hablando de política, movidas sociales, estructuras democráticas, muy groso.
 
@@ -12,7 +12,7 @@ Y encima Lucio nos habló de un proyecto que puede ser disruptivo a la hora de c
 
 El Hip Bar, como es costumbre, tenía la mitad de las cosas. Siempre falta algo. Por suerte nuestra inacabable amiga Dana nos bate siempre la justa y sabemos a qué atenernos.
 
-.. image:: http://farm2.static.flickr.com/1115/530240199_8d1abdee53_o.jpg
+.. image:: /images/uff/530240199_8d1abdee53_o.jpg
 
 Así y todo, no le pudimos sacar un descuento, y menos una ronda gratis de choripanes :s. ¡Ni pizza tenían! Tenemos ganas de cambiar de lugar, pero nunca encontramos uno mejor, así que siempre nos quedamos con malo conocido....
 

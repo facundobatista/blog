@@ -6,12 +6,12 @@ El martes jugué al fotógrafo, :).
 
 Agasajado con comida casera, y muy buena onda de parte de ambas, la idea era sacarle a Ludmila y Natalia fotos, fotos y fotos.
 
-.. image:: http://farm2.static.flickr.com/1113/530207092_cb43058f71_o.jpg
+.. image:: /images/uff/530207092_cb43058f71_o.jpg
     :alt: Ludmila y Natalia
 
 Como juego es fantásticamente divertido. Lástima que son en estas ocasiones donde se notan las limitaciones técnicas y artísticas de uno y el equipo. La iluminación de un departamento no ayuda, el flash sin un difuminador no es lo mismo (ni siquiera estoy pidiendo spots con los típicos "paraguas"), y el tiempo de obturación de una cámara común deja que desear.
 
 Así y todo, muchas fotos salieron muy buenas. Y algunas hasta podríamos decir que estuvieron muy bien desde un punto de vista "artístico":
 
-.. image:: http://farm2.static.flickr.com/1411/530311533_3404f531bf_o.jpg
+.. image:: /images/uff/530311533_3404f531bf_o.jpg
     :alt: Foto artística de Natalia

@@ -9,7 +9,7 @@ Robots
 
 Este concepto puede ser llevado a finales catastróficos, como en la serie `Terminator <http://www.lukor.com/cine/especiales-terminator.htm>`_, o a finales fantásticos, como en la cuatrilogía de Rama, de `Arthur C. Clarke <http://es.wikipedia.org/wiki/Arthur_C._Clarke>`_.  Si les picó el bichito de la curiosidad, pasen y vean este `video <http://www.mae.cornell.edu/ccsl/research/selfrep/video/4x4ht4a.mpg>`_ de la Universidad de Cornell que muestra dicho concepto en acción. Hoy. Imagínense *mañana*.
 
-.. image:: http://farm2.static.flickr.com/1200/530128832_02921d2bae_o.jpg
+.. image:: /images/uff/530128832_02921d2bae_o.jpg
 
 Una pequeña reflexión posterior nos sumergirá en superficiales inquietudes, ya que la incerteza del futuro siempre tiene un efecto normalmente negativo en la psiquis promedio. No voy a tratar de convencerlos de que el futuro va a ser uno o el otro, de que incesantes mareas de pequeños robots traerán este mundo de vuelta del desastre actual, o de que máquinas terribles y superpoderosas eliminarán toda vida del planeta (me refiero a la vida basada en el carbono).
 

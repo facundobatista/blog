@@ -11,7 +11,7 @@ Un buen día hicieron una encuesta de si los mismos empleados querían que se pu
 
 El miércoles pasado, aprovechando el día de la primavera, Movistar se declaró con "Oficinas libres de humo", y ahora no se puede fumar en ningún lado del edificio. En otras dependencias, la gente tiene que bajar y salir a la calle para fumar. Acá, en el edificio de Corrientes, como salir a la calle es muy complicado, habilitaron una terraza en el octavo piso, con sillas y mesitas. Falta música y cerveza...
 
-.. image:: http://farm2.static.flickr.com/1025/530139846_ddec92cbfe_o.jpg
+.. image:: /images/uff/530139846_ddec92cbfe_o.jpg
 
 
 Mapas de la ciudad

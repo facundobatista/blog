@@ -6,19 +6,19 @@
 
 Hoy terminé una relación con una dama, relación que había entablado hace 11 años. Hoy fue mi último día en la `Universidad Nacional de La Matanza <http://www.unlam.edu.ar/>`_.
 
-.. image:: http://farm2.static.flickr.com/1002/530240481_382db17ffc_o.jpg
+.. image:: /images/uff/530240481_382db17ffc_o.jpg
 
 Comencé en Febrero de 1994, con el ciclo introductorio (dos meses), el cual aprobé y que me permitió arrancar en Abril el primer año de la carrera de Ingeniería en Electrónica.
 
 Primero y segundo los hice de mañana, lo cual era maravilloso. Tercero, que fue el año más complicado, fue también el primero que hice a la noche. Hasta ese momento, iba con las materias al día, pero en tercero tuve que dejar dos para el próximo año, *Electrónica II* y *Máquinas Eléctricas*.  En 1997, cursé todas las materias de cuarto menos tres, más las dos de tercero que me habian quedado.
 
-.. image:: http://farm2.static.flickr.com/1427/530240557_6c9ebabc36_o.jpg
+.. image:: /images/uff/530240557_6c9ebabc36_o.jpg
 
 En 1998, mientras cursaba algunas materias de quinto y las que me habían quedado de cuarto, arranqué también trabajando en Soporte Técnico de la Universidad. Revolucionar todo como lo revolucionamos, con Javito y Hernán, fue una experiencia que nunca olvidaré. Por supuesto, siempre bajo la mirada atenta (y cómplice) de Rubén Rodriguez.
 
 El '99 me encontró con las últimas materias de la carrera. Seguía trabajando en Soporte Técnico, y comencé a dar clases de Hardware de PC, con Javier. Ese mismo año, a mitad de Noviembre, cambios políticos en la Universidad determinaron que mi perfil no daba para Soporte y me rajaron. Aproveché para finiquitar las últimas materias, y con sólo tres finales pendientes arranqué el 2000. En Julio di el último final y me recibí de Ingeniero.
 
-.. image:: http://farm2.static.flickr.com/1390/530144222_74813ba19e_o.jpg
+.. image:: /images/uff/530144222_74813ba19e_o.jpg
 
 A partir de ese momento seguí vinculado con la Universidad solamente como profesor. Dos años, aparte de Hardware de PC, dí el taller de Domótica. Y este último año, hice también el de Python. Compartí el cargo de profesor con muy buena gente: Javier, Hernán, Viviana, Jorge y Alfonso, gente que sigo y seguiré viendo. Incluso me llevo amigos que fueron ex alumnos, especialmente a Lucas y Facundo (aparte de Vivi, Jorge, y Alfonso, que ya nombré recién).
 
@@ -26,7 +26,7 @@ Largo porque me cansé. Me cansé de Hardware de PC, no me interesa más al nive
 
 Lamento dejar de dar Python, es una materia que me encanta. Aunque este primer año tuvo mucha deserción (porque hubo problemas al anotarse y los metieron de prepo a la mayoría), los chicos se interesaron mucho. Terminaron sólo tres, pero muy bien.
 
-.. image:: http://farm2.static.flickr.com/1387/530240983_7fd654d9b3_o.jpg
+.. image:: /images/uff/530240983_7fd654d9b3_o.jpg
 
 En la foto vemos a Roberto, que terminó mejorando el Booscador (link) que yo había hecho para una conferencia; a Facundo, que no cursó pero que justo cumplía años; a Sabri, que ya está programando comercialmente en Python y wxPython; y a Romina.
 

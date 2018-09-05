@@ -11,9 +11,9 @@ Le hice el upgrade al auto. La versión 4.1 ya no tiene un bug conocido como *ae
 Screenshots
 -----------
 
-.. image:: http://farm2.static.flickr.com/1209/540696458_028af2b595_o.jpg
+.. image:: /images/uff/540696458_028af2b595_o.jpg
 
-.. image:: http://farm2.static.flickr.com/1035/540696610_fdea73dee1_o.jpg
+.. image:: /images/uff/540696610_fdea73dee1_o.jpg
 
 
 Changelog

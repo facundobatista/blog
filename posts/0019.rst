@@ -4,7 +4,7 @@
 
 Tras viajar siete años a bordo de la nave Cassini, la sonda Huygens iniciaba durante esta madrugada un viaje solitario que la llevará a atravesar el 14 de enero la atmósfera de la luna más grande de Saturno: Titán. A la sonda Huygens le tomará 20 días llegar a destino luego de haberse separado de la nave.
 
-.. image:: http://farm2.static.flickr.com/1227/527833806_182a232fce_o.jpg" border="0"
+.. image:: /images/uff/527833806_182a232fce_o.jpg
     :alt: Llegando a Saturno
 
 El fin del proyecto conjunto de las agencias espaciales de EE.UU. (`Nasa <http://saturn.jpl.nasa.gov/home/index.cfm>`_), Europa (`ESA <http://www.esa.int/SPECIALS/Cassini-Huygens/index.html>`_) e Italia (ASI) es recoger datos de un ambiente que, según los científicos, se asemejaría al existente en la Tierra en la época en la que aparecieron las primeras formas de vida. Titán es, de hecho, la única luna del Sistema Solar que tiene una atmósfera densa y rica en material orgánico. La misión cuesta 2705 millones de euros y durante su travesía ha recorrido 3200 millones de kilómetros.

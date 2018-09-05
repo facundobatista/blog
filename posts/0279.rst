@@ -21,7 +21,7 @@ Caminamos con Leito más de diez cuadras bajo un frio atroz, deseando encontrar 
 
 Veníamos incluso bromeando con Leito sobre que tendríamos que hacer carteles que digan "Usted está aquí", con una flecha apuntando al piso, y nada más. Y lo encontramos:
 
-.. image:: http://farm4.static.flickr.com/3506/3257982366_cd6ceaa9cb_o.jpg
+.. image:: /images/uff/3257982366_cd6ceaa9cb_o.jpg
 
 Pero finalmente llegamos a donde correspondía, nos registramos, y partimos para las aulas donde se daba la primer chala que nos interesaba: "Sonido en Linux, Alsa y Jack", por Leonardo Giurdanella.
 

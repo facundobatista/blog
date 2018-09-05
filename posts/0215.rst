@@ -4,7 +4,7 @@
 
 Foto artística de Mónica, tomada en la fiesta del casamiento de Adri.
 
-.. image:: http://farm2.static.flickr.com/1241/533413569_b01d2e126c_o.jpg
+.. image:: /images/uff/533413569_b01d2e126c_o.jpg
     :alt: El hada
 
 Yo estaba impecable, pero ella estaba hermosa, :D

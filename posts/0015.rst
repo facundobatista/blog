@@ -4,7 +4,7 @@
 
 ...es lo único que se puede sentir cuando se va un grande.
 
-.. image:: http://farm2.static.flickr.com/1024/527832868_e7ec15bed2_o.jpg
+.. image:: /images/uff/527832868_e7ec15bed2_o.jpg
     :alt: Adolfo Castelo
 
 Adolfo Castelo, Maestro.

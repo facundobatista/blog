@@ -6,7 +6,7 @@ Estamos a miércoles, y el viernes se cierra la votación de la primer bandera d
 
 Yo propuse cuatro modelos. Y tuvieron bastante buena aceptación: Aunque no voy ganando, porque el modelo *Pablo6* me desplaza del primer puesto, tengo los cuatro modelos dentro de los siete más votados.
 
-.. image:: http://farm2.static.flickr.com/1197/533315956_727fe4661c_o.png
+.. image:: /images/uff/533315956_727fe4661c_o.png
 
 El viernes cierra la votación, hay dos días para hacerle alguna que otra modificación menor, y el lunes ya se manda a imprimir, :D.
 

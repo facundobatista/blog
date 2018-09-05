@@ -12,7 +12,7 @@ La noche del lunes fui a comer solo, pero de casualidad me encontré con Tiago t
 
 Sí, en general, como pude comprobar luego, en San Pablo comen siempre con varios acompañamientos, un poquito de cada cosa. Esa noche comí milanesa con arroz, papas fritas y ensalada rusa. Un mediodía, pedí `feijoada <http://www.euroresidentes.com/Alimentos/diccionario_gastronomico/feijoada.htm>`_, y vino un plato con: un pedacito de banana frita, una costillita finita de cerdo, un poco de arroz, un poco de papas fritas, un poco de ensalada, un poco de un polvo de maíz que no me acuerdo como lo llaman, y encima después, vino la feijoada propiamente dicha: trajeron un tazón de algo que no tiene muy buena pinta, pero sí tiene un sabor espectacular (es una especie de puchero, pero sólo con carne, y sólo con porotos negros, muy rico).
 
-.. image:: http://farm2.static.flickr.com/1314/540806865_e3caee1adc_o.jpg
+.. image:: /images/uff/540806865_e3caee1adc_o.jpg
 
 Otro detalle que me llamó la atención fue cómo te cobran en los estacionamientos: una primer hora muy cara, y luego van bajando el precio. Como si acá te cobraran, en el centro (dónde la hora está 3,50 o 4 mangos), una primer hora de $10, la segunda hora $5, y luego todas las horas $2...
 

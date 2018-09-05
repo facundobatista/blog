@@ -12,7 +12,7 @@ Miércoles: Record
 
 `Decimotercera reunión <http://www.python.com.ar/moin/Eventos/Reuniones/Reunion13>`_ de Python Argentina. Llegamos nuevamente a nuestro record de asistencia, 13 personas (je, igual que el número de reunión). ¡Incluso hasta hubo una mujer! (je, que se escondió para la foto)
 
-.. image:: http://farm2.static.flickr.com/1016/530311991_195f2cdc44_o.jpg
+.. image:: /images/uff/530311991_195f2cdc44_o.jpg
 
 Hubieron muchos integrantes nuevos, incluso tuvimos la esperada participación de Nubis, que se vino a vivir de Neuquén a Buenos Aires para poder participar de las reuniones (bueno, también porque quería trabajar en una empresa de acá, pero son detalles).
 
@@ -37,7 +37,7 @@ Viernes: Magia
 No tengo muchas palabras para describir lo que sucedió el viernes a la noche. Y si siguen mi bitácora reconocerán que es raro que se me complique para expresar algo.
 
 
-.. image:: http://farm2.static.flickr.com/1023/530207864_419625f766_o.jpg
+.. image:: /images/uff/530207864_419625f766_o.jpg
 
 Magia.
 
@@ -47,17 +47,17 @@ Sábado: Rocanrol
 
 Ayer tocó `La Percanta <http://www.lapercantarock.com.ar>`_, con staff completo: Ariel (guitarra), el Oso (bajo), Kata (batería), Maxi (guitarra) y Pablo (armónica).
 
-.. image:: http://farm2.static.flickr.com/1333/530312135_9cb3f6f049_o.jpg
+.. image:: /images/uff/530312135_9cb3f6f049_o.jpg
 
 Fue en El Duende, lugar que yo ya conocía por Barbazul. Impresionante.
 
-.. image:: http://farm2.static.flickr.com/1177/530208024_d0845d0d54_o.jpg
+.. image:: /images/uff/530208024_d0845d0d54_o.jpg
 
 Rocanrol, desgranando alegría, recorriendo distancias hasta el público que no es normal en una banda: cuando muchas bandas miran superiores de arriba, como estando del otro lado, los chicos de La Percanta tienen una forma de transmitir la energía que hace que la misma vuelva multiplicada.
 
 Ejemplos de esto son las arengas del Oso para que la gente aplauda, o Ariel bajando del escenario para tocar entre la gente.
 
-.. image:: http://farm2.static.flickr.com/1267/530312285_7a9276281e_o.jpg
+.. image:: /images/uff/530312285_7a9276281e_o.jpg
 
 Hicieron temas nuevos, y los clásicos de siempre. Y hubieron invitados, para deleite de todos. Estos pibes disfrutan lo que hacen, se nota.
 

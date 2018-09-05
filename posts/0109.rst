@@ -7,7 +7,7 @@ Hidroinyección
 
 Ayer volviendo a casa, una camioneta me llamó mucho la atención:
 
-.. image:: http://farm2.static.flickr.com/1386/530238063_623768d299_o.jpg
+.. image:: /images/uff/530238063_623768d299_o.jpg
 
 El sistema fue ideado por el `electrotécnico Jorge Fioramonti <http://www.hffioramonti.com.ar/>`_, y es un equipo que dosifica la cantidad de agua que debe entrar a la cámara de combustión del motor. La inyección de agua es regulada automáticamente: ingresa una pequeña cantidad de agua destilada a la cámara de combustión junto con el aire, para llegar a los cilindros y mejorar la combustión.
 
@@ -29,6 +29,6 @@ Charla sobre telefonía celular
 
 Hoy di `la charla <http://www.taniquetil.com.ar/plog/post/1/108>`_ con Adrián en la UADE. Salió muy bien, no sólo por la presentación en si misma, sino que los chicos se enganchaban y charlábamos de temas puntuales sobre lo que veíamos, muy piola.
 
-.. image:: http://farm2.static.flickr.com/1427/530141984_35c06732c1_o.jpg
+.. image:: /images/uff/530141984_35c06732c1_o.jpg
 
 Y como siempre, me reí mucho con Adrián. Es un maestro contando cosas, :D
