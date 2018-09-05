@@ -10,7 +10,7 @@ Así que la última semana y media de Febrero la pasé trabajando *mucho* en Có
 
 La pasamos así de mal mientras estábamos diseñando...
 
-<img src="http://www.t.. image:: com.ar/facundo/imgs/sprintcor_pensando.jpeg
+.. image:: /images/sprintcor_pensando.jpeg
     :alt: Discutiendo diseño
 
 ...o ya programando...

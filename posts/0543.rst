@@ -12,7 +12,7 @@ Pero bueno, decidí ponerme objetivos a corto plazo, e irlos tuiteando tanto al 
 
 .. image:: /images/dieta-final2011.png
     :alt: Curva de peso de la dieta
-    :target: http://www.taniquetil.com.ar/facundo/imgs/dieta-2009-2011.png
+    :target: /images/dieta-2009-2011.png
 
 Si hacen click en la imagen, pueden ver toooodo el historial de los últimos dos años (tienen los números `acá <http://ubuntuone.com/1kGxROiXNeXyvnf1EDPR0d>`_).
 

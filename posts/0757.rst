@@ -22,7 +22,7 @@ Después de casi un año, con `Nico <https://twitter.com/gilgamezh>`_ liberamos 
 
 `Pruébenlo <https://fades.readthedocs.io/en/release-7-0/readme.html#how-to-install-it>`_.
 
-.. image:: http://www.taniquetil.com.ar/facundo/imgs/fades-logo.png
+.. image:: /images/fades-logo.png
     :alt: Loguito de fades :)
 
 

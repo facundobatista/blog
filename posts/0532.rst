@@ -16,14 +16,14 @@ Ni bien terminó todo, Nico César me pidió la revancha de unos partidos de poo
 
 Como Alecu había avisado a todos que nos encontrábamos ahí, invadimos el bar, ¡éramos 66 comensales de la conferencia! Las cervezas y las pizzas corrían con un ritmo vertiginoso, y todos la pasamos muy bien. El lugar, super recomendable: Tío Lucas (fue barato, nos atendieron bien, y aunque había tanta gente se podía charlar bien, no era todo un gran barullo).
 
-.. image:: /images/pycon11-cena.jpg
+.. image:: /images/pycon11/cena.jpg
     :alt: Cena en Tio Lucas
 
 Ni bien terminamos de pagar, nos escapamos con Perrito y Nico al pool antedicho, y jugamos unas fichas, tomamos unas cervezas, llegó más gente... parranda, bah. Lo bueno es que como cenamos temprano, terminamos también acostándonos temprano (o al menos no demasiado tarde), lo que estuvo muy bien porque nos quedaba la mitad de conferencia por delante.
 
 Al otro día, dí mi segunda y última charla en el primer slot, "Python más rápido que C" (versión actualizada, con comparaciones con PyPy). Luego estuve un rato charlando con Lucio y Guillo sobre unos temas de laburo, y enseguida me metí en una charla de Ricardo Kirkner sobre `fabric <http://docs.fabfile.org/en/1.2.2/index.html>`_. Para cerrar la mañana, una buena plenaria de Ricardo Quesada sobre "Vivencias desarrollando un proyecto open source".
 
-.. image:: /images/pycon11-riq.jpg
+.. image:: /images/pycon11/riq.jpg
     :alt: Riq en su plenaria
 
 Ni bien terminó la charla nos fuimos todos corriendo a una plaza en la esquina de la universidad a sacarnos una foto grupal, y luego a almorzar... donde nos demoramos apena más de lo que debíamos y terminamos llegando a la plenaria de Wesley Chun (sobre Python 3) un poco tarde.
@@ -36,9 +36,9 @@ Ese bar está buenísimo: tiene música pero no demasiado alta, buenas mesas de 
 
 Anyway, luego del pool, ya siendo como las dos de la mañana, cruzamos la calle y nos fuimos a dormir. Y al otro día nos levantamos, desayunamos, al rato partimos, viajamos tranqui, llegamos a la tardecita... todo bien.
 
-.. image:: /images/pycon11-todos-th.jpg
+.. image:: /images/pycon11/todos-th.jpg
     :alt: Foto grupal
-    :target: http://www.taniquetil.com.ar/facundo/imgs/pycon11-todos.jpg
+    :target: /imags/pycon11/todos.jpg
 
 *(hagan click en la foto para verla grande)*
 
