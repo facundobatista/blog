@@ -1,5 +1,5 @@
 .. title: Pesos y dólares
-.. date: 2018-08-07 12:10:00
+.. date: 2018-09-07 12:10:00
 .. tags: FMI, pesos, dólares, restricción externa, economía
 
 *El otro día en el canal de Telegram de la familia tiraron este video, que es bastante interesante y cortito, titulado `¿Por qué el contexto actual nos recuerda el 2001?  <https://www.youtube.com/watch?v=yg-b7GogfUg>`_.*
