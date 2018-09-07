@@ -1,0 +1,47 @@
+.. title: Pesos y dólares
+.. date: 2018-08-07 12:10:00
+.. tags: FMI, pesos, dólares, restricción externa, economía
+
+*El otro día en el canal de Telegram de la familia tiraron este video, que es bastante interesante y cortito, titulado `¿Por qué el contexto actual nos recuerda el 2001?  <https://www.youtube.com/watch?v=yg-b7GogfUg>`_.*
+
+*Lo miré, y al toque, mientras lo miraba, me puse a escribir un párrafo de respuesta. Que fueron dos. Que fueron varios. Los rescato acá (los revisé, aclaré cosas, agregué una o dos oraciones) para que no se pierda :)*
+
+A mí me da terror el FMI no sólo por lo que hizo en el pasado en nuestro país sino por lo que hace en todos lados (miren Grecia) y lo que está volviendo a hacer ahora acá: pedir el achicamiento y desmantelamiento del Estado con el único propósito de garantizar que la plata se va a devolver a los prestamistas, sin importar que el país entre en un espiral descendiente donde nunca más tenga recuperación del sistema industrial, ni que la gente quede desprotegida a nivel de salud, etc...
+
+El video tiene una GRAN falla en el análisis, que es al minuto 2:36 donde muestra que el FMI nos da pesos y nosotros le devolvemos pesos, entonces para tener esos pesos debemos achicar el Estado. El FMI nos da dólares, pero el Estado para funcionar internamente necesita pesos, no dólares. En ese sentido los pesos no son críticos, porque es la moneda que emite el mismo Estado.
+
+¿A dónde van los dólares que el FMI nos presta, entonces? Cuatro grandes grupos:
+
+- fuga de capitales, por gente que se lleva los verdes a sus cuentas de afuera
+
+- fuga de capitales, por empresas que en vez de reinvertir acá se llevan las ganancias a sus empresas matrices (Telefónica, Claro, etc)
+
+- gastos en el exterior (turismo, principalmente)
+
+- importaciones, ya sea para consumo final (un container de zapatillas) como para otras cosas (un torno para una fábrica, una locomotora para un tren)
+
+Entonces, hay que cortar esa falacia ahí, y darse cuenta que (como sugiere el video al final) la forma de que el Estado funcione mejor es justamente haciendo crecer la economía, que la gente pueda comprar más, gaste más y pague más impuestos.
+
+.. image:: /images/banco_central_argentina.jpeg
+    :alt: Banco Central de la República Argentina
+    :target: https://es.wikipedia.org/wiki/Banco_Central_de_la_República_Argentina
+
+Pero los dólares, para el funcionamiento normal (y pagar la inmensa deuda que este gobierno de mierda nos dejó) tiene que salir de algún lado... ¿de dónde? Y a esto es lo que se le llama la "restricción externa"... no es algo que el Estado pueda manejar internamente, depende de determinadas acciones para que entren dólares, para poder usar esos dólares para comprar productos o servicios en el exterior.
+
+¿Por qué dólares, y no euros, libras esterlinas o yuanes? Porque el comercio internacional lo domina Estados Unidos, pero es algo que va a cambiar con el tiempo. Como ejemplo, es totalmente ridículo que nuestras importaciones y exportaciones desde/a Brasil, por ejemplo, tengan que pasar por el dólar.
+
+Pero me fui, perdón, estaba hablando sobre el detalle de dónde se pueden sacar dólares: Exportaciones principalmente, ya sea de productos o servicios, entonces tenemos que tratar de exportar lo más posible... y lo MEJOR posible... esto es, tratar de exportar un cinturón, y no cuero. O sea, exportar con valor agregado! Pero ese modelo es el de un país industrialista, y la derecha en Argentina siempre buscó lo contrario.
+
+Y por otro lado, tenemos que bajar esos cuatro grupos a donde se van los dólares:
+
+- fuga de capitales, por gente que se lleva los verdes a sus cuentas de afuera: esto hay que restringirlo, y ponerle impuestos... pero ojo, Kristina intentó esto y te dejaba comprar sólo 5 mil dólares por mes, y vieron el quilombo que se armó (vayan a comprar 5 mil dólares ahora por mes).
+
+- fuga de capitales, por empresas que en vez de reinvertir acá se llevan las ganancias a sus empresas matrices: esto se controla con "cupos" (pueden sacar hasta tanto por año) y por impuestos
+
+- gastos en el exterior (turismo, principalmente): acá también hay que restringir, pero sin afectar la dinámica de la gente que viaja, porque no te mueve el número, se puede hacer encareciendo esas transacciones
+
+- importaciones, ya sea para consumo final (un container de zapatillas) como para otras cosas (un torno para una fábrica, una locomotora para un tren): este ítem es crítico, porque va de la mano de la reindustrialización del país... porque de la misma manera que arriba decía que hay que exportar cinturones y no cuerto, eso evita que *compremos* cinturones afuera, y por otro lado, siempre hay que permitir las importaciones para "formación de infraestructura" (el torno, la locomotora, etc); en este punto, también recuerden (a la hora de restringir importaciones boludas) el ESCÁNDALO que se armó con el gobierno pasado porque "no había vasitos de Starbucks"...
+
+Ahora `no hay vacunas contra la meningitis para chicos de 11 años <http://www.perfil.com/noticias/ciencia/meningitis-postergan-vacuna-de-los-11-anos-y-hay-polemica.phtml>`_.
+
+Cambiamos.
