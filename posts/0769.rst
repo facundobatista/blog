@@ -24,11 +24,11 @@ El clima también acompañó porque hicieron un par de grados más de lo normal 
 
 La ciudad es linda, limpia, "europea vieja" pero bien. Estaba todo un poco roto porque estaban trabajando en un par de avenidas y eso hacía que la mitad de los caminos estuvieran con cascotes, zonas de construcción y eso, pero nada que moleste demasiado.
 
-Si uno se guía por los locales que encuentra en la ciudad, el 50% del PBI de Bruselas se debe explicar por los chocolates, y el otro 50% por las cervezas... Mucha cervecería, alguna con más onda, otra con menos onda. ¿Recomendaciones? `A La Mort Subite <https://www.alamortsubite.com/en/>`_ (un café muy viejo con toda la onda, comida decente y cervezas locales) y `BrewDog <https://www.brewdog.com/bars/worldwide/brussels>` (buena cerveza, comida normal para una cervecería (pobre, digamos, aunque la hamburguesa "chipotle chorizo" estaba catorce puntos), y buen ambiente y música).
+Si uno se guía por los locales que encuentra en la ciudad, el 50% del PBI de Bruselas se debe explicar por los chocolates, y el otro 50% por las cervezas... Mucha cervecería, alguna con más onda, otra con menos onda. ¿Recomendaciones? `A La Mort Subite <https://www.alamortsubite.com/en/>`_ (un café muy viejo con toda la onda, comida decente y cervezas locales) y `BrewDog <https://www.brewdog.com/bars/worldwide/brussels>`_ (buena cerveza, comida normal para una cervecería (pobre, digamos, aunque la hamburguesa "chipotle chorizo" estaba catorce puntos), y buen ambiente y música).
 
 Nota aparte sobre BrewDog, recién buscando la URL para poner acá vi que historia loca y buena filosofía tiene esta cadena de bares, super interesante, y que seguro algo tiene que ver con la onda que tiene el lugar.
 
-Ah, y traten de probar cervezas `trapenses <https://es.wikipedia.org/wiki/Cerveza_trapense>_`. Todo un estilo, interesante y ricas.
+Ah, y traten de probar cervezas `trapenses <https://es.wikipedia.org/wiki/Cerveza_trapense>`_. Todo un estilo, interesante y ricas.
 
 .. image:: /images/bruselas-pis/niño.jpeg
     :alt: Manneken Pis
