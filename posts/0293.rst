@@ -2,7 +2,7 @@
 .. date: 2007-09-25 17:45:58
 .. tags: viaje, inglés, cerveza
 
-Hace bastaaaaaante que no estaba con diferencia horaria positiva (más de dos años, desde `EuroPython 2005 <http://www.taniquetil.com.ar/plog/post/1/60>`_).
+Hace bastaaaaaante que no estaba con diferencia horaria positiva (más de dos años, desde `EuroPython 2005 </posts/0060>`_).
 
 Estas lineas las estoy escribiendo desde Dublin, Irlanda, donde llegué hoy para estar mañana y pasado en un curso de Mobile TV, enviado por Ericsson. El viernes ya arranco de vuelta pa' los pagos, llegando a casa el sábado a la mañana.
 

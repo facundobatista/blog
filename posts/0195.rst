@@ -4,7 +4,7 @@
 
 Es una foto tan linda que no quise dejar de ponerla.
 
-Y de paso me sirve como respuesta a la primer pregunta de `este post <http://www.taniquetil.com.ar/plog/post/1/192>`_. No, no estoy incluido en el paquete.
+Y de paso me sirve como respuesta a la primer pregunta de `este post </posts/0192>`_. No, no estoy incluido en el paquete.
 
 .. image:: /images/uff/533315724_05deaf1a07_o.jpg
 

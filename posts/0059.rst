@@ -2,7 +2,7 @@
 .. date: 2005-07-01 10:44:56
 .. tags: xmlrp, procesamiento distribuido, server, client
 
-Como comenté en otro `post <http://www.taniquetil.com.ar/plog/post/1/55>`_, descubrí en una de las charlas al `SimpleXMLRPCServer <http://www.python.org/doc/2.4/lib/module-SimpleXMLRPCServer.html>`_. Basicamente lo que hace este pedazo de software es "publicar" via http, en el puerto que uno quiera, una determinada función.
+Como comenté en otro `post </posts/0055>`_, descubrí en una de las charlas al `SimpleXMLRPCServer <http://www.python.org/doc/2.4/lib/module-SimpleXMLRPCServer.html>`_. Basicamente lo que hace este pedazo de software es "publicar" via http, en el puerto que uno quiera, una determinada función.
 
 Luego, uno puede ejecutar esa función desde un cliente, vía la conexión http. Aquí tenemos dos códigos, ```clnt_trivial.py`` <http://www.taniquetil.com.ar/facundo/bdvfiles/code/procdistrib/clnt_trivial.py>`_ y ```serv_trivial.py`` <http://www.taniquetil.com.ar/facundo/bdvfiles/code/procdistrib/serv_trivial.py>`_, que muestran como esto funciona. Ejecuten el servidor, que va quedar escuchando, y luego el cliente. Este último sale sólito cuando termina, el otro hay que cortarlo con un ctrl-c.
 

@@ -16,4 +16,4 @@ Textos:
 
 - `How-To Guide for Descriptors <http://users.rcn.com/python/download/Descriptor.htm>`_ (Raymond Hettinger): Muy buen tutorial de cómo usar descriptores en Python.
 
-Ayer fui a ver Constantine: +0 (y si querés saber por qué soy tan locuaz con la calificación, consultá `este post previo <http://www.taniquetil.com.ar/plog/post/1/34>`_).
+Ayer fui a ver Constantine: +0 (y si querés saber por qué soy tan locuaz con la calificación, consultá `este post previo </posts/0034>`_).

@@ -6,11 +6,11 @@ Algunas versiones de `Encuentro <http://encuentro.taniquetil.com.ar/>`_ (si no r
 
 Pero hacer ese trabajo era un perno. En este caso lo hacía un muchacho que se llama Javier Andalia, pero después no lo continuó. El drama es básicamente que GTK, la biblioteca que se usaba para la interfaz gráfica es muy poco amigable para hacerla andar en Windows. Siempre fue un dolor de muelas, lo sigue siendo, y no creo que cambie.
 
-Todo empeoró cuando `del lado del server cambiaron todo <http://www.taniquetil.com.ar/plog/post/1/570>`_ obligándome a cambiar un montón de cosas de mi lado. Ahí salió la versión 0.7, que funcionaba correctamente con el estado actual de situación, pero dejaba a los usuarios de Windows sin tener algo que les funcione.
+Todo empeoró cuando `del lado del server cambiaron todo </posts/0570>`_ obligándome a cambiar un montón de cosas de mi lado. Ahí salió la versión 0.7, que funcionaba correctamente con el estado actual de situación, pero dejaba a los usuarios de Windows sin tener algo que les funcione.
 
 Y la verdad es que el contenido de Encuentro, Conectate, BACUA, etc, está buenísimo y da para que lo disfruten todos, aunque el usuario tenga un sistema operativo de mierda.
 
-Entonces, encaré el laburo de `migrar de GTK a Qt <http://www.taniquetil.com.ar/plog/post/1/603>`_. Y una vez estuvo eso, empaqueté nuevamente para Windows y armé el instalador.
+Entonces, encaré el laburo de `migrar de GTK a Qt </posts/0603>`_. Y una vez estuvo eso, empaqueté nuevamente para Windows y armé el instalador.
 
 Luego de un par de semanas de "beta", tengo el orgullo de presentarles **Encuentro 1.0**, :D
 

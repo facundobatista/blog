@@ -2,9 +2,9 @@
 .. date: 2011-08-27 12:11:39
 .. tags: Python, PyAr, Wikipedia
 
-Con motivo de la reciente `liberación de la versión 0.7 <http://www.taniquetil.com.ar/plog/post/1/520>`_ y algo más, me puse a pensar un poco sobre la historia de la CDPedia.
+Con motivo de la reciente `liberación de la versión 0.7 </posts/0520>`_ y algo más, me puse a pensar un poco sobre la historia de la CDPedia.
 
-Cuenta la leyenda (?) que todo arrancó en el sprint posterior al `primer PyDay de Santa Fé <http://www.taniquetil.com.ar/plog/post/1/185>`_; la idea la trajo el omnipresente Leito Monk, pero parece que había surgido del Gran Nico César. No sé, ustedes vieron como son los mitos.
+Cuenta la leyenda (?) que todo arrancó en el sprint posterior al `primer PyDay de Santa Fé </posts/0185>`_; la idea la trajo el omnipresente Leito Monk, pero parece que había surgido del Gran Nico César. No sé, ustedes vieron como son los mitos.
 
 .. image:: /images/cdpedia/hist-bar.jpg
     :alt: Sprinteando en un bar

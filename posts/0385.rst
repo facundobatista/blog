@@ -10,7 +10,7 @@ Ahí comimos, bebimos, charlamos, y nos divertimos muchísimos con las historias
 
 Al otro día, Sábado 4 de Octubre, nos levantamos tempranito, baño, desayuno, y auto hasta la Universidad Tecnológica Nacional, frente al río, mismo lugar donde se habían desarrollado las dos anteriores jornadas.
 
-Mi charla era la primera, así que luego de armar la Cartelera de Trabajos preparé la laptop y me dispuse a dar la charla. Faltaban unos veinte minutos para comenzar, así que aproveché y le mostré a la audiencia dos juegos que me habían quedado en la máquina luego del último PyWeek: aquel donde participé (`Gauchito Gil vs The Devil <http://www.taniquetil.com.ar/plog/post/1/378>`_), y `el que hizo Riq <http://monodiario.blogspot.com/2008/09/so-long-love-story.html>`_).
+Mi charla era la primera, así que luego de armar la Cartelera de Trabajos preparé la laptop y me dispuse a dar la charla. Faltaban unos veinte minutos para comenzar, así que aproveché y le mostré a la audiencia dos juegos que me habían quedado en la máquina luego del último PyWeek: aquel donde participé (`Gauchito Gil vs The Devil </posts/0378>`_), y `el que hizo Riq <http://monodiario.blogspot.com/2008/09/so-long-love-story.html>`_).
 
 Luego vino Darni, mostrando cómo *Hacer juegos en Python es fácil*, charla muy bien armada, y para cerrar la mañana tuvimos a Nico César enseñando a parsear HTML (*Beautiful Soup: robando HTML con guantes blancos*). No lo tenía de showman a Nico, la verdad es que sus charlas son muy divertidas... incluso aunque no te guste el tema en particular que está mostrando, seguro te vas a reír bastante.
 

@@ -7,7 +7,7 @@ Intro a Py grabada
 
 Roberto Allende filmó mi charla de "Introducción a Python" en el CDC 2007, en Luján. Su post, `aquí <http://robertoallende.com/tecnologia/plone/intro-python-cdc2007>`_.
 
-Lamentablemente justo esa no me gustó como la dí, ya que `me complicaron el schedule <http://www.taniquetil.com.ar/plog/post/1/305>`_.
+Lamentablemente justo esa no me gustó como la dí, ya que `me complicaron el schedule </posts/0305>`_.
 
 Ya que estamos, felicito a Roberto por `entrar a la Plone Foundation <http://robertoallende.com/tecnologia/plone/plone-foundation>`_.
 
@@ -15,7 +15,7 @@ Ya que estamos, felicito a Roberto por `entrar a la Plone Foundation <http://rob
 Haciendo que los chicos programen abierto
 -----------------------------------------
 
-He hablado varias veces del Google Summer of Code (`acá <http://www.taniquetil.com.ar/plog/post/1/176>`__, `acá <http://www.taniquetil.com.ar/plog/post/1/178>`__ y `acá <http://www.taniquetil.com.ar/plog/post/1/252>`__); una de las limitantes de este proyecto es que está apuntado a estudiantes universitarios, para que en sus vacaciones de verano trabajen en algún proyecto en particular.
+He hablado varias veces del Google Summer of Code (`acá </posts/0176>`__, `acá </posts/0178>`__ y `acá </posts/0252>`__); una de las limitantes de este proyecto es que está apuntado a estudiantes universitarios, para que en sus vacaciones de verano trabajen en algún proyecto en particular.
 
 Ahora Google se despacha con un nuevo programa: el Concurso de Participación Altamente Abierta (Highly Open Participation Contest). El mismo es un esfuerzo para atraer estudiantes pre-universitarios al desarrollo open source. Como se trata de menores, no habrán pagos puntuales por proyectos grandes, sino que ahora hay una lista de tareas: si los chicos completan esas tareas participan por premios y recompensas de Google.
 

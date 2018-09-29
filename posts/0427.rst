@@ -2,7 +2,7 @@
 .. date: 2009-09-19 17:27:42
 .. tags: Python, tutorial, CDPedia
 
-Dos cosas que terminamos en los últimos días antes de `PyCon <http://www.taniquetil.com.ar/plog/post/1/425>`_, fueron el tutorial y la CDPedia.
+Dos cosas que terminamos en los últimos días antes de `PyCon </posts/0425>`_, fueron el tutorial y la CDPedia.
 
 El tutorial no es más ni menos que la traducción completa al castellano del Tutorial de Python (el oficial), que `servimos en HTML <http://docs.python.org.ar/tutorial/contenido.html>`_, y que también se puede `descargar en PDF <http://python.org.ar/pyar/Tutorial>`_. Este PDF lo generamos con `rst2pdf <http://code.google.com/p/rst2pdf/>`_, y la verdad que queda bárbaro... lo tuve que tocar un poco a mano, pero fueron en detalles que importaban en la impresión, no en la distribución en PDF...
 

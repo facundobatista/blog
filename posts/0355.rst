@@ -14,7 +14,7 @@ Las que vi son las siguientes:
 
 - `Being Julia <http://www.imdb.com/title/tt0340012/>`_: +0. La dualidad mujer/personaje, y como la separación en muchos casos desaparece.
 
-- `Beowulf <http://www.imdb.com/title/tt0442933/>`_: +1 (ver `este post <http://www.taniquetil.com.ar/plog/post/1/316>`_ para más detalles).
+- `Beowulf <http://www.imdb.com/title/tt0442933/>`_: +1 (ver `este post </posts/0316>`_ para más detalles).
 
 - `Coma <http://www.imdb.com/title/tt0077355/>`_: +0. Aunque no le llega ni un poquito al libro, la peli está bastante buena (considerando lo vieja que es).
 

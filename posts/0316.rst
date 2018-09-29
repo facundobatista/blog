@@ -14,7 +14,7 @@ Uno puede recoger historias de distintas maneras. Películas, charlas, libros, e
 
 Hasta hace algunos años, la única forma en que tenía uno de nutrirse de historias escritas era comprar libros. O, en algunos pocos casos, revistas. Y si alguien tenía una historia que contar, y no podía publicarlas, esas historias no llegaban a los destinatarios, no encontraban lectores.
 
-Hace algunos años, empezó esto de los blogs. Y aunque blogs hay de muchos tipos, cada uno tiene sus distintas `motivaciones para escribir <http://www.taniquetil.com.ar/plog/post/1/300>`_ en la web lo que te pasa, lo que querés escribir, transmitir, etc.
+Hace algunos años, empezó esto de los blogs. Y aunque blogs hay de muchos tipos, cada uno tiene sus distintas `motivaciones para escribir </posts/0300>`_ en la web lo que te pasa, lo que querés escribir, transmitir, etc.
 
 Pero más allá de esas motivaciones, me encanta encontrar blogs con historias que valga la pena leer. O al menos, que me gusten leer a mi. Mis pretensiones no son tantas: si escribís ameno, con algo de humor, y algo de profundidad, lo más seguro es que me guste.
 

@@ -2,7 +2,7 @@
 .. date: 2009-07-27 14:37:29
 .. tags: fotos, casamiento, Flickr
 
-Finalmente, luego de tener ese laburo postergado tanto tiempo, terminé de subir las fotos de mi `casamiento <http://www.taniquetil.com.ar/plog/post/1/388>`_ a Flickr.
+Finalmente, luego de tener ese laburo postergado tanto tiempo, terminé de subir las fotos de mi `casamiento </posts/0388>`_ a Flickr.
 
 No son solamente las del fotógrafo oficial, sino que también mezclé las que me mandaron Chaghi, Lucas, y Achuni (muchas gracias a los tres). El laburo de juntar todo y eliminar tantas repetidas o muy parecidas no era trivial, pero finalmente lo terminamos con Moni.
 

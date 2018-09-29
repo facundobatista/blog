@@ -8,7 +8,7 @@ La verdad, es que estuve a full en otras cosas, algunas de las cuales merecerán
 
 Por un lado, estuvimos viendo muchas pelis con Moni (al fin estoy retomando el ritmo, más de esto, justamente, en otro post), e incluso vimos toda una miniserie: `Kingdom Hospital <http://www.imdb.com/title/tt0324864/>`_ (eran quince capítulos de 45 minutos, pero nos la devoramos), con libro de Stephen King. Muy bizarra, muy buena.
 
-Por otro lado, me estuve dedicando al software. No solo estuve siguiendo un poquito el desarrollo mostrado `acá <http://www.taniquetil.com.ar/plog/post/1/232>`_, sino que me estoy metiendo en XPN.
+Por otro lado, me estuve dedicando al software. No solo estuve siguiendo un poquito el desarrollo mostrado `acá </posts/0232>`_, sino que me estoy metiendo en XPN.
 
 `XPN <http://xpn.altervista.org/index-en.html>`_ es un lector de noticias, con una interfaz gráfica, hecho en Python. Lo estoy empezando a usar, pero le hace falta algunas cosas que yo quiero. Entonces decidí meterme y participar en el desarrollo del mismo. De paso, empiezo a conocer un poquitito de PyGTK, a ver si prende en mi espíritu o no.
 

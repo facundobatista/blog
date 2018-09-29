@@ -26,4 +26,4 @@ Conferencia
 
 La `PSF <http://www.python.org/psf/>`_ este año tambien me paga los gastos principales (avión, hotel, registración en la conferencia), así que me voy a `PyCon 2006 <http://us.pycon.org/TX2006/HomePage>`_, la conferencia mundial de Python, que este año se realiza en Addison, Texas (cerca de Dallas).
 
-Yo expongo el `primer día <http://www.python.org/pycon/2006/schedule.html>`_, *Decimal para principiantes*, una charla que `ya había dado <http://www.taniquetil.com.ar/plog/post/1/55>`_ en EuroPython 2005, así que ni siquiera tengo que hacerla, jejeje.
+Yo expongo el `primer día <http://www.python.org/pycon/2006/schedule.html>`_, *Decimal para principiantes*, una charla que `ya había dado </posts/0055>`_ en EuroPython 2005, así que ni siquiera tengo que hacerla, jejeje.

@@ -8,7 +8,7 @@ También está copado poder ver cara a cara e interactuar (trabajando o tomando 
 
 Obviamente, la mayor parte de lo que vimos y escuchamos ahí es confidencial, pero les aseguro que Ubuntu One va a rocanrolear de formas muy interesantes en los próximos meses...
 
-Otra actividad que se hace en este tipo de reunión general es algo para "integrar el grupo"... el `año pasado <http://www.taniquetil.com.ar/plog/post/1/469>`_ resolvimos unos acertijos que implicaban pasear por Londres, pero este año fue distinto: fuimos a una `Escuela de Cocina <http://www.venturis-table.com/>`_ donde guiados por los chefs/profesores hicimos pizzas entre todos (pizzas que luego, por supuesto, nos comimos nosotros mismos).
+Otra actividad que se hace en este tipo de reunión general es algo para "integrar el grupo"... el `año pasado </posts/0469>`_ resolvimos unos acertijos que implicaban pasear por Londres, pero este año fue distinto: fuimos a una `Escuela de Cocina <http://www.venturis-table.com/>`_ donde guiados por los chefs/profesores hicimos pizzas entre todos (pizzas que luego, por supuesto, nos comimos nosotros mismos).
 
 .. image:: /images/londres11-haciendopizzas.jpeg
     :alt: Ingredientes

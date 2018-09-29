@@ -2,7 +2,7 @@
 .. date: 2007-05-14 21:20:51
 .. tags: cumpleaños, juego, Python, asado, pizzas
 
-Arranqué con el mío el viernes a la noche. Yo ya había hecho `una función del mismo <http://www.taniquetil.com.ar/plog/post/1/256>`_, y van a seguir, pero el viernes agrupé a lo que podríamos llamar "el grupo Python".
+Arranqué con el mío el viernes a la noche. Yo ya había hecho `una función del mismo </posts/0256>`_, y van a seguir, pero el viernes agrupé a lo que podríamos llamar "el grupo Python".
 
 Vinieron a casa Chaghi, Lucio, Leito y Carolina, Dave, Alecu, y Marito, como pueden ver en el siguiente collage (y Guillermina, que no apareció en la foto).
 

@@ -10,4 +10,4 @@ Esta foto la saqué en el bar del hotel, estaba charlando con "el John".
     :alt: Cerveza de trigo
     :target: https://www.flickr.com/photos/54757453@N00/4608217771/
 
-Para más detalles de ese viaje de laburo: `uno <http://www.taniquetil.com.ar/plog/post/1/460>`_, `dos <http://www.taniquetil.com.ar/plog/post/1/461>`_ `tres <http://www.taniquetil.com.ar/plog/post/1/462>`_.
+Para más detalles de ese viaje de laburo: `uno </posts/0460>`_, `dos </posts/0461>`_ `tres </posts/0462>`_.

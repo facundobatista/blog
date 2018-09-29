@@ -8,7 +8,7 @@ El primero fue de `LauncherPosta <http://launcherposta.taniquetil.com.ar/>`_, po
 
 ¿Lo peor? Es un problema de la librería PyGtk, de cómo está implementado para Gtk 3. ¿Lo peor más peor de todos los peores? Es por diseño, y les parece bien que crashee a la mierda en lugar de tirar un traceback decente (miren `el bug que abrí y lo que me respondieron <https://bugs.launchpad.net/ubuntu/+source/pygobject/+bug/1170929>`_).
 
-En fin, esto refuerza `lo que les decía <http://www.taniquetil.com.ar/plog/post/1/603>`_ que Gtk3 me gustaba menos y menos y me estoy pasando a Qt.
+En fin, esto refuerza `lo que les decía </posts/0603>`_ que Gtk3 me gustaba menos y menos y me estoy pasando a Qt.
 
 BTW, de LauncherPosta liberé la versión 1.0, con el casi único cambio de soportar mejor el toqueteo de la configuración del systray bajo Unity (un pedazo de código que luego les compartiré más separadamente).
 

@@ -42,7 +42,7 @@ Otros directorios
 
 Estos son directorios puntuales que tengo para Encuentro. Algunos se repiten con otros proyectos, otros no.
 
-- ``qtreactor``: El módulo de integración entre Qt (el framework de interfaz gráfica que `estoy usando <http://www.taniquetil.com.ar/plog/post/1/603>`_) y Twisted (una biblioteca asincrónica que uso para trabajar con la red).
+- ``qtreactor``: El módulo de integración entre Qt (el framework de interfaz gráfica que `estoy usando </posts/0603>`_) y Twisted (una biblioteca asincrónica que uso para trabajar con la red).
 
 - ``server``: Cuando le decimos al programa "local" de Encuentro que actualice los episodios, se baja algunos archivos comprimidos de mi server, con toda la metadata. Estos archivos comprimidos se generan una vez al día a partir de los sitios webs de Encuentro, Conectate, BACUA, etc. El código para realizar todo esto está en este directorio.
 

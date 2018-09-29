@@ -2,7 +2,7 @@
 .. date: 2007-06-27 12:15:38
 .. tags: trabajo, cambio
 
-Hace un año y medio, cuando decidí `dejar Movistar <http://www.taniquetil.com.ar/plog/post/1/171>`_, para ir a Cyclelogic como Jefe de Desarrollo, realmente no pensé que iba a ser por un tiempo tan corto.
+Hace un año y medio, cuando decidí `dejar Movistar </posts/0171>`_, para ir a Cyclelogic como Jefe de Desarrollo, realmente no pensé que iba a ser por un tiempo tan corto.
 
 Es verdad, dije en su momento que un año seguro, y que luego vería, pero realmente no pensé que serían menos de dos, o tres años.
 

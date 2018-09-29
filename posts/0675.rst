@@ -2,7 +2,7 @@
 .. date: 2015-04-30 21:16:32
 .. tags: ftrie, trie, árbol, palabras
 
-Hace un tiempo `les hablé <http://www.taniquetil.com.ar/plog/post/1/598>`_ de un árbol que hice para sacar prefijos de palabras.
+Hace un tiempo `les hablé </posts/0598>`_ de un árbol que hice para sacar prefijos de palabras.
 
 En el laburo estoy estudiando la forma de hacer un autocompletador. Entonces, luego de leer cosas por ahí, decidí probar ese árbol que ya tenía hecho.
 

@@ -2,7 +2,7 @@
 .. date: 2008-07-25 08:17:03
 .. tags: remera, Python Argentina, diseño
 
-Estamos terminando el proceso de las Remeras PyAr 2.0 que les comenté `acá <http://www.taniquetil.com.ar/plog/post/1/366>`_.
+Estamos terminando el proceso de las Remeras PyAr 2.0 que les comenté `acá </posts/0366>`_.
 
 Tenemos un diseño ganador (aunque no con fondo blanco, sino de colores).
 

@@ -12,7 +12,7 @@ Desde ese momento usé esa distribución exclusivamente.
 
 La laptop que usaba los últimos meses de Movistar, la que me dieron en Cyclelogic (una Dell Inspiron), y la que me dieron en Ericsson (creo que una HP) todas eran compradas acá así que eran todas con teclado latinoamericano.
 
-Cuando entré en Canonical, me compré una laptop yo. En ese momento compré en Argentina una `Dell XPS m1330 <http://www.taniquetil.com.ar/plog/post/1/403>`_, muy linda máquina. Al momento de renovarla busqué mucho y terminé en `una Samsung que nunca me convenció mucho <http://www.taniquetil.com.ar/plog/post/1/597>`_, también comprada acá. En ambos casos, teclado latinoamericano.
+Cuando entré en Canonical, me compré una laptop yo. En ese momento compré en Argentina una `Dell XPS m1330 </posts/0403>`_, muy linda máquina. Al momento de renovarla busqué mucho y terminé en `una Samsung que nunca me convenció mucho </posts/0597>`_, también comprada acá. En ambos casos, teclado latinoamericano.
 
 Y mientras tanto, seguía usando en la desktop el **excelente** teclado IBM que me había comprado hace tanto tiempo.
 

@@ -2,7 +2,7 @@
 .. date: 2011-02-16 18:51:29
 .. tags: peso, plan, kilos
 
-No es la primera vez que `hablo acá de hacer dieta <http://www.taniquetil.com.ar/plog/post/1/370>`_, pero les traigo más data para que vean lo mal que me salió el año pasado esta cuestión, :p
+No es la primera vez que `hablo acá de hacer dieta </posts/0370>`_, pero les traigo más data para que vean lo mal que me salió el año pasado esta cuestión, :p
 
 Soy un firme creyente que una de las claves para controlar tu peso, es pesarte. Después, si tenés constancia para pesarte todos los días, mejor, porque vas teniendo feedback sobre cuan efectivo o no es lo que hacés para bajar de peso.
 

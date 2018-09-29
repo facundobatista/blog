@@ -30,7 +30,7 @@ También quiero resaltar dos lightning talks: a Armin Rigo mostrando un `Reverse
 Mis presentaciones
 ------------------
 
-`Ya les hablé <http://www.taniquetil.com.ar/plog/post/1/712>`_ de la charla que había dado el lunes, pero aprovecho y les dejo `el video de la misma <https://youtu.be/WdxwRq59wnQ?t=11173>`_.
+`Ya les hablé </posts/0712>`_ de la charla que había dado el lunes, pero aprovecho y les dejo `el video de la misma <https://youtu.be/WdxwRq59wnQ?t=11173>`_.
 
 El martes dí `Entendiendo Unicode <http://www.taniquetil.com.ar/homedevel/presents/unicode.odp>`_, en castellano. Fue la 12° vez que la doy, y me podrán decir "dejá de robar con la misma charla"... qué quieren que les diga, el público se renueva. Yo también a veces pienso si no será demasiado, ¡pero a la gente le gusta y le sirve! Una decena de personas me saludaron y me comentaron lo buena y lo útil que fue la charla. Así que nada, la seguiré ofreciendo en próximas conferencias, :). El video, `acá <https://youtu.be/5kRutX9HhoM?t=6487>`__.
 

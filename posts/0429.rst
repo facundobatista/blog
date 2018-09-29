@@ -2,7 +2,7 @@
 .. date: 2009-09-28 01:26:16
 .. tags: post, Twitter, celular, SMS, Python
 
-Si hubiese sabido que terminaba tan rápido el programita que paso a detallar, hacía un sólo post, pero bue... este salió pegadito `al anterior <http://www.taniquetil.com.ar/plog/post/1/428>`_ sobre el mismo tema.
+Si hubiese sabido que terminaba tan rápido el programita que paso a detallar, hacía un sólo post, pero bue... este salió pegadito `al anterior </posts/0428>`_ sobre el mismo tema.
 
 Algo piola en el mundo del microblogging es poder postear desde el celular... como el microblogging se basa en la instantáneidad de la información, esperar algunas horas para escribir algo no tiene sentido. Entonces, poder generar la info desde el celular es una ventaja.
 

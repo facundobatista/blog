@@ -27,6 +27,6 @@ Un par de detalles con respecto al script.
 
 - Asume que las fotos de "la cámara" tienen el formato ``IMG99999.JPG``, siendo los ``99999`` cinco dígitos cualesquiera. Si este no es tu caso, vas a tener que pedirme una mejora, o toquetear vos misma/o el código.
 
-- Tenés que tener `fades <https://fades.readthedocs.org/en/release-5/>`_ instalado, para que te maneje automágicamente las dependencias (`acá <http://www.taniquetil.com.ar/plog/post/1/700>`_ tenés una explicación al respecto). Si no querés instalar fades, arreglate.
+- Tenés que tener `fades <https://fades.readthedocs.org/en/release-5/>`_ instalado, para que te maneje automágicamente las dependencias (`acá </posts/0700>`_ tenés una explicación al respecto). Si no querés instalar fades, arreglate.
 
 Enjoy.

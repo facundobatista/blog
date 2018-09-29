@@ -4,7 +4,7 @@
 
 Este año habíamos decidido con Mónica festejar nuestros cumpleaños en conjunto. Yo cumplí el 2, ella el 17, así que con postergar los festejos un par de semanas, nos cerraba perfecto.
 
-El único problema era la relación entre la cantidad de gente que queríamos que venga y el tamaño del departamento que estamos alquilando: no entraban todos, :(. Aunque en mi caso había comenzado en eventos anteriores, `primero <http://www.taniquetil.com.ar/plog/post/1/256>`_ con gente de la Universidad, y `luego <http://www.taniquetil.com.ar/plog/post/1/258>`_ con la gente de Python, el total de personas sumaba demasiado.
+El único problema era la relación entre la cantidad de gente que queríamos que venga y el tamaño del departamento que estamos alquilando: no entraban todos, :(. Aunque en mi caso había comenzado en eventos anteriores, `primero </posts/0256>`_ con gente de la Universidad, y `luego </posts/0258>`_ con la gente de Python, el total de personas sumaba demasiado.
 
 .. image:: /images/cumplefacumoni07.jpg
 

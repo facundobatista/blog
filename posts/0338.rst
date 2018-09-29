@@ -2,7 +2,7 @@
 .. date: 2008-03-21 03:49:57
 .. tags: PyCon, Chicago, sprints, RPython, flash
 
-En el `último post sobre PyCon 2008 <http://www.taniquetil.com.ar/plog/post/1/336>`_ contaba que había pasado hasta que comenzó la etapa de los Sprints... acá continuamos desde ese punto, el domingo a la tarde.
+En el `último post sobre PyCon 2008 </posts/0336>`_ contaba que había pasado hasta que comenzó la etapa de los Sprints... acá continuamos desde ese punto, el domingo a la tarde.
 
 Hubieron tres actividades al respecto. La primera fue una pequeña presentación de Brett Canon sobre qué es un sprint (esta fue buenísima... tendría que agarrar ese video, subtitularlo, y distribuirlo...). Luego se armó un pequeño panel con algunos líderes de sprint, donde el público hacía preguntas generales sobre los sprints y esta gente (entre la que estaba Lucio, ya que lideraba el sprint de PyPy-Flash) contestaba.
 

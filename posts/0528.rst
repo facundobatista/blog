@@ -2,7 +2,7 @@
 .. date: 2011-09-05 20:17:50
 .. tags: Debian, packaging, bzrtools, PPA
 
-Estos son los pasos genéricos para, desde un proyecto que tiene el ``setup.py`` funcionando (ver `este post <http://www.taniquetil.com.ar/plog/post/1/518>`_ para ayuda con eso), armar un paquete ``.deb`` y publicarlo en un ``PPA``. El ``.deb`` es un archivo *instalable* en Debian o Ubuntu, y el ``PPA`` es una forma de registrarse para que el programa se actualice automáticamente cuando hay nuevas versiones (obvio, preguntándole al usuario, como el resto del sistema).
+Estos son los pasos genéricos para, desde un proyecto que tiene el ``setup.py`` funcionando (ver `este post </posts/0518>`_ para ayuda con eso), armar un paquete ``.deb`` y publicarlo en un ``PPA``. El ``.deb`` es un archivo *instalable* en Debian o Ubuntu, y el ``PPA`` es una forma de registrarse para que el programa se actualice automáticamente cuando hay nuevas versiones (obvio, preguntándole al usuario, como el resto del sistema).
 
 Traté de ser conciso para que no se pierdan los pasos en un mar de palabras, pero explicar alguito de cada punto, y dar alguna referencia para seguir investigando. Esta guía está casi copiada de una menos genérica y en inglés que había preparado Naty Bidart en el laburo... la idea es que quede aquí en castellano y más explicada...
 

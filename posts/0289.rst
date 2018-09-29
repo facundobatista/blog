@@ -6,6 +6,6 @@ En Python decidimos hace tiempo irnos de `SourceForge <http://sf.net/>`_. El pri
 
 O sea, sacamos toda la administración de bugs y parches y los pusimos en `nuestro server <http://bugs.python.org/>`__, manejándolos con `Roundup <http://roundup.sourceforge.net/>`_ (adivinen con qué está hecha este administrador, ;).
 
-Yo tenía una herramienta que iba a SourceForge y hacía un resumen de los tickets (había hablado de eso `acá <http://www.taniquetil.com.ar/plog/post/1/246>`_). Obviamente la tuve que cambiar, y acabo de terminar de hacerlo.
+Yo tenía una herramienta que iba a SourceForge y hacía un resumen de los tickets (había hablado de eso `acá </posts/0246>`_). Obviamente la tuve que cambiar, y acabo de terminar de hacerlo.
 
 Como ahora los bugs y parches están en la misma lista (son, genéricamente, *tickets*), quedó genericamente `un sólo resumen <http://www.taniquetil.com.ar/facundo/py_tickets.html>`_. Obviamente, dejé este link en la barra derecha...

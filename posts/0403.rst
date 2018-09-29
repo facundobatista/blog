@@ -2,7 +2,7 @@
 .. date: 2009-03-20 16:35:38
 .. tags: Dell, soporte, laptop
 
-Hace algunos meses, cuando buscaba qué laptop comprarme, tuve alguna `experiencia bizarra con Dell <http://www.taniquetil.com.ar/plog/post/1/384>`_. Pero, por suerte, esta vez fue distinto.
+Hace algunos meses, cuando buscaba qué laptop comprarme, tuve alguna `experiencia bizarra con Dell </posts/0384>`_. Pero, por suerte, esta vez fue distinto.
 
 En esa oportunidad terminé comprándole a Dell una XPS M1330 (que sí, viene con teclado latinoamericano). En general estoy satisfecho con la máquina, más allá de un par de errores de diseño (por ejemplo, que los controles de volumen y manejo del CD no son botones, sino que son sensores que se activan al pasar levemente el dedo por arriba, con lo cual si uno está usando la laptop con poca luz, y quiere bajar el volumen, el mismo proceso de que los dedos busquen el botón termina "apretando" varios botones que uno no quería).
 

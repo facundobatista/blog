@@ -13,7 +13,7 @@ Así que el primer día del finde largo lo pasamos en Padua, viendo jugar a Feli
 
 Como fuimos a la mañana, pudimos aprovechar bastante tiempo al aire libre, almorzamos, hicimos vagancia, etc. Un regio día con amigos, como quien dice.
 
-Ya casi al final del día decidimos hacer una foto del estilo de `la anterior <http://www.taniquetil.com.ar/plog/post/1/343>`_, y aunque los pequeños nos complicaron la operatoria y ya nos quedábamos sin luz, salió algo interesante...
+Ya casi al final del día decidimos hacer una foto del estilo de `la anterior </posts/0343>`_, y aunque los pequeños nos complicaron la operatoria y ya nos quedábamos sin luz, salió algo interesante...
 
 .. image:: /images/semsanta10/losseis.jpg
     :alt: Los seis!

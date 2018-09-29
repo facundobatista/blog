@@ -4,7 +4,7 @@
 
 El fin de semana pasado, que era largo (¡cuatro días!), lo pasé en La Falda, Córdoba, junto con un montón de gente copada, disfrutando del cuarto PyCamp de Python Argentina.
 
-No voy a explicar de nuevo que es un PyCamp, pero pueden ver mis posts de las ediciones anteriores(`acá <http://www.taniquetil.com.ar/plog/post/1/329>`__, `acá <http://www.taniquetil.com.ar/plog/post/1/404>`__, y `acá <http://www.taniquetil.com.ar/plog/post/1/452>`__).
+No voy a explicar de nuevo que es un PyCamp, pero pueden ver mis posts de las ediciones anteriores(`acá </posts/0329>`__, `acá </posts/0404>`__, y `acá </posts/0452>`__).
 
 Viajé en micro durante la noche, así que tempranito ya estaba allá... es más, fui el primero en llegar. Luego fueron cayendo un par más, pero había mucha gente varada en Córdoba Capital por un paro de transporte (gente de Córdoba mismo, y gente de otros lados que cambiaban de micro allá).
 
@@ -17,7 +17,7 @@ Después de comer arrancamos varias personas laburando en la `CDPedia <http://py
 
 El viernes arrancó el día conmigo dando una charla de Twisted que no era mía. Había mucha gente que quería aprender algo de Twisted, y se iba a utilizar en varios proyectos, entonces se me ocurrió, aprovechando que teníamos un microproyector que había traído Achuni, dar `la charla que Lucio preparó <http://python.org.ar/pyar/CharlasAbiertas2010/Twisted>`_ para las Charlas Abiertas de La Tribu.
 
-Uno de los proyectos de Twisted era seguir portándolo a Python 3, que yo empujaba. Nueces se copó y laburó en esto mismo, conmigo. Durante el día logré terminar un branch que había comenzado durante `el sprint en PyCon <http://www.taniquetil.com.ar/plog/post/1/504>`_, y Nueces también logró terminar su parte, generando varios parches. Fue bastante productivo, y encima lo que hice yo y parte de lo que hizo Nueces fue tomado por los desarrolladores del proyecto y metido en trunk (a esta altura ya debe estar metido todo).
+Uno de los proyectos de Twisted era seguir portándolo a Python 3, que yo empujaba. Nueces se copó y laburó en esto mismo, conmigo. Durante el día logré terminar un branch que había comenzado durante `el sprint en PyCon </posts/0504>`_, y Nueces también logró terminar su parte, generando varios parches. Fue bastante productivo, y encima lo que hice yo y parte de lo que hizo Nueces fue tomado por los desarrolladores del proyecto y metido en trunk (a esta altura ya debe estar metido todo).
 
 Esa noche salimos con Perrito y Joac a comprar un Legui, pero no encontramos, así que nos volvimos al hotel con fernet, coca cola e hielo, y estuvimos varios jugando a un juego de computadora, en red, que no conocía y que me encantó: `Armagetron Advanced <http://www.armagetronad.net/>`_, que es un juego que salió de la película `Tron <http://www.imdb.com/title/tt0084827/>`_.
 

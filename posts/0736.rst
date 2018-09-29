@@ -9,7 +9,7 @@ Hace un par de semanas finalmente salió el trámite de la Inspección General d
 
 Ahora estamos trabajando a full para sacar el CUIT en la AFIP, lo que nos va a permitir abrir una cuenta en el banco. De esta manera los chicos que están organizando la PyCon ya van a poder darle luz verde a los sponsors para que pongan plata.
 
-Más allá de ayudar organizativamente en la PyCon y en `otros eventos <http://www.taniquetil.com.ar/plog/post/1/722>`_, son cuatro las cosas que queremos empujar el primer par de años:
+Más allá de ayudar organizativamente en la PyCon y en `otros eventos </posts/0722>`_, son cuatro las cosas que queremos empujar el primer par de años:
 
 - Becas de viaje: porque creemos que hay mucho valor en que la gente se conozca, así que trataremos de ayudar a que la gente pueda viajar a eventos que se organicen en el país
 

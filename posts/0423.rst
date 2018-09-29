@@ -2,7 +2,7 @@
 .. date: 2009-08-22 02:03:02
 .. tags: Felipe, embarazo
 
-Sé que estoy escribiendo poco acá, pero es que no solo estoy armando una `conferencia <http://www.taniquetil.com.ar/plog/post/1/422>`_, sino que también estoy con las tareas relacionadas a la espera de Felipe.
+Sé que estoy escribiendo poco acá, pero es que no solo estoy armando una `conferencia </posts/0422>`_, sino que también estoy con las tareas relacionadas a la espera de Felipe.
 
 Ya estamos arrancando la semana 35, y queda un mes y pico de espera...
 

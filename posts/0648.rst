@@ -2,7 +2,7 @@
 .. date: 2014-05-23 04:03:32
 .. tags: pruebas, corriendo, unit tests
 
-En `este post <http://www.taniquetil.com.ar/plog/post/1/642>`_ detallé todo lo que querría tener en el testrunner ideal, con la idea de trabajar un poco sobre eso en `el último PyCamp <http://www.taniquetil.com.ar/plog/post/1/644>`_.
+En `este post </posts/0642>`_ detallé todo lo que querría tener en el testrunner ideal, con la idea de trabajar un poco sobre eso en `el último PyCamp </posts/0644>`_.
 
 Así fue. Nos sentamos un rato largo con Martín Gaitán y empezamos a ver si con `nosetest <https://nose.readthedocs.org/en/latest/>`_ podíamos lograr parte o todo de lo que queremos.
 

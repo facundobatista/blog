@@ -2,7 +2,7 @@
 .. date: 2011-01-11 02:38:16
 .. tags: Junín, PyCon, jornadas, software libre
 
-Les dejo los videos de las `Sextas Jornadas de Software Libre de Junín <http://jornadassl.agora.unnoba.edu.ar/>`_; `acá están todos <http://unnoba.blip.tv/posts?view=archive&nsfw=dc>`_, y si releen `mi post sobre el evento <http://www.taniquetil.com.ar/plog/post/1/487>`_, pueden sacar cuales me gustaron, :)
+Les dejo los videos de las `Sextas Jornadas de Software Libre de Junín <http://jornadassl.agora.unnoba.edu.ar/>`_; `acá están todos <http://unnoba.blip.tv/posts?view=archive&nsfw=dc>`_, y si releen `mi post sobre el evento </posts/0487>`_, pueden sacar cuales me gustaron, :)
 
 Eso con respecto al pasado... ¿y al futuro?
 

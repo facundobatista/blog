@@ -2,7 +2,7 @@
 .. date: 2010-09-26 16:10:33
 .. tags: propaganda, publicidad, infraestructura
 
-Hace un tiempo tomé la `decisión de poner las publicidades <http://www.taniquetil.com.ar/plog/post/1/229>`_ de Google Ad Sense en este blog, para ver qué links me ofrecía Google en función del contenido del blog, y ver de sumar una moneda.
+Hace un tiempo tomé la `decisión de poner las publicidades </posts/0229>`_ de Google Ad Sense en este blog, para ver qué links me ofrecía Google en función del contenido del blog, y ver de sumar una moneda.
 
 Luego de un par de años, considero el experimento terminado, con las siguientes dos conclusiones:
 

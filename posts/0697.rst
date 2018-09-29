@@ -94,7 +94,7 @@ Otro gran detalle en lo que es "contenido" es qué hacemos para mitigar el probl
 ¿Cómo surgió el proyecto?
 -------------------------
 
-Cuenta la leyenda que el proyecto arrancó en el sprint posterior al `primer PyDay de Santa Fé <http://www.taniquetil.com.ar/plog/post/1/185>`_, en Junio del 2006, con la idea base de poder distribuir la Wikipedia a aquellos lugares que no tenían o tienen acceso a Internet (en particular teníamos en mente a escuelas de frontera o de ciudades chicas, bibliotecas de barrio, centros culturales de pueblos pequeños, etc.).
+Cuenta la leyenda que el proyecto arrancó en el sprint posterior al `primer PyDay de Santa Fé </posts/0185>`_, en Junio del 2006, con la idea base de poder distribuir la Wikipedia a aquellos lugares que no tenían o tienen acceso a Internet (en particular teníamos en mente a escuelas de frontera o de ciudades chicas, bibliotecas de barrio, centros culturales de pueblos pequeños, etc.).
 
 El proyecto continuó, y aunque no siempre le pudimos dedicar tiempo, tampoco nos alejamos nunca demasiado. Las mejoras en el proyecto fueron muy por ráfagas. Quiero destacar que `fuimos muchos los que colaboramos con el proyecto <https://github.com/PyAr/CDPedia/blob/master/AUTHORS.txt>`_, a lo largo de los años, ¡casi 30 personas!
 
@@ -123,7 +123,7 @@ En gran parte porque `Educ.ar <http://www.educ.ar/>`_ quería meter la CDPedia e
 
 Así que agarraron la versión 0.6 que recién había salido (Alecu y yo nos habíamos apurado a cerrar muchos detalles para tener algo funcionando presentable a Jimmy Wales), y entraron a darle. Esto le dio bastante impulso al desarrollo del proyecto, sumado a que también aporté regularmente al proyecto, y a que luego de que se terminara la beca Diego siguió trabajando en CDPedia, y que se sumó como "laburante regular" `Santiago Piccinini <https://twitter.com/spiccinini>`_.
 
-Con todo este trabajo, y un nuevo empujón en el `PyCamp del 2011 <http://www.taniquetil.com.ar/plog/post/1/506>`_, pudimos terminar de cerrar la versión 0.7, que se entregó a Educ.ar y se distribuyó a todas las escuelas del país.
+Con todo este trabajo, y un nuevo empujón en el `PyCamp del 2011 </posts/0506>`_, pudimos terminar de cerrar la versión 0.7, que se entregó a Educ.ar y se distribuyó a todas las escuelas del país.
 
 Sin embargo el mayor hito a nivel de distribución masiva de la CDPedia es que en algún momento fue incluida en las notebooks que el Estado argentino distribuye a los chicos de escuelas de todo el país como parte del programa `Conectar Igualdad <http://www.conectarigualdad.gob.ar/>`_. Y también se la `muestran a alumnos y docentes en los talleres <https://twitter.com/hectorksanchez/status/651951184555737089>`_ que hacen como parte del programa.
 

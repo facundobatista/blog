@@ -7,7 +7,7 @@ Nueva versión
 
 Hace unos diez días terminé de armar las imágenes para la nueva versión de la CDPedia, la 0.8.4 con contenido actualizado a Junio 2017, y la semana pasada hice los avisos correspondientes en todos lados menos acá.
 
-Ya saben `qué es la CDPedia <http://www.taniquetil.com.ar/plog/post/1/697>`_, pero vuelvo a insistir: descárguenla, compártanla, difúndanla, ya que ayuda a que la mayor gente posible acceda a la Wikipedia y al conocimiento que la misma permite.
+Ya saben `qué es la CDPedia </posts/0697>`_, pero vuelvo a insistir: descárguenla, compártanla, difúndanla, ya que ayuda a que la mayor gente posible acceda a la Wikipedia y al conocimiento que la misma permite.
 
 Vayan a `la página oficial <http://cdpedia.python.org.ar/>`_ para ver cómo descargarla y otra info.
 
@@ -28,7 +28,7 @@ A nivel del proyecto a varias cosas al alcance de la mano, desde modernización 
 
 Claro, la idea también ronda alrededor de las personas, los que participen del proyecto, que aprenderían Python en un nivel básico o intermedio, y obtendrían experiencia en trabajar en grupo de forma remota (y algo de presencial). También se haría foco en usar herramientas como control de versiones, manejo de issues/bugs, y prácticas modernas de desarrollo en general.
 
-En algún punto es parecido a lo que en otro momento se llamó `Adopte un Newbie <http://www.taniquetil.com.ar/plog/post/1/507>`_, pero en este caso no hay una relación uno a uno entre mentor y participante, sino que sería un grupo donde cada integrante puede ayudar a otros, todos tutelados o guiados por mí (y como dije arriba, quizás alguien más), todo en un ambiente amigable y "seguro".
+En algún punto es parecido a lo que en otro momento se llamó `Adopte un Newbie </posts/0507>`_, pero en este caso no hay una relación uno a uno entre mentor y participante, sino que sería un grupo donde cada integrante puede ayudar a otros, todos tutelados o guiados por mí (y como dije arriba, quizás alguien más), todo en un ambiente amigable y "seguro".
 
 .. image:: /images/cdpedia/fuente.jpg
     :alt: Fuente en el Cerro Santa Lucia, Santiago de Chile

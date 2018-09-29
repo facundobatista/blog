@@ -29,7 +29,7 @@ Laburando
 
 Mi idea es aprovechar el Campamento Python a realizarse en Córdoba del 15 al 18 de Febrero para trabajar en este proyecto. Recuerden traer el `7z <http://www.7-zip.org/es/>`_ instalado, para poder comprimir y descomprimir archivos en este formato, y los estáticos (que deberían encontrar `acá <http://static.wikipedia.org/>`__, pero no sé por qué en este momento no están todos).
 
-El proyecto estuvo bastante tiempo abandonado, luego de unos esfuerzos iniciales, y apenas lo retomamos Alecu y el que suscribe el día del `Taller de Software Libre <http://www.taniquetil.com.ar/plog/post/1/311>`_, dónde retomamos un poco el hilo del desarrollo. El repositorio está `acá <https://opensvn.csie.org/PyAr/wikipediaOffline/>`_ y tienen más info del proyecto `acá <https://opensvn.csie.org/traccgi/PyAr/wiki/WikipediaOffline>`__ (aunque hay que revisarla y retrabajarla).
+El proyecto estuvo bastante tiempo abandonado, luego de unos esfuerzos iniciales, y apenas lo retomamos Alecu y el que suscribe el día del `Taller de Software Libre </posts/0311>`_, dónde retomamos un poco el hilo del desarrollo. El repositorio está `acá <https://opensvn.csie.org/PyAr/wikipediaOffline/>`_ y tienen más info del proyecto `acá <https://opensvn.csie.org/traccgi/PyAr/wiki/WikipediaOffline>`__ (aunque hay que revisarla y retrabajarla).
 
 Cabe acotar que los esfuerzos iniciales se vieron truncados ante la imposibilidad de lograr un objetivo que era demasiado ambicioso, que versaba sobre los requerimientos mínimos de la máquina donde este producto debía correr. Es por eso que ahora no tenemos estos requerimientos, sino que la idea es hacerlo, y luego ver qué máquina se necesita (y optimizar lo que corresponda si no estamos satisfechos en ese aspecto).
 

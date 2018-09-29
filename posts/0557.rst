@@ -2,7 +2,7 @@
 .. date: 2012-04-16 16:42:09
 .. tags: bares, datos
 
-Como comentaba en `este post <http://www.taniquetil.com.ar/plog/post/1/551>`_ empecé a hacer sprints pequeñitos en distintos bares, con el objetivo principal de darle continuidad a algunos proyectos (arranqué con CDPedia, y estamos haciendo lindos progresos!).
+Como comentaba en `este post </posts/0551>`_ empecé a hacer sprints pequeñitos en distintos bares, con el objetivo principal de darle continuidad a algunos proyectos (arranqué con CDPedia, y estamos haciendo lindos progresos!).
 
 Un objetivo secundario de esa iniciativa era evaluar los bares, y este post es para mostrarles los primeros resultados de dicha evaluación. Bah, los resultados no los muestro acá, sino en `esta nueva página <http://www.taniquetil.com.ar/bares/>`_.
 

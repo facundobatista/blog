@@ -2,7 +2,7 @@
 .. date: 2008-02-16 14:40:40
 .. tags: XML, HTML, Wikipedia, CDPedia, parser, generación, templates
 
-El otro día comenté sobre la `Wikipedia Offline <http://www.taniquetil.com.ar/plog/post/1/323>`_, y en el sexto comentario apuntaron a unos parsers de terceros para pasar de XML a HTML.
+El otro día comenté sobre la `Wikipedia Offline </posts/0323>`_, y en el sexto comentario apuntaron a unos parsers de terceros para pasar de XML a HTML.
 
 Si uno pudiera tener un xml2html.py que armara el HTML a mostrar al usuario a partir del XML original, los volúmenes de datos a manejar en todas las etapas del proyecto serían bastante menores.
 

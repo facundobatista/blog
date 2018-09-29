@@ -4,9 +4,9 @@
 
 Una atrás de la otra, pasaron más rápido de lo que hubiese querido.
 
-En Córdoba estuve un par de días antes de la conferencia http://ar.pycon.org/, incluso un día trabajando desde allá (el otro ayudando un poco). Pero igual me fui con la sensación de que me faltó charlar con un montón de gente. Quizás estoy mal acostumbrado por los PyCamp, donde son cuatro días no tan estructurados como en una conferencia, y uno puede lograr un mayor contacto humano.
+En Córdoba estuve un par de días antes de `la conferencia <http://ar.pycon.org/>`_, incluso un día trabajando desde allá (el otro ayudando un poco). Pero igual me fui con la sensación de que me faltó charlar con un montón de gente. Quizás estoy mal acostumbrado por los PyCamp, donde son cuatro días no tan estructurados como en una conferencia, y uno puede lograr un mayor contacto humano.
 
-Como `conté <http://www.taniquetil.com.ar/plog/post/1/484>`_, dí dos charlas, las cuales salieron bien. Las Charlas Relámpago estuvieron geniales, los keynotes no tanto. Los dos días luego de la conferencia estuvieron buenos (el viernes hubo un asado que no fue asado, lejos de la ciudad, y el sábado una cerveceada, en un bar copado a unas cuadras de la Uni).
+Como `conté </posts/0484>`_, dí dos charlas, las cuales salieron bien. Las Charlas Relámpago estuvieron geniales, los keynotes no tanto. Los dos días luego de la conferencia estuvieron buenos (el viernes hubo un asado que no fue asado, lejos de la ciudad, y el sábado una cerveceada, en un bar copado a unas cuadras de la Uni).
 
 .. image:: /images/pycon10ar.jpeg
     :alt: Cerveceada cordobesa

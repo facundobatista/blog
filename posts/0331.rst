@@ -2,7 +2,7 @@
 .. date: 2008-02-28 09:52:23
 .. tags: PyCamp, fotos
 
-Aunque ya pasó más de una semana del `PyCamp <http://www.taniquetil.com.ar/plog/post/1/329>`_, hay un par de cosas que no quería dejar de incluir acá (y que no tenía antes porque no fueron fotos sacadas con mi cámara).
+Aunque ya pasó más de una semana del `PyCamp </posts/0329>`_, hay un par de cosas que no quería dejar de incluir acá (y que no tenía antes porque no fueron fotos sacadas con mi cámara).
 
 Como ya había comentado, en un esfuerzo sin precedentes PyAr se puso a caminar al mástil ese que veíamos desde lejos. Obviamente, llevamos la bandera y nos sacamos una muy linda foto (el de los pelos revueltos no es Slash, es Marcos Dione, ¡es que habia mucho viento!).
 

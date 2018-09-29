@@ -4,7 +4,7 @@
 
 En otra edición de "cosas que hice hace tiempo y me resultaron útiles ahora", les presento un proyecto que nació hace cinco años y medio de una charla de PyAr.
 
-Como explico en `este post <http://www.taniquetil.com.ar/plog/post/1/310>`_, para jugar un rato con un amigo hice un árbol Trie, que luego de algunas optimizaciones degeneró en algo que llamé "Fucked Trie".
+Como explico en `este post </posts/0310>`_, para jugar un rato con un amigo hice un árbol Trie, que luego de algunas optimizaciones degeneró en algo que llamé "Fucked Trie".
 
 Este árbol para guardar palabras y buscarlas por prefijo de forma muy muy rápida resultó ser lo que necesitaba en el laburo un par de semanas atrás, pero con un cambio: ahora cada palabra tenía que guardar cierta metadata (que luego se obtendría al buscar).
 

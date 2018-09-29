@@ -8,7 +8,7 @@ Ayer fuimos con Moni a cenar a la casa de Alfonso y Sabrina.
 
 Alfonso fue alumno mío, de Hardware de PC, hace como cinco años, y luego ayudante en varios talleres. A Sabri la conocí por él, justamente, siempre fue su novia desde que lo conozco.
 
-Después se fueron a vivir juntos, y hace apenas más de un año `nació Guille <http://www.taniquetil.com.ar/plog/post/1/65>`_ (justo a mitad del año en que Alf era ayudante mío de Python en la Universidad, y Sabrina nuestra alumna, :). Este año, poco tiempo después de que yo entré en CycleLogic, llevé a trabajar a Sabri allí, así que la veo casi todos los días.
+Después se fueron a vivir juntos, y hace apenas más de un año `nació Guille </posts/0065>`_ (justo a mitad del año en que Alf era ayudante mío de Python en la Universidad, y Sabrina nuestra alumna, :). Este año, poco tiempo después de que yo entré en CycleLogic, llevé a trabajar a Sabri allí, así que la veo casi todos los días.
 
 La cuestión es que ellos todavía no conocían a Mónica, y que hace mil que no lo veía a Alf ni a Guille, quien está super crecido...
 
@@ -18,4 +18,4 @@ Y como Alfonso se va a Italia a fin de mes (está haciendo el mismo Master que h
 
 La verdad es que estuvo muy bueno. Jugamos boggle, comimos picada y luego calzón napolitano, volvimos a jugar boggle, y nos reimos mucho mucho mucho. Encima, de yapa, me traje cuatro pelis prestadas, :)
 
-PD: Alf, Sabri, el `cumple de Facu <http://www.taniquetil.com.ar/plog/post/1/129>`_, fue a principios del Diciembre pasado, como bien recordamos ayer...
+PD: Alf, Sabri, el `cumple de Facu </posts/0129>`_, fue a principios del Diciembre pasado, como bien recordamos ayer...

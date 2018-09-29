@@ -4,7 +4,7 @@
 
 Si estuvieron prestando <em>algo</em> de atención (bueeeeeeeno, no es que tienen que ser Sherlock Holmes), habrán notado algunos cambios que fui haciendo en el sitio.
 
-Ojo que hubieron cambios visibles y otros no tantos. El mayor que hice fue `irme de Dattatec <http://www.taniquetil.com.ar/plog/post/1/211" title="El blog del Chaghi>`_ (era una mierrrda en su última época), y arribar a Hoztear (hasta ahora, muy bien).
+Ojo que hubieron cambios visibles y otros no tantos. El mayor que hice fue `irme de Dattatec </posts/0211" title="El blog del Chaghi>`_ (era una mierrrda en su última época), y arribar a Hoztear (hasta ahora, muy bien).
 
 De ahí en más, me puse las pilas (algo empujado por `Mariano <http://www.chaghi.com.ar/blog/>`_) por terminar de redondear todos los detalles en el sitio nuevo, algunos que arrastraba de antes de la migración, y otros productos de la misma.
 

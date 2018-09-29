@@ -10,7 +10,7 @@ Es larga. El domingo hay un día de tutoriales y cursos para principiantes. La c
 
 Lo que más me entusiasma de esta edición de la conferencia es que voy a ir, :). No es la primera vez que voy, sin embargo; vuelvo luego de once (sí, 11) años de ausencia!!
 
-No sé si me sorprende más eso o que mi blog ya es tan viejo que tengo registro de eso que pasó hace tanto: `en <http://www.taniquetil.com.ar/plog/post/1/55>`_ `estos <http://www.taniquetil.com.ar/plog/post/1/56>`_ `cuatro <http://www.taniquetil.com.ar/plog/post/1/58>`_ `posts <http://www.taniquetil.com.ar/plog/post/1/60>`_.
+No sé si me sorprende más eso o que mi blog ya es tan viejo que tengo registro de eso que pasó hace tanto: `en </posts/0055>`_ `estos </posts/0056>`_ `cuatro </posts/0058>`_ `posts </posts/0060>`_.
 
 Ahora que lo pienso, hace *años* que tampoco voy a una PyCon US (la default, digamos)...
 

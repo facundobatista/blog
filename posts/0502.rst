@@ -2,7 +2,7 @@
 .. date: 2011-03-11 02:24:15
 .. tags: viaje, avión, PyCon, business, primera
 
-Una de las decisiones que tomé en el 2010 con respecto al 2011 fue la de ir sí o sí a PyCon USA este año. Luego me dieron el `Python Community Award <http://www.taniquetil.com.ar/plog/post/1/453>`_ y la decisión fué más firme aún, ya que el premio incluye la entrada a la conferencia y 500 dólares que aunque no cubren todo el hotel, es una buena parte.
+Una de las decisiones que tomé en el 2010 con respecto al 2011 fue la de ir sí o sí a PyCon USA este año. Luego me dieron el `Python Community Award </posts/0453>`_ y la decisión fué más firme aún, ya que el premio incluye la entrada a la conferencia y 500 dólares que aunque no cubren todo el hotel, es una buena parte.
 
 Cuando empecé a buscar vuelos, hace tres o cuatro meses, encontré que tenía puntos en American Airlines, de otros vuelos que había hecho. Tenía como sesenta mil... lo cual no me decía nada, vieron como son los programas de puntos: "Tenés un millón setecientos treinta y dos mil cuatrocientos doce puntos, que apenas te alcanza para un tubo de pelotitas de tenis".
 

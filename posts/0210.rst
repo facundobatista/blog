@@ -2,7 +2,7 @@
 .. date: 2006-09-25 19:58:02
 .. tags: juego, programación, competencia, typus pocus
 
-`Acá <http://www.taniquetil.com.ar/plog/post/1/204>`_ comenté como habíamos arrancado PyWeek 3, vean el post para la primer parte del relato e info genera de qué es eso. Ahora termino la épica historia.
+`Acá </posts/0204>`_ comenté como habíamos arrancado PyWeek 3, vean el post para la primer parte del relato e info genera de qué es eso. Ahora termino la épica historia.
 
 Durante la semana, no pude hacer mucho, que es un eufemismo para dar entender que no tuve ni mierda de tiempo de hacer un carajo. Pero me reservé la noche del viernes porque nos volvíamos a juntar en lo de Leito.
 

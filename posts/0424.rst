@@ -2,7 +2,7 @@
 .. date: 2009-08-26 02:54:43
 .. tags: conferencia, embarazo, Ubuntu
 
-Bueno, mi recomendación es oficial. No armen una `conferencia nacional <http://www.taniquetil.com.ar/plog/post/1/422>`_ al mismo tiempo que quieran `tener un hijo <http://www.taniquetil.com.ar/plog/post/1/423>`_.
+Bueno, mi recomendación es oficial. No armen una `conferencia nacional </posts/0422>`_ al mismo tiempo que quieran `tener un hijo </posts/0423>`_.
 
 Ya hace semanas que estoy corriendo, haciendo mil cosas, acostándome a las 2 y levantándome a las 8. Porque no sólo estoy con lo que acabo de decirles, sino que también estoy terminando la `CDPedia <http://code.google.com/p/cdpedia>`_, estreno una charla nueva (*Python 3000*), tengo que hacer el cierre de la conferencia, y encima una semana después doy una charla en un posgrado sobre NumPy y SciPy.
 

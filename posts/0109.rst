@@ -27,7 +27,7 @@ Este equipo fue desarrollado por Fioramonti en Roque Perez, provincia de Buenos 
 Charla sobre telefonía celular
 ------------------------------
 
-Hoy di `la charla <http://www.taniquetil.com.ar/plog/post/1/108>`_ con Adrián en la UADE. Salió muy bien, no sólo por la presentación en si misma, sino que los chicos se enganchaban y charlábamos de temas puntuales sobre lo que veíamos, muy piola.
+Hoy di `la charla </posts/0108>`_ con Adrián en la UADE. Salió muy bien, no sólo por la presentación en si misma, sino que los chicos se enganchaban y charlábamos de temas puntuales sobre lo que veíamos, muy piola.
 
 .. image:: /images/uff/530141984_35c06732c1_o.jpg
 

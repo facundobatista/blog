@@ -2,7 +2,7 @@
 .. date: 2007-11-19 11:51:08
 .. tags: películas, actualización, gran
 
-¡Cuanto hace que no hacía este update! Casi `seis meses <http://www.taniquetil.com.ar/plog/post/1/267>`_.... Supongo que por eso es tan sabroso.
+¡Cuanto hace que no hacía este update! Casi `seis meses </posts/0267>`_.... Supongo que por eso es tan sabroso.
 
 Todo esto es lo que acabo de anotar para ver:
 
@@ -78,7 +78,7 @@ Y todo esto es lo que vi en este período, junto con un pequeño comentario así
 
 - `The ninth gate <http://www.imdb.com/title/tt0142688/>`_: +1. Muy buena historia, muy buen tema (el final raro, pero no alcanza a apagarla).
 
-- `The passion of the Christ <http://www.imdb.com/title/tt0335345/>`_: -1: `Comentario <http://www.taniquetil.com.ar/plog/post/1/301>`_.
+- `The passion of the Christ <http://www.imdb.com/title/tt0335345/>`_: -1: `Comentario </posts/0301>`_.
 
 - `The skeleton key <http://www.imdb.com/title/tt0397101/>`_: +1. Al revés que la de arriba, esta pintaba como lo mismo de siempre pero con la vuelta del vudú, y sin embargo sorprende y es inesperada.
 

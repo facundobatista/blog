@@ -2,7 +2,7 @@
 .. date: 2006-06-28 18:25:24
 .. tags: memorias, posts, Santa Fe, relatos, fotos
 
-No quería dejar de comentarles dos otros relatos de la primer jornada de Python Santa Fe (aparte de la `mía <http://www.taniquetil.com.ar/plog/post/1/185>`_).
+No quería dejar de comentarles dos otros relatos de la primer jornada de Python Santa Fe (aparte de la `mía </posts/0185>`_).
 
 El `primer relato <http://pyar.decode.com.ar/moin/Eventos/Reuniones/Reunion16>`_ es de Nubis, quien nos acompañó desde Buenos Aires, y cuenta bajo el punto de vista de un asistente, ¡está muy divertido!
 

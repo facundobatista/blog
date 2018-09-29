@@ -2,7 +2,7 @@
 .. date: 2006-09-05 13:56:22
 .. tags: manejo, reglas, tránsito
 
-El sábado a la tarde/noche fui a lo de Leito porque `nos juntábamos por PyWeek <http://www.taniquetil.com.ar/plog/post/1/204>`_. El camino que agarré fue Panamericana, Donado, La Pampa, etc.
+El sábado a la tarde/noche fui a lo de Leito porque `nos juntábamos por PyWeek </posts/0204>`_. El camino que agarré fue Panamericana, Donado, La Pampa, etc.
 
 El motivo de este post es el comportamiento de un automovilista sobre Donado. Tal calle (o avenida, no sé), es relativamente ancha con sus tres carriles, y un sábado a esa hora, bien tranquila. Tiene una velocidad máxima de 60, con carteles que lo indican, y los semáforos en sincronismo con esa velocidad.
 

@@ -11,9 +11,9 @@ Ya tengo andando un proyecto que arrancó hace tiempo pero se fue consolidando p
 
 ¿Para qué? Básicamente para correr dos tareas...
 
-Una es `Magicicada (la parte del server) <https://launchpad.net/magicicada-server>`_, que es el servicio de sincronización de archivos `renacido de las cenizas de Ubuntu One <http://www.taniquetil.com.ar/plog/post/1/687>`_. Entonces tengo tanto la computadora de escritorio como la laptop con un par de directorios sincronizados entre ellas, tanto si estoy en casa como si estoy afuera, lo cual me es muy útil. Y además me sirve de backup de tantísimos archivos (aunque no los sincronice a la laptop, como fotos y videos).
+Una es `Magicicada (la parte del server) <https://launchpad.net/magicicada-server>`_, que es el servicio de sincronización de archivos `renacido de las cenizas de Ubuntu One </posts/0687>`_. Entonces tengo tanto la computadora de escritorio como la laptop con un par de directorios sincronizados entre ellas, tanto si estoy en casa como si estoy afuera, lo cual me es muy útil. Y además me sirve de backup de tantísimos archivos (aunque no los sincronice a la laptop, como fotos y videos).
 
-El otro laburo que puse a correr en mi "nube personal" es el *cdpetron*, que es el generador automático de `CDPedias <http://www.taniquetil.com.ar/plog/post/1/697>`_. Es un proceso que tarda muchos días en terminar, y además hace un uso bastante intensivo de disco, entonces es algo que tener corriendo en mi desktop es bastante molesto.
+El otro laburo que puse a correr en mi "nube personal" es el *cdpetron*, que es el generador automático de `CDPedias </posts/0697>`_. Es un proceso que tarda muchos días en terminar, y además hace un uso bastante intensivo de disco, entonces es algo que tener corriendo en mi desktop es bastante molesto.
 
 ¿En qué hardware puse a andar todo esto? Si están imaginando un datacenter, nada más lejos. En una minicomputadora: la Gigabyte Brix GB-BXBT-1900.
 

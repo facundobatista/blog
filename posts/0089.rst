@@ -5,7 +5,7 @@
 Actitud
 -------
 
-No es la `primera vez <http://www.taniquetil.com.ar/plog/post/1/7>`_ que menciono a `Miguel <http://primates.ximian.com/~miguel/activity-log.php>`_ o `Nat <http://nat.org/blog>`_, pero quiero destacar algo que me llama la atención.
+No es la `primera vez </posts/0007>`_ que menciono a `Miguel <http://primates.ximian.com/~miguel/activity-log.php>`_ o `Nat <http://nat.org/blog>`_, pero quiero destacar algo que me llama la atención.
 
 Hay veces que le mando un mail a un amigo preguntándole algo, o a un compañero de trabajo, y nunca recibo respuesta. Si siguen mi post anterior, verán que Miguel y Nat son gente que debe estar medianamente ocupada también. Sin embargo, siempre que  (yo, que no me conocen) les mandé un mail preguntándoles algo, me contestaron (la última vez fue hoy, para preguntarle a Nat si podía citarlo, ver más abajo).
 

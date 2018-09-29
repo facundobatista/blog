@@ -2,7 +2,7 @@
 .. date: 2008-05-07 13:03:27
 .. tags: python bug day, colaborando, guia, cocos2d, lista, mails
 
-Este sábado y domingo se hace un `Global Python Sprint Weekend <http://wiki.python.org/moin/PythonBugDay>`_ (ya se los había comentado `acá <http://www.taniquetil.com.ar/plog/post/1/347>`_). Para aquellos que quieran colaborar, la novedad es que Humitos escribió un `documento <http://humitos.wordpress.com/2008/05/05/colaborando-con-python/>`_ que les permitirá estar productivo en un abrir y cerrar de ojos.
+Este sábado y domingo se hace un `Global Python Sprint Weekend <http://wiki.python.org/moin/PythonBugDay>`_ (ya se los había comentado `acá </posts/0347>`_). Para aquellos que quieran colaborar, la novedad es que Humitos escribió un `documento <http://humitos.wordpress.com/2008/05/05/colaborando-con-python/>`_ que les permitirá estar productivo en un abrir y cerrar de ojos.
 
 ¡Felicitaciones (nuevamente) a los cerebros atrás de Cocos! No sólo se mandaron una `linda página <http://cocos2d.org/>`_, sino que subieron dos videos a YouTube, uno mostrando `los efectos <http://www.youtube.com/watch?v=mrhfaoMvpps>`_ y el otro `usando Cocos de forma interactiva <http://www.youtube.com/watch?v=MJsd0J4G4RU>`_. Les recomiendo efusivamente que vean esos dos videos, ¡son buenísimos!
 

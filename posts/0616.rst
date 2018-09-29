@@ -39,7 +39,7 @@ Al llegar fueron todos saludos, presentaciones con varias personas a las que no 
 
 Esa tarde laburé con `TOMy <http://github.com/Abuelodelanada/TOMy/>`_, un cliente lindo y útil de consola para conectarse a muchas bases de datos (MySQL, Postgresql, etc), mejorando por mucho los clientes que trae cada motor. Le refactoreé un par de cosas a la hora de importar unos plugins, aunque lo que quería realmente hacer era otra cosa (que finalmente pude hacer luego, ver abajo).
 
-No pude seguir con TOMy porque llegó la hora asignada de empezar con LocoLander, `un proyecto idea mía <http://www.taniquetil.com.ar/plog/post/1/606>`_. Se armó un grupito, pero la verdad los que siguieron prendidos al proyecto (durante una buena parte del resto del PyCamp, y que trabajaron mucho mucho) fueron Ricardo, Nati Bidart, y Matías Bordese. Yo hice un par de cosas, charlé mucho del diseño, pero no estuve echando tanto código con esto.
+No pude seguir con TOMy porque llegó la hora asignada de empezar con LocoLander, `un proyecto idea mía </posts/0606>`_. Se armó un grupito, pero la verdad los que siguieron prendidos al proyecto (durante una buena parte del resto del PyCamp, y que trabajaron mucho mucho) fueron Ricardo, Nati Bidart, y Matías Bordese. Yo hice un par de cosas, charlé mucho del diseño, pero no estuve echando tanto código con esto.
 
 Lo groso es que se logró muchísimo. Pueden ver `acá el código <https://launchpad.net/locolander>`_, ya con mucho hecho de la interfaz de registro de proyectos y de seguimiento del proceso, así como también toda la infraestructura para armar imágenes de distintos linuxes y configurarlos con las dependencias necesarias para correr los tests necesarios sobre los branches de los proyectos registrados.
 
@@ -51,7 +51,7 @@ Segundo día, el viernes
 
 Este fue el último día que me levanté temprano, con bastante frio porque el radiador de la pieza no andaba!. Desayuné y luego me puse cerca del gran Hugo Ruscitti que le contó a mucha gente sobre Pilas y su proyecto para que los chicos en las escuelas aprendan a programar usando `el editor web <http://pilas-editor.com.ar/>`_. Yo ya había charlado mucho con Hugo sobre esto, así qu eno participé demasiado, pero estaba con la oreja parada mientras seguía laburando un poquito en LocoLander y TOMy.
 
-Y seguí con eso incluso después del almuerzo, hasta que llegó `la hora de Kilink <http://www.taniquetil.com.ar/plog/post/1/608>`_, el otro proyecto nuevo que llevaba al PyCamp. Se me juntaron varios chicos para arrancar... y cuando les quise mostrar como estaba lo que ya estaba, no andaba en mi máquina, :(.
+Y seguí con eso incluso después del almuerzo, hasta que llegó `la hora de Kilink </posts/0608>`_, el otro proyecto nuevo que llevaba al PyCamp. Se me juntaron varios chicos para arrancar... y cuando les quise mostrar como estaba lo que ya estaba, no andaba en mi máquina, :(.
 
 Ahí me puse a ver por qué, tratar de configurarlo, pregunté, no lo pudimos hacer andar como estaba, y decidí cambiar el approach. Instalé Apache, lo empecé a configurar, y luego de varias chanchadas y cosas de apuro, hice que pudiera correr.
 
