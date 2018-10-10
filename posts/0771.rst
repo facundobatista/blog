@@ -1,0 +1,35 @@
+.. title: PyCon Argentina 2018
+.. date: 2018-10-10 16:15:00
+.. tags: PyCon, Python, PyAr, conferencia
+
+Estas últimas semanas vengo a recontrafull con la organización de la `PyCon Argentina 2018 <http://pycon.python.org.ar>`_. Más allá de un comienzo lento hace unos meses, por un problema interno de la organización, se formó un equipo que está laburando un montón.
+
+La conferencia se va a realizar en el Centro Cultural General San Martín, en la Ciudad de Buenos Aires, del jueves 22 al sábado 24 de Noviembre, más alguna actividad social el domingo 25 (nos vamos de Pycnic!).
+
+¡`Registrate <https://eventos.python.org.ar/events/pyconar2018/registration>`_ y vení que es gratis y va a estar buenísima!
+
+.. image:: /images/pyconar18/logo.png
+    :alt: El logo de la conferencia
+    :target: http://pycon.python.org.ar
+
+El jueves van a haber varios talleres, entre los que se destaca un `Django Girls <https://tutorial.djangogirls.org/es/>`_ hecho y derecho. Viernes y sábados es más de "conferencia clásica", pero van a haber otras actividades como espacios abiertos para que cualquiera hable del tema que quiere, zonas de trabajo, charlas rápidas, y algunas cositas más que describo mejor acá abajo.
+
+Con respecto a las charlas, ya están elegidas y confirmadas: en la página principal del sitio ya se pueden ver cuales quedaron. La agenda detallada con los días y horarios de cada una (como así también de los talleres) va a estar en unos días. Destaco que tenemos dos keynotes internacionales: `Carol Willing <https://twitter.com/willingcarol>`_, core developer de `Jupyter <http://jupyter.org/>`_ y ex directora de la PSF, y `Brandon Rhodes <https://twitter.com/brandon_rhodes>`_, programador Python en Dropbox y organizador de la PyCon USA en Portland 2016 y 2017.
+
+También vamos a hacer una muestra de fotografía con las mejores fotos que la gente haya sacado alguna vez en un evento de PyAr (esto es, si la gente propone fotos! `Este es el formulario <https://docs.google.com/forms/d/e/1FAIpQLSf-9V3UHdAnyEFJ-ANIPnfxVla0JHbtfWGfxLYRTb9LAm4K8A/viewform>`_ al respecto).
+
+Ya pusimos a `la venta las remeras de la conferencia <https://docs.google.com/forms/d/e/1FAIpQLScyHYxAbu0Qry8d58IvSkhXmtS7-eRCANgZPKzIlC3S0dw3GQ/viewform>`_! Las estamos vendiendo al costo, así que tenemos que vender todas las que compramos para no perder plata con eso.. así que comprate una y regalale otra a alguien más :) Y aprovechá que están con descuento por algunos días. Ah, fijate que hay corte hombre y corte mujer, y desde XS a XXXL, ¡no hay excusas!
+
+.. image:: /images/pyconar18/remerablanca.jpeg
+    :alt: La remera de la conferencia
+    :target: https://docs.google.com/forms/d/e/1FAIpQLScyHYxAbu0Qry8d58IvSkhXmtS7-eRCANgZPKzIlC3S0dw3GQ/viewform
+
+Hablando de no tener excusas, no sólo vamos a tener becas para ayudar a que la gente viaje (prontito sale el anuncio) sino que también la Asociación Civil Python Argentina hizo un acuerdo con la Fundación Flechabus y los socios van a poder comprar `pasajes con un 40% de descuento <https://twitter.com/pyconar/status/1049990017324605440>`_.
+
+Los asistentes a la conferencia también van a poder participar de una actividad que realizamos por primera vez (que copiamos de otros eventos): el "speed interview", que es una actividad ideal si estás buscando trabajo, o incluso si estás con ganas de saber qué ofertas hay aunque no tengas nada en mente. En una hora podés charlar con gente de una decena de empresas distintas, a razón de cinco minutos cada una, y si hay algo que te interese puntualmente te queda el contacto para seguir charlando luego.
+
+Finalmente, algo en lo que estamos innovando es un espacio para que madres y padres que tienen que cuidar a sus hijes puedan asistir a las charlas sin mayor preocupación: van a poder dejarles al cuidado de personal especializado en las mismas instalaciones de la conferencia, a pocos metros de donde se desarrollan las charlas y otras actividades, en un ámbito cuidado y con la estructura necesaria para que no haya ningún problema. Hay que anotarse con la mayor anticipación posible, así podemos dimensionarlo correctamente, `este es el form con toda la info <https://docs.google.com/forms/d/e/1FAIpQLSeJVAWAB8wwJ3YX7HMctnst4kbVX_MEvP3cKpFcjWSO9G34aw/viewform>`_.
+
+Creo que esas son los principales puntos de la conferencia. ¡Va a estar genial! Ya voy a ir tirando otras novedades en las pocas semanas que falta...
+
+
