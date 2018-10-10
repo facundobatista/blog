@@ -130,7 +130,15 @@ div.nav-previous{float:left;text-align:left;}
 div.navigation{font-size:0.9em;height:1.2em;text-align:center;text-transform:uppercase;}
 div.navigation div{width:48%;}
 div.theme_sidebar{line-height:150%; margin-right:-3px;}
-div.theme_sidebar ul li{list-style:none;margin:0 0 2.5em;padding:0;}
+div.theme_sidebar ul li{
+    list-style: none;
+    margin: 0 0 2.5em;
+    padding: 0;
+}
+div.theme_sidebar ul li:before {
+    content: '\00B7';
+    margin: 0em 1mm;    /* any design */
+}
 div.theme_sidebar ul li h3{font-weight:bold;font-size:1.2em;line-height:133%;letter-spacing:1px;margin:0 0 0.1em;text-transform:uppercase;}
 div.theme_sidebar ul li ul li{color:#4d5663;margin:0;padding:0;}
 div.theme_sidebar ul li ul li ul{margin:0 0 0.2em;}

@@ -46,13 +46,12 @@ class StaticLinks(Task):
 
         html_out = []
 
-        for el in data:
-            items = sorted(el[1], key=lambda links: links["data"])
+        for title, items in data:
             html_content = []
             for item in items:
                 html_content.append(config["template_item"].format(**item))
             html_out.append(config["template_category"].format(
-                title=el[0],
+                title=title,
                 content="\n".join(html_content)))
 
         with open(destination, "wt", encoding="utf8") as destination_file:
@@ -60,6 +59,7 @@ class StaticLinks(Task):
 
     def _gen_html_task(self, config):
         """Generate task to generate html."""
+        dependency = config["input_file"]
         destination = os.path.join(self.site.config['OUTPUT_FOLDER'], config["output_file"])
         changed = utils.config_changed(config, 'nikola.plugins.task.static_links')
         task = {
@@ -68,7 +68,8 @@ class StaticLinks(Task):
             'targets': [destination],
             'actions': [(self._gen_html, [config, destination])],
             'clean': True,
-            'uptodate': [changed, destination]
+            'uptodate': [changed, destination],
+            'file_dep': [dependency],
         }
         return task
 

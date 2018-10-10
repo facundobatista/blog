@@ -1,115 +1,112 @@
+- - Personal
+  - - data: Facundario
+      href: http://facundario.taniquetil.com.ar/
+      title: Facundario 2.0 Enterprise Edition
+    - data: Charlas dadas
+      href: http://www.taniquetil.com.ar/facundo/charlas.html
+      title: Listado de las charlas que he dado, indicando dónde y cuándo
+    - data: Películas
+      href: http://www.taniquetil.com.ar/facundo/bdvfiles/peliculas.html
+      title: Películas que *tengo* que ver
+    - data: Hielo Rojo
+      href: http://www.taniquetil.com.ar/facundo/hr/hr.html
+      title: Hielo Rojo, el libro
+    - data: Algunos desarrollos
+      href: http://www.taniquetil.com.ar/homedevel/
+      title: Repositorio donde guardo algunos desarrollos personales chiquitos
+    - data: Fotos interesantes
+      href: http://www.flickr.com/photos/54757453@N00/sets/72157624548630453/
+      title: Algunas fotos en las que busqué jugar con efectos de luces o sombras, movimiento, detalles, etc.
+    - data: Videos
+      href: http://www.taniquetil.com.ar/facundo/videos/videos.html
+      title: Videos propios
+    - data: BDV Anterior
+      href: http://www.taniquetil.com.ar/facundo/bdvfiles/bdv-anterior.html
+      title: Bitácora que realicé a fines del 2002 desde Italia.
+    - data: Libros
+      href: http://www.taniquetil.com.ar/facundo/bdvfiles/libros.html
+      title: Libros que tengo y presto
+- - Python
+  - - data: Histórico de Charlas
+      href: http://www.taniquetil.com.ar/facundo/charlas.html
+      title: Algunas de las charlas que he dado
+    - data: Cursos en general
+      href: http://www.taniquetil.com.ar/facundo/cursoPython.html
+      title: Temario básico y lista de cursos de Python que he dado
+    - data: Curso Abierto de Python
+      href: http://www.taniquetil.com.ar/facundo/cursosAbiertos.html
+      title: Info sobre posibles cursos que esté dando, abiertos a la comunidad
+    - data: Ejercicios Python
+      href: http://www.taniquetil.com.ar/py/ejercicios/enunciados.html
+      title: Algunos ejercicios simples, para aprender
+    - data: Tickets Python
+      href: http://www.taniquetil.com.ar/facundo/py_tickets.html
+      title: Resumen de los tickets de Python
 - - Charlas
-  - - data: 'No es magia: Descriptores al desnudo'
+  - - data: "No es magia: Descriptores al desnudo"
       href: https://docs.google.com/presentation/d/1O88eRdHdPhSsL849aNp1NHcCbnB8cam4bX16LgvYx1U
-      title: "Charla de Joac y mía"
+      title: Charla de Joac y mía sobre Descriptores
     - data: Async en Python 3
       href: http://www.taniquetil.com.ar/homedevel/presents/async-py3/
-      title: ''
+      title: Programación asincrónica en Python 3
     - data: Como debuguear en Python
       href: http://www.taniquetil.com.ar/homedevel/presents/debug/
-      title: ''
+      title: Consejos y herramientas para un mejor debugging
     - data: Las perlas de Python 3
       href: http://www.taniquetil.com.ar/homedevel/presents/perlas-py3.odp
-      title: ''
-    - data: "Emulando paralelismo de forma asincrónica"
+      title: Las principales nuevas características de Python 3
+    - data: Emulando paralelismo de forma asincrónica
       href: http://www.taniquetil.com.ar/homedevel/presents/concurrencia/
-      title: ''
-    - data: "Comunidad, anarquía y subversión"
+      title: Teoría base y ejemplos sobre concurrencia y paralelismo, con énfasis en lo asincrónico
+    - data: Comunidad, anarquía y subversión
       href: http://www.taniquetil.com.ar/homedevel/presents/comunidad.odp
-      title: ''
-    - data: "Python más rápido que C"
+      title: Formas de organizar la comunidad e interacciones internas
+    - data: Python más rápido que C
       href: http://www.taniquetil.com.ar/homedevel/presents/pyrapidc/
-      title: La charla loca que hice con Lucio
+      title: La charla loca que hice con Lucio sobre velocidad de Python
     - data: PyAr
       href: http://www.taniquetil.com.ar/homedevel/presents/pyar.odp
-      title: "Qué es PyAr"
-    - data: Decimal para principiantes
-      href: http://www.taniquetil.com.ar/homedevel/presents/decimal_beginners.sxi
-      title: "Lo más básico de Decimal"
+      title: Qué es PyAr
     - data: Decimal
       href: http://www.taniquetil.com.ar/homedevel/presents/decimal.sxi
-      title: "Conceptos básicos y avanzados de Decimal"
+      title: Conceptos básicos y avanzados de Decimal
+    - data: Decimal para principiantes
+      href: http://www.taniquetil.com.ar/homedevel/presents/decimal_beginners.sxi
+      title: Lo más básico de Decimal
     - data: Entendiendo Unicode
       href: http://www.taniquetil.com.ar/homedevel/presents/unicode.odp
-      title: "Conceptos básicos de Unicode y cómo usarlo desde Python"
-    - data: "Introducción a Python"
+      title: Conceptos básicos de Unicode y cómo usarlo desde Python
+    - data: Introducción a Python
       href: http://www.taniquetil.com.ar/homedevel/presents/intropython.odp
-      title: "La clásica charla de Intro, :)"
+      title: La clásica charla de Intro, :)
     - data: Python 3000
       href: http://www.taniquetil.com.ar/homedevel/presents/py3k.pdf
       title: Charla de Python 3000
     - data: Numpy/Scipy
       href: http://www.taniquetil.com.ar/homedevel/presents/numsci.pdf
-      title: "Algunos conceptos de estos dos módulos"
+      title: Algunos conceptos de estos dos módulos
     - data: Python en el mundo real
       href: http://www.taniquetil.com.ar/homedevel/presents/pyreal.pdf
-      title: "Presentación de varios proyectos, mostrando distintos aspectos de los mismos"
+      title: Presentación de varios proyectos, mostrando distintos aspectos de los mismos
     - data: Logs
       href: http://www.taniquetil.com.ar/homedevel/presents/logs.odp
-      title: "Charla sobre cómo hacer logs que sean útiles"
-    - data: "Introducción a la Programación"
+      title: Charla sobre cómo hacer logs que sean útiles
+    - data: Introducción a la Programación
       href: http://www.taniquetil.com.ar/homedevel/presents/introprogram.odp
-      title: "Conceptos más básicos de la programación"
-    - data: "Introducción a Python (light)"
+      title: Conceptos más básicos de la programación
+    - data: Introducción a Python (light)
       href: http://www.taniquetil.com.ar/homedevel/presents/intropylight.odp
-      title: ''
+      title: La clásica de introducción a Python pero para NO programadores
     - data: Bindings, mutable default arguments, y otros quilom... detalles
       href: http://www.taniquetil.com.ar/homedevel/presents/pydetalles.odp
-      title: ''
-- - Personal
-  - - data: Algunos desarrollos
-      href: http://www.taniquetil.com.ar/homedevel/
-      title: Repositorio SVN donde guardo algunos desarrollos
-    - data: Charlas dadas
-      href: http://www.taniquetil.com.ar/facundo/charlas.html
-      title: Charlas dadas
-    - data: Videos
-      href: http://www.taniquetil.com.ar/facundo/videos/videos.html
-      title: Videos propios
-    - data: Fotos interesantes
-      href: http://www.flickr.com/photos/54757453@N00/sets/72157624548630453/
-      title: "Algunas fotos en las que busqué jugar con efectos de luces o sombras, movimiento, detalles, etc."
-    - data: Facundario
-      href: http://facundario.taniquetil.com.ar/
-      title: Facundario 2.0 Enterprise Edition
-    - data: Hielo Rojo
-      href: http://www.taniquetil.com.ar/facundo/hr/hr.html
-      title: Hielo Rojo, el libro
-    - data: BDV Anterior
-      href: http://www.taniquetil.com.ar/facundo/bdvfiles/bdv-anterior.html
-      title: "Bitácora que realicé a fines del 2002 desde Italia."
-    - data: "Películas"
-      href: http://www.taniquetil.com.ar/facundo/bdvfiles/peliculas.html
-      title: "Películas que *tengo* que ver"
-    - data: Libros
-      href: http://www.taniquetil.com.ar/facundo/bdvfiles/libros.html
-      title: Libros que tengo y presto
-- - Python
-  - - data: Cursos en general
-      href: http://www.taniquetil.com.ar/facundo/cursoPython.html
-      title: "Temario básico y lista de cursos de Python que he dado"
-    - data: "Histórico de Charlas"
-      href: http://www.taniquetil.com.ar/facundo/charlas.html
-      title: Algunas de las charlas que he dado
-    - data: Curso Abierto de Python
-      href: http://www.taniquetil.com.ar/facundo/cursosAbiertos.html
-      title: ''
-    - data: Ejercicios Python
-      href: http://www.taniquetil.com.ar/py/ejercicios/enunciados.html
-      title: Algunos ejercicios simples, para aprender
-    - data: Temario de Python
-      href: http://www.taniquetil.com.ar/facundo/cursoPython.html
-      title: ''
-    - data: Tickets Python
-      href: http://www.taniquetil.com.ar/facundo/py_tickets.html
-      title: Resumen de los tickets de Python
+      title: Características importantes de Python, detalles interesantes para conocer
 - - Terceros
-  - - data: "Clases de Fotografía"
+  - - data: Los 100 de Narda
+      href: http://www.taniquetil.com.ar/facundo/bdvfiles/los100deNarda.html
+      title: Consejos de Narda Lepes sobre cocina y comida
+    - data: Clases de Fotografía
       href: http://www.taniquetil.com.ar/facundo/bdvfiles/clasesfoto.html
       title: por El Inmenso Alopa
     - data: El Gordo en Colombia
       href: http://www.taniquetil.com.ar/facundo/bdvfiles/egec.html
       title: EIA informa...
-    - data: Los 100 de Narda
-      href: http://www.taniquetil.com.ar/facundo/bdvfiles/los100deNarda.html
-      title: Consejos de Narda Lepes sobre cocina y comida
