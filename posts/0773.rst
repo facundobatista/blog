@@ -1,0 +1,17 @@
+.. title: Décima Edición de la Conferencia Nacional de Python Argentina
+.. date: 2018-11-22 08:00:00
+.. tags: Python Argentina, PyAr, conferencia
+
+Suena fuerte, ¡diez ediciones! Cuánta agua abajo del puente pasó desde que organicé la PyCon 2009, también en la Ciudad de Buenos Aires. Desde ese arranque gracias a otres organizadores pudimos disfrutar el evento en Córdoba, Junín, Quilmes, Rosario, Rafaela, Mendoza, Bahía Blanca, nuevamente Córdoba.
+
+Y ahora volvemos al origen. Cerramos un círculo, pero no para terminar, sino para subir la apuesta y salir con más ímpetu a una nueva ronda. No sólo tener una conferencia con invitades internacionales, talleres y charlas relámpagos, sino también otras actividades como espacios abiertos, coaching para la preparación de charlas, entrevistas rápidas, y profundizar acciones sobre un tema que tratamos desde hace años en la comunidad: nuestra diversidad.
+
+Claro, los tiempos no son los mismos. Incluso Python, como lenguaje, cambió notablemente. En esa época Python 3 era un futuro difuso, ahora Python 2 está en sus últimos estertores. Y no hay especialidad profesional relacionado con la programación que no use Python.
+
+La situación del lenguaje en el país también cambió muchísimo. En esa época la problemática era encontrar trabajos relacionados con Python, hoy en día el desafío es encontrar suficientes trabajadores en nuestro querido lenguaje para poder satisfacer las necesidades de empresas, cooperativas y el Estado mismo.
+
+Considerando que difundir el lenguaje era un objetivo del grupo de Python Argentina, entendemos que también esta comunidad haya cambiado, siendo un hito notable la creación de la Asociación Civil hace ya un par de años.
+
+Y es con la ayuda de la Asociación Civil que pudimos hacer las últimas conferencias, incluyendo esta por supuesto. Y también con la colaboración y soporte del Centro Cultural General San Martín, de los sponsors que pueden visitar durante la conferencia y conocer en este mismo libro, y especialmente de todes aquelles que colaboraron en la organización, es que logramos hacer una nueva conferencia de calidad internacional, totalmente gratuita e inclusiva.
+
+Una nueva PyCon Argentina. De la comunidad, para la comunidad. Que la disfruten.
