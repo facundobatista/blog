@@ -1,0 +1,25 @@
+.. title: Inminente gran PyCon gran
+.. date: 2018-11-18 09:13:00
+.. tags: PyCon, PyAr, conferencia, ocupado
+
+¡¡¡La PyCon arranca el jueves que viene!!! AAAAAAAAAAAAAHHHHHHHHH
+
+*respira*
+
+AAAAAAAAAAAAAAAAAAAAHHHHHHHHHHHHHHHHHHHHHHHH
+
+Sabrán disculpar que no posteo mucho por acá...
+
+.. image:: /images/meme-busy.jpeg
+    :alt: A recontra full
+    :target: url!!
+
+Ya está publicado el `cronograma de actividades <https://eventos.python.org.ar/events/pyconar2018/schedule>`_, con todes les talleres y charlas que se van a dar.
+
+La conferencia es libre y gratuita, para venir a aprender lo único que necesitás hacer es `registrarte en este formulario <https://eventos.python.org.ar/events/pyconar2018/registration>`_ y listo, ya podés acceder a todo lo que ofrece la conferencia (excepto al Django Girls, que era con cupo limitado y la registración al mismo ya cerró hace varias semanas). Si por algún motivo necesitás un certificado de asistencia, `pedilo acá <https://docs.google.com/forms/d/14DrDxaLIkVG6nMTiDUXa2qT15OBIlcXGVN1O_3a8pGE/edit>`_.
+
+Entre todas las actividades que podés acceder están las Speed Interviews. Una speed interview es un modo de conocer empresas de la misma forma que una entrevista tradicional, solo que las entrevistas duran 5 minutos, y en una hora se pueden conocer a varias empresas, interiorizarse en lo que hacen, y generar un contacto para luego profundizar el conocimiento mutuo. Es ideal para aquelles que tienen mediana, poca o incluso ninguna experiencia laboral. No hay que tener miedo de aprovechar la oportunidad, ¡es un servicio gratuito de la conferencia! Sólo hay que `reservar la posición anotándose acá <https://docs.google.com/forms/d/1OfCkfalecUTniGXfblUELtlnABx2nQqRhd040nUFEg4/edit>`_.
+
+Por último, acordate de `reservar tu remera <https://docs.google.com/forms/d/e/1FAIpQLScyHYxAbu0Qry8d58IvSkhXmtS7-eRCANgZPKzIlC3S0dw3GQ/viewform>`_! No te cuelgues! También las vas a poder comprar los días de la conferencia, pero tené en cuenta que la forma de pago es la misma que ahora (no se puede manejar efectivo en el Centro Cultural)... metele que algunos talles se están acabando...
+
+¡Nos vemos en unos días!
