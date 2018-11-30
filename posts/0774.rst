@@ -1,0 +1,55 @@
+.. title: Pasó la PyCon Argentina 2018
+.. date: 2018-11-29 20:09:00
+.. tags: conferencia, PyCon, PyAr, PyCamp, asistentes, keynotes
+
+¡La décima! Todo un hito. Tuvimos 1080 asistentes, lo cual es más de lo que esperábamos, :)
+
+El evento en si salió muy bien, todes les organizadores estamos muy contentes (y muy cansades). Pero valió la pena.
+
+.. image:: /images/pyconar18/facu-principio.jpeg
+    :alt: Arranqué más o menos prolijo...
+
+.. image:: /images/pyconar18/facu-final.jpeg
+    :alt: ...terminé bastante roto :p
+
+Le pusimos mucho amor y creo que se notó. Increíble el equipo que se formó de trabajo, el laburazo que se pegaron es indescriptible. Estoy seguro que ese tipo de compromiso no se logra pagándoles. Creo que fue todo mucho mejor que si se los hubiese contratado para que trabajen (onda "organizadores profesionales de conferencias").
+
+Sí, lleva mucho laburo, pero nos gusta más así: una conferencia hecha por todes nosotres, con nuestra impronta, no por un organizador de eventos con saco y corbata.
+
+De la comunidad, para la comunidad.
+
+.. image:: /images/pyconar18/organizadores.jpeg
+    :alt: Organizadores, ayudantes de sala, ayudantes de registración, etc...
+
+La conferencia se sucedió durante tres días. El jueves fueron los talleres: tres tracks en paralelo de talleres de tres horas, más un cuarto track con el `Django Girls <https://argentinaenpython.com/django-girls/2018/11/pyconar/>`_, el único taller que tenía registración previa (y cupo, tuvimos que cortar en los 100 asistentes).
+
+.. image:: /images/pyconar18/djangogirls.jpeg
+    :alt: Todo el equipo del taller de Django Girls con asistentes y todo
+
+Viernes y sábado fue el formato de conferencias clásicas: tres tracks de charlas en paralelo, la mayoría de 25 minutos, algunas de 50. También tuvimos espacios abiertos, speed interviews, lightning talks, e incluso un Panel de Diversidad y Género.
+
+Y dos invitados internacionales: `Carol Willing <https://twitter.com/willingcarol>`_, core developer de `Jupyter <http://jupyter.org/>`_ y ex directora de la PSF, y `Brandon Rhodes <https://twitter.com/brandon_rhodes>`_, programador Python en Dropbox y organizador de la PyCon USA en Portland 2016 y 2017.
+
+.. image:: /images/pyconar18/facu-brandon-carol.jpeg
+    :alt: El que suscribe, con Brandon y Carol luego de darles regalitos
+
+Incluso tuvimos un evento puramente social al aire libre, el domingo: un Pycnic totalmente abierto al que quisiera venir.
+
+Pero más allá del desglose de actividades, quiero resaltar que logramos armar una conferencia de nivel internacional, sin nada que envidiarles a las que se hacen en otros países, pero completamente libre y gratuita. Zaffaroni dijo una vez que "El cambio social profundo, inclusivo, la revolución del siglo XXI, se hace apoderándose del conocimiento... conocimiento que la elite se empeña en monopolizar". Y en verdad, en este momento macrista donde nuestro país ya no tiene ni Ministerio de Ciencia y Tecnología, distribuir información gratis es más valioso que nunca.
+
+.. image:: /images/pyconar18/muchagente.jpeg
+    :alt: Vino mucha gente: un venue más chico no nos hubiese alcanzado
+
+De la misma manera, en este momento con tanta xenofobia, homofobia y "diversofobia", tenemos que ser más inclusivos que nunca. Y ser explícitos en darle la bienvenida a todo el mundo.
+
+Por eso armamos este maravilloso `texto sobre Diversidad <http://diversidad.python.org.ar>`_, del cual incluimos un resumen en el librito de la conferencia.
+
+.. image:: /images/pyconar18/panel-diversidad.jpeg
+    :alt: Un panel de lujo, una charla super interesante
+
+Durante el cierre tiré un par de anuncios para el año que viene. El primero es que tenemos el PyCamp 2019 confirmado, se va a hacer en San Rafael, Mendoza, del 2 al 5 de Marzo (estamos esperando que nos pasen un par de datos para confirmar el precio y salir a juntar el dinero).
+
+El otro anuncio es que la PyCon 2019 se va a hacer también en Buenos Aires... la idea es empezar a hacer dos conferencias por cada sede (2018 y 2019 en Buenos Aires, 2020 y 2021 en otro lugar, etc), porque de esta manera se baja muchísimo el costo para los organizadores de hacer el evento. Sí, el primer año es un quilombo, pero el segundo año se repiten tantas cosas que es mucho más fácil.
+
+.. image:: /images/pyconar18/grupal.jpeg
+    :alt: La grupal (socavada notablemente por el partido "importante" :/ )
