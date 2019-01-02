@@ -70,7 +70,13 @@ div.entry-content .more-link{font-size:95%;font-weight:700;text-transform:upperc
 div.entry-content a:hover img.center,div.entry-content a:hover img.aligncenter,div.entry-content a:hover img.alignright,div.entry-content a:hover img.alignleft{border:1px solid #2c384d;}
 div.entry-content blockquote blockquote,div.comments ol.commentlist blockquote blockquote{border-left:5px solid #ccd0d6;font-size:0.9em;padding:0 1em;}
 div.entry-content blockquote,div.comments ol.commentlist blockquote{background:#ebedef;color:#4d5663;padding:0.1em 1em;}
-div.entry-content code,div.entry-content pre,div.comments ol.commentlist code,div.comments ol.commentlist pre{color:#494C5C;font:1em/133% "courier new",courier,monospace;}
+div.entry-content code,div.entry-content pre,div.comments ol.commentlist code,div.comments ol.commentlist pre{
+    color: #494C5C;
+    font: "courier new",courier,monospace;
+    font-size: 85%;
+    width: 625px;   
+    overflow: auto;
+}
 div.entry-content del,div.comments ol.commentlist del{background:#ebedef;color:#31343a;}
 div.entry-content div.page-link{font-size:0.9em;font-weight:700;margin:0 0 1.5em;text-align:center;}
 div.entry-content h2,div.entry-content h3{font-size:1.5em;margin:1.5em 0 -0.3em;}

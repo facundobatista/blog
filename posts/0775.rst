@@ -1,0 +1,154 @@
+.. title: A veces no es tan fácil jugar
+.. date: 2019-01-02 12:30:00
+.. tags: Virtualbox, Myst, nube, juegos, Linux, ScummVM, Dosbox, aventuras gráficas
+
+
+Intro 1
+-------
+
+En `este post <http://blog.taniquetil.com.ar/posts/0737/>`_ les había comentado de este HW que yo usado para montar una nube en casa, no sólo para mi servicio de sincronización de archivos, sino también para generar CDPedias.
+
+Bueno, hace un año o más o menos, se rompió. Empecé a notar que a veces la máquina estaba colgada, y la reiniciaba. Luego me pasó que a veces no levantaba del reset, cada tanto. Y más seguido. Y llegó un punto en que no booteó más :(.
+
+A la hora de intentar arreglarlo me enfrenté con la triste realidad que los componentes no eran estándar para nada. Entonces, ¿cómo sabía qué se había roto? Seguro era la CPU, la mother, o la memoria... pero para ver qué era lo roto tenía que empezar a comprar componentes, quizás en falso. No podía probar componentes de otra computadora que sí sabía que andaban.
+
+Entre una cosa y la otra, `un amigo <https://twitter.com/tenukiz>`_ me recomendó poner una "mini PC", que no es más que una computadora PC normal pero pensada para que ocupe poco espacio, y que consuma poco, incluso sacrificando rendimiento, para no tener un ventilador en la CPU y generar menos ruido. Pero todo con componentes "normales" (especialmente la memoria, que es algo que se jode a veces y es trivial encontrar otra y probar). Me terminé comprando `esto <https://www.biostar.com.tw/app/es/mb/introduction.php?S_ID=866>`_:
+
+.. image:: /images/jugar/minimother.jpeg
+    :alt: La Biostar A68N-5100
+    :target: https://www.biostar.com.tw/app/es/mb/introduction.php?S_ID=866
+
+
+Intro 2
+-------
+
+En otro orden de cosas, con Felu hace rato que estamos jugando aventuras gráficas. Él se enganchó con `Thimbleweed Park <https://thimbleweedpark.com/>`_ y desde ahí no paramos: las tres Monkey Island, Indiana Jones, Gabriel Knight, Sam y Max, Día del Tentáculo...
+
+...y se nos empezaron a acabar los que corrían más o menos fácil en ScummVM o Dosbox. Se me ocurrió jugar al `Myst <https://es.wikipedia.org/wiki/Myst>`_.
+
+El problema es que el Myst es un juego "de Windows", y conseguir software viejo en Windows es siempre un quilombo. Yo había comprado el juego, unos ¿20? años atrás, pero claro, andá a saber donde están esos discos, posiblemente en el CEAMSE.
+
+
+¿Entonces?
+----------
+
+El siguiente es el relato de cómo armé un setup para jugar al Myst desde la compu que uso normalmente (la de escritorio, que corre KDE Neon sobre Ubuntu Bionic).
+
+Vamos con la aventura de jugar al Myst
+
+.. image:: /images/jugar/myst.jpeg
+    :alt: Primera imagen (súper representativa) del Myst
+
+
+Localmente
+----------
+
+Lo primero era conseguir un Windows corriendo. Así que `bajé el último Virtualbox <https://www.virtualbox.org/wiki/Downloads>`_ y lo instalé, luego `bajé un Windows legal pensado para armar VMs <https://developer.microsoft.com/en-us/microsoft-edge/tools/vms/>`_, y armé una VM con eso (Virtualbox te permite "importar" las definiciones que eso mismo que bajás trae, es casi demasiado fácil).
+
+¡Paréntesis! En todo este artículo uso mucho la sigla "VM": significa Virtual Machine, "máquina virtual" en castellano, simplemente la posibilidad de simular una computadora completa por software (`miren Wikipedia <https://es.wikipedia.org/wiki/M%C3%A1quina_virtual>`_ para más info). Cierro paréntesis.
+
+Levanté la VM, instalé Steam, donde compré Myst a $78 (Masterpiece edition, que es el original con algunos detalles, no confundir con uno super remasterizado 3D, que no me interesaba, porque quería el original)... sí, 78 *pesos*.
+
+Lo ejecuté, y aunque funcionaba, se escuchaba muy mal. No con ruido, sino como entrecortado. Estuve revisando y buceando la internechi hasta que encontré que parece que es un problema con la versión de Virtualbox que estoy usando, que es la 5.2. Lo comprobé metiendo un mp3 en la VM y reproduciéndolo ahí: se escuchaba igual de entrecortado, con lo cual descarté que el problema fuese de Steam o Myst.
+
+Por lo que leí parece que es un problema de buffer circular en la simulación de la placa de sonido, donde el guest escribe y el host lee, y hay un mismatch de velocidad de lectura/escritura y todo bien mientras los punteros están en lugares distintos, pero cuando se cruzan, se entrecorta.
+
+En fin, era una porquería.
+
+También encontré que todos decían que la última versión de Virtualbox donde había funcionado bien era la 5.0.40. Fui a bajar esa, pero sólo la sacaron hasta Ubuntu Xenial. O sea, no hay Virtualbox 5.0.40 para la versión de mi sistema operativo, que es más nuevo.
+
+Ahí se me prendió la lamparita: yo tengo un server con Xenial. ¿Se podrá instalar Virtualbox en un servidor, correr un Windows adentro, con Steam, y usarlo desde mi escritorio?
+
+.. image:: /images/jugar/posibilidades.jpeg
+    :alt: Descubriendo un mundo de posibilidades
+
+
+Remotamente
+-----------
+
+`Bajé el Virtualbox 5.0.40 y su paquete de extensión <http://download.virtualbox.org/virtualbox/5.0.40/>`_ y los llevé al server, e instalé::
+
+    sudo dpkg -i virtualbox-5.0_5.0.40-115130~Ubuntu~xenial_amd64.deb
+    sudo VBoxManage extpack install Oracle_VM_VirtualBox_Extension_Pack-5.0.40-115130.vbox-extpack
+
+Luego armé la VM con Windows, y la levanté::
+
+    VBoxManage import IE11\ -\ Win7.ovf
+    VBoxHeadless --startvm "IE11 - Win7"
+
+Para configurarle cosas en general tiene que estar apagada. Pueden simular "apretar el botón de apagado" o directamente "desenchufarla a lo bruto", con los siguientes comandos::
+
+    VBoxManage controlvm "IE11 - Win7" acpipowerbutton
+    VBoxManage controlvm "IE11 - Win7" poweroff
+
+Para usar *visualmente* la VM, la idea era conectarme remotamente desde mi computadora de escritorio. Para eso hay que habilitar el "escritorio virtual remoto", y agregarle una autenticación por usuario/clave::
+
+    VBoxManage modifyvm "IE11 - Win7" --vrde on
+    VBoxManage setproperty vrdeauthlibrary "VBoxAuthSimple"
+    VBoxManage modifyvm "IE11 - Win7" --vrdeauthtype external
+    VBoxManage internalcommands passwordhash LA-CLAVE-QUE-QUIERAN
+    VBoxManage setextradata "IE11 - Win7" "VBoxAuthSimple/users/EL-USUARIO-QUE-QUIERAN" EL-HASH-QUE-DIO-EL-COMANDO-ANTERIOR
+
+Para que me ande el audio tuve que anularle la deshabilitación por default::
+
+    VBoxManage modifyvm "IE11 - Win7" --vrdeproperty Client/DisableAudio=
+
+La comunicación del portapapeles no la pude hacer andar, pero sí el que monte un directorio compartido (instalando primero los agregados en el guest)::
+
+    VBoxManage storageattach "IE11 - Win7" --storagectl "IDE Controller" --port 1 --device 0 --type dvddrive --medium /usr/share/virtualbox/VBoxGuestAdditions.iso
+    VBoxManage sharedfolder add "IE11 - Win7" --name shared --hostpath /home/facundo/vbox/shared --automount
+
+No voy a contar el detalle de todos lo que probé y no me anduvo, pero les dejo un par de tips:
+
+- en algunos casos estos comandos de "cambiar cosas de la VM" dan errores super raros: probá apagando la VM y mandando el mismo comando con la VM apagada (tiene sentido, pero el error original no tiene nada que ver y confunde)
+
+- estos comandos son piolas para ver las VMs todas, las que tenés corriendo, e info puntual de alguna::
+
+    VBoxManage listvm
+    VBoxManage list runningvms
+    VBoxManage showvminfo "IE11 - Win7"
+
+- toda la info sobre virtualbox remoto `acá <https://www.virtualbox.org/manual/ch07.html>`_.
+
+Fantástico. Ahora puedo levantar el `krdc` en mi máquina de escritorio, me conecto al Virtualbox de mi server, y tengo una ventana/pantalla con Windows andando. Llevé un mp3, lo reproduje, y escuchaba el audio perfectamente, sin problema alguno.
+
+¡Buenísimo! Instalé Steam, perfecto. Instalé Myst (al loguearme con mi misma cuenta, ya lo tenía comprado).
+
+Ejecuté Myst. Crasheó. Estuve probando algunas cosas (como agregarle aceleración de video 2D, seguía crasheando, o agregarle aceleración 3D, que no me dejaba porque no tenía sistema gráfico asociado).
+
+Tristeza não tem fim.
+
+.. image:: /images/jugar/triste.jpeg
+    :alt: Todo mal, loco
+
+¿Y ahora? ¿Qué alternativas tenía?
+
+Ahí me cayó la ficha que "mi server en la nube" está realmente a un metro de distancia, y que si le enchufaba un teclado y un mouse podría probar esto mismo pero *pseudolocalmente*.
+
+
+Local, pero en la nube (?)
+--------------------------
+
+Busqué un cable HDMI (que conecté al mismo monitor que uso con la compu de escritorio, que está conectada por DVI), un mouse viejo, y le robé el teclado a la raspi que tengo para jugar. Enchufé todo, entré, pero tenía todas terminales como sólo texto, no tenía una interfaz gráfica. ¡Claro! Nunca había instalado un escritorio, ya que era una máquina servidora pura. Ergo::
+
+    sudo apt install ubuntu-desktop
+    sudo systemctl enable lightdm
+    sudo reboot
+
+Ahora sí: inicié sesión en el Ubuntu, abrí Virtualbox, todo de forma gráfica. Entré en Steam. Corrí Myst. Crasheó. :(
+
+Ví que podía hacer en la configuración. Probé lo más fácil: subirle la memoria a la placa de video, y agregarle aceleración 3D (ahora sí estaba en un entorno gráfico, je).
+
+Levanté todo. Probé Myst. ¡Anduvo! Claro, sin sonido porque la máquina server no tiene parlantes enchufados.
+
+Pero volví a la computadora de escritorio (que es decirle al monitor que use la otra entrada), levanté el `krdc` de nuevo, me conecté al server, donde obviamente ya tenía levantado todo, y finalmente pudimos jugar al Myst.
+
+Funciona un poco lento, porque la computadorita server no es gran cosa (está más pensada para que consuma poco que para que uno corra juegos), y encima tiene al Virtualbox simulando una máquina para que corra Windows, para poder ejecutar Steam donde adentro corre el juego en sí.
+
+.. image:: /images/jugar/matrioska.jpeg
+    :alt: Adentro de adentro de adentro de adentro de adentro de
+
+Pero podemos jugar al Myst :D
+
+Feliz año.
+
