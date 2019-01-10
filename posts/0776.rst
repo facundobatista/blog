@@ -1,0 +1,22 @@
+.. title: Encarando el nuevo año
+.. date: 2019-01-10 11:29:00
+.. tags: año nuevo, proyectos, fades, CDPedia, PyCamp, PyCon
+
+No soy de hacer esas "promesas de fin de año" (¿o son de año nuevo?) en las que la gente dice "este año adelgazo", "este año aprendo surf", "este año salgo del closet", etc. Pero me agarraron ganas de planificar un poco los siguientes doce meses y ponerme como grandes objetivos en los que me gustaría invertir principalmente esfuerzo, como una forma de arrancar más ordenado.
+
+Hay una frase que leí hace poco en un `texto de Forn <https://www.pagina12.com.ar/diario/contratapa/13-117534-2008-12-31.html>`_, de Primo Levi, que indica que "Los objetivos de la vida son la mejor defensa contra la muerte". No es que a mí me falte cosas para hacer: La idea es solamente ordenar un poco el futuro a corto plazo.
+
+A nivel de desarrollo de software me gustaría empujar `fades <http://github.com/PyAr/fades>`_ como proyecto que lidero con alguien más, seguir puliendo mi `blog <https://github.com/facundobatista/blog>`_, y más allá de quizás agarrar algún otro con baja prioridad, quiero lanzar este año una especie de mezcla entre grupo de tareas y grupo de aprendizaje (para newbies y diverso) alrededor de `CDPedia <https://github.com/PyAr/CDPedia>`_.
+
+No digo que no trabajaré para nada en otra cosa de software, pero seguro que mi construcción de la agenda día a día y planificación normal de semanas subsiguientes va a estar fuertemente condicionados
+por estos proyectos que me "anoté".
+
+.. image:: /images/guy-with-a-plan.jpeg
+    :alt: Do I really look like a guy with a plan?
+    :target: https://youtu.be/DgzssDOTMXs?t=41
+
+A nivel Python Argentina lo tengo separado como dos partes. Una es `el grupo en sí mismo <http://www.python.org.ar/>`_, y lo que tengo ganas de empujar este año es por un lado la migración conceptual a `Discourse <https://www.discourse.org/>`_ (conceptual, digo, porque no vamos a "migrar" realmente, es una nueva herramienta, que apunto a que termine reemplazando la vieja lista de mailman), la creación de un nuevo logo (cumplimos 15 años, es hora, ¿no?) y empujar a que `Eventol <https://github.com/eventoL/eventoL>`_ gane características para ser usado como plataforma de juntadas recurrentes (como *meetup.com*, pero sin lock-in ni límite de asistentes) para la coordinación de juntadas en todo el país.
+
+La otra es el laburo en la `Asociación Civil <https://ac.python.org.ar/>`_. Estoy metiéndole detalles y detalles a medida que lo uso al `sistema de Socies <https://github.com/PyAr/asoc_members/>`_, y esperando que vuelva Gilga de vacaciones para ponerlo online: mi idea a este respecto es seguir agregándole features y pequeñas mejoras pero muy puntuales en función de que vaya surgiendo las distintas necesidades. Por otro lado, necesitamos un sistema para Soporte de Eventos (que básicamente maneje todo lo que es entrada y salida de dinero alrededor de un evento nuestro o de terceros), pero la idea ahí es armar una definición y que lo haga alguien más.
+
+A nivel de evento propiamente dicho, por otro lado, tengo en vista dos o tres. Dos seguro, que es el `PyCamp 2019 <http://www.python.org.ar/wiki/PyCamp/2019>`_, el cual ya pagué y compré pasajes (lo organiza `Matu Varela <https://twitter.com/matuvarela>`_, con el soporte de la Asociación Civil, claro), y la PyCon Argentina 2019, que todavía tenemos que disparar la organización propiamente dicha. Digo "dos o tres" porque tenía ganas de ir a la PyCon USA, pero justo cae durante mi cumpleaños, entonces me frenó un poco eso... para colmo me di cuenta de eso luego que propuse algunas charlas, entonces tomé la decisión de que si me aprueban alguna charla voy, pero si no aprovecho y me quedo con mi familia :)
