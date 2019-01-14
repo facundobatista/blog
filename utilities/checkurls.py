@@ -1,12 +1,15 @@
+#!/usr/bin/python3.7
+
 import glob
 import re
+import socket
 from urllib import request
 
 headers = {
     'User-Agent': "Mozilla/5.0",
 }
 
-already_ok = set()
+socket.setdefaulttimeout(5)
 
 
 def search_url(fpath):
@@ -47,14 +50,14 @@ for post in glob.glob("posts/*.rst"):
 
 
 print("Len URLs:", len(all_urls))
-for url, posts in all_urls.items():
-    if url in already_ok:
-        print(f"--: {url!r}")
+for i, (url, posts) in enumerate(all_urls.items()):
+    try:
+        error = check(url)
+    except Exception as err:
+        print(f"Crash! {err!r}: {url!r}: {posts}")
         continue
 
-    error = check(url)
     if error:
         print(f"Error {error}: {url!r}: {posts}")
     else:
-        print(f"Ok: {url!r}")
-        already_ok.add(url)
+        print(f"Ok: {url!r} ({i})")
