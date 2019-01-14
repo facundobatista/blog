@@ -52,7 +52,8 @@ div#container {
 
 div#content {
   margin: 0;
-  flex: 1; }
+  flex: 1;
+  width: 100%; }
 
 div.theme_sidebar {
   margin-right: 0;
@@ -62,7 +63,7 @@ div.theme_sidebar {
   border: none;
   background-color: #fafafa;
   height: fit-content;
-  margin-top: 1em; 
+  margin-top: 1em;
   text-align: center;}
 
 div#footer {
@@ -79,8 +80,8 @@ div#footer .container {
 div#footer .container #footer-title {
   margin-top: 6px;
   display: flex;
-  align-items: center; 
-  justify-content: center; 
+  align-items: center;
+  justify-content: center;
 }
 div#footer .container #footer-title a {
   color: #b7b6b3;
@@ -150,7 +151,7 @@ div#header h1#blog-title {
 div#header h1#blog-title,
 div.theme_sidebar ul li {
   font-family: "BitstreamCharter", serif;
-  text-transform: none; 
+  text-transform: none;
   margin: 0;
   text-align: left;
 }
@@ -159,7 +160,7 @@ div.theme_sidebar h3 {
   text-align: left;
   margin: 0;
   padding-top: 1.5em;
-  padding-bottom: 0em; 
+  padding-bottom: 0em;
 }
 
 #blog-author {
@@ -218,8 +219,8 @@ div.entry-meta, div.archive-meta {
   margin: 0 8px;
   border: none !important;}
 .entry-actions-item img {
-  height: 24px;  
-  width: 24px;  
+  height: 24px;
+  width: 24px;
 }
 
 .tag-link {
