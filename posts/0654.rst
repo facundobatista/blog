@@ -6,7 +6,7 @@ Se nos está terminando Julio, así que ya debería tener casi todo el segundo s
 
 La segunda mitad del año es normalmente la más cargada de eventos tanto de Python como de otros ámbitos... y a mi no se me ocurrió mejor idea que ponerme un curso que me ocupa todos los sábados de Agosto y Septiembre: un curso introductorio de `Locución y Técnicas Vocales <http://eter.com.ar/curso.aspx?id=129>`_, en ETER.
 
-Lo primero que se me pisa es el 9 de Agosto mismo, un `sprint organizado por Lipe <https://docs.google.com/forms/ d/1rwNuJvEUrQEvBSvCm6vJEz- dDgCYLhzPSdnPvdy3aHQ/viewform? usp=send_form>`_ (está buscando laburar con cosas de torrent, pero yo creo que voy a ir a hacer Encuentro o CDPedia). Obviamente voy a ir a la tarde, no creo que haya problema.
+Lo primero que se me pisa es el 9 de Agosto mismo, un `sprint organizado por Lipe <https://docs.google.com/forms/d/1rwNuJvEUrQEvBSvCm6vJEz-dDgCYLhzPSdnPvdy3aHQ/viewform?usp=send_form>`_ (está buscando laburar con cosas de torrent, pero yo creo que voy a ir a hacer Encuentro o CDPedia). Obviamente voy a ir a la tarde, no creo que haya problema.
 
 Lo segundo que se me pisa (y me complica la vida) es `el PyDay en Luján <http://pyday.unlux.com.ar/>`_, el 20 de septiembre. Acá la tengo más complicada, porque encima de que salgo del curso a las 13, me tengo que ir hasta Luján. Igual, voy seguro, porque lo más probable es que de alguna charla (propuse dos repetidas y una nueva, sobre consejos de debugging).
 

@@ -12,7 +12,6 @@ Sabrán disculpar que no posteo mucho por acá...
 
 .. image:: /images/meme-busy.jpeg
     :alt: A recontra full
-    :target: url!!
 
 Ya está publicado el `cronograma de actividades <https://eventos.python.org.ar/events/pyconar2018/schedule>`_, con todes les talleres y charlas que se van a dar.
 

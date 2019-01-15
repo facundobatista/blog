@@ -8,12 +8,12 @@ Jonathan Gennick `puso en su blog <http://www.oreillynet.com/pub/wlg/6767>`_ de 
 
 Textos:
 
-- `Evolution of Parallel Cellular Machines <http://www.cs.bgu.ac.il/%7Esipper/papabs/epcm.pdf>`_ (Moshe Sipper): Completísimo (213 páginas) documento sobre máquinas celulares y el acercamiento a la programación mediante varias en paralelo.
+- `Evolution of Parallel Cellular Machines <https://www.cs.bgu.ac.il/~sipper/publications/epcm1.pdf>`_ (Moshe Sipper): Completísimo (213 páginas) documento sobre máquinas celulares y el acercamiento a la programación mediante varias en paralelo.
 
 - `Advice for Computer Science College Students <http://www.joelonsoftware.com/articles/CollegeAdvice.html>`_ (Joel Spolsky): Muy bueno para todos los estudiantes que están relacionados con la ínformática.
 
 - `Back to Basics <http://www.joelonsoftware.com/articles/fog0000000319.html>`_ (Joel Spolsky): Espectacular artículo mostrando que en computación, siempre hay que saber lo subyacente.
 
-- `How-To Guide for Descriptors <http://users.rcn.com/python/download/Descriptor.htm>`_ (Raymond Hettinger): Muy buen tutorial de cómo usar descriptores en Python.
+- `How-To Guide for Descriptors <https://www.pkimber.net/howto/python/conference/descriptors.html>`_ (Raymond Hettinger): Muy buen tutorial de cómo usar descriptores en Python.
 
 Ayer fui a ver Constantine: +0 (y si querés saber por qué soy tan locuaz con la calificación, consultá `este post previo </posts/0034>`_).
