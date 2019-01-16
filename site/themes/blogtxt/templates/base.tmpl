@@ -15,18 +15,26 @@ ${template_hooks['extra_head']()}
 <link href="${rel_link(permalink,'/assets/css/bitacora-theme.css')}" rel="stylesheet" type="text/css">
 </head>
 <body>
-    <div id="wrapper" class="container">
+    <div class="main_container">
         <div id="header">
-            <h1 id="blog-title">
-                <a href="${blog_url}" title="${blog_title}">${blog_title}</a>
-            </h1>
-            <div class="row fl-jus-between">
-                <h3 id="blog-author">
-                    ${blog_author}
-                </h3>
-                <div id="search-form" class="row pull-right">
-                    <img class="search-icon" src="/assets/images/search-icon.png" alt="Search" />
-                    ${search_form}
+            <div id="blog-title">
+                <h1>
+                    <a href="${blog_url}" title="${blog_title}">${blog_title}</a>
+                </h1>
+            </div>
+            <div id="blog-subtitle">
+                <div class="author">
+                    <h3>
+                        ${blog_author}
+                    </h3>
+                </div>
+                <div id="search-container">
+                    <div class="icon">
+                        <img class="search-icon" src="/assets/images/search-icon.png" alt="Search" />
+                    </div>
+                    <div class="form">
+                        ${search_form}
+                    </div>
                 </div>
             </div>
             <%block name="belowtitle">
@@ -42,6 +50,12 @@ ${template_hooks['extra_head']()}
             %endif
             </%block>
         </div>
+
+
+
+
+
+
         <div class="row">
             <div id="content">
             <div class="hfeed">
@@ -78,7 +92,7 @@ ${template_hooks['extra_head']()}
     <div id="footer">
         <div class="container">
             <h3 id="footer-title">
-                ${blog_title} 
+                ${blog_title}
             </h3>
 
             <div id="footer-body" class="row">
