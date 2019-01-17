@@ -23,6 +23,7 @@ body {
   font-family: "BitstreamCharter", serif !important;
   color: #333333;
   font-size: 18px;
+  background-color: #fff;
   margin: 0; }
 
 body div.main_container {
@@ -493,8 +494,6 @@ ul.tags li a {
   border-radius: 0.5em;
 }
 
-
-
 .entry-content img {
   flex: 0 0 auto;
   max-width: 100%;
@@ -510,4 +509,30 @@ pre.literal-block {
   max-width: 100%;
   overflow-x: auto;
   background: #eee;
+}
+
+figure{
+    background-color: #fafafa;
+    position: relative;
+    min-width: 0;
+    max-width: 600px;
+    margin: 0 auto;
+    z-index: 1;
+    width: 100%;
+    border: 1px dashed gray;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+figure img{
+  padding: 5px;
+}
+
+figure figcaption{
+  text-align: center;
+  padding:6px;
+}
+
+div.entry-content pre{
+  margin: 0 auto;
 }
