@@ -8,4 +8,4 @@ Bueno, tuvo su evolución. Antes, el sistema juntaba mi primer frase al entrar e
 
 Pasó el tiempo, y me di cuenta que a veces se me ocurrían frases y las tiraba por tuiter. Bueno, entonces hice un programita que vaya escuchando lo que digo ahí y cuando lo tageo como #facundario lo junta en mi lista y ya.
 
-Así que lo traje a mi server (gracias Perrito por la ayuda), y quedó andando acá, con nueva versión y todo: `Facundario Enterprise Edition 2.71 (versión extra apulentada) <http://www.taniquetil.com.ar/facundario/>`_. Enjoy.
+Así que lo traje a mi server (gracias Perrito por la ayuda), y quedó andando acá, con nueva versión y todo: `Facundario Enterprise Edition 2.71 (versión extra apulentada) <http://facundario.taniquetil.com.ar/>`_. Enjoy.

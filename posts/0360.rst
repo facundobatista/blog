@@ -8,7 +8,7 @@ En Mayo parece cumplir años el 80% de mis conocidos y familia (acá `[-] <http:
 
 Mucho, mucho laburo en la oficina, pero la mantengo a raya a nivel de horarios. Afuera, sigo laburando con `w3af <http://w3af.sourceforge.net/>`_, ahora como parte del SoC de `OWASP <http://www.owasp.org/index.php/Main_Page>`_. Estoy mentoreando a un estudiante para el Google SoC, y encima se acerca las liberaciones de los beta para Python 2.6 y 3.0, con lo cual estoy ahí apaleando algunos detalles importantes.
 
-Cerré un curso de Python que lo traía desde Abril, y también hubo una `reunión de Python Argentina <http://www.python.com.ar/moin/Eventos/Reuniones/Reunion27>`_, en la que caí que no había empezado con algo que habíamos hablado en la reunión anterior! Espero arrancar con eso antes de la próxima, :)
+Cerré un curso de Python que lo traía desde Abril, y también hubo una `reunión de Python Argentina <https://www.python.org.ar/wiki/Eventos/Reuniones/2008/Reunion27>`_, en la que caí que no había empezado con algo que habíamos hablado en la reunión anterior! Espero arrancar con eso antes de la próxima, :)
 
 También sigo con la dieta, que aunque pareciera no lleva tiempo per se, es mentira: hay que preparar las viandas para el mediodía, forzarse a uno mismo a comer más veces de lo que uno normalmente (mal) come, y hacer algún tipo de ejercicio físico dos o tres veces por semana.
 
@@ -16,6 +16,6 @@ Estuve con el auto y algo de mantenimiento obligatorio, de yapa: lo dejé en el 
 
 Dos puntos para destacar: estoy leyendo nuevamente un libro (`Los pilares de la tierra <http://es.wikipedia.org/wiki/Los_pilares_de_la_tierra>`_, me lo prestó mi hermana), y ya tengo las imágenes para los tres capítulos restantes de `Hielo Rojo <http://www.taniquetil.com.ar/facundo/hr/hr.html>`_ (así que en Junio lo rematamos, :)).
 
-El principio de este mes, que pintaba más tranquilo, también estuve a full: di un curso de Python en `Globant <http://www.globant.com/Content/Home/>`_, y este fin de semana (largo) nos vamos con Moni a Concordia.
+El principio de este mes, que pintaba más tranquilo, también estuve a full: di un curso de Python en `Globant <https://www.globant.com/>`_, y este fin de semana (largo) nos vamos con Moni a Concordia.
 
 Espero poder bajar un poco las revoluciones de acá a fin de mes, y retomar el ritmo en el blog, :)

@@ -12,8 +12,6 @@ Bueno, lo que hay es:
 
 - Las `clases de fotografía <http://www.taniquetil.com.ar/facundo/bdvfiles/clasesfoto.html>`_, junto con sus distintos capítulos.
 
-- Un `directorio con diferentes códigos <http://www.taniquetil.com.ar/facundo/bdvfiles/code>`_ que fui mostrando en posts en este blog.
-
 - El libro `Copia este libro <http://www.taniquetil.com.ar/facundo/bdvfiles/david-bravo-copia-este-libro.pdf.gz>`_, de David Bravo.
 
 - El gran relato `El Gordo en Colombia <http://www.taniquetil.com.ar/facundo/bdvfiles/egec.html>`_.

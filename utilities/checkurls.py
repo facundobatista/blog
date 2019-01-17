@@ -11,6 +11,10 @@ headers = {
 
 socket.setdefaulttimeout(5)
 
+# ToDo:
+# - cleanup first parts between `` pairs, so we get rid of false ``<bleh>`` thingies
+# - ignore 403s from Flickr (don't want all photos just public!!)
+
 
 def search_url(fpath):
     with open(fpath, "rt", encoding="utf8") as fh:
