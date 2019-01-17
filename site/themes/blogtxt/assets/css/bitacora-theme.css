@@ -138,8 +138,8 @@ div.section{
 }
 
 div.theme_sidebar {
-  margin-right: 0;
-  width: 250px;
+  margin: 0 auto;
+  flex: 0 0 250px;
   padding: 1em;
   border: none;
   background-color: #fafafa;
@@ -487,5 +487,9 @@ figure figcaption{
 }
 
 div.entry-content pre{
+  margin: 0 auto;
+}
+
+.propaganda_r {
   margin: 0 auto;
 }

@@ -5,7 +5,7 @@ html = """
 .img_{{key}} {
     vertical-align: middle;
     align-content: center;
-    # width: {{image_width}}px;
+    */ width: {{image_width}}px; /*
     max-height: {{image_heigth}}px;
 }
 </style>
