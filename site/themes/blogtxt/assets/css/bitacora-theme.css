@@ -409,6 +409,7 @@ input[type="checkbox"]:checked + label::before {
   padding: 0;
   display: flex;
   flex-wrap: wrap;
+  margin-bottom: 10px;
   justify-content: space-between;
 }
 .pager a{
@@ -487,9 +488,5 @@ figure figcaption{
 }
 
 div.entry-content pre{
-  margin: 0 auto;
-}
-
-.propaganda_r {
   margin: 0 auto;
 }
