@@ -63,18 +63,15 @@ div#header #blog-title {
   font-size: em;
   padding: 0; }
 
-  div#header #blog-title a {
+div#header #blog-title a {
   color: #222831; }
 div#header #blog-title h1 #blog-title a:hover {
-        color: #4c596d; }
-
+  color: #4c596d; }
 div#header #blog-title h1 {
   font-family: "BitstreamCharter", serif;
   text-transform: none;
   margin: 0px;
-
 }
-
 div#header #blog-subtitle {
     margin-bottom: 0;
     display: flex;
@@ -90,14 +87,12 @@ div#header #blog-subtitle {
   justify-content: flex-end;
 }
 
-
 #search input[type=text] {
   padding: 6px;
   font-size: 18px;
   border: none;
   background-color: #fafafa;
 }
-
 
 .author {
   display: flex;
@@ -106,8 +101,11 @@ div#header #blog-subtitle {
   margin:0;
 }
 
-
-
+.alt_text {
+  background-color: #000;
+  color: #FFF;
+  text-align: center;
+}
 
 div.row {
   display: flex;
@@ -118,7 +116,14 @@ div.row {
 div#content {
   margin: 0;
   flex: 1;
-  width: 100%; }
+  width: 100%;
+  font-size: 14px;}
+
+div.section{
+  min-width: 0;
+}
+
+
 
 div.theme_sidebar {
   margin-right: 0;
@@ -130,6 +135,13 @@ div.theme_sidebar {
   height: fit-content;
   margin-top: 1em;
   text-align: center;}
+
+div.theme_sidebar ul li{
+  font-family: "BitstreamCharter", serif;
+  text-transform: none;
+  margin: 0;
+  text-align: left;
+}
 
 div#footer {
   padding: 3em 0;
@@ -213,11 +225,10 @@ div.theme_sidebar h3 {
 }
 
 
-/* @media (max-width: 768px) {
   div.hfeed {
-    margin: 0;
+    margin: 25px 0;
+    min-width: 100%;
   }
-} */
 
 div.hfeed .entry-title,
 div.hfeed .page-title,
@@ -237,14 +248,19 @@ div.entry-content img {
   display: flex;
 }
 
+div.entry-content div p{
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  word-break: break-all;
+  hyphens: auto;
+}
+
 div.hfeed .entry-title {
   margin-bottom: 1px;
   font-size: 1.8em; }
   div.hfeed .entry-title a:hover {
     border: none; }
-
-div.post {
-  margin: 2em 1em 0 0;}
 
 div.post:after {
   content: "";
