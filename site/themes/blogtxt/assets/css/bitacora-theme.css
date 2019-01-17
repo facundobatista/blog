@@ -9,7 +9,6 @@ dl, dt, dd, ol, ul, li, fieldset, form, label, legend, article, main, nav, ins {
     line-height: inherit;
     vertical-align: baseline;
     font-family: inherit;
-    font-size: 100%;
     min-width: 0;
 }
 
@@ -20,13 +19,13 @@ dl, dt, dd, ol, ul, li, fieldset, form, label, legend, article, main, nav, ins {
   src: url(../fonts/CharterBT-Roman.otf); }
 
 body {
-  font-family: "BitstreamCharter", serif !important;
   color: #333333;
-  font-size: 18px;
   background-color: #fff;
-  margin: 0; }
+  font-size: 18px;
+}
 
 body div.main_container {
+  font-family: "BitstreamCharter", serif !important;
   width: 100%;
   padding-right: 15px;
   padding-left: 15px;
@@ -39,6 +38,7 @@ body div.main_container {
   #header{
     align-items: center;
     text-align: center;
+    font-size: 18px;
   }
   #blog-subtitle{
     flex-direction: column;
@@ -76,7 +76,6 @@ div#header {
 div#header #blog-title {
   line-height:1;
   flex: 0 0 100%;
-  font-size: em;
   padding: 0; }
 
 div#header #blog-title a {
@@ -84,7 +83,6 @@ div#header #blog-title a {
 div#header #blog-title h1 #blog-title a:hover {
   color: #4c596d; }
 div#header #blog-title h1 {
-  font-family: "BitstreamCharter", serif;
   text-transform: none;
   margin: 0px;
 }
@@ -127,20 +125,17 @@ div.row {
   display: flex;
   flex-wrap: wrap;
   padding: 0 10px;
-  justify-content: center;
 }
 
 div#content {
   margin: 0;
   flex: 1 1 800px;
   width: 100%;
-  font-size: 14px;}
+  font-size: 16px;}
 
 div.section{
   min-width: 0;
 }
-
-
 
 div.theme_sidebar {
   margin-right: 0;
@@ -154,7 +149,6 @@ div.theme_sidebar {
   text-align: center;}
 
 div.theme_sidebar ul li{
-  font-family: "BitstreamCharter", serif;
   text-transform: none;
   margin: 0;
   text-align: left;
@@ -164,44 +158,45 @@ div#footer {
   padding: 3em 0;
   background: linear-gradient(to top, #ebeae7, white);
   text-align: center;
+  bottom:0;
   color: #b1ada1; }
   div#footer p {
     margin: 0; }
-div#footer .container {
+div#footer .main_container {
   border-top: 1px solid #b7b6b3;
   color: #b7b6b3;
 }
-div#footer .container #footer-title {
+
+
+div#footer .main_container #footer-title {
   margin-top: 6px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-div#footer .container #footer-title a {
+div#footer .main_container #footer-title a {
   color: #b7b6b3;
   border: none;}
-div#footer .container #footer-title a {
+div#footer .main_container #footer-title a {
   color: #a2a19e;
   border: none;}
 
-div#footer .container #footer-body {
+div#footer .main_container #footer-body {
   padding-top: 1em;
   justify-content: space-between;
 }
+
 
 div#footer #license-img {
   height: 24px;
   opacity: 0.8;
 }
 
-
 select {
   background-color: white;
   padding: 4px;
   font-size: 0.8em;
-  font-family: "BitstreamCharter", serif; }
-
-
+}
 
 @media screen and (max-width: 600px) {
   #search-container {
@@ -221,17 +216,12 @@ select {
 }
 
 .fl-jus-between {
-  display: flex;
   justify-content: space-between;
 }
+
 .fl-jus-end {
-  display: flex;
   justify-content: flex-end;
 }
-
-
-
-
 
 div.theme_sidebar h3 {
   font-size: 1em;
@@ -241,11 +231,10 @@ div.theme_sidebar h3 {
   padding-bottom: 0em;
 }
 
-
-  div.hfeed {
-    margin: 25px 0;
-    min-width: 100%;
-  }
+div.hfeed {
+  margin: 25px 0;
+  min-width: 100%;
+}
 
 div.hfeed .entry-title,
 div.hfeed .page-title,
@@ -255,29 +244,28 @@ div.entry-content h3,
 div.entry-content h4,
 div.entry-content h5,
 div.entry-content h6,
-div#header div#blog-description,
-div#header div.archive-description {
+div#header #blog-title,
+div#header #blog-subtitle{
   font-family: inherit;
-  text-transform: none; }
+  text-transform: none;}
 
 div.entry-content img {
   margin: auto;
   display: flex;
 }
 
-div.entry-content div p{
-  -webkit-hyphens: auto;
-  -moz-hyphens: auto;
-  -ms-hyphens: auto;
-  /* word-break: break-all; */
-  hyphens: auto;
+.entry-title h2 a {
+  font-family: inherit;
+
 }
 
 div.hfeed .entry-title {
   margin-bottom: 1px;
-  font-size: 1.8em; }
-  div.hfeed .entry-title a:hover {
-    border: none; }
+  font-size: 1.8em;
+}
+div.hfeed .entry-title a:hover {
+    border: none;
+}
 
 div.post:after {
   content: "";
@@ -328,6 +316,7 @@ div#tag_cloud [class^="tcs-es"] {
   color: #faebed !important; }
 
 div#sidebar_outer {
+  margin: 0 auto;
   padding-top: 0; }
 
 div#sidebar_outer h2 {
@@ -352,17 +341,6 @@ div.theme_sidebar a:link {
 
 div.theme_sidebar a[id*="prop"] {
   border: none; }
-
-/* MODEL FOR TAB ACCORDION */
-/* <div class="tab">
-    <input id="aLink" class="tab-input" type="checkbox" name="tabs">
-    <label for="aLink" class="tab-label">
-        Label One
-    </label>
-    <div class="tab-content">
-        <p>Lorem ipsum dolor sit amet</p>
-    </div>
-</div> */
 
 .tab {
   position: relative;
@@ -391,11 +369,9 @@ div.theme_sidebar a[id*="prop"] {
 .tab-content p {
   margin: 0.5em 1em; }
 
-/* :checked */
 input:checked ~ .tab-content {
   max-height: 10em; }
 
-/* Icon */
 label::before {
   display: inline-block;
   width: 16px;
@@ -409,15 +385,6 @@ input[type="checkbox"] + label::before {
 
 input[type="checkbox"]:checked + label::before {
   transform: rotate(90deg); }
-
-/* MODEL PAGINATOR */
-/* <ul class="pagination">
-  <li class="page-link"> < </li>
-  <li class="page-link active"> 1 </li>
-  <li class="page-link"> 3 </li>
-  <li class="page-link"> ... </li>
-  <li class="page-link"> > </li>
-</ul> */
 
 .pagination {
   display: flex;
@@ -462,16 +429,6 @@ input[type="checkbox"]:checked + label::before {
   content: ' 〉';
   color: #cf4a59;
 }
-
-/* @media (max-width: 768px) {
-  .pager .previous, .pager .next {
-    margin-bottom: 10px;
-  }
-  .pager .next {
-    width: 100%;
-    text-align: right;
-  }
-} */
 
 ul.tags {
   list-style: none;
