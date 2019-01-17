@@ -27,8 +27,8 @@ body {
 body div.main_container {
   font-family: "BitstreamCharter", serif !important;
   width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
+  padding-right: 10px;
+  padding-left: 10px;
   margin-right: auto;
   margin-left: auto;
   margin-top: 0;
@@ -124,14 +124,14 @@ div#header #blog-subtitle {
 div.row {
   display: flex;
   flex-wrap: wrap;
-  padding: 0 10px;
 }
 
 div#content {
-  margin: 0;
   flex: 1 1 800px;
-  width: 100%;
-  font-size: 16px;}
+  font-size: 16px;
+  margin: 0 10px;
+
+}
 
 div.section{
   min-width: 0;
@@ -140,7 +140,6 @@ div.section{
 div.theme_sidebar {
   margin-right: 0;
   width: 250px;
-  margin-left: 2em;
   padding: 1em;
   border: none;
   background-color: #fafafa;
@@ -151,6 +150,7 @@ div.theme_sidebar {
 div.theme_sidebar ul li{
   text-transform: none;
   margin: 0;
+  font-size: 0.8em;
   text-align: left;
 }
 
@@ -224,7 +224,7 @@ select {
 }
 
 div.theme_sidebar h3 {
-  font-size: 1em;
+  font-size: 0.9em;
   text-align: left;
   margin: 0;
   padding-top: 1.5em;
@@ -315,13 +315,9 @@ div#tag_cloud [class^="tcs-es"] {
 #tcs-es a.tcs-es3 {
   color: #faebed !important; }
 
-div#sidebar_outer {
-  margin: 0 auto;
-  padding-top: 0; }
-
 div#sidebar_outer h2 {
   text-align: center;
-  font-size: 1.2em; }
+  font-size: 1em; }
 
 div#sidebar_outer [id^="propaganda"] {
   border-radius: 2px;
