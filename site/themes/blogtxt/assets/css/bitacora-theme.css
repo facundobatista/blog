@@ -1,3 +1,18 @@
+html, body, div, span,  object, iframe, table, caption, tbody, tfoot, thead, tr, th, td,
+del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code,
+dl, dt, dd, ol, ul, li, fieldset, form, label, legend, article, main, nav, ins {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    outline: 0;
+    line-height: inherit;
+    vertical-align: baseline;
+    font-family: inherit;
+    font-size: 100%;
+    min-width: 0;
+}
+
 * {box-sizing: border-box;}
 
 @font-face {
@@ -111,11 +126,12 @@ div.row {
   display: flex;
   flex-wrap: wrap;
   padding: 0 10px;
+  justify-content: center;
 }
 
 div#content {
   margin: 0;
-  flex: 1;
+  flex: 1 1 800px;
   width: 100%;
   font-size: 14px;}
 
@@ -475,4 +491,23 @@ ul.tags li a {
   background-color: #cf4a59;
   padding: 0 0.5em;
   border-radius: 0.5em;
+}
+
+
+
+.entry-content img {
+  flex: 0 0 auto;
+  max-width: 100%;
+  max-height: 100%;
+  align-self: center;
+  -webkit-align-self: center;
+  margin: auto;
+  object-fit: scale-down;
+}
+
+pre.literal-block {
+  flex: 1 1 0px;
+  max-width: 100%;
+  overflow-x: auto;
+  background: #eee;
 }
