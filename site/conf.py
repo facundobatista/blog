@@ -1191,8 +1191,7 @@ SEARCH_FORM = """
     <input type="hidden" name="kl" value="ar-es">
     <input type="hidden" name="kp" value="-2">
     <input type="hidden" name="kaj" value="m">
-    <input type="text" name="q" maxlength="255"
-    placeholder="Buscar&hellip;" class="span2" style="margin-top: 4px;">
+    <input type="text" name="q" maxlength="255" placeholder="Buscar&hellip;">
     <input type="submit" value="DuckDuckGo Search" style="display: none;">
 </form>
 <!-- End of custom search -->

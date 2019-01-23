@@ -4,8 +4,8 @@ html = """
 <style type="text/css">
 .img_{{key}} {
     vertical-align: middle;
-    align-content: center; 
-    width: {{image_width}}px;
+    align-content: center;
+    /* max-width: {{image_width}}px; */
     max-height: {{image_heigth}}px;
 }
 </style>
