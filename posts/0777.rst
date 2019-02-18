@@ -1,5 +1,5 @@
 .. title: Reponiendo la patente
-.. date: 2019-01-19 18:01:00
+.. date: 2019-02-18 22:01:00
 .. tags: patente, pérdida, reposición, DNRPA
 
 El año pasado nos fuimos unos días con la familia a Ostende, entre Navidad y Año Nuevo. En general tuvimos bueno tiempo (aunque mucho viento, no pudimos hacer mar), pero hubo un par de lluvias complicadas.
@@ -11,6 +11,9 @@ En la vuelta pasamos por tres zonas inundadas. Las primeras dos era sólo cuesti
 Pero le calculé bien y me mandé. Pasamos, aunque el agua llegó al parabrisas al bajarse la trompa del auto en un badén en la mitad de lo inundado. Llegamos al hotel, y cuando me bajé del auto, me di cuenta que habíamos perdido la patente de adelante!
 
 Hice algunas averiguaciones, y no había mucha opción: hay que hacer un duplicado de las chapas y ponérselas al auto (lo cual tarda unas semanas, pero mientras tanto se lleva pegado al vidrio un papelito de trámite provisorio). Pero para eso hay que ir al Registro Automotor, y nosotros habíamos perdido la patente un sábado al mediodía, y el domingo volvíamos a casa, así que no había chance.
+
+.. image:: /images/ostende-playa.jpeg
+    :alt: No todos los días llovió, eh, hicimos playa también
 
 Fui a la policía, para hacer una declaración de que había perdido la patente. Luego de renegar un poco me la hicieron, pero la verdad es que a la hora de circular esa declaración no me servía para nada: no se puede circular sin patente. Pero tampoco iba a mandar el auto en grúa y a la familia en colectivo hasta casa. Así que me arriesgué, puse adelante la patente de atrás, y volvimos a casa.
 
@@ -26,6 +29,5 @@ Pero soy porfiado, y quiero evitar tener el mismo quilombo la próxima vez que c
 
 La próxima que pierda la patente será porque perdí el paragolpes :p
 
-.. image:: /images/budapest-frio1.jpeg
-    :alt: El auto tapado de hielo, ese frío hacía
-    :target: url!!
+.. image:: /images/patente-remaches.jpeg
+    :alt: Le puse varios remaches, no se sale más
