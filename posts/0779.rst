@@ -1,0 +1,42 @@
+.. title: PyCamp 2019
+.. date: 2019-03-07 17:58:00
+.. tags: PyCamp,PyAr,Python,San Rafael,viaje,paseo,comunidad
+
+Se nos fue el PyCamp 2019, el doceavo, el primero en San Rafael, Mendoza. Más precisamente en `Los Reyunos <http://www.sanrafaelturismo.gov.ar/oficial/los-reyunos/>`_, en instalaciones de la Universidad Tecnológica Nacional.
+
+El lugar estuvo bien, aunque no 100% preparado para cómo lo íbamos a usar, lo acondicionamos al toque y funcionó sin problemas. Era lejos a nivel viaje, pero estaba buenísimo, mucho verde, super cómodo, y aunque no estaba cerrado para nosotros, estábamos bastante aislados (excepto cuando nos metíamos en la pileta, claro, porque era compartida con gente que visitaba el predio para pasar el día). Creo que fue el PyCamp con mejor paisaje de toda la historia:
+
+.. image:: /images/pycamp19/atardecer.jpeg
+    :alt: Más o menos el atardecer
+
+Sí fue seguro el PyCamp donde la internet funcionó sin problemas (casi perfecto, más allá de un par de cortecitos).
+
+Y teníamos el plus de que había un proyector que usamos un montón. Deberíamos analizar comprar un microproyector para que PyAr tenga en este tipo de eventos, porque es evidente que cuando se lo tiene, se lo aprovecha.
+
+.. image:: /images/pycamp19/pileta.jpeg
+    :alt: El pasto que se ve atrás de la pile está varios metros abajo
+
+A nivel proyectos, le metí bastante tiempo a un experimento para tener sistemas de gestión automáticos alrededor de procesos que sean lineales o máquinas de estados finitas (`django-flow <https://github.com/PyAr/django-flow>`_), y al sitio de `gestión de socies <https://github.com/PyAr/asoc_members/>`_ de la Asociación Civil.
+
+También trabajé con `fades <https://github.com/PyAr/fades/>`_ (principalmente ayudando/mentoreando a otres que laburaron en el proyecto), participé en una charla que nos dio `Fisa <https://twitter.com/fisadev>`_ sobre `pytest <https://docs.pytest.org/en/latest/>`_ (¡me encantó!), y además llevé adelante un juego grupal que es una especie de coding dojo rotativo rápido, algo que seguramente repetiremos en el futuro porque estuvo buenísimo.
+
+.. image:: /images/pycamp19/desayunando.jpeg
+    :alt: El primer día nos levantamos tempranito, no había gente "externa" todavía
+
+Obvio también tuvimos los clásicos juegos de mesa, luego de cenar (menos la primer noche, que nos recontracolgamos con `José Luis <https://twitter.com/s4msagaz>`_, `Sofi <https://twitter.com/sofide_>`_, `Matu <https://twitter.com/matuvarela>`_ y `Leandro <https://twitter.com/LeCoVi>`_ laburando hasta las cuatro de la mañana en ese experimento que mencionaba antes, cuando ya no entendíamos ni lo que pensábamos.
+
+Juegos de mesa, decía. Volví a disfrutar el `Galaxy Trucker <https://eldadodejack.com/2015/02/26/resena-galaxy-trucker/>`_ (me encanta, debería conseguirlo), perdí un par de veces en el `Resistance <https://en.wikipedia.org/wiki/The_Resistance_(game)>`_, y estuve rondando/ayudando bastante en una partida de `Munchkin <https://es.wikipedia.org/wiki/Munchkin_(juego_de_cartas)>`_.
+
+.. image:: /images/pycamp19/jugando.jpeg
+    :alt: Jugando al Galaxy Trucker
+
+También conocí juegos nuevos: uno 100% de interacción humana, el "Psicólogo" (me gustó, es un toque bizarro, al estilo Mao, no es para cualquier grupo), y dos de mesa: el `Aquarius <https://en.wikipedia.org/wiki/Aquarius_(game)>`_ que no me entusiasmó mucho, y el `Bohnanza <https://es.wikipedia.org/wiki/Bohnanza>`_, que me pareció bárbaro.
+
+Y claro que hubo actividades "externas". No sólo nos metimos varias veces a la pileta, sino que hicimos malabares, y además una de las noches fuimos al observatorio que está en el predio donde además de recibir una charla informativa que me gustó bastante, pudimos tener la experiencia de observar un grupito de estrellas alrededor de `Hatysa <https://es.wikipedia.org/wiki/Hatysa>`_ a través de un telescopio que en general sólo está disponible para estudios científicos, fue genial.
+
+.. image:: /images/pycamp19/trabajando.jpeg
+    :alt: Trabajando, pensando, mirá que gente concentrada
+
+En fin. No, no voy a repetir que es el mejor evento del año. Pero sí que sí voy a afirmar que el PyCamp es el "vine por el lenguaje, me quedé por la comunidad" en su máxima expresión.
+
+Todas las fotos (mías y algunas choreadas del grupo de Telegram que tuvimos), `acá <https://www.flickr.com/photos/54757453@N00/albums/72157705805926321>`_, y les dejo también `estas <https://photos.google.com/share/AF1QipNLSMwnjB-B0MiKJ0YpkxD0c1JJd2refa44m4vD7cXEEViSv6JoXB2YJylJJ9JwPQ?key=dTVjUnU1OFFva2h3M1NVbl95UlZkdV9JTXFUdXdn>`_ que compartieron muches otros asistentes al evento.
