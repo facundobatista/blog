@@ -2,7 +2,7 @@
 .. date: 2004-12-24 10:17:00
 .. tags: vida, simulación, artificial, evolución, sensores, transmisores, actuadores, procesador
 
-El otro día surgió una discusión en la lista de correo de `PyAr <http://pyar.decode.com.ar/>`_ sobre algoritmos genéticos y vida artificial. La charla estuvo interesante y me dejó pensando, leí algo de bibliografía y sinteticé lo siguiente.
+El otro día surgió una discusión en la lista de correo de `PyAr <https://python.org.ar/>`_ sobre algoritmos genéticos y vida artificial. La charla estuvo interesante y me dejó pensando, leí algo de bibliografía y sinteticé lo siguiente.
 
 Con el propósito de experimentar con formas de vida, tenemos dos alternativas para simular:
 

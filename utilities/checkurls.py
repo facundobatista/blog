@@ -3,6 +3,7 @@
 import glob
 import re
 import socket
+import sys
 from urllib import request
 
 headers = {
@@ -15,19 +16,22 @@ socket.setdefaulttimeout(5)
 # - cleanup first parts between `` pairs, so we get rid of false ``<bleh>`` thingies
 # - ignore 403s from Flickr (don't want all photos just public!!)
 
+FLAG_MISSING = "la url no existe más"
+
 
 def search_url(fpath):
     with open(fpath, "rt", encoding="utf8") as fh:
         content = fh.read()
     targets = re.findall(":target:(.*)\n", content)
-    links = re.findall("`.*?\<(.*?)\>`", content, re.S)
+    links = re.findall("`(.*?) \<(.*?)\>`", content, re.S)
 
     results = []
 
     for target in targets:
         results.append(target.strip())
-    for link in links:
-        results.append(link.strip())
+    for description, link in links:
+        if description != FLAG_MISSING:
+            results.append(link.strip())
 
     completed = []
     for url in set(results):
@@ -46,22 +50,29 @@ def check(url):
         return repr(err)
 
 
-all_urls = {}
-for post in glob.glob("posts/*.rst"):
-    urls = search_url(post)
-    for url in urls:
-        all_urls.setdefault(url, []).append(post)
+def main(posts):
+    # if not specific posts indicated, grab them all
+    if not posts:
+        posts = glob.glob("posts/*.rst")
+
+    all_urls = {}
+    for post in posts:
+        urls = search_url(post)
+        for url in urls:
+            all_urls.setdefault(url, []).append(post)
+
+    print("Len URLs:", len(all_urls))
+    for i, (url, posts) in enumerate(all_urls.items()):
+        try:
+            error = check(url)
+        except Exception as err:
+            print(f"Crash! {err!r}: {url!r}: {posts}")
+            continue
+
+        if error:
+            print(f"Error {error}: {url!r}: {posts}")
+        else:
+            print(f"Ok: {url!r} ({i})")
 
 
-print("Len URLs:", len(all_urls))
-for i, (url, posts) in enumerate(all_urls.items()):
-    try:
-        error = check(url)
-    except Exception as err:
-        print(f"Crash! {err!r}: {url!r}: {posts}")
-        continue
-
-    if error:
-        print(f"Error {error}: {url!r}: {posts}")
-    else:
-        print(f"Ok: {url!r} ({i})")
+main(sys.argv[1:])

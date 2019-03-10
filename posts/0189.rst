@@ -2,7 +2,7 @@
 .. date: 2006-07-11 11:59:27
 .. tags: películas, logo pyar, bandera
 
-El logo de las remeras que en su momento armamos para `Python Argentina <http://pyar.decode.com.ar/moin>`_ tuvo éxito en la Asociación Francoparlante de Python, sino me creen `miren sus remeras <http://www.afpy.org/wiki/TShirt>`_.
+El logo de las remeras que en su momento armamos para `Python Argentina <http://python.org.ar/>`_ tuvo éxito en la Asociación Francoparlante de Python, sino me creen `miren sus remeras <https://web.archive.org/web/20071016200309/http://afpy.org:80/wiki/TShirt>`_.
 
 ¡Y eso que en PyAr generó tantas discusiones! Bueno, ahora nos tenemos que pelear por la bandera, :D
 
