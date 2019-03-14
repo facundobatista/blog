@@ -14,9 +14,9 @@ Este es el listado de lo que había antes, y lo que pasó:
 
 **Frecuentes**
 
-- `Python Argentina <http://www.python.com.ar/moin>`_: Casi siempre que la nombro, la linkeo.
+- `Python Argentina <https://www.python.org.ar>`_: Casi siempre que la nombro, la linkeo.
 
-- `Daily Python-URL <http://www.pythonware.com/daily/>`_: Antes lo leía bastante, pero luego empezaron a poner 400 links por día (de los cuales 399 siempre aparecían en otro lado), así que dejé de leerlo. Acabo de entrar, y hay menos información, supongo que mejor seleccionada. Lo agregué a `mi cliente RSS <http://liferea.sourceforge.net/es/>`_, veremos como evoluciona esto...
+- `Daily Python-URL <http://www.pythonware.com/daily/>`_: Antes lo leía bastante, pero luego empezaron a poner 400 links por día (de los cuales 399 siempre aparecían en otro lado), así que dejé de leerlo. Acabo de entrar, y hay menos información, supongo que mejor seleccionada. Lo agregué a `mi cliente RSS <https://sourceforge.net/projects/liferea/>`_, veremos como evoluciona esto...
 
 - `Página 12 <http://www.pagina12.com.ar>`_: Lo sigo leyendo a diario, y casi siempre que lo nombro, lo linkeo.
 
@@ -40,7 +40,7 @@ Este es el listado de lo que había antes, y lo que pasó:
 
 - `DNS HowTo <http://www.faqs.org/docs/Linux-HOWTO/DNS-HOWTO.html>`_: Este tipo de artículos es el que linkearía cuando lo menciono en un post.
 
-- `Securing a fresh Linux install <http://docs.linux.com/article.pl?sid=04/04/15/1913248&tid=2>`_: Idem anterior.
+- `Securing a fresh Linux install <https://www.linux.com/news/securing-fresh-linux-install-part-1>`_: Idem anterior.
 
 
 **Referencia**
@@ -58,9 +58,9 @@ Este es el listado de lo que había antes, y lo que pasó:
 
 - `Curso de Python <http://www.taniquetil.com.ar/facundo/cursoPython.html>`_: Temario del curso de Python que he dado tantas veces, y que sigo dando, a particulares, terciarios, empresas, etc...
 
-- `Python patchs <http://www.taniquetil.com.ar/facundo/py_patchs_00.html>`_: Resumen siempre actualizado de los `Parches <http://es.wikipedia.org/wiki/Parche_inform%C3%A1tico>`_ propuestos de Python.
+- Python patchs: (EDITADO: deprecado, no funciona más, le saqué la URL) Resumen siempre actualizado de los `Parches <http://es.wikipedia.org/wiki/Parche_inform%C3%A1tico>`_ propuestos de Python.
 
-- `Python bugs <http://www.taniquetil.com.ar/facundo/py_bugs_00.html>`_: Resumen siempre actualizado de los `Bugs <http://es.wikipedia.org/wiki/Error_de_software>`_ reportados de Python.
+- Python bugs: (EDITADO: deprecado, no funciona más, le saqué la URL) Resumen siempre actualizado de los `Bugs <http://es.wikipedia.org/wiki/Error_de_software>`_ reportados de Python.
 
 - `Open Office <http://www.openoffice.org/>`_: Fantástico suite de oficina, lo uso todo el tiempo.
 
