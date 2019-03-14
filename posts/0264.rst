@@ -2,7 +2,7 @@
 .. date: 2007-06-05 15:50:28
 .. tags: Python, PyDay, PSF, Santa Fe, informe
 
-Leyendo un magnífico cuestionario, que se aplicó a muchos lenguajes, pero `acá <http://dfwpython.org/uploads/Forrester/forrester-survey.txt>`__ está contestado (y muy bien) con respecto a Python, me crucé con esta pregunta, y una respuesta que sintetiza tan bien el poder y la simplicidad de Python, que quise reproducirla aquí (la pongo directamente en castellano, si la quieren en el inglés original, la tienen en el cuestionario).
+Leyendo un magnífico cuestionario, que se aplicó a muchos lenguajes, pero acá (EDITADO: `la url no existe más <http://dfwpython.org/uploads/Forrester/forrester-survey.txt>`_) está contestado (y muy bien) con respecto a Python, me crucé con esta pregunta, y una respuesta que sintetiza tan bien el poder y la simplicidad de Python, que quise reproducirla aquí (la pongo directamente en castellano, si la quieren en el inglés original, la tienen en el cuestionario).
 
 **F77: ¿Cuál es el valor del lenguaje para los desarrolladores**?
 
@@ -16,4 +16,4 @@ Leyendo un magnífico cuestionario, que se aplicó a muchos lenguajes, pero `ac�
 
 **Accesible**: a desarrolladores dentro de un equipo con distintos niveles de habilidad, de principiantes que se vuelven rápidamente productivos a desarrolladores experimentados que necesitan conceptos avanzados. Un desarrollador no tiene que conocer todo el lenguaje para construir cosas poderosas; facilitado todo por las pruebas interactivas, exploración de ideas, y un gran uso de la introspección.
 
-Este fin de semana es el segundo `Python Day de Santa Fe <http://www.pythonsantafe.com.ar/>`_, ¡vamos todavía! (`acá </posts/0185>`__ y `acá </posts/0188>`__ tienen info sobre la primera). `Python Argentina <http://www.python.com.ar/moin>`_ y la `Python Software Foundation <http://www.python.org/psf/>`_ patrocinan, entre otras empresas y organizaciones, esta jornada (gracias a la `Fundación Vía Libre <http://www.vialibre.org.ar/>`_ por hacernos de "fundación paraguas" para poder recibir fondos de afuera).
+Este fin de semana es el segundo Python Day de Santa Fe (EDITADO: `la url no existe más <http://www.pythonsantafe.com.ar/>`_), ¡vamos todavía! (`acá </posts/0185>`__ y `acá </posts/0188>`__ tienen info sobre la primera). `Python Argentina <https://www.python.org.ar>`_ y la `Python Software Foundation <http://www.python.org/psf/>`_ patrocinan, entre otras empresas y organizaciones, esta jornada (gracias a la `Fundación Vía Libre <http://www.vialibre.org.ar/>`_ por hacernos de "fundación paraguas" para poder recibir fondos de afuera).

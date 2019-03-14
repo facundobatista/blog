@@ -5,7 +5,7 @@
 Día 1
 -----
 
-La edición 2007 de CaFeConf arrancó al mediodía, pero muchas personas llegaron antes: no sólo los organizadores, sino también aquellos que teniamos que armar los stands. `Python Argentina <http://www.python.com.ar/moin>`_ tenía uno, y este año aparte de colgar nuestra querida bandera teníamos también una `cartelera de trabajo <http://www.python.com.ar/trabajos>`_ que presentar.
+La edición 2007 de CaFeConf arrancó al mediodía, pero muchas personas llegaron antes: no sólo los organizadores, sino también aquellos que teníamos que armar los stands. `Python Argentina <https://www.python.org.ar>`_ tenía uno, y este año aparte de colgar nuestra querida bandera teníamos también una `cartelera de trabajo <https://www.python.org.ar/trabajo/>`_ que presentar.
 
 .. image:: /images/cafeconf07/pyar.jpeg
 

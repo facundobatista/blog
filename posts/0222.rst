@@ -2,7 +2,7 @@
 .. date: 2006-11-13 20:55:42
 .. tags: CaFeConf, conferencia, charlas, GNOME, mujeres en tecnología, asado, juegos
 
-Bueno, pasó `CaFeConf 2006 <http://www.cafeconf.org>`_. La verdad, un éxito absoluto.
+Bueno, pasó `CaFeConf 2006 <https://es.wikipedia.org/wiki/CafeConf>`_. La verdad, un éxito absoluto.
 
 El viernes estuvo más tranqui. Fui a dos charlas y media (fui a tres, pero presté atención en dos, :p), y el resto del tiempo estuve en la mesa/stand que teníamos de PyAr en la conferencia. Colgamos la bandera, recien estrenada, arriba; acá hay una foto con Alex Martelli:
 
@@ -18,7 +18,7 @@ El resto del día lo pasé en la mesa, contestando preguntas a los que se acerca
 .. image:: /images/uff/533316914_1ae032932e_o.jpg
     :alt: Reunión en la Casa del Queso
 
-El cierre de la jornada estuvo dada por la decimonovena reunión de Python Argentina. Fuimos a `La Casa del Queso <http://www.lacasadelqueso.com.ar/>`_, cerca del Abasto, donde comimos y tomamos muy bien. Como se preveía, mitad por ser después de la conferencia, mitad por tener invitados internacionales, tuvimos un nuevo record de asistencia, pero para más detalles esperaremos la minuta oficial.
+El cierre de la jornada estuvo dada por la decimonovena reunión de Python Argentina. Fuimos a La Casa del Queso, cerca del Abasto, donde comimos y tomamos muy bien. Como se preveía, mitad por ser después de la conferencia, mitad por tener invitados internacionales, tuvimos un nuevo record de asistencia, pero para más detalles esperaremos la minuta oficial.
 
 El sábado estuvo más movidito. Arranqué temprano con mi charla. Con Mariano, cinco minutos antes de que empiece, pudimos configurar mi laptop para que use el proyector, así que estaba contento. Tuve que arrancar pasadas las once y diez, porque seguía llegando gente (y siguió llegando gente: ocuparon todos los asientos, se quedaron parados, y dejaron de entrar porque no había más espacio). Me gustó mucho como me quedó armada la presentación, básicamente porque a la gente le interesó, se quedaron enganchados, preguntaban, participaban, todo muy bien.
 
@@ -35,7 +35,7 @@ Luego del almuerzo vino la charla plenaria de Alex (*Qué es Python y por qué i
 .. image:: /images/uff/533413953_f61f80b5b2_o.jpg
     :alt: Dave y Alecu
 
-A las 19hs, cuando ya estábamos todos muy cansados, vino el cierre de la conferencia. Con `Leito Monk <http://www.sonomondo.com/>`_ sobre el escenario, mostrando un lado *showman* que yo no conocía (pero que no tiene nada que envidiarle a Billy Crystal), el cierre estuvo fantástico. Discursos de los organizadores (incluído el propio Leito), sorteos, videos, todo muy completito. Un cierre como corresponde.
+A las 19hs, cuando ya estábamos todos muy cansados, vino el cierre de la conferencia. Con `Leito Monk <https://twitter.com/leitomonk>`_ sobre el escenario, mostrando un lado *showman* que yo no conocía (pero que no tiene nada que envidiarle a Billy Crystal), el cierre estuvo fantástico. Discursos de los organizadores (incluído el propio Leito), sorteos, videos, todo muy completito. Un cierre como corresponde.
 
 .. image:: /images/uff/533413989_99547c0c5f_o.jpg
     :alt: Cierre con todos arriba del escenario
