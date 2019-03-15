@@ -72,7 +72,7 @@ div.entry-content blockquote blockquote,div.comments ol.commentlist blockquote b
 div.entry-content blockquote,div.comments ol.commentlist blockquote{background:#ebedef;color:#4d5663;padding:0.1em 1em;}
 div.entry-content code,div.entry-content pre,div.comments ol.commentlist code,div.comments ol.commentlist pre{
     color: #494C5C;
-    font: "courier new",courier,monospace;
+    font-family: "courier new",courier,monospace;
     font-size: 85%;
     width: 625px;   
     overflow: auto;
