@@ -12,6 +12,6 @@ Python 3.0 está actualmente en estado de Candidato de Liberación, y estará di
 
 Pueden descargarse de la página de `Python 2.6 <http://www.python.org/download/releases/2.6/>`_ las fuentes, instaladores para Windows, e imágenes de disco para Mac. Si encuentran bugs, pueden reportarlos `aquí <http://bugs.python.org>`_.
 
-Por otro lado, les cuento que hoy mismo a la tarde partimos para Santa Fé, en cuantiosa caravana (bueno, dos autos, pero bien llenitos, más gente en micro), a las `3ras Jornadas Python en Santa Fe <http://www.pythonsantafe.com.ar/>`_ a sucederse en el Auditorio de la Universidad Tecnológica Nacional de dicha ciudad.
+Por otro lado, les cuento que hoy mismo a la tarde partimos para Santa Fé, en cuantiosa caravana (bueno, dos autos, pero bien llenitos, más gente en micro), a las 3ras Jornadas Python en Santa Fe (EDITADO: `la url no existe más <http://www.pythonsantafe.com.ar/>`_) a sucederse en el Auditorio de la Universidad Tecnológica Nacional de dicha ciudad.
 
 La jornada en sí es mañana, sábado. Hoy viajamos, mañana está la jornada durante todo el día, habrá algún evento social a la noche (¿sprint? ¿reunión de PyAr?), y el domingo almorzaremos en lo de Chiquito (un clásico), y ya nos volvemos, :)

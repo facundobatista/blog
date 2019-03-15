@@ -29,7 +29,7 @@ Segurizando Linux
 
 Cuando uno instala un sistema operativo, a nivel de seguridad puede elegir entre dos extremos: dejarlo intacto y confiar en la configuración por default, o tirarle una batería de expertos en seguridad que toque hasta el último detalle. Por supuesto, también se puede elegir cualquier punto entre ambos extremos, :p
 
-Linux, en su instalación default, es uno de los sistemas operativos más seguros del mercado: es bastante confiable, y realmente no hay que preocuparse demasiado. Pero siempre es bueno pegarle una revisada a las configuraciones para asegurarse de que está todo bien, y de paso se aprende un poquito. Para ello, es piola seguir este artículo: *Securing a fresh Linux install* (partes `1 <http://docs.linux.com/article.pl?sid=04/04/15/1913248&tid=2>`_, `2 <http://docs.linux.com/article.pl?sid=04/04/15/1918219&tid=2>`_ y `3 <http://docs.linux.com/article.pl?sid=04/04/15/1923224&tid=2>`_).
+Linux, en su instalación default, es uno de los sistemas operativos más seguros del mercado: es bastante confiable, y realmente no hay que preocuparse demasiado. Pero siempre es bueno pegarle una revisada a las configuraciones para asegurarse de que está todo bien, y de paso se aprende un poquito. Para ello, es piola seguir este artículo: *Securing a fresh Linux install* (partes `1 <https://www.linux.com/news/securing-fresh-linux-install-part-1>`_, `2 <https://www.linux.com/news/securing-fresh-linux-install-part-2>`_ y `3 <https://www.linux.com/news/securing-fresh-linux-install-part-3>`_).
 
 
 Citas

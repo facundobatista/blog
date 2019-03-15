@@ -19,15 +19,15 @@ Detalle de color: el cuestionario que uno llena en Google para ser Mentor, impli
 Python 3000
 -----------
 
-Guido dió una charla sobre Python 3.0. Mucho de la charla, ya se conocía, pero yo me desayuné de varias cosas interesantes aquí. Lo más loco, es cuán superpuesto estará con el branch 2.x (o sea, que quizás salga el 2.6 y el 3.0 casi al mismo tiempo, pero seguirán viniendo 2.7, 2.8, etc, para que se tengan varios años de migrar a la nueva tecnología).
+Guido dio una charla sobre Python 3.0. Mucho de la charla, ya se conocía, pero yo me desayuné de varias cosas interesantes aquí. Lo más loco, es cuán superpuesto estará con el branch 2.x (o sea, que quizás salga el 2.6 y el 3.0 casi al mismo tiempo, pero seguirán viniendo 2.7, 2.8, etc, para que se tengan varios años de migrar a la nueva tecnología).
 
-Los slides están `acá <http://www.python.org/doc/essays/ppt/accu2006/Py3kACCU.ppt>`_.
+Los slides están `acá <https://legacy.python.org/doc/essays/ppt/accu2006/Py3kACCU.ppt>`_.
 
 
 Santa Fe
 --------
 
-Se confirmó para el 3 de Junio, sábado, la Primer `Jornada Python Santa Fé <http://www.pythonsantafe.com.ar/>`_ en la UTN de esa ciudad, al cual fuimos invitados como expositores Lucio y yo.
+Se confirmó para el 3 de Junio, sábado, la Primer Jornada Python Santa Fé (EDITADO: `la url no existe más <http://www.pythonsantafe.com.ar/>`_) en la UTN de esa ciudad, al cual fuimos invitados como expositores Lucio y yo.
 
 La idea es que demos un par de charlas cada uno durante el día. Como es un sábado, y ese viernes es laborable, viajaríamos a la tarde, llegamos directamente a meternos en el sobre en un hotel, y arrancamos el sábado tempranito.
 
