@@ -4,7 +4,7 @@
 
 Luego del cierre de la conferencia, el sábado, desarmamos todo y partimos hacia Except, algunos en auto, otros caminando, donde más tarde se haría la 23era reunión de Python Argentina.
 
-Allí primero comimos todos los que habíamos ido directamente desde la conferencia, y justo luego de comer, se largó la reunión. No voy a entrar en mayor detalle acá, pero tienen en el sitio de PyAr una `muy buena minuta <http://www.python.com.ar/moin/Eventos/Reuniones/Reunion23>`_ (¡gracias César!).
+Allí primero comimos todos los que habíamos ido directamente desde la conferencia, y justo luego de comer, se largó la reunión. No voy a entrar en mayor detalle acá, pero tienen en el sitio de PyAr una `muy buena minuta <https://www.python.org.ar/wiki/Eventos/Reuniones/2007/Reunion23>`_ (¡gracias César!).
 
 Luego de la reunión, algunos partieron de joda hacia 990 (un pub de la zona), y otros nos quedamos de joda ahí mismo en Except: fueron a comprar fernet, coca e hielo, y nos pusimos a charlar de temas generales y a jugar al Mafia (¡hasta las cinco de la mañana!).
 

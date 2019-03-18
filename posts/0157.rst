@@ -10,7 +10,7 @@ Así y todo me doy cuenta de que lo disfruto, sino no estaría acá en lugar de 
 Miércoles: Record
 -----------------
 
-`Decimotercera reunión <http://www.python.com.ar/moin/Eventos/Reuniones/Reunion13>`_ de Python Argentina. Llegamos nuevamente a nuestro record de asistencia, 13 personas (je, igual que el número de reunión). ¡Incluso hasta hubo una mujer! (je, que se escondió para la foto)
+`Decimotercera reunión <https://www.python.org.ar/wiki/Eventos/Reuniones/2006/Reunion13>`_ de Python Argentina. Llegamos nuevamente a nuestro record de asistencia, 13 personas (je, igual que el número de reunión). ¡Incluso hasta hubo una mujer! (je, que se escondió para la foto)
 
 .. image:: /images/uff/530311991_195f2cdc44_o.jpg
 
@@ -45,7 +45,7 @@ Magia.
 Sábado: Rocanrol
 ----------------
 
-Ayer tocó `La Percanta <http://www.lapercantarock.com.ar>`_, con staff completo: Ariel (guitarra), el Oso (bajo), Kata (batería), Maxi (guitarra) y Pablo (armónica).
+Ayer tocó La Percanta (EDITADO: `la url no existe más <http://www.lapercantarock.com.ar>`_), con staff completo: Ariel (guitarra), el Oso (bajo), Kata (batería), Maxi (guitarra) y Pablo (armónica).
 
 .. image:: /images/uff/530312135_9cb3f6f049_o.jpg
 
