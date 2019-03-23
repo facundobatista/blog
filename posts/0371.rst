@@ -9,6 +9,6 @@ Tenemos un diseño ganador (aunque no con fondo blanco, sino de colores).
 .. image:: /images/remeraPyAr2.png
     :alt: Diseño ganador
 
-La semana que viene ya las mando a hacer, así que estamos juntando órdenes de preventa en `esta página <http://www.python.com.ar/moin/RemerasV2/PreAnotados>`_. Para anotarse allí sólo necesitan estar registrados en el sitio, pero si la quieren hacer más fácil pueden mandarme un mail a mi y yo los anoto.
+La semana que viene ya las mando a hacer, así que estamos juntando órdenes de preventa en `esta página <https://www.python.org.ar/wiki/RemerasV2/PreAnotados>`_. Para anotarse allí sólo necesitan estar registrados en el sitio, pero si la quieren hacer más fácil pueden mandarme un mail a mi y yo los anoto.
 
 Creo que llegamos a las Regionales con remera nueva, :)

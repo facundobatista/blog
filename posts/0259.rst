@@ -15,7 +15,7 @@ Como el escritorio tenía una versión supervieja, no era *actualizable*, y enci
 
 Mi plan, entonces, era updgradear la laptop automágicamente, e instalar desde cero en el escritorio. En la laptop, más que backup, no tenía que hacer nada antes. Pero en el escritorio tenía que jugar un poquito con las particiones (resizear actuales, crear nuevas), y sacar un disco que andaba mal.
 
-Así que fue la laptop primero. A los pocos días que salió Feisty, quise hacer el upgrade via red. Pero se cortaba enseguida: los servers estaban recontra cargados por la novedad. Así que dejé el agua correr, y resulta que `Mariano lo hizo primero <http://chaghi.com.ar/blog/post/2007/04/24/ubuntu-7.04-feisty-fawn>`_, así que aprendí de su experiencia, y me bajé el CD para hacer el update desde ahí. El viernes anterior al pasado, en la oficina, monté el .iso y me puse a actualizar.
+Así que fue la laptop primero. A los pocos días que salió Feisty, quise hacer el upgrade via red. Pero se cortaba enseguida: los servers estaban recontra cargados por la novedad. Así que dejé el agua correr, y resulta que `Mariano lo hizo primero <https://chaghi.com.ar/blog/ubuntu-7-04-feisty-fawn/>`_, así que aprendí de su experiencia, y me bajé el CD para hacer el update desde ahí. El viernes anterior al pasado, en la oficina, monté el .iso y me puse a actualizar.
 
 Pero la red en la oficina anda más o menos a veces, con lo cual tardaaaaaaba, tardaaaaaba, y encima pasó algo raro: faltaba como una hora para terminar de bajar los paquetes, fuí al baño, y cuando volví se había reiniciado la máquina! Como ya me iba a casa, no reinicié el update. En casa, luego, monté el .iso nuevamente, largué de nuevo la actualización (que siguió de donde estaba antes) y terminó todo, sin ningún inconveniente.
 
@@ -32,7 +32,7 @@ Pusieron un applet para manejo de conexiones inalámbricas que es fantástico. L
 ¿Qué encontré de malo?
 ----------------------
 
-Lo único que se me rompió es el manejo de las teclas multimedia del teclado de la laptop. En la misma tengo botones de play/pause, stop, etc, y los uso para manejar el reproductor de música de mi preferencia (`Quod Libet <http://www.sacredchao.net/quodlibet>`_). Resulta que Gnome 2.18, que es el que viene en Feisty, *propaga* la señal de esas teclas de otra forma. Por suerte, vivo en un mundo open source, así que me fijé como podía capturar esas teclas desde Python, agarré el código de Quod Libet, lo toqué, y ahora funca perfecto.
+Lo único que se me rompió es el manejo de las teclas multimedia del teclado de la laptop. En la misma tengo botones de play/pause, stop, etc, y los uso para manejar el reproductor de música de mi preferencia (`Quod Libet <https://quodlibet.readthedocs.io/en/latest/>`_). Resulta que Gnome 2.18, que es el que viene en Feisty, *propaga* la señal de esas teclas de otra forma. Por suerte, vivo en un mundo open source, así que me fijé como podía capturar esas teclas desde Python, agarré el código de Quod Libet, lo toqué, y ahora funca perfecto.
 
 Al principio, también, creí que se había roto algo más, pero después me di cuenta que no. Resulta que luego de migrar instalé los drivers propietarios de la placa de video, para poder usar la salida extra y conectar un proyector. Y no me funcaba el modo hibernar de la laptop. Resulta que era algo del driver propietario, no de Feisty, pero igual buscando en Internet ya lo solucioné también, :)
 
