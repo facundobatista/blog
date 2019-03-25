@@ -8,7 +8,7 @@ La segunda mitad del año es normalmente la más cargada de eventos tanto de Pyt
 
 Lo primero que se me pisa es el 9 de Agosto mismo, un `sprint organizado por Lipe <https://docs.google.com/forms/d/1rwNuJvEUrQEvBSvCm6vJEz-dDgCYLhzPSdnPvdy3aHQ/viewform?usp=send_form>`_ (está buscando laburar con cosas de torrent, pero yo creo que voy a ir a hacer Encuentro o CDPedia). Obviamente voy a ir a la tarde, no creo que haya problema.
 
-Lo segundo que se me pisa (y me complica la vida) es el PyDay en Luján (EDITADO: `la url no existe más <http://pyday.unlux.com.ar/>`_), el 20 de septiembre. Acá la tengo más complicada, porque encima de que salgo del curso a las 13, me tengo que ir hasta Luján. Igual, voy seguro, porque lo más probable es que de alguna charla (propuse dos repetidas y una nueva, sobre consejos de debugging).
+Lo segundo que se me pisa (y me complica la vida) es el PyDay en Luján (EDITADO: `la url no existe más <http://pyday.unlux.com.ar/>`__), el 20 de septiembre. Acá la tengo más complicada, porque encima de que salgo del curso a las 13, me tengo que ir hasta Luján. Igual, voy seguro, porque lo más probable es que de alguna charla (propuse dos repetidas y una nueva, sobre consejos de debugging).
 
 Ya en Noviembre (con lo cual el curso no molesta) está la PyCon, en Rafaela, el viernes 14 y sábado 15, aunque lo más probable es que vaya el día anterior, para viajar tranquilo, ayudarlos a terminar todo, etc.
 
@@ -16,4 +16,4 @@ El 26 de septiembre, viernes, a la noche, tengo un curso en La Plata, donde doy 
 
 Los últimos días de Septiembre y los primeros de Octubre, aunque no hay nada puntual, me los voy a tratar de dejar liberados, porque está el cumpleaños de Felu. Seguramente haremos algo menos para adultos, más para compañeros de jardín y eso, pero no sabemos todavía exactamente qué, y siempre es un montón de trabajo :p
 
-En fin... un segundo semestre bailado. Encima estoy bastante ocupado en general, especialmente en el laburo porque en estos meses ya sale a la calle el teléfono de Ubuntu (EDITADO: `la url no existe más <http://www.ubuntu.com/phone>`_), y también porque finalmente estamos hablando seriamente de hacer la asociación civil de Python Argentina (tenemos una `lista separada para charlar de eso <https://listas.python.org.ar/listinfo/meta>`_) y aunque ahora los abogados están de feria, después seguro voy a tener algunas reuniones, trámites para hacer, etc.
+En fin... un segundo semestre bailado. Encima estoy bastante ocupado en general, especialmente en el laburo porque en estos meses ya sale a la calle el teléfono de Ubuntu (EDITADO: `la url no existe más <http://www.ubuntu.com/phone>`__), y también porque finalmente estamos hablando seriamente de hacer la asociación civil de Python Argentina (tenemos una `lista separada para charlar de eso <https://listas.python.org.ar/listinfo/meta>`_) y aunque ahora los abogados están de feria, después seguro voy a tener algunas reuniones, trámites para hacer, etc.

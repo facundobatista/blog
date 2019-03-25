@@ -4,7 +4,7 @@
 
 Por suerte hoy pude dormir hasta más tarde, y me levanté a las siete cuando sonó el despertador. Me bañé enseguida y me fui hacia la Conferencia cuando mi compañero de cuarto todavía ni se había levantado. Como llegué bien temprano, cuarenta minutos antes de que empiece la conferencia, pude aprovechar para trabajar en la segunda charla.
 
-La mañana pasó sin mayor novedad, no hubo nada realmente interesante y fui trabajando en la presentación en los ratos libres. La tarde estuvo mucho mejor, primero por las presentaciones de la gente de `PyPy <http://codespeak.net/pypy/index.cgi?news>`_, que siempre son muy divertidas y pedagógicas, y luego al final por la charla de `Gustavo Niemeyer <http://niemeyer.net/>`_, sobre resolución de acertijos con Python, fascinante..
+La mañana pasó sin mayor novedad, no hubo nada realmente interesante y fui trabajando en la presentación en los ratos libres. La tarde estuvo mucho mejor, primero por las presentaciones de la gente de `PyPy <https://pypy.org/>`_, que siempre son muy divertidas y pedagógicas, y luego al final por la charla de `Gustavo Niemeyer <http://niemeyer.net/>`_, sobre resolución de acertijos con Python, fascinante..
 
 La keynote del jueves estuvo a cargo de `Steven Pemberton <http://www.cwi.nl/%7Esteven/>`_, y la verdad que hace rato que no me reía tanto en una `charla <http://www.w3.org/2005/Talks/06-steven-goteborg/>`_.
 
