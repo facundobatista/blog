@@ -8,7 +8,7 @@ Hay dos maneras que entre un virus a la computadora a través del correo electr�
 
 La primer manera es que el mail aproveche alguna deficiencia del cliente de correo (siendo "cliente de correo" el programita que se usa para ver los mails). En estos casos, el virus en el mail normalmente explota dos deficiencias del cliente de correo: el descuido de ejecutar o abrir algunas cosas del mail automáticamente, y estar demasiado integrado al sistema operativo, lo que permite afectarlo en demasía.
 
-Solución: utilicen un cliente de correo lo más seguro posible. Yo recomiendo `Thunderbird <http://www.mozilla-europe.org/es/products/thunderbird/>`_, pero si por alguna razón ncesitan quedarse del lado de Microsoft, usen Outlook 2000 o superiores (tomen en cuenta que utiliza muchos recursos de la computadora, y que no es gratis, sino que deberían pagarlo). Jamás, si les interesa un poquito vuestra propia seguridad, utilicen el Outlook Express.
+Solución: utilicen un cliente de correo lo más seguro posible. Yo recomiendo `Thunderbird <https://www.thunderbird.net/es-AR/>`_, pero si por alguna razón ncesitan quedarse del lado de Microsoft, usen Outlook 2000 o superiores (tomen en cuenta que utiliza muchos recursos de la computadora, y que no es gratis, sino que deberían pagarlo). Jamás, si les interesa un poquito vuestra propia seguridad, utilicen el Outlook Express.
 
 La segunda manera es que la persona que abre el correo ejecute algún archivo adjunto que viene. Esta es la forma en que normalmente se infectan las máquinas. Acá las recomendaciones son para vuestras costumbres:
 
@@ -18,4 +18,4 @@ La segunda manera es que la persona que abre el correo ejecute algún archivo ad
 
 - En general, no abran jamás un mail cuyo remitente es desconocido, o el *Asunto* no tiene sentido. Presten atención, y aprenderán a reconocer los mails que no tienen nada que ver.
 
-Como recomendación final, y teniendo en cuenta que no existen sistemas 100% seguros, usen antivirus (yo uso el `AVG <http://free.grisoft.com/doc/Get+AVG+FREE/lng/us/tpl/v5>`_, que es bueno y gratis), y hagan backups (copias de resguardo) periodicamente.
+Como recomendación final, y teniendo en cuenta que no existen sistemas 100% seguros, usen antivirus (yo uso el `AVG <https://www.avg.com/es-ar/homepage#pc>`_, que es bueno y gratis), y hagan backups (copias de resguardo) periodicamente.

@@ -6,6 +6,6 @@ Como estoy seguro que ya sabrán de memoria, ;), Encuentro es un simple programa
 
 Acabo de liberar la versión 1.1, que principalmente vuelve a permitir que el programa se autentique luego de unos cambios en el backend de Conectate, pero también tiene muchos bugs solucionados a nivel de manejar errores en las descargas, y también mejoras en la interfaz.
 
-¡Es fácil probarlo! Tenemos instaladores para `Debian/Ubuntu <http://launchpad.net/encuentro/trunk/1.q/+download/encuentro-1.1.deb>`_, para `Windows <http://launchpad.net/encuentro/trunk/1.1/+download/encuentro-1.1-setup.exe>`_, en Arch sólo hacen ``yaourt -S encuentro``, e incluso, desde cualquier lado, pueden instalarlo desde PyPI (``sudo easy_install encuentro``) o directamente usando el `tarball <http://launchpad.net/encuentro/trunk/1.1/+download/encuentro-1.1.tar.gz>`_.
+¡Es fácil probarlo! Tenemos instaladores para `Debian/Ubuntu <http://launchpad.net/encuentro/trunk/1.1/+download/encuentro-1.1.deb>`_, para `Windows <http://launchpad.net/encuentro/trunk/1.1/+download/encuentro-1.1-setup.exe>`_, en Arch sólo hacen ``yaourt -S encuentro``, e incluso, desde cualquier lado, pueden instalarlo desde PyPI (``sudo easy_install encuentro``) o directamente usando el `tarball <http://launchpad.net/encuentro/trunk/1.1/+download/encuentro-1.1.tar.gz>`_.
 
 Todos los detalles, como siempre, en la `página oficial <http://encuentro.taniquetil.com.ar/>`_. ¡Que lo disfruten!

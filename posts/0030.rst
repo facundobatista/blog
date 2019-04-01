@@ -2,7 +2,7 @@
 .. date: 2005-02-17 06:42:34
 .. tags: Firefox, IE, Explorer, Microsoft, porcentaje de mercado
 
-`Firefox <http://www.spreadfirefox.com/?q=affiliates&amp;id=30445&amp;t=64>`_ acaba de superar la marca de `25 millones <http://www.spreadfirefox.com/?q=node/view/11681>`_ de descargas. 25 millones.
+`Firefox <https://www.mozilla.org/es-AR/firefox/new/>`_ acaba de superar la marca de 25 millones (EDITADO: `la url no existe más <http://www.spreadfirefox.com/?q=node/view/11681>`__) de descargas. 25 millones.
 
 .. image:: /images/uff/527834620_fb87fd02df_o.png
 
