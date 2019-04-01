@@ -10,7 +10,7 @@ La conferencia propiamente dicha arrancó el viernes a la mañana; luego de una 
 
 Almorzamos en un lugar cercano, algo liviano, y estuve un rato en otra plenaria que no me interesaba demasiado, luego un rato afuera charlando, y justo antes del break de la tarde di mi clásica "Entendiendo Unicode"... es que el público se renueva, ¿viste?
 
-Después del break, `Lightning Talks! <http://www.juanjoconti.com.ar/2011/09/23/lighting-talks-en-pyconar-2011/>`_ Siempre están buenas! Gracias a Manu Quiñones me enteré de la existencia de `MyPaint <http://mypaint.intilinux.com/>`_, que está buenísimo, y yo por mi parte mostré un truquito interesante para hacer ejecutables Python, que ya `mostré acá </posts/0531>`_. Para cerrar el primer día de conferencia, hubo una plenaria sobre PyPy que estuvo buena, por Maciej Fijalkowski.
+Después del break, `Lightning Talks! <http://www.juanjoconti.com.ar/2011/09/23/lighting-talks-en-pyconar-2011/>`_ Siempre están buenas! Gracias a Manu Quiñones me enteré de la existencia de `MyPaint <http://mypaint.org/about/>`_, que está buenísimo, y yo por mi parte mostré un truquito interesante para hacer ejecutables Python, que ya `mostré acá </posts/0531>`_. Para cerrar el primer día de conferencia, hubo una plenaria sobre PyPy que estuvo buena, por Maciej Fijalkowski.
 
 Ni bien terminó todo, Nico César me pidió la revancha de unos partidos de pool que le había ganado el año pasado, y salimos corriendo a jugarnos unas fichas... pero estaba cerrado! Abría recién a las ocho y media, pero a esa hora ya íbamos a estar cenando, así que apuntamos directamente a donde nos íbamos a encontrar con la gente a comer.
 
@@ -21,7 +21,7 @@ Como Alecu había avisado a todos que nos encontrábamos ahí, invadimos el bar,
 
 Ni bien terminamos de pagar, nos escapamos con Perrito y Nico al pool antedicho, y jugamos unas fichas, tomamos unas cervezas, llegó más gente... parranda, bah. Lo bueno es que como cenamos temprano, terminamos también acostándonos temprano (o al menos no demasiado tarde), lo que estuvo muy bien porque nos quedaba la mitad de conferencia por delante.
 
-Al otro día, dí mi segunda y última charla en el primer slot, "Python más rápido que C" (versión actualizada, con comparaciones con PyPy). Luego estuve un rato charlando con Lucio y Guillo sobre unos temas de laburo, y enseguida me metí en una charla de Ricardo Kirkner sobre `fabric <http://docs.fabfile.org/en/1.2.2/index.html>`_. Para cerrar la mañana, una buena plenaria de Ricardo Quesada sobre "Vivencias desarrollando un proyecto open source".
+Al otro día, dí mi segunda y última charla en el primer slot, "Python más rápido que C" (versión actualizada, con comparaciones con PyPy). Luego estuve un rato charlando con Lucio y Guillo sobre unos temas de laburo, y enseguida me metí en una charla de Ricardo Kirkner sobre `fabric <http://www.fabfile.org/>`_. Para cerrar la mañana, una buena plenaria de Ricardo Quesada sobre "Vivencias desarrollando un proyecto open source".
 
 .. image:: /images/pycon11/riq.jpg
     :alt: Riq en su plenaria
@@ -37,9 +37,7 @@ Ese bar está buenísimo: tiene música pero no demasiado alta, buenas mesas de 
 Anyway, luego del pool, ya siendo como las dos de la mañana, cruzamos la calle y nos fuimos a dormir. Y al otro día nos levantamos, desayunamos, al rato partimos, viajamos tranqui, llegamos a la tardecita... todo bien.
 
 .. image:: /images/pycon11/todos-th.jpg
-    :alt: Foto grupal
-    :target: /imags/pycon11/todos.jpg
-
-*(hagan click en la foto para verla grande)*
+    :alt: Foto grupal (click en la foto para ampliar)
+    :target: /images/pycon11/todos.jpg
 
 En fin. Muy buena conferencia, con buena asistencia, buenas charlas, y bien organizada. Un lujo tener estos eventos en Argentina, al alcance de todos.

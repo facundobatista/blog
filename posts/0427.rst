@@ -4,7 +4,7 @@
 
 Dos cosas que terminamos en los últimos días antes de `PyCon </posts/0425>`_, fueron el tutorial y la CDPedia.
 
-El tutorial no es más ni menos que la traducción completa al castellano del Tutorial de Python (el oficial), que `servimos en HTML <http://docs.python.org.ar/tutorial/contenido.html>`_, y que también se puede `descargar en PDF <http://python.org.ar/pyar/Tutorial>`_. Este PDF lo generamos con `rst2pdf <http://code.google.com/p/rst2pdf/>`_, y la verdad que queda bárbaro... lo tuve que tocar un poco a mano, pero fueron en detalles que importaban en la impresión, no en la distribución en PDF...
+El tutorial no es más ni menos que la traducción completa al castellano del Tutorial de Python (el oficial), que `servimos en HTML <http://docs.python.org.ar/tutorial/>`_, y que también se puede `descargar en PDF <http://python.org.ar/pyar/Tutorial>`_. Este PDF lo generamos con `rst2pdf <http://code.google.com/p/rst2pdf/>`_, y la verdad que queda bárbaro... lo tuve que tocar un poco a mano, pero fueron en detalles que importaban en la impresión, no en la distribución en PDF...
 
 .. image:: /images/tutorialimpreso.jpg
     :alt: El Tutorial, impreso
@@ -13,4 +13,4 @@ La CDPedia es la Wikipedia en un CD. Bueno, la verdad es que también la generam
 
 ¿Qué se necesita? Una computadora no demasiado vieja, con lectora de CD o DVD según corresponda, y tener instalado Python en la máquina. Si usás Linux o Mac ya lo tenés instalado... si usás Windows, deberías dejar de usarlo, :), pero también podés instalarle `Python <http://www.python.org/download/releases/2.6.2/>`_ (si es que no está ya instalado) y listo.
 
-¿Cómo podés conseguir la CDPedia? La podés recibir en un disco de un amigo, o sino la podés bajar con un cliente de torrent (versión `CD <http://www.taniquetil.com.ar/facundo/cdpedia-cd-0.5.torrent>`_ y `DVD <http://www.taniquetil.com.ar/facundo/cdpedia-dvd-0.5.torrent>`_). En cualquier caso, tené en cuenta que es legal repartirla y compartirla, así que lo mejor que podés hacer es quemar dos o tres discos y pasarlos.
+¿Cómo podés conseguir la CDPedia? La podés recibir en un disco de un amigo, o sino la podés bajar con un cliente de torrent (las distintas versiones `acá <http://cdpedia.python.org.ar/>`_). En cualquier caso, tené en cuenta que es legal repartirla y compartirla, así que lo mejor que podés hacer es quemar dos o tres discos y pasarlos.
