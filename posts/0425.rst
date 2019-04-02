@@ -53,7 +53,7 @@ Impresión de los distintos elementos: Más allá de distinta papelería que imp
 
 Aspecto económico-financiero: Meses antes de la conferencia creamos tres presupuestos distintos, escalonados, que ejecutaríamos de una u otra forma en función de la cantidad de dinero que se obtendría luego (y en base a estos presupuestos armamos las categorías de los patrocinadores). Por suerte no tuvimos que salir a golpear puertas para juntar el dinero, sino que todos los sponsors fueron por contactos de gente que está en Python Argentina (ya sea porque trabajan o son dueños de las empresas que patrocinaron el evento). Hay dos puntos que son muy importantes: uno es que el presupuesto tiene que estar escalonado de manera que si no se junta todo el dinero, se pueda distribuir lo que se junto de manera que maximice los beneficios para la conferencia; el otro es que hay que tratar de empezar a juntar el dinero lo antes posible, porque *gastar* el dinero (o sea, ejecutar el presupuesto) no es trivial y lleva más tiempo del pensado. También, como organización no legal (sin personería jurídica), hay que pensar cómo juntar el dinero... nosotros por suerte contamos con la colaboración de la Fundación Via Libre, que nos ayudó en este punto.
 
-Infraestructura técnica para la organización: Hay muchas herramientas que se usaron para que los organizadores trabajen juntos. Teníamos un wiki para llevar anotado todo, una lista de correo para el principal intercambio de información, e IRC para algunas reuniones no presenciales que armamos (especialmente para la selección de charlas, donde participó mucha gente que vive lejos). También usamos un repositorio SVN para todos los archivos que había que guardar, especialmente los del sitio del evento. Para este último usamos `pycon-tech <https://pycon.coderanger.net/>`_, un proyecto orientado justamente a sitios de conferencias.
+Infraestructura técnica para la organización: Hay muchas herramientas que se usaron para que los organizadores trabajen juntos. Teníamos un wiki para llevar anotado todo, una lista de correo para el principal intercambio de información, e IRC para algunas reuniones no presenciales que armamos (especialmente para la selección de charlas, donde participó mucha gente que vive lejos). También usamos un repositorio SVN para todos los archivos que había que guardar, especialmente los del sitio del evento. Para este último usamos pycon-tech (EDITADO: `la url no existe más <https://pycon.coderanger.net/>`__), un proyecto orientado justamente a sitios de conferencias.
 
 El equipo: Este es uno de los principales riesgos, ya que si no se forma un grupo de gente con ganas de lograr el objetivo, con ganas de ponerse de acuerdo y trabajar con un destino común, puede llegar a suceder que no se logre armar un buen evento sólo por culpa de los organizadores mismos. Hay que tener en cuenta que en un evento organizado desde la participación voluntaria podemos tener gente que arranque y que luego no pueda terminar en el equipo, o que puede haber gente que se sume durante el camino. ¡Y el equipo es una de las primeras cosas que hay que definir! Es por esto que es crítico que el Coordinador General del evento tenga el suficiente arrastre y empuje en la comunidad como para poder tener el equipo armado pronto y trabajando positivamente durante todos los meses del evento.
 
@@ -96,29 +96,29 @@ Comentarios
 
 Por último, quiero dejarles la otra cara de la moneda: muchos comentarios que fui levantando por ahí de **asistentes** a la conferencia:
 
-`chaghi <http://chaghi.com.ar/blog/post/2009/09/06/pycon_argentina_2009>`__: La conferencia estuvo EXCELENTE, empezando por el material de registración, siguiendo por la organización general, el lugar, la coordinación, las charlas, la versión impresa del tutorial en español, las keynotes de Jacob Kaplan-Moss y Collin Winter, y toda la cosa social que hubo alrededor.
+- `chaghi <http://chaghi.com.ar/blog/post/2009/09/06/pycon_argentina_2009>`__: La conferencia estuvo EXCELENTE, empezando por el material de registración, siguiendo por la organización general, el lugar, la coordinación, las charlas, la versión impresa del tutorial en español, las keynotes de Jacob Kaplan-Moss y Collin Winter, y toda la cosa social que hubo alrededor.
 
-`xavierlesa <http://twitter.com/xavierlesa/statuses/3800597144>`_: muy buenas las charlas del #pyconar09, el que se la perdió se jodió!
+- `xavierlesa <http://twitter.com/xavierlesa/statuses/3800597144>`_: muy buenas las charlas del #pyconar09, el que se la perdió se jodió!
 
-`felipelerena <http://twitter.com/felipelerena/statuses/3819463026>`_: no twitee nada de la #pyconar09 fue FAN TAS TI CA
+- `felipelerena <http://twitter.com/felipelerena/statuses/3819463026>`_: no twitee nada de la #pyconar09 fue FAN TAS TI CA
 
-`santiycr <http://twitter.com/santiycr/statuses/3793321988>`_: Back home from the PyCon. Learned a lot, the event was flawless, kudos to the organizers. #pyconar09
+- `santiycr <http://twitter.com/santiycr/statuses/3793321988>`_: Back home from the PyCon. Learned a lot, the event was flawless, kudos to the organizers. #pyconar09
 
-`achuni <http://anthony.lenton.com.ar/2009/09/07/pycon-argentina-2009/en/>`_: It was our first PyCon in Argentina, and we weren't expecting it to be so successful. With no international publicity (other than the public mailing list archive, banners on blogs and such) we had people coming from Peru, Paraguay and Colombia. And thanks to a few well placed reminders, unlike the vast majority of the FOSS related conferences in Argentina lately, as far as I know nobody had anything stolen during the conference. I must say everybody from the organization did an impressive job, I hope PyConAr 2010 (this time in Córdoba) goes just as well.
+- achuni (EDITADO: `la url no existe más <http://anthony.lenton.com.ar/2009/09/07/pycon-argentina-2009/en/>`__): It was our first PyCon in Argentina, and we weren't expecting it to be so successful. With no international publicity (other than the public mailing list archive, banners on blogs and such) we had people coming from Peru, Paraguay and Colombia. And thanks to a few well placed reminders, unlike the vast majority of the FOSS related conferences in Argentina lately, as far as I know nobody had anything stolen during the conference. I must say everybody from the organization did an impressive job, I hope PyConAr 2010 (this time in Córdoba) goes just as well.
 
-`rhfixer <http://twitter.com/rhfixer/statuses/3787345646>`_: Muy buena la #pyconar09, mis felicitaciones a los organizadores y disertantes. ¡Un honor haber asistido!
+- rhfixer (EDITADO: `la url no existe más <http://twitter.com/rhfixer/statuses/3787345646>`__): Muy buena la #pyconar09, mis felicitaciones a los organizadores y disertantes. ¡Un honor haber asistido!
 
-`chaghi <http://twitter.com/chaghi/statuses/3788467681>`__: Excelente segundo día de #pyconar09. Muy buenas charlas, lightning talks, plenaria, sorteo, y cierre emotivo. Un lujo.
+- `chaghi <http://twitter.com/chaghi/statuses/3788467681>`__: Excelente segundo día de #pyconar09. Muy buenas charlas, lightning talks, plenaria, sorteo, y cierre emotivo. Un lujo.
 
-`michelpeterson <http://twitter.com/michelpeterson/statuses/3786073277>`_: #pyconar09 has come to an end and let me say that it exceeded my expectations. Congrats to everyone involved!
+- `michelpeterson <http://twitter.com/michelpeterson/statuses/3786073277>`_: #pyconar09 has come to an end and let me say that it exceeded my expectations. Congrats to everyone involved!
 
-`frapell <http://frapellito.blogspot.com/2009/09/pycon-argentina-2009.html>`_: En primer lugar, la conferencia estuvo fabulosamente bien organizada, todo salio espectacular y no hubo problemas (bueno, un pequeñito corte de luz justo cuando dabamos nuestra charla, pero obviamente no tuvo nada que ver con la organizacion del evento) asi que felicitaciones realmente a toda la gente involucrada porque fue un laburo admirable.
+- `frapell <http://frapellito.blogspot.com/2009/09/pycon-argentina-2009.html>`_: En primer lugar, la conferencia estuvo fabulosamente bien organizada, todo salio espectacular y no hubo problemas (bueno, un pequeñito corte de luz justo cuando dabamos nuestra charla, pero obviamente no tuvo nada que ver con la organizacion del evento) asi que felicitaciones realmente a toda la gente involucrada porque fue un laburo admirable.
 
-`robertoallende <http://twitter.com/robertoallende/status/3796372569>`_: PyConAr is over. This was the most inspiring event i had been ever. Re Plone: 3 talks, 1 lighting talk. #pycon 2010 : Cordoba! (sept/oct)
+- `robertoallende <http://twitter.com/robertoallende/status/3796372569>`_: PyConAr is over. This was the most inspiring event i had been ever. Re Plone: 3 talks, 1 lighting talk. #pycon 2010 : Cordoba! (sept/oct)
 
-`technophilic <http://www.santiagorojo.com.ar/2009/09/pycon-argentina-2009/>`_: ...pero en realidad lo que quiero destacar de la conferencia, es que fue completamente gratuita, y el nivel estuvo a la altura de cualquier otra en la que haya que pagar un entrada para poder participar.
+- technophilic (EDITADO: `la url no existe más <http://www.santiagorojo.com.ar/2009/09/pycon-argentina-2009/>`__): ...pero en realidad lo que quiero destacar de la conferencia, es que fue completamente gratuita, y el nivel estuvo a la altura de cualquier otra en la que haya que pagar un entrada para poder participar.
 
-Ah! Y `fotos <http://www.flickr.com/photos/54757453@N00/sets/72157622207921223/>`__, `fotos <http://www.flickr.com/photos/blmurch/>`__, `fotos <http://gallery.atpic.com/30241>`__, `fotos <http://www.flickr.com/photos/tags/pyconar09/>`__, `fotos <http://picasaweb.google.com/frapell/PyConArgentina2009#>`__.
+Ah! Y `fotos <http://www.flickr.com/photos/54757453@N00/sets/72157622207921223/>`__, `fotos <http://www.flickr.com/photos/blmurch/>`__, `fotos <http://gallery.atpic.com/30241>`__, `fotos <http://www.flickr.com/photos/tags/pyconar09/>`__.
 
 .. image:: /images/pyconar09/felices5.png
     :alt: El Gran Grossini nos saluda!

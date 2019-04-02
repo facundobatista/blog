@@ -5,7 +5,7 @@
 Actitud
 -------
 
-No es la `primera vez </posts/0007>`_ que menciono a `Miguel <http://primates.ximian.com/~miguel/activity-log.php>`_ o `Nat <http://nat.org/blog>`_, pero quiero destacar algo que me llama la atención.
+No es la `primera vez </posts/0007>`_ que menciono a `Miguel <https://tirania.org/blog/>`_ o `Nat <http://nat.org>`_, pero quiero destacar algo que me llama la atención.
 
 Hay veces que le mando un mail a un amigo preguntándole algo, o a un compañero de trabajo, y nunca recibo respuesta. Si siguen mi post anterior, verán que Miguel y Nat son gente que debe estar medianamente ocupada también. Sin embargo, siempre que  (yo, que no me conocen) les mandé un mail preguntándoles algo, me contestaron (la última vez fue hoy, para preguntarle a Nat si podía citarlo, ver más abajo).
 
@@ -15,7 +15,7 @@ Estoy convencido de que es la actitud correcta (y es la que tendría yo), lo que
 Blogs
 -----
 
-Agregué en la barra de enlaces, en Frecuentes (a la derecha abajo), el blog de `Nat <http://nat.org/blog>`_. Y aprovechando que Laura finalmente se decidió por la dirección final, punteros tanto a su `blog <http://lalyum.blogspot.com/>`_ como también a su `flog <http://www.fotolog.net/lalyum/>`_.
+Agregué en la barra de enlaces, en Frecuentes (a la derecha abajo), el blog de `Nat <http://nat.org/>`_. Y aprovechando que Laura finalmente se decidió por la dirección final, punteros tanto a su `blog <http://lalyum.blogspot.com/>`_ como también a su `flog <http://www.fotolog.net/lalyum/>`_.
 
 
 Citas

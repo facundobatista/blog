@@ -6,7 +6,7 @@ Hoy en el Subte corrí el riesgo de que me tomaran por loco: estaba muy
 seriecito leyendo y de repente estallé en una carcajada.
 
 El motivo de mi reacción fue el comentario de un muchacho llamado Nat
-Friedman en su `blog <http://nat.org/blog>`_:
+Friedman en su `blog <https://nat.org/>`_:
 
     The day they (Microsoft) offered me a job five years ago, the
     employment brochure (which I just found the other day, cleaning out my
@@ -36,7 +36,7 @@ Esta compañía es Ximian, que fue vendida a Novell por más de 15
 millones de dólares.
 
 Y el mejicano sucio es `Miguel de Icaza
-<http://primates.ximian.com/~miguel/activity-log.php>`_, quien fundó y
+<https://tirania.org/blog/>`_, quien fundó y
 llevó adelante proyectos chicos, como `Midnight Commander
 <http://www.ibiblio.org/mc/>`_; proyectos que cambiaron el escenario
 del software mundial, como `GNOME <http://www.gnome.org/>`_; y
