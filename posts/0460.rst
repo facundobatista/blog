@@ -11,7 +11,7 @@ La escala fue en Madrid a la madrugada, y al mediodía ya estaba en Bélgica. De
 .. image:: /images/udsm-estactren.jpg
     :alt: Estación de tren en Bélgica
 
-Llegué a la habitación (que comparto con `John <http://pyvore.com/>`_, pero él ya estaba desde la semana pasada), desensillé, nos comimos una ensalada, y descansé un rato hasta la reunión al atardecer.
+Llegué a la habitación (que comparto con `John <https://twitter.com/chipaca>`_, pero él ya estaba desde la semana pasada), desensillé, nos comimos una ensalada, y descansé un rato hasta la reunión al atardecer.
 
 Allí nos contaron algunas cosas en las que Canonical se enfocará para el próximo ciclo, cosas que todavía no se conocen pero van a hacerse públicas durante la semana.
 

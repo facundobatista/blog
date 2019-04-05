@@ -2,7 +2,7 @@
 .. date: 2010-09-05 13:48:24
 .. tags: Python Argentina, PyAr, historia
 
-*El siguiente texto formó parte de la Primera Edición de `PET - Python Entre Todos <http://revista.python.org.ar/>`_, la revista de PyAr. Tiene un montón de artículos copados, y la pueden ver online, o bajarla en PDF en distintos formatos. En la semana va a salir el mismo número, pero en inglés, y esperamos una segunda edición prontito. ¡Disfrútenla!*
+*El siguiente texto formó parte de la Primera Edición de PET - Python Entre Todos (EDITADO: `la url no existe más <http://revista.python.org.ar/>`__), la revista de PyAr. Tiene un montón de artículos copados, y la pueden ver online, o bajarla en PDF en distintos formatos. En la semana va a salir el mismo número, pero en inglés, y esperamos una segunda edición prontito. ¡Disfrútenla!*
 
 *Ahora, el artículo.*
 

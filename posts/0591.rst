@@ -4,7 +4,7 @@
 
 Hace alguna semanas ví un tuit sobre la posibilidad de ayudar con la revista on line `Hackers & Developers <http://www.hdmagazine.org/>`_, un magazine digital de distribución mensual sobre Software Libre, Hacking y Programación.
 
-La revista está interesante, y se nota que le ponen un montón de laburo atrás. Entonces, me pareció copado ayudar. Lamentablemente no tengo tiempo para ponerme a escribir artículos desde cero (habrán notado cuanto participé en otras iniciativas como `PET, la revista de Python Argentina. <http://revista.python.org.ar/>`_.. más allá de algo puntual, no tuve tiempo tampoco de escribir nada nuevo).
+La revista está interesante, y se nota que le ponen un montón de laburo atrás. Entonces, me pareció copado ayudar. Lamentablemente no tengo tiempo para ponerme a escribir artículos desde cero (habrán notado cuanto participé en otras iniciativas como PET, la revista de Python Argentina (EDITADO: `la url no existe más <http://revista.python.org.ar/>`__)... más allá de algo puntual, no tuve tiempo tampoco de escribir nada nuevo).
 
 Pero, hay algo que sí me da el tiempo y es revisar algún que otro artículo. O sea, agarrar un artículo de Python y asegurarme que esté (a nivel de Python, no de castellano) correcto.
 
