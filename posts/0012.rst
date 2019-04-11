@@ -10,4 +10,4 @@ Realmente no tiene muchas modificaciones con respecto a sus anteriores versiones
 
 La otra característica que me encanta es cómo se buscan palabras o frases en la página. Comparada con la interfaz de búsqueda del Internet Explorer, que era obsoleta en 1996, la barra de búsqueda de Firefox es fantástica: permite irse desplazándose entre las coincidencias, realimenta al usuario mientras escribe sobre si está o no lo que está buscando, permite resaltar las coincidencias, etc. y todo de una forma completamente intuitiva y no intrusiva: ¡tienen que probarlo!.
 
-Si quieren conocer más características de este fantástico navegador, sigan con la descripción de `Chaghi <http://www.chaghi.com.ar/blog/post/1/16>`_.
+Si quieren conocer más características de este fantástico navegador, sigan con la descripción de `Chaghi <https://chaghi.com.ar/blog/fuego/>`_.

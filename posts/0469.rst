@@ -29,7 +29,7 @@ El juego terminaba en un bar, donde tomamos algo, y volvimos al hotel a eso de l
 .. image:: /images/viajelondres/cenachino.jpg
     :alt: Cenando chino
 
-Al otro día también fuimos al otro hotel a trabajar, pero en esta oportunidad llevamos las laptops, y laburamos en distintos proyectitos de dos horas de duración cada una. La idea era meterle mano a distintas tecnologías para que todos las conozcamos más allá de la teoría (aunque no todos vayamos a laburar en ellas todo el tiempo). Lo que más me gustó fue usar `CouchDB <http://couchdb.es/que-es-couchdb/>`_ desde Python, y también trabajar con `AMQP <http://www.amqp.org/confluence/display/AMQP/Advanced+Message+Queuing+Protocol>`_.
+Al otro día también fuimos al otro hotel a trabajar, pero en esta oportunidad llevamos las laptops, y laburamos en distintos proyectitos de dos horas de duración cada una. La idea era meterle mano a distintas tecnologías para que todos las conozcamos más allá de la teoría (aunque no todos vayamos a laburar en ellas todo el tiempo). Lo que más me gustó fue usar `CouchDB <http://couchdb.apache.org/>`_ desde Python, y también trabajar con `AMQP <https://es.wikipedia.org/wiki/Advanced_Message_Queuing_Protocol>`_.
 
 Luego de las seis volvimos al hotel pero en seguida partimos hacia un picnic donde iba a estar mucha gente de la empresa. Paramos en el medio a comprar algo de morfi en un supermercado, y llegamos luego de caminar como una hora (sí, seguimos caminando...). El picnic estuvo bien, y hasta jugamos un rato al fútbol en algo súper caótico que incluía a más o menos veinte varones y cuatro mujeres de los cuales un 4% sabía algo de fútbol, en una canchita provisoria armada entre los árboles...
 

@@ -21,7 +21,7 @@ En ese restaurant me encontré con una señora que era chilena. En total, en est
 EuroPython, día 6
 -----------------
 
-El título miente un poco, porque no era un día oficial de EuroPython para mí, ya que tenía sólo dos días de sprint luego de la conferencia. Sin embargo, el sábado me fuí a donde se juntaban los chicos de PyPy, porque quería chequear mails y trabajar un poquito en `SiGeFi <http://sourceforge.net/projects/sigefi>`_. También quería arreglar con `Holger Krekel <http://www.ccc.de/congress/2004/fahrplan/speaker/87.de.html>`_ porque él quería que vayamos todos (o al menos él, Gustavo y yo, porque él puede ver al resto más seguido, están todos en Europa) al cine, a ver `The Hitchhiker's Guide to the Galaxy <http://www.thefilmfactory.co.uk/hitchhikers/global/index.html>`_.
+El título miente un poco, porque no era un día oficial de EuroPython para mí, ya que tenía sólo dos días de sprint luego de la conferencia. Sin embargo, el sábado me fuí a donde se juntaban los chicos de PyPy, porque quería chequear mails y trabajar un poquito en `SiGeFi <http://sourceforge.net/projects/sigefi>`_. También quería arreglar con `Holger Krekel <https://twitter.com/hpk42?lang=es>`_ porque él quería que vayamos todos (o al menos él, Gustavo y yo, porque él puede ver al resto más seguido, están todos en Europa) al cine, a ver `The Hitchhiker's Guide to the Galaxy <https://www.imdb.com/title/tt0371724/reference>`_.
 
 Buscamos un poquito por internet justo antes de que yo me vaya y no encontramos nada, así que arreglamos llamarnos para ver que hacíamos. Yo me fuí al mediodía de allí, pasé por el campus a dejar algunas cosas, y luego estuve paseando por el centro, que era la zona que me faltaba, hasta eso de las siete de la tarde.
 
