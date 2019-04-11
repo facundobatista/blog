@@ -16,4 +16,4 @@ Razonando mientras escribo, quizás sería interesante armar un Sprint sobre Mon
 
 *Actualización: Estuve charlando con Alex Martelli, y llegamos a la conclusión que lo mejor es tener un Open Space (sería como una charla abierta sobre un tema; muy piola para discutir especificaciones) aquí mismo en PyCon, continuar el desarrollo de las especificaciones por la lista luego, y armar un Sprint para implementar Money en EuroPython.*
 
-Mi último trabajo de los Sprints fue armar la `presentación de PyAr <http://www.taniquetil.com.ar/homedevel/presents/pyar.sxi>`_. Estoy viendo lo de pedir una URL piola, ¡quizás se nos de!
+Mi último trabajo de los Sprints fue armar la `presentación de PyAr <http://www.taniquetil.com.ar/homedevel/presents/pyar.odp>`_. Estoy viendo lo de pedir una URL piola, ¡quizás se nos de!

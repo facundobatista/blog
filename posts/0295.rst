@@ -36,7 +36,7 @@ No internet, no paseo
 
 Ok, sin acceso a la red. No podía revisar mail, no podía entrar en IRC en #pyar, y no podía buscarlo a Lucio en el IM para hablar de la charla que estamos preparando. Pero como tenía laburo que hacer en la máquina, no me preocupé.
 
-Estoy haciendo un programita para mostrar texto como presentación en filminas, y como dice mi amigo `Karucha <http://www.karuchin.com.ar/wordpress/>`_, con Python se puede programar sin tener acceso a internet. Uno tarda más en encontrar la info, pero está, y pude avanzar bastante en mi sistema hasta que me fui a dormir.
+Estoy haciendo un programita para mostrar texto como presentación en filminas, y como dice mi amigo `Karucha <https://twitter.com/hectorksanchez>`_, con Python se puede programar sin tener acceso a internet. Uno tarda más en encontrar la info, pero está, y pude avanzar bastante en mi sistema hasta que me fui a dormir.
 
 Al otro día me levanté temprano, me bañé y luego de desayunar me tomé un bus hasta el aeropuerto. Todo sin novedad, hasta que llegué al "charlsdegol" de París, donde tenía la escala a Buenos Aires. Una escala complicada, porque tuve 11 horas de espera (sí, once, joder). Ojo, que viéndolo desde otro punto de vista, me daba tiempo para salir a la ciudad y pasear un poquito.
 
@@ -62,7 +62,7 @@ Etapa final
 
 Con la decisión tomada de quedarme en el aeropuerto, tuve tiempo para trabajar en el sistemita que estoy haciendo. Mucho tiempo. Horas.
 
-Pero encontré un lugar piola para sentarme, sin gente que rompa las bolas, con enchufe, un monitor cerca para ver que no se me vaya el avión, y pude trabajar tranquilo. También aproveché para escribir algo de esto, ver un video de `cómo dar vuelta una esfera "de adentro para afuera" <http://video.google.com/videoplay?docid=-6626464599825291409>`_ (es buenísimo, ¡gracias Dave!), y un capítulo de los `Expedientes X <http://es.wikipedia.org/wiki/The_X-Files>`_ (voy por la cuarta temporada).
+Pero encontré un lugar piola para sentarme, sin gente que rompa las bolas, con enchufe, un monitor cerca para ver que no se me vaya el avión, y pude trabajar tranquilo. También aproveché para escribir algo de esto, ver un video de cómo dar vuelta una esfera "de adentro para afuera" (EDITADO: `la url no existe más <http://video.google.com/videoplay?docid=-6626464599825291409>`__) (es buenísimo, ¡gracias Dave!), y un capítulo de los `Expedientes X <http://es.wikipedia.org/wiki/The_X-Files>`_ (voy por la cuarta temporada).
 
 Luego el viaje, que no se me hizo tan largo porque entre dormir, ver una peli, laburar en la laptop lo que dura la batería, cenar, desayunar, y leer un rato, creo que me aburrí diez minutos...
 
