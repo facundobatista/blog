@@ -8,6 +8,6 @@ A ese proceso siguió uno de buscar en You Tube también los videos según la m�
 
 Obviamente todo esto no fue un proceso rápido, y es por eso que me casi llevó un año, :p.
 
-Para administrarlos prolijos, me hice `un programita <http://www.taniquetil.com.ar/homedevel/devel/collect_video_info.py>`_ que me arma `un reporte de todos los videos <http://www.taniquetil.com.ar/facundo/bdvfiles/videoclips.html>`_, indicando intérprete, tema, la duración, cuanto pesan, y el formato, más info de la parte de video y del audio.
+Para administrarlos prolijos, me hice `un programita <http://www.taniquetil.com.ar/homedevel/utils/collect_video_info.py>`_ que me arma `un reporte de todos los videos <http://www.taniquetil.com.ar/facundo/bdvfiles/videoclips.html>`_, indicando intérprete, tema, la duración, cuanto pesan, y el formato, más info de la parte de video y del audio.
 
 Quedó lindo. Ahora a pasarlos al disco del WDTV y disfrutarlos en la tele...

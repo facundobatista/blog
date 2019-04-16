@@ -14,7 +14,7 @@ Para la otra charla me quedé en la misma habitación (sólo me acerqué a un en
 
 Saco en conclusión que en SiGeFi tenemos todo más o menos bien encarado, lo que es todo un logro considerando que ni Mariano ni yo teníamos experiencia en `l10n ni i18n <http://en.wikipedia.org/wiki/I18n>`_.
 
-Hubieron un par de horas en que no encontré ninguna charla interesante, y luego arrancaron las lightning talks. Las dos más interesantes fueron la de `twill <http://www.idyll.org/~t/www-tools/twill.html>`_ (una aplicación para testear aplicaciones web) y `Chandler <http://chandler.osafoundation.org/>`_ (realmente está quedando muy bien; está super completo, sin embargo van por la versión 0.5, y es bastante usable... ¿estamos viendo otro futuro suceso como Mozilla?)
+Hubieron un par de horas en que no encontré ninguna charla interesante, y luego arrancaron las lightning talks. Las dos más interesantes fueron la de `twill <http://ivory.idyll.org/articles/twill-and-wsgi_intercept.html>`_ (una aplicación para testear aplicaciones web) y `Chandler <http://chandler.osafoundation.org/>`_ (realmente está quedando muy bien; está super completo, sin embargo van por la versión 0.5, y es bastante usable... ¿estamos viendo otro futuro suceso como Mozilla?)
 
 La de PyAr estuvo buena, y los hice reir bastante en dos partes, una cuando les dije que cuando nos juntamos, hablamos bastante y *tomamos* bastante. Y después en el slides de las remeras, cuando les dije que *están a la venta*, hice una pausa, y la rematé con un *a sus hijos les va a encantar*, jijiji.
 
