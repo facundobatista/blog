@@ -1,0 +1,74 @@
+.. title: Sincronizando (una historia de "soltar")
+.. date: 2019-04-16 13:01:00
+.. tags: Dropbox, sync, files, archivos, nube, Magicicada
+
+En una charla nerds con amigos surgió el tema de cómo guardar "pequeñas notas" de forma piola (que se replique, que sea posible buscar, que sea más o menos simple, etc.). En su momento barajamos varias opciones, y a mí me quedó dando vueltas en la cabeza un clientito que se instala y trabaja contra `Nextcloud <https://nextcloud.com/>`_.
+
+Nextcloud es una suite de servicios alrededor de sincronizar archivos, notas, tareas, etc, y ofrece formas de armar grupos de colaboración para trabajar con todo eso. Yo puntualmente estaba interesado en lo que es sincronización de archivos, y potencialmente notas.
+
+Para mí es todo un viaje, porque tomé la decisión de que si Nextcloud funcionaba correctamente dejaba de usar `Magicicada <http://blog.taniquetil.com.ar/posts/0687/>`_ (ex Ubuntu One). Aunque estoy emocionalmente atado a ese pedazo de software, y todo lo que representó en mi carrera laboral y como evolución en Python, en algún punto entendí que NUNCA voy a tener tiempo de agregarle los features que quería para que cumpla con todo lo que quiero tener, en parte porque el tiempo que sí tengo prefiero (o preferiría) dedicárselo a otras cosas, incluso a otros proyectos de software, u otros hobbies no tan relacionados con la informática.
+
+
+La decisión
+-----------
+
+Entonces, me voy de Magicicada. Cuando internamente terminó de madurar ese proceso adentro mío, me puse a laburar seriamente con Nextcloud. Lo instalé en mi servercito casero, y funcionó. Luego, toda la fase de cómo usarlo desde cada computadora. Quise probar que sincronice archivos desde el desktop, y a priori no anduvo.
+
+Investigué un poco, creo que es por algo de la URL, y para dejar 100% como dice el manual del server le tengo que instalar SSL. Puedo para eso usar el servicio de LetsEncrypt, pero para que funcione (según entendí y probé) tengo que tener el puerto 80 accesible desde afuera. El tema es que Claro (mi proveedor de internechi) no me enruta más puerto por puerto, con lo que tendría que armar una DMZ acá en mi intranet, lo cual no es trivial (y asumiendo que el cambio de config de Claro no me rompa otra cosa y  me deje en pelotas y en la vía).
+
+Pero... pero.... pero.... pero...  Me dí cuenta que NO tengo ganas de crear todo un universo sólo para `finalmente tener una tarta de manzana <https://www.youtube.com/watch?v=LTo31PjL05c>`_ :)
+
+.. image:: /images/sync/tarta.jpeg
+    :alt: Alta tarta de manzanas
+
+Y, pensé en `Dropbox <https://www.dropbox.com>`_...
+
+Hasta ahora venía esquivando Dropbox porque es una empresa yanqui, y meter todos mis datos ahí siempre me dio escozor. Como uno no tiene control sobre la encriptación de los archivos (se encriptan al transmitirse, y teóricamente cuando están guardados, pero Dropbox posee la clave para abrirlos) pueden ver todo lo que tengo. ¿En qué me jodía? Por un lado tengo mucha música en mp3, y aunque toda esa música la bajé de CDs que legalmente compré (!) no quiero que el día de mañana me rompan las pelotas porque les parezca que estoy infringiendo copyright. Por otro lado, tengo un montón de datos sensibles que no me gustaría que queden expuestos al mundo en caso de un fallo de seguridad de Dropbox.
+
+Pero, estos dos aspectos ahora no me joden tanto. Con respecto a la música, es un riesgo que puedo correr. Con respecto a mis datos privados, hoy por hoy los tengo todos bajo `KeePassX <https://www.keepassx.org/>`_, así que todo bien ahí.
+
+Por otro lado, al mismo tiempo NO quiero todo encriptado, porque ahí ya no podría acceder a mis archivos desde el teléfono o desde la web directamente, en caso de necesitarlo, y este es un feature que sí quiero... y una de las razones fuertes para irme de Magicicada.
+
+
+El nuevo mundo
+--------------
+
+Habiendo sopesado estas variables, terminé de tomar la decisión. Me voy a Dropbox. La cuenta gratuita no me alcanza, pero la más barata sí, porque me ofrecen un terabyte de almacenamiento (puedo meter todas mis fotos y videos caseros, entre los cuales no llego a los 300GB), y cuesta USD 8.25, que por todo lo que yo uso este servicio, se justifica.
+
+Igual, antes de "tirarme a la pileta", tenía que hacer otra verificación. Dropbox, ¿funciona?
+
+Ejecuté una batería de pruebas desde mi computadora de escritorio. Funciona bien con Vim, que es complicado porque mueve/graba/mueve todo el tiempo.  Funciona bien con LibreOffice, que maneja cada documento como un directorio comprimido con montón de archivitos adentros. También le abrí un archivo ``.tar`` de pocos archivos inmensos, y otro de montonazo de pequeños archivos en una árbol grandote de directorios, y se la bancó.
+
+Y después ya en el baile le puse toda mi música, y todos mis archivos "simples" (en otras palabras, todo lo que sincronizo normalmente, excepto fotos y videos).
+
+En todos los casos, fui comprobando los hashes de todo contra lo que el mismo Dropbox bajaba en la laptop. Se la bancó.
+
+.. image:: /images/sync/bulletproof.jpeg
+    :alt: Yo, tirándole cosas a Dropbox hasta asegurarme que funca
+
+Bien, ¡funciona! ¿Tiene algunos puntos débiles o negativos? Encontré tres grandes cosas que me molestan...
+
+Por un lado, tenés que tener *todo* dentro del directorio ``$HOME/Dropbox``. Con Ubuntu One y Magicicada yo siempre tuve el directorio default de cada uno, más una de Música, una de video, y una de fotos, que eran externas. Pero Dropbox no te deja hacer eso, tiene que estar todo adentro de la misma raíz.
+
+La solución/parche que implementé es tener un ``.externals`` en ese directorio raíz, y ahí adentro la de música, fotos y videos, y desde los otros lugares hice un enlace simbólico. No es lo que más lindo queda, pero funciona. Un enlace simbólico al revés NO funciona, ya que Dropbox sincroniza el archivo del *symlink* en sí, y no el directorio al que apunta.
+
+Otro punto negativo que me pareció HORRIBLE al principio pero luego no me pegó tanto (aunque tuve que tocar un par de archivos) es que Dropbox no respeta diferencias entre mayúsculas y minúsculas. O sea, que si vos tenés un archivo ``barco`` y otro ``Barco``, Dropbox NO te sincroniza ambos, sino que uno de los dos te lo renombra para indicarte la *colisión*. Entiendo que se debe a que algunos sistemas de archivos de Windows tienen este mismo problema, pero Dropbox debería ser más inteligente y como yo tengo en todos lados Linux, no exponerme a esa limitación.
+
+Finalmente, Dropbox es bastante flojo con respecto a sus notificaciones y data que tira al usuario. En mi sistema operativo (KDE Neon sobre Ubuntu Bionic) me pone un ícono en el systray que tiene un tilde verde, y cuando está sincronizando titila algo azul. Si lo abro, junto con otra info me dice en qué estado está: normalmente en "Actualizado", a veces mostrando la operación actual, pero de forma bastante resumida.
+
+Desde linea de comandos puedo hacer ``dropbox status`` que me muestra esa misma info, pero me es más accesible. También es útil el ``dropbox ls`` o ``dropbox filestatus`` pero le falta información realmente sobre qué hizo, algo detallado que muestre en qué estado está con cada cosa, o donde poder revisar qué pasó media hora atrás... o sea, logs.
+
+.. image:: /images/sync/rawdata.jpeg
+    :alt: Quiero ver qué está haciendo, dejame ver qué está haciendo, mostrame qué está haciendo
+
+Entiendo que a la mayoría de los usuarios finales no les importe más información que esa, pero yo en algunos casos *necesito* tener más control de lo que está haciendo o pasó.
+
+
+¿Y las pequeñas notas?
+----------------------
+
+Para cerrar el ciclo con el arranque del artículo, ¿qué onda sincronizar notas? `Mariano <https://chaghi.com.ar/>`_ me dijo que usaba bastante `Zim Wiki <http://zim-wiki.org/>`_, que es 100% texto y guarda las cosas en archivos sincronizados por, claro, Dropbox.
+
+Él lo usa con el cliente que proveen en Linux y Windows, o directamente tocando el archivo de texto correspondiente en el teléfono.  Me comentó también que tiene un "buscar" que funciona, y permite agregarle etiquetas (*tags*) a las notas.
+
+Lo voy a probar.
