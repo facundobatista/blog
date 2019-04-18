@@ -4,9 +4,9 @@
 
 Estos fueron algunos de los medios en Internet en los que rebotó la noticia de la `edición 0.6 de la CDPedia <http://python.org.ar/pyar/Proyectos/CDPedia>`_...
 
-- Reparten en escuelas argentinas DVD con contenido de Wikipedia [`Infobae <http://www.infobae.com/tecnologia/496509-601275-0-Reparten-escuelas-argentinas-DVD-contenido-Wikipedia>`_]
+- Reparten en escuelas argentinas DVD con contenido de Wikipedia [`Infobae <https://www.infobae.com/2010/01/21/496509-buscan-repartir-escuelas-argentinas-dvd-contenido-wikipedia/>`_]
 
-- CDPedia: una Wikipedia en CD para quienes no tienen Internet [`RedUSERS <http://www.redusers.com/llega-cdpedia-una-wikipedia-en-cd-para-quienes-no-tienen-internet>`_]
+- CDPedia: una Wikipedia en CD para quienes no tienen Internet [`RedUSERS <http://www.redusers.com/noticias/llega-cdpedia-una-wikipedia-en-cd-para-quienes-no-tienen-internet/>`_]
 
 - CDpedia busca llevar la Wikipedia a escuelas de todo el país sin conexión [`CanalAR <http://www.canal-ar.com.ar/noticias/noticiamuestra.asp?Id=8452>`_]
 
@@ -14,7 +14,7 @@ Estos fueron algunos de los medios en Internet en los que rebotó la noticia de 
 
 - CDPedia 0.6 [`Viva Linux! <http://www.vivalinux.com.ar/soft/cdpedia-0.6>`_]
 
-- Nueva versión de la CDPedia [`Dominio Digital <http://www.dominiodigital.com.ar/novs_noticias.php>`_]
+- Nueva versión de la CDPedia [Dominio Digital (EDITADO: `la url no existe más <http://www.dominiodigital.com.ar/novs_noticias.php>`__)]
 
 - La Wikipedia se distribuirá en CD en Argentina [`WikiNoticias <http://es.wikinews.org/wiki/La_Wikipedia_se_distribuir%C3%A1_en_CD_en_Argentina>`_]
 
@@ -22,17 +22,17 @@ Estos fueron algunos de los medios en Internet en los que rebotó la noticia de 
 
 Pero no sólo en castellano, sino que también tuvimos noticias en otros idiomas/paises:
 
-- South American project shrinks Wikipedia to a CD [`TechEye <http://www.techeye.net/software/cdpedia-wikipedia-on-cd-thanks-to-python>`_]
+- South American project shrinks Wikipedia to a CD [TechEye (EDITADO: `la url no existe más <http://www.techeye.net/software/cdpedia-wikipedia-on-cd-thanks-to-python>`__)]
 
 - Wikipedia squeezed onto a single CD [`TG Daily <http://www.tgdaily.com/software-features/48241-wikipedia-squeezed-onto-a-single-cd>`_]
 
-- `Rusia <http://www.ruformator.ru/news/article06125/default.asp>`_
+- Rusia (EDITADO: `la url no existe más <http://www.ruformator.ru/news/article06125/default.asp>`__)
 
 - `China <http://product.ccidnet.com/art/9233/20100202/1992387_1.html>`_
 
-- `Turquía <http://teknoloji.milliyet.com.tr/wikipedia-yi-nereye-soktular-/internet/haberdetay/01.02.2010/1193412/default.htm>`_
+- Turquía (EDITADO: `la url no existe más <http://teknoloji.milliyet.com.tr/wikipedia-yi-nereye-soktular-/internet/haberdetay/01.02.2010/1193412/default.htm>`__)
 
-- `Indonesia <http://teknologi.vivanews.com/news/read/125781-cdpedia__wikipedia_dalam_cd_dan_dvd>`_
+- Indonesia (EDITADO: `la url no existe más <http://teknologi.vivanews.com/news/read/125781-cdpedia__wikipedia_dalam_cd_dan_dvd>`__)
 
 Ah, y también salí al aire en la `FM La Tribu <http://fmlatribu.com/>`_, en una entrevista a este respecto.
 

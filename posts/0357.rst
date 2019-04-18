@@ -4,11 +4,11 @@
 
 El fin de semana del 21 y 22 de Junio se hará un Python Bug Day.
 
-En Python Argentina nos vamos a juntar en distintos lados. En Buenos Aires, el 21 en `oficinas de Livra <http://geeks.livra.com/index.php/python-bug-day/>`_, y parece que todo el finde, en Santa Fé, en casa de `Humitos <http://humitos.wordpress.com/>`_.
+En Python Argentina nos vamos a juntar en distintos lados. En Buenos Aires, el 21 en oficinas de Livra (EDITADO: `la url no existe más <http://geeks.livra.com/index.php/python-bug-day/>`__), y parece que todo el finde, en Santa Fé, en casa de `Humitos <https://elblogdehumitos.com/>`_.
 
-La idea es trabajar en los `bugs de Python <http://www.taniquetil.com.ar/facundo/py_tickets.html>`_, e ir resolviéndolos. La coordinación entre todos los desarrolladores y participantes se hará por el canal de IRC #python-dev, en Freenode, pero seguro que localmente también discutiremos algo en #pyar (ya que ahí lo podemos hacer en castellano).
+La idea es trabajar en los `bugs de Python <https://bugs.python.org/>`_, e ir resolviéndolos. La coordinación entre todos los desarrolladores y participantes se hará por el canal de IRC #python-dev, en Freenode, pero seguro que localmente también discutiremos algo en #pyar (ya que ahí lo podemos hacer en castellano).
 
-Para participar no hace falta más que ganas y algunos conocimientos mínimos. Tengan en cuenta que hay errores y detalles de todo tipo: unos que hay que programar en Python, otros en C, algunos que lo que falta es alguna prueba e incluso otros que ni siquiera hay que programar, sino corregir algo en la documentación. Para comenzar con algo sencillo, hay una lista de aquellos `bugs que son fáciles <http://www.taniquetil.com.ar/cgi-bin/pytickets.py?nropag=0&priority=0&severity=0&component=0&version=0&keyword=6>`_.
+Para participar no hace falta más que ganas y algunos conocimientos mínimos. Tengan en cuenta que hay errores y detalles de todo tipo: unos que hay que programar en Python, otros en C, algunos que lo que falta es alguna prueba e incluso otros que ni siquiera hay que programar, sino corregir algo en la documentación. Para comenzar con algo sencillo, hay una lista de aquellos `bugs que son fáciles <https://bugs.python.org/issue?%40search_text=&ignore=file%3Acontent&title=&%40columns=title&id=&%40columns=id&stage=&creation=&creator=&activity=&%40columns=activity&%40sort=activity&actor=&nosy=&type=&components=&versions=&dependencies=&assignee=&keywords=6&priority=&status=1&%40columns=status&resolution=&nosy_count=&message_count=&%40group=&%40pagesize=50&%40startwith=0&%40sortdir=on&%40action=search>`_.
 
 La idea es participar, divertirse, y aprender.
 
