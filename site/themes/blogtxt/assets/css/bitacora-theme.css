@@ -427,6 +427,11 @@ input[type="checkbox"]:checked + label::before {
   color: #cf4a59;
 }
 
+ul.simple {
+  padding-left: 2em;
+}
+
+
 ul.tags {
   list-style: none;
   color: #cf4a59;
