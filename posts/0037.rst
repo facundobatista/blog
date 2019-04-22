@@ -4,7 +4,7 @@
 
 De nuevo en la ruta. Bueno, para ser exactos, ruta aérea, parece que viajar en avión se ha vuelto mi deporte preferido.
 
-Notarán un cierto cambio de estilo en mi blog, sin fotos (¡me llevaba bastante tiempo encontrar en Internet imágenes relacionadas!), con un discurso más suelto (por lo pronto, lo reviso una sola vez), y con más texto (banquenselán, che). Es un experimento que estoy haciendo, influído por `El Diario de Nantes <http://tira.escomposlinux.org/DiarioNantes/Diario.html>`_, el cual me gustó muchísimo.
+Notarán un cierto cambio de estilo en mi blog, sin fotos (¡me llevaba bastante tiempo encontrar en Internet imágenes relacionadas!), con un discurso más suelto (por lo pronto, lo reviso una sola vez), y con más texto (banquenselán, che). Es un experimento que estoy haciendo, influido por El Diario de Nantes (EDITADO: `la url no existe más <http://tira.escomposlinux.org/DiarioNantes/Diario.html>`__), el cual me gustó muchísimo.
 
 
 Logística
@@ -24,7 +24,7 @@ Antes de bañarme fui a buscar a Romina, que le prestaba el auto mientras estaba
 Buenos Aires - Miami
 --------------------
 
-Nunca hice una cola tan larga, ni para el check-in ni para pasar a la zona de compuertas. Pero llegué a tiempo, :). Los pibes de American Airlines (AA) están un poco paranoicos, supongo que como todos los yanquis. Antes de hacer el check-in se pasa por la zona "de seguridad", como le dicen ellos. Allí te hacen preguntas como "¿Quién armó las valijas?", "¿Entre que las armaste y las trajiste, donde estuvieron?", "¿Estás llevando algo que te dió algún desconocido?". Hombre, como que si uno le fuese a contestar que lleva una pasta que le dió un barbudo con pinta de árabe...
+Nunca hice una cola tan larga, ni para el check-in ni para pasar a la zona de compuertas. Pero llegué a tiempo, :). Los pibes de American Airlines (AA) están un poco paranoicos, supongo que como todos los yanquis. Antes de hacer el check-in se pasa por la zona "de seguridad", como le dicen ellos. Allí te hacen preguntas como "¿Quién armó las valijas?", "¿Entre que las armaste y las trajiste, donde estuvieron?", "¿Estás llevando algo que te dió algún desconocido?". Hombre, como que si uno le fuese a contestar que lleva una pasta que le dio un barbudo con pinta de árabe...
 
 Interesante la situación que se desarrolló al entrar al avión. Entramos, buscamos los lugares, nos sentamos, y allí estábamos todos los pasajeros esperando que "arranquemos". De repente, se apagó todo. ¡Todo!. Las luces, el audio, las pantallas de televisión, ¡todo!. La gente se puso nerviosa, se las escuchaba murmurar por lo bajo. Al minuto o dos el capitán informa por parlantes que este avión no tiene el equipo para generar electricidad cuando está parado, y que se les desenganchó el cable de electricidad que los alimenta desde el aeropuerto, que o vuelven a conectar el cable o recién tendremos energía cuando arranquen las turbinas. A los dos minutos, volvió la energía, y la gente respiró aliviada. Fue una lástima, porque estaba lindo todo oscuro. Fue divertido.
 
@@ -36,7 +36,7 @@ Dormí casi todo el viaje (yo no sé para que pasan películas los pibes estos),
 
 Yo agarré la valija, puse la mejor cara de boludo (vamos, vamos, que la tengo bien practicada), y enfilé para la aduana. Me agarró de volea uno de seguridad y me dijo: *That way!* (por allá), yo doblé y seguí caminando a donde apuntaba, que no era otra cosa que la máquina donde se despacha el equipaje para el tramo final. O sea, ni me preguntaron que llevaba o dejaba de llevar.
 
-Con respecto a la seguridad en el equipaje, había un cartel que indicaba que cierres las valijas con `candados aprobados por la TSA <http://www.kriptopolis.com/imprimir.php?id=181_0_1_0>`_, lo cual le permite a la seguridad del aeropuerto abrirte la valija en cualquier momento si necesitan/quieren hacerlo. Si tiene un candado que no es de ese tipo, ¡te lo rompen! (al candado). A mi me causaba gracia que la única seguridad de mi valija sea un envoltorio de plástico...
+Con respecto a la seguridad en el equipaje, había un cartel que indicaba que cierres las valijas con `candados aprobados por la TSA <http://www.elproximoviaje.com/cerraduras-y-candados-autorizados-por-la-tsa-para-entrar-a-estados-unidos/>`_, lo cual le permite a la seguridad del aeropuerto abrirte la valija en cualquier momento si necesitan/quieren hacerlo. Si tiene un candado que no es de ese tipo, ¡te lo rompen! (al candado). A mi me causaba gracia que la única seguridad de mi valija sea un envoltorio de plástico...
 
 En este pais están atrasadísimos. El aeropuerto de Miami, punto neurálgico de los viajes de la parte norte de América, ¡no tiene WiFi! (WiFi es la manera actual de conectarse a Internet de forma inalámbrica, sin cables, muy piola para las laptops). En el séptimo piso hay un locutorio que te da el servicio pero te cobra 5 dólares la media hora (los cuales no pienso pagar). En Argentina no solo tenés WiFi en el aeropuerto, sino hasta en los café de McDonald's! Conclusión, tengo que esperar seis horas y no tengo internet, por lo que estuve escribiendo parte de esto, trabajando en la biblioteca de SMPP que estoy armando, leyendo, y boludeando un rato.
 
