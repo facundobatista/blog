@@ -1,0 +1,37 @@
+.. title: Seminario Python, nivel medio/avanzado
+.. date: 2019-04-22 11:59:00
+.. tags: curso, Python, Onapsis, avanzado
+
+Por segunda oportunidad voy a dar un Seminario de Python abierto al público en general, coordinado con Onapsis, aunque esta vez no va a ser introductorio sino que va a tener un nivel de medio a avanzado.
+
+El contenido apunta a aquelles que ya tienen una base de Python y buscan formalizar conocimientos y terminar de establecer una estructura que les permita explorar temas más avanzados. De esta manera sólo voy a hacer un repaso rápido de los temas más simples, y haré foco en cuestiones más avanzadas o poco conocidas del lenguaje.
+
+En otras palabras, asumiré un conocimiento de las estructuras más simples y usadas del lenguaje (que voy a repasar de forma breve) y voy a profundizar en otros temas del lenguaje y sus bibliotecas. El `programa <http://www.taniquetil.com.ar/facundo/curso-medio-avanzado.html>`_ es super variado, me entusiasmé y metí un montón de temas, así que el ritmo de las clases va a ser interesante. Vengan despiertes :p
+
+Algunos títulos (¡no todos!) son:
+
+- Generadores
+
+- Scopes
+
+- Closures y decoradores
+
+- Clases, y métodos especiales
+
+- Virtualenvs
+
+- Unit testing, logging, serialización
+
+- Concurrencia y paralelismo, threading y async
+
+- Context managers
+
+Les decía que el Seminario es abierto al público en general, y será de 16 horas en total, cuatro sábados de Junio, durante la mañana, en CABA.
+
+El costo es súper accesible, $1400, ya que parte lo cubre Onapsis, y la idea es hacerlo barato para que pueda venir la mayor cantidad de gente posible, y encima van a haber algunas becas.  Ojo que los cupos son limitados (la oficina tiene un límite), por lo que cuanto antes consigan reserva la posición, mejor... tengan en cuenta que para la primera edición hubo gente que quedó afuera.
+
+Al final del Seminario entregaré un certificado de asistencia y la totalidad del curso en formato electrónico.
+
+Para realizar la reserva deben `enviarme un mail <mailto:facundo@taniquetil.com.ar?subject=Reserva%20para%20el%20Seminario%20de%20Python>`_ así les confirmo disponibilidad y les paso los datos necesarios para realizar el pago (que podrá ser por depósito, transferencia bancaria, tarjeta de crédito, débito, etc.).
+
+Acá están `todos los detalles del curso <http://www.taniquetil.com.ar/facundo/curso-medio-avanzado.html>`_.
