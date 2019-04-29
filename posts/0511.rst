@@ -2,7 +2,7 @@
 .. date: 2011-05-03 20:01:14
 .. tags: Python, conferencia, cena, charlas
 
-El sábado pasado se hizo un nuevo `PyDay en Córdoba <http://www.pyday.com.ar/cordoba2011>`_. Algunas fotos `acá <http://www.flickr.com/photos/54757453@N00/sets/72157626509291051/>`_.
+El sábado pasado se hizo un nuevo `PyDay en Córdoba <http://www.python.org.ar/wiki/Eventos/PyDay/2011/Cordoba>`_. Algunas fotos `acá <http://www.flickr.com/photos/54757453@N00/sets/72157626509291051/>`_.
 
 Salí en avión el viernes a la tarde, en un vuelo que tuvo demora pero que me dejó en Córdoba a las seis y monedas. Me tomé un bondi, pasé un rato por lo de Naty y Matías, y me fui a cenar con Roberto Allende y Daniel Valfre, volví y a la cama
 
@@ -13,7 +13,7 @@ Las charlas del PyDay estaban separadas en dos tracks, principiante y avanzado. 
 .. image:: /images/pyday-abr11.jpeg
     :alt: Instrucciones y programa
 
-Algunas charlas que me interesaron: sobre `NLTK <http://www.nltk.org/>`_ y procesamiento de lenguaje natural, por Pablo Duboue y Rafael Carrascosa, realmente muy interesante todo lo que se puede hacer; una sobre Python, `Sugar <http://wiki.laptop.org/go/OLPC_Python_Environment>`_ y robótica, por Valentín Basel, muy groso controlar un robot físico con lo que es la evolución del `Logo <http://es.wikipedia.org/wiki/Logo_%28lenguaje_de_programaci%C3%B3n%29>`_; una sobre `MyHDL <http://www.myhdl.org/doku.php>`_ por Martín Gaitán, donde vimos como diseñar silicio usando Python; y una sobre `DBus <http://es.wikipedia.org/wiki/D-Bus>`_ por Alecu, un tema que más o menos ya sabía pero siempre se aprende algún detalle.
+Algunas charlas que me interesaron: sobre `NLTK <http://www.nltk.org/>`_ y procesamiento de lenguaje natural, por Pablo Duboue y Rafael Carrascosa, realmente muy interesante todo lo que se puede hacer; una sobre Python, `Sugar <http://wiki.laptop.org/go/OLPC_Python_Environment>`_ y robótica, por Valentín Basel, muy groso controlar un robot físico con lo que es la evolución del `Logo <http://es.wikipedia.org/wiki/Logo_%28lenguaje_de_programaci%C3%B3n%29>`_; una sobre `MyHDL <http://www.myhdl.org/>`_ por Martín Gaitán, donde vimos como diseñar silicio usando Python; y una sobre `DBus <http://es.wikipedia.org/wiki/D-Bus>`_ por Alecu, un tema que más o menos ya sabía pero siempre se aprende algún detalle.
 
 Luego vinieron las lightning talks, mi plenaria sobre "Comunidad, anarquía y subversión", y el cierre. Estuvo muy bien el evento.
 

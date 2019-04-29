@@ -5,7 +5,7 @@
 Viernes tarde-noche: Zaandijk
 -----------------------------
 
-El viernes a la tarde terminamos el curso temprano, porque los chicos de Grecia tenían que tomar el avión a las 5 de la tarde, y como debían estar dos horas antes, cortamos el curso al mediodía, después de comer. Como teníamos algunas horas de sol por delante decidimos ir a conocer alguna otra ciudad. Tenemos una guía que nos dieron en el primer taxi donde comentaban de una ciudad cercana a Amsterdam, en la que se podían encontrar algunos `molinos de viento <http://www.zaanseschans.nl/zschans/en/index.php>`_.
+El viernes a la tarde terminamos el curso temprano, porque los chicos de Grecia tenían que tomar el avión a las 5 de la tarde, y como debían estar dos horas antes, cortamos el curso al mediodía, después de comer. Como teníamos algunas horas de sol por delante decidimos ir a conocer alguna otra ciudad. Tenemos una guía que nos dieron en el primer taxi donde comentaban de una ciudad cercana a Amsterdam, en la que se podían encontrar algunos `molinos de viento <https://www.dezaanseschans.nl/>`_.
 
 Fuimos a la estación y sacamos los pasajes hasta la ciudad que indicaba la guía. Cuando llegamos allí nos encontramos con un pueblo chico, pero con una peatonal activa (aunque el centro de informaciones para turistas estaba cerrado). Como no sabíamos bien para dónde ir, preguntamos, ¡y nos dijeron que en esa ciudad no había molinos!, y que el lugar al que queríamos ir estaba dos paradas de tren más adelante.
 
@@ -23,13 +23,13 @@ Sábado: Amsterdam
 
 El sábado arrancamos temprano, luego de desayunar. Nos fuimos hasta Amsterdam donde contratamos un paseo en bote por los canales, en el que van explicando un poquito lo que ves, y tienen paradas en las que podés bajarte y volverte a subir en otro bote del mismo recorrido. Es un lindo paseo.
 
-En la primer parada nos bajamos: teníamos una feria (mercado de pulgas) y la `Casa Rembrandt <http://www.rembrandthuis.nl/cms_pages/index_main.html>`_ para ver. Pensé que la feria iba a ser interesante, pero solamente tenía cosas usadas, viejas, y caras. Pegamos dos o tres vueltas y seguimos camino.
+En la primer parada nos bajamos: teníamos una feria (mercado de pulgas) y la `Casa Rembrandt <https://www.rembrandthuis.nl/>`_ para ver. Pensé que la feria iba a ser interesante, pero solamente tenía cosas usadas, viejas, y caras. Pegamos dos o tres vueltas y seguimos camino.
 
 La Casa de Rembrandt estuvo muy interesante. Aparte de estar ambientada como en la época, decorada con los cuadros que él tenía en ese momento (propios y ajenos), hubieron dos demostraciones. La primera fue de *etching*, y la segunda de cómo preparar óleos.
 
 .. image:: /images/uff/527834346_dda7b68174_o.jpg
 
-`Etching <http://www.studiocc.com/pages/Etching%20Technique.htm>`_ es un proceso de estampado, donde primero se graba con ácido una plancha de cobre (se cubre la superficie de la plancha con un material resistente al ácido, se "dibuja" sobre ese material, elimininándolo controladamente, y se sumerge la plancha en ácido, con lo que el ácido penetra en el cobre en las partes "dibujadas") y luego se utiliza esa plancha para hacer impresiones (se pone tinta en la plancha, haciendo que la tinta entre en los surcos de la misma, luego se limpia la plancha para eliminar todos los excedentes, y se pasa por la prensa para bajar la tinta al papel). El señor que hacía la demostración usó los mismos materiales que usaba Rembrandt (notable la tinta: de huesos quemados) y la verdad que la impresión quedó muy bien.
+`Etching <https://en.wikipedia.org/wiki/Etching>`_ es un proceso de estampado, donde primero se graba con ácido una plancha de cobre (se cubre la superficie de la plancha con un material resistente al ácido, se "dibuja" sobre ese material, elimininándolo controladamente, y se sumerge la plancha en ácido, con lo que el ácido penetra en el cobre en las partes "dibujadas") y luego se utiliza esa plancha para hacer impresiones (se pone tinta en la plancha, haciendo que la tinta entre en los surcos de la misma, luego se limpia la plancha para eliminar todos los excedentes, y se pasa por la prensa para bajar la tinta al papel). El señor que hacía la demostración usó los mismos materiales que usaba Rembrandt (notable la tinta: de huesos quemados) y la verdad que la impresión quedó muy bien.
 
 La otra demostración fue dada por una chica, y comenzó explicando de dónde se saca cada pigmento para realizar los distintos colores. Piedras, huesos, plantas, tierras; todo es usado para lograr algún color. Luego de procesar cada cosa se obtiene un polvo del color necesitado, el que se mezcla con un aceite especial hasta que se logra el óleo con la consistencia necesaria. En total, el trabajo es largo, complicado y arduo, por lo que normalmente lo hacían los estudiantes de Rembrandt, no él (así cualquiera).
 

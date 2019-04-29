@@ -11,7 +11,7 @@ Magia
 
 Este cobertor de invisibilidad está hecho de material retro-reflectivo, que refleja la luz en el misma dirección que viene, ya que la capa tiene granos microscópicos en su superficie que cumplen esta función. Adicionalmente, un medio espejo permite que un espectador vea virtualmente de la posición de un proyector que envía una imagen del paisaje del fondo, siendo este fondo capturado por una cámara de vídeo detrás del objeto camuflado. Una computadora calcula la perspectiva apropiada y transforma la imagen que se proyectará, de manera de que el observador termine viendo la misma imagen que vería si el objeto que se intenta camuflar no estuviese ahí.
 
-En `este video <http://www.star.t.u-tokyo.ac.jp/projects/MEDIA/xv/images/oc-okugai3.mpg>`_ pueden ver el efecto en movimiento, realmente sorprendente. Si quieren saber más sobre esta tecnología, pueden leer `este paper <http://www.star.t.u-tokyo.ac.jp/projects/MEDIA/xv/VRIC2003.pdf>`_. Esta `noticia <http://www.theharrowgroup.com/articles/20050829/20050829.htm#_Toc112983162>`_ la levanté del Reporte de Tecnología de Harrow.
+En `este video <https://www.youtube.com/watch?v=DGgpDXluFA4>`_ pueden ver el efecto en movimiento, realmente sorprendente. Si quieren saber más sobre esta tecnología, pueden leer `este paper <https://tachilab.org/content/files/publication/ic/tachi200305VRIC.pdf>`_. Esta noticia (EDITADO: `la url no existe más <http://www.theharrowgroup.com/articles/20050829/20050829.htm#_Toc112983162>`__) la levanté del Reporte de Tecnología de Harrow.
 
 
 Firefox
