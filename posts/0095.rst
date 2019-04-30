@@ -2,7 +2,7 @@
 .. date: 2005-10-13 15:37:55
 .. tags: charla, CaFeConf, Python, UADE, buscador, booscador, PyGame
 
-Ayer di finalmente la charla "Python viene con las baterías incluídas", en el primer horario de las 4tas. Jornadas Abiertas de GNU/Linux y Software Libre: `CaFeConf 2005 <http://www.cafeconf.org/>`_.
+Ayer di finalmente la charla "Python viene con las baterías incluídas", en el primer horario de las 4tas. Jornadas Abiertas de GNU/Linux y Software Libre: `CaFeConf 2005 <https://es.wikipedia.org/wiki/CafeConf>`_.
 
 Cal y arena para la UADE. Por un lado, ofreció gentilmente el espacio para el evento. Por el otro, ocasionaron problemas organizativos que no se deberían haber sucedido, como traer el cable para el proyector sobre la hora que tenía que empezar la charla. Y encima cuando lo enchufamos, el proyector "perdía" una franja a la derecha de la pantalla.
 

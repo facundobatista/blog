@@ -6,7 +6,7 @@
 
 --------------
 
-Normalmente cuando quiero saber el informe meteorológico, me fijo en el `Servicio Meteorológico Nacional <http://www.meteofa.mil.ar/>`_. Me enteré de que tenemos otra opción, menos dependiente de los militares: Es el `Pronóstico del Tiempo <http://prono.cima.fcen.uba.ar/>`_ del `Centro de Investigaciones del Mar y la Atmósfera <http://www.cima.fcen.uba.ar/>`_ (UBA - CONICET).
+Normalmente cuando quiero saber el informe meteorológico, me fijo en el `Servicio Meteorológico Nacional <https://www.smn.gob.ar/>`_. Me enteré de que tenemos otra opción, menos dependiente de los militares: Es el `Pronóstico del Tiempo <http://tiempo.at.fcen.uba.ar/ubapronr.htm>`_ del `Centro de Investigaciones del Mar y la Atmósfera <http://www.cima.fcen.uba.ar/>`_ (UBA - CONICET).
 
 --------------
 

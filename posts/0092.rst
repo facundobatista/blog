@@ -5,7 +5,7 @@
 Charla
 ------
 
-El jueves que viene voy a dar una charla en el marco de las 4tas. Jornadas Abiertas de GNU/Linux y Software Libre: `CaFeConf 2005 <http://www.cafeconf.org/>`_. La charla se llamará "Python viene con las baterías incluídas", en referencia a todo lo que se puede hacer, de forma fácil, con la biblioteca estándar que trae incorporada.
+El jueves que viene voy a dar una charla en el marco de las 4tas. Jornadas Abiertas de GNU/Linux y Software Libre: `CaFeConf 2005 <https://es.wikipedia.org/wiki/CafeConf>`_. La charla se llamará "Python viene con las baterías incluídas", en referencia a todo lo que se puede hacer, de forma fácil, con la biblioteca estándar que trae incorporada.
 
 La entrada es libre y gratuita, solo hay que registrarse en el sitio.
 
@@ -13,7 +13,7 @@ La entrada es libre y gratuita, solo hay que registrarse en el sitio.
 Controlando a nuestros representantes
 -------------------------------------
 
-¿Querés ver quienes votaron a favor de una determinada ley? ¿O que leyes se agrupan en determinado tema? ¿Que tal saber como se comportó un determinado legislador? ¿O las tendencias de un distrito? La información es poder, y esa info está `acá <http://www.adclegislativo.org.ar/>`_.
+¿Querés ver quienes votaron a favor de una determinada ley? ¿O que leyes se agrupan en determinado tema? ¿Que tal saber como se comportó un determinado legislador? ¿O las tendencias de un distrito? La información es poder, y esa info está `acá <https://adc.org.ar/tag/monitoreo-legislativo/>`_.
 
 
 Películas

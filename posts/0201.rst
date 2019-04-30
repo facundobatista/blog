@@ -24,7 +24,7 @@ No. Yo quiero grabar un CD. Gracias.
 "Computadora, ..."
 ------------------
 
-Cuando uno ingresa un texto en la barra de direcciones del `Firefox <http://www.spreadfirefox.com/?q=affiliates&id=30445&t=64>`_, el navegador analiza ese texto y si es una dirección, la carga y ya. Pero si el formato del texto no corresponde a una dirección de internet, el Firefox realiza otra acción.
+Cuando uno ingresa un texto en la barra de direcciones del `Firefox <https://www.mozilla.org/es-AR/firefox/new/>`_, el navegador analiza ese texto y si es una dirección, la carga y ya. Pero si el formato del texto no corresponde a una dirección de internet, el Firefox realiza otra acción.
 
 En este caso, el navegador automáticamente busca ese texto en Google, pero en lugar de traer todos los resultados y mostrarlos, va automáticamente a la dirección del primer resultado que ofreció Google.
 
