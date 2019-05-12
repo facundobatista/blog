@@ -20,7 +20,7 @@ El día de charlas estuvo muy bien. Yo arranqué con `Introducción a Python <ht
 
 .. image:: /images/uff/533411715_bc8ea118c5_o.jpg
 
-A la tarde seguí yo con `Demostraciones técnicas <http://www.taniquetil.com.ar/homedevel/presents/demos_tecnicas.odp>`_ (`Procesamiento distribuido <http://www.taniquetil.com.ar/facundo/bdvfiles/code/distrib.zip>`_, `Sistema de Administración de CDs <http://www.taniquetil.com.ar/facundo/bdvfiles/code/sacd.zip>`_, `Web services <http://www.taniquetil.com.ar/facundo/bdvfiles/code/ws.zip>`_, y `Booscadoor <http://www.taniquetil.com.ar/facundo/bdvfiles/code/booscador-v2.zip>`_) y cerró Lucio con *Magia negra en Python*.
+A la tarde seguí yo con `Demostraciones técnicas <http://www.taniquetil.com.ar/homedevel/presents/demos_tecnicas/>`_ (`Procesamiento distribuido <http://www.taniquetil.com.ar/facundo/bdvfiles/code/distrib.zip>`_, `Sistema de Administración de CDs <http://www.taniquetil.com.ar/facundo/bdvfiles/code/sacd.zip>`_, `Web services <http://www.taniquetil.com.ar/facundo/bdvfiles/code/ws.zip>`_, y `Booscadoor <http://www.taniquetil.com.ar/facundo/bdvfiles/code/booscador-v2.zip>`_) y cerró Lucio con *Magia negra en Python*.
 
 La Jornada fue un éxito: ¡¡280 asistentes!! El público no era gente de Python, sino estudiantes de las carreras de Ingeniería en Sistemas e Ingeniería en Informática, lo cual estuvo perfecto, ya que evangelizamos a full!! Creo que la gente se enganchó, le interesó, y se fue con una buena impresión de lo que es el lenguaje.
 

@@ -2,7 +2,7 @@
 .. date: 2015-07-05 04:22:10
 .. tags: voto electrónico, MSA, allanamiento
 
-*(Disclaimer: este texto está sobradamente copiado de `la declaración de OpenData <http://opendatacordoba.org/blog/sobre-los-allanamientos-con-motivos-de-las-vulnerabilidades-en-el-sistema-de-voto-electronico/>`_, porque tenía ganas de escribir algo parecido, y no me salía, y ellos lo expresaron muy bien)*
+*(Disclaimer: este texto está sobradamente copiado de `la declaración de OpenData <https://blog.opendatacordoba.org/sobre-los-allanamientos-con-motivos-de-las-vulnerabilidades-en-el-sistema-de-voto-electronico/>`_, porque tenía ganas de escribir algo parecido, y no me salía, y ellos lo expresaron muy bien)*
 
 Sobre el allanamiento de domicilio a Joaquín Sorianello ocurrido el viernes a la noche.
 

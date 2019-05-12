@@ -37,13 +37,13 @@ En fin. No quería gastar tanta plata, así que me decidí por la Samsung Ultrab
 .. image:: /images/newlap_lamisma.png
     :alt: Samsung Ultrabook
 
-Como la gran mayoría, viene con 4GB de RAM, pero en el local me la subían a 8GB. Precio final (IVA incluído): $7000 (en `Previus <http://www.previus.com.ar/>`_).
+Como la gran mayoría, viene con 4GB de RAM, pero en el local me la subían a 8GB. Precio final (IVA incluído): $7000 (en Previus (EDITADO: `la url no existe más <http://www.previus.com.ar/>`__)).
 
 La compré este último viernes, pero como tenía otras cosas que hacer luego, recién la probé el sábado a la mañana. Ya había visto que para que el BIOS reconozca el pendrive con el instalador de Ubuntu había que toquetear algunas cosas. Yo lo primero que hice fue meterme en el BIOS, sí, pero para curiosear. Realmente no tuve que cambiar nada más que el orden de booteo (que tenía primero al rígido).
 
 Así que sin haber booteado nunca en el windor (por cábala, viste) me puse a instalar el Ubuntu. Le dije al instalador que quería customizar las particiones, y ahí vi que realmente la máquina tiene DOS discos, uno "clásico" (de esos que tienen platitos magnéticos que giran, un HDD), y otro de silicio (o sea, los denominados SSD).
 
-Dudé qué instalar dónde, busqué un poco y `esto que encontré <http://schoolsplay.wordpress.com/2012/11/22/install-ubuntu-linux-on-a-samsung-series-5-ultrabook-with-ssd/>`_ me pareció bien. Basicamente: "/" en el SSD entero, y en el disco de platos un swap de 6GB, "/var" con 20GB, y el resto para "/home".
+Dudé qué instalar dónde, busqué un poco y `esto que encontré <http://www.childsplay.mobi/blog/?p=83>`_ me pareció bien. Básicamente: "/" en el SSD entero, y en el disco de platos un swap de 6GB, "/var" con 20GB, y el resto para "/home".
 
 .. image:: /images/newlap_instalac.png
     :alt: Particionado durante la instalación
