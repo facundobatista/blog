@@ -1,0 +1,28 @@
+.. title: A todo Python, noticias, eventos
+.. date: 2019-05-12 9:32:00
+.. tags: Python, curso, charla, Quilmes
+
+Curso(s)
+--------
+
+Hace unas semanas anunciaba `por acá <https://blog.taniquetil.com.ar/posts/0782/>`_ (y por otros lados) que iba a dar un Seminario Python nivel medio/avanzado con apoyo de Onapsis, abierto a la comunidad.
+
+Explotó, en cuatro días tenía el 80% de las vacantes con la reserva confirmada, en siete días estaba todo cerrado. No esperaba un éxito tan rotundo, pero estoy muy contento. El lado gris es que un par se me enojaron porque no llegaron a entrar en el curso porque se demoraron en pagar (la mayoría lo entendió perfectamente).
+
+Seguramente haré otros cursos durante el año. SPOILER ALERT: quizás algo introductorio primero y medio/avanzado luego, pero no sólo teoría sino también práctica, en conjunto con otro docente. Ya habrán novedades.
+
+
+Charla
+------
+
+Ayer sábado fui invitado por `Ana Vélez Rueda <https://twitter.com/AnaJuliaVelezR1>`_ a dar una charla de introducción a la programación primero e introducción a Python luego, en la Universidad de Quilmes, para futuros docentes de Python. Luego de pensarlo bastante estos últimos días mezclé un poco ambas charlas, y creo que salió muy bien. La gente estuvo super interesada, y aunque fue largo y cansador (¡sábado a la tarde!) se la bancaron.
+
+
+Próximos eventos de PyAr
+------------------------
+
+Hay dos juntadas planeadas a futuro. La primera, bastante confirmada y que será anunciada estos días es el martes 21 a la tarde/noche, en J.P. Morgan, y va a ser una charla/taller sobre testing, más la parte social de siempre.
+
+La segunda, todavía en etapa de "ver qué forma le damos" va a ser en Trocafone, el sábado 15 de Junio. Como es sábado, la idea es hacer algo más tipo sprint. O sea, ponernos a trabajar en algo (puntual o no), aunque seguramente abriremos el día con un par de charlas, quizás trabajar a la tarde luego del almuerzo, etc. Como les decía, todavía hay que definir la dinámica de ese día, pero está bueno volver cada tanto a la juntada de sábado, para hacer cosas :)
+
+Anunciaremos detalles sobre ambas juntadas tanto en `mi tuiter <http://twitter.com/facundobatista/>`_ como en el `de Pyar <https://twitter.com/pythonargentina/>`_, pero la coordinación la haremos a través del `meetup de Buenos Aires <https://www.meetup.com/es-ES/Buenos-Aires-Python-Meetup/>`_ así que también se pueden sumar ahí.
