@@ -10,7 +10,7 @@ Por un lado, estuvimos viendo muchas pelis con Moni (al fin estoy retomando el r
 
 Por otro lado, me estuve dedicando al software. No solo estuve siguiendo un poquito el desarrollo mostrado `acá </posts/0232>`_, sino que me estoy metiendo en XPN.
 
-`XPN <http://xpn.altervista.org/index-en.html>`_ es un lector de noticias, con una interfaz gráfica, hecho en Python. Lo estoy empezando a usar, pero le hace falta algunas cosas que yo quiero. Entonces decidí meterme y participar en el desarrollo del mismo. De paso, empiezo a conocer un poquitito de PyGTK, a ver si prende en mi espíritu o no.
+`XPN <https://en.wikipedia.org/wiki/X_Python_Newsreader>`_ es un lector de noticias, con una interfaz gráfica, hecho en Python. Lo estoy empezando a usar, pero le hace falta algunas cosas que yo quiero. Entonces decidí meterme y participar en el desarrollo del mismo. De paso, empiezo a conocer un poquitito de PyGTK, a ver si prende en mi espíritu o no.
 
 También terminé los cambios que tenía planeado para mi blog. El último fue la incorporación de un plugin que hizo `Mariano <http://www.chaghi.com.ar/blog/>`_, que muestra lo que escribí hace un año (fíjense en la barrita vertical de la derecha, casi arriba de todo). Está muy bueno porque te da un flashback del tipo *"Uh, que loco, me acuerdo de eso... ¿ya pasó un año?"*, :)
 

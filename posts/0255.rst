@@ -6,7 +6,7 @@ El otro día me pasaron `este videito <http://www.youtube.com/watch?v=0Q_hSXqsmT
 
 Esto me hizo acordar un fantástico video de Ericsson Labs, en el que mostraba el funcionamiento de Internet, a nivel paquete de datos, con unas animaciones bárbaras. Lo busqué y lo encontré, en `YouTube <http://www.youtube.com/>`_, pero ahí está en dos partes. Así que busqué el original, y encontré hasta el subtítulo!
 
-Ojo que este video es más largo que el anterior, dura como 13 minutos. El video lo tienen `aquí <http://www.warriorsofthe.net/cgi-bin/download.pl/warriors-700-VBR?url=ftp://ftp.luth.se/pub/misc/www.warriorsofthe.net/warriors-700-VBR.mpg>`_ y si quieren pueden bajarse `este <http://www.warriorsofthe.net/misc/subtitles/spanish2.srt>`_ subtítulo (está apenas desfasado, pero sirve).
+Ojo que este video es más largo que el anterior, dura como 13 minutos. El video lo tienen `aquí <https://www.youtube.com/watch?v=Dat4eUuiWag>`_ y si quieren pueden bajarse este (EDITADO: `la url no existe más <http://www.warriorsofthe.net/misc/subtitles/spanish2.srt>`__) subtítulo (está apenas desfasado, pero sirve).
 
 Hablando de encontrar, hay gente que busca lo que otros esconden. Resulta que los cráneos de Hollywood, que quieren limitarnos nuestros derechos de hacer backup de los DVDs que compramos, inventaron algo que se llama Sistema Avanzado de Acceso al Contenido (`AACS <http://es.wikipedia.org/wiki/Advanced_Access_Content_System>`_, Advanced Access Content System), y era proclamada como la gran solución al *problema de la piratería*, ya que era una clave súper indescifrable, ya que esos cráneos habían gastado millones de dólares en su desarrollo.
 

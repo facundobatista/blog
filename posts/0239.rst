@@ -2,7 +2,7 @@
 .. date: 2007-02-28 20:45:47
 .. tags: datos, trabajo, backup, errores de disco, sectores, Python
 
-Hace un año cambié de laburo, me pasé de `Movistar <http://www.movistar.com.ar/>`_ a `Cyclelogic <http://www.cyclelogic.com/>`_. Antes de irme de Movistar, obviamente, hice backup de tooooodo lo personal que uno va guardando a lo largo de los años (en el caso de Movistar, fueron seis, muy buenos años, vean `acá </posts/0171>`_ para más detalles).
+Hace un año cambié de laburo, me pasé de `Movistar <http://www.movistar.com.ar/>`_ a Cyclelogic (EDITADO: `la url no existe más <http://www.cyclelogic.com/>`__). Antes de irme de Movistar, obviamente, hice backup de tooooodo lo personal que uno va guardando a lo largo de los años (en el caso de Movistar, fueron seis, muy buenos años, vean `acá </posts/0171>`_ para más detalles).
 
 Toda la info que me llevé estaba separada en tres archivos:
 
