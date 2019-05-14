@@ -34,7 +34,7 @@ It's the proxy, stupid!
 
 Pero luego quise utilizar una herramienta a la que no se le puede configurar el proxy SOCKS (el Synaptic...), ¿cómo podía hacer?
 
-Ahí encontré el programita *tsocks* (tienen una linda explicación en castellano `aquí <http://rubensa.wordpress.com/2006/03/22/ubuntu-tsocks/>`_). Lo instalé, lo configuré, y luego ejecuté Synaptic de la siguiente forma::
+Ahí encontré el programita *tsocks* (tienen una linda explicación en castellano `aquí <https://rubensa.wordpress.com/2006/03/22/ubuntu-tsocks/>`_). Lo instalé, lo configuré, y luego ejecuté Synaptic de la siguiente forma::
 
     sudo tsocks synaptic
 
