@@ -2,7 +2,7 @@
 .. date: 2010-03-21 23:56:48
 .. tags: Linux, evento, viaje, Python
 
-Fuí gentilmente invitado a dar una charla en `dicho evento <http://tuxpuc.pucp.edu.pe/lw2010>`_, en la Universidad Católica de Lima, Perú.
+Fuí gentilmente invitado a dar una charla en dicho evento (EDITADO: `la url no existe más <http://tuxpuc.pucp.edu.pe/lw2010>`__), en la Universidad Católica de Lima, Perú.
 
 Llegué el lunes bien tarde, y me volví el sábado al mediodía para Argentina. En el medio esta buena gente me trató más que bien: me sacaron siempre a almorzar/cenar, me llevaron/trajeron a la Universidad, etc. (no solo los organizadores, sino también Nico Valcarcel, compañero de Canonical, que se re portó).
 

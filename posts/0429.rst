@@ -14,6 +14,6 @@ Entonces, armé mi propio mecanismo. Básicamente es un *gateway mail a microblo
 
 ¿Qué se necesita? `El programita que escribí <http://www.taniquetil.com.ar/homedevel/devel/mail2micropost.py>`_, una cuenta de mail en cualquier lado (yo usé una en mi server, y es IMAP... si la quieren POP3 tienen que cambiar un poco mi programita), y las cuentas de Twitter e identi.ca para postear. O sea, todo fácil y gratis.
 
-Tienen que ejecutar mi programa con ``--auth`` una vez para que les pida los datos de autenticación que van a parar a un archivito (usando `este módulo mío <http://www.taniquetil.com.ar/homedevel/pymodules/infoauth.py>`_ que no esconde demasiado la info, pero el truco es guardar este archivo con permiso sólo para ustedes), y luego ejecuten el programita cada uno o dos minutos poniéndolo en un crontab en algún lado.
+Tienen que ejecutar mi programa con ``--auth`` una vez para que les pida los datos de autenticación que van a parar a un archivito (usando `este módulo mío <https://pypi.org/project/infoauth/>`_ que no esconde demasiado la info, pero el truco es guardar este archivo con permiso sólo para ustedes), y luego ejecuten el programita cada uno o dos minutos poniéndolo en un crontab en algún lado.
 
 Voilá. Sencillo, rápido, barato, y divertido. Es Python, :)

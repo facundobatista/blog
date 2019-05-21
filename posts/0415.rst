@@ -6,7 +6,7 @@ Pasó la semana del Ubuntu Developer Summit en preparación para Karmic Koala (U
 
 El lunes tuvimos una reunión de equipo, donde vimos y definimos un montón de cosas, aunque quedaron varias otras por definir... veremos que pasa. Me hubiese gustado otro día más de reunión, pero bueno...
 
-Los otros cuatro días me los pasé trabajando en uno de los próximos servicios que daremos en `UbuntuOne <http://ubuntuone.com/>`_. Trabajar en un servicio, pero dentro del UDS, implica que hay que ver qué cosas se van a necesitar que estén en el próximo Ubuntu, e ir estudiando cómo se van a acomodar esas cosas. Eso es lo bueno del UDS, te permite planear el trabajo de integración con anticipación.
+Los otros cuatro días me los pasé trabajando en uno de los próximos servicios que daremos en `UbuntuOne <https://es.wikipedia.org/wiki/Ubuntu_One>`_. Trabajar en un servicio, pero dentro del UDS, implica que hay que ver qué cosas se van a necesitar que estén en el próximo Ubuntu, e ir estudiando cómo se van a acomodar esas cosas. Eso es lo bueno del UDS, te permite planear el trabajo de integración con anticipación.
 
 Anyway... trabajé mucho, lo que implicaba en muchas ocasiones asistir a las reuniones de UDS para aprender, entender, o explicar/contar cosas. Otra faceta del laburo fue reunirnos con el equipo de diseño para discutir unos cambios en un diálogo, cosa que es muy difícil hacer a la distancia. Fue una semana bastante cansadora.
 

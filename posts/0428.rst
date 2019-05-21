@@ -8,4 +8,4 @@ Yo hace un par de meses que me enganché en esta, y estoy usando el servicio de 
 
 Anyway... este post era para contarles que en la barra de la derecha incorporé una sección de microblogging en la que reproduzco los mensajes que fui enviando por este servicio, mezclando lo que dije por los distintos canales.
 
-Esa listita la genero con un programita en Python, `microblog.py <http://www.taniquetil.com.ar/homedevel/devel/microblog.py>`_, que levanta los feeds de Twitter e identi.ca y deja algo lindo como para mostrar en la página web.
+Esa listita la genero con un programita en Python, microblog.py <http://linkode.org/#3PYRt6wWPAS0wD1TsXGGr6>`_, que levanta los feeds de Twitter e identi.ca y deja algo lindo como para mostrar en la página web.

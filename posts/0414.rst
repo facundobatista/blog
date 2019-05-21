@@ -2,9 +2,9 @@
 .. date: 2009-05-29 02:41:30
 .. tags: UDS, Ubuntu, usuarios
 
-Acabamos de tener una sesión en `UDS <https://wiki.ubuntu.com/UDSKarmic>`_ donde discutimos cómo iba a ver, un usuario que está instalando Ubuntu, que tiene la opción de configurar `UbuntuOne <https://ubuntuone.com/>`_.
+Acabamos de tener una sesión en `UDS <https://wiki.ubuntu.com/UDSKarmic>`_ donde discutimos cómo iba a ver, un usuario que está instalando Ubuntu, que tiene la opción de configurar `UbuntuOne <https://es.wikipedia.org/wiki/Ubuntu_One>`_.
 
-Queremos que todo el mundo tenga una cuenta `UbuntuOne <https://ubuntuone.com/>`_, ya que muchas aplicaciones de escritorio van a tener mejoras a través de este servicio, incluso aunque nunca pagues un peso.
+Queremos que todo el mundo tenga una cuenta `UbuntuOne <https://es.wikipedia.org/wiki/Ubuntu_One>`_, ya que muchas aplicaciones de escritorio van a tener mejoras a través de este servicio, incluso aunque nunca pagues un peso.
 
 Entonces la discusión es: armamos un servicio, agregamos funcionalidad, **gratis**, y queremos que la gente al instalar `Ubuntu <http://www.ubuntu.net/>`_ se configure una cuenta, para que su experiencia sea mejor.
 

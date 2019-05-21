@@ -4,7 +4,7 @@
 
     "Uña del pulgar", o *thumbnail* es una versión reducida de una imagen, usada para ayudar a su organización y reconocimiento. En la era de las imágenes digitales, los motores de búsqueda visuales y los programas para organizar imágenes normalmente hacen uso de los thumbnails, así como los sistemas operativos y entornos de escritorio recientes `[-] <http://es.wikipedia.org/wiki/Thumbnail>`_
 
-Hace unos meses mandé a digitalizar unas diapositivas que tenía mi familia. Un par de días atrás empecé a procesarlas, usando el `JBrout <http://jbrout.python-hosting.com/>`_ para agregarle los tags indicando metadata de la imagen (lugar, año, gente que aparece, etc.).
+Hace unos meses mandé a digitalizar unas diapositivas que tenía mi familia. Un par de días atrás empecé a procesarlas, usando el `JBrout <https://jbrout.manatlan.com/>`_ para agregarle los tags indicando metadata de la imagen (lugar, año, gente que aparece, etc.).
 
 El problema que tuve es que cuando abría con el JBrout fotos que había sacado yo, las veía perfectamente, pero cuando abría las diapositivas, veía una "X" fea que no me decía nada. No tardé demasiado en darme cuenta que el problema era que el JPEG no tenía adentro el correspondiente thumbnail.
 

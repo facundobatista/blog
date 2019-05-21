@@ -2,9 +2,9 @@
 .. date: 2010-11-08 23:23:45
 .. tags: jornadas libres, conferencia, Junín, paseo
 
-El finde pasado estuve también de conferencia, en `dichas jornadas <http://jornadassl.agora.unnoba.edu.ar/>`_.
+El finde pasado estuve también de conferencia, en dichas jornadas (EDITADO: `la url no existe más <http://jornadassl.agora.unnoba.edu.ar/>`__).
 
-Fuimos en mi auto `Luciano <http://www.lucianobello.com.ar/>`_, `Roberto <http://lateral.netmanagers.com.ar/>`_, Fisa y yo. Arrancamos el viernes tempranito y a eso de las dos de la tarde ya estábamos allá, donde fuimos muy bien recibidos. Hicimos el check in, almorzamos, y luego hicimos algo de tiempo (yo hice una micro siesta y me pegué un baño) y finalmente cruzamos la calle hasta la Universidad, donde arrancó el evento.
+Fuimos en mi auto `Luciano <https://twitter.com/microluciano>`_, `Roberto <https://twitter.com/ralsina>`_, Fisa y yo. Arrancamos el viernes tempranito y a eso de las dos de la tarde ya estábamos allá, donde fuimos muy bien recibidos. Hicimos el check in, almorzamos, y luego hicimos algo de tiempo (yo hice una micro siesta y me pegué un baño) y finalmente cruzamos la calle hasta la Universidad, donde arrancó el evento.
 
 Yo abrí la conferencia con la charla de `Python más rápido que C <http://www.taniquetil.com.ar/homedevel/presents/pyrapidc/>`_ y luego hubieron algunas más que ya había visto, y una de "Fortificacion en instalaciones de servidores Debian" por Luciano Bello, que estuvo muy bien, súper interesante.
 

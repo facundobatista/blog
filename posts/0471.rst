@@ -36,7 +36,7 @@ De esta manera, el único trabajo que hay que hacerle al video luego de la confe
 
 Entonces... ¿para qué toda esta explicación? Bueno, la clave de todo esto es el "Elemento Mezclador".
 
-Preguntando en PyAr me recomendaron dvswitch. Me contaron que la gente de Debian hace exactamente lo que cuento todos los años en la DebConf. Para ello desarrollaron `DVSwitch <http://dvswitch.alioth.debian.org/wiki/>`_ hecho en C/C++. Tiene sus limitaciones ya que sólo trabaja con formato DV; pero es lo que necesito.
+Preguntando en PyAr me recomendaron dvswitch. Me contaron que la gente de Debian hace exactamente lo que cuento todos los años en la DebConf. Para ello desarrollaron `DVSwitch <https://directory.fsf.org/wiki/Dvswitch>`_ hecho en C/C++. Tiene sus limitaciones ya que sólo trabaja con formato DV; pero es lo que necesito.
 
 Habiendo elegido la herramienta, aparecen otros frentes algo complejos.
 

@@ -56,7 +56,7 @@ Durante la tarde, también, se realizó el primer Torneo Universal de Ping Pong 
 .. image:: /images/pycamp10/pingpong.jpg
     :alt: Torneo de ping pong
 
-Estuvimos también charlando un rato largo sobre el modelo del juego que construiremos durante el próximo PyWeek (`el juego más grande del mundo <http://the.most.biggest.gamest.in.the.worldst.com.ar/>`_, ¡ya les contaré cómo participar!).
+Estuvimos también charlando un rato largo sobre el modelo del juego que construiremos durante el próximo PyWeek (el juego más grande del mundo (EDITADO: `la url no existe más <http://the.most.biggest.gamest.in.the.worldst.com.ar/>`__), ¡ya les contaré cómo participar!).
 
 Finalmente, volví a trabajar en la laptop, en el bug doble de Lalita que había comenzado a resolver el día anterior. Y estando ahí trabajando, al lado de Riq, no se bien cómo surgió pero me terminó explicando cómo se usaban matrices para resolver los cambios a imágenes (redimensionarlas, rotarlas, desplazarlas, etc.; lean `esto <http://en.wikipedia.org/wiki/Transformation_matrix>`_ que lo explica bien).
 
