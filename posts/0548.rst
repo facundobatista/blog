@@ -8,7 +8,7 @@ Entonces, pensé en bajarme todos los videos correspondientes a la música que m
 
 Y, en este caso, la respuesta es: automatizar el proceso. Obviamente, como en todas las automatizaciones, uno primero tiene que aprender el proceso. Para eso, me puse a bajar algunos videos a mano.
 
-Lo más fácil a la hora de bajar archivos es el torrente. Entonces fui a mi `buscador de torrents de cabecera <http://torrentz.eu/>`_ y descubrí que realmente no era copado para buscar videos de música (yo lo uso un 99% de las veces para buscar pelis), así que estuve probando otros sitios hasta que encontré `Kickass Torrents <http://kat.ph/>`_, que tiene un tag específico para videos, y funciona bastante bien.
+Lo más fácil a la hora de bajar archivos es el torrente. Entonces fui a mi buscador de torrents de cabecera (EDITADO: `la url no existe más <http://torrentz.eu/>`__) y descubrí que realmente no era copado para buscar videos de música (yo lo uso un 99% de las veces para buscar pelis), así que estuve probando otros sitios hasta que encontré Kickass Torrents (EDITADO: `la url no existe más <http://kat.ph/>`__), que tiene un tag específico para videos, y funciona bastante bien.
 
 Luego, automatizar. Entonces, hice un `programita <http://www.taniquetil.com.ar/homedevel/devel/get_torrent.py>`_ en Python que revisa toda la música que tengo, busca en este sitio los torrentes, y cuando los encuentra, los baja. Si miran el código verán que no es complejo (está desordenado, depende de cómo guardo mi música, etc., pero es simple... es un scriptcito rápido), y funciona de perlas.
 

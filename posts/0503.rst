@@ -10,7 +10,7 @@ A los tutoriales no fui, pero sí a la conferencia y los sprints. Este post es s
 Primer día
 ----------
 
-Luego de la presentación y apertura del evento, tuvimos en la primera charla plenaria a `Hilary Mason <http://www.hilarymason.com/>`_ hablando de programación, análisis de datos, y varias cosas diversas... nada específico, pero entretenido.
+Luego de la presentación y apertura del evento, tuvimos en la primera charla plenaria a `Hilary Mason <https://twitter.com/hmason>`_ hablando de programación, análisis de datos, y varias cosas diversas... nada específico, pero entretenido.
 
 Tuvimos un pequeño break y arrancó la primer sesión de charlas propiamente dichas. La primera fue "Distributed Tasks with `Celery <http://celeryproject.org/>`_", por Ryan Petrello. Creo que la idea está buena, claramente resuelve casos de uso que se me presentaron y con los que estuve jugando... pero el diablo está en los detalles, dicen, hay que ver cómo es usar esto IRL.
 

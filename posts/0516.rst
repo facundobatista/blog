@@ -9,7 +9,7 @@ El primero es sencillo: lo que me cobra el `Automovil Club Argentino <http://www
 .. image:: /images/inflac2.png
     :alt: Curva ACA
 
-El segundo es más complicado. Desde hace un tiempo que compro carne y derivados en la misma carnicería (`Chalin <http://www.chalincarnespremium.com.ar/>`_, en Mataderos: es buena carne, relativamente barata, y me la mandan a casa). Desde hace poco más de un año guardo los tickets que te dan al comprar (donde indican el corte, el precio y el peso, todo muy transparente).
+El segundo es más complicado. Desde hace un tiempo que compro carne y derivados en la misma carnicería (`Chalin <https://www.facebook.com/ChalinCarnesPremium/>`_, en Mataderos: es buena carne, relativamente barata, y me la mandan a casa). Desde hace poco más de un año guardo los tickets que te dan al comprar (donde indican el corte, el precio y el peso, todo muy transparente).
 
 Con esta info quise hacer también algo que indique los "aumentos de la carne", pero al haber tantos cortes distintos, y al no siempre comprar los mismos cortes, la curva quedaba un enchastre. Entonces lo que hice fue calcular cuanto aumentó cada corte con respecto a la primera vez que lo compré, y luego unificar en cada fecha de compra todos los aumentos de los distintos cortes.
 
@@ -18,4 +18,4 @@ El resultado es el gráfico siguiente, donde se ve el aumento sufrido con respec
 .. image:: /images/inflac1.png
     :alt: Aumento carne
 
-Todos los números crudos en `esta planilla de cálculos <http://ubuntuone.com/p/xEy/>`_.
+Todos los números crudos en `esta planilla de cálculos <https://www.dropbox.com/s/htd5ubhgp6e6pqx/carne.ods?dl=0>`_.

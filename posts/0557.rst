@@ -4,6 +4,6 @@
 
 Como comentaba en `este post </posts/0551>`_ empecé a hacer sprints pequeñitos en distintos bares, con el objetivo principal de darle continuidad a algunos proyectos (arranqué con CDPedia, y estamos haciendo lindos progresos!).
 
-Un objetivo secundario de esa iniciativa era evaluar los bares, y este post es para mostrarles los primeros resultados de dicha evaluación. Bah, los resultados no los muestro acá, sino en `esta nueva página <http://www.taniquetil.com.ar/bares/>`_.
+Un objetivo secundario de esa iniciativa era evaluar los bares, y este post es para mostrarles los primeros resultados de dicha evaluación. Bah, los resultados no los muestro acá, sino en `esta nueva página <http://www.taniquetil.com.ar/homedevel/bares/>`_.
 
-Gracias a `Mariano Guerra <http://marianoguerra.com.ar/>`_ por estilo y javascript para esa página!
+Gracias a `Mariano Guerra <https://twitter.com/warianoguerra>`_ por estilo y javascript para esa página!
