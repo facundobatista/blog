@@ -4,7 +4,7 @@
 
 ¿Fin de año? Ni cerca. Pero ya en septiembre mi agenda se empezó a complicar con muchas actividades...
 
-Arrancamos a mitad de septiembre, con el `PyDay de Córdoba <http://www.pydaycba.com.ar/>`_. Aunque el evento era sólo el sábado, viajé el jueves a la noche (llegando el viernes a la mañana), y volví el domingo a la noche. Eso me permitió laburar todo el día con Naty y Matías, estar fresco para el evento, que luego tuvo una cena, y estar el domingo allá para el asado que hizo Perrito en la casa.
+Arrancamos a mitad de septiembre, con el PyDay de Córdoba (EDITADO: `la url no existe más <http://www.pydaycba.com.ar/>`__). Aunque el evento era sólo el sábado, viajé el jueves a la noche (llegando el viernes a la mañana), y volví el domingo a la noche. Eso me permitió laburar todo el día con Naty y Matías, estar fresco para el evento, que luego tuvo una cena, y estar el domingo allá para el asado que hizo Perrito en la casa.
 
 El evento en sí estuvo muy bueno, con mucha mucha gente y charlas copadas. Yo dí dos, `Python 3000 <http://www.taniquetil.com.ar/homedevel/presents/py3k.pdf>`_ que actualicé y renové para ese día, y `Cómo los logs me salvaron el alma <http://www.taniquetil.com.ar/homedevel/presents/logs.odp>`_, una charla que originalmente había hecho en inglés.
 

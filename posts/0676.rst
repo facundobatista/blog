@@ -29,4 +29,4 @@ El otro programa en el que estoy metiendo tiempo, como decía, es Encuentro. Cua
 
 Eso ya lo arreglé, pero todavía no lo liberé. Mi idea era esperar a Humitos para ver si metemos lo de CDA, pero creo que no lo va a tener para las próximas semanas, así que voy a hacer un release estos días, no sólo con ese fix sino también con otras mejoras y pequeñas correcciones que fui haciendo.
 
-Finalmente, el otro fin de semana pasé un rato por `FLISOL <http://flisol.usla.org.ar/sede/CABA/>`_ y luego me fui para la casa de Gilgamezh donde le estuvimos metiendo tiempo a fades, porque queremos hacer un release pronto con algunos features realmente copados ahí. Ya tenemos planeado con qué queremos llegar a la v3, nos falta poco :)
+Finalmente, el otro fin de semana pasé un rato por `FLISOL <https://flisol.info/>`_ y luego me fui para la casa de Gilgamezh donde le estuvimos metiendo tiempo a fades, porque queremos hacer un release pronto con algunos features realmente copados ahí. Ya tenemos planeado con qué queremos llegar a la v3, nos falta poco :)

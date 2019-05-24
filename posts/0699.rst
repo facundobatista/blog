@@ -6,7 +6,7 @@ Para arrancar el año pum para arriba, ¿qué mejor que una nueva versión de En
 
 Lo más destacado de esta nueva versión es que hay dos backends nuevos!
 
-Por un lado, ahora se puede descargar de `Contenidos Digitales Abiertos <http://cda.gob.ar/>`_ (también conocido como CDA), con casi 4000 episodios de centenares de documentales y series para mirar.
+Por un lado, ahora se puede descargar de Contenidos Digitales Abiertos (EDITADO: `la url no existe más <http://cda.gob.ar/>`__) (también conocido como CDA), con casi 4000 episodios de centenares de documentales y series para mirar.
 
 Por otro lado, trae más de 180 charlas TED del capítulo `TEDx de Buenos Aires <http://tedxriodelaplata.org/>`_ (que incluye TEDxBuenosAires, TEDxRíodelaPlata, TEDxJoven, y un par más).
 

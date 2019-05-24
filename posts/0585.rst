@@ -4,7 +4,7 @@
 
 El mes pasado les decía que la agenda venía complicada, que cerrar el año no iba a ser descansado, etc...
 
-A fines de Octubre me fui para Venezuela con la familia. ¿La excusa? Fui invitado a dar un par de charlas en la primer `PyConVe <http://ve.pycon.org/>`_, y también una charla en una "mañana Python" en la ciudad de Mérida, así que aproveché y llevé a Moni y Felu para convertir el resto de los días en vacaciones :)
+A fines de Octubre me fui para Venezuela con la familia. ¿La excusa? Fui invitado a dar un par de charlas en la primer `PyConVe <https://twitter.com/pyconve>`_, y también una charla en una "mañana Python" en la ciudad de Mérida, así que aproveché y llevé a Moni y Felu para convertir el resto de los días en vacaciones :)
 
 La verdad es que estuvo todo muy lindo (más allá de los viajes, como ya comenté por acá). Llegamos a Caracas, y al toque nos fuimos para Mérida, donde fuimos recibidos por Francisco Palm (organizador de la jornada allí, donde di "Python en el mundo real") quien nos alojó en su casa.
 
@@ -24,7 +24,7 @@ La verdad es que la pasé muy bien en Venezuela, charlé con muchísima gente, y
 
 Yo llegué a Argentina el lunes a la mañana, con la mala noticia de que me habían perdido la valija, :(. Me fue a buscar mi viejo, y me quedé en su casa todo el día. A la tarde vinieron Moni y Felu y cenamos en lo de mi mamá. Del martes a viernes hice casi vida normal... trabajando, pero también haciendo doble tenis y doble natación (para recuperar la semana anterior), y tratando de cerrar otros temas varios (por ejemplo, recuperar mi valija: me la trajeron el martes a casa).
 
-Y fue todo así como muy ocupado porque el sábado al mediodía ya me rajé de nuevo... esta vez sólo, y por laburo, ya que había reunión general de Onlines Services en Londres. La verdad es que entre el trabajo y algunas salidas a la noche, la semana se me pasó volando. Fui un par de veces a comprar ropa, un par a cenar con compañeros, y la salida formal de todo el equipo, que fue en `Venturi's Table <http://www.venturis-table.com/>`_ donde volvimos a cocinar entre todos (esta vez no pizza, sino platos elaborados!). Obviamente, siempre que paseábamos por ahí, no perdíamos oportunidad de tomarnos alguna cervecita en un pub londinense...
+Y fue todo así como muy ocupado porque el sábado al mediodía ya me rajé de nuevo... esta vez sólo, y por laburo, ya que había reunión general de Onlines Services en Londres. La verdad es que entre el trabajo y algunas salidas a la noche, la semana se me pasó volando. Fui un par de veces a comprar ropa, un par a cenar con compañeros, y la salida formal de todo el equipo, que fue en Venturi's Table (EDITADO: `la url no existe más <http://www.venturis-table.com/>`__) donde volvimos a cocinar entre todos (esta vez no pizza, sino platos elaborados!). Obviamente, siempre que paseábamos por ahí, no perdíamos oportunidad de tomarnos alguna cervecita en un pub londinense...
 
 .. image:: /images/voragine2/pub.jpeg
     :alt: Pub

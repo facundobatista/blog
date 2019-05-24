@@ -6,7 +6,7 @@ I spent my first years in at Canonical working in the Ubuntu One project, partic
 
 Then, the company didn't push the project anymore, I started to work on other areas, and eventually the project was cancelled. When they cancelled it, they made the promise of opensourcing the server, which will allow to anyone put the full stack to work and have their own personal filesync cloud.
 
-Time passed by, and at some point I got instructions to put daily time on that opensourcing work. I've been working the whole day on this for several weeks, and even more weeks part time, massaging all the code and dependencies for the project to be public. Then `the project was released <https://insights.ubuntu.com/2015/08/10/ubuntu-one-file-syncing-code-open-sourced/>`_.
+Time passed by, and at some point I got instructions to put daily time on that opensourcing work. I've been working the whole day on this for several weeks, and even more weeks part time, massaging all the code and dependencies for the project to be public. Then `the project was released <https://blog.ubuntu.com/2015/08/10/ubuntu-one-file-syncing-code-open-sourced>`_.
 
 Was the project easily usable for anyone to start syncing files? Not really, my goals when working in the project to make it available for everybody were:
 
