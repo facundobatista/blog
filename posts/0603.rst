@@ -4,7 +4,7 @@
 
 Este no es un post sobre `Encuentro <http://encuentro.taniquetil.com.ar/>`_ precisamente, sino sobre la experiencia de migrar Encuentro a Qt.
 
-O, mejor dicho, a PyQt. ¿Qué es `PyQt <http://www.riverbankcomputing.com/software/pyqt/intro>`_? Sencillo: una capa de unión para poder usar Qt desde Python. ¿Y qué es `Qt <http://qt.digia.com/>`_? Qt es una biblioteca multiplataforma para desarrollar aplicaciones con interfaz gráfica. En otras palabras, una biblioteca para hacer las ventanas, botones, y todo eso que arma la interfaz gráfica de un programa de escritorio.
+O, mejor dicho, a PyQt. ¿Qué es `PyQt <http://www.riverbankcomputing.com/software/pyqt/intro>`_? Sencillo: una capa de unión para poder usar Qt desde Python. ¿Y qué es `Qt <https://www.qt.io/>`_? Qt es una biblioteca multiplataforma para desarrollar aplicaciones con interfaz gráfica. En otras palabras, una biblioteca para hacer las ventanas, botones, y todo eso que arma la interfaz gráfica de un programa de escritorio.
 
 Con esa descripciones no tendríamos diferencia entre PyQt/Qt y PyGtk/Gtk, que es lo que usaba Encuentro hasta ahora. Entonces, ¿por qué migrar?
 

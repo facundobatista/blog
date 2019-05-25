@@ -19,7 +19,7 @@ El otro proyecto de software que estuve empujando un poco es `CDPedia <http://py
 
 También estuve un par de días agregándole un feature a `Magicicada <https://launchpad.net/magicicada>`_ (que se iconice) y corrigiéndole un bug molesto (cada vez que una transferencia terminaba había un efecto feo con el porcentaje de las otras). El único detalle que le quiero agregar para que me sirva en todo lo que lo uso es tener un botón de "publicar", que me deje elegir un archivo y lo publique (linkeándolo desde el directorio de Ubuntu One si fuese necesario).
 
-A `Linkode <http://linkode.org/>`_, lo tengo abandonadazo, pero ya lo voy a retomar. Y también le estoy tratando de meter algo de tiempo a `Preciosa <http://preciosdeargentina.com.ar/>`_, la aplicación de Martín para que no nos mientan con los precios y poder comprar más barato.
+A `Linkode <http://linkode.org/>`_, lo tengo abandonadazo, pero ya lo voy a retomar. Y también le estoy tratando de meter algo de tiempo a `Preciosa <https://github.com/mgaitan/preciosa>`_, la aplicación de Martín para que no nos mientan con los precios y poder comprar más barato.
 
 Para complicarme la vida, se me pinchó un disco de la compu (un Western Digital Caviar Blue de 500GB). Empezó a hacer ruidito, y podía acceder a veces sin problemas, y a veces se turulaba. Julia me dió la idea de apagarlo por software (``hdparm -Y``) para que no se siga deteriorando mientras obtenía el reemplazo, así que aguantó varias semanas sin problema. Finalmente compré un Seagate de 3TB, y el otro día lo reemplacé sin mayor inconveniente, pudiendo rescatar todos los datos (con el detalle, ojo al piojo, de que hay que crearle una tabla de particiones tipo GPT, porque la común que usamos toda la vida solamente sirve hasta 2TB).
 

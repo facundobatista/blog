@@ -12,7 +12,7 @@ The necessity
 
 Why you may need metaclasses? Let's see this specific case, my particular (real life) experience.
 
-It happened that at work I have a script that verifies the `remote scopes service <https://developer.ubuntu.com/en/scopes/>`_ for the Ubuntu Phone, checking that all is nice and crispy.
+It happened that at work I have a script that verifies the remote scopes service (EDITADO: `la url no existe más <https://developer.ubuntu.com/en/scopes/>`__) for the Ubuntu Phone, checking that all is nice and crispy.
 
 The test itself is simple, I won't put it here because it's not the point, but it's isolated in a method named ``_check``, that receives the scope name and returns True if all is fine.
 

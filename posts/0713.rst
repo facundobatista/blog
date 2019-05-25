@@ -2,7 +2,7 @@
 .. date: 2016-07-21 12:58:18
 .. tags: bancos
 
-Hace catorce años, unos meses antes de viajar a Italia (como parte de mi Master en Ingeniería de la Innovación) fui a un banco en *la city porteña* y compré 1100 euros en `American Express Traveler Checks <https://www.americanexpress.com/argentina/travelers-caheque/>`_.
+Hace catorce años, unos meses antes de viajar a Italia (como parte de mi Master en Ingeniería de la Innovación) fui a un banco en *la city porteña* y compré 1100 euros en `American Express Traveler Checks <https://www.americanexpress.com/ar/travel/cheques-de-viaje/index.html>`_.
 
 ¿Para qué? Bueno, era la primera vez que iba a Europa (la primera vez que salía del país, si no contamos las vacaciones en Fray Bentos, Uruguay), y tenía que llevar bastante dinero para vivir las primeras semanas, y los travelers checks tienen la característica (teóricamente) de que si los perdés o te los roban, American Express te los puede volver a dar, no importa donde estés.
 

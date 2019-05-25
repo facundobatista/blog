@@ -19,7 +19,7 @@ Entonces, esta combinación de factores hizo que, en los últimos tiempos, termi
 
 Yo miro/edito las fotos con distintas herramientas. Pero en general, las veo ordenadas por el nombre del archivo. Entonces, tener dos series de fotos separadas me jodía bastante.
 
-Es por eso que me armé `un pequeño script <http://www.taniquetil.com.ar/homedevel/utils/rename_dated_photos.py>`_ que agarra todas las fotos de un directorio y las renombra en función de la fecha/hora que tiene guardada la foto, quedando ambas series efectivamente mezcladas de forma cronológica al ordenarlas por el nombre del archivo.
+Es por eso que me armé `un pequeño script <http://www.taniquetil.com.ar/homedevel/devel/photo_rename_tstamp.py>`_ que agarra todas las fotos de un directorio y las renombra en función de la fecha/hora que tiene guardada la foto, quedando ambas series efectivamente mezcladas de forma cronológica al ordenarlas por el nombre del archivo.
 
 Un par de detalles con respecto al script.
 

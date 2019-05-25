@@ -14,7 +14,7 @@ Hubieron un montón de charlas interesantes! Estas son las que más me gustaron:
 
 - "Distribuyendo código de py a `PyPI <http://pypi.python.org/>`_", donde `Matías Bordese <https://twitter.com/mbordese>`_ nos contó todo el proceso de empaquetamiento y publicación de un programa o biblioteca en Python.
 
-- "Robótica educativa con software y hardware libre... y Python!", de Valentín Basel, que mostró cómo armaron el `proyecto Icaro <http://roboticaro.org/>`_ de forma que los niños puedan hacer cosas con componentes baratos o reciclado y aprender a programar en el camino.
+- "Robótica educativa con software y hardware libre... y Python!", de Valentín Basel, que mostró cómo armaron el `proyecto Icaro <https://roboticaro.org/>`_ de forma que los niños puedan hacer cosas con componentes baratos o reciclado y aprender a programar en el camino.
 
 - "Magicicada: el fork open-source de Ubuntu One Filesync" donde Naty Bidart contó un poco la historia del servicio de sincronización de archivos en el que trabajamos en Canonical, su evolución luego de que fue liberado a `Magicicada <https://launchpad.net/magicicada>`_, y mostró la arquitectura del sistema y sus complejidades.
 

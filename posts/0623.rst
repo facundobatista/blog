@@ -2,7 +2,7 @@
 .. date: 2013-08-27 01:16:13
 .. tags: Python, conferencia, tenis
 
-Este fin de semana se sucedió otro evento en Junín. Organizado por Juan Rodriguez Monti, con la colaboración de varios de los chicos de siempre, y con el apoyo indiscutible de la facultad, armaron otro `PyDay <http://www.pyday.com.ar/junin2013>`_ que salió muy muy bien.
+Este fin de semana se sucedió otro evento en Junín. Organizado por Juan Rodriguez Monti, con la colaboración de varios de los chicos de siempre, y con el apoyo indiscutible de la facultad, armaron otro PyDay (EDITADO: `la url no existe más <http://www.pyday.com.ar/junin2013>`__) que salió muy muy bien.
 
 No estuve en todas las charlas, pero fui a varias; las que más me gustaron fueron la de Alecu "Controlando Python desde Arduino", la de Juanjo Ciarlante "Software Libre en las nubes", y la de Daniel Coletti "Ser emprendedor con Software Libre".
 
