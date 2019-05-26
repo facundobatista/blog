@@ -27,7 +27,7 @@ Lo ejecuto así::
 
 El ``--quiet`` es para que si todo funciona como es esperado no tire ninguna salida, así crontab no me manda mail al cuete (al principio, especialmente al probarlo a mano, no le pongan esta opción). El ``album_id`` es el identificador del álbum en Flickr donde se suben las fotos automáticamente, la forma más fácil de saber este numerito es ir al sitio de Flickr, ir al álbum donde están estas fotos, y sacar el código de la URL. Finalmente, ``algun_path`` es el directorio donde querés que el script te ponga las fotos que baja.
 
-Un detalle importante, para que esto funcione. Como dije arriba, las fotos no son visibles para cualquiera, así que el script tiene que autenticarse como ustedes. Esto se maneja automáticamente, pero el script tiene que saber unos datos de ustedes; como pueden ver en el script, tienen que poner dos claves en dos archivos, más vuestro id de usuario de flickr en una constante. Las dos claves esas las sacan `de acá <http://www.flickr.com/services/api/keys/>`_.
+Un detalle importante, para que esto funcione. Como dije arriba, las fotos no son visibles para cualquiera, así que el script tiene que autenticarse como ustedes. Esto se maneja automáticamente, pero el script tiene que saber unos datos de ustedes; como pueden ver en el script, tienen que poner dos claves en dos archivos, más vuestro id de usuario de flickr en una constante. Las dos claves esas las sacan `de acá <https://www.flickr.com/services/api/misc.api_keys.html>`_.
 
 Finalmente, un comentario sobre cómo se guardan las fotos bajadas. El script arma el nombre del archivo como, por ejemplo, el siguiente::
 

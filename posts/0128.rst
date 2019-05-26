@@ -4,7 +4,7 @@
 
 *(Nótese que no hay comas en la frase, por lo que el "al fin" no implica deseo consumado, ni alivio, sino una redundancia contra la primer parte de la frase).*
 
-Hoy terminé una relación con una dama, relación que había entablado hace 11 años. Hoy fue mi último día en la `Universidad Nacional de La Matanza <http://www.unlam.edu.ar/>`_.
+Hoy terminé una relación con una dama, relación que había entablado hace 11 años. Hoy fue mi último día en la `Universidad Nacional de La Matanza <https://www.unlam.edu.ar/>`_.
 
 .. image:: /images/uff/530240481_382db17ffc_o.jpg
 

@@ -2,7 +2,7 @@
 .. date: 2009-04-21 08:12:10
 .. tags: charla, introducción, Python
 
-`Martín Gaitán <http://nqnwebs.com/blog/>`_ armó un sidecast con mis filminas de Introducción a Python y mi presentación de las mismas en las 7mas Jornadas Regionales de Software Libre.
+`Martín Gaitán <http://nqnwebs.com/>`_ armó un sidecast con mis filminas de Introducción a Python y mi presentación de las mismas en las 7mas Jornadas Regionales de Software Libre.
 
 Un sidecast es básicamente poner en paralelo las filminas con el audio. En este caso particular se desluce un poquito en la parte que no sigo las filminas sino que muestro otras cosas por el proyector (cómo crear y ejecutar un programa, el uso del intérprete interactivo, etc.).
 

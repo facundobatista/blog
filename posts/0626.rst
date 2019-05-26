@@ -2,7 +2,7 @@
 .. date: 2013-09-06 18:14:21
 .. tags: protoboards, universidad
 
-Allá a lo lejos, hace más de 20 años (wow!), arrancaba mi carrera universitaria. Estudié Ingeniería en Electrónica, en la `Universidad Nacional de La Matanza <http://www.unlam.edu.ar/>`_.
+Allá a lo lejos, hace más de 20 años (wow!), arrancaba mi carrera universitaria. Estudié Ingeniería en Electrónica, en la `Universidad Nacional de La Matanza <https://www.unlam.edu.ar/>`_.
 
 Las cursadas siempre fueron en horarios parejitos y en el mismo aula (muy al estilo "secundario", lo que era genial porque uno mantenía siempre el mismo grupo de compañeros). En particular, en primer año cursábamos de lunes a viernes desde las ocho de la mañana hasta pasadas las doce. Y el sábado, creo que algo como desde las 8:45 hasta las 13.
 

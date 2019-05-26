@@ -8,7 +8,6 @@ Como no nos decidíamos, decidí medirlo.
 
 .. image:: /images/medir.jpg
     :alt: Medimos!
-    :target: http://www.flickr.com/photos/61863636@N00/1533299418/
 
 Creé un archivo de cien millones de bytes al azar, y probé con `distintos scripts hechos en el momento <http://www.taniquetil.com.ar/facundo/bdvfiles/code/test_mmap_scripts.tar.gz>`_, con un comportamiento parecido al que iba a hacer Guillo:
 

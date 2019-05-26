@@ -5,7 +5,7 @@
 Cuatro años
 -----------
 
-El finde pasado festejamos los cuatro años de Felipe, en el `Taller de la Ribera <http://www.tallerdelaribera.com.ar/home.php>`_.
+El finde pasado festejamos los cuatro años de Felipe, en el `Taller de la Ribera <https://www.facebook.com/TdelaRiberaCentroCultural/>`_.
 
 .. image:: /images/felu4años/festejo.jpeg
     :alt: Castillos

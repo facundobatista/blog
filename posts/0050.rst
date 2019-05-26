@@ -7,7 +7,7 @@ Robots
 
 ¿Alguna vez leyeron o escucharon el concepto de robots autorreplicantes? Básicamente se trata de la idea de robots que pueden fabricar otros robots, con el detalle que la única condición a cumplir es que tengan acceso a los materiales adecuados, sin intervención humana.
 
-Este concepto puede ser llevado a finales catastróficos, como en la serie `Terminator <http://www.lukor.com/cine/especiales-terminator.htm>`_, o a finales fantásticos, como en la cuatrilogía de Rama, de `Arthur C. Clarke <http://es.wikipedia.org/wiki/Arthur_C._Clarke>`_.  Si les picó el bichito de la curiosidad, pasen y vean este video (EDITADO: `la url no existe más <http://www.mae.cornell.edu/ccsl/research/selfrep/video/4x4ht4a.mpg>`__) de la Universidad de Cornell que muestra dicho concepto en acción. Hoy. Imagínense *mañana*.
+Este concepto puede ser llevado a finales catastróficos, como en la serie `Terminator <https://es.wikipedia.org/wiki/The_Terminator>`_, o a finales fantásticos, como en la cuatrilogía de Rama, de `Arthur C. Clarke <http://es.wikipedia.org/wiki/Arthur_C._Clarke>`_.  Si les picó el bichito de la curiosidad, pasen y vean este video (EDITADO: `la url no existe más <http://www.mae.cornell.edu/ccsl/research/selfrep/video/4x4ht4a.mpg>`__) de la Universidad de Cornell que muestra dicho concepto en acción. Hoy. Imagínense *mañana*.
 
 .. image:: /images/uff/530128832_02921d2bae_o.jpg
 
