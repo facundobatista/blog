@@ -1,0 +1,61 @@
+.. title: Python Argentina, actualidad y futuro
+.. date: 2019-06-18 15:31:00
+.. tags: Python, PyAr, planes, futuro, acciones, Trocafone, PyDay, PyCon,
+
+A nivel PyAr estamos teniendo un presente movidito. Venimos de un meetup en `Trocafone <https://www.trocafone.com.ar/>`_ y tenemos un `PyDay en Resistencia (Chaco) <https://eventos.python.org.ar/events/pydaynea2019/>`_ a fin de mes.
+
+El meetup en Trocafone estuvo bárbaro. Fue diferente a los que veníamos armando de un par de charlas y algo social tipo after office en la semana: lo que hicimos fue armar una mañana de charlas, y luego sprint/taller, o al menos esa era la idea.
+
+En la práctica, los meetups son más relajados que un PyDay o conferencia más grande, y nos permite acomodarnos a lo que va saliendo. Las charlas iniciales estuvieron muy bien, después hablé un poco de los proyectos de la tarde, comimos la picada bárbara cortesía de Trocafone, y después jugamos dos veces a eso que llamo "coding dojo rotativo rápido", y aprendimos `cómo hacer bots de Telegram con Python de forma super sencilla <https://python-telegram-bot.org/>`_.
+
+A nivel futuro estamos planeando un meetup en Rosario (algún día de semana, primeros días de Agosto? ¡tenemos que definir!), y luego va a realizarse un PyDay también en esa ciudad, con fecha a confirmar.
+
+Y ya tenemos definidas las fechas para la PyCon Argentina 2019: va a ser el 4, 5, y 6 de Diciembre (en el Centro Cultural General San Martín, CABA, como el año pasado).
+
+
+Asociación Civil, próximos meses
+--------------------------------
+
+Específicamente hablando de la Asociación Civil Python Argentina, tengo planes armados para los próximos meses que presenté en una reunión para Comisión Directiva y amigues hace unas semanas en oficinas de Satellogic.
+
+Los punteo a continuación, pero tampoco entro en demasiado detalle para no aburrir. Sepan que si quieren más info de cualquiera de estos temas pueden preguntarme directamente o a través del grupo de Telegram de `Amigues de la AC <https://t.me/amigues_asoc_civil_pyar>`_.
+
+**Terminar bootstrap de la Asociación Civil a nivel infraestructura**
+
+- Sistema de socies, tenerlo 100% funcional: para ello tenemos que terminar de cerrar `estos issues <https://github.com/PyAr/asoc_members/issues>`_, todo lo que necesitamos está cargado ahí... no falta tanto, avanzamos mucho los últimos meses, laburando yo solo, o con mucha ayuda en el último PyCamp, y gracias a `Gilgamezh <https://twitter.com/gilgamezh>`_ por todo lo que es infraestructura ya lo tenemos en producción (ejemplo: les nueves socies pueden `anotarse acá <https://admin.ac.python.org.ar/solicitud-alta/>`_).
+
+- Sistema de eventos completo: este no lo estamos haciendo a pulmón porque lo necesitamos más o menos rápido (es más, ya deberíamos estar empezándolo a usar), sino que se lo encargamos a `Devecoop <https://devecoop.com/>`_, cooperativa amiga (y socia benefactora) que nos hizo precio con el laburo. Vamos a ver cuanto llegamos a hacer, pero está tomando cuerpo de forma genial, y a lo sumo nos quedarán algunos detalles a terminar a futuro.
+
+.. image:: /images/acplan19-gestión.png
+    :alt: Gestión de Eventos
+
+**Que la AC haga break even**: para esto básicamente tenemos que tener una entrada mensual mayor a los gastos fijos que tenemos (abogado, contador, gastos bancarios, gastos operativos, etc.); para lograr esto queremos hacer foco en:
+
+- Juntar socies humanes y de organizaciones benefactoras: para la primera parte vamos por todos lados contando sobre la asociación y bajamos la barrera de entrada con el sistema de socies; para la segunda parte ya me estuve moviendo bastante antes de lanzar la PyCon, y pasamos de dos socias benefactoras a seis, lo cual casi da por cumplido ese objetivo (si conseguimos alguna más en el 2019 mejor, pero para el año estamos hechos).
+
+- Al menos dos entradas por eventos PyAr y por eventos externos: esto nos da una pequeña entrada de guita que ayuda al movimiento de la Asociación Civil, y aunque no es grande, pega directamente en el propósito de la asociación: ayudar a que se hagan eventos.
+
+- La PyCon (Argentina) nos tiene que dar un extra importante, aunque no la deberíamos contemplar como guita para el movimiento operativo de la asociación: por un lado nos debería "blindar" para la próxima conferencia grande, y por el otro tenemos que usar ese extra para consolidar infraestructura del grupo (comprar proyector, micrófonos, etc...).
+
+**Terminar bootstrap de la AC a nivel legal**
+
+- Tener exención de ganancias: esto ya lo ejecuté hace algunas semanas, y es un ejemplo de lo que decía arriba de gastos operativos que necesitamos afrontar en el día a día: solamente las copias autenticadas de papeles internos para presentar en la AFIP costaron $1500. Sí, una luca y media :/.
+
+- Tener los papeles internos normalizados: para esto vamos a armar una o dos reuniones en el corto plazo donde nos vamos a sentar a llenar "libros legales", que es algo que tenemos medio (bastante) atrasado.
+
+- Tener acceso del contador a sistemas bancarios: tenemos que ponernos con Leandro a toquetear permisos de plataformas...
+
+.. image:: /images/acplan19-libros.jpeg
+    :alt: Libros, papeles, presentaciones
+
+**Fortalecer/renovar/modernizar infraestructura del grupo**
+
+- Tener una forma primaria de comunicación asincrónica moderna, mantenida: vamos a cambiar la "lista de correo pura" que tenemos hoy por algo más nuevo; esto puede ser ir a una "lista de correo con foro decente", como nos brindaría mailman3, o "un foro que igual el que quiera lo pueda manejar como lista de correo", como Discourse, o algo por el estilo. En esto está `Gilgamezh <https://twitter.com/gilgamezh>`_, más que nada supervisando/participando en una discusión similar que está teniendo la PSF sobre esto mismo... ellos le están poniendo mucho análisis, así que lo más probable es que nosotros "reutilicemos sus conclusiones" y vayamos para el mismo lado.
+
+- Imagen más moderna y pensada: vamos a cambiar el logo! sí, después de 15 años, vamos a ir a un logo pensado/armado por un diseñador :) ... ¡y es una buena oportunidad para rehacer la bandera!
+
+- Tener un sistema de eventos que sirva para pydays/pycon/meetups: esto es `Eventol <https://github.com/eventoL/eventoL>`_, `servido por nosotros <https://eventos.python.org.ar/>`_, el cual ya funciona para pydays/pycon, pero faltan hacerle detalles y un cambio un poco más grande para soportar meetups o juntadas (que tiene el modelo de suscripción invertido con respecto a las conferencias normales).
+
+- Tener un sitio actualizado, elegante: un poco la imagen va a cambiar (por lo que decía arriba), y tenemos que corregirle cosas de la infraestructura que lo sirve ahora... no sólo a nivel de la migración que quedó por la mitad, sino también Waliki que se rompe seguido... ¿quizás cambiaremos la estructura que tiene el sitio en sí?
+
+
