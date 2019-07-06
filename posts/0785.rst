@@ -1,0 +1,25 @@
+.. title: Enseñando Python
+.. date: 2019-07-06 18:29:00
+.. tags: Pyhon, cursos, programación, seminario, Onapsis
+
+El último finde terminó el segundo Seminario de Python armado con Onapsis.
+
+El primero `había sido hace dos años </posts/0735/>`_, muy introductorio, para alrededor de cuarenta asistentes.
+
+El que acabo de completar, durante cuatro sábados de Junio, tuvo un `contenido más avanzado <http://www.taniquetil.com.ar/facundo/curso-medio-avanzado.html>`_. También fue en oficinas de Onapsis, pero en las nuevas, porque justo se mudaron hace un par de meses. Y fue para más de sesenta personas, lo cual ya per se es un desafío.
+
+.. image:: /images/seminario-python-2019.jpeg
+    :alt: La grupal, el último día
+
+Aunque había más gente, estaba más cómodo que la vez pasada porque al ser un espacio más grande, permitía moverme mejor. Un factor clave: ¡di todo el curso parado! Es crítico para futuros casos similares conseguirme una mesita alta para poder usar la laptop parado, esta vez funcionó de maravillas.
+
+Y además el contenido en si del curso fue más interesante, porque fueron temas que en general no doy en los cursos, y más desafiante porque otros temas los recorrí con una mayor profundidad. Esto, sumado a que los tiempos eran super justos, me obligó a preparar bien las clases y ejecutarlas sin mucho margen.
+
+Pero salieron bien, lo cual me deja muy contento. Un experimento exitoso.
+
+Por otro lado, para seguir cambiando cosas e intentar cosas nuevas, estamos armando con Leandro la idea de unos cursos no sólo teóricos sino también con una parte práctica importante.
+
+Vamos a ver si hacemos un par básicos, y si nos gusta y funciona, podemos seguir con temas más avanzados. O ir cambiando horarios, o días, o la duración del curso en sí.
+
+Queremos ir probando distintas alternativas, pero para entender mejor qué quieren les posibles asistentes, armamos `esta encuesta <https://docs.google.com/forms/d/1A-6nie0ud40aOyE_qBrQcjLS9ZNE4gJtjgGE6FyW8yU/edit>`_, no dejes de llenarla si te interesaría asistir.
+
