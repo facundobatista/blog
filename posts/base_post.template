@@ -5,6 +5,6 @@
 Texto texto.
 
 
-.. image:: /images/budapest-frio1.jpeg
-    :alt: El auto tapado de hielo, ese frío hacía
-    :target: url!!
+.. image:: /images/budapest-frio1.jpeg   # FIXME
+    :alt: El auto tapado de hielo, ese frío hacía   # FIXME
+    :target: url!!   # FIXME

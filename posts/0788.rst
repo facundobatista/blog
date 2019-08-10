@@ -1,0 +1,72 @@
+.. title: Complejidad, performance, y expresiones regulares
+.. date: 2019-08-10 19:53:00
+.. tags: regex, Python, código, ejemplo
+
+Hace algunos meses (sí, este post me había quedado en el tintero) se presentó en el laburo una tarea particular: había que evitar algunas búsquedas que se estaban haciendo en el `Snap Store <https://snapcraft.io/store>`_ que no tenían realmente sentido (y algunas complicaban al buscador), como por ejemplo ``123333333333333333333``. En estos casos es útil contestar "vacío" directamente sin hacer laburar al sistema.
+
+Cuando me comentaron del inconveniente me ofrecí a agarrar la tarea, porque ya había hecho esto mismo. Es más, hice un poco de arqueología y encontré un código muy similar, que en su momento había escrito para el buscador de `scopes <https://docs.ubuntu.com/phone/en/scopes/>`_. Entre otras restricciones a las búsquedas, estaba la de "detectar ráfagas de letras iguales".
+
+O sea que si en una búsqueda cualquier letra se repetía más de N veces sin otra cosa en el medio, esa búsqueda no tiene sentido. Como ejemplo, para N=3 la búsqueda ``foxxbarxxxdox`` es correcta, pero ``monroooose`` no. En el primer caso no importa que la ``x`` aparezca muchas veces, nunca aparece ininterrumpidamente más que 3, y en el segundo caso la ``o`` aparece en una ráfaga de 4 veces: alpiste.
+
+.. image:: /images/regexperf-búsqueda.jpeg
+    :alt: Buscar palabras en servicios web es más sencillo que buscar el destino (?)
+    :target: https://unsplash.com/photos/aebPbwAWjDs
+
+El código que rescaté (y usé en el nuevo servicio) era exactamente este::
+
+    # detect a "lot of same letter in a row"
+    cnt = 1
+    prev = None
+    for char in term:
+        if char == prev:
+            cnt += 1
+            if cnt > MAX_REPEATED_IN_A_ROW:
+                return True
+        else:
+            cnt = 1
+            prev = char
+
+La variable ``term`` es justamente la palabra buscada, y ``MAX_REPEATED_IN_A_ROW`` es una constante del módulo que indica el ``N`` que hablábamos arriba (pero mejor descripto, je).
+
+Cuando propuse el `branch <https://es.wikipedia.org/wiki/Control_de_versiones#Uso_de_ramas>`_, la persona que hizo el review le pareció que se podía mejorar ese algoritmo. O mejor dicho, reemplazarlo totalmente por una `expresión regular <https://es.wikipedia.org/wiki/Expresi%C3%B3n_regular>`_, y propuso lo siguiente::
+
+    for char in term:
+        if re.search(r"{char}{times,}".format(char=char, times=MAX_REPEATED_IN_A_ROW), term):
+            return True
+
+Casi enseguida, se dio cuenta que hacer una regex (apócope en inglés para "expresión regular") por cada caracter no iba a estar bueno, y mejoró (?) la misma para hacer solamente una regex en total::
+
+    if re.search(r"(\w)\1{{{times},}}".format(times=MAX_REPEATED_IN_A_ROW - 1), term):
+        return True
+
+¿Valía la pena ir a algo más complejo? ¿O no era *tanto* más complejo? El loop original no me gustaba del todo, realmente, pero me parecía más fácil de entender que una expresión regular como las propuestas... y también más sencilla de modificar a futuro si los requerimientos cambiaban sutilmente.
+
+Por otro lado, las expresiones regulares parecían funcionar en las pruebas que había realizado a mano (y en los `test cases <https://es.wikipedia.org/wiki/Caso_de_prueba>`_ que tenía. Y quizás fuese más rápido, después de todo estamos cambiando un algoritmo hecho en Python por una regex (cuyo motor está hecho en C). Pero no me convencía hacer el cambio.
+
+Para agregar elementos en el análisis, me propuse medir tiempos. La mejor forma era simular la realidad, así que pedí los logs de alguno de los servidores, agarre toneladas de búsquedas *reales* de un par de semanas anteriores (176 mil), y me puse a medir cuanto tardaba tanto el loop original como las dos regexes propuestas como reemplazo (todos pensábamos que la segunda era más rápida que la primera, pero no costaba nada comprobarlo).
+
+Al comenzar este análisis encontré rápidamente que la regex "lenta" no servía del todo: explotaba por el aire con búsquedas como ``ter$``. La descarté para hacer foco en los otros dos códigos y no irme por las ramas.
+
+Ya desconfiando, armé un programita que no sólo analice los tiempos del loop y la regex rápida, sino que también compare los resultados... y vi que no daban lo mismo siempre! Exploré un poquito y encontré que la regex "rápida" daba resultados erróneos para búsquedas como ``loch,,,,,,,,,,``.
+
+Mejoramos entonces la regex, y nos quedó::
+
+    if re.search(r"(\.)\1{{{times},}}".format(times=MAX_REPEATED_IN_A_ROW - 1), term):
+       return True
+
+Esta funcionó, al menos para todos los ejemplos que yo tenía para medir los tiempos. Pero cuanto podía confiar que no íbamos a encontrar otro caso en el futuro que la haga romper?
+
+¿Y si yo no hacía correr todos los ejemplos y metíamos la anterior, que no funcionaba del todo?
+
+Hay una frase en modo de chiste (pero más o menos verdad) que dice que "si tenés un problema, y para resolverlo usás expresiones regulares, ahora tenés dos problemas".
+
+Por otro lado, ¿valía la pena el cambio a nivel de velocidad?
+
+.. image:: /images/regexperf-cronómetro.jpeg
+    :alt: Pongámonos a medir tiempos, pasame el cronómetro
+
+Los resultados del análisis de tiempos me terminó dando que la última expresión regular tardaba (en promedio, para cada búsqueda) 1.5056µs, mientras que el loop tardaba 1.456µs.
+
+La regex era más lenta, por casi 50 nanosegundos.
+
+Dejé el loop.
