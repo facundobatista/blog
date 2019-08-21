@@ -1,8 +1,27 @@
-FIXME: headers!!!
+.. title: Series (y películas) a todo ritmo
+.. date: 2019-08-21 17:09:00
+.. tags: películas, series
 
-FIXME: Texto inicial acá
+Buena racha de ver pelis! Entre viajes, ratos libres, pelis que vi de casualidad, metí un montón estos últimos meses! Por otro lado, no anoté tantas nuevas para ver, así que ahí vamos bajando los pendientes.
 
-Otra linea, etc
+En lo que también avancé bastante fue con las series...
+
+- `Girls <https://www.imdb.com/title/tt1723816/reference>`_: bleh, pero me dió para terminarla; me gustó mucho la actuación de Adam Driver, un descubrimiento.
+- `The Kaminsky Method <https://www.imdb.com/title/tt7255502/reference>`_: es MUY buena, especialmente si estás envejeciendo :p.
+- `The Strain <https://www.imdb.com/title/tt2654620/reference>`_: una de vampiros, pero con una vuelta de tuerca "realista", muy explícito todo, Guillermo del Toro en su máxima expresión.
+- `Louie <https://www.imdb.com/title/tt1492966/reference>`_: la corté, le dí cinco capítulos, pero es un humor que no me mueve un pelo. O sea, la comedia se basa en un humorista, sus monólogos, y vida, y lo que hace no me divierte. Seguro a otros le gustará.
+- `Love, Death & Robots <https://www.imdb.com/title/tt9561862/reference>`_: la disfruté *mucho*. Hay algunos que bleh, pero como son cortitos, no pasa nada. Hay otros que son geniales.
+- `The Bletchley Circle <https://www.imdb.com/title/tt2275990/reference>`_: está bien, bastante mejor la primer temporada que la segunda, pero son cortas así que zafa.
+
+Ahora estoy con:
+
+- `Vikings <https://www.imdb.com/title/tt2306299/reference>`_: promete, es larga, veremos como la llevan; por lo pronto me molesta la estúpida dicotomía de "violencia sí sexo no". O sea, está bien mostrar como a uno le cortan la cabeza y la sangre salpica todo, pero está mal mostrar una teta incluso al amamantar, ni hablemos de desnudos eróticos, o sexo!
+- `True Detective <https://www.imdb.com/title/tt2356777/reference>`_: la primera temporada es MUY BUENA; creo haber escuchado que las otras dos no están relacionadas, ojalá no decaiga demasiado el nivel.
+
+.. image:: /images/pelis/geraldsgame.jpeg
+    :alt: Carla Gugino en Gerald's Game
+
+En fin, ¡películas!
 
 - `A Scanner Darkly <https://www.imdb.com/title/tt0405296/>`_: -0. La historia está buena, tiene sus giros interesantes, pero se me hizo muy cuesta arriba el tipo de imagen (animada, todo el tiempo como "temblando").
 - `Amateur <https://www.imdb.com/title/tt5196660/>`_: No la pude encontrar para ver :(.
@@ -27,9 +46,11 @@ Otra linea, etc
 - `Suburbicon <https://www.imdb.com/title/tt0491175/>`_: -0. La historia (aunque sorprende, tiene sus giros y te lleva) es bleh, y por un buen rato la película no va a ningún lado.
 - `Surviving the 70's <https://www.imdb.com/title/tt4262918/>`_: +0. Excelentes las actuaciones de Alejandro Awada y Patricio Contreras, incluso Romina Ricci está a la altura. A la otra chica le falta un poco, pero no llega a restar. Muy "teatral", la historia está bien.
 
-FIXME: Mas peliculas anotadas para ver:
 
-Otra linea, etc
+.. image:: /images/pelis/it.jpeg
+    :alt: El coso
+
+Más películas anotadas para ver:
 
 - `Captain Marvel <https://www.imdb.com/title/tt4154664/>`_: (2019; Action, Adventure, Sci-Fi) Carol Danvers becomes one of the universe's most powerful heroes when Earth is caught in the middle of a galactic war between two alien races. [D: Anna Boden, Ryan Fleck; A: Brie Larson, Samuel L. Jackson, Ben Mendelsohn]
 - `El cuento de las comadrejas <https://www.imdb.com/title/tt8453986/>`_: (2019; Comedy, Drama) A group of four old friends conformed by a film director, a film writer, an actress and her husband share a big house in the country. Their coexistence is menaced by a young couple who resourcefully and deceitfully seek to get them to sell the house to develop a real estate project of their own. [D: Juan José Campanella; A: Graciela Borges, Oscar Martínez, Luis Brandoni]
@@ -41,6 +62,11 @@ Otra linea, etc
 - `Yucatán <https://www.imdb.com/title/tt6502956/>`_: (2018; Comedy) Two white collar thieves compete fiercely against the other trying to steal millions from an old baker, that he won in the lotto.::Chockys [D: Daniel Monzón; A: Luis Tosar, Rodrigo De la Serna, Joan Pera]
 - `Ad Astra <https://www.imdb.com/title/tt2935510/>`_: (2019; Adventure, Drama, Mystery, Sci-Fi, Thriller) An astronaut travels to the outer edges of the solar system to find his father and unravel a mystery that threatens the survival of our planet. He uncovers secrets which challenge the nature of human existence and our place in the cosmos. [D: James Gray; A: Brad Pitt, Liv Tyler, Ruth Negga]
 - `Terminator: Dark Fate <https://www.imdb.com/title/tt6450804/>`_: (2019; Action, Adventure, Sci-Fi) Sarah Connor has returned from far away, and she's gearing up with a team of agents who will fight against T-1000. [D: Tim Miller; A: Arnold Schwarzenegger, Edward Furlong, Mackenzie Davis]
+
+
+.. image:: /images/pelis/mother.jpeg
+    :alt: El escenario de Mother
+
 
 Finalmente, el conteo de pendientes por fecha::
 
@@ -61,83 +87,3 @@ Finalmente, el conteo de pendientes por fecha::
     (Mar-2019)                                   13  13
     (Ago-2019)                                       10
     Total:       89 100  94  97  94  89  84  79  69  57
-
-<a href="https://www.imdb.com/title/tt7225386/">25 km/h</a> <font size="-2"><i>(May-2018)</i></font><br>
-<a href="https://www.imdb.com/title/tt7319532/">27: The Cursed Club</a> <font size="-2"><i>(May-2018)</i></font><br>
-<a href="https://www.imdb.com/title/tt2935510/">Ad Astra</a> <font size="-2"><i>(Ago-2019)</i></font><br>
-<a href="https://www.imdb.com/title/tt4161962/">Ahora o nunca</a> <font size="-2"><i>(May-2018)</i></font><br>
-<a href="https://www.imdb.com/title/tt7297954/">Alanis</a> <font size="-2"><i>(May-2018)</i></font><br>
-<a href="https://www.imdb.com/title/tt0437086/">Alita: Battle Angel</a> <font size="-2"><i>(May-2018)</i></font><br>
-<a href="https://www.imdb.com/title/tt7173652/">All Inclusive</a> <font size="-2"><i>(Mar-2019)</i></font><br>
-<a href="https://www.imdb.com/title/tt7589524/">Aniara</a> <font size="-2"><i>(Mar-2019)</i></font><br>
-<a href="https://www.imdb.com/title/tt2798920/">Annihilation</a> <font size="-2"><i>(May-2018)</i></font><br>
-<a href="https://www.imdb.com/title/tt6131450/">Asher</a> <font size="-2"><i>(Mar-2019)</i></font><br>
-<a href="https://www.imdb.com/title/tt1727824/">Bohemian Rhapsody</a> <font size="-2"><i>(May-2018)</i></font><br>
-<a href="https://www.imdb.com/title/tt8425058/">Brexit</a> <font size="-2"><i>(Mar-2019)</i></font><br>
-<a href="https://www.imdb.com/title/tt8067306/">Camarón: Flamenco y Revolución</a> <font size="-2"><i>(Sep-2018)</i></font><br>
-<a href="https://www.imdb.com/title/tt4154664/">Captain Marvel</a> <font size="-2"><i>(Ago-2019)</i></font><br>
-<a href="https://www.imdb.com/title/tt6217664/">Chavela</a> <font size="-2"><i>(Sep-2018)</i></font><br>
-<a href="https://www.imdb.com/title/tt6148804/">El Aprendiz</a> <font size="-2"><i>(Dic-2017)</i></font><br>
-<a href="https://www.imdb.com/title/tt7428476/">El increíble finde menguante</a> <font size="-2"><i>(Ago-2019)</i></font><br>
-<a href="https://www.imdb.com/title/tt6981702/">Empowered</a> <font size="-2"><i>(Ago-2019)</i></font><br>
-<a href="https://www.imdb.com/title/tt5886046/">Escape Room</a> <font size="-2"><i>(Mar-2019)</i></font><br>
-<a href="https://www.imdb.com/title/tt1298554/">Eva</a> <font size="-2"><i>(Sep-2018)</i></font><br>
-<a href="https://www.imdb.com/title/tt4964788/">Everybody Knows</a> <font size="-2"><i>(May-2018)</i></font><br>
-<a href="https://www.imdb.com/title/tt3454574/">Extraordinary Tales</a> <font size="-2"><i>(Sep-2018)</i></font><br>
-<a href="https://www.imdb.com/title/tt1213641/">First Man</a> <font size="-2"><i>(Sep-2018)</i></font><br>
-<a href="https://www.imdb.com/title/tt5737536/">Future World</a> <font size="-2"><i>(May-2018)</i></font><br>
-<a href="https://www.imdb.com/title/tt7398584/">Get Her... If You Can</a> <font size="-2"><i>(Mar-2019)</i></font><br>
-<a href="https://www.imdb.com/title/tt6966692/">Green Book</a> <font size="-2"><i>(Mar-2019)</i></font><br>
-<a href="https://www.imdb.com/title/tt3721964/">Gringo</a> <font size="-2"><i>(May-2018)</i></font><br>
-<a href="https://www.imdb.com/title/tt3910736/">Gun Shy</a> <font size="-2"><i>(Dic-2017)</i></font><br>
-<a href="https://www.imdb.com/title/tt2274648/">Hellboy</a> <font size="-2"><i>(Mar-2019)</i></font><br>
-<a href="https://www.imdb.com/title/tt10384744/">Heroic Losers</a> <font size="-2"><i>(Ago-2019)</i></font><br>
-<a href="https://www.imdb.com/title/tt5834262/">Hotel Artemis</a> <font size="-2"><i>(May-2018)</i></font><br>
-<a href="https://www.imdb.com/title/tt6160506/">Impulse</a> <font size="-2"><i>(Sep-2018)</i></font><br>
-<a href="https://www.imdb.com/title/tt5034212/">Incontrol</a> <font size="-2"><i>(Mar-2019)</i></font><br>
-<a href="https://www.imdb.com/title/tt3606756/">Incredibles 2</a> <font size="-2"><i>(Dic-2017)</i></font><br>
-<a href="https://www.imdb.com/title/tt6047298/">La Cordillera</a> <font size="-2"><i>(Dic-2017)</i></font><br>
-<a href="https://www.imdb.com/title/tt4682804/">Lucy in the Sky</a> <font size="-2"><i>(Ago-2019)</i></font><br>
-<a href="https://www.imdb.com/title/tt3469798/">Orbiter 9</a> <font size="-2"><i>(May-2018)</i></font><br>
-<a href="https://www.imdb.com/title/tt4901306/">Perfect Strangers</a> <font size="-2"><i>(Sep-2018)</i></font><br>
-<a href="https://www.imdb.com/title/tt0837563/">Pet Sematary</a> <font size="-2"><i>(Mar-2019)</i></font><br>
-<a href="https://www.imdb.com/title/tt6933454/">Puzzle</a> <font size="-2"><i>(May-2018)</i></font><br>
-<a href="https://www.imdb.com/title/tt3397884/">Sicario</a> <font size="-2"><i>(Sep-2018)</i></font><br>
-<a href="https://www.imdb.com/title/tt4633694/">Spider-Man: Into the Spider-Verse</a> <font size="-2"><i>(Mar-2019)</i></font><br>
-<a href="https://www.imdb.com/title/tt4972582/">Split</a> <font size="-2"><i>(May-2018)</i></font><br>
-<a href="https://www.imdb.com/title/tt1278469/">Temple Grandin</a> <font size="-2"><i>(Sep-2018)</i></font><br>
-<a href="https://www.imdb.com/title/tt6450804/">Terminator: Dark Fate</a> <font size="-2"><i>(Ago-2019)</i></font><br>
-<a href="https://www.imdb.com/title/tt2140507/">The Current War</a> <font size="-2"><i>(Dic-2017)</i></font><br>
-<a href="https://www.imdb.com/title/tt2119543/">The House with a Clock in Its Walls</a> <font size="-2"><i>(Sep-2018)</i></font><br>
-<a href="https://www.imdb.com/title/tt1302006/">The Irishman</a> <font size="-2"><i>(Mar-2019)</i></font><br>
-<a href="https://www.imdb.com/title/tt1318517/">The Man Who Killed Don Quixote</a> <font size="-2"><i>(May-2018)</i></font><br>
-<a href="https://www.imdb.com/title/tt2837574/">The Old Man & the Gun</a> <font size="-2"><i>(Ago-2019)</i></font><br>
-<a href="https://www.imdb.com/title/tt7658384/">The Quietude</a> <font size="-2"><i>(Sep-2018)</i></font><br>
-<a href="https://www.imdb.com/title/tt5580390/">The Shape of Water</a> <font size="-2"><i>(May-2018)</i></font><br>
-<a href="https://www.imdb.com/title/tt8453986/">The Weasel's Tale</a> <font size="-2"><i>(Ago-2019)</i></font><br>
-<a href="https://www.imdb.com/title/tt1365519/">Tomb Raider</a> <font size="-2"><i>(May-2018)</i></font><br>
-<a href="https://www.imdb.com/title/tt5691670/">Under the Silver Lake</a> <font size="-2"><i>(Sep-2018)</i></font><br>
-<a href="https://www.imdb.com/title/tt8079248/">Yesterday</a> <font size="-2"><i>(Mar-2019)</i></font><br>
-<a href="https://www.imdb.com/title/tt6502956/">Yucatán</a> <font size="-2"><i>(Ago-2019)</i></font><br>
-
-Finalmente, el conteo de pendientes por fecha::
-
-    (Jun-2013)<br/>
-    (Sep-2013)<br/>
-    (Dic-2013)&nbsp;&nbsp;&nbsp;&nbsp;4<br/>
-    (Abr-2014)&nbsp;&nbsp;&nbsp;&nbsp;3<br/>
-    (Jul-2014)&nbsp;&nbsp;&nbsp;10&nbsp;&nbsp;&nbsp;5&nbsp;&nbsp;&nbsp;1<br/>
-    (Nov-2014)&nbsp;&nbsp;&nbsp;22&nbsp;&nbsp;22&nbsp;&nbsp;&nbsp;7<br/>
-    (Feb-2015)&nbsp;&nbsp;&nbsp;13&nbsp;&nbsp;13&nbsp;&nbsp;10<br/>
-    (Jun-2015)&nbsp;&nbsp;&nbsp;16&nbsp;&nbsp;15&nbsp;&nbsp;13&nbsp;&nbsp;11&nbsp;&nbsp;&nbsp;1<br/>
-    (Dic-2015)&nbsp;&nbsp;&nbsp;21&nbsp;&nbsp;19&nbsp;&nbsp;19&nbsp;&nbsp;18&nbsp;&nbsp;&nbsp;6&nbsp;&nbsp;&nbsp;1<br/>
-    (May-2016)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;26&nbsp;&nbsp;25&nbsp;&nbsp;23&nbsp;&nbsp;21&nbsp;&nbsp;&nbsp;9<br/>
-    (Sep-2016)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;19&nbsp;&nbsp;19&nbsp;&nbsp;18&nbsp;&nbsp;14&nbsp;&nbsp;&nbsp;1<br/>
-    (Feb-2017)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;26&nbsp;&nbsp;25&nbsp;&nbsp;23&nbsp;&nbsp;21&nbsp;&nbsp;&nbsp;9&nbsp;&nbsp;&nbsp;1<br/>
-    (Jun-2017)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;23&nbsp;&nbsp;23&nbsp;&nbsp;21&nbsp;&nbsp;18&nbsp;&nbsp;&nbsp;5<br/>
-    (Dic-2017)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;19&nbsp;&nbsp;19&nbsp;&nbsp;18&nbsp;&nbsp;16&nbsp;&nbsp;&nbsp;5<br/>
-    (May-2018)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;22&nbsp;&nbsp;22&nbsp;&nbsp;22&nbsp;&nbsp;17<br/>
-    (Sep-2018)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;12&nbsp;&nbsp;12&nbsp;&nbsp;12<br/>
-    (Mar-2019)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;13&nbsp;&nbsp;13<br/>
-    (Ago-2019)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;10<br/>
-    Total:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;89&nbsp;100&nbsp;&nbsp;94&nbsp;&nbsp;97&nbsp;&nbsp;94&nbsp;&nbsp;89&nbsp;&nbsp;84&nbsp;&nbsp;79&nbsp;&nbsp;69&nbsp;&nbsp;57<br/>
