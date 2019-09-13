@@ -1,0 +1,25 @@
+.. title: Perlitas Python
+.. date: 2019-09-12 21:00:00
+.. tags: Python, PyAr, Asociación Civil, Meetup, PyDay, PyCon, evento, charla
+
+Estas últimas semanas estuve bastante a full, especialmente con un montón de pequeñas cositas de Python, las tiro como popurrí...
+
+El 28 de Agosto hubo un `meetup <https://www.meetup.com/es-ES/Buenos-Aires-Python-Meetup/events/264183458/>`_ en oficinas de `Virtualmind <https://twitter.com/VirtualmindArg/>`_ (Socia Benefactora de la `Asociación Civil <https://ac.python.org.ar/>`_. Fue el primero ahí y estuvo muy bueno, gracias Nariné por la coordinación por parte de la empresa y todo. Tuvimos las charlas de "Cómo publicar una biblioteca en PyPI (y todo lo que conlleva)" por `Agustín Scaramuzza <https://twitter.com/scaramagus>`_ y "Testing basado en propiedades con Hypothesis" por `Sasha <https://twitter.com/sashaKile>`_, y después un espacio social mientras picábamos y tomábamos algo. Y después un grupito ya reducido nos fuimos un rato más por ahí...
+
+El 30 de Agosto di mi ya clásica charla de Introducción a Python en el `curso de posgrado Herramientas Computacionales para Científicos de la Universidad de La Plata <http://www.exactas.unlp.edu.ar/articulo/2015/6/2/herramientas_computacionales_para_cientificos>`_. Esta vez como novedad invité a `Yanina <https://twitter.com/LaLocaAmelia>`_ a que hable de la comunidad de Python y Python Argentina. Y después como siempre `Manu <https://twitter.com/mcarlevaro>`_ y familia nos agasajaron en su casa (espectaculares pizzas caseras!).
+
+Mañana viernes doy una charla, también de Intro a Python, en la `Universidad Nacional de Hurlingham <http://www.unahur.edu.ar/>`_. Está bueno empezar a hacer cosas en Universidades, ojalá tuviera más tiempo para empujar esto más fuerte.
+
+Este sábado, ya ya también, se realiza el `PyDay de Rosario <https://eventos.python.org.ar/events/pydayrosario2019/>`_, al que lamentablemente no voy a poder asistir. Vayan que las charlas pintan buenísimas!!
+
+Por suerte el 27 de Septiembre me desquito y voy (a Rosario, justamente) un meetup que hace rato estamos tratando de organizar en la sede de San Cristobal, que es Socia Benefactora de `la Asociación Civil <https://ac.python.org.ar/>`_. Y tengo ganas de dar una charla ahí,. Así que si están por la zona y quieren pasar a saludar, bienvenides :) (especialmente si por algún motivo se pierden el PyDay de este sábado!!).
+
+.. image:: /images/conferencia.jpeg
+    :alt: Charlas, charlas, charlas
+
+Además de todo eso, muy a full con la `PyConAr de Diciembre <https://eventos.python.org.ar/events/pyconar2019/>`_, preparando todo, coordinando a un grupo copado que están laburando un montón. En un par de días cierra el `Call for Charlas <https://eventos.python.org.ar/events/pyconar2019/activity/proposal/>`_, y ya estamos viendo el nuevo logo, vamos a hacer remeras (estén atentes a la preventa para comprarlas baratas!), ya tenemos confirmado a un keynote (nos falta una), y montón más de detallitos... o más bien, detallotes! :)
+
+También, lo que me lleva bastante carga horaria (nos lleva, realmente, a `Leandro <https://twitter.com/LeCoVi>`_ (tesorero) y a mí), estoy ayudando al `PyData Córdoba <https://pydata.org/cordoba2019/>`_ y el `PyDay de Rosario <https://eventos.python.org.ar/events/pydayrosario2019/>`_ recién mencionado, en esto de la Asociación Civil Python Argentina como paraguas de organización (básicamente, ayudar a la gente a hacer eventos, con cobertura institucional y manejo de dinero).
+
+Y finalmente, a punto de terminar de renovar el logo de PyAr, ya tendremos novedades :D
+
