@@ -1,0 +1,34 @@
+.. title: Matemática: de las gaseosas a Python
+.. date: 2019-10-02 18:50:00
+.. tags: matemática, gaseosas, Python, ecuaciones
+
+El sábado hago un asado por el cumple de Felu, así que estamos comprando vituallas. Entre ellas, gaseosas; Moni las compró ayer a la noche, y como era tarde quedaron en el living.
+
+Esta mañana, las fui llevando de a 3 (fácil de agarrarlas) hasta la cocina, no me sobró ninguna botella (o sea, la cantidad era múltiplo de 3). A la tarde las llevé al quincho, pero las agarré de a 4 (más lío, pero valía la pena porque el "viaje" es más largo): me sobró una botella (o sea, hice un último viaje con una botella sola).
+
+Me quedé pensando: ¿cómo calcularía uno qué numero de botellas moví? Debería ser una de las soluciones a algo como (si ``x`` es la cantidad de botellas) ``x % 3 = 0`` y ``x % 4 = 1``.
+
+Lo `tiré en twitter <https://twitter.com/facundobatista/status/1179411372834267136>`_.
+
+Roberto al toque propuso algunas cosas, pero aunque quedaba como un paso `más cerca de la resolución <https://twitter.com/ralsina/status/1179420743039438854>`_, yo no terminaba de entender como dar el paso final.
+
+Interesante, porque al menos hasta este yo ya me estaba dando cuenta de que ese problema que me parecía difícil de generalizar en verdad lo era (más allá de mis limitaciones matemáticas), escuché por primera vez `ecuaciones diofánticas <https://es.wikipedia.org/wiki/Ecuaci%C3%B3n_diof%C3%A1ntica>`_, e incluso me di cuenta que estaba rozando `el 10° problema de Hilbert <https://es.wikipedia.org/wiki/D%C3%A9cimo_problema_de_Hilbert>`_.
+
+.. image:: /images/dilbert-math.gif
+    :alt: El décimo problema de Hilbert, NO de Dilbert!
+
+Luciano entró en el juego, y luego de un poco de charla alrededor del problema, y `vislumbró por donde podía venir la mano <https://twitter.com/microluciano/status/1179452703023521793>`_.
+
+Efectivamente, terminó confirmando que el problema se podía resolver mediante el `teorema chino del resto <https://es.wikipedia.org/wiki/Teorema_chino_del_resto>`_, e incluso `pasó un video <https://www.youtube.com/watch?v=zIFehsBHB8o>`_ que lo explica (en inglés), que me marqué para ver en algún momento.
+
+Y no sólo es, también mostró cómo resolverlo en Python! Miren::
+
+    $ fades -d sympy
+    Python 3.6.8 (default, Jan 14 2019, 11:02:34)
+    ...
+    >>> from sympy.ntheory.modular import crt
+    >>> x, N = crt([3,4], [0,1])   # 3 y 4 son los divisores, 0 y 1 los restos correspondientes
+    >>> [x + i * N for i in range(10)]
+    [9, 21, 33, 45, 57, 69, 81, 93, 105, 117]
+
+En mi caso, había movido 21 botellas. Un espectáculo.
