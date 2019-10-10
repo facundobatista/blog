@@ -1,0 +1,46 @@
+.. title: Solucionando el problema de las preguntas en conferencias
+.. date: 2019-10-10 19:10:00
+.. tags: conferencia, bot, Telegram, dinámica, grupos, preguntas, charlas
+
+En general, dentro del tiempo estipulado para las charlas por la organización de una conferencia se incluye unos minutos de preguntas y respuestas.
+
+Esos minutos pueden ser más o menos, pero en general están ahí, excepto quizás para charlas ultracortas, como las Lightning Talks. Pero en una charla de 25 o 40 minutos, siempre habrán entre 3 y 10 minutos para que la gente pueda hacerle preguntas a les charlistas.
+
+Entonces, cuando termina la charla, les charlistas agradecen, se avisa que arranca el espacio de preguntas y respuestas, y ahí aparece un momento de incertidumbre donde se espera a ver si en efecto hay alguna pregunta! La gente arranca (o no), y luego se utiliza todo el tiempo (o no), y termina el ciclo.
+
+Más allá de sus ventajas obvias, que hacen que siempre haya de estos espacios en casi todas las charlas de casi todas las conferencias, esta dinámica tiene algunos problemas bien conocidos.
+
+Entre ellos:
+
+- Romper barreras: no es fácil animarse a hacer preguntas en una conferencia, por múltiples razones. Podemos pensar que la pregunta es muy tonta, o que ya estuvo contestada pero no la entendimos. Quizás no querramos exponernos porque pertenecemos a alguna minoría y no sabemos si es un ambiente "seguro" (ver `diversidad <http://diversidad.python.org.ar/>`_). Quizás nos dé vergüenza hablar en el idioma de les charlistas porque no lo manejamos del todo bien. Quizás tengamos directamente alguna dificultad en el habla.
+
+- Preguntas, no disertaciones: es bastante molesto (para les charlistas y para el público en general) cuando el que va a hacer una pregunta NO hace una pregunta, sino que se pone a exponer opiniones, dar sus puntos de vista, contestar otras preguntas anteriores, y en general toda disertación que no sea, efectivamente, una pregunta para las personas que acaban de dar la presentación.
+
+- No se escucha: la mayoría de las veces cuesta que todo el público escuche bien la pregunta que se está haciendo, especialmente si el ambiente es grande, o la persona habla en voz baja. A veces hay un micrófono que se puede acercar a la persona que hace la pregunta, pero tiene que haber alguien corriendo de un lado para el otro; a veces hay algún micrófono central al que nos podemos acercar para hacer la pregunta, pero eso incrementa la barrera que hablaba antes. Y si la charla se está filmando, y la pregunta no se hace por micrófono, directamente se pierde.
+
+¿Cómo solucionamos esto? A mí se me ocurrió algo: el `cuabot <https://github.com/PyAr/cuabot>`_.
+
+.. image:: /images/cuabot.png
+    :alt: Un bot de preguntas y respuestas
+
+El *cuabot* es un botcito de Telegram que se activa durante la conferencia y permite solucionar (al menos en parte) algunos de estos problemas.
+
+La dinámica es la siguiente...
+
+- cualquier persona puede hablar con el bot, en cualquier momento, tiene sólo comandos para mandar preguntas
+- al conectarse por primera vez informa esos comandos, y hay uno por sala de la conferencia (ej: ``/salaA``, ``/sala8``, ``/plenaria``); esto está obviamente configurado distinto por conferencia
+- entonces asistimos a una conferencia, vamos a una charla, y si queremos hacer una pregunta en cualquier momento, ejecutamos el comando que corresponda del bot según la sala en que estemos
+- el bot va a replicar esta pregunta en un grupo privado donde está el responsable de la sala y un par más (no todo el mundo)
+- cuando termina la charla propiamente dicha, el responsable de la sala va a tener N preguntas YA hechas (aunque la gente puede escribir también en ese momento), elige cual(es) preguntas valen la pena o entran en el tiempo, y las comunica
+
+Esto soluciona los problemas antedichos:
+
+- Romper barreras: es mucho más fácil animarse a escribir algo que decirlo en voz alta en un salón lleno de gente, especialmente si es en un idioma en el que no estamos muy habituados.
+
+- Preguntas, no disertaciones: el responsable de la sala puede ignorar tranquilamente algo que NO sea una pregunta, aunque también puede decidir qué es lo mejor para el cierre de la charla (elegir las mejores 3 preguntas de muchas, si hay poco tiempo, o si casi no hay preguntas pero hay un par de comentarios, también puede leer eso para llenar el tiempo); de cualquier manera el poder lo tiene el responsable de la sala, en vista de todo lo que haya mandado el público
+
+- No se escucha: el responsable de la sala puede hablar directamente en uno de los micrófonos habilitados, al que no hace falta llevarlo a las corridas por toda la sala.
+
+Obviamente trae algunos detalles a la conversación: la gente tiene que tener un dispositivo en la mano para poder mandar el mensaje (algo que sucede con altísima frecuencia), este dispositivo tiene que estar conectado a internet (lo cual es una buena suposición), y la persona tiene que tener Telegram instalado/configurado (que es bastante normal para personas técnicas).
+
+De cualquier manera, como último recurso siempre se puede hacer la pregunta de la forma clásica (moviendo aire con nuestros pulmones y modulando ese flujo de aire con nuestras cuerdas vocales).
