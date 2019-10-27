@@ -1,0 +1,27 @@
+.. title: PyCon Argentina 2019, a todo ritmo
+.. date: 2019-10-27 17:27:00
+.. tags: Python, PyCon, PyConAr, Argentina, conferencia, agenda, charlas, keynotes, podcast, remeras
+
+Venimos pisteando como campeones para la PyCon Argentina del 4 al 6 de Diciembre, en el Centro Cultural General San Martín, CABA.
+
+Miren que lindo `sitio <https://eventos.python.org.ar/events/pyconar2019/>`_.
+
+Ya están abiertas las inscripciones, recuerden que el evento es libre y gratuito, así que todo lo que tienen que hacer para venir es anotarse es llenar `el formulario de registración <https://eventos.python.org.ar/events/pyconar2019/registration>`_.
+
+.. image:: /images/pyconar2019-logo.png
+    :alt: PyCon Argentina 2019
+    :target: https://eventos.python.org.ar/events/pyconar2019/
+
+Aunque le falta cargar algunas cosas (todavía nos falta algo de data) ya tenemos la `agenda del evento <https://eventos.python.org.ar/events/pyconar2019/schedule>`_, pasen y vean, que lindas tolderías.
+
+¡Y ya tenemos les keynotes! En esta edición son de Argentina (pero con nivel internacional, no se crean)...
+
+- `Sheila Berta <https://twitter.com/unapibageek>`_: es una especialista en seguridad informática que comenzó a los 12 años de forma autodidacta. Asimismo, es desarrolladora en ASM, C/C++, Python y Golang. Ha encontrado vulnerabilidades en importantes aplicaciones y brindado charlas sobre sus investigaciones en conferencias internacionales. Actualmente trabaja como Head of Research en Dreamlab Technlogies.
+
+- `Martin Sarsale <https://twitter.com/runixo/>`_: es el fundador y CTO de Properati, un sitio del mundo inmobiliario en LATAM recientemente adquirido por OLX Group. Le interesan los problemas raros, el software libre, los datos abiertos, las plantas y la comida.
+
+También ya están a la venta las remeras del evento, `aprovechen y compren <https://docs.google.com/forms/d/e/1FAIpQLSfTFKKLvdx7UtTmIAIkDbUhCTpsHlVsjCfKMYcAnKzDVxA7qA/viewform>`_; tengan en cuenta que es la preventa y están al costo, luego del 8/11 entran en el precio normal.
+
+Finalmente, estamos a algunos días del cierre de ofertas para ver dónde se hará el año que viene...
+
+Y como bonus track les dejo una entrevista (en inglés) que me hicieron para un podcast de Python: `Cultivating The Python Community In Argentina <https://www.pythonpodcast.com/facundo-batista-python-community-argentina-episode-229/>`_ (Cultivando la comunidad Python en Argentina).
