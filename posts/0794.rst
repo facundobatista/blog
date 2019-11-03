@@ -1,0 +1,38 @@
+.. title: Creatividad
+.. date: 2019-11-03 9:15:00
+.. tags: creatividad, charla, Hernán, video, Cleese, universidad, La Matanza
+
+Este post no es sobre la charla que dí con `Hernán Mavrommatis <https://twitter.com/mavromou>`_ en el `GDG DevFest '19 <https://www.meetup.com/es-ES/gdgbsas/events/265314266/>`_ en la Universidad Nacional de La Matanza
+
+Y no les voy a hablar de esa charla porque solamente fue una forma de probar aguas, de acomodar algunas dinámicas. Estamos armando algo más grande, ya tendremos novedades.
+
+.. image:: /images/creatividad/gdgmatanza-conhernán.jpeg
+    :alt: Con Hernán, antes de romperla en la charla
+
+No, esta charla es acerca de un video sobre creatividad que les quiero compartir.
+
+En verdad este video me lo pasaron hace mucho mucho tiempo. Recuerdo que me costó el inglés, entender el hilo de algunos conceptos, armar algunas frases. Es que `John Cleese <https://en.wikipedia.org/wiki/John_Cleese>`_ (el disertante... sí, el de los Monty Python), aunque tiene una dicción y tonada sobresalientes, habla muy rápido y utiliza bastantes palabras de uso poco común.
+
+Entonces lo dejé para más adelante. Y me terminé olvidando del mismo... hasta hace un par de años. Lo busqué, lo encontré, y eventualmente lo escuché entero.
+
+.. image:: /images/creatividad/gdgmatanza-universidad.jpeg
+    :alt: Cuantos recuerdos, recorrer esos espacios
+
+Aunque me siguieron costando algunas partes, el video en sí, me encantó, me fascinó. Y me sigue fascinando incluso hoy (que ya leí/escuché el texto más de veinte veces).
+
+Para terminar de entender todo y que otres tengan menos dificultad con el mismo, me decidí a subtitularlo. Busqué y encontré por ahí una transcripción de la charla, que tomé de base aunque le corregí un montón de errores pequeños (y otros no tan pequeños).
+
+Luego separé el texto en oraciones, y cada oración en bloques de subtítulos, con una o dos lineas de hasta más o menos cuarenta columnas. Obvio que hubo mucho laburo a mano, pero también le eché algo de Python encima :).
+
+Para terminar de adaptarlo al video en sí usé `subtitleeditor <https://github.com/kitone/subtitleeditor>`_. En general me sirvió mucho, pero fue indispensable el truco de definir tiempos comienzo y final del bloque pulsando y soltando una tecla (que tuve que configurar). eso para una primera pasada, claro, luego hubieron más de ajuste.
+
+Y también lo traduje al castellano. Esta parte fue más complicada por la traducción en sí, pero más simple porque los "tiempos" ya estaban. Así y todo se me complicó dos o tres veces en lograr una frase en castellano que exprese lo mismo que en inglés, y que no quede demasiado texto para el subtítulo.
+
+Este es el resultado final, les presento entonces a *Creatividad en la Gestión*, por John Cleese:
+
+.. vimeo:: 368916155
+   :width: 400
+   :height: 300
+   :align: center
+
+Es la primera vez que hago algo como esto, espero que lo disfruten.
