@@ -20,4 +20,4 @@ Reglsd:
 Cosas que no tengo resueltas del todo: estudiantos
 No me gusta x o @
 
-
+https://twitter.com/eugeniazicavo/status/1194339569090478085
