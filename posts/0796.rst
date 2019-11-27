@@ -1,0 +1,64 @@
+.. title: El cuchillo de la Diosa de la Caza
+.. date: 2019-11-27 17:57:00
+.. tags: cuchillo, hoja, runas, Tolkien, regalo, quenya, artesanía
+
+Este año mi hermana Diana cumplió 40, y desde hacía varios meses antes se me ocurrió regalarle algo importante. Lo fui pensando bastante, finalmente algo que me terminó de cerrar y entusiasmó como regalo especial fue un cuchillo artesanal, lindo, y grabado con alguna frase.
+
+No quería comprar, por más lindo que fuera, un cuchillo comercial, ni un tramontina ni algo de marca más importante, quería que estuviese hecho más artesanalmente. Pero claro, necesitaba un artesano que haga cuchillos :)
+
+Estuve un tiempo buscando, averigüé en algunas ferias, pero no me convencía lo que veía o encontraba. Habían algunos cuchillos lindos, pero dudaba sobre los materiales, y en general tenía un problema personal con las empuñaduras, hay muchas que son lindas a la vista pero incómodas al uso, y yo buscaba algo práctico, no para colgar en el living tipo cuadro. También me comentaron de un par de artesanos de otras provincias o lejos en Buenos Aires, pero no quería comprar algo de este estilo sin antes poder "mirar y tocar" ejemplos de ese artesano, y hacer 300km para revisar un cuchillo no me entusiasmaba.
+
+También estuve mucho tiempo pensando sobre qué grabado hacerle. Como mi hermana es aún más fana que yo del universo de Tolkien, se me ocurrió que lo ideal era hacerle grabar la hoja con una frase que le agregue significado a la hoja en sí.
+
+O sea, no le iba a grabar un "feliz cumpleaños".
+
+
+El texto
+--------
+
+Me puse a buscar inscripciones en espadas y dagas relacionadas con el universo Tolkien, para inspirarme. Destaco esta donde muestran `inscripciones en hojas mostradas en las pelis del Señor de los Anillos <http://www.elvish.org/gwaith/movie_inscriptions.htm>`_.
+
+Luego de mirar bastante fui formando esta frase en mi cabeza: "Soy el cuchillo de la Diosa de la Caza".
+
+Es una frase piola porque además de resignificar la hoja en sí hace juego con `el significado mitológico romano <https://es.wikipedia.org/wiki/Diana_(mitolog%C3%ADa)>`_ del nombre de mi hermana.
+
+Y claro, no iba a escribir esa frase en castellano, tenía que estar en alguna lengua élfica. No fue una elección muy consciente, pero en el proceso de traducción la frase nos terminó quedando en `Quenya <https://es.wikipedia.org/wiki/Quenya>`_.
+
+Digo "nos" porque en todo el viaje de construcción de la frase en élfico me ayudó mucho Chaghi, lo estuvimos laburando duro y parejo. Investigamos primero un montón, luego preguntamos en `un foro especializado de Tolkien <https://www.thetolkienforum.com/threads/help-with-a-translation-for-a-knife-engraving-please.23915/>`_, y finalmente terminamos de cerrar en `la comunidad quenya de reddit <https://www.reddit.com/r/Quenya/comments/apj48a/help_with_translation_for_an_engraved_knife/>`_.
+
+Como pueden ver en esos hilos la traducción no es literal. Nos complicaron algunos detalles, por ejemplo a "cuchillo" lo tomamos de forma más general onda "hoja" o "daga", y en particular forzamos el concepto de "diosa de la caza", ya que parece que "es una idea que un elfo rechazaría en base a conocer alguien que conoció personalmente a `Oromë <https://es.wikipedia.org/wiki/Orom%C3%AB>`_", como nos dijeron ahí :p
+
+Rescato este `diccionario de idiomas de Tolkien <https://www.elfdict.com/>`_, que nos sirvió un montón.
+
+Para el impacto completo, la idea era escribir la frase con runas élficas, claro. Esta trasliteración fue notablemente más sencilla que el proceso anterior, porque es casi directo.
+
+Usé `Angerthas Daeron <https://en.wikipedia.org/wiki/Cirth>`_, que fueron las runas que más me parecían iban a quedar bien en un cuchillo, nada super rebuscado ni que se necesitara un gran detalle en el grabado del metal.
+
+El resultado:
+
+.. image:: /images/cuchillo/runas.png
+    :alt: nanye sicil ainio faraléva
+
+
+El cuchillo
+-----------
+
+Más o menos por la época que teníamos redondeada la frase, encontré el artesano: `Pablo Untroib <https://peu.net/cuchillos/>`_.
+
+Miré mucho sus trabajos en las fotos de las redes sociales y me gustaron.
+
+Me gustó también que aunque hace los cuchillos "a mano", no es que calienta el metal en una forja y le sacude a un yunque, sino que usa herramientas modernas (como un horno al que le indica la temperatura de templado justa en función del acero que esté usando, por ejemplo).
+
+Le mandé un mail, fuimos charlando bastante (o él contestándome preguntas a mí, básicamente, sacándome un montón de dudas de alguien que no sabe de cuchillos), y después lo fui a visitar para ver personalmente su trabajo y terminar de definir algunas variables (como la madera a usar en las cachas).
+
+Terminé eligiendo un acero inoxidable (usó un `Böhler K110 <https://www.acerosbohler.com/es/products/k110/>`_) ya que no quiero andar andar como obsesivo cuidándolo del agua, y Pablo me aseguró que no tiene desventajas a nivel filo y uso del cuchillo en sí. Para las cachas, lapacho.
+
+.. image:: /images/cuchillo/hermanos.jpeg
+    :alt:  La dupla
+
+Y claro, no me había tomado todo este trabajo y le iba a regalar el cuchillo a mi hermana y no verlo más, así que hice dos, onda "cuchillos hermanos", y me quedé con uno :)
+
+Estoy MUY contento con este cuchillo...
+
+.. image:: /images/cuchillo/closeup.jpeg
+    :alt: De cerca
