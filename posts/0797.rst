@@ -1,0 +1,45 @@
+.. title: PyCon Argentina 2019
+.. date: 2019-12-03 17:08:00
+.. tags: Python, PyCon, PyConAr, Argentina, conferencia, agenda, charlas, keynotes, podcast, remeras, logo
+
+Python Argentina cumple 15 años, ¡qué viaje! Y lo celebramos con nuevo logo, para renovarnos un poco.
+
+Es que más allá de todo el agua que pasó por debajo del puente, o justamente por eso, es momento de afirmarse, tomar impulso, y volver a la carga.
+
+.. image:: /images/pyar-logo-nuevo.png
+    :alt: Nuevo logo de Python Argentina
+
+Tenemos la Asociación Civil ya establecida, y aunque muchos procesos internos están ajustándose y nos lleva bastante trabajo, ya la tenemos completamente funcional como herramienta, podemos hacer cosas nosotros (PyCon, PyDays, PyCamp, etc) y ayudar otras comunidades.
+
+Con la PyCon puntualmente empezaremos el año que viene una nueva recorrida por distintas provincias (después de volver el año pasado y este a CABA, donde arrancamos), en este nuevo plan de realizar los eventos dos años seguidos en la misma locación, por simplicidad y eficiencia.
+
+Pero aunque la PyCon es el evento más grande, no es el único que hacemos, y todas las acciones de menor tamaño (reuniones, meetups, participar en otras conferencias) aumentan la llegada del grupo en todo el país. Como decía arriba la Asociación Civil es una herramienta, que nos da un marco y determinadas seguridades: debemos aprovechar esta herramienta, usarla.
+
+Hay que hacer cosas, para lo que necesitamos nuevas ideas, nuevas caras, nuevas manos.
+
+Es responsabilidad de la generación anterior empujar un recambio, facilitar el proceso de renovación, y aprovechar la movida para incrementar la diversidad en el grupo. Pero también es responsabilidad de la nueva camada el hacerse cargo de lo que le toca, ponerse a la altura, y entender que "la comunidad es de la comunidad", que si nadie hace todo se deshace.
+
+Trabajemos. ¡Manos a la obra!
+
+*(este texto es el que escribí como intro para el librito de la conferencia)*
+
+.. image:: /images/pyconar2019-logo.png
+    :alt: PyCon Argentina 2019
+    :target: https://eventos.python.org.ar/events/pyconar2019/
+
+
+Mañana arranca la PyCon Argentina 2019, dura hasta el viernes. No dejen de revisar la `agenda del evento <https://eventos.python.org.ar/events/pyconar2019/schedule>`_,
+
+Miércoles, talleres! La mayoría (todos menos el de la Sala AB - Onapsis) son sin registración previa, pero fijate en la `página del evento <https://eventos.python.org.ar/events/pyconar2019/>`_ que tenés los requerimientos de los talleres, así vas con todo instalado y te podés poner rápido a trabajar.
+
+Jueves y viernes arrancamos bien temprano con las charlas en sí, pero también tenés en paralelo las speed interview y presentaciones de empresas, donde podés acercarte para conocer a las principales empresas que apoyan el evento (ideal si estás con ganas de cambiar de trabajo  o conseguir laburo nuevo y querés conocerlas mejor).
+
+Y lightning talks. Y espacios abiertos. Y dos keynotes de lujo. Va a estar bárbaro.
+
+Si todavía no te anotaste, `hacelo <https://eventos.python.org.ar/events/pyconar2019/registration>`_. Pero podés venir igual, en cualquier momento (te vas a tener que registrar al entrar por primera vez).
+
+Como nota de color, vamos a estar entregando los NUEVOS carnets de la Asociación Civil (si sos socie, pedilo al pasar por mesa de registración).
+
+También ahí (pero no desde la mañana, para separar el bardo y poderlo manejar mejor) vamos a estar entregando las remeras, si compraste. Si no, llevate la app de Mercadopago instalada en el teléfono ;)
+
+¡Nos vemos ahí!
