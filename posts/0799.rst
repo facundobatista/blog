@@ -1,0 +1,31 @@
+.. title: Nuevo logo de Python Argentina
+.. date: 2020-01-05 15:35:00
+.. tags: PyAr, Python Argentina, logo, diseño gráfico, imagen
+
+Hace mucho tiempo que veníamos con ganas de cambiar el logo de Python Argentina.
+
+Es que el que veníamos usando ya había cumplido su ciclo. Nació durante los primeros meses de Python Argentina, casi que "era una joda y quedó"; cuenta la leyenda que Pablo Ziliani lo diseño/armó de apuradas para algo que necesitábamos y después yo lo agarré y vectoricé, con lo cual pudimos escalarlo (hola bandera de PyAr) y después ya quedó y lo seguimos usando.
+
+.. image:: /images/pyar-logo-viejo.png
+    :alt: ¡El logo ha muerto!
+
+Nunca estuvo bueno a nivel de diseño gráfico. Más allá del diseño en sí (que a mi me gusta) el logo tiene sus serios problemas de construcción: cuando yo lo vectoricé le puse unos gradientes en las letras que muchas veces nos complicaron la vida en determinados casos de uso. Hasta estos días, incluso, a veces voy a imprimir algún cartel o similar, y el logo sale impreso raro (y no siempre "igual de raro").
+
+En los últimos años hubieron varios intentos de que alguien de la comunidad armara un nuevo logo, pero nunca prosperó. Es difícil derribar algunos *status quo*.
+
+El año pasado me harté y decidí empujar yo el cambio. Me pareció una buena oportunidad hacerlo durante el 2019, ya que PyAr cumplió 15 años, ¡era hora de tener una renovación visual!
+
+Como tuvimos buena experiencia con el diseñador gráfico de la PyConAr 2018, `Gastón Meza <https://gastonmeza.com.ar/>`_, decidí no sólo volver a utilizar sus servicios para la PyConAr 2019 sino también encargarle el diseño del nuevo logo de Python Argentina.
+
+Entonces me junté con Gastón y charlamos de cómo sería el proceso, que luego ejecuté: definimos (entre varias encuestas, más un proceso de curado manual y pensado) aquellas palabras que definieran conceptos claves de lo que es Python Argentina, y luego le pasamos esas palabras y explicamos esos conceptos a él, que lo trabajó y luego de algunas iteraciones terminó presentándonos el `Manual de Identidad Gráfica de Python Argentina <https://github.com/PyAr/asoc/raw/master/isologos/PyAr%20-%20Manual%20de%20identidad%20gr%C3%A1fica.pdf>`_, cuya lectura recomiendo efusivamente.
+
+Este es el resultado final, en una de sus versiones:
+
+.. image:: /images/pyar-logo-nuevo.png
+    :alt: ¡Larga vida al logo!
+
+Obvio que a un montón de gente le pareció raro el logo, o el cambio, o la nueva imagen. Es así, los cambios siempre generan un poco de rechazo. Pero a otro montonazo de gente le encantó. Yo estoy contento.
+
+Una de las ventajas de tener un laburo bien hecho y completo es que tenemos distintas alternativas listas para usar y pensadas, tanto de PyAr grupo como de la Asociación Civil, en versiones horizontal, vertical, a un sólo color y escala de grises.
+
+Aproveché y metí todo ordenado `en este directorio del repo de PyAr <https://github.com/PyAr/asoc/tree/master/isologos>`_.
