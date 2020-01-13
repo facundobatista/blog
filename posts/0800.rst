@@ -1,0 +1,44 @@
+.. title: Lenguaje inclusivo
+.. date: 2020-01-13 11:21:00
+.. tags: lenguaje, inclusivo, idioma, inclusión
+
+¡Disclaimer! Esta es mi explicación fundamentada de por qué me parece bien el lenguaje inclusivo, por qué lo uso, y por qué uso la forma que uso.
+
+Es la razón por la que YO lo uso, no intento convencerles a ustedes, cada une habla como quiere :) No intenta ser una justificación de si el lenguaje inclusivo es bueno o no, sólo lo que me convenció a usarlo.
+
+Si quieren leer más sobre el tema les dejo `este artículo de El Gato y La Caja <https://elgatoylacaja.com.ar/la-lengua-degenerada/>`_, mejor escrito y con el tema mejor analizado que en este mi texto.
+
+.. image:: /images/lengincl/alternativas.jpeg
+    :alt: Alternativas
+
+Entonces. 
+
+A mí siempre me hizo ruido el tema de generalizar al masculino. Aprendimos que era lo correcto, un montón de señores a sueldo de la corona española dicen que está bien, pero siempre me molestó en algún rincón de mi cerebro.
+
+En verdad no tiene sentido generalizar a masculino. Desde un punto de visto puramente técnico, si uno diseñara el lenguaje desde cero, no tiene sentido generalizar al masculino.
+
+Como ejercicio, imaginemos un grupo de personas esperando el colectivo, pasa un auto que pisa un charco y salpica todo. 
+
+Si ese grupo fuesen diez mujeres, diríamos "las mojó un auto que salpicó", denotando que son todas mujeres. Si ese grupo fuesen diez hombres diríamos "los mojó un auto que salpicó", implicando que son hombres. Hasta acá todo bien (o no, pero luego llegaremos al no binarismo, sigan conmigo por favor).
+
+Pero si ese grupo son nueve mujeres y un hombre, teóricamente deberíamos decir "los mojó un auto que salpicó". La simple aparición de un hombre en el grupo modifica la expresión y la deja igual que si fuesen todos hombres. Invisibiliza que en el grupo hay mujeres (¡que incluso son la mayoría!).
+
+No tiene sentido. El tema es: ¿qué hacemos para hablar y escribir "mejor"?
+
+Hace muchos años arrancó una movida de escribir con ``@``. "L@s mojó un auto que salpicó". Aunque simpática, esa forma de escribir realmente es ilegible. El cerebro no lee "L-arroba-s", automáticamente convierte a esas tres letras en el artículo que el cerebro espera que tenga sentido con el resto de la frase, y en realidad leemos "Los". Además, es impronunciable si leemos el texto en voz alta. Sucede exactamente lo mismo con la ``x``. "Lxs mojó un auto que salpicó". También ilegible e impronunciable, realmente.
+
+Por eso me encantó cuando apareció la forma de deformar las palabras usando la ``e``. "Les mojó un auto que salpicó". El cerebro ahora lee eso como "Les" y no se puede hacer el boludo, al punto que al principio y si no estamos acostumbrados molesta un poco (¡y está bien que moleste!). Y se puede hablar con la ``e``, cartón lleno :)
+
+.. image:: /images/lengincl/baños.png
+    :alt: Otro tipo de lenguaje inclusivo: cartelitos en los baños; izquierda: tipo de cartel que se está popularizando; derecha: foto que saqué yo mismo en Medallia
+
+La otra gran ventaja de esta forma de escribir es que dejamos de lado el binarismo hombre/mujer que implica escribir "Los/as mojó un auto que salpicó", indicando que son hombres o mujeres solamente, y no la multiplicidad de géneros que hay en realidad.
+
+Por otro lado, tenemos que tener en cuenta que el lenguaje inclusivo lo podemos usar cuando hacemos referencia a un grupo de "géneros mezclados" (como los ejemplos anteriores) pero también cuando hacemos referencia a una persona pero queremos ser neutrales con respecto al género (ejemplo: "Le mojó un auto que salpicó", no "La" ni "Lo"), pero NO debemos usarlo para entidades que tengan un sólo género. Está mal decir "Conecté les parlantes al equipo de audio", porque el parlante como entidad tiene sólo género masculino, entonces ahí va "Conecté los parlantes al equipo de audio". 
+
+.. image:: /images/lengincl/empanades.jpeg
+    :alt: Ejemplo del mal uso que acabo de mencionar
+
+Habiendo dicho eso, demos una vuelta de rosca más: sí está bien usar el género neutro cuando pluralizamos entidades que, aunque individualmente tienen género definido, el grupo no. Ejemplo: "Saqué las puertas y los estantes al patio y les lavé con ganas"... acá el "las puertas" y "los estantes" están bien, porque esas entidades tienen su género bien definido, pero cuando hacemos referencia al grupo completo al final de la frase lo hacemos siendo neutros.
+
+Para terminar, les dejo con algo que no tengo del todo resuelto: la neutralización de aquello que en alguna de sus formas (masculino o femenino) YA usa la ``e``. Ejemplo: "Los atorrantes" es en masculino, "Las atorrantas" es en femenino, ¿cómo neutralizamos el género? Si vamos ciegamente a la ``e`` nos queda como el masculino, no estamos neutralizando nada. ¿"Estudiantos"? No sé.
