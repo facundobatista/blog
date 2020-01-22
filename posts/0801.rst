@@ -1,0 +1,38 @@
+.. title: Finalmente me fui de gVim
+.. date: 2020-01-22 19:03:00
+.. tags: vim, vi, gVim, Neovim, nvim, editor, Fisa, neovim-qt
+
+Finalmente, luego de mucho tiempo, me fui de gVim, el Vim integrado a interfaz gráfica con base en Gnome.
+
+Me funcionaba, y lo usaba a diario, todo el tiempo, pero me pasó varias veces que quería mejorar algo, modernizarlo, agregarle un plugin tal, toquetearlo en algo puntual, y me trababa. Es que el proyecto no estaba del todo activo y había quedado un poco antiguo. Además ahora estoy basado en KDE, y era medio a contramano seguir instalando mucho de Gnome solo para gVim.
+
+Y ahora me liberé, dejé el pasado, me renové, soy un hombre nuevo.
+
+.. image:: /images/nvim-infeliz.png
+    :alt: Bueno, tampoco para tanto, Carlos
+    :target: https://youtu.be/vjh3uMYvzQQ?t=189
+
+Ahora soy un feliz usuario de `Neovim <https://neovim.io/>`_. Basicamente un Vim modernizado, con muchos defaults pensados correctamente para este siglo, con un desarrollo activo, y la mar en coche. Si quieren profundizar en qué (y qué no) es neovim, pueden leer sobre `su visión acá <https://neovim.io/charter/>`_. Gracias `Fisa <https://twitter.com/fisadev>`_ por insistirme varias veces en hacer el cambio.
+
+Traté un par de veces usar Neovim en el pasado, pero enseguida me chocaba con una limitación de uso bastante específica. Es que Neovim (como el Vim "pelado") cuando los ejecutás desde la terminal te usan esa terminal para su interfaz. A mi NO me gusta eso, yo estoy en la terminal manejando un proyecto o yendo de acá para allá, y en el momento en que abro un archivo, NO quiero que me ocupe esa terminal, sino que se abra en una nueva ventana. Y tiene que ser una nueva ventana, no una nueva pestaña, porque yo quiero poder ver varios archivos al mismo tiempo (y me es importante la ubicación espacial de las distintas ventanas).
+
+Entonces busqué y probé varias "interfaces gráficas para nvim" pero con todas tenía algún problema (fue una exploración poco prolija, no tengo buen feedback para darles en este punto). Así y todo, com Neovim se corre en una terminal, pensé en que cada vez que abra un archivo disparar una terminal nueva con Neovim ahí adentro. Y medio lo solucioné haciendo que ``vi`` sea un alias de "abrir una ventana nueva con una consola ahí adentro que me ejecutara nvim editando el archivo que especifiqué", aunque esto me llevó un tiempo porque intenté hacerlo con ``konsole`` (de nuevo, KDE) pero crasheaba casi siempre luego de cerrar el editor (!): lo terminé haciendo con ``gnome-console``, que andaba mejor... no me gustó del todo, pero andaba lo suficientemente bien.
+
+Pero en su momento nunca terminé de pasar a Neovim porque me trabé con tratar de hacerle andar ``flake8``, el analizador estático de código Python que yo tengo integrado en ``gVim``, funcionalidad que considero indispensable en el día a día. Por una cosa u otra, no tuve tiempo de seguir probando, y lo abandoné. 
+
+.. image:: /images/nvim-anotherway.png 
+    :alt: Siempre hay otra manera
+
+Luego vino la PyCon 2019, y Fisa dio una lightning talk sobre `su famosa configuración para Vim <http://vim.fisadev.com/>`_, mencionó que instalar todo era sencillo, y yo me decidí a probarlo. Además volví a pegarle una mirada a ver qué GUI encontraba y me choqué con `neovim-qt <https://github.com/equalsraf/neovim-qt>`_ que funcionó super piola.
+
+Hoy puedo decir que me convertí. Pero el camino no fue sencillo. 
+
+Por lo pronto, la instalación de Neovim y neovim-qt es bastante a mano, porque son proyectos muy nuevos y prefiero usar las últimas versiones disponibles. Para Neovim lo que hice fue bajar `la appimage de neovim <https://github.com/neovim/neovim/releases>`_, hacerla ejecutable y moverla/renombrarla a ``/usr/local/bin/nvim``. Y para neovim-qt cloné el proyecto, lo *buildeé* (instrucciones en el README), y copié el ejecutable a ``/usr/local/bin/``.
+
+Después arranqué con la config de Fisa y empecé a entenderla y agregarle los detalles que yo necesitaba. Luego la cantidad de cambios creció. En un momento me dí cuenta que en algunos casos me resultaba lento y al debuguear era por plugins que no me interesaban, entonces decidí realizar una limpieza de todo lo que no quería. Al final terminé forkeando el proyecto y ahora tengo `esta config <https://github.com/facundobatista/fisa-vim-config>`_.
+
+Entonces, luego de instalar Neovim y neovim-qt, todo lo que hago es llevar (o *symlinkear*) los archivos ``init.vim`` y ``ginit.vim`` de ese proyecto-config mío a ``~/.config/nvim/``, abrir un editor y esperar que la magia que armó Fisa instale todos los plugines y deje todo pipícucú.
+
+Y *vualá*.
+
+Como frutilla del postre, les cuento que con Fisa armamos un grupo de Telegram para `ayuda de Vim en español <https://t.me/ayuda_vim>`_. Que lo disfruten.

@@ -493,3 +493,8 @@ figure figcaption{
 div.entry-content pre{
   margin-left: 4em;
 }
+
+.docutils.literal {
+    font-family: Ubuntu Mono;
+    color: darkgreen;
+}
