@@ -1,0 +1,12 @@
+Steps to have it properly in the server:
+
+- create a venv and install isso and gunicorn:
+    virtualenv --python=python3 issovenv
+    issovenv/bin/pip install isso
+    issovenv/bin/pip install gunicorn
+
+- start isso:
+    export ISSO_SETTINGS="/home/facundo/blog/blog/isso.cfg"
+    issovenv/bin/gunicorn -b localhost:8732 -w 4 --preload isso.run
+
+- apache should be proxying to that port
