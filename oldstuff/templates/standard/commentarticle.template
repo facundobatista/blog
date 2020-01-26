@@ -1,5 +1,0 @@
-		{include file="$blogtemplate/header.template"} 
-		
-		{include file="$blogtemplate/commentform.template"}
-		
-		{include file="$blogtemplate/footer.template"} 

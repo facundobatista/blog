@@ -1,1 +1,0 @@
-{$locale->pr("register_confirmation_email_text", $activeLink)}
