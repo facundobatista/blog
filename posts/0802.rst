@@ -1,0 +1,37 @@
+.. title: Numeración de los contactos del teléfono
+.. date: 2020-01-31 11:07:00
+.. tags: numero, teléfono, formato, caller id, celular, Python, scripts, Google, contactos, API
+
+Hace rato me pasaba que cuando recibía llamadas en el celular, en la mayoría (no todos) de los casos me mostraba el número que me llamaba, pero no el contacto correspondiente (teniendo cargado ese número en mi lista de contactos, claro).
+
+El otro día me pasó nuevamente, y me `quejé públicamente <https://twitter.com/facundobatista/status/1221788401667649537>`_, y me sugirieron que podía ser por la forma en que estaba anotado el número. 
+
+Yo había pensado en eso, pero como a los números los tenía cargado "bien" (entendiéndose por "bien" a lo que indica el `PFNN <https://www.enacom.gob.ar/numeracion_p136>`_), pensé que era otra cosa. Pero en ese hilo de Twitter me sugirieron una forma de anotar el número, que a priori no tiene sentido porque tenía números "de marcado" (como el 15, o el +, que no forman realmente parte del número), pero decían que funcionaba.
+
+Hice varios experimentos y en efecto, para que el teléfono me reconociera el número entrante, tenía que escribirlo de formas particulares. Probé casi todo, y al final declaré ganador a los formatos ``+54 9 PFNN`` (para celulares) y ``+54 PFNN`` (para el resto), siendo PFNN el número "real sin detalles de marcado", y esos obviamente para numeración de Argentina.
+
+Con ese formato tengo las ventajas de que el teléfono me reconoce el contacto del número entrante, y que al mismo tiempo yo puedo usar ese número para llamar al contacto, estando dentro o afuera del país.
+
+.. image:: /images/celunros-formatos.jpeg
+    :alt: Números, formas de marcado, formatos...
+
+¿El problema? Obvio que no iba a corregir todos mis contactos *a mano*. Como los contactos del teléfono los tengo en una cuenta de Google, decidí hacer un pequeño script que lo haga automáticamente, no sin cierto pesar porque las APIs de Google dejan mucho que desear. 
+
+Bah, no es que las APIs en sí sean malas. A veces son complicadas o rebuscadas, pero no más. El inconveniente es que son muchas, van cambiando con el tiempo, y la mayoría de la documentación es pobre, está desactualizada, tienen ejemplos que no funcionan, etc.
+
+Pero me puse, y luego de revisar mil páginas, pelearme un poco, leer código fuente, probar distintas alternativas, y eso, terminé haciendo `este programín <http://taniquetil.com.ar/homedevel/devel/contacts_fixer.py>`_ que efectivamente baja toda la info de mis contactos, procesa los números de teléfono, y cuando corresponde los vuelve a grabar *en la nube*.
+
+.. image:: /images/celunros-automatizar.jpeg
+    :alt: Regla número 1: evitar en lo posible laburar a mano
+
+Péguenle una mirada al código ese, y pruébenlo con el cuidado correspondiente, pero debería funcionar. Les dejo algunos consejos con respecto a esta API de contactos en particular, por si quieren hacer algo parecido...
+
+Antes que nada, vayan `a esta versión <https://developers.google.com/people/api/rest>`_, que ya autentica con OAuth, porque la forma vieja (con usuario y clave) ya está apagada. Van a tener que `crear un proyecto <https://console.developers.google.com/start/api?id=people.googleapis.com&credential=client_key>`_, y poner los ``client_id`` y ``client_secret`` correspondientes en el script, luego la primera vez que lo ejecuten van a tener que darle permisos a través del navegador (es bastante automático, no tienen que hacer nada raro), y las próximas veces va a reusar esos permisos.
+
+Tengan en cuenta que ese permiso es en función del ``scope`` que elijan (sólo lectura, que es una buena forma de empezar teniendo la seguridad que no van a romper nada, o lectura/escritura). Si autentican con un *scope* y luego lo cambian, borren el ``auth_info.dat`` así el script autentica nuevamente con el *scope* cambiado.
+
+Entonces, les decía que `la API está descripta acá <https://developers.google.com/people/api/rest>`_, pero está `contada de forma más genérica acá <https://developers.google.com/people>`_. Ojo que faltan ejemplos de Python, y lo que muestra de "Protocolo" y de "Java" no se corresponden entre sí.
+
+En ese sentido me sirvió mucho `esta referencia de la API a nivel Python <http://googleapis.github.io/google-api-python-client/docs/dyn/people_v1.html>`_. Y ojo con los ejemplos que hay por ahí, incluso los más oficiales y actualizados que encontré tenían errores en los *imports* o en las funciones que llamaban.
+
+En fin. Si van a hacer algo parecido, arranquen `del programa que ya dejé andando <http://taniquetil.com.ar/homedevel/devel/contacts_fixer.py>`_, y modifiquen desde ahí. Que les aproveche.
