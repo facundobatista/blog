@@ -1,0 +1,71 @@
+.. title: Muchas series (y algunas pelis)
+.. date: 2020-02-11 23:50:00
+.. tags: películas, series, recomendaciones
+
+Estuve viendo banda de series, no tantas películas. No sé bien por qué, tampoco importa demasiado.
+
+Una que había visto casi toda pero me faltaba la última temporada era `Game of Thrones <https://www.imdb.com/title/tt0944947/>`_. Es que habíamos vuelto a arrancarla con Moni, desde la primera, y llevó tiempo. A mí la última temporada, y el cierre en general, me parecieron correctos. No es el final del siglo, pero tampoco es la serie del siglo. O sea, el final está acorde con la serie. Entiendo que mucha gente quedó decepcionada (¿esperaban demasiado?), no fue mi caso.
+
+Otra que vi entera fue `True Detective <https://www.imdb.com/title/tt2356777/>`_. La primer temporada es *genial*, el laburo de Matthew McConaughey es deslumbrante. Las otras dos temporadas están muy bien, aunque no al nivel de la primera (y son historias independientes, pueden verlas por separado).
+
+Continúo con una que tuvo mucha repercusión: `Chernobyl <https://www.imdb.com/title/tt7366338/>`_. Me pareció super bien hecha. Escuché muchos comentarios sobre como "dejaba mal parado a los rusos" por el control de la información y eso. Para mí tiene sentido, y al respecto no creo que la URSS haya sido o sea peor que USA...
+
+Las últimas dos que vi completas son más de ciencia ficción. `Humans <https://www.imdb.com/title/tt4122068/>`_ muestra como sería la convivencia con androides muy parecidos a nosotros, qué los hace o deja de hacer *humanos*, y cómo reaccionaría la sociedad toda. `Counterpart <https://www.imdb.com/title/tt4643084/>`_ nos cuenta sobre la situación de estar en contacto con un universo paralelo no del todo igual, pudiendo ir, venir, cambiar información. La primera es más personal, la segunda es más de espías, pero ambas muestras situaciones sociales hipotéticas. Recomiendo la primera, especialmente si la pregunta sobre qué es *ser humano* les es interesante. La segunda zafa, véanla si el factor de que sea de espías les suma.
+
+Después sigo con `Vikings <https://www.imdb.com/title/tt2306299/>`_. Ya vi todas las que salieron menos la última última temporada. Está bien. Es larga. Me molesta la estúpida dicotomía de "violencia sí sexo no". O sea, está bien mostrar como a uno le cortan la cabeza y la sangre salpica todo, pero está mal mostrar una teta incluso al amamantar, ni hablemos de desnudos eróticos, ¡o sexo!
+
+También estoy viendo  `Dirk Gently's Holistic Detective Agency <https://www.imdb.com/title/tt4047038/>`_. Muy bizarra, muy divertida. La primera temporada es genial, acabo de arrancar la segunda y última.
+
+Y para terminar, estoy con un clásico: `The Sopranos <https://www.imdb.com/title/tt0141842/>`_. Ya terminé la tercer temporada. ¡Es muy buena! Un espectáculo como pinta cada personaje, y hay muchos que valen la pena. No sé bien por qué no la había visto antes, me la debía.
+
+.. image:: /images/pelis/multipleseries01.jpeg  
+    :alt: Series, muchas series
+
+En fin, ¡películas!
+
+- `27: The Cursed Club <https://www.imdb.com/title/tt7319532/>`_: -0. Sabía que iba a ser bizarra, no decepciona en ese sentido; es divertida por partes, pero después por querer hacerla exagerada, es berreta. Notable lo MAL equalizada que está a nivel de sonido, todo lo que es efectos especiales, altísimo, todo lo que es diálogo, bajísimo, ¿cómo puede ser?
+- `Ahora o nunca <https://www.imdb.com/title/tt4161962/>`_: +0. Simpática comedia de enredos.
+- `Alita: Battle Angel <https://www.imdb.com/title/tt0437086/>`_: +0. No deja de ser una de "peleas entre robots", pero tiene todo un trasfondo interesante y está bien hecha.
+- `Annihilation <https://www.imdb.com/title/tt2798920/>`_: +0. Esta buena la historia, el concepto base (nunca lo había leido), y la implementación de la peli en sí; un poco volada pero lo amerita.
+- `Apprentice <https://www.imdb.com/title/tt6148804/>`_: -0. Debo dejar de darle oportunidades a pelis clase B argentinas :p
+- `Future World <https://www.imdb.com/title/tt5737536/>`_: -1. Mad Max berreta.
+- `Gun Shy <https://www.imdb.com/title/tt3910736/>`_: -1. No la terminé de ver, me aburrió bastante y me molestó el trato hacia Chile.
+- `Hotel Artemis <https://www.imdb.com/title/tt5834262/>`_: +0. Violenta, futurista, intrigante. Está bueno como maneja la multiplicidad de historias. Algunos toques divertidos.
+- `Impulse <https://www.imdb.com/title/tt6160506/>`_: +?. Es una serie! La anoté donde corresponde...
+- `Incredibles 2 <https://www.imdb.com/title/tt3606756/>`_: +1. Divertida, y con planteos interesantes. Muy buena continuación de la primera. Sin embargo no tiene mucho más para dar, creo, espero que no la quemen con mil continuaciones (como Toy Story).
+- `The House with a Clock in Its Walls <https://www.imdb.com/title/tt2119543/>`_: +0. Super bizarra pero muy divertida, recomendada para chiques no tan chiques.
+- `The Shape of Water <https://www.imdb.com/title/tt5580390/>`_: +1. Una hermosa canción de amor.
+- `Tomb Raider <https://www.imdb.com/title/tt1365519/>`_: +0. Es lo que promete, una peli de acción. Pensé que la historia sería más o menos la misma que la del 2001, pero no, es como su precuela...
+
+.. image:: /images/pelis/shapeofwater.jpeg  
+    :alt: The Shape of Water
+
+Y las nuevas anotadas para ver. Pocas, de nuevo pocas. ¿Aparecen pocas que me interesen, o me entero poco yo? Me sigue faltando una buena fuente de trailers...
+
+- `The Platform <https://www.imdb.com/title/tt8228288/>`_: (2019; Horror, Sci-Fi, Thriller) A vertical prison with one cell per level. Two people per cell. One only food platform and two minutes per day to feed from up to down. An endless nightmare trapped in The Pit.::Chockys [D: Galder Gaztelu-Urrutia; A: Ivan Massagué, Zorion Eguileor, Antonia San Juan]
+- `The Heist of the Century <https://www.imdb.com/title/tt10948718/>`_: (2020; Comedy, Crime) In 2006, a group of thieves performed what is considered one of the most famous and smart bank heists in the history of Argentina when they rob the Banco Río branch in Acassuso.::Binquin_Black [D: Ariel Winograd; A: Guillermo Francella, Diego Peretti, Luis Luque]
+- `Joker <https://www.imdb.com/title/tt7286456/>`_: (2019; Crime, Drama, Thriller) In Gotham City, mentally troubled comedian Arthur Fleck is disregarded and mistreated by society. He then embarks on a downward spiral of revolution and bloody crime. This path brings him face-to-face with his alter-ego: the Joker.::Don Draper 101 [D: Todd Phillips; A: Joaquin Phoenix, Robert De Niro, Zazie Beetz]
+- `Marriage Story <https://www.imdb.com/title/tt7653254/>`_: (2019; Comedy, Drama, Romance) Noah Baumbach's incisive and compassionate look at a marriage breaking up and a family staying together.::Netflix [D: Noah Baumbach; A: Adam Driver, Scarlett Johansson, Julia Greer]
+- `Parasite <https://www.imdb.com/title/tt6751668/>`_: (2019; Comedy, Crime, Drama, Thriller) All unemployed, Ki-taek and his family take peculiar interest in the wealthy and glamorous Parks, as they ingratiate themselves into their lives and get entangled in an unexpected incident.::CJ Entertainment [D: Bong Joon Ho; A: Kang-ho Song, Sun-kyun Lee, Yeo-jeong Jo]
+- `Black Widow <https://www.imdb.com/title/tt3480822/>`_: (2020; Action, Adventure, Sci-Fi) A film about Natasha Romanoff in her quests between the films Civil War and Infinity War. [D: Cate Shortland; A: Florence Pugh, Scarlett Johansson, Robert Downey Jr.]
+- `Free Guy <https://www.imdb.com/title/tt6264654/>`_: (2020; Action, Adventure, Comedy, Sci-Fi) A bank teller discovers that he's actually an NPC inside a brutal, open world video game. [D: Shawn Levy; A: Taika Waititi, Ryan Reynolds, Jodie Comer]
+- `Frequently Asked Questions About Time Travel <https://www.imdb.com/title/tt0910554/>`_: (2009; Comedy, Sci-Fi) While drinking at their local pub, three social outcasts attempt to navigate a time-travel conundrum.::Anonymous [D: Gareth Carrivick; A: Chris O'Dowd, Marc Wootton, Dean Lennox Kelly]
+
+Finalmente, el conteo de pendientes por fecha::
+
+    (Jul-2014)    5   1
+    (Nov-2014)   22   7
+    (Feb-2015)   13  10
+    (Jun-2015)   15  13  11   1
+    (Dic-2015)   19  19  18   6   1
+    (May-2016)   26  25  23  21   9
+    (Sep-2016)       19  19  18  14   1
+    (Feb-2017)           26  25  23  21   9   1
+    (Jun-2017)               23  23  21  18   5
+    (Dic-2017)                   19  19  18  16   5   2
+    (May-2018)                       22  22  22  17   9
+    (Sep-2018)                           12  12  12  10
+    (Mar-2019)                               13  13  13
+    (Ago-2019)                                   10  10
+    (Feb-2020)                                        8
+    Total:      100  94  97  94  89  84  79  69  57  52
