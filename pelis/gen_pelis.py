@@ -9,8 +9,11 @@ import pickle
 import re
 import sys
 
-from imdb import IMDb  # fades IMDbPy
+# need dep from GH as we use 'original title' yet not released
+from imdb import IMDb  # fades git+https://github.com/alberanid/imdbpy.git
 
+# how we extract the title from the movie
+TITLE_KEY = 'title'
 
 T_REVIEWS_HEAD = """\
 FIXME: headers!!!
@@ -21,7 +24,7 @@ Otra linea, etc
 """
 T_REVIEWS_BODY = '- `{title} <{urlimdb}>`_: {vote:}. {explanation:}'
 
-RE_REVIEW_LINE = '(.*?): ([+-?][\d?]). (.*)'
+RE_REVIEW_LINE = r'(.*?): ([+-?][\d?]). (.*)'
 
 T_FUTURES_HEAD = """\
 FIXME: Mas peliculas anotadas para ver:
@@ -125,7 +128,7 @@ def process_reviews(reviews):
             exit()
         annot_title, vote, explanation = m.groups()
         movie = imdb.get_movie(movie_id)
-        real_title = movie['title']
+        real_title = movie[TITLE_KEY]
         print("Processing review ({}): {}".format(annot_title, real_title))
         datum = dict(title=real_title, vote=vote,
                      explanation=explanation, urlimdb=urlimdb)
@@ -150,7 +153,7 @@ def process_futures(futures):
         desc = "({}; {}) {} [D: {}; A: {}]".format(
             movie['year'], genres, plot, directors, actors)
 
-        real_title = movie['title']
+        real_title = movie[TITLE_KEY]
         print("Processing futures ({}): {}".format(annot_title, real_title))
         resp.append(T_FUTURES_BODY.format(title=real_title, urlimdb=urlimdb,
                                           description=desc))
@@ -196,7 +199,7 @@ def proc_pelshtml(futures, viewed):
     # mix with futures
     for _, urlimdb, movie_id in futures:
         movie = imdb.get_movie(movie_id)
-        movies.append((movie['title'], urlimdb, NEW_DATE))
+        movies.append((movie[TITLE_KEY], urlimdb, NEW_DATE))
     movies.sort()
 
     # assert there's no repetitions
