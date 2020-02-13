@@ -1,4 +1,4 @@
 #!/bin/sh
 
 fades -r ../requirements.txt -x nikola build
-fades -r ../requirements.txt -x nikola serve
+fades -r ../requirements.txt -x nikola serve --port=8257 --browser
