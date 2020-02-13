@@ -317,7 +317,10 @@ div#tag_cloud [class^="tcs-es"] {
 
 div#sidebar_outer h2 {
   text-align: center;
-  font-size: 1em; }
+  font-size: 1em; 
+  margin-top: 2em;
+  margin-bottom: 0em;
+}
 
 div#sidebar_outer [id^="propaganda"] {
   border-radius: 2px;
@@ -497,4 +500,10 @@ div.entry-content pre{
 .docutils.literal {
     font-family: Ubuntu Mono;
     color: darkgreen;
+}
+
+.comments_list_item {
+  font-size: 0.7em;
+  text-align: left;
+  padding-bottom: 1em;
 }
