@@ -1,0 +1,66 @@
+.. title: Armando un grupo de trabajo para CDPedia
+.. date: 2020-02-17 23:42:00
+.. tags: CDPedia, trabajo, grupo, experimento, aventura, Python
+
+Estoy armando un grupo para trabajar en CDPedia. Algo por un período corto de tiempo, pero semi-intensivo, que traiga tanto beneficios para las personas que participan, como para el proyecto en sí. 
+
+Es una especie de experimento, mitad técnico, mitad social.
+
+.. image:: /images/cdpedia/logo.png
+    :alt: CDPedia: la wikipedia offline
+    :target: http://cdpedia.python.org.ar/
+
+Digo que tiene beneficios para les participantes, porque pueden...
+
+- aprender Python nivel básico / intermedio, o mejorar el nivel que tienen
+
+- ganar experiencia de trabajo en grupo, tanto remoto como presencial
+
+- aprender herramientas como control de versiones, manejo de issues
+
+- conocer prácticas modernas de desarrollo (tests, pep8, git, colaboración grupal)
+
+- tener una experiencia de trabajo como un "profesional de primer nivel"
+
+Todo esto tutelado/guiado por mí y muy probablemente por alguien más, en un ambiente amigable y seguro.
+
+Los beneficios para el proyecto son claros, ¡gente trabajando en el mismo! Pero para ser puntuales, estoy tratando de conseguir:
+
+- modernización del código (virtualenvs, flake8, inglés)
+
+- hacer el proceso y el código más robusto
+
+- normalizar los logs
+
+- migrarlo a Python 3 (legacy python debe morir!)
+
+- bug fixing simple y relevación de pendientes
+
+Digo que es por un período corto de tiempo porque es con objetivos puntuales, con la idea de cumplir con esos objetivos en un plazo determinado. Por ejemplo, tres meses. O cuatro, a lo sumo. La idea es arrancar a mediados de Marzo 2020.
+
+Al mismo tiempo es semi-intensivo: la idea es comprometerse a trabajar unas pocas horas por semana en el proyecto. Y juntarse virtualmente y presencialmente algunas veces. Acá la palabra en clave es "compromiso".
+
+
+.. image:: /images/cdpedia/et.jpeg
+    :alt: E.T. -- CDPedia -- Casaaa...
+
+Entonces, ¿tenés ganas de participar? El costo monetario es cero, ¡pero no es gratis! O sea, no hay que pagar nada, pero (ya debería ser obvio a esta altura) hay que trabajar. Comprometerse.
+
+Puntualmente, te estarías comprometiendo a:
+
+- meterle entre 4 y 10 horas de trabajo por semana
+
+- tener disponibilidad para algunas reuniones: una grupal de una hora (virtual, via hangout) una vez por semana, en día de semana, alrededor de las 18 o 20 horas, una 1 a 1 conmigo, de 15 minutos (virtual, via hangout) una vez por semana, en día de semana, horario a coordinar con cada une, y una presencial una vez por mes, siempre un sábado, en CABA, mañana y tarde
+
+- comportarte bajo `el código de conducta de Python Argentina <https://ac.python.org.ar/#coc>`_
+
+- tener una cuenta de Telegram ya que la coordinación/interacción del grupo será por ese medio
+
+- escribir un par de párrafos al final de todo el proceso contando la experiencia
+
+Detalle con respecto a horas por semana y disponibilidades: la idea es coordinar lo máximo posible los días que nos vengan mejor a todes, y obvio que tiene prioridad si hay algún viaje, exámenes de la facultad, etc. Otro detalle con respecto a la reunión grupal en CABA: la idea es tener (al menos parte de) los viáticos cubiertos, no que les implique un gasto.
+
+El proceso de selección está en marcha: si te interesa por favor `llená este form <https://docs.google.com/forms/d/e/1FAIpQLScu3L-hpwCalZzl4it2C9tpwHsV8srqAmJylZD4Ax2yvUBinA/viewform>`_, que voy a hacer una selección muy puntual. No hay requerimientos específicos, o niveles que cumplir. Sí tenés que tener ganas. El grupo de trabajo sería pequeño, pero no dejes de anotarte si te interesa esta aventura.
+
+Hay tiempo hasta el lunes 2 de Marzo, voy a comunicar los resultados unos días después. 
+
