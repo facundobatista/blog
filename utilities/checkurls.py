@@ -25,7 +25,7 @@ def search_url(fpath):
     with open(fpath, "rt", encoding="utf8") as fh:
         content = fh.read()
     targets = re.findall(":target:(.*)\n", content)
-    links = re.findall("`(.*?) \<(.*?)\>`", content, re.S)
+    links = re.findall(r"`(.*?) \<(.*?)\>`", content, re.S)
 
     results = []
 
