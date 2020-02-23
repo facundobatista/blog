@@ -1,9 +1,0 @@
-- que ningún párrafo tenga espacios antes o despues
-- asegurar que al final, en los tags, se incluyan las palabras del titulo (y que no haya "<tags>")
-- que los tags, si están escritos en el texto (ambos en minusc y normalizados), que tengan el mismo spelling
-<compilar> -- ver que todos los artículos "compilen" rest bien
-- revisar que todas las URLs funcionen
-- transformar lugar de imagenes:
-    http://www.taniquetil.com.ar/facundo/imgs/
-    post/images/   <--- relativo! funca?
-        y traer las imágenes!!!!!!!!
