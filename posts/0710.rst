@@ -8,6 +8,6 @@ Esta foto la saqué en el bar del hotel, estaba charlando con "el John".
 
 .. image:: /images/fotint/cervtrigo.jpeg
     :alt: Cerveza de trigo
-    :target: https://www.flickr.com/photos/54757453@N00/4608217771/
+    :target: https://www.dropbox.com/s/miz32mjb4hog77j/IMG10299.JPG?dl=0
 
 Para más detalles de ese viaje de laburo: `uno </posts/0460>`_, `dos </posts/0461>`_ `tres </posts/0462>`_.

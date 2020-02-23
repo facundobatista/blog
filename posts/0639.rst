@@ -8,4 +8,4 @@ Esta foto, sin embargo, fue sacada así de primera (pero no en modo automático,
 
 .. image:: /images/fotint/decocoreana.jpeg
     :alt: Decoración coreana
-    :target: http://www.flickr.com/photos/54757453@N00/11355153996/in/set-72157638639073636
+    :target: https://www.dropbox.com/s/zo51fi3jqpicryc/IMG38445.JPG?dl=0

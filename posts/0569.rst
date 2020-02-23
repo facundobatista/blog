@@ -33,7 +33,7 @@ Para cerrar el día, luego de cenar, tuvimos reunión de PyAr. Esta vez fue alre
 .. image:: /images/pycamp12/fogata.jpg
     :alt: Reunión de PyAr
 
-El lunes, como todo último día, estuvo más relajado, y marcado por la despedidas de la gente que se iba a distintas horas. También se cerró el campeonato de ping pong, el cual `fue facilmente ganado <http://www.flickr.com/photos/54757453@N00/7557211876/in/photostream>`_ por David que es un profesional en el tema.
+El lunes, como todo último día, estuvo más relajado, y marcado por la despedidas de la gente que se iba a distintas horas. También se cerró el campeonato de ping pong, el cual `fue facilmente ganado <https://www.dropbox.com/s/80b824k3m6jtzoz/p_1341854233.jpg?dl=0>`_ por David que es un profesional en el tema.
 
 Yo le seguí metiendo laburo a Encuentro (ya está casi listo para el release tan esperado que lo vuelve a la vida), pero también me hice un ratito para charlar con Roberto sobre qué posibilidades hay de migrar mi blog a `Nikola <http://nikola.ralsina.com.ar/>`_, y de ir a comprar honguitos a `la champignonería <http://puntaindioweb.com/honguera-cultivos-del-sur.htm>`_ que está a dos cuadras de donde estábamos nosotros.
 

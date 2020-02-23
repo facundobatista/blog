@@ -8,4 +8,4 @@ La foto la saqué con mi cámara vieja, jugando con macro, iluminación, etc. Es
 
 .. image:: /images/fotint/margarita.jpeg
     :alt: Margarita
-    :target: http://www.flickr.com/photos/54757453@N00/2248678448/
+    :target: https://www.dropbox.com/s/eahd8axz2x49g1p/DSF21790.JPG?dl=0

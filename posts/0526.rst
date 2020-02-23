@@ -21,7 +21,7 @@ Hasta el 2009, los avances fueron como conté, esporádicos. Pero resulta que `M
 
 .. image:: /images/cdpedia/hist-pycamp.jpg
     :alt: Trabajando en el PyCamp
-    :target: http://www.flickr.com/photos/54757453@N00/2276684469/
+    :target: https://www.dropbox.com/s/cbg7yn0tys1mjp4/DSF22310.JPG?dl=0
 
 *(hagan click en la imagen para ver la foto original, si están curiosos con lo que dice el pizarrón)*
 

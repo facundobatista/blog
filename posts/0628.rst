@@ -6,6 +6,6 @@ Mundos, luego de fabricados, esperando el momento del deployment.
 
 .. image:: /images/fotint/mundos.jpeg
     :alt: Mundos
-    :target: http://www.flickr.com/photos/54757453@N00/8075540583/
+    :target: https://www.dropbox.com/s/sc5mhr3xwqzwrgz/IMG26023.JPG?dl=0
 
 `Más fotos <https://www.dropbox.com/sh/u7wfafxx5v8yabk/AADoMfPH3oiD6dgx68QMoJPPa?dl=0>`_ similares y todas las de un paseo por Artigas (Uruguay) el año pasado.
