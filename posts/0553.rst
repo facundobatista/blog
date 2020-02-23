@@ -10,7 +10,7 @@ Bueno, lo que hay es:
 
 - La `Bitácora de Vuelo anterior a este blog <http://www.taniquetil.com.ar/facundo/bdvfiles/bdv-anterior.html>`_, que hice a mano cuando estuve en Italia.
 
-- Las `clases de fotografía <http://www.taniquetil.com.ar/facundo/bdvfiles/clasesfoto.html>`_, junto con sus distintos capítulos.
+- Las `clases de fotografía <http://www.taniquetil.com.ar/facundo/bdvfiles/clasesfoto/>`_, junto con sus distintos capítulos.
 
 - El libro `Copia este libro <http://www.taniquetil.com.ar/facundo/bdvfiles/david-bravo-copia-este-libro.pdf.gz>`_, de David Bravo.
 

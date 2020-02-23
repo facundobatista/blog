@@ -78,7 +78,7 @@ Este es el listado de lo que había antes, y lo que pasó:
 
 **Varios**
 
-- `Clases de Fotografía <http://www.taniquetil.com.ar/facundo/bdvfiles/clasesfoto.html>`_: Las clases de fotografía del Inmenso Alopa.
+- `Clases de Fotografía <http://www.taniquetil.com.ar/facundo/bdvfiles/clasesfoto/>`_: Las clases de fotografía del Inmenso Alopa.
 
 - `BDV Anterior <http://www.taniquetil.com.ar/facundo/bdvfiles/bdv-anterior.html>`_: Resumen de la primer y original Bitácora de Vuelo, que creé y mantuve durante mi estadía en Italia, en el 2002.
 
