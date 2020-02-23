@@ -16,7 +16,7 @@ Toda esta intro es para comentarles que decidí elegir algunas fotos interesante
 
 Son fotos que no serán la gran cosa, pero en las que he buscado algo, un efecto, mostrar alguna cosita, jugar con alguna luz o la ausencia de ella, etc.
 
-Estas fotos las voy a ir poniendo acá, comentando un poquito sobre las mismas. Y las voy a ir `agrupando también en Flickr <http://www.flickr.com/photos/54757453@N00/sets/72157624548630453/>`_ (puse este enlace en la barrita de la derecha).
+Estas fotos las voy a ir poniendo acá, comentando un poquito sobre las mismas. Y las voy a ir `agrupando también acá <https://www.dropbox.com/sh/1vyflyk2302zedf/AACf8bui5wqeXXQODabglRbSa?dl=0>`_ (puse este enlace en la barrita de la derecha).
 
 Cabe acotar que estas fotos NO están postprocesadas de ninguna manera, más allá de algún recorte o cambio de tamaño. Quizás en el futuro juegue con cambiar colores, o brillos, o lo que sea, lo comentaré en la foto, pero a priori son todas como salieron de la cámara.
 
@@ -24,6 +24,6 @@ Arrancamos con una que fue complicada:
 
 .. image:: /images/fotint/luislonghi.jpeg
     :alt: Luis Longhi y su bandoneón
-    :target: http://www.flickr.com/photos/54757453@N00/3500094190/sizes/l/in/set-72157624548630453/
+    :target: https://www.dropbox.com/sh/1vyflyk2302zedf/AAA4vvr55sMOQ1opqTo1TPhEa/Tango%2C%20demoliendo.jpeg?dl=0
 
 El de la foto es Luis Longhi, de Demoliendo Tangos, cuando festejaron su décimo aniversario en el Teatro Moliere. Fue complicada porque obviamente él se estaba moviendo todo el tiempo, y la iluminación era poca y difusa, así que tuve que jugar un rato para encontrar algo interesante.

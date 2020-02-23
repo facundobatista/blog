@@ -99,7 +99,7 @@ def main(posts):
     #     title = title.strip('/')
     #     our_dirpath = os.path.join("/home/facundo/media/fotos", title)
     #     if not os.path.exists(our_dirpath):
-    #         print("    WARNING: not a folder", repr(title))
+    #         print("    WARNING: not a folder", repr(title), posts)
     #         continue
     #     print("   ", repr(title))
 
@@ -135,7 +135,7 @@ def main(posts):
         try:
             our_dirpath = path_per_photo[title]
         except KeyError:
-            print("    WARNING: not a folder", repr(title))
+            print("    WARNING: file not found", repr(title), posts)
             continue
         print("   ", repr(title), repr(our_dirpath))
 

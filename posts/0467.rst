@@ -6,4 +6,4 @@ Un momento con el hijo, que me encantó (click en la foto para ver el video).
 
 .. image:: /images/comiendo_zapallo.png
     :alt: Comiendo zapallo con el hijo
-    :target: http://www.flickr.com/photos/54757453@N00/4704935614/
+    :target: https://www.dropbox.com/s/4mgs9fihh8kmx1j/%282010-06-01%29%20Felipe%20comiendo%20zapallo%20con%20pap%C3%A1.avi?dl=0

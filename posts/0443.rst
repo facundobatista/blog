@@ -12,7 +12,7 @@ Y no importa si sos un principiante en el mundo de la informática, o un avezado
 
 Hasta hace una semana atrás yo tenía backups de pocas cosas:
 
-- Todas las fotos que fui sacando las tengo en el disco rígido y en DVD, pero también las subo a `Flickr <http://www.flickr.com/photos/54757453@N00/sets/>`_, en tamaño original. Esto no es gratis, ya que el servicio de Flickr sin costo no permite tanto almacenamiento, pero creo que vale los 25 dólares que pago por año.
+- Todas las fotos que fui sacando las tengo en el disco rígido y en DVD, pero también las subo a Flickr (EDITADO: no más, en 2019 empecé a ponerlas todas en Dropbox), en tamaño original. Esto no es gratis, ya que el servicio de Flickr sin costo no permite tanto almacenamiento, pero creo que vale los 25 dólares que pago por año.
 
 - Este blog y los archivos aledaños se copian cada tres días al disco rígido de mi computadora. Entonces, si algo le pasa al server, sé que la info la tengo en otro lado.
 

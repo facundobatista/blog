@@ -2,7 +2,7 @@
 .. date: 2007-07-06 14:41:24
 .. tags: fotos, Python, software
 
-Hace algunas semanas tomé la decisión de subir `todas mis fotos <http://www.flickr.com/photos/54757453@N00/>`_ a la red (ya hay bastantes, pero creo que recién voy por la mitad...). Compré el servicio de Flickr, porque por poca guita anual te da espacio ilimitado.
+Hace algunas semanas tomé la decisión de subir todas mis fotos (EDITADO: `la url no existe más <http://www.flickr.com/photos/54757453@N00/>`__) a la red (ya hay bastantes, pero creo que recién voy por la mitad...). Compré el servicio de Flickr, porque por poca guita anual te da espacio ilimitado.
 
 Obviamente, no todas las fotos son públicas, así que si les interesa acceder a la parte de amigos y/o familia, me ponen un mail y listo.
 
@@ -30,4 +30,4 @@ Para probarlo, bajen el archivo y lo descomprimen obteniendo dos archivos en el 
 
 Cualquier feedback es muy bienvienido, :)
 
-*[*] El título no es más que una vaga referencia al `tema de Divididos <http://rock.com.ar/letras/5/5693.shtml>`_, sólo eso.*
+*[!] El título no es más que una vaga referencia al `tema de Divididos <http://rock.com.ar/letras/5/5693.shtml>`_, sólo eso.*
