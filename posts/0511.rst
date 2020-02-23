@@ -2,7 +2,7 @@
 .. date: 2011-05-03 20:01:14
 .. tags: Python, conferencia, cena, charlas
 
-El sábado pasado se hizo un nuevo `PyDay en Córdoba <http://www.python.org.ar/wiki/Eventos/PyDay/2011/Cordoba>`_. Algunas fotos `acá <http://www.flickr.com/photos/54757453@N00/sets/72157626509291051/>`_.
+El sábado pasado se hizo un nuevo `PyDay en Córdoba <http://www.python.org.ar/wiki/Eventos/PyDay/2011/Cordoba>`_. Algunas fotos `acá <https://www.dropbox.com/sh/3gkre4ircn95t9y/AABv-9QyzFeOh1Y7WUPPu7sAa?dl=0>`_.
 
 Salí en avión el viernes a la tarde, en un vuelo que tuvo demora pero que me dejó en Córdoba a las seis y monedas. Me tomé un bondi, pasé un rato por lo de Naty y Matías, y me fui a cenar con Roberto Allende y Daniel Valfre, volví y a la cama
 

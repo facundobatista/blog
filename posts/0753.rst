@@ -12,7 +12,7 @@ Es que muchas cosas que hicimos (para la PyCon o para la Asociación en general)
 
 Pero se fue haciendo. Noviembre estuvo cargadísimo por la PyCon en sí, y luego de la conferencia estuvimos a full procesando los formularios de socios que se llenaron esos días, más todo el laburo a nivel pagos y tesorería para terminar de cerrar todo. Pero tambien hicimos la asamblea de renovación de autoridades entre los que éramos socios en ese momento, y empezamos a comunicarnos por las redes (contando que `Onapsis <http://onapsis.com/>`_ era la primer socia benefactora, agradeciendo a `GCoop <http://gcoop.coop/>`_ por sacarnos y cuidarnos los dominios .org.ar para la comunidad, etc.)
 
-El broche de oro de diciembre fue el jueves pasado cuando nos juntamos los que pudimos de la Comisión Directiva en `Devecoop <http://devecoop.com/>`_, la cooperativa de desarrollo de software que gentilmente nos presta el lugar donde están ellos para tener la sede legal de la Asociación... nos caimos en su lugar de trabajo y les agradecimos de la mejor manera: con `comida y bebida <https://www.flickr.com/photos/54757453@N00/sets/72157691387889165>`_ :p
+El broche de oro de diciembre fue el jueves pasado cuando nos juntamos los que pudimos de la Comisión Directiva en `Devecoop <http://devecoop.com/>`_, la cooperativa de desarrollo de software que gentilmente nos presta el lugar donde están ellos para tener la sede legal de la Asociación... nos caimos en su lugar de trabajo y les agradecimos de la mejor manera: con `comida y bebida <https://www.dropbox.com/sh/hahmxf9ez612apg/AABDkm-XZqQ8_Sfe_OpSE6X8a?dl=0>`_ :p
 
 .. image:: /images/agasajo-devecoop.jpg
     :alt: La mejor manera de decir gracias :)

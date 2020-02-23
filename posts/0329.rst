@@ -73,6 +73,6 @@ Durante la primera parte de la mañana terminé de trabajar con el bug que habí
 
 En el medio comimos (un pollo al horno con ensalada rusa y tomate, más arroz con atún, todo muy rico). Y luego ya me metí a codear la parte que había elegido: el índice para los títulos. Con esto estuve trabajando pila y pila hasta las siete de la tarde, donde ya habiendo logrado algo funcional (aunque todavía ineficiente), commiteé todo y me fuí a bañar y a preparar el bolso.
 
-Luego saludamos a todos, caminamos hasta la parada, esperamos el micro, y ya comenzamos el viaje de vuelta. Todas las fotos, `acá <http://www.flickr.com/photos/54757453@N00/sets/72157603938876036/>`_.
+Luego saludamos a todos, caminamos hasta la parada, esperamos el micro, y ya comenzamos el viaje de vuelta. Todas las fotos, `acá <https://www.dropbox.com/sh/w6kufq1hdmj0kge/AAASbVKI0U7l5dM_dHOEaE8Ka?dl=0>`_.
 
 Como conclusión de estos cuatro días, quiero destacar lo bueno que es juntarnos programadores de distintas provincias, para no sólo programar sino también jugar, comer juntos, charlar, etc. Trabajamos, nos divertimos muchísimo, y todo esto une más aún a la comunidad, no sólo de Python o de Software Libre, sino de, aunque parezca redundante, personas.

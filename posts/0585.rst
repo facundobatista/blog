@@ -11,7 +11,7 @@ La verdad es que estuvo todo muy lindo (más allá de los viajes, como ya coment
 .. image:: /images/voragine2/facufrancisco.jpeg
     :alt: Francisco y yo
 
-Estuvimos allí un par de días, y la verdad que la pasamos genial. La familia de Francisco nos hizo sentir muy bienvenidos, y la hijita menor (Abril, cuatro años) se llevó muy bien con Felipe así que nos divertimos bastante, y descansamos un montón. `Aquí hay algunas fotos <http://www.flickr.com/photos/54757453@N00/sets/72157632054379300/>`_ de esos días.
+Estuvimos allí un par de días, y la verdad que la pasamos genial. La familia de Francisco nos hizo sentir muy bienvenidos, y la hijita menor (Abril, cuatro años) se llevó muy bien con Felipe así que nos divertimos bastante, y descansamos un montón. `Aquí hay algunas fotos <https://www.dropbox.com/sh/30s08b64cg953v4/AACu8hOoeK9DfsK9YI9cYkwGa?dl=0>`_ de esos días.
 
 Luego volvimos a Caracas. El primer día de la conferencia decidí no asistir y con la familia hicimos un paseo muy interesante subiendo a un teleférico y visitando un pueblito de montaña. Al otro día sí fui a la conferencia a la mañana, donde di la charla de "Python más rápido que C". Por la tarde me volví a escapar, ya que acompañé a Moni y a Felu al aeropuerto, que ya se volvían para casa.
 
@@ -20,7 +20,7 @@ Luego volvimos a Caracas. El primer día de la conferencia decidí no asistir y 
 
 El sábado fue el día más fuerte mío en la conferencia, ya que abrí y cerré el día. No era la idea, tampoco, pero faltó un disertante a la mañana, y ya había gente, así que aproveché y pre-estrené (juiiira de programa!) mi charla que ya tenía preparada para PyCon Argentina. El cierre fue con la clásica "Entendiendo Unicode", :)
 
-La verdad es que la pasé muy bien en Venezuela, charlé con muchísima gente, y siempre me sentí muy bien. Gracias a Fermín, Francisco y al resto de los colaboradores por toda la buena onda. `Acá están las fotos <http://www.flickr.com/photos/54757453@N00/sets/72157632060547200/>`_ de la parte de Caracas.
+La verdad es que la pasé muy bien en Venezuela, charlé con muchísima gente, y siempre me sentí muy bien. Gracias a Fermín, Francisco y al resto de los colaboradores por toda la buena onda. `Acá están las fotos <https://www.dropbox.com/sh/3fpvpcfk0bf5wd2/AAAwMZgUjLHMuwHQ_5pXq-Ava?dl=0>`_ de la parte de Caracas.
 
 Yo llegué a Argentina el lunes a la mañana, con la mala noticia de que me habían perdido la valija, :(. Me fue a buscar mi viejo, y me quedé en su casa todo el día. A la tarde vinieron Moni y Felu y cenamos en lo de mi mamá. Del martes a viernes hice casi vida normal... trabajando, pero también haciendo doble tenis y doble natación (para recuperar la semana anterior), y tratando de cerrar otros temas varios (por ejemplo, recuperar mi valija: me la trajeron el martes a casa).
 

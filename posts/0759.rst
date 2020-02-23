@@ -46,4 +46,4 @@ Pero no todo es brillar, especialmente cuando se corta la luz en todo el barrio!
 .. image:: /images/pycamp18/arquería.jpeg
     :alt: Hicimos basquet, malabares, pingpong, espadas... y arquería
 
-Para cerrar, les dejo `las fotos <https://www.flickr.com/photos/54757453@N00/albums/72157668724678958>`_ mías (más algunas que saqué del grupo de Telegram), `las de Yami <https://www.flickr.com/photos/70871182@N04/sets/72157666571520997/>`_ (fotógrafa oficial), y les prometo el video presentación de todo lo que hicimos (cuando José Luis lo procese, digamos todos "gracias José Luis").
+Para cerrar, les dejo `las fotos <https://www.dropbox.com/sh/5x7hgqxji4pf4xn/AAC4avXljS6Va6x35QerqjM0a?dl=0>`_ mías (más algunas que saqué del grupo de Telegram), `las de Yami <https://www.flickr.com/photos/70871182@N04/sets/72157666571520997/>`_ (fotógrafa oficial), y les prometo el video presentación de todo lo que hicimos (cuando José Luis lo procese, digamos todos "gracias José Luis").

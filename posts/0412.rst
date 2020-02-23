@@ -8,7 +8,7 @@ Básicamente nos juntamos todos (en este momento alrededor de 280 empleados) en 
 
 Estas actividades son de distintos tipos: durante el día lo principal son las conferencias de diversos temas (más sobre esto abajo), pero también hay mucha parte social, especialmente a la noche.
 
-Como ejemplo de esto, el martes a la tarde hubo una cena que daba comienzo al evento, al aire libre, con muchos tipos de comida que uno iba sirviéndose y comiendo parado (habían algunas mesas, también, desparramadas por ahí). También había todo tipo de bebidas, obviamente todo invitación de la empresa. A este evento cada uno tenía que llevar algo del país origen (no se pierdan las `fotos <http://www.flickr.com/photos/54757453@N00/sets/72157618677314830/>`_), y luego se elegían dos ganadores a la mejor producción.
+Como ejemplo de esto, el martes a la tarde hubo una cena que daba comienzo al evento, al aire libre, con muchos tipos de comida que uno iba sirviéndose y comiendo parado (habían algunas mesas, también, desparramadas por ahí). También había todo tipo de bebidas, obviamente todo invitación de la empresa. A este evento cada uno tenía que llevar algo del país origen (no se pierdan las `fotos <https://www.dropbox.com/sh/hyzqw98xpkxcwru/AACtV8_h6AhhyqmpQo-x96hza?dl=0>`_), y luego se elegían dos ganadores a la mejor producción.
 
 Quiero aprovechar la ocasión para mostrarles la siguiente foto, ya que el otro día me preguntaban cómo era trabajar con un jefe que vive en Holanda cuando uno trabaja en Buenos Aires, y sí todos somos medio raros o hay gente más normal...
 
@@ -21,7 +21,7 @@ Las charlas estuvieron muy bien, algunas muy interesantes, otras no tanto, pero 
 
 También, al ser una reunión de toda la empresa, los directores de las distintas áreas nos fueron contando en qué estaba la empresa, qué se hizo en el último año, etc. Esta info uno la va recibiendo durante el resto del año, pero cuando sucede, por partes, entonces está muy bueno ver un resumen de todo.
 
-Luego, la cena, y el Canonical Jam, donde mis compañeritos de empresa hacen música entre todos, alternando los intérpretes de los instrumentos, tocando clásicos para que la gente cante, todo muy groso (¡vean las `fotos <http://www.flickr.com/photos/54757453@N00/sets/72157618677314830/>`_!).
+Luego, la cena, y el Canonical Jam, donde mis compañeritos de empresa hacen música entre todos, alternando los intérpretes de los instrumentos, tocando clásicos para que la gente cante, todo muy groso (¡vean las `fotos <https://www.dropbox.com/sh/hyzqw98xpkxcwru/AACtV8_h6AhhyqmpQo-x96hza?dl=0>`_!).
 
 .. image:: /images/allhandsrocanrol.jpeg
     :alt: Rocanrol

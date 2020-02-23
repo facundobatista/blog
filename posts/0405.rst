@@ -13,7 +13,7 @@ Igual, a nivel de lectura terminé de leer `Las Torres del Olvido <http://www.ci
 
 Y a la hora de hacer otras cosas frente a la máquina, le puse algo de pilas a `lalita <https://edge.launchpad.net/lalita>`_, y a un juego que estoy armando (clon de otro conocido), el `enjuéwemela <http://code.google.com/p/enjuewemela/>`_.
 
-Durante Semana Santa nos fuimos con los primos a Salto (en Buenos Aires), donde comimos, tomamos, y nos reimos mucho. Ah, y también paseamos algo, :p. Las fotos de este post son de allí, `acá <http://www.flickr.com/photos/54757453@N00/sets/72157616650348401/>`_ está el resto.
+Durante Semana Santa nos fuimos con los primos a Salto (en Buenos Aires), donde comimos, tomamos, y nos reimos mucho. Ah, y también paseamos algo, :p. Las fotos de este post son de allí, `acá <https://www.dropbox.com/sh/w77mf916mnztti0/AAAsaHF9z-Jb7NtXSTusno5Wa?dl=0>`_ está el resto.
 
 También me junté con otros organizadores para terminar de armar el presupuesto de PyCon Argentina 2009, y definir lo necesario para salir a buscar sponsors. Estuve por la Facultad de Ingeniería de la UBA, para ver si hacíamos el evento allí, pero parece que finalmente se hace en la Universidad de Belgrano.
 

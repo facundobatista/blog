@@ -17,7 +17,7 @@ El diseño era del profesor y/o el ayudante, y lo que hicimos fue comprar (entre
 
 Compramos todo. Pero la armamos nosotros, que era parte del chiste, :)
 
-La valija tiene varias placas comunicadas entre sí a nivel positivo/tierra, cada una con distintas funcionalidades, dispuestas alrededor de tres protoboards. Acá hay `fotos individuales de las placas <http://www.flickr.com/photos/54757453@N00/sets/72157635393061539/>`_, que son (girando en el sentido de las agujas de un reloj que uno mira de frente):
+La valija tiene varias placas comunicadas entre sí a nivel positivo/tierra, cada una con distintas funcionalidades, dispuestas alrededor de tres protoboards. Acá hay `fotos individuales de las placas <https://www.dropbox.com/sh/89amjvwyw90jr1f/AACmzHukzsNk1q3mg_v1ilWda?dl=0>`_, que son (girando en el sentido de las agujas de un reloj que uno mira de frente):
 
 - Conectores contra la PC: tanto paralelo como serie. No hay mucha magia en esta placa, es básicamente la conexión de un DB25 y un DB9 a unas borneras, de manera de poder conectarse a la PC y fácilmente usar los distintos pines de los puertos.
 

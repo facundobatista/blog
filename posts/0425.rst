@@ -118,7 +118,7 @@ Por último, quiero dejarles la otra cara de la moneda: muchos comentarios que f
 
 - technophilic (EDITADO: `la url no existe más <http://www.santiagorojo.com.ar/2009/09/pycon-argentina-2009/>`__): ...pero en realidad lo que quiero destacar de la conferencia, es que fue completamente gratuita, y el nivel estuvo a la altura de cualquier otra en la que haya que pagar un entrada para poder participar.
 
-Ah! Y `fotos <http://www.flickr.com/photos/54757453@N00/sets/72157622207921223/>`__, `fotos <http://www.flickr.com/photos/blmurch/>`__, `fotos <http://gallery.atpic.com/30241>`__, `fotos <http://www.flickr.com/photos/tags/pyconar09/>`__.
+Ah! Y `fotos <https://www.dropbox.com/sh/uo4h9v2e4eq7xsl/AABXOp98MxHimIIMG5yFyRTRa?dl=0>`__, `fotos <http://www.flickr.com/photos/blmurch/>`__, `fotos <http://gallery.atpic.com/30241>`__, `fotos <http://www.flickr.com/photos/tags/pyconar09/>`__.
 
 .. image:: /images/pyconar09/felices5.png
     :alt: El Gran Grossini nos saluda!

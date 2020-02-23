@@ -75,4 +75,4 @@ Ahí empecé a ordenar todo lo mío y a limpiar un poco los lugares donde había
 .. image:: /images/pycamp10/gente.jpg
     :alt: Trabajando
 
-Así terminó el tercer PyCamp en Argentina, uno de los eventos de programación más interesantes que conozco, y uno de los que más cumplen a la hora de aprender y divertirse. Todas las fotos, `aquí <http://www.flickr.com/photos/54757453@N00/sets/72157623601554224/>`_.
+Así terminó el tercer PyCamp en Argentina, uno de los eventos de programación más interesantes que conozco, y uno de los que más cumplen a la hora de aprender y divertirse. Todas las fotos, `aquí <https://www.dropbox.com/sh/1q6fswkv4zs7s9z/AABnYivNWhG2p5zHfzcl8bQra?dl=0>`_.
