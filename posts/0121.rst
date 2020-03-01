@@ -2,7 +2,7 @@
 .. date: 2005-11-25 10:50:59
 .. tags: copia, david bravo, creative commons, enciclopedia galáctica
 
-Subí a mi sitio el pdf de `Copia este libro <http://www.taniquetil.com.ar/facundo/bdvfiles/david-bravo-copia-este-libro.pdf.gz>`_, de David Bravo Bueno. Antes que nada, el libro tiene una licencia `Creative Commons <http://creativecommons.org/>`_ que me permite hacer esto (para más info de la licencia, ver página 6 del libro).
+Subí a mi sitio el pdf de `Copia este libro <https://www.dropbox.com/s/vbyspcnemyhv4t6/David%20Bravo%20-%20Copia%20este%20libro.pdf?dl=0>`_, de David Bravo Bueno. Antes que nada, el libro tiene una licencia `Creative Commons <http://creativecommons.org/>`_ que me permite hacer esto (para más info de la licencia, ver página 6 del libro).
 
 *Todavía* no lo leí, pero básicamente trata sobre la propiedad intelectual, los derechos de copia, la industria de la música y las editoriales, cómo ellos quiebran nuestros derechos al obligarnos o restringirnos en algunos aspectos, etc...
 
