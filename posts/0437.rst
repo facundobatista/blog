@@ -2,7 +2,7 @@
 .. date: 2009-11-23 11:07:26
 .. tags: Felipe, video
 
-Les dejo un `video <http://www.youtube.com/watch?v=GoK238qW_G8>`_ de fotos compaginadas del primer mes de Feli (`acá <http://www.taniquetil.com.ar/facundo/FelipePrimerMes.avi>`_ tienen una versión con más calidad que pueden descargar fácil).
+Les dejo un `video <http://www.youtube.com/watch?v=GoK238qW_G8>`_ de fotos compaginadas del primer mes de Feli (`acá <https://www.dropbox.com/s/ds0gl5gwememd6d/FelipePrimerMes.avi?dl=0>`_ tienen una versión con más calidad que pueden descargar fácil).
 
 .. image:: /images/felimes1.jpg
     :alt: Felipe

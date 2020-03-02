@@ -17,6 +17,6 @@ Por mi parte, además de comestibles, me ocupé de la cartelera que pueden ver a
 
 .. image:: /images/cumplemale1-cartelera.jpeg
     :alt: Un año, foto a foto
-    :target: http://www.taniquetil.com.ar/facundo/VideoCumpleMale.avi
+    :target: https://www.dropbox.com/s/ueq4232y77c0lt2/VideoCumpleMale.avi?dl=0
 
 La verdad es que nos encanta hacer los cumpleaños así, pero es un esfuerzo descomunal. Ya para el quinto de Felu, en Octubre, supongo que cambiaremos la metodología... pero no estamos seguros :)

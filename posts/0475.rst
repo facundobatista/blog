@@ -10,6 +10,6 @@ Ver que tu hijo se pone por motus propio a bailar Los Ramones, no tiene precio, 
 
 .. image:: /images/feliperamon.png
     :alt: Click para ver el video
-    :target: http://www.taniquetil.com.ar/facundo/vids/FeluRamones.ogv
+    :target: https://www.dropbox.com/s/6ym9j40qhyyblai/%282010-08-07%29%20Felipe%20baila%20los%20Ramones.avi?dl=0
 
 *Aclaración, por las dudas: Felu *no* se llama Ramón...*

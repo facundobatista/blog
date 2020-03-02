@@ -8,4 +8,4 @@ Es cortito, pero interesante, hagan click en la foto.
 
 .. image:: /images/felipemes6.jpeg
     :alt: Click para ver el video
-    :target: http://www.taniquetil.com.ar/facundo/FelipeSextoMes.ogv
+    :target: https://www.dropbox.com/s/sze8suv7xph043w/FelipeSextoMes.ogv?dl=0
