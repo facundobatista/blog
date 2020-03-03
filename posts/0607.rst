@@ -43,6 +43,6 @@ El costo total por kilómetro es de $1.76. Este valor es interesante porque toma
 
 Otra conclusión interesante es que la nafta representa el 28% del costo total total del auto, ¡nada despreciable!
 
-Pueden ver los cálculos en `este PDF <http://www.taniquetil.com.ar/facundo/costoauto1.pdf>`_, pero si quieren les dejo el `notebook ipython que armé <http://www.taniquetil.com.ar/facundo/costoauto1.ipynb>`_, para que jueguen con él (lo bajan y hacen ``ipython notebook costoauto1.ipynb``).
+Pueden ver los cálculos en `este PDF <http://www.taniquetil.com.ar/bdvfiles/costoauto1.pdf>`_, pero si quieren les dejo el `notebook ipython que armé <http://www.taniquetil.com.ar/bdvfiles/costoauto1.ipynb>`_, para que jueguen con él (lo bajan y hacen ``ipython notebook costoauto1.ipynb``).
 
 Es interesante por si quieren ver por ejemplo el costo total por kilómetro si le hacen mucho menos recorrido (por ejemplo, porque viven en Capital y se moverían en subte), y de ahí comparar si les conviene tener el auto o usar remises; o agarrar las cuentas y sumarle un valor de estacionamiento fijo, etc. Y obvio, para actualizar el precio de compra que hoy es más que el año pasado...

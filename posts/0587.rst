@@ -4,7 +4,7 @@
 
 Les comentaba en un post anterior que había vuelto a dar "Entendiendo Unicode" en las PyCones de Argentina y Venezuela. Charlando con alguien más de este tema, le decía que seguramente era la charla que más veces dí.
 
-Bueno, no, este es el top 5 de `todas las charlas que dí <http://www.taniquetil.com.ar/facundo/charlas.html>`_::
+Bueno, no, este es el top 5 de `todas las charlas que dí <http://www.taniquetil.com.ar/bdvfiles/charlas.html>`_::
 
      13  Introducción a Python
      10  Entendiendo Unicode

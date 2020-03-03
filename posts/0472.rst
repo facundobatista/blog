@@ -16,4 +16,4 @@ No hace falta registrarse, pero vengan temprano para asegurarse un lugar porque 
 
 Para más información y actualizaciones, pueden consultar la `página oficial de las charlas <http://python.org.ar/pyar/CharlasAbiertas2010>`_.
 
-Por favor ayuden con la difusión! Si quieren pueden imprimir `este folleto <http://www.taniquetil.com.ar/facundo/CharlasAbiertasPythonLaTribu2010.pdf>`_ y pegarlo en vuestros lugares de trabajo y/o estudio. Muchas gracias!
+Por favor ayuden con la difusión! Si quieren pueden imprimir `este folleto <http://www.taniquetil.com.ar/bdvfiles/CharlasAbiertasPythonLaTribu2010.pdf>`_ y pegarlo en vuestros lugares de trabajo y/o estudio. Muchas gracias!

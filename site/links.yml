@@ -3,7 +3,7 @@
       href: http://facundario.taniquetil.com.ar/
       title: Facundario 2.0 Enterprise Edition
     - data: Charlas dadas
-      href: http://www.taniquetil.com.ar/facundo/charlas.html
+      href: http://www.taniquetil.com.ar/bdvfiles/charlas.html
       title: Listado de las charlas que he dado, indicando dónde y cuándo
     - data: Currículum Vitae
       href: https://www.dropbox.com/s/ph3z1f3etwg40x3/FacundoBatista.pdf?dl=0
@@ -31,7 +31,7 @@
       title: Libros que tengo y presto
 - - Python
   - - data: Histórico de Charlas
-      href: http://www.taniquetil.com.ar/facundo/charlas.html
+      href: http://www.taniquetil.com.ar/bdvfiles/charlas.html
       title: Algunas de las charlas que he dado
     - data: Cursos en general
       href: http://www.taniquetil.com.ar/facundo/cursoPython.html
@@ -111,5 +111,5 @@
       href: http://www.taniquetil.com.ar/facundo/bdvfiles/clasesfoto/
       title: por El Inmenso Alopa
     - data: El Gordo en Colombia
-      href: http://www.taniquetil.com.ar/facundo/bdvfiles/egec.html
+      href: http://www.taniquetil.com.ar/bdvfiles/egec.html
       title: EIA informa...

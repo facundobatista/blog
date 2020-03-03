@@ -94,7 +94,7 @@ Este es el listado de lo que había antes, y lo que pasó:
 
 - `Libros <http://www.taniquetil.com.ar/facundo/bdvfiles/libros.html>`_: Lista de los libros que tengo guardados.
 
-- `El Gordo en Colombia <http://www.taniquetil.com.ar/facundo/bdvfiles/egec.html>`_: Fantástico relato fantástico (primer cuento entregado por SMS), por El Inmenso Alopa.
+- `El Gordo en Colombia <http://www.taniquetil.com.ar/bdvfiles/egec.html>`_: Fantástico relato fantástico (primer cuento entregado por SMS), por El Inmenso Alopa.
 
 También le agregué, casi abajo de todo, la `licencia bajo la cual publico <http://creativecommons.org/licenses/by-nc-sa/3.0/deed.es_AR>`_ **todo** el contenido del sitio (a menos que en algún lado puntual se especifique lo contrario).
 
