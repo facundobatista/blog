@@ -4,7 +4,7 @@
 
 Entramos en la tercer etapa de mi blog.
 
-La primera habían sido `esos textos <http://www.taniquetil.com.ar/facundo/bdvfiles/bdv-anterior.html>`_ que había escrito mientras estaba en Italia haciendo el Máster en el segundo semestre del 2002, y que colgaba de un sitio armado muy a mano.
+La primera habían sido `esos textos <http://www.taniquetil.com.ar/bdvfiles/bdv-anterior.html>`_ que había escrito mientras estaba en Italia haciendo el Máster en el segundo semestre del 2002, y que colgaba de un sitio armado muy a mano.
 
 La segunda, desde el 2004 hasta ahora, con forma propiamente de "blog", soportado por un software hecho en PHP que primero se llamó "pLog", pero que luego se renombró a "LifeType", que luego de irse quedando cada vez más y más, se murió algo así como hace 5 años.
 

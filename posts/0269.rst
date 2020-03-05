@@ -80,7 +80,7 @@ Este es el listado de lo que había antes, y lo que pasó:
 
 - `Clases de Fotografía <http://www.taniquetil.com.ar/bdvfiles/clasesfoto/>`_: Las clases de fotografía del Inmenso Alopa.
 
-- `BDV Anterior <http://www.taniquetil.com.ar/facundo/bdvfiles/bdv-anterior.html>`_: Resumen de la primer y original Bitácora de Vuelo, que creé y mantuve durante mi estadía en Italia, en el 2002.
+- `BDV Anterior <http://www.taniquetil.com.ar/bdvfiles/bdv-anterior.html>`_: Resumen de la primer y original Bitácora de Vuelo, que creé y mantuve durante mi estadía en Italia, en el 2002.
 
 - `Busque marcianitos <http://setiathome.berkeley.edu/>`_: Antes era buenísimo, pero cambiaron de modelo de procesamiento distribuido a uno que me trajo tantos problemas, que dejé de ayudar...
 

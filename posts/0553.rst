@@ -8,7 +8,7 @@ Con el paso del tiempo, este directorio se fue llenando de cosas, y un laburo qu
 
 Bueno, lo que hay es:
 
-- La `Bitácora de Vuelo anterior a este blog <http://www.taniquetil.com.ar/facundo/bdvfiles/bdv-anterior.html>`_, que hice a mano cuando estuve en Italia.
+- La `Bitácora de Vuelo anterior a este blog <http://www.taniquetil.com.ar/bdvfiles/bdv-anterior.html>`_, que hice a mano cuando estuve en Italia.
 
 - Las `clases de fotografía <http://www.taniquetil.com.ar/bdvfiles/clasesfoto/>`_, junto con sus distintos capítulos.
 

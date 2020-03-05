@@ -10,6 +10,6 @@ Felipe, obviamente, volvió enganchadísimo. Y como el tiene una guitarrita, se 
 
 .. image:: /images/felu-chelo.jpeg
     :alt: Felu tocando el
-    :target: http://www.taniquetil.com.ar/facundo/felu-violin.ogv
+    :target: http://www.taniquetil.com.ar/bdvfiles/media/felu-violin.ogv
 
 *(hagan click en la foto para ver el video)*

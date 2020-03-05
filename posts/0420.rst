@@ -2,7 +2,7 @@
 .. date: 2009-07-18 13:30:43
 .. tags: blog, infraestructura, hosting, VPS
 
-Este blog nació como unos textos puestos a mano en páginas .html armadas por mí, allá hace siete años, como excusa para no tener que mandar mails a todos contando mis experiencias en Italia. Las páginas y algunas imágenes estaban hosteadas de forma gratuita por Geocities, creo que metían alguna propaganda y todo. Los textos de esa época están rejuntados `acá <http://www.taniquetil.com.ar/facundo/bdvfiles/bdv-anterior.html>`_, pero pueden tener una idea de cómo era el sitio viejo `aquí <http://web.archive.org/web/20040611054053re_/www.geocities.com/facundobatista/>`_.
+Este blog nació como unos textos puestos a mano en páginas .html armadas por mí, allá hace siete años, como excusa para no tener que mandar mails a todos contando mis experiencias en Italia. Las páginas y algunas imágenes estaban hosteadas de forma gratuita por Geocities, creo que metían alguna propaganda y todo. Los textos de esa época están rejuntados `acá <http://www.taniquetil.com.ar/bdvfiles/bdv-anterior.html>`_, pero pueden tener una idea de cómo era el sitio viejo `aquí <http://web.archive.org/web/20040611054053re_/www.geocities.com/facundobatista/>`_.
 
 En el 2004 retomé la idea del blog, ya utilizando un `CMS <http://es.wikipedia.org/wiki/Sistema_de_gesti%C3%B3n_de_contenido>`_ (¡`este mismo <https://en.wikipedia.org/wiki/LifeType>`_ que estoy usando ahora!), y ya lo había instalado en un hosting pago, en Datattec. La `estética en ese momento <http://web.archive.org/web/20050214194223/www.taniquetil.com.ar/plog/>`_ ya era bastante parecida a la actual...
 
