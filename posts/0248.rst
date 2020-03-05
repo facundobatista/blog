@@ -8,4 +8,4 @@ Yo dí varios cursos de Python, en empresas, universidades y terciarios (incluso
 
 Preparé entonces dicho temario, que sería lo básico que se puede enseñar sobre Python, más un último punto en que hay varios temas no tan estándares (quizás necesites saber sobre bases de datos, o XMl, o threads, quizás no).
 
-Dejé el temario `acá <http://www.taniquetil.com.ar/facundo/cursoPython.html>`_ (también puse el enlace en la barra de la derecha).
+Dejé el temario `acá <http://www.taniquetil.com.ar/bdvfiles/cursoPython.html>`_ (también puse el enlace en la barra de la derecha).

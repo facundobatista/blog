@@ -4,7 +4,7 @@
 
 Las últimas semanas mostraron claros avances en cinco frentes totalmente disímiles. Y un percance.
 
-El más ajustado al tiempo es el `Seminario de Python <http://www.taniquetil.com.ar/facundo/cursosAbiertos.html>`_. Claro, llegó Julio y arrancó el seminario, que no es más que un curso con mucha gente :)
+El más ajustado al tiempo es el `Seminario de Python <http://www.taniquetil.com.ar/bdvfiles/cursosAbiertos.html>`_. Claro, llegó Julio y arrancó el seminario, que no es más que un curso con mucha gente :)
 
 .. image:: /images/avances/seminario1.jpeg
     :alt: Público, primer día

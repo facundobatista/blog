@@ -56,7 +56,7 @@ Este es el listado de lo que había antes, y lo que pasó:
 
 **Software**
 
-- `Curso de Python <http://www.taniquetil.com.ar/facundo/cursoPython.html>`_: Temario del curso de Python que he dado tantas veces, y que sigo dando, a particulares, terciarios, empresas, etc...
+- `Curso de Python <http://www.taniquetil.com.ar/bdvfiles/cursoPython.html>`_: Temario del curso de Python que he dado tantas veces, y que sigo dando, a particulares, terciarios, empresas, etc...
 
 - Python patchs: (EDITADO: deprecado, no funciona más, le saqué la URL) Resumen siempre actualizado de los `Parches <http://es.wikipedia.org/wiki/Parche_inform%C3%A1tico>`_ propuestos de Python.
 
@@ -78,7 +78,7 @@ Este es el listado de lo que había antes, y lo que pasó:
 
 **Varios**
 
-- `Clases de Fotografía <http://www.taniquetil.com.ar/facundo/bdvfiles/clasesfoto/>`_: Las clases de fotografía del Inmenso Alopa.
+- `Clases de Fotografía <http://www.taniquetil.com.ar/bdvfiles/clasesfoto/>`_: Las clases de fotografía del Inmenso Alopa.
 
 - `BDV Anterior <http://www.taniquetil.com.ar/facundo/bdvfiles/bdv-anterior.html>`_: Resumen de la primer y original Bitácora de Vuelo, que creé y mantuve durante mi estadía en Italia, en el 2002.
 

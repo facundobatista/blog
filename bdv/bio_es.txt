@@ -4,7 +4,7 @@ Trabajó en Movistar (antes Unifón) durante seis años, en el área de Administ
 
 Fue profesor en la Universidad de La Matanza y en diversas instituciones secundarias y terciarias. También posee una amplia experiencia como analista de sistemas y programador, tanto freelance como bajo contrato, en diversos sistemas en múltiples plataformas y lenguajes.
 
-Siguiendo en el ámbito de la programación, ama Python, habiéndose convertido en Desarrollador Oficial del lenguaje y miembro de la Python Software Foundation, fundando luego Python Argentina. Fue invitado como expositor a numerosas conferencias nacionales e internacionales y dictó cursos de Python en Universidades, ámbitos terciarios, y para particulares y empresas (más info: http://www.taniquetil.com.ar/facundo/cursoPython.html).
+Siguiendo en el ámbito de la programación, ama Python, habiéndose convertido en Desarrollador Oficial del lenguaje y miembro de la Python Software Foundation, fundando luego Python Argentina. Fue invitado como expositor a numerosas conferencias nacionales e internacionales y dictó cursos de Python en Universidades, ámbitos terciarios, y para particulares y empresas (más info: http://www.taniquetil.com.ar/bdvfiles/cursoPython.html).
 
 También participa en cantidad de proyectos libres, entre los que se encuentran CDPedia, Encuentro, Fades, Lalita, Magicicada, Launcherposta, Enjuewemela, Linkode, y más.
 

@@ -14,4 +14,4 @@ Al final del Seminario entregaré un certificado de asistencia y la totalidad de
 
 Para realizar la reserva deben `enviarme un mail <mailto:facundo@taniquetil.com.ar?subject=Reserva%20para%20el%20Seminario%20de%20Python>`_ así les confirmo disponibilidad y les paso los datos necesarios para realizar el pago (que podrá ser por depósito, transferencia bancaria, tarjeta de crédito, débito, etc.).
 
-Acá están `todos los detalles del curso <http://www.taniquetil.com.ar/facundo/cursosAbiertos.html>`_.
+Acá están `todos los detalles del curso <http://www.taniquetil.com.ar/bdvfiles/cursosAbiertos.html>`_.

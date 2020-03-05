@@ -34,10 +34,10 @@
       href: http://www.taniquetil.com.ar/bdvfiles/charlas.html
       title: Algunas de las charlas que he dado
     - data: Cursos en general
-      href: http://www.taniquetil.com.ar/facundo/cursoPython.html
+      href: http://www.taniquetil.com.ar/bdvfiles/cursoPython.html
       title: Temario básico y lista de cursos de Python que he dado
     - data: Curso Abierto de Python
-      href: http://www.taniquetil.com.ar/facundo/cursosAbiertos.html
+      href: http://www.taniquetil.com.ar/bdvfiles/cursosAbiertos.html
       title: Info sobre posibles cursos que esté dando, abiertos a la comunidad
     - data: Ejercicios Python
       href: http://www.taniquetil.com.ar/py/ejercicios/enunciados.html
@@ -108,7 +108,7 @@
       href: http://www.taniquetil.com.ar/facundo/bdvfiles/los100deNarda.html
       title: Consejos de Narda Lepes sobre cocina y comida
     - data: Clases de Fotografía
-      href: http://www.taniquetil.com.ar/facundo/bdvfiles/clasesfoto/
+      href: http://www.taniquetil.com.ar/bdvfiles/clasesfoto/
       title: por El Inmenso Alopa
     - data: El Gordo en Colombia
       href: http://www.taniquetil.com.ar/bdvfiles/egec.html

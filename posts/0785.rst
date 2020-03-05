@@ -6,7 +6,7 @@ El último finde terminó el segundo Seminario de Python armado con Onapsis.
 
 El primero `había sido hace dos años </posts/0735/>`_, muy introductorio, para alrededor de cuarenta asistentes.
 
-El que acabo de completar, durante cuatro sábados de Junio, tuvo un `contenido más avanzado <http://www.taniquetil.com.ar/facundo/curso-medio-avanzado.html>`_. También fue en oficinas de Onapsis, pero en las nuevas, porque justo se mudaron hace un par de meses. Y fue para más de sesenta personas, lo cual ya per se es un desafío.
+El que acabo de completar, durante cuatro sábados de Junio, tuvo un `contenido más avanzado <http://www.taniquetil.com.ar/bdvfiles/curso-medio-avanzado.html>`_. También fue en oficinas de Onapsis, pero en las nuevas, porque justo se mudaron hace un par de meses. Y fue para más de sesenta personas, lo cual ya per se es un desafío.
 
 .. image:: /images/seminario-python-2019.jpeg
     :alt: La grupal, el último día

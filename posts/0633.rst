@@ -2,7 +2,7 @@
 .. date: 2013-11-11 19:22:38
 .. tags: proyecto, software
 
-Aparecieron muy cerca en el tiempo dos necesidades muy parecidas: hacer certificados de asistencia para PyCon Argentina 2013, y hacer los certificados para `mi curso de Python <http://www.taniquetil.com.ar/facundo/cursosAbiertos.html>`_.
+Aparecieron muy cerca en el tiempo dos necesidades muy parecidas: hacer certificados de asistencia para PyCon Argentina 2013, y hacer los certificados para `mi curso de Python <http://www.taniquetil.com.ar/bdvfiles/cursosAbiertos.html>`_.
 
 Así nació **certg**, un generador de certificados, que a la vez es simple, versátil, y útil. El proceso para usarlo es simple:
 
