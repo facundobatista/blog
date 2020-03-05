@@ -12,7 +12,7 @@ El problema que tenía era que un colaborador mío estaba usando un módulo que 
 
 Es decir, el estaba con un programa por un lado, y con la linea de comandos del MySQL por el otro. Y cuando insertaba algo en la base desde el programa, no lo veía por la linea de comandos. Es más, a veces la inserción daba timeout porque la tabla estaba lockeada.
 
-Luego de tres horas de buscar, probar, y reescribir `mi módulo <http://www.taniquetil.com.ar/facundo/bdvfiles/code/mod_mysql.py>`_ de MySQL utilizando la `Python DB API 2.0 <http://www.python.org/dev/peps/pep-0249/>`_, encontré cual era el problema.
+Luego de tres horas de buscar, probar, y reescribir `mi módulo <http://www.taniquetil.com.ar/bdvfiles/code/mod_mysql.py>`_ de MySQL utilizando la `Python DB API 2.0 <http://www.python.org/dev/peps/pep-0249/>`_, encontré cual era el problema.
 
 Primero, algo que desconocía. Que cuando estás en una tabla `InnoDB <http://www.innodb.com/index.php>`_, que maneja transacciones, el SELECT también es una transacción, y como tal, luego de la misma, hay que hacer un COMMIT. Y lo otro es que al levantar una conexión con MySQLdb, el autocommit está por default deshabilitado (al contrario que por linea de comandos del MySQL que por default está habilitado).
 

@@ -9,7 +9,7 @@ Como no nos decidíamos, decidí medirlo.
 .. image:: /images/medir.jpg
     :alt: Medimos!
 
-Creé un archivo de cien millones de bytes al azar, y probé con `distintos scripts hechos en el momento <http://www.taniquetil.com.ar/facundo/bdvfiles/code/test_mmap_scripts.tar.gz>`_, con un comportamiento parecido al que iba a hacer Guillo:
+Creé un archivo de cien millones de bytes al azar, y probé con `distintos scripts hechos en el momento <http://www.taniquetil.com.ar/bdvfiles/code/test_mmap_scripts.tar.gz>`_, con un comportamiento parecido al que iba a hacer Guillo:
 
 - Una lectura secuencial de todo el archivo, de a dos tamaños diferentes. En el script leo 50 bytes, y luego 450 bytes, y así; en la realidad se haría una lectura de ~50 bytes, longitud fija, y luego una de ~450, longitud variable.
 

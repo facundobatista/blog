@@ -10,7 +10,7 @@ Sí es típico, es que sucede muchas veces, no sólo a un programador, sino a mu
 
 Que queramos estimar, y no calcular exactamente cuánto, implica que es suficiente con **dar una idea** de cuanto falta. Consideremos que esta indicación es para el usuario impaciente que está mirando la barrita de progreso, o que abre cada tanto la aplicación y estima si la película que está bajando va a terminar para después de la cena o mejor busca algo en la tele. No hace falta decirle que calculamos terminar a las 19:33, pero es importante saber si esperamos que finalice a las 19, a las 20, o mañana...
 
-.. image:: http://www.taniquetil.com.ar/facundo/bdvfiles/code/eta/barra1.png
+.. image:: http://www.taniquetil.com.ar/bdvfiles/code/eta/barra1.png
     :alt: Barrita ejemplo 1
 
 Entonces... ¿por qué no está resuelto todavía de forma genérica y satisfactoria? Porque no es tan simple como parece. Veamos por qué. Por un lado, la velocidad con la cual estamos completando la tarea puede variar, y por el otro, le tenemos que dar una indicación a un humano. Y ambos son dos quilombos totalmente distintos... y complicados.
@@ -35,7 +35,7 @@ En general, podríamos definir las necesidades de nuestro algoritmo como las sig
 
 En función de eso, vamos con algunas consideraciones que he estado elaborando, leyendo en la lista de correo, en otros lados, o que ya tenía en mi cabeza desde antes. Pero para que nos entendamos mejor, vale una aclaración.
 
-.. image:: http://www.taniquetil.com.ar/facundo/bdvfiles/code/eta/barra2.png
+.. image:: http://www.taniquetil.com.ar/bdvfiles/code/eta/barra2.png
     :alt: Barra ejemplo 2
 
 Todo el trabajo, donde la magia reside, es en calcular la *velocidad estimada con la cual vamos a estar desde ahora hasta el final de la tarea*. De esa manera, en función de lo que falta para terminar (en KB descargados, partes del archivo a procesar, o lo que sea), podemos estimar cuanto falta en tiempo, y consecuentemente le podremos mostrar al usuario *cuando* terminaremos.
@@ -78,9 +78,9 @@ El segundo modelo también agranda o achica la cantidad de valores. Pero ahora, 
 
 El tercer modelo trata de tranquilizar el indicador de otro modo. Tomamos siempre la misma cantidad de valores, pero nos fijamos en cual fué la variación mayor en ese grupo, y cual es la variación entre el último y el nuevo valor. Si esta última variación es mayor a la que veníamos teniendo, tomamos eso como símbolo de nerviosismo y no usamos el último valor para el promedio, sino uno recortado.
 
-El siguiente es un ejemplo de los tres modelos para el mismo conjunto de valores simulados (primero a tercer de arriba para abajo). Tienen más ejemplos `aquí <http://www.taniquetil.com.ar/facundo/bdvfiles/code/eta/eta-ejA2.png>`__ y `aquí <http://www.taniquetil.com.ar/facundo/bdvfiles/code/eta/eta-ejA3.png>`__, y el código que genera todo `aquí <http://www.taniquetil.com.ar/facundo/bdvfiles/code/eta/simuladorA.py>`__.
+El siguiente es un ejemplo de los tres modelos para el mismo conjunto de valores simulados (primero a tercer de arriba para abajo). Tienen más ejemplos `aquí <http://www.taniquetil.com.ar/bdvfiles/code/eta/eta-ejA2.png>`__ y `aquí <http://www.taniquetil.com.ar/bdvfiles/code/eta/eta-ejA3.png>`__, y el código que genera todo `aquí <http://www.taniquetil.com.ar/bdvfiles/code/eta/simuladorA.py>`__.
 
-.. image:: http://www.taniquetil.com.ar/facundo/bdvfiles/code/eta/eta-ejA1.png
+.. image:: http://www.taniquetil.com.ar/bdvfiles/code/eta/eta-ejA1.png
 
 Como ven, el tercero es el que más tranquilo parece, y así y todo luce responsivo a los cambios de largo o mediano plazo. A mí es el que más me gusta. Pero tiene una falla segura: la cantidad de puntos a tomar en el promedio permanece constante (en este caso, está prefijada a 20).
 
@@ -100,11 +100,11 @@ Entonces desarrollé otro simulador, pero ahora con una lógica distinta, ya que
 
 En la curva de arriba pueden ver el comportamiento del modelo C de la etapa anterior, y en la inferior, el mismo modelo, solo que ajustamos la cantidad de valores para realizar el cálculo en función de por donde estamos de la descargar (lo que hacemos es tomar todos los valores hasta que llegamos a la mitad, y luego de la mitad la cantidad de lo que faltaría para terminar). Más allá de si nos gusta más o menos, este nuevo modelo tiene la complejidad de *saber* cuantas unidades falta para terminar (podemos saberlo si estamos descargando un archivo del que conocemos el largo total, pero no de otra manera, por ejemplo).
 
-.. image:: http://www.taniquetil.com.ar/facundo/bdvfiles/code/eta/eta-ejB1.png
+.. image:: http://www.taniquetil.com.ar/bdvfiles/code/eta/eta-ejB1.png
 
 Fíjense que en este nuevo modelo no estamos generando la misma cantidad de puntos siempre para la simulación, sino que arrancamos con una determinada cantidad para descargar, y seguimos hasta que se descargue todo (por eso el ancho de los ejemplos es variable). Noten también que recorté en un máximo la indicación del usuario, para que el detalle inferior se vea mejor.
 
-Tienen dos ejemplos más `acá <http://www.taniquetil.com.ar/facundo/bdvfiles/code/eta/eta-ejB2.png>`__ y `acá <http://www.taniquetil.com.ar/facundo/bdvfiles/code/eta/eta-ejB3.png>`__, pueden generar más con `este <http://www.taniquetil.com.ar/facundo/bdvfiles/code/eta/simuladorB.py>`_ programa.
+Tienen dos ejemplos más `acá <http://www.taniquetil.com.ar/bdvfiles/code/eta/eta-ejB2.png>`__ y `acá <http://www.taniquetil.com.ar/bdvfiles/code/eta/eta-ejB3.png>`__, pueden generar más con `este <http://www.taniquetil.com.ar/bdvfiles/code/eta/simuladorB.py>`_ programa.
 
 
 Conclusiones

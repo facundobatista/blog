@@ -24,7 +24,7 @@ Con respecto a la privacidad, se pueden marcar las fotos como...
 
 El tipo de contacto, *familia* o *amigos*, es lo que les decía arriba que me pidan por mail.
 
-Para poder conectarme fácil a Flickr y utilizar `todos sus servicios <http://www.flickr.com/services/api/>`_, utilicé la `Beej's Python Flickr API <http://beej.us/flickr/flickrapi/>`_, que tuve que modificar levemente para que me dejara poner tags y descripciones utilizando caracteres acentuados. `Aquí les dejo un zip <http://www.taniquetil.com.ar/facundo/bdvfiles/code/subeFlickr.zip>`_ con los dos archivos, el módulo con la API levemente modificada y mi programita.
+Para poder conectarme fácil a Flickr y utilizar `todos sus servicios <http://www.flickr.com/services/api/>`_, utilicé la `Beej's Python Flickr API <http://beej.us/flickr/flickrapi/>`_, que tuve que modificar levemente para que me dejara poner tags y descripciones utilizando caracteres acentuados. `Aquí les dejo un zip <http://www.taniquetil.com.ar/bdvfiles/code/subeFlickr.zip>`_ con los dos archivos, el módulo con la API levemente modificada y mi programita.
 
 Para probarlo, bajen el archivo y lo descomprimen obteniendo dos archivos en el mismo directorio, y ejecuten subeFlickr.py sin parámetros, que les sale un mensaje de ayuda (obviamente tienen que tener Python instalado, si están en Linux o en MacOS X ya está, y si están Windows, bájenlo gratis de `acá <http://www.python.org/download/>`_). Tengan en cuenta de que en subeFlickr.py hay unas anotaciones que tienen que seguir (busquen las *XXX*), por autenticaciones que obliga Flickr y eso).
 

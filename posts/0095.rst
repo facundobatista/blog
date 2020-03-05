@@ -6,7 +6,7 @@ Ayer di finalmente la charla "Python viene con las baterías incluídas", en el 
 
 Cal y arena para la UADE. Por un lado, ofreció gentilmente el espacio para el evento. Por el otro, ocasionaron problemas organizativos que no se deberían haber sucedido, como traer el cable para el proyector sobre la hora que tenía que empezar la charla. Y encima cuando lo enchufamos, el proyector "perdía" una franja a la derecha de la pantalla.
 
-Pero la charla estuvo buena, a la gente le gustó, y fue una oportunidad para conocer algunos personajes a los que sólo había tratado por mail. Acá estan tanto la `charla <http://www.taniquetil.com.ar/homedevel/presents/python_baterias.sxi>`_ como los `archivos <http://www.taniquetil.com.ar/facundo/bdvfiles/code/booscador.zip>`_ del buscador ejemplo que armé... ¡tiembla Google!
+Pero la charla estuvo buena, a la gente le gustó, y fue una oportunidad para conocer algunos personajes a los que sólo había tratado por mail. Acá estan tanto la `charla <http://www.taniquetil.com.ar/homedevel/presents/python_baterias.sxi>`_ como los `archivos <http://www.taniquetil.com.ar/bdvfiles/code/booscador.zip>`_ del buscador ejemplo que armé... ¡tiembla Google!
 
 .. image:: /images/uff/530141530_1907cb5dcd_o.png
 
