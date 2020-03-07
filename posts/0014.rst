@@ -2,4 +2,4 @@
 .. date: 2004-11-23 20:03:58
 .. tags: Python, decimal, instrucciones
 
-Puse disponible en la web, accesible facilmente las instrucciones de cómo bajar e instalar en Python 2.3 el módulo ``decimal.py`` (en `castellano <http://www.taniquetil.com.ar/facundo/bdvfiles/obtener_decimal.html>`_ y en `inglés <http://www.taniquetil.com.ar/facundo/bdvfiles/get_decimal.html>`_).
+Puse disponible en la web, accesible facilmente las instrucciones de cómo bajar e instalar en Python 2.3 el módulo ``decimal.py`` (en `castellano <http://www.taniquetil.com.ar/bdvfiles/obtener_decimal.html>`_ y en `inglés <http://www.taniquetil.com.ar/bdvfiles/get_decimal.html>`_).

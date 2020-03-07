@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="Docutils 0.3.5: http://docutils.sourceforge.net/" />
+<title>How-to get decimal.py if I have Python 2.3.x</title>
+<link rel="stylesheet" href="default.css" type="text/css" />
+</head>
+<body>
+<h1 class="title">How-to get decimal.py if I have Python 2.3.x</h1>
+<div class="document" id="how-to-get-decimal-py-if-i-have-python-2-3-x">
+<p>This texts explains how to obtain a suitable archive file for
+installation of <tt class="literal"><span class="pre">decimal</span></tt> with Python 2.3.x.  Companion file
+README explains how to perform the installation if the archive you
+download doesn't do everything for you, and also contains other
+useful information and pointers.</p>
+<p>Module <tt class="literal"><span class="pre">decimal.py</span></tt> already comes with the standard Python 2.4 and
+newer versions; in these cases you don't need to download it
+separately.  Note that decimal is not officially supported for Python
+2.2 and older versions -- if you're into archaeology, you're on your
+own!</p>
+<div class="section" id="downloading-the-necessary-files">
+<h1><a name="downloading-the-necessary-files">Downloading the necessary files</a></h1>
+<p>You can make either of two different choices here: download a module
+installer archive file, or download the files separately.</p>
+<p>In the first case, the procedure is simple, but maybe you won't get the
+latest version. In the second case, the procedure has more steps, but
+you'll be sure of getting the module latest version.</p>
+<div class="section" id="using-the-installer">
+<h2><a name="using-the-installer">Using the installer</a></h2>
+<p>Go to <a class="reference" href="http://sourceforge.net/projects/sigefi">http://sourceforge.net/projects/sigefi</a>, to the file releases
+section, and choose the package type to download:</p>
+<ul class="simple">
+<li><tt class="literal"><span class="pre">decimal-x.x.win32.exe</span></tt>: Windows only.</li>
+<li><tt class="literal"><span class="pre">decimal-x.x-x.rpm</span></tt>: For RPM based Linux distributions.</li>
+<li><tt class="literal"><span class="pre">decimal-x.x.tar.gz</span></tt>: The simplest and most general (should work
+whatever the platform on which you have Python 2.3 installed).</li>
+</ul>
+<p>In the first case, just execute the installer. In the second case, do
+<tt class="literal"><span class="pre">rpm</span> <span class="pre">-i</span> <span class="pre">decimal-x.x-x.rpm</span></tt> as <tt class="literal"><span class="pre">root</span></tt>.</p>
+<p>In the third case, also as <tt class="literal"><span class="pre">root</span></tt>, in any shell/command window, unzip
+and untar the package, cd to the directory thus created, and execute
+the installer -- for example, on a typical Linux or Unix installation:</p>
+<pre class="literal-block">
+$ gunzip decimal-x.x.tar.gz
+$ tar -xf decimal-x.x.tar
+$ cd decimal-x.x
+$ su [[ enter password appropriately when requested ]]
+# python setup.py install
+# [[ close the root session with Ctrl-D ]]
+$
+</pre>
+<p>Alternatively, if your machine is set up appropriately, instead of su
+followed by the execution of the installer and then the exit from the
+root session, you can mode compactly use <tt class="literal"><span class="pre">sudo</span></tt> (again, you may have
+to enter your password appropriately if sudo asks you for it):</p>
+<pre class="literal-block">
+$ sudo python setup.py install
+</pre>
+<p>This assumes that Python 2.3 is the one found as <tt class="literal"><span class="pre">python</span></tt> on your
+PATH.  Otherwise, equivalently, enter a complete path to it, such as:</p>
+<pre class="literal-block">
+$ sudo /weirdly/placed/python2.3 setup.py install
+</pre>
+</div>
+<div class="section" id="downloading-the-files-separately">
+<h2><a name="downloading-the-files-separately">Downloading the files separately</a></h2>
+<p>The decimal module itself is just one file: decimal.py, which you can
+download from the Python CVS:</p>
+<blockquote>
+<a class="reference" href="http://cvs.sourceforge.net/viewcvs.py/python/python/dist/src/Lib/decimal.py">http://cvs.sourceforge.net/viewcvs.py/python/python/dist/src/Lib/decimal.py</a></blockquote>
+<p>You can use any browser, or utility programs such as curl, wget, etc, to
+download this decimal.py file to some location on your machine.</p>
+<p>You must then copy this file into your Python installation
+<tt class="literal"><span class="pre">site-packages</span></tt> directory (for example, depending on your platform and
+exactly how you installed Python 2.3,
+<tt class="literal"><span class="pre">C:\Python23\FIXME\site-packages</span></tt> or
+<tt class="literal"><span class="pre">/usr/lib/python2.3/site-packages</span></tt>). Note that you may need
+administrator privileges to put the file there, which may mean, as
+explained previously in this document, using <tt class="literal"><span class="pre">su</span></tt> or <tt class="literal"><span class="pre">sudo</span></tt> or other
+means yet as appropriate to your installation.</p>
+<p>On MacOSX 10.3, Python 2.3 is part of the operating system and is an OSX
+<tt class="literal"><span class="pre">framework</span></tt> -- but if you work at the Terminal, which basically means
+at the BSD Unix level underlying MacOSX, you can still treat it as a
+directory, and (typically with <tt class="literal"><span class="pre">sudo</span></tt> from a user who is an
+administrator, since <tt class="literal"><span class="pre">root</span></tt> is normally not enabled in a good MacOSX
+installation) copy <tt class="literal"><span class="pre">decimal.py</span></tt> into the rather long &quot;directory path&quot;
+named:</p>
+<pre class="literal-block">
+/System/Library/Frameworks/Python.framework/Versions/2.3/lib/python2.3/site-packages
+</pre>
+<p>Whenever you install anything it's always a good idea to test whatever
+you have just installed.  To test the <tt class="literal"><span class="pre">decimal.py</span></tt> installation you
+need additional files: <tt class="literal"><span class="pre">test_decimal.py</span></tt> and all of the test files
+(inside a directory), that you can also download from the Python CVS
+repository:</p>
+<blockquote>
+<a class="reference" href="http://cvs.sourceforge.net/viewcvs.py/python/python/dist/src/Lib/test/test_decimal.py">http://cvs.sourceforge.net/viewcvs.py/python/python/dist/src/Lib/test/test_decimal.py</a>
+<a class="reference" href="http://cvs.sourceforge.net/viewcvs.py/python/python/dist/src/Lib/test/decimaltestdata/">http://cvs.sourceforge.net/viewcvs.py/python/python/dist/src/Lib/test/decimaltestdata/</a></blockquote>
+<p>and then you can proceed to the next section of this document.</p>
+</div>
+</div>
+<div class="section" id="checking-that-everything-is-fine">
+<h1><a name="checking-that-everything-is-fine">Checking that everything is fine</a></h1>
+<p>If you chose to download and unpack an archive, in the directory in
+which you executed the installer you'll already have a <tt class="literal"><span class="pre">test</span></tt>
+subdirectory. If you downloaded the files separately, or used a
+self-executing installer format that doesn't come with the tests (so you
+also downloaded the tests separately from CVS, as per the previous
+section), you should have downloaded placed, in any appropriate test
+directory of your choice, the <tt class="literal"><span class="pre">test_decimal.py</span></tt> file and a
+<tt class="literal"><span class="pre">decimaltestdata</span></tt> subdirectory with data files in it.</p>
+<p>In any case, go to that test directory and execute the tests with:</p>
+<pre class="literal-block">
+python test_decimal.py
+</pre>
+<p>You do NOT need administrator privileges to run the tests, so it's best
+to run them with a normal, non-privileged user (the tests can't break
+anything, but &quot;least possible privilege&quot; is a key security practice).</p>
+<p>You'll see a lot of messages while different module parts are tested,
+ending with a message similar to:</p>
+<pre class="literal-block">
+OK
+doctest (decimal) ... nn tests with zero failures
+</pre>
+<p>If there's any problem with the tests, please contact the developers.</p>
+</div>
+<div class="section" id="documentation">
+<h1><a name="documentation">Documentation</a></h1>
+<p>In the same directory which you entered in order to execute the
+installer, you'll have a <tt class="literal"><span class="pre">docs</span></tt> subdirectory.  Directory <tt class="literal"><span class="pre">docs</span></tt>
+contains documentation in several formats:</p>
+<ul class="simple">
+<li>HTML: Open the <tt class="literal"><span class="pre">index.html</span></tt> file with your favorite browser.</li>
+<li>TeX: The doc sources are in the <tt class="literal"><span class="pre">libdecimal.tex</span></tt> file (they
+use the same TeX macros as all of Python's online docs).</li>
+</ul>
+<p>The .tex file was extracted from the Python CVS, and the HTML files were
+extracted from the on-line Python documentation (modified to get all the
+Decimal-related links pointing to the downloaded files).</p>
+<p>You can also check the documentation online, currently at:
+<a class="reference" href="http://www.python.org/dev/doc/devel/lib/module-decimal.html">http://www.python.org/dev/doc/devel/lib/module-decimal.html</a>.</p>
+</div>
+<div class="section" id="acknowledgements">
+<h1><a name="acknowledgements">Acknowledgements</a></h1>
+<p>I would like to thanks to Alex Martelli for the help with these docs
+and his gentle pressure in order to package this Decimal independent
+distribution.</p>
+</div>
+</div>
+</body>
+</html>
