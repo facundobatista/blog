@@ -1,0 +1,43 @@
+body {
+	background-color: #F0F0FF;
+	margin:20px;
+    font-family: Ubuntu, sans-serif;
+}
+
+h2 {
+	color:#303098;
+}
+
+img {
+
+}
+
+a {
+	text-decoration: none;
+}
+
+span {
+	color:#515151;
+	font-size: 8pt;
+}
+
+#principal {
+	margin:0 auto;
+	position: relative;
+}
+
+#principal ul {
+	
+}
+
+#principal li {
+	display:inline;
+	float:left;
+	width:250px;
+	background-color:#F8F8F8;
+	padding:5px;
+	margin:10px;
+	text-align: center;
+	border-right: #A5A7AA solid 1px;
+	border-bottom: #A5A7AA solid 1px;
+}
