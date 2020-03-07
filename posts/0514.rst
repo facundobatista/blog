@@ -12,6 +12,6 @@ Y editarlo lleva tiempo! Y miren que llevará tiempo, que editar mis videos es u
 
 En fin. Se fueron pasando los años, y en algún punto me lo tomé como una actividad monótona creciente: aunque hiciera muy poquito cada tanto, ese poquito sumaba; y me puse como meta que ese "cada tanto" no fuera demasiado... y los fui editando. No sólo eso, sino que también los fui terminando de editar, y aquí largo la primera tanda.
 
-Para presentárselos, armé una página en este mismo blog: `la Página de los Videos <http://www.taniquetil.com.ar/facundo/videos/videos.html>`_. Como pueden ver ahí, ya tengo todos los del Master en Italia, en 2002, más los de un curso en Toledo, en 2005. Actualmente estoy trabajando en los de un curso en Holanda, también en 2005.
+Para presentárselos, armé una página en este mismo blog: `la Página de los Videos <http://www.taniquetil.com.ar/bdvfiles/videos/videos.html>`_. Como pueden ver ahí, ya tengo todos los del Master en Italia, en 2002, más los de un curso en Toledo, en 2005. Actualmente estoy trabajando en los de un curso en Holanda, también en 2005.
 
 Para verlos, hagan click en la imagen. Están codificados en Theora, así que Firefox debería mostrarselos bien, con los controles para play, pausa, etc. Pueden descargarlos y verlos offline, también, si prefieren. Y pueden compartirlos, pero no modificarlos ni usarlos para un propósito comercial.

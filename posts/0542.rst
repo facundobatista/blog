@@ -2,9 +2,9 @@
 .. date: 2011-12-22 21:06:18
 .. tags: videos, casamiento
 
-Y el día finalmente llegó: tengo todos los videos editados y publicados, todos los que alguna vez filmé, `pueden verlos acá <http://www.taniquetil.com.ar/facundo/videos/videos.html>`_, el enlace está siempre en la barrita vertical de la derecha.
+Y el día finalmente llegó: tengo todos los videos editados y publicados, todos los que alguna vez filmé, `pueden verlos acá <http://www.taniquetil.com.ar/bdvfiles/videos/videos.html>`_, el enlace está siempre en la barrita vertical de la derecha.
 
-.. image:: http://www.taniquetil.com.ar/facundo/videos/montage.png
+.. image:: http://www.taniquetil.com.ar/bdvfiles/videos/montage.png
     :alt: Montaje
 
 Lo último que agregué fueron los videos que hicimos con Moni en la Luna de Miel, cinco videos, uno por ciudad.
