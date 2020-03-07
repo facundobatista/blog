@@ -23,4 +23,4 @@ Estas son miniaturas de los imanes, si hacen click en la imagen van a una galer√
 
 .. image:: /images/imanesreceta-collage.jpeg
     :alt: Todos los imanes, todos
-    :target: https://www.taniquetil.com.ar/facundo/bdvfiles/imanesreceta/
+    :target: https://www.taniquetil.com.ar/bdvfiles/imanesreceta/

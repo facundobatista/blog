@@ -20,7 +20,7 @@ Bueno, lo que hay es:
 
 - Una explicación (`inglés <http://www.taniquetil.com.ar/bdvfiles/get_decimal.html>`_ y `castellano <http://www.taniquetil.com.ar/bdvfiles/obtener_decimal.html>`_) de cómo poner el módulo de Decimal si tenías Python 2.3 (ohmygod, que viejo!)
 
-- `Mis libros! <http://www.taniquetil.com.ar/facundo/bdvfiles/libros.html>`_ Tengo que actualizar esto... supongo que lo haré cuando traiga las cajas de lo de mi viejo, aunque antes tengo que pegarle una mirada al proceso, tengo un par de ideas que quiero ver si son factibles, ya hablaré de eso acá.
+- `Mis libros! <http://www.taniquetil.com.ar/bdvfiles/libros.html>`_ Tengo que actualizar esto... supongo que lo haré cuando traiga las cajas de lo de mi viejo, aunque antes tengo que pegarle una mirada al proceso, tengo un par de ideas que quiero ver si son factibles, ya hablaré de eso acá.
 
 - La `lista de películas por ver <http://www.taniquetil.com.ar/facundo/bdvfiles/peliculas.html>`_ (esta sí la voy actualizando!)
 

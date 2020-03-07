@@ -92,7 +92,7 @@ Este es el listado de lo que había antes, y lo que pasó:
 
 - Videos: Lista de algunos videos míos que yo servía a través de la mula. Si alguna vez retomo este proyecto, seguro los subo a YouTube o lugar similar...
 
-- `Libros <http://www.taniquetil.com.ar/facundo/bdvfiles/libros.html>`_: Lista de los libros que tengo guardados.
+- `Libros <http://www.taniquetil.com.ar/bdvfiles/libros.html>`_: Lista de los libros que tengo guardados.
 
 - `El Gordo en Colombia <http://www.taniquetil.com.ar/bdvfiles/egec.html>`_: Fantástico relato fantástico (primer cuento entregado por SMS), por El Inmenso Alopa.
 
