@@ -24,7 +24,7 @@ Bueno, lo que hay es:
 
 - La `lista de películas por ver <http://www.taniquetil.com.ar/facundo/bdvfiles/peliculas.html>`_ (esta sí la voy actualizando!)
 
-- Los slides de una `LT de PyAr <http://www.taniquetil.com.ar/facundo/bdvfiles/pyar.pdf>`_ de hace cuatro años...
+- Los slides de una `LT de PyAr <http://taniquetil.com.ar/homedevel/presents/pyar.odp>`_ de hace cuatro años...
 
 - El análisis de states que hicimos con Nati Bidart del cliente de Ubuntu One (`antes del refactor <http://www.taniquetil.com.ar/facundo/bdvfiles/states-analisis.jpg>`_, y `como quedó <http://www.taniquetil.com.ar/facundo/bdvfiles/states-nuevo.zip>`_).
 
