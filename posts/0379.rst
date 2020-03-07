@@ -16,7 +16,7 @@ Si al programa le pasamos un parámetro, setea la precisión del contexto con es
 
 Lo interesante es que me puse a ver con qué precisión calculábamos el perímetro de la galaxia (sí, de la galaxia), teniendo el radio de la misma, en función de la precisión de Decimal usado. El radio de la galaxia es aproximadamente cien mil años luz (el año luz es la distancia que recorre la luz en un año; teniendo en cuenta que la luz hace casi trescientos mil kilómetros por segundo, un año luz es **mucho**).
 
-Busqué un `algoritmo <http://www.cs.uwaterloo.ca/~alopez-o/math-faq/node38.html>`_, `lo codeé <http://www.taniquetil.com.ar/facundo/pi.py>`_, *usando unas fórmulas derivadas de una teoría de multiplicaciones complejas de curvas elípticas descubiertas por `S. Ramanujan <http://es.wikipedia.org/wiki/Ramanujan>`_, aunque la fórmula usada en particular aquí fue descubierta por los `hermanos Chudnovsky <https://es.wikipedia.org/wiki/Hermanos_Chudnovsky>`_*.
+Busqué un `algoritmo <http://www.cs.uwaterloo.ca/~alopez-o/math-faq/node38.html>`_, `lo codeé <http://www.taniquetil.com.ar/bdvfiles/code/pi.py>`_, *usando unas fórmulas derivadas de una teoría de multiplicaciones complejas de curvas elípticas descubiertas por `S. Ramanujan <http://es.wikipedia.org/wiki/Ramanujan>`_, aunque la fórmula usada en particular aquí fue descubierta por los `hermanos Chudnovsky <https://es.wikipedia.org/wiki/Hermanos_Chudnovsky>`_*.
 
 El programa básicamente calcula pi *muchas veces*. Lo calcula con una pasada, lo calcula con dos, con tres, con N, hasta que al aumentar una pasada, para la precisión dada, no hay diferencia. Tener en cuenta de que esto lo puedo hacer porque tarda poco, :)
 

@@ -20,7 +20,7 @@ Para ser más claro, si queremos ejecutar "la lib de SPDX hecha en Go" desde nue
 Adaptador de Python a C
 -----------------------
 
-El archivo completo es `spdx.c <http://www.taniquetil.com.ar/facundo/pygo/spdx.c>`_, paso a explicarlo haciendo antes la aclaración que es para Python 2 (que es lo que tenemos hoy en ese servicio), pero si fuera para Python 3 sería muy parecido (la idea es la misma, cambian algunos nombres, `revisen acá <https://docs.python.org/3/extending/extending.html>`_).
+El archivo completo es `spdx.c <http://www.taniquetil.com.ar/bdvfiles/code/pygo/spdx.c>`_, paso a explicarlo haciendo antes la aclaración que es para Python 2 (que es lo que tenemos hoy en ese servicio), pero si fuera para Python 3 sería muy parecido (la idea es la misma, cambian algunos nombres, `revisen acá <https://docs.python.org/3/extending/extending.html>`_).
 
 Antes que nada, incluir la lib de Python::
 
@@ -79,7 +79,7 @@ Para terminar con este código, va el inicializador del módulo, con un nombre p
 Adaptador de C a Go
 -------------------
 
-El archivo completo es `spdxlib.go <http://www.taniquetil.com.ar/facundo/pygo/spdxlib.go>`_.
+El archivo completo es `spdxlib.go <http://www.taniquetil.com.ar/bdvfiles/code/pygo/spdxlib.go>`_.
 
 Tenemos que meter el código en un paquete 'main'::
 
