@@ -8,7 +8,7 @@ Esto era porque la empresa que me provee el servicio de hosting (`Dattatec <http
 
 Pero ahora estoy de vuelta, y ahora puedo terminar de armar el post sobre mis cuatro días en Madrid.
 
-Por lo pronto, actualicé la lista de `películas <http://www.taniquetil.com.ar/facundo/bdvfiles/peliculas.html>`_, en la que saqué las que vi y agregué "National treasure", "Snatch" y "Birth".
+Por lo pronto, actualicé la lista de `películas <http://www.taniquetil.com.ar/bdvfiles/peliculas.html>`_, en la que saqué las que vi y agregué "National treasure", "Snatch" y "Birth".
 
 Con respecto a las que vi:
 

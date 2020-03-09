@@ -2,7 +2,7 @@
 .. date: 2005-04-11 12:32:19
 .. tags: películs, SETI, Boinc
 
-Agregué las siguientes películas a la `lista <http://www.taniquetil.com.ar/facundo/bdvfiles/peliculas.html>`_:
+Agregué las siguientes películas a la `lista <http://www.taniquetil.com.ar/bdvfiles/peliculas.html>`_:
 
 - Being Julia
 - Comme une image

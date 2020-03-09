@@ -19,7 +19,7 @@ El punto que quiero resaltar es que toda tecnología no es mala *per se*, sino q
 Película, charlas, bowling y no-rocanrol
 ----------------------------------------
 
-El sábado fui a ver *White noise*: -0.  Agregué *Whisky Romeo Zulu* y *The interpreter* en `mi lista de películas pendientes <http://www.taniquetil.com.ar/facundo/bdvfiles/peliculas.html>`_.
+El sábado fui a ver *White noise*: -0.  Agregué *Whisky Romeo Zulu* y *The interpreter* en `mi lista de películas pendientes <http://www.taniquetil.com.ar/bdvfiles/peliculas.html>`_.
 
 Me aprobaron las charlas del módulo *Money* (en la sección de Negocios) y de *Decimal para principiantes* (en la sección Tutoriales) de `EuroPython 2005 <http://www.europython.org/>`_, así que lo único que me queda al respecto es coordinar el tema de aviones y hotel. Y hacer las presentaciones de ambas charlas, je.
 

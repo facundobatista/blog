@@ -6,7 +6,7 @@ A principios de Marzo hubo una discusión en python-dev sobre parches y bugs que
 
 A partír de esa discusión, yo me pregunté "¿Cómo puedo saber la ubicación temporal de un patch/bug?". ¿Hay muchos patchs/bugs viejos? ¿Esos que son viejos no tienen update o hay toda una discusión con cada uno? ¿Están abandonados?
 
-Para ayudarme con ese análisis, hice una herramienta que a partir de la info en SourceForge arma un cuadro resumen, tanto de los `patchs <http://www.taniquetil.com.ar/facundo/py_patchs.html>`_ como de los `bugs <http://www.taniquetil.com.ar/facundo/py_bugs.html>`_.
+Para ayudarme con ese análisis, hice una herramienta que a partir de la info en SourceForge arma un cuadro resumen, tanto de los `patchs <http://www.taniquetil.com.ar/bdvfiles/py_patchs.html>`_ como de los `bugs <http://www.taniquetil.com.ar/bdvfiles/py_bugs.html>`_.
 
 Agregué ambos enlaces en la barrita de la derecha ( ---> ).
 

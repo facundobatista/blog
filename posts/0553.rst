@@ -22,7 +22,7 @@ Bueno, lo que hay es:
 
 - `Mis libros! <http://www.taniquetil.com.ar/bdvfiles/libros.html>`_ Tengo que actualizar esto... supongo que lo haré cuando traiga las cajas de lo de mi viejo, aunque antes tengo que pegarle una mirada al proceso, tengo un par de ideas que quiero ver si son factibles, ya hablaré de eso acá.
 
-- La `lista de películas por ver <http://www.taniquetil.com.ar/facundo/bdvfiles/peliculas.html>`_ (esta sí la voy actualizando!)
+- La `lista de películas por ver <http://www.taniquetil.com.ar/bdvfiles/peliculas.html>`_ (esta sí la voy actualizando!)
 
 - Los slides de una `LT de PyAr <http://taniquetil.com.ar/homedevel/presents/pyar.odp>`_ de hace cuatro años...
 

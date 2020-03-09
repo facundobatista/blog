@@ -9,7 +9,7 @@
       href: https://www.dropbox.com/s/ph3z1f3etwg40x3/FacundoBatista.pdf?dl=0
       title: Mi hoja de vida en inglés
     - data: Películas
-      href: http://www.taniquetil.com.ar/facundo/bdvfiles/peliculas.html
+      href: http://www.taniquetil.com.ar/bdvfiles/peliculas.html
       title: Películas que *tengo* que ver
     - data: Hielo Rojo
       href: http://www.taniquetil.com.ar/facundo/hr/hr.html
@@ -43,7 +43,7 @@
       href: http://www.taniquetil.com.ar/py/ejercicios/enunciados.html
       title: Algunos ejercicios simples, para aprender
     - data: Tickets Python
-      href: http://www.taniquetil.com.ar/facundo/py_tickets.html
+      href: http://www.taniquetil.com.ar/bdvfiles/py_tickets.html
       title: Resumen de los tickets de Python
 - - Charlas
   - - data: "No es magia: Descriptores al desnudo"

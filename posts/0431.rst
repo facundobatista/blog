@@ -2,7 +2,7 @@
 .. date: 2009-10-15 18:01:23
 .. tags: películas
 
-Bueno... graaaaan actualización de las `pelis para ver <http://www.taniquetil.com.ar/facundo/bdvfiles/peliculas.html>`_ que se me fue juntando y juntando.
+Bueno... graaaaan actualización de las `pelis para ver <http://www.taniquetil.com.ar/bdvfiles/peliculas.html>`_ que se me fue juntando y juntando.
 
 Vistas:
 

@@ -86,7 +86,7 @@ Este es el listado de lo que había antes, y lo que pasó:
 
 - `Curso de Quenya <http://www.uib.no/People/hnohf/qcourse.htm>`_: Curso para aprender a hablar y escribir `Quenya <http://es.wikipedia.org/wiki/Quenya>`_.
 
-- `Películas <http://www.taniquetil.com.ar/facundo/bdvfiles/peliculas.html>`_: Lista de películas que tengo pendientes de ver.
+- `Películas <http://www.taniquetil.com.ar/bdvfiles/peliculas.html>`_: Lista de películas que tengo pendientes de ver.
 
 - CV Castellano e inglés: Los saqué, porque lo que es interesante, no puede ser tan público. Pero si necesitan mi CV, tienen mi contacto en esta misma página...
 
