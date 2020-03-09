@@ -2,7 +2,7 @@
 .. date: 2008-06-05 06:50:07
 .. tags: hielo rojo, planeta, Marte, agua, Phoenix
 
-No, no es una referencia a `mi libro <http://www.taniquetil.com.ar/facundo/hr/hr.html>`_, sino a algo que pasó bastante desapercibido en las noticias (¡obvio! es mucho más importante el partido de Boca-Fluminense...).
+No, no es una referencia a `mi libro <http://www.taniquetil.com.ar/bdvfiles/hr/hr.html>`_, sino a algo que pasó bastante desapercibido en las noticias (¡obvio! es mucho más importante el partido de Boca-Fluminense...).
 
 En Marte, hoy, el agua sólo se encuentra en forma de gas atmosférico y como hielo en los polos. No obstante, hay evidencias geológicas de que hace miles de millones de años fluía en ríos y lagos. Para ayudar a que los científicos puedan comprender qué pasó con ese volumen de agua, de que manera se distribuía por el planeta, y por qué dejó de existir en estado líquido, la NASA envió a un explorador no humano a dicho planeta.
 
