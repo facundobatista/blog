@@ -1,0 +1,14 @@
+.. title: Videos y fotos de la PyCon Argentina 2019 (más bonus track)
+.. date: 2020-03-10 19:55:00
+.. tags: PyCon, Argentina, PyAr, Python, videos, fotos, canal, YouTube
+
+Finalmente tenemos (hace un par de semanas ya) subidos `todos los videos de la PyCon Argentina 2019 <https://www.youtube.com/playlist?list=PLtwHCKHTTq_FCICEtCJkUmI0a4K-8N_IT>`_. 
+
+Pero no sólo eso, ¡también tenemos compartidas todas las fotos! Pasen y vean las del `miércoles <https://photos.google.com/share/AF1QipPVlNriXH8KhbJ6qV2PtFTZ2ydPkgFhsn1XRLlXtGqP_b3mQ5rrv6i6xoAwj1agJw?key=Y2FkUVhXX0RnLWo2c3lHLUVucEgyalNpY3hUZFpR>`_, `jueves <https://photos.google.com/share/AF1QipN-6QsKMT3x_dLT-i1dn0wjwGgcrcSNfr6rR8UH7XmTNvgirdZKmn4uPNTDT6camA?key=eGNkR3h2ckVGcVhfZ0t1Rk56OTNjN0FzeTk3ZEJn>`_, y `viernes <https://photos.google.com/share/AF1QipPLnzfL1IzANGR-6K8-F8sokZcZFJ4El29sWoOS5HUAvoFiI8WoL10If7yRXYd6YQ?key=NWR0bURObi04R0ZSTFpSUTd6VHd4YnFKNjh2LUVR>`_.
+
+.. image:: /images/pyconar2019-logo.png
+    :alt: Cerramos PyCon Argentina 2019
+
+Como bonus track absoluto, una gran noticia: también tenemos subtítulos en las keynotes de la PyCon 2018, que habían sido en inglés: la `charla de Carol Willing <https://www.youtube.com/watch?v=cSWzPXDsgXQ>`_ y la `charla de Brandon Rodhes <https://www.youtube.com/watch?v=pybtvFFRYFs>`_.
+
+Post data: recuerden siempre que `PyAr tiene canal de YouTube <https://www.youtube.com/channel/UCjYLIv07fw21w0uIAtUMnNA/videos>`_, si hay videos que no están ahí (y están en otro lado, claro), me avisan y los vamos linkeando, subiendo, relacionando, incorporando, o lo que corresponda.
