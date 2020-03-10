@@ -1,0 +1,204 @@
+PyCon Argentina 2009, finished!
+===============================
+
+(disclaimer: there's a Spanish version of this mail in my blog [0]... If you
+read Spanish I encourage you to go there because not only it's better written,
+but also images and links are as they should be, not footnotes)
+
+Ok, after so much foreplay and expectations, we finally had PyCon Argentina
+2009, the first Spanish-spoken Python National Conference.
+
+My idea here is not comment how the event was from an end user point of
+view, but try to transmit feelings, thoughts and ideas about the
+organizing/executing side.
+
+(image: http://www.taniquetil.com.ar/facundo/imgs/pyconar09-cierre.jpg)
+
+
+Event Format
+------------
+
+The event was during two days, morning and afternoon, with three tracks in
+parallel most of the time. We used three auditoriums with different
+capacities (the biggest with 300 seats).  Presentations were of the
+following types:
+
+Talks: They happened in the three auditoriums, with national speakers
+mostly, always in Spanish. Also there were some cases with most of one
+speaker, like a panel. The assigned time was 40 minutes, plus 5 of Q&A.
+After each talk, we left 15 minutes for people to go to the bathroom or
+another auditorium.
+
+Lightning Talks: These are 5-minutes talks. Anybody can give one of these
+(people writes their names in a paper during both days), with no
+restrictions in the subjects.  Normally you don't expect too much quality
+of these talks (because they're fast, and tend to be improvised), but
+having 10-12 different subjects in only one hour makes it valuable.  For
+these talks, all people seat in the main auditorium.
+
+Plenaries: We had two plenary talks (in the main auditorium, with all the
+assistant public, the whole hour), that were given by two international
+invitees: Jacob Kaplan-Moss (creator of Django [1], one of the web
+frameworks most widely used in the world), and Collin Winter (Unladen
+Swallow [2] developer, a Google project that promises a Python 5 times
+faster than the actual one).
+
+(image: http://www.taniquetil.com.ar/facundo/imgs/pyconar09-muchagente.jpg)
+
+
+Team Organization
+-----------------
+
+Python Argentina does not have any formal or informal structure, we're
+all peers and each one pushes the project that wants.
+
+In this particular project, I structured the working team according to a
+military hierarchic organization (the same used in the enterprises).
+Basically I was the General Coordinator of the event, had a second person
+of trust (one person that you fully trust, not only about which decisions
+he/she makes, but also how he/she execute them; in this case he was
+Alejandro Cura), a team of about 6-8 people, and a lot of more eventual
+collaborators, with more or less participation (helping in the conference
+days, or in different committees, etc.).
+
+The most important requirement for a successful participation in the
+organization, taking into account that we're all volunteers, is to comply
+with what promised, no matter if the task is big or trivial.  If you
+say "I'll do it", *do it*.
+
+The kind of work that is done throughout the year is very different than
+the work done during the conference days.  During the year the response
+time is a lot lower, you need to take decisions that are influent in the
+long term but can be discussed in several talks or meetings, etc.  During
+the conference days, the decisions are taken and executed at the moment,
+and there's no time to doubt. Generally, the better work done during the
+year, the conference days will be smoother, with less surprises.
+
+(image: http://www.taniquetil.com.ar/facundo/imgs/pyconar09-azules.jpg)
+
+
+Risks
+-----
+
+There are several important tasks that take a lot of time and bring risks to
+the conference organization:
+
+The place where the conference is done, and the services offered there.  In
+our case the conference was hosted in a private University, to whom we payed
+for different concepts (internet, security, sound).  We've been talking with
+them since April about all that was needed, but a lot of stuff happened too
+close to the conference date. In particular, the internet access was
+installed the previous afternoon. Luckily, we had the volunteer service of
+Buenos Aires Libre [3], organization that set up the WiFi access, which
+was excellent.
+
+Printing. Beyond the paper stuff that we printed or photocopied (ads, polls,
+etc), we had three big things to print: the program of the event (a 32 pages
+book, full color), the Python tutorials in Spanish (116 pages book), and
+some Canonical notebooks.  The design of each thing takes a lot of time, and
+also takes time to print them.  I saw in too many conferences the mistake of
+sending everything to print too close to the final date, and always there's
+something that is not ready for the conference.  It's always important to
+speak with the printing people in advance, and involve them in the design,
+to minimize later surprises.
+
+Financial and economical aspects.  Months before the conference we created
+three different budgets, that we'd execute one way or the other according
+to the funds raised later (and based on these budgets we defined the
+sponsors categories).  Luckily we didn't have to knock any door to raise the
+money: all the sponsors were brought by people that is in Python Argentina
+(because they work in (or own) the companies that sponsored the event). There
+are two important points: one is that the budget must be designed in levels,
+to maximize the benefit for the conference if you can not raise all the money;
+the other is that you need to start collecting the money as soon as possible,
+because spending the money (say, execute the budget) is not trivial and takes
+longer than you may think.
+
+Technical infrastructure for the organization.  There are several tools that
+we used for us organizers to work together.  We had a wiki to keep everything
+annotated, a mail list as the main information exchange mechanism, and IRC
+for some non-physical meetings that we had (especially for the talk selection,
+where participated a lot of people that live in other cities).  We also used
+a SVN repository to keep all the files, specially the web site files.  For
+the web site of the event we used pycon-tech [4], a project thought for
+this kind of events.
+
+The team.  This is one of the main risks, because if you don't get a group
+with people that tries to achieve the same goal, that wants to get together
+and work towards a common target, it may happen that the event is not well
+organized just because of the organizers themselves.  It's important to
+understand that in a conference organized by volunteers, it may be people
+that starts in the organization and then quits, or that people may jump
+into the wagon later.  And the team is one of the first things you need to
+define! This is why is critical that the General Coordinator of the event
+to have enough power in the community to have a team assembled and working
+together during all the months that take to prepare the event.
+
+Generally, is recommended to do what you know how to do, and ask help to
+(or hire) specialists in the cases where you don't have the needing knowledge
+or resources.  For example, the event wifi was set up and operated by
+Buenos Aires Libre, the same team that handled the wireless network in
+Wikimania 2009.
+
+After all said, however, you may find that there are problems you can not
+prevent or mitigate: the first day of the conference the electricity went out
+in all the neighbor.  Some talks continued in a dark room for a while, and
+then we all went to have lunch, and lights came two minutes before the
+afternoon session started...
+
+(image: http://www.taniquetil.com.ar/facundo/imgs/pyconar09-remera.jpg)
+
+
+Content
+-------
+
+The content is determined by the plenaries and normal talks, because the
+lightning talks don't go through the decision of the organizing team.
+
+For the international invitees plenaries, normally you choose the invitee
+and give him/her total freedom about what to say. In our case, the selection
+was done together with PyCon Brazil, and it was amazingly well done.
+
+On the other hand, for the normal talks, a Call for Talks is done some
+months in advance, and after the presentation limit date, a committee gets
+together to discuss which talks will be chosen.  This selection is based
+on the talk quality, and in the subjects that need to be represented during
+the conference.
+
+(imagen: http://www.taniquetil.com.ar/facundo/imgs/pyconar09-collinwinter.jpg)
+
+
+Social Aspects
+--------------
+
+One point that you need to take care and pay attention in the conference is
+its social side.  A National Conference is a very good opportunity for
+people to get together, see each other again after some time, exchange
+ideas and knowledge, etc.
+
+The evenings after each day of conference is a good moment for people to
+have dinner or some drinks together, and make this social encounter happen.
+
+In our case, we wanted to make this deeper by organizing an asado [5] on
+the Sunday after the conference, to which all speakers and organizers were
+invited, with their families.  The goal here is to enjoy a relaxed day
+together, eat good meat (or vegetables!), have a glass of wine, talk, play
+some games, etc.
+
+(imagen: http://www.taniquetil.com.ar/facundo/imgs/pyconar09-asado.jpg)
+
+
+[0] http://www.taniquetil.com.ar/plog/post/1/425
+[1] http://www.djangoproject.com/
+[2] http://code.google.com/p/unladen-swallow/
+[3] http://www.buenosaireslibre.org/
+[4] https://pycon.coderanger.net/
+[5] http://en.wikipedia.org/wiki/Asado
+
+
+Author: Facundo Batista
+Blog: http://www.taniquetil.com.ar/plog/
+PyAr: http://www.python.org/ar/
+
+Licence: Creative Commons BY-NC-SA
+         http://creativecommons.org/licenses/by-nc-sa/2.5/deed.en_GB

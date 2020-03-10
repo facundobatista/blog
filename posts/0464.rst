@@ -2,7 +2,7 @@
 .. date: 2010-05-26 19:01:50
 .. tags: pruebas, reporte, Python, tests
 
-*(Note: There's an English version of this report `here <http://www.taniquetil.com.ar/facundo/testing.txt>`_)*
+*(Note: There's an English version of this report `here <http://www.taniquetil.com.ar/bdvfiles/testing.txt>`_)*
 
 Mandé este mail originalmente a la lista interna de Canonical donde discutimos temas técnicos:
 

@@ -26,7 +26,7 @@ Bueno, lo que hay es:
 
 - Los slides de una `LT de PyAr <http://taniquetil.com.ar/homedevel/presents/pyar.odp>`_ de hace cuatro años...
 
-- El análisis de states que hicimos con Nati Bidart del cliente de Ubuntu One (`antes del refactor <http://www.taniquetil.com.ar/facundo/bdvfiles/states-analisis.jpg>`_, y `como quedó <http://www.taniquetil.com.ar/facundo/bdvfiles/states-nuevo.zip>`_).
+- El análisis de states que hicimos con Nati Bidart del cliente de Ubuntu One (`antes del refactor <http://www.taniquetil.com.ar/bdvfiles/states-analisis.jpg>`_, y `como quedó <http://www.taniquetil.com.ar/bdvfiles/states-nuevo.zip>`_).
 
 - Una `presentación sobre telefonía celular <http://www.taniquetil.com.ar/facundo/bdvfiles/telef_celular.zip>`_ que hicimos hace miles de años con el gran Diego Quevedo.
 

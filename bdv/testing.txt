@@ -1,0 +1,205 @@
+(The text in this file is originally in English, there is a translated
+to Spanish version in my blog:
+http://www.taniquetil.com.ar/plog/post/1/464)
+
+
+I sent this mail originally to a Canonical internal list where we
+discuss technical stuff:
+
+"""
+"Testing" is a tricky field in software developing.  It's like stop
+smoking: everybody know it's something good to do, only a few tend to
+do it naturally.
+
+Furthermore, it has many very different faces: unit testing,
+integration testing, GUIs.  Even in GUIs... it's not the same doing
+testing on PyGTK, or in web interfaces.
+
+For example, I am convinced that we *have* to do testing inside a
+software development, that is a very good way to avoid (or minimise)
+technical debt, and that brings not only quality to the product, but
+also characteristics less measurable (like innovation: nobody will
+touch a big project with no tests to try something new).
+
+But, I still have some doubts, and a lot of learn in this field.  Is it
+valuable in all the cases?  Which is the correct balance between unit
+testing and integration testing?  What about GUIs?
+
+And a maybe controversial topic: I know we need to do testing, but
+people in my team don't, help me to convince them!
+
+In any case, it's something to talk about.  We can start the discussion
+here, an then schedule meetings to cover specific topics, once an agenda
+is settled upon.  And maybe we can have a IRL talk in UDS.
+
+I'm pretty sure that "Testing" is applied broadly inside Canonical, and
+we can learn ones from the others.
+
+Thoughts? Concerns? Experiences?
+"""
+
+
+It generated a long, long tree of discussions, with a lot of points that
+everybody agreed on, and a lot that were kind of controversial.
+
+So, after the dust settled down, I wrote a wrap up of the whole
+conversation tree:
+
+
+"""
+This is a kind of conclusions and comments collection from the Testing
+thread of last days.
+
+
+It's better to show advantages of something to people than force them
+to use it.  There are a couple of "easy to see" situations where unit
+test is clearly a winner.  Jamu K. added some good points to what I
+mentioned in the original mail:
+
+- They tell you when you make a mistake and break something.  The
+  sooner you detect a mistake the cheaper it is to fix it.  If a
+  problem makes it to a production system and affects customers it
+  will cost a lot in terms of user satisfaction and time-to-fix.
+
+- They are educational material that helps a newcomer (or an old
+  timer) understand logic in a way that is not possible simply by
+  reading the code itself.  This is especially true when the tests
+  exercise error conditions that may not be obvious from the code
+  itself.
+
+- They help you maintain consistent velocity.  It's much less
+  likely that you'll hit a problem that you lose two days trying
+  to debug and fix when you have good tests.
+
+- They allow you to optimize your implementation with the confidence that
+  you haven't broken API contracts.  "First make it right, then make it
+  fast" is hard enough, even more so without good tests.
+
+- By definition, they make your implementation testable.  They help you
+  understand when you've coupled too many concerns and lead you to
+  better design.
+
+Some advantages are more conceptual: very clear to people who already
+tried unit testing, but not so easy to see to people that actually never
+did it.  One example of this is that designing for testability often
+leads to a better API (however, sometimes it leads to uglier APIs
+because you're forced to add arguments that are only useful in the
+testing environment; as in everything, balance is the best of advices).
+
+A good phrase from the thread that I like as reason to do testing:
+
+    This code you're writing will be used for years.  It will be updated
+    for changing requirements.  And from time to time, someone who isn't
+    as familiar with it as you are now will be in a hurry to fix a bug
+    in it.  What reasonable provisions can you make to help that person?
+    Give it a minute's thought.  Remember, that person may well be you.
+
+What about drawbacks?  One objection people raise is that if they do
+tests, they take longer to write the code.  However, it seems that
+testing doesn't really change the *total* amount of time it takes to
+develop software, only changes when you pay that cost.  Yes, for tested
+software, your initial beta is much more complete and better tested, but
+it turns up much later in the cycle, which may be a problem if later you
+can not deliver the code to the user.
+
+In all the thread, it was mentioned only one real drawback of TDD: it can
+happen sometimes that instead of really deeply thinking some detail in your
+code, you just fiddle until the test succeeds: this might lead to code
+which is less well thought out than it could be, since you program against
+a green light, not against a clean mental model.
+
+We need to make clear that there's nothing wrong with not doing TDD, but it
+yields a very different result from doing proper TDD, and the results are
+arguably worse when not doing TDD.  Is having bad results ok?  In some
+environments, I bet it is; however in Canonical we want to deliver the best.
+Jamu said it very clear: if you're writing production code that is untested
+you're not doing your job properly. Mark S. reinforced that with:
+
+    We *should* require tests for code we're responsible for, and the
+    exceptions to that (there will be exceptions) need to be justified and
+    documented, not the other way around.
+
+    Testing is a culture thing, so we need to figure out how to grow it
+    culturally: hire people who already understand and *act* on that
+    understanding, and train folks who don't yet have confidence in it.
+
+
+
+There was a lot of talking around testing, but nobody separated which kind
+of testing it was.  It seems that unit testing and integration testing, or
+testing libraries or GUIs, all are the same when discussing the subject.
+
+However, somebody asked specifically about GUI testing.  I really don't
+know about it (want to learn!), but I think that is a subject really less
+known than "library testing".
+
+Also it was mentioned a testing type that is rarely mentioned outside
+sysadmin circles: when handing over a service to be monitored/looked
+after, a way of being able to frequently and repeatedly poll that service
+such that we can get a mix of comprehensive "is this working?" tests is
+vital.  So, you  need some business process/rules testing for live
+systems.
+
+
+
+There was a little of discussion about doc testing: Doctests are good
+learning material for libraries, and can be written to show functionality
+and guide users at a high-level.  They can be good at painting the big
+picture.
+
+Well written doctests for API documentation are excelent, because you
+can make the test suite to run them, so you're sure the documentation
+doesn't go out of sync.  You're testing the documentation, not using
+the doctests to test anything.
+
+It was clear that doctests don't replace unittests, they compliment them.
+
+
+
+Then biggest discussion in the thread was about if TDD was useful in
+experimental code, or at very early development stages.  There was the
+assertion that TDD works much better with mature code bases than with
+experimental code.  This translates also to experimental features within
+mature projects.  Basically it boils down to this: if you have a good
+vision of what you need, writing the tests first help lay down markers
+along the path you are going to take.  If you don't even have a good
+idea of the direction you're heading it, TDD is wasted effort.
+
+This generated some controversy, until it was explained that
+"experimentation" isn't the right word: you're in a learning phase here
+because you're actually trying to better understand the problem.  Once
+you've understood the problem well enough to have a vision for the
+solution, you're back to TDD.  It's really two different activities.
+
+This normally happens when people writing the code, in "experimentation
+mode", just wants to see if a crazy idea is going to work or not, which
+results sometimes in discovering that they don't fully understand the
+problem.
+
+OTOH, there is the situation where code is needed in production, and
+really is no time to make tests.  Yes, we know, it will be buggy, and
+in the long run it's more expensive, but "we need it right now".  This
+happens IRL more than I feel comfortable to... Gustavo N. said something
+that I share completely:
+
+    If you are in a startup on a life or death situation (for the
+    company), sure... you can opt to go really quickly, get a lot of
+    market, and then stabilize if it turns out to work alright (see
+    Twitter :-).  If you are part of a larger context (as we are), and
+    your product isn't going away any time soon, nor is the company which
+    has a branding associated with the product, than these break ups may
+    be doing real damage to the product and to the brand.
+
+
+
+So, as a conclusion, please share about testing in this list.  Concerns,
+ideas, ask for technologies, if you should do or not something, etc.;
+this is not a subject where everything is black or white, or where
+everything is said.
+
+If with time we find that is necessary a meeting to discuss something (or
+even a regular group), we can go for it.  Meanwhile, let's talk
+through here.
+"""
+
+Facundo Batista, 2010

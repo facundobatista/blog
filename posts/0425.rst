@@ -2,7 +2,7 @@
 .. date: 2009-09-11 02:53:24
 .. tags: PyCon, Python, conferencia
 
-*(Note: There's an English version of this report `here <http://www.taniquetil.com.ar/facundo/pyconar09_report.txt>`_)*
+*(Note: There's an English version of this report `here <http://www.taniquetil.com.ar/bdvfiles/pyconar09_report.txt>`_)*
 
 Bueno, luego de tanto juego previo y expectativas, finalmente tuvimos PyCon Argentina 2009, la primer conferencia de Python a nivel nacional, en castellano, del mundo.
 

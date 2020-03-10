@@ -14,4 +14,4 @@ Como vieron, es densa, espesa, con muchas imágenes en poco tiempo, y me empezó
 
 Agarré entonces la intro, la separé en cuadros, y extraje una (y solamente una) imagen por cada secuencia de video (algunas secuencias duran un par de segundos, otras medio segundo, etc.).
 
-El resultado me gustó tanto que `las guardé y las pueden ver acá <http://www.taniquetil.com.ar/facundo/bdvfiles/trueblood/>`_.
+El resultado me gustó tanto que `las guardé y las pueden ver acá <http://www.taniquetil.com.ar/bdvfiles/trueblood/>`_.
