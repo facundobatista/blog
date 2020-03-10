@@ -8,8 +8,8 @@ El `primer relato <https://www.python.org.ar/wiki/Eventos/Reuniones/2006/Reunion
 
 .. image:: /images/uff/533411999_d2218bb1bc_o.jpg
 
-El segundo relato (EDITADO: `la url no existe más <http://www.ceportela.com.ar/como-se-hizo-la-i-jornada-python-en-santa-fe/>`_) es de Cesar Portela, uno de los organizadores, y está contado desde el punto de vista puramente de organizador. Si alguna vez tienen que organizar algún evento, ¡no dejen de leerlo!
+El segundo relato (EDITADO: `la url no existe más <http://www.ceportela.com.ar/como-se-hizo-la-i-jornada-python-en-santa-fe/>`__) es de Cesar Portela, uno de los organizadores, y está contado desde el punto de vista puramente de organizador. Si alguna vez tienen que organizar algún evento, ¡no dejen de leerlo!
 
 .. image:: /images/uff/533412029_fe679a9b1c_o.jpg
 
-Las fotos que les dejo acá están tomadas prestadas del sitio donde están todas las fotos sacadas, aquí (EDITADO: `la url no existe más <http://www.lugli.org.ar/mediawiki/index.php/Fotos_1%C2%BA_Jornada_Python_en_Santa_Fe>`_).
+Las fotos que les dejo acá están tomadas prestadas del sitio donde están todas las fotos sacadas, aquí (EDITADO: `la url no existe más <http://www.lugli.org.ar/mediawiki/index.php/Fotos_1%C2%BA_Jornada_Python_en_Santa_Fe>`__).
