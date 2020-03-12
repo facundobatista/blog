@@ -5,7 +5,7 @@
 Día 1
 -----
 
-La edición 2007 de CaFeConf arrancó al mediodía, pero muchas personas llegaron antes: no sólo los organizadores, sino también aquellos que teníamos que armar los stands. `Python Argentina <https://www.python.org.ar>`_ tenía uno, y este año aparte de colgar nuestra querida bandera teníamos también una `cartelera de trabajo <https://www.python.org.ar/trabajo/>`_ que presentar.
+La edición 2007 de CaFeConf arrancó al mediodía, pero muchas personas llegaron antes: no sólo los organizadores, sino también aquellos que teníamos que armar los stands. `Python Argentina <http://www.python.org.ar>`_ tenía uno, y este año aparte de colgar nuestra querida bandera teníamos también una `cartelera de trabajo <http://www.python.org.ar/trabajo/>`_ que presentar.
 
 .. image:: /images/cafeconf07/pyar.jpeg
 
@@ -31,7 +31,7 @@ Esta charla era bastante esperada, porque desde hace un mes o mes y medio que ve
 
 La charla salió muy bien, y una prueba de ello es que las preguntas luego de la charla no atacaron los resultados ni conclusiones: estuvo todo muy bien justificado y probado, y la concepción de que *"si en lugar de programar en Python, escribís en C, muchas veces (no siempre, pero muchas), estás haciendo optimización prematura"* fue una conclusión aceptada. La charla, junto con los programas que hicimos, `aquí <http://www.taniquetil.com.ar/homedevel/presents/pyrapidc/>`_.
 
-Luego, a comer. Al volver, estuve un rato en el stand de PyAr y marché a un muy buen taller de `Federico Heinz <http://federratas.codigolibre.net/>`_ sobre Activismo. Se hablaron de muchas cosas interesantes, como cultura, política, software como construcción de la identidad de grupos, cómo llegar a que el estado no nos coarte libertades, etc...
+Luego, a comer. Al volver, estuve un rato en el stand de PyAr y marché a un muy buen taller de `Federico Heinz <https://www.linkedin.com/in/fedeheinz/>`_ sobre Activismo. Se hablaron de muchas cosas interesantes, como cultura, política, software como construcción de la identidad de grupos, cómo llegar a que el estado no nos coarte libertades, etc...
 
 Salimos unos minutos tarde del lugar, y con Moni decidimos ir a tomar un café. Ya cerca de las seis bajamos y nos aprontamos para el Cierre, que estaba a punto de comenzar en el Aula Magna.
 

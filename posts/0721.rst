@@ -9,7 +9,7 @@ Yo dí una charla, `Bindings, mutable default arguments, y otros quilom... detal
 .. image:: /images/pyconar16/pydetalles.jpeg
     :alt: Mi charla, renovada
 
-Las keynotes estuvieron muy bien, también. `Fernando Schapachnik <http://lafhis.dc.uba.ar/en/~fpscha>`_, de la `Fundación Sadosky <http://www.fundacionsadosky.org.ar/>`_ nos habló del problema de género en las comunidades informáticas (con datos, análisis, y una arenga política al final que estuvo bárbara). `Ángel Medinilla <http://www.proyectalis.com/angelmedinilla/>`_ nos dio una charla-show-standup sobre metodologías ágiles (excelente presentación). Y la última fue de `Victoria Martínez de la Cruz <https://twitter.com/vkmc>`_, contando las ventajas y desventajas de trabajar de forma remota (algo que se está imponiendo más y más en las comunidades de software y que está lleno de mitos, así que era muy necesaria).
+Las keynotes estuvieron muy bien, también. `Fernando Schapachnik <http://www.fundacionsadosky.org.ar/?team=fernando-schapachnik>`_, de la `Fundación Sadosky <http://www.fundacionsadosky.org.ar/>`_ nos habló del problema de género en las comunidades informáticas (con datos, análisis, y una arenga política al final que estuvo bárbara). `Ángel Medinilla <http://www.proyectalis.com/angelmedinilla/>`_ nos dio una charla-show-standup sobre metodologías ágiles (excelente presentación). Y la última fue de `Victoria Martínez de la Cruz <https://twitter.com/vkmc>`_, contando las ventajas y desventajas de trabajar de forma remota (algo que se está imponiendo más y más en las comunidades de software y que está lleno de mitos, así que era muy necesaria).
 
 La organización del evento también estuvo impecable. Se nota que laburaron un montón y salió todo muy bien.
 

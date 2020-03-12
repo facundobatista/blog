@@ -2,7 +2,7 @@
 .. date: 2010-07-16 17:13:42
 .. tags: charlas, tribu, Python
 
-`Python Argentina <https://www.python.org.ar/>`_ y `Colectivo La Tribu <http://fmlatribu.com/>`_ se enorgullecen en presentar el Ciclo 2010 de Charlas Abiertas de Python.
+`Python Argentina <http://www.python.org.ar/>`_ y `Colectivo La Tribu <http://fmlatribu.com/>`_ se enorgullecen en presentar el Ciclo 2010 de Charlas Abiertas de Python.
 
 Distribuidas a lo largo de varios sábados del segundo semestre del año, cubren temas desde lo más principiante a temas muy avanzados, cerrando incluso con un taller.
 

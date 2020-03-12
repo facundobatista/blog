@@ -10,7 +10,7 @@ La conferencia propiamente dicha arrancó el viernes a la mañana; luego de una 
 
 Almorzamos en un lugar cercano, algo liviano, y estuve un rato en otra plenaria que no me interesaba demasiado, luego un rato afuera charlando, y justo antes del break de la tarde di mi clásica "Entendiendo Unicode"... es que el público se renueva, ¿viste?
 
-Después del break, `Lightning Talks! <http://www.juanjoconti.com.ar/2011/09/23/lighting-talks-en-pyconar-2011/>`_ Siempre están buenas! Gracias a Manu Quiñones me enteré de la existencia de `MyPaint <http://mypaint.org/about/>`_, que está buenísimo, y yo por mi parte mostré un truquito interesante para hacer ejecutables Python, que ya `mostré acá </posts/0531>`_. Para cerrar el primer día de conferencia, hubo una plenaria sobre PyPy que estuvo buena, por Maciej Fijalkowski.
+Después del break, Lightning Talks! (EDITADO: `la url no existe más <http://www.juanjoconti.com.ar/2011/09/23/lighting-talks-en-pyconar-2011/>`__). Siempre están buenas! Gracias a Manu Quiñones me enteré de la existencia de `MyPaint <http://mypaint.org/about/>`_, que está buenísimo, y yo por mi parte mostré un truquito interesante para hacer ejecutables Python, que ya `mostré acá </posts/0531>`_. Para cerrar el primer día de conferencia, hubo una plenaria sobre PyPy que estuvo buena, por Maciej Fijalkowski.
 
 Ni bien terminó todo, Nico César me pidió la revancha de unos partidos de pool que le había ganado el año pasado, y salimos corriendo a jugarnos unas fichas... pero estaba cerrado! Abría recién a las ocho y media, pero a esa hora ya íbamos a estar cenando, así que apuntamos directamente a donde nos íbamos a encontrar con la gente a comer.
 
@@ -28,7 +28,7 @@ Al otro día, dí mi segunda y última charla en el primer slot, "Python más r�
 
 Ni bien terminó la charla nos fuimos todos corriendo a una plaza en la esquina de la universidad a sacarnos una foto grupal, y luego a almorzar... donde nos demoramos apena más de lo que debíamos y terminamos llegando a la plenaria de Wesley Chun (sobre Python 3) un poco tarde.
 
-Lo mejor de la tarde fueron una charla sobre Python en Android por Tatiana Al-Chueyr, otra tanda de `Lightning Talks <http://www.juanjoconti.com.ar/2011/09/24/lighting-talks-en-pyconar-2011-dia-2/>`_, y la última plenaria: el chairman de la Python Software Foundation, Steve Holden, hablándonos de la PSF, historia, comunidad, e incluso diversidad dentro de la misma.
+Lo mejor de la tarde fueron una charla sobre Python en Android por Tatiana Al-Chueyr, otra tanda de Lightning Talks (EDITADO: `la url no existe más <http://www.juanjoconti.com.ar/2011/09/24/lighting-talks-en-pyconar-2011-dia-2/>`__), y la última plenaria: el chairman de la Python Software Foundation, Steve Holden, hablándonos de la PSF, historia, comunidad, e incluso diversidad dentro de la misma.
 
 Y el cierre! Unas palabras de los organizadores, regalos para los asistentes, para los disertantes, y todos para casa. Bueno, no para casa... había una cena para disertantes, y luego nos fuimos nuevamente a jugar unos pools al bar de enfrente del hotel.
 

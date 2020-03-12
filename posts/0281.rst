@@ -6,7 +6,7 @@ Debido a la hora en que nos acostamos la noche anterior, esta vez no me animé a
 
 Me levanté y bañé, lo desperté a Lucio, y luego de terminar de prepararnos bajamos y desayunamos. Al rato partimos para la Universidad, donde no llegamos demasiado temprano, pero sí lo suficiente para la charla que queríamos ver: la de PyWeek de Alecu y Daniel.
 
-De ahí me fui a una charla de la `Universitat Oberta de Catalunya <http://www.uoc.es/web/esp/index.html>`_, que están promocionando un `Master en Software Libre <http://www.uoc.edu/masters/oficiales/master_oficial_software_libre/master_oficial_software_libre_plan.htm>`_, el cual es bastante interesante, le voy a pegar una mirada con más detalle. Una característica importante del master es que es totalmente a distancia. Es caro, principalmente porque está en euros, pero como uno no tiene que viajar, es solamente el costo del mismo.
+De ahí me fui a una charla de la `Universitat Oberta de Catalunya <http://www.uoc.es/web/esp/index.html>`_, que están promocionando un `Master en Software Libre <https://www.uoc.edu/portal/es/qualitat/qualitat-titulacions/avaluacio-titulacions/informatica-multimedia-telecomunicacions/mu-programari-lliure-ext/index.html>`_, el cual es bastante interesante, le voy a pegar una mirada con más detalle. Una característica importante del master es que es totalmente a distancia. Es caro, principalmente porque está en euros, pero como uno no tiene que viajar, es solamente el costo del mismo.
 
 Luego de comer (lamentablemente no en el Comedor de la Universidad porque cierran los sábados), seguimos trabajando un rato y luego partí para la charla de Alecu y Dave de OLPC.
 

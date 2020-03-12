@@ -8,7 +8,7 @@ Empezó con la idea de tirar 10, pero parece que se entusiasmó y nos regaló m�
 
 Están tan buenos que decidí juntarlos para pasárselos a gente que no use Twitter, y ahí me di cuenta que mejor si los colgaba acá así quedaban "para la posteridad", ordenaditos y de fácil revisión/impresión, o para buscar alguna cosa puntual cuando querramos refrescar algún concepto.
 
-Así que armé `esta página <http://www.taniquetil.com.ar/facundo/bdvfiles/los100deNarda.html>`_, pasen y vean.
+Así que armé `esta página <http://www.taniquetil.com.ar/bdvfiles/los100deNarda.html>`_, pasen y vean.
 
 Claro que no los fui copiando uno por uno, sino que me hice un pequeñito `script de Python <http://www.taniquetil.com.ar/homedevel/devel/twitter_retrieve.py>`_ (adaptado de otro similar que ya tenía) que me baja todos los tweets de una persona (hasta una determinada cantidad y/o un determinado tweet), con timestamp, link al tweet original, etc.
 

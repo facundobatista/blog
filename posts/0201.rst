@@ -7,7 +7,7 @@ Haz lo que quiero, y no me molestes
 
 Secuencia que pasó el otro día y me motivó a escribir esto:
 
-- Meto el CD virgen en la laptop, donde estoy usando `Ubuntu <http://www.ubuntu.com/>`_ Dapper Drake, con `Gnome <http://www.es.gnome.org/>`_ 2.14
+- Meto el CD virgen en la laptop, donde estoy usando `Ubuntu <http://www.ubuntu.com/>`_ Dapper Drake, con `Gnome <https://www.gnome.org/>`_ 2.14
 - Me sale un cartel, diciendo "Ha insertado un CD virgen, ¿qué quiere hacer?", o algo así, ofreciendo ignorarlo, escribir un cd de datos, o uno de música.
 - Elijo música, y me abre una ventanita con la que elegí los mp3 que quería grabar, de forma muy fácil, y le dije que grabe.
 - Grabó el CD, mientras me mostraba el avance en una ventanita y me contaba lo que iba haciendo. Igual yo lo dejé y me fui. Volví a los 3 minutos, y me decía que había grabado el CD satisfactoriamente, y ya incluso había abierto la compactera.

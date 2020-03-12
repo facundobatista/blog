@@ -11,4 +11,4 @@ En función del incremento de tráfico que tuvo la lista de Python Argentina en 
 .. image:: /images/gmane-ult200d.png
     :alt: Ambas listas comparadas
 
-Por último, ¡hoy hay `reunión de PyAr <https://www.python.org.ar/wiki/Eventos/Reuniones/ProximaReunion>`_! ¡Fiesta! :)
+Por último, ¡hoy hay `reunión de PyAr <http://www.python.org.ar/wiki/Eventos/Reuniones/ProximaReunion>`_! ¡Fiesta! :)

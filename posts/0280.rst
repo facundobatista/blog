@@ -10,7 +10,7 @@ No había mucho interesante a la mañana, así que estuve en general aprendiendo
 
 Me gustó mucho una metodología que usó Lucio: presentaba algunas conclusiones citando personas conocidas en el ambiente, lo cual expresa algo de varias maneras, y al mismo tiempo le da fuerza a esas aseveraciones.
 
-De ahí, con Lucio casi directamente nos fuimos a comer, al comedor universitario, con Daniel y Ra. Y luego estuve más que nada ocupado con producir unos folletos que queríamos dejar en el stand para que la gente se lleve. Por suerte, César Portela escuchó cuando Lucio me comentaba esta idea, y cuando volvimos de comer ya tenía listo el `folleto <https://www.python.org.ar/wiki/Material>`_, :)
+De ahí, con Lucio casi directamente nos fuimos a comer, al comedor universitario, con Daniel y Ra. Y luego estuve más que nada ocupado con producir unos folletos que queríamos dejar en el stand para que la gente se lleve. Por suerte, César Portela escuchó cuando Lucio me comentaba esta idea, y cuando volvimos de comer ya tenía listo el `folleto <http://www.python.org.ar/wiki/Material>`_, :)
 
 Conseguir una impresora para llevarlo a papel no fue tan fácil, pero con la ayuda de Daniel Moisset logramos encontrar a alguien en la Universidad que nos dió esa mano, y ya cuando entré en la primer charla de la tarde que me pareció interesante: *Qué es lo que tu cliente quiere*.
 

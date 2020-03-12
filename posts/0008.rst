@@ -54,4 +54,4 @@ Y aquí es donde paga no pensar como "variables clásicas": en la primer linea N
 
 Cuando volvemos al cuerpo principal de la función encontramos que el objeto al que apunta "c" sigue estando igual (nunca se modificó), y el objeto al que apuntamos con el nombre "b" sí sufrió una modificación.
 
-Hay un excelente `artículo <https://groups.google.com/d/msg/comp.lang.python/trPUxIWxVnA/RiqXEo3pIYkJ>`_ de Alex Martelli sobre este asunto, gentilmente `traducido <http://blog.foffani.org/2007/04/cmo-pensar-como-un-pythonista.html>`_ por Hernán Martínez Foffani.
+Hay un excelente `artículo <https://groups.google.com/d/msg/comp.lang.python/trPUxIWxVnA/RiqXEo3pIYkJ>`_ de Alex Martelli sobre este asunto, gentilmente `traducido <https://foffani.org/2002/04/30/como_pensar_como_un_pythonista.html>`_ por Hernán Martínez Foffani.

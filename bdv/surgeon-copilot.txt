@@ -1,0 +1,191 @@
+The Surgeon-Copilot Experiment
+==============================
+
+(disclaimer: there's a Spanish version of this mail in my blog...
+
+  https://blog.taniquetil.com.ar/posts/0466/
+
+If you read Spanish I encourage you to go there because not only
+it's better written, but also images and links)
+
+The last few months in the Ubuntu One Foundations team we have been
+experimenting with the surgeon-copilot methodology.
+
+What is the surgeon-copilot stuff?  This comes from a 1970's book,
+The Mythical Man Month, where Frederick Brooks describes a provocative
+pattern (first proposed by Harlan Mills) for a 10-person development
+team.  In this book, Brooks tried to address the fact that large
+software projects cannot possibly be written by one man or by a single
+small team, so the proposed notion is to split the project into
+small-team sized chunks, with an eye on optimizing both the inter-
+and intra-team communications.
+
+In the book, the proposed organization is to put a Surgeon developer,
+surrounded with a large team of helpers.  Nowadays the developing
+environment is other; we have tools like high level languages, and
+software repositories, and code versioning, etc.  We surely don't
+need somebody to classify our punched cards, :)
+
+However, this is a concept that we can use today, but shrinking the
+large team to two persons only: the surgeon, and the copilot.  From the
+book...
+
+   "(the copilot) is the alter ego of the surgeon, able to do any part
+   of the job, but is less experienced.  His main function is to share
+   in the design as a thinker/discussant, and evaluator.  The surgeon
+   tries ideas on him, but is not bound by his advice.  The copilot
+   often represents his team in discussions of function and interface
+   with other teams.  He knows all the code intimately.  He researches
+   alternative design strategies."
+
+
+Our Experience
+--------------
+
+This experiment was worthwhile for us, as it generated a two-team that
+when executing the experiment proved to be more efficient than the two
+persons alone.
+
+Some of the cases where that was very noticeable during the experiment
+was when discussing new features or bugs, the surgeon (having a deeper
+understanding of all the system) was able to easily foresee situations,
+how the feature could be designed, how the bug could be solved, etc.
+Then the surgeon will discuss that with the copilot, needing to explain
+the reasoning enough to be understood (but to somebody already with
+experience in the system), so this provoked some good side effects:
+
+- Having to put the reasoning in words makes it clearer for both surgeon
+   and copilot; however this is not really an overhead, as both people
+   know the system and this makes the knowledge transfer easier.
+
+- Possible flaws in the reasoning are discovered early, and also new and
+   fresh ideas from the copilot could be integrated at this point.
+
+- After the copilot understand the big picture, he/she can help the
+   surgeon to implement it (or directly implement the whole thing,
+   freeing the surgeon for other tasks).
+
+I want to make clear that this does not imply that the copilot depends
+always from the surgeon for the daily work.  Normally the copilot will
+work creatively and bringing new ideas and knowledge to the team;
+however discussing this new information with the surgeon, in order to
+integrate it better to the current system, makes these contributions
+more efficient.
+
+This is very related to other interesting benefit of the
+surgeon/copilot dynamic duo: couching.  When the copilot is new to the
+team and to the system, having a couch that knows exactly the
+improvements he/she is doing in getting up to speed, reviewing and
+guiding the work, makes the startup process easier and more enjoyable
+(which is translated to more efficiency and better outputs).
+
+Furthermore, this highly coupled team is specially good to attack
+complex problems.  This is mainly due just to having four eyes instead
+of two, but with the advantage that both people has a low impedance
+between them.  However being unambiguous about who is responsible for
+making the decisions is a very good thing in the interaction between
+the team and external players (boss, technical leader, users): it is
+clear that the surgeon is responsible for getting these decisions made,
+one way or another.
+
+Other advantage of forming a surgeon/copilot pair is that if the team
+proved to be successful (that depends of a lot of other factors beyond
+this configuration, we are humans, mostly) is that this team can be
+kept in the future, knowing that those two people working together are
+good for certain tasks, and used that way (which fits nicely with the
+lean concept of assigning work to teams, not people to tasks).
+
+
+Real Case
+---------
+
+I want to explain one of the cases where we worked as surgeon/copilot
+during these months, just as an illustration that may help to understand
+the previous concepts better.
+
+This was one of the biggest issues found in the Ubuntu One Syncdaemon
+after the Karmic release, generating zillion of bug reports from the
+users: the Syncdaemon States.  It was a piece of code that started
+small and grew organically when we were learning what it should do to
+handle all the Syncdaemon complexities.  At the end, it was a large
+module, built in a way that didn't allow real testing and tough to read
+and understand, that generated a lot of visible problems (normally,
+getting the Syncdaemon stuck and not working anymore until a restart).
+
+The goal for the team was simply: "Fix it".  However a simple analysis
+proved that it needed to be rewritten from scratch, and the replacement
+should be literally bug free (we couldn't afford to waste two months
+finding corner cases of the new code being so close to Lucid).
+
+The "fix States" quest was executed in several well defined steps.
+
+- Analysis: Here we studied the previous code, finding explicit and
+   implicit cases that it handled. We defined what we needed to change,
+   and what we needed to rewrite again (notably, we found here something
+   unexpected: we needed to redo how Syncdaemon managed the network
+   connections through Twisted).
+
+   In this stage, having a highly coupled team worked very, very good.
+   The same task couldn't be done as efficiently as has be done if there
+   was only one person, or if a bigger team was involved in the deep
+   discussions.  Note that this work has been done face to face during
+   an sprint (hardly could be done remotely with the same result).
+
+- Design: Also during the sprint we designed a new model for the beast,
+   we tried to simplify and generalize it, we discussed all this with
+   previous author(s) of the module.
+
+   Having a surgeon in this phase with more experience, mixed with the
+   new ideas from the copilot made a good design as result, simple and
+   powerful.  Only one person or two working separately could not have
+   designed the new States as clean as it happened in this case.
+
+- Implementation: this was done fully in parallel, and remotely, in
+   the weeks following the sprints.  However they also included long
+   phone calls where specific details or new ideas were discussed.
+
+   This was another stage where we noticed that the team had the ideal
+   size: only a pair of eyeballs surely would have missed some of the
+   most complicated details, and more people could have not worked in
+   parallel in the same implementation as two persons did.
+
+- Deployment: not a step really, as it was smoothly and painless, it
+   was just matter of committing to trunk and doing a close follow up.
+
+The result of this experience was very successful: we replaced
+something that was very painful for users and developers in favor
+of something that was invisible after the deployment: it worked so
+well that nobody noticed it anymore.
+
+
+Conclusions
+-----------
+
+I'm very happy with the result of this experiment, and with the goals
+we achieved while doing it.  The produced work during those months,
+specially in view of Lucid, is great.
+
+However, is way more valuable to find two persons that work so well
+together, even if there's no experience difference between them to
+match the surgeon/copilot structure.  Not always having a two
+developers team produces more than the two developers separately, so
+when you found it is a good idea to keep it.
+
+I would recommend to do similar experiments across Canonical, specially
+as a couching opportunity for people that just got into the company, or
+when doing rotation between teams.  In these cases, having a couch that
+is at least more experienced in the work the department is doing, helps
+a lot for the arriving developer, and at the end enhances the
+throughput of the whole team.
+
+Regards,
+
+
+
+Author: Facundo Batista
+Blog: http://www.taniquetil.com.ar/plog/
+PyAr: http://www.python.org/ar/
+
+Licence: Creative Commons BY-NC-SA
+http://creativecommons.org/licenses/by-nc-sa/2.5/deed.en_GB
+

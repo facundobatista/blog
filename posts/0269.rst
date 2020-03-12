@@ -14,7 +14,7 @@ Este es el listado de lo que había antes, y lo que pasó:
 
 **Frecuentes**
 
-- `Python Argentina <https://www.python.org.ar>`_: Casi siempre que la nombro, la linkeo.
+- `Python Argentina <http://www.python.org.ar>`_: Casi siempre que la nombro, la linkeo.
 
 - `Daily Python-URL <http://www.pythonware.com/daily/>`_: Antes lo leía bastante, pero luego empezaron a poner 400 links por día (de los cuales 399 siempre aparecían en otro lado), así que dejé de leerlo. Acabo de entrar, y hay menos información, supongo que mejor seleccionada. Lo agregué a `mi cliente RSS <https://sourceforge.net/projects/liferea/>`_, veremos como evoluciona esto...
 
@@ -36,7 +36,7 @@ Este es el listado de lo que había antes, y lo que pasó:
 
 **Linux**
 
-- `Multimedia en Fedora <http://tldp.org/HOWTO/Fedora-Multimedia-Installation-HOWTO/>`_: No uso más Fedora, ahora soy un chico `Ubuntu <http://www.ubuntu.net/>`_.
+- `Multimedia en Fedora <http://tldp.org/HOWTO/Fedora-Multimedia-Installation-HOWTO/>`_: No uso más Fedora, ahora soy un chico `Ubuntu <https://ubuntu.com/>`_.
 
 - `DNS HowTo <http://www.faqs.org/docs/Linux-HOWTO/DNS-HOWTO.html>`_: Este tipo de artículos es el que linkearía cuando lo menciono en un post.
 
@@ -96,7 +96,7 @@ Este es el listado de lo que había antes, y lo que pasó:
 
 - `El Gordo en Colombia <http://www.taniquetil.com.ar/bdvfiles/egec.html>`_: Fantástico relato fantástico (primer cuento entregado por SMS), por El Inmenso Alopa.
 
-También le agregué, casi abajo de todo, la `licencia bajo la cual publico <http://creativecommons.org/licenses/by-nc-sa/3.0/deed.es_AR>`_ **todo** el contenido del sitio (a menos que en algún lado puntual se especifique lo contrario).
+También le agregué, casi abajo de todo, la `licencia bajo la cual publico <https://creativecommons.org/licenses/by-nc-sa/3.0/deed.es_AR>`_ **todo** el contenido del sitio (a menos que en algún lado puntual se especifique lo contrario).
 
 La licencia es una Creative Commons típica, bajo la cual son libres de copiar, distribuir y exhibir la obra, e incluso hacer obras derivadas, pero siempre teniendo en cuenta de que tienen que atribuirme la obra original, y que si distribuyen algo que incluye este material, deberán distribuirlo bajo esta misma licencia. Es importante notar que no pueden usar esta obra con fines comerciales. Para mayor detalle, vayan a la página de la licencia...
 

@@ -1,4 +1,4 @@
-.. title: Cuatro noches cuatro
+.. ttle: Cuatro noches cuatro
 .. date: 2006-02-05 12:46:04
 .. tags: record, reunión, PyAr, magia, rocanrol, Percanta, pool, cerveza
 
@@ -10,7 +10,7 @@ Así y todo me doy cuenta de que lo disfruto, sino no estaría acá en lugar de 
 Miércoles: Record
 -----------------
 
-`Decimotercera reunión <https://www.python.org.ar/wiki/Eventos/Reuniones/2006/Reunion13>`_ de Python Argentina. Llegamos nuevamente a nuestro record de asistencia, 13 personas (je, igual que el número de reunión). ¡Incluso hasta hubo una mujer! (je, que se escondió para la foto)
+`Decimotercera reunión <http://www.python.org.ar/wiki/Eventos/Reuniones/2006/Reunion13>`_ de Python Argentina. Llegamos nuevamente a nuestro record de asistencia, 13 personas (je, igual que el número de reunión). ¡Incluso hasta hubo una mujer! (je, que se escondió para la foto)
 
 .. image:: /images/uff/530311991_195f2cdc44_o.jpg
 

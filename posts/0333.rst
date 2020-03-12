@@ -4,7 +4,7 @@
 
 El miércoles pasado tuvimos la reunión nro 26 de PyAr. Aprovecho que hice la minuta (gracias Achuni por las anotaciones tomadas), y la reproduzco acá.
 
-Tuvimos un nuevo record de asistencia, 23 personas de las cuales 5 fueron nuevos (ver el listado en la `página de la minuta <https://www.python.org.ar/wiki/Eventos/Reuniones/2008/Reunion26>`_). Incluso tuvimos un invitado (Eric), que viene del lado de Ruby, y se acercó a la reunión para ver como era esto de tener un grupo humano, una comunidad alrededor del lenguaje, porque no lo encuentra en otros lados.
+Tuvimos un nuevo record de asistencia, 23 personas de las cuales 5 fueron nuevos (ver el listado en la `página de la minuta <http://www.python.org.ar/wiki/Eventos/Reuniones/2008/Reunion26>`_). Incluso tuvimos un invitado (Eric), que viene del lado de Ruby, y se acercó a la reunión para ver como era esto de tener un grupo humano, una comunidad alrededor del lenguaje, porque no lo encuentra en otros lados.
 
 Hablamos bastante del framework LosCocos. Riq nos contó qué hicieron y por qué. Tenemos cuatro features importantes, a groso modo: Escenas, Transiciones, Efectos, y Acciones para los sprites.
 

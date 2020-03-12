@@ -8,7 +8,7 @@ Ese mismo sábado está FLISOL, Festival Latinoamericano de Instalación de Soft
 
 Este año, una vez más, soy mentor del `Google Summer of Code <http://code.google.com/soc/2008/>`_, representando a la `Python Software Foundation <http://www.python.org/psf/>`_. En esta oportunidad voy a trabajar con O. R. Senthil Kumaran, en los módulos urllib y urllib2 para Python 2.6 y 3.0 (EDITADO: `la url no existe más <http://code.google.com/soc/2008/psf/appinfo.html?csaid=F665E4DF3178BFE5>`_). Esperemos que sea productivo. La lista completa de los proyectos de este GSoC bajo el paraguas de la PSF es `esta <http://code.google.com/soc/2008/psf/about.html>`_.
 
-Ya confirmamos la `próxima reunión de Python Argentina <https://www.python.org.ar/wiki/Eventos/Reuniones/ProximaReunion>`_, en Buenos Aires. Será el 7 de Mayo, en el mismo bar que la vez anterior. Veremos si se hacen otras reuniones en otros lugares del pais, la oferta de mandarles parte del merchandising que trajimos está, veremos si se copan o no. La lista de temas a charlar es:
+Ya confirmamos la `próxima reunión de Python Argentina <http://www.python.org.ar/wiki/Eventos/Reuniones/ProximaReunion>`_, en Buenos Aires. Será el 7 de Mayo, en el mismo bar que la vez anterior. Veremos si se hacen otras reuniones en otros lugares del pais, la oferta de mandarles parte del merchandising que trajimos está, veremos si se copan o no. La lista de temas a charlar es:
 
 - Experiencia de PyCon 2008
 

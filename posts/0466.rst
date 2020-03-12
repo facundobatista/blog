@@ -2,7 +2,7 @@
 .. date: 2010-06-04 23:15:32
 .. tags: experimento, programación, cirujano, mythical man-month, ubuntu one, Syncdaemon, States
 
-*(Note: There's an English version of this article `here <http://www.taniquetil.com.ar/facundo/surgeon-copilot.txt>`_)*
+*(Note: There's an English version of this article `here <http://www.taniquetil.com.ar/bdvfiles/surgeon-copilot.txt>`_)*
 
 Los últimos meses en el equipo Ubuntu One Foundations, en Canonical, estuvimos experimentando con la metodología cirujano-copiloto.
 

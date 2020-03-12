@@ -6,7 +6,7 @@
 
 Este año, como el pasado, doy una charla: `Introducción a Python <http://www.taniquetil.com.ar/homedevel/presents/intropython.odp>`_. Pero este año tiene un gustito particular.
 
-No sólo estoy más comprometido con la conferencia personalmente (me tomo el viernes en el laburo y voy a ir ambos días de la conferencia todo el día), sino que también tenemos más presencia, como grupo, con `Python Argentina <https://www.python.org.ar>`_ (vamos a tener una mesa, finalmente tenemos `bandera <https://www.python.org.ar/wiki/Bandera/fotos/>`_ para mostrar, etc.).
+No sólo estoy más comprometido con la conferencia personalmente (me tomo el viernes en el laburo y voy a ir ambos días de la conferencia todo el día), sino que también tenemos más presencia, como grupo, con `Python Argentina <http://www.python.org.ar>`_ (vamos a tener una mesa, finalmente tenemos `bandera <http://www.python.org.ar/wiki/Bandera/fotos/>`_ para mostrar, etc.).
 
 Además, es un fin de semana especial por otro motivo. Traemos para la conferencia, como invitados, a `Alex Martelli <http://www.aleax.it/>`_ y Anna Martelli Ravenscroft (los tengo que ir a buscar en un par de horas al aeropuerto). Obvio, aprovecharemos que los tenemos acá, y haremos una reunión de PyAr, la decimonovena, en la Casa del Queso.
 

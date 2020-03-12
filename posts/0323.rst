@@ -5,7 +5,7 @@
 ¿Cuál es la idea?
 -----------------
 
-Wikipedia Offline, o CDPedia, es un `proyecto de PyAr <https://www.python.org.ar/wiki/Proyectos>`_ que arrancó hace un par de años.
+Wikipedia Offline, o CDPedia, es un `proyecto de PyAr <http://www.python.org.ar/wiki/Proyectos>`_ que arrancó hace un par de años.
 
 El proyecto básicamente es armar un CD (originalmente, al menos, hoy en día podríamos armar también un DVD, por la cantidad actual de información) que contenga toda o gran parte de la Wikipedia en español.
 

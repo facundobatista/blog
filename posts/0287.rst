@@ -6,7 +6,7 @@ El viernes pasado volví de Chile, cansado, pero fuimos a comer afuera con Moni 
 
 Ella fue a visitar amigos, y yo, luego de una breve visita a Mariano, el hermano de Mónica, me fui para el centro.
 
-Resulta que era la reunión fundacional de `Wikimedia Argentina <http://www.wikimedia.org.ar/wiki/Portada>`_, en las que se hablaron varios temas, siendo el que me incumbía la posibilidad de hacer un CD con la Wikipedia, de manera de que se pueda acceder a este contenido sin estar conectado a internet. Este es un `proyecto de PyAr <https://www.python.org.ar/wiki/Proyectos>`_, que todavía no terminamos porque nos pusimos metas demasiado altas (*tenemos* que continuarlo en algún momento...).
+Resulta que era la reunión fundacional de `Wikimedia Argentina <http://www.wikimedia.org.ar/wiki/Portada>`_, en las que se hablaron varios temas, siendo el que me incumbía la posibilidad de hacer un CD con la Wikipedia, de manera de que se pueda acceder a este contenido sin estar conectado a internet. Este es un `proyecto de PyAr <http://www.python.org.ar/wiki/Proyectos>`_, que todavía no terminamos porque nos pusimos metas demasiado altas (*tenemos* que continuarlo en algún momento...).
 
 De ahí me fui a las oficinas de Lucio, donde nos encontrábamos todos porque largaba la `quinta edición de PyWeek <http://www.pyweek.org/5/>`_. El tema que salió fue Twisted (enroscado, retorcido). Nosotros habíamos barajado varias opciones de juegos para cada tema, así que en dos o tres horas ya teníamos el juego definido.
 

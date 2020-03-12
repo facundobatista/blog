@@ -2,7 +2,7 @@
 .. date: 2006-10-25 21:52:47
 .. tags: bandera, fabricación, votación
 
-Estamos a miércoles, y el viernes se cierra la votación de la primer bandera de `Python Argentina <https://www.python.org.ar>`_ (más info `acá <https://www.python.org.ar/wiki/Bandera>`_, con estos `diseños <https://www.python.org.ar/wiki/Bandera/propuestas>`_, pero para votar tienen que estar suscriptos a la `lista de PyAr <https://www.python.org.ar/lista/>`_).
+Estamos a miércoles, y el viernes se cierra la votación de la primer bandera de `Python Argentina <http://www.python.org.ar>`_ (más info `acá <http://www.python.org.ar/wiki/Bandera>`_, con estos `diseños <http://www.python.org.ar/wiki/Bandera/propuestas>`_, pero para votar tienen que estar suscriptos a la `lista de PyAr <http://www.python.org.ar/lista/>`_).
 
 Yo propuse cuatro modelos. Y tuvieron bastante buena aceptación: Aunque no voy ganando, porque el modelo *Pablo6* me desplaza del primer puesto, tengo los cuatro modelos dentro de los siete más votados.
 

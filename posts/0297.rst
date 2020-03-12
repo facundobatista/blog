@@ -4,8 +4,8 @@
 
 *¿Qué tienen en común un terapeuta sistémico, un integrante de una comunidad autosustentable, un entrenador de remo, un desarrollador de software y un miembro de una ONG? Todos ellos viven sus vocaciones "en red": formando equipos, tejiendo vínculos, construyendo proyectos en grupo, pensando en sistemas y no en individuos*.
 
-Así arranca la presentación del `informe especial "Redes" <http://www.myriades1.com/redes-index.php?lang=es>`_ de la revista online `Myriades 1 <http://www.myriades1.com/?lang=es>`_. El análisis es genérico y multifacético, no está restringido a una temática en particular, tocando el análisis punto como Vocación, Personas, Comunicación, Cultura, Ciencia y tecno, y Ocio.
+Así arranca la presentación del informe especial "Redes" (EDITADO: `la url no existe más <http://www.myriades1.com/redes-index.php?lang=es>`__) de la revista online Myriades 1 (EDITADO: `la url no existe más <http://www.myriades1.com/?lang=es>`__). El análisis es genérico y multifacético, no está restringido a una temática en particular, tocando el análisis punto como Vocación, Personas, Comunicación, Cultura, Ciencia y tecno, y Ocio.
 
-En la sección de *Vocación*, uno de los items es `Arquitectos del software libre <http://www.myriades1.com/vernotas.php?id=766&lang=es>`_, donde se reproduce una entrevista a Victor Rodriguez del grupo `Perl de Capital Federal <http://cafe.pm.org/>`_ y **al que suscribe**, como parte de `Python Argentina <https://www.python.org.ar>`_.
+En la sección de *Vocación*, uno de los items es Arquitectos del software libre (EDITADO: `la url no existe más <http://www.myriades1.com/vernotas.php?id=766&lang=es>`__), donde se reproduce una entrevista a Victor Rodriguez del grupo `Perl de Capital Federal <http://cafe.pm.org/>`_ y **al que suscribe**, como parte de `Python Argentina <http://www.python.org.ar>`_.
 
 Por otro lado, no quiero dejar de mencionar `este artículo <http://www.pagina12.com.ar/diario/suplementos/no/12-3015-2007-10-04.html>`_ del Página 12 de hoy, que habla del Software Libre y del CaFeConf que arranca mañana.

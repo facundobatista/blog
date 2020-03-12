@@ -4,7 +4,7 @@
 
 No quería dejar de comentarles dos otros relatos de la primer jornada de Python Santa Fe (aparte de la `mía </posts/0185>`_).
 
-El `primer relato <https://www.python.org.ar/wiki/Eventos/Reuniones/2006/Reunion16>`_ es de Nubis, quien nos acompañó desde Buenos Aires, y cuenta bajo el punto de vista de un asistente, ¡está muy divertido!
+El `primer relato <http://www.python.org.ar/wiki/Eventos/Reuniones/2006/Reunion16>`_ es de Nubis, quien nos acompañó desde Buenos Aires, y cuenta bajo el punto de vista de un asistente, ¡está muy divertido!
 
 .. image:: /images/uff/533411999_d2218bb1bc_o.jpg
 

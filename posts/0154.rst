@@ -5,7 +5,7 @@
 Remeras
 -------
 
-¡Se viene el primer merchandising oficial de Python Argentina! En el beta del nuevo sitio de PyAr estamos anotando cuantas queremos y de que talle (**Actualización:** Esa página beta ya no existe más, porque el sitio de PyAr está levantado y funcionando hace rato; la página de las remeras es `esta <https://www.python.org.ar/Remeras>`_).
+¡Se viene el primer merchandising oficial de Python Argentina! En el beta del nuevo sitio de PyAr estamos anotando cuantas queremos y de que talle (**Actualización:** Esa página beta ya no existe más, porque el sitio de PyAr está levantado y funcionando hace rato; la página de las remeras es `esta <http://www.python.org.ar/Remeras>`_).
 
 No se duerman, es sólo por una semana, luego ya las compro y nadie les garantiza que en el furor de las ventas no se queden sin su talle preferido.
 

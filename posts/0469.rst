@@ -35,6 +35,6 @@ Luego de las seis volvimos al hotel pero en seguida partimos hacia un picnic don
 
 Luego volvimos (nuevamente caminando) al hotel, me pegué un baño y me fui a la habitación de Naty, donde nos pusimos a armar una presentación que teníamos que dar al otro día. Pensamos que iba a ser sencillo y rápido, pero terminamos trabajando hasta las dos y media de la mañana :(, así que al otro día no podía despertarme para nada.
 
-Encima el miércoles también era día sin laptops, así que eran todas presentaciones y charlas, y aunque había algunas interesantes, en otras no podía evitar cabecear del sueño. Con Naty dimos la `lightning talk de Magicicada <http://www.taniquetil.com.ar/facundo/magicicada-lt.pdf>`_ que habíamos armado, y también yo dí una cortita de `Logs <http://www.taniquetil.com.ar/homedevel/presents/logs.odp>`_.
+Encima el miércoles también era día sin laptops, así que eran todas presentaciones y charlas, y aunque había algunas interesantes, en otras no podía evitar cabecear del sueño. Con Naty dimos la `lightning talk de Magicicada <http://www.taniquetil.com.ar/bdvfiles/magicicada-lt.pdf>`_ que habíamos armado, y también yo dí una cortita de `Logs <http://www.taniquetil.com.ar/homedevel/presents/logs.odp>`_.
 
 El día no ofreció mucho más, laburamos hasta tarde, cenamos, y a dormir!
