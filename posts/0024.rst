@@ -10,7 +10,7 @@ Los dos sitios:
 
 Bueno, algunas noticias. No se si 100% oficial, pero está bastante aceptado el logo que hice de `PyAr <http://python.org.ar/>`_:
 
-.. image:: /images/uff/527924135_3bd987055a_o.png
+.. image:: /images/pyar.png
     :alt: Logo de PyAr
 
 El diseño original no es mío, sino de Pablo Ziliani que se mandó un espectacular .gif aplaudido y designado por unanimidad como logo oficial de la organización. Yo lo único que hice es rehacer el dibujo de Pablo pero en `vectorial <http://www.taniquetil.com.ar/homedevel/docs/logo-pyar.svg>`_, para que se pueda redimensionar sin perder la calidad del mismo.

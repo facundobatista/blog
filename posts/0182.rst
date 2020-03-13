@@ -6,7 +6,7 @@ Tal es el nombre de una exposición de fotografías que se realizará en la Sala
 
 Esta expo busca retratar la problemática del trabajo infantil en America Latina. Un ejemplo de lo que podemos ver en la expo lo representa la siguiente foto, donde está retratada Carmen, una vendedora de helados de Potosí, Bolivia.
 
-.. image:: /images/uff/530318819_7015809286_o.jpg
+.. image:: /images/carmen_potosi.jpg
 
 *"Carmen vende helados frente a la Catedral y por las tardes va a la escuela. Muchas veces falta porque no ha vendido lo suficiente. En un día de buena venta, puede llegar a ganar hasta dos dólares. Aunque los días de buena venta son muy pocos"*. Tanto la explicación como la foto fueron sacadas del sitio del autor (EDITADO: `la url no existe más <http://www.juguetesrobados.com.ar/>`__).
 

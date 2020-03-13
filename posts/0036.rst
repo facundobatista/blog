@@ -18,14 +18,14 @@ A uno de estos hostels fui, y como me gustó la onda que tenía, me quedé allí
 
 Luego de acomodarme y medio vaciar la mochila en un locker, me fuí a caminar un poco por Madrid. Plaza Mayor, Puerta de Toledo, diferentes hitos turísticos fueron los puntos visitados. Volví luego al hostel, me bañé, y me fuí para el Fnac, que es una especie de centro comercial, en cuyo piso de libros (el cuarto) me iba a encontrar con Javi. Lo esperé allí mientras hojeaba libros y revistas, y cuando vino nos fuimos a pasear.
 
-.. image:: /images/uff/527834766_73f2996fe8_o.jpg
+.. image:: /images/madrid_plazamayor.jpg
     :alt: Plaza Mayor
 
 Fuimos a los jardines reales, donde recorrimos poco porque ya estaba oscureciendo, y pasamos por la `Catedral de Almudena <http://farm2.static.flickr.com/1073/527834808_84d853c041_o.jpg>`_. Luego de caminar un poco por las cercanías decidimos ir a comer. Yo sabía que en Atocha había unos lindos lugares que parecían bien "locales", y Javi estuvo de acuerdo con ir a comer allí (a uno que conocía él, que es un clásico). En lugar de tomar por avenidas, caminamos por las callecitas internas de la ciudad, que al estar en una zona curva nos complicaron bastante la vida (¡cada cuatro o cinco cuadras debíamos consultar el mapa!). Finalmente llegamos y comimos unas rabas que estaban un montón.
 
 Seguimos paseando luego, plaza del Neptuno, Cibeles, Palacio de las comunicaciones, etc, y finalmente decidimos volver al centro de la ciudad, para encontrar un lindo lugar donde comer o tomar algo. Termiamos en un barcito que estaba lindo, yo tomándome unas "cañitas" (vasitos de cerveza tirada) y Javi un refresco. Ya era tarde, y como yo estaba molido por el largo día, y Javi al otro día trabajaba, nos fuimos a dormir.
 
-.. image:: /images/uff/527834924_7402b6b7df_o.jpg
+.. image:: /images/madrid_cibeles.jpg
     :alt: La Cibeles
 
 
@@ -36,7 +36,7 @@ El viernes me levanté tempranito, y desayuné en la cocina del hostel, calenté
 
 Más tarde, y luego de averiguar por reproductores de mp3s en varios lugares, volví al hostel para bañarme. Javi me pasó a buscar por allí y salimos nuevamente a caminar. El quería merendar, pero como caminábamos y caminábamos para encontrar un lugar, se hizo tarde, y decidimos entrar a un negocio de comidas rápidas árabes para comer algo.
 
-.. image:: /images/uff/527925239_d526a3aad4_o.jpg
+.. image:: /images/madrid_oso.jpg
     :alt: El Oso y el Madroño
 
 Seguimos paseando, y como hacíamos a tiempo para llegar antes de que cierre, nos fuimos hasta un centro comercial de las afueras, donde finalmente me compré el bendito reproductor. Notable la diferencia de alturas que hay entre el centro de Madrid y sus afueras: para llegar al centro comercial viajamos en subte. En la estación que lo tomamos bajamos tres escaleras mecánicas **laaaargas**, más algunas pequeñas escaleras normales. Pero cuando el subte llegó a la zona periférica de la ciudad, ¡salió a la superficie! (consideren que el subte no va subiendo y bajando mucho en su recorrido, sino que más bien se mueve en un plano).
@@ -55,7 +55,7 @@ Conocí entonces a las compañeras de piso de Javi: Patricia, con su hija, y dos
 
 Salimos entonces a pasear. Nos tomamos un colectivo hasta cerca del intercambiador de la Avenida de América, en dónde nos tomamos un micro de media/larga distancia para viajar hasta `Alcalá de Henares <https://es.wikipedia.org/wiki/Alcal%C3%A1_de_Henares>`_. Cuarenta minutos de viaje, pero como íbamos charlando y el paisaje estaba bueno, se pasó enseguida. Llegamos como a las dos y media de la tarde, y por supuesto la principal preocupación fue comer, así que estuvimos un buen rato buscando un lugar que nos gustara. Al final lo encontramos y comimos (muy bien, por cierto).
 
-.. image:: /images/uff/527835040_fbfc6ee285_o.jpg
+.. image:: /images/madrid_alcala.jpg
     :alt: Alcalá de Henares
 
 Luego seguimos paseando, pasamos por la oficina de turismo, y con mapa en mano enfilamos para la `Universidad de Alcalá <http://www.uah.es/>`_, donde contratamos un paseo en la que una guía turística nos fue explicando cosas **muy** interesantes sobre la historia de la Universidad. Realmente recomendable.
@@ -76,7 +76,7 @@ Cuando salí a la calle, lo llamé a Javi y arreglamos para encontrarnos a la un
 
 Comenzamos a recorrer las obras (¡descubrí a `Velázquez <https://es.wikipedia.org/wiki/Diego_Vel%C3%A1zquez>`_!), hasta que llegó Mariela, una amiga de Javi. Seguimos recorriendo, ahora los tres, hasta que el hambre fue más fuerte que el interés artístico, entonces nos fuimos (aunque primero pasamos, por recomendación de Mariela, por el tríptico "Jardín de las Delicias" y por "Los Siete Pecados Capitales", de El Bosco).
 
-.. image:: /images/uff/527925355_62346e4420_o.jpg
+.. image:: /images/madrid_velazquez.jpg
     :alt: Vista del jardín de la Villa Médici en Roma, por Velázquez
 
 Comimos, y luego fuimos a pasar por los Jardines del Retiro, un gran parque en el que nos refugiamos a la búsqueda de sol, ya que la temperatura ambiente era cada vez menor. Estuvimos paseando por allí, disfrutando de algunos artistas callejeros, tomando sol, etc., hasta que comenzó a atardecer.

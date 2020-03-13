@@ -29,7 +29,7 @@ Varios
 
 Una foto de Guillermo:
 
-.. image:: /images/uff/530138768_9311d63eef_o.jpg
+.. image:: /images/guillermito.jpg
 
 ----------------
 

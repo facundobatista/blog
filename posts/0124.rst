@@ -4,6 +4,6 @@
 
 Un mes y medio después de superar los `100 millones de downloads </posts/0097>`_ (de su versión 1.0), Firefox hoy lanza una nueva versión, la 1.5, con todas las mejoras prometidas y más, :)
 
-.. image:: /images/uff/530143686_b4767d9576_o.png
+.. image:: /images/firefox-15-headline.png
 
 Si quieren la versión para Windows, en castellano (latinoamericano), pueden bajarla directamente de `acá <http://www.mozilla.com/products/download.html?product=firefox-1.5&os=win&lang=es-AR>`_. ¡Redescubran la web!

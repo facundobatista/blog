@@ -21,13 +21,13 @@ Ambos días trabajamos de 9 a 19, con almuerzo en el medio (bueno, no en el medi
 
 He dicho en otras oportunidades que otras ciudades eran chicas (por ejemplo, Bologna). Ahorita me toca decir que el DF es inmenso. No es solamente grande, es inmenso. Los barrios se alternan en importancia o desarrollo, pero sigues, y sigues, y sigues, y todavía estás adentro del DF. Como analogía, creo que podríamos decir que tiene el tamaño (habría que confirmarlo...) de Capital y Gran Buenos Aires, pero todo efectivamente siendo la capital. Tengan en cuenta, además, que dentro del DF viven 25 millones de personas... imagínenselo.
 
-.. image:: /images/uff/530129538_f27f0ce3ce_o.jpg
+.. image:: /images/mex-nativo.jpg
 
 Acá o te movés en taxi o no te movés. Podés caminar algunas cuadras, siempre y cuando no haya empezado a oscurecer, pero normalmente para ir de un lado al otro es tanta la distancia que vas en taxi. El problema es que siempre te dicen que no te tomes cualquier taxi, sino que trates de llamar a uno de los de "sitio" (esto es, que te van a buscar a donde estás). Estos taxis no tienen reloj, o sea que tenés que negociar con el chofer la tarifa, y esto es un problema para los que recién llegamos porque no tenemos ni idea de cuanto cuesta normalmente ir de un punto al otro, así que seguramente algún sobreprecio estamos pagando...
 
 En el DF, en esta época que es de lluvias, como regla general llueve a la tarde. Algún día puede no llover, u otro día puede llover entero, pero normalmente de mañana y tarde tempranito el clima está bueno, y a la tarde se nubla todo y llueve fuerte. En la parte alta de la ciudad llueve más fuerte que en la parte baja, pero llueve.
 
-.. image:: /images/uff/530129580_957fa442cc_o.jpg
+.. image:: /images/mex-popocatepetl.jpg
 
 Encontré la radio que escucharía si viviese en México: FM 106.5 (Mix 106.5, "mucho ritmo"). Basicamente te pasan los éxitos de los '80 y los '90.
 
@@ -37,7 +37,7 @@ Si para algo quería aprovechar el viaje, aparte de para conocer México, era pa
 
 El viernes terminamos a las 18:30, aproximadamente, pero yo me quedé leyendo unos mails. Luego de esperar a Diego más de una hora, fui a buscarlo a su piso. Estaba hasta las manos de trabajo, así que lo esperé mientras iba armando la presentación de Decimal para EuroPython.  Como parte del trabajo que estaba haciendo, Diego llamó a varias personas para comentarles algo sobre un mail que él les había enviado.  Muy interesante, ya que ambos interlocutores usaban, en la presentación y la despedida, un lenguaje compuesto principalmente por monosílabos (con algunas excepciones bisilábicas), que con bastaaante esfuerzo uno podía traducir al castellano. Aparte de interesante, divertido. Está para estudiarlo como protocolo de comunicaciones.
 
-.. image:: /images/uff/530225301_d655ef9cb3_o.jpg
+.. image:: /images/mex-latinoamericana.jpg
 
 A la noche fui con Diego a comer a "Los ahogados", el restaurant que tiene él con otros tres socios. Vinieron también Juan Pablo, del curso, y su novia Lizbeth. De entrada comimos *tequeños*, que son como bastoncitos de queso envueltos en masa y cocinados al horno, muy parecido a empanadas de queso cilíndricas (ya haré de estos en Argentina).
 
@@ -65,7 +65,7 @@ En varios puntos paré para filmar, pero en un lugar entré: Palacio de Bellas A
 En el segundo piso hay varios murales. Absolutamente imperdible para cuando vayan: "El hombre contralor del universo" (o "El hombre en el
 cruce de caminos") de `Diego Rivera <http://es.wikipedia.org/wiki/Diego_Rivera>`_.
 
-.. image:: /images/uff/530129912_df8ad97982_o.jpg
+.. image:: /images/mex-hombreencrucijada.jpg
 
 De vuelta en el hotel, retiré la valija y me tomé el taxi hasta el aeropuerto, donde luego de los procedimientos normales partí hacia Göterborg, Suecia (vía Amsterdam). En el primer viaje me senté al lado de un flaco que estaba leyendo un libro. De reojo leí algunas estrofas, y me pareció interesantísimo. Trata sobre lenguaje corporal, basicamente, pero aparte de la teoría marca pautas y recomienda acciones (por ejemplo, que en una sala de reuniones sientes a tus opositores de espalda a la puerta, mientras que vos y tus colaboradores de frente a ellos, esto es porque el humano se pone inconscientemente más nervioso cuando está de espalda a espacios abiertos). Se llama "The definitive book of Body Language", de Allan y Barbara Pease; voy a tratar de conseguirlo cuando vuelva a Argentina.
 

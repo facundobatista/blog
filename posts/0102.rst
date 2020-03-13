@@ -11,7 +11,7 @@ El objetivo del proyecto es lograr laptops de menos de 100 dólares para la dist
 
 Una reducción tan drástica en el precio del equipo es posible principalmente por bajar el costo de la pantalla, utilizar Linux como sistema operativo, un procesador AMD de 500MHz, una memoria flash de 500MB en lugar de disco rígido, y una producción masiva de los equipos, vendiéndolo directamente a gobiernos (cabe considerar que de esta manera también se eliminan los costos de marketing y distribución). Por otro lado, tendrían cuatro puertos USB y conexión inalámbrica WiFi. Y para prevenir problemas de energía, la batería se podría recargar directamente con una manija rotativa.
 
-.. image:: /images/uff/530141806_8b78ab0a21_o.jpg
+.. image:: /images/laptop_barata.jpg
 
 El profesor Negroponte estima que a partir del 2007 se fabricarían entre 100 y 150 millones de estos equipos para escolares. China y Brasil ya adhirieron al proyecto. Argentina, por su parte, se transformaría en el primer país de habla hispana en integrarse: el ministro de Educación Daniel Filmus anunció que se adquirirá un millón de computadoras portátiles, con precios iniciales de 100-115 dólares pero previendo de que bajen a 80-90 dólares cada una.
 

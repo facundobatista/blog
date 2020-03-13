@@ -43,5 +43,5 @@ del software mundial, como `GNOME <http://www.gnome.org/>`_; y
 proyectos que lo van a volver a cambiar, como `Mono
 <http://www.mono-project.com/>`_.
 
-.. image:: /images/uff/523429725_231e2c1d14_o.png
+.. image:: /images/mono.png
     :alt: Logo de Mono
