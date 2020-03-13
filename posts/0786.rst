@@ -209,7 +209,7 @@ Tutorial Oficial traducido al castellano
 
 Python Argentina tradujo al castellano el tutorial oficial del lenguaje, `poniéndolo a disposición de forma libre y gratuita <http://docs.python.org.ar/tutorial/>`_ en la web, para su descarga en forma electrónica, e imprimió numerosos ejemplares para distribuir en conferencias y charlas introductorias; muchos de estos tutoriales impresos se enviaron a las bibliotecas de distintas Universidades alrededor del país. La primer impresión se realizó en el año 2010, y la traducción continuó actualizándose para nuevas versiones de la edición original en Inglés.
 
-.. image:: /images/actividadesPyAr/tutorial.jpeg
+.. image:: /images/tutorialimpreso.jpg
     :alt: El tutorial, en su versión impresa
 
 
