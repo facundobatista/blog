@@ -1,6 +1,6 @@
 .. title: Paseo por Madrid y alrededores
 .. date: 2005-03-19 15:54:32
-.. tags: paseo, Madrid, Javier, catedral de almudena, alcalá de henares, Cervantes, Quijote, museo del prado, Velazquez, jardines del retiro, Windsor
+.. tags: paseo, Madrid, Javier, catedral de almudena, alcalá de henares, Cervantes, Quijote, museo del prado, Velázquez, jardines del retiro, Windsor
 
 Realmente debía esto desde hace tiempo, pero no tuve mucho tiempo. Nada, acá está.
 
@@ -56,6 +56,7 @@ Conocí entonces a las compañeras de piso de Javi: Patricia, con su hija, y dos
 Salimos entonces a pasear. Nos tomamos un colectivo hasta cerca del intercambiador de la Avenida de América, en dónde nos tomamos un micro de media/larga distancia para viajar hasta `Alcalá de Henares <https://es.wikipedia.org/wiki/Alcal%C3%A1_de_Henares>`_. Cuarenta minutos de viaje, pero como íbamos charlando y el paisaje estaba bueno, se pasó enseguida. Llegamos como a las dos y media de la tarde, y por supuesto la principal preocupación fue comer, así que estuvimos un buen rato buscando un lugar que nos gustara. Al final lo encontramos y comimos (muy bien, por cierto).
 
 .. image:: /images/uff/527835040_fbfc6ee285_o.jpg
+    :alt: Alcalá de Henares
 
 Luego seguimos paseando, pasamos por la oficina de turismo, y con mapa en mano enfilamos para la `Universidad de Alcalá <http://www.uah.es/>`_, donde contratamos un paseo en la que una guía turística nos fue explicando cosas **muy** interesantes sobre la historia de la Universidad. Realmente recomendable.
 
@@ -73,9 +74,10 @@ Ya el domingo me levanté a cualquier hora (bah, las diez y media, pero luego de
 
 Cuando salí a la calle, lo llamé a Javi y arreglamos para encontrarnos a la una en la esquina del `Museo del Prado <https://www.museodelprado.es/>`_. Tardó un poquitito de más (ejem...), pero finalmente llegó y entramos al museo (los domingos es gratis, :)
 
-Comenzamos a recorrer las obras (¡descubrí a `Velazquez <https://es.wikipedia.org/wiki/Diego_Vel%C3%A1zquez>`_!), hasta que llegó Mariela, una amiga de Javi. Seguimos recorriendo, ahora los tres, hasta que el hambre fue más fuerte que el interés artístico, entonces nos fuimos (aunque primero pasamos, por recomendación de Mariela, por el tríptico "Jardín de las Delicias" y por "Los Siete Pecados Capitales", de El Bosco).
+Comenzamos a recorrer las obras (¡descubrí a `Velázquez <https://es.wikipedia.org/wiki/Diego_Vel%C3%A1zquez>`_!), hasta que llegó Mariela, una amiga de Javi. Seguimos recorriendo, ahora los tres, hasta que el hambre fue más fuerte que el interés artístico, entonces nos fuimos (aunque primero pasamos, por recomendación de Mariela, por el tríptico "Jardín de las Delicias" y por "Los Siete Pecados Capitales", de El Bosco).
 
 .. image:: /images/uff/527925355_62346e4420_o.jpg
+    :alt: Vista del jardín de la Villa Médici en Roma, por Velázquez
 
 Comimos, y luego fuimos a pasar por los Jardines del Retiro, un gran parque en el que nos refugiamos a la búsqueda de sol, ya que la temperatura ambiente era cada vez menor. Estuvimos paseando por allí, disfrutando de algunos artistas callejeros, tomando sol, etc., hasta que comenzó a atardecer.
 
