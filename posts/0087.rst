@@ -8,6 +8,7 @@ Fumaterío
 Siguen arreglando el sector fumadores del edificio donde trabajo:
 
 .. image:: /images/terrazafumata2.jpg
+    :alt: Espacio fumadores
 
 Se viene el chori al paso con DJ y/o fútbol codificado...
 
@@ -18,6 +19,7 @@ Fumados 1
 El domingo fui con Mariano y Christian a ver a Les Luthiers, en su nuevo espectáculo "Los premios Mastropiero".
 
 .. image:: /images/ll_premios_mastropiero.jpg
+    :alt: Les Luthiers
 
 
 Basada en una estructura continua de entrega de premios, se presentan los siguientes números:

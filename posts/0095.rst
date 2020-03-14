@@ -9,5 +9,6 @@ Cal y arena para la UADE. Por un lado, ofreció gentilmente el espacio para el e
 Pero la charla estuvo buena, a la gente le gustó, y fue una oportunidad para conocer algunos personajes a los que sólo había tratado por mail. Acá estan tanto la `charla <http://www.taniquetil.com.ar/homedevel/presents/python_baterias.sxi>`_ como los `archivos <http://www.taniquetil.com.ar/bdvfiles/code/booscador.zip>`_ del buscador ejemplo que armé... ¡tiembla Google!
 
 .. image:: /images/booscador.png
+    :alt: La tecnología del futuro
 
 Mañana voy a ver la que preparó Lucio, sobre como hacer un juego con Python usando `PyGame <http://www.pygame.org/>`_, :D.

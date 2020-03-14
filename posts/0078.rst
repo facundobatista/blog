@@ -18,10 +18,12 @@ Fuimos Rodrigo, Pollo, Nati, Laura y yo. Nos tiramos en el pasto, mantita por me
 Lo pasamos a buscar a Chena por cerca de su casa, y enrutamos al mismo pool al que habíamos ido una semana antes. Cervecita, pool, rocanrol, ¿qué podría ir mal? Nada. Estuvo todo perfecto. Incluso dio para ver como arreglábamos el pais con Chena...
 
 .. image:: /images/arreglandoelmundo.jpg
+    :alt: Arreglando el mundo
 
 Bueno, perfecto perfecto no. Perdí algunos partidos de pool, es que estaba distraído, no sé porque no me podía concentrar...
 
 .. image:: /images/ChenaLaura.jpg
+    :alt: Chena y Laura
 
 Nada, después fui dejando a la gente en puntos cercanos al recorrido del auto, a Pollo para que se tome un bondi, a Rodrigo cerca de la casa, a Chena en lo de la madre, a Nati en la casa, y a Laura en lo del novio (aunque tengo que revisar el log del auto, ya que este último viaje tardó como una hora y media de más, para mí que fuimos abducidos...).
 

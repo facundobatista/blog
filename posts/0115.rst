@@ -5,6 +5,7 @@
 La verdad es que venía bastante depre en la mañana, pero iba caminando por Florida, hacia el laburo, y me encuentro con un amigo de la secundaria, Lisandro, que no veía desde hace **años**.
 
 .. image:: /images/lisandro.jpg
+    :alt: Lisandro
 
 El estaba esperando a su socio porque tenían que ver los ascensores de una empresa, y yo camino a la oficina, así que nos metimos a tomar un café y a charlar de como estaban nuestras vidas, como veníamos, hacia donde vamos, etc.
 

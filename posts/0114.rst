@@ -7,13 +7,16 @@ Espectacular domingo en Luján, que sirvió para despejarme,  y también estar e
 Catita: una de las gatas más lindas que conozco, con sus ojos a dos colores, y su eterna siesta (bueno, está vieja).
 
 .. image:: /images/Catita.jpg
+    :alt: Catita
 
 Momento de charla profunda con mi primo Adrián. Parece que estamos leyendo por separado, pero no. Realmente estábamos discutiendo sobre los cambios termodinámicos en la última etapa de la pasteurización de la leche (descremada, ojo). De fondo, Gustavo y Oscar. Al medio, Mafalda.
 
 .. image:: /images/AdriFacu.jpg
+    :alt: Con Adrián
 
 Por último, mi prima Laura, luego del contrato de publicidad que firmó con la conocida marca de veneno en barritas:
 
 .. image:: /images/LauraCigarrillos.jpg
+    :alt: Prima Laura
 
 Día largo, pero agotador. Lo necesitaba como para dormir toda una noche entera. Gracias familia. Los quiero.

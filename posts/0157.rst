@@ -13,6 +13,7 @@ Miércoles: Record
 `Decimotercera reunión <http://www.python.org.ar/wiki/Eventos/Reuniones/2006/Reunion13>`_ de Python Argentina. Llegamos nuevamente a nuestro record de asistencia, 13 personas (je, igual que el número de reunión). ¡Incluso hasta hubo una mujer! (je, que se escondió para la foto)
 
 .. image:: /images/pyar13.jpg
+    :alt: Reunión de PyAr
 
 Hubieron muchos integrantes nuevos, incluso tuvimos la esperada participación de Nubis, que se vino a vivir de Neuquén a Buenos Aires para poder participar de las reuniones (bueno, también porque quería trabajar en una empresa de acá, pero son detalles).
 
@@ -38,6 +39,7 @@ No tengo muchas palabras para describir lo que sucedió el viernes a la noche. Y
 
 
 .. image:: /images/hada.jpg
+    :alt: El hada
 
 Magia.
 
@@ -48,16 +50,19 @@ Sábado: Rocanrol
 Ayer tocó La Percanta (EDITADO: `la url no existe más <http://www.lapercantarock.com.ar>`_), con staff completo: Ariel (guitarra), el Oso (bajo), Kata (batería), Maxi (guitarra) y Pablo (armónica).
 
 .. image:: /images/lapercanta.jpg
+    :alt: La Percanta
 
 Fue en El Duende, lugar que yo ya conocía por Barbazul. Impresionante.
 
 .. image:: /images/publicopercanta.jpg
+    :alt: Y el público
 
 Rocanrol, desgranando alegría, recorriendo distancias hasta el público que no es normal en una banda: cuando muchas bandas miran superiores de arriba, como estando del otro lado, los chicos de La Percanta tienen una forma de transmitir la energía que hace que la misma vuelva multiplicada.
 
 Ejemplos de esto son las arengas del Oso para que la gente aplauda, o Ariel bajando del escenario para tocar entre la gente.
 
 .. image:: /images/arielpublico.jpg
+    :alt: Ariel, interactuando con el público
 
 Hicieron temas nuevos, y los clásicos de siempre. Y hubieron invitados, para deleite de todos. Estos pibes disfrutan lo que hacen, se nota.
 

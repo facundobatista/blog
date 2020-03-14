@@ -8,6 +8,7 @@ Magia
 "Any sufficiently advanced technology is indistinguishable from magic" escribió `Arthur C. Clarke <http://es.wikipedia.org/wiki/Arthur_C._Clarke>`_ en *Profiles of the future* (1961). Lo que traducido vendría a ser algo así como "Cualquier tecnología lo suficientemente avanzada es indistinguible de la magia". Y para demostrar este punto, y que vivimos tiempos de cambios, les quiero presentar algo que hasta ahora veíamos, justamente, como magia.
 
 .. image:: /images/invisible.gif
+    :alt: Invisible
 
 Este cobertor de invisibilidad está hecho de material retro-reflectivo, que refleja la luz en el misma dirección que viene, ya que la capa tiene granos microscópicos en su superficie que cumplen esta función. Adicionalmente, un medio espejo permite que un espectador vea virtualmente de la posición de un proyector que envía una imagen del paisaje del fondo, siendo este fondo capturado por una cámara de vídeo detrás del objeto camuflado. Una computadora calcula la perspectiva apropiada y transforma la imagen que se proyectará, de manera de que el observador termine viendo la misma imagen que vería si el objeto que se intenta camuflar no estuviese ahí.
 
@@ -20,6 +21,7 @@ Firefox
 En otro hito impresionante en la historia del software libre, Firefox llegó a los **cien millones de descargas**. ¡100000000!. Hay que tener en cuenta que estas descargas están impulsadas por Firefox 1.0, estrenado hace casi un año.
 
 .. image:: /images/firefox1e8.jpg
+    :alt: Cien millones
 
 Se espera una aceleración de las descargas cuando se libere Firefox 1.5 (por ahora en estado `beta2 <http://www.mozilla.org/products/firefox/releases/1.5beta2.html>`_), que traerá muchas mejoras, entre ellas:
 

@@ -38,9 +38,11 @@ Ahora sí, las citas:
 Por supuesto, luego de laburar de noche, llegando a casa a las cinco de la mañana, aproveché y me quedé durmiendo hasta tarde, total no iba a la oficina.
 
 .. image:: /images/FacuDurmiendo.jpg
+    :alt: Apoliyando
 
 El día estaba espectacular para dormir, fresquito, con lluvia.
 
 .. image:: /images/VistaPieza.jpg
+    :alt: Vista
 
 Nada, envidien, :p

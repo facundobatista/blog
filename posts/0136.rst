@@ -16,8 +16,10 @@ Uno de los dos partidos que me ganó, encima, fue porque me vendí yo, ¡cuanto 
 Enfrente del Palacio de Justicia. Nunca me había fijado, pero son inmensos, monumentales.
 
 .. image:: /images/arbol1.jpg
+    :alt: Árboles
 
 .. image:: /images/arbol2.jpg
+    :alt: Y más Árboles
 
 
 
@@ -29,6 +31,7 @@ El jueves despedimos el año con los ex-compañeros del Master, éramos diez. Co
 Realmente somos un grupo tan variado que uno nunca deja de divertirse. Y me encantó volver a ver a Ariana, Enrico, y Mateo (en orden en la foto).
 
 .. image:: /images/ari-enr-mat-yo.jpg
+    :alt: Los cuatro fantásticos (?)
 
 
 Cine

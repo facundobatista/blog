@@ -30,6 +30,7 @@ Varios
 Una foto de Guillermo:
 
 .. image:: /images/guillermito.jpg
+    :alt: Guillermito
 
 ----------------
 

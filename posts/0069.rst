@@ -7,5 +7,7 @@ Vi `Sin city <http://www.imdb.com/title/tt0401792/>`_: +1  (vaya uno a saber por
 Par de fotos de la parranda del otro día, en GOA, con Nati (EDITADO: `la url no existe más <http://www.fotolog.net/natytas1984>`__) y Chena (EDITADO: `la url no existe más <http://www.fotolog.net/chena>`__):
 
 .. image:: /images/FacuNati.jpg
+    :alt: Con Nati
 
 .. image:: /images/FacuChena.jpg
+    :alt: Con Chena

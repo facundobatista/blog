@@ -7,6 +7,7 @@ Fuimos Romina, Mariano, Vivi, Augusto, mujer e hijas, Floppy con su hija Camila 
 Yo fui el elegido para hacer el asado, y a fuerza del viejo truco de demorarlo para que todos tengan mucha hambre, todos dijeron que estuvo bueno, :D.
 
 .. image:: /images/FacuJavi.jpg
+    :alt: Con Javi, pasándola mal
 
 Fue un día de pileta, ya que hizo mucho calor. Ni bien, armé el fuego ya me metí en la pileta, y luego casi que controlaba la carne desde el agua: estaba en la pileta, salía dos minutos y revisaba la comida, me metía de nuevo, al rato iba y lo daba vuelta, y me metía de nuevo, así hasta que comimos.
 
@@ -15,5 +16,6 @@ Y luego de comer, antes del helado, también me volví a meter. Y también despu
 La anécdota del día fue Camila. A la mañana apenas se metía en el agua, agarrada al costado de la pileta y apoyada en un reborde de la pared de la misma. Pero la fuí soltando, enseñándole a flotar y a contener la respiración debajo del agua. Luego llevándola por la pileta, cada vez más sola, para que vaya dándose cuenta de como era nadar.
 
 .. image:: /images/FacuCamila.jpg
+    :alt: El día que le enseñé a nadar a Camila
 
 Al final del día, ella solita iba de una punta a otra de la pileta, ¡nadando más de cuatro metros! :D

@@ -11,6 +11,7 @@ El martes fui a conocer la casa nueva de Diegote y Valeria. Es muy muy linda! Su
 Aparte de charlar y charlar como tres viejas chismosas, laburamos un rato en algo que estamos haciendo con Diego, y después terminamos con un calzón de roquefort, y, por supuesto, unas birritas.
 
 .. image:: /images/YoDiegoVale.jpg
+    :alt: Con Diego y Vale
 
 El miércoles me fui de pool con Lisandro y Hernán. Fuimos a los *36 billares*, ¡cómo cambió ese lugar! Está más lindo que antes, y sigue con la misma onda tango/bar_antiguo que me encanta. Está bien, a veces quiero ir a jugar un pool y escuchar rocanrol a full, pero *los 36*, con sus mesas de pool y billar (¡y había una de snooker!), y sus jugadores de dados/ajedrez/truco/tute, tiene un gustito que está muy bien.
 
@@ -21,6 +22,7 @@ Nada, el punto es que jugamos como dos horas con Lisandro hasta que llegó Hern�
 La pasé muy bien. A Lisandro lo había visto hace poco, pero a Hernán hace mil que no lo encontraba. Es increíble como tres personas que no tienen tanto en común, nos llevamos tan bien, y podemos discutir de cosas tan variadas y estar en mucho de acuerdo. Nada, es una química rara.
 
 .. image:: /images/YoLisHernan.jpg
+    :alt: Con Lisandro y Hernán
 
 Ayer viernes fuimos al cine con Mariano. Vimos  `The chronicles of Narnia: The Lion, the Witch and the Wardrobe <http://www.imdb.com/title/tt0363771/>`_: +0. No acostumbro decir mucho sobre las películas, sólo un comentario: no me la vengan a comparar con The Lord of the Rings. Ni un poquito.
 

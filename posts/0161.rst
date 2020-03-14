@@ -5,6 +5,7 @@
 Al fin tenemos remeras de Python Argentina!!!!
 
 .. image:: /images/remerapyar06.jpg
+    :alt: Versión real
 
 Tardaron pero llegaron. Mil gracias a mi vieja y Oscar por toda la ayuda que me dieron para llevarlas a cabo.
 

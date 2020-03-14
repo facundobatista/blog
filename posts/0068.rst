@@ -5,6 +5,7 @@
 Foto *en blú* con Nivi!
 
 .. image:: /images/connivi.jpg
+    :alt: Con Nivi :)
 
 ----------------
 
