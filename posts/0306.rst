@@ -9,5 +9,6 @@ Nico llegó el jueves primero de Noviembre a la noche, por cesárea, pero todo m
 El niño es todo un modelo de tranquilidad! Te mira, bosteza un poco, se acomoda, se despereza, se ríe un poquito si le hacés unos mimos... ¿llorar? ¿qué es eso? Un maestro, el pibe.
 
 .. image:: /images/nico.jpg
+    :alt: Nico
 
 ¡Felicitaciones!

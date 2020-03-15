@@ -7,5 +7,6 @@ Corría Diciembre de 1992, primer show de `Guns N' Roses <http://es.wikipedia.or
 No voy a ponerme a contar del recital, ni de la banda, ni del quilombo que había en todo el país por la llegada de los músicos, ni nada. Sólo algo pendiente en este blog, que es poner las fotos de la púa de Slash que me traje a casa; la púa la agarré luego de que me pegara en el hombro, tirada justamente por Slash al terminar el recital.
 
 .. image:: /images/puaslash.jpg
+    :alt: Premio inesperado
 
 Ya que estamos, trivia: ¿sabían que la última vez que tocaron Slash, Duff, Matt y Gilby con Axl, en vivo, en un show, fue justamente en el cierre del *Use Your Illusion Tour*, el 17 Julio de 1993, aquí en Buenos Aires?

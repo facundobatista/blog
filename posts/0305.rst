@@ -13,6 +13,7 @@ Llegamos bastante temprano, ya que la idea era armar el stand de `PyAr <http://w
 Estos folletos los había preparado durante la semana, con ayuda de Gustavo, bajo una idea originalmente discutida con Mariano, y la verdad que quedaron muy bien:
 
 .. image:: /images/unlux07/folleto.jpeg
+    :alt: Microtutoriales
 
 Me perdí la primer charla, sobre `Asterisk <http://es.wikipedia.org/wiki/Asterisk>`_, porque el que la daba no llegó a tiempo. Así que me quedé en el stand hasta que llegó la hora de mi charla. Pero la charla anterior, de Franco Iacomella, había tenido un problema con el proyector, y se atrasó un poco. Pero el tipo, en lugar de apurarse un poquito, y tratar de redondear la charla, se tomó todo el tiempo del mundo, como si no hubiera nadie esperándolo, y me entregó el Auditorio 25 minutos tarde.
 
@@ -21,6 +22,7 @@ Yo no podía tomarme toda mi hora, porque la gente tenía planeadas otras cosas 
 Luego comimos en una parrillita justo afuera de la Universidad, un poco a las apuradas porque a las dos ya tanía otra charla que dar: "Python más rápido que C". Sí, la misma que había dado el día anterior, parece que está de moda, jejeje. Esperaba poder darla con Lucio, pero no llegó a que le arreglaran el auto temprano (no porque se demoraron en arreglarlo, él se levantó tarde y no llegó, :( ).
 
 .. image:: /images/unlux07/yo.jpeg
+    :alt: Disertando
 
 A diferencia de la del día anterior, esta salió muy bien: habían como 25 asistentes (más de lo que esperaba), y se mostraron interesados. Por mi parte el tener la experiencia del día anterior ayudó muchísimo a la dinámica de la charla, y me salió muy bien. Los últimos cinco minutos estuvieron complicados, porque justo se cortó la luz. La laptop seguía con la batería, pero sin proyector, tuve que improvisar un poquito.
 
@@ -31,6 +33,7 @@ Mi última charla del día fue justamente "a laptop sin proyector"; la daba Efra
 Luego estuve un rato vagando por la zona de registración, charlando con gente, haciendo sociales, bah. Por suerte más tarde volvió la energía eléctrica, y se pudo planificar mejor el cierre de la jornada. En función de lo que había pasado, los chicos decidieron hacer el cierre del evento, y luego poner dos charlas más que habían quedado sueltas.
 
 .. image:: /images/unlux07/organiz.jpeg
+    :alt: Organizadores
 
 De ahí partimos algunos a cenar todos juntos. Algunos bastantes, porque terminamos siendo como treinta en la pizzería. La pasamos muy bien, charlamos a morir, y dije unas palabras para homenajear a los coordinadores y todo, :). Pueden ver fotos de todo el día `acá <https://www.dropbox.com/sh/udqhn2397lf34fh/AADmRsnbKjYWheA_79ql9UU-a?dl=0>`_.
 

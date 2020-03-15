@@ -31,6 +31,7 @@ La charla estuvo muy bien, amena, y muy informativa. Básicamente habló de `Jac
 Luego fuimos con Mat y Guillo a ver de colgar en algún lado la bandera. Luego de largas y esforzadas gestiones con la gente de Grulic, ¡pudimos hasta tener un stand!
 
 .. image:: /images/7jrsl/stand.jpg
+    :alt: El stand de PyAR
 
 Eso nos ocupó el resto de la mañana, especialmente porque Dave tuvo la buena idea de mostrar la OLPC, y pasamos a ser uno de los stands más visitados y donde se amontonaba más gente, :D.
 

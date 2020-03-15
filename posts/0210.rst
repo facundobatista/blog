@@ -23,6 +23,7 @@ Yo corté alrededor de esa hora, sí, aunque los chicos siguieron unos veinte mi
 Los chicos terminaron de armar el paquete con el juego, y lo subieron al `sitio <http://www.pyweek.org/3/>`_.
 
 .. image:: /images/pocus.jpg
+    :alt: Typus Pocus
 
 Entre participantes individuales y por equipos, se subieron 30 juegos antes de la hora límite. Tuvimos dos semanas para evaluar los juegos (los juegos se evalúan por los participantes del concurso, no por el público en general). Las evaluaciones corren por tres carriles:
 

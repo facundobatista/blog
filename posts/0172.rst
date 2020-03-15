@@ -3,3 +3,4 @@
 .. tags: nunca más
 
 .. image:: /images/nunca_mas.jpg
+    :alt: Nunca más

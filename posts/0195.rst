@@ -7,5 +7,6 @@ Es una foto tan linda que no quise dejar de ponerla.
 Y de paso me sirve como respuesta a la primer pregunta de `este post </posts/0192>`_. No, no estoy incluido en el paquete.
 
 .. image:: /images/MoniTermas.jpg
+    :alt: El hada
 
 El brujo tiene dueño: es un hada. Y la amo.

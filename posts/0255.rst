@@ -17,5 +17,6 @@ En las últimas semanas parece que se despertaron los abogados de esos cráneos,
 Por supuesto, yo jamas pondría este número en mi blog, ya que parecería que es ilegal, y lo único que me falta es meterme en quilombos con los chankis. Pero navegando por mi disco encontré esta imagencita rara:
 
 .. image:: /images/raro.png
+    :alt: 1001001001010001101
 
 Aquellos que saben leer binario serán bienvenidos en la casa del señor...

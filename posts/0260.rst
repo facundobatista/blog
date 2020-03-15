@@ -7,6 +7,7 @@ Ayer noche fuimos con Moni y Mariano a ver ballet, argentino, de altísima calid
 Yo *quería* ver en algún momento a Julio Bocca, después de todo es uno de los bailarines más importantes de la segunda mitad del siglo pasado, y probablemente uno de los más importantes de Argentina. En el marco de su pre-despedida, en el Teatro Opera, él montó distintos espectáculos según el día. Ayer fueron "Pas de deux", "Nine Sinatra songs", y "El hombre de la corbata roja". Aparte de a Bocca, pudimos disfrutar a Eleonora Cassano, Hernán Piquin y Cecilia Figaredo, y también al Ballet Argentino.
 
 .. image:: /images/jbocca-el.jpg
+    :alt: Técnica
 
 La primer parte, como el nombre claramente lo indica, está compuesto por una selección de los mejores pas de deux de la carrera de Bocca. Para el bestia ignorante que no sabe lo que es un `pas de deux <http://es.wikipedia.org/wiki/Pas_de_deux>`_ (o sea, yo, cinco minutos atrás), es un dueto en el que los pasos de ballet son ejecutados por las dos personas conjuntamente, aunque normalmente hay partes en que cada uno baila solo. En este caso sí fue música clásica, y estuvo muy bien. Eleonora Cassano fue la pareja de Bocca en esta sección.
 
@@ -15,6 +16,7 @@ La segunda parte fueron canciones cantadas por Frank Sinatra, todos clásicos, b
 La tercera y última sección, después de un pequeño break, era el espectáculo "El hombre de la corbata roja", con Cecilia Figaredo, y música de Lito Vitale.
 
 .. image:: /images/jbocca-hcr.jpg
+    :alt: El hombre de la corbata roja
 
 Una noche distinta, eso seguro. Y con el agregado de que después de las 12 fue el cumpleaños de Moni, ¡feliz cumpleaños! :)
 

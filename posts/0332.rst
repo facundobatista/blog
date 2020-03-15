@@ -14,5 +14,6 @@ Todas las versiones las pueden obtener de las páginas de `descargas de Python <
 
 Todo este laburo salió en fecha, ya que estaba planeado para antes de PyCon 2008, en Chicago, en diez días.
 
-.. image:: http://us.pycon.org/common/2008/website/img/PyConChi.png
+.. image:: /images/pyconchi.png
+    :alt: Conectando a la comunidad
     :target: http://us.pycon.org

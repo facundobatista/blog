@@ -14,16 +14,19 @@ La comida una vez sentados estuvo bien. Pero vale la pena destacar la que había
 El sábado a la mañana tuvimos el cumpleaños de Tiziana: sus dos añitos. Animado por la madre (compañera de Móni en el jardin de infantes), estuvo muy divertido. Y para variar, seguimos comiendo (muy buena la tarta de jamón y queso, así como las empanadas).
 
 .. image:: /images/cumple-tiziana.jpg
+    :alt: Moni y Tiziana
 
 El sábado a la noche, otro casamiento. El de mi prima Karina con Pablo. La yapa del casamiento era el bautismo de Nahuel, el hijo de ambos. La ceremonia estuvo muy bien, fue muy linda. El mejor detalle de la misma es que la hicieron de frente al público, no de espaldas al mismo.
 
 La fiesta, luego, nos "obligó" a seguir comiendo. En este caso destaco los sanguchitos de matambre, ¡espectaculares!
 
 .. image:: /images/casam-karipablo.jpg
+    :alt: Se casaron Kari y Pablo
 
 El domingo al mediodía descansamos,  pero a la noche tuvimos otro cumpleaños: el de Alfredo, el novio de Lá (amiga de Mónica). Lo hizo en un restaurante de Pilar, y la comida estuvo muy buena, en general.
 
 .. image:: /images/cumple-alfredo.jpg
+    :alt: Moni y Lá, con Alfredo de fondo
 
 El lunes me fuí a la casa de mi papá, que hizo chancho y pollo a la parrilla. ¡Qué manera de terminar el fin de semana!
 

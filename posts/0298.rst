@@ -8,6 +8,7 @@ Día 1
 La edición 2007 de CaFeConf arrancó al mediodía, pero muchas personas llegaron antes: no sólo los organizadores, sino también aquellos que teníamos que armar los stands. `Python Argentina <http://www.python.org.ar>`_ tenía uno, y este año aparte de colgar nuestra querida bandera teníamos también una `cartelera de trabajo <http://www.python.org.ar/trabajo/>`_ que presentar.
 
 .. image:: /images/cafeconf07/pyar.jpeg
+    :alt: El stand de PyAr
 
 Cuando tuvimos el stand "funcionando" como queríamos, nos relajamos y empezamos a atender a la gente que empezó a agruparse alrededor ni bien mostramos las OLPCs.
 
@@ -28,6 +29,7 @@ Las dos charlas que había antes del mediodía o no me interesaban tanto, o ya l
 Esta charla era bastante esperada, porque desde hace un mes o mes y medio que venimos diciendo que vamos a darla, y aunque  mucha gente se mostró interesada, nosotros no dimos ninguna pista del trabajo. Sin embargo, nos sorprendió la cantidad de gente: alrededor de 80 personas se amontonaron en el aula, no sólo ocupando todas las sillas, sino también los pisos atrás, adelante, y en los pasillos.
 
 .. image:: /images/cafeconf07/yolucio.jpeg
+    :alt: Con Lucio, antes de arrancar nuestra charla
 
 La charla salió muy bien, y una prueba de ello es que las preguntas luego de la charla no atacaron los resultados ni conclusiones: estuvo todo muy bien justificado y probado, y la concepción de que *"si en lugar de programar en Python, escribís en C, muchas veces (no siempre, pero muchas), estás haciendo optimización prematura"* fue una conclusión aceptada. La charla, junto con los programas que hicimos, `aquí <http://www.taniquetil.com.ar/homedevel/presents/pyrapidc/>`_.
 
@@ -38,11 +40,13 @@ Salimos unos minutos tarde del lugar, y con Moni decidimos ir a tomar un café. 
 El cierre estuvo muy bien, aunque nunca esperamos a ver que el hasta ahora conocido como "Teletubi naranja", también podía ser el "hombre Tux":
 
 .. image:: /images/cafeconf07/leito.jpeg
+    :alt: El gran Leito Monk
 
 Luego de los pequeños discursitos y sorteos de rigor, nos desconcentramos todos. Terminamos de desarmar el stand de PyAr, saludos, abrazos, etc.
 
 Con Moni volvimos a casa, dormimos una pequeña siesta, y partimos a eso de las 11 de la noche hacia Palermo, donde era la fiesta cierre del evento, en PK2. Al principio eramos poquitos, pero luego fue cayendo la gente y se armó la joda grande.
 
 .. image:: /images/cafeconf07/parranda.jpeg
+    :alt: Parranda
 
 Como conclusión, otro CaFeConf, otros dos días espectaculares. Python tuvo nuevamente un papel preponderante en las conferencias. Y yo cada vez estoy más inmiscuido en la comunidad, lo cual me alegra y al mismo tiempo me motiva para seguir participando. Todas las fotos `acá <https://www.dropbox.com/sh/84hoiwnonrujq9a/AACSSWXP5bcN0kU8NPKweXQEa?dl=0>`_.

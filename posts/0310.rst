@@ -11,6 +11,7 @@ Yo pensé en un árbol con una letra por nodo. Al toque, le sugirieron que usase
 La cuestión es que un árbol Trie era lo que yo pensaba que era: un árbol con una letra por nodo. Por ejemplo, para las palabras que usé antes:
 
 .. image:: /images/ft-trie.png
+    :alt: Árbol simple
 
 Perfecto. Humitos tenía la tortura de tener que hacer esto en Java para la facultad, así que luego de llorar un rato puso manos a la obra. Iba como "reportando" en el canal de PyAr, e hizo un par de preguntas. Yo, viendo que era difícil discutir el tema desde lo abstracto, me tomé un rato e hice una implementación en Python y se la pasé.
 
@@ -37,6 +38,7 @@ Esas eran optimizaciones, pero también se me ocurrió un cambio más fundamenta
 Para verlo mejor, les redibujo el ejemplo anterior, pero bajo este concepto:
 
 .. image:: /images/ft-fuckedtrie.png
+    :alt: Comprimido
 
 Como es una especie de Trie *degenerado*, excusándome bajo una incapacidad total a la hora de los nombres, y considerando que la versión anterior me tenía un poco frustrado, lo terminé llamando Fucked Trie.
 

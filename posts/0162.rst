@@ -14,6 +14,7 @@ Llegué al mismo y ya en el check-in me encontré con un conocido: Gustavo Nieme
 A la tarde me fuí a pasear por la ciudad, ya que era el único día que iba a tener libre. La verdad, una porquería. Toda la ciudad son: edificios inmensos y feos, autos grandes, estacionamientos (miles), y autopistas que van y vienen.
 
 .. image:: /images/dallas.jpg
+    :alt: Todo muy cuadrado
 
 Volví enseguida, luego de comerme unos tamales en un local mexicano. Al llegar me encontré con Anna Martelli Ravenscroft y con David Goodger, al que aproveché para preguntarle si les podía dar una mano con la organización.
 
@@ -30,6 +31,7 @@ En el break me encontré con Arnaldo Riquelme, un argentino que vive en Alaska d
 Luego del break di la charla yo. El lugar era inmenso y había bastante gente. Me presentó Anna. Fue raro, porque nunca había hablado en un estrado: realmente me gusta estar más cerca de la filmina y poder señalarla e interactuar con ella; como que de un estrado es demasiado impersonal. Pero igual estuvo bastante bien. Los noté enganchados y hasta se rieron dos o tres veces de comentarios míos. Y a petición mía, como siempre, me ayudaron con el inglés, :D.
 
 .. image:: /images/publicoDecimal.jpg
+    :alt: Mi público
 
 La segunda charla fue sobre el uso de Python en una serie de aplicaciones web con mucho tráfico. Mostraron desafíos, soluciones, arquitectura. Y básicamente demostraron que la frase "Python no escala bien" es mentira. Realmente manejan mucho tráfico, y Python les facilita la vida.
 

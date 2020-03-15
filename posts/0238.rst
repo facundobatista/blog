@@ -13,6 +13,7 @@ Llegamos a la costa sin inconvenientes, y me dije que debería ir a balancear el
 Encima, no era la misma vibración, era mayor. Pero veníamos más lento, y todo bien. Paramos a comprar unas aceitunas, ya cerca de llegar a casa (a menos de 40km de agarrar la autopista BsAs-LaPlata), y al ratito empezamos a sentir un ruido raro, pero justo una avioneta volaba arriba nuestro, a baja altura, y creímos que el ruido venía de ahí. La avioneta se fue, y el ruido seguía: habia muerto un neumático (notable que el auto iba derechito, impecable), así que me tiré a la banquina y lo cambié.
 
 .. image:: /images/rueda-cambio.jpg
+    :alt: Cambiando la rueda
 
 Notablemente, cuando volví a la ruta no sentía ninguna vibración: la culpa no era de la falta de balanceo, sino que era provocada por ese neumático que reemplacé. Raro, ¿no? ¿Se rompió el neumático porque tenía un problema y la vibración venía de ahí? ¿Se rompió el neumático porque sí? ¿O por la vibración que luego se arregló sola? (imaginar aquí la musiquita de `La Dimensión Desconocida <http://es.wikipedia.org/wiki/Dimensi%C3%B3n_Desconocida>`_).
 
@@ -21,6 +22,7 @@ Cuando llegué a destino, mi prioridad fue comprar un neumático nuevo, ya que a
 El gomero me explicó que cuando el neumático es muy viejo (el mío tenía más de cuatro años y 75 mil kilómetros, era uno de los originales del auto), a veces se le forma un *huevo* (se relajan en un punto las capas de acero), y eso provoca vibraciones cada vez mayores hasta que el neumático se rompe:
 
 .. image:: /images/rueda-rota.jpg
+    :alt: Destrozada
 
 Ok, son cosas que pasan. El otro neumático tan viejo que tenía pasó a ser el auxilio, dejé el auxilio original como par del neumático nuevo que había comprado, y listo.
 
@@ -37,6 +39,7 @@ Con respecto a la rueda que había jodido al principio, la volví a desarmar par
 Inmenso error.
 
 .. image:: /images/rueda-error.png
+    :alt: Oops
 
 Regla número uno: cuando tengas una rueda desarmada, no apretes el freno. Regla número dos: cuando tengas una rueda desarmada, no apretes el freno. Regla número tres: cuando hayas apretado el freno, con la rueda desarmada, y haya saltado una piecita al carajo, no vuelvas a apretar el freno para ajustar nada.
 

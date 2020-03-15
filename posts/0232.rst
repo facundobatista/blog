@@ -81,6 +81,7 @@ El tercer modelo trata de tranquilizar el indicador de otro modo. Tomamos siempr
 El siguiente es un ejemplo de los tres modelos para el mismo conjunto de valores simulados (primero a tercer de arriba para abajo). Tienen más ejemplos `aquí <http://www.taniquetil.com.ar/bdvfiles/code/eta/eta-ejA2.png>`__ y `aquí <http://www.taniquetil.com.ar/bdvfiles/code/eta/eta-ejA3.png>`__, y el código que genera todo `aquí <http://www.taniquetil.com.ar/bdvfiles/code/eta/simuladorA.py>`__.
 
 .. image:: http://www.taniquetil.com.ar/bdvfiles/code/eta/eta-ejA1.png
+    :alt: Comparando comportamientos
 
 Como ven, el tercero es el que más tranquilo parece, y así y todo luce responsivo a los cambios de largo o mediano plazo. A mí es el que más me gusta. Pero tiene una falla segura: la cantidad de puntos a tomar en el promedio permanece constante (en este caso, está prefijada a 20).
 
@@ -101,6 +102,7 @@ Entonces desarrollé otro simulador, pero ahora con una lógica distinta, ya que
 En la curva de arriba pueden ver el comportamiento del modelo C de la etapa anterior, y en la inferior, el mismo modelo, solo que ajustamos la cantidad de valores para realizar el cálculo en función de por donde estamos de la descargar (lo que hacemos es tomar todos los valores hasta que llegamos a la mitad, y luego de la mitad la cantidad de lo que faltaría para terminar). Más allá de si nos gusta más o menos, este nuevo modelo tiene la complejidad de *saber* cuantas unidades falta para terminar (podemos saberlo si estamos descargando un archivo del que conocemos el largo total, pero no de otra manera, por ejemplo).
 
 .. image:: http://www.taniquetil.com.ar/bdvfiles/code/eta/eta-ejB1.png
+    :alt: Nuevo modelo
 
 Fíjense que en este nuevo modelo no estamos generando la misma cantidad de puntos siempre para la simulación, sino que arrancamos con una determinada cantidad para descargar, y seguimos hasta que se descargue todo (por eso el ancho de los ejemplos es variable). Noten también que recorté en un máximo la indicación del usuario, para que el detalle inferior se vea mejor.
 

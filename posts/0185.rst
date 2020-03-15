@@ -13,23 +13,26 @@ Prácticamente les comimos todo, y para no hacer diferencias, también les tomam
 Ya que nos habían agasajado, decidimos devolverles el favor yendo a un boliche y pagando nosotros: arrancamos para El Potrero, el cual está muy bien: pool, música, cerveza, etc...
 
 .. image:: /images/pyarstafe-elpotrero.jpg
+    :alt: Lucio jugando al pool, Alecu de fondo
 
 A eso de las dos de la mañana partimos para el hotel. Nos registramos con Lucio, y nos fuimos a dormir hasta las seis y media. Nos levantamos, bañamos, y bajamos a desayunar justo cuando nos pasaba a buscar Juanjo. Desayunamos y partimos hacia la facultad, en una mañana de sábado gris y con una llovizna muy molesta.
 
 El día de charlas estuvo muy bien. Yo arranqué con `Introducción a Python <http://www.taniquetil.com.ar/homedevel/presents/intropython.odp>`_, y siguió Lucio con *Python en el mundo real*. Después comimos en la cantina de la Facultad, unas milanesas con ensalada que estaban muy bien.
 
 .. image:: /images/pyarstafe-almuerzo.jpg
+    :alt: Almuerzo comunitario
 
 A la tarde seguí yo con `Demostraciones técnicas <http://www.taniquetil.com.ar/homedevel/presents/demos_tecnicas/>`_ (`Procesamiento distribuido <http://www.taniquetil.com.ar/bdvfiles/code/distrib.zip>`_, `Sistema de Administración de CDs <http://www.taniquetil.com.ar/bdvfiles/code/sacd.zip>`_, `Web services <http://www.taniquetil.com.ar/bdvfiles/code/ws.zip>`_, y `Booscadoor <http://www.taniquetil.com.ar/bdvfiles/code/booscador-v2.zip>`_) y cerró Lucio con *Magia negra en Python*.
 
 La Jornada fue un éxito: ¡¡280 asistentes!! El público no era gente de Python, sino estudiantes de las carreras de Ingeniería en Sistemas e Ingeniería en Informática, lo cual estuvo perfecto, ya que evangelizamos a full!! Creo que la gente se enganchó, le interesó, y se fue con una buena impresión de lo que es el lenguaje.
 
 .. image:: /images/pyarstafe-publico.jpg
-
+    :alt: Público
 
 Después de allí nos fuimos unas diez o quince personas a un bar que tenía WiFi a realizar un sprint: trabajamos en un proyecto que tiene PyAr de armar una Wikipedia offline en un CD para distribuir a escuelitas.
 
 .. image:: /images/pyarstafe-sprint.jpg
+    :alt: Sprint post conferencia
 
 Después nos separamos y se fue cada uno para su lado a refrescarse/cambiarse, y nos terminamos encontrando más tarde en el bar del día anterior, donde cerramos la noche con pool.
 

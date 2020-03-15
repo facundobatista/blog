@@ -35,6 +35,7 @@ El martes también amaneció lindo. Fuimos a pasear un rato por el río Intiyaco
 El miércoles amaneció feo, pero como ya le habíamos tomado el pulso al clima, decidimos ir a pasear igualmente. Esta vez fuimos a Embalse. El viaje de ida fue bajo una lluvia torrencial, pero ya llegando a Villa del Dique, el cielo estaba despejado. Caminamos un buen rato por el dique, subiendo, bajando a la central hidroeléctrica, etc.
 
 .. image:: /images/crdba08/embalse.jpeg
+    :alt: El embalse
 
 Luego seguimos para Embalse y almorzamos tipo picnic en una especie de islita cerca de la orilla (pudimos entrar con el auto, pero si el agua hubiese subido 5cm, no salíamos...). Leímos, volvimos a pasear, hasta dormimos una siesta (bah, yo, Moni tomó sol, jeje).
 
@@ -82,6 +83,7 @@ Más allá de la historia, que estaba buena, y que era todo actuado por humanos 
 Entre que terminó todo y que volvimos a casa, el día ya había caducado. Empezamos a guardar todo, comimos algo, y nos fuimos a dormir. Es que el domingo nos levantamos a las cinco de la mañana, porque ese mismo día se festejaban los 90 años de mi abuela Cándida, así que salimos súper temprano de Córdoba y casi a las cuatro de la tarde ya estábamos en el cumpleaños.
 
 .. image:: /images/cumpleabuela90.jpeg
+    :alt: Cumple de la abuela Cándida
 
 Lo hicieron en Namuncurá, cerca de Ciudad Evita. Comimos un muy rico asado hecho por Iván y el tío Enrique, y la verdad es que la pasamos muy bien. Todos, incluso la abuela, como correspondía, :).
 

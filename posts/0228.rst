@@ -12,8 +12,10 @@ Screenshots
 -----------
 
 .. image:: /images/autoupgr1.jpg
+    :alt: Vista lateral trasera
 
 .. image:: /images/autoupgr2.jpg
+    :alt: Vista frontal de abajito
 
 
 Changelog

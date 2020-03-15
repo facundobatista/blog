@@ -7,5 +7,6 @@
 Ayer puse `este post </posts/0206>`_, y hoy cuando abro el `Página/12 <http://www.pagina12.com.ar/diario/principal/index.html>`_ me encuentro con el siguiente chiste:
 
 .. image:: /images/chiste-pag12-20060915.gif
+    :alt: ¿Chiste?
 
 *El presente chiste pertenece a Daniel Paz & Rudy, publicado según indico arriba, y fue republicado aquí con el permiso correspondiente*.

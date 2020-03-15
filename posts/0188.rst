@@ -7,9 +7,11 @@ No quería dejar de comentarles dos otros relatos de la primer jornada de Python
 El `primer relato <http://www.python.org.ar/wiki/Eventos/Reuniones/2006/Reunion16>`_ es de Nubis, quien nos acompañó desde Buenos Aires, y cuenta bajo el punto de vista de un asistente, ¡está muy divertido!
 
 .. image:: /images/pyarstafe-trapo.jpg
+    :alt: Aguantamos los trapos
 
 El segundo relato (EDITADO: `la url no existe más <http://www.ceportela.com.ar/como-se-hizo-la-i-jornada-python-en-santa-fe/>`__) es de Cesar Portela, uno de los organizadores, y está contado desde el punto de vista puramente de organizador. Si alguna vez tienen que organizar algún evento, ¡no dejen de leerlo!
 
 .. image:: /images/pyarstafe-yo.jpg
+    :alt: Exponiendo
 
 Las fotos que les dejo acá están tomadas prestadas del sitio donde están todas las fotos sacadas, aquí (EDITADO: `la url no existe más <http://www.lugli.org.ar/mediawiki/index.php/Fotos_1%C2%BA_Jornada_Python_en_Santa_Fe>`__).

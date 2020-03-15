@@ -7,6 +7,7 @@ Arranqué con el mío el viernes a la noche. Yo ya había hecho `una función de
 Vinieron a casa Chaghi, Lucio, Leito y Carolina, Dave, Alecu, y Marito, como pueden ver en el siguiente collage (y Guillermina, que no apareció en la foto).
 
 .. image:: /images/findecump/todospy.jpg
+    :alt: La banda pythonera
 
 Comimos bien. Con Moni armamos dos entradas distintas, y luego ella cocinó un fricassé de pollo muy rico. Y torta de postre, :).
 
@@ -21,6 +22,7 @@ Finalmente pude jugar a un juego muy loco que Alecu y Lucio conocieron en la úl
 Acá pueden vernos jugando, a Lucio, Carolina, yo y Alecu (de izq a der).
 
 .. image:: /images/findecump/juego.jpg
+    :alt: El juego de las pirámides
 
 Los chicos se fueron pasadas las cuatro y media de la mañana... La pasamos de maravillas, :)
 
@@ -29,10 +31,12 @@ El sábado, nos levantamos como pudimos y fuimos al cumple de mi hermana (había
 Gustavo se mandó un rico asadito, como corresponde a un sábado al mediodía...
 
 .. image:: /images/findecump/gusasado.jpg
+    :alt: El gaucho
 
 Ayer domingo, tuvimos dos cumpleaños más. Al mediodía, el de Karen (¡ya son seis añitos! Pensar que a Kike lo conozco de antes de que Fabi quede embarazada...). Y de ahí, a lo de mi viejo, que justo cumplía ayer, 13 de Mayo.
 
 .. image:: /images/findecump/cumpapa.jpg
+    :alt: Charla y picada
 
 Se amasó unas pizzas muy ricas, y charlamos de mil cosas, pero como era Domingo, no nos pudimos quedar demasiado, y nos volvimos temprano. Encima Diana se sentía mal, con lo que se fue incluso antes de comer...
 

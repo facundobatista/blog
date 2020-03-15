@@ -20,32 +20,38 @@ Llegamos un rato antes del comienzo de la charla, pero se me complicó al config
 Con esa pequeña molestia y todo, la charla salió muy bien, pude terminar con casi todo el contenido, y recibí feedback interesante para seguir puliéndola.
 
 .. image:: /images/stafe07/yo.jpg
+    :alt: Introducción a Python
 
 Una vez terminada mi charla, ya quedé como "espectador solamente", y me deleité con las charlas de "Turbogears" (Matías Gieco), y de "PyWeek: un juego en 7 días" (Alecu y Daniel Moisset).
 
 Luego almorzamos, todos los disertantes en una mesa grandota, donde nos atendieron muy bien. El almuerzo estuvo bueno, pero no es estratégico: ¡¡¡nos agarró una modorra espantosa!!!
 
 .. image:: /images/stafe07/almuerzo.jpg
+    :alt: Gran almuerzo gran
 
 A la tarde habían dos tracks de charlas, con lo que había que elegir cuales ver. Yo me decidí por "Desarrollando aplicaciones web con Zope 3" (Pablo Ambrosio), en la que aprendí bastante; "Creando juegos 3D de la mano de Python" (Silvestre Huens), muy bien llevada, especialmente por las demostraciones; "Usando Python para testeos de seguridad mediante simulación automática de ataques" (Dave y Matías Eissler), donde vi que hay mucho para investigar en programación automática de tareas; y finalmente "Programando para la OLPC" (Dave y Alecu), que fue super interesante.
 
 .. image:: /images/stafe07/olpc.jpg
+    :alt: Alecu y Dave
 
 En la última charla se me complicó cual elegir, porque se pisaba con "Concurrencia en Python" (Lucio). Pero ya había dicho que iba a filmar la charla de OLPC, así que no tuve opción. Espero poder ver la charla de Lucio en otro lugar...
 
 Luego de todas las charlas, se sortearon algunos de los regalos que Lucio y Alecu habían traido de la última PyCon, haciendo el sorteo con cuatro lineas de código hechas por Alecu en el momento, mostrándolas en el proyector y explicándole al público qué iba haciendo... ¡muy bien! Hasta tuvo una secretaria de lujo:
 
 .. image:: /images/stafe07/moni.jpg
+    :alt: La secretaria :)
 
 Los nombres se sacaron de una lista suministrada por los organizadores, pero había gente que ya no estaba. Los elegidos pasaban al frente y elegían algunos de los regalos (remeras, bolsitos, etc.).
 
 .. image:: /images/stafe07/freebies.jpg
+    :alt: Regalando cositas
 
 Se produjeron los cierres de rigor, algunas palabras de los organizadores, etc, y nos fuimos para el bar de la terminal de colectivos de Santa Fe, donde tuvimos muchas mesas a nuestra disposición, WiFi, y hasta la onda de desenchufar un toque la tele para poder enchufar nuestras zapatillas.
 
 La idea era hacer un sprint, y nos pusimos a trabajar en Typus Pocus, arreglando detalles, limpiando código, y tocando cosas para que pueda correr en la OLPC.
 
 .. image:: /images/stafe07/sprint.jpg
+    :alt: Laburanding
 
 Nos quedamos hastas altas horas de la madrugada (bueno, las dos de la mañana, pero había sido un sábado super intenso). Se avanzó bastante, y quedamos muy contentos con la experiencia.
 
@@ -62,6 +68,7 @@ Empanada de pescado (no sé de qué), milanesas de surubí, milanesas de otro pe
 Como corresponde despues de tanta comida, más a la tarde fuimos caminando a tomar un helado, y a la vuelta, con Moni, Alecu, César y otro chico que no me acuerdo el nombre, `nos tiramos por un tobogán <https://www.youtube.com/watch?v=zMUY5h7R58w>`_ de esos gigantes y ondulados.
 
 .. image:: /images/stafe07/labanda.jpg
+    :alt: En la heladería
 
 Esa fue como la última actividad, y luego de los saludos de rigor y de dejar a Nico en la casa, partimos para Buenos Aires.
 
