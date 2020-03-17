@@ -6,7 +6,8 @@ El otro día, por una remera en la que mi hermana imprimió un grabado de su aut
 
 Curioseamos bastante, y entre todo lo que Gustavo mostró, estaba su impresora tipográfica automática. Ya no la usa mucho, pero la prendió y la hizo funcionar para mostrarnos cómo trabajaba. Aproveché y la filmé con el teléfono:
 
-<embed style="width:400px; height:326px;" id="VideoPlayback" type="application/x-shockwave-flash" src="http://video.google.com/googleplayer.swf?docId=2533530000671891829&hl=es" flashvars=""> </embed>
+.. youtube:: aqx92MnK5sQ
+    :align: center
 
 Pero no fue todo tan fácil. El video que generé con el fono, en la computadora no lo podía ver bien. Bah, se *veía* bien, pero salía sin sonido. Yo lo quería pasar a un formato más estándar, justamente para subirlo a Google Videos.
 

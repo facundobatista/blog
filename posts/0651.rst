@@ -18,11 +18,5 @@ Hay un micro de la segunda temporada del genial programa "Filosofía aquí y aho
 
 Y como cierre, tenemos al `Chino Laborde <http://tangodemiarrabal.blogspot.com/2011/07/walter-chino-laborde.html>`_, invitado de `Demoliendo Tangos </posts/0276>`_, interpretando, justamente, "Canción desesperada", de Enrique Santos Discépolo.
 
-<object type="application/x-shockwave-flash" data="http://www.youtube.com/v/AKn0oxdxi54" class="ltVideoYouTube" height="355" width="425">
-<param name="movie" value="http://www.youtube.com/v/AKn0oxdxi54" />
-<param name="wmode" value="transparent" />
-<param name="allowScriptAccess" value="sameDomain" />
-<param name="quality" value="best" />
-<param name="bgcolor" value="#ffffff" />
-<param name="FlashVars" value="playerMode=embedded" />
-</object>
+.. youtube:: AKn0oxdxi54
+    :align: center

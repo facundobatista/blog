@@ -15,13 +15,7 @@ Pero Tita es diferente a los dos anteriores, que pesaban alrededor de dos kilos.
 
 En este video bastante interesante podemos ver a Lino Barañao (Ministro de Ciencia y Tecnología) y Emiliano Kargieman (CEO de Satellogic), contándonos un poco todo esto (y de paso se ven pasos de la construcción, y las oficinas, ¡donde se ve bastante gente de PyAr trabajando!).
 
-<object type="application/x-shockwave-flash" data="http://www.youtube.com/v/1bF_U5Ep8-U" class="ltVideoYouTube" height="355" width="425">
-<param name="movie" value="http://www.youtube.com/v/1bF_U5Ep8-U" />
-<param name="wmode" value="transparent" />
-<param name="allowScriptAccess" value="sameDomain" />
-<param name="quality" value="best" />
-<param name="bgcolor" value="#ffffff" />
-<param name="FlashVars" value="playerMode=embedded" />
-</object>
+.. youtube:: 1bF_U5Ep8-U
+    :align: center
 
 Como detalle final, les dejo `este audio de Adrián Paenza hablando sobre los satélites <http://radiocut.fm/audiocut/que-sabes-de-los-satelites/>`_ (en general) en el programa La Mañana de Victor Hugo Morales.
