@@ -1,0 +1,40 @@
+.. title: Liberando dos pequeñas utilidades
+.. date: 2020-03-25 23:38:00
+.. tags: Python, proyectos, calculadora, conversor, unidades, Canonical
+
+Desde que empecé a trabajar en Canonical (hace más de diez años) fuí recorriendo distintas "grandes etapas".
+
+Una de ellas fue la aventura del "teléfono Ubuntu", en la cual mi participación era en el equipo con el que armamos una determinada infrastructura *en la nube* para dar soporte a programejos que corrían en el teléfono (que se llamaban *scopes*).
+
+Parte de esa infrastructura era más o menos aburrida: sólo éramos un pasamanos de otros servicios, como por ejemplo en el caso del clima (como podrán imaginar, no predecíamos el clima nosotros, sino que usábamos The Weather Channel (si recuerdo correctamente)).
+
+Pero había una parte de esa infrastructura que fue fascinante construir: eso que llamábamos "scopes scope", que era basicamente darle soporte a un "buscador genérico" que había en el teléfono. Estaba buena porque vos podías buscar algo y nosotros inferíamos un montón de eso, y te dábamos información y ofrecíamos/recomendábamos otros scopes del teléfono.
+
+Por ejemplo, si ponías "metallica", nos dábamos cuenta que era una entidad en sí misma, y te dabamos la info de Wikipedia sobre Metallica. Pero también nos dábamos cuenta que era una banda y te dábamos acceso a música y videos, y te tirábamos busquedas relacionadas para que investigues (por ejemplo, la discografía). Si ponías "Roma" te ofrecíamos información de esa ciudad, y te dábamos acceso a que veas su mapa, el clima, etc.
+
+.. image:: /images/scopesscope.png
+    :alt: Metallica
+
+No sólo eso, sino también teníamos algunas utilidades, justamente sobre dos de las cuales les vengo a hablar hoy.
+
+Una era un conversor de unidades genérico. Un par de ejemplos:
+
+- ponías ``42 km a millas`` y te daba ``42 kilometers = 26.0976 miles``
+- ponías ``217c en kelvin`` y te daba ``217°C = 490.15K``
+- ponías ``2 cup cc`` y te daba ``2 US cups = 473.1765 cubic centimeters``
+
+La otra, una calculadorita piola. Ejemplos:
+
+- ponías ``5 + 2*pi`` y te daba ``11.28318530717958623199592694``
+- ponías ``e ** -1 / sin(55)`` y te daba ``-0.3679695299155818045728854210``
+- ponías ``log2(64)`` y te daba ``6``
+
+Les comento de estas utilidades que teníamos en el *scopes scope* porque cuando se decidió cancelar el proyecto del teléfono, empecé a mirar qué código me daba lástima perder.
+
+El que hacía el análisis lingüístico que mencioné antes era repiola, pero en verdad era un bardo. Muy muy difícil de construir toda la parafernalia de pequeñas bases de datos preprocesadas para que anduviera. Y los que eran códigos "pasa manos" no eran divertidos. Y había otras cositas por ahí, pero meh.
+
+Estas dos utilidades sí me entusiasmaron, así que pedí permiso para liberarlas. Me lo dieron, y en su momento las separé del código base en que estaban, y las puse en sendos proyectos en Launchpad, como primer paso.
+
+Finalmente, en estos días de cuarentena las rescaté, llevé a github, migré a Python 3, le dí un poco de forma a cada proyecto en sí, y las terminé subiendo en PyPI: `unitconv <https://pypi.org/project/unitconv/>`_ y `pysimplecalc <https://pypi.org/project/pysimplecalc/>`_.
+
+Tengan en cuenta que ambas utilidades las pueden usar tanto desde linea de comandos como importarlas como módulo y usarlas desde cualquier otro código Python.
