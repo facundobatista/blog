@@ -1,0 +1,36 @@
+.. title: Retomando efectivamente CDPedia
+.. date: 2020-04-18 22:55:00
+.. tags: CDPedia, experimento, proyecto, git, Github
+
+Hace un par de meses `les contaba <https://blog.taniquetil.com.ar/posts/0804/>`_ que iba a hacer un experimento social alrededor de un grupo de trabajo para poner al día `CDPedia <http://cdpedia.python.org.ar/>`_.
+
+¡¡En el formulario que puse para que se anoten se inscribieron 80 personas!! Obviamente el grupo tenía que ser más chico (máximo 10 inscriptes, y tantos porque tengo a Dave y SAn que me dan una mano co-mentoreando). 
+
+Entonces me puse a analizar las propuestas, me quedaron tres grupos: unes cuatro que entraron directamente, unes 20 que "pasaron a la final", y el resto que quedaron directamente afuera. Para eses que pasaron a la final, hice un análisis más fino, teniendo una entrevista por videoconferencia de unos 10 minutos. 
+
+Todo eso llevó un buen tiempo, claro, y mi idea de arrancar en Marzo se fue evaporando. Luego endurecieron la cuarentena, y ahí también se fue diluyendo la posibilidad de hacer la primer reunión, el arranque, de forma presencial con todo el grupo.
+
+.. image:: /images/frankfurt-ciudad.jpeg
+    :alt: Paisaje de Frankfurt
+
+A principio de mes puse las cartas sobre la mesa y elegimos. Las alternativas eran esperar indefinidamente hasta poder arrancar presencial, esperar a luego de semana santa para ver qué pasaba, o cortar por lo sano y planear esa primer reunión de forma virtual. Optamos por esto último.
+
+Hicimos una reunión previa para probar la herramienta que ibamos a usar para comunicarnos y asegurarnos que nuestras compus y configuraciones de audio/video funcionen ok, y ya el sábado pasado tuvimos el kickoff.
+
+Nos juntamos virtualmente por seis horas (tres a la mañana, cortar una hora para el almuerzo, y tres a la tarde), con algunos mini-breaks más o menos cada hora.
+
+Hubo una bienvenida y charla informal, nos presentamos cada une, les conté en detalle los objetivos de todo esto: aprender Python nivel básico / intermedio, o mejorar el nivel que tienen, ganar experiencia de trabajo en grupo (tanto remoto como presencial), aprender herramientas como control de versiones o manejo de issues, conocer prácticas modernas de desarrollo (tests, pep8, git, colaboración grupal), y tener una experiencia de trabajo como un "profesional de primer nivel".
+
+Y, obviamente, ¡laburar en CDPedia! Esto lo separé en tres grupos principales: actualizar el código (pep8, tests, inglés, python3, etc), hacer cosas que teníamos planeadas (fixes, features), y hacer/anotar cosas que se nos ocurran que están buenas.
+
+Después  (y especialmente luego de almorzar) nos metimos con el control de versiones, Github, y el proyecto en sí. Charlamos de procesos, de comandos, les expliqué todo el proceso de la CDPedia, vimos algo de código, y lo más importante: cada une realizó el proceso en su máquina para obtener una imagen resultado (en modo test, poco contenido).
+
+Esto último llevó tiempo porque la CDPedia no tiene muy afilado el tema de entornos y dependencias, pero lo fuimos sacando entre todes para los distintos casos. 
+
+Y no llegamos a ver los issues actualmente cargados, porque se nos terminó el sábado "laboral". 
+
+Estos días estuve acomodando y revisando los issues pendientes, marcando muchos como `ideales para este experimento <https://github.com/PyAr/CDPedia/issues?q=is%3Aissue+is%3Aopen+label%3Aguinea-pigs>`_, y haciendo algunas cositas de soporte operacional, como migrar el mecanismo principal de comunicación del proyecto al `nuevo Discourse de PyAr <https://pyar.discourse.group/c/cdpedia/>`_.
+
+Y ayer viernes tuvimos la primer reunión semanal donde sí nos metimos con estos issues, charlamos un poco de lo que había visto cada une, y sentamos las bases para que en la segunda semana ya puedan empezar a producir código. 
+
+A les chiques les vi entusiasmades, ojalá puedan meterse de lleno y aprender un montón. Ojalá que se diviertan :)
