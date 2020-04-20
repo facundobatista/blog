@@ -16,12 +16,12 @@ Todo es parte del entrenamiento necesario para luego poder demostrar el uso de a
 
 .. image:: /images/felu-guitarra.png
     :alt: Felu con la guitarra
-    :target: http://www.taniquetil.com.ar/bdvfiles/media/felu-guitarra.3gp
+    :target: https://www.dropbox.com/s/deinqfb2qxa3lwd/felu-guitarra.3gp?dl=0
 
 Lo cual es sólo la preparación para el concierto final:
 
 .. image:: /images/felufacu-concierto.png
     :alt: Felu y Facu en concierto
-    :target: http://www.taniquetil.com.ar/bdvfiles/media/felufacu-concierto.ogv
+    :target: https://www.dropbox.com/s/pe4nym81mvd8q1g/felufacu-concierto.ogv?dl=0
 
 *(hagan click en las dos últimas fotos para ver el video correspondiente)*
