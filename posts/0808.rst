@@ -1,0 +1,35 @@
+.. title: Encuarentenados
+.. date: 2020-04-26 17:41:00
+.. tags: cuarentena, viaje, cumpleaños
+
+Muy a fines de Febrero viajé a Frankfurt para una semanita de laburo como tantas otras. El bardo del coronavirus ya amenazaba pero no había explotado.
+
+Dos semanas antes de ese viaje nos habían dicho que el sprint se seguí haciendo, no se cancelaba. Luego una semana antes nos contaron que todes les trabajadores de China y alrededores (no recuerdo exactamente las zonas) NO iban a venir al sprint. Y dos días antes de viajar bajaron la comunicación de "si querés NO venir, podés".
+
+Yo viajé, con muchas precauciones. Canonical hizo mucho hincapié en todas las medidas de seguridad al respecto. Desde recomendar no saludarnos con contacto físico, hasta poner a disposición alcohol en gel en todos los espacios todo el tiempo. Ayudó también que tuvimos todos habitaciones individuales, aunque esa decisión se había tomado meses atrás por otras razones.
+
+.. image:: /images/frankfurt-árboles.jpeg 
+    :alt: Típicos árboles de jardines cerveceros
+
+Volví el fin de semana siguiente. Ya se hablaba mucho más del tema. Pero no se lo tomaba tan en serio. Yo tomé la decisión de aislarme de adultes mayores (mis mamá, mi papá, otres amigues), pero no mucho más. 
+
+Incluso ese lunes (yo volví el domingo) hice tenis, y el martes batería. El miércoles ya se hablaba sobre que les que viajamos deberíamos estar aislados, entonces corté toda interacción con el mundo exterior. El jueves hablé con la escuela de les chiques y decidimos que elles dejen de ir (la cuarentena general para estudiantes fue declarada el lunes siguiente).
+
+Todo muy rápido.
+
+Eso fue hace cuarenta días. Y acá seguimos, encuarentenados.
+
+Yo estoy laburando como siempre, en ese sentido no me cambió nada: lo mio es 100% remoto desde hace mucho. Moni, como trabaja en Salud, sigue yendo a laburar (aunque con actividades y horarios distintos). Y les pibes con tarea enviada por la escuela (usando Google Classroom, y con reuniones por Zoom).
+
+En verdad, tengo menos tiempo libre que antes, ya que no sólo laburo todo el día y tengo a les pibes en casa (como a principios de Enero, digamos), sino que encima les tengo que ayudar/asistir con sus actividades extras...
+
+Este bardo la agarró a Male en su cumpleaños, encima :(. Hicimos todo lo posible para que la pasara bien. Muchas videollamadas, actividades especiales como una búsqueda del tesoro (siguiendo pistas por toda la casa), hicimos que ella defina los menús de mediodía y noche, cocinamos unas galletitas de limón, y hasta eligió una peli para ver ("Gremlins", que tuvo que ser al día siguiente, porque nos quedamos sin tiempo).
+
+Creemos que la terminó pasando bien. Incluso hace unos días alguien en una videollamada le preguntó cómo había pasado su cumple y contestó algo como "al principio triste pero después estuvo excelente" :D.
+
+.. image:: /images/cumplemale10.jpeg 
+    :alt: En el desayuno, y buscando las pistas
+
+Y no fue ni va a ser el único cumple así, no. Hace unos días cumplió mi vieja, un bajón que lo haya tenido que pasar sola :(. Le hicimos una merienda en videoconferencia, con familia que se fue conectando, le cantamos el feliz cumple, etc. :) Y ahora en Mayo cumple un montón de gente de mi familia, incluídes Moni y yo.
+
+En fin, es un bajón, pero nos la bancamos porque nos parece que el aislamiento social preventivo es `uno de los métodos más efectivos para manejar esto <https://elgatoylacaja.com.ar/comerse-la-curva/>`_. Para cerrar, les recomiendo `esta otra página de El Gato y La Caja <https://beta.elgatoylacaja.ar/coronavirus>`_, especialmente el gráfico de "trayectoria". 
