@@ -1,0 +1,31 @@
+.. title: El retorno de Encuentro
+.. date: 2020-05-04 11:24:00
+.. tags: Encuentro, programa, canal
+
+No, no es la parte dos de una película clase B.
+
+El `programa Encuentro <http://encuentro.taniquetil.com.ar/>`_ es un pedazo de software que permite buscar, descargar y ver contenido de Encuentro y otros canales; no distribuye contenido directamente, sino que permite un mejor uso personal de esos contenidos.
+
+Lo arranqué al principio de la década pasada y tuvo muchas etapas. Me ayudó un montón de gente en el mismo, es que uno de los puntos claves era "entender" los distintos backends para poder bajar los videos, y pasaba que a veces cambiaban, y había que adaptarse.
+
+.. image:: /images/encuentro-logonuevo.png
+    :alt: Encuentro
+
+Pero hace unos años pasó que se vinieron les chetes al gobierno, y fueron matando muchas cosas del Estado. Y mi Encuentro quedó desactualizado, y sin muchos backends para brillar, y fue perdiendo prioridad en mi sobreabultada lista de tareas. Encima tenía el fantasma flotando de dos migraciones complejas: saltar de Qt 4 a Qt 5, y de Python 2 a Python 3. Y no me daba meterme con eso solamente por amor al arte.
+
+Entonces lo maté. Bueno, no, tampoco es que lo maté. Solamente dejé de meterle tiempo. Quedó ahí, flotando en el éter.
+
+.. image:: /images/chucky.png
+    :alt: Chucky el asesino de softwares
+
+Fast forward al presente.
+
+Hace algunas pocas semanas recibí un mail de un tal Santiago Torres Batán que quería agregarle a Encuentro el backend de `Contar <https://www.cont.ar/>`_. Y era consciente de las dos migraciones que había que hacer, y las había explorado y todo.
+
+Le expliqué un poco toda la burocracia que teníamos que sobrellevar para traer al coso esto de la muerte, y me ayudó a hacerla (pasándome comands, documentación, ideas).
+
+Entonces lo primero que hicimos fue migrar el proyecto a ``git``, y lo `metimos en GitHub <https://github.com/facundobatista/encuentro/>`_ (tanto código como issues). Luego él propuso el branch para migrar de Qt 4 a 5 y de Python 2 a 3, con un detalle: había que aplicar ambos al mismo tiempo. Yo los barajé un poco, terminé metiendo el de Qt directamente, y el de Python así como estaba pero con otro branch mío atrás cambiando una miríada de detalles.
+
+Ahora es un proyecto moderno. Bienvenido Encuentro al veinte veinte.
+
+El próximo paso es actualizar los backends. Como les decía, Santiago ya está trabajando en Cont.ar, y luego hay que "limpiar" los otros que ya no funcionan más. Hay que ponerle amor en el futuro, pero (ahora) la base está.
