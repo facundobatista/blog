@@ -1,0 +1,59 @@
+.. title: La próxima evolución del backup
+.. date: 2020-05-15 19:55:00
+.. tags: backup, Dropbox, Python, solución, archivos, Amazon
+
+La frase "hay que hacer backup" es una de esos mantras que uno repite y repite pero sobre los que raramente acciona.
+
+A menos que, como a mí, se les haya roto hardware y hayan perdido información. Ya hace muchos años que hago backup y tengo distintos métodos para salvaguardar mi data.
+
+Así y todo, no lo tenía 100% resuelto. Tengo mucha información que es imposible recuperar (ejemplo: ¡fotos!) en dos discos en casa y "en la nube", pero hay otro montón que sólo tenía localmente.
+
+Y sí, uno piensa que en el caso de "se me prendió fuego la casa" o "me entraron a robar y se llevaron las compus" toda la información que no tenía backup externo pasa a un segundo plano en importancia. Pero no, porque aparte de que te pasó alguna de esas "catástrofes", *encima* perdiste la info esa, de la cual puede depender tu laburo...
+
+.. image:: /images/hongoatómico.jpeg
+    :alt: "No te preocupes, tengo una copia en un disco y la otra en la habitación de al lado" - Tu casa ↑
+
+En el pasado `les comenté <https://blog.taniquetil.com.ar/posts/0737/>`_ que tenía la intención de hacer backups externos en algo como `Amazon Glacier <https://aws.amazon.com/es/glacier/>`_, y hace un tiempo empecé a ver qué onda, calcular un poco qué costos tendría, etc.
+
+Justo en esa época me aumentaron el precio del servicio que pago en `Dropbox <https://www.dropbox.com/>`_, en el que tengo 2 TB de almacenamiento, entonces tomé la decisión de usar Dropbox como "lugar remoto en dónde hacer backup": no tenía que contratar otro servicio, no tenía que incrementar mis costos al respecto, no tenía que aprender a usar otro backend, etc. Todo redondo.
+
+Entonces apunté a un directorio bajo Drobox el ``rdiff-backup`` que venía ejecutando (que me dejaba copias diferenciales de mis datos importantes en otro disco).
+
+Y ahí empezó un pequeño descalabro que más o menos pude manejar. Es que ``rdiff-backup`` me copió al Dropbox un trillón de pequeños archivos con variadísimos nombres. No es culpa de esa herramienta, claro, sino que es esa justamente la info que me interesa resguardar.
+
+Pero Dropbox probó ser bastante flojito.
+
+Por un lado, algo que ya sabía: hay un montón de limitaciones que tiene Dropbox con respecto a los nombres de los archivos. Parte de esas limitaciones son porque el sistema de archivos de Windows es más limitado, y Dropbox te transmite esas limitaciones incluso cuando une no esté replicando esos archivos en Windows.
+
+Y luego se le complicó manejando el trillón de archivitos que le aparecieron de repente. No era un problema de "ancho de banda" (que no estaba saturada), sino de cantidad de archivos. Más allá que le tuve que levantar un límite del sistema operativo al proceso, tuve que matarlo y volver a levantarlo mil veces hasta que terminó de procesar todo. Ahora quedó más o menos andando: a veces se cuelga, y cuando arranca tarda un buen, buen rato en estar disponible.
+
+.. image:: /images/gatocolgado.jpeg
+    :alt: Se colgó
+
+Hace un par de semanas me cansé y opté por hacer algo al respecto. 
+
+Y armé un `script en Python <https://github.com/facundobatista/backupacker>`_ que lo que hace es agrupar archivos y directorios en "paquetes con nombres sanos", y después mete eso directamente en Dropbox. Ok, lo resumí demasiado, vamos con más detalles...
+
+Al script se le pasa un archivo de configuración que tiene tres datos obligatorios:
+
+- ``rootdir``: el directorio raiz del árbol completo que se quiere hacer backup
+
+- ``builddir``: un lugar en donde se van a ir dejando todas las estructuras intermedias
+
+- ``syncdir``: el lugar final a donde copiar todo lo generado
+
+Entonces al arrancar trabaja leyendo ese árbol desde ``rootdir``, dejando unos comprimidos (``.tar.gz``) en ``builddir``. Esos comprimidos son todos los archivos de ese directorio raiz, más cada uno de sus directorios (sub-árboles enteros), teniendo en cuenta siempre de *sanitizar* los nombres para que sean todos válidos para Dropbox.
+
+Luego de recorrer todo, manda lo que armó al destino final en Dropbox (``syncdir``) directamente, sin usar ``rsync-diff``, porque Dropbox ya me da la funcionalidad de "historial" de los archivos (para la cuenta que tengo, 30 días). 
+
+Dos "grandes detalles"...
+
+Por un lado, hay archivos o directorios que quiero ignorar; un ejemplo típico en mi caso es ``~/devel/reps``, porque todo lo que tengo ahí está en github, o launchpad, o etc. Bueno, en ese archivo de configuración que mencioné antes se puede indicar una lista de "todo lo que se quiere ignorar".
+
+Por otro lado, hay directorios que no tiene sentido empaquetar directamente, sino que conviene explorarlos un poco más. Por ejemplo, no tiene sentido empaquetar ``.local`` directamente, ni siquiera ``.local/share``, sino que lo más piola es tener ``.local/share`` como directorios normales y empaquetar los quichicientos directorios que están ahí adentro, por separado. Para esto el archivo de configuración incluye algo llamado "niveles de agrupamiento": para dicho ejemplo tendríamos: ``.local: 2``
+
+La idea general es tener "paquetes", ni muy chicos (serían miles, en el extremo volveríamos a la situación original), ni demasiado grandes (porque si tenemos un paquete de 5GB, y entre backup y backup cambiamos un solo byte de eso, el archivo nos queda diferente). Por eso por ejemplo lo que hay adentro ``.local/share`` conviene empaquetarlo todo separado, porque lo más probable es que poco de eso cambie de backup a backup.
+
+Para ayudarnos a analizar esa situación (y ver si nos conviene ignorar algo, o cambiar los niveles de agrupamiento de algún directorio), el script al terminar nos da un resumen de tamaños de archivos y sus estados con respecto al backup anterior. De esta manera podemos detectar si tenemos algún directorio grande que está cambiando todo el tiempo, y que quizás querramos discriminar en sus subdirectorios.
+
+Si piensan usarlo, y se les complica con algo o necesitan algún detalle, me avisan!
