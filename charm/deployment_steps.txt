@@ -1,0 +1,4 @@
+juju deploy apache2
+
+juju deploy bdv
+juju add-relation bdv:apache-website apache2:apache-website

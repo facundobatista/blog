@@ -25,4 +25,8 @@ site/.doit.db
 /site/.doit.db
 *.sqlite
 
+# charm stuff
+charm/build
+charm/*.charm
+
 spam/mail.txt

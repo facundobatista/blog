@@ -1,0 +1,16 @@
+name: bdv
+summary: Charm to deploy Bitácora de Vuelo
+description: This charm will set up all the components for the blog Bitácora de Vuelo to run properly
+series:
+    - bionic
+# provides:
+#    apache-config:
+#        interface: apache-vhost-config
+requires:
+    apache-website:
+        interface: apache-website
+        scope: container
+#provides:
+#    vhost-config:
+#        interface: apache-vhost-config
+subordinate: true
