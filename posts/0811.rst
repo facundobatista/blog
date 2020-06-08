@@ -1,0 +1,21 @@
+.. title: Salió fades 9.0
+.. date: 2020-06-08 19:17:00
+.. tags: fades, Python, release, virtualenv
+
+¡Tenemos una nueva versión de `fades <http://fades.rtfd.org/>`_ en la calle! 
+
+Ya deberían saber qué es *fades*... pero por las dudas: es un sistema que maneja automáticamente los virtualenvs en los casos que uno normalmente encuentra al escribir scripts y programas pequeños de Python, e incluso ayuda a administrar proyectos grandes. Crea automáticamente un nuevo virtualenv (o reusa uno creado previamente) instalando las dependencias necesarias, y ejecutando el script dentro de ese virtualenv.
+
+Con `Nico <https://twitter.com/gilgamezh/>`_ estamos muy contentos porque esta versión nos trae algunas mejoras piolas que veníamos esperando tener:
+
+- Hace que pip se actualice automáticamente a la última versión en la creación del virtualenv (a menos que se indique lo contrario).
+
+- Provee la opción ``--freeze``, que graba la info detallada de los paquetes del virtualenv, para duplicar instalaciones futuras.
+
+- Extiende y normaliza el comportamiento del parámetro ``-x/--exec`` para soportar paths arbitrarios.
+
+- Crea la opción ``--autoimport`` para importar automáticamente las dependencias instaladas al entrar al intérprete interactivo.
+
+También agregamos ejemplos y descripciones a la documentación, mejoramos el parseo de argumentos cuando *fades* se usa en el shebang y se mejoró la infrastructura en general (mejores pruebas, soporte multiplataforma, etc).
+
+Toda la documentación en `Read The Docs <http://fades.rtfd.org/>`_. Y recuerden que pueden pasar a hacer consultas sobre *fades* en el `grupo de Telegram correspondiente <https://t.me/fadesmagic>`_.
