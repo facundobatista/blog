@@ -1,4 +1,6 @@
+# deploy apache
 juju deploy apache2
 
+# deploy the blog, and relate it to apache
 juju deploy bdv
 juju add-relation bdv:apache-website apache2:apache-website
