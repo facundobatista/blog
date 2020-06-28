@@ -1,0 +1,43 @@
+.. title: Jugando virtual (y no tanto)
+.. date: 2020-06-28 10:34:00
+.. tags: juego, plataforma, servicio, portal, dominion, cards, cartas, bingo, escape
+
+Es obviamente un resultado de la pandemia el que estemos todes encerrades y no podamos salir a hacer nada.
+
+Bueno, algunas cosas esenciales sí, pero no a todo lo que estábamos acostumbrades. Por ejemplo, juntarnos con amigues, charlar, jugar algún juego de mesa...
+
+La parte de "charlar" es facilmente resoluble. Sí, podés hacer una videoconferencia (Jitsi, Google Meet, Zoom, etc), pero también podés agarrar el teléfono ("levantar el tubo") y hacer una llamada "de las de antes" :p.
+
+La parte de jugar algún juego de mesa es más complicada. O imposible dependiendo del juego. Pero por suerte hay algunas plataformas online que (con alguna registración previa, pero en general gratis) dan el servicio de jugar algún determinado juego.
+
+Entonces, lo único que hay que hacer es coordinar con algunes amigues encontrarse en un determinado horario en alguna videoconferencia, y jugar un rato con alguna de estas plataformas. Tené en cuenta que algunas necesitan un "setup" o configuración inicial, que es mejor intentarlo antes así no se pierde el tiempo cuando todes están ansioses de jugar, y todo sale más dinámico.
+
+Este post es para contarte, entonces, algunos de estos juegos que fuí encontrando y jugando en distintos grupos...
+
+- **Dominion** [`plataforma <https://dominion.games/index.html>`__, `instrucciones/tutorial <https://m.youtube.com/watch?v=5jNGpgdMums>`__]: Un gran juego de cartas en el que en cada turno se puede hacer una acción y una compra (al menos), balanceando todo entre principalmente tres tipos de cartas: las de victoria (es lo que hay que sumar para ganar el juego, querés comprar muchas de estas), las de tesoro (sirven como moneda para adquirir otras cartas, querés comprar muchas de estas) y de acción (generan efectos como más compras, dinero extra, tirar maldiciones, etc; querés comprar muchas de estas). Obviamente el qué comprar y cuándo es el equilibrio que tenés que tener en el juego... 
+
+.. image:: /images/juegonline-dominion.png
+    :alt: Dominion Online
+
+- **Drawful 2** [`sitio <https://www.jackboxgames.com/drawful-two/>`_]: Una especie de pictionary online, pero mezclado con que todes tienen que adivinar lo que se intentó dibujar. Está bueno porque aunque juegues en la compu podés entrar a dibujar con el teléfono (es más fácil dibujar moviendo el dedo en el celu que con el mouse). Ojo que este hay que pagarlo (sólo una persona, la que hostea el juego).
+
+- **Cards Against Humanity** [`plataforma <https://allbad.cards/>`__, `instrucciones <https://www.businessinsider.com/cards-against-humanity-virtually-online-video-chat-how-to-play-2020-3#now-heres-how-all-bad-cards-works-2>`__]: Un `clásico <https://es.wikipedia.org/wiki/Cartas_contra_la_humanidad>`_ de los juegos de cartas, lleva al límite la incorrección política. Su versión online tiene la (GRAN) ventaja que podés escribir tu propia respuesta en el momento, con lo cual podés darle una vuelta de rosca más al juego.
+
+- **Tutti frutti** [`plataforma <https://bastaonline.net/>`__]: También llamado "Basta" en otras regiones. En esta plataforma, aunque te tenés que registrar (gratis) para hacerlo, podés armar el juego con las categorías (o "columnas") que quieras. Entonces, podés jugar algo clásico como "colores", "paises", "nombres", etc, o podés elegir categorías desopilantes que te ofrece el sitio (o armar las tuyas propias), como "te amo, pero...", "excusas para no bañarte", "lugares para esconder un cadáver", etc...
+
+- **Coronabingo** [`plataforma <https://coronabingo.now.sh>`__]: Eso, un bingo, por si querés algo tranquilo y sencillo.
+
+- **Apocalipsis higiénico** [`plataforma <https://theparadoxroom.com/digital/game/apocalipsis-higienico/>`__]: A diferencia de los anteriores no simula un juego de mesa, sino una sala de escape. A mí me encantan las salas de escape "físicas" y le tenía medio desconfianza a probar una virtual, porque gran parte de lo lindo de la sala de escape es interactuar con objetos físicos de la misma manera que siempre hicimos en la compu con las aventuras gráficas. Debo reconocer que este *Apocalipsis higiénico* estuvo muy, muy bueno. Con una historia interesante, con desafíos raros y divertidos, y hasta con "pistas" bien pensadas por si te trababas en algún paso. Me encantó.
+
+Hay muchos más para explorar en `BoardGame Arena <https://boardgamearena.com/gamelist>`_, pero es algo que yo no probé (todavía).
+
+Les quiero dejar como bonus track un juego NO virtual (aunque se puede jugar de forma cooperativa, pero todavía no lo intenté). Que hay que comprar e instalar. Pero es genial, para mí el descubrimiento de la década. Es el `Portal 2 <https://es.wikipedia.org/wiki/Portal_2>`_.
+
+.. image:: /images/juegonline-portal2.png
+    :alt: Portal 2
+
+Es basicamente un juego de resolución de acertijos. Mezclado con el modo *disparos en primera persona* (FPS). Inmerso en una gran, gran historia. Y con el condimento maravilloso (la base del juego, claro) que se pueden crear portales a voluntad. Esto le da una fantástica posibilidad creativa a la hora de pensar las resoluciones de cada ejercicio. Con Felu ya lo terminamos, tipo en un par de semanas, nos alucinó. Ahora estamos viendo cómo jugarlo de forma cooperativa.
+
+Es en este momento que les aclaro que sí, hay que comprarlo, pero ahorita mismo está en oferta en Steam, sale $26. Eso son 26 PESOS ARGENTINOS, ¡una verdadera ganga!
+
+Con Felu también nos encantó este fantástico resumen del juego, pero **¡ojo, spoiler alert!** les cuenta toda la historia, así que si lo piensan jugar, ¡no lo vean! En fin, están avisades. Es `este <https://www.youtube.com/watch?v=p5G61t4FIFs>`_.
