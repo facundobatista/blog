@@ -1,0 +1,45 @@
+.. title: Asegurando energía
+.. date: 2020-07-19 23:33:00
+.. tags: energía, Linux, UPS
+
+Cuando empecé a laburar desde casa, hace unos once años y medio, me di cuenta que me iba a tener que comprar bocha de cosas: una buena silla, escritorio, etc. Pero algo que no pensé al principio, y que tuve que comprar al poco tiempo, fue una UPS.
+
+Una UPS (Uninterruptible Power Supply, o Fuente de Energía Ininterrumpible) permite seguir trabajando en la computadora aunque se corte la electricidad en tu casa, y además en alguna medida te protege contra picos o bajones de tensión, lo cual también es una buena idea.
+
+Hay un millón de modelos, y no es algo novedoso, pero yo nunca había tenido una UPS hogareña. En su momento investigué un poco y me terminé comprando una TRV 650A.
+
+.. image:: /images/ups-trv-650a.jpeg
+    :alt: La viejita
+
+Siempre le enchufé la compu principal, el monitor, y el router de internet. 
+
+Al principio tiraba un montón de tiempo cuando se cortaba la electricidad. Luego la batería se fue poniendo vieja, y rendía menos. En algún momento empecé a dejar de laburar cuando se cortaba la electricidad, pero tener la UPS me permitía apagar la máquina de forma ordenada, y dejar el resto de energía que le quedaba para alimentar el router (que consume muchísimo menos que la compu y el monitor, entonces tiraba bastante tiempo más).
+
+Tipo por 2016 decidí cambiarle la batería interna. Resulta que la gente de TRV está en una esquina de CABA medianamente cerca de casa, así que se las llevé a ellos. Le cambiaron la batería, claro, pero también le pegaron una revisada general. La renové, bah.
+
+Pero pasó tiempo. Y el otro día se volvió a cortar la electricidad y se apagó todo al toque. Decidí que era momento de hacer un cambio, y compré una UPS nueva. 
+
+Como TRV me funcó bien, ni lo pensé, les compré a ellos. Algo un poco más grande, que no viene mal, la TRV 1200.
+
+.. image:: /images/ups-trv-1200.jpeg
+    :alt: La nueva
+
+La enchufé, y parece andar piola.
+
+Decidí también conectarla a la compu. Probé con el software que trae, que teoricamente soporta Linux, pero es un coso escrito en Java que nunca me encontró la UPS conectada :(
+
+Me puse a buscar algo por ahí, y resulta que hay una solución bastante interesante: `nut <https://networkupstools.org/>`_ (por Network UPS Tools, pero que también soportan UPSs conectadas por USB). La instalación fue trivial (está en los repos de Ubuntu), pero la configuración no tanto, porque hay capas y partes móviles, porque parece que el mundo de las UPSs es un toque complejo :p.
+
+Algo que me costó fue encontrar "qué tipo de UPS tenía"... como con todas las cosas fabricadas integrando componentes, la marca "exterior" muchas veces no tiene nada que ver con "la plaqueta interior". Acá me ayudó mucho hacer un ``lsusb`` y darme cuenta que el controlador interior era de Powercom, con algunos números más que me ayudaron a encontrar el driver adecuado en `este listado <https://networkupstools.org/stable-hcl.html>`_.
+
+Fuí siguiendo `esta explicación <https://blog.shadypixel.com/monitoring-a-ups-with-nut-on-debian-or-ubuntu-linux>`_ y aunque algunas cosas no son exactamente igual, parece que quedó todo configurado y andando.
+
+Ahora tengo todo prolijo, y puedo hacer cosas como esta::
+
+    $ upsc upstrv | grep voltage
+    input.voltage: 218.0
+    input.voltage.nominal: 220
+    output.voltage: 218.0
+    output.voltage.nominal: 220
+
+:D
