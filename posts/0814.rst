@@ -1,0 +1,65 @@
+.. title: Liberé logassert 5
+.. date: 2020-08-08 17:57:00
+.. tags: Python, logs, logassert, tests, software
+
+Estoy feliz de traerles una nueva versión de ``logassert``, un mecanismo simple para verificar en los tests de un programa en Python que los logs se realizaron correctamente.
+
+Porque todes sabemos que tenemos que chequear los logs de nuestros programas, ¿cierto? Con `logassert` esto es muy fácil.
+
+Esta nueva versión trae la funcionalidad de poder usar ``logassert`` como un *fixture* de *pytest*, con semánticas totalmente renovadas (para las estructuras de "unittest clásico", ``logassert`` casi no cambió, por compatibilidad).
+
+Entonces, para pytest todo lo que se necesita es declarar ``logs`` en los argumentos del test (funciona como cualquier otro fixture), y luego chequear (usando ``assert``, como es normal con *pytest*) si una linea específica está en los logs para un nivel específico.
+
+Miren este ejemplo, con varias lineas logueadas, y un control específico::
+
+    logger.info("Starting system")
+    places = ['/tmp/', '~/temp']
+    logger.debug("Checking for config XYZ in all these places %s", places)
+    logger.warning("bad config XYZ")
+
+    assert "bad config XYZ" in logs.debug
+
+Vean como el mensaje de falla es muy útil::
+
+    assert for regex 'bad config XYZ' check in DEBUG, failed; logged lines:
+           INFO      'Starting system'
+           DEBUG     "Checking for config XYZ in all these places ['/tmp/', '~/temp']"
+           WARNING   'bad config XYZ'
+
+Puede instalar ``logassert`` `desde PyPI <https://pypi.org/project/logassert/>`_. El proyecto está `en Github <https://github.com/facundobatista/logassert>`_.
+
+¿Les interesa más detalle de como funciona?
+
+Como les dije arriba, pueden incluir el fixture ``logs`` y después directamente usar ``assert``. Ejemplo::
+
+    def test_bleh(logs)
+        (...)
+        assert "The meaning of life is 42" in logs.debug
+
+En verdad, la linea que escriben es una expresión regular, entonces pueden hacer (en caso de que sepan exactamente cual es el significado de la vida)::
+
+    assert "The meaning of life is \d+" in logs.debug
+
+La cadena indicada se busca dentro de las lineas logueadas, no tiene que ser exactamente la linea completa. Si quieren eso, indíquenlo como en cualquier expresión regular::
+
+    assert "^The meaning of life is \d+$" in logs.debug
+
+De forma similar, también pueden verificar que esté al principio o al final de la linea logueada.
+
+**NOTA**: el mensaje verificado es el final, luego de que el system de ``logging`` reemplazó todos los parámetros indicados en la cadena indicada.
+
+Si quieren verificar que un texto fue logueado sin importar en qué nivel, sólo hagan::
+
+    assert "The meaning of life is 42" in logs.any_level
+
+Para verificar que un texto NO fue logueado, sólo usen la sintáxis de Python! Por ejemplo::
+
+    assert "A problem happened" not in logs.error
+
+Si no les gusta las expresiones regulares, importen ``Exact`` de ``logassert`` y envuelvan la cadena con eso. Por ejemplo, en este caso el ``..`` significa "dos puntos", no hace nada a nivel expresión regular::
+
+    assert Exact("The meaning of life is ..") in logs.any_level
+
+Para pedir ayuda, si tienen alguna pregunta, o encuentran algún detalle, por favor `abran un ticket <https://github.com/facundobatista/logassert/issues/new>`_.
+
+¡Gracias por vuestro tiempo!
