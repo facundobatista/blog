@@ -9,11 +9,11 @@ import pickle
 import re
 import sys
 
+import infoauth  # fades
+import requests  # fades
 # need dep from GH as we use 'original title' yet not released
 from imdb import IMDb  # fades git+https://github.com/alberanid/imdbpy.git
 
-# how we extract the title from the movie
-TITLE_KEY = 'title'
 
 T_REVIEWS_HEAD = """\
 FIXME: headers!!!
@@ -22,7 +22,7 @@ FIXME: Texto inicial acá
 
 Otra linea, etc
 """
-T_REVIEWS_BODY = '- `{title} <{urlimdb}>`_: {vote:}. {explanation:}'
+T_REVIEWS_BODY = '- `{title} <{url_moviedb}>`_: {vote:}. {explanation:}'
 
 RE_REVIEW_LINE = r'(.*?): ([+-?][\d?]). (.*)'
 
@@ -31,10 +31,10 @@ FIXME: Mas peliculas anotadas para ver:
 
 Otra linea, etc
 """
-T_FUTURES_BODY = '- `{title} <{urlimdb}>`_: {description}'
+T_FUTURES_BODY = '- `{title} <{url_moviedb}>`_: {description}'
 
 RE_PELIS_LINE = '<a href="(.*?)">(.*?)</a> <font size="-2"><i>(.*?)</i></font><br>'
-T_PELIS_LINE = '<a href="{urlimdb:}">{title:}</a> <font size="-2"><i>{date:}</i></font><br>'
+T_PELIS_LINE = '<a href="{url_moviedb:}">{title:}</a> <font size="-2"><i>{date:}</i></font><br>'
 
 locale.setlocale(locale.LC_ALL, "es_AR.UTF8")
 NEW_DATE = datetime.date.today().strftime("(%b-%Y)").title()
@@ -78,6 +78,27 @@ class Cache(object):
 cache = Cache("/home/facundo/.cache/collect_movie_info.pkl")
 
 
+class TheMovieDB:
+    """Simple helper to hit the service."""
+
+    base_url = 'https://api.themoviedb.org/3'
+
+    def __init__(self):
+        creds = infoauth.load(os.path.expanduser('~/.tmdb_auth'))
+        self.api_key = creds['key']
+
+    def hit(self, endpoint, **params):
+        """Hit the DB service."""
+        params['api_key'] = self.api_key
+        url = self.base_url + endpoint
+        response = requests.get(url, params=params)
+        data = response.json()
+        return data
+
+
+tmdb = TheMovieDB()
+
+
 class IMDB(object):
     def __init__(self):
         self.imdb = IMDb()
@@ -95,43 +116,78 @@ class IMDB(object):
 imdb = IMDB()
 
 
-def _fix_urlimdb(url):
-    """Fix IMDB url."""
+def fix_moviedb(url):
+    """Fix IMDB or TMdb url."""
     assert url
 
-    # add a trailing slash if doesn't have one
-    if not url.endswith("/"):
-        url += "/"
+    if 'imdb' in url:
+        # DEPRECATED!!
+        # add a trailing slash if doesn't have one
+        if not url.endswith("/"):
+            url += "/"
 
-    # clean extra words
-    if url.endswith('combined/'):
-        url = url[:-9]
-    if url.endswith('reference/'):
-        url = url[:-10]
-    url = url.split("?ref_")[0]
+        # clean extra words
+        if url.endswith('combined/'):
+            url = url[:-9]
+        if url.endswith('reference/'):
+            url = url[:-10]
+        url = url.split("?ref_")[0]
 
-    # return the url and movie_id separated
-    ttid = url.split("/")[4]
-    assert ttid[:2] == 'tt'
-    movie_id = ttid[2:]
+        # return the url and movie_id separated
+        ttid = url.split("/")[4]
+        assert ttid[:2] == 'tt'
+        movie_id = ttid[2:]
+        return url, movie_id
+
+    # get id from the title
+    # e.g.: https://www.themoviedb.org/movie/482936-la-quietud
+    path = url.split('/')[-1]
+    movie_id = int(path.split('-')[0])
     return url, movie_id
+
+
+def get_movie_info(movie_id):
+    """Layer to merge both backends for generic movie info."""
+    info = {}
+    if isinstance(movie_id, str):
+        # DEPRECATED!
+        movie = imdb.get_movie(movie_id)
+        info['title'] = movie['title']
+        info['directors'] = ", ".join(d['name'] for d in movie.get('director', []))
+        info['actors'] = ", ".join(a['name'] for a in movie['actors'][:3])
+        info['genres'] = ", ".join(movie['genres'])
+        info['plot'] = movie.get('plot', ["-"])[0]
+        info['year'] = movie['year']
+    else:
+        movie = tmdb.hit('/movie/{}'.format(movie_id), append_to_response='credits')
+        info['title'] = movie['original_title']
+        info['genres'] = ", ".join(x['name'] for x in movie['genres'])
+        info['plot'] = movie['overview']
+        info['year'] = movie['release_date'][:4]
+
+        cast = movie['credits']['cast']
+        info['actors'] = ", ".join(x['name'] for x in cast[:5])
+
+        directors = [x for x in movie['credits']['crew'] if x['department'] == 'Directing']
+        info['directors'] = ", ".join(x['name'] for x in directors[:2])
+
+    return info
 
 
 def process_reviews(reviews):
     data = []
     viewed = set()
-    for revline, urlimdb, movie_id in reviews:
-        viewed.add(urlimdb)
+    for revline, url_moviedb, movie_id in reviews:
+        viewed.add(url_moviedb)
         m = re.match(RE_REVIEW_LINE, revline)
         if not m:
             print("ERROR: review line not recognized:", repr(revline))
             exit()
         annot_title, vote, explanation = m.groups()
-        movie = imdb.get_movie(movie_id)
-        real_title = movie[TITLE_KEY]
+        movie = get_movie_info(movie_id)
+        real_title = movie['title']
         print("Processing review ({}): {}".format(annot_title, real_title))
-        datum = dict(title=real_title, vote=vote,
-                     explanation=explanation, urlimdb=urlimdb)
+        datum = dict(title=real_title, vote=vote, explanation=explanation, url_moviedb=url_moviedb)
         data.append(datum)
     data.sort(key=operator.itemgetter('title'))
 
@@ -143,20 +199,14 @@ def process_reviews(reviews):
 
 def process_futures(futures):
     resp = [T_FUTURES_HEAD]
-    for annot_title, urlimdb, movie_id in sorted(futures):
-        movie = imdb.get_movie(movie_id)
+    for annot_title, url_moviedb, movie_id in sorted(futures):
+        movie = get_movie_info(movie_id)
+        description = "({year}; {genres}) {plot} [D: {directors}; A: {actors}]".format(**movie)
 
-        directors = ", ".join(d['name'] for d in movie.get('director', []))
-        actors = ", ".join(a['name'] for a in movie['actors'][:3])
-        genres = ", ".join(movie['genres'])
-        plot = movie.get('plot', ["-"])[0]
-        desc = "({}; {}) {} [D: {}; A: {}]".format(
-            movie['year'], genres, plot, directors, actors)
-
-        real_title = movie[TITLE_KEY]
+        real_title = movie['title']
         print("Processing futures ({}): {}".format(annot_title, real_title))
-        resp.append(T_FUTURES_BODY.format(title=real_title, urlimdb=urlimdb,
-                                          description=desc))
+        resp.append(T_FUTURES_BODY.format(
+            title=real_title, url_moviedb=url_moviedb, description=description))
     return resp
 
 
@@ -172,14 +222,14 @@ def proc_pelshtml(futures, viewed):
 
             m = re.match(RE_PELIS_LINE, line)
             if m:
-                urlimdb, title, date = m.groups()
-                urlimdb = urlimdb.replace('http://', 'https://')
-                if urlimdb in viewed:
+                url_moviedb, title, date = m.groups()
+                url_moviedb = url_moviedb.replace('http://', 'https://')
+                if url_moviedb in viewed:
                     # clean it in viewed
-                    viewed.remove(urlimdb)
+                    viewed.remove(url_moviedb)
                 else:
                     # not viewed, append to the list of movies to remain
-                    movies.append((title.strip(), urlimdb, date))
+                    movies.append((title.strip(), url_moviedb, date))
 
             if dc_useful:
                 if line == '<!-- Date count end -->':
@@ -197,9 +247,9 @@ def proc_pelshtml(futures, viewed):
         raise ValueError("Viewed not empty: " + str(viewed))
 
     # mix with futures
-    for _, urlimdb, movie_id in futures:
-        movie = imdb.get_movie(movie_id)
-        movies.append((movie[TITLE_KEY], urlimdb, NEW_DATE))
+    for _, url_moviedb, movie_id in futures:
+        movie = get_movie_info(movie_id)
+        movies.append((movie['title'], url_moviedb, NEW_DATE))
     movies.sort()
 
     # assert there's no repetitions
@@ -211,8 +261,8 @@ def proc_pelshtml(futures, viewed):
     # generate new peliculas.html
     new_dc = {}
     resp_pelis = []
-    for title, urlimdb, date in movies:
-        resp_pelis.append(T_PELIS_LINE.format(title=title, urlimdb=urlimdb, date=date))
+    for title, url_moviedb, date in movies:
+        resp_pelis.append(T_PELIS_LINE.format(title=title, url_moviedb=url_moviedb, date=date))
         new_dc[date] = new_dc.get(date, 0) + 1
 
     # process date count
@@ -273,9 +323,9 @@ def main(inputfname, outfname):
             if not comment:
                 # blank line, block separator
                 break
-            urlimdb = next(fh).strip()
-            urlimdb, movie_id = _fix_urlimdb(urlimdb)
-            reviews.append((comment, urlimdb, movie_id))
+            url_moviedb = next(fh).strip()
+            url_moviedb, movie_id = fix_moviedb(url_moviedb)
+            reviews.append((comment, url_moviedb, movie_id))
 
         # second block
         futures = []
@@ -286,9 +336,9 @@ def main(inputfname, outfname):
                 break
             if not title:
                 continue
-            urlimdb = next(fh).strip()
-            urlimdb, movie_id = _fix_urlimdb(urlimdb)
-            futures.append((title, urlimdb, movie_id))
+            url_moviedb = next(fh).strip()
+            url_moviedb, movie_id = fix_moviedb(url_moviedb)
+            futures.append((title, url_moviedb, movie_id))
 
     lines, viewed = process_reviews(reviews)
     lines.append("")

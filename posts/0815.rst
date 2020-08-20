@@ -1,0 +1,99 @@
+.. title: Series, ¿y películaS?
+.. date: 2020-08-19 22:37:00
+.. tags: series, películas
+
+Este post es sobre pelis, sí, pero como viene pasando cada vez más seguido, tiene mucho contenido sobre series...
+
+- `Masters of Sex <https://www.themoviedb.org/tv/58937-masters-of-sex>`_: Finalmente terminé de ver con Moni esta historia pseudoreal sobre William Masters y Virginia Johnson, dos investigadores pioneros de la sexualidad humana que hicieron principalmente su trabajo durante los años 1950 y 1960. La serie arrancó muy bien, pero la tercer y cuarta temporada fueron medio un embole y nos costó terminarla...
+
+- `Luther <https://www.themoviedb.org/tv/1426-luther>`_: voy bastante avanzado con una serie británica muy buena... una especie de Sherlock Holmes conflictuado con su vida y su profesión, me gusta mucho. Son temporadas cortas de capítulos largos, como tantas series inglesas. Labura Idris Elba, debo decir que muy bien. El primer capítulo de la primer temporada presentan también a la que es la archi-enemiga-amiga del personaje principal, caracterizada por Ruth Wilson, con una escena de altísimo erotismo intelectual. 
+
+- `The Expanse <https://www.themoviedb.org/tv/63639-the-expanse>`_: esta es una de las que más me vienen gustando. Es "del espacio", pero no todo son naves y disparos, hay mucho de política interplanetaria (que disfruto mucho luego de haber leido la `trilogía marciana <https://es.wikipedia.org/wiki/Trilog%C3%ADa_marciana>`_), y es bastante real en como se presentan las situaciones y los contextos, todo mucho más real, desde las naves a las condiciones de laburo de la gente en los suburbios del sistema (es más parecido a un Battlestar Galactica que a un Star Trek). Está basada en `una serie de libros <https://en.wikipedia.org/wiki/The_Expanse_(novel_series)>`_.
+
+- `El vecino <https://www.themoviedb.org/tv/96425-el-vecino>`_: Una muy simpática comedia española (basada en una historieta), pensé que era una sola temporada pero parece que continúa. Es rápida, simple y divertida, recomiendo.
+
+- `Outlander <https://www.themoviedb.org/tv/56570-outlander>`_: Esta la empecé a ver por recomendación de mi hermana (fana de `las novelas de Diana Gabaldon <https://es.wikipedia.org/wiki/Forastera_(novela)>`_ en las que se basa la serie. Me gusta bastante, y es imprescindible si te interesa aprender el acento escocés, :). Además, tiene `una canción de intro <https://www.youtube.com/watch?v=_jKK6IkWmfI>`_ absolutamente maravillosa.
+
+Ojo que películas también estuve viendo. 
+
+Y la verdad que aunque no fueron demasiadas, tuve una buena tanda a nivel "calidad" de las mismas (o, para ser más justo, más que calidad es si la película me gustó a mí).
+
+.. image:: /images/pelis/donquixote.png
+    :alt: ¿Les dije lo linda que es la fotografía de The Man Who Killed Don Quixote?
+
+.. image:: /images/pelis/bohemianrhapsody.png
+    :alt: Los cuatro Queen en la escena donde graban la canción homónima a la película
+
+En un apartado bastante más nerd, les cuento que estoy dejando de usar `IMDb <https://www.imdb.com/>`_ para todo lo que es fuente de información de mis scripts que manejan contenidos de películas.
+
+¿Qué scripts? Tengo varios, uno es por ejemplo el que me prepara los links de estos posts (y automáticamente saca lo que ví y agrega lo nuevo en el `listado general <http://www.taniquetil.com.ar/bdvfiles/peliculas.html>`_, tengo otro que me agarra las películas que tengo en el disco que tengo enchufado a la tele y me arma un resumencito así sé qué tengo disponible para ver, y otro por ejemplo es un programejo que me renombra los videos de un directorio poniendole el nombre de cada capítulo de la serie.
+
+Justamente para ese último empecé a usar la API de `The Movie DB <https://www.themoviedb.org/>`_, y la verdad es que fue un viaje de ida. Es muy clara, intuitiva y fácil de usar. Y no necesitás ningún módulo en el medio (aunque hice una pequeña capa para armar los requests más simples, pero trivial). Y tiene un feature que nunca pude sacar en IMdb: obtener los nombres originales de las pelis. Incluso el sitio "para consumo humano" es mucho más elegante y menos amontonado.
+
+.. image:: /images/pelis/templegrandin.png
+    :alt: Temple en su elemento
+
+.. image:: /images/pelis/firstman.png
+    :alt: Buen balance entre lo tranquilo y callado que es el espacio y no aburrir
+
+Entonces, los reviews...
+
+- `Alanis <https://www.imdb.com/title/tt7297954/>`_: +0. Buena la actuación de Sofía Gala Castiglione, por momentos desgarradora la historia.
+- `Bohemian Rhapsody <https://www.imdb.com/title/tt1727824/>`_: +1. Excelente película. No sólo cuenta la historia en sí, que es lo que uno espera, sino que la *película* en sí es grandiosa.
+- `Eva <https://www.imdb.com/title/tt1298554/>`_: +0. Está buena, parece que viene un poco sosa y pega un par de giros. Me gusta el concepto de "comportamiento/humor por diseño".
+- `Everybody Knows <https://www.imdb.com/title/tt4964788/>`_: +0. Está buena, arranca un poco lento porque no se ve venir el nudo, pero después de armado, es bastante sólida. Me gustaron las actuaciones.
+- `Extraordinary Tales <https://www.imdb.com/title/tt3454574/>`_: +0. Varias pequeñas historias basadas en ídems de Poe. A nivel artística son alucinantes, pero a nivel "historia", podrían estar mejor, pero bueno, es un resumido.
+- `First Man <https://www.imdb.com/title/tt1213641/>`_: +1. Aunque tiene algunas cosas de contexto que me parece que se van por las ramas, y Ryan Gosling nunca me convence, la película está muy bien para enterarse de toda la preparación para llegar a la Luna.
+- `Gringo <https://www.imdb.com/title/tt3721964/>`_: +0. Mucha acción, divertida, cambiante. Una... comedia violenta? Te lleva.
+- `Puzzle <https://www.imdb.com/title/tt6933454/>`_: +0. Linda y simpática, pero le falta como fuerza.
+- `Sicario <https://www.imdb.com/title/tt3397884/>`_: +1. No sé cuanto será verdad de lo que muestran, pero sospecho que mucho, que realidad compleja. La peli está muy bien, actuaciones bárbaras, interesante las preguntas que te deja.
+- `Spider-Man: Into the Spider-Verse <https://www.imdb.com/title/tt4633694/>`_: +1. Un punto de vista nuevo e interesante sobre "el hombre araña", bastante divertida.
+- `Split <https://www.imdb.com/title/tt4972582/>`_: +0. La historia zafa, pero la actuación de James McAvoy es sencillamente espectacular.
+- `Temple Grandin <https://www.imdb.com/title/tt1278469/>`_: +1. Gran peli, muy bien hecha, muy interesantemente contado su punto de vista.
+- `The Man Who Killed Don Quixote <https://www.imdb.com/title/tt1318517/>`_: +1. Bizarra y loca, pero tiene sentido. Muy buenas actuaciones. Me estoy haciendo fan de Adam Driver. Un capo Jonathan Pryce, también. Terry Gilliam lo hizo de nuevo.
+- `The Quietude <https://www.imdb.com/title/tt7658384/>`_: +0. Arranca raro, y tiene partes donde no se termina de desatar, pero después la remonta muy bien. GRAN actuación de Graciela Borges.
+- `The Summit <https://www.imdb.com/title/tt6047298/>`_: +0. Muy interesante, bien llevada, arma todo muy bien... hasta que termina, y te deja como ahí arriba y vos querés un final.
+- `Under the Silver Lake <https://www.imdb.com/title/tt5691670/>`_: -0. No tiene mucho sentido, es muy lenta para lo bizarra que es. Levanta en la segunda mitad, más al final, pero bleh.
+
+.. image:: /images/pelis/sicario.png
+    :alt: Emily Blunt y Benicio del Toro, una dupla que funciona muy bien
+
+.. image:: /images/pelis/spiderverse.png
+    :alt: Un hombre araña no clásico
+
+Y les decía, tengo (relativamente) pocas nuevas anotadas, y el conteo de pendientes sigue bajando y bajando.
+
+Lo que no termino de entender es si estoy "anotando pocas", o están saliendo menos películas... o quizás menos películas buenas? 
+
+¿O es que yo no me estoy enterando las novedades? Seguro que me gustaría tener un flujo más estable de trailers para ver, sí...
+
+- `18 regali <https://www.themoviedb.org/movie/630220-18-regali>`_: (2020; Drama) Elisa is only forty when an incurable disease takes her from her husband and their daughter. Before her heart stops, Elisa finds a way to stay close to her: a gift for every birthday up to her adult age, 18 gifts to try to accompany her child's growth year after year. [D: Francesco Amato; A: Benedetta Porcaroli, Vittoria Puccini, Edoardo Leo, Sara Lazzaro, Marco Messeri]
+- `Crimson Tide <https://www.themoviedb.org/movie/8963-crimson-tide>`_: (1995; Thriller, Action, War) On a US nuclear missile sub, a young first officer stages a mutiny to prevent his trigger happy captain from launching his missiles before confirming his orders to do so. [D: Tony Scott, James W. Skotchdopole; A: Denzel Washington, Gene Hackman, Viggo Mortensen, Matt Craven, Steve Zahn]
+- `La fiesta silenciosa <https://www.themoviedb.org/movie/648467-la-fiesta-silenciosa>`_: (2019; Thriller) The day before their wedding, Laura and Daniel go to her family country house. The couple is under a lot stress. She decides to take a walk, and ended in the young neighbour's house, where a silent party is taking place. What started like a fun night, quickly escalates in a violent and horrible experience. [D: Federico Finkielstain, Diego Fried; A: Jazmín Stuart, Esteban Bigliardi, Gerardo Romano, Gastón Cocchiarale, Lautaro Bettoni]
+- `Morbius <https://www.themoviedb.org/movie/526896-morbius>`_: (2021; Action, Horror, Science Fiction, Thriller) Biochemist Michael Morbius tries to cure himself of a rare blood disease, but he inadvertently infects himself with a form of vampirism instead. [D: Daniel Espinosa; A: Jared Leto, Adria Arjona, Matt Smith, Jared Harris, Tyrese Gibson]
+- `Radioactive <https://www.themoviedb.org/movie/480857-radioactive>`_: (2020; Drama, Romance, History) Tells the story of Nobel Prize winner Marie Curie and her extraordinary scientific discoveries — through the prism of her marriage to husband Pierre — and the seismic and transformative effects their discovery of radium had on the 20th century. [D: Marjane Satrapi, Nige Watson; A: Rosamund Pike, Sam Riley, Aneurin Barnard, Anya Taylor-Joy, Simon Russell Beale]
+- `Tenet <https://www.themoviedb.org/movie/577922-tenet>`_: (2020; Action, Thriller) Armed with only one word - Tenet - and fighting for the survival of the entire world, the Protagonist journeys through a twilight world of international espionage on a mission that will unfold in something beyond real time. [D: Christopher Nolan; A: John David Washington, Robert Pattinson, Elizabeth Debicki, Kenneth Branagh, Michael Caine]
+- `The French Dispatch <https://www.themoviedb.org/movie/542178-the-french-dispatch-of-the-liberty-kansas-evening-sun>`_: (; Comedy, Romance, Drama) The staff of a European publication decides to publish a memorial edition highlighting the three best stories from the last decade: an artist sentenced to life imprisonment, student riots, and a kidnapping resolved by a chef. [D: Wes Anderson, Ben Howard; A: Bill Murray, Benicio del Toro, Frances McDormand, Jeffrey Wright, Adrien Brody]
+- `The Invisible Man <https://www.themoviedb.org/movie/570670-the-invisible-man>`_: (2020; Thriller, Science Fiction, Horror) When Cecilia's abusive ex takes his own life and leaves her his fortune, she suspects his death was a hoax. As a series of coincidences turn lethal, Cecilia works to prove that she is being hunted by someone nobody can see. [D: Leigh Whannell, Daniela Saioni; A: Elisabeth Moss, Aldis Hodge, Storm Reid, Michael Dorman, Harriet Dyer]
+- `The Game Changers <https://www.themoviedb.org/movie/463088-the-game-changers>`_: (2019; Documentary) From the UFC Octagon in Las Vegas and the anthropology lab at Dartmouth, to a strongman gym in Berlin and the bushlands of Zimbabwe, the world is introduced to elite athletes, special ops soldiers, visionary scientists, cultural icons, and everyday heroes—each on a mission to create a seismic shift in the way we eat and live. [D: Louie Psihoyos; A: James Wilks, Arnold Schwarzenegger, Patrik Baboumian, Scott Jurek, Dotsie Bausch]
+
+Finalmente, el conteo de pendientes por fecha::
+
+    (Jul-2014)    1
+    (Nov-2014)    7
+    (Feb-2015)   10
+    (Jun-2015)   13  11   1
+    (Dic-2015)   19  18   6   1
+    (May-2016)   25  23  21   9
+    (Sep-2016)   19  19  18  14   1
+    (Feb-2017)       26  25  23  21   9   1
+    (Jun-2017)           23  23  21  18   5
+    (Dic-2017)               19  19  18  16   5   2   1
+    (May-2018)                   22  22  22  17   9   2
+    (Sep-2018)                       12  12  12  10   3
+    (Mar-2019)                           13  13  13  12
+    (Ago-2019)                               10  10  10
+    (Feb-2020)                                    8   8
+    (Ago-2020)                                        9
+    Total:       94  97  94  89  84  79  69  57  52  45
+
