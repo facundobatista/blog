@@ -89,6 +89,7 @@ class TheMovieDB:
 
     def hit(self, endpoint, **params):
         """Hit the DB service."""
+        FIXME: ver de pedir en castellano (por la descripción d ela spelis!!
         params['api_key'] = self.api_key
         url = self.base_url + endpoint
         response = requests.get(url, params=params)
