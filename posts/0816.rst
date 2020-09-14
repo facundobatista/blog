@@ -1,0 +1,31 @@
+.. title: Flagsy, el juego de las banderas
+.. date: 2020-09-14 20:06:00
+.. tags: juego, libre, banderas, cartas
+
+Hace tipo un año se me ocurrió hacer un juego sobre banderas y países.
+
+No me acuerdo exactamente cómo fue que me surgió la idea, seguramente algo tuvo que ver un juego de cartas llamado Timeline, que a groso modo te ofrece un descubrimiento/invención/etc y une tiene que "adivinar" el año en que sucedió y usar eso para acomodar la carta. También debe haber influído las ganas/necesidad de que mis chiques aprendan las banderas y capitales de los países (y yo también, vamos, que ni cerca estoy de saberlas todas).
+
+Esto quedó en el estadío de "proyecto idea" durante muchos meses, y lo terminé activando durante la cuarentena.
+
+Lo armé como `proyecto de software <https://github.com/facundobatista/flagsy>`_, porque juntar toda la info no es trivial, así que terminé construyendo una serie de programitas que toman info de Wikipedia y la van dejando bonita y armada.
+
+Luego curé a mano toda esa info y me aseguré que estaba toda completa y prolija. Y finalmente con la ayuda de `Manu Quiñones <https://twitter.com/srmanuq>`_ hicimos que las cartas queden "lindas".
+
+Al final quedaron 194 cartas, tantas como países hay en el mundo; cada una tiene de un lado la bandera del país, y del otro lado información correspondiente al mismo país.
+
+.. image:: /images/flagsy-arg-frente.png
+    :alt: De un lado la bandera de Argentina
+
+.. image:: /images/flagsy-arg-reverso.png
+    :alt: Del otro lado la info correspondiente a Argentina
+
+El objetivo del juego es quedarse sin cartas al completar la vuelta (puede ganar una persona o varias). Para ello se mezclan las cartas y se reparten cinco a cada persona, apoyadas en la mesa con la bandera para arriba (no se puede espiar el otro lado). El resto se deja en un mazo. Arranca la persona más joven de la mesa. 
+
+En su turno, cada persona elige una carta de su mazo, la pone en el centro de la mesa y arriesga de qué país es la bandera. Si acertó, descarta la carta, efectivamente quedándose con una menos. Si erró, descarta la carta y saca otra del mazo.
+
+Para hacerlo más complicado y divertido, se puede acordar previamente que no sólo hay que arriesgar el país, sino también el continente, o la capital, o algún gentilicio, etc.
+
+Esta semana estaré imprimiendo las cartas (estoy esperando el presupuesto de la imprenta), pero ustedes también pueden armarse su propio mazo y jugar, ya que es un juego libre! Lo único que tienen que hacer es bajarse `todos los PDFs <https://github.com/facundobatista/flagsy/raw/master/cartas.tar.xz>`_ y mandarlos a imprimir (y si lo quieren en otro idioma, también pueden forkear el proyecto y ajustarlo como sea necesario).
+
+¡Y compártanlo! Porque aunque ustedes no lo quieran imprimir, quizás alguien más sí...
