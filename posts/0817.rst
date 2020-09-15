@@ -1,0 +1,25 @@
+.. title: Decime quién sos vos (el regreso)
+.. date: 2020-09-15 20:53:00
+.. tags: radio, entrevistas, Aliverti, archivo
+
+En Marzo del 2009 arrancaba un programa de radio que duró casi nueve años. 
+
+Un programa distinto, de entrevistas tranquilas, sin las presiones normales del "tiempo tirano" que hace acortar las respuestas, o someterse a un ping pong rápido. 
+
+Se llamó Decime quien sos vos, el programa de entrevistas de Eduardo Aliverti.
+
+Yo lo descubrí varios años después. Lo empecé a escuchar algunos domingos, luego todos los que podía. Después encontré que había un sitio oficial: estaban los programas colgados en la web, pero difícil de "buscar".
+
+Entonces le agregué este programa de radio a las fuentes de información de mi programa Encuentro, que así me permitió buscar todos los programas de Decime quien sos vos que quería escuchar, bajarlos e irlos escuchando en el auto o andando en bici. Incluso escribí sobre eso `acá en mi blog <https://blog.taniquetil.com.ar/posts/0663/>`_.
+
+El cierre del 2017 trajo la mala noticia de la cierre de este ciclo. Recuerdo que con `Diego Mascialino <https://www.twitter.com/dmascialino>`_ nos pusimos bastante tristes, porque nos gustaba mucho.
+
+Hace varios meses, hablando de otra cosa, con Diego encontramos que `el sitio oficial de Decime quien sos vos <http://wwww.decimequiensosvos.com.ar/>`_ estaba caido. Todas esas entrevistas, ese archivo fantástico, perdido para siempre. Que bajón.
+
+Bueno, "para siempre". Aguante "la internet". Hace unas semanas Diego encontró que los audios de los programas habían sido colgados en un sitio, y aunque ese sitio no estaba más, había sido indexado por el `Internet Archive <https://archive.org/details/decimequiensosvos-archive/>`_, entonces los pudimos bajar de ahí.
+
+Yo por mi parte me iluminé y rescaté de un backup la metadata que había juntado mi programa Encuentro, y de ahí rescaté las imágenes y textos originales de cada edición del programa.
+
+Entonces, como nos negábamos a que ese contenido se perdiera, `armamos una página medio homenaje medio servicio <https://taniquetil.com.ar/dqsv/>`_ para que el Universo pueda escuchar esas entrevistas. 
+
+Claro, no tenemos el copyright de nada (ni los audios, ni los textos, ni las imágenes), ojalá no tengamos bardo. Bah, lo ideal es que vuelva a estar disponible el contenido de forma "oficial" y nosotros podamos bajar esta página. Veremos.
