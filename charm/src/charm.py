@@ -52,17 +52,16 @@ def run(cmd):
         raise RuntimeError("Execution ended in {} for cmd {}".format(retcode, cmd))
 
 
-class SuperCharm(CharmBase):
+class BlogCharm(CharmBase):
 
     def __init__(self, *args):
         super().__init__(*args)
         self.framework.observe(self.on.install, self.on_install)
         self.framework.observe(self.on.apache_website_relation_joined, self.on_apache_joined)
-        self.framework.observe(self.on.upgrade_charm, self.on_upgrade)
+        self.framework.observe(self.on.refresh_action, self.refresh)
 
     def _build_blog(self):
         """Build the blog."""
-        logger.debug("nikola build")
         self.unit.status = MaintenanceStatus("Building the blog pages")
         blogsitedir = os.path.join(BLOGDIR, 'site')
         os.chdir(blogsitedir)
@@ -72,8 +71,9 @@ class SuperCharm(CharmBase):
         """Install everything needed."""
         logger.info("Installing blog...")
 
-        logger.info("install! install system deps")
+        logger.info("Install system deps")
         self.unit.status = MaintenanceStatus("Installing system deps")
+        # FIXME: we need to do this through "charmcraft system dependencies"
         run(['apt', 'install', '-y'] + SYSTEM_DEPENDENCIES)
         run(['locale-gen', 'es_AR.UTF-8'])
 
@@ -83,33 +83,57 @@ class SuperCharm(CharmBase):
             shutil.rmtree(BLOGDIR)
 
         # get blog data
-        logger.debug("install! clone project")
+        logger.info("Cloning the blog project")
         self.unit.status = MaintenanceStatus("Cloning the project")
         run([
             'git', 'clone', '--depth', '1',
             'https://github.com/facundobatista/blog.git', BLOGDIR])
 
         # install project requirements
-        logger.debug("install! install python deps")
+        logger.info("Install python deps")
         self.unit.status = MaintenanceStatus("Installing Python deps")
         requirements_path = os.path.join(BLOGDIR, 'requirements.txt')
         run(['pip3', 'install', '-r', requirements_path])
 
         # build the blog
+        logger.info("Building the blog")
         self._build_blog()
 
         # done!
         logger.info("Blog installed")
         self.unit.status = ActiveStatus()
 
-    def on_upgrade(self, event):
-        logger.info("============ upgrade!")
+    def refresh(self, event):
+        logger.info("Refresh! is leader %s", self.unit.is_leader)
+        logger.info("Refresh! is leader() %s", self.unit.is_leader())
+        event.set_results({ #FIXME
+            'message': "Backup ended ok.",
+            "time": 1361.77241278412983472378946237868,
+        })
+        return #FIXME
+
+        self.unit.status = MaintenanceStatus("Refreshing blog")
+        logger.info("Updating blog files")
+        os.chdir(BLOGDIR)
+        run(['git', 'pull'])
+
+        logger.info("Rebuilding the blog")
+        self._build_blog()
+
+        #FIXME: log, set the active status and answer with the git hash
+        git_hash = "FIXME"
+        msg = "Blog refreshed to HEAD {}".format(git_hash)
+        logger.info(msg)
+        self.unit.status = ActiveStatus(msg)
+        fail = False #FIXME
+        if fail:
+            event.fail("Device error: no space left")
+        else:
+            event.set_results({"HEAD hash": git_hash})
 
     def on_apache_joined(self, event):
         """We have apache, let's configure it."""
-        logger.info("============ apache relation joined; event=%s", event)
         relation_data = event.relation.data[self.unit]
-        logger.info("============ apache relation joined; data(self)=%s", dict(relation_data))
 
         # easy config
         relation_data['domain'] = MAIN_DOMAIN
@@ -119,9 +143,8 @@ class SuperCharm(CharmBase):
         # the vhost configuration block
         blogpagesdir = os.path.join(BLOGDIR, 'site', 'output')
         site_config = VHOST_CONFIG.format(main_domain=MAIN_DOMAIN, document_root=blogpagesdir)
-        print("========== site config", site_config)
         relation_data['site_config'] = site_config
 
 
 if __name__ == '__main__':
-    main(SuperCharm)
+    main(BlogCharm)
