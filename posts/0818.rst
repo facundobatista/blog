@@ -1,0 +1,42 @@
+.. title: Les pibes y sus aprendizajes en cuarentena
+.. date: 2020-09-30 19:52:00
+.. tags: hijes, pandemia, cuarentena, actividades, bicicleta, dibujo, guitarra, diseño
+
+Van más de seis meses de cuarentena, de un modo u otro. Mis pibes, particularmente, no van presencialmente a la escuela desde mediados de Marzo.
+
+Tienen clases virtuales, sí, pero están todo el día encerrades en casa. Qué desafío, ¿no? ¿Cómo se hace para que no exploten, pero al mismo tiempo no estén 150 horas por día en alguna pantalla? 
+
+En verdad, un desafío *más* que se le suma a tantos de esta época.
+
+Mis pibes, por suerte, se fueron enganchando en distintas actividades (algunas con pantalla, eh), pero al menos siempre alejades de "tirarse panza arriba a ver televisión" (aunque una cuotita de eso tienen, claro).
+
+Creo que el truco es irles tirando anzuelos, a ver qué enganchan... La otra vez me recomendaron un sitio web para "diseñar interiores", jugué un rato, se lo mostré a les pibes, y aunque jugaron un poco les dos, Male fue la que se terminó enganchando y estuvo un montón de horas con eso, especialmente con el diseño de cómo le gustaría que fuese su habitación en un futuro.
+
+.. image:: /images/aprendiz/habit3d.png
+    :alt: La habitación soñada de Male
+
+Male mejoró muchísimo su uso de la computadora en general. Podemos decir que a principio de año apenas la tocaba, y ahora sabe hacer muchísimas cosas, tiene su usuario, manda mails, charla por `Telegram <https://telegram.org/>`_ con la familia. Incluso carga algunas actividades en su `Calendar <https://es.wikipedia.org/wiki/Google_Calendar>`_, para que le notifique y no olvidarse (en general es mucho más consciente de "los horarios", aunque es de colgarse, jeje).
+
+Por otro lado, fuera de la pantalla, quizás el salto más notable que pegó fue con la bici, porque finalmente dejó las rueditas. Habíamos llegado al otoño con algunos intentos, pero en las últimas semanas (que con Moni les llevemos a una cortadita que no hay nadie nadie acá a 3 cuadras) practicó y practicó, y ya está re canchera.
+
+.. image:: /images/aprendiz/bici.jpeg  
+    :alt: En bici sin rueditas
+
+Felu también le metió duro y parejo a la compu. Mucho alrededor de "dibujar" en sí. Está bastante canchero con `Gimp <http://www.gimp.org.es/>`_, pero también estuvo enganchado un tiempo con `Krita <https://krita.org/es/>`_ (para lo cual desempolvé una `tableta Bamboo <https://m.media-amazon.com/images/I/614txwqPe3L.jpg>`_ que tenía en el fondo de un cajón), e incluso hizo muchas cosas con `Blender <https://www.blender.org/>`_. Todo aprendido siguiendo tutoriales de internet, excepto con mucho de Gimp que ahí sí lo puedo ayudar yo. 
+
+Parecido fue lo que hizo con stop motion, alguna punta le habían tirado en la escuela para hacerlos pero usando una app del teléfono, entonces yo le comenté que se podían hacer con `ffmpeg <https://ffmpeg.org/>`_ luego de sacar fotos con la cámara normal. Y se copó e hizo `Una nave en lo de Felipe <https://drive.google.com/file/d/14bdRUJv1xmOI68g8KJIJFbyFIiK8OPVA/view>`_ y `El alien y el salvaje <https://drive.google.com/file/d/1FZ6Q9jiUwM1Y_wcn4TGVlwx5KliVMyZR/view>`_.
+
+.. image:: /images/aprendiz/aljibe.jpeg
+    :alt: Un aljibe 3D por Felu
+
+Lo ví tan enganchado con dibujo en general que se me ocurrió anotarlo a clases virtuales con `Camila Torre Notari <https://camicomics.com.ar/>`_ y la verdad que fue un éxito, mejoró muchísimo, aprendió un montón, le encanta y lo disfruta. También sigue en modo virtual sus clases de guitarra.
+
+Y va inventándose cosas que hacer. Por ejemplo hace un par de meses se sorprendió porque yo entendí algo que dijeron en italiano en una serie, y dijo que le gustaría aprender italiano. Le mostré que podía aprender online con `Duolingo <https://es.duolingo.com/>`_, ¡y se puso a estudiar italiano! Y hace unos días empezó a hacer muñequitos con corcho y alambre, les salen bárbaro, y ya hizo un montón.
+
+.. image:: /images/aprendiz/corchitos.jpeg 
+    :alt: La personaje del Portal 2 y un mozo
+
+En fin, muy contento que más allá que la cuarentena no sea sencilla, les pibes exploran y disfrutan cosas nuevas, que los salva tanto de estar recontraembolades todo el día como de estar sumergides en tele consumiendo chatarra.
+
+
+
