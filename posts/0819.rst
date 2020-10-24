@@ -1,0 +1,13 @@
+.. title: Avisos éticos
+.. date: 2020-10-24 18:26:00
+.. tags: ads, propaganda
+
+Vamos a probar algo, a ver que tal funciona.
+
+Acabo de cambiar el cuadrito de arriba a la derecha donde mostraba propaganda que había armado y customizado yo por un cuadrito que viene de `Ethical Ads <https://www.ethicalads.io>`_.
+
+Se supone que son avisos que pueden ser relevantes y útiles a les usuaries del blog. Es un proyecto de la gente de `Read The Docs <https://readthedocs.org/>`_, que son copados, así que presupongo que está bien.
+
+Los cuadritos que tenía yo habían sido un experimento de hace unos años, y la verdad es que no los había mantenido nunca. Ojalá estos sean más piolas.
+
+Veremos, cualquier cosa me chiflan. Gracias :)
