@@ -44,10 +44,4 @@ ${helper.twitter_card_information(post)}
         ${comments.comment_form(post.permalink(absolute=True), post.title(), post.base_path)}
     % endif
     ${helper.mathjax_script(post)}
-
-    <div id="propaganda_r">
-    </div><!-- to include a random propaganda -->
-<script>
-$("#propaganda_r" ).load( "${rel_link(permalink,'/propaganda_r.html')}" );
-</script>
 </%block>
