@@ -8,20 +8,18 @@ Me lo puse a tratar de usar en un proyecto grande y consolidado, y noté que est
 
 ¡Gracias a `Diego Mascialino <https://twitter.com/dmascialino/>`_ por la ayuda directa e indirecta en varias de estas features!
 
-Con logassert 6 ahora también tenemos:
+Con logassert 6 ahora también tenemos una forma de revisar facilmente que nada fue logueado (en cualquier nivel o en uno específico)::
 
-- una forma de revisar facilmente que nada fue logueado (en cualquier nivel o en uno específico)::
+     assert NOTHING in logs.debug
 
-    assert NOTHING in logs.debug
-
-- un helper para verificar que varias lineas fueron logueadas una luego de la otra::
+Y también un helper para verificar que varias lineas fueron logueadas una luego de la otra::
 
     assert Sequence(
         "Got 1 error and \d+ warnings:",
         Exact("  error: bar"),
     ) in logs.debug
 
-- el mensaje correcto cuando se usar "not in" en el ``assert``.
+Finalmente, ahora se muestra el mensaje correcto cuando se usar "not in" en el ``assert``.
 
 El detalle, en el `README del proyecto <https://github.com/facundobatista/logassert>`_. 
 
