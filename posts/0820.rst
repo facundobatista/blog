@@ -25,4 +25,4 @@ El detalle, en el `README del proyecto <https://github.com/facundobatista/logass
 
 Como corresponde, lo pueden instalar directamente `desde PyPI <https://pypi.org/project/logassert/6/>`_.
 
-Para pedir ayuda, si tienen alguna pregunta, o encuentran algún detalle, por favor [abran un ticket](https://github.com/facundobatista/logassert/issues/new).
+Para pedir ayuda, si tienen alguna pregunta, o encuentran algún detalle, por favor `abran un ticket <https://github.com/facundobatista/logassert/issues/new>`_.
