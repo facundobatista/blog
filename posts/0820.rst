@@ -1,0 +1,30 @@
+.. title: Prontas mejoras, logassert 6
+.. date: 2020-10-25 19:05:00
+.. tags: logging, Python
+
+Hace relativamente poco tiempo había liberado logassert 5, `les conté <https://blog.taniquetil.com.ar/posts/0814/>`_.
+
+Me lo puse a tratar de usar en un proyecto grande y consolidado, y noté que estaría bueno tener algunas mejoras. Ergo, las implementé :).
+
+¡Gracias a `Diego Mascialino <https://twitter.com/dmascialino/>`_ por la ayuda directa e indirecta en varias de estas features!
+
+Con logassert 6 ahora también tenemos:
+
+- una forma de revisar facilmente que nada fue logueado (en cualquier nivel o en uno específico)::
+
+    assert NOTHING in logs.debug
+
+- un helper para verificar que varias lineas fueron logueadas una luego de la otra::
+
+    assert Sequence(
+        "Got 1 error and \d+ warnings:",
+        Exact("  error: bar"),
+    ) in logs.debug
+
+- el mensaje correcto cuando se usar "not in" en el ``assert``.
+
+El detalle, en el `README del proyecto <https://github.com/facundobatista/logassert>`_. 
+
+Como corresponde, lo pueden instalar directamente `desde PyPI <https://pypi.org/project/logassert/6/>`_.
+
+Para pedir ayuda, si tienen alguna pregunta, o encuentran algún detalle, por favor [abran un ticket](https://github.com/facundobatista/logassert/issues/new).
