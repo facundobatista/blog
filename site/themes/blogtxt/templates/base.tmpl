@@ -7,6 +7,16 @@ ${base.html_headstart()}
 </%block>
 ${template_hooks['extra_head']()}
 
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-CVZ8HDCLCT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-CVZ8HDCLCT');
+</script>
+
 <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
 <link href="${rel_link(permalink,'/assets/css/tagcloud-es-small.css')}" rel="stylesheet" type="text/css">
 <link rel="alternate stylesheet" href="${rel_link(permalink,'/assets/css/printer-friendly.css')}" media="screen" title="printer-friendly">
