@@ -1,0 +1,22 @@
+.. title: Dos proyectos, dos novedades
+.. date: 2020-11-27 08:55:00
+.. tags: proyectos, CDPedia, experimento, Aliverti, radio, programa
+
+El primer proyecto es de larga data, la CDPedia, de la cual hablé muchas veces en este blog.
+
+La última novedad al respecto la había comentado `en este post <https://blog.taniquetil.com.ar/posts/0804/>`_, donde contaba el experimento que estaba arrancando.
+
+Con motivo de la `PyCon Argentina 2020 <https://eventos.python.org.ar/events/pyconar2020/>`_ armé una lightning talk mostrando cómo había avanzado durante el año y el estado en que estamos. Se las dejo acá:
+
+.. youtube:: wHau2f2Rg68
+    :align: center
+
+El segundo proyecto es algo nuevito que hicimos con `Diego <https://twitter.com/dmascialino>`_ durante el año: rescatamos los episodios del gran programa de radio Decime Quien Sos Vos, de Eduardo Aliverti.
+
+El detalle lo `conté acá <https://blog.taniquetil.com.ar/posts/0817/>`_, pero en resumen armamos una paginita con todo el material y `la colgamos acá para que todes tengan acceso <https://taniquetil.com.ar/dqsv/>`_.
+
+El tema es que lo hicimos de queruza, aunque realmente el contenido no es nuestro ni tenemos los deerechos para hacer eso, pero bueno, no queríamos que eso se pierda.
+
+La novedad acá es que tuvimos respuesta de Roxana Russo, alma mater del programa, dándonos luz verde a este respecto e incluso nos agradeció por el trabajo. 
+
+Estamos muy contentos.
