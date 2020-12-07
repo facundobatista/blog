@@ -1,0 +1,46 @@
+.. title: Sony engaña pichanga
+.. date: 2020-12-07 19:36:00
+.. tags: Sony, auriculares, pilas, baterías, reemplazo, estafa
+
+Hace unos 10 años me compré unos auriculares inalámbricos para ver tele a la noche en la cama sin molestar a la familia.
+
+No recuerdo haber investigado demasiado, ni cómo tomé la decisión, pero me terminé comprando unos Sony MDR-RF970R. Vienen con una cunita a la que se le conecta la alimentación y el audio, donde también se apoyan los auriculares en sí. Con sólo apoyarlos se recarga la batería, los sacás y los usás, sin tener que enchufar/desenchufar nunca nada.
+
+Son muy cómodos, y la verdad es que andan bárbaro. Muy recomendables.
+
+.. image:: /images/sony/auriculares.jpeg
+    :alt: Los auriculares
+
+Con el tiempo empecé a notar que la batería no duraba tanto. A los años de usarlos, me empezó a pasar que si no cargaba los auriculares durante algunos días, cuando los iba a querer usar ya no tenían energía. En los últimos meses, empeoró: podía usarlos durante un par de horas, no más.
+
+Entonces, decidí cambiar la batería. Desarmé bastante el auricular, sin encontrar por dónde se accedía a la batería, y finalmente tuve que buscar en internet sobre instrucciones para cambiarlas: era más fácil de lo que suponía, sacando apenas una tapita externa se accede a la batería, que es directamente removible.
+
+.. image:: /images/sony/pila.jpeg
+    :alt: La "batería" que lleva
+
+Pregunté en Probattery si tenían el reemplazo de esta batería, pero no sabían, me dijeron que la lleve para que la vean. Un embole, no iba a ir para eso.
+
+Empecé a buscar en internet a ver dónde la podía comprar. Encontré `el reemplazo original en Amazon España <https://www.amazon.es/Recargable-Original-Sony-BP-HP550-Auriculares/dp/B001DFAAY2/>`_, ¡49 euros! (más o menos 4900 pesos, sin contar envío, el cual es un problema porque al ser una batería creo que eso tiene problemas para entrar al país). Localmente también hay algo, pero no el reemplazo original, sino `unas genéricas que podrían servir <https://articulo.mercadolibre.com.ar/MLA-877582928-2-baterias-para-auriculares-sony-bp-hp550-11-ver-modelos-_JM>`_, pero ¡4500 pesos!.
+
+¡Un afano!
+
+Charlando con Diego y Leandro sobre este tema, les comenté que parecían dos pilas, pero me desconcertaba que dijera 2.4V cuando evidentemente las pilas estaban en paralelo (se suma la corriente que pueden entregar, no la tensión). 
+
+Terminamos dándonos cuenta que no podía ser 2.4V por la tecnología misma de construcción de las pilas, y que lo podía confirmar midiendo con el tester, lo cual hice. La potencia de las pilas originales tampoco parecía ser demasiado, deberían poder ser reemplazadas.
+
+Seguí buscando en internechi, pero ya apuntando a reemplazar la batería con pilas genéricas, y encontré bastantes casos de éxito de esto. Leyendo, también aprendí que algunos auriculares tienen un interruptorcito que se activa cuando la cunita original se pone en el auricular. Busqué en los míos y efectivamente, allí estaba.
+
+.. image:: /images/sony/patita.jpeg
+    :alt: La "patita" que se mueve al insertar la batería original
+
+Entonces me tiré a probar. Compré unas Energizer de 800 mAh (760 pesitos el par). Por el tema de la patita, decidí desarmar la cajita original, sacando las pilas viejas y poniendo las nuevas. No fue fácil pero anduvo, cuando las probé, no hacía contacto en la parte positiva :(.
+
+Me puse a comparar las pilas viejas con las nuevas, y encontré que las originales tienen el "pezoncito" más largo que una pila común. Entonces decidí sacarle la cajita y poner las pilas directamente. Pero claro, tuve que hacer algo con la patita/interruptor que les decía antes: para probar le puse un escarbadiente ajustado a lo largo, y anduvo (claramente una solución provisoria que será todo lo permanente posible).
+
+Armé todo, puse el auricular en su cunita y me indicó que estaba cargando. Un par de horas después lo probé y anduvo joya. ¡Bárbaro!
+
+Ahora, que ganas de robarte con el reemplazo de la batería, ¿no? 
+
+Toda la buena percepción que tenía de Sony por los auriculares se fue a la bosta por la mala actitud de esto que hicieron a propósito. Porque no es un error de diseño, ni una falla. Es todo un algo que armaron en el auricular para que cuando la batería se ponga vieja tengas que terminar comprarles el repuesto a ellos y solamente a ellos. 
+
+¿Realmente este tipo de actitud les rinde guita?
