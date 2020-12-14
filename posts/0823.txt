@@ -1,0 +1,76 @@
+.. title: Minecraft y la electrónica
+.. date: 2020-12-14 20:26:00
+.. tags: Minecraft, electrónica, compuertas, NAND, flip-flop
+
+Una de las cosas que más me cautivó siempre de Minecraft, además de su total libertad para construir y alterar "el mundo", es que esas construcciones no son pasivas, sino que existen actuadores, generadores de energía, etc.
+
+Claro, todo es un poco simplificado y "raro" a nivel de la física como la conocemos, pero eso es en pos de la jugabilidad, y aunque a veces puede ser un incordio (hay que aprenderse esos detalles), no es realmente un problema.
+
+Como muestra basta un botón. Digo, como ejemplo sólo basta un interruptor. En nuestra realidad un interruptor corta o permite el flujo de corriente por el mismo, pero en Minecraft un interruptor es un generador de energía: sólo con poner "cerca" ese botón con un actuador (por ejemplo, una puerta), tenemos el circuito armado.
+
+.. image:: /images/minecraftelect/botondirecto.png  
+    :alt: La puerta y el botón, en estado de reposo y justo al activarlo
+
+Ahí no hay nada más que lo que vemos, la puerta y el botón sobre el bloque de piedra. Si en el juego vamos y apretamos ese botón, la puerta se abre.
+
+
+El polvo rojo
+-------------
+
+Pero Minecraft introduce un elemento más que lo cambia todo: la "piedra roja", o "redstone". Se encuentra en las profundidades del planeta, y cuando la minamos con pico de hierro o diamante, nos da polvo de piedra roja (o polvo de redstone, como normalmente se lo denomina).
+
+Tiene muchos usos. Si lo aplicamos directamente sobre otros bloques cumple la función de "cableado", ya que transmite energía. También podemos hacer antorchas de redstone, que son simplemente generadores de energía, y nos permite armar (con otros componentes) muchísimos más elementos "de alto nivel", como comparadores, repetidores, placas de presión, relojes, brújulas, pistones, etc.
+
+.. image:: /images/minecraftelect/botonrepetidor.png 
+    :alt: El botón y la puerta, pero ya no tan simple
+
+Una vez que empezás a combinar los elementos, casi que sólo la imaginación es el límite. En la imagen de recién puse el botón y la puerta, como al principio, pero cableados entre sí (porque están lejos) y con un repetidor en el medio (al que se le puede configurar el tiempo de demora al repetir): el efecto es que uno aprieta el botón, y la puerta se abre unos segundos después.
+
+
+La inquietud
+------------
+
+Durante mucho tiempo estuve con la idea de hacer algo de electrónica dentro del juego, el otro día me decidí, y armé una compuerta NAND. 
+
+Una `compuerta NAND <https://es.wikipedia.org/wiki/Puerta_NAND>`_ es una de los elementos clásicos de la electronica, y no es más que una AND negada. Aunque al aprender `las compuertas lógicas en electrónica digital <https://es.wikipedia.org/wiki/Puerta_l%C3%B3gica>`_ siempre se empieza por ANDs y ORs, que son más fáciles, la electrónica realmente gira alrededor de las NANDs porque toda la lógica siempre se puede implementar con NANDs y su implementación (su fabricación) es la más sencilla de todas.
+
+Al tratar de armar esto dentro del juego me di cuenta que se aplicaba esas reglas raras que a veces tiene el juego o redstone en particular, y tuve que buscar por ahí cómo se podía hacer la compuerta. No es tan difícil, pero implica usar "antorchas de piedra roja" (redstone torches), que es una especie de antorcha hecha con polvo de piedra roja (no como las antorchas comunes, que hacemos con carbón), y sirven tanto de generación de energía como de inversores de señal.
+
+.. image:: /images/minecraftelect/nandsimple.png 
+    :alt:  Una NAND simple en Minecraft
+
+Armé entonces la compuerta NAND, como muestra la imagen: con dos antorchas cableadas juntas, y usando dos palancas como entradas de señal (que generan un 0 o un 1 en función de la posición) y una puerta para mostrar el estado de salida (abierta representa un 1).
+
+.. image:: /images/minecraftelect/tablaverdadnands.png   
+    :alt: La tabla de verdad de la NAND usando dos palancas y una puerta
+
+Ahí vemos la tabla de verdad de la NAND (o sea, cada salida para todas las combinaciones de entrada).
+
+
+Electrónica más compleja
+------------------------
+
+Una vez que tuve la NAND, el resto es cuestión de escalar en complejidad. Entonces decidí hacer un flip-flop, para que mediante dos botones pudiera mantener un estado de salida. 
+
+Podríamos argumentar que si en Minecraft queremos una salida estable podemos usar una palanca y ya, pero por un lado acá vamos por el aprendizaje, no la sencillez, y por el otro tengamos en cuenta que en la entrada podemos tener algún dispositivo automático que genere energía por un momento (po ejemplo, un sensor de presencia), y podemos querer agregarle "estado" a eso.
+
+Volvamos. Un `flip-flop <https://es.wikipedia.org/wiki/Biestable>`_ es el elemento electrónico más básico que puede mantener un estado estable durante un tiempo indefinido (efectivamente almacenando información... o sea, "recuerda" si está en cero o en uno, podemos decir que es la memoria estable más básica).
+
+Hay de distintos tipos, pero apunté al más sencillo, el set-reset, que sólo tiene dos entradas, una para poner al flip-flop en 1 ("set", o S), y la otra para ponerlo en 0 ("reset", o R).
+
+.. image:: /images/minecraftelect/diagramaflipflop.png 
+    :alt: Implementación de un flip-flop SR usando NANDs
+
+Entonces, armé ese circuito, y puse una puerta en una de las salidas (la otra no me interesa). Fíjense en el diagrama de arriba que la entrada "set" y "reset" están negadas (la barrita horizontal arriba de la S y la R). Estuve viendo cómo hacer un negador simple en Minecraft y no me salió (teoricamente las antorchas redstone funcionarían, pero como del otro lado estaban cableadas no me anduvo en el apurón), así que opté por un viejo truco del electrónico, usar una NAND (¿les dije que son la base de todo?) con las entradas unidas.
+
+.. image:: /images/minecraftelect/flipflop-usuario.png 
+    :alt: Dos botones, la puerta al fondo
+
+.. image:: /images/minecraftelect/flipflop-cruce.png 
+    :alt: Una vista del entrecruzamiento de las NANDs
+
+Me terminaron quedando los dos botones cerquita, uno para abrir la puerta y otro para cerrarla (le puse cartelitos como recordatorio). A la izquierda y derecha de cada botón está su NAND-negador correspondiente, y más adelante las dos NANDs cruzadas que arman el flip-flop (se puede ver mejor el cruce de los "cables" en la segunda imagen).
+
+El circuito anda de perlas. Ahora tengo ganas de hacer algo más complejo, pero tendría que ver de hacer ese flip-flop más compacto sin que se "toquen los cables" (no es fácil con el polvo redstone), y ver de simplificar esos negadores. 
+
+Ya les contaré.
