@@ -9,7 +9,7 @@ Claro, todo es un poco simplificado y "raro" a nivel de la física como la conoc
 Como muestra basta un botón. Digo, como ejemplo sólo basta un interruptor. En nuestra realidad un interruptor corta o permite el flujo de corriente por el mismo, pero en Minecraft un interruptor es un generador de energía: sólo con poner "cerca" ese botón con un actuador (por ejemplo, una puerta), tenemos el circuito armado.
 
 .. image:: /images/minecraftelect/botondirecto.png  
-    :alt: La puerta y el botón, en estado de reposo y justo al activarlo
+    :alt: La puerta y el botón, "sin cables"
 
 Ahí no hay nada más que lo que vemos, la puerta y el botón sobre el bloque de piedra. Si en el juego vamos y apretamos ese botón, la puerta se abre.
 
@@ -34,7 +34,7 @@ Durante mucho tiempo estuve con la idea de hacer algo de electrónica dentro del
 
 Una `compuerta NAND <https://es.wikipedia.org/wiki/Puerta_NAND>`_ es una de los elementos clásicos de la electronica, y no es más que una AND negada. Aunque al aprender `las compuertas lógicas en electrónica digital <https://es.wikipedia.org/wiki/Puerta_l%C3%B3gica>`_ siempre se empieza por ANDs y ORs, que son más fáciles, la electrónica realmente gira alrededor de las NANDs porque toda la lógica siempre se puede implementar con NANDs y su implementación (su fabricación) es la más sencilla de todas.
 
-Al tratar de armar esto dentro del juego me di cuenta que se aplicaba esas reglas raras que a veces tiene el juego o redstone en particular, y tuve que buscar por ahí cómo se podía hacer la compuerta. No es tan difícil, pero implica usar "antorchas de piedra roja" (redstone torches), que es una especie de antorcha hecha con polvo de piedra roja (no como las antorchas comunes, que hacemos con carbón), y sirven tanto de generación de energía como de inversores de señal.
+Al tratar de armar esto dentro del juego me di cuenta que se aplicaban esas reglas raras que a veces tiene el juego en general o la redstone en particular, y tuve que buscar por ahí cómo se podía hacer la compuerta. No es tan difícil, pero implica usar "antorchas de piedra roja" (redstone torches), que es una especie de antorcha hecha con polvo de piedra roja (no como las antorchas comunes, que las hacemos con carbón), y sirven tanto de generación de energía como de inversores de señal.
 
 .. image:: /images/minecraftelect/nandsimple.png 
     :alt:  Una NAND simple en Minecraft
@@ -52,7 +52,7 @@ Electrónica más compleja
 
 Una vez que tuve la NAND, el resto es cuestión de escalar en complejidad. Entonces decidí hacer un flip-flop, para que mediante dos botones pudiera mantener un estado de salida. 
 
-Podríamos argumentar que si en Minecraft queremos una salida estable podemos usar una palanca y ya, pero por un lado acá vamos por el aprendizaje, no la sencillez, y por el otro tengamos en cuenta que en la entrada podemos tener algún dispositivo automático que genere energía por un momento (po ejemplo, un sensor de presencia), y podemos querer agregarle "estado" a eso.
+Podríamos argumentar que si en Minecraft queremos una salida estable podemos usar una palanca y ya, pero por un lado acá vamos por el aprendizaje, no la sencillez, y por el otro tengamos en cuenta que en la entrada podemos tener algún dispositivo automático que genere energía por un momento (por ejemplo, un sensor de presencia), y podemos querer agregarle "estado" a eso.
 
 Volvamos. Un `flip-flop <https://es.wikipedia.org/wiki/Biestable>`_ es el elemento electrónico más básico que puede mantener un estado estable durante un tiempo indefinido (efectivamente almacenando información... o sea, "recuerda" si está en cero o en uno, podemos decir que es la memoria estable más básica).
 
