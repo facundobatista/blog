@@ -1,0 +1,20 @@
+.. title: Evolución del trabajo creativo
+.. date: 2021-01-31 10:48:00
+.. tags: trabajo, creatividad, proceso, glass
+
+Estaba buscando algo viejo que sabía tenía en algún archivo/backup (haciendo un poco de arqueología personal, digamos) y me crucé con `este texto <https://64.media.tumblr.com/tumblr_lk8osrCvbK1qzszvro1_500.jpg>`_ que guardé alguna vez, y me gustó volver a leerlo. 
+
+Habla de "trabajo creativo", y aplica perfectamente a lo que es desarrollo de software. Lo dejo traducido (por mí) acá. El autor es `Ira Glass <https://en.wikipedia.org/wiki/Ira_Glass>`_, un locutor yanqui bastante conocido allá, parece.
+
+.. image:: /images/trabajocreativo.jpeg 
+    :alt: El texto original
+
+*Nadie* le dice esto a las personas que están arrancando con algo. *Ojalá* alguien me lo hubiera dicho a mí.
+
+Todos los que hacemos algún trabajo creativo, nos metemos en eso porque tenemos *buen gusto*. Pero hay una *brecha*. El primer par de años que hacés cosas, simplemente *no están tan buenas*. *Intentan* estar buenas, tienen *potencial*, pero no lo están. 
+
+Pero tu *buen gusto*, lo que metió en esto, es lo que te empuja. Y tu buen gusto es la razón de que tu trabajo te decepcione. Un montón de personas *nunca* pasan esta fase; renuncian. La mayoría de la gente que conozco que hace trabajos *creativos*, *interesantes*, atravesaron esta fase por *años*.
+
+Sabemos que nuestro trabajo no tiene *eso que lo hace especial* que queremos que tenga. *Todos* atravesamos eso. Y si estás empezando o todavía estás en esta fase, todo lo que tenés que saber es que es *normal* y que lo más importante que podés hacer es *trabajar un montón*. Ponete una fecha límite de manera de terminar algo cada semana. Solamente trabajando mucho es que vas a cerrar la brecha, y tus resultados serán tan buenos como lo que pretendés.
+
+Y tardé más en darme cuenta cómo hacer esto que cualquier otra persona que conocí. Va a tomar un tiempo. Es *normal* que tome un tiempo. Sólo tenés que luchar por eso.
