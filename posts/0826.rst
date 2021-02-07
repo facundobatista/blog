@@ -1,0 +1,40 @@
+.. title: Lenovo Thinkpad T14 Gen1 FIXME
+
+.. date: 2021-01-19 18:01:00 FIXME
+.. tags: separados por COMA FIXME
+
+
+En algún momento del 2019 decidí que era momento de renovar la laptop, y estuve buscando qué había en el mundo que estuviese copado. Era una época donde viajaba, y estaba la posibilidad de comprar la laptop afuera. 
+
+La máquina a renovar era mi Lenovo Thinkpad T460s, con 128 GB de disco (no tanto, pero para mi uso estaba ok) y un micro no tan rápido pero mucha memoria (Intel i5 6200U de 2.3GHz y 24GB de RAM), con lo cual se labura lindo. El punto es que a la hora de "renovarla", no había mucho espacio para crecer.
+
+Y dicho y hecho, no encontré nada piola que esté medianamente en precio (no quería gastar dos mil dólares). Eso, sumado a que la evolución natural de esa máquina (las T470, T480, etc) eran caras y no me daban un diferencial, hizo que abandone la idea de renovar. Claro, no estaba apurado, la máquina la usaba poco, podía esperar.
+
+Vino el 2020 y la maldita pandemia. Dos hijes, clases virtuales. Male zafó con mi anterior máquina, que la venía usando Moni (para ella compramos una nueva tranquilita porque la otra estaba muy baqueteada), y Felu se "apropió" de mi T460s. La empezó a usar para la escuela, pero pronto la empezó a usar para todo (hacer stop motion, usar `Krita < https://krita.org/es/>`_ o `Blender <https://www.blender.org/>`_ y dibujar mucho, ver videos de YouTube, jugar Minecraft o algo en Steam, aprender Italiano en Duolingo, etc). Y Canonical me dió la guita correspondiente por *laptop refreshment* (que te dan cada tres años). Entonces me sentí motivado a buscar de nuevo algo piola.
+
+Viajar no iba a ser posible, pero ya había tenido la experiencia de comprar la laptop de Moni en Amazon USA, pagando el envío, y es negocio. Entonces me puse a buscar ahí, y comentando lo que iba encontrando con un par de amigues, terminé definiendo lo que es la máquina donde estoy escribiendo esto ahora :).
+
+FIXME T460s, specs
+16GB extra
+teclado iluminado
+ethernet, hdmi grande
+robusta, encanghe para candado
+
+    version: ThinkPad T14 Gen 1
+    product: 20UD000CUS
+
+
+AMD Ryzen 7 PRO 4750U with Radeon Graphics
+1700MHz
+
+16GB soldadas, le agregué 16GB (que también compré en A. USA y me mandé FIXME) FIXME: la laptop permite esto!
+
+
+.. image:: /images/budapest-frio1.jpeg   # FIXME
+    :alt: El auto tapado de hielo, ese frío hacía   # FIXME
+    :target: url!!   # FIXME
+
+PRoblema: uso de cpu dormida
+falta revisar huella digital
+
+más a futuro, dock!
