@@ -1,7 +1,6 @@
-.. title: Lenovo Thinkpad T14 Gen1 FIXME
-
-.. date: 2021-01-19 18:01:00 FIXME
-.. tags: separados por COMA FIXME
+.. title: Lenovo Thinkpad T14 Gen 1
+.. date: 2021-02-09 19:23:00
+.. tags: lenovo, thinkpad, t14, t460s, dock, ram, hibernar, suspender
 
 
 En algún momento del 2019 decidí que era momento de renovar la laptop, y estuve buscando qué había en el mundo que estuviese copado. Era una época donde viajaba, y estaba la posibilidad de comprar la laptop afuera. 
@@ -10,31 +9,21 @@ La máquina a renovar era mi Lenovo Thinkpad T460s, con 128 GB de disco (no tant
 
 Y dicho y hecho, no encontré nada piola que esté medianamente en precio (no quería gastar dos mil dólares). Eso, sumado a que la evolución natural de esa máquina (las T470, T480, etc) eran caras y no me daban un diferencial, hizo que abandone la idea de renovar. Claro, no estaba apurado, la máquina la usaba poco, podía esperar.
 
-Vino el 2020 y la maldita pandemia. Dos hijes, clases virtuales. Male zafó con mi anterior máquina, que la venía usando Moni (para ella compramos una nueva tranquilita porque la otra estaba muy baqueteada), y Felu se "apropió" de mi T460s. La empezó a usar para la escuela, pero pronto la empezó a usar para todo (hacer stop motion, usar `Krita < https://krita.org/es/>`_ o `Blender <https://www.blender.org/>`_ y dibujar mucho, ver videos de YouTube, jugar Minecraft o algo en Steam, aprender Italiano en Duolingo, etc). Y Canonical me dió la guita correspondiente por *laptop refreshment* (que te dan cada tres años). Entonces me sentí motivado a buscar de nuevo algo piola.
+Vino el 2020 y la maldita pandemia. Dos hijes, clases virtuales. Male zafó con mi anterior máquina, que la venía usando Moni (para ella compramos una nueva tranquilita porque la otra estaba muy baqueteada), y Felu se "apropió" de mi T460s. La empezó a usar para la escuela, pero pronto la empezó a usar para todo (hacer stop motion, usar `Krita <https://krita.org/es/>`_ o `Blender <https://www.blender.org/>`_ y dibujar mucho, ver videos de YouTube, jugar Minecraft o algo en Steam, aprender Italiano en Duolingo, etc). Y Canonical me dió la guita correspondiente por *laptop refreshment* (que te dan cada tres años). Entonces me sentí motivado a buscar de nuevo algo piola.
 
 Viajar no iba a ser posible, pero ya había tenido la experiencia de comprar la laptop de Moni en Amazon USA, pagando el envío, y es negocio. Entonces me puse a buscar ahí, y comentando lo que iba encontrando con un par de amigues, terminé definiendo lo que es la máquina donde estoy escribiendo esto ahora :).
 
-FIXME T460s, specs
-16GB extra
-teclado iluminado
-ethernet, hdmi grande
-robusta, encanghe para candado
+Mi nueva laptop es una Lenovo Thinkpad T14 Gen 1 (código de producto 20UD000CUS). Tiene un micro
+AMD Ryzen 7 PRO 4750U (con gráficos Radeon), con un clock base de 1.7GHz que escala hasta 4.1GHz. Viene con 16GB de RAM soldados, y yo le agregué otros 16GB (que también compré en Amazon USA y me los mandé a casa). Tengan en cuenta que es el tipo de laptop que está pensada para que uno la abra y le cambie/agregue partes, como la memoria o el disco (que no creo que toque porque el que trae es inmenso: medio tera). 
 
-    version: ThinkPad T14 Gen 1
-    product: 20UD000CUS
+A nivel más "externo", tiene el *look and feel* de una thinkpad robusta. Y como no es recontrasuperfina tiene conexión Ethernet real (no enchufecito para adaptador ni nada), el HDMI grande normal, y la entradita para engancharle el cable-candado (que es vital para les que trabajamos en bares por ahí... ya volveremos, che). La frutilla del postre: teclado retroalimentado (¡mi primera vez!).
 
 
-AMD Ryzen 7 PRO 4750U with Radeon Graphics
-1700MHz
+.. image:: /images/t14.png
+    :alt: Lenovo Thinkpad T14 Gen 1, un fierrito
 
-16GB soldadas, le agregué 16GB (que también compré en A. USA y me mandé FIXME) FIXME: la laptop permite esto!
+La máquina anda un montón. Pero no son todas rosas, sin embargo. Tiene el problema de que consume un poco de energía estando suspendida. Parece que el kernel de Linux no se da cuenta de suspender a la placa de video o parte de ella (por el bus con el que está conectada internamente) y queda gastando algo. No es mucho, pero si suspendés la máquina y la volvés a buscar dos días después, perdiste, está muerta.
 
+Para solucionar eso estoy configurando lo que se llama *suspend-then-hibernate*, que funciona de la siguiente manera: cuando dejás de trabajar cerrás la tapa de la laptop y listo, y la máquina se suspende. Unos minutos después (cinco? veinte? es configurable) la máquina entra en estado de hibernación (que posta apaga todo). Más allá que es un incordio el detalle, este modo que ahora estoy "obligado" en configurar es algo que siempre quise tener :)
 
-.. image:: /images/budapest-frio1.jpeg   # FIXME
-    :alt: El auto tapado de hielo, ese frío hacía   # FIXME
-    :target: url!!   # FIXME
-
-PRoblema: uso de cpu dormida
-falta revisar huella digital
-
-más a futuro, dock!
+Algo que también tengo que ver de configurar (y entender qué beneficios me da) es el lector de huellas digitales que trae. Y más a futuro, le quiero comprar `el dock <https://support.lenovo.com/ar/es/solutions/acc100348>`_ y empezar a trabajar siempre en la laptop.
