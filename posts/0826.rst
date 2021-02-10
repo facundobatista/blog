@@ -16,7 +16,7 @@ Viajar no iba a ser posible, pero ya había tenido la experiencia de comprar la 
 Mi nueva laptop es una Lenovo Thinkpad T14 Gen 1 (código de producto 20UD000CUS). Tiene un micro
 AMD Ryzen 7 PRO 4750U (con gráficos Radeon), con un clock base de 1.7GHz que escala hasta 4.1GHz. Viene con 16GB de RAM soldados, y yo le agregué otros 16GB (que también compré en Amazon USA y me los mandé a casa). Tengan en cuenta que es el tipo de laptop que está pensada para que uno la abra y le cambie/agregue partes, como la memoria o el disco (que no creo que toque porque el que trae es inmenso: medio tera). 
 
-A nivel más "externo", tiene el *look and feel* de una thinkpad robusta. Y como no es recontrasuperfina tiene conexión Ethernet real (no enchufecito para adaptador ni nada), el HDMI grande normal, y la entradita para engancharle el cable-candado (que es vital para les que trabajamos en bares por ahí... ya volveremos, che). La frutilla del postre: teclado retroalimentado (¡mi primera vez!).
+A nivel más "externo", tiene el *look and feel* de una thinkpad robusta. Y como no es recontrasuperfina tiene conexión Ethernet real (no enchufecito para adaptador ni nada), el HDMI grande normal, y la entradita para engancharle el cable-candado (que es vital para les que trabajamos en bares por ahí... ya volveremos, che). La frutilla del postre: teclado retroiluminado (¡mi primera vez!).
 
 
 .. image:: /images/t14.png
