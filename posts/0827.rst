@@ -1,0 +1,20 @@
+.. title: Liberamos un beta de la próxima CDPedia
+.. date: 2021-03-19 11:34:00
+.. tags: CDPedia, Python Argentina, Python, Wikipedia, proyecto, beta, liberación
+
+¿Se acuerdan que `les había contado <https://blog.taniquetil.com.ar/posts/0807/>`_ que armé un grupo de trabajo alrededor de CDPedia?
+
+Bueno, todo el equipo de CDPedistas estuvimos trabajando mucho mucho desde ese momento (¡un año!), y estamos felices de contarles que tenemos un beta de CDPedia para mostrarles.
+
+¿Qué es CDPedia? Es un proyecto de Python Argentina para acceder a la información de la Wikipedia en castellano aunque no tengas una conexión a Internet. Más info `acá <http://cdpedia.python.org.ar/>`_.
+
+¿Por qué un beta? Liberamos una imagen chiquita de CDPedia (8 mil artículos, pocas imágenes, etc) que preparamos en sólo algunos días de procesamiento, y pesa poquito (la pueden bajar en seguida) para permitir probar y revisar que "todo funcione lindo". Claro, va a tener pocos artículos y pocas imágenes, pero todo el resto debería funcionar impecablemente.
+
+Para bajarla, apunten vuestro cliente de Torrent `a este archivo <http://cdpedia.python.org.ar/images/es/0.8.4/cdpedia-es-0.8.4-20210304-beta.tar.xz.torrent>`_. Una vez bajada, descomprimen el archivo y ejecutan (desde la terminal o haciendo doble click) ``cdpedia.py`` (Linux o Mac) o ``cdpedia.bat`` (en Windows).
+
+Si encuentran algún problema, pueden avisar por acá, o `crear un issue en el proyecto <https://github.com/PyAr/CDPedia/issues/new>`_, o avisarme por Telegram.
+
+En un par de semanas, con más o menos fixes luego de esta "revisión beta", pondremos a generar las versiones finales (que llevan su tiempo, pero ya les avisaremos).
+
+Muchas gracias por la colaboración :)
+
