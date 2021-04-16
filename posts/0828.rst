@@ -1,0 +1,49 @@
+.. title: Usando un muelle
+.. date: 2021-04-16 20:50:00
+.. tags: dock, laptop, enchufes, trabajo, estructuras
+
+Por primera vez en 13 años estoy trabajando sentado en la silla del escritorio, con mouse y teclado grande, mirando el monitor grande, pero sin utilizar la "computadora de escritorio".
+
+Me siento desnudo.
+
+
+¿Cómo cómo cómo?
+----------------
+
+Además, ¿qué tiene que ver eso con un muelle?
+
+Un *muelle* (o *dock* en inglés, que es la palabra que realmente usamos para denominar este dispositivo) es un *coso* al que por un lado se le enchufan muchos periféricos (con sus correspondientes muchos cables) y por el otro se le enchufa una laptop (con un cable, en algunos casos, o con un conector especial que a veces tienen las laptops).
+
+La utilidad del dispositivo es justamente conectar y desconectar una gran cantidad de periféricos "en un periquete". Entonces cuando llegás con la laptop bajo el brazo a tu escritorio enchufás *un* cable (o apoyás la laptop en un conector particular) y automáticamente tenés todos los periféricos enchufados. 
+
+.. image:: /images/dock-conectado.jpeg
+    :alt: Ejemplo de dock (con muchos cables) conectado fácil a la laptop
+
+Podés trabajar con un monitor grande, teclado y mouse normales, el cable de red enchufado, parlantes decentes, etc. Y cuando tenés que irte de ahí desenchufás *un* cable y te fuiste.
+
+
+¿Entonces?
+----------
+
+Ya había mencionado `algo al respecto <https://blog.taniquetil.com.ar/posts/0826/>`_, cuando les conté la nueva laptop del laburo: quería analizar la posibilidad de tener un *dock*.
+
+Terminé de tomar la decisión y lo compré. `Este <https://www.lenovo.com/us/en/accessories-and-monitors/docking/universal-cable-docks-thunderbolt/Thunderbolt-Dock-Gen-2-US/p/40AN0135US>`_, puntualmente, que tiene todo lo que necesito y un poco más, en caso de ser necesario.
+
+.. image:: /images/dock-deatras.jpeg 
+    :alt: Enchufecitos, muchos enchufecitos
+
+Al dock tengo conectado el monitor de siempre, teclado y mouse normales, los parlantes de escritorio, el cable de red, los auriculares y la cámara que uso en las videollamadas, y me queda un USB más, frontal, para cualquier pendrive que necesite en el momento.
+
+El punto es que empecé a trabajar en el día a día en la laptop, en vez del escritorio.
+
+A la laptop yo la tenía como un "lugar de laburo eventual". Si había un sprint en un bar, laptop. Si había un viaje de trabajo, usaba la laptop. ¿Un PyCamp? La laptop. Pero NO era donde tenía "todo". 
+
+Es que de laburar una semanita cada tanto, a tener "todo", hay un mundo de distancia. En los detalles está el Diablo. Es como esa frase que dice "ya hicimos el 90% del proyecto, ahora falta el otro 90%".
+
+Claro, en "el escritorio" yo tenía todo muy acomodado, en estructuras que había ido evolucionando durante un par de décadas. Sí, reinstalo el sistema operativo cada tanto, pero eso es sólo una parte del todo, la gran mayoría de lo que tengo ordenado y me permite ser eficiente con esta herramienta que es mi "trabajo", lo voy llevando de instalación en instalación.
+
+Y ahora que fui a la laptop, la idea es NO llevar todo tal cual. Es que hay muchas cosas que son "de la máquina de escritorio". Por ejemplo, el Deluge que lo tengo bajando torrentes. O las fotos. O el backup en la misma máquina pero disco separado. Etc. 
+
+Entonces me llevé un poco "lo mínimo imprescindible", y empecé a laburar con eso, ajustando cosas, trayendo algunas más que había olvidado, etc. Pero es como mudarse de pais habiendo llevado sólo una valija. Te faltan cosas, pero al mismo tiempo tenés la libertad de experimentar sin estar atade al pasado.
+
+Veremos cómo es el viaje.
