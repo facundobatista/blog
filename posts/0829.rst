@@ -1,0 +1,38 @@
+.. title: Trayendo Typus Pocus de vuelta a la vida
+.. date: 2021-05-13 18:05:00
+.. tags: juegos, Python, magia, PyWeek, migración, reflotar
+
+
+Septiembre del 2006. PyWeek: competencia internacional de hacer jueguitos en Python. Con unos vagos más hicimos Typus Pocus, ganamos :) (`acá el detalle de esa historia <https://blog.taniquetil.com.ar/posts/0210/>`_).
+
+.. image:: /images/typuspocus1.png
+    :alt: Tipografía y sombrero inconfundibles
+    :target: https://typuspocus.taniquetil.com.ar/
+
+Como todo juego de PyWeek, el código tiende a desastroso por el apuro y muchas manos en el plato sin tiempo a demasiado diseño ni emprolijadas. Pero el juego está bueno y yo (y alguien más en algún momento) le seguí metiendo un poco de laburo los años siguientes. 
+
+Aunque mostramos el juego en varios stands de Python Argentina en muchas conferencias, creo que la vez que más éxito tuvo fue `en la EkoParty del 2014 <https://blog.taniquetil.com.ar/posts/0660/>`_: teníamos una versión adaptada, y la idea era ver si a alguien se le ocurría hackear el juego de alguna manera (algo de eso hubo).
+
+Fué la última vez que lo ejecuté. Fast forward casi siete años.
+
+.. image:: /images/typuspocus2.png
+    :alt: La primera vez que usamos al Gran Grossini, alto personaje
+    :target: https://typuspocus.taniquetil.com.ar/
+
+Una de las ideas para que Felu entre en la programación era que haga juegos. Los dos frameworks para hacer juegos en Python que conocía eran `pygame <https://www.pygame.org/>`_ y `cocos2d <http://cocos2d.org/>`_, pero ambos son "complejos" en el sentido que hay que entender un montón de cosas de Python y programación en general antes de poder hacer lo básico. Incluso estuve algunas horas tonteando con hacer una especie de "coquitos" que escondiera la complejidad inicial de cocos2d para los casos más básicos. No progresé mucho.  Pasó que escuché sobre `Arcade <https://arcade.academy/>`_, un framework para hacer juegos justamente orientado a que sea simple. Y Felu está aprendiendo por ahí.
+
+Pero más allá de esa historia, charlando sobre juegos, comenté sobre la existencia de Typus Pocus, y se los mostré (a él y a Male). Y recordé cuan bueno estaba el juego, al punto que decidí que no podía morirse en el tiempo.
+
+Entonces lo refloté.
+
+.. image:: /images/typuspocus3.png
+    :alt: Escena típica del juego
+    :target: https://typuspocus.taniquetil.com.ar/
+
+Lo migré a Python 3, actualicé un poco su entorno de desarrollo y ejecución (mejor internacionalización, ahora corre en un virtualenv, emprolijé el código, etc.), e incluso corregí un par de bugs producto de empezar a usar un Pygame mucho más nuevo (anduvo en un 99.9% luego de tantos años, y más allá de corregir ese 0.1%, es sorprendente que hayan mantenido tan bien compatibilidad con el pasado).
+
+Por otro lado, no le puse mucho más amor que eso: el juego tiene muchos detalles que pueden ser mejorados (manejo de score, por ejemplo). Y sigue estando en `Launchpad <https://launchpad.net/typuspocus>`_.
+ 
+Más allá de correcciones y mejoras (o no), además de hacerlo funcionar de nuevo pensé también en distribuirlo, para lo cual me propuse dos maneras. Por un lado, `armé un snap <https://snapcraft.io/typuspocus>`_, de manera que pueda ser instalado fácil en cualquier Linux (``sudo snap install typuspocus``), y por el otro lo empaqueté para Windows y le `armé un instalador <https://typuspocus.taniquetil.com.ar/typuspocus-setup-1.0.exe>`_.
+
+Y hasta le armé `una paginita web muy simple <https://typuspocus.taniquetil.com.ar/>`_. ¡Compartan y disfruten!
