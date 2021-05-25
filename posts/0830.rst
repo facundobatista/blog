@@ -1,0 +1,19 @@
+.. title: Por un ambiente más seguro en Python Argentina
+.. date: 2021-05-25 18:38:00
+.. tags: PyAr, Python Argentina, diversidad, ambiente, seguro, protocolo, actuación
+
+En Python Argentina venimos discutiendo "diversidad en ámbitos relacionados con la programación" antes que se pusiera de moda :). No sólo diversidad de género (aunque principalmente), sino en general.
+
+Guiados por una chispa que arrancó con la Python Software Foundation, estamos charlando sobre este tema desde hace una década. Como muestra basta un botón: recuerdo una discusión bastante acalorada en el PyCamp de La Falda, 2011.
+
+Durante estos años tuvimos muchas acciones al respecto. Algunas de visibilización del problema, como la Plenaria sobre este tema de Fernando Schapachnik, de la Fundación Sadosky, otras de acciones puntuales, como tener un `Código de Conducta <https://ac.python.org.ar/#coc>`_ en todos los eventos que sean parte de Python Argentina, e incluso `una declaración y texto instructivo sobre Diversidad <https://ac.python.org.ar/diversidad/>`_.
+
+Todo esto es para contarles que fuimos un poquito más allá, inclusive.
+
+En sincronía con todo este contexto de hacer nuestras reuniones y espacios de intercambio más seguros y amigables a todas las diversidades, hace como dos años aprendí que teníamos que tener por escrito y pre-acordado la forma de reaccionar ante los distintos problemas. Esto es, un "protocolo" para saber manejarnos cuando algún quilombo suceda, pensado desde el lado operativo y legal, apuntando a cuidar a les víctimas y al mismo tiempo a les que toman las decisiones.
+
+Mi amiga abogada Julieta Parellada me empezó a pasar material similar de universidades y empresas, yo junté todo eso y lo adapté a una organización "semi virtual" como Python Argentina, y después trabajé con ella varios meses puliéndolo, consultando terceras partes para algunos items complicados, completándolo, mejorándolo.
+
+Finalmente terminamos el texto, lo revisaron los abogados de la Asociación Civil, lo presenté a la Comisión Directiva hace algunas semanas, y se aprobó.
+
+Les presento entonces el `Protocolo de actuación ante situaciones de discriminación, acoso y hostigamiento <https://ac.python.org.ar/Protocolo%20de%20actuaci%C3%B3n%20ante%20situaciones%20de%20discriminaci%C3%B3n,%20acoso%20y%20hostigamiento.pdf>`_. Esto va a estar activo en todos los eventos/canales donde esté involucrada la Asociación Civil, así que está bueno estar al tanto :).
