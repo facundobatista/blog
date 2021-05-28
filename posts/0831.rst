@@ -1,0 +1,24 @@
+.. title: Python en Ámbitos Científicos
+.. date: 2021-05-28 18:32:00
+.. tags: libro, Python, Ciencia, PDF, libre, descargar
+
+Desde hace un par de años largos que tenía en la cabeza escribir un libro que mezcle Python con Ciencia. 
+
+El año pasado activé, lo pensé un poco más, y encontré el mejor socio para esto: mi amigo `Manu Carlevaro <https://twitter.com/mcarlevaro>`_.
+
+Nuestras ideas sobre qué queríamos de un libro que mezcle estos dos conceptos convergieron bastante rápido, así como también la idea del formato y otros contextos (como que sea un libro en PDF con una licencia que permite ser distribuido sin inconvenientes).
+
+Casi que les diría que lo que más nos costó fue el título :) Pero nos gusta como quedó, se llama **Python en Ámbitos Científicos**.
+
+.. image:: /images/pyciencia.png
+    :alt: Por otro lado el logo salió bastante rápido
+    :target: https://pyciencia.taniquetil.com.ar/
+
+Empezamos a laburar hace varios meses, y acabamos de publicar el primer capítulo
+
+¿Cómo el primer capítulo? ¿Y el libro? El libro en sí está en proceso, pero otra de las ideas contextuales de este trabajo es ir liberando capítulos de a poco para poder recibir feedback y mejorarlo. Después de todo si es gratis y tiene una licencia copada, ¿por qué no recibir sugerencias de mejoras?
+
+Entonces, el primer capítulo ya está disponible para que lo bajen desde `la página del libro <https://pyciencia.taniquetil.com.ar/>`_. También hay un `proyecto en Github <https://github.com/facundobatista/libro-pyciencia/>`_ donde además de encontrar los PDFs se puede acceder a todo el código mostrado en el libro. Y una `cuenta de Twitter <https://twitter.com/libro_pyciencia>`_ por si quieren seguirla para recibir noticias.
+
+Claro, en algún momento terminaremos todos los capítulos que tenemos planeados, y liberaremos el libro entero y bonito :). Ya les iremos contando. ¡Que lo disfruten!
+
