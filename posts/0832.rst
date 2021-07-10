@@ -1,0 +1,31 @@
+.. title: CDPedia 0.9.0, la mejor de la historia
+.. date: 2021-07-10 17:13:00
+.. tags: CDPedia, Python, Wikipedia, proyecto, información
+
+Ya les conté muchas veces sobre CDPedia en este blog. En todas sus liberaciones, cuando trabajábamos en los distintos PyCamps, un `resumen de su historia <https://blog.taniquetil.com.ar/posts/0526/>`_, `cuando salió como parte del material de EducAr <https://blog.taniquetil.com.ar/posts/0541/>`_, y especialmente cuando hice un gran `"todo lo que siempre quisiste saber" <https://blog.taniquetil.com.ar/posts/0697/>`_ del proyecto.
+
+También les comenté el año pasado que `arrancaba un proyecto social <https://blog.taniquetil.com.ar/posts/0804/>`_ (a.k.a. "experimento") alrededor de CDPedia para impulsarlo y a la vez explorar el armado de un grupo de trabajo específico. A fines del año pasado expuse una charla rápida en la PyCon Argentina contando el avance de dicho experimento, es un videito de menos de cinco minutos, si les gusta:
+
+.. youtube:: wHau2f2Rg68
+    :align: center
+
+Este post, entonces, es para contarles que llegamos con éxito a la versión 0.9.0. Pasó el tiempo, y las dinámicas del grupo fueron cambiando, pero en definitiva estuvimos trabajando más de un año para esta liberación.
+
+Pueden explorar el el detalle de todos los cambios en `la página de la release <https://github.com/PyAr/CDPedia/releases/tag/0.9.0>`_, que están agrupados en:
+
+- Renovación del índice para una búsqueda más rápida y exacta
+- Cambios en cómo mostramos y procesamos las imágenes
+- Mejoras en la experiencia de les usuaries finales
+- Modernización del proyecto
+- Mejoras en la producción de las imágenes de CDPedia
+
+Y obviamente, el contenido actualizado a este año.
+
+.. image:: /images/experimentocdpedia-caritas.png
+    :alt: El equipo
+
+Pero quizás la novedad más importante de esta versión es que completamos algunos cambios y ajustamos todos los detalles para poder empezar a generar CDPedias en distintos idiomas. Por eso si van `al sitio de la CDPedia <http://cdpedia.python.org.ar/>`_ van a ver que podrán elegir la CDPedia no sólo en Castellano sino también en Aimara y Portugués. Seguramente agregaremos otros lenguajes más adelante. ¿Hay alguno que quieran en particular?
+
+Recuerden que la CDPedia es un proyecto para hacerle llegar la información a aquelles que no tienen buena conexión a internet, así que tenemos que ser proactivos en llevarles las imágenes de CDPedia para que la puedan disfrutar. Entonces si tienen discos disponibles, hagan algunas copias de CDPedia para regalar a tus familiares y amigues, a la biblioteca de vuestro barrio, o a la escuela de sus hijes. O directamente llévenla en un pendrive y la comparten todo lo que puedan.
+
+¡Difundan CDPedia!
