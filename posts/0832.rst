@@ -1,8 +1,8 @@
-.. title: CDPedia 0.9.0, la mejor de la historia
+.. title: CDPedia 0.9.0, ahora en varios idiomas
 .. date: 2021-07-10 17:13:00
 .. tags: CDPedia, Python, Wikipedia, proyecto, información
 
-Ya les conté muchas veces sobre CDPedia en este blog. En todas sus liberaciones, cuando trabajábamos en los distintos PyCamps, un `resumen de su historia <https://blog.taniquetil.com.ar/posts/0526/>`_, `cuando salió como parte del material de EducAr <https://blog.taniquetil.com.ar/posts/0541/>`_, y especialmente cuando hice un gran `"todo lo que siempre quisiste saber" <https://blog.taniquetil.com.ar/posts/0697/>`_ del proyecto.
+Ya les conté muchas veces sobre CDPedia en este blog. En todas sus liberaciones, cuando trabajábamos en los distintos PyCamps, un `resumen de su historia <https://blog.taniquetil.com.ar/posts/0526/>`_, también `cuando salió como parte del material de EducAr <https://blog.taniquetil.com.ar/posts/0541/>`_, y especialmente cuando hice un gran `"todo lo que siempre quisiste saber" <https://blog.taniquetil.com.ar/posts/0697/>`_ del proyecto.
 
 También les comenté el año pasado que `arrancaba un proyecto social <https://blog.taniquetil.com.ar/posts/0804/>`_ (a.k.a. "experimento") alrededor de CDPedia para impulsarlo y a la vez explorar el armado de un grupo de trabajo específico. A fines del año pasado expuse una charla rápida en la PyCon Argentina contando el avance de dicho experimento, es un videito de menos de cinco minutos, si les gusta:
 
