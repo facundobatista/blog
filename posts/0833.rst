@@ -1,0 +1,15 @@
+.. title: Programando un juego en Python por streaming
+.. date: 2021-07-27 20:03:00
+.. tags: juego, Python, Escuelita, vivo, Twitch, streaming
+
+Vamos a arrancar un experimento con Diego y Leandro (el equipo de `La Escuelita Python <https://escuelitapython.com.ar>`_ donde vamos a hacer un juego, en Python, programando en vivo. Vamos a usar la plataforma Twitch, todos los miércoles a las 18hs, nos pueden seguir por `este canal <https://www.twitch.tv/escuelitapython>`_.
+
+Tenemos la idea: queremos hacer el Boggle (un juego de construcción de palabras) para que un grupo de personas lo pueda jugar via Telegram. Esta es toda la definición, y no tenemos nada más. Ni como es exactamente el juego, ni cual va a ser la dinámica de grupo de les jugadores, ni cómo interactuar con Telegram.
+
+Y a propósito tenemos solamente la idea base y nada explorado porque vamos a hacer todo en vivo. Desde el diseño hasta crear el proyecto en Github, desde explorar las bibliotecas a utilizar hasta ver como lo deployamos, desde irlo codeando hasta probarlo funcionando, etc.
+
+Queremos desmitificar lo que es "la programación de verdad" ya que mucha gente piensa que cuando uno tiene experiencia se sienta y hace todo bien como si ya supiese de antes, y realmente hay todo un proceso de exploración y aprendizaje que, aunque es más corto y orientado si tenés experiencia, también existe.
+
+Y queremos de paso aprender Twitch y promocionar la Escuelita, que ya se acerca el fin de la pandemia y ni bien podamos empezar con los cursos presenciales saldremos al ruedo :)
+
+¡Les esperamos!
