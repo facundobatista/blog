@@ -12,13 +12,13 @@ Eso quedó ahí, y aunque se podía clonar el proyecto o bajar un tarball y usar
 
 En su momento, aprovechando que laburé para armar `un instalador de Windows de TypusPocus <https://blog.taniquetil.com.ar/posts/0829/>`_, armé también el instalador para Windows de Encuentro.
 
-¿Pero y los linuxes? Bueno, no es tan fácil. Armar un ``.deb`` o un ``.rpm`` no es trivial (y sólo se cubre Debian, Ubuntu, Fedora, y algunos derivados. Y para Arch es distinto. Traté de armar un `snap <https://snapcraft.io/>`_, pero como es un formato que tiene "todo adentro y listo para usar" no es sencillo meter cosas gigantes del escritorio, como PyQt5. Y sí, claro, siempre te podés bajar el tarball o clonar el proyecto y usar Encuentro en Linux, pero no es sencillo, termina siendo una barrera.
+¿Pero y los linuxes? Bueno, no es tan fácil. Armar un ``.deb`` o un ``.rpm`` no es trivial (y sólo se cubre Debian, Ubuntu, Fedora, y algunos derivados). Y para Arch es distinto. Traté de armar un `snap <https://snapcraft.io/>`_, que funca en muchos linuxes, pero como es un formato que tiene "todo adentro y listo para usar" no es sencillo meter cosas gigantes del escritorio, como PyQt5. Y sí, claro, siempre te podés bajar el tarball o clonar el proyecto y usar Encuentro en Linux, pero no es sencillo, termina siendo una barrera.
 
 Por otro lado, desde hace algunos meses empezó a germinar en mi cabeza una idea para distribuir proyectos Python, y hace algunas semanas empezó a catalizarse en algo firme, posible. Lo dí por llamar `PyEmpaq <https://github.com/facundobatista/pyempaq/>`_ y todavía está muy verde (ya escribiré un post cuando esté más firme).
 
 El punto es que justamente PyEmpaq me permite distribuir Encuentro de forma sencilla :). Es sólo un archivo, te lo bajás y lo corrés con Python 3, y listo. Sí, tenés que tener Python instalado en la máquina, pero eso siempre se cumple con los Linuxes. ¡Y nada más! 
 
-La primera vez va a tardar un toque porque armar el entorno para que el programa corra ok, pero luego lo reusa y listo. Y no es un instalador: vas a tener que volver a correrlo desde la terminal cada vez que lo quieras usar (¿les dije que estaba verde?).
+La primera vez va a tardar un toque porque arma el entorno para que el programa corra ok, pero luego lo reusa y listo. Y no es un instalador: vas a tener que volver a correrlo desde la terminal cada vez que lo quieras usar (¿les dije que estaba verde?).
 
 Pero funciona, y es suficiente para que sea usable. Así que actualicé `la página de Encuentro <https://encuentro.taniquetil.com.ar/>`_ para reflejar estas dos formas de instalación/uso, y listo. 
 
