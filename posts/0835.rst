@@ -1,0 +1,84 @@
+.. title: Escaso cine, algunas series
+.. date: 2021-09-20 17:01:00
+.. tags: películas, series, pandemia, nacionales
+
+Desde principio de año que no meto un post de estos... y miren, ¡apenas un puñado de reviews! 
+
+Esto de la pandemia y estar toda la familia todo el tiempo en casa hace que me cueste encontrar "un par de horas a solas" como para sentarme tranqui a ver una peli...
+
+Pero bueno, algunas fui viendo con la familia, y otras medio a los saltos:
+
+- `Ad Astra <https://www.imdb.com/title/tt2935510/>`_: -0. Un par de ideas están bien, pero el resto suena a muy reciclado de otras pelis/series, y encima es leeenta.
+- `Camarón: Flamenco y revolución <https://www.imdb.com/title/tt8067306/>`_: +1. Muy buena peli/documental, mostrando detalles e intimidades sin caer en lo sensacionalista. La voz en off es genial.
+- `La odisea de los giles <https://www.imdb.com/title/tt10384744/>`_: +1. ¡Muy buena! Comedia, drama, acción. No aburre, es muy dinámica. Las actuaciones están muy bien, la historia también.
+- `Lucy in the Sky <https://www.imdb.com/title/tt4682804/>`_: +0. Me gusta como se mete en la psiquis de la personaje. Un hallazgo la técnica del factor de forma variable de la pantalla.
+- `Pet Sematary <https://www.imdb.com/title/tt0837563/>`_: +0. Para un remake, está muy bien. Abusa de "los momentos sorpresa", pero tiene su lado de asuste/angustia más psicológico. Funciona.
+- `El increíble finde menguante <https://www.imdb.com/title/tt7428476/>`_: +0. Una vuelta de tuerca sobre un tema más bien conocido. Interesante un mecanismo visual/narrativo que nunca había visto antes.
+- `Yucatán <https://www.imdb.com/title/tt6502956/>`_: +0. Liviana, para pasar el rato, graciosa. Nada más.
+
+.. image:: /images/pelis/camarón.jpeg
+    :alt: Camarón: Flamenco y revolución
+
+A lo que le metí ritmo fueron las series. 
+
+Estuve viendo muchas miniseries de lo que era Contenidos Digitales Abiertos y que ahora está en parte metido en `Cine.Ar <http://cine.ar/>`_. En realidad yo ya las tenía bajadas desde hace un montón, pero no las había llegado el turno.
+
+El nuevo sitio de Cine.Ar la verdad es que es una garompa, les recomiendo usar `mi programa Encuentro <https://encuentro.taniquetil.com.ar/>`_ porque entonces pueden seleccionar todos los capítulos de la serie, la ponen a descargar, y luego la pueden ver sin tener que estar conectados a internet (con un pendrive en una tele, por ejemplo).
+
+Habré visto unas 8 o 9 miniseries, las que más me gustaron son las siguientes:
+
+- `Cromo <https://es.wikipedia.org/wiki/Cromo_(serie_de_televisi%C3%B3n)>`_: muy muy buena serie, con actores de primer nivel; es un policial de misterio, muy basado en la realidad, en nuestra realidad.
+- `23 pares <https://es.wikipedia.org/wiki/23_pares>`_: me encantó, cada capítulo es medio independiente, pero luego están varios personajes que unen todo el flujo narrativo, con varias historias en paralelo, muy interesantes.
+- `Las 13 esposas de Wilson Fernandez <https://es.wikipedia.org/wiki/Las_13_esposas_de_Wilson_Fern%C3%A1ndez>`_: una gran, gran comedia negra.
+- `La Casa <https://es.wikipedia.org/wiki/La_casa_(serie_de_televisi%C3%B3n)>`_: serie de historias independientes, enlazadas porque todas pasan en "la casa" (aunque algunos guiños hay de relaciones *entre* las historias); algunos episodios interesantes, otros más flojos, el "problema" es que al ser todas historias muy aisladas entre sí, no termina de enganchar
+
+.. image:: /images/pelis/multipleseries04.jpeg
+    :alt: Series argentinas
+
+También estuve viendo otras series no nacionales. Estuve con las primera cuatro temporadas de `Billions <https://www.themoviedb.org/tv/62852-billions>`_, es muy buena, ahora a esperar a la quinta. 
+
+Terminé `Vikings <https://www.themoviedb.org/tv/44217-vikings>`_ (spoiler alert: siempre pensé que la serie era en parte de Bjorn y Lagertha, pero principalmente de Floki, así que estoy contento en como terminó), y metí una más de `The Expanse <https://www.themoviedb.org/tv/63639-the-expanse>`_, que ya les había recomendado, ahora a esperar su sexta y última.
+
+Del lado negativo de las valoraciones, la cuarta de `Fargo <https://www.themoviedb.org/tv/60622-fargo/season/4>`_ estuvo muy floja. Y con la miniserie `The Stand <https://www.themoviedb.org/tv/86382-the-stand>`_ me pasó lo mismo que con The Dark Tower: zafa apenas, pero si no conocés la historia orginal. Hay que dejar de ver adaptaciones de libros de Stephen King donde está él mismo involucrado :)
+
+En este momento estoy con `The Americans <https://www.themoviedb.org/tv/46533-the-americans>`_, que me viene gustando bastante, y `Big Little Lies <https://www.themoviedb.org/tv/66292-big-little-lies>`_ que arrancó la primer temporada un poco lenta pero cerró bien, me queda la segunda.
+
+.. image:: /images/pelis/multipleseries05.jpeg
+    :alt: Las que me gustaron o estoy viendo
+
+Con Moni seguimos viendo a `Rita <https://www.themoviedb.org/tv/51078-rita>`_, estamos con la tercera, y nos gustó bastante `Félix <https://www.themoviedb.org/tv/78627-felix>`_.
+
+Con Felu terminamos la tercera temporada de `Star Trek Discovery <https://www.themoviedb.org/tv/67198-star-trek-discovery>`_, y con él y Male estamos viendo `Fringe <https://www.themoviedb.org/tv/1705-fringe>`_ (yo ya la vi hace unos diez años), ya vamos por la tercera temporada, ¡nos encanta!
+
+.. image:: /images/pelis/multipleseries06.jpeg
+    :alt: Series con la familia
+
+En sintonía con lo de arriba, casi nada de nuevas anotadas. Acá es fácil la explicación: ¡casi no hay nuevas películas! Otro efecto secundario de la pandemia. Supongo que en el 2022 remontará...
+
+- `G.O.R.A. <https://www.themoviedb.org/movie/27275-g-o-r-a>`_: (2004; Aventura, Comedia, Ciencia ficción)  [D: Ömer Faruk Sorak; A: Cem Yılmaz, Özge Özberk, Özkan Uğur, Ozan Güven, Rasim Öztekin]
+- `La noche mágica <https://www.themoviedb.org/movie/630520-la-noche-magica>`_: (2021; Comedia, Drama) Es 24 de diciembre, víspera de Navidad. En una casa tranquila en San Isidro donde vive un matrimonio con su pequeña hija, un ladrón espera su momento para entrar a robar. Para su sorpresa, se encontrará primero con el amante de la señora de la casa al cual obligará a participar en el robo. Lo que no sabe, es que la pequeña de la casa al verlo lo confundirá con Papá Noel y le pedirá cumplir su lista de deseos navideños. [D: Gastón Portal; A: Natalia Oreiro, Diego Peretti, Pablo Rago, Esteban Bigliardi, Isabela Palópoli]
+- `Reminiscence <https://www.themoviedb.org/movie/579047-reminiscence>`_: (2021; Ciencia ficción, Misterio, Romance) En un futuro cercano, Nicolas Bannister (Hugh Jackman) tiene un negocio que consiste en que sus clientes puedan revivir cualquier recuerdo que deseen. Su vida cambia cuando conoce a Mae (Rebecca Ferguson), una mujer que sólo acude a la consulta para poder recordar dónde dejó sus llaves. Pero este encuentro, pronto se convierte en un apasionado romance. Sin embargo, un día Mae desaparece sin razón y Nick se queda desolado. Hará todo lo posible por encontrarla, lo que implicará volver al pasado para descubrir la verdad sobre la mujer de la que se ha enamorado. [D: Lisa Joy; A: Hugh Jackman, Rebecca Ferguson, Thandiwe Newton, Cliff Curtis, Marina de Tavira]
+- `天気の子 <https://www.themoviedb.org/movie/568160>`_: (2019; Fantasía, Animación, Romance, Drama) En la actualidad, Tokio está experimentando lluvias que parecen interrumpir el ritmo habitual de todos los que viven allí sin fin. En medio de este aguacero aparentemente eterno llega la fugitiva estudiante de secundaria Hodaka Morishima, que lucha por mantenerse económicamente, terminando con un trabajo en una editorial de poca monta. Al mismo tiempo, la huérfana Hina Amano también se esfuerza por encontrar trabajo para mantenerse a sí misma y a su hermano menor.  Ambos destinos se entrelazan cuando Hodaka intenta rescatar a Hina de hombres sombríos, decidiendo huir juntos. Posteriormente, Hodaka descubre que Hina tiene un poder extraño pero sorprendente: la capacidad de llamar al sol cada vez que reza por él. Con el clima inusual de Tokio en mente, Hodaka ve el potencial de esta habilidad. Sugiere que Hina debería convertirse en una "chica del sol", alguien que despeje el cielo para las personas cuando más lo necesiten. [D: Makoto Shinkai, Yoko Miki; A: Kotaro Daigo, Nana Mori, Tsubasa Honda, Sakura Kiryu, Sei Hiraizumi]
+- `The Matrix Resurrections <https://www.themoviedb.org/movie/624860-the-matrix-resurrections>`_: (2021; Acción, Aventura, Suspense, Ciencia ficción)  [D: Lana Wachowski; A: Keanu Reeves, Carrie-Anne Moss, Yahya Abdul-Mateen II, Jonathan Groff, Jessica Henwick]
+
+.. image:: /images/pelis/odiseagiles.png
+    :alt: La odisea de los giles
+
+Como siempre, cierra el resumen :). Acá se puede ver la "sequía" de nuevas películas los últimos años, que incluso sin tener un ritmo exagerado de pelis vistas, el colchón de pelis a ver fue cayendo y cayendo::
+
+    (Jun-2015)    1
+    (Dic-2015)    6   1
+    (May-2016)   21   9
+    (Sep-2016)   18  14   1
+    (Feb-2017)   25  23  21   9   1
+    (Jun-2017)   23  23  21  18   5
+    (Dic-2017)       19  19  18  16   5   2   1
+    (May-2018)           22  22  22  17   9   2
+    (Sep-2018)               12  12  12  10   3   1
+    (Mar-2019)                   13  13  13  12   2   1
+    (Ago-2019)                       10  10  10   7   2
+    (Feb-2020)                            8   8   8   8
+    (Ago-2020)                                9   9   9
+    (Ene-2021)                                    5   5
+    (Sep-2021)                                        5
+    Total:       94  89  84  79  69  57  52  45  32  30

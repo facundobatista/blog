@@ -1,47 +1,25 @@
-Brexit: +0. Está buena para entender un poco mejor el contexto de ese movimiento geopolítico del cual todavía no terminamos de entender las consecuencias. Qué bien que labura Benedict Cumberbatch.
-https://www.imdb.com/title/tt8425058/
-The Current War: +0. Positiva si te interesa el tema, solamente. La historia en sí es fascinante, pero es mérito de la Historia, claro. La peli va muy rápido y cuesta entender algunas partes, incluso uno teniendo contexto de lo que sucedió realmente. No me queda claro si es porque está mal hecha la peli en si, o debería haber sido una miniserie...
-https://www.imdb.com/title/tt2140507/
-Yesterday: +1. Muy buena comedia romántica con una excelente banda de sonido, jugando con esa "realidad alternativa" muy original.
-https://www.imdb.com/title/tt8079248/
-Escape Room: -0. Aunque tiene pasajes interesantes, los papeles son demasiado estereotipados y la historia falla y queda corta.
-https://www.imdb.com/title/tt5886046/
-the Irishman: +0. Está buena la peli, la historia, las actuaciones. Demasiado larga.
-https://www.imdb.com/title/tt1302006/
-Orbiter 9: +0. Está bien la historia y alguna sorpresa, pero le falta novedad.
-https://www.imdb.com/title/tt3469798/
-chavela: +1. Gran película sobre la vida de Chavela Vargas, documental pero no. Muy recomendada.
-https://www.imdb.com/title/tt6217664/
-25 km/h: -2. FIXME. No pude encontrarla para verla en ningún lado :(
-https://www.imdb.com/title/tt7225386/
-Hellboy (la nueva): -0. Sobredosis de sangre explícita. No me molesta, pero aburre. Nada nuevo, prefiero la `del 2004 <https://www.themoviedb.org/movie/1487-hellboy>`_ por mucho.
-https://www.imdb.com/title/tt2274648/
-Incontrol: +0. Hay algo interesante para explorar ahí y se quedaron cortos. Dentro de todo está bien.
-https://www.imdb.com/title/tt5034212/
-Asher: +0. Una de "asesino a sueldo", pero en la segunda etapa de su carrera, y con buenos actores. Está bien.
-https://www.imdb.com/title/tt6131450/
-Green book: +1. Muy buena historia, excelentes actuaciones!
-https://www.imdb.com/title/tt6966692/
-Aniara: +0. Interesante, realista, le falta un poco de cohesión en algunas cosas, o explorar detalles más profundamente.
-https://www.imdb.com/title/tt7589524/
-Perfetti Sconosciuti: +0. Relaciones interpersonales, en su esplendor.
-https://www.imdb.com/title/tt4901306/
-Captain Marvel: +0. Sorprendentemente interesante más allá de que no deja de ser una de superhéroes, pero está piola cómo arman toda la historia desde el principio.
-https://www.imdb.com/title/tt4154664/
-Qué te juegas: +1. Muy simpática comedia española. Las historias y actuaciones están muy bien, te reís, pasás un buen rato. Una comedia bien hecha, bah.
-https://www.imdb.com/title/tt7398584/
-El cuento de las comadrejas: +0. Comedia, bien hecha, buenas actuaciones, buen libro. Un poco lenta por partes, pero el final sorprende.
-https://www.imdb.com/title/tt8453986/
-terminator dark fate: +1. No podés esperar más que "una de terminator", pero en ese contexto está muy bien, me gustó mucho.
-https://www.imdb.com/title/tt6450804/
+camaron: +1. Muy buena peli/documental, mostrando detalles e intimidades sin caer en lo sensacionalista. La voz en off es genial.
+https://www.imdb.com/title/tt8067306/
+La odisea de los giles: +1. ¡Muy buena! Comedia, drama, acción. No aburre, es muy dinámica. Las actuaciones están muy bien, la historia también.
+https://www.imdb.com/title/tt10384744/
+Pet Sematary: +0. Para un remake, está muy bien. Abusa de "los momentos sorpresa", pero tiene su lado de asuste/angustia más psicológico. Funciona.
+https://www.imdb.com/title/tt0837563/
+El increíble finde menguante: +0. Una vuelta de tuerca sobre un tema más bien conocido. Interesante un mecanismo visual/narrativo que nunca había visto antes.
+https://www.imdb.com/title/tt7428476/
+ad astra: -0. Un par de ideas están bien, pero el resto suena a muy reciclado de otras pelis/series, y encima es leeenta.
+https://www.imdb.com/title/tt2935510/
+yucatán: +0. Liviana, para pasar el rato, graciosa. Nada más.
+https://www.imdb.com/title/tt6502956/
+lucy in the sky: +0. Me gusta como se mete en la psiquis de la personaje. Un hallazgo la técnica del factor de forma variable de la pantalla.
+https://www.imdb.com/title/tt4682804/
 
-My name is sam
-https://www.themoviedb.org/movie/10950-i-am-sam
-Dune
-https://www.themoviedb.org/movie/438631-dune
-Enola Holmes
-https://www.themoviedb.org/movie/497582-enola-holmes
-Freaky
-https://www.themoviedb.org/movie/551804-freaky
-The midnight sky
-https://www.themoviedb.org/movie/614911-the-midnight-sky
+La noche mágica
+https://www.themoviedb.org/movie/630520-la-noche-magica
+G.O.R.A.
+https://www.themoviedb.org/movie/27275-g-o-r-a
+Reminiscencia
+https://www.themoviedb.org/movie/579047-reminiscence
+Tenki no Ko
+https://www.themoviedb.org/movie/568160
+The matrix resurrections
+https://www.themoviedb.org/movie/624860-the-matrix-resurrections
