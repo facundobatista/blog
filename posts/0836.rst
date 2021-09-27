@@ -1,0 +1,41 @@
+.. title: El futuro del empaquetado en Python
+.. date: 2021-09-26 20:44:00
+.. tags: Python, packaging, PyCamp, distribución, proyecto
+
+Ok, ok, es un poco pretencioso mi título, pero es que estoy **muy** contento de anunciar la segunda liberación de un proyecto que maduró en mi cabeza por unos meses y ya armé una prueba de concepto.
+
+La alegría viene en parte porque no sólo la prueba de concepto fue más exitosa de lo que pensaba (el sistema hace lo que quería que haga de forma sorprendentemente genérica y robusta), sino que todo esto pasa en los días que cumplo 20 años programando en Python :)
+
+En verdad lo que ya tengo armado es más que una prueba de concepto. Está funcionando todo lo que quería, aunque le faltan algunas funcionalidades básicas para todo lo que tengo imaginado, tests, mejorar el código etc. Podemos decir que está en estado "alfa".
+
+Pero aún versión alfa y todo, ya está publicado: `PyEmpaq v0.2.1 <https://pypi.org/project/pyempaq/0.2.1/>`_.
+
+.. image:: /images/logo-pyempaq.png
+    :alt: El empaquetado hecho fácil
+    :target: https://github.com/facundobatista/pyempaq/
+
+En `la página del proyecto <https://github.com/facundobatista/pyempaq/>`_ está todo super explicado, pero la idea base es que con PyEmpaq se puede meter todo el proyecto (código fuente, imágenes necesarias, etc.) en un sólo archivo ``.pyz``, que termina siendo el único archivo que hay que distribuir.
+
+Exactamente como vemos en este videito:
+
+.. image:: /images/pyempaq_demo_pack.gif 
+    :alt: Proceso de empaquetado, por el desarrollador (click para ampliar)
+    :target: https://github.com/facundobatista/pyempaq/blob/main/resources/demo_pack.gif?raw=True
+
+Luego, la persona que recibe o se baja ese archivo, lo único que tiene que hacer es ejecutarlo con Python. La magia de PyEmpaq hará que (la primera vez solamente) ese archivo se expanda en algún lugar piola, se instalen las dependencias necesarias, y finalmente se ejecute el programa indicado.
+
+Lo podemos ver en este otro videito:
+
+.. image:: /images/pyempaq_demo_run.gif
+    :alt: Proceso de ejecución por el usuario final (click para ampliar)
+    :target: https://github.com/facundobatista/pyempaq/blob/main/resources/logo-256.png?raw=True
+
+Es muy multiplataforma: se puede empaquetar estando en Linux, Mac o Windows, y ese `.pyz` resultante funcionará sin problema en esos sistemas operativos. Incluso cruzándolos: podemos empaquetar en Linux y ejecutarlo en Windows, etc.
+
+Para mostrar todo el potencial, armé tres ejemplitos para que cualquiera pueda probar que el empaquetado funciona:
+
+- `en una terminal <https://github.com/facundobatista/pyempaq/blob/main/examples/simple-command-line.pyz?raw=True>`_: un ejemplo muy chiquito que corre sólo en la terminal
+- `un juego <https://github.com/facundobatista/pyempaq/blob/main/examples/arcade-game.pyz?raw=True>`_: un juego simple usando la biblioteca Arcade de Python (en realidad es el ejemplo 6 de su tutorial)
+- `una aplicación de escritorio <https://github.com/facundobatista/pyempaq/blob/main/examples/desktop-qt-app.pyz?raw=True>`_: un aplicación completa de escritorio usando el framework PyQt5 (es mi programa Encuentro)
+
+Como pueden ver `en los issues <https://github.com/facundobatista/pyempaq/issues>`_ le falta bastante laburo para que se lo pueda considerar "estable", pero ya llegará. Por lo pronto lo voy a llevar al `PyCamp de Noviembre <https://wiki.python.org.ar/PyCamp/2021/>`_.
