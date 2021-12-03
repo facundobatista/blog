@@ -1,0 +1,148 @@
+.. title: PyCamp 202...1
+.. date: 2021-11-30 19:25:00
+.. tags: San Rafael, PyCamp, PyAr, Python, cool river, programación, paseo, turismo, Los Reyunos
+
+La previa
+=========
+
+El PyCamp 2019 lo hicimos en San Rafael, como `ya les conté <http://blog.taniquetil.com.ar/posts/0779/>`_. Veníamos haciendo dos veces en la misma sede, por simplicidad organizativa, así que ibamos a repetir San Rafael.
+
+Claro, pasaron cosas. Estaba originalmente planeado para Marzo de 2020, pero ahí justo explotó la pandemia. Lo postergamos algunos meses, hasta Agosto, porque tampoco iba a durar tanto el quilombo, ¿no?. Obviamente lo tuvimos que recalcular, pasó a Marzo 2021.
+
+¡Y veníamos bien! El verano nos encontró con un marcado descenso de casos, todo fiesta, todo bien, hasta que llegó la segunda ola y nos obligó a postergarlo nuevamente. Esta vez lo pasamos para Noviembre, donde ya apuntábamos a llegar vacunades y en buenas condiciones sanitarias.
+
+Esta vez le pegamos, y finalmente arrancó un nuevo PyCamp :D.
+
+.. image:: /images/pycamp21/pycampeando.jpeg
+    :alt: Nerd en situación de PyCamp
+
+Como el año pasado, fui en avión. A diferencia del año pasado, coincidimos bastantes en el mismo vuelo. Laureano pasó por casa y Moni nos llevó al aeropuerto, donde nos encontramos con Leandro y Marcos. Un vuelo aburrido (como debe ser, a nadie le gusta las sorpresas volando a diez kilómetros de altura), y llegamos a San Rafael.
+
+Nos tomamos un taxi y en un rato estábamos en el lugar. Ya había bastante gente, y fue llegando más con el correr de las horas. 
+
+Hicimos un asadete (colaboré poco, pero colaboré) con chorizos, bondiola, un corte de vaca que no recuerdo y vegetales. Muchos saludos, muchas presentaciones (tuvimos aproximadamente un 50% de gente para la que era el primer PyCamp), y mucha charla.
+
+.. image:: /images/pycamp21/laburando-asadete.jpeg
+    :alt: Trabajando un poco mientras se hacía el asado
+
+¡Y también ya nos pusimos a laburar! Porque Zoe recordó que había que probar el `bot del PyCamp <https://github.com/PyAr/PyCamp_Bot>`_ que nos ayuda a organizar las actividades, y estuvimos refrescándolo un poco, levantándolo en un servidor, y cazando un par de bugs raros que nos hicieron sufrir un par de horas :).
+
+
+Día 1
+=====
+
+Al otro día arrancó formalmente el evento. Como siempre, pasamos la primer parte de la mañana acondicionando el lugar, moviendo mesas y sillas, desparramando cables, probando internet. Y la segunda parte de la mañana coordinando el arranque, dando bienvenidas, explicando PyCamp a aquelles que era su primera vez, organizando los proyectos, etc.
+
+.. image:: /images/pycamp21/organiz-actividades.jpeg
+    :alt: La organización de las actividades (sólo los primeros dos días)
+
+Después del almuerzo empezamos "de verdad" a trabajar en distintos proyectos. Yo estuve ayudando un poco en un proyecto de Hugo Ruscitti que apuntó a tener un "intérprete de Python cooperativo y multiusuario", el `Cooperython <https://github.com/PyAr/cooperython>`_.
+
+También empecé a ayudarlo a Litox en un proyecto que propuse yo pero que arrancó él antes del slot asignado: armar la réplica de una foto usando otras miles de fotos. Claro que no es un concepto nuevo, y posiblemente hayan herramientas para hacer algo similar, pero muchas veces los proyectos que arrancamos y llevamos adelante se basan más en aprender y jugar que en su utilidad neta.
+
+Litox no sólo arrancó `el proyecto <https://github.com/PyAr/fotos2imagen>`_, sino que se entusiasmó y se lo puso al hombro laburando mucho ahí. Yo ayudé en armar una etapa de pre-procesamiento de las imágenes "fuente" y Fisa armó el comparador que busca qué imágenes poner en cada pedacito de la imagen original a replicar.
+
+.. image:: /images/pycamp21/codeo-colaborativo.jpeg 
+    :alt: Juego de programación colaborativa
+
+Como en el evento anterior y algún Meetup, hicimos un juego de codeo colaborativo (donde programamos algo medianamente simple en equipo, de a dos o tres minutos por persona, rotando). En esta oportunidad armamos un "ahorcado". Fue medio caótico porque algunes expectadores se entusiasmaron y se iban sumando al grupo a la mitad del ejercicio, pero lo terminamos en 48 minutos y quedamos todes muy contentes con el resultado y con la actividad en sí. Para mí este juego es algo que "tiene que estar" en todos los PyCamps :).
+
+Después de la cena estuvimos un rato boludeando (ayudé a unos amigos con un problema de conexiones zombies a PostgreSQL, pero no lo fixeamos hasta el día siguiente), y luego jugamos al `Cosmic Encounter <https://boardgamegeek.com/boardgame/39463/cosmic-encounter>`_, en el cual ganamos Marian, Sofi y yo al mismo tiempo, pero no lo disfruté mucho.
+
+Y cuando ya estaba como para irme a dormir, veo que Fisa arma su estación de realidad virtual, la cual no sólo incluye los dispositivos de RV en sí, sino también unos controles muy reales para manejo de aviones. ¡Asi que estuve volando! Obvio que no usé los quichicientos botonitos y palanquitas de los controles, pero lo principal lo fui llevando, incluso realizando correctamente algunas piruetas. Hasta que quise aterrizar, donde no me puse lo suficientemente en linea con la pista, quise bajar la velocidad para acomodarme mejor, y cuando me quise dar cuenta me estaba haciendo torta contra unos almacenes que están antes de la pista.
+
+.. image:: /images/pycamp21/facu-volando.jpeg
+    :alt: Volando
+
+
+Día 2
+=====
+
+El segundo día arrancamos laburando en electrónica. Estuvimos aprendiendo cómo usar algunos microcontroladores que corren Python. Yo tengo dos en casa, pero todavía no los usé, así que no sabía hacer lo básico de levantarlos, correr algún programa ahí, etc. Y eso es lo que estuvimos explorando, aprendiendo. Estoy contento porque cuando me ponga con esos micros en casa ya tengo resuelta toda la primer etapa :).
+
+Después no estuve haciendo nada específico, charlando con gente, ayudando con eso de los problemas de conexiones que comentaba, yendo de proyecto en proyecto, etc.
+
+Antes de cenar estuve aprendiendo sobre `Pythonium <https://pythonium.readthedocs.io/en/latest/>`_, un juego de estrategia por turnos en el que cada jugador (que no es más que un pedazo de código Python) lidera una raza alienígena que apunta a conquistar la galaxia. La diversión, claro, es escribir ese código Python que modela el comportamiento de nuestra raza alienígena.
+
+Ya cenados volvimos a divertirnos con la plataforma de realidad virtual, ahora con otras "experiencias virtuales". Yo particularmente estuve un rato jugando (¿viviendo?) al `Alyx <https://es.wikipedia.org/wiki/Half-Life:_Alyx>`_, un FPS exploratorio hecho por Valve Corporation (los mismos del `Portal 2 <https://es.wikipedia.org/wiki/Portal_2>`_). A nivel juegos de mesa estuvimos con el `Age of War <https://boardgamegeek.com/boardgame/155695/age-war>`_, que gané dos veces :D.
+
+.. image:: /images/pycamp21/electrónica.jpeg
+    :alt: Microcontroladores, sensores, fuentes... ¡hardware!
+
+
+Día 3
+=====
+
+Por la planificación original, el tercer día fue más relajado. Todes fuimos laburando en proyectos que traíamos de los días anteriores. Yo puntualmente seguí ayudando con el ``fotos2imagen``.
+
+Uno de los proyectos que yo llevé fue el `PyEmpaq <http://pyempaq.rtfd.org/>`_, el empaquetador de programas en Python que `ya les comenté <https://blog.taniquetil.com.ar/posts/0836/>`_. Nos sentamos con Mati Berriento justamente a empaquetar ``fotos2imagen``, para lo cual necesitamos implementar un feature que estaba planeado y solucionar un bug que encontramos. 
+
+.. image:: /images/pycamp21/paisaje.jpeg
+    :alt: Más o menos, el paisaje
+
+Más tarde con Leandro quisimos hacer un vivo de la `Escuelita de Python <https://escuelitapython.com.ar/>`_ para laburar en `Botggle <https://github.com/EscuelitaPython/botggle>`_ (el juego de Boggle para Telegram) como veníamos haciendo semana a semana, pero no nos dió el ancho de banda para streamear para afuera, así que lo cancelamos.
+
+Ya entrada la tardecita hicimos la "reunión de balance del evento", donde charlamos sobre lo que hicimos bien, mal, o espantoso, y tiramos ideas de cómo mejorar y hacer cosas de forma distinta. Antes y después de la reunión nos sacamos algunas fotos grupales...
+
+.. image:: /images/pycamp21/grupal.jpeg
+    :alt: Foto grupal luego de la reunión
+
+Después de la cena hubo una actividad en el Observatorio del lugar. Vimos muy de cerca a Júpiter y Saturno, que en el evento anterior no estaban visibles, y por eso estuvo muy bueno, pero la charla en sí del guia dejó mucho que desear comparado con la chica de la vez anterior.
+
+Y cerramos la noche con juegos de mesa, como corresponde. Aprendí a jugar a un juego colaborativo que se llama `Hanabi <https://es.wikipedia.org/wiki/Hanabi_(juego_de_naipes)>`_ y está muy bueno. La primera vez jugamos el modo fácil y ganamos, la segunda jugamos el modo difícil y estuvimos ahí de ganar. Después hicimos un `Saboteur <https://en.wikipedia.org/wiki/Saboteur_(card_game)>`_, en el cual perdí miserablemente.
+
+
+Día 4
+=====
+
+El último día arrancó muy lento, como es normal. Toda la gente cansada, destilando lo agotador del ritmo. 
+
+La actividad principal de la mañana siempre es el cierre en sí, así que luego de alguna preparación arrancamos con la presentación de todo lo que fuimos haciendo los días anteriores. Hay un video, al que someteré a algunas ediciones menores (principalmente para recortar los "baches" y pausas), luego lo tiro por acá cuando esté listo.
+
+Casi inmediatamente después se empezó a ir gente, y el resto de la mañana se fue pasando entre saludos y la recolección de lo desplegado durante esos días (desarmar un par de routers y cables que habíamos puesto, levantar los alargues y zapatillas, ir metiendo todo lo que correspondía en la caja de PyAr, acomodar y limpiar algunas cosas, etc.).
+
+.. image:: /images/pycamp21/caja-pyar.jpeg 
+    :alt: La caja de PyAr, en la que movemos muchas cosas útiles de evento en evento
+
+Luego del almuerzo quedamos unes 15 pycampistas, pero ya no estuvimos en los espacios que habíamos ocupado los días anteriores, sino que migramos la sede de operacones a "la casa 1", que era donde nos íbamos a quedar la mayoría luego del evento (y es grande y espaciosa). 
+
+Más allá que continuamos algunas cosas que veníamos trayendo, el resto del día fue más social que nada, y la preparación de la cena, y entre todas esas actividades se fue diluyendo el PyCamp poco a poco...
+
+
+Los días posteriores
+====================
+
+Yo me quedé hasta el viernes, volaba a Buenos Aires junto a Hugo y Ramiro. Un grupo que eran todos de la misma empresa se quedó en uno de los apart-hotel que tiene el predio, pero les que estábamos en la casa 1 nos fuimos desgranando durante el martes mismo, miércoles, jueves e incluso un par que salieron el viernes a la mañana.
+
+Esos días trabajé en algunas cositas que fui cerrando, pero también muchas cosas que "no atendí" en los días previos, burocracia del día a día, digamos.
+
+Mi intención original (cuando moví el pasaje a Noviembre) era quedarme hasta el miércoles, para no irme a las apuradas el martes "del cierre" (como me pasó en el 2019), pero Aerolineas me fue pasando el pasaje al jueves, y luego al viernes. Entonces mi idea mutó a aprovechar y conocer un poco el lugar, que la vez anterior no había paseado nada.
+
+.. image:: /images/pycamp21/facu-kayak.jpeg
+    :alt: Un poco de (pseudo)kayak, una hermosa actividad
+
+El martes mismo nos fuimos con Fisa, Sofi, Felipe (el hermano de Fisa) y Marco a hacer kayak. Le metimos un recorrido largo, y la pasamos bárbaro. La actividad se desarrolla en el Embalse Los Reyunos, el mismo que se ve desde el predio donde hicimos el evento, a una corta caminata desde donde nos hospedamos. En ese lugar también se puede hacer tirolesa... yo tenía ganas de hacer pero al final no me pude hacer el hueco de tiempo.
+
+Cualquier otra actividad "turística" que no sea en ese lugar implicaba hacer muchos kilómetros. Por suerte, Marco había venido en el auto y también quería pasear, así que coordinamos con él y Hugo para hacer algún recorrido. Averiguamos un poco y decidimos hacer el recorrido que que llaman "cañón del Atuel". No son taaaantos kilómetros, pero se va muy lento y se tarda bastante, así que entre eso, llegar y volver, y hacer alguna que otra actividad (queríamos hacer rafting) sabíamos que se nos iba a ir un día entero.
+
+El miércoles a la mañana vimos el pronóstico y nos enteramos que durante el mediodía y la tarde iba a llover, así que decidimos postergar el paseo para el jueves. Ahí si, salimos temprano y fuimos hasta el Embalse del Nihuil, donde arrancamos el recorrido en sí.
+
+.. image:: /images/pycamp21/lostrespelados.jpeg
+    :alt: (De izq a der) Yo, Hugo y Marco, los tres pelados
+
+El paseo es hermoso, las vistas son increibles, muy muy recomendado. Hay varios puntos para parar y sacar fotos, pero sí o sí se tiene que ir en algún vehículo porque las distancias son grandes.
+
+Después de llegar a Embalse Valle Grande la ruta se hace de asfalto nuevamente, y hay toda una tanda de lugares relacionados con el turismo: mucho para hacer actividades en el río y lugares para comer, algo de hospedaje, y alguna cosita más.
+
+Como dije arriba, nosotros íbamos con la idea de hacer rafting, así que paramos en `el segundo lugar que vimos <https://www.instagram.com/alihuenaventura/>`_, donde además de informarnos cómo era ese servicio, nos contaron de algo que ninguno de los tres habíamos hecho (ni oido): el `cool river <https://alihuenaventura.com.ar/actividades/cool-river-en-san-rafael-mendoza/>`_. 
+
+Maduramos la decisión un poco mientras comíamos y nos echábamos un rato abajo de un árbol, y decidimos hacerlo. ¡Fue genial! Mucha adrenalina, completamente inmersivo con el lago (lo de rafting parece muy "conservador" si hacés esto otro), y muy piola para mojarse mucho, aunque terminé con un par de raspaduras por algunas piedras que están bajo el agua (y no se ven) pero altas (y se las roza al pasar flotando). RE CO MEN DA DÍ SI MO.
+
+.. image:: /images/pycamp21/vallegrande.jpeg
+    :alt: El Embalse Valle Grande
+
+Ya en la vuelta paramos a hacer un tour en la `Bodega Labiano <http://www.bodegalabiano.com/>`_ y comprar algunas cositas, y luego a conseguir carne y verduras para el asadete de la noche, la última cena en San Rafael.
+
+Al otro día liberamos el lugar, trabajamos un rato cada uno en lo suyo, y nos pasó a buscar Matu (a Ramiro, Hugo y a mi) con la excusa de ir a buscar la "caja de PyAr" al predio, y nos dejó en el aeropuerto. 
+
+Checkin, charla, espera, vuelo, y de vuelta en casa con la familia :)
