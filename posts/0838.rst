@@ -4,7 +4,7 @@
 
 Como parte de la investigación para el libro Python en Ámbitos Científicos que estoy escribiendo con Manuel Carlevaro estoy armando una charla sobre Procesamiento Paralelo de Vectores, que muestra distintas técnicas para hacer eso.
 
-El fuerte del código y las técnicas es en Python, pero también hay una versión "serial" y "paralela" hecha en C++, para tener tiempos "base" contra los cuales comparar.
+El fuerte del código y las técnicas es en Python, pero también hay una versión "serial" y "paralela" hecha en C++ para tener tiempos "base" contra los cuales comparar.
 
 Para las distintas formas voy a mostrar un poquito de código, y las mediciones (va a haber un slide de cómo se midió, que no es trivial, pero es más "documentación de soporte", no pienso invertir tiempo de la charla ahí).
 
