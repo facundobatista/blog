@@ -1,0 +1,18 @@
+.. title: Procesamiento Paralelo de Vectores
+.. date: 2021-12-06 19:04:00
+.. tags: Python, paralelismo, concurrencia, charla, libro
+
+Como parte de la investigación para el libro Python en Ámbitos Científicos que estoy escribiendo con Manuel Carlevaro estoy armando una charla sobre Procesamiento Paralelo de Vectores, que muestra distintas técnicas para hacer eso.
+
+El fuerte del código y las técnicas es en Python, pero también hay una versión "serial" y "paralela" hecha en C++, para tener tiempos "base" contra los cuales comparar.
+
+Para las distintas formas voy a mostrar un poquito de código, y las mediciones (va a haber un slide de cómo se midió, que no es trivial, pero es más "documentación de soporte", no pienso invertir tiempo de la charla ahí).
+
+.. image:: /images/paralelo.jpeg
+    :alt: En paralelo
+
+Si gusta, tengo ganas de dar la charla en algún evento presencial, pero como adelanto con Manu organizamos una charla virtual, ahora en Diciembre. Será el jueves 16 a las 19hs, por Zoom.
+
+Están todos invitades, pero les pedimos por favor que `llenen este form <https://docs.google.com/forms/d/e/1FAIpQLScdXWPejIipyGmV4NjI19s2rb4hDLWxaQCPefx8Iza0LDDjGQ/viewform>`_ para conocer mejor la audiencia de la charla (y potencialmente del libro). Un par de días antes les mandaremos por mail el link para conectarse.
+
+¡Nos vemos!
