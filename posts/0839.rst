@@ -1,0 +1,52 @@
+.. title: Luego del PyCamp 2021: Video y supermosaico de imagencitas
+.. date: 2021-12-23 15:23:00
+.. tags: Pillow, IA, Python, PyCamp, foto, imagen, video
+
+Dos subproductos del PyCamp me quedaron para después, y este post es sobre eso.
+
+
+El video
+--------
+
+Le puse mucho, *mucho* amor al `video de Cierre de Actividades <https://youtu.be/zgLtZkegXMs>`_.
+
+¡Arranqué con la complejidad de que el audio y el video estaban desfasados! Al principio ni se notaba, pero se iba desfasando con el transcurrir del video y al final estaba un par de segundos corrido, lo cual era insoportable de ver.
+
+Lo mejor que encontré para solucionarlo fue separar el video en sí y el audio del video original, toquetear el audio con `audacity <https://www.audacityteam.org/>`_ y luego usar eso. Quedó bastante bien, pero luego cuando laburé mucho con el video me terminé dando cuenta que el desfasaje no era "lineal" y que en algunas partes iba y venía. Eso lo fui corrigiendo ad-hoc durante la edición, quedó bastante bien pero no perfecto. ``‾\_(ツ)_/‾``.
+
+Y claro, le puse mucha edición. No sólo una carátula y cortar los tiempos muertos, que es lo básico, sino también tratar de que los pases de un lado para el otro fuesen graduales, hacer zoom sobre las personas y la pantalla en lo posible, acelerar algunas partes que no tenía sentido ver lento, e incluso poner links a los proyectos como subtítulo.
+
+Esos mismos links están en la `descripción del video <https://youtu.be/zgLtZkegXMs>`_, pero también hay ahí una joyita: separación por capítulos, así que pueden saltar directamente al tema que quieran ver. Esto es más mérito de YouTube que mio, ya que arma esos capítulos automáticamente si uno pone en la descripción los tiempos y títulos. Un lujito.
+
+.. youtube:: zgLtZkegXMs
+    :align: center
+
+
+La foto
+-------
+
+
+Uno de los proyectos que llevé al PyCamp fue el de ``fotos2imagen``. Bah, más que proyecto, lo que llevé fue una idea de proyecto, ya que no sólo no había tirado ni una linea de código, sino que tampoco lo había pensado demasiado (o sea, algo *ideal* para un PyCamp).
+
+Ya se los había comentado en el `post del PyCamp <https://blog.taniquetil.com.ar/posts/0837/>`_, pero acá les dejo la descripción que puse en el `listado de actividades propuestas <https://pyar.discourse.group/t/propuesta-de-actividades-pycamp-2021/756>`_ para el evento:
+
+*La idea es armar una imagen pero compuesta por miles de fotitos. Seguro que hay cosas por ahí que hacen algo parecido, pero parte de esto es jugar y aprender. Al programa se le pasa una imagen y un directorio con fotos, y arma la imagen con las fotitos.*
+
+Ya en casa, y luego de esperar que les participantes del evento terminen de compartir sus fotos, estuve tratando de armar un mosaico con *esas* imágenes.
+
+Con "tratando" me refiero a ir jugando con los dos parámetros principales del sistema: el tamaño del cuadradito para recortar la imagen principal, y el tamaño de la imagen que se termina poniendo en ese lugar.
+
+En un momento se me complicó porque para lo que quería lograr el programa tardaba muuuucho, así que decidí hacer algo de *profiling* y me terminé dando cuenta que lo que se llevaba la mayor parte del tiempo era grabar la imagen que se iba construyendo, lo que se hacía para poder mostrar "un progreso visual" del avance. Entonces toqueté el código para que sólo vaya grabando versiones intermedias si se usaba ese progreso visual, y ahí pude generar versiones más detallistas.
+
+Al final, la que más me gustó es `esta foto-mosaico <https://drive.google.com/file/d/1HvzFAp63ogO3znjmGvtFeLvD0yOXZAeJ/view>`_ que pueden comparar con la original:
+
+.. image:: /images/pycamp21/mosaico-comparativa.jpeg
+    :alt: La imagen original y el mosaico en tamaños similares para comparar
+    :target: https://drive.google.com/file/d/1HvzFAp63ogO3znjmGvtFeLvD0yOXZAeJ/view
+
+Si abren el mosaico y hacen zoom van a poder ver las fotitos con que está compuesta. Por ejemplo:
+
+.. image:: /images/pycamp21/mosaico-detalle.jpeg
+    :alt: Zoom detalle de una parte del mosaico
+
+Si se ponen a jugar con `fotos2imagen` y hacen algunos mosaicos, ¡avisen y compartan!
