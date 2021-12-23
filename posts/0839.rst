@@ -36,7 +36,7 @@ Ya en casa, y luego de esperar que les participantes del evento terminen de comp
 
 Con "tratando" me refiero a ir jugando con los dos parámetros principales del sistema: el tamaño del cuadradito para recortar la imagen principal, y el tamaño de la imagen que se termina poniendo en ese lugar.
 
-En un momento se me complicó porque para lo que quería lograr el programa tardaba muuuucho, así que decidí hacer algo de *profiling* y me terminé dando cuenta que lo que se llevaba la mayor parte del tiempo era grabar la imagen que se iba construyendo, lo que se hacía para poder mostrar "un progreso visual" del avance. Entonces toqueté el código para que sólo vaya grabando versiones intermedias si se usaba ese progreso visual, y ahí pude generar versiones más detallistas.
+En un momento se me complicó porque para lo que quería lograr el programa tardaba muuuucho, así que decidí hacer algo de *profiling* y me terminé dando cuenta que lo que se llevaba la mayor parte del tiempo era grabar la imagen que se iba construyendo, lo que se hacía para poder mostrar "un progreso visual" del avance. Entonces toqueté el código para que sólo vaya grabando versiones intermedias si se usaba ese progreso visual, y ahí pude generar versiones más detallistas sin esperar una eternidad.
 
 Al final, la que más me gustó es `esta foto-mosaico <https://drive.google.com/file/d/1HvzFAp63ogO3znjmGvtFeLvD0yOXZAeJ/view>`_ que pueden comparar con la original:
 
@@ -48,5 +48,7 @@ Si abren el mosaico y hacen zoom van a poder ver las fotitos con que está compu
 
 .. image:: /images/pycamp21/mosaico-detalle.jpeg
     :alt: Zoom detalle de una parte del mosaico
+
+Obvio que pueden hacer aún más zoom y verlas mejor :)
 
 Si se ponen a jugar con `fotos2imagen` y hacen algunos mosaicos, ¡avisen y compartan!
