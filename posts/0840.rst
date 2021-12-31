@@ -1,0 +1,46 @@
+.. title: Por qué todo el mundo debería saber programar, razón número 1209487.
+.. date: 2021-12-31 20:18:00
+.. tags: programar, foto, papel, scanner, Python
+
+Yo siempre digo que todo el mundo debería saber programar. No para "vivir de la programación", sino porque es una herramienta más que te puede servir en muchas ocasiones y ahorrarte laburo. Es como saber usar un martillo, o un serrucho. Todo el mundo debería saber.
+
+Esta es una razón más por la que vuelvo a afirmar lo mismo. 
+
+En verdad es un ejemplo de cómo, por saber programar, me ahorré muchas (muchas) horas de trabajo manual.
+
+Hace algunos meses, en una visita a mi viejo, volví a ver (en lo que había sido mi habitación) una caja con álbumes de foto en papel. Fotos sacadas con la "cámara de la familia" que tenían mis viejes, una Olympus de medio cuadro (no recuerdo el modelo) que todavía debe andar por ahí pero entró en desuso con el advenimiento de las cámaras digitales.
+
+.. image:: /images/viejscan1.jpeg
+    :alt: Tobi y el mar
+
+Decidí llevarme la caja, aprovechando que el año pasado renové la impresora de casa y ahora tiene scanner, con la idea de digitalizarlas.
+
+La caja durmió varias semanas ahí al lado de la computadora hasta que le llegó el turno entre mis tareas/proyectos. 
+
+El paso para digitalizarlas era sencillo. Poner una foto-papel en el scanner, usar `xsane <https://es.wikipedia.org/wiki/Scanner_Access_Now_Easy>`_ para bajar la imagen escaneada, abrirla con `gimp <http://www.gimp.org.es/>`_, recortar la foto, grabar la foto recortada a disco con un número en el nombre del archivo para tener la secuencia.
+
+Sencillo, pero UN EMBOLE. 
+
+Algunas optimizaciones eran obvias: poner de a dos fotos en el scanner, o escanear directemente desde gimp. Pero lo que más llevaba tiempo es que a veces el scanner "falla" (no sé si es el hardware, el driver, o qué, pero simplemente se equivoca de medio de entrada y dice que no tiene para escanear), y obviamente el recortar foto por foto no iba a escalar.
+
+Entonces, como siempre que me enfrento a una ardua tarea manual en la computadora, pensé que se podía automatizar.
+
+.. image:: /images/viejscan2.jpeg
+    :alt: Lobos marinos en la Península Valdés
+
+Lo primero, el escaneo propiamente dicho. No encontré cómo hacerlo desde Python, así que lo más sencillo fue ejecutar (via ``subprocess``) el utilitario `scanimage <https://linux.die.net/man/1/scanimage>`_ con los parámetros adecuados (modo color, resolución 300, etc) lo que ya me deja la imagen "cruda" en disco (a menos que falle, como mencioné arriba, en cual caso la solución es simplemente volver a ejecutarlo).
+
+Lo segundo, recortar las fotos. Eso no es más que "detección de bordes", así que busqué cómo usar `OpenCV <https://opencv.org/>`_, que para este tipo de tareas hace MAGIA y tiene buena interfaz con Python. Encontré un ejemplo, lo toqueteé un poco, y listo. No funciona el 100% de los casos, porque en algunos casos se confunde (por ejemplo cuando hay un paisaje: corta por la linea del horizonte como si fuese el borde de la foto), pero es sorprendente lo bien que anda cuando anda :)
+
+Terminé armando un script de linea de comandos (que subí `a este proyecto <https://github.com/facundobatista/photoscanner>`_), con la suma de las funcionalidades antedichas. Simple, pero muy útil.
+
+.. image:: /images/viejscan3.jpeg
+    :alt: Lago Nahuel Huapi
+
+Cuando se ejecuta, nos pide que pongamos las fotos en el scanner. Luego le damos ENTER y por default escanea, recorta las fotos y las grabar como JPEG con un nombre de archivo armado con el día y la hora y el número de foto dentro de esa "escaneada". 
+
+Yo recomiendo tener abierto el directorio donde se ejecuta con algún visor de fotografías, para verlas "aparecer". Si vemos que las fotos están correctas, sacamos las del escaner, ponemos otras y le volvemos a dar ENTER. Pero si vemos que alguna está mal detectada (le faltará algun costado, lo cual nos damos cuenta más por el formato de la foto que por su contenido), le damos ``R`` y el script volverá a escanear las fotos pero ahora grabará la imagen "cruda" obtenida: un archivo ``.pnm`` que podemos abrir con el gimp y recortarla manual luego.
+
+Con este script terminé procesando todos los álbumes un unas pocas horas de trabajo. Weee. 
+
+Ahora me falta procesarlas para corregirles la orientación, agruparlas por "evento" (porque en los álbumes estaban un poco mezcladas), tratar de ubicar en qué fecha fueron tomadas, y a compartirlas con la familia.
