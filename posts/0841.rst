@@ -1,0 +1,41 @@
+.. title: Fotos, el scanner, y Hewlett Packard siendo tontos
+.. date: 2022-01-25 19:59:00
+.. tags: fotografía, papel, scanner, escáner, HP, resolución, Linux, firmware
+
+Como les comenté en el post que hablo de que `todo el mundo debería aprender programación <https://blog.taniquetil.com.ar/posts/0840/>`_, estuve escaneando fotos viejas.
+
+En la reunión del 1° de Enero le comenté eso a mi viejo, y él me dijo que también estaba escaneando (otras) fotos, y que con una resolución de 600 dpi estaba logrando verlas bárbaro luego en digital. Seguimos charlando de otras cosas, pero me quedó ese número en la cabeza... ¿qué resolución estaba usando yo?
+
+Un par de días después, en casa, me acordé de esto, y revisé: ¡estaba usando 300 dpi!
+
+¿Por qué? Porque cuando levantaba ``xsane`` para escanear algo, las resoluciones que me ofrecía eran 100, 200 y 300. Qué raro, pensé. Por otro lado, yo estaba escaneando con ``scanimage`` y especificando la resolución, así que en vez de pasarle 300, le pasé 600, para probar. En ambos casos el resultado fue el mismo, en realidad el escaneo se estaba haciendo a 300 dpi. ¿Podría ser que mi escáner sólo soportara hasta ahí?
+
+Me fijé en las `especificaciones que declara Hewlett Packard <https://support.hp.com/si-en/document/c06301850#AbT16>`_ y vi que (teóricamente) ofrecía mucho más. ¿Entonces? ¿Un bug de software? ¿Dónde?
+
+Para empezar, me puse a buscar donde podía empezar a preguntar o abrir un bug al respecto, y encontré el proyecto mismo de `SANE <http://www.sane-project.org/>`_. Entonces abrí `un bug ahí <https://gitlab.com/sane-project/backends/-/issues/550>`_, indicando todo lo que me pasaba. Me pidieron más info, me guiaron a actualizar la versión de las bibliotecas usadas, etc.
+
+Terminamos viendo lo que ofrece la impresora misma cuando ``SANE`` le pide sus características: dice que es capaz de más, pero que sólo se puede usar hasta 300 dpi :(.
+
+.. image:: /images/scanner-ohno.jpeg
+    :alt: Oh no, ¿y ahora?
+
+No había nada más que hacer a nivel de software en el Linux, pero me dijeron que pruebe con actualizar el firmware de la impresora/escáner mismo, así que fui al sitio de Hewlett Packard, a `la parte de soporte, drivers, etc. <https://support.hp.com/us-en/drivers/selfservice/hp-laser-mfp-130-printer-series/24494378/model/24494385>`_, y no había ningún firmware para descargar :(
+
+Estaba un toque resignado. Pero para probar por probar, pensé que estaría bueno saber cómo se comportaba el escáner desde Windows. Instalé una máquina virtual de Windows en el `VirtualBox <https://www.virtualbox.org/>`_ (todo legal, `se pueden bajar de acá para desarrollo <https://developer.microsoft.com/es-es/windows/downloads/virtual-machines/>`_, vienen listas para cargar y todo), y me propuse ver que pasaba.
+
+Lo primero que hice (luego de instalar Firefox, realmente), es ir al sitio de Hewlett Packard para bajar los drivers de la impresora/escáner para Windows, y mayúscula fue mi sorpresa al ver que en la lista de cosas para bajar **sí** había un nuevo firmware.
+
+Estúpido Hewlett Packard. El firmware figura como que es para una computadora con Windows (¡y no! ¡es para la impresora!) entonces no me lo muestra si voy desde Linux. Encima para cargar el firmware en la impresora/escáner ni hace falta tener Windows (al menos en una de las dos maneras, que es apuntar el navegador a la impresora, loguearse como ``admin``, subir el nuevo archivo de firmware, y listo).
+
+Entonces procedí a actualizar el firmware... no sin cierto cagazo, porque si eso sale mal, SALE MAL. Pero salió todo bien. El primer efecto que vi es que si le pido a ``SANE`` que me liste los dispositivos, ahora aparece "uno nuevo", que obviamente es el mismo hardware mostrándose de esta forma.
+
+Si lo elijo, y veo qué resoluciones ofrece, tengo las anteriores más 600 y 1200 dpi. ¡¡Fantástico!!
+
+Y efectivamente, si uso ese dispositivo (tanto desde ``xsane`` como con ``scanimage``), las resoluciones altas me dan imágenes más grandes :). Quizás demasiado grandes, sin embargo.
+
+.. image:: /images/scanner-resoluciones.png
+    :alt: Ejemplos en 100, 300, 600 y 1200 dpi
+
+¿Hasta cuando conviene escalar ahí? Estuve haciendo unas pruebas, y me terminé quedando con 600 dpi: la impresión misma de la foto analógica hace que no tenga ganancia con 1200.
+
+Esto lo vemos en los ejemplos mostrados arriba, que muestran siempre un área del mismo tamaño, 220x500 píxeles: cortes de la misma foto escaneada a esas cuatro resoluciones. A mayor resolución se ve mejor el detalle. Pero al mismo tiempo en la de 600 ya se empieza a ver borroso, y no se gana casi nada al ir a 1200, estamos amplificando el ruido mismo de la foto.
