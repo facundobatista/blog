@@ -1,0 +1,55 @@
+.. title: Popurrí de las últimas semanas
+.. date: 2022-04-17 22:57:00
+.. tags: Escuelita, perlitas, Python, PyCamp, Felipe, Baradero, cumpleaños, Malena
+
+Las últimas semanas estuve bastante a full.
+
+Mucho tiempo invertido en la refacción de donde nos vamos a vivir en unos meses, pero esto ya lo traíamos de antes. 
+
+Creo que lo que más me "rompió la agenda" fue el inicio de clases. Es que ahora Felu va a la secundaria, y tiene horarios totalmente distintos a los de Male, entonces operativamente se complicó un toque.
+
+Más allá de eso, y de los grandes hitos que cuento abajo, sigo con las tareas habituales: tenis una vez por semana con algún extra ocasional, reuniones de la Escuelita Python, una charla que estoy preparando con José, y el `libro de Python en Ámbitos Científicos <https://pyciencia.taniquetil.com.ar/>`_ que estoy escribiendo con Manu.
+
+
+Calentando motores en la Escuelita
+----------------------------------
+
+Les mencionaba la `Escuelita Python <https://escuelitapython.com.ar/>`_, el emprendimiento que armé con Leandro y Diego. Estamos emprolijando los últimos detalles para lanzar el primer curso presencial, que será en CABA en los próximos meses. 
+
+Para empezar a mover las redes sociales donde la Escuelita tiene presencia (`Twitter <https://twitter.com/escuelitapython/>`_, `Instagram <https://www.instagram.com/escuelitapython/>`_, `Facebook <https://www.facebook.com/EscuelitaPython/>`_) ya arrancamos con la difusión de unos videitos que grabamos con temas puntuales, que llamamos "Perlitas Python". 
+
+Ya tenemos publicados dos, los pueden ver en el `canal de YouTube de la Escuelita <https://www.youtube.com/playlist?list=PLxObBts8TlB3VeyDYR6mmciRHHPMlgqvN>`_. 
+
+
+PyCamp 2022
+-----------
+
+Un evento importante en Marzo fue una nueva edición del PyCamp. Esta vez bastante cerca del anterior, que sucedió en Noviembre del año pasado, para volver a la parte del año donde lo hacemos normalmente.
+
+Como no tuvimos demasiado tiempo para que la gente proponga lugar, lo terminamos haciendo en Baradero que es un lugar conocido y que sabemos que funciona. Salió genial como siempre, y la pasamos bárbaro.
+
+.. image:: /images/popurri202204/pycamp-grupal.jpeg
+    :alt: Todes
+
+Lo distinto este año para mí fue que le pregunté a Felipe si quería venir, y dijo que sí. Como todavía es chico pensé que quizás se iba a aburrir o no enganchar (por eso estaba bueno "probar" con Baradero, porque más allá del costo del evento en sí, no tenía que pagar un pasaje extra). Nada más lejos de la realidad. Se enganchó, estuvo los cuatro días a full, propuso un proyecto y participó en otros, charló y trabajó con la gente, jugó juegos de mesa, etc. Tuvo la experiencia completa, y lo disfrutó muchísimo.
+
+.. image:: /images/popurri202204/pycamp-felipe.jpeg
+    :alt: Felipe laburando con otros pycampistas
+
+
+Cumple de Male
+--------------
+
+Luego de la época "pandémica severa", volvimos a un cumpleaños presencial para Male. 
+
+Moni, que siempre arma cumpleaños bárbaros a les peques, a Male le organizó una "pijamada con noche de spa" para ella y algunas amigas, desayuno al otro día incluido. Fue todo un desafío lidiar con esa sarta de pre-adolescentes, pero sobrevivimos.
+
+.. image:: /images/popurri202204/male-velitas.jpeg 
+    :alt: Male soplando las velitas en el desayuno
+
+Ese mismo día, como era el día del cumple, vinieron familia y amigues e hice un asado al mediodía. Nada demasiado elaborado, carne a la parrilla para hacer sanguchitos y choripanes. Pero se notó que todes extrañábamos lo presencial, el clima se comportó de maravillas, y la verdad es que la pasamos muy bien.
+
+.. image:: /images/popurri202204/male-ventana.jpeg 
+    :alt: Male leyendo un rato entre festejo y festejo
+
+Y también, unos días después, hicimos una tarde en el río para todes les amigues del colegio, en paralelo con otro chico que también cumplía años un día después que Male. 
