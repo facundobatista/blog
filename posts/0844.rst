@@ -8,12 +8,11 @@ Ahora es más visual el asunto. Les traigo dos videos.
 
 El primero es cortito, recomendadísimo. Un editado de videitos que grabamos durante el PyCamp haciéndole algunas preguntas a algunes asistentes: qué es el PyCamp para vos, el PyCamp en una palabra, consejos para alguien que viene al evento por primera vez o tiene ganas de venir, etc.
 
+Lo tienen que ver:
+
 .. youtube:: o1561Xtw9wU
     :align: center
 
-El segundo, un poco más largo, cuenta el resultado de todos los proyectos y actividades que realizamos durante el evento.
-
-.. youtube:: 49SA33yfifQ
-    :align: center
+El segundo, un poco más largo, cuenta el resultado de todos los proyectos y actividades que realizamos durante el evento. Lo pueden ir a pispear al `canal del PyCamp de Python Argentina <https://www.youtube.com/playlist?list=PLtwHCKHTTq_FyvLPszDCSm4yy_KV-jaho>`_, junto con más material.
 
 ¡Que los disfruten!
