@@ -1,0 +1,19 @@
+.. title: Contando qué es el PyCamp, y qué hicimos en el último
+.. date: 2022-05-31 12:36:00
+.. tags: PyCamp, difusión, video, explicación, proyectos, resultados
+
+Este post es un poco la continuación, o más bien la culminación, de lo que les contaba en `el post anterior <https://blog.taniquetil.com.ar/posts/0843/>`_ sobre el PyCamp 2022.
+
+Ahora es más visual el asunto. Les traigo dos videos.
+
+El primero es cortito, recomendadísimo. Un editado de videitos que grabamos durante el PyCamp haciéndole algunas preguntas a algunes asistentes: qué es el PyCamp para vos, el PyCamp en una palabra, consejos para alguien que viene al evento por primera vez o tiene ganas de venir, etc.
+
+.. youtube:: o1561Xtw9wU
+    :align: center
+
+El segundo, un poco más largo, cuenta el resultado de todos los proyectos y actividades que realizamos durante el evento.
+
+.. youtube:: 49SA33yfifQ
+    :align: center
+
+¡Que los disfruten!
