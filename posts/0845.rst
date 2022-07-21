@@ -1,0 +1,25 @@
+.. title: Primer curso de la Escuelita Python
+.. date: 2022-07-21 18:37:00
+.. tags: curso, Python, Escuelita, profesores, oferta, temas
+
+¡Ya abrimos las inscripciones para el primer curso!
+
+Está orientado para les que saben algo de programación pero quieren aprender el lenguaje más usado actualmente en el mundo y con más salida laboral. Es el curso ideal para ese público.
+
+Tiene toda la parte de Introducción a Python pero también se van a ver temas como archivos, trabajando en red (cliente y servidor), bases de datos, pruebas de unidad, Unicode avanzado, decoradores, entornos virtuales, ejecución externa, logging, y serialización. 
+
+Todo eso no sólo teoría, también práctica supervisada. Son 12 clases de 3 horas cada una, 36 horas en total durante los tres meses que dura. Es presencial, en CABA (en unas oficinas del Polo Tecnológico, en Parque Patricios, a 4 cuadras del subte).
+
+Super completo.
+
+No estoy sólo para tremendo curso, claro, sino que me acompañan Diego Mascialino y Leandro Colombo Viña. Los tres tenemos gran experiencia docente en general y enseñando Python en particular.
+
+Arranca el mes que viene, no hay que colgarse que los cupos no son tantos.
+
+El precio es oferta lanzamiento (válido hasta fin de mes): $52360+IVA, y se puede pagar en hasta **seis cuotas sin interés**! Por otro lado, si es por transferencia, tiene un descuento extra y queda en $41888+IVA :). Es en blanco y se hacen las facturas correspondientes, así que no duden decirle a sus empleadores que les garpen el cursillo :)
+
+.. image:: /images/intropy-202208.png 
+    :alt: Toda la info del curso.
+    :target: /images/intropy-202208.png 
+
+En la imagen tienen toda la info, para inscribirse o por cualquier consulta manden mail a info@escuelitapython.com.ar.
