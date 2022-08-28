@@ -1,5 +1,3 @@
-# -*- coding: utf-8 -*-
-
 # Copyright 2018 María Andrea Vignau
 #
 # Permission is hereby granted, free of charge, to any
@@ -31,14 +29,31 @@ from nikola import utils
 
 import os
 import os.path
-import datetime
 
 _LOGGER = utils.get_logger('render_archive_bar', utils.STDERR_HANDLER)
+
+_MONTH_NAMES = {
+    1: "enero",
+    2: "febrero",
+    3: "marzo",
+    4: "abril",
+    5: "mayo",
+    6: "junio",
+    7: "julio",
+    8: "agosto",
+    9: "septiembre",
+    10: "octubre",
+    11: "noviembre",
+    12: "diciembre",
+}
+
+
 class Month_Page(object):
     '''Define a month page'''
     def __init__(self, friendly_name, item):
         self.friendly_name = friendly_name
         self.year, self.month = [part for part in item.split('/')]
+
 
 class RenderArchiveBar(Task):
     """Render an archive bar."""
@@ -49,15 +64,15 @@ class RenderArchiveBar(Task):
         """Set site."""
         super(RenderArchiveBar, self).set_site(site)
 
-    def _build_month_post_list(self, lang):
+    def _build_month_post_list(self):
         """Create a list of months."""
         try:
-            months = list(self.site.posts_per_month.keys())
+            months = self.site.posts_per_month.keys()
             months = sorted(months, reverse=True)
             month_list = []
             for item in months:
                 year, month = [int(part) for part in item.split('/')]
-                month_name = utils.LocaleBorg().get_month_name(month, lang)
+                month_name = _MONTH_NAMES[month]
                 month_page = Month_Page("{} {}".format(month_name, year), item)
                 month_list.append(month_page)
 
@@ -65,15 +80,16 @@ class RenderArchiveBar(Task):
         except KeyError:
             return None
 
-
     def _prepare_task(self, destination, lang, template):
         """Generates the sidebar task for the given language."""
         context = {}
         deps_dict = {}
 
-        month_list = self._build_month_post_list(lang)
+        month_list = self._build_month_post_list()
         context['month_list'] = month_list
-        deps_dict['month_list'] = [(month.year + '/' + month.month, month.friendly_name) for month in month_list]
+        deps_dict['month_list'] = [
+            (month.year + '/' + month.month, month.friendly_name)
+            for month in month_list]
 
         task = self.site.generic_renderer(lang,
                                           destination,
@@ -89,9 +105,10 @@ class RenderArchiveBar(Task):
     def gen_tasks(self):
         """Generate tasks."""
         self.site.scan_posts()
-#        yield self.group_task()
 
         for lang in self.site.config['TRANSLATIONS'].keys():
-            destination = os.path.join(self.site.config['OUTPUT_FOLDER'], 'archive_bar-{0}.html'.format(lang))
+            destination = os.path.join(
+                self.site.config['OUTPUT_FOLDER'],
+                'archive_bar-{0}.html'.format(lang))
             template = 'archives_bar.tmpl'
             yield self._prepare_task(destination, lang, template)
