@@ -96,6 +96,15 @@ class TheMovieDB:
         data = response.json()
         return data
 
+    def get_movie(self, movie_id):
+        """Get the info for a movie."""
+        try:
+            movie = cache.get(movie_id)
+        except KeyError:
+            movie = self.hit('/movie/{}'.format(movie_id), append_to_response='credits')
+            cache.set(movie_id, movie)
+        return movie
+
 
 tmdb = TheMovieDB()
 
@@ -152,6 +161,7 @@ def get_movie_info(movie_id):
     info = {}
     if isinstance(movie_id, str):
         # DEPRECATED!
+        print("========= movie db deprecated:", str)
         movie = imdb.get_movie(movie_id)
         info['title'] = movie['title']
         info['directors'] = ", ".join(d['name'] for d in movie.get('director', []))
@@ -160,7 +170,7 @@ def get_movie_info(movie_id):
         info['plot'] = movie.get('plot', ["-"])[0]
         info['year'] = movie['year']
     else:
-        movie = tmdb.hit('/movie/{}'.format(movie_id), append_to_response='credits')
+        movie = tmdb.get_movie(movie_id)
         info['title'] = movie['original_title']
         info['genres'] = ", ".join(x['name'] for x in movie['genres'])
         info['plot'] = movie['overview']
