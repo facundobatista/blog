@@ -1,0 +1,88 @@
+.. title: Mi posición con respecto a pinning
+.. date: 2022-11-09 19:19:00
+.. tags: separados por pinning, packages, Python, distribution, distribución, paquetes, bibliotecas
+
+Si ya voy mezclando palabras raras en el título pueden empezar a adivinar que este es un post técnico, y tendrán razón.
+
+¿Qué significa *pinning*? Un montón de cosas, pero en el mundo del software, o al menos en la parte de distribución de software, significa especificar exactamente la versión de una dependencia.
+
+Por ejemplo, yo puedo hacer un programejo que usa la biblioteca ``requests``, y no me importa la versión, entonces en la lista de dependencias pongo ``requests`` y ya. Pero si quiero especificar exactamente qué versión de esa biblioteca necesito, pondría algo como ``requests == 2.7.1``. Eso es *pinnear* (mezclando ahora inglés y castellano) la versión de la dependencia, que es como agarrarla con un alfiler para que no se mueva y siempre sea la misma.
+
+.. image:: /images/pinning/cartelera.jpeg
+    :alt: Le ponemos un pin
+
+¿Cuándo tiene sentido hacer eso y cuándo no? ¿Depende del entorno donde correrá mi programejo? ¿De las dependencias que estoy usando? ¿De la forma de distribución? Un poco de todo eso apunta a contestar este post.
+
+Entonces...
+
+
+Mi posición con respecto a pinning
+==================================
+
+Ya sabemos que los extremos son malos. Traducido al tema que nos atañe, podemos decir que no queremos ni nada pinneado nunca, ni todo pinneado todo el tiempo.
+
+El problema de "nada pinneado nunca" es que es muy difícil poder garantizar la calidad del sistema que estamos armando. Si en desarrollo usamos la biblioteca versión ``X``, pero luego cuando desplegamos todo en un servidor termina instalando la versión ``Y``, puede ser que nos explote todo. O peor, que parezca funcionar, pero que no funcione correctamente. Y si lo distribuimos es aún más complicado: si el sistema lo instalan un montón de personas en sus computadoras vamos a tener mil combinaciones de distintas versiones.
+
+Por otro lado, si tenemos "todo pinneado todo el tiempo", rompemos la evolución del software que contiene nuestro sistema. La evolución es un concepto central, no podemos cortar la evolución de las dependencias de nuestro software porque terminamos atados a versiones viejas. Y no es un problema de alguna funcionalidad más o menos, sino de seguridad: a menos que tengamos atrás un equipo de especialistas en seguridad haciéndose cargo del mantenimiento de versiones viejas, tenemos que tratar de usar todo lo nuevo en todos lados.
+
+Entonces, tenemos que encontrar un balance entre ambos extremos, que es lo que les comento en el resto del post. 
+
+Tengamos en cuenta que queremos distintos comportamientos si tenemos bibliotecas o aplicaciones, y en este último caso dónde correrán las aplicaciones, si del lado del cliente (luego de que empaquetamos el software) o en un servidor (que desplegamos directamente).
+
+.. image:: /images/pinning/biblioteca.jpeg
+    :alt: Por qué les decimos bibliotecas a las bibliotecas
+
+
+Bibliotecas
+-----------
+
+Si estamos trabajando con bibliotecas, las mismas tienen que ser lo más flexibles posible, ya que van a ser usadas de maneras que no se pueden prever: nunca vamos a tener el contexto en el qué se usarán nuestras bibliotecas.
+
+Debemos especificar qué dependencias se necesitan, pero ser lo más libres y genériques posibles con respecto a las versiones, luego la aplicación que use nuestra biblioteca especificará la versión, o no. No es de nuestra incumbencia, nuestra biblioteca debería ser independiente de las versiones de sus dependencias... y aunque ya sabemos que esto no es posible en su totalidad, debemos tratar de restringir las versiones lo menos posible. 
+
+En otras palabras, está mal definir que nuestra biblioteca necesita la dependencia ``X`` en la versión ``== 2.7.1``, pero está bien definir que la necesita en una versión ``=> 2`` o incluso ``=> 2; != 2.0.4``, en caso de que haya alguna incompatibilidad puntual. Y después será la aplicación la que defina en qué versión necesita sus propias dependencias, y se hará el análisis en conjunto para determinar si hay un conflicto. Si la biblioteca defina una dependencia ``X`` en una versión específica, y la aplicación también depende de la misma ``X``, está condicionada a usar sólo esa versión. Peor aún, si la aplicación necesita las bibliotecas ``foo`` y ``bar``, y ``foo`` define la dependencia ``X`` en una versión y ``bar`` define la misma dependencia ``X`` en otra versión, la aplicación directamente no podrá usar ambas ``foo`` y ``bar``.
+
+Entonces, recapitulemos: para las bibliotecas seamos lo menos específicos posible en las versiones de sus dependencias. Arranquemos con no indicar ninguna versión en ninguna dependencia, y vayamos agregando restricciones con el tiempo, sólo si encontramos alguna incompatibilidad.
+
+.. image:: /images/pinning/local.jpeg
+    :alt: Local para eventos en el lago Pavillión, en Copenhague, Dinamarca
+
+
+Aplicaciones
+------------
+
+Con las aplicaciones es diferente. En el momento en que empaquetamos una aplicación para distribuirla, o la desplegamos en servidores para ser usada, queremos poder garantizar que se ejecutará correctamente de cara a les usuaries finales.
+
+La calidad de la aplicación la garantizamos con distintas evaluaciones que hacemos, que pueden ser pruebas de unidad, pruebas de integración, pruebas manuales. Un proyecto robusto siempre tendrá alguna combinación de todas estas pruebas que se realizarán para determinar la calidad de una determinada versión de la aplicación. 
+
+Pero esta versión de la aplicación, ¿qué versión de cada una de sus dependencias utilizará? Si corremos todas las pruebas para la versión que queremos liberar de nuestra aplicación usando la versión ``X`` de una dependencia, pero al momento de empaquetarla o desplegarla en un servidor se termina usando la versión ``Y`` de esa dependencia, en realidad las pruebas que corrimos no son válidas.
+
+Tengamos en cuenta que en realidad no hay mucha diferencia entre si a la aplicación la empaquetamos para distribuirla o la desplegamos en un servidor para ser usada. En general tanto el proceso de empaquetado como el de despliegue terminarán instalando nuevamente las dependencias necesarias, y a menos que todas las versiones estén especificadas, no tenemos control de cuales serán usadas.
+
+En otras palabras, para garantizar la calidad de la aplicación tenemos que pinnear las versiones de las dependencias, correr toda la batería de pruebas que tengamos utilizando esas dependencias, y luego empaquetar o desplegar la aplicación usando exactamente esas dependencias.
+
+Pero si tenemos todo pinneado, volvemos al problema del que hablábamos antes de poder evolucionar, quedamos atrapados en versiones viejas con posibles problemas sin corregir. O peor, con fallas de seguridad expuestas.
+
+.. image:: /images/pinning/pragamojada.jpeg
+    :alt: Praga, de noche, luego de la lluvia
+
+La forma más piola que he encontrado de tanto poder garantizar la calidad final como también de evolucionar en el tiempo es tener *dos* listas de dependencias. 
+
+La primera lista tendrá las dependencias directas de nuestra aplicación (no las dependencias de las dependencias) de la forma más laxa posible: similar a lo que hacemos con las bibliotecas, a priori no especificaremos ninguna restricción, y sólo las agregaremos con el tiempo si encontramos incompatibilidades puntuales.
+
+La segunda lista tendrá todas las dependencias de nuestra aplicación y a la vez todas las dependencias de las dependencias, y las dependencias de las dependencias de las dependencias, etc., con la versión específica con que fueron instaladas. Todas las pruebas que correrá el desarrollador, o el sistema de CI/CD (*Continuous Integration / Continuous Delivery*) que tengamos, se harán utilizando esta segunda lista con todo bien especificado. Y el proceso posterior de empaquetado o despliegue también utilizará esta segunda lista, con lo cual terminamos garantizando la calidad de la aplicación. Incluso, si dudamos de la procedencia de los archivos de nuestras dependencias, podemos hasta sacar el *hash* de las mismas y luego validarlas; entonces no sólo indicamos que los tests se hacen con la versión ``foo == 2.1.7`` sino que también podemos validar que cuando el server instale esa versión específica el archivo con el que lo haga sea exactamente igual al que usamos nosotros, y nadie nos vendió gato por liebre en el medio (lo que sería un tipo de ataque `MITM <https://es.wikipedia.org/wiki/Ataque_de_intermediario>`_).
+
+Entonces, ya sabemos que tenemos dos listas para las dependencias de nuestra aplicación, la laxa que nos permite evolucionar y a partir de la cual se arma la muy específica sobre la cual se valida calidad y libera la aplicación. 
+
+¿Cómo vamos de una lista a la otra? En tiempo de desarrollo. Será responsabilidad de nosotres les desarrolladores el cada tanto (no tiene que ser *todo el tiempo*) generar el entorno de desarrollo desde cero utilizando la lista laxa y generar a partir de esa instalación la lista específica. Las distintas herramientas que nos permiten trabajar con entornos de desarrollo en general también nos dan la posibilidad de generar la lista específica a partir del entorno creado (por ejemplo en `fades <https://fades.readthedocs.io/>`_ tenemos la opción ``--freeze``).
+
+.. image:: /images/pinning/tabernamedieval.jpeg
+    :alt: Muy bien lograda la ambientación de una "taberna medieval" en Praga
+
+Para terminar, tengamos en cuenta que todas las dependencias que vengo mencionando son las de *producción*, aquellas bibliotecas que nuestra aplicación necesita para finalmente correr. 
+
+Pero también tenemos aquellas dependencias de *desarrollo*: todas las bibliotecas y utilidades que usaremos les desarrolladores para, justamente, desarrollar la aplicación. Estas dependencias **no** se instalarán, incluirán, ni usarán en el paquete que armemos para distribuir la aplicación o en el servidor. Un ejemplo de este tipo de dependencias podría ser `pytest <https://docs.pytest.org/>`_, el corredor de pruebas de unidad.
+
+Para estas dependencias tendremos otra lista, separada de las de producción. Hay distintas formas de manejar esta separación; por ejemplo, si utilizamos archivos de dependencias podemos tener un ``requirements.txt`` para las de producción y ``requirements-dev.txt`` para las desarrollo.
+
+El punto es que a las dependencias de desarrollo no las tenemos que pinnear para nada (obviamente, a menos que encontremos alguna incompatibilidad o bug en particular). Siempre utilizaremos lo último de lo último cuando armemos los entornos de desarrollo, y si en algún momento algún test falla porque las herramientas que utilizamos evolucionaron (por ejemplo, `flake8 <https://flake8.pycqa.org/en/latest/>`_ detectando un caso nuevo) corregiremos nuestro código y seguiremos adelante. Pero no hay motivo alguno para pinnearlas.
