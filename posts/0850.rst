@@ -1,0 +1,47 @@
+.. title: El fin de una era
+.. date: 2023-03-03 20:26:00
+.. tags: Canonical, trabajo, gente, compartir, proyectos
+
+Luego de catorce años y medio, esta semana dejé de trabajar en Canonical.
+
+Me costó tomar la decisión de renunciar, lo estuve masticando varias semanas, pero era momento. La empresa no es la misma que me gustaba tanto hace unos años, nuestros caminos de "cómo hacer las cosas" divergieron demasiado los últimos meses, y llegó el momento de descansar un poco.
+
+Pasó mucha agua por abajo del puente. 
+
+.. image:: /images/canonical/f11-sprintcórdoba.jpeg
+    :alt: Córdoba, Argentina, 2009
+
+.. image:: /images/canonical/f12-udsjaunty.jpeg
+    :alt: California, USA, 2008
+
+.. image:: /images/canonical/f13-udsjaunty.jpeg
+    :alt: California, USA, 2008
+
+.. image:: /images/canonical/f14-sprintlondres.jpeg
+    :alt: Londres, Inglaterra, 2010
+
+.. image:: /images/canonical/f15-sprintcórdoba.jpeg
+    :alt: Córdoba, Argentina, 2012
+
+Conocí un montón de gente, pero al mismo tiempo no les conocí tanto tampoco, uno de los "problemas" del trabajo remoto. Cuando trabajás presencial compartís muchos más espacios con tus compañeres... no sólo la convivencia en la oficina, sino también salir a almorzar, quedarse algún after-office, etc. En el trabajo remoto te encontrás a veces y algún lazo se crea, pero no es lo mismo. Esto ayudó a que cortar luego de tanto tiempo no sea "doloroso". Por otro lado, tuve la oportunidad de trabajar con gente que ya conocía, y eso estuvo buenísimo :)
+
+.. image:: /images/canonical/f21-sprintlondres.jpeg
+    :alt: Londres, Inglaterra, 2010
+
+.. image:: /images/canonical/f22-sprintcolonia.jpeg
+    :alt: Colonia, Uruguay, 2015
+
+.. image:: /images/canonical/f23-sprintlondres.jpeg
+    :alt: Londres, Inglaterra, 2013
+
+También laburé en muchos proyectos a lo largo de los años. Arranqué en Ubuntu One, que era más cosas pero yo estuve casi únicamente abocado a la parte de sincronización de archivos (luego `liberado open source <https://github.com/chicharreros>`_). De ahí a ofrecer servicios online para el `Ubuntu Phone <https://phone.docs.ubuntu.com/en/devices/>`_. Un par de productos en el medio que no vieron la luz, y luego a trabajar en el `Snap Store <https://snapcraft.io>`_, donde estuve bastante en proyectos diversos. Y finalmente volver al lado del "cliente" para laburar en una `biblioteca <https://github.com/canonical/operator/>`_ y una `herramienta <https://github.com/canonical/charmcraft/>`_ para facilitar el uso de `Juju <https://juju.is/>`_.
+
+.. image:: /images/canonical/f31-sprintmalta.jpeg
+    :alt: La Valeta, Malta, 2019
+
+.. image:: /images/canonical/f32-sprintpraga.jpeg
+    :alt: Praga, República Checa, 2022
+
+Por primera vez después de 30 años no voy a saltar de un trabajo al otro. Voy a estar algunas semanas sin laburar, viendo qué quiero hacer de mi vida, retomando algunos proyectos/hobbies/cosos abandonados o ni empezados por falta de tiempo. 
+
+Veremos qué depara el futuro.
