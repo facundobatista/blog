@@ -1,0 +1,49 @@
+.. title: Es el software, estúpido
+.. date: 2023-03-13 10:42:00
+.. tags: software, hardware, pulsera, Xiaomi
+
+Repetidas veces en la historia se ha visto que, para dispositivos de consumo masivo, para abaratar costos se terminan reemplazando con software funcionalidades que estaban en hardware: es obvio, si sacamos este pedacito que para mil dispositivos tenemos que fabricar mil veces y lo reemplazamos por un "software más inteligente" (que se copia gratis), se bajan los costos.
+
+Hay muchos ejemplos, pero quizás el que más nos ha mordido a les usuaries de Linux es el caso de los módems hace un par de décadas (ustedes son muy jóvenes, pero...). Los fabricantes empezaron a hacer el jueguito antedicho pero sólo liberaban ese "software inteligente" para Windows, con lo cual hacer andar esos módems en Linux era una odisea, al punto que se acuñó el término "winmodem".
+
+Bueno, hace un par de semanas se me complicó con algo parecido a eso.
+
+Unos meses atrás me compré una Xiami Smart Band 7, muy bonita (aunque un poco chica para mis ojos cuarentones).
+
+.. image:: /images/pulsera-ok.jpeg
+    :alt: La pulsera en cuestión
+
+Es muy fácil de empezar a usar. Cuando se prende te muestra un QR que al escanearlo con el teléfono te lleva a descargar la aplicación Mi Fit. Ejecutás la aplicación, siguiente siguiente siguiente, te reconoce que hay una pulsera para enganchar, la sincroniza y voilà, funciona todo.
+
+Hay cosas en la pulsera en sí (muchas, sólo he usado pocas, como cronómetro, o decirle que estoy haciendo tenis, que me mida las pulsaciones, etc),  pero también hay otras en la app que son interesantes (como mandar las notificaciones a la pulsera, es MUY piola eso). Pero la app termina siendo imprescindible, porque es la única interfaz "inteligente" con la pulsera, la única forma de ver data histórica, etc. 
+
+Todo muy lindo. Hasta que falla.
+
+Hace un par de semanas, decía, no sé que hizo la pulsera mientras estaba cargando y se reseteó a cero. La fui a buscar y estaba mostrando el QR que muestra cuando uno la saca de la caja al comprarla. 
+
+Bueno, a re-emparejarla con la app, total como todo el histórico está ahí no pasa nada. ¡Pero no emparejaba! La app no encontraba "ningún dispositivo cercano". 
+
+La app también tiene escondida en un menú la opción de "incorporar al dispositivo escaneando su QR". Con esta opción avanzó un poco porque se daba cuenta que había una pulsera pero no podía comunicarse con ella :(. Lo loco es que me decía que el problema es de la pulsera, y que tenía que resetearla "a cero" para que vuelva a estar como "de fábrica".
+
+.. image:: /images/pulsera-reset.jpeg
+    :alt: Che, no anda y no se qué hacer, reseteala vos
+
+¿Pero cómo? Porque lo único que tiene la pulsera es una pantalla que obstinadamente me mostraba un QR. A diferencia de la gran mayoría de otros dispositivos a los que estamos acostumbrades, la pulsera no tenía ningún botoncito ni nada que dispare un reseteo de fábrica del hardware. Porque la pulsera no tiene **ningún** elemento móvil. Todo bien, si querés hacer un dispositivo que sea medianamente sumergible hacerlo totalmente cerrado te evita mil quilombos. 
+
+Pero igual podrían haber maneras. La pulsera tiene contactos eléctricos, después de todo, y uno manejable sencillamente por el usuario es el de carga de la batería. Podría tener implementado que si enchufás y desenchufás 10 veces el cargador te pregunte si querés que se resetee a cero. Pero no, seguramente los desarrolladores fueron demasiado optimistas de que nunca nada iba a malir sal.
+
+Luego de pelearme por un par de horas con la pulsera, decidí apelar al último recurso con algunos dispositivos: drenarle la batería hasta cero (esperar a que se le acabe, bah). Pero oh, la pulsera ya de entrada consume poco y si detecta que no se mueve se pone en modo más económico, entonces nunca se me iba a descargar.
+
+La tiré en lo profundo de un cajón, junto a mis esperanzas.
+
+Un par de días después dije basta, y decidí mandarla a arreglar. Empecé a buscar service... y no encontré nada. Hay varias empresas que dan soporte de Xiaomi, pero todas sobre teléfonos. Nada de pulseras. En otras palabras, me habían vendido un hardware sin service en Argentina. Qué detalle, ¿no?
+
+De nuevo al fondo del cajón, junto a mis esperanzas y mi bronca.
+
+Una vez por día promedio se me ocurría buscar alguna cosa en internet, probarla. Hice mil intentos: la cargué full, limpié y borré la app que les mencionaba arriba, instalé otra (Zepp) que la encontraba pero la perdía, volví a limpiar todo, incluso borrando a mano directorios en el teléfono de las apps, y varias cosas que ya no me acuerdo.
+
+Como diez días después del incidente, la prueba de turno fue borrar (de nuevo) toda app al respecto, borrar la pulsera de bluetooth, instalar Zepp, y ahí el comportamiento cambió... encontró la pulsera, que salió del QR y puso una pequeña imagen de "enlace"... que al rato perdió y volvió al QR. Pero volví a intentar los pasos anteriores y de repente la app me anuncia que empezó a bajar una actualización. Por lo que tardaba pensé que estaba bajándola a la pulsera pero no, después de un rato largo la pulsera me avisa que estaba instalando una actualización, y empezó a subir un porcentaje que tardó en completarse como veinte minutos.
+
+Terminó, se reinició, y arrancó "bien", con la app sincronizando ok y todo. ¡Alegría! 
+
+Vaya uno a saber cuanto dura.
