@@ -1,0 +1,53 @@
+.. title: Dos releases: PyEmpaq y Runish
+.. date: 2023-04-20 15:04:00
+.. tags: release, PyEmpaq, Runish, Python
+
+Estos días que tuve un poco más de tiempo libre le metí a redondear un par de proyectos. 
+
+En realidad fue terminar de cerrar el milestone de uno con features nuevos bastante complejos, e implementar desde cero el segundo (con una funcionalidad muy chiquita pero útil).
+
+El primero es PyEmpaq, del cual ya les hablé `en otro momento <https://blog.taniquetil.com.ar/posts/0836/>`_. 
+
+PyEmpaq es un simple pero poderoso empaquetador de Python para correr cualquier proyecto en cualquier lado con las dependencias que necesite mientras sean instalables en un entorno virtual.
+
+Con PyEmpaq pueden convertir cualquier proyecto de Python en un archivo único ``.pyz``, con todo el contenido del proyecto dentro.
+
+Ese único archivo es todo lo que necesita ser distribuido. Cuando la usuaria final lo ejecute, se expandirá el proyecto original, sus dependencias se instalarán en un entorno virtual, y se correrá. Como no se necesitan permisos o privilegios especiales, todo puede correr en cualquier entorno.
+
+Tanto el empaquetado como la ejecución son completamente multiplataformas. Esto significa que se puede empaquetar el proyecto en Linux, Windows, MacOS o donde sea, y correrá bien en Linux, Windows, MacOS o donde sea. El único requerimiento es tener Python instalado previamente.
+
+¿Qué hay de nuevo en la versión 0.3.1? Principalmente...
+
+- Agregué opciones 'include' y 'exclude' en la configuración para tener el control completo del contenido del proyecto empaquetado.
+
+- Ahora se reusa el directorio del proyecto existente sólo si se completó satisfactoriamente en una instalación previa.
+
+- Soporta declarar una versión mínima de Python para correr el proyecto empaquetado.
+
+- Se expone el path del archivo ``.pyz`` al proyecto cuando se ejecuta.
+
+Pueden hacer click en el logo para ir a la documentación completa...
+
+.. image:: https://blog.taniquetil.com.ar/images/logo-pyempaq.png
+    :alt: PyEmpaq
+    :target: https://pyempaq.readthedocs.io/en/latest/
+
+El otro proyecto, que tenía anotado desde hace rato pero no le había tirado ni una línea de código es Runish.
+
+Runish es una pequeñísima herramienta de línea de comando para encontrar caracteres Unicode o explicarlos (la pueden instalar desde PyPI).
+
+Por ejemplo, si quieren un carácter que tenga un paraguas::
+
+    $ runish umbrella
+    ☂  UMBRELLA
+    ☔ UMBRELLA WITH RAIN DROPS
+    ⛱  UMBRELLA ON GROUND
+    🌂 CLOSED UMBRELLA
+    🏖 BEACH WITH UMBRELLA
+
+O si ven un carácter por ahí y no terminan de entenderlo o quieren su descripción exacta::
+
+    $ runish ☂
+    UMBRELLA
+
+Cortito y al pie. O al dedo.
