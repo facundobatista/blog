@@ -1,5 +1,5 @@
 .. title: Dos releases: PyEmpaq y Runish
-.. date: 2023-04-20 15:04:00
+.. date: 2023-04-24 11:48:00
 .. tags: release, PyEmpaq, Runish, Python
 
 Estos días que tuve un poco más de tiempo libre le metí a redondear un par de proyectos. 
