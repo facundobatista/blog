@@ -1,0 +1,105 @@
+.. title: Toqueteando el teclado
+.. date: 2023-05-10 11:30:00
+.. tags: teclado, configuración, Unicode, Linux, eventos
+
+
+El teclado es una de las mejores interfaces que tenemos con la computadora. Nos acompaña desde hace mucho más de medio siglo y fue cambiando mucho con el tiempo. Hoy en día mismo hay muchas variaciones, pero en general apenas pensamos en su complejidad: los enchufamos, apretamos las teclas y esperamos que las letras aparezcan en la pantalla.
+
+*Disclaimer 1: mucho de lo que diga en los próximos párrafos, pero no todo, dependerá de qué distribución de teclado tengas y cómo esté configurado, ya voy a ir marcando esos detalles.*
+
+También estamos acostumbrades a que hayan teclas con distintas funcionalidades. Las "letras" son directas (las apretamos y algo aparece), pero otras son modificadoras (el "shift", el "alt"). Hay teclas que parecen agregadas, como las de función que están un poco más arriba, o el teclado numérico de la derecha que incluso ni está en las laptops más pequeñas. Hay otras más raras incluso, como el "Break" o "Sys Rq" que tampoco usamos demasiado (o nada).
+
+.. image:: /images/teclado.png
+    :alt: El teclado que uso en el escritorio
+
+Pero, ¿cuál es el "recorrido" entre que apretamos una tecla y aparece una letra en nuestro editor de textos? Esto es lo que les voy a contar un poco por arriba, ya que tuve que aprenderlo para configurar mi teclado como yo quería. No es la idea entender toda la complejidad del sistema de entrada del teclado, pero sí lo necesario para poder configurarlo un poco.
+
+
+Entendiendo las relaciones
+--------------------------
+
+Mi objetivo era poder meter caracteres de forma simple cuando estaba escribiendo. Claro, si quiero la "j" aprieto la ``j``, si quiero la "L" aprieto ``SHIFT+l``, si quiero una "é" aprieto ``ALTGR+e``, o incluso si necesito un "¼" aprieto ``ALTGR+SHIFT+6``. ¿Pero qué pasa si quiero un "∞" o un "🔥"? ¡No *están*! ¿Cómo las *agrego*?
+
+*Disclaimer 2: se pone más espesa la cosa acá; lo siguiente está basado en mi sistema operativo y entorno de escritorio (Kubuntu 22.04, con KDE Plasma 5.24, sobre X11); aunque creo que todos los sistemas "más o menos modernos" van a ser iguales o muy parecidos. Puede fallar.*
+
+En los ubuntus la parte de manejo del teclado bajo X11 está en ``/usr/share/X11/xkb/``. Los símbolos que va a tirar cada tecla están bajo ese directorio en ``/symbols/`` en un archivo que dependerá de tu distribución de teclado. 
+
+Yo tengo un teclado inglés internacional, así que el archivo que me interesa es el ``/usr/share/X11/xkb/symbols/us``. Ahí dentro no todo es tan directo, ya que puede estar configurado de varias maneras, en distintas "variantes". Como les decía antes, yo uso ``English (intl., with AltGr dead keys)``, que en el archivo lleva el código ``altgr-intl``. En esa sección encuentro la definición de cada tecla, como...
+
+::
+
+   key <AC07> { [        j, J,           idiaeresis,   Idiaeresis      ] };
+   key <AB02> { [        x, X,           oe,           OE              ] };
+
+...pero no todas, ya que aquí están solo las diferencias contra el mapa "base" (en realidad es una estructura de herencia en árbol); en este caso dice ``include "us(intl)"``, lo que indica que es el archivo ``us`` (el que ya estamos viendo), el mapa ``intl``, y así siguiendo.
+
+Entonces, cada línea de esas nos da una tecla. Entre los corchetes podemos tener dos o cuatro elementos. Los primeros/únicos dos indica qué carácter aparece cuando apretamos la tecla y cuando la apretamos con Shift, y si tenemos tercer y cuarto elemento es AltGr+tecla y Shift+AltGr+tecla. Para el primer caso del ejemplo mostrado, sería entonces::
+
+    TECLA:              j
+    SHIFT+TECLA:        J
+    ALTGR+TECLA:        ï
+    SHIFT+ALTGR+TECLA:  Ï
+
+Vemos que a veces no se usan los caracteres en sí sino sus nombres; la conversión está definida en este archivo de las fuentes de X11: ``/usr/include/X11/keysymdef.h``. También se puede usar el código Unicode directamente, arrancando con U (ej: ``U13BF``).
+
+Paréntesis. "AltGr" viene de /alternate graphic/, "alternativa gráfica". Cierro paréntesis.
+
+.. image:: /images/layout-teclado.png
+    :alt: Mi layout; azul para AltGr (verde si es compuesta)
+
+
+Sigamos. 
+
+En el ejemplo que vimos es obvio que la tecla en cuestión es "la de la jota", ¿pero qué es ese código ``AC07`` con que se define? Si arranca con ``A`` la segunda letra es la fila de teclas "comunes" de la parte principal de teclado, arrancando con ``A`` la primera fila de abajo, y la posición de la tecla arrancando de 1 a la izquierda. Entonces para nuestro teclado la ``AC`` es la tercer fila, la que arranca con la tecla ``a`` y si contamos para la derecha, la séptima ``AC07`` es la ``j``. Otros prefijos indican otras zonas: ``FK`` son las teclas de función, ``KP`` las del teclado numérico, y así. Y también hay teclas con nombre específico: ``TAB``, ``CAPS``, ``RTRN``, etc.
+
+Más paréntesis. Si miramos nuestro teclado vemos que la primera fila (la de abajo de todo, la de la barra espaciadora) no tiene "teclas comunes", entonces ``AA`` no tendría sentido... pero hay todo tipo de teclados, `este por ejemplo <https://wiki.laptop.org/go/OLPC_English_Non-membrane_Keyboard>`_ nos muestra un caso con signos en esa fila. Hay de todo en este mundo. Nuevamente cierro paréntesis.
+
+¿Pero cómo sabe el sistema que cuando apretamos físicamente una tecla de nuestro teclado esa es la quinta de la tercer fila? Ahí ya depende del tipo de teclado y cómo se lee su entrada. Podemos preguntarlo::
+
+    $ setxkbmap -query
+    rules:      evdev
+    model:      pc104
+    layout:     us
+    variant:    altgr-intl
+
+Allí tenemos el layout con variante y todo (que ya mencioné arriba para llegar a la configuración del teclado), pero lo que quiero destacar es el ``rules``, que en mi caso (y en la mayoría de los Linux modernos) es `evdev <https://es.wikipedia.org/wiki/Evdev>`_, una interfaz de entrada que traduce los eventos de los drivers de los dispositivos y los pone a disposición de las capas superiores al kernel, como X.
+
+Podemos leer fácilmente la entrada de estos eventos. Jugando, yo me hice un `programita que muestra los códigos de cada tecla <http://linkode.org/#tKdUEHQn47jmvuMv4AvC42>`_. Y luego encontré que hay una pequeña utilidad que también lo hace: ``showkey``.
+
+Si corremos cualquiera de los dos nos va a dar que "la tecla de la J" genera el código 36. Esto lo traducimos usando el archivo ``/usr/share/X11/xkb/keycodes/evdev`` donde vemos la correspondencia entre ``AC07`` (el código para la línea de la ``J`` que vimos arriba) y el 44, que es 36 (que obtuvimos del teclado) más 8 (que es el mínimo que declara ese mismo archivo)::
+
+    default xkb_keycodes "evdev" {
+    	minimum = 8;
+    	maximum = 255;
+    (...)
+    	<AC07> = 44;
+    
+
+Agregando un carácter
+---------------------
+
+Hagamos ahora el recorrido útil, motivado por el deseo de tener una combinación de teclas que me escriba el símbolo del infinito.
+
+La idea sería ponerlo en una tecla que no tenga carácter especial (para no pisar alguno potencialmente útil). Me decidí por SHIFT+ALTGR+M, que por default tiene al mismo *mu* que ALTGR+M.
+
+Con el ``showkey`` veo que la tecla es la 50, y usando el archivo ``keycodes/evdev`` veo que 58 corresponde a ``AB07``, lo cual tiene sentido porque la ``M`` es la séptima tecla en la segunda fila de mi teclado.
+
+Yendo al ``symbols/us`` veo que la variante ``altgr-intl`` no define ``AB07``. Vamos a su "ancestro", ``intl``, y allí la encontramos::
+
+    key <AB07> { [         m,          M,            mu,               mu ] };
+
+Reemplazo el cuarto valor por ``infinity`` (podría haber puesto ``U221E`` pero el nombre es más descriptivo)::
+
+    key <AB07> { [         m,          M,            mu,         infinity ] };
+
+Luego, para refrescar el uso de ese mapa (sin tener que reloguearme o reiniciar la máquina)::
+
+    sudo setxkbmap us -variant altgr-intl
+
+Y listo: ``∞``.
+
+Lo ideal sería poder tener el dibujo de los caracteres "extras" en el frente de cada tecla, como en mi añorada Commodore 128:
+
+.. image:: /images/commodore128.jpeg
+    :alt: Pasado ¿y futuro? del diseño de teclas
+    :target: /images/commodore128.jpeg
