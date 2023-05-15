@@ -1,0 +1,54 @@
+.. title: Controlando más de un reproductor de música al mismo tiempo
+.. date: 2023-05-15 10:42:00
+.. tags: separados por COMA
+
+Nunca usé (y en general no me gustan) esos teclados que tienen 450 botoncitos para 450 cosas distintas... subir y bajar el volumen, abrir un navegador web, pasar la aspiradora, etc. Mi teclado es `bastante normalito <https://blog.taniquetil.com.ar/posts/0854/>`_.
+
+Dicho eso, sí hay funcionalidades que quiero tener, y las obtengo con combinaciones de teclas. Las que más uso son CTRL más el ``+`` del teclado numérico para subir el volumen, CTRL más el ``-`` del teclado numérico para bajarlo, y CTRL+SHIFT más la barra espaciadora para play/pause.
+
+Estoy **muy** acostumbrado a eso. Incluso cuando uso la laptop directamente (no enchufada a un monitor y a un teclado grande), y tengo botonitos especiales de subir y bajar el volumen, el play/pause es imprescindible.
+
+¿Cómo lo obtengo? Paso a explicar el play/pause que es lo que me trajo una problemática a resolver. En la configuración del sistema agrego un acceso rápido personalizado para la combinación ``ctrl-shift-espacio``, indicando que genere una llamada `D-Bus <https://es.wikipedia.org/wiki/D-Bus>`_ con los siguientes parámetros:
+
+- Aplicación remota: ``org.mpris.MediaPlayer2.clementine``
+
+- Objeto remoto: ``/org/mpris/MediaPlayer2``
+
+- Función: ``org.mpris.MediaPlayer2.Player.PlayPause``
+
+Mi reproductor de música es Clementine. YMMV.
+
+.. image:: /images/clementine-logo.png
+    :alt: Clementine, mi reproductor de música preferido
+
+Todo muy lindo, hasta que luego de una situación particular que no viene al caso quise empezar a escuchar Spotify en la compu. En mi primer experiencia al respecto, levanto Spotify, me pongo a escuchar música, y sigo laburando en la compu como si nada. De repente quiero poner pausa, tiro el Ctrl+Shift+Espacio... y nada, claro, porque eso disparó una señal a Clementine (que estaba cerrada).
+
+Para que me funcione con Spotify tendría que configurar el acceso personalizado del sistema para que llame al destino ``org.mpris.MediaPlayer2.spotify``, objeto ``/org/mpris/MediaPlayer2``, función ``org.mpris.MediaPlayer2.Player.PlayPause``.
+
+Claro, eso me desconfigura el uso de Clementine.
+
+No, no voy a configurar uno o el otro en función de que esté usando Clementine o Spotify. No, tampoco voy a tener dos *hotkeys* distintos. ¿La solución? Tener un duplicador/repetidor de llamadas, algo que ponga a correr en el sistema y que cuando le ejecute una función via D-Bus (al apretar Ctrl+Shift+Espacio) eso genere *ambas dos* llamadas a Clementine y Spotify.
+
+.. image:: /images/spotify-logo.png
+    :alt: Lo que uso para explorar otras músicas o escuchar algo raro
+
+A priori no es algo demasiado complicado de hacer. Pero como corresponde, le pregunté "a internet" si ya había algo así hecho antes. Primero a Google, no encontré nada potable. Luego por Twitter, donde `João <https://twitter.com/gwidion>`_ me retrucó con la idea de preguntarle a `ChatGPT <https://openai.com/blog/chatgpt>`_.
+
+A diferencia de otras ocasiones, tuve excelentes resultados en esta interacción con la famosa IA. Le pregunté `como hacer el script </images/dbus-ia-1.jpg>`_, `en qué paquete venía el módulo que usó </images/dbus-ia-2.jpg>`_ y `cómo poner ese script como demonio automáticamente </images/dbus-ia-3.jpg>`_. 
+
+Como es esperable del estado actual de esa inteligencia artificial, lo que me dijo no anduvo. Le estuve tirando de la cuerda un rato, y al mismo tiempo tratando de solucionar el problema yo. Logré un resultado que a priori funcionó y luego la IA me terminó sugiriendo algo con la misma estructura. 
+
+Pero este resultado funcional tenía un detalle que me hacía ruido: dependía de paquetes de GTK para el *reactor*. Le pedí que me diera algo que funcionara con un *loop* de asyncio (que está en la biblioteca estándar) y me pasó algo... que tampoco funcionaba (fallaba un import). Me sugirió que revise un par de paquetes pero tenía todo en regla. Finalmente me terminé fijando yo y le dije que en la documentación no hablaba para nada de ese módulo que ella decía. Ahí me cambió la historia y pasó a sugerirme `una biblioteca totalmente distinta para comunicarme con dbus <https://pypi.org/project/dbus-next/>`_. 
+
+El código que me pasó para esta biblioteca... tampoco funcionaba. Estuve un rato pasándole errores que obtenía al ejecutar el código y haciendo los cambios que me ofrecía, hasta que obtuve un error que cuando se lo pasé a la IA me terminó indicando algo de la biblioteca que habíamos empezado (no esta que estábamos usando ahora). 
+
+Me cansé de seguir a la cosa esta que estaba pegando palazos en la oscuridad e invertí un rato para debuguear el código, y contrastándolo con el ejemplo de la página de la biblioteca (que por si solo **tampoco** funciona), terminé logrando algo que sí anduvo.
+
+.. image:: /images/dbus-not-dbus.jpeg
+    :alt: D-Bus no es d-bus
+
+En este punto ya tenía un ``dbusreplicator.py`` que al ejecutarlo en una terminal me permitía hacer play/pause en Clementine y/o Spotify de forma transparente. Una hermosura.
+
+Ahora a ponerlo para que arranque sólo cuando entro en la compu y que se re-inicie ante cualquier percance. Tenía las instrucciones de ChatGPT (la tercer imagen que enlacé arriba) que estaban *casi* bien... la idea de usar ``systemd`` y el ``.service`` que recomendó estaban bien, pero el gran detalle es que la aplicación tiene que correr en el espacio del usuario, así puede conectarse al D-Bus de la sesión del usuario (no del sistema). 
+
+En fin, fue un recorrido interesante, y ahora ya lo tengo laburando prolijito :). Dejé el programejo en Python, el archivo para systemd (y unas notitas al respecto) en `esta carpeta <http://taniquetil.com.ar/homedevel/devel/dbusrepl/>`_.
