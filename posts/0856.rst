@@ -1,0 +1,23 @@
+.. title: Facilitar la instalación distribuida de sensores y actuadores
+.. date: 2023-05-29 15:34:00
+.. tags: hardware, ESP32, electrónica, sensor, actuador, administración, datos, Python
+
+Uno de los proyectos que tenía anotado de hace rato para volver a jugar un poquito con electrónica era armar un framework para poder instalar sensores (y en un futuro) actuadores por ahí sin tener que preocuparme por cableado, juntar los datos, y varios detalles más.
+
+El último par de semanas estuve trabajando en una especificación inicial para eso, la puse en el README del proyecto de Github donde voy a ir subiendo todo: `Distributed Sensors and Actuators Framework <https://github.com/facundobatista/dsaf>`_.
+
+El framework a grandes rasgos tiene tres tipos de nodos:
+
+- Manager: El nodo central con la interfaz administrativa para el operador humano y una API para exponer todo. Permitiría ver toda la data que mandan los sensores, poder interactuar con los mismos, etc.
+
+- Sensores y actuadores: Los nodos que generan y transmiten la info, o reciben data y actúan acordemente. Acá la idea es tener un hardware basado en ESP32 programado en Python.
+
+- Configurador: Es el nodo que configura los nodos distribuidos para que puedan conectarse al Manager. Se usa una sola vez por cada nodito distribuido para que se configure automáticamente.
+
+.. image:: /images/dsaf-system.png
+    :alt: La interacción entre los nodos
+    :target: https://github.com/facundobatista/dsaf
+
+Vayan al proyecto para leer bien el detalle de a qué habilita el nodo central de administración, toda la funcionalidad de los nodos distribuidos y cómo trabaja el configurador, más gráficos, etc.
+
+¡Se agradecen comentarios!
