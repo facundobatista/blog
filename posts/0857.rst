@@ -1,0 +1,64 @@
+.. title: Películas y series, tanda invierno 2023
+.. date: 2023-06-23 09:47:00
+.. tags: películas, series
+
+Viene lento el ver películas, cuesta encontrarle tiempo, pero como del último post pasó más de medio año, se juntaron. Por otro lado, ¡casi no hay nuevas anotadas! Las series fluyen, sin embargo. Todo un signo de los tiempos que vivimos (?).
+
+De series, entonces, tengo varias para recomendar. `Sex Education <https://www.themoviedb.org/tv/81356-sex-education>`_ me gustó mucho. `What We Do in the Shadows <https://www.themoviedb.org/tv/83631-what-we-do-in-the-shadows>`_ tiene sus momentos y les tiene que gustar ese tipo de humor... la pueden disfrutar un montón. También me gustó mucho `Killing Eve <https://www.themoviedb.org/tv/72750-killing-eve>`_ aunque no termina del todo bien. Si les gustan las series basadas en diálogos intensos (no aburridos) e inteligentes, prueben `State of the Union <https://www.themoviedb.org/tv/87984-state-of-the-union>`_, son muy cortitos los episodios y está muy bien..
+
+`The Man Who Fell to Earth <https://www.themoviedb.org/tv/118663-the-man-who-fell-to-earth>`_ me gustó muchísimo, pero *creo* que tienen que haber visto `la película <https://www.themoviedb.org/movie/991-the-man-who-fell-to-earth>`_ (que no es tan fácil de ver) o haber leido el libro, no sé cuan disfrutable es sin el contexto previo.
+
+Me falta la última temporada de `Marcella <https://www.themoviedb.org/tv/66023-marcella>`_ (policial británico bastante oscuro), y estoy arrancando `Dead to Me <https://www.themoviedb.org/tv/81357-dead-to-me>`_. Con Moni estamos viendo `Workin' Moms <https://www.themoviedb.org/tv/69555-workin-moms>`_ y también está para recomendar.
+
+.. image:: /images/pelis/multipleseries09.jpeg
+    :alt: Series
+
+Vamos con las películas vistas, entonces...
+
+- `All Inclusive <https://www.themoviedb.org/movie/555311-all-inclusive>`_: +0. Una comedia liviana, quizás demasiado liviana, pero si buscan eso está bien.
+- `Crimson Tide <https://www.themoviedb.org/movie/8963-crimson-tide>`_: +1. Esta la había visto hace mucho, pero no recordaba lo buena que está.
+- `Doctor Strange in the Multiverse of Madness <https://www.themoviedb.org/movie/453395-doctor-strange-in-the-multiverse-of-madness>`_: +0. Mírenla si les gusta la saga en cuestión o les copa las de superhéroes.
+- `Enola Holmes <https://www.themoviedb.org/movie/497582-enola-holmes>`_: +0. Una de detectives, interesante para ver con les chiques :)
+- `Freaky <https://www.themoviedb.org/movie/551804-freaky>`_: -0. Pensé que iba a tener más vueltas de tuerca sobre lo obvio, pero no.
+- `Free Guy <https://www.themoviedb.org/movie/550988-free-guy>`_: +1. Mitad acción mitad comedia mitad ciencia ficción mitad nerd, muy divertida, me gustó montón.
+- `G.O.R.A. <https://www.themoviedb.org/movie/27275-g-o-r-a>`_: -1. No la pude ni terminar de ver :/
+- `Morbius <https://www.themoviedb.org/movie/526896-morbius>`_: -0. Nada nuevo bajo el sol.
+- `Reminiscence <https://www.themoviedb.org/movie/579047-reminiscence>`_: +0. Interesante a nivel de propuesta de ciencia ficción, se lleva bien, no tiene nada superespecial.
+- `Sin rodeos <https://www.themoviedb.org/movie/505015-sin-rodeos>`_: +0. Otra comedia liviana, muy divertida.
+- `The French Dispatch <https://www.themoviedb.org/movie/542178-the-french-dispatch>`_: +0. Me gustó, pero si no les gusta las películas "raras", ni se acerquen.
+- `The Game Changers <https://www.themoviedb.org/movie/463088-the-game-changers>`_: -0. En algún punto es interesante, pero no soporto la "metodología de documental" que usa...
+- `The Midnight Sky <https://www.themoviedb.org/movie/614911-the-midnight-sky>`_: +0. Muy linda, pero muy lenta por partes. Es de esas "películas raras de Clooney", pero bien.
+
+.. image:: /images/pelis/freeguy.png
+    :alt: Free Guy
+
+Mas peliculas anotadas para ver:
+
+- `血を吸う薔薇 <https://www.themoviedb.org/tv/108545-the-three-body-problem>`_: (Drama, Terror)  A fateful decision in 1960s China echoes across space and time to a group of scientists in the present, forcing them to face humanity's greatest threat. [David Benioff, D.B. Weiss, Alexander Woo]
+- `Dune: Part Two <https://www.themoviedb.org/movie/693134-dune-part-two>`_: (2023; Acción, Aventura, Ciencia ficción) Sigue el viaje mítico de Paul Atreides mientras se une a Chani y los Fremen en una guerra de venganza contra los conspiradores que destruyeron a su familia. Al enfrentarse a una elección entre el amor de su vida y el destino del universo conocido, Paul se esfuerza por evitar un futuro terrible que solo él puede prever. [D: Denis Villeneuve, Toby Hefferman; A: Timothée Chalamet, Zendaya, Rebecca Ferguson, Josh Brolin, Austin Butler]
+- `Everything Everywhere All at Once <https://www.themoviedb.org/movie/545611-everything-everywhere-all-at-once>`_: (2022; Acción, Aventura, Ciencia ficción) Cuando una ruptura interdimensional altera la realidad, Evelyn, una inmigrante china en Estados Unidos, se ve envuelta en una aventura salvaje en la que sólo ella puede salvar el mundo. Perdida en los mundos infinitos del multiverso, esta heroína inesperada debe canalizar sus nuevos poderes para luchar contra los extraños y desconcertantes peligros del multiverso mientras el destino del mundo pende de un hilo. [D: Daniel Scheinert, Daniel Kwan; A: Michelle Yeoh, Ke Huy Quan, Stephanie Hsu, James Hong, Jamie Lee Curtis]
+- `Indiana Jones and the Dial of Destiny <https://www.themoviedb.org/movie/335977-indiana-jones-and-the-dial-of-destiny>`_: (2023; Aventura, Acción) Quinta entrega de la saga 'Indiana Jones'. [D: James Mangold; A: Harrison Ford, Phoebe Waller-Bridge, Antonio Banderas, John Rhys-Davies, Toby Jones]
+- `Oppenheimer <https://www.themoviedb.org/movie/872585-oppenheimer>`_: (2023; Drama, Historia) Película sobre el físico J. Robert Oppenheimer y su papel como desarrollador de la bomba atómica. Basada en el libro 'American Prometheus: The Triumph and Tragedy of J. Robert Oppenheimer' de Kai Bird y Martin J. Sherwin. [D: Christopher Nolan, Richard Molloy; A: Cillian Murphy, Emily Blunt, Matt Damon, Robert Downey Jr., Florence Pugh]
+- `Henry's Crime <https://www.themoviedb.org/movie/53172-henry-s-crime>`_: (2010; Crimen, Comedia) Henry (Keanu Reeves) es un hombre apático y sin proyectos. Trabaja como empleado en una estación de peaje y está casado con una mujer encantadora pero muy frustrada (Judy Greer). Pero, cuando lo involucran erróneamente en el atraco a un banco y lo envían a la cárcel, un criminal (James Caan) conseguirá sacarlo de su letargo. [D: Malcolm Venville; A: Keanu Reeves, Vera Farmiga, James Caan, Judy Greer, Fisher Stevens]
+- `The Creator <https://www.themoviedb.org/movie/670292-the-creator>`_: (2023; Ciencia ficción, Acción, Suspense) Thriller post-apocalíptico que involucra un futuro impactado por una guerra entre humanos e IA. [D: Gareth Edwards; A: John David Washington, Gemma Chan, Ken Watanabe, Sturgill Simpson, Madeleine Yuna Voyles]
+
+.. image:: /images/pelis/crimsontide.png
+    :alt: Crimson Tide
+
+Finalmente, el conteo de pendientes por fecha::
+
+    (Sep-2016)    1
+    (Feb-2017)   21   9   1
+    (Jun-2017)   21  18   5
+    (Dic-2017)   19  18  16   5   2   1
+    (May-2018)   22  22  22  17   9   2
+    (Sep-2018)       12  12  12  10   3   1
+    (Mar-2019)           13  13  13  12   2   1   1
+    (Ago-2019)               10  10  10   7   2   1
+    (Feb-2020)                    8   8   8   8   1
+    (Ago-2020)                        9   9   9   4
+    (Ene-2021)                            5   5   5   2
+    (Sep-2021)                                5   5   3
+    (Sep-2022)                                   20  19
+    (Jun-2023)                                        7
+    Total:       84  79  69  57  52  45  32  30  37  31

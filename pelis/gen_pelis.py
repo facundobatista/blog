@@ -11,8 +11,6 @@ import sys
 
 import infoauth  # fades
 import requests  # fades
-# need dep from GH as we use 'original title' yet not released
-from imdb import IMDb  # fades git+https://github.com/alberanid/imdbpy.git
 
 
 T_REVIEWS_HEAD = """\
@@ -109,45 +107,9 @@ class TheMovieDB:
 tmdb = TheMovieDB()
 
 
-class IMDB(object):
-    def __init__(self):
-        self.imdb = IMDb()
-
-    def get_movie(self, movie_id):
-        """Get a movie."""
-        try:
-            m = cache.get(movie_id)
-        except KeyError:
-            m = self.imdb.get_movie(movie_id)
-            cache.set(movie_id, m)
-        return m
-
-
-imdb = IMDB()
-
-
 def fix_moviedb(url):
     """Fix IMDB or TMdb url."""
     assert url
-
-    if 'imdb' in url:
-        # DEPRECATED!!
-        # add a trailing slash if doesn't have one
-        if not url.endswith("/"):
-            url += "/"
-
-        # clean extra words
-        if url.endswith('combined/'):
-            url = url[:-9]
-        if url.endswith('reference/'):
-            url = url[:-10]
-        url = url.split("?ref_")[0]
-
-        # return the url and movie_id separated
-        ttid = url.split("/")[4]
-        assert ttid[:2] == 'tt'
-        movie_id = ttid[2:]
-        return url, movie_id
 
     # get id from the title
     # e.g.: https://www.themoviedb.org/movie/482936-la-quietud
@@ -159,28 +121,18 @@ def fix_moviedb(url):
 def get_movie_info(movie_id):
     """Layer to merge both backends for generic movie info."""
     info = {}
-    if isinstance(movie_id, str):
-        # DEPRECATED!
-        print("========= movie db deprecated:", str)
-        movie = imdb.get_movie(movie_id)
-        info['title'] = movie['title']
-        info['directors'] = ", ".join(d['name'] for d in movie.get('director', []))
-        info['actors'] = ", ".join(a['name'] for a in movie['actors'][:3])
-        info['genres'] = ", ".join(movie['genres'])
-        info['plot'] = movie.get('plot', ["-"])[0]
-        info['year'] = movie['year']
-    else:
-        movie = tmdb.get_movie(movie_id)
-        info['title'] = movie['original_title']
-        info['genres'] = ", ".join(x['name'] for x in movie['genres'])
-        info['plot'] = movie['overview']
-        info['year'] = movie['release_date'][:4]
 
-        cast = movie['credits']['cast']
-        info['actors'] = ", ".join(x['name'] for x in cast[:5])
+    movie = tmdb.get_movie(movie_id)
+    info['title'] = movie['original_title']
+    info['genres'] = ", ".join(x['name'] for x in movie['genres'])
+    info['plot'] = movie['overview']
+    info['year'] = movie['release_date'][:4]
 
-        directors = [x for x in movie['credits']['crew'] if x['department'] == 'Directing']
-        info['directors'] = ", ".join(x['name'] for x in directors[:2])
+    cast = movie['credits']['cast']
+    info['actors'] = ", ".join(x['name'] for x in cast[:5])
+
+    directors = [x for x in movie['credits']['crew'] if x['department'] == 'Directing']
+    info['directors'] = ", ".join(x['name'] for x in directors[:2])
 
     return info
 
