@@ -1,0 +1,72 @@
+.. title: Fase uno del arranque de DSAF
+.. date: 2023-07-03 21:30:00
+.. tags: electrónica, sensor, distribuído, servidor
+
+Finalmente arrancó mi viaje de volver un poco a jugar con microcontroladores. Ya tenía `la especificación que armé <https://github.com/facundobatista/dsaf/>`_ pero me faltaba ir a los bifes.
+
+Me propuse hacer una primera versión apenas funcional para poder comenzar a darle estructura, porque es muy difícil arrancar algo tan complejo y multinodo. Ya tengo algo cumple con las mínimas condiciones:
+
+**En el nodo distribuido**:
+
+- una clase ejemplo como Sensor Manager: leer el conversor analógico-digital y una entrada binaria
+
+- correr ese Manager periódicamente y reportar los datos que obtenga
+
+- mostrar el estado con sólo un led: prendido cuando está arrancando y luego ya en funcionamiento regular un parpadeo corto cada cinco segundos
+
+**En el nodo de administración**: sólo escuchar en un puerto y mostrar lo que reciba del nodo distribuido
+
+¡Lo tengo funcionando! Saqué tres videos muy muy cortitos al respecto. El primero es el "nodo distribuido" que prende el led al arrancar y luego parpadea:
+
+.. youtube:: y-xabMHO7s4
+    :align: center
+
+Ese nodo va tirando logs, acá lo vemos mostrando que arranca, se conecta a la red, empieza a reportar lo del sensor, etc:
+
+.. youtube:: 4VsVhINNdA0
+    :align: center
+
+Y los logs del nodo de administración, que recibe y muestra la data del sensor:
+
+.. youtube:: wTq44yn3qAE
+    :align: center
+
+(los videos podrían estar mejor sí, podría haber grabado directamente la terminal, pero los tomé rápido y después desarmé cosas, así que no los iba a volver a hacer)
+
+Las cosas que me chocaron o desafíos que se me presentaron fueron varias. 
+
+Más allá de empezar a desempolvar las cosas de electrónica (por ejemplo, necesitaba una resistencia de 10kΩ y tuve que empezar a revolver todo) encontré que programar en MicroPython es fácil y podés empezar a tirar código funcional y rápido, pero tiene sus limitaciones... **no es CPython**, y eso se nota por muchos lados:
+
+- no encontré forma de extraer un traceback cuando hay una excepción (para mostrarla o enviarla como reporte)
+
+- no hay `urllib.request`! Buscando encontré que sí trae un `urequest` (*micro request*), que tiene un `urlopen` útil, pero no hay `Request` (esto me complicó la vida para mandar *headers* así que estoy mandando los bytes crudos sin decir que es JSON, es un detalle fácil de considerar en el server).
+
+- hay otros módulos que no están y uno ya los usa casi inconscientemente entonces se sufre al no tenerlos, como `itertools` o `logging`.
+
+También es evidente que hay mayores restricciones por el entorno. Por ejemplo, memoria disponible. En el método `NetworkManager.hit` (en `main.py`) tuve que cerrar la respuesta antes de devolver el contenido... teóricamente esa respuesta se cerraría sola al limpiarse el objeto cuando la función termina, pero en la práctica pasaba que luego de una decena de *hits* se desconectaba con un error raro que por lo que encontré en Internet estaba relacionado con que se acababa la memoria.
+
+Otro tema bien relacionado con el hardware puntual que estoy usando (el `ESP8266 <https://es.wikipedia.org/wiki/ESP8266>`_) es que tengo disponible sólo un /timer/. Por ahora lo estoy usando para el parpadeo de la luz de estado, pero necesito más funciones periódicas (la otra luz, mandar automáticamente al server el status del nodo, etc). Voy a tener que implementar un "supertimer" arriba de este único timer...
+
+Tener tests no es tan fácil tampoco, ya que módulos como `network` o `machine` están disponibles al correr en el microcontrolador, pero los tests lo corro en mi máquina... por ahora zafé estructurando el código de manera que lo que quise probar estuviese aislado del hardware, pero en algún momento hay que tener ahí *stubs*... tengo que ver si hay algo ya hecho, no quiero armarlo yo.
+
+Y encontré que la funcionalidad que quería, con dos o tres cosas "sucediendo solas" además del funcionamiento del sensor, y la complejidad de los estados por los que puede pasar (que al mismo tiempo le da confiabilidad en el funcionamiento) no era tan fácil de implementar. Terminé armando una `FSM <https://es.wikipedia.org/wiki/M%C3%A1quina_de_estados>` chiquitita con sus transiciones y estados, y de paso dispuse que ese objeto maneje automáticamente las luces, justamente, de estado. Esto le dio robustez al funcionamiento y en la práctica simplificó bastante el código.
+
+Conclusiones: con el tiempo invertido podría haber armado en C un hack `sucio y desprolijo <https://www.youtube.com/watch?v=VUMcETL6sx4>`_ que haga más o menos lo que quería. Pero codear en Python es más alto nivel, puedo armar facilmente estructuras que hacen lo que me propuse de forma robusta y que me van a permitir escalar. Una gran elección.
+
+Detalles que me quedaron para la(s) próxima(s) iteración(es) antes de pensar en más funcionalidad según la spec:
+
+- dejar de usar el led interno para el (único) estado y poner dos leds verdes y azul como corresponde, y manejarlos correctamente
+
+- que la config no esté hardcodeada (aunque todavía no quiero depender del Configurator) y que soporte que la misma no exista
+
+- implementar el "supertimer", y poder mandar periódicamente estado del nodo al server
+
+- que el Sensor Manager no acceda directamente al hardware, sino a través de una capa ofrecida por el Framework
+
+- poder leer el estado de la batería e incorporar eso en el estado
+
+- manejar "batería baja" correspondientemente
+
+- que el logger sólo arme las cadenas y muestre en pantalla si el nivel corresponde
+
+Les contaré más en el futuro.
