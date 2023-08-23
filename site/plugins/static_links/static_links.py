@@ -1,5 +1,3 @@
-# -*- coding: utf-8 -*-
-
 # Copyright María Andrea Vignau
 #
 # Permission is hereby granted, free of charge, to any
@@ -42,7 +40,7 @@ class StaticLinks(Task):
     def _gen_html(self, config, destination):
         """Generate html."""
         with open(config["input_file"], "r") as fb:
-            data = yaml.load(fb.read())
+            data = yaml.safe_load(fb.read())
 
         html_out = []
 
