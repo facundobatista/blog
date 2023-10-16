@@ -1,0 +1,19 @@
+.. title: Buscando en Algo Prestado
+.. date: 2023-10-15 22:17:00
+.. tags: buscador, algo prestado, tamara, tenembaum, servicio
+
+Hace mucho que escucho un podcast que se llama Algo Prestado.
+
+Conducido principalmente por `Tamara Tenenbaum <https://twitter.com/tamtenenbaum>`_ y con cuatro invitades que van rotando (`Malena Rey <https://twitter.com/noeselcaso>`_, `Eugenia (Buji) Mariluz <https://twitter.com/bujjjjjjjjjjjji>`_, `Pablo Pryluka <https://twitter.com/ppryluka>`_ y `Gino Cingolani <https://twitter.com/ginocingolani>`_), charlan sobre distintos temas sobre los ejes "algo nuevo", "algo viejo", "algo prestado", y un cuarto tema que se van dejando de invitade a invitade (antes de esta temporada se dejaban un color).
+
+Está desde hace un par de años (yo no lo escuché desde el principio, pero hace más de un año que no me pierdo ninguno) y en cada emisión se tocan cuatro temas, con lo que acumularon un montón. La producción no brilla por su coordinación y ya pasó un par de veces que trajeron algo medio relacionado con otra cosa que ya se habló, y siempre está la idea/queja de que tendrían que tener un algo compartido donde anotaran los contenidos tratados para elles mismes buscar.
+
+El martes pasado estaba escuchando un episodio de fines de septiembre (estoy un par de semanas atrasado) y volvió a aparecer esta necesidad, y me dejó pensando... ¿cómo se podría hacer automático? ¿podría ayudar yo? ¿qué se puede construir que sea **divertido**?
+
+Y me terminé proponiendo armar un buscador del podcast.
+
+Pensé en tener un servicio online donde se pueda buscar por lo charlado; obviamente tiene que ser búsquedas de todos los textos, que no existen, pero están los audios. Con esa premisa me embarqué en un viaje copado que me llevó aproximadamente unas 16 horas de laburDIVERSIÓN total distribuidas en estos días. 
+
+Bajé el RSS con la lista de todos los episodios (título, descripción, link al mp3, etc.). Preprocesé eso y bajé todos los mp3s. Estuve un rato largo viendo cómo convertir eso en texto, encontré que `Vosk <https://alphacephei.com/vosk/>`_ lo hace lo suficientemente bien y es muy sencillo instalarlo y usarlo. La búsqueda en texto completo me la resolvió `la extensión FTS5 de SQLite <https://www.sqlite.org/fts5.html>`_, aunque esto me llevó más tiempo aprender cómo usar y explotar su poder y limitaciones (especialmente cuando encontré que me traía falsos positivos, originados en el tokenizer ``porter`` que estaba usando y saqué). Así que armé un par de scripts para meter todos los textos y metadata en una base de datos SQLite y puse a servir eso con un pequeñisimo programa en Flask; el HTML y CSS en un 80% se los pedí a Chat GPT :D.
+
+Sí, una nerdeada total, ¿no es hermoso?. `Este es el resultado <https://busqap.taniquetil.com.ar/>`_, ideas y sugerencias son bienvenidas :)
