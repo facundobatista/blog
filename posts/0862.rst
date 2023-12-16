@@ -1,0 +1,76 @@
+.. title: Sirviendo media en casa
+.. date: 2023-12-16 12:19:00
+.. tags: media, películas, series, fotos, música, servir, televisión, remoto
+
+Nos compramos una tele para el living. Wee! 
+
+Pero no todas son rosas. Boo!
+
+
+El problema
+-----------
+
+Históricamente tuvimos una sola tele "central" en la casa, y en su momento resolví el ver pelis, escuchar música o ver fotos agregando un disco externo a la tele, enchufado por USB. Al disco en sí lo enganché con velcro en la parte de atrás de la tele y ni se notaba. Cada tanto lo sacaba, lo enchufaba en la compu, y actualizaba el contenido. Cuando ese disco se llenó (1 TB) compré otro (3 TB), y la tele pasó a tener dos discos enchufados.
+
+Con la segunda tele se me presentó el problema de cómo alimentarle el contenido. No voy a comprar dos discos más e ir actualizando los cuatro; decidí buscar una opción superadora.
+
+
+La búsqueda
+-----------
+
+Viendo cómo podía servir contenido a las teles encontré que hay algo que se llama DLNA (por Digital Living Network Alliance), una especie de protocolo viejo (tiene 30 años) con el objetivo que *consumidores* y *servidores* de media puedan verse e intercambiar información.
+
+Teóricamente sirve para video, música y fotos, y debería cumplir todo lo que necesito. Un espectáculo. Obviamente las teles son clientes, ¿cómo pongo a servir DLNA?
+
+Enseguida encontré un proyecto que se llama `MiniDLNA <https://wiki.debian.org/es/FreedomBox/Manual/MiniDLNA>`_. Su instalación es trivial y la configuración a priori sencilla, mediante un archivo de texto a la vieja usanza unixera. 
+
+Lo puse a funcionar, y me choqué con que NO hacía lo que debía. Específicamente: no me encontraba media en más de un directorio (la configuración explícitamente indica que esto debería suceder, muestra cómo anotar dos *paths*, pero nada), y además no me detectaba cambios en esos (ese) directorio (de nuevo, "debería" según la documentación). No encontré cómo debuguearlo, así que dejé de intentarlo y volví a la búsqueda. 
+
+Me crucé con `Rygel <https://wiki.gnome.org/Projects/Rygel>`_, pero viendo como instalarlo y hacerlo andar encontré que recomendaban mucho Jellyfin. 
+
+Decidí probar `Jellyfin <https://jellyfin.org/>`_ entonces, que tenía una pinta bárbara. Su configuración y administración son via web (fácil de hacerlo de forma remota aunque local a la casa) y solito se integraba con `systemctl` para que levante sólo en reboots y eso. Jugando un poco encontré que me ponía todos los títulos en castellano, lo cual me parece espantoso. O sea, yo quiero ver (por ejemplo) "Groundhog Day", no "El día de la marmota" y mucho menos "Hechizo del tiempo". 
+
+¡Tampoco quiero el nombre siempre en inglés! Si la película realmente se llama "Nueve Reinas" o "La Vie d'Adèle" quiero ver esos nombres y no "Nine Queens" o "Blue Is the Warmest Color".
+
+Me puse a ver cómo podía hacer para configurar eso, sin encontrar mucho al respecto... pero sí que mencionaban que Kodi lo permitía.
+
+A ver qué onda Kodi, entonces. Tiene todo lo que es configuración y administración via su propia interfaz, porque Kodi está más pensado para meterlo en una minicompu/raspi enchufada por HDMI a la tele y manejar todo de ahí, es más una forma de hacer "un reproductor de media que se enchufa y usa" y no tanto "un servidor de media para que la tele lo consuma directamente". 
+
+Pero, habiendo dicho eso, también ofrece el servicio de uPNP/DLNA, que era lo que buscaba. Lo levanté, funciona ok, fui a la tele, y ahí no tenía thumbnails; buscando, veo que DLNA *nunca* manda thumbnails, y vi que varios recomiendan salir de ahí en lo posible por una opción que directamente comparta los archivos.
+
+Como el fuerte de DLNA es transcodear los videos para cada cliente y yo puntualmente NO necesito eso, con tener los archivos compartidos debería alcanzar. Recomiendan Samba si en tu red tenés Windows, y si no NFS que funca mejor. Peeeeero encontré que las LG WebOS no soportan ni NFS ni Samba; por las dudas probé NFS y cierto, no. Bú, bajón.
+
+Otra tecnología que en algún momento de este viaje me crucé es Plex, que es muy lindo y parece tener de todo pero pivota en su funcionamiento por un servicio privado remoto, y me dio un poco de cosa y no lo terminé probando.
+
+Pero luego de charlar bastante con Gilgamezh sobre todo este tema me decidí a probarlo. Se instala y configura medianamente fácil, tiene clientes para las teles... pero la usabilidad es espantosa: estoy todo el tiempo "esquivando" contenido online que me ofrece (no quiero nada de eso, ¡quiero consumir contenido local mio!).
+
+.. image:: /images/media-plex.png
+    :alt: Piola, pero demasiado intrusivo
+
+
+La ¿solución?
+-------------
+
+Por la misma charla terminé volviendo a Jellyfin. 
+
+Lo instalé, lo empecé a usar. Como decía arriba, funciona pero está el problema de los títulos en castellano. Pero Jellyfin tiene una API, entonces debería ser posible corregir la base de datos que Jellyfin arma automáticamente para que tenga los nombres originales. Lo bueno de Jellyfin es que también tiene un cliente para la tele... para la tele nueva, no para la vieja... pero Jellyfin también sirve DLNA, entonces en la tele vieja lo uso así, y en la nueva con el cliente bonito.
+
+A ponerme a jugar con `la API <https://api.jellyfin.org/>`_, entonces.
+
+No tuve buena experiencia, la API es muy muy grande y no tiene sentido práctico. Por ejemplo, ``item`` como nombre de objeto es espantoso porque no tiene semántica, o en en ``update_item`` el ``id`` es mandatorio en el path *y* también en el cuerpo a enviar. Otro botón de muestra es el endpoint ``ItemUpdate``, que tiene 151 parámetros a enviar (¡los conté!) ... ¡¡ciento cincuenta y uno!! ¿Están ordenados de forma alfabética? No mi ciela. ¿Te muestra al principio los que son mandatorios? Keep dreaming. Y así.
+
+También el server tiene muy mal manejo de error par servir la API. Por ejemplo cuando algo no esta enviado correctamente (logré obtener los datos de una película y estoy tratando de cambiar el título) contesta un 400 (bien) pero sin ninguna explicación de cual es el problema (sólo un "Error processing request" que no aporta nada). Lo bueno es que el server tiene logs, pero esto es lo que aparece para ese 400::
+
+    [2023-12-12 10:16:23.299 -03:00] [ERR] Error processing request. URL "POST" "/Items/664d7ffdf0922c7eee0ea4f611481ae4".
+    System.ArgumentNullException: Value cannot be null. (Parameter 'source')
+
+Como ven no ayuda nada. Habla de un parámetro ``source`` pero el endpoint que estoy usando no lo tiene. Y le estoy pasando contenido para todos los parámetros que no pueden ser *null*. En fin. 
+
+Hice un par de preguntas en el foro de Jellyfin y me terminaron recomendando que le haga ingeniería inversa a la interfaz de Jellyfin para ver como ella misma usa la API. Not fun.
+
+Por otro lado, hay un par de bibliotecas para usar la API! Pero terminé usándola a mano porque ni siquiera me pude conectar con esas bibliotecas (quizás porque la forma de conectarse y autenticarse `estuvo cambiando mucho <https://gist.github.com/nielsvanvelzen/ea047d9028f676185832e51ffaf12a6f>`_).
+            
+Y bueno. Por ahora me quedo con Jellyfin que es lo que mejor funciona para mi caso puntual de todo lo que probé. Veremos con el tiempo si lo puedo mejorar.
+
+.. image:: /images/media-jellyfin.png
+    :alt: Jellyfin: Lo mejor hasta ahora, pero...
