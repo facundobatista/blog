@@ -1,0 +1,48 @@
+.. title: PyCon Bolivia 2023
+.. date: 2023-12-21 18:40:00
+.. tags: La Paz, Python, PyCon, conferencia, paseo, viaje
+
+Hace algunas semanas me contactaron porque me invitaban a participar de dicho evento dando una de las charlas principales (lo que se dice ser "keynote").
+
+Acepté complacido, y les pasé varias opciones de charlas (de mi `repertorio <http://www.taniquetil.com.ar/bdvfiles/charlas.html>`_), eligieron "Procesamiento Paralelo de Vectores". 
+
+.. image:: /images/bolivia23/tecito.jpeg
+    :alt: Tecito de coca en el desayuno
+
+No es la primera vez que daba esta charla, y aprendí de las veces anteriores que la gente se perdía un poco de entender el algoritmo o técnica atrás de cada forma de cálculo paralelo si lo explicaba al mismo tiempo que mostraba el código, así que para esta oportunidad le agregué un montón de imágenes explicando bien lo que sucedía en cada caso antes de ir, justamente, al código. 
+
+Entonces, ahora se puede pasar mucho más rápido por las distintas funciones, casi desestimándolas, a menos que haya una pregunta puntual. Y por supuesto ese código ahí queda de referencia por si alguien quiere bajarse la presentación y mirarla en detalle, pero no es tan importante a la hora de "presentar" la charla.
+
+Me tocó darla en el primer slot del primer día. No había llegado toda la gente todavía, pero tuve igual buena recepción. Fue un poco "hardcore" para darla tan temprano, pero estuvo bien... en otras palabras, un poco que les volé la cabeza, pero con los nuevos slides de imágenes me parece que se entendió bastante.
+
+.. image:: /images/bolivia23/comida1.jpeg
+    :alt: Mucha comida en la calle, me dijeron que ni se me ocurra
+
+.. image:: /images/bolivia23/comida2.jpeg
+    :alt: Había de todo
+
+El evento en sí también me gustó mucho. Habían unas cien sillas y estuvo lleno en varios momentos (tengamos en cuenta que en simultáneo había unos talleres en otro piso, aunque no todo el tiempo, así que la gente iba y venía). Fue un regreso a las PyCons más personales, no tan llenas de gente y anónimas.
+
+A nivel ciudad, la conferencia fue en `La Paz <https://es.wikipedia.org/wiki/La_Paz>`_, localidad conocida por su altura sobre el nivel del mar (3625 metros) y por `su efecto sobre algunas esferas <https://www.youtube.com/watch?v=FsdAkX2eK_s>`_, aunque no sólo sobre las esferas, sino también en los organismos vivos. Me habían prevenido un par de veces, pero por suerte no me tocó ni dolor de cabeza ni sentirme mal en general, y no tuve que tomar ningún medicamento, aunque sí me clavé un tecito de coca en cada desayuno :D. El único efecto que sentí por la atmósfera con menos oxígeno fue alguna "falta de aire": parecido a cómo quedás luego de subir tres pisos por escalera pero habiendo subido sólo uno.
+
+.. image:: /images/bolivia23/ciudad1.jpeg 
+    :alt: Mucho contraste entre los grandes edificios y los barrios más humildes sobre la montaña
+
+.. image:: /images/bolivia23/ciudad2.jpeg
+    :alt: De noche
+
+Volviendo a la ciudad en sí, es linda pero la encontré un poco "descuidada". No sucia en el sentido de mugre en la calle, pero si con todas las paredes pintarrajeadas, muchos vidrios sucios por todos lados, un poco caida a menos. Tengamos en cuenta que es la capital administrativa y sede de gobierno de Bolivia: es el centro político, financiero, social, académico y cultural más importante del país.
+
+Lo que estaba impecable (por nuevito) era el teleférico, `una red <https://www.miteleferico.bo/mapa-rim>`_ de "cabinitas voladoras" que te llevan para todos lados y vendría a reemplazar funcionalmente al subte, y al que construyeron durante la presidencia de Evo Morales.
+
+Creo que lo que menos me gustó de la ciudad fue la "movida navideña", no sólo todos los negocios lookeados, o la gente caminando por la calle con gorrito de *papanuel*, sino que incluso el sábado hubo un megadesfile al ladito de donde era la conferencia.
+
+Ese desfile me frustró uno de los dos momentos de paseo que tenía previsto. El otro era el jueves que llegue a La Paz, día que tampoco pude pasear demasiado porque llovió un montón; apenas salir a almorzar, cenar, y tomarme un café a la tarde.
+
+.. image:: /images/bolivia23/teleferico.jpeg
+    :alt: En una de las estaciones del teleférico
+
+.. image:: /images/bolivia23/feria.jpeg
+    :alt: Una feria "navideña" que está todo Diciembre a full
+
+Pero bueno, quedará para un futuro pasear más. Me llevo buenas impresiones de La Paz, primer ciudad de Bolivia que conozco. Volveré.
