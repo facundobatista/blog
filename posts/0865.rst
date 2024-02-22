@@ -1,8 +1,8 @@
-.. title: Buscame quien sos vos
+.. title: Buscame quién sos vos
 .. date: 2024-02-22 18:47:00
 .. tags: programa, buscador, episodios
 
-No es la primera vez que les vengo a charlar sobre el programa Decime Quien Sos Vos, un ciclo de entrevistas de casi 180 episodios de la década pasada, comandado por Eduardo Aliverti. 
+No es la primera vez que les vengo a charlar sobre el programa Decime Quién Sos Vos, un ciclo de entrevistas de casi 180 episodios de la década pasada, comandado por Eduardo Aliverti. 
 
 Ya les había contado que con Diego `queríamos rescatar el contenido <https://blog.taniquetil.com.ar/posts/0817/>`_ y que `habíamos montado una página estática <https://blog.taniquetil.com.ar/posts/0821/>`_ con todo eso.
 
@@ -12,7 +12,7 @@ Ahora no es más una página estática, sino que tiene una entrada de texto dond
 
 No es una luz de rápido, porque es MUCHO contenido, pero en menos de un segundo algo devuelve. 
 
-Hasta acá es igual al `buscador que armé para Algo Prestado <https://busqap.taniquetil.com.ar/>`_, pero como en el caso de Decime Quien Sos Vos los episodios apuntan a los mp3s reales, pude ir un paso más allá.
+Hasta acá es igual al `buscador que armé para Algo Prestado <https://busqap.taniquetil.com.ar/>`_, pero como en el caso de Decime Quién Sos Vos los episodios apuntan a los mp3s reales, pude ir un paso más allá.
 
 En este caso, todos los resultados de la búsqueda tienen un iconito a la izquierda. Haciendo click ahí saltan directamente a escuchar el mp3 de la entrevista en el momento exacto donde se está diciendo la frase que fue encontrada.
 
