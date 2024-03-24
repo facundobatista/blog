@@ -1,12 +1,62 @@
 Steps to have it properly in the server:
 
 - create a venv and install isso and gunicorn:
-    virtualenv --python=python3 issovenv
+    python3 -m venv issovenv
     issovenv/bin/pip install isso
     issovenv/bin/pip install gunicorn
 
 - start isso:
-    export ISSO_SETTINGS="/home/facundo/blog/blog/isso.cfg"
+    export 
     issovenv/bin/gunicorn -b localhost:8732 -w 4 --preload isso.run
 
 - apache should be proxying to that port
+
+
+
+
+- configure systemd
+
+```
+$ cat /etc/systemd/system/blogisso.socket
+[Unit]
+Description=Blog comments (isso) gunicorn socket
+
+[Socket]
+ListenStream=/run/blogisso.sock
+
+[Install]
+WantedBy=sockets.target
+
+$ cat /etc/systemd/system/blogisso.service
+[Unit]
+Description=Blog comments (isso) gunicorn daemon
+Requires=blogisso.socket
+After=network.target
+
+[Service]
+User=facundo
+Group=www-data
+WorkingDirectory=/home/facundo/blog
+Environment=ISSO_SETTINGS="/home/facundo/blog/blog/isso.cfg"
+ExecStart=/home/facundo/blog/issovenv/bin/gunicorn \
+          --access-logfile - \
+          --workers 3 \
+          --bind unix:/run/blogisso.sock \
+          isso.run
+
+[Install]
+WantedBy=multi-user.target
+```
+
+Setup:
+
+```
+sudo systemctl start blogisso.socket
+sudo systemctl enable blogisso.socket
+
+sudo journalctl -u blogisso.socket
+
+sudo systemctl status blogisso
+curl --unix-socket /run/blogisso.sock localhost
+sudo systemctl status blogisso
+```
