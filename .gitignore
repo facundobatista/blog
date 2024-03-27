@@ -30,3 +30,4 @@ charm/build
 charm/*.charm
 
 spam/mail.txt
+spam/maildirs.txt
