@@ -1,0 +1,53 @@
+.. title: Bailando por un subtítulo
+.. date: 2024-05-16 13:42:00
+.. tags: subtítulo, subtitles, series, películas
+
+Hace muchos años que me nutro de Liberarte (guiño a les que escuchamos `Algo Prestado <http://blog.taniquetil.com.ar/posts/0861/>`_ para ver películas y series, más conocido como "me bajo lo que quiero ver de donde puedo".
+
+Cuando `Argenteam <https://argenteam.net/>`_ estaba vivo y tenía justo lo que necesitábamos estaba buenísimo porque coincidía el video/audio con el subtítulo que ofrecían. ¿Pero en el resto de los casos? `subdivx <https://www.subdivx.com/>`_ es un gran recurso y casi siempre se encuentra lo que se necesita.
+
+Pero no siempre.
+
+A veces hay que hacerle ajustes a los subtítulos que uno baja para ver la peli o serie que descargó. E incluso en los casos donde la sincronía es correcta, hay algún spam, algún subtítulo en particular puede tener error de tiempos, y varios detalles más.
+
+Fuí lidiando con eso primero a mano, luego medio automatizando algunas cosas, y finalmente me creció una herramienta.
+
+.. image:: /images/victrola.jpeg
+    :alt: Esta que encontré en Bilbao no lleva subtítulos
+
+En estos días finalmente `liberé esa herramienta <https://pypi.org/project/substool/>`_ cuyo propósito final es ayudar a procesar subtítulos. Pueden instalarla y usarla con ``pip`` o cualquiera de sus similares. Yo uso ``fades``::
+
+    $ fades -d substool -x substool -h
+    Usage:
+        substool [help] <command> 
+    ...
+
+Tiene varios comandos. El más usado es el ``check``, que realiza un montón de laburo sobre el (los) archivo(s) que indiquemos:
+
+- si es un ``.rar`` o un ``.zip`` lo va a descomprimir y extraer su contenido, y luego lo procesa
+
+- si es directamente un subtítulo (``srt``, ``ssa``, ``vtt``, ``tt``, ``sub``, o ``xml``), procesa eso
+
+- lo carga, corrigiendo cualquier encoding bizarro que tenga a UTF-8, si es necesario
+
+- corrige los tiempos de cada frase si están claramente mal (por ejemplo si arranca y termina al mismo tiempo, o si los tiempos están invertidos)
+
+- separa en partes lineas que sean extremadamente largas, o frases que tengan demasiadas lineas
+
+- saca algo de spam
+
+Este comando ``check`` es lo primero y básico que le corro al subtítulo que bajo. Siempre.
+
+Los otros comandos ya son más específicos, para cuando la sincronía está mal y hay que ajustarla:
+
+- ``shift``: para cuando los tiempos están sólo desfasados y hay que subirlos o bajarlos una cantidad de segundos
+
+- ``rescale-params``: si además hay una diferencia de velocidad, con este comando se pueden especificar un delta de posición y un delta de velocidad
+
+- ``rescale-points``: también re-escala, pero indicando en qué momento deberían mostrarse dos puntos del subtítulo, y el sistema calcula todo (también muestra como resultado el delta de posición y velocidad que se obtuvo, con lo cual se puede usar el comando anterior sobre otros subtítulos similares)
+
+- ``rescale-mimic``: si tenemos un subtítulo que calza perfecto pero en otro idioma, este comando nos permite re-escalar usando ese subtítulo correcto como fuente de verdad
+
+- ``adjust``: para ajustar cada uno de los tiempos si tenemos el subtítulo correcto en el mismo idioma pero en otro formato
+
+Si usan esto me cuentan :)
