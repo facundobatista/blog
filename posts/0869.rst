@@ -1,0 +1,42 @@
+.. title: Resaltando cosas en pantalla
+.. date: 2024-05-20 10:19:00
+.. tags: open source, resaltar, pantalla, programación, herramientas
+
+Esta historia es un caso de éxito del modelo de código abierto.
+
+Para unos videos que al final no se terminaron, necesitaba una herramienta que me permitiese "resaltar" determinadas cosas en la pantalla. Parecido a lo que hace un puntero durante una presentación, y justamente muchas herramientas para armar presentaciones tienen algo similar a la hora de mostrar esas presentaciones. 
+
+Pero yo necesitaba que también sucediera *en la pantalla*, sobre cualquier programa, para poder resaltar algo en un navegador, en la terminal, en un editor, etc.
+
+Busqué varias alternativas, y no encontré nada. Lo más cercano que encontré es `Gromit-MPX <https://github.com/bk138/gromit-mpx/>`_, una herramienta que permite realizar anotaciones directamente sobre cualquier escritorio (tanto X11 como Wayland).
+
+Lo probé y efectivamente me dejaba dibujar y escribir sobre la pantalla, pero no tenía esa capacidad de "resaltar" con el puntero del mouse, que es lo que yo quería. Ahí me di cuenta que si yo pudiese reemplazar el puntero del mouse que ponía al estar activa la herramienta (una cruz de tamaño mediano) con un círculo pintado de amarillo con determinada transparencia, eso iba a ser suficiente para mis necesidades.
+
+Y acá está la magia del *open source*. Yo tenía acceso al código fuente de esa herramienta (hecha en C, usando el framework Gtk/Gdk), entonces sólo ("sólo") era necesario entender cómo funcionaba y luego toquetearlo hasta lograr lo que quería. ¡Todo un desafío!
+
+Hice `un fork <https://github.com/facundobatista/gromit-mpx>`_ de ese proyecto. Estudié un poco el código, encontré donde cargaba el "puntero cruz", un `archivo en formato XPM <https://github.com/bk138/gromit-mpx/blob/master/src/paint_cursor.xpm>`_; ya fue divertido estudiar ese formato, entenderlo, y ver si me servía para dibujar un círculo amarillo con transparencia. No, no se puede. Ok, metamos una imagen posta, un PNG. Pero ahí ya tuvo que tocar el código en sí para cambiar el archivo de referencia (incluso cuando el proyecto se instala) y especialmente al momento de cargar el cursor en sí::
+
+    GError *error = NULL;
+    GdkPixbuf* paint_cursor_pixbuf = gdk_pixbuf_new_from_file("/usr/local/share/paint_cursor.png", &error);
+    data->paint_cursor = gdk_cursor_new_from_pixbuf(data->display, paint_cursor_pixbuf, 64, 64);
+
+El resultado fue muy satisfactorio:
+
+.. image:: /images/highlight.gif
+    :alt: El resaltado en acción
+
+Si lo quieren probar, clonan `mi repo <https://github.com/facundobatista/gromit-mpx>`_ y luego siguen las instrucciones del README para compilar/instalar::
+
+    mkdir build
+    cd build
+    cmake ..
+    make
+    make install
+
+Después lo ejecutan::
+
+    gromit-mpx
+
+Y les va a aparecer una ventanita con un par de pantallas de información e instrucciones. Con F9 (o desde el ícono en la barrita de íconos) lo activan y desactivan.
+
+¡Cuenten si lo usan!
