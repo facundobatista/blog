@@ -26,7 +26,7 @@ function makeUL(comments) {
         }
         
         // prepare the author; trim it just in case it's too long (but the idea is show it full)
-        var author = comment.author.replace(/<[^>]*>?/gm, '');
+        var author = comment.author ? comment.author.replace(/<[^>]*>?/gm, '') : 'anónimo';
         author = author.substring(0, 40)
 
         // prepare the date
