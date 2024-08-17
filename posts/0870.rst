@@ -1,0 +1,87 @@
+.. title: Mi experiencia con VSCode
+.. date: 2024-08-17 13:28:00
+.. tags: visual studio code, vim, interfaz, terminal, editor, programar, ventana
+
+El disparador
+-------------
+
+Con motivo del cambio de laburo hace unos meses arranqué con una máquina limpia de cero. Parte de la instalación de siempre es armar mi entorno de desarrollo, particularmente instalar Vim, aunque no sólo lo uso para desarrollar sino que también es mi editor de cabecera para todo lo que necesite (por ejemplo, escribir los posts de este blog).
+
+Como venía haciendo hace un par de años, instalé `Neovim <https://neovim.io/>`_ (el Vim más moderno y piola para usar, aunque es sólo de terminal) y `Neovim Qt <https://github.com/equalsraf/neovim-qt>`_, una interfaz gráfica para Neovim (no la única, pero la que mejor me funcionó de las que exploré y evalué en su momento).
+
+¿Por qué una interfaz gráfica? Mucha gente me "plantea" que usar el editor de la terminal es suficiente, pero yo prefiero otra cosa.
+
+Estoy muy acostumbrado a trabajar todo desde la terminal, disparar procesos, moverme por los directorios, etc., y cuando quiero editar algo no quiero que el editor se me abra *en esa terminal*, ocupándomela, sino que quiero que se levante como una ventana independiente y me deje seguir trabajando en la terminal que estaba. Además me gusta poder abrir varios editores en distintas ventanas para poder trabajarlas en paralelo (¡y todavía mantener la terminal aparte!).
+
+Volviendo a Neovim Qt. En su momento la versión estable tenía algunos problemitas, y empecé a usar directamente las releases "nocturnas". Y ahora, que instalé la máquina de cero, también instalé Neovim y Neovim Qt. Tristemente vi que era prácticamente inusable, porque tiraba unos mensajes por cada tecla que apretaba, lo que luego de investigar un poco aprendí que se debía a un detalle de la adaptación entre el programa en sí (Neovim) y la parte gráfica (Neovim Qt).
+
+En otro momento me hubiese puesto a ver cómo se podía solucionar, o qué versión "no tan reciente" instalar para intentar que el problema desaparezca. Pero como tambien tenía otros detalles que venía arrastrando (quizás el que más me molestaba era la imposibilidad de abrir un editor tomando la entrada de ``stdin``, e.g. ``./algo | nvim-qt``), decidí salir un poco de la zona de confort y probar algo por otro lado.
+
+.. image:: /images/vscode1/explorar.jpeg
+    :alt: Vamos a explorar
+
+
+¿Qué alternativa?
+-----------------
+
+Seguro que no quería cambiar solamente la forma en que programaba. Yo uso al editor de texto para mil cosas, no sólo para trabajar con un lenguaje de programación, así que estaba decidido a encontrar algo que no sirviese solamente para programar (como por ejemplo `PyCharm <https://www.jetbrains.com/es-es/pycharm/>`_).
+
+Al mismo tiempo estaba con ganas de probar "algo bien moderno", para poder descubrir o encontrar funcionalidades o formas de trabajar a las que no estaba acostumbrado.
+
+Luego de ver algunas opciones, terminé eligiendo `Visual Studio Code <https://code.visualstudio.com/>`_, un editor para texto puro o cualquier lenguaje de programación, del cual me habían hablado bien en más de una ocasión.
+
+Igual, antes de "pegar el salto" probé que algunas cosas básicas que necesitaba que funcionen sí o sí. Por ejemplo poder abrir un archivo lanzándolo desde la terminal, o tener muchas ventanitas sueltas y no todo apretado/junto en una sola gran ventana.
+
+.. image:: /images/vscode1/chipa.jpeg
+    :alt: Probando cosas por primera vez
+
+
+Impresiones luego de algunas semanas
+------------------------------------
+
+VSCode es muy flexible. Es básicamente un editor genérico con un amplio esquema de extensiones y una buena gestión de la configuración.
+
+Particularment me encanta como está manejada la configuración. La misma se puede trabajar a través de la interfaz gráfica (incluyendo la posibilidad de buscar), y te indica si las opciones corresponden al editor en sí o alguna extensión, se pueden cambiar cosas a nivel global o por proyecto, todo tiene un título, una explicación, e incluso una indicación de si fue modificado el valor original (como el segundo item de la siguiente captura).
+
+.. image:: /images/vscode1/config.png
+    :alt: Captura de un pedacito de la config
+
+Además, todo eso termina siendo escrito en un archivo de texto relativamente fácil de editar a mano (es un JSON), con lo que si hay alguna configuración muy oscura que todavía no está representada en la parte gráfica, se puede agregar a ese archivo y listo!
+
+Con lo que son las extensiones (o "plugins" o "add-ons") no estoy tan contento. El editor descansa en este código de terceros para funcionalidades muy básicas, con lo cual todo termina siendo una extensión que hay que elegir e instalar aparte. Y las extensiones, en algún punto, compiten entre si porque no todo puede estar 100% coordinado (por ejemplo, atajos de teclado).
+
+Al final, todo anda casi bien, pero nunca termina de funcionar del todo bien y es bastante molesto.  Particularmente, estoy bastante frustrado con el autocompletado. Es básico, no puede no funcionar. Ya probé un par de extensiones y ninguna encaja bien. :(
+
+Creo que derivado de tener muchas extensiones, un efecto secundario bastante molesto es que tarda en arrancar. Y no maneja bien el levantar las extensiones de forma asincrónica. Por ejemplo si abro un editor limpio (cosa que yo hago muy seguido, tengo mapeado el ``ctrl-alt-g`` a nivel de sistema) y me pongo a escribir rápido, parte de lo que tecleo VSCode lo toma *antes* de cargar la extensión de Vim. Entonces eso que escribí no se *deshace* si apreto ``u``, o si puse ``/`` me escribe la barra en vez de ir abajo y empezar a buscar...
+
+.. image:: /images/vscode1/playa.jpeg
+    :alt: Situación donde importa muy poco si tarda en arrancar
+
+
+¿Qué cosas "modernas" encontré?
+-------------------------------
+
+Disclaimer: no son modernas per se, son cosas que Vim básico no trae, y yo por H o por B nunca habilité/agregué a mi setup de trabajo.
+
+Me está gustando el modelo de, cuando estoy trabajando en un proyecto grande (y no editando archivos o código suelto por ahí), tener las distintas ventanas como pestañas de una gran ventana, con la flexibilidad de poder "separarla" y ponerla a un costado para poder trabajar viendo dos archivos al mismo tiempo.
+
+Eso se complementa muy bien con tener de forma gráfica el árbol de directorios y archivos del proyecto, y la habilidad del editor de mostrarme "dónde esto que estoy marcando está usado en el resto del proyecto" o "dónde está eso definido". Me permite explorar y entender código un poco más rápido de la técnica que usaba antes.  Dicho eso, obvio que sigo usando lo de "disparar abrir la ventana desde una terminal" en casi todos los casos fuera de trabajar en un proyecto, o búsquedas más avanzadas desde la línea de comando (la combinación de ``find`` y ``grep`` es muy poderosa).
+
+Tengo que darle alguna segunda oportunidad a que me muestre atributos de objetos o parámetros de una función. Siempre que lo tuve me resultó muy intrusivo... entiendo que hay gente que va codeando haciendo click en opciones, pero me resulta muy molesto que se me abran ventanas todo el tiempo sobre el cursor cuando voy tecleando. Tengo que ver a más gente usarlo en vivo y aprender de esa experiencia.
+
+.. image:: /images/vscode1/moderno.jpeg
+    :alt: Moderno :)
+
+
+Próximos pasos
+--------------
+
+Creo que puedo declarar como exitosa la fase primera del experimento. Momento de pasar a la segunda etapa.
+
+Básicamente ahora el plan es volver a arrancar desde cero. Con un VSCode "de fábrica", todo limpio, ir agregando las configuraciones de nuevo, ahora que entiendo todo mejor, con la idea de eliminar todas las mugres que indefectiblemente se van amontonando por ir explorando e ir probando cosas que realmente no eran las correctas o no tenían sentido.
+
+Habiendo dicho eso, sí hay un cambio "fuerte" que voy a incorporar en esta fase, que es la de cambiar el plugin para Vim. Hoy estoy usando `el que creo que es el oficial <https://github.com/VSCodeVim/Vim>`_ pero tiene algunos mocos bastante molestos, y quiero probar `el de Neovim <https://github.com/vscode-neovim/vscode-neovim>`_.
+
+Y también aprovechar para darle un segundo empuje al intentar arreglar algunos detalles que todavía no tengo funcionando de forma correcta, principalmente el corrector ortográfico (no puedo cambiar fácil entre idiomas) y el autocompletado.
+
+Veremos como evoluciona. *Stay tuned.*
