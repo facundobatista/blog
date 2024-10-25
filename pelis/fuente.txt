@@ -1,75 +1,35 @@
-- Army of the Dead: -0. Una de zombies sin mayor novedad, pero con ritmo.
-https://www.themoviedb.org/movie/503736-army-of-the-dead
-- Avatar: water: +1. Muy buena, a la altura de la original.
-https://www.themoviedb.org/movie/76600-avatar-the-way-of-water
-- bullet train: +1. Gran película, con acción, trama, y humor. Muy japonesa, y con todos los carácteres muy bien desarrollados.
-https://www.themoviedb.org/movie/718930-bullet-train
-- Crimes of the future: +0. Está bien, es Cronenberg siendo Cronenbger (FIXME: spell apellido), así que si te gusta el estilo y lo que hace, mirala. Si no creo que te vas a aburrir o ser un gran quecarajo.
-https://www.themoviedb.org/movie/819876-crimes-of-the-future
-- Dune: +1. Inmensa, genial, muy buena. Muy obligada. Hayas leido el libro o no, hayas visto la otra versión o no.
-https://www.themoviedb.org/movie/438631-dune
-- Dune II: +1. También espectacular, una segunda parte que continúa como corresponde.
-https://www.themoviedb.org/movie/693134-dune-part-two
-- Finch: +0. Linda y emotiva peli de un tipo, su perro y su robot, y un viaje épico.
-https://www.themoviedb.org/movie/522402-finch
-- Game night: +1. Muy buena películas de acción y misterio, un gran cast con las actuaciones justas, y un ritmo impecable.
-https://www.themoviedb.org/movie/445571-game-night
-- glass onion: +0. Una de detective tipo Poirot que está bien.
-https://www.themoviedb.org/movie/661374-glass-onion-a-knives-out-mystery
-- I am Sam: +0. Hermosa peli, muy emotiva.
-https://www.themoviedb.org/movie/10950-i-am-sam
-- indiana: +1. Una meritoria continuación de la saga original, ya podemos olvidar la de la calavera de cristal. ¿Ya les dije que amo a Phoebe Waller-Bridge?
-https://www.themoviedb.org/movie/335977-indiana-jones-and-the-dial-of-destiny
-- noche magica: +1. Gran película nacional, actuaciones impecables, una historia bárbara.
-https://www.themoviedb.org/movie/630520-la-noche-magica
-- nightmare alley: +0. Bien, pero me resultó un poco larga y media bleh.
-https://www.themoviedb.org/movie/597208-nightmare-alley
-- no tiem to diea: +0. Una más de Jaimito. Me encanta Léa Seydoux.
-https://www.themoviedb.org/movie/370172-no-time-to-die
-- Old: +0. La premisa está muy bien, y funciona. Un poco predecible, no llega a ser peliculón. Zafa.
-https://www.themoviedb.org/movie/631843-old
-- smile: +0. Bastante bien para ser una de terror, pero tampoco es la locura.
-https://www.themoviedb.org/movie/882598-smile
-- matrix resurr: -0. Prescindible.
-https://www.themoviedb.org/movie/624860-the-matrix-resurrections
-- Tehe Menu: +1. Me encantó, muy buena, me tuvo ahí de principio al fin. La actuación de Ralph Fiennes es *maravillosa*.
-https://www.themoviedb.org/movie/593643-the-menu
-- The Suicide Squad: +0. Una de superheroes bizarros. Divertida.
-https://www.themoviedb.org/movie/436969-the-suicide-squad
-- weathering with you: -1. No me la banqué, abort.
-https://www.themoviedb.org/movie/568160
-- All the Old Knives: -0. Es interesante, y el misterio te lleva a terminarla. Pero me pareció demasiaaaaaaaado lenta.
-https://www.themoviedb.org/movie/294793-all-the-old-knives
-
-Blondi
-https://www.themoviedb.org/movie/982502-blondi
-Tetris
-https://www.themoviedb.org/movie/726759-tetris
-Predestination
-https://www.themoviedb.org/movie/206487-predestination
-La Uruguaya
-https://www.themoviedb.org/movie/881708-la-uruguaya
-Extrapolations
-https://www.themoviedb.org/tv/138169-extrapolations
-The tomorrow job
-https://www.themoviedb.org/movie/1064912-the-tomorrow-job
-“Los asesinos de la Luna”. 
-https://www.themoviedb.org/movie/466420-killers-of-the-flower-moon
-Empieza el baile
-https://www.themoviedb.org/movie/924054-empieza-el-baile
-Cuando acecha la maldad
-https://www.themoviedb.org/movie/744857-cuando-acecha-la-maldad
-documental de alfa-go
+- The Last Duel: +0. Muy buena peli, da miedo entender como en esa época (y mucho todavía ahora) estamos sujetos como sociedad a normas y supersticiones ridículas.
+https://www.themoviedb.org/movie/617653-the-last-duel
+- AlphaGo: +0. asd
 https://www.themoviedb.org/movie/455008-alphago
-the watchers 
-https://www.themoviedb.org/movie/1086747-the-watchers
-the animal kingdom
-https://www.themoviedb.org/movie/943134-le-regne-animal
-dune 3
-https://www.themoviedb.org/movie/1170608-dune-messiah
-Furiosa
-https://www.themoviedb.org/movie/786892-furiosa-a-mad-max-saga
-The fall guy
-https://www.themoviedb.org/movie/746036-the-fall-guy
-borderlands
-https://www.themoviedb.org/movie/365177-borderlands
+- Emily: +1. asd
+https://www.themoviedb.org/movie/707103-emily
+- openheimer: +0. asdas
+https://www.themoviedb.org/movie/872585-oppenheimer
+- creator: +0. asdas
+https://www.themoviedb.org/movie/670292-the-creator
+- 3 bod: +0. asdas
+https://www.themoviedb.org/tv/108545-3-body-problem
+
+do-not-expect-too-much-from-the-end-of-the-world
+https://www.themoviedb.org/movie/937085-nu-a-tepta-prea-mult-de-la-sfar-itul-lumii
+dreamscenario
+https://www.themoviedb.org/movie/823482-dream-scenario
+red one
+https://www.themoviedb.org/movie/845781-red-one
+nosferatu
+https://www.themoviedb.org/movie/426063-nosferatu
+megalopolis
+https://www.themoviedb.org/movie/592831-megalopolis
+the instigators
+https://www.themoviedb.org/movie/1059064-the-instigators
+daddio
+https://www.themoviedb.org/movie/843416-daddio
+challengers
+https://www.themoviedb.org/movie/937287-challengers
+Wolfs
+https://www.themoviedb.org/movie/877817-wolfs
+hipnosis (una nordica)
+https://www.themoviedb.org/movie/1005972-hypnosen
+ballerina
+https://www.themoviedb.org/movie/541671-from-the-world-of-john-wick-ballerina
