@@ -1,0 +1,33 @@
+.. title: Yéndome de snaps y distribuyendo Typus Pocus
+.. date: 2025-01-17 16:20:00
+.. tags: snaps, paquetes, instalación, typuspocus, juego, PyEmpaq
+
+Cuando me fui de Canonical seguí trabajando en un entorno informático muy parecido al que tenia mientras trabajaba allí. Obvio que borré y desinstalé cosas que no iba a usar en el corto plazo (o nunca más) como `microk8s <https://microk8s.io/>`_, pero en realidad yo usaba Ubuntu antes de entrar en Canonical y seguí usando Ubuntu después de ese período de catorce años y medio (aunque me pasé de Ubuntu normal a Kubuntu en algún momento del viaje).
+
+Dicho eso, con el tiempo algo me empezó a hacer ruido y molestar más y más: que la máquina se vaya actualizando sola todo el tiempo. Sospecho fuertemente que algunas inestabilidades vienen de ahí ya que luego de actualizaciones yo no reiniciaba los programas (o la computadora entera) aunque saliera el cartel de "es necesario reiniciar".
+
+Charlando de eso con unas y otras personas, eventualmente llegué a la conclusión de que aunque quería seguir con Ubuntu, lo quería levemente modificado. Particularmente sin `snaps <https://es.wikipedia.org/wiki/Snap_(gestor_de_paquetes)>`_. Pero es más fácil decirlo que hacerlo, porque algunas cosas sólo se distribuyen en Ubuntu via snaps... por ejemplo, si hacés ``sudo apt install firefox`` eso te instala un *snap*!
+
+Pero claro, siempre se puede instalar las cosas desde otro lado. Bajar algún ``.deb`` a mano, correr algún script, etc. Para Firefox puntualmente `hay instrucciones específicas <https://support.mozilla.org/en-US/kb/install-firefox-linux>`_, por ejemplo. Con Chromium se me complicó parecido, tuve que usar `lo que armó gente de Mint <http://packages.linuxmint.com/pool/upstream/c/chromium/>`_. Y para Skype no encontré alternativa, pero no me jode porque casi no lo uso (solamente cuando tengo que llamar a un teléfono fijo en otro país) así que lo utiizaré via web y ya.
+
+Por otro lado, uno de los programas que tenía instalado como *snap* era `Typus Pocus <https://typuspocus.taniquetil.com.ar/>`_, el juego donde un mago tiene que tipear hechizos para atravesar su particular aventura :)
+
+.. image:: /images/typuspocus1.png
+    :alt: El juego del mago
+    :target: https://typuspocus.taniquetil.com.ar/
+
+Este juego me puso en una disyuntiva: si yo mismo no lo queria más como *snap*, ¿en qué forma lo iba a ofrecer al mundo para que sea fácilmente instalable?
+
+Que interesante sería tener un sistema que permita instalar paquetes Python y que te resuelvan todo el tema de la distribución e instalación de dependencias, ¿no? Bueno, claro que existe, lo hice yo porque soy previsor de formas que sólo el universo conoce (?): aquí entra PyEmpaq.
+
+`PyEmpaq <https://pyempaq.readthedocs.io/en/latest/>`_ es un simple pero poderoso empaquetador de Python para correr cualquier proyecto en cualquier lado con las dependencias que necesite mientras sean instalables en un entorno virtual.
+
+.. image:: https://blog.taniquetil.com.ar/images/logo-pyempaq.png
+    :alt: ¡Empaquétalo!
+    :target: https://pyempaq.readthedocs.io/en/latest/
+
+Entonces, si quieren jugar a Typus Pocus lo único que tienen que hacer es `bajarse este archivo <https://github.com/facundobatista/typuspocus/releases/download/v2.0/TypusPocus-2.0.pyz>`_ y correrlo con Python (``python3 TypusPocus-2.0.pyz``).
+
+Anecdóticamente, me pasó que algo había cambiado en `pygame <https://www.pygame.org/>`_ (el framework para juegos que usa Typus Pocus) y todos los textos se veían feos, por suerte Dave pudo encontrar qué era y lo fixeamos. Y yo de paso le arreglé el sistema de cómo se calcula el puntaje, que siempre estuvo medio roto.
+
+Disfruten.
