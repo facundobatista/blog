@@ -1,0 +1,22 @@
+.. title: Un paso al costado
+.. date: 2025-03-04 20:41:00
+.. tags: Python, PyAr, Asociación Civil
+
+Hace unos meses tomé la decisión de dejar de ser Presidente de la Asociación Civil de Python Argentina.
+
+Me corro porque tengo ganas de tener más tiempo libre, sacarme cosas de la agenda, y especialmente no tener "la presión" de que determinadas acciones en el grupo dependan de que yo esté ahí.
+
+Lo charlamos, y todo queda en buenas manos, no se preocupen. El nuevo presidente es Lecovi (previamente tesorero), y entra Zoe como tesorera para reemplazarlo.
+
+Hay otros movimientos también en la Comisión Directiva (en realidad cuando terminemos de actualizar los papeles a nivel legal), en linea con los cambios que veníamos haciendo estos años: traer gente con ganas de ayudar y que aporten diversidad.
+
+Estoy muy contento con el camino recorrido, levantar la Asociación Civil desde cero, hacerla sustentable, pelear y conseguir que haya diversidad, y dejarla funcionando y ayudando a la Comunidad en general y de Python en particular.
+
+También estoy muy contento de haber dejado un recambio, y tener la "fuerza" de soltar y dejar que hagan lo que quieran con todo lo que hay; es de ustedes ahora, decidan qué viaje quieren y vayan a por ello.
+
+.. image:: /images/pycamp2025.jpeg
+    :alt: La grupal del PyCamp 2025
+
+Más allá de la frase hecha, el paso es "al costado", no atrás ni lejos. Vuelvo al llano del grupo de PyAr, sin ningún rol específico dentro de la Asociación Civil. Voy a estar dando vueltas, ayudando en el grupo de Infra, con la organización de los PyCamps, etc.
+
+Pero más relajado.
