@@ -1,5 +1,5 @@
 .. title: Un paso al costado
-.. date: 2025-03-04 20:41:00
+.. date: 2025-04-03 20:41:00
 .. tags: Python, PyAr, Asociación Civil
 
 Hace unos meses tomé la decisión de dejar de ser Presidente de la Asociación Civil de Python Argentina.
