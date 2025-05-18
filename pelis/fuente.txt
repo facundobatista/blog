@@ -1,35 +1,57 @@
-- The Last Duel: +0. Muy buena peli, da miedo entender como en esa época (y mucho todavía ahora) estamos sujetos como sociedad a normas y supersticiones ridículas.
-https://www.themoviedb.org/movie/617653-the-last-duel
-- AlphaGo: +0. asd
-https://www.themoviedb.org/movie/455008-alphago
-- Emily: +1. asd
-https://www.themoviedb.org/movie/707103-emily
-- openheimer: +0. asdas
-https://www.themoviedb.org/movie/872585-oppenheimer
-- creator: +0. asdas
-https://www.themoviedb.org/movie/670292-the-creator
-- 3 bod: +0. asdas
-https://www.themoviedb.org/tv/108545-3-body-problem
+- border: -0. No es la gran cosa, tiene algunos puntos interesantes pero le falta.
+https://www.themoviedb.org/movie/365177-borderlands
+- oficial comp: +0. Me gustó bastante. Geniales actuaciones.
+https://www.themoviedb.org/movie/668640-competencia-oficial
+- baile: +1. Muy buena! Divertida y dramática.
+https://www.themoviedb.org/movie/924054-empieza-el-baile
+- furios: -1. Nop.
+https://www.themoviedb.org/movie/786892-furiosa-a-mad-max-saga
+- henrus: +0. Divertida, romántica. Keanu Reeves resta, pero Vera Farmiga y James Caan salvan todo.
+https://www.themoviedb.org/movie/53172-henry-s-crime
+- uruguay: +0. Me gustó bastante. Me angustió bastante también.
+https://www.themoviedb.org/movie/881708-la-uruguaya
+- mi2: +0. Bastante bien para ser una de "misión imposible". Vamos a ver si cerramos alto la saga.
+https://www.themoviedb.org/movie/575264-mission-impossible-dead-reckoning-part-one
+- predest: +1. Espectacular película, una de las mejores de "viajes en el tiempo" de la historia.
+https://www.themoviedb.org/movie/206487-predestination
+- tetris: +0. Divertida. Supongo que no estará demasiado apegada a la verdad estricta, pero está bien.
+https://www.themoviedb.org/movie/726759-tetris
+- fallguy: -0. Sobredosis de acción.
+https://www.themoviedb.org/movie/746036-the-fall-guy
+- tomorr: -0. La idea está buena, se pierde un poco en el "bajo presupuesto".
+https://www.themoviedb.org/movie/1064912-the-tomorrow-job
 
-do-not-expect-too-much-from-the-end-of-the-world
-https://www.themoviedb.org/movie/937085-nu-a-tepta-prea-mult-de-la-sfar-itul-lumii
-dreamscenario
-https://www.themoviedb.org/movie/823482-dream-scenario
-red one
-https://www.themoviedb.org/movie/845781-red-one
-nosferatu
-https://www.themoviedb.org/movie/426063-nosferatu
-megalopolis
-https://www.themoviedb.org/movie/592831-megalopolis
-the instigators
-https://www.themoviedb.org/movie/1059064-the-instigators
-daddio
-https://www.themoviedb.org/movie/843416-daddio
-challengers
-https://www.themoviedb.org/movie/937287-challengers
-Wolfs
-https://www.themoviedb.org/movie/877817-wolfs
-hipnosis (una nordica)
-https://www.themoviedb.org/movie/1005972-hypnosen
-ballerina
-https://www.themoviedb.org/movie/541671-from-the-world-of-john-wick-ballerina
+civil war
+https://www.themoviedb.org/movie/929590-civil-war
+Titane
+https://www.themoviedb.org/movie/630240-titane
+Caro Diario
+https://www.themoviedb.org/movie/25403-caro-diario
+Mission: Impossible - Dead Reckoning Part Two
+https://www.themoviedb.org/movie/575265-mission-impossible-the-final-reckoning
+levels
+https://www.themoviedb.org/movie/791042-levels
+The amateur
+https://www.themoviedb.org/movie/1087891-the-amateur
+The Gorge
+https://www.themoviedb.org/movie/950396-the-gorge
+F1 (brad pit)
+https://www.themoviedb.org/movie/911430-f1-the-movie
+love lies bleeding
+https://www.themoviedb.org/movie/948549-love-lies-bleeding
+the substance
+https://www.themoviedb.org/movie/933260-the-substance
+the accountant 2
+https://www.themoviedb.org/movie/870028-the-accountant
+the brutalist
+https://www.themoviedb.org/movie/549509-the-brutalist
+anora
+https://www.themoviedb.org/movie/1064213-anora
+the gift
+https://www.themoviedb.org/movie/328425-the-gift
+the assessment
+https://www.themoviedb.org/movie/1317088-the-assessment
+sinners
+https://www.themoviedb.org/movie/1233413-sinners
+tron ares
+https://www.themoviedb.org/movie/533533-tron-ares
