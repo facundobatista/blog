@@ -1,0 +1,132 @@
+.. title: El tamaño sí importa
+.. date: 2025-05-29 17:57:00
+.. tags: tipografía, font, Unicode, Qt, PyQt, GUI, Neovim, VSCode, glifos
+
+
+Un poco de contexto
+-------------------
+
+Resulta que estoy haciendo una interfaz gráfica para Neovim. Hay millón, sí, ya sé, pero cada una tiene su quilombo. Y mi idea igual no es hacer la "interfaz gráfica definitiva", sino aprender en el proceso.
+
+``<nerd>`` Vengo aprendiendo un montón, ya que estamos, es re divertido este "proyecto mascota". ``</nerd>``
+
+El escollo o tema más importante que me encontré hasta ahora que no sé cómo resolver (estoy cada vez más convencido de que no hay una "manera correcta" de resolverlo) es cómo manejar los caracteres anchos en una grilla de caracteres monoespaciados.
+
+A ver, vamos por partes (como diría mi amigo Jack).
+
+Estoy haciendo una interfaz gráfica para Neovim. Neovim es un editor de textos muy usado para programar (entre otras muchas funciones) y tiene una interfaz muy limpia originalmente pensada para la terminal. Y las terminales (la mayoría, anywyay) usan tipografías monoespaciadas.
+
+Una tipografía monoespaciada es aquella donde sus caracteres ocupan el mismo ancho. Si estás leyendo esto en mi blog, vas a ver que la tipografía está orientada a la "facilidad de lectura de textos" y los caracteres tienen distinto ancho. Mirá el ancho de las i y las m en la siguiente secuencia: mimimim. Y compará con la siguiente secuencia donde estoy forzando que use una tipografía monoespaciada: ``mimimim```. La elección para estos ejemplos de la m y la i no es casual, la i es bastante finita, y se considera que la ``M`` tiene el ancho completo.
+
+Las tipografías monoespaciadas son muy importantes para programar en casi cualquier lenguaje. Este código "tiene sentido"::
+
+    def test_levels_assert_ok_exception(logs):
+        try:
+            raise ValueError("test error")
+        except ValueError:
+            logger.exception("test message")
+        assert "test.message" in logs.error
+        assert "ValueError" in logs.error
+        assert "test.error" in logs.error
+
+El mismo código en una tipografía de ancho variable queda una porquería (especialmente en Python donde la indentanción importa, pero quedaría igual de feo en cualquier otro lenguaje).
+
+
+El problema
+-----------
+
+Todo muy lindo. Pero ahora vamos a la realidad. En el planeta tenemos un montón de caracteres que *son más anchos que una M* (lo dejo escrito así genérico porque no queremos caernos en un agujero de conejo). Y no sólo caracteres de idiomas escritos. Unicode cubre todo eso pero también, por ejemplo, emoticones o *dibujitos* de todo tipo.
+
+Vamos al caso de estos 3 caracteres: el "FULL STOP" (o más conocido "punto"), "HEAVY MULTIPLICATION X", y "CJK UNIFIED IDEOGRAPH-6614": . ✖  昔 -- o en monoespaciado: ``. ✖  昔``.
+
+Los nombre en mayúsculas que puse en la oración anterior son los nombres formales que le da Unicode a esos caracteres. Y en relación a lo que venimos hablando, Unicode nos da también un dato importante: el "ancho inherente" del carácter, un tema para nada trivial, al punto que Unicode `tiene todo un anexo <https://www.unicode.org/reports/tr11/>`_ al respecto.
+
+Como gran parte de la especificación de Unicode está dentro de Python, podemos ver sencillamente esos valores para los caracteres en cuestión::
+
+    >>> unicodedata.east_asian_width(".")
+    'Na'
+    >>> unicodedata.east_asian_width("✖")
+    'N'
+    >>> unicodedata.east_asian_width("昔")
+    'W'
+
+¿Y qué significa eso? No voy a entrar en todo el detalle, ahí ya les dejé el Anexo si quieren explorar. Pero básicamente Unicode nos dice que hay caracteres "wide", "fullwidth", "narrow", "halfwidth", "ambiguous", y "neutrals". Un quilombo. Que podemos reducir un poco haciendo una simplificación: tomamos algunos como anchos y otros como angostos.
+
+Volviendo a los tres casos nuestros, el punto es Na (angosto), la cruz pesada es N (neutra), y el ideograma es W (ancho). Y más allá de esas características "formales", se puede notar visualmente que los anchos no son los mismos.
+
+La dificultad real que me llevó a estudiar todo esto, en el contexto de hacer una interfaz gráfica a Neovim, es: ¿cómo meto caracteres anchos en lo que a priori sería una grilla regular? ¿qué hago cuando el carácter ancho me *rompe la columna*? ¿hay algo que se puede hacer que tenga sentido o que se considere "correcto"?
+
+
+La exploración
+--------------
+
+¿Qué hacen otros editores con este bardo?
+
+Los tres que estuve estudiando son Neovim mismo en la terminal, neovim-qt (una interfaz gráfica hecha en Qt que se comporta muy muy parecida a Neovim en la terminal), y Visual Studio Code. Para simplificar, de los dos primeros voy a mostrar sólo a neovim-qt, porque se comportan igual.
+
+Miren lo que hace neovim-qt (o Neovim mismo en la terminal):
+
+.. image:: /images/carancho/nvimqt.png
+    :alt: Screenshot y ampliado de cómo se comporta neovim-qt
+
+La primer línea tiene al ``.`` como referencia; sabemos que es angosto y cómo debería comportarse. En la segunda línea tenemos el ideograma: como Unicode dice que es ancho, ocupa dos espacios; fíjense que el ideograma ocupa todo el ancho del par ``.P`` de arriba, y luego la ``P`` está encolumnada con la ``y`` de arriba. En la tercer línea tenemos la cruz pesada: Unicode dice que es angosta, pero el *dibujo* ocupa un montón! Mala suerte, en este caso se respeta el ancho, mirá como la ``P`` está encolumnada con la ``P`` de la primer línea, pero el problema es que el carácter excedido en ancho queda *pisado* por la letra siguiente.
+
+Por otro lado, esto es lo que hace Visual Studio Code:
+
+.. image:: /images/carancho/vscode.png
+    :alt: Screenshot y ampliado de cómo se comporta VSC
+
+En la primera línea no hay sorpresas. En la segunda vemos que el ideograma tiene el ancho que ocupa, a nivel dibujo, pero luego el espacio contra la ``P`` no está exagerado: esto es porque VSCode no hizo que el ideograma ocupara "dos espacios", sino sólo lo que ocupó el dibujo en sí. Esto también lo vemos en la tercer línea, donde más allá que Unicode diga que es un carácter angosto, VSCode dibuja la cruz pesada al ancho que tenga y luego sigue con el resto del texto. Claramente esta forma de renderizar el texto queda más *lindo*, pero rompe totalmente las columnas: fíjense como se pierde la alineación vertical entre las tres líneas.
+
+¿Hay valor en mantener en lo posible la alineación de las columnas? ``neovim-qt`` mismo en algún punto la rompe porque si ponés un carácter en dos espacios, parece todo ordenadito pero realmente las columnas están rotas, aunque no se nota tanto.
+
+
+Entonces, ¿qué hago?
+--------------------
+
+Por lo pronto, puedo implementar cualquiera de las dos soluciones que vimos recién.
+
+La primera, como ``nvim-qt``, con los anchos que indica Unicode:
+
+.. image:: /images/carancho/vym-unicode.png
+    :alt: Ocupando uno o dos espacios, según su ancho
+
+*(tengo esos puntitos azules porque todavía tengo en desarrollo todo lo que es "dibujar la grilla", después los voy a sacar)*
+
+Un detalle: a diferencia de ``nvim-qt``, en vez de que el caracter de después tape completamente al anterior, estoy haciendo que los dibujos de los caracteres se superpongan... creo que queda mejor, pero no es definitivo.
+
+La segunda solución, como VSCode, con el tamaño natural de los caracteres que se escapan del *ancho angosto*:
+
+.. image:: /images/carancho/vym-natural.png
+    :alt: A lo que ocupe el glifo, si se escapa de lo angosto
+
+Hay una tercera opción, que se le ocurrió a Felipe, que se basa en el ancho real de cada glifo, pero luego ajustando a que ocupe uno o dos espacios según corresponda. Esta tiene la ventaja que todos los caracteres se verán bien (como en VSCode), y que las columnas parecen ordenaditas (como en neovim-qt), aunque sufre el mismo problema de que las columnas no están *realmente* alineadas.
+
+.. image:: /images/carancho/vym-expandido.png
+    :alt: Acomodando los anchos en cantidad de espacios fijos
+
+Y una cuarta opción también, idea mía: llevar todo **todo** a un sólo espacio. La ventaja es indiscutible: al tener siempre un carácter por espacio, la grilla queda perfecta a nivel alineación de columnas. Pero los caracteres al achicarse pierden mucho detalle, y creo que al final no es práctico.
+
+.. image:: /images/carancho/vym-achicado.png
+    :alt: Todo a un sólo espacio
+
+Cabe acotar que Neovim espera que la GUI funcione como la primer manera ("unicode"), porque sino se rompen otras cosas que el editor dibuja "alrededor de la grilla del código"; en la siguiente imagen (del segundo caso, "natural") se puede ver qué mal que queda la barra vertical de la derecha que marca 99 columnas, y cómo se desplaza toda la línea que tiene la cruz pesada al principio:
+
+.. image:: /images/carancho/vym-natural-raro.png
+    :alt: Neovim espera que la grilla se comporte de una manera específica
+
+Si voy a mantener que Neovim haga esos dibujos de alrededor, tengo que hacer que la GUI se comporte sí o sí de la primer manera ("unicode"), pero quizás en un futuro haga yo mismo desde la GUI esos dibujos de "asistencia", lo cual me liberaría a dibujar los anchos como yo quiera (y esos otros dibujos quedarían más elegantes, por ejemplo la línea que marca el límite de columnas que sea una línea, y no un caracter pintado).
+
+
+Conclusiones
+------------
+
+No tengo una decisión tomada. No me parece que haya una forma que sea claramente mejor que el resto. Todas tienen algún problema.
+
+Pero después de todo este análisis, lo próximo que voy a hacer es usar el modo "unicode", el que usa `nvim-qt` y que es mejor soportado por Neovim, ya que en la primera etapa (al menos) voy a mantener los "dibujos de asistencia de alrededor" hechos por Neovim mismo, así que no quiero romper eso.
+
+Tampoco me queda claro que las otras opciones sean mejores. Neovim eligió ese modo por alguna razón, aunque quizás esa razón no sea la más importante en este momento/contexto (quizás porque Vim hacía lo mismo, o quizás porque la interfaz primaria es la terminal).
+
+VSCode eligió la otra solución, la "natural", pero que queden las columnas levemente desalineadas es horrible. Aunque quizás eso no sea un problema ya que al final les hispanoparlantes usamos normalmente caracteres "angostos", especialmente para programar... pero después metiste un emoji y perdiste.
+
+En fin. Si tienen más info sobre este tema, es bienvenida. ¡Gracias!
