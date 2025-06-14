@@ -1,0 +1,36 @@
+.. title: Fórmula 1 en vivo
+.. date: 2025-06-14 20:27:00
+.. tags: carrera, F1, Barcelona
+
+Estuve unos días en Barcelona, por trabajo. Cuando comunicaron al equipo el lugar y la fecha del sprint, uno de mis compañeres se dió cuenta que durante el fin de semana siguiente al evento se corría la carrera de Fórmula 1 en el Circuito de Barcelona.
+
+Dudé un poco en ir. Me tenía que quedar más días, la entrada a la carrera no es precisamente barata, y no sabía cuanto valía la pena toda la movida. Le pregunté a unos amigos, consulté en casa. Finalmente tomé la decisión y activé: saqué el pasaje (que me lo paga la empresa, claro) para volver tres días más tarde, reservé un Airbnb, y compré la entrada para la carrera.
+
+El Airbnb lo reservé en la ciudad de Badalona, al noreste del centro de Barcelona, muy cerquita. Mi idea era alquilar algo alejado para que sea más barato, pero a "un subte de distancia" del centro como para poder viajar sin problema, y de paso que esté cerca de la playa. No sabía muy bien cómo iba a llegar al circuito, pero el mismo compañero de antes encontró que había unos bondis que te llevaban y traian durante los tres días de carrera.
+
+.. image:: /images/f1bcn-saludo.jpeg
+    :alt: Un saludito para les muchaches
+
+Es que "la carrera" no es sólo "una carrera". Por lo pronto hay dos tandas de prácticas libres el viernes, otra más el sábado, luego la clasificación el mismo sábado, y la carrera en sí el domingo. Pero aparte hay muchas actividades. Corre también la fórmula 2 y la 3, hay shows, presentaciones, varias cositas.
+
+El circuito no queda en Barcelona, sino que está situado en las poblaciones de Montmeló y de Granollers (por eso además de Circuito de Barcelona-Cataluña se lo llama Circuito de Montmeló). Queda a unos 26 kilómetros del centro de Barcelona, y considerando que hay autopistas, uno pensaría que el trayecto de ida y vuelta tendría que ser rápido. No mi ciela. Es que toda la cercanía al circuito colapsa totalmente esos días, así que se pierde un montón de tiempo con el bondi yendo a paso de hombre. Sumado a las largas colas para tomar los bondis, hicieron que pierda bastante tiempo al ir y venir. El sábado, luego de la qualy, fue el peor día al respecto: luego de que terminara, caminé mucho para salir del circuito (hay que atravesar un túnel que también estaba saturado de gente), luego una cola de varias cuadras para tomar el bondi, el trayecto con toda la primera parte a paso de hombre, entrar en la ciudad que no es precisamente rápido, y luego dos subtes hasta el Airbnb... ¡en total tres horas y media!
+
+Decía que tuve que caminar bastante para salir del circuito. ¡Es que el lugar es inmenso! Y encima el bondi te deja cerca de las puertas 3 y 4, que es en la otra punta de donde yo tenía el asiento reservado. Yo había elegido uno de los lugares más baratos, pero techado: tenía miedo que lloviese (lo cual haría que las horas ahí fuesen un embole total), y aunque no llovió ni un poquito, fue acertadísimo porque los tres días hubo un sol que rajaba la tierra. Re garpó el lugar que elegí.
+
+.. image:: /images/f1bcn-curva.jpeg
+    :alt: Tomando la curva
+
+Estaba en la curva 9. Veia venir los autos por una recta, frenaban, agarraban la curva y aceleraban. No es una gran zona donde hubo mucha acción. En las prácticas uno de los autos frenó mal y tomó el control siguiendo un poco derecho, entrando en una zona de despiste controlado que hay. Más divertida fue la Fórmula 3, hubieron muchas peleítas en esa zona.
+
+También había una pantalla gigante al frente de la tribuna, cruzando la pista, por donde pasaban algo parecido a la transmisión oficial (me parece que la imagen de los autos es la misma, pero la infografía superpuesta seguro era otra, más simple). También tenía una radio que me habían dado en el lugar (gratis, si tenías una tarjeta American Express) donde se podía escuchar algo que podríamos denominar como "el relato de la carrera". Lo pongo entre comillas porque aunque se comentaba un poco la carrera, no había demasiada profundidad en la información; es entendible, porque al ser en varios idiomas el que hablaba en castellano al final terminaba repitiendo lo mismo que el que hablaba en inglés (también comentaban en catalán, pero no mucho, y en francés sólo daban cada tanto las posiciones de los corredores franceses).
+
+Mi punto es que si querés seguir la carrera en profundidad, quedate en tu casa. Pero es toda una experiencia ver esas naves espaciales desacelerando y acelerando. Una locura, especialmente cuando hacían la vuelta rápida en la qualy, van al límite. El contraste es el "safety car" (que es un deportivo superespecial), iba *mucho* más lento que los autos de carrera, y le costaba notablemente agarrar la curva (rolaba que asusta), lo que le da un poco de perspectiva a la monstruosidad que son los otros autos.
+
+.. image:: /images/f1bcn-sc.jpeg
+    :alt: El auto de seguridad: un poco incómodo para ir de compras al Makro
+
+También ves cosas que yo nunca había visto. Por ejemplo que barren un montón la pista entre carrera y carrera. Incluso pasa un camioncito con unas telas enganchadas que van limpiando la pista. Era muy gracioso porque cuando pasaba esta gente de mantenimiento la tribuna gritaba y vitoreaba hasta que el chofer saludaba como si fuera una estrella y ahí todes aplaudíamos :)
+
+Creo que el punto más negativo es la cantidad absurda de gente que hay en el evento. Creo que el pico un día fueron 125 mil personas, una locura. Al terminar el día, por ejemplo, decenas de miles caminando para salir del lugar, y caminando cruzado porque hay varias puertas y varios estacionamientos (o lugares donde tomar transporte) cerca de esas puertas. Los baños, por ejemplo, al final, eran un asco total (y entrar y salir era todo un desafío).
+
+En fin. Toda una experiencia que recomiendo, pero no estoy seguro que repetiría :) Les dejo `fotos varias y un par de videos <https://www.dropbox.com/scl/fo/9dz8d1qr2ha0ot8a9vf4m/ALhpKAZNmW_l3rkqSeY3QPo?rlkey=fu091fvvgy3clpuoqsw1x5u40&dl=0>`_.
