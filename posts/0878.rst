@@ -2,7 +2,7 @@
 .. date: 2025-09-15 13:30:00
 .. tags: página, enlaces, blog, Facundo
 
-Luego de tantísimo años cambié la página de entrada a mi sitio. Ahora cuando van a ``taniquetil.com.ar``, en vez de llevarles al blog como siempre, redirecciona a ``facundo.taniquetil.com.ar``.
+Luego de tantísimo años cambié la página de entrada a mi sitio. Ahora cuando van a ``taniquetil.com.ar``, en vez de llevarles al blog como siempre, redirecciona a `facundo.taniquetil.com.ar <https://facundo.taniquetil.com.ar>`_.
 
 Esta es una página nueva que armé con motivo de la pronta liberación del libro Python en Ciencia y Tecnología (que estuvimos escribiendo durante cinco años con mi amigo personal Manuel Carlevaro).
 
