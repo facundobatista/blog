@@ -1,0 +1,41 @@
+.. title: PyCon España 2025
+.. date: 2025-10-25 08:50:00
+.. tags: PyCon, Python, España, Sevilla, charlas, viaje
+
+Y pasó que volví a una PyCon, ¡y como exponente! Fue hace unos días en la PyCon España 2025; Sevilla, España.
+
+No volé hasta Sevilla porque me parecía caro, así que saqué avión hasta Madrid, con la idea de ir hasta Sevilla en tren. Cómo tenía un par de días antes y medio día después, lo usé para ver si armaba algún plan en algún lado. Al final no salió nada así que maximicé el tiempo en Sevilla, que nunca había ido.
+
+Llegué bastante entrada la noche del martes. El vuelo de vuelta era el otro martes, pero relativamente temprano, así que volví a Madrid en tren el lunes y pasé allí la noche (¡gracias Juanlu por hospedarme!).
+
+Cuando llegué a Sevilla fui derechito al hostel, revoleé las cosas y me fui a cenar, ya que corría riesgo que no encontrara bar con la cocina abierta. El miércoles lo tuve completo para pasear, caminé para todos lados, saqué un montón de fotos. Es linda Sevilla.
+
+Ya el jueves hice el checkout y me mudé al departamento que habíamos alquilado entre varios.
+
+.. image:: /images/pycones25/setas.jpeg
+    :alt: Las Setas de Sevilla
+
+El resto de la estadía fue en ese departamento, que compartí con Manu y Johanna, Ezequiel, y Fabrizio. Estuvo bárbara la experiencia. Yo a Ezequiel y Fabrizio no los conocía, pero me cayeron bárbaro.
+
+Más allá de la convivencia en sí (ir a comprar cosas, decidir qué cenar, en casa o salir a algún lado, etc) que fue impecable, como somos todos muy nerds fue casi casi como vivir un pseudo PyCamp... jugamos al truco, nos cruzamos info sobre cómo hacer determinadas cosas en la compu, tuvimos charlas muy profundas sobre física, química, domótica, política, situación laboral, etc, etc.
+
+.. image:: /images/pycones25/chiques.jpeg
+    :alt: Ezequiel, Manu, Johanna, el que suscribe, y Fabrizio
+
+La PyCon en sí también estuvo muy bien. El venue era un poco alejado del centro (que era donde estábamos nosotres) pero estaba muy bien.
+
+Fui a varias charlas (pero también me quedé bastante charlando por los pasillos); las que más me gustaron fueron "Detrás de escena de FastAPI y amigos para desarrolladores y creadores" de `Sebastián Ramírez <https://tiangolo.com/>`_, "Computación cuántica con Python" de `Jara Juana Bermejo Vega <https://es.wikipedia.org/wiki/Juani_Bermejo_Vega>`_, y "Como todo va a cambiar para los debuggers en Python 3.14" de `Pablo Galindo Salgado <https://github.com/pablogsal>`_. También estuvo copada la mesa redonda sobre mujeres en STEM e investigación.
+
+A Pablo lo conocí personalmente en la primer noche, en un cóctel de bienvenida para exponentes y organizadores. Yo venía charlando con él por un tema que develaré en el próximo post (ah, se hace el misterioso el pibe), pero nunca nos habíamos cruzado.
+
+.. image:: /images/pycones25/disertante.jpeg
+    :alt: Atendeme el "puntero": un abanico que venía en la bolsita de la conf
+
+Mi ponencia fue "Gentil introducción al mundo asincrónico". Es una charla que había dado varias veces, pero siempre peleando contra el tiempo. Acá directamente la propuse como taller.
+
+La extendí *apenas* para aclarar algunos puntos, y durante la presentación expliqué bien los códigos. Estuve apenas más de dos horas, y la gente se fue muy contenta. Me estuvieron felicitando por los pasillos el resto de los dos días.
+
+.. image:: /images/pycones25/hostel.jpeg
+    :alt: Hermosísimo el hostel
+
+Fue un viaje que disfruté montón. Vamos a tratar de ir volviendo al ruedo.
