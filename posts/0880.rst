@@ -1,0 +1,63 @@
+.. title: Python para Ciencia y Tecnología, el libro
+.. date: 2025-11-08 12:00:00
+.. tags: Python, Ciencia, tecnología, libro, colaboración, gratis, proyecto
+
+En junio del 2020, bien dentro de la pandemia, se me ocurrió tirarle la idea a Manu Carlevaro de que escribamos un libro.
+
+Al desubicado no se le ocurrió otra cosa que aceptar.
+
+A Manu yo lo conozco desde el 2009, cuando `fui a dar una charla <https://blog.taniquetil.com.ar/posts/0426/>`_ de Python en su postgrado de Herramientas Computacionales para Científicos, así que ya nos conocíamos un poquito y podíamos entender qué podía aportar cada uno al proyecto.
+
+.. image:: /images/pylibro-hcc.jpeg
+    :alt: En el HCC, 2016, foto sacada por Manu
+
+
+El arranque
+-----------
+
+El concepto base que le tiré era simple pero bien definido: Python para científiques, en castellano. Obviamente, empezamos a tirar ideas, y fuimos empezando a redondear más o menos qué queríamos armar.
+
+En algún momento formalizamos la forma de trabajar: una reunión virtual de una hora por semana para sincronizarnos y charlar sobre lo hecho y lo próximo a hacer. Esta forma de trabajo sigue activa, después de cinco años (obviamente con semanas donde por h o por b no nos pudimos juntar).
+
+Fuimos analizando libros ya escritos sobre Python en particular, y sobre cualquier lenguaje de programación (o informática en general) que estuviese relacionado con ciencia en alguna forma. Fuimos definiendo qué temas queríamos encarar, cómo los queríamos ordenar. Por qué, para qué, para quienes.
+
+La idea primaria del libro es entonces acercar Python al mundo científico. Un texto pensado para quienes se desempeñan en el ámbito científico o tecnológico, a partir de nuestro recorrido conjunto en el dictado del curso que mencioné arriba más todas las experiencias acumuladas por separado durante los últimos veinte años.
+
+La elección del castellano como idioma de escritura es un factor crítico, porque aunque sabemos que el inglés es una herramienta fundamental tanto para programar como para hacer ciencia, estamos convencidos que no debería ser una barrera de entrada.
+
+
+Las tecnologías
+---------------
+
+En algún punto nos pusimos a escribir, claro.
+
+Armamos el libro en LaTeX, tecnología que me hizo sacar canas verdes, pero que creo que es la mejor para un proyecto de la magnitud que encaramos. En otras palabras, tiene varias limitaciones y nos tuvimos que pelear en un montón de rincones para lograr lo que queríamos, pero estoy seguro que con cualquier otra tecnología el resultado hubiese sido peor o más trabajoso.
+
+Integrar imágenes, secciones de código desde archivos, o incluso agregar secuencias de comandos en una terminal, eran cosas que LaTeX ya soportaba de una manera u otra. Pero nos enfrentamos a algo que no estaba resuelto: insertar en el texto contenido desde `Jupyter Notebooks <https://jupyter.org/>`_, que es un soporte esencial para la mayoría de los códigos que usamos en el libro.
+
+Entonces, como no había nada, tuve que armarlo yo, y así nació `Jupynotex <https://github.com/facundobatista/jupynotex/>`_, el traductor de Jupyter Notebook a LaTeX para incluir notebooks completos o parciales en papers o cualquier tipo de documento. Resulta que le sirve a bastante gente, cada tanto tengo algún issue marcando un bug, o pidiendo alguna funcionalidaad, y ya esta incorporado en la distribución estándar de ``texlive-science``, un conjunto de paquetes de TeX Live para matemáticas, ciencias naturales, ciencia de la computación, etc.
+
+Para compartirnos textos, códigos, y el proyecto en general, usamos `git`, contra Github, en un repo privado, con la obvia ventaja de tener todo versionado.
+
+
+El resultado
+------------
+
+Luego de cinco años llegamos a la primer versión completa del libro.
+
+.. image:: /images/pylibro-portada.png
+    :alt: La portada del libro
+
+La primera está dedicada completamente al lenguaje propiamente dicho, abordando los temas fundamentales para la comprensión de Python y los elementos básicos que permiten escribir programas. Introducción a Python, tipos de datos, controles de flujo, encapsulando código. Un popurrí de Python más avanzado, clases más en detalle. Entornos de ejecución de Python. Un capítulo sobre la velocidad de procesamiento y cómo mejorarla. También procesamiento en paralelo, y finalmente interfaces gráficas.
+
+En la segunda parte tratamos temas que constituyen herramientas básicas en la práctica de la programación en el ámbito científico y tecnológico. El infaltable Numpy. Aritmética de punto flotante. Matemática simbólica. Versionado de código. Y manipulación de datos para cerrar.
+
+La tercera parte comprende capítulos en los que abordamos algunas tareas de uso frecuente entre los miembros de la comunidad académica y tecnológica. Esta es la parte con menos cohesión entre los temas en sí, pensados para que vayan a la parte que les interesa, aunque quizás no toquen nunca el tema de otro capítulo: Elementos de estadística, modelado estadístico, ecuaciones algebraicas, integración numérica, ecuaciones diferenciales ordinarias, ecuaciones en derivadas parciales, optimización, aprendizaje automático, e incluso procesamiento en GPU.
+
+El resto son las secciones estándares, bibliografía, índice, agradecimientos, info de los autores, un prefacio explicando la razón del libro, una sección que explica cómo mejor aprovechar su lectura, y un destacable prólogo de `Pablo Galindo Salgado <https://pablogsal.com/>`_, que era la única persona del mundo que podía prologar este libro: no hay nadie más en el planeta que junte estas características: científico (físico), desarrollador core de Python, e hispanoparlante.
+
+En total 639 páginas que se pueden descargar como PDF `del sitio oficial del libro <https://libropython.science/>`_ de forma totalmente gratuita (aunque dejamos allí varias opciones para que nos donen dinero, como agradecimiento o algún tipo de retribución por el esfuerzo realizado).
+
+Además del PDF compartimos en `este repo público <https://github.com/facundobatista/libro-pyciencia>`_ todos los códigos, de manera que si leés el libro y querés probar algo por tu lado, con clonar ese proyecto ya tenés todo. En ese mismo proyecto de Gihub se pueden dejar comentarios, sugerencias, o feedback en general.
+
+Que lo disfruten.
