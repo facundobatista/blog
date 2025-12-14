@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Historial de charlas - Facundo Batista</title>
+
+<style>
+    /* ---- Estética general basada en facundo.taniquetil.com.ar ---- */
+
+    body {
+        font-family: "Trebuchet MS", Verdana, Tahoma, sans-serif;
+        background-color: #f7f7f7;
+        color: #333;
+        margin: 0;
+        padding: 0;
+    }
+
+    header, footer {
+        text-align: center;
+        padding: 20px 10px;
+        color: #666;
+        font-size: 0.95em;
+    }
+
+    header {
+        margin-top: 20px;
+    }
+
+    main {
+        max-width: 1000px;
+        margin: 0 auto;
+        padding: 20px 15px;
+        background-color: white;
+        border: 1px solid #ddd;
+        border-radius: 6px;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    }
+
+    h1 {
+        text-align: center;
+        font-size: 1.8em;
+        margin-bottom: 10px;
+        color: #444;
+    }
+
+    p.intro {
+        margin-bottom: 25px;
+        line-height: 1.5em;
+        color: #444;
+    }
+
+    /* ---- Listado de charlas ---- */
+
+    .talk {
+        margin-bottom: 25px;
+    }
+
+    .talk-title {
+        font-weight: bold;
+        font-size: 1.5em;
+        margin-bottom: 4px;
+        color: #333;
+        border-left: 4px solid #888;
+        padding-left: 8px;
+    }
+
+    .talk-details {
+        margin-left: 18px;
+        line-height: 1.4em;
+    }
+
+    hr {
+        margin: 25px 0;
+        border: 0;
+        border-top: 1px solid #ccc;
+    }
+
+    footer a {
+        color: #666;
+        text-decoration: none;
+    }
+    footer a:hover {
+        text-decoration: underline;
+    }
+
+</style>
+</head>
+<body>
+
+<header>
+    <h1>Historial de charlas</h1>
+</header>
+
+<main>
+
+<p class="intro">
+Para una propuesta de tutorial para la conferencia PyCon, tuve que anotar todas las charlas y cursos que había dado alguna vez relacionados con Python.
+</p>
+<p class="intro">
+Entonces, ya que lo tengo lo pongo acá (y de paso no lo pierdo).
+</p>
+
+<!-- ---- INICIO DEL LISTADO ---- -->
+
+{% for talk in talks %}
+    <section class="talk">
+        <div class="talk-title">{{ talk.title }}</div>
+        <div class="talk-details">
+        {% for event in talk.events %}
+            <b>{{ event.name }}</b> ({{ event.location }}, {{ event.date }}){% if not loop.last %},{% endif %}
+        {% endfor %}
+        </div>
+    </section>
+{% endfor %}
+
+<!-- ---- FIN DEL LISTADO ---- -->
+
+</main>
+
+<footer>
+    Copyright 2007–{{ current_year }} -
+    <a href="https://facundo.taniquetil.com.ar">Facundo Batista</a>
+</footer>
+
+</body>
+</html>

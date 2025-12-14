@@ -1,138 +1,562 @@
-<html><head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Historial de charlas - Facundo Batista</title>
 
-<title>Historial de charlas</title></head><body>
+<style>
+    /* ---- Estética general basada en facundo.taniquetil.com.ar ---- */
 
-Para una propuesta de Tutorial para la conferencia PyCon, tuve que
-anotar todas las charlas y cursos que había dado alguna vez
-relacionados con Python. <br>
+    body {
+        font-family: "Trebuchet MS", Verdana, Tahoma, sans-serif;
+        background-color: #f7f7f7;
+        color: #333;
+        margin: 0;
+        padding: 0;
+    }
 
-Entonces, ya que lo tengo lo pongo acá (y de
-paso no lo pierdo).<br>
+    header, footer {
+        text-align: center;
+        padding: 20px 10px;
+        color: #666;
+        font-size: 0.95em;
+    }
 
-<br>
-<table border="1">
-<tbody>
-  <tr><th>Título                                                         </th><th>Evento                                    </th><th>Lugar                     </th><th>Cuando  </th><th>Video                                                                        </th></tr>
-  <tr><td>Decimal                                                        </td><td>PyCon 2005                                </td><td>Washington, USA           </td><td>Feb 2005</td><td>   </td></tr>
-  <tr><td>Decimal for beginners                                          </td><td>EuroPython 2005                           </td><td>Göteborg, Sweden          </td><td>Jun 2005</td><td>   </td></tr>
-  <tr><td>Money                                                          </td><td>EuroPython 2005                           </td><td>Göteborg, Sweden          </td><td>Jun 2005</td><td>   </td></tr>
-  <tr><td>Python viene con las baterías incluídas                        </td><td>CaFeConf 2005                             </td><td>CABA, Argentina           </td><td>Oct 2005</td><td>   </td></tr>
-  <tr><td>Decimal for beginners                                          </td><td>PyCon 2006                                </td><td>Dallas, USA               </td><td>Feb 2006</td><td>   </td></tr>
-  <tr><td>Introducción a Python                                          </td><td>Python Santa Fé 2006                      </td><td>Santa Fé, Santa Fé        </td><td>Jun 2006</td><td>   </td></tr>
-  <tr><td>Python - Demostraciones técnicas                               </td><td>Python Santa Fé 2006                      </td><td>Santa Fé, Santa Fé        </td><td>Jun 2006</td><td>   </td></tr>
-  <tr><td>Introducción a Python                                          </td><td>CaFeConf 2006                             </td><td>CABA, Argentina           </td><td>Nov 2006</td><td>   </td></tr>
-  <tr><td>Introducción a Python                                          </td><td>Python Santa Fé 2007                      </td><td>Santa Fé, Santa Fé        </td><td>Jun 2007</td><td>   </td></tr>
-  <tr><td>Introducción a Python                                          </td><td>7mas Jornadas Regionales de Software Libre</td><td>Córdoba, Córdoba          </td><td>Ago 2007</td><td>   </td></tr>
-  <tr><td>Introducción a Python                                          </td><td>CaFeConf 2007                             </td><td>CABA, Argentina           </td><td>Oct 2007</td><td>   </td></tr>
-  <tr><td>Python más rápido que C                                        </td><td>CaFeConf 2007                             </td><td>CABA, Argentina           </td><td>Oct 2007</td><td>   </td></tr>
-  <tr><td>Python más rápido que C                                        </td><td>Jornada ITBA                              </td><td>CABA, Argentina           </td><td>Nov 2007</td><td>   </td></tr>
-  <tr><td>Introducción a Python                                          </td><td>Unlux 2007                                </td><td>Luján, Buenos Aires       </td><td>Nov 2007</td><td>   </td></tr>
-  <tr><td>Python más rápido que C                                        </td><td>Unlux 2007                                </td><td>Luján, Buenos Aires       </td><td>Nov 2007</td><td>   </td></tr>
-  <tr><td><i>Sprints coordinator</i>                                     </td><td>PyCon 2008                                </td><td>Chicago, USA              </td><td>Mar 2008</td><td>   </td></tr>
-  <tr><td>Introducción a Python                                          </td><td>8vas Jornadas Regionales de Software Libre</td><td>CABA, Argentina           </td><td>Ago 2008</td><td>   </td></tr>
-  <tr><td>Entendiendo Unicode                                            </td><td>8vas Jornadas Regionales de Software Libre</td><td>CABA, Argentina           </td><td>Ago 2008</td><td>   </td></tr>
-  <tr><td>Introducción a Python                                          </td><td>Unlux 2008                                </td><td>Luján, Buenos Aires       </td><td>Nov 2008</td><td>   </td></tr>
-  <tr><td>Entendiendo Unicode                                            </td><td>Unlux 2008                                </td><td>Luján, Buenos Aires       </td><td>Nov 2008</td><td>   </td></tr>
-  <tr><td>Understanding Unicode                                          </td><td>Canonical All Hands 2009                  </td><td>Barcelona, España         </td><td>May 2009</td><td>   </td></tr>
-  <tr><td><i>Coordinador general</i>                                     </td><td>PyCon Argentina 2009                      </td><td>CABA, Argentina           </td><td>Sep 2009</td><td>   </td></tr>
-  <tr><td>Introducción a Python                                          </td><td>PyCon Argentina 2009                      </td><td>CABA, Argentina           </td><td>Sep 2009</td><td>   </td></tr>
-  <tr><td>Introducción a Python                                          </td><td>Posgrado de Informática para Científicos  </td><td>La Plata, Buenos Aires    </td><td>Oct 2009</td><td>   </td></tr>
-  <tr><td>Python en el mundo real                                        </td><td>Linux Week 2010                           </td><td>Lima, Perú                </td><td>Mar 2010</td><td>   </td></tr>
-  <tr><td>Introducción a la Programación                                 </td><td>Charlas Abiertas de Python en La Tribu    </td><td>CABA, Argentina           </td><td>Jul 2010</td><td>   </td></tr>
-  <tr><td>Introducción a Python                                          </td><td>Charlas Abiertas de Python en La Tribu    </td><td>CABA, Argentina           </td><td>Jul 2010</td><td>   </td></tr>
-  <tr><td>Introducción a Python                                          </td><td>Posgrado de Informática para Científicos  </td><td>La Plata, Buenos Aires    </td><td>Sep 2010</td><td>   </td></tr>
-  <tr><td>Entendiendo Unicode                                            </td><td>PyDay Buenos Aires                        </td><td>CABA, Argentina           </td><td>Sep 2010</td><td>   </td></tr>
-  <tr><td>Python 3000                                                    </td><td>PyDay Buenos Aires                        </td><td>CABA, Argentina           </td><td>Sep 2010</td><td>   </td></tr>
-  <tr><td>Python más rápido que C                                        </td><td>PyCon Argentina 2010                      </td><td>Córdoba, Córdoba          </td><td>Oct 2010</td><td>   </td></tr>
-  <tr><td>Entendiendo Unicode                                            </td><td>PyCon Argentina 2010                      </td><td>Córdoba, Córdoba          </td><td>Oct 2010</td><td>   </td></tr>
-  <tr><td>Comunidad, anarquía y subversión                               </td><td>Keynote en PyCon Brasil 2010              </td><td>Curitiba, Brasil          </td><td>Oct 2010</td><td>   </td></tr>
-  <tr><td>Python más rápido que C                                        </td><td>6tas Jornadas de Software Libre de Junín  </td><td>Junín, Buenos Aires       </td><td>Nov 2010</td><td>   </td></tr>
-  <tr><td>Entendiendo Unicode                                            </td><td>6tas Jornadas de Software Libre de Junín  </td><td>Junín, Buenos Aires       </td><td>Nov 2010</td><td>   </td></tr>
-  <tr><td>Python 3000                                                    </td><td>Charlas Abiertas de Python en La Tribu    </td><td>CABA, Argentina           </td><td>Nov 2010</td><td>   </td></tr>
-  <tr><td>Comunidad, anarquía y subversión                               </td><td>PyDay Córdoba 2011                        </td><td>Córdoba, Córdoba          </td><td>Abr 2011</td><td>   </td></tr>
-  <tr><td>Comunidad, anarquía y subversión                               </td><td>Campus Party Colombia 2011                </td><td>Bogotá, Colombia          </td><td>Jul 2011</td><td>   </td></tr>
-  <tr><td>Python más rápido que C                                        </td><td>Campus Party Colombia 2011                </td><td>Bogotá, Colombia          </td><td>Jul 2011</td><td><center><a href="https://www.youtube.com/watch?v=cPVlYWxcu18">si</a></center></td></tr>
-  <tr><td>Entendiendo Unicode                                            </td><td>PyDay Uruguay                             </td><td>Montevideo, Uruguay       </td><td>Ago 2011</td><td>   </td></tr>
-  <tr><td>Python más rápido que C                                        </td><td>PyCon Argentina 2011                      </td><td>Junín, Buenos Aires       </td><td>Sep 2011</td><td>   </td></tr>
-  <tr><td>Entendiendo Unicode                                            </td><td>PyCon Argentina 2011                      </td><td>Junín, Buenos Aires       </td><td>Sep 2011</td><td>   </td></tr>
-  <tr><td>El futuro de Python en Ubuntu                                  </td><td>UbuConLA 2012                             </td><td>CABA, Argentina           </td><td>Jun 2012</td><td>   </td></tr>
-  <tr><td>Introducción a Python                                          </td><td>Posgrado de Informática para Científicos  </td><td>La Plata, Buenos Aires    </td><td>Ago 2012</td><td>   </td></tr>
-  <tr><td>Python 3000                                                    </td><td>PyDay Córdoba 2012                        </td><td>Córdoba, Córdoba          </td><td>Sep 2012</td><td>   </td></tr>
-  <tr><td>Como los logs me salvaron el alma                              </td><td>PyDay Córdoba 2012                        </td><td>Córdoba, Córdoba          </td><td>Sep 2012</td><td>   </td></tr>
-  <tr><td>Introducción a Python (bajas calorías)                         </td><td>Congreso Innovation 2012                  </td><td>Artigas, Uruguay          </td><td>Sep 2012</td><td>   </td></tr>
-  <tr><td>Como los logs me salvaron el alma                              </td><td>7mas Jornadas de Software Libre de Junín  </td><td>Junín, Buenos Aires       </td><td>Sep 2012</td><td>   </td></tr>
-  <tr><td>Python más rápido que C                                        </td><td>Jornada Python en Mérida                  </td><td>Mérida, Venezuela         </td><td>Oct 2012</td><td>   </td></tr>
-  <tr><td>Bindings, mutable default arguments, y otros quilom... detalles</td><td>PyCon Venezuela 2012                      </td><td>Caracas, Venezuela        </td><td>Nov 2012</td><td>   </td></tr>
-  <tr><td>Entendiendo Unicode                                            </td><td>PyCon Venezuela 2012                      </td><td>Caracas, Venezuela        </td><td>Nov 2012</td><td>   </td></tr>
-  <tr><td>Bindings, mutable default arguments, y otros quilom... detalles</td><td>PyCon Argentina 2012                      </td><td>Quilmes, Buenos Aires     </td><td>Nov 2012</td><td><center><a href="https://www.youtube.com/watch?v=9HqQY81DzTE">si</a></center></td></tr>
-  <tr><td>Entendiendo Unicode                                            </td><td>PyCon Argentina 2012                      </td><td>Quilmes, Buenos Aires     </td><td>Nov 2012</td><td><center><a href="https://www.youtube.com/watch?v=pQJ0emlYv50">si</a></center></td></tr>
-  <tr><td>Python más rápido que C                                        </td><td>PyDay Rosario 2013                        </td><td>Rosario, Santa Fé         </td><td>Jun 2013</td><td>   </td></tr>
-  <tr><td>Python Argentina                                               </td><td>PyDay Rosario 2013                        </td><td>Rosario, Santa Fé         </td><td>Jun 2013</td><td>   </td></tr>
-  <tr><td>Emulando paralelismo de forma asincrónica                      </td><td>PyDay Junín 2013                          </td><td>Junín, Buenos Aires       </td><td>Ago 2013</td><td><center><a href="https://www.youtube.com/watch?v=XRvxR4ux-54">1/2</a> <a href="https://www.youtube.com/watch?v=luqZ65fKJ50">2/2</a></center></td></tr>
-  <tr><td>Introducción a Python                                          </td><td>Posgrado de Informática para Científicos  </td><td>La Plata, Buenos Aires    </td><td>Sep 2013</td><td>   </td></tr>
-  <tr><td>Bindings, mutable default arguments, y otros quilom... detalles</td><td>PyCon Argentina 2013                      </td><td>Rosario, Santa Fé         </td><td>Oct 2013</td><td>   </td></tr>
-  <tr><td>Las perlas de Python 3                                         </td><td>PyCon Argentina 2013                      </td><td>Rosario, Santa Fé         </td><td>Oct 2013</td><td><center><a href="https://www.youtube.com/watch?v=cVvRKthOvYs">si</a></center></td></tr>
-  <tr><td>Como los logs me salvaron el alma                              </td><td>Unlux 2014                                </td><td>Luján, Buenos Aires       </td><td>Sep 2014</td><td>   </td></tr>
-  <tr><td>Como debuguear en Python                                       </td><td>Meetup PyAr CABA                          </td><td>CABA, Argentina           </td><td>Sep 2014</td><td>   </td></tr>
-  <tr><td>Introducción a Python                                          </td><td>Posgrado de Informática para Científicos  </td><td>La Plata, Buenos Aires    </td><td>Sep 2014</td><td>   </td></tr>
-  <tr><td>Introducción a Python                                          </td><td>PyCon Argentina 2014                      </td><td>Rafaela, Santa Fé         </td><td>Nov 2014</td><td><center><a href="https://www.youtube.com/watch?v=VUti1RG6Jj8">si</a></center></td></tr>
-  <tr><td>Como los logs me salvaron el alma                              </td><td>PyCon Argentina 2014                      </td><td>Rafaela, Santa Fé         </td><td>Nov 2014</td><td><center><a href="https://www.youtube.com/watch?v=wUXamWPhtpE">si</a></center></td></tr>
-  <tr><td>Como debuguear en Python                                       </td><td>PyCon Argentina 2014                      </td><td>Rafaela, Santa Fé         </td><td>Nov 2014</td><td><center><a href="https://www.youtube.com/watch?v=4q_-iWqJSfk">si</a></center></td></tr>
-  <tr><td>Introducción a Python                                          </td><td>Posgrado de Informática para Científicos  </td><td>La Plata, Buenos Aires    </td><td>Sep 2015</td><td>   </td></tr>
-  <tr><td>Introducción a Python                                          </td><td>PyDay Junín 2015                          </td><td>Junín, Buenos Aires       </td><td>Sep 2015</td><td>   </td></tr>
-  <tr><td>Programación Asincrónica en Python 3                           </td><td>PyDay Junín 2015                          </td><td>Junín, Buenos Aires       </td><td>Sep 2015</td><td>   </td></tr>
-  <tr><td>Programación Asincrónica en Python 3                           </td><td>PyCon Argentina 2015                      </td><td>Mendoza, Mendoza          </td><td>Nov 2015</td><td>   </td></tr>
-  <tr><td>(con Joac) No es magia: Descriptores al desnudo                </td><td>PyCon Argentina 2015                      </td><td>Mendoza, Mendoza          </td><td>Nov 2015</td><td>   </td></tr>
-  <tr><td>Entendiendo Unicode                                            </td><td>Europython 2016                           </td><td>Bilbao, España            </td><td>Jul 2016</td><td><center><a href="https://www.youtube.com/watch?v=jAZ-NyAwpsg">si</a></center></td></tr>
-  <tr><td>It's not magic: Descriptors exposed                            </td><td>Europython 2016                           </td><td>Bilbao, España            </td><td>Jul 2016</td><td><center><a href="https://www.youtube.com/watch?v=mnWdB99K-mA&t=21s">si</a></center></td></tr>
-  <tr><td>Las perlas de Python 3                                         </td><td>PyDay Baradero 2016                       </td><td>Baradero, Buenos Aires    </td><td>Ago 2016</td><td>   </td></tr>
-  <tr><td>Python más rápido que C                                        </td><td>PyDay Baradero 2016                       </td><td>Baradero, Buenos Aires    </td><td>Ago 2016</td><td>   </td></tr>
-  <tr><td>Introducción a Python                                          </td><td>Posgrado de Informática para Científicos  </td><td>La Plata, Buenos Aires    </td><td>Sep 2016</td><td>   </td></tr>
-  <tr><td>Bindings, mutable default arguments, y otros quilom... detalles</td><td>PyCon Argentina 2016                      </td><td>Bahía Blanca, Buenos Aires</td><td>Nov 2016</td><td></tr>
-  <tr><td>Distribuyendo programas en Python mediante Snaps               </td><td>Meetup PyAr CABA                          </td><td>CABA, Argentina           </td><td>Apr 2017</td><td>   </td></tr>
-  <tr><td>Introducción a Python                                          </td><td>Nerdear.la 2017                           </td><td>CABA, Argentina           </td><td>Jun 2017</td><td>   </td></tr>
-  <tr><td>Introducción a Python                                          </td><td>Posgrado de Informática para Científicos  </td><td>La Plata, Buenos Aires    </td><td>Sep 2017</td><td>   </td></tr>
-  <tr><td>Introducción a Python                                          </td><td>ITBA                                      </td><td>CABA, Argentina           </td><td>Nov 2017</td><td>   </td></tr>
-  <tr><td>Taller de Introducción a Python                                </td><td>PyCon Argentina 2017                      </td><td>Córdoba, Córdoba          </td><td>Nov 2017</td><td>   </td></tr>
-  <tr><td>Emulando paralelismo de forma asincrónica                      </td><td>PyCon Argentina 2017                      </td><td>Córdoba, Córdoba          </td><td>Nov 2017</td><td>   </td></tr>
-  <tr><td>Cadenas, cadenas, cadenas                                      </td><td>Meetup Buenos Aires                       </td><td>CABA, Argentina           </td><td>Abr 2018</td><td>   </td></tr>
-  <tr><td>Como los logs me salvaron el alma                              </td><td>PyDay La Plata 2018                       </td><td>La Plata, Buenos Aires    </td><td>May 2018</td><td>   </td></tr>
-  <tr><td>Como debuguear en Python                                       </td><td>PyDay NEA 2018                            </td><td>Corrientes, Corrientes    </td><td>May 2018</td><td>   </td></tr>
-  <tr><td>Entendiendo Unicode                                            </td><td>Meetup Buenos Aires                       </td><td>CABA, Argentina           </td><td>May 2018</td><td>   </td></tr>
-  <tr><td>Introducción a Python                                          </td><td>Posgrado de Informática para Científicos  </td><td>La Plata, Buenos Aires    </td><td>Sep 2018</td><td>   </td></tr>
-  <tr><td>Programación Asincrónica en Python 3                           </td><td>PyDay Rosario 2018                        </td><td>Rosario, Santa Fé         </td><td>Oct 2018</td><td>   </td></tr>
-  <tr><td><i>Coordinador general</i>                                     </td><td>PyCon Argentina 2018                      </td><td>CABA, Argentina           </td><td>Nov 2018</td><td>   </td></tr>
-  <tr><td>Introducción a Python para Docentes                            </td><td>La Bioinformática va a la Escuela         </td><td>Quilmes, Buenos Aires     </td><td>May 2019</td><td>   </td></tr>
-  <tr><td>Introducción a Python                                          </td><td>Posgrado de Informática para Científicos  </td><td>La Plata, Buenos Aires    </td><td>Ago 2019</td><td>   </td></tr>
-  <tr><td>Bindings, mutable default arguments, y otros quilom... detalles</td><td>Meetup Rosario                            </td><td>Rosario, Santa Fé         </td><td>Sep 2019</td><td>   </td></tr>
-  <tr><td><i>Coordinador general</i>                                     </td><td>PyCon Argentina 2019                      </td><td>CABA, Argentina           </td><td>Dic 2019</td><td>   </td></tr>
-  <tr><td>El futuro de Python Argentina                                  </td><td>PyCon Argentina 2019                      </td><td>CABA, Argentina           </td><td>Dic 2019</td><td>   </td></tr>
-  <tr><td>Introducción a Python                                          </td><td>Posgrado de Informática para Científicos  </td><td>Virtual                   </td><td>Sep 2021</td><td>   </td></tr>
-  <tr><td>Procesamiento Paralelo de Vectores                             </td><td>Python en Ámbitos Científicos             </td><td>Virtual                   </td><td>Dic 2021</td><td><center><a href="https://youtu.be/ObXJwniwXFQ">si</a></center></td></tr>
-  <tr><td>Introducción a Python                                          </td><td>Posgrado de Informática para Científicos  </td><td>La Plata, Buenos Aires    </td><td>Sep 2022</td><td>   </td></tr>
-  <tr><td>Procesamiento Paralelo de Vectores                             </td><td>PyDay La Plata 2022                       </td><td>La Plata, Buenos Aires    </td><td>Sep 2022</td><td>   </td></tr>
-  <tr><td>Introducción a Python                                          </td><td>PyDay Catamarca 2022                      </td><td>Catamarca, Catamarca      </td><td>Nov 2022</td><td>   </td></tr>
-  <tr><td>Como debuguear en Python                                       </td><td>PyDay Catamarca 2022                      </td><td>Catamarca, Catamarca      </td><td>Nov 2022</td><td>   </td></tr>
-  <tr><td>Introducción a la Programación con Python                      </td><td>Posgrado de Informática para Científicos  </td><td>La Plata, Buenos Aires    </td><td>Ago 2023</td><td>   </td></tr>
-  <tr><td>Procesamiento Paralelo de Vectores                             </td><td>PyCon Bolivia 2023                        </td><td>La Paz, Bolivia           </td><td>Dec 2023</td><td>   </td></tr>
-  <tr><td>Como debuguear en Python                                       </td><td>PyDay La Plata 2023                       </td><td>La Plata, Buenos Aires    </td><td>Sep 2023</td><td>   </td></tr>
-  <tr><td>Introducción a la Programación con Python                      </td><td>Posgrado de Informática para Científicos  </td><td>La Plata, Buenos Aires    </td><td>Ago 2024</td><td>   </td></tr>
-  <tr><td>Gentil introducción al mundo Asincrónico                       </td><td>PyDay La Plata 2024                       </td><td>La Plata, Buenos Aires    </td><td>Sep 2024</td><td>   </td></tr>
-  <tr><td>Gentil introducción al mundo Asincrónico                       </td><td>PyDay Hurlingham 2024                     </td><td>Hurlingham, Buenos Aires  </td><td>Oct 2024</td><td>   </td></tr>
-  <tr><td>Gentil introducción al mundo Asincrónico                       </td><td>PyDay Catamarca 2024                      </td><td>Catamarca, Catamarca      </td><td>Nov 2024</td><td>   </td></tr>
-  <tr><td>Gentil introducción al mundo Asincrónico                       </td><td>PyCon España 2025                         </td><td>Sevilla, España           </td><td>Oct 2025</td><td>   </td></tr>
-</tbody></table>
-<br>
+    header {
+        margin-top: 20px;
+    }
 
-Info sobre cursos de Python? Ver <a href="http://www.taniquetil.com.ar/bdvfiles/cursoPython.html">acá</a>.<br>
+    main {
+        max-width: 1000px;
+        margin: 0 auto;
+        padding: 20px 15px;
+        background-color: white;
+        border: 1px solid #ddd;
+        border-radius: 6px;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    }
+
+    h1 {
+        text-align: center;
+        font-size: 1.8em;
+        margin-bottom: 10px;
+        color: #444;
+    }
+
+    p.intro {
+        margin-bottom: 25px;
+        line-height: 1.5em;
+        color: #444;
+    }
+
+    /* ---- Listado de charlas ---- */
+
+    .talk {
+        margin-bottom: 25px;
+    }
+
+    .talk-title {
+        font-weight: bold;
+        font-size: 1.5em;
+        margin-bottom: 4px;
+        color: #333;
+        border-left: 4px solid #888;
+        padding-left: 8px;
+    }
+
+    .talk-details {
+        margin-left: 18px;
+        line-height: 1.4em;
+    }
+
+    hr {
+        margin: 25px 0;
+        border: 0;
+        border-top: 1px solid #ccc;
+    }
+
+    footer a {
+        color: #666;
+        text-decoration: none;
+    }
+    footer a:hover {
+        text-decoration: underline;
+    }
+
+</style>
+</head>
+<body>
+
+<header>
+    <h1>Historial de charlas</h1>
+</header>
+
+<main>
+
+<p class="intro">
+Para una propuesta de tutorial para la conferencia PyCon, tuve que anotar todas las charlas y cursos que había dado alguna vez relacionados con Python.
+</p>
+<p class="intro">
+Entonces, ya que lo tengo lo pongo acá (y de paso no lo pierdo).
+</p>
+
+<!-- ---- INICIO DEL LISTADO ---- -->
 
 
-<br><br>
-<small>
-Copyright 2007-2023 - Facundo Batista<br>
-Twitter: @facundobatista - Mail: <a href="http://www.taniquetil.com.ar/bdvfiles/facumail.png">este :)</a><br>
-Esta página forma parte de mi <a href="https://blog.taniquetil.com.ar">blog</a>.<br>
-</small>
+    <section class="talk">
+        <div class="talk-title">Procesamiento Paralelo de Vectores (2025)</div>
+        <div class="talk-details">
+        
+            <b>PyDay La Plata 2025</b> (La Plata, Buenos Aires, Nov 2025),
+        
+            <b>Evento Punto Coop</b> (CABA, Argentina, Nov 2025),
+        
+            <b>PyDay Hurlingham 2025</b> (Hurlingham, Buenos Aires, Nov 2025)
+        
+        </div>
+    </section>
 
-</body></html>
+    <section class="talk">
+        <div class="talk-title">Gentil introducción al mundo Asincrónico</div>
+        <div class="talk-details">
+        
+            <b>PyDay La Plata 2024</b> (La Plata, Buenos Aires, Sep 2024),
+        
+            <b>PyDay Hurlingham 2024</b> (Hurlingham, Buenos Aires, Oct 2024),
+        
+            <b>PyDay Catamarca 2024</b> (Catamarca, Catamarca, Nov 2024),
+        
+            <b>PyCon España 2025</b> (Sevilla, España, Oct 2025)
+        
+        </div>
+    </section>
+
+    <section class="talk">
+        <div class="talk-title">Introducción a la Programación con Python</div>
+        <div class="talk-details">
+        
+            <b>Posgrado de Informática para Científicos</b> (La Plata, Buenos Aires, Ago 2023 y Ago 2024)
+        
+        </div>
+    </section>
+
+    <section class="talk">
+        <div class="talk-title">Procesamiento Paralelo de Vectores</div>
+        <div class="talk-details">
+        
+            <b>Python en Ámbitos Científicos</b> (Virtual, Dic 2021),
+        
+            <b>PyDay La Plata 2022</b> (La Plata, Buenos Aires, Sep 2022),
+        
+            <b>PyCon Bolivia 2023</b> (La Paz, Bolivia, Dic 2023)
+        
+        </div>
+    </section>
+
+    <section class="talk">
+        <div class="talk-title">Como debuguear en Python</div>
+        <div class="talk-details">
+        
+            <b>Meetup PyAr CABA</b> (CABA, Argentina, Sep 2014),
+        
+            <b>PyCon Argentina 2014</b> (Rafaela, Santa Fé, Nov 2014),
+        
+            <b>PyDay NEA 2018</b> (Corrientes, Corrientes, May 2018),
+        
+            <b>PyDay Catamarca 2022</b> (Catamarca, Catamarca, Nov 2022),
+        
+            <b>PyDay La Plata 2023</b> (La Plata, Buenos Aires, Sep 2023)
+        
+        </div>
+    </section>
+
+    <section class="talk">
+        <div class="talk-title">Introducción a Python</div>
+        <div class="talk-details">
+        
+            <b>Python Santa Fé 2006</b> (Santa Fé, Santa Fé, Jun 2006),
+        
+            <b>CaFeConf 2006</b> (CABA, Argentina, Nov 2006),
+        
+            <b>Python Santa Fé 2007</b> (Santa Fé, Santa Fé, Jun 2007),
+        
+            <b>7mas Jornadas Regionales de Software Libre</b> (Córdoba, Córdoba, Ago 2007),
+        
+            <b>CaFeConf 2007</b> (CABA, Argentina, Oct 2007),
+        
+            <b>Unlux 2007</b> (Luján, Buenos Aires, Nov 2007),
+        
+            <b>8vas Jornadas Regionales de Software Libre</b> (CABA, Argentina, Ago 2008),
+        
+            <b>Unlux 2008</b> (Luján, Buenos Aires, Nov 2008),
+        
+            <b>PyCon Argentina 2009</b> (CABA, Argentina, Sep 2009),
+        
+            <b>Posgrado de Informática para Científicos</b> (La Plata, Buenos Aires, Oct 2009, Sep 2010, Ago 2012, Sep 2013, Sep 2014, Sep 2015, Sep 2016, Sep 2017, Sep 2018, Ago 2019 y Sep 2022),
+        
+            <b>Charlas Abiertas de Python en La Tribu</b> (CABA, Argentina, Jul 2010),
+        
+            <b>PyCon Argentina 2014</b> (Rafaela, Santa Fé, Nov 2014),
+        
+            <b>PyDay Junín 2015</b> (Junín, Buenos Aires, Sep 2015),
+        
+            <b>Nerdear.la 2017</b> (CABA, Argentina, Jun 2017),
+        
+            <b>ITBA</b> (CABA, Argentina, Nov 2017),
+        
+            <b>Posgrado de Informática para Científicos</b> (Virtual, Sep 2021),
+        
+            <b>PyDay Catamarca 2022</b> (Catamarca, Catamarca, Nov 2022)
+        
+        </div>
+    </section>
+
+    <section class="talk">
+        <div class="talk-title"><i>Coordinador general</i></div>
+        <div class="talk-details">
+        
+            <b>PyCon Argentina 2009</b> (CABA, Argentina, Sep 2009),
+        
+            <b>PyCon Argentina 2018</b> (CABA, Argentina, Nov 2018),
+        
+            <b>PyCon Argentina 2019</b> (CABA, Argentina, Dic 2019)
+        
+        </div>
+    </section>
+
+    <section class="talk">
+        <div class="talk-title">El futuro de Python Argentina</div>
+        <div class="talk-details">
+        
+            <b>PyCon Argentina 2019</b> (CABA, Argentina, Dic 2019)
+        
+        </div>
+    </section>
+
+    <section class="talk">
+        <div class="talk-title">Bindings, mutable default arguments, y otros quilom... detalles</div>
+        <div class="talk-details">
+        
+            <b>PyCon Venezuela 2012</b> (Caracas, Venezuela, Nov 2012),
+        
+            <b>PyCon Argentina 2012</b> (Quilmes, Buenos Aires, Nov 2012),
+        
+            <b>PyCon Argentina 2013</b> (Rosario, Santa Fé, Oct 2013),
+        
+            <b>PyCon Argentina 2016</b> (Bahía Blanca, Buenos Aires, Nov 2016),
+        
+            <b>Meetup Rosario</b> (Rosario, Santa Fé, Sep 2019)
+        
+        </div>
+    </section>
+
+    <section class="talk">
+        <div class="talk-title">Introducción a Python para Docentes</div>
+        <div class="talk-details">
+        
+            <b>La Bioinformática va a la Escuela</b> (Quilmes, Buenos Aires, May 2019)
+        
+        </div>
+    </section>
+
+    <section class="talk">
+        <div class="talk-title">Programación Asincrónica en Python 3</div>
+        <div class="talk-details">
+        
+            <b>PyDay Junín 2015</b> (Junín, Buenos Aires, Sep 2015),
+        
+            <b>PyCon Argentina 2015</b> (Mendoza, Mendoza, Nov 2015),
+        
+            <b>PyDay Rosario 2018</b> (Rosario, Santa Fé, Oct 2018)
+        
+        </div>
+    </section>
+
+    <section class="talk">
+        <div class="talk-title">Entendiendo Unicode</div>
+        <div class="talk-details">
+        
+            <b>8vas Jornadas Regionales de Software Libre</b> (CABA, Argentina, Ago 2008),
+        
+            <b>Unlux 2008</b> (Luján, Buenos Aires, Nov 2008),
+        
+            <b>PyDay Buenos Aires</b> (CABA, Argentina, Sep 2010),
+        
+            <b>PyCon Argentina 2010</b> (Córdoba, Córdoba, Oct 2010),
+        
+            <b>6tas Jornadas de Software Libre de Junín</b> (Junín, Buenos Aires, Nov 2010),
+        
+            <b>PyDay Uruguay</b> (Montevideo, Uruguay, Ago 2011),
+        
+            <b>PyCon Argentina 2011</b> (Junín, Buenos Aires, Sep 2011),
+        
+            <b>PyCon Venezuela 2012</b> (Caracas, Venezuela, Nov 2012),
+        
+            <b>PyCon Argentina 2012</b> (Quilmes, Buenos Aires, Nov 2012),
+        
+            <b>Europython 2016</b> (Bilbao, España, Jul 2016),
+        
+            <b>Meetup Buenos Aires</b> (CABA, Argentina, May 2018)
+        
+        </div>
+    </section>
+
+    <section class="talk">
+        <div class="talk-title">Como los logs me salvaron el alma</div>
+        <div class="talk-details">
+        
+            <b>PyDay Córdoba 2012</b> (Córdoba, Córdoba, Sep 2012),
+        
+            <b>7mas Jornadas de Software Libre de Junín</b> (Junín, Buenos Aires, Sep 2012),
+        
+            <b>Unlux 2014</b> (Luján, Buenos Aires, Sep 2014),
+        
+            <b>PyCon Argentina 2014</b> (Rafaela, Santa Fé, Nov 2014),
+        
+            <b>PyDay La Plata 2018</b> (La Plata, Buenos Aires, May 2018)
+        
+        </div>
+    </section>
+
+    <section class="talk">
+        <div class="talk-title">Cadenas, cadenas, cadenas</div>
+        <div class="talk-details">
+        
+            <b>Meetup Buenos Aires</b> (CABA, Argentina, Abr 2018)
+        
+        </div>
+    </section>
+
+    <section class="talk">
+        <div class="talk-title">Emulando paralelismo de forma asincrónica</div>
+        <div class="talk-details">
+        
+            <b>PyDay Junín 2013</b> (Junín, Buenos Aires, Ago 2013),
+        
+            <b>PyCon Argentina 2017</b> (Córdoba, Córdoba, Nov 2017)
+        
+        </div>
+    </section>
+
+    <section class="talk">
+        <div class="talk-title">Taller de Introducción a Python</div>
+        <div class="talk-details">
+        
+            <b>PyCon Argentina 2017</b> (Córdoba, Córdoba, Nov 2017)
+        
+        </div>
+    </section>
+
+    <section class="talk">
+        <div class="talk-title">Distribuyendo programas en Python mediante Snaps</div>
+        <div class="talk-details">
+        
+            <b>Meetup PyAr CABA</b> (CABA, Argentina, Abr 2017)
+        
+        </div>
+    </section>
+
+    <section class="talk">
+        <div class="talk-title">Python más rápido que C</div>
+        <div class="talk-details">
+        
+            <b>CaFeConf 2007</b> (CABA, Argentina, Oct 2007),
+        
+            <b>Jornada ITBA</b> (CABA, Argentina, Nov 2007),
+        
+            <b>Unlux 2007</b> (Luján, Buenos Aires, Nov 2007),
+        
+            <b>PyCon Argentina 2010</b> (Córdoba, Córdoba, Oct 2010),
+        
+            <b>6tas Jornadas de Software Libre de Junín</b> (Junín, Buenos Aires, Nov 2010),
+        
+            <b>Campus Party Colombia 2011</b> (Bogotá, Colombia, Jul 2011),
+        
+            <b>PyCon Argentina 2011</b> (Junín, Buenos Aires, Sep 2011),
+        
+            <b>Jornada Python en Mérida</b> (Mérida, Venezuela, Oct 2012),
+        
+            <b>PyDay Rosario 2013</b> (Rosario, Santa Fé, Jun 2013),
+        
+            <b>PyDay Baradero 2016</b> (Baradero, Buenos Aires, Ago 2016)
+        
+        </div>
+    </section>
+
+    <section class="talk">
+        <div class="talk-title">Las perlas de Python 3</div>
+        <div class="talk-details">
+        
+            <b>PyCon Argentina 2013</b> (Rosario, Santa Fé, Oct 2013),
+        
+            <b>PyDay Baradero 2016</b> (Baradero, Buenos Aires, Ago 2016)
+        
+        </div>
+    </section>
+
+    <section class="talk">
+        <div class="talk-title">It's not magic: Descriptors exposed</div>
+        <div class="talk-details">
+        
+            <b>Europython 2016</b> (Bilbao, España, Jul 2016)
+        
+        </div>
+    </section>
+
+    <section class="talk">
+        <div class="talk-title">(con Joac) No es magia: Descriptores al desnudo</div>
+        <div class="talk-details">
+        
+            <b>PyCon Argentina 2015</b> (Mendoza, Mendoza, Nov 2015)
+        
+        </div>
+    </section>
+
+    <section class="talk">
+        <div class="talk-title">Python Argentina</div>
+        <div class="talk-details">
+        
+            <b>PyDay Rosario 2013</b> (Rosario, Santa Fé, Jun 2013)
+        
+        </div>
+    </section>
+
+    <section class="talk">
+        <div class="talk-title">Python 3000</div>
+        <div class="talk-details">
+        
+            <b>PyDay Buenos Aires</b> (CABA, Argentina, Sep 2010),
+        
+            <b>Charlas Abiertas de Python en La Tribu</b> (CABA, Argentina, Nov 2010),
+        
+            <b>PyDay Córdoba 2012</b> (Córdoba, Córdoba, Sep 2012)
+        
+        </div>
+    </section>
+
+    <section class="talk">
+        <div class="talk-title">Introducción a Python (bajas calorías)</div>
+        <div class="talk-details">
+        
+            <b>Congreso Innovation 2012</b> (Artigas, Uruguay, Sep 2012)
+        
+        </div>
+    </section>
+
+    <section class="talk">
+        <div class="talk-title">El futuro de Python en Ubuntu</div>
+        <div class="talk-details">
+        
+            <b>UbuConLA 2012</b> (CABA, Argentina, Jun 2012)
+        
+        </div>
+    </section>
+
+    <section class="talk">
+        <div class="talk-title">Comunidad, anarquía y subversión</div>
+        <div class="talk-details">
+        
+            <b>Keynote en PyCon Brasil 2010</b> (Curitiba, Brasil, Oct 2010),
+        
+            <b>PyDay Córdoba 2011</b> (Córdoba, Córdoba, Abr 2011),
+        
+            <b>Campus Party Colombia 2011</b> (Bogotá, Colombia, Jul 2011)
+        
+        </div>
+    </section>
+
+    <section class="talk">
+        <div class="talk-title">Introducción a la Programación</div>
+        <div class="talk-details">
+        
+            <b>Charlas Abiertas de Python en La Tribu</b> (CABA, Argentina, Jul 2010)
+        
+        </div>
+    </section>
+
+    <section class="talk">
+        <div class="talk-title">Python en el mundo real</div>
+        <div class="talk-details">
+        
+            <b>Linux Week 2010</b> (Lima, Perú, Mar 2010)
+        
+        </div>
+    </section>
+
+    <section class="talk">
+        <div class="talk-title">Understanding Unicode</div>
+        <div class="talk-details">
+        
+            <b>Canonical All Hands 2009</b> (Barcelona, España, May 2009)
+        
+        </div>
+    </section>
+
+    <section class="talk">
+        <div class="talk-title"><i>Sprints coordinator</i></div>
+        <div class="talk-details">
+        
+            <b>PyCon 2008</b> (Chicago, USA, Mar 2008)
+        
+        </div>
+    </section>
+
+    <section class="talk">
+        <div class="talk-title">Python - Demostraciones técnicas</div>
+        <div class="talk-details">
+        
+            <b>Python Santa Fé 2006</b> (Santa Fé, Santa Fé, Jun 2006)
+        
+        </div>
+    </section>
+
+    <section class="talk">
+        <div class="talk-title">Decimal for beginners</div>
+        <div class="talk-details">
+        
+            <b>EuroPython 2005</b> (Göteborg, Sweden, Jun 2005),
+        
+            <b>PyCon 2006</b> (Dallas, USA, Feb 2006)
+        
+        </div>
+    </section>
+
+    <section class="talk">
+        <div class="talk-title">Python viene con las baterías incluídas</div>
+        <div class="talk-details">
+        
+            <b>CaFeConf 2005</b> (CABA, Argentina, Oct 2005)
+        
+        </div>
+    </section>
+
+    <section class="talk">
+        <div class="talk-title">Money</div>
+        <div class="talk-details">
+        
+            <b>EuroPython 2005</b> (Göteborg, Sweden, Jun 2005)
+        
+        </div>
+    </section>
+
+    <section class="talk">
+        <div class="talk-title">Decimal</div>
+        <div class="talk-details">
+        
+            <b>PyCon 2005</b> (Washington, USA, Feb 2005)
+        
+        </div>
+    </section>
+
+
+<!-- ---- FIN DEL LISTADO ---- -->
+
+</main>
+
+<footer>
+    Copyright 2007–2025 -
+    <a href="https://facundo.taniquetil.com.ar">Facundo Batista</a>
+</footer>
+
+</body>
+</html>

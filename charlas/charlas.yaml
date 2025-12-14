@@ -1,0 +1,577 @@
+- title: Decimal
+  event: PyCon 2005
+  location: Washington, USA
+  date: Feb 2005
+
+- title: Decimal for beginners
+  event: EuroPython 2005
+  location: Göteborg, Sweden
+  date: Jun 2005
+
+- title: Money
+  event: EuroPython 2005
+  location: Göteborg, Sweden
+  date: Jun 2005
+
+- title: Python viene con las baterías incluídas
+  event: CaFeConf 2005
+  location: CABA, Argentina
+  date: Oct 2005
+
+- title: Decimal for beginners
+  event: PyCon 2006
+  location: Dallas, USA
+  date: Feb 2006
+
+- title: Introducción a Python
+  event: Python Santa Fé 2006
+  location: Santa Fé, Santa Fé
+  date: Jun 2006
+
+- title: Python - Demostraciones técnicas
+  event: Python Santa Fé 2006
+  location: Santa Fé, Santa Fé
+  date: Jun 2006
+
+- title: Introducción a Python
+  event: CaFeConf 2006
+  location: CABA, Argentina
+  date: Nov 2006
+
+- title: Introducción a Python
+  event: Python Santa Fé 2007
+  location: Santa Fé, Santa Fé
+  date: Jun 2007
+
+- title: Introducción a Python
+  event: 7mas Jornadas Regionales de Software Libre
+  location: Córdoba, Córdoba
+  date: Ago 2007
+
+- title: Introducción a Python
+  event: CaFeConf 2007
+  location: CABA, Argentina
+  date: Oct 2007
+
+- title: Python más rápido que C
+  event: CaFeConf 2007
+  location: CABA, Argentina
+  date: Oct 2007
+
+- title: Python más rápido que C
+  event: Jornada ITBA
+  location: CABA, Argentina
+  date: Nov 2007
+
+- title: Introducción a Python
+  event: Unlux 2007
+  location: Luján, Buenos Aires
+  date: Nov 2007
+
+- title: Python más rápido que C
+  event: Unlux 2007
+  location: Luján, Buenos Aires
+  date: Nov 2007
+
+- title: <i>Sprints coordinator</i>
+  event: PyCon 2008
+  location: Chicago, USA
+  date: Mar 2008
+
+- title: Introducción a Python
+  event: 8vas Jornadas Regionales de Software Libre
+  location: CABA, Argentina
+  date: Ago 2008
+
+- title: Entendiendo Unicode
+  event: 8vas Jornadas Regionales de Software Libre
+  location: CABA, Argentina
+  date: Ago 2008
+
+- title: Introducción a Python
+  event: Unlux 2008
+  location: Luján, Buenos Aires
+  date: Nov 2008
+
+- title: Entendiendo Unicode
+  event: Unlux 2008
+  location: Luján, Buenos Aires
+  date: Nov 2008
+
+- title: Understanding Unicode
+  event: Canonical All Hands 2009
+  location: Barcelona, España
+  date: May 2009
+
+- title: <i>Coordinador general</i>
+  event: PyCon Argentina 2009
+  location: CABA, Argentina
+  date: Sep 2009
+
+- title: Introducción a Python
+  event: PyCon Argentina 2009
+  location: CABA, Argentina
+  date: Sep 2009
+
+- title: Introducción a Python
+  event: Posgrado de Informática para Científicos
+  location: La Plata, Buenos Aires
+  date: Oct 2009
+
+- title: Python en el mundo real
+  event: Linux Week 2010
+  location: Lima, Perú
+  date: Mar 2010
+
+- title: Introducción a la Programación
+  event: Charlas Abiertas de Python en La Tribu
+  location: CABA, Argentina
+  date: Jul 2010
+
+- title: Introducción a Python
+  event: Charlas Abiertas de Python en La Tribu
+  location: CABA, Argentina
+  date: Jul 2010
+
+- title: Introducción a Python
+  event: Posgrado de Informática para Científicos
+  location: La Plata, Buenos Aires
+  date: Sep 2010
+
+- title: Entendiendo Unicode
+  event: PyDay Buenos Aires
+  location: CABA, Argentina
+  date: Sep 2010
+
+- title: Python 3000
+  event: PyDay Buenos Aires
+  location: CABA, Argentina
+  date: Sep 2010
+
+- title: Python más rápido que C
+  event: PyCon Argentina 2010
+  location: Córdoba, Córdoba
+  date: Oct 2010
+
+- title: Entendiendo Unicode
+  event: PyCon Argentina 2010
+  location: Córdoba, Córdoba
+  date: Oct 2010
+
+- title: Comunidad, anarquía y subversión
+  event: Keynote en PyCon Brasil 2010
+  location: Curitiba, Brasil
+  date: Oct 2010
+
+- title: Python más rápido que C
+  event: 6tas Jornadas de Software Libre de Junín
+  location: Junín, Buenos Aires
+  date: Nov 2010
+
+- title: Entendiendo Unicode
+  event: 6tas Jornadas de Software Libre de Junín
+  location: Junín, Buenos Aires
+  date: Nov 2010
+
+- title: Python 3000
+  event: Charlas Abiertas de Python en La Tribu
+  location: CABA, Argentina
+  date: Nov 2010
+
+- title: Comunidad, anarquía y subversión
+  event: PyDay Córdoba 2011
+  location: Córdoba, Córdoba
+  date: Abr 2011
+
+- title: Comunidad, anarquía y subversión
+  event: Campus Party Colombia 2011
+  location: Bogotá, Colombia
+  date: Jul 2011
+
+- title: Python más rápido que C
+  event: Campus Party Colombia 2011
+  location: Bogotá, Colombia
+  date: Jul 2011
+  videos:
+    - https://www.youtube.com/watch?v=cPVlYWxcu18
+
+- title: Entendiendo Unicode
+  event: PyDay Uruguay
+  location: Montevideo, Uruguay
+  date: Ago 2011
+
+- title: Python más rápido que C
+  event: PyCon Argentina 2011
+  location: Junín, Buenos Aires
+  date: Sep 2011
+
+- title: Entendiendo Unicode
+  event: PyCon Argentina 2011
+  location: Junín, Buenos Aires
+  date: Sep 2011
+
+- title: El futuro de Python en Ubuntu
+  event: UbuConLA 2012
+  location: CABA, Argentina
+  date: Jun 2012
+
+- title: Introducción a Python
+  event: Posgrado de Informática para Científicos
+  location: La Plata, Buenos Aires
+  date: Ago 2012
+
+- title: Python 3000
+  event: PyDay Córdoba 2012
+  location: Córdoba, Córdoba
+  date: Sep 2012
+
+- title: Como los logs me salvaron el alma
+  event: PyDay Córdoba 2012
+  location: Córdoba, Córdoba
+  date: Sep 2012
+
+- title: Introducción a Python (bajas calorías)
+  event: Congreso Innovation 2012
+  location: Artigas, Uruguay
+  date: Sep 2012
+
+- title: Como los logs me salvaron el alma
+  event: 7mas Jornadas de Software Libre de Junín
+  location: Junín, Buenos Aires
+  date: Sep 2012
+
+- title: Python más rápido que C
+  event: Jornada Python en Mérida
+  location: Mérida, Venezuela
+  date: Oct 2012
+
+- title: Bindings, mutable default arguments, y otros quilom... detalles
+  event: PyCon Venezuela 2012
+  location: Caracas, Venezuela
+  date: Nov 2012
+
+- title: Entendiendo Unicode
+  event: PyCon Venezuela 2012
+  location: Caracas, Venezuela
+  date: Nov 2012
+
+- title: Bindings, mutable default arguments, y otros quilom... detalles
+  event: PyCon Argentina 2012
+  location: Quilmes, Buenos Aires
+  date: Nov 2012
+  videos:
+    - https://www.youtube.com/watch?v=9HqQY81DzTE
+
+- title: Entendiendo Unicode
+  event: PyCon Argentina 2012
+  location: Quilmes, Buenos Aires
+  date: Nov 2012
+  videos:
+    - https://www.youtube.com/watch?v=pQJ0emlYv50
+
+- title: Python más rápido que C
+  event: PyDay Rosario 2013
+  location: Rosario, Santa Fé
+  date: Jun 2013
+
+- title: Python Argentina
+  event: PyDay Rosario 2013
+  location: Rosario, Santa Fé
+  date: Jun 2013
+
+- title: Emulando paralelismo de forma asincrónica
+  event: PyDay Junín 2013
+  location: Junín, Buenos Aires
+  date: Ago 2013
+  videos:
+    - https://www.youtube.com/watch?v=XRvxR4ux-54
+    - https://www.youtube.com/watch?v=luqZ65fKJ50
+
+- title: Introducción a Python
+  event: Posgrado de Informática para Científicos
+  location: La Plata, Buenos Aires
+  date: Sep 2013
+
+- title: Bindings, mutable default arguments, y otros quilom... detalles
+  event: PyCon Argentina 2013
+  location: Rosario, Santa Fé
+  date: Oct 2013
+
+- title: Las perlas de Python 3
+  event: PyCon Argentina 2013
+  location: Rosario, Santa Fé
+  date: Oct 2013
+  videos:
+    - https://www.youtube.com/watch?v=cVvRKthOvYs
+
+- title: Como los logs me salvaron el alma
+  event: Unlux 2014
+  location: Luján, Buenos Aires
+  date: Sep 2014
+
+- title: Como debuguear en Python
+  event: Meetup PyAr CABA
+  location: CABA, Argentina
+  date: Sep 2014
+
+- title: Introducción a Python
+  event: Posgrado de Informática para Científicos
+  location: La Plata, Buenos Aires
+  date: Sep 2014
+
+- title: Introducción a Python
+  event: PyCon Argentina 2014
+  location: Rafaela, Santa Fé
+  date: Nov 2014
+  videos:
+    - https://www.youtube.com/watch?v=VUti1RG6Jj8
+
+- title: Como los logs me salvaron el alma
+  event: PyCon Argentina 2014
+  location: Rafaela, Santa Fé
+  date: Nov 2014
+  videos:
+    - https://www.youtube.com/watch?v=wUXamWPhtpE
+
+- title: Como debuguear en Python
+  event: PyCon Argentina 2014
+  location: Rafaela, Santa Fé
+  date: Nov 2014
+  videos:
+    - https://www.youtube.com/watch?v=4q_-iWqJSfk
+
+- title: Introducción a Python
+  event: Posgrado de Informática para Científicos
+  location: La Plata, Buenos Aires
+  date: Sep 2015
+
+- title: Introducción a Python
+  event: PyDay Junín 2015
+  location: Junín, Buenos Aires
+  date: Sep 2015
+
+- title: Programación Asincrónica en Python 3
+  event: PyDay Junín 2015
+  location: Junín, Buenos Aires
+  date: Sep 2015
+
+- title: Programación Asincrónica en Python 3
+  event: PyCon Argentina 2015
+  location: Mendoza, Mendoza
+  date: Nov 2015
+
+- title: "(con Joac) No es magia: Descriptores al desnudo"
+  event: PyCon Argentina 2015
+  location: Mendoza, Mendoza
+  date: Nov 2015
+
+- title: Entendiendo Unicode
+  event: Europython 2016
+  location: Bilbao, España
+  date: Jul 2016
+  videos:
+    - https://www.youtube.com/watch?v=jAZ-NyAwpsg
+
+- title: "It's not magic: Descriptors exposed"
+  event: Europython 2016
+  location: Bilbao, España
+  date: Jul 2016
+  videos:
+    - https://www.youtube.com/watch?v=mnWdB99K-mA&t=21s
+
+- title: Las perlas de Python 3
+  event: PyDay Baradero 2016
+  location: Baradero, Buenos Aires
+  date: Ago 2016
+
+- title: Python más rápido que C
+  event: PyDay Baradero 2016
+  location: Baradero, Buenos Aires
+  date: Ago 2016
+
+- title: Introducción a Python
+  event: Posgrado de Informática para Científicos
+  location: La Plata, Buenos Aires
+  date: Sep 2016
+
+- title: Bindings, mutable default arguments, y otros quilom... detalles
+  event: PyCon Argentina 2016
+  location: Bahía Blanca, Buenos Aires
+  date: Nov 2016
+
+- title: Distribuyendo programas en Python mediante Snaps
+  event: Meetup PyAr CABA
+  location: CABA, Argentina
+  date: Abr 2017
+
+- title: Introducción a Python
+  event: Nerdear.la 2017
+  location: CABA, Argentina
+  date: Jun 2017
+
+- title: Introducción a Python
+  event: Posgrado de Informática para Científicos
+  location: La Plata, Buenos Aires
+  date: Sep 2017
+
+- title: Introducción a Python
+  event: ITBA
+  location: CABA, Argentina
+  date: Nov 2017
+
+- title: Taller de Introducción a Python
+  event: PyCon Argentina 2017
+  location: Córdoba, Córdoba
+  date: Nov 2017
+
+- title: Emulando paralelismo de forma asincrónica
+  event: PyCon Argentina 2017
+  location: Córdoba, Córdoba
+  date: Nov 2017
+
+- title: Cadenas, cadenas, cadenas
+  event: Meetup Buenos Aires
+  location: CABA, Argentina
+  date: Abr 2018
+
+- title: Como los logs me salvaron el alma
+  event: PyDay La Plata 2018
+  location: La Plata, Buenos Aires
+  date: May 2018
+
+- title: Como debuguear en Python
+  event: PyDay NEA 2018
+  location: Corrientes, Corrientes
+  date: May 2018
+
+- title: Entendiendo Unicode
+  event: Meetup Buenos Aires
+  location: CABA, Argentina
+  date: May 2018
+
+- title: Introducción a Python
+  event: Posgrado de Informática para Científicos
+  location: La Plata, Buenos Aires
+  date: Sep 2018
+
+- title: Programación Asincrónica en Python 3
+  event: PyDay Rosario 2018
+  location: Rosario, Santa Fé
+  date: Oct 2018
+
+- title: <i>Coordinador general</i>
+  event: PyCon Argentina 2018
+  location: CABA, Argentina
+  date: Nov 2018
+
+- title: Introducción a Python para Docentes
+  event: La Bioinformática va a la Escuela
+  location: Quilmes, Buenos Aires
+  date: May 2019
+
+- title: Introducción a Python
+  event: Posgrado de Informática para Científicos
+  location: La Plata, Buenos Aires
+  date: Ago 2019
+
+- title: Bindings, mutable default arguments, y otros quilom... detalles
+  event: Meetup Rosario
+  location: Rosario, Santa Fé
+  date: Sep 2019
+
+- title: <i>Coordinador general</i>
+  event: PyCon Argentina 2019
+  location: CABA, Argentina
+  date: Dic 2019
+
+- title: El futuro de Python Argentina
+  event: PyCon Argentina 2019
+  location: CABA, Argentina
+  date: Dic 2019
+
+- title: Introducción a Python
+  event: Posgrado de Informática para Científicos
+  location: Virtual
+  date: Sep 2021
+
+- title: Procesamiento Paralelo de Vectores
+  event: Python en Ámbitos Científicos
+  location: Virtual
+  date: Dic 2021
+  videos:
+    - https://youtu.be/ObXJwniwXFQ
+
+- title: Introducción a Python
+  event: Posgrado de Informática para Científicos
+  location: La Plata, Buenos Aires
+  date: Sep 2022
+
+- title: Procesamiento Paralelo de Vectores
+  event: PyDay La Plata 2022
+  location: La Plata, Buenos Aires
+  date: Sep 2022
+
+- title: Introducción a Python
+  event: PyDay Catamarca 2022
+  location: Catamarca, Catamarca
+  date: Nov 2022
+
+- title: Como debuguear en Python
+  event: PyDay Catamarca 2022
+  location: Catamarca, Catamarca
+  date: Nov 2022
+
+- title: Introducción a la Programación con Python
+  event: Posgrado de Informática para Científicos
+  location: La Plata, Buenos Aires
+  date: Ago 2023
+
+- title: Procesamiento Paralelo de Vectores
+  event: PyCon Bolivia 2023
+  location: La Paz, Bolivia
+  date: Dic 2023
+
+- title: Como debuguear en Python
+  event: PyDay La Plata 2023
+  location: La Plata, Buenos Aires
+  date: Sep 2023
+
+- title: Introducción a la Programación con Python
+  event: Posgrado de Informática para Científicos
+  location: La Plata, Buenos Aires
+  date: Ago 2024
+
+- title: Gentil introducción al mundo Asincrónico
+  event: PyDay La Plata 2024
+  location: La Plata, Buenos Aires
+  date: Sep 2024
+
+- title: Gentil introducción al mundo Asincrónico
+  event: PyDay Hurlingham 2024
+  location: Hurlingham, Buenos Aires
+  date: Oct 2024
+
+- title: Gentil introducción al mundo Asincrónico
+  event: PyDay Catamarca 2024
+  location: Catamarca, Catamarca
+  date: Nov 2024
+
+- title: Gentil introducción al mundo Asincrónico
+  event: PyCon España 2025
+  location: Sevilla, España
+  date: Oct 2025
+
+- title: Procesamiento Paralelo de Vectores (2025)
+  event: PyDay La Plata 2025
+  location: La Plata, Buenos Aires
+  date: Nov 2025
+
+- title: Procesamiento Paralelo de Vectores (2025)
+  event: Evento Punto Coop
+  location: CABA, Argentina
+  date: Nov 2025
+
+- title: Procesamiento Paralelo de Vectores (2025)
+  event: PyDay Hurlingham 2025
+  location: Hurlingham, Buenos Aires
+  date: Nov 2025

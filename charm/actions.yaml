@@ -1,6 +1,0 @@
-refresh:
-  description: Update the blog files
-  params:
-      foo:
-          type: string
-          description: bleh blah
