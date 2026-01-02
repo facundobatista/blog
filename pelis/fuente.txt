@@ -1,57 +1,97 @@
-- border: -0. No es la gran cosa, tiene algunos puntos interesantes pero le falta.
-https://www.themoviedb.org/movie/365177-borderlands
-- oficial comp: +0. Me gustó bastante. Geniales actuaciones.
-https://www.themoviedb.org/movie/668640-competencia-oficial
-- baile: +1. Muy buena! Divertida y dramática.
-https://www.themoviedb.org/movie/924054-empieza-el-baile
-- furios: -1. Nop.
-https://www.themoviedb.org/movie/786892-furiosa-a-mad-max-saga
-- henrus: +0. Divertida, romántica. Keanu Reeves resta, pero Vera Farmiga y James Caan salvan todo.
-https://www.themoviedb.org/movie/53172-henry-s-crime
-- uruguay: +0. Me gustó bastante. Me angustió bastante también.
-https://www.themoviedb.org/movie/881708-la-uruguaya
-- mi2: +0. Bastante bien para ser una de "misión imposible". Vamos a ver si cerramos alto la saga.
-https://www.themoviedb.org/movie/575264-mission-impossible-dead-reckoning-part-one
-- predest: +1. Espectacular película, una de las mejores de "viajes en el tiempo" de la historia.
-https://www.themoviedb.org/movie/206487-predestination
-- tetris: +0. Divertida. Supongo que no estará demasiado apegada a la verdad estricta, pero está bien.
-https://www.themoviedb.org/movie/726759-tetris
-- fallguy: -0. Sobredosis de acción.
-https://www.themoviedb.org/movie/746036-the-fall-guy
-- tomorr: -0. La idea está buena, se pierde un poco en el "bajo presupuesto".
-https://www.themoviedb.org/movie/1064912-the-tomorrow-job
+- blondi: +0. Hermosa peli sobre las relaciones entre madre e hijo
+https://www.themoviedb.org/movie/982502-blondi
+- challengers: +0. Me gustó más de lo que pensé que me iba a gustar. La parte del tenis está bien.
+https://www.themoviedb.org/movie/937287-challengers
+- acecha: +0. Está muy bien para ser una peli de terror, pero las pelis de terror al final nunca son la gran cosa.
+https://www.themoviedb.org/movie/744857-cuando-acecha-la-maldad
+- daddio: +1. Hermosa peli, minimalista, todo diálogo y expresiones. Amé.
+https://www.themoviedb.org/movie/843416-daddio
+- everywhere: +1. Una locura fantástica.
+https://www.themoviedb.org/movie/545611-everything-everywhere-all-at-once
+- killers: +0. La peli zafa, aunque es muy larga. Es interesante, pero al mismo tiempo le sobra un montón.
+https://www.themoviedb.org/movie/466420-killers-of-the-flower-moon
+- animal: +1. Muy buena peli, efectos fantásticos, pero la historia me encantó.
+https://www.themoviedb.org/movie/943134-le-regne-animal
+- do not expect: -1. Vi diez minutos, no aguanté más.
+https://www.themoviedb.org/movie/937085-nu-a-tepta-prea-mult-de-la-sfar-itul-lumii
+- watchers: +0. Está muy bien, pero se pone predecible.
+https://www.themoviedb.org/movie/1086747-the-watchers
 
-civil war
-https://www.themoviedb.org/movie/929590-civil-war
-Titane
-https://www.themoviedb.org/movie/630240-titane
-Caro Diario
-https://www.themoviedb.org/movie/25403-caro-diario
-Mission: Impossible - Dead Reckoning Part Two
-https://www.themoviedb.org/movie/575265-mission-impossible-the-final-reckoning
-levels
-https://www.themoviedb.org/movie/791042-levels
-The amateur
-https://www.themoviedb.org/movie/1087891-the-amateur
-The Gorge
-https://www.themoviedb.org/movie/950396-the-gorge
-F1 (brad pit)
-https://www.themoviedb.org/movie/911430-f1-the-movie
-love lies bleeding
-https://www.themoviedb.org/movie/948549-love-lies-bleeding
-the substance
-https://www.themoviedb.org/movie/933260-the-substance
-the accountant 2
-https://www.themoviedb.org/movie/870028-the-accountant
-the brutalist
-https://www.themoviedb.org/movie/549509-the-brutalist
-anora
-https://www.themoviedb.org/movie/1064213-anora
-the gift
-https://www.themoviedb.org/movie/328425-the-gift
-the assessment
-https://www.themoviedb.org/movie/1317088-the-assessment
-sinners
-https://www.themoviedb.org/movie/1233413-sinners
-tron ares
-https://www.themoviedb.org/movie/533533-tron-ares
+Project Hail Mary
+https://www.themoviedb.org/movie/687163-project-hail-mary
+Eden
+https://www.themoviedb.org/movie/1042834-eden
+the shrouds
+https://www.themoviedb.org/movie/970947-the-shrouds
+one battle after anothe
+https://www.themoviedb.org/movie/1054867-one-battle-after-another
+bugonia
+https://www.themoviedb.org/movie/701387-bugonia
+roofman
+https://www.themoviedb.org/movie/1242419-roofman
+watch the skies
+https://www.themoviedb.org/movie/916401-ufo-sweden
+Space Sweepers
+https://www.themoviedb.org/movie/581389
+The Infinite Man
+https://www.themoviedb.org/movie/253307-the-infinite-man
+Mr Blake at your servie
+https://www.themoviedb.org/movie/792614-completement-crame
+Dust Bunny
+https://www.themoviedb.org/movie/1043197-dust-bunny
+Wake Up Dead Man: A Knives Out Mystery
+https://www.themoviedb.org/movie/812583-wake-up-dead-man-a-knives-out-mystery
+Dead of winter
+https://www.themoviedb.org/movie/1235746-dead-of-winter
+The shadow's edge
+https://www.themoviedb.org/movie/1419406
+site
+https://www.themoviedb.org/movie/1188423-site
+Star people
+https://www.themoviedb.org/movie/1507020-star-people
+daniela forever
+https://www.themoviedb.org/movie/1084440-daniela-forever
+high life
+https://www.themoviedb.org/movie/376865-high-life
+watcher
+https://www.themoviedb.org/movie/807356-watcher
+Mercy
+https://www.themoviedb.org/movie/1236153-mercy
+La Chimera
+https://www.themoviedb.org/movie/837335-la-chimera
+good fortune
+https://www.themoviedb.org/movie/1114967-good-fortune
+Dog 51 / Chien 51
+https://www.themoviedb.org/movie/1266798-chien-51
+Midnight Special
+https://www.themoviedb.org/movie/245703-midnight-special
+Sorry to bother you
+https://www.themoviedb.org/movie/424781-sorry-to-bother-you
+Keeper
+https://www.themoviedb.org/movie/1288072-keeper
+Good luck, have fun, don't die.
+https://www.themoviedb.org/movie/1119449-good-luck-have-fun-don-t-die
+Disclosure day
+https://www.themoviedb.org/movie/1275779-disclosure-day
+The rip
+https://www.themoviedb.org/movie/1306368-the-rip
+crime 101
+https://www.themoviedb.org/movie/1171145-crime-101
+Death and the maiden
+https://www.themoviedb.org/movie/10531-death-and-the-maiden
+f1
+https://www.themoviedb.org/movie/911430-f1
+life chuck
+https://www.themoviedb.org/movie/842924-the-life-of-chuck
+Minecraft
+https://www.themoviedb.org/movie/950387-a-minecraft-movie
+Belén
+https://www.themoviedb.org/movie/1301844-belen
+Gatillero
+https://www.themoviedb.org/movie/1450529-gatillero
+Frankenstein
+https://www.themoviedb.org/movie/1062722-frankenstein
+
+
+
+
