@@ -20,7 +20,7 @@ Películas: ¡Vi un montón! Me sorprendió la cantidad, ahora haciendo el recue
 - `Army of the Dead <https://www.themoviedb.org/movie/503736-army-of-the-dead>`_: -0. Una de zombies sin mayor novedad, pero con ritmo.
 - `Avatar: The Way of Water <https://www.themoviedb.org/movie/76600-avatar-the-way-of-water>`_: +1. Muy buena, a la altura de la original.
 - `Bullet Train <https://www.themoviedb.org/movie/718930-bullet-train>`_: +1. Gran película, con acción, trama, y humor. Muy japonesa, y con todos los carácteres muy bien desarrollados.
-- `Crimes of the Future <https://www.themoviedb.org/movie/819876-crimes-of-the-future>`_: +0. Está bien, es Cronenberg siendo Cronenbger (FIXME: spell apellido), así que si te gusta el estilo y lo que hace, mirala. Si no creo que te vas a aburrir o ser un gran quecarajo.
+- `Crimes of the Future <https://www.themoviedb.org/movie/819876-crimes-of-the-future>`_: +0. Está bien, es Cronenberg siendo Cronenbger, así que si te gusta el estilo y lo que hace, mirala. Si no creo que te vas a aburrir o ser un gran quecarajo.
 - `Dune <https://www.themoviedb.org/movie/438631-dune>`_: +1. Inmensa, genial, muy buena. Muy obligada. Hayas leido el libro o no, hayas visto la otra versión o no.
 - `Dune: Part Two <https://www.themoviedb.org/movie/693134-dune-part-two>`_: +1. También espectacular, una segunda parte que continúa como corresponde.
 - `Finch <https://www.themoviedb.org/movie/522402-finch>`_: +0. Linda y emotiva peli de un tipo, su perro y su robot, y un viaje épico.

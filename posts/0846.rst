@@ -18,7 +18,7 @@ Durante los días que estuvimos en San Rafael y Potrerillos hicimos un montón d
 
 La primer mañana en San Rafael luego del viaje arrancamos para el `Laberinto de Borges <https://www.laberintodeborges.com/>`_, un actividad que estuvo bárbara, no sólo por el laberinto en sí sino que almorzamos ahí, habían juegos, etc. La tarde de ese día la pasamos en un parque infantil que hay en el centro de la ciudad y paseando por una feria artesanal.
 
-.. image:: /images/vacasmendoza/laberinto-malefelu.jpeg 
+.. image:: /images/vacasmendoza/laberinto-malefelu.jpeg
     :alt: Male y Felu en unos de los pasillos del laberinto
 
 .. image:: /images/vacasmendoza/laberinto-salida.jpeg
@@ -41,9 +41,9 @@ El martes también amaneció muy neblinoso, así que tuvimos que cancelar el pla
 .. image:: /images/vacasmendoza/lectura.jpeg
     :alt: Lectura, una de las actividades preferidas para el relax
 
-El miércoles nos levantamos bien temprano y fuimos a `Puquios <FIXME>`_. En realidad primero paramos en Uspallata, que queda en el camino, y alquilamos equipo para la nieve: algunas cosas para complementar abrigo que nosotros teníamos (botas, pantalones, guantes) y también culopatines para tirarnos por alguna lomita. 
+El miércoles nos levantamos bien temprano y fuimos a `Puquios <https://puquios.com.ar/>`_. En realidad primero paramos en Uspallata, que queda en el camino, y alquilamos equipo para la nieve: algunas cosas para complementar abrigo que nosotros teníamos (botas, pantalones, guantes) y también culopatines para tirarnos por alguna lomita.
 
-Llegamos a Puquios antes del mediodía, y luego de vestirnos/disfrazarnos empezamos a jugar con la nieve :). No sólo tirándonos en culopatín sino también tratando de hacer un muñeco, revolearnos un poco entre nosotros, etc... la cosa sana. 
+Llegamos a Puquios antes del mediodía, y luego de vestirnos/disfrazarnos empezamos a jugar con la nieve :). No sólo tirándonos en culopatín sino también tratando de hacer un muñeco, revolearnos un poco entre nosotros, etc... la cosa sana.
 
 .. image:: /images/vacasmendoza/familia-abrigada.jpeg
     :alt: Friazo no te tenemos miedo
