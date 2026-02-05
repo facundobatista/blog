@@ -2,13 +2,13 @@
 .. date: 2026-02-04 18:01:00
 .. tags: Qt, QML, KDE, programación
 
-Hace rato que tenía ganas de ponerme a jugar e armar un *plasmoide*.
+Hacía rato que tenía ganas de ponerme a jugar y armar un *plasmoide*.
 
 Un plasmoide es un un widget para el escritorio KDE Plasma. Una pequeña aplicación o componente visual (el término técnico es "coso") que se puede agregar al panel y aparece ahí con un gráfico custom (que podría ser un ícono, pero también algo más dinámico), y al final es eso: una aplicación con la que se puede interactuar para enriquecer la experiencia del escritorio.
 
 Hace un par de meses se me ocurrió la excusa. Me sucede mucho que estoy trabajando en la compu y de repente *algo* pasa con la red. La mejor forma de darme cuenta de la *salud de la conexión* es abrir una terminal y hacer ``ping 1.1.1.1``.
 
-Para no expertos, eso me dice si llego a una máquina que está en internet que seguro que está funcionando, y me dice cuanto tarda en llegar ahí. Como esa máquina es la que me traduce cualquier nombre de dominio (como ``google.com``) en su IP correspondiente (como ``142.251.129.46``), el tiempo y la calidad de la respuesta es característico de la calidad de mi conexión.
+Para no expertos, eso me dice si llego a una máquina que está en internet que seguro que está funcionando, y me dice cuanto tarda en llegar ahí. Como esa máquina justo es la que me traduce cualquier nombre de dominio (como ``google.com``) en su IP correspondiente (como ``142.251.129.46``), el tiempo y la calidad de la respuesta es característico de la calidad de mi conexión.
 
 En algún punto pensé que estaría bueno tener algo que esté midiendo periódicamente, y que ante la sospecha de un problema ya tenga la info a la vista. De ahí a que se me ocurra hacerlo como plasmoide, un sólo paso.
 
@@ -30,5 +30,5 @@ El proyecto en Github `es este <https://github.com/facundobatista/nethealth/>`_,
 
 ¿Se vienen muchos más plasmoides? No creo. Es más, estoy seguro que no.
 
-La experiencia de programar el coso este fue bastante mala. Yo soy fan de Qt, pero estos plasmoides están armados con una combinación de lenguaje interactivo (`QML <FIXME>`_) con algo de javascript para agregarle funcionalidad. Y miren lo que digo, el javascript es lo mejor del combo. QML es pésimo, mal documentado, con todos los ejemplos que nunca funcionan, no sabés qué importar, los errores no ayudan, todo a medio cocinar. No lo recomiendo. Es más, lo des-recomiendo, stay away.
+La experiencia de programar el coso este fue bastante mala. Yo soy fan de Qt, pero estos plasmoides están armados con una combinación de lenguaje interactivo (`QML <https://doc.qt.io/qt-6/qmlreference.html>`_) con algo de javascript para agregarle funcionalidad. Y miren lo que digo, el javascript es lo mejor del combo. QML es pésimo, mal documentado, con todos los ejemplos que nunca funcionan, no sabés qué importar, los errores no ayudan, todo a medio cocinar. No lo recomiendo. Es más, lo des-recomiendo, stay away.
 
