@@ -1,0 +1,37 @@
+.. title: Filosofía aquí y ahora
+.. date: 2026-04-30 17:35:00
+.. tags: filosofía, Feinmann, programa, Encuentro, sitio, cultura
+
+Durante la época de oro del Canal Encuentro `yo había hecho un programa para la compu <https://encuentro.taniquetil.com.ar/>`_ que me permitiera bajar el contenido de algunos programas de Encuentro para verlos luego. Fui viendo algunos, incluso me queda un remanente que estoy viendo de a poco. Pero hubo un programa que nunca terminaba de comenzar a ver. Era, justamente, *Filosofía aquí y ahora*, de `José Pablo Feinmann <https://es.wikipedia.org/wiki/Jos%C3%A9_Pablo_Feinmann>`_.
+
+No me voy a ponerles a hablar de José Pablo, fue filósofo, historiador, investigador, periodista, escritor, guionista, dramaturgo, profesor y conductor de radio y televisión, así que de algún lado seguro lo conocen.
+
+*Filosofía aquí y ahora* fue un programa de televisión donde él desplegó las propuestas de los grandes pensadores de todos los tiempos y presentó sus escritos esenciales para pensar la historia del mundo y de la actualidad desde un marco filosófico. Se emitió por Canal Encuentro entre 2008 y 2016.
+
+.. image:: /images/faya-escena.png
+    :alt: Escenario virtual del programa
+
+Me costaba arrancar porque había que sentarse y prestarle real atención, y nunca terminaba de encontrar ese hueco. Entonces se me ocurrió llevarlos a audio. Los convertí a mp3, los metí como si fuera un podcast más en el teléfono, y ahí lo empecé a escuchar mientras caminaba, manejaba, cortaba el pasto, etc.
+
+El contenido me encantó. Me sorprendió que José Pablo toca mil temas, los distintos puntos de vista sobre cada cosa, filosofía, historia, política. Los programas están re buenos, y en algún momento se me ocurrió que toda esa obra debería quedar mejor registrada. Poder acceder a las distintas partes a modo de *referencia*, facilitar el volver a explorar temas puntuales, etc.
+
+Tuve la idea de pasar todo esos audios a texto. Desgrabarlo a mano sería demasiado trabajo, pero ¿y si usaba la misma tecnología que ya había explorado para armar `el buscador de Decime Quien Sos Vos <https://dqsv.taniquetil.com.ar/>`_? Eso facilitaría mucho el trabajo, pero en realidad no deja los textos de la mejor manera. Sirve para buscar palabras, pero no para dejar "texto que se pueda leer como corresponde de corrido".
+
+Igual iba a ser un montón de trabajo. Me tentaba volver a escuchar los audios y corregir los textos para que sean legibles. Y no me molestaba hacerlo gratis, como una forma de que la obra no se pierda y que la gente tenga acceso libre a este conocimiento. Pero no lo haría sin obtener algún permiso, claro, porque sería un bajón tomarse tanto esfuerzo para después recibir una carta y tener que apagar todo.
+
+A través de mi amigo `Diego Igal <https://linktr.ee/papipoigal>`_ me puse en contacto con las hijas de José Pablo, Virginia y Verónica. Les expliqué toda mi idea, y no sólo me dieron permiso, sino que les encantó el proyecto.
+
+.. image:: /images/jpf.jpeg
+    :alt: José Pablo Feinmann
+
+Entonces me puse manos a la obra. Quería tener los textos completos, que se pueda buscar en ellos, y que la gente pueda aprovecharlos. Texto plano, sin mayores rebusques, más un buscador.
+
+Terminé montando `este sitio web <https://filosofiaaquiyahora.org/>`_ donde pueden ver el índice completo con los 110 episodios de las 8 temporadas, más algo de metadata que rescaté del contenido de Encuentro. Para aquellos episodios que ya tengo el texto (al momento de escribir esto, las primeras tres temporadas completas y más de la mitad de la cuarta) pueden hacer click en el título y acceder al contenido completo.
+
+Y le armé un buscador, claro. En la página principal, arriba de todo, pueden ver el campo para buscar. Prueben "San Martín", por ejemplo :).
+
+Todo es mejorable. Los textos están bastante bien y son súper aprovechables, pero no es "calidad escritor" obviamente, porque José Pablo en el programa no leía un texto, sino que hablaba directamente. Hice la transcripción respetando el material, sin ocultar que originalmente era un programa de televisión. Sólo realicé ediciones menores (como eliminar titubeos o repeticiones) sin alterar el significado en ningún caso.
+
+El sitio en sí lo hice yo, que no me gusta hacer sitios web :). Pero es simple, funcional, y no taaan feo. Los colores me quedaron muy bien (recuerden, soy daltónico).
+
+Bueno, `¡que lo disfruten! <https://filosofiaaquiyahora.org/>`_ Y compártanlo, así más y más gente puede aprovechar este contenido.
