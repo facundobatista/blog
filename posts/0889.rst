@@ -1,0 +1,65 @@
+.. title: Paseo por Perú
+.. date: 2026-08-10 22:11:00
+.. tags: Perú, viaje, vacaciones, incas, caminata
+
+Con la familia aprovechamos las vacaciones de invierno e hicimos un paseo por Perú. No es la primera vez que yo visitaba el país, pero `en la otra oportunidad <https://blog.taniquetil.com.ar/posts/0454/>`_ sólo había estado en Lima. Esta vez la base del viaje fue `Cusco <https://es.wikipedia.org/wiki/Cusco>`_.
+
+A Cusco llegamos, en un vuelo vía Santiago de Chile, y ahí nos quedamos la primera noche. Luego hicimos dos noches en `Ollantaytambo <https://es.wikipedia.org/wiki/Ollantaytambo>`_, y volvimos a Cusco para el resto de las vacaciones, con excepción de la noche en `Aguas Calientes <https://es.wikipedia.org/wiki/Aguas_Calientes_(Per%C3%BA)>`_ para la visita a `Machu Picchu <https://es.wikipedia.org/wiki/Machu_Picchu>`_
+
+.. image:: /images/peru26/salinera.jpeg
+    :alt: La salinera de Maras
+
+.. image:: /images/peru26/moray.jpeg
+    :alt: Centro de investigación agrícola incaico Moray
+
+El primer día después de llegar hicimos un gran paseo por distintas zonas. Empezamos por Valle Sagrado, pasamos por Pisac, la salinera de Maras, Moray, y terminamos en el Templo del Sol de Ollantaytambo, ciudad donde nos quedamos dos noches.
+
+Al otro día fuimos hasta Chinchero, y luego de visitar su conjunto arqueológico bien temprano, empezamos una caminata que duró hasta la tarde, como 12km, pasando por varios miradores, y especialmente por las cataratas de Poc Poc.
+
+Esa caminata fue larga, pero casi siempre descendiendo. La que se nos complicó realmente fue la subida hasta la `Montaña de Siete Colores <https://es.wikipedia.org/wiki/Vinicunca>`_, pero más que nada por la altura (subimos hasta pasados los 5000 m.s.n.m.). Moni a mitad de camino tuvo que fallbackear a subir en caballo, y Male llegó a duras penas. Felu subió bien pero con dolor de cabeza. A mí me empezó a molestar la cabeza en la bajada.
+
+.. image:: /images/peru26/papas.jpeg
+    :alt: Papas, muchos tipos de papas
+
+.. image:: /images/peru26/colores.jpeg
+    :alt: Con Felu en el pico (una subidita extra) con la Montaña de Colores en el fondo
+
+Un par de días después subimos hasta la `Laguna de Humantay <https://en.wikipedia.org/wiki/Humantay>`_. En esta ocasión Moni y Male optaron por subir a caballo desde el comienzo, entonces Felu y yo pudimos mantener un ritmo más movido y constante. Pero la altura se notaba, y paramos varias veces por falta de aire.
+
+Esas caminatas nos prepararon para la más larga, que era la llegada a Machu Picchu. Hicimos lo que llaman el "camino de un día": fuimos hasta Ollantaytambo, de ahí nos tomamos un tren, y nos bajamos en un punto intermedio, desde donde tuvimos una subida bastante picante durante alrededor de 3 horas, almorzamos, y luego continuamos un par de horas más hasta que llegamos a la Puerta del Sol. Luego bajamos hasta Aguas Calientes, donde pasamos la noche, y al otro día hicimos el Circuito 2 dentro de Machu Picchu.
+
+Todo maravilloso.
+
+.. image:: /images/peru26/humantay.jpeg
+    :alt: La laguna de Humantay, y el glaciar que le provee de agua
+
+.. image:: /images/peru26/machupicchu.jpeg
+    :alt: La vista de Machu Picchu desde la Puerta del Sol
+
+En todos los paseos, caminatas y visitas tuvimos al mismo guía: Ronal, de `Perú by Locals <https://www.perubylocals.com/>`_. La verdad, fue un lujo. No sólo nos fue contando sobre la historia de los incas y Perú, sino mucho sobre flora, fauna, la gente local. Y charlamos sobre política, organización social, las problemáticas que tienen sus comunidades, etc.
+
+No sólo ahí tuvimos suerte en el viaje, sino en otras tres instancias muy puntuales en las que zafamos de ojete :). La primera fue ni bien arrancamos: ¡nos olvidamos de llevar la Libreta de Familia! Cuando estábamos en Ezeiza, casi al final de la cola de migraciones, me di cuenta del error. El DNI de Male dice que Moni y yo somos sus mapadres, pero el de Felu no (porque tenía más de 16 cuando lo hizo, parece). El tipo de migraciones nos dijo que no podíamos viajar, pero que iba a averiguar con su supervisor. Yo pensé que era sólo una excusa para afirmarse en el "no", pero volvió diez minutos después y dijo que el supervisor había chequeado en el sistema (¿RENAPER?) y que nos habilitaba a viajar. Fiú.
+
+El segundo fue que Felu perdió el teléfono a la vuelta de la Montaña de Siete Colores. Creíamos que no se lo había olvidado en el restaurante donde nos llevaron a almorzar como parte del paseo, pero luego no lo tenía. Me contacté con el restaurante y con la organización del viaje y me dijeron que no lo habían visto. Pero como a las cuatro horas me dijo que el chofer revisó bien la camioneta luego de otro viaje y que lo encontró, metido entre un asiento y un costado de metal. Y encima nos lo acercó hasta Cusco a la noche, un lujo.
+
+Y el tercer caso fue cuando estábamos en el control de la entrada a la caminata que nos llevaba a Machu Picchu, en Choquesuysuy. Nos piden pasaportes, y les doy los DNIs de les cuatro (que es con lo que viajamos, ya que Mercosur). Pero nos dicen que las entradas/permisos para el parque están armados con los pasaportes, que necesitamos los pasaportes o no podemos entrar, :/. Por suerte alcanzaba con tener imágenes de los mismos, y yo tengo fotos de todos los documentos en mi teléfono, conseguí un wifi, y todo resuelto!
+
+.. image:: /images/peru26/pocpoc.jpeg
+    :alt: Cascada de Poc-Poc
+
+.. image:: /images/peru26/encastre.jpeg
+    :alt: Arquitectura Inca (un pueblo inca-nsable)
+
+Corriéndonos un poco de lo bueno, o bastante de lo bueno, hay algo para destacar de Perú (al menos de Cusco y de otras ciudades por las que pasamos) de forma negativa, y es el tránsito y la forma de conducir que tienen. Las calles son finitas, y hay mucho auto grande (taxis, *vans*, y camionetitas y camionetotas de transporte de turismo) que van a todo lo que da por esas callecitas. Doblan a lo bruto, te pasan rozando casi, y con pocos centímetros entre el espejito de costado y tu humanidad, igual te esquivan a 40 km/h. Tocan bocina *todo el tiempo*, y claro, hay tanta bocina que todos ignoran las bocinas, entonces tocan más y más bocina. Bastante estresante el asunto.
+
+Lo otro que nos llamó la atención es que no están acostumbrados tanto a la refrigeración. Por un lado para las bebidas: era normal que quisieras comprar agua o gaseosa y estuviese "al tiempo" (que es cómo le dicen a "temperatura ambiente"), sino incluso la cerveza. He visto almacenes con heladeras y la bebida adentro... pero las heladeras apagadas, y todo a temperatura ambiente.
+
+Pero eso es lo de menos, lo que nos sorprendió mucho más es la falta de frío en el expendio de carnes y derivados. Pasillos y pasillos con carnes, pollos, vísceras, todo a temperatura ambiente (y no precisamente fresco), con un olor bastante desagradable. Un guia de un paseo que hicimos por Cusco nos dijo que ellos estaban acostumbrados, pero que como turistas no compremos y comamos de esa carne, que nos iba a caer mal. No sé, me pareció un poco fuera de época.
+
+.. image:: /images/peru26/plazacusco.jpeg
+    :alt: Plaza Mayor de Cusco
+
+En definitiva, el viaje estuvo buenísimo. Paseamos un montón, conocimos mucho sobre la cultura local (actual y previa), comimos rico, y en general disfrutamos :)
+
+.. image:: /images/peru26/tresventanas.jpeg
+    :alt: Templo Tres Ventanas
