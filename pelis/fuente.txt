@@ -1,96 +1,112 @@
-- blondi: +0. Hermosa peli sobre las relaciones entre madre e hijo
-https://www.themoviedb.org/movie/982502-blondi
-- challengers: +0. Me gustó más de lo que pensé que me iba a gustar. La parte del tenis está bien.
-https://www.themoviedb.org/movie/937287-challengers
-- acecha: +0. Está muy bien para ser una peli de terror, pero las pelis de terror al final nunca son la gran cosa.
-https://www.themoviedb.org/movie/744857-cuando-acecha-la-maldad
-- daddio: +1. Hermosa peli, minimalista, todo diálogo y expresiones. Amé.
-https://www.themoviedb.org/movie/843416-daddio
-- everywhere: +1. Una locura fantástica.
-https://www.themoviedb.org/movie/545611-everything-everywhere-all-at-once
-- killers: +0. La peli zafa, aunque es muy larga. Es interesante, pero al mismo tiempo le sobra un montón.
-https://www.themoviedb.org/movie/466420-killers-of-the-flower-moon
-- animal: +1. Muy buena peli, efectos fantásticos, pero la historia me encantó.
-https://www.themoviedb.org/movie/943134-le-regne-animal
-- do not expect: -1. Vi diez minutos, no aguanté más.
-https://www.themoviedb.org/movie/937085-nu-a-tepta-prea-mult-de-la-sfar-itul-lumii
-- watchers: +0. Está muy bien, pero se pone predecible.
-https://www.themoviedb.org/movie/1086747-the-watchers
-
-Project Hail Mary
-https://www.themoviedb.org/movie/687163-project-hail-mary
-Eden
-https://www.themoviedb.org/movie/1042834-eden
-the shrouds
-https://www.themoviedb.org/movie/970947-the-shrouds
-one battle after anothe
-https://www.themoviedb.org/movie/1054867-one-battle-after-another
-bugonia
-https://www.themoviedb.org/movie/701387-bugonia
-roofman
-https://www.themoviedb.org/movie/1242419-roofman
-watch the skies
-https://www.themoviedb.org/movie/916401-ufo-sweden
-Space Sweepers
-https://www.themoviedb.org/movie/581389
-The Infinite Man
-https://www.themoviedb.org/movie/253307-the-infinite-man
-Mr Blake at your servie
-https://www.themoviedb.org/movie/792614-completement-crame
-Dust Bunny
-https://www.themoviedb.org/movie/1043197-dust-bunny
-Wake Up Dead Man: A Knives Out Mystery
-https://www.themoviedb.org/movie/812583-wake-up-dead-man-a-knives-out-mystery
-Dead of winter
-https://www.themoviedb.org/movie/1235746-dead-of-winter
-The shadow's edge
-https://www.themoviedb.org/movie/1419406
-site
-https://www.themoviedb.org/movie/1188423-site
-Star people
-https://www.themoviedb.org/movie/1507020-star-people
-daniela forever
-https://www.themoviedb.org/movie/1084440-daniela-forever
-high life
-https://www.themoviedb.org/movie/376865-high-life
-watcher
-https://www.themoviedb.org/movie/807356-watcher
-Mercy
-https://www.themoviedb.org/movie/1236153-mercy
-La Chimera
-https://www.themoviedb.org/movie/837335-la-chimera
-good fortune
-https://www.themoviedb.org/movie/1114967-good-fortune
-Dog 51 / Chien 51
-https://www.themoviedb.org/movie/1266798-chien-51
-Midnight Special
-https://www.themoviedb.org/movie/245703-midnight-special
-Sorry to bother you
-https://www.themoviedb.org/movie/424781-sorry-to-bother-you
-Keeper
-https://www.themoviedb.org/movie/1288072-keeper
-Good luck, have fun, don't die.
-https://www.themoviedb.org/movie/1119449-good-luck-have-fun-don-t-die
-Disclosure day
-https://www.themoviedb.org/movie/1275779-disclosure-day
-The rip
-https://www.themoviedb.org/movie/1306368-the-rip
-crime 101
-https://www.themoviedb.org/movie/1171145-crime-101
-Death and the maiden
-https://www.themoviedb.org/movie/10531-death-and-the-maiden
-f1
+- wolfs: +0. Un poco trillada el setup, pero muy divertida, una peli de acción muy piola
+https://www.themoviedb.org/movie/877817-wolfs
+- red one: +0. Está bien, principalmente por lo original de la historia y los actores, pero bleh.
+https://www.themoviedb.org/movie/845781-red-one
+- the instigatorS: +0. Movida, divertida, una buena peli de acción.
+https://www.themoviedb.org/movie/1059064-the-instigators
+- nosferatu: -0. La historia aporta un poco, pero la peli en sí es mala, el terror efectista atrasa 40 años, lo único que vale la pena es la actuación retorcida de Lily-Rose Depp.
+https://www.themoviedb.org/movie/426063-nosferatu
+- the hipnosis: -0. Me gusta el planteo inicial, en algún punto se pone rara y no va a ningún lado interesante.
+https://www.themoviedb.org/movie/1005972-hypnosen
+- Megalopolos: -1. No, gracias. No me la banqué, no la soporté.
+https://www.themoviedb.org/movie/592831-megalopolis
+- caro diario: -0. No me terminé de enganchar :(
+https://www.themoviedb.org/movie/25403-caro-diario
+- Civil War: +0. No sabía/recordaba que era una película sobre periodismo fotográfico. Está bien.
+https://www.themoviedb.org/movie/929590-civil-war
+- f1 the movie: +1. Me gustó montón, está bien filmada, te lleva y divierte. Solo para fans de los autitos, claro.
 https://www.themoviedb.org/movie/911430-f1
-life chuck
-https://www.themoviedb.org/movie/842924-the-life-of-chuck
-Minecraft
-https://www.themoviedb.org/movie/950387-a-minecraft-movie
-Belén
-https://www.themoviedb.org/movie/1301844-belen
-Gatillero
-https://www.themoviedb.org/movie/1450529-gatillero
-Frankenstein
-https://www.themoviedb.org/movie/1062722-frankenstein
+- levels: +0. Zafa, cumple con lo que promete y no te aburrís. Hay algo de nuevo en mostrar diferente un concepto viejo.
+https://www.themoviedb.org/movie/791042-levels
+- love, lies, bleeding: +1. Está muy bien. Kristen Stewart impecable, como siempre. La historia muy buena, con un par de WTFs inmensos pero es todo arte.
+https://www.themoviedb.org/movie/948549-love-lies-bleeding
+- miss impos: -0. Entrega todo lo que promete, pero lo que entrega ya lo entregó hasta el hartazgo antes. No hay más.
+https://www.themoviedb.org/movie/575265-mission-impossible-the-final-reckoning
+- sinners: +0. No es la película que pensé que era, pero estuvo bastante bien. Puntos extras por la música, impecable.
+https://www.themoviedb.org/movie/1233413-sinners
+- tron ares: -0. Un montón de chamuyos. La primera parte es muy aburrida. "Ay, programas que pelean entre sí", y ver tipitos haciendo coreografías. Después repunta un poco, como para sacarla del -1, pero no más.
+https://www.themoviedb.org/movie/533533-tron-ares
+- the accountant 2: -0. Todo lo que podía dar se dió en la 1.
+https://www.themoviedb.org/movie/870028-the-accountant
+- the amateur: -0. La acción está bien, pero hace agua por todos lados, es más verosímil la primera de los minions
+https://www.themoviedb.org/movie/1087891-the-amateur
+- the gift: -0. Pensé que era otra película, esta ni fú ni fá.
+https://www.themoviedb.org/movie/328425-the-gift
+- the gorge: +0. Está bien, un poco de exceso de romanticismo barato, pero no llega a opacarla. Funciona.
+https://www.themoviedb.org/movie/950396-the-gorge
+- Dreamscenario: -0. La premisa está bien, pero la peli está mal llevada. Y qué poco me banco a Cage.
+https://www.themoviedb.org/movie/823482-dream-scenario
+- project hail mary: +1. La historia está muy buena (podría ser apenas menos lenta en un par de situaciones, pero está). Y hay los glitches de audio en el espacio que a esta altura son licencias poéticas (la única que cumple es ``2001: A Space Odyssey``). La fotografía y la música, maravillosas.
+https://www.themoviedb.org/movie/687163-project-hail-mary
+- substance: -0. Banco la premisa, pero al final se pone tan bizarramente exagerada que pierde sentido.
+https://www.themoviedb.org/movie/933260-the-substance
+- ballerina: +0. John Wick en todo su esplendor, pero nada más.
+https://www.themoviedb.org/movie/541671-from-the-world-of-john-wick-ballerina
+
+Babygirl (2024)
+https://www.themoviedb.org/movie/1097549-babygirl
+The astronaut
+https://www.themoviedb.org/movie/1086260-the-astronaut
+Chaos walking
+https://www.themoviedb.org/movie/412656-chaos-walking
+The Drama
+https://www.themoviedb.org/movie/1325734-the-drama
+Micmacs
+https://www.themoviedb.org/movie/27936-micmacs-a-tire-larigot
+Un futuro brillante
+https://www.themoviedb.org/movie/1397733-un-futuro-brillante
+Nuestra tierra
+https://www.themoviedb.org/movie/661603-nuestra-tierra
+Delicatessen
+https://www.themoviedb.org/movie/892-delicatessen
+La ciudad de los niños perdidos
+https://www.themoviedb.org/movie/902-la-cite-des-enfants-perdus
+long dimanche
+https://www.themoviedb.org/movie/2841-un-long-dimanche-de-fiancailles
+Amelie
+https://www.themoviedb.org/movie/194-le-fabuleux-destin-d-amelie-poulain
+the ugly stepsister
+https://www.themoviedb.org/movie/1284120-den-stygge-stesosteren
+Magnolia
+https://www.themoviedb.org/movie/334-magnolia
+La Ciénaga
+https://www.themoviedb.org/movie/58429-la-cienaga
+Honey Don't!
+https://www.themoviedb.org/movie/1149504-honey-don-t
+The room next door
+https://www.themoviedb.org/movie/1088514-la-habitacion-de-al-lado
+The Phoenician scheme
+https://www.themoviedb.org/movie/1137350-the-phoenician-scheme
+o agente
+https://www.themoviedb.org/movie/1220564-o-agente-secreto
+backrooms
+https://www.themoviedb.org/movie/1083381-backrooms
+exit 8
+https://www.themoviedb.org/movie/1408208
+mars express
+https://www.themoviedb.org/movie/586810-mars-express
+vesper
+https://www.themoviedb.org/movie/976720-vesper
+the end of oak street
+https://www.themoviedb.org/movie/1101383-the-end-of-oak-street
+the invite
+https://www.themoviedb.org/movie/950028-the-invite
+the debut
+https://www.themoviedb.org/movie/1391239-the-debut
+late fame
+https://www.themoviedb.org/movie/1285895-late-fame
+the odyssey
+https://www.themoviedb.org/movie/1368337-the-odyssey
+la virgen de la tosquera
+https://www.themoviedb.org/movie/862739-la-virgen-de-la-tosquera
+hot spot
+https://www.themoviedb.org/movie/813418-hot-spot
+coyote vs acme
+https://www.themoviedb.org/movie/1204680-coyote-vs-acme
+wicker
+https://www.themoviedb.org/movie/1195803-wicker
+heman
+https://www.themoviedb.org/movie/454639-masters-of-the-universe
 
 
 
