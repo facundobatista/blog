@@ -1,0 +1,25 @@
+.. title: ¿Está en riesgo la soberania de CPython?
+.. date: 2026-11-10 14:08:00
+.. tags: CPython, Python, IA, community
+
+A ver, les cuento una historia...
+
+- Una empresa desarrolla un software en las sombras y lo anuncia públicamente. Este software es un reemplazo directo de otras herramientas comunes y estándares, mantenidas por la comunidad, que existían desde hace años.
+
+- El software de la empresa es N veces más rápido que el de la comunidad y se comporta un poco distinto en casos particulares que la mayoría de la gente no nota.
+
+- Gracias a su velocidad, es adoptado por la mayor parte de la comunidad en todo el mundo, lo que enciende el debate sobre que es un software desarrollado por una empresa que ni la PSF ni la comunidad controlan. Sin embargo: *"es open-source y podemos hacerle fork si esa empresa deja de gustarnos"*.
+
+- Release tras release, la empresa va generando confianza entre cientos de colaboradores de la comunidad, y la adopción sigue creciendo.
+
+- Unos años después de haber generado esa confianza en los miembros de la comunidad, la misma empresa lanza un software desarrollado 100% con IA, usando los últimos modelos frontera, quemando una cantidad desconocida de tokens, y hace un gran anuncio público. Este software es un compilador de bytecode de CPython *más rápido* y también es open-source. El código es tan complejo que ningún ser humano puede entenderlo.
+
+¿Adoptará la comunidad este compilador de bytecode de CPython *más rápido*? ¿De quién es este software? ¿Quién entiende este software? **¿Quiénes son los que tienen acceso a esos últimos modelos frontera, con millones de tokens para quemar y así arreglar un bug de ese software?**
+
+La idea de *"si la empresa se vuelve malvada, le hacemos fork"* ya no funciona. Puede que la comunidad no tenga acceso a esos modelos frontera capaces de entender el código que generó la empresa, o que usarlos para seguir manteniendo el proyecto sea prohibitivamente caro.
+
+Una empresa de IA que crea los modelos frontera, con acceso ilimitado a tokens para quemar, y que decide *quién* puede acceder a *qué* modelos, pone en riesgo la soberanía de CPython.
+
+Contexto: https://x.com/charliermarsh/status/2119900423066669175
+
+(texto armando en conjunto con `Manuel Kaufmann <https://elblogdehumitos.com>`_.

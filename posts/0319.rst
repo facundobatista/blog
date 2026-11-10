@@ -1,6 +1,6 @@
 .. title: Python bug day
 .. date: 2008-01-08 12:48:31
-.. tags: Python, bug, cpython
+.. tags: Python, bug, CPython
 
 El próximo 19 de Enero, sábado, se realizará un Python Bug Day.
 
